@@ -8,6 +8,14 @@ A comprehensive, searchable archive of YouTube channel videos with transcripts, 
 
 The GitHub Pages site provides a markdown viewer that renders any file from this repo with clickable navigation.
 
+## Archived Channels
+
+| Channel | Handle | Videos | Total Views | Focus |
+|---------|--------|--------|-------------|-------|
+| [MKBHD](mkbhd/index.md) | @mkbhd | 30 | 149M+ | Tech reviews, smartphones, gadgets |
+| [The Iron Snail](the-iron-snail/index.md) | @TheIronSnail | 30 | 13M+ | Fashion, clothing, heritage brands |
+| [Turing Post](turing-post/index.md) | @RealTuringPost | 30 | 88K | AI/ML deep dives, industry interviews |
+
 ## What's Included
 
 Each archived channel contains:
@@ -17,6 +25,7 @@ Each archived channel contains:
 - **Full transcripts** - Complete transcripts organized into logical paragraphs with clickable timestamps
 - **Mentions** - Companies, products, technologies, and people referenced
 - **Notable quotes** - Surprising or memorable statements with timestamps
+- **Cross-referenced index** - Topics, tags, and categories for easy discovery
 
 ## Directory Structure
 
@@ -27,12 +36,6 @@ Each archived channel contains:
     ├── {video_id}.md
     └── ...
 ```
-
-## Archived Channels
-
-| Channel | Videos | Description |
-|---------|--------|-------------|
-| *Coming soon* | - | - |
 
 ## Usage
 
