@@ -41,13 +41,13 @@ The host's thesis: *"The old and the new AI not fighting but failing to translat
 ## Notable Quotes
 
 > "Intelligence is the computational part of the ability to achieve goals."
-> — John McCarthy, quoted by Sutton
+> — John McCarthy, quoted by Sutton at [2:49](https://www.youtube.com/watch?v=EwhHUQuqiaQ&t=169s)
 
 > "I'm not sure your idea makes sense because it seems to presume the existence of AGI and then that we've already worked that out."
-> — Richard Sutton
+> — Richard Sutton at [6:16](https://www.youtube.com/watch?v=EwhHUQuqiaQ&t=376s)
 
-> "Don't be difficult. I mean this is obvious."
-> — Richard Sutton
+> "It's surprising. Yeah, you can have such a different point of view... Don't be difficult. I mean this is obvious."
+> — Richard Sutton at [9:27](https://www.youtube.com/watch?v=EwhHUQuqiaQ&t=567s)
 
 ---
 
@@ -56,6 +56,7 @@ The host's thesis: *"The old and the new AI not fighting but failing to translat
 The most surprising moment: Sutton dismissing his own famous paper:
 
 > "The bitter lesson. Oh, who cares about that? That's an empirical observation about a particular period in history. 70 years doesn't necessarily have to apply the next 70 years."
+> — Richard Sutton at [10:15](https://www.youtube.com/watch?v=EwhHUQuqiaQ&t=615s)
 
 ---
 
