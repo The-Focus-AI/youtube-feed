@@ -12,9 +12,9 @@ The GitHub Pages site provides a markdown viewer that renders any file from this
 
 | Channel | Handle | Videos | Total Views | Focus |
 |---------|--------|--------|-------------|-------|
-| [MKBHD](mkbhd/index.md) | @mkbhd | 30 | 149M+ | Tech reviews, smartphones, gadgets |
-| [The Iron Snail](the-iron-snail/index.md) | @TheIronSnail | 30 | 13M+ | Fashion, clothing, heritage brands |
-| [Turing Post](turing-post/index.md) | @RealTuringPost | 30 | 88K | AI/ML deep dives, industry interviews |
+| [MKBHD](mkbhd/index.md) | [@mkbhd](https://youtube.com/@mkbhd) | 30 | 149M+ | Tech reviews, smartphones, gadgets |
+| [The Iron Snail](the-iron-snail/index.md) | [@TheIronSnail](https://youtube.com/@TheIronSnail) | 30 | 13M+ | Fashion, clothing, heritage brands |
+| [Turing Post](turing-post/index.md) | [@RealTuringPost](https://youtube.com/@RealTuringPost) | 30 | 88K | AI/ML deep dives, industry interviews |
 
 ## What's Included
 
