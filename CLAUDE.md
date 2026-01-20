@@ -96,13 +96,14 @@ After the summary, include embedded video clips for the most interesting/surpris
 <iframe width="560" height="315" src="https://www.youtube.com/embed/{VIDEO_ID}?start={seconds}&end={seconds}" frameborder="0" allowfullscreen></iframe>
 
 > "{The actual quote or key statement from this moment}"
-> — Speaker Name
+> — Speaker Name, [MM:SS](https://www.youtube.com/watch?v={VIDEO_ID}&t={seconds}s)
 
 ### "{Another Topic}"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/{VIDEO_ID}?start={seconds}&end={seconds}" frameborder="0" allowfullscreen></iframe>
 
 > "{Quote}"
+> — Speaker, [MM:SS](url&t={seconds}s)
 ```
 
 **Guidelines for Highlights:**
