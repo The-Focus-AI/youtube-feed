@@ -188,8 +188,8 @@
 
       content.innerHTML = '<div class="loading">Loading...</div>';
 
-      // jsDelivr URL - works client-side, has CORS headers
-      const cdnUrl = `https://cdn.jsdelivr.net/gh/${file.owner}/${file.repo}@${file.branch}/${file.path}`;
+      // GitHub raw URL - always serves latest content
+      const cdnUrl = `https://raw.githubusercontent.com/${file.owner}/${file.repo}/${file.branch}/${file.path}`;
 
       try {
         const res = await fetch(cdnUrl);
