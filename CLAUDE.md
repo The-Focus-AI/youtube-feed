@@ -112,6 +112,7 @@ After the summary, include embedded video clips for the most interesting/surpris
 - The pull quote should be the exact words from that segment
 - Good highlights are moments someone would want to share on social media
 - **SKIP THE INTRO** - Many videos open with a teaser/highlight reel (first 30-90 seconds) that repeats content from later in the video. Use the timestamps from the actual discussion, not the intro teaser
+- **VERIFY TIMESTAMPS** - Always open the YouTube link and verify the timestamp actually matches the content. Transcript timestamps can drift by several seconds over long videos. Document the verified timestamp, not just what the transcript says
 
 ### Key Points
 
