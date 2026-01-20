@@ -33,6 +33,43 @@ tags:
 
 MKBHD examines the 2025 Apple Vision Pro refresh, which received an M5 chip upgrade but remains largely unchanged in design and price at $3,500. The video explores why Apple appears to be scaling back Vision Pro development, noting that most users primarily watch movies on the device rather than utilizing its full capabilities. With Samsung finally entering the mixed-reality headset market and smart glasses like Meta Ray-Bans advancing rapidly, MKBHD suggests Apple may be shifting resources toward developing smart glasses, potentially scrapping plans for a "Vision Pro Air" lightweight version. The key takeaway: fewer people want to spend significant time in a face-computer than the industry anticipated.
 
+## Highlights
+
+### "The new one is actually heavier"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rU9aqBv0YdY?start=182&end=240" frameborder="0" allowfullscreen></iframe>
+
+> "Matter of fact, the weight of the new one is listed as higher than the original because it comes by default with this new Dual Knit Band."
+> — Marques Brownlee, [3:02](https://www.youtube.com/watch?v=rU9aqBv0YdY&t=182s)
+
+### "Most use has been watching movies"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rU9aqBv0YdY?start=483&end=540" frameborder="0" allowfullscreen></iframe>
+
+> "It turns out most of the use of Vision Pro has been watching movies... which is a shame because it's capable of so much more."
+> — Marques Brownlee, [8:05](https://www.youtube.com/watch?v=rU9aqBv0YdY&t=485s)
+
+### "They scrapped Vision Pro Air for smart glasses"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rU9aqBv0YdY?start=550&end=600" frameborder="0" allowfullscreen></iframe>
+
+> "There's even been some other reporting that they've scrapped plans for a future lightweight version of the Vision Pro that was going to come up after this, like the 'Vision Pro Air.' And they're shifting those resources to try to develop smart glasses."
+> — Marques Brownlee, [9:10](https://www.youtube.com/watch?v=rU9aqBv0YdY&t=550s)
+
+### "Fewer people want a face-computer"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rU9aqBv0YdY?start=605&end=640" frameborder="0" allowfullscreen></iframe>
+
+> "Turns out there's way less people who wanna spend significant time in a face-computer, even if it's really impressive."
+> — Marques Brownlee, [10:05](https://www.youtube.com/watch?v=rU9aqBv0YdY&t=605s)
+
+### "Nothing quite like actual reality through glass"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rU9aqBv0YdY?start=618&end=640" frameborder="0" allowfullscreen></iframe>
+
+> "There's just nothing quite like having actual reality through some glass with some stuff overlaid on top."
+> — Marques Brownlee, [10:18](https://www.youtube.com/watch?v=rU9aqBv0YdY&t=618s)
+
 ## Key Points
 
 - [0:19](https://www.youtube.com/watch?v=rU9aqBv0YdY&t=19) - Apple released the M5 chip and put it in three devices: iPad Pro, 14-inch MacBook Pro, and Vision Pro

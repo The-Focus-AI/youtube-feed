@@ -35,6 +35,43 @@ The conversation explores the technical architecture behind Memories AI's Large 
 
 A key innovation discussed is "encode for machine, not encode for human" - a paradigm shift in video compression that jointly trains compression and indexing algorithms specifically for AI processing rather than human viewing. The interview also covers practical challenges of on-device deployment, the data bottleneck for physical AI, privacy considerations, and Shen's perspective that personalized context may be more valuable than super intelligence for practical applications.
 
+## Highlights
+
+### "You can't have an AI to be able to see but not remember"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3ccDi4ZczFg?start=79&end=135" frameborder="0" allowfullscreen></iframe>
+
+> "In the future the intelligence is going to be embodied. What that means is that in the future your hardware, robotics, smart glasses, right? Smart wearables or your cameras... You can't have an AI to be able to see but not remember from what it has seen. So they need to have this visual memory."
+> — Shawn Shen, [1:44](https://www.youtube.com/watch?v=3ccDi4ZczFg&t=104s)
+
+### "Encode for machine, not encode for human"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3ccDi4ZczFg?start=701&end=755" frameborder="0" allowfullscreen></iframe>
+
+> "Humans have spent decades inventing compression technologies for videos. But all those compression technologies are made for human... We are now specifically designing compression and indexing process specifically for AI. We call this encode for machine, not encode for human - encode for machine."
+> — Shawn Shen, [11:41](https://www.youtube.com/watch?v=3ccDi4ZczFg&t=701s)
+
+### "ChatGPT is essentially a memory model of the whole internet"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3ccDi4ZczFg?start=822&end=870" frameborder="0" allowfullscreen></iframe>
+
+> "ChatGPT is essentially also a memory model of the whole internet data. It's essentially a reconstruction of the whole internet data. It remembers what is important but also it forgets what is less important."
+> — Shawn Shen, [13:50](https://www.youtube.com/watch?v=3ccDi4ZczFg&t=830s)
+
+### "Do you really need a super intelligence in your home to do laundry?"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3ccDi4ZczFg?start=1202&end=1260" frameborder="0" allowfullscreen></iframe>
+
+> "Do you really need a super intelligence in your home to do laundry? Probably not. You probably need a general intelligence, but then really really understand you - really really understand you and your family and knows your hobbies and knows how to do laundry well according to your own lifestyle."
+> — Shawn Shen, [20:15](https://www.youtube.com/watch?v=3ccDi4ZczFg&t=1215s)
+
+### "The scaling law is not working"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3ccDi4ZczFg?start=1426&end=1470" frameborder="0" allowfullscreen></iframe>
+
+> "The scaling law is not working and we are going back to the research era. The real AGI - at least to most people's understanding of what should be AGI, or those AI in those sci-fi movies - will probably come in the next 10 to 20 years but not anytime soon."
+> — Shawn Shen, [24:01](https://www.youtube.com/watch?v=3ccDi4ZczFg&t=1441s)
+
 ## Key Points
 
 - **Embodied Intelligence Requires Visual Memory** ([1:19](https://www.youtube.com/watch?v=3ccDi4ZczFg&t=79s)) - Future hardware like robots, smart glasses, and wearables must have visual memory because AI cannot be useful if it can see but cannot remember what it saw.

@@ -31,6 +31,43 @@ tags:
 
 MKBHD reviews the Meta Ray-Ban Display glasses, the consumer-ready evolution of Meta's Orion prototype showcased just 10 months earlier. The glasses feature a monocular full-color display (42 pixels per degree, 5,000 nits brightness) in the right lens that acts as a heads-up display, controlled via a neural wristband using surface EMG technology. Priced at $800, these represent a massive leap from the $10,000 prototype to a finished product with features including turn-by-turn navigation, live speech captioning/translation, video calls, messaging, and camera viewfinder. While impressed by the rapid technological advancement, Marques notes concerns about Meta's walled garden ecosystem (first-party apps only, no app store at launch) and privacy implications, while predicting upcoming competition from Samsung and Google.
 
+## Highlights
+
+### "Writing whole sentences with no errors"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7gtc1DW2Tgo?start=175&end=230" frameborder="0" allowfullscreen></iframe>
+
+> "I was writing whole sentences first try, quickly, with no errors. It was nuts."
+> — Marques Brownlee, [3:20](https://www.youtube.com/watch?v=7gtc1DW2Tgo&t=200s)
+
+### "The rate of improvement is insane"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7gtc1DW2Tgo?start=127&end=175" frameborder="0" allowfullscreen></iframe>
+
+> "The rate of improvement is insane."
+> — Marques Brownlee, [2:10](https://www.youtube.com/watch?v=7gtc1DW2Tgo&t=130s)
+
+### "They weigh 69 grams - nice"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7gtc1DW2Tgo?start=220&end=265" frameborder="0" allowfullscreen></iframe>
+
+> "And they weigh 69 grams. Nice."
+> — Marques Brownlee, [3:40](https://www.youtube.com/watch?v=7gtc1DW2Tgo&t=220s)
+
+### "Meta selling at a loss to get them in people's hands"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7gtc1DW2Tgo?start=400&end=450" frameborder="0" allowfullscreen></iframe>
+
+> "I wouldn't be surprised if Meta is actually losing money in an effort to just get them out and get 'em into people's hands."
+> — Marques Brownlee, [6:58](https://www.youtube.com/watch?v=7gtc1DW2Tgo&t=418s)
+
+### "The keynote was so brutal"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7gtc1DW2Tgo?start=514&end=590" frameborder="0" allowfullscreen></iframe>
+
+> "The keynote was so brutal, mainly because so many of the live demos that they tried went about as poorly as they possibly could have."
+> — Marques Brownlee, [8:38](https://www.youtube.com/watch?v=7gtc1DW2Tgo&t=518s)
+
 ## Key Points
 
 - [0:25](https://www.youtube.com/watch?v=7gtc1DW2Tgo&t=25) - Meta evolved from Orion prototype to finished Meta Ray-Ban Display in just 10 months

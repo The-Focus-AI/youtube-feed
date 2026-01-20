@@ -38,6 +38,43 @@ The second half of the analysis introduces the concept of "AI aristocracy" - the
 
 The video concludes that AI is not a bubble about to crash - it's evolving exactly as it should, quietly integrating into the economy. The real concern isn't superintelligence emerging, but ensuring humans develop a "super educated civilization" capable of understanding and governing increasingly complex AI systems.
 
+## Highlights
+
+### "I almost want to reject the question entirely"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-lRBpyPt79c?start=119&end=170" frameborder="0" allowfullscreen></iframe>
+
+> "I'm almost tempted to reject the question entirely because again, I see this as an extension of computing. Have we talked about how to chart progress in computing, or how do you chart progress in computing since the 1970s or whatever? What is the x-axis?"
+> — Andrej Karpathy, [2:01](https://www.youtube.com/watch?v=-lRBpyPt79c&t=121s)
+
+### "Every new nine costs the same as all previous progress"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-lRBpyPt79c?start=310&end=365" frameborder="0" allowfullscreen></iframe>
+
+> "Every new nine - like 99% to 99.9% to 99.99% - costs the same amount of work as all the previous progress combined."
+> — Andrej Karpathy, [5:15](https://www.youtube.com/watch?v=-lRBpyPt79c&t=315s)
+
+### "Leisure was not idleness - it was a technology of reflection"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-lRBpyPt79c?start=596&end=650" frameborder="0" allowfullscreen></iframe>
+
+> "Historically, the aristocrat was defined by the absence of necessity. Freed from physical labor, aristocrats cultivated what they considered higher human faculties: education, rhetoric, governance, aesthetics, and philosophy. Leisure was not idleness. It was a technology of reflection."
+> — Host, [9:56](https://www.youtube.com/watch?v=-lRBpyPt79c&t=596s)
+
+### "It's not a superintelligence emerging - it's a super educated civilization"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-lRBpyPt79c?start=812&end=855" frameborder="0" allowfullscreen></iframe>
+
+> "It's not a superintelligence emerging. It's a super educated civilization we need to become."
+> — Host, [13:48](https://www.youtube.com/watch?v=-lRBpyPt79c&t=828s)
+
+### "AI is exactly what it's supposed to be"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-lRBpyPt79c?start=499&end=545" frameborder="0" allowfullscreen></iframe>
+
+> "AI itself, AI is fine. AI is exactly what it's supposed to be. It's evolving. It's diffusing. It's blending into the economy, massively blending into economy and our daily workflows. It's not breaking reality. It's upgrading it one autocomplete at a time."
+> — Host, [8:26](https://www.youtube.com/watch?v=-lRBpyPt79c&t=506s)
+
 ## Key Points
 
 - **Introduction to the Analysis** ([0:00](https://www.youtube.com/watch?v=-lRBpyPt79c&t=0s)) - The host introduces the video as a follow-up to previous Dwarkesh Patel interview analyses, focusing on two themes: the AI bubble and AI aristocracy.

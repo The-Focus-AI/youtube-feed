@@ -29,6 +29,43 @@ The story begins with New Balance's audacious 1982 gamble: while competitors sol
 
 Michael traces the evolution through each version (990, 990v2, 990v3, etc.), the relationship to other models like the 991 and 993, and explains New Balance's unique position as the last major sneaker brand still manufacturing in the USA and England. The investigation reveals that the 990 became a victim of its own success - so comfortable that it stopped being a running shoe and became a lifestyle icon.
 
+## Highlights
+
+### "The most expensive running shoe on the market ever"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7CiUfsviMGI?start=10&end=70" frameborder="0" allowfullscreen></iframe>
+
+> "In 1982, New Balance blew the doors off of the running world. They released the pinnacle of running technology with a mind-numbing price of $100, the most expensive running shoe on the market ever at that time."
+> — Michael, [0:10](https://www.youtube.com/watch?v=7CiUfsviMGI&t=10s)
+
+### "Not New Balance. They chose bleak, dull, gray."
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7CiUfsviMGI?start=35&end=95" frameborder="0" allowfullscreen></iframe>
+
+> "Everybody's trying to make their sneakers look like they're on fire. You're going super fast. Not New Balance. They chose bleak, dull, gray. I do like it though."
+> — Michael, [0:35](https://www.youtube.com/watch?v=7CiUfsviMGI&t=35s)
+
+### "Nobody wears these sneakers to run anymore"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7CiUfsviMGI?start=45&end=105" frameborder="0" allowfullscreen></iframe>
+
+> "And this is the result of 43 years of obsessive engineering that same running sneaker. But you may have noticed one thing. Nobody wears these sneakers to run anymore. Why? Where in the formula did New Balance royally screw up?"
+> — Michael, [0:45](https://www.youtube.com/watch?v=7CiUfsviMGI&t=45s)
+
+### "New Balance was the original dad shoe"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7CiUfsviMGI?start=600&end=660" frameborder="0" allowfullscreen></iframe>
+
+> "New Balance was the original dad shoe. Comfortable, practical, aggressively unfashionable. Dads wore them because they worked, not because they looked good. Then looking good became looking like you didn't care about looking good."
+> — Michael, [10:00](https://www.youtube.com/watch?v=7CiUfsviMGI&t=600s)
+
+### "Except the moon. Didn't get to the moon, did you Rolex?"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7CiUfsviMGI?start=540&end=600" frameborder="0" allowfullscreen></iframe>
+
+> "Steve Jobs wearing New Balance 991s and 993s didn't hurt. The most influential tech figure of his era choosing the dorkiest sneaker brand legitimized them in a specific way. Silicon Valley adopted them."
+> — Michael, [9:00](https://www.youtube.com/watch?v=7CiUfsviMGI&t=540s)
+
 ## Key Points
 
 - **1982 Revolutionary Launch** ([0:00](https://www.youtube.com/watch?v=7CiUfsviMGI&t=0s)) - New Balance released the 990 at $100, most expensive running shoe ever at that time, when competitors sold for $40-60

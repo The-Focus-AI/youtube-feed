@@ -33,6 +33,43 @@ The story traces Eddie Bauer's journey from running a tackle shop and making shu
 
 The video also covers the decline of Eddie Bauer after the founder sold the company in 1968, and introduces Crescent Down Works as the modern spiritual successor to vintage Eddie Bauer quality, founded by someone who worked in Bauer's down testing lab in 1969.
 
+## Highlights
+
+### "Eddie Bauer's Dad Sold 2 Acres of Downtown Seattle for a Plum Farm"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WIEWvlu91jg?start=195&end=250" frameborder="0" allowfullscreen></iframe>
+
+> "Eddie Bauer's dad, a crack businessman, sold 2 acres of downtown Seattle 9 years after he got it so he can go work at a plum farm and dry prunes. So oops."
+> — Michael, [3:38](https://www.youtube.com/watch?v=WIEWvlu91jg&t=218s)
+
+### "Holy Crap, You Are the Only Actual Company That Did This"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WIEWvlu91jg?start=560&end=615" frameborder="0" allowfullscreen></iframe>
+
+> "Holy crap, you are the only actual company that did this - everybody else is delinquent. Can you make more?"
+> — U.S. Military to Eddie Bauer, [9:25](https://www.youtube.com/watch?v=WIEWvlu91jg&t=565s)
+
+### "The B-9 Parka - Designed for -70 Degrees"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WIEWvlu91jg?start=615&end=670" frameborder="0" allowfullscreen></iframe>
+
+> "Most down jackets you know you could really crush them and compress them. The B-9, this one specifically, is so much feathers that it's just like a rock."
+> — Michael, [10:56](https://www.youtube.com/watch?v=WIEWvlu91jg&t=656s)
+
+### "Jim Whittaker Would Need His Jacket Back"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WIEWvlu91jg?start=923&end=980" frameborder="0" allowfullscreen></iframe>
+
+> "50 years after his ascent, at an event celebrating his ascent, his jacket was in a museum. Jim Whittaker stood up in front of everybody in his 80s and said if he was going to climb Everest again, he would need to get his jacket back."
+> — Michael, [15:40](https://www.youtube.com/watch?v=WIEWvlu91jg&t=940s)
+
+### "Crescent Down Works - Eddie Bauer in Spirit"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WIEWvlu91jg?start=1078&end=1110" frameborder="0" allowfullscreen></iframe>
+
+> "Good news though is we essentially have an Eddie Bauer in spirit and that is Crescent Down Works, made in Seattle Washington. The founder of the brand, And Mikkelson, she worked with Eddie Bauer in his down testing lab in 1969."
+> — Michael, [18:02](https://www.youtube.com/watch?v=WIEWvlu91jg&t=1082s)
+
 ## Key Points
 
 - **Eddie Bauer's Origin Story** ([0:40](https://www.youtube.com/watch?v=WIEWvlu91jg&t=40s)) - Eddie Bauer was the greatest American outdoor clothing brand when Mr. Bauer himself was at the helm

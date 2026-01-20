@@ -30,6 +30,50 @@ The company operates with what they call "base pace" - an intense bias towards a
 
 Base Power's flywheel is simple: vertical integration and technology lower costs, lower costs yield higher returns, higher returns enable lower prices to customers, lower prices drive more demand, more demand creates more scale, and more scale further lowers costs. They're now building their Gen 3 custom battery hardware (after learning from a 6-month Gen 2 mistake), establishing their first factory across the street from engineering in Austin, and expanding beyond Texas's retail choice market by partnering with utilities in other states.
 
+## Highlights
+
+### "Lower costs, higher returns, lower prices, more demand, more scale - there's your flywheel"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YHx09w151Lc?start=0&end=65" frameborder="0" allowfullscreen></iframe>
+
+> "We vertically integrate and develop technology to lower our costs. Lower cost equals higher returns. Higher returns means we pass on those returns as lower prices. When price goes down, you have more demand. More demand leads to more scale. More scale leads to lower cost. There's your flywheel."
+> — Zach Dell, [0:00](https://www.youtube.com/watch?v=YHx09w151Lc&t=0s)
+
+### "Minimize the seconds the ball is in our court - that's base pace"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YHx09w151Lc?start=60&end=125" frameborder="0" allowfullscreen></iframe>
+
+> "We have a pretty intense bias towards action. In any interaction with a counterparty, the ball is either in our court or theirs - we just minimize the seconds it's in our court. That allows everything to move faster. We call it base pace - as fast as reasonably possible without breaking too much."
+> — Justin Lopas, [1:00](https://www.youtube.com/watch?v=YHx09w151Lc&t=60s)
+
+### "If you're not breaking something, you probably haven't pushed far enough"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YHx09w151Lc?start=269&end=335" frameborder="0" allowfullscreen></iframe>
+
+> "We've grown from 40 employees to 240 in 10-12 months. Things definitely do break and that's accepted. If you're not breaking something, you probably haven't pushed it far enough - that's the general mantra."
+> — Zach Dell, [4:29](https://www.youtube.com/watch?v=YHx09w151Lc&t=269s)
+
+### "Our first installer was a random guy from Craigslist - Darren may not have been sober"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YHx09w151Lc?start=1710&end=1775" frameborder="0" allowfullscreen></iframe>
+
+> "We didn't start on our first installation with a Base electrician. He no longer works with us. It's just a random guy that Jared found on Craigslist. Darren may not have been sober. But that's where we started."
+> — Zach Dell, [28:30](https://www.youtube.com/watch?v=YHx09w151Lc&t=1710s)
+
+### "We lost 6 months on Gen 2 - Elon says burn the boats and skip intermediate steps"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YHx09w151Lc?start=571&end=640" frameborder="0" allowfullscreen></iframe>
+
+> "Gen 2 was a mistake - we lost 6 months pursuing white-labeled custom hardware. Should have gone straight to fully custom Gen 3. Learned from Elon: burn the boats and skip intermediate steps. Go directly to the end goal."
+> — Justin Lopas, [9:31](https://www.youtube.com/watch?v=YHx09w151Lc&t=571s)
+
+### "Your intensity is mirrored exactly by your team"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YHx09w151Lc?start=910&end=975" frameborder="0" allowfullscreen></iframe>
+
+> "Frank Slootman balances intensity and focus. What you bring in terms of intensity every day is almost exactly mirrored one for one with what your team brings. The leader's mood sets everything."
+> — Zach Dell, [15:10](https://www.youtube.com/watch?v=YHx09w151Lc&t=910s)
+
 ## Key Points
 
 - **Cost structure flywheel** ([0:00](https://www.youtube.com/watch?v=YHx09w151Lc&t=0s)) - Vertical integration lowers costs, higher returns get passed to customers as lower prices, lower prices drive demand, demand creates scale, scale lowers costs further

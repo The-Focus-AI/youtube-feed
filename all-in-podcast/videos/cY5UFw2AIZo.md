@@ -36,6 +36,43 @@ The discussion moves to Nick Fuentes and the America First movement, where Tucke
 
 A substantial portion focuses on anti-AI sentiment, particularly among conservatives. Tucker articulates the common perception that AI's risks (job loss, surveillance, power concentration) far outweigh its announced benefits. The hosts debate actual vs. predicted job displacement, with Sacks presenting data showing only 4.7% of 2024 layoffs attributed to AI, while Jason warns of coming disruption in taxi, customer service, and entry-level jobs. The episode concludes with rapid-fire "Tucker in 20" takes on Venezuela, Europe's immigration crisis, NATO, Israel, and Tucker's new gold-selling venture Battalion Metals.
 
+## Highlights
+
+### "These brands are husks"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cY5UFw2AIZo?start=421&end=480" frameborder="0" allowfullscreen></iframe>
+
+> "Buying CBS News is like buying RCA Records or something. It just doesn't have any effect. These brands are husks. In fact, all they are is brands at this point."
+> — Tucker Carlson, [7:21](https://www.youtube.com/watch?v=cY5UFw2AIZo&t=441s)
+
+### "Universal principles or the mafia"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cY5UFw2AIZo?start=1740&end=1800" frameborder="0" allowfullscreen></iframe>
+
+> "We're governed by universal principles or we're governed by the mafia. Those are our choices. Your principles have to apply to every human being or certainly every American citizen, period, or they're not principles."
+> — Tucker Carlson, [29:00](https://www.youtube.com/watch?v=cY5UFw2AIZo&t=1740s)
+
+### "Identity politics breeds counter-identity politics"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cY5UFw2AIZo?start=2853&end=2920" frameborder="0" allowfullscreen></iframe>
+
+> "If you have identity politics, at some point you're going to get white identity politics. I wrote a book about this almost 10 years ago, which was totally ignored, but that's inevitable."
+> — Tucker Carlson, [47:33](https://www.youtube.com/watch?v=cY5UFw2AIZo&t=2853s)
+
+### "No one has explained why we should be excited about AI"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cY5UFw2AIZo?start=3180&end=3240" frameborder="0" allowfullscreen></iframe>
+
+> "No one has explained why we should be excited about AI. I'm a gold buyer and ammo buyer and freeze-dried food buyer as I already told you. But like, what's the answer? How is this great for the average person?"
+> — Tucker Carlson, [53:00](https://www.youtube.com/watch?v=cY5UFw2AIZo&t=3180s)
+
+### "I do bury gold in my yard"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cY5UFw2AIZo?start=5625&end=5680" frameborder="0" allowfullscreen></iframe>
+
+> "I do bury gold in my yard because that's the kind of man I am, primitive. I've also scattered millions of ball bearings around my backyard. So good luck with your metal detector."
+> — Tucker Carlson, [93:52](https://www.youtube.com/watch?v=cY5UFw2AIZo&t=5632s)
+
 ## Key Points
 
 - **White House Christmas Party** ([1:07](https://www.youtube.com/watch?v=cY5UFw2AIZo&t=67s)) - President Trump gave shoutouts to David Sacks and Chamath, improvising different speeches at each of the 25+ holiday parties

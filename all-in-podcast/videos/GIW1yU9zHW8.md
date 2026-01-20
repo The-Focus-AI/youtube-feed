@@ -33,6 +33,50 @@ The hosts dive deep into claims of "anti-AI astroturfing," where Sacks presents 
 
 Throughout the conversation, the hosts wrestle with legitimate concerns about job displacement while pushing back on what they see as fear-mongering. The tension between acknowledging worker anxieties and maintaining technological optimism runs throughout, with calls for the tech industry to better articulate concrete benefits for average Americans beyond just stock market gains.
 
+## Highlights
+
+### "We reached a new level of retardation this week"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GIW1yU9zHW8?start=23&end=80" frameborder="0" allowfullscreen></iframe>
+
+> "We reached a new level of retardation this week that we cannot avoid. Bernie Sanders has a major pitch, a moratorium on new AI data centers. Here's his argument. Number one, the billionaires are pushing AI because they want more money and power. Number two, there's going to be massive unemployment."
+> — Jason Calacanis, [0:23](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=23s)
+
+### "Only 39% of Americans believe the benefits of AI will outweigh the harms"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GIW1yU9zHW8?start=1300&end=1360" frameborder="0" allowfullscreen></iframe>
+
+> "Only 39% of Americans believe the benefits of AI will outweigh the harms. 83% of people in China believe the benefits will outweigh the harms. So the discourse has really been affected by some of these institutions."
+> — David Sacks, [21:52](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=1312s)
+
+### "Half the country doesn't own stocks"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GIW1yU9zHW8?start=769&end=830" frameborder="0" allowfullscreen></iframe>
+
+> "Half the country doesn't own stocks, so they're not participating in it. And they're not blind to seeing self-driving cars or seeing their kids having a hard time getting a job. People are scared and our industry is scaring them I think by not meeting them where they are."
+> — Jason Calacanis, [12:49](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=769s)
+
+### "Two years after the launch of AI chatbots, there's been no discernible disruption"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GIW1yU9zHW8?start=1800&end=1860" frameborder="0" allowfullscreen></iframe>
+
+> "Two years after the launch of AI chatbots, there's been no discernible disruption to the labor market and the early studies and data are showing wage increases and actually job increases."
+> — Chamath Palihapitiya, [30:08](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=1808s)
+
+### "China is using AI to develop breakthrough chip manufacturing technology"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GIW1yU9zHW8?start=3855&end=3920" frameborder="0" allowfullscreen></iframe>
+
+> "They're using AI to optimize the photomask patterns. Instead of needing the incredibly precise optics that ASML uses, they're using computational methods to achieve similar results with less sophisticated equipment. This is concerning because the entire basis of our chip export controls to China was that they couldn't get access to these EUV machines."
+> — David Friedberg, [64:15](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=3855s)
+
+### "Cannabis 100-200x more potent than before"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GIW1yU9zHW8?start=5330&end=5380" frameborder="0" allowfullscreen></iframe>
+
+> "The smoking a joint from our youth is very different than smoking these like resins and stuff that they've created apparently that are like 100 times the potency, 200 times potency and they can put you in a psychotic state. Really dangerous folks."
+> — Jason Calacanis, [88:57](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=5337s)
+
 ## Key Points
 
 - **Bernie Sanders' AI Moratorium** ([0:19](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=19s)) - Sanders proposes halting new AI data centers, arguing billionaires want more power, AI will cause mass unemployment, and AI is harmful to kids

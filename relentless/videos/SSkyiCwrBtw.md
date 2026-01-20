@@ -30,6 +30,50 @@ Lada Nuzhna, founder and CEO of General Control, discusses her journey from phys
 
 Lada explains how epigenetics allows cells with identical DNA to become entirely different cell types, and how nature uses epigenetic mechanisms to reset cellular age during reproduction. She describes the competitive landscape of biotech, emphasizing how Chinese companies can go from idea to human clinical data in less than four years with minimal funding, forcing US companies to rethink their strategies. Her personal story is remarkable - growing up in eastern Ukraine where war started in 2014, living alone from age 14, teaching herself biology, and navigating immigration to build a company tackling one of the hardest problems in science.
 
+## Highlights
+
+### "The future is this crazy exciting party and I won't be part of it"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SSkyiCwrBtw?start=58&end=125" frameborder="0" allowfullscreen></iframe>
+
+> "I'm not a person who naturally feels FOMO - I can miss a thousand parties and never notice. But that was the first time I truly felt FOMO for the future because I realized the future is this crazy exciting party and I won't be part of it."
+> — Lada Nuzhna, [1:41](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=101s)
+
+### "ioBiotech went from idea to human data in less than 4 years by going to China"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SSkyiCwrBtw?start=0&end=65" frameborder="0" allowfullscreen></iframe>
+
+> "ioBiotech sold to AstraZeneca for like a billion. They went from idea to human data in less than 4 years - an insane timeline. They went to China. Now you have to ask yourself: how am I competitive with a 9-person Chinese team?"
+> — Lada Nuzhna, [0:08](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=8s)
+
+### "There's a graveyard of companies that raised $200 million and never pushed a drug to clinic"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SSkyiCwrBtw?start=1339&end=1400" frameborder="0" allowfullscreen></iframe>
+
+> "There is a graveyard of companies that raised $200 million, spent six years developing something, and never pushed a drug to clinic. China can do that with a few million dollars and a few people."
+> — Lada Nuzhna, [22:19](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=1339s)
+
+### "60% of National Institute of Aging funding goes to Alzheimer's alone"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SSkyiCwrBtw?start=501&end=565" frameborder="0" allowfullscreen></iframe>
+
+> "60% of National Institute of Aging funding goes to Alzheimer's alone. If you want to work on aging broadly, you effectively have to work on Alzheimer's to get funded. Government funding is completely broken for this space."
+> — Lada Nuzhna, [8:21](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=501s)
+
+### "No kid is born 30 years old even from old parents - nature resets cellular age"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SSkyiCwrBtw?start=342&end=410" frameborder="0" allowfullscreen></iframe>
+
+> "No kid is born being 30 years old even if conceived by parents who were 30. Everyone's born with eggs and sperm that age for decades before conception. Somehow babies are not old even though they appear from old cells. Nature knows how to reset this."
+> — Lada Nuzhna, [5:42](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=342s)
+
+### "I live life like a video game - optimizing for the most interesting outcome"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SSkyiCwrBtw?start=3962&end=4027" frameborder="0" allowfullscreen></iframe>
+
+> "My internal experience of life feels like I'm living in a video game. I just try to optimize for the most interesting outcome at any given point. Every big risk I've taken has paid off. People don't take enough risks."
+> — Lada Nuzhna, [1:06:02](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=3962s)
+
 ## Key Points
 
 - **FOMO About the Future** ([0:56](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=56s)) - Lada first felt FOMO when realizing many physics questions she wanted to answer wouldn't be solved in her lifetime, inspiring her shift to longevity research

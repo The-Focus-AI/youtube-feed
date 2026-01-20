@@ -43,6 +43,43 @@ The interview explores Fireworks AI's unique approach to inference optimization 
 
 Lin also shares her personal leadership journey, revealing how she overcame self-doubt through the support of people who challenged her and pushed her beyond her comfort zone. She emphasizes that the inner voice telling you "maybe other people are better at doing those things" is often the real limitation, not external factors.
 
+## Highlights
+
+### "Product-Market Fit is the Beginning of Bankruptcy"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bb4FHFpokkY?start=133&end=195" frameborder="0" allowfullscreen></iframe>
+
+> "Having a product market fit is the beginning of going to bankruptcy."
+> — Lin Qiao, [2:58](https://www.youtube.com/watch?v=bb4FHFpokkY&t=178s)
+
+### "One Size Fits One, Not One Size Fits All"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bb4FHFpokkY?start=482&end=540" frameborder="0" allowfullscreen></iframe>
+
+> "We actually don't believe in one size fits all. We believe in one size fits one and every application is different."
+> — Lin Qiao, [8:16](https://www.youtube.com/watch?v=bb4FHFpokkY&t=496s)
+
+### "Nobody Has Absolute Secret Sauce"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bb4FHFpokkY?start=824&end=880" frameborder="0" allowfullscreen></iframe>
+
+> "So does anyone has absolute secret sauce? Probably not."
+> — Lin Qiao, [14:05](https://www.youtube.com/watch?v=bb4FHFpokkY&t=845s)
+
+### "Industry Should See 100 Times More Efficient AI Infrastructure"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bb4FHFpokkY?start=1230&end=1290" frameborder="0" allowfullscreen></iframe>
+
+> "The industry should see 100 times more efficient in AI infrastructure."
+> — Lin Qiao, [21:01](https://www.youtube.com/watch?v=bb4FHFpokkY&t=1261s)
+
+### "Find People Who Challenge You and Make You Uncomfortable"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bb4FHFpokkY?start=1500&end=1550" frameborder="0" allowfullscreen></iframe>
+
+> "Find the people who really challenge you and make you uncomfortable is a blessing... don't be afraid of failure. Once you get to the other end of this tunnel you'll be a different person."
+> — Lin Qiao, [25:21](https://www.youtube.com/watch?v=bb4FHFpokkY&t=1521s)
+
 ## Key Points
 
 - **Product-Market Fit Paradox** ([1:58](https://www.youtube.com/watch?v=bb4FHFpokkY&t=118s)) - In GenAI, hitting product-market fit can be the beginning of bankruptcy because GPU infrastructure costs are orders of magnitude higher than traditional applications

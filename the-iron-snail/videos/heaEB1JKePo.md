@@ -29,6 +29,43 @@ Michael dives into the history of Rolex and specifically the Explorer II (refere
 
 The story traces Rolex's rise from Hans Wilsdorf's vision to create durable, accurate wristwatches, through their innovative chronometer certification in 1910, waterproof Oyster case, and automatic perpetual movement. A key marketing moment was Mercedes Gleitze's "Vindication Swim" across the English Channel wearing a Rolex Oyster around her neck. The video explains how the Explorer II's unique 24-hour hand and polar dial were specifically designed to help explorers distinguish day from night in environments where that becomes dangerous - caves and the Arctic.
 
+## Highlights
+
+### "A Genie Whispered the Name Rolex"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/heaEB1JKePo?start=41&end=100" frameborder="0" allowfullscreen></iframe>
+
+> "The founder of Rolex Hans Wilsdorf said he came up with the name Rolex when a genie whispered it into his ear while he was on a horse-drawn bus in London."
+> — Michael, [0:48](https://www.youtube.com/watch?v=heaEB1JKePo&t=48s)
+
+### "Unprecedented Dominance - Top Five Competitors Combined"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/heaEB1JKePo?start=21&end=75" frameborder="0" allowfullscreen></iframe>
+
+> "In 2023 their watch sales surpassed their top five competitors combined and Morgan Stanley has called this unprecedented dominance."
+> — Michael, [0:29](https://www.youtube.com/watch?v=heaEB1JKePo&t=29s)
+
+### "Mercedes Gleitze's Vindication Swim"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/heaEB1JKePo?start=229&end=300" frameborder="0" allowfullscreen></iframe>
+
+> "This swim - the Vindication Swim - was a BFD. It was a big deal all of a sudden because this woman Mercedes is trying to prove that she in fact is the greatest swimmer."
+> — Michael, [4:33](https://www.youtube.com/watch?v=heaEB1JKePo&t=273s)
+
+### "Except the Moon - That Goes to Omega"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/heaEB1JKePo?start=585&end=640" frameborder="0" allowfullscreen></iframe>
+
+> "Rolex did literally every single great human achievement since Rolex came out - they've been there... except the moon. Didn't get to the moon, did you Rolex? That goes to Omega."
+> — Michael, [9:45](https://www.youtube.com/watch?v=heaEB1JKePo&t=585s)
+
+### "Make a Watch for Every Dream and Get It On the Winner"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/heaEB1JKePo?start=851&end=900" frameborder="0" allowfullscreen></iframe>
+
+> "They essentially have a model for every dream, every human accomplishment that you could possibly have, and their whole goal is make a watch that's fit for that scenario and get it on the winner - has to be on the winner."
+> — Michael, [14:11](https://www.youtube.com/watch?v=heaEB1JKePo&t=851s)
+
 ## Key Points
 
 - **Rolex Explorer II 16570** ([0:00](https://www.youtube.com/watch?v=heaEB1JKePo&t=0s)) - Watch designed for spelunkers, cave dwellers, and Arctic explorers where distinguishing day from night is difficult

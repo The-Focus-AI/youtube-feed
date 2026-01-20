@@ -24,6 +24,43 @@ The video debunks some sweater folklore (like identifying drowned fishermen by t
 
 Key themes include the value of buying vintage on eBay, the importance of understanding construction quality (interlock vs. jersey knit, hand-framed vs. machine knit), and why sometimes paying more for the right sweater makes sense while other times a $30 vintage find outperforms expensive modern options.
 
+## Highlights
+
+### "Sailors would need to sit in oil before pulling it off"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_x-_PLprz3g?start=55&end=115" frameborder="0" allowfullscreen></iframe>
+
+> "Fishermen who were wearing these sweaters wanted to get them as covered in like fish guts and oils and waxes and get them as dirty as possible while fishing because that made them warmer and more wind resistant. And that some sailors would need to come home and sit in oil with their sweaters on before they could pull it off cuz it was so fused to their skin."
+> — Michael, [0:55](https://www.youtube.com/watch?v=_x-_PLprz3g&t=55s)
+
+### "Identifying a fisherman's body from his sweater"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_x-_PLprz3g?start=70&end=120" frameborder="0" allowfullscreen></iframe>
+
+> "The whole identifying a fisherman's body from the sweater that he wore when he washed ashore. There's whole academic papers written on if that's true or not."
+> — Michael, [1:10](https://www.youtube.com/watch?v=_x-_PLprz3g&t=70s)
+
+### "GAP had some insane quality sweaters"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_x-_PLprz3g?start=360&end=420" frameborder="0" allowfullscreen></iframe>
+
+> "GAP had some insane quality sweaters. Nowadays, they will be pretty old with holes, but they had a nice handknit run, I think in the 90s."
+> — Michael, [6:00](https://www.youtube.com/watch?v=_x-_PLprz3g&t=360s)
+
+### "Andersen-Andersen spent 7 years perfecting"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_x-_PLprz3g?start=600&end=660" frameborder="0" allowfullscreen></iframe>
+
+> "Andersen-Andersen spent 7 years perfecting their navy sweater design."
+> — Michael, [10:00](https://www.youtube.com/watch?v=_x-_PLprz3g&t=600s)
+
+### "Pompoms to wipe jellyfish venom from your eyes"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_x-_PLprz3g?start=41&end=95" frameborder="0" allowfullscreen></iframe>
+
+> "This is the original and true fishing sweater. And according to the author Stella Rue, who wrote a book on the Dutch Ganzy, these originally had pompoms hanging down right here so you could wipe jellyfish venom from your eyes."
+> — Michael, [0:41](https://www.youtube.com/watch?v=_x-_PLprz3g&t=41s)
+
 ## Key Points
 
 - **Norwegian Lice Pattern Function** ([0:00](https://www.youtube.com/watch?v=_x-_PLprz3g&t=0s)) - The dotted "lice" pattern on Norwegian sweaters creates air pockets between colors, adding insulation beyond mere decoration

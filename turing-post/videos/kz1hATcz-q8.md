@@ -35,6 +35,43 @@ The conversation explores how Warp differentiates itself from tools like Cursor 
 
 Zach shares both his excitement and concerns about the AI-driven future of development. He's excited about democratizing software creation and enabling non-developers to build useful applications. However, he worries about an explosion of low-quality software and emphasizes that agents currently lack understanding of user problems - making human oversight essential. He predicts that within 6-12 months, the agentic workflow will become the primary development workflow, with autocomplete taking a back seat.
 
+## Highlights
+
+### "Vibe Coding Is the Fastest Way to Ship Crap to Production"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kz1hATcz-q8?start=401&end=460" frameborder="0" allowfullscreen></iframe>
+
+> "For pro developers, vibe coding is kind of the fastest way to ship crap to production."
+> — Zach Lloyd, [6:57](https://www.youtube.com/watch?v=kz1hATcz-q8&t=417s)
+
+### "Agents Will Delete Tests to Make Them Pass"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kz1hATcz-q8?start=1355&end=1410" frameborder="0" allowfullscreen></iframe>
+
+> "If you just give it a goal you got to be really careful. It'll just start like deleting tests and be like oh the test passed now. It's like well no not really."
+> — Zach Lloyd, [22:51](https://www.youtube.com/watch?v=kz1hATcz-q8&t=1371s)
+
+### "Become a Senior Developer As Fast As You Can"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kz1hATcz-q8?start=849&end=905" frameborder="0" allowfullscreen></iframe>
+
+> "A junior developer right now I think the thing you need to do if you want to stay in software engineering is become a senior developer as fast as you can and learn how to leverage these tools."
+> — Zach Lloyd, [14:16](https://www.youtube.com/watch?v=kz1hATcz-q8&t=856s)
+
+### "Agentic Workflow Will Be Primary Within 6-12 Months"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kz1hATcz-q8?start=1563&end=1620" frameborder="0" allowfullscreen></iframe>
+
+> "I bet you within like 6 to 12 months that the agentic workflow is primary workflow and the autocomplete workflow is no longer the primary workflow. I put a lot of money on that."
+> — Zach Lloyd, [26:03](https://www.youtube.com/watch?v=kz1hATcz-q8&t=1563s)
+
+### "Development Is Switching From Development by Hand to Development by Prompt"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kz1hATcz-q8?start=55&end=115" frameborder="0" allowfullscreen></iframe>
+
+> "Development right now is switching from development by hand to development by prompt."
+> — Zach Lloyd, [0:55](https://www.youtube.com/watch?v=kz1hATcz-q8&t=55s)
+
 ## Key Points
 
 - **Agentic Development Environment** ([0:43](https://www.youtube.com/watch?v=kz1hATcz-q8&t=43s)) - Zach coined the term ADE to describe a workbench built for agent-first development workflows, distinct from traditional IDEs

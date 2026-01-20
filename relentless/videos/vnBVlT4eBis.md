@@ -42,6 +42,50 @@ The interview was conducted at a baby shower for one of the "Orchid babies" near
 
 Siddiqui also addresses the historical moral panic surrounding every reproductive technology from condoms to IVF, predicting that embryo screening will become as normalized as birth control. She discusses how the first embryos screened were her own, and how patient demand has driven adoption, with patients literally refusing to use IVF centers that didn't offer Orchid, leading to over 100 clinics now being onboarded through patient-led recruitment.
 
+## Highlights
+
+### "Midway through pregnancy you find out this baby doesn't have a skull - it's extremely traumatic"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vnBVlT4eBis?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+
+> "A pregnancy is an extremely intense thing. You're metabolically running a marathon every single day for 9 months. The idea that midway through that process, you find out that this baby doesn't have a skull, isn't going to come to term - it's extremely traumatic."
+> — Noor Siddiqui, [0:00](https://www.youtube.com/watch?v=vnBVlT4eBis&t=0s)
+
+### "25% of NICU infant deaths are genetic, 95% of rare diseases have no treatment"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vnBVlT4eBis?start=329&end=395" frameborder="0" allowfullscreen></iframe>
+
+> "25% of infant deaths in the NICU are due to genetic disease. 60% of moderate to severe intellectual disability is genetic. 50% of miscarriages are genetic. And 95% of rare genetic diseases have no treatment, let alone a cure."
+> — Noor Siddiqui, [5:29](https://www.youtube.com/watch?v=vnBVlT4eBis&t=329s)
+
+### "The genetic lottery is incredibly unfair - now you can make it more equal"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vnBVlT4eBis?start=659&end=725" frameborder="0" allowfullscreen></iframe>
+
+> "The genetic lottery is incredibly unfair. Now you finally have this ability to make it more equal and more fair for everyone. For the first time, parents can genetically bless their child."
+> — Noor Siddiqui, [10:59](https://www.youtube.com/watch?v=vnBVlT4eBis&t=659s)
+
+### "We have more data going into shoe buying than the biggest parenting decision - your child's genome"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vnBVlT4eBis?start=763&end=825" frameborder="0" allowfullscreen></iframe>
+
+> "We have more data going into where you go for lunch, what shoes you're going to buy, all these super trivial decisions, than the biggest parenting decision you'll ever make - your child's genome."
+> — Noor Siddiqui, [12:43](https://www.youtube.com/watch?v=vnBVlT4eBis&t=763s)
+
+### "Two Supreme Court cases were required just for women to get condoms"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vnBVlT4eBis?start=2403&end=2470" frameborder="0" allowfullscreen></iframe>
+
+> "There were two different Supreme Court cases fought over condoms. The first was so married women could get access, the second so unmarried women could. Previously they were banned under obscenity laws. Every reproductive technology faces moral panic."
+> — Noor Siddiqui, [40:03](https://www.youtube.com/watch?v=vnBVlT4eBis&t=2403s)
+
+### "70-80 of our 100+ clinics were recruited by patient demand"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vnBVlT4eBis?start=1962&end=2030" frameborder="0" allowfullscreen></iframe>
+
+> "We're in over 100 IVF centers now. 70-80 of those were recruited through patient demand - patients literally refused to use centers that didn't offer Orchid. The first embryos we screened were my own."
+> — Noor Siddiqui, [32:42](https://www.youtube.com/watch?v=vnBVlT4eBis&t=1962s)
+
 ## Key Points
 
 - **Whole Genome Screening** ([0:34](https://www.youtube.com/watch?v=vnBVlT4eBis&t=34s)) - Orchid provides 99% genome coverage vs traditional 1%, allowing screening for thousands of diseases that were previously missed

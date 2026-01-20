@@ -29,6 +29,43 @@ The review exposes significant problems with Vertu's marketing claims. Their web
 
 The main selling point - a 24/7 concierge service accessed via a dedicated "Ruby key" - turns out to be operated by human assistants in China, not AI. When MKBHD tested it by ordering a shirt, it took 7 hours to complete, required sending payment via PayPal with a screenshot as proof, and contained numerous typos. The whole Vertu brand was originally a Nokia luxury sub-brand that was sold to private equity and moved to China, where it has become what the reviewer describes as "a crudely skinned Android phone designed to take advantage of people with way more dollars than cents."
 
+## Highlights
+
+### "$5,380 plus tax plus shipping"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HLUamwXQ218?start=36&end=90" frameborder="0" allowfullscreen></iframe>
+
+> "This phone I paid $5,380 for, plus tax, plus shipping."
+> — Marques Brownlee, [0:54](https://www.youtube.com/watch?v=HLUamwXQ218&t=54s)
+
+### "World's first AI agent phone for entrepreneurs"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HLUamwXQ218?start=150&end=200" frameborder="0" allowfullscreen></iframe>
+
+> "This is positioned as the world's first AI agent phone for entrepreneurs. I'm dead serious. That's a quote straight from the top of their website. I wish I was joking."
+> — Marques Brownlee, [2:40](https://www.youtube.com/watch?v=HLUamwXQ218&t=160s)
+
+### "Artistic soul over mere specifications"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HLUamwXQ218?start=491&end=540" frameborder="0" allowfullscreen></iframe>
+
+> "Their website says, 'We pursue artistic soul over mere specifications.' which I guess explains why they're using a Sony IMX906 sensor, which is the same as we've seen in Samsung's A55 and a bunch of other sub $500 phones."
+> — Marques Brownlee, [8:18](https://www.youtube.com/watch?v=HLUamwXQ218&t=498s)
+
+### "It's real, man. It's real."
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HLUamwXQ218?start=743&end=800" frameborder="0" allowfullscreen></iframe>
+
+> "I've actually chatted with this human assistant long enough to ask, 'Are you a human?' To which they replied, 'It's real, man. It's real.'"
+> — Marques Brownlee, [12:23](https://www.youtube.com/watch?v=HLUamwXQ218&t=743s)
+
+### "More dollars than cents"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HLUamwXQ218?start=892&end=935" frameborder="0" allowfullscreen></iframe>
+
+> "This one just happens to be a crudely skinned Android phone designed to take advantage of people with way more dollars than cents. Get it?"
+> — Marques Brownlee, [15:17](https://www.youtube.com/watch?v=HLUamwXQ218&t=917s)
+
 ## Key Points
 
 - **The Price Game** ([00:02](https://www.youtube.com/watch?v=HLUamwXQ218&t=2s)) - Opens with a guessing game about phone specs that would normally cost $800-$1,000, revealing it's actually a $5,380 device

@@ -29,6 +29,50 @@ Michael from The Iron Snail takes viewers through his entire watch collection of
 
 The twist comes when Michael reveals that the happiest watches in his collection aren't the expensive ones he bought during intense work periods, but the watches he gave to others - a vintage Omega to his best friend Ronnie at his wedding, and a Rolex Sea Dweller to his father when he turned 70 after 50+ years as a career fisherman. He realizes there's a gap in happy memories associated with watches bought when he was working 7 days a week, 13 hours a day, and decides to step back, focus on time with his partner Taylor, and eventually start fresh with watches when he's in a better place.
 
+## Highlights
+
+### "Hit this watch with a baseball bat. Go on the moon."
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pPBCSjP8-qs?start=156&end=210" frameborder="0" allowfullscreen></iframe>
+
+> "Hit this watch with a baseball bat. Go scuba diving. Go on the moon. It's approved for that. It's the greatest watch in the entire world."
+> — Michael, [2:40](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=160s)
+
+### "The goal was to get Taylor to like me"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pPBCSjP8-qs?start=262&end=320" frameborder="0" allowfullscreen></iframe>
+
+> "Taylor and a few of my friends and her friends, we all went kayaking, but the goal was to get Taylor to like me. But at the same time, there was a second goal and I brought a bunch of Casios with me and I wanted to test their water resistance."
+> — Michael, [4:22](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=262s)
+
+### "The watch I got for my dad"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pPBCSjP8-qs?start=685&end=745" frameborder="0" allowfullscreen></iframe>
+
+> "This watch and all the other watches that we talked about today and even the one that I gave to Ronnie on his wedding day are not the reason that I want to sell my watches. There is one more watch and that is the watch that I got for my dad."
+> — Michael, [11:25](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=685s)
+
+### "Working 7 days a week, 13 hours a day"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pPBCSjP8-qs?start=715&end=775" frameborder="0" allowfullscreen></iframe>
+
+> "Around 7 days a week, 13 hours a day. I try to take some time to dinner with Taylor. But it's like you're running a marathon. And then not even like a quarter way through the marathon, I'm like, 'Oh, I'm doing so good. I should drink a giant Mountain Dew and eat donuts.'"
+> — Michael, [11:55](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=715s)
+
+### "The happiest watches are the ones I gave away"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pPBCSjP8-qs?start=740&end=800" frameborder="0" allowfullscreen></iframe>
+
+> "The watches that I have the most pride about, that I'm the happiest about, the best memories I have about are the watch that I got Ronnie for his wedding and the watch that I got my dad."
+> — Michael, [12:20](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=740s)
+
+### "I am the Portland Maine Bandit"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pPBCSjP8-qs?start=800&end=855" frameborder="0" allowfullscreen></iframe>
+
+> "I think sadly the twist of this video is that I am the Portland Maine Bandit after all, and I'm going to rid myself of my entire watch collection. My main focus right now is spending more time with Taylor."
+> — Michael, [13:20](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=800s)
+
 ## Key Points
 
 - **Casio F91W Introduction** ([0:00](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=0s)) - $16 original vs $160+ CWT Solid State version that can't change time or battery, wrong 8 months of year due to daylight savings

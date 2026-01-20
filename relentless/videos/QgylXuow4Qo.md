@@ -44,6 +44,50 @@ Grace explains the physics behind their approach: by building very long guns (10
 
 The interview covers the colorful history of space guns from Gerald Bull's HARP project to his assassination by Mossad, the economics of space launch ($150/kg target vs Starship's projected $250/kg), and Grace's vision of opening up the solar system to enable human diversity and expansion beyond Earth.
 
+## Highlights
+
+### "I want to crack the solar system open like an egg"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QgylXuow4Qo?start=0&end=65" frameborder="0" allowfullscreen></iframe>
+
+> "If you want to do something in aerospace engineering, your task is to find something a German dude worked on in the 1930s and steal it. I'm trying to build a goddamn Panama Canal for putting stuff into space. I want to crack the solar system open like an egg."
+> — Mike Grace, [0:00](https://www.youtube.com/watch?v=QgylXuow4Qo&t=0s)
+
+### "The gun is made of sewer pipe and concrete - no carbon fiber, no inconel"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QgylXuow4Qo?start=300&end=365" frameborder="0" allowfullscreen></iframe>
+
+> "The gun no longer has to be made of crazy engineered gun tube. It can be made out of sewer pipe, which is what this is. Sewer pipe and concrete. Mild steel and sex appeal, baby. No inconel, no carbon fiber. The maximum pressure is around 1,000 PSI - a third of a scuba tank."
+> — Mike Grace, [5:00](https://www.youtube.com/watch?v=QgylXuow4Qo&t=300s)
+
+### "The moral of Gerald Bull's story is don't build death stars for dictators"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QgylXuow4Qo?start=630&end=695" frameborder="0" allowfullscreen></iframe>
+
+> "Gerald Bull built a gun that shot projectiles 200km into space. Then he got jailed by the CIA, worked for Saddam Hussein building a super gun, and was assassinated by Mossad in 1989. The moral of Gerald Bull's story is don't build death stars for dictators."
+> — Mike Grace, [10:30](https://www.youtube.com/watch?v=QgylXuow4Qo&t=630s)
+
+### "Rockets are expensive because they are flying bombs"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QgylXuow4Qo?start=1081&end=1145" frameborder="0" allowfullscreen></iframe>
+
+> "Rockets are expensive because they are flying bombs. If one Starship out of 500 catastrophically explodes for no reason, that'll be the best rocket ever built by man. That risk premium makes rockets inherently expensive."
+> — Mike Grace, [18:01](https://www.youtube.com/watch?v=QgylXuow4Qo&t=1081s)
+
+### "Nothing about Falcon 9 was impossible in the 1970s"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QgylXuow4Qo?start=941&end=1010" frameborder="0" allowfullscreen></iframe>
+
+> "Nothing about the reusable Falcon 9 was impossible in the 1970s. We had the materials, we had the computing. The military-industrial complex just had no incentive to make launch cheap. They wanted cost-plus contracts."
+> — Mike Grace, [15:41](https://www.youtube.com/watch?v=QgylXuow4Qo&t=941s)
+
+### "We started with a 40-foot PVC potato gun in my garage"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QgylXuow4Qo?start=2279&end=2345" frameborder="0" allowfullscreen></iframe>
+
+> "We started with a 40-foot PVC potato gun in my garage that achieved Mach 1.8. Extremely dangerous. PVC fragments like a grenade. I should not have done that. But that's where it began."
+> — Mike Grace, [37:59](https://www.youtube.com/watch?v=QgylXuow4Qo&t=2279s)
+
 ## Key Points
 
 - **Kinetic Launch Basics** ([0:27](https://www.youtube.com/watch?v=QgylXuow4Qo&t=27s)) - Unlike rockets where only 1% of mass reaches orbit, kinetic launch keeps all energy on the ground and only the payload flies to space

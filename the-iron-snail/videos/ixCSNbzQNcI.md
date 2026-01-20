@@ -26,6 +26,43 @@ Michael traces Patagonia's origins from Yvon Chouinard's climbing gear company t
 
 The video ultimately argues that while Patagonia deserves credit for many innovations and their warranty/repair programs, the internet's perception of them as environmentally perfect is oversimplified.
 
+## Highlights
+
+### "Made from toilet bowl covers"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ixCSNbzQNcI?start=0&end=55" frameborder="0" allowfullscreen></iframe>
+
+> "This is a 1970s Patagonia reverse pile cardigan. It was made from toilet bowl covers. Actually, toilet bowl covers that you see from the 70s, same exact material. That is why it's this weird color."
+> — Michael, [0:00](https://www.youtube.com/watch?v=ixCSNbzQNcI&t=0s)
+
+### "Taylor said she's going to break up with me"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ixCSNbzQNcI?start=30&end=85" frameborder="0" allowfullscreen></iframe>
+
+> "Taylor said if I go out to film this video one more time, she's going to break up with me."
+> — Michael, [0:35](https://www.youtube.com/watch?v=ixCSNbzQNcI&t=35s)
+
+### "$4,000 in Patagonia equipment and going undercover"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ixCSNbzQNcI?start=40&end=95" frameborder="0" allowfullscreen></iframe>
+
+> "I've read two books on the brand. I acquired over $4,000 in Patagonia equipment. I went undercover to test one of their environmentally friendly programs."
+> — Michael, [0:40](https://www.youtube.com/watch?v=ixCSNbzQNcI&t=40s)
+
+### "65% of clothing is synthetic, 35% of ocean pollution"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ixCSNbzQNcI?start=65&end=120" frameborder="0" allowfullscreen></iframe>
+
+> "They are touted as the most environmentally sustainable, friendly, crazy brand, but basically all of their clothing is synthetic. 65% of the entire world's clothing is synthetic. And 35% of the pollution in the ocean is because of synthetic clothing."
+> — Michael, [1:05](https://www.youtube.com/watch?v=ixCSNbzQNcI&t=65s)
+
+### "Is Patagonia really that good?"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ixCSNbzQNcI?start=840&end=895" frameborder="0" allowfullscreen></iframe>
+
+> "Is Patagonia really that good? They're better than most mainstream brands. They're not perfect. They're not saving the planet by selling fleeces. But they're trying harder than most, and that counts for something."
+> — Michael, [14:00](https://www.youtube.com/watch?v=ixCSNbzQNcI&t=840s)
+
 ## Key Points
 
 - **Synthetic Environmental Paradox** ([0:45](https://www.youtube.com/watch?v=ixCSNbzQNcI&t=45s)) - 65% of world's clothing is synthetic; 35% of ocean pollution is synthetic clothing, yet Patagonia is known for sustainability while making mostly synthetic clothes

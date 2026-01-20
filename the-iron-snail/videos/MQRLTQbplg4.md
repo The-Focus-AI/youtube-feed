@@ -31,6 +31,50 @@ After 3 years of having a fashion YouTube channel, Michael finally figured out h
 
 The video covers versatile wardrobe staples including chambray shirts, Oxford shirts, linen pieces, nylon shorts, and Uniqlo suiting pants. Michael shares his personal style rules: don't worry about clothes getting dirty, always have some edge, keep outfits simple (dress in 2 minutes), and prioritize high quality pieces that age well. The visual inspiration came from a William Ellery picture that made Michael realize his love of outdoors, durability, and old school aesthetics should directly inform his clothing choices.
 
+## Highlights
+
+### "I realized I was thinking about dressing all wrong"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MQRLTQbplg4?start=552&end=620" frameborder="0" allowfullscreen></iframe>
+
+> "I realized I was thinking about dressing all wrong. Essentially I was doing everything backwards - I was trying to figure out what I should wear instead of looking at who I am and what I do and basing what I wear off of that."
+> — Michael, [9:17](https://www.youtube.com/watch?v=MQRLTQbplg4&t=557s)
+
+### "Taylor's Rule: Comfort Over Everything"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MQRLTQbplg4?start=86&end=130" frameborder="0" allowfullscreen></iframe>
+
+> "I have one rule: comfort over everything."
+> — Taylor, [1:30](https://www.youtube.com/watch?v=MQRLTQbplg4&t=90s)
+
+### "Why am I going to wear a shirt that says Arkansas on it?"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MQRLTQbplg4?start=629&end=685" frameborder="0" allowfullscreen></iframe>
+
+> "I tried to find a graphic t-shirt for so long that I like but they all felt disingenuous like why am I going to wear a t-shirt that says Arkansas on it - never been to Arkansas."
+> — Michael, [10:33](https://www.youtube.com/watch?v=MQRLTQbplg4&t=633s)
+
+### "I described linen as 'horrible'"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MQRLTQbplg4?start=254&end=310" frameborder="0" allowfullscreen></iframe>
+
+> "Those of you that have seen certain videos on this channel, you probably know that the only word I would use to describe linen is 'horrible.' I don't like linen because I just steamed this and it immediately is a wrinkled mess... But I like it - when I embraced the wrinkles I started to be like 'oh yeah, this is cool.'"
+> — Michael, [4:14](https://www.youtube.com/watch?v=MQRLTQbplg4&t=254s)
+
+### "I always feel like I look dumb no matter what I wear"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MQRLTQbplg4?start=351&end=410" frameborder="0" allowfullscreen></iframe>
+
+> "I do work in fashion and work around very stylish people at all times... the person that I'm always meeting with in the Garment District is just dressed always incredibly simply - just black slacks, white shirt or some very simple top. And I always feel like I look dumb no matter what I wear."
+> — Michael, [5:51](https://www.youtube.com/watch?v=MQRLTQbplg4&t=351s)
+
+### "If all else fails, jeans and a t-shirt"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MQRLTQbplg4?start=711&end=760" frameborder="0" allowfullscreen></iframe>
+
+> "If all else fails honestly just rock the absolute crap out of jeans, leather shoes, and a t-shirt. Jeans are a lot of fun to wear because the more you wear them the more beat up they get."
+> — Michael, [12:23](https://www.youtube.com/watch?v=MQRLTQbplg4&t=743s)
+
 ## Key Points
 
 - **Style Discovery Formula** ([0:38](https://www.youtube.com/watch?v=MQRLTQbplg4&t=38s)) - Instead of figuring out what to wear, look at who you are and what you do, then dress based on that

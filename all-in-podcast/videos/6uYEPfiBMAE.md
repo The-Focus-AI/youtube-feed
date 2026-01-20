@@ -37,6 +37,50 @@ The conversation pivots to market conditions and growing concerns about economic
 
 The final segment covers Zohran Mamdani's victory in the New York City mayoral race as a self-proclaimed democratic socialist, validating David Friedberg's earlier prediction about rising socialist movements in America. The discussion explores root causes including student debt, housing affordability, and the broken "generational compact" that Peter Thiel warned about in 2020. Sacks argues for eliminating the Senate filibuster to allow Republicans to pass domestic policy reforms.
 
+## Highlights
+
+### "Sam Altman Gets Feisty on BG2"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6uYEPfiBMAE?start=75&end=130" frameborder="0" allowfullscreen></iframe>
+
+> "First of all, we're doing well more revenue than that. Second of all, Brad, if you want to sell your shares, I'll find you a buyer."
+> — Sam Altman, [1:27](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=87s)
+
+### "No Federal Bailout for AI Companies"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6uYEPfiBMAE?start=626&end=705" frameborder="0" allowfullscreen></iframe>
+
+> "There's not going to be a federal bailout for AI. Not going to happen. We have five major frontier model companies right now, and there are new companies being formed all the time. And if one of them fails, hey, it's going to go out of business and the other ones are going to replace it."
+> — David Sacks, [11:00](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=660s)
+
+### "Jensen Huang: China Will Win the AI Race"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6uYEPfiBMAE?start=1096&end=1160" frameborder="0" allowfullscreen></iframe>
+
+> "China is going to win the AI race."
+> — Jensen Huang (quoted), [18:25](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=1105s)
+
+### "Peter Thiel's 2020 Warning on Socialism"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6uYEPfiBMAE?start=4095&end=4160" frameborder="0" allowfullscreen></iframe>
+
+> "If one has no stake in the capitalist system, then one may well turn against it."
+> — Peter Thiel (from 2020 memo), [1:08:46](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=4126s)
+
+### "Chamath Becomes Sympathetic to Student Loan Forgiveness"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6uYEPfiBMAE?start=4239&end=4300" frameborder="0" allowfullscreen></iframe>
+
+> "This was the first moment in years where I have now become sympathetic to this idea of student loan forgiveness. I was never sympathetic to this idea. I am sympathetic to it now."
+> — Chamath Palihapitiya, [1:10:49](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=4249s)
+
+### "Millennials as Socialists Might Be Unemployable"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6uYEPfiBMAE?start=4331&end=4390" frameborder="0" allowfullscreen></iframe>
+
+> "Maybe the fact that all these millennials are socialists might have something to do with the fact they're unemployable. Who the hell wants to hire young Lenin 2.0 communist revolutionary to be in their company if they don't believe in capitalism?"
+> — David Sacks, [1:12:11](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=4331s)
+
 ## Key Points
 
 - **Sam Altman's BG2 Appearance** ([0:38](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=38s)) - Brad Gerstner asked Altman how a company with $13B revenue could justify $1.4T in spending commitments; Altman's feisty response went viral

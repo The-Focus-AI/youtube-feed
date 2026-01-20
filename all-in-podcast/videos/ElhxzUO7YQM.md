@@ -33,6 +33,50 @@ The project has three main components: the Solano Foundry (America's largest adv
 
 The presentation positions California Forever as a physical manifestation of current American values: optimism, manufacturing resurgence, shipbuilding capability, affordable housing, and abundance. Sramek draws historical parallels to the transcontinental railroad, Hoover Dam, Kaiser shipyards, and the moon landing, suggesting that every era of American renewal has had its symbolic megaproject.
 
+## Highlights
+
+### "California is irreplaceable"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ElhxzUO7YQM?start=70&end=130" frameborder="0" allowfullscreen></iframe>
+
+> "Despite all of its flaws and challenges, California is irreplaceable. Whether you like it or not, there is nowhere else in America that can play the role that California plays in the United States right now."
+> — Jan Sramek, [1:10](https://www.youtube.com/watch?v=ElhxzUO7YQM&t=70s)
+
+### "All of it was entirely self-inflicted"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ElhxzUO7YQM?start=123&end=185" frameborder="0" allowfullscreen></iframe>
+
+> "It was homelessness. It was people throwing rocks at Google buses. It was companies beginning to leave the state. And all of it was entirely self-inflicted. All of it. This was a self-goal. 100% of it."
+> — Jan Sramek, [2:03](https://www.youtube.com/watch?v=ElhxzUO7YQM&t=123s)
+
+### "We cannot compete with China by throwing bodies at the problem"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ElhxzUO7YQM?start=306&end=370" frameborder="0" allowfullscreen></iframe>
+
+> "We cannot compete with China and onshore manufacturing by throwing bodies at the problem. We simply don't have enough people in America to do that. The only way that we can compete is by building factories of the future where we use robotics and AI."
+> — Jan Sramek, [5:06](https://www.youtube.com/watch?v=ElhxzUO7YQM&t=306s)
+
+### "One shipyard built more ships than the US has since WWII"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ElhxzUO7YQM?start=385&end=445" frameborder="0" allowfullscreen></iframe>
+
+> "Jong Jing Island shipyard in China built more ships last year than we have built collectively in the United States since the end of the Second World War. One shipyard."
+> — Jan Sramek, [6:25](https://www.youtube.com/watch?v=ElhxzUO7YQM&t=385s)
+
+### "The enemy is that way"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ElhxzUO7YQM?start=465&end=520" frameborder="0" allowfullscreen></iframe>
+
+> "I hate to break it to you, but the enemy is that way. If you're the Chinese Communist Party, the first thing that you'll do in any kind of conflict in the Pacific is you will bomb or otherwise shut down the Panama Canal."
+> — Jan Sramek, [7:45](https://www.youtube.com/watch?v=ElhxzUO7YQM&t=465s)
+
+### "A new shining city on a hill"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ElhxzUO7YQM?start=604&end=650" frameborder="0" allowfullscreen></iframe>
+
+> "California Forever is a physical manifestation of all of the most important things in America right now: this new optimism, manufacturing, shipbuilding, homes for everyone, speed and abundance. That's why this matters for America because all of these places need a new shining city on a hill."
+> — Jan Sramek, [10:04](https://www.youtube.com/watch?v=ElhxzUO7YQM&t=604s)
+
 ## Key Points
 
 - **California's irreplaceability** ([1:24](https://www.youtube.com/watch?v=ElhxzUO7YQM&t=84s)) - Despite its flaws, no other state can play California's role in American innovation

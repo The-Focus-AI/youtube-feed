@@ -31,6 +31,36 @@ tags:
 
 MKBHD travels to Austin, Texas to conduct a hands-on comparison between Tesla's new robotaxi service (using Model Y vehicles with safety monitors) and Waymo's driverless autonomous taxi service (using heavily modified Jaguar I-Pace vehicles). After taking multiple rides with both services throughout the day, he concludes that both perform admirably at navigating city streets, with Tesla feeling slightly more assertive and Waymo being about 25% more cautious. While Waymo offers a more polished customer experience with no human in the car, Tesla's approach is potentially more scalable due to lower hardware costs. Marques emphasizes that both companies are very early on the technology adoption curve and should prioritize safety over rushing to scale, noting that one bad incident could set back the entire industry.
 
+## Highlights
+
+### "One of the Hardest Problems on Earth"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/We2ZD0-IXPM?start=3&end=60" frameborder="0" allowfullscreen></iframe>
+
+> "Truly autonomous driving is one of the hardest technological problems to solve on planet Earth today for so many reasons. There's millions and millions of variables. No two roads are exactly alike. And the number of possible scenarios to navigate is almost infinite."
+> — Marques Brownlee, [0:03](https://www.youtube.com/watch?v=We2ZD0-IXPM&t=3s)
+
+### "Like a Really Short Driver Who Wasn't Saying Anything"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/We2ZD0-IXPM?start=255&end=320" frameborder="0" allowfullscreen></iframe>
+
+> "It felt like I was a passenger to a really short driver who wasn't saying anything."
+> — Marques Brownlee, [4:30](https://www.youtube.com/watch?v=We2ZD0-IXPM&t=270s)
+
+### "Waymos Miss the Sensor and Block Traffic"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/We2ZD0-IXPM?start=894&end=960" frameborder="0" allowfullscreen></iframe>
+
+> "He was talking about how there's certain sensors that you have to drive over and trip just the right way to get the light to change. And Waymos miss that sensor all the time and then just sit there blocking traffic. And he's had to drive up and trip the sensor for it."
+> — Marques Brownlee, [15:05](https://www.youtube.com/watch?v=We2ZD0-IXPM&t=905s)
+
+### "Worse Than iPhone vs Android Twitter"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/We2ZD0-IXPM?start=996&end=1033" frameborder="0" allowfullscreen></iframe>
+
+> "I kind of think robotaxi versus Waymo Twitter is worse than iPhone versus Android ever was."
+> — Marques Brownlee, [16:47](https://www.youtube.com/watch?v=We2ZD0-IXPM&t=1007s)
+
 ## Key Points
 
 - [0:03](https://www.youtube.com/watch?v=We2ZD0-IXPM&t=3) - Autonomous driving is described as one of the hardest technological problems on Earth due to infinite variables and high stakes

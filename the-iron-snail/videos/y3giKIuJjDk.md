@@ -27,6 +27,43 @@ Michael from The Iron Snail presents a comprehensive ranking of 16 waxed jackets
 
 The video progresses from unranked jackets (Devium, Ginew, Tom Beckbe, Iron & Resin, Dehen 1920 Crissman) through the officially ranked favorites: Bradley Mountain, Rogue Territory (27% of votes), Freenote Cloth (38 votes), Filson, Huckberry Flint and Tinder (96 votes, worn by Pedro Pascal in The Last of Us), and finally Barbour crushing the competition with 186 votes. Michael emphasizes that comfort and fit are the most important factors - jackets like Barbour and Filson rank highly because they provide room to move without fabric stress.
 
+## Highlights
+
+### "I Have Three Wax Jackets On Right Now - I'm Like a Candle"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y3giKIuJjDk?start=347&end=410" frameborder="0" allowfullscreen></iframe>
+
+> "I have three wax jackets on right now. I'm like a candle."
+> — Michael, [5:53](https://www.youtube.com/watch?v=y3giKIuJjDk&t=353s)
+
+### "200 Videos Later, Everybody Wants Comfort"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y3giKIuJjDk?start=386&end=445" frameborder="0" allowfullscreen></iframe>
+
+> "200 videos later, everybody wants comfort. That's all you want. Well, that's most of what you want."
+> — Michael, [6:30](https://www.youtube.com/watch?v=y3giKIuJjDk&t=390s)
+
+### "Freenote Cloth Is One of the Greatest American Heritage Brands Ever"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y3giKIuJjDk?start=738&end=800" frameborder="0" allowfullscreen></iframe>
+
+> "Freenote Cloth is one of the greatest, if not the greatest American heritage brands ever."
+> — Michael, [12:35](https://www.youtube.com/watch?v=y3giKIuJjDk&t=755s)
+
+### "It's Just a Flannel with Teeth"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y3giKIuJjDk?start=563&end=620" frameborder="0" allowfullscreen></iframe>
+
+> "It's just a flannel with teeth is what it feels like."
+> — Michael on the Dehen 1920 Crissman Overshirt, [9:48](https://www.youtube.com/watch?v=y3giKIuJjDk&t=588s)
+
+### "Pedro Pascal. Pedro Pascal. Pedro Pascal."
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y3giKIuJjDk?start=969&end=1030" frameborder="0" allowfullscreen></iframe>
+
+> "Pedro Pascal. Pedro Pascal. What jacket is Pedro Pascal wearing in The Last of Us? Sorry, I just had to do that to get those sweet, sweet search term views."
+> — Michael, [16:25](https://www.youtube.com/watch?v=y3giKIuJjDk&t=985s)
+
 ## Key Points
 
 - **Waxed Canvas History** ([0:54](https://www.youtube.com/watch?v=y3giKIuJjDk&t=54s)) - Originated in the seafaring world with sailors using linseed oil on sails, then applied to clothing as "oil skins" with paraffin wax for wind and rain protection

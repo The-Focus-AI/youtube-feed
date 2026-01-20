@@ -32,6 +32,50 @@ Singh makes a bold prediction: there's an 85% chance of US-China conflict within
 
 The conversation explores three eras of manufacturing (analog, digital, iterative/autonomous) and how Flow is positioning itself to accelerate the entire hardware industry's transition. Singh shares philosophical insights on hiring "second order" people who take local hits for higher slopes, and why hunger matters more than IQ.
 
+## Highlights
+
+### "The fastest design consultancy could do it in 12 weeks. We could do it in 2.5 hours."
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/989_qK5dVTU?start=112&end=175" frameborder="0" allowfullscreen></iframe>
+
+> "The fastest design consultancy in the world for hybrid rocket engines could go from requirements to detail design in about 12 weeks. We could do it in 2 and a half hours. And the reason is we built this internal platform that integrated requirements to Matlab, Matlab to CAD, CAD to CFD and FEA."
+> — Pari Singh, [1:52](https://www.youtube.com/watch?v=989_qK5dVTU&t=112s)
+
+### "China's Flow equivalent is just hardcore mode with a gun to your head"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/989_qK5dVTU?start=232&end=295" frameborder="0" allowfullscreen></iframe>
+
+> "China's Flow equivalent is just hardcore mode. 996 is easy mode for China. Hard mode for China is significantly more with a gun to your head and a gun to your family. And the cost of inadequacy there is very very high."
+> — Pari Singh, [3:52](https://www.youtube.com/watch?v=989_qK5dVTU&t=232s)
+
+### "I think that entire generation of traditional primes will die out"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/989_qK5dVTU?start=372&end=435" frameborder="0" allowfullscreen></iframe>
+
+> "Over the next 10 years I'm actually very bearish on the traditional primes. I basically short all of those. I think that entire generation will die out. And this new wave of El Segundo companies will be successful because of the way they work rather than what they're bringing to market."
+> — Pari Singh, [6:12](https://www.youtube.com/watch?v=989_qK5dVTU&t=372s)
+
+### "Starliner was more expensive, took longer, AND was lower quality"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/989_qK5dVTU?start=543&end=605" frameborder="0" allowfullscreen></iframe>
+
+> "Boeing Starliner was more expensive, it took significantly longer, but the most interesting thing is it was actually lower quality. And the reason is they tried to take this old school waterfall model on something that is so high complexity it requires a new way of working."
+> — Pari Singh, [9:03](https://www.youtube.com/watch?v=989_qK5dVTU&t=543s)
+
+### "There's an 85% chance that the US and China go to war in the next 5 years"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/989_qK5dVTU?start=907&end=970" frameborder="0" allowfullscreen></iframe>
+
+> "I think there's an 85% chance that the US and China go to war in the next 5 years. I think it's like that high. Xi Jinping has been incredibly explicit around it. There's also a great book by Ray Dalio called The New World Order about the rise and fall of superpowers."
+> — Pari Singh, [15:07](https://www.youtube.com/watch?v=989_qK5dVTU&t=907s)
+
+### "If I could trade 20 IQ points for 20 hunger points, I'd make that trade"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/989_qK5dVTU?start=2975&end=3040" frameborder="0" allowfullscreen></iframe>
+
+> "If I could trade myself 20 IQ points for 20 hunger points, I'd make that trade. Smarter people see more ways things can go wrong. They often don't see what could go right."
+> — Pari Singh, [49:35](https://www.youtube.com/watch?v=989_qK5dVTU&t=2975s)
+
 ## Key Points
 
 - **Engineering is Broken** ([0:14](https://www.youtube.com/watch?v=989_qK5dVTU&t=14s)) - The way engineering is done hasn't fundamentally changed since the space race; the biggest problem isn't designing rockets or nuclear reactors, it's how companies work

@@ -38,6 +38,50 @@ The video addresses the controversy around Chamath's statin use after he posted 
 
 The video also reveals some unexpected findings from the Prenuvo scan: while Chamath's brain health shows normal blood flow with no concerning changes (despite FDA warnings about statins and memory loss), he has experienced some muscle loss. This becomes a humorous moment as Chamath acknowledges that internet trolls will love this news, joking that it feeds the "leg day" conspiracy. He commits to building muscle mass over the next 10-12 years as preparation for his 60s and 70s. The video concludes with Chamath's philosophy that optimal health is a journey, not a destination, and that "living well is the best return there is."
 
+## Highlights
+
+### "My father lived a really unhealthy life"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_m_jwz5hzzw?start=30&end=90" frameborder="0" allowfullscreen></iframe>
+
+> "My father lived a really unhealthy life. He struggled with alcoholism for decades. He was diabetic. He had heart issues. And in the end, he died of a cardiac arrest."
+> — Chamath Palihapitiya, [0:30](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=30s)
+
+### "I could say the sky is blue and there will be opinions that say it's not"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_m_jwz5hzzw?start=139&end=180" frameborder="0" allowfullscreen></iframe>
+
+> "What I've learned in my career is I could talk about anything. I could say the sky is blue and there will be opinions that say it's not."
+> — Chamath Palihapitiya, [2:19](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=139s)
+
+### "The more success you have, the easier it is to detach yourself from real life"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_m_jwz5hzzw?start=340&end=395" frameborder="0" allowfullscreen></iframe>
+
+> "The more success that you can have, the easier it is to detach yourself from real life. And then you start to miss out on people."
+> — Chamath Palihapitiya, [5:40](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=340s)
+
+### "Suck it, people. All the haters out there."
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_m_jwz5hzzw?start=497&end=545" frameborder="0" allowfullscreen></iframe>
+
+> "Suck it, people. All the haters out there. Nothing worrisome, no change when it comes to my brain. I'm really relieved."
+> — Chamath Palihapitiya, [8:17](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=497s)
+
+### "You have a zero calcium score"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_m_jwz5hzzw?start=582&end=640" frameborder="0" allowfullscreen></iframe>
+
+> "What I'm going to do now is present something that's quite astonishing. You have a zero calcium score and you still have a zero calcium score."
+> — Dr. Carlsburg, [9:42](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=582s)
+
+### "Living well is the best return there is"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_m_jwz5hzzw?start=714&end=751" frameborder="0" allowfullscreen></iframe>
+
+> "Optimal health isn't a destination. It's a journey. But at the end of the day, we all face the same choice. Do we wait until something breaks or do we start listening now? Starting the health journey can be scary. But in my opinion, I think it's worth it because living well is the best return there is."
+> — Chamath Palihapitiya, [11:54](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=714s)
+
 ## Key Points
 
 - **Personal motivation** ([0:30](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=30s)) - Chamath's father struggled with alcoholism, diabetes, and heart issues before dying of cardiac arrest

@@ -32,6 +32,50 @@ A roundtable discussion filmed on a ferry in San Francisco featuring five hardte
 
 The founders discuss why they started their companies, the frontier spirit of San Francisco, and the challenges of building hardware in America versus China. They delve into topics including the de-industrialization of America, regulatory obstacles (NEPA, CEQA), the cultural shifts in Silicon Valley over 60 years, and what's wrong with San Francisco today. The conversation touches on AI talent being overpaid, the emergence of "AI cult houses," and the need for better storytelling around hardtech to provide "narrative air cover" for ambitious builders.
 
+## Highlights
+
+### "Silicon Valley got really rich off of enterprise SaaS - now it feels like a return to form"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FddjP_zNkyc?start=0&end=65" frameborder="0" allowfullscreen></iframe>
+
+> "Silicon Valley used to be the innovation capital of the world. It's where the semiconductor was done, where the internet was pioneered. Then there's skyscrapers built behind us solely for software as a service. The past 10 years the city has changed and I don't think all for the better. But it feels like a return to form for Silicon Valley is happening right now."
+> — Jason Carman, [0:00](https://www.youtube.com/watch?v=FddjP_zNkyc&t=0s)
+
+### "We know more about the surface of Mars than our own oceans"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FddjP_zNkyc?start=532&end=600" frameborder="0" allowfullscreen></iframe>
+
+> "The subsea technology space is so ancient. It hasn't changed much since the 80s. We know more about the surface of Mars than we know about our own oceans. We believe Atlantis is out there somewhere. There's trillions of dollars of minerals at the bottom of the ocean."
+> — Will O'Brien, [8:52](https://www.youtube.com/watch?v=FddjP_zNkyc&t=532s)
+
+### "The appliance market is as big as the smartphone market - and there is no Apple"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FddjP_zNkyc?start=1603&end=1665" frameborder="0" allowfullscreen></iframe>
+
+> "The appliance market is just as big as the smartphone market. And there is no Apple in that market, which makes no sense. The appliance industry has been neglected for decades without seeing a ton of innovation."
+> — Sam D'Amico, [26:43](https://www.youtube.com/watch?v=FddjP_zNkyc&t=1603s)
+
+### "Jim Belosic is the best American manufacturing founder CEO alive"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FddjP_zNkyc?start=1915&end=1980" frameborder="0" allowfullscreen></iframe>
+
+> "Jim Belosic is probably the best American manufacturing founder CEO alive right now. SendCutSend delivers parts as fast, cheap, and reliably and quality as China does within days. He employs Americans, shows other manufacturing companies what they can do."
+> — Roundtable Discussion, [31:55](https://www.youtube.com/watch?v=FddjP_zNkyc&t=1915s)
+
+### "A kid in rural Kansas with $200/month has access to the best AI tools"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FddjP_zNkyc?start=1755&end=1820" frameborder="0" allowfullscreen></iframe>
+
+> "We're at the highest leverage point in decades. A kid in rural Kansas, as long as they're down to pay 200 bucks a month for the latest AI models, has access to the best information sources. You can use them to code, to build stuff. It's unprecedented."
+> — Sam D'Amico, [29:15](https://www.youtube.com/watch?v=FddjP_zNkyc&t=1755s)
+
+### "Storytellers create narrative air cover for builders of scary-sounding things"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FddjP_zNkyc?start=1418&end=1485" frameborder="0" allowfullscreen></iframe>
+
+> "The storytellers are an underrated part of the equation. Technologists building scary-sounding things need storytellers to create beautiful narrative about the future that pulls people to work at these great companies and support them and not be afraid."
+> — Jason Carman, [23:38](https://www.youtube.com/watch?v=FddjP_zNkyc&t=1418s)
+
 ## Key Points
 
 - **Silicon Valley return to form** ([0:33](https://www.youtube.com/watch?v=FddjP_zNkyc&t=33s)) - Silicon Valley pioneered semiconductors and the internet, then got rich off enterprise SaaS; now seeing a return to building physical things

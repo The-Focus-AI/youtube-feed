@@ -43,6 +43,50 @@ Browder discusses growing up as the son of Bill Browder, who was once Putin's nu
 
 The interview covers DoNotPay's journey from a free parking ticket appeal service to a consumer rights company with over 100 products, including a clever virtual credit card system to help people sue robocall companies. Browder shares how he almost gave up after 19 VC rejections, but a pivot in his pitch strategy and demo approach led to immediate investment offers. He also recounts living in the original Facebook house and using tour buses to acquire app downloads, interviewing Warren Buffett at a Microsoft summit, and his philosophy on momentum, investing in young founders, and building a sustainable, profitable business.
 
+## Highlights
+
+### "With software you can build things without asking for permission"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/INCjTTw-rwg?start=50&end=115" frameborder="0" allowfullscreen></iframe>
+
+> "I love software because you can build things without asking for other people's permission. As a child I was looking at all these career paths - you have to work for 30 years somewhere, work your way up, then eventually build something. But with software you have the power to create something and if it's useful anyone in the world can use it."
+> — Joshua Browder, [0:50](https://www.youtube.com/watch?v=INCjTTw-rwg&t=50s)
+
+### "They wanted to sue me - then realized I was 14"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/INCjTTw-rwg?start=245&end=310" frameborder="0" allowfullscreen></iframe>
+
+> "Pret A Manger invited me to talk to their legal team so they could educate me on copyright law. I showed up and they realized I was a 14-year-old. They completely changed because it wouldn't look good if they sued a 14-year-old app developer who was just passionate about their sandwiches. They made me the official app developer instead."
+> — Joshua Browder, [4:45](https://www.youtube.com/watch?v=INCjTTw-rwg&t=285s)
+
+### "My father was Putin's number one foreign enemy"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/INCjTTw-rwg?start=364&end=430" frameborder="0" allowfullscreen></iframe>
+
+> "My father, Bill Browder, was Putin's number one foreign enemy. He pushed the Magnitsky Act that froze billions in Russian assets. Russians would show up to our house to scare us. When you have dangerous groups after your family, it puts everything in perspective - health and safety are what really matter."
+> — Joshua Browder, [6:04](https://www.youtube.com/watch?v=INCjTTw-rwg&t=364s)
+
+### "One man made close to $100k full-time suing robocallers"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/INCjTTw-rwg?start=1059&end=1125" frameborder="0" allowfullscreen></iframe>
+
+> "We built a virtual credit card trap to identify robocall companies. Under the Telephone Consumer Protection Act, you can sue them for $1,500 per call. One man made close to $100,000 doing this full-time. He would go to small claims court in New Jersey and just sue these robocallers."
+> — Joshua Browder, [17:39](https://www.youtube.com/watch?v=INCjTTw-rwg&t=1059s)
+
+### "I interviewed Warren Buffett as a Stanford sophomore"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/INCjTTw-rwg?start=1223&end=1290" frameborder="0" allowfullscreen></iframe>
+
+> "As a Stanford sophomore, I got invited to interview Warren Buffett at Microsoft's AGM. I asked him about consumer rights and he told me about his first lawsuit against Harper's Magazine - they wouldn't refund him when he canceled his subscription. That story inspired our free trial card product."
+> — Joshua Browder, [20:23](https://www.youtube.com/watch?v=INCjTTw-rwg&t=1223s)
+
+### "After 19 VC rejections, one advisor changed everything"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/INCjTTw-rwg?start=1946&end=2015" frameborder="0" allowfullscreen></iframe>
+
+> "After 19 VC rejections, I was about to give up. Damon Weiss helped me revamp my pitch - showed a live demo, used Intuit and Honey as comparables, positioned as subscription business. The very next pitch got an offer on the spot."
+> — Joshua Browder, [32:26](https://www.youtube.com/watch?v=INCjTTw-rwg&t=1946s)
+
 ## Key Points
 
 - **Anti-authority mindset** ([0:52](https://www.youtube.com/watch?v=INCjTTw-rwg&t=52s)) - Software allows you to build things without asking permission, unlike traditional career paths that require 30 years to work your way up

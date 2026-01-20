@@ -40,6 +40,43 @@ tags:
 
 MKBHD reveals his 2026 daily driver phone setup, showcasing a two-phone system with the OnePlus 15 as his primary Android device and the iPhone 17 Pro in Orange as his secondary phone. He walks through his home screen layouts, favorite apps, and widgets on both devices, explaining why he chose each app and how his setup has evolved over five years. The video highlights productivity tools like TickTick, weather apps like CARROT Weather, podcast apps including Pocket Casts and Neuecast, and cross-platform utilities like Blip for file sharing. He also discusses iOS features like Liquid Glass and the Action button, Android advantages like scrollable widgets, and closes with a Dbrand Black Friday sponsorship.
 
+## Highlights
+
+### "Do I regret getting orange?"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KW21q_7U6Ao?start=367&end=420" frameborder="0" allowfullscreen></iframe>
+
+> "Do I regret getting orange? Uh, yeah, a little bit. Yeah. I wish there was a black one."
+> — Marques Brownlee, [6:12](https://www.youtube.com/watch?v=KW21q_7U6Ao&t=372s)
+
+### "Gemini on lock screen because Siri is bad"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KW21q_7U6Ao?start=390&end=440" frameborder="0" allowfullscreen></iframe>
+
+> "I have also got Gemini on the lock screen because Siri is bad."
+> — Marques Brownlee, [6:32](https://www.youtube.com/watch?v=KW21q_7U6Ao&t=392s)
+
+### "Why can't iPhone widgets scroll?"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KW21q_7U6Ao?start=245&end=295" frameborder="0" allowfullscreen></iframe>
+
+> "Why can't you do that on the iPhone yet? They've had widgets for... None of them scroll. Let us scroll."
+> — Marques Brownlee, [4:12](https://www.youtube.com/watch?v=KW21q_7U6Ao&t=252s)
+
+### "Flighty is one of the most useful apps of all time"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KW21q_7U6Ao?start=655&end=700" frameborder="0" allowfullscreen></iframe>
+
+> "Flighty, which is, as someone who's... one of the most useful apps of all time."
+> — Marques Brownlee, [11:00](https://www.youtube.com/watch?v=KW21q_7U6Ao&t=660s)
+
+### "Phone app feels weird not to have"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KW21q_7U6Ao?start=145&end=195" frameborder="0" allowfullscreen></iframe>
+
+> "I really don't make that many phone calls, but for whatever reason it feels weird not having the phone app down there, so it's always there."
+> — Marques Brownlee, [2:31](https://www.youtube.com/watch?v=KW21q_7U6Ao&t=151s)
+
 ## Key Points
 
 - [0:08](https://www.youtube.com/watch?v=KW21q_7U6Ao&t=8s) - Last time he did this video, Samsung was his daily driver and Dark Sky was his favorite weather app

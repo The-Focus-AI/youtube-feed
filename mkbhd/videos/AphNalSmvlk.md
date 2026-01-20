@@ -30,6 +30,36 @@ tags:
 
 MKBHD reviews iPadOS 26 after three weeks of testing, evaluating whether the iPad can finally replace a laptop. The update brings significant improvements to window management, allowing users to resize any app window freely and have up to eight windows open simultaneously. While the iPad is now more capable than ever as a computer, MKBHD concludes that the question has shifted from "Can the iPad replace a laptop?" to "Do I want it to?" He finds that the iPad excels in versatility - offering a better lean-back experience, touchscreen, Apple Pencil support, and cellular connectivity - but still recommends a laptop if computing is your primary need. The iPad's strength lies in being more versatile than a laptop, not in being a laptop replacement.
 
+## Highlights
+
+### "Apple Finally Did The Thing"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AphNalSmvlk?start=2&end=55" frameborder="0" allowfullscreen></iframe>
+
+> "When iPadOS 26 got announced, it looked like a game changer. It felt like everybody on the internet who was waiting for years just watched Apple finally do the thing. They just made the iPad a computer."
+> — Marques Brownlee, [0:02](https://www.youtube.com/watch?v=AphNalSmvlk&t=2s)
+
+### "Can I? vs Do I Want To?"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AphNalSmvlk?start=411&end=475" frameborder="0" allowfullscreen></iframe>
+
+> "The question isn't actually, 'Can I replace my laptop with an iPad?' Because yes, I can. The question really became 'Do I want to?'"
+> — Marques Brownlee, [6:57](https://www.youtube.com/watch?v=AphNalSmvlk&t=417s)
+
+### "What You've Created is Basically a Laptop"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AphNalSmvlk?start=558&end=620" frameborder="0" allowfullscreen></iframe>
+
+> "But then look at what you've created, like adding a mouse and a keyboard, a display, the Folio case, like the whole thing is suddenly basically the same thickness and weight as a laptop again. So you might as well just get the laptop."
+> — Marques Brownlee, [9:32](https://www.youtube.com/watch?v=AphNalSmvlk&t=572s)
+
+### "It's Still an iPad, Which is Pretty Sweet"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AphNalSmvlk?start=619&end=680" frameborder="0" allowfullscreen></iframe>
+
+> "So no doubt the ceiling of what an iPad is capable of as a computer has been raised, but it's still an iPad, which is pretty sweet too."
+> — Marques Brownlee, [11:02](https://www.youtube.com/watch?v=AphNalSmvlk&t=662s)
+
 ## Key Points
 
 - [0:02](https://www.youtube.com/watch?v=AphNalSmvlk&t=2) - iPadOS 26 looked like a game changer when announced, with many feeling Apple finally made the iPad a real computer

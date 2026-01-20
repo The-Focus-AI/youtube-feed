@@ -43,6 +43,43 @@ The video features an interview with Pranav Gokhale, CTO of Infleqtion, who demo
 
 The discussion covers practical aspects including costs ($10-50 million per system), software stacks like Superstack (inspired by CUDA), and current use cases. While quantum computing for general computation is still developing, quantum sensing is already here in everyday applications like GPS atomic clocks. The 100 logical qubit milestone is identified as the key inflection point for unlocking major applications in material science, drug discovery, and AI. Ksenia predicts it will take another 12-15 years for quantum computing to reach widespread commercial viability across diverse use cases.
 
+## Highlights
+
+### "Quantum computers break that paradigm"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u8zYKDtaihA?start=323&end=375" frameborder="0" allowfullscreen></iframe>
+
+> "Quantum computers are violations of the Extended Church-Turing Thesis which basically said that every computer is at this one level the exact same. GPU is the same as CPU. Granted, it's a lot faster, but it's 10,000x faster. It's not infinite faster. This quantum computer here actually breaks that paradigm."
+> — Pranav Gokhale, [5:23](https://www.youtube.com/watch?v=u8zYKDtaihA&t=323s)
+
+### "The irony is they need to co-process with GPU"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u8zYKDtaihA?start=373&end=420" frameborder="0" allowfullscreen></iframe>
+
+> "The irony is even though quantum computers go beyond CPU and GPU and TPU etc., to get there, they need to co-process with GPU in parallel."
+> — Pranav Gokhale, [6:17](https://www.youtube.com/watch?v=u8zYKDtaihA&t=377s)
+
+### "Quantum computing is actually already here for sensing"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u8zYKDtaihA?start=469&end=520" frameborder="0" allowfullscreen></iframe>
+
+> "We talk about computing as the next big thing but it's actually already here for quantum sensing. Atomic clocks pervade our daily life. We use them anytime we use GPS. That's really an atomic clock system and that's a quantum system."
+> — Pranav Gokhale, [7:52](https://www.youtube.com/watch?v=u8zYKDtaihA&t=472s)
+
+### "Atoms are very indecisive by nature"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u8zYKDtaihA?start=73&end=120" frameborder="0" allowfullscreen></iframe>
+
+> "And atoms are very indecisive by nature. Such naughty creatures those atoms are. They want to have different possibilities, different options at the same time. They want to have yes and no at the same moment. I love them."
+> — Ksenia, [1:13](https://www.youtube.com/watch?v=u8zYKDtaihA&t=73s)
+
+### "It overturns eight decades of how people thought about computing"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u8zYKDtaihA?start=660&end=700" frameborder="0" allowfullscreen></iframe>
+
+> "The amazing and beautiful thing about quantum computing is that it overturns eight decades of how people traditionally thought about computing."
+> — Pranav Gokhale, [11:08](https://www.youtube.com/watch?v=u8zYKDtaihA&t=668s)
+
 ## Key Points
 
 - **Extended Church-Turing Thesis Violation** ([5:23](https://www.youtube.com/watch?v=u8zYKDtaihA&t=323s)) - Quantum computers break the paradigm that all computers are fundamentally equivalent, showing there's a model of computation that is fundamentally faster, not just incrementally faster

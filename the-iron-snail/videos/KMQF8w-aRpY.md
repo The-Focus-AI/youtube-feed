@@ -32,6 +32,43 @@ Michael explores the history and construction of the N1 deck jacket, examining w
 
 The video compares three modern interpretations of the N1: The Real McCoy's museum-grade replica with authentic 50% alpaca/50% wool pile lining, Dehen 1920's waxed canvas version with mouton lining, and Heat Straps' massive 7-pound version with 24oz canvas and quilted wool batting. Using a homemade thermal testing system with a reptile heating pad, Michael tests the warmth of each jacket and explains the science behind insulation, including why alpaca fiber is exceptional due to being both fine and hollow.
 
+## Highlights
+
+### "The Other Job Was to Make Sure You Don't Get Trapped Inside Your Jacket"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KMQF8w-aRpY?start=27&end=75" frameborder="0" allowfullscreen></iframe>
+
+> "The other job was to make sure that you don't get trapped inside of your jacket if you were getting covered with freezing salt water all day."
+> — Michael, [0:27](https://www.youtube.com/watch?v=KMQF8w-aRpY&t=27s)
+
+### "The Navy Borrowed Hook Closure Technology from Firefighters"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KMQF8w-aRpY?start=362&end=420" frameborder="0" allowfullscreen></iframe>
+
+> "So the US Navy said hey accountants can we borrow that technology and they said absolutely."
+> — Michael, [6:25](https://www.youtube.com/watch?v=KMQF8w-aRpY&t=385s)
+
+### "Alpaca is Fine and Hollow - An Incredible Insulator"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KMQF8w-aRpY?start=615&end=665" frameborder="0" allowfullscreen></iframe>
+
+> "Alpaca is fine and hollow so it's very very warm which means that your coat or your jacket can be warmer without a lot of added weight."
+> — Michael, [10:41](https://www.youtube.com/watch?v=KMQF8w-aRpY&t=641s)
+
+### "The Answer Was Never a One System Closure"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KMQF8w-aRpY?start=509&end=560" frameborder="0" allowfullscreen></iframe>
+
+> "The answer was never a one system closure system... perhaps instead of there being one fix all solution we need to break the solution up."
+> — Michael, [8:40](https://www.youtube.com/watch?v=KMQF8w-aRpY&t=520s)
+
+### "Heat Straps Won the Warmth Championship"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KMQF8w-aRpY?start=776&end=830" frameborder="0" allowfullscreen></iframe>
+
+> "The warmest jacket that we tested today is Heat Straps. They came in with 10 degrees... The Real McCoys is warmer than the Levi's sherpa jacket just because of the storm cuffs alone."
+> — Michael, [13:21](https://www.youtube.com/watch?v=KMQF8w-aRpY&t=801s)
+
 ## Key Points
 
 - **Alpaca Wool Blend** ([0:04](https://www.youtube.com/watch?v=KMQF8w-aRpY&t=4s)) - The original N1 deck jacket lining was 50% wool and 50% alpaca, designed to prevent sailors from getting trapped inside frozen jackets

@@ -38,6 +38,50 @@ Tony Hinchcliffe delivers a brutal roast of all the hosts, hitting Jason Calacan
 
 The hosts then perform their own standup sets, with David Sacks particularly impressing Tony with his roast material. The show concludes with the annual Bestie Awards, covering categories like biggest business winner (Alphabet/Google), biggest political winner (crypto and David Sacks), breakthrough of the year (asteroid Bennu discoveries and humanoid robots), and the "Disgraciad" awards.
 
+## Highlights
+
+### "Why Billionaires Do a Podcast"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7_3gKoQPUfM?start=349&end=400" frameborder="0" allowfullscreen></iframe>
+
+> "You guys realize you don't have to do a podcast, right? Whenever anyone is asked what they would do if they had a billion dollars, I've never heard the answer: attend weekly Zoom calls."
+> — Tony Hinchcliffe, [6:02](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=362s)
+
+### "Tony's Struggle Years: $300 Rent for a Bean Bag"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7_3gKoQPUfM?start=1413&end=1470" frameborder="0" allowfullscreen></iframe>
+
+> "I paid 300 rent for a bean bag on the ground. And let me remind you, the bathrooms were in the other guy's bedroom. So you had to tiptoe if you had to pee in the middle of the night through somebody else's bedroom."
+> — Tony Hinchcliffe, [23:40](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=1420s)
+
+### "Elon Buying Twitter Changed Everything"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7_3gKoQPUfM?start=2038&end=2100" frameborder="0" allowfullscreen></iframe>
+
+> "Elon bought Twitter and that was the first event that shifted the momentum."
+> — Tony Hinchcliffe, [34:21](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=2061s)
+
+### "Sacks Destroys JCal: The Epstein Files Hoax"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7_3gKoQPUfM?start=2530&end=2580" frameborder="0" allowfullscreen></iframe>
+
+> "I knew the Epstein files were a hoax as soon as I saw that JCal was in them. Couldn't want to blackmail a loser."
+> — David Sacks, [42:12](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=2532s)
+
+### "Alphabet's Historic $2 Trillion Year"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7_3gKoQPUfM?start=3014&end=3070" frameborder="0" allowfullscreen></iframe>
+
+> "Alphabet went from two trillion market cap to 4 trillion market cap this year. That's 10 billion market cap gain every day. They added 10 billion of value every day for the entire year."
+> — David Friedberg, [50:36](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=3036s)
+
+### "Kill Tony Success: Dedric Flynn's Story"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7_3gKoQPUfM?start=3261&end=3320" frameborder="0" allowfullscreen></iframe>
+
+> "In just four weeks, he was made a regular randomly. Pulled him out of the bucket. Saw him. The interview so likable. I skipped golden ticket and made him the first appointed regular that we maybe get one of those every two years."
+> — Tony Hinchcliffe, [54:21](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=3261s)
+
 ## Key Points
 
 - **Tony Hinchcliffe Roast** ([2:47](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=167s)) - Tony delivers brutal jokes about all four hosts, San Francisco's homeless problem, and the billionaire podcast phenomenon

@@ -33,6 +33,50 @@ The highlight of the tournament comes early when Phil Hellmuth, widely considere
 
 The tournament concludes with Chamath Palihapitiya winning the "First Annual All-In Venetian 5-Minute Turbo Bounty" after heads-up play against Jason Calacanis, holding pocket kings against ace-seven. Throughout the game, the players share poker stories, discuss legendary player Stu Ungar, debate whether to attend the Bahamas poker tournament, plan skiing trips to Tahoe, and discuss Formula One racing. Alan Keating shares an entertaining story about getting into a near-fistfight at Carbone restaurant the night before.
 
+## Highlights
+
+### "Nothing Better Than Hellmuth Not Winning"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qG4gaIGXaK4?start=1725&end=1780" frameborder="0" allowfullscreen></iframe>
+
+> "Nothing better than Hellmuth not winning. There is nothing better than that."
+> — Chamath Palihapitiya, [28:45](https://www.youtube.com/watch?v=qG4gaIGXaK4&t=1725s)
+
+### "Poker Wisdom: Sometimes You Have to Gamble"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qG4gaIGXaK4?start=1760&end=1820" frameborder="0" allowfullscreen></iframe>
+
+> "Sometimes even if you know you're beat, if you're being laid a price to gamble, sometimes you have to gamble and it's better than folding. I think there's a lot of analogies to that in business."
+> — Jason Koon, [29:23](https://www.youtube.com/watch?v=qG4gaIGXaK4&t=1763s)
+
+### "Phil Hellmuth Eliminated First"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qG4gaIGXaK4?start=1955&end=2010" frameborder="0" allowfullscreen></iframe>
+
+> "Phil Hellmuth loses. Phil Hellmuth out first. This is what we live for, folks. Phil losing a tournament. Going out first. The world's greatest tournament player loses to Allan Keating the Wild Man."
+> — Jason Calacanis, [32:37](https://www.youtube.com/watch?v=qG4gaIGXaK4&t=1957s)
+
+### "Molly Bloom on Running Her Games"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qG4gaIGXaK4?start=2160&end=2220" frameborder="0" allowfullscreen></iframe>
+
+> "I never played when I was running games. The government took over so I didn't really have any money to play."
+> — Molly Bloom, [36:16](https://www.youtube.com/watch?v=qG4gaIGXaK4&t=2176s)
+
+### "Stu Ungar: The Greatest of All Time"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qG4gaIGXaK4?start=2713&end=2770" frameborder="0" allowfullscreen></iframe>
+
+> "At age 15, Stu was the best gin player in the world. At one point he finished in the top four in the world backgammon championships, was the best gin player in the world, no one would play him, and was the best hold 'em player in the world, all at the same time."
+> — Phil Hellmuth, [45:17](https://www.youtube.com/watch?v=qG4gaIGXaK4&t=2717s)
+
+### "Chamath Wins the Tournament"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qG4gaIGXaK4?start=3565&end=3612" frameborder="0" allowfullscreen></iframe>
+
+> "Chamath, winner of the first annual All-In Venetian 5-minute turbo bounty."
+> — Jason Calacanis, [59:55](https://www.youtube.com/watch?v=qG4gaIGXaK4&t=3595s)
+
 ## Key Points
 
 - **Tournament Introduction** ([0:00](https://www.youtube.com/watch?v=qG4gaIGXaK4&t=0s)) - Jason Calacanis introduces the first-ever All-In Bestie Invitational Tournament at the Venetian, featuring three besties plus Phil Hellmuth, Alan Keating, and Jason Koon

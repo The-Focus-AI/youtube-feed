@@ -40,6 +40,43 @@ tags:
 
 In this "Dope Tech Revisited" episode, Marques Brownlee returns to the beloved Dope Tech series after more than a year to examine successors to products previously featured on the show. The video covers four products: the Logitech MX Master 4 productivity mouse (featuring new haptics and improved durability), the Devialet Phantom Ultimate speaker (now available in 98dB and 108dB versions with stereo pairing), the Samsung Galaxy Tab S11 Ultra (an impressive iPad competitor at 5.1mm thin with a 14.6" display), and the groundbreaking Nikon ZR camera - a collaboration between Nikon and RED that delivers cinema-quality R3D video in a compact mirrorless body for just $2,200. The theme throughout is evaluating whether these iterative product updates remain "dope" or have lost their appeal.
 
+## Highlights
+
+### "The Porsche 911 of computer mice"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RvP-uVNwnXo?start=223&end=280" frameborder="0" allowfullscreen></iframe>
+
+> "I feel like this is becoming like the Porsche 911 of computer mice... This is not changing very much from generation to generation. It keeps the same silhouette, the iconic shape that everyone knows. But each time they improve a little bit and iterate over and over to the nth degree."
+> — Marques Brownlee, [3:43](https://www.youtube.com/watch?v=RvP-uVNwnXo&t=223s)
+
+### "Thinner than iPad Pro, thinner than iPhone Air"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RvP-uVNwnXo?start=518&end=570" frameborder="0" allowfullscreen></iframe>
+
+> "That's not just thinner than most tablets. That is thinner than the iPad Pro, thinner than the iPhone Air, and just about anything this big with a screen on it."
+> — Marques Brownlee, [8:51](https://www.youtube.com/watch?v=RvP-uVNwnXo&t=531s)
+
+### "Two companies merging and the consumer wins"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RvP-uVNwnXo?start=762&end=820" frameborder="0" allowfullscreen></iframe>
+
+> "In the long, long history of people's favorite tech companies getting purchased, how many of those are a story that ends with everyone being happy other than people getting paid? Not very many."
+> — Marques Brownlee, [12:42](https://www.youtube.com/watch?v=RvP-uVNwnXo&t=762s)
+
+### "The tool should enable creativity"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RvP-uVNwnXo?start=894&end=945" frameborder="0" allowfullscreen></iframe>
+
+> "Philosophically, I feel like it should be the other way around. The tool should enable whatever creative thing you want to make."
+> — Marques Brownlee, [14:54](https://www.youtube.com/watch?v=RvP-uVNwnXo&t=894s)
+
+### "Devialet speakers in Newark airport"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RvP-uVNwnXo?start=401&end=450" frameborder="0" allowfullscreen></iframe>
+
+> "Fun fact, I now mostly see these in Newark airport. Next time you're in Newark airport, look up in the corners of the little kiosks and the tiny stores they have in between gates, and I guarantee you'll start seeing tons of these little speakers from Devialet."
+> — Marques Brownlee, [6:41](https://www.youtube.com/watch?v=RvP-uVNwnXo&t=401s)
+
 ## Key Points
 
 ### Logitech MX Master 4 ([0:00](https://www.youtube.com/watch?v=RvP-uVNwnXo&t=0s))

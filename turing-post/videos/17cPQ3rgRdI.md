@@ -37,6 +37,36 @@ The video features interviews with practitioners from major AI companies includi
 
 A key insight shared across multiple interviews is that while larger context windows exist (up to 10 million tokens in some architectures), actually using all that context leads to confused models and expensive operations. Several experts recommend stopping conversations at just 5-10% of the available context window and giving models small, focused tasks before killing the session and starting fresh.
 
+## Highlights
+
+### "We're Burning GPUs Just to Remember That You Said Hello"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/17cPQ3rgRdI?start=30&end=90" frameborder="0" allowfullscreen></iframe>
+
+> "We're burning GPUs just to remember that you said hello a bunch of windows before."
+> — Turing Post Host, [0:51](https://www.youtube.com/watch?v=17cPQ3rgRdI&t=51s)
+
+### "You're Smearing Intelligence Across the Context Window"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/17cPQ3rgRdI?start=73&end=130" frameborder="0" allowfullscreen></iframe>
+
+> "You're basically smearing the intelligence across different parts of the context window."
+> — Dex Horthy, [1:19](https://www.youtube.com/watch?v=17cPQ3rgRdI&t=79s)
+
+### "Talk to Claude 60-70 Hours a Week to Build Intuition"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/17cPQ3rgRdI?start=338&end=395" frameborder="0" allowfullscreen></iframe>
+
+> "Just talk to Claude for 60-70 hours a week for a couple weeks and you will build the right intuition to know what's working, what's not working in your context window."
+> — Steve Yegge, [5:59](https://www.youtube.com/watch?v=17cPQ3rgRdI&t=359s)
+
+### "When It Hits 5-10%, I Am Done"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/17cPQ3rgRdI?start=508&end=555" frameborder="0" allowfullscreen></iframe>
+
+> "And when it hits about 10%, even when it hits 5%, I am done... It'll pay you off at 20%."
+> — Steve Yegge, [8:41](https://www.youtube.com/watch?v=17cPQ3rgRdI&t=521s)
+
 ## Key Points
 
 - **Quadratic Attention Problem** ([0:30](https://www.youtube.com/watch?v=17cPQ3rgRdI&t=30s)) - The bottleneck is in self-attention mechanisms where every token must look at every other token, causing compute to quadruple rather than double as context grows

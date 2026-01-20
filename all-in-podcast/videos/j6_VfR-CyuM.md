@@ -38,6 +38,43 @@ The conversation delves deeply into free speech issues, with Musk explaining how
 
 Musk also addresses AI developments, calling it a "supersonic tsunami" that's coming whether he wants it or not. He recounts how Larry Page called him a "speciesist" for prioritizing human safety over AI, which motivated him to create OpenAI as a counterweight to Google's AI monopoly. He expresses frustration that OpenAI has become "closed for maximum profit AI" rather than the open source nonprofit it was founded as. The episode concludes with discussions on Tesla's robotaxi rollout, AI power efficiency compared to the human brain's 10-watt operation, China's dominance in solar panel manufacturing, and Bill Gates' surprising lack of scientific knowledge on electric trucks.
 
+## Highlights
+
+### "$400 lunches at empty Twitter HQ"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j6_VfR-CyuM?start=1605&end=1665" frameborder="0" allowfullscreen></iframe>
+
+> "We discovered that the actual price of the lunch was $400. The original price was $20, but it was at 5% occupancy. So it was 20 times higher and they still kept making the same amount."
+> — Elon Musk, [26:55](https://www.youtube.com/watch?v=j6_VfR-CyuM&t=1615s)
+
+### "Fresh tampons in empty building for years"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j6_VfR-CyuM?start=1750&end=1810" frameborder="0" allowfullscreen></iframe>
+
+> "Every week they would put a fresh box of tampons in an empty building for years. You'd have to be a burglar who is a transman burglar unwilling to use the woman's bathroom. You're more likely to be struck by a meteor than need that tampon."
+> — Elon Musk, [29:35](https://www.youtube.com/watch?v=j6_VfR-CyuM&t=1775s)
+
+### "Larry called me a speciesist"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j6_VfR-CyuM?start=3140&end=3200" frameborder="0" allowfullscreen></iframe>
+
+> "Larry, what side are you on? He called me a speciesist for being pro-human. I'm like, we need to make sure the AI doesn't destroy all the humans. And then he called me a speciesist."
+> — Elon Musk, [52:40](https://www.youtube.com/watch?v=j6_VfR-CyuM&t=3160s)
+
+### "Closed for Maximum Profit AI"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j6_VfR-CyuM?start=3270&end=3330" frameborder="0" allowfullscreen></iframe>
+
+> "OpenAI needs to change its name to Closed for Maximum Profit AI. It went from being the United Nations to being Spectre in James Bond land."
+> — Elon Musk, [55:00](https://www.youtube.com/watch?v=j6_VfR-CyuM&t=3300s)
+
+### "Bill Gates didn't know the numbers"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j6_VfR-CyuM?start=4260&end=4320" frameborder="0" allowfullscreen></iframe>
+
+> "He came to visit me at the Tesla Gigafactory and was telling me it's impossible to have a long range semi truck. I was like, well but we literally have them. And Pepsi is literally using them right now. And he's like, 'No, no, it doesn't work.' And he didn't know any of the numbers."
+> — Elon Musk, [1:11:00](https://www.youtube.com/watch?v=j6_VfR-CyuM&t=4260s)
+
 ## Key Points
 
 - **Disgraziad Corner Introduction** ([0:00](https://www.youtube.com/watch?v=j6_VfR-CyuM&t=0s)) - Jason introduces a new segment for calling out disgraceful behavior, with Chamath targeting Jason and Pete Buttigieg for virtue signaling about Amnesty International.

@@ -31,6 +31,57 @@ Shuo Wang, Co-Founder and Chief Revenue Officer at Deel, shares the comprehensiv
 
 Wang discusses her journey from growing up in China with her grandparents to moving to the United States at 16, building an air purifier company in China, and eventually co-founding Deel. She emphasizes the importance of focusing on problems rather than solutions, creating "11-star customer experiences," and the value of being an outsider in Silicon Valley. The interview also explores Deel's three pivots during Y Combinator, their approach to sales and hiring, and how COVID became a "lifetime opportunity" for their business.
 
+## Highlights
+
+### "Within one year we opened 100 plus entities across 80 different countries"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ExoQOtqtxX0?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+
+> "There's one culture at Deel which we call Deel speed. We move very fast. We focus on execution and we focus on problem solving. Within one year we opened 100 plus entities across like 80 different countries."
+> — Shuo Wang, [0:00](https://www.youtube.com/watch?v=ExoQOtqtxX0&t=0s)
+
+### "If I do not receive my payment, I will not be able to pay the rent of the week"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ExoQOtqtxX0?start=16&end=75" frameborder="0" allowfullscreen></iframe>
+
+> "At the early days of Deel, Alex and myself, we were both customer support. The questions are mainly when can I receive my payment? Today is a Friday. If I do not receive my payment, I will not be able to pay the rent of the week."
+> — Shuo Wang, [0:16](https://www.youtube.com/watch?v=ExoQOtqtxX0&t=16s)
+
+### "We pivoted three times during YC"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ExoQOtqtxX0?start=840&end=920" frameborder="0" allowfullscreen></iframe>
+
+> "We actually pivoted three times during YC, which is unusual but I think it shows how important it is to be willing to change direction when something isn't working. When we joined YC, we were building a crypto payment platform for content creators."
+> — Shuo Wang, [14:00](https://www.youtube.com/watch?v=ExoQOtqtxX0&t=840s)
+
+### "Government offices were closed, banks weren't processing applications"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ExoQOtqtxX0?start=2190&end=2260" frameborder="0" allowfullscreen></iframe>
+
+> "Let me tell you how painful it was to open corporate entities during COVID. We were trying to open 100 entities across 80 countries at the same time that the whole world was shutting down. Government offices were closed. Banks weren't processing applications."
+> — Shuo Wang, [36:30](https://www.youtube.com/watch?v=ExoQOtqtxX0&t=2190s)
+
+### "COVID was a lifetime opportunity for Deel"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ExoQOtqtxX0?start=2655&end=2720" frameborder="0" allowfullscreen></iframe>
+
+> "COVID was a lifetime opportunity for Deel. I know that sounds strange because COVID was terrible for so many people. But for our business, it accelerated adoption of remote work by years."
+> — Shuo Wang, [44:15](https://www.youtube.com/watch?v=ExoQOtqtxX0&t=2655s)
+
+### "I interviewed Deel's first 400 employees personally"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ExoQOtqtxX0?start=3007&end=3070" frameborder="0" allowfullscreen></iframe>
+
+> "I interviewed Deel's first 400 employees personally. That might sound crazy, but I think it was one of the best investments I made. When you're building a culture, the first few hundred hires are incredibly important."
+> — Shuo Wang, [50:07](https://www.youtube.com/watch?v=ExoQOtqtxX0&t=3007s)
+
+### "I screen for happiness"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ExoQOtqtxX0?start=3093&end=3160" frameborder="0" allowfullscreen></iframe>
+
+> "One thing I screen for is happiness. I want to hire people who are fundamentally happy. Not people who are always complaining, not people who see the negative in everything. Happy people are more productive. They're easier to work with."
+> — Shuo Wang, [51:33](https://www.youtube.com/watch?v=ExoQOtqtxX0&t=3093s)
+
 ## Key Points
 
 - **Deel Speed Culture** ([0:00](https://www.youtube.com/watch?v=ExoQOtqtxX0&t=0s)) - Deel moves very fast, focusing on execution and problem solving. They opened 100+ entities across 80 countries within one year.

@@ -41,6 +41,43 @@ The video uses AI-generated imagery (Sora 2) to bring these pioneering women bac
 
 The episode frames this as a "Festival of Memory" - appropriate for Halloween week - arguing that AI and modern computing represent not a break from the past but a resurrection of ideas dreamed by these visionary women. Their emphasis on teamwork and collective effort ("my girls are ready") offers a model for how technology should be developed today.
 
+## Highlights
+
+### "Do you know who computers really were?"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wZ9vl9HHekg?start=0&end=55" frameborder="0" allowfullscreen></iframe>
+
+> "Do you know who computers really were? We are. Always have been. Don't let the machines make you forget it."
+> — Opening, [0:00](https://www.youtube.com/watch?v=wZ9vl9HHekg&t=0s)
+
+### "I could see the machinery inside the music"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wZ9vl9HHekg?start=70&end=120" frameborder="0" allowfullscreen></iframe>
+
+> "When I was a girl, they called me fanciful. Numbers were meant for accountants, they said, and dreams for poets. But I could see the machinery inside the music, the poetry, and the equations."
+> — Ada Lovelace (dramatized), [1:10](https://www.youtube.com/watch?v=wZ9vl9HHekg&t=70s)
+
+### "The most dangerous phrase in the language"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wZ9vl9HHekg?start=241&end=280" frameborder="0" allowfullscreen></iframe>
+
+> "The most dangerous phrase in the language is, 'We've always done it this way.' That's how progress stops."
+> — Grace Hopper, [4:01](https://www.youtube.com/watch?v=wZ9vl9HHekg&t=241s)
+
+### "Computing is too important to be left to men"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wZ9vl9HHekg?start=392&end=440" frameborder="0" allowfullscreen></iframe>
+
+> "Computing is too important to be left to men. We need all the minds we can get and the diversity of those minds will shape a better, fairer technology for everyone."
+> — Karen Sparck Jones, [6:46](https://www.youtube.com/watch?v=wZ9vl9HHekg&t=406s)
+
+### "My girls are ready"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wZ9vl9HHekg?start=332&end=365" frameborder="0" allowfullscreen></iframe>
+
+> "We're going to need a lot of manpower to program that beast. I can't do it alone. My girls are ready. They can do the work."
+> — Dorothy Vaughan, [5:39](https://www.youtube.com/watch?v=wZ9vl9HHekg&t=339s)
+
 ## Key Points
 
 - **Origin of "Computer"** ([0:29](https://www.youtube.com/watch?v=wZ9vl9HHekg&t=29s)) - Before machines, "computer" meant a person, often a woman, who performed mathematical calculations

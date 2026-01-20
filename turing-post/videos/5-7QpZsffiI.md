@@ -40,6 +40,36 @@ The video explores OpenAI's commitment to spend up to $1.4 trillion on infrastru
 
 The analysis reveals a deeper tension between private ambition and public risk. While Altman insists the market should handle any failure, the sheer scale of the infrastructure commitment makes OpenAI look more like a state actor than a private company. The video concludes by noting that when a $1.4 trillion belief-driven investment becomes reality, it transforms from mere conviction into the system itself.
 
+## Highlights
+
+### "How Do You Build the Future Economy Without Becoming Too Big to Fail?"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5-7QpZsffiI?start=0&end=55" frameborder="0" allowfullscreen></iframe>
+
+> "How do you build the future economy without becoming too big to fail?"
+> — Turing Post Host, [0:00](https://www.youtube.com/watch?v=5-7QpZsffiI&t=0s)
+
+### "Governments Should Build Compute Reserves Like Strategic Oil Reserves"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5-7QpZsffiI?start=156&end=210" frameborder="0" allowfullscreen></iframe>
+
+> "Governments should build their own compute reserves like strategic oil reserves, but for intelligence."
+> — Sam Altman (paraphrased), [2:45](https://www.youtube.com/watch?v=5-7QpZsffiI&t=165s)
+
+### "When a Company Signs Up for a Trillion, the Market Looks Like a State"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5-7QpZsffiI?start=260&end=315" frameborder="0" allowfullscreen></iframe>
+
+> "When a company signs up for more than a trillion in infrastructure, the market starts to look more like a state itself."
+> — Turing Post Host, [4:32](https://www.youtube.com/watch?v=5-7QpZsffiI&t=272s)
+
+### "When $1.4 Trillion Belief Becomes Reality, It Becomes the System"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5-7QpZsffiI?start=385&end=430" frameborder="0" allowfullscreen></iframe>
+
+> "It's one thing to believe in something without proof. But when that belief drives $1.4 trillion of investment, it's no longer just belief. It becomes the system itself."
+> — Turing Post Host, [6:32](https://www.youtube.com/watch?v=5-7QpZsffiI&t=392s)
+
 ## Key Points
 
 - **The Central Paradox** ([0:00](https://www.youtube.com/watch?v=5-7QpZsffiI&t=0s)) - How do you build the future economy without becoming too big to fail? This is the core question Altman tried to address this week.

@@ -36,6 +36,43 @@ Spencer discusses the crucial role of simulation in robotics development, emphas
 
 A significant portion of the interview covers NVIDIA's open-source strategy and efforts to unify the fragmented robotics ecosystem through projects like Newton (physics interop layer with Google DeepMind and Disney Research), OpenUSD for standardized robot/environment representation, and Isaac Lab Arena for policy evaluation. Spencer expresses concern about the robotics data gap compared to LLMs, urging the community to collaborate on building shared datasets to reach a baseline capability before pursuing competitive differentiation with specialist applications.
 
+## Highlights
+
+### "A Car Tries Not to Hit the World, A Robot Tries to Hit It Just Right"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NEv9EnD7JVU?start=228&end=290" frameborder="0" allowfullscreen></iframe>
+
+> "A car spends all of its time trying not to hit the world. Whereas a robot spends all of its time trying to hit the world just right."
+> — Spencer Huang, [3:48](https://www.youtube.com/watch?v=NEv9EnD7JVU&t=228s)
+
+### "Snow Becomes Just Universe N Plus One"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NEv9EnD7JVU?start=360&end=420" frameborder="0" allowfullscreen></iframe>
+
+> "By the time that you deploy them into the real world, the first time they see snow, even though they've never seen it before, it just becomes universe N plus 1."
+> — Spencer Huang, [6:37](https://www.youtube.com/watch?v=NEv9EnD7JVU&t=397s)
+
+### "Nobody Wants to Build the Tools They're Building"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NEv9EnD7JVU?start=1007&end=1060" frameborder="0" allowfullscreen></iframe>
+
+> "Most people don't even want to build the tools they're building. It just happens that there's nothing out there that has the functionality they need."
+> — Spencer Huang, [16:57](https://www.youtube.com/watch?v=NEv9EnD7JVU&t=1017s)
+
+### "The Robotics Data Gap Problem"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NEv9EnD7JVU?start=1471&end=1535" frameborder="0" allowfullscreen></iframe>
+
+> "LLM had the luxury of having a huge corpus of data... One of the problems you have with robotics, the biggest problem is that data gap. And we don't have a couple hundred or thousand years to fill in that data."
+> — Spencer Huang, [24:31](https://www.youtube.com/watch?v=NEv9EnD7JVU&t=1471s)
+
+### "Being Jensen Huang's Son is Easier Than Solving Robotics"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NEv9EnD7JVU?start=1281&end=1330" frameborder="0" allowfullscreen></iframe>
+
+> "I think solving for robotics is definitely harder because I've had 35 years to adapt to being his son."
+> — Spencer Huang, [21:37](https://www.youtube.com/watch?v=NEv9EnD7JVU&t=1297s)
+
 ## Key Points
 
 - **The Three Computers** ([1:21](https://www.youtube.com/watch?v=NEv9EnD7JVU&t=81s)) - NVIDIA's physical AI framework requires DGX for training, OVX/Omniverse for simulation, and deployment hardware - all three must work together for robotics to succeed

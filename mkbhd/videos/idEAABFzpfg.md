@@ -29,6 +29,36 @@ tags:
 
 MKBHD provides his first impressions from Apple's September 2025 event, covering the iPhone 17, iPhone 17 Pro, and the new iPhone 17 Air. His key takeaway for the base iPhone 17 is that it finally gets ProMotion (120Hz) while remaining mostly unchanged otherwise. The iPhone 17 Pro features significant thermal improvements with a switch back to aluminum and a new vapor chamber, plus an upgraded 48-megapixel telephoto camera. The most controversial announcement is the iPhone 17 Air - an ultra-thin phone at 5.6mm that MKBHD identifies as having multiple "red flags" including potential thermal throttling, questionable battery life, and durability concerns, despite its stunning visual appeal.
 
+## Highlights
+
+### "Horizontal Selfies Might Be Genius"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/idEAABFzpfg?start=148&end=215" frameborder="0" allowfullscreen></iframe>
+
+> "And honestly, this might be genius. The default for most people is obviously to take vertical selfies. But if you go to take a horizontal selfie to fit more people, suddenly the camera is off to the side and it's a little bit awkward. So now since the selfie camera is a larger square sensor, it can literally just crop in portrait or landscape."
+> — Marques Brownlee, [2:59](https://www.youtube.com/watch?v=idEAABFzpfg&t=179s)
+
+### "iPhone Air: If You Subtract Emotions, It's the Worst One"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/idEAABFzpfg?start=522&end=590" frameborder="0" allowfullscreen></iframe>
+
+> "If you subtract emotions from it, it's the worst one. This is gonna jump in the lineup at 999. And it is surrounded by other iPhones that are better than it in almost every way other than being super thin and light. So it's a fascinating gamble."
+> — Marques Brownlee, [8:53](https://www.youtube.com/watch?v=idEAABFzpfg&t=533s)
+
+### "All Signs Point to Battery Being Trash"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/idEAABFzpfg?start=615&end=680" frameborder="0" allowfullscreen></iframe>
+
+> "I've been reviewing phones for years and all signs point to it being trash... Apple also announced it alongside a special dedicated MagSafe battery pack just for this phone. So if that doesn't scream red flag, I don't know what to tell you."
+> — Marques Brownlee, [10:24](https://www.youtube.com/watch?v=idEAABFzpfg&t=624s)
+
+### "Maybe an Ultra-Thin Foldable iPhone Next Year"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/idEAABFzpfg?start=723&end=785" frameborder="0" allowfullscreen></iframe>
+
+> "Maybe the same way Samsung came out with the Galaxy Fold and then a few months later they came out with their super-thin Galaxy Z Flip... Maybe we're gonna see an ultra-thin foldable iPhone next year. Maybe."
+> — Marques Brownlee, [12:27](https://www.youtube.com/watch?v=idEAABFzpfg&t=747s)
+
 ## Key Points
 
 - [0:00](https://www.youtube.com/watch?v=idEAABFzpfg&t=0) - Introduction to Apple's September 2025 event coverage

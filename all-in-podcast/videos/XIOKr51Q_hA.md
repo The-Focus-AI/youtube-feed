@@ -33,6 +33,43 @@ The second major topic centers on US-China trade relations, particularly around 
 
 The final segment addresses what Chamath calls an "AI PR crisis" - Google, Microsoft, and Amazon all cancelled major data center projects in Indianapolis, Wisconsin, and Arizona due to local opposition over electricity prices, water consumption, and noise pollution. The hosts debate whether this represents a legitimate concern that hyperscalers must address by investing in local communities, or an illegitimate fear stoked by media narratives. Sacks argues that AI contributed 40% of Q2's 3.8% GDP growth and that job loss fears are overblown, while Calacanis points to declining headcounts at major tech companies as evidence of real displacement.
 
+## Highlights
+
+### "I burned them - those are single use Loro Pianos"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XIOKr51Q_hA?start=238&end=300" frameborder="0" allowfullscreen></iframe>
+
+> "I burned them. Those are one use for Chamath. Those are single use Loro Pianos. Once I got in the car, I gave Eugene my shoes and I said, 'Burn these, Eugene. I never want to see these ever again. They've touched the pavement of San Francisco.'"
+> — Chamath Palihapitiya, [4:04](https://www.youtube.com/watch?v=XIOKr51Q_hA&t=244s)
+
+### "We don't have to live this way. This is a choice."
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XIOKr51Q_hA?start=835&end=900" frameborder="0" allowfullscreen></iframe>
+
+> "We don't have to live this way. This is a choice."
+> — David Sacks, [13:55](https://www.youtube.com/watch?v=XIOKr51Q_hA&t=835s)
+
+### "China had the world's largest GDP 70% of those years"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XIOKr51Q_hA?start=2280&end=2345" frameborder="0" allowfullscreen></iframe>
+
+> "If you go back to 1500 to now, over all of those years, China had the world's largest GDP 70% of those years... the Chinese think about this as reasserting the dominance that we've always had."
+> — Chamath Palihapitiya, [38:00](https://www.youtube.com/watch?v=XIOKr51Q_hA&t=2280s)
+
+### "Francis Fukuyama literally bats zero"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XIOKr51Q_hA?start=2670&end=2730" frameborder="0" allowfullscreen></iframe>
+
+> "The thing with Francis Fukuyama is he writes in this beautiful way, but he literally bats zero. You could basically read a Francis Fukuyama book and understand that whatever the opposite of what he wrote is likely going to happen."
+> — Chamath Palihapitiya, [44:45](https://www.youtube.com/watch?v=XIOKr51Q_hA&t=2685s)
+
+### "Tokens are not jobs"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XIOKr51Q_hA?start=3330&end=3395" frameborder="0" allowfullscreen></iframe>
+
+> "What they know is that tokens are not jobs. And if AI is going to be embraced by the public, I think what we need to do a better job of is to show the tangible economic benefits."
+> — Chamath Palihapitiya, [55:30](https://www.youtube.com/watch?v=XIOKr51Q_hA&t=3330s)
+
 ## Key Points
 
 - **Dreamforce and SF Politics** ([0:00](https://www.youtube.com/watch?v=XIOKr51Q_hA&t=0s)) - The hosts discuss attending Marc Benioff's Dreamforce conference and the SF Standard's coverage of David Sacks being interviewed there

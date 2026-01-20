@@ -35,6 +35,50 @@ The conversation takes dark turns as Molly recounts being assaulted by the Itali
 
 Molly also shares insights on salesmanship, trust-building, and the psychology of high-stakes players, explaining the different archetypes she observed: the self-destructive ones on a "bullet train" of hedonic excess, the highly competitive who thrive on volatility, and those who genuinely love the mental and social aspects of the game. She reveals Toby Maguire was the best celebrity poker player, followed by Ben Affleck, and discusses how she ultimately pitched Aaron Sorkin while millions in debt and living with her mother - leading to the movie deal that helped her pay off the government just last summer.
 
+## Highlights
+
+### "I'll tell you one thing, kid. I've never met someone so down in their luck and so full of themselves."
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XqikcGC47Nw?start=1753&end=1810" frameborder="0" allowfullscreen></iframe>
+
+> "I was like, 'What am I doing? Millions of dollars in debt. My book sold 10 copies. Like, I live with my mom. And this is the highest paid screenwriter in the world.' And when I was done, he said, 'Well, I'll tell you one thing, kid. I've never met someone so down in their luck and so full of themselves.'"
+> — Molly Bloom, [29:13](https://www.youtube.com/watch?v=XqikcGC47Nw&t=1753s)
+
+### "This guy broke into my apartment and he put a gun in my mouth"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XqikcGC47Nw?start=1151&end=1210" frameborder="0" allowfullscreen></iframe>
+
+> "The Italian mob or impersonators of the Italian mob came to me and said, you know, we want a piece of your game and I turned them down. And they didn't just go away... this guy broke into my apartment and he put a gun in my mouth and he told me that I work for them and that if I told anyone law enforcement or anybody that they had found out where my family lives in Colorado."
+> — Molly Bloom, [19:11](https://www.youtube.com/watch?v=XqikcGC47Nw&t=1151s)
+
+### "125 arrested in the biggest mob related takedown in New York City history"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XqikcGC47Nw?start=1234&end=1290" frameborder="0" allowfullscreen></iframe>
+
+> "I'm confused as to why I'm not hearing from them because about 3 or 4 days go by and I don't hear anything. And then I get the New York Times and on the cover it says 125 arrested in the biggest mob related takedown in New York City history and I never heard from them again."
+> — Molly Bloom, [20:34](https://www.youtube.com/watch?v=XqikcGC47Nw&t=1234s)
+
+### "There was like $10 million on the table during the financial crisis"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XqikcGC47Nw?start=1069&end=1120" frameborder="0" allowfullscreen></iframe>
+
+> "It was 2008 and I remember the first game the president was in the background on the television giving the state of the union on the economy and there was like $10 million on the table. These were insane games. They were playing insane variations... ultimately someone lost $100 million."
+> — Molly Bloom, [17:49](https://www.youtube.com/watch?v=XqikcGC47Nw&t=1069s)
+
+### "The United States of America versus Molly Bloom"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XqikcGC47Nw?start=1431&end=1490" frameborder="0" allowfullscreen></iframe>
+
+> "Five days later in the middle of the night, 17 FBI agents, machine guns, high beam flashlights, put me in handcuffs and shackles, and put this piece of paper in front of me that said, 'The United States of America versus Molly Bloom.'"
+> — Molly Bloom, [23:51](https://www.youtube.com/watch?v=XqikcGC47Nw&t=1431s)
+
+### "I will always choose courage over comfort"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XqikcGC47Nw?start=1874&end=1930" frameborder="0" allowfullscreen></iframe>
+
+> "Do you still need to face fear in its face to feel like you're doing what you want to do? Yeah. I don't have this I think addiction to that anymore. But I will always choose courage over comfort. I pay a big interior price internally if I don't."
+> — Molly Bloom, [31:14](https://www.youtube.com/watch?v=XqikcGC47Nw&t=1874s)
+
 ## Key Points
 
 - **Origin Story** ([3:32](https://www.youtube.com/watch?v=XqikcGC47Nw&t=212s)) - Molly was a US ski team hopeful who had an accident and moved to LA seeking warmth, ending up serving drinks at a high-stakes poker game

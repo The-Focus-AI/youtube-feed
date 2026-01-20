@@ -31,6 +31,36 @@ tags:
 
 MKBHD reveals his dual identity as both a tech reviewer and professional ultimate frisbee player, currently competing for four teams including Team USA for the World Games. He walks through the five main pieces of sports technology he actually uses in his athletic career: the Apple Watch Ultra 2 for fitness tracking, Hyperice Normatec compression legs for recovery, the Hyperice x Nike boot for foot-specific therapy, a Xiaomi mini massage gun, and Beats PowerBeats Pro 2 headphones. He also discusses his preference for lightweight Nike Mercurial soccer cleats. The video emphasizes that while there is some tech overlap between his two careers, ultimate frisbee serves as his escape from being constantly immersed in technology.
 
+## Highlights
+
+### "Playing for Four Teams at Once"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-7X5KukvABc?start=5&end=60" frameborder="0" allowfullscreen></iframe>
+
+> "I am actually a professional ultimate frisbee player. I swear. Actually, I'm playing for four different teams right now. New York Empire, Pride of New York, Team USA for World Games, and Team USA Mix for beach world championships... all at the same time."
+> — Marques Brownlee, [0:05](https://www.youtube.com/watch?v=-7X5KukvABc&t=5s)
+
+### "Inaccurate the Same Way Every Time"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-7X5KukvABc?start=175&end=235" frameborder="0" allowfullscreen></iframe>
+
+> "As far as calorie counting, I'm not convinced that the Apple Watch is particularly accurate. But the real key for me is that it's inaccurate the same way every time... I don't think a frisbee practice is actually 3,600 calories. I don't even think that's possible."
+> — Marques Brownlee, [2:55](https://www.youtube.com/watch?v=-7X5KukvABc&t=175s)
+
+### "Same Cleats Since 2007"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-7X5KukvABc?start=503&end=560" frameborder="0" allowfullscreen></iframe>
+
+> "I have worn the same style of cleat every year I've played Ultimate since 2007, which is basically whatever the lightest weight soccer cleat I can find is."
+> — Marques Brownlee, [8:28](https://www.youtube.com/watch?v=-7X5KukvABc&t=508s)
+
+### "My Escape From Being Online"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-7X5KukvABc?start=552&end=610" frameborder="0" allowfullscreen></iframe>
+
+> "I feel like Ultimate Frisbee is my home away from being online all the time and being super immersed in tech. And I think that's really important for me to have."
+> — Marques Brownlee, [9:19](https://www.youtube.com/watch?v=-7X5KukvABc&t=559s)
+
 ## Key Points
 
 - [0:05](https://www.youtube.com/watch?v=-7X5KukvABc&t=5) - MKBHD confirms he is a professional ultimate frisbee player on four teams: New York Empire, Pride of New York (Pony), Team USA for World Games, and Team USA Mix for beach world championships

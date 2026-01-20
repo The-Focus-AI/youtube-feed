@@ -27,6 +27,43 @@ The tension throughout is palpable: Michael explains he's locked up Iron Snail H
 
 The emotional core is the box-opening of samples - an authentic moment where Michael confronts whether months of work have paid off.
 
+## Highlights
+
+### "One of two things are going to happen when I open this box"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3bWvGl_wS2I?start=50&end=110" frameborder="0" allowfullscreen></iframe>
+
+> "One of two things are going to happen when I open this box. Either it's fantastic. Everything is in order. Or there's something so catastrophically wrong that I have to open this at the end of the video because it's going to ruin my day and possibly months of my life."
+> — Michael, [0:50](https://www.youtube.com/watch?v=3bWvGl_wS2I&t=50s)
+
+### "Japanese denim made in America"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3bWvGl_wS2I?start=0&end=50" frameborder="0" allowfullscreen></iframe>
+
+> "This is Japanese denim made in America. If it's made in America, how can it be made in— That's what I'm trying to call it. I just got back from a lovely little trip to Pennsylvania to see the first ever Iron Snail made in USA salvage denim."
+> — Michael, [0:00](https://www.youtube.com/watch?v=3bWvGl_wS2I&t=0s)
+
+### "None of that has happened this year"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3bWvGl_wS2I?start=90&end=150" frameborder="0" allowfullscreen></iframe>
+
+> "I had two goals this year. One, try to keep the Iron Snail US stocked as much as possible all year long. Two, try to post videos near weekly if possible. Keen viewers of the channel may have noticed that none of that has happened this year."
+> — Michael, [2:05](https://www.youtube.com/watch?v=3bWvGl_wS2I&t=125s)
+
+### "FoxFibre is equally exciting"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3bWvGl_wS2I?start=870&end=930" frameborder="0" allowfullscreen></iframe>
+
+> "FoxFibre is equally exciting. Sally Fox developed this cotton that grows naturally colored. No dye, no water waste from dyeing. The color is in the DNA of the cotton plant."
+> — Michael, [14:30](https://www.youtube.com/watch?v=3bWvGl_wS2I&t=870s)
+
+### "Not catastrophic - some things to adjust"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3bWvGl_wS2I?start=780&end=840" frameborder="0" allowfullscreen></iframe>
+
+> "Okay. Not catastrophic. Some things to adjust but nothing that ruins the whole project. Relief. This is what the brand-building process actually looks like. It's not glamorous."
+> — Michael, [13:00](https://www.youtube.com/watch?v=3bWvGl_wS2I&t=780s)
+
 ## Key Points
 
 - **Japanese Denim Made in USA** ([0:00](https://www.youtube.com/watch?v=3bWvGl_wS2I&t=0s)) - First ever Iron Snail salvage denim manufactured in Pennsylvania

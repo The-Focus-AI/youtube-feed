@@ -30,6 +30,43 @@ tags:
 
 MKBHD analyzes the concept of "switching cost" in the smartphone industry, using Google's Pixel 10 launch event as a case study. The video explores how both Google and Apple strategically create features and ecosystem lock-in to retain users while simultaneously trying to lower barriers for potential switchers from the competing platform. Key examples include Google adding MagSafe-equivalent "Pixel Snap" magnets, creating a journaling app to match Apple's, and addressing the blue bubble/green bubble messaging divide through RCS adoption. The video argues that what often looks like companies simply copying each other is actually a calculated strategy to minimize switching costs and compete for the shrinking pool of potential platform switchers.
 
+## Highlights
+
+### "65% Wouldn't Switch Even to Save Money"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eCR17sBh-Qw?start=104&end=160" frameborder="0" allowfullscreen></iframe>
+
+> "65% of people, even if it meant they'd spent less money, still wouldn't switch phone carriers. So that is an example of an industry with a tremendously high perceived switching cost."
+> — Marques Brownlee, [1:44](https://www.youtube.com/watch?v=eCR17sBh-Qw&t=104s)
+
+### "Copying is Actually About Switching Costs"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eCR17sBh-Qw?start=204&end=265" frameborder="0" allowfullscreen></iframe>
+
+> "To a lot of people, this looks like a basic copycat of that iPhone journal app. But the other real motivation behind making an app like this is switching costs... So now someone who really likes journaling no longer has a reason why they couldn't switch."
+> — Marques Brownlee, [3:24](https://www.youtube.com/watch?v=eCR17sBh-Qw&t=204s)
+
+### "The Battle is Now Kids and Switchers"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eCR17sBh-Qw?start=372&end=430" frameborder="0" allowfullscreen></iframe>
+
+> "They used to be in a battle for new customers, but there's just so much less of that now. Like most of the world already has a smartphone. So the real battle now is actually two things. It's kids and people getting their first smartphone... And then switchers."
+> — Marques Brownlee, [6:12](https://www.youtube.com/watch?v=eCR17sBh-Qw&t=372s)
+
+### "Blue Bubble Pressure is So Real"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eCR17sBh-Qw?start=403&end=465" frameborder="0" allowfullscreen></iframe>
+
+> "The last thing is you can't talk about switching cost in the US and normies in the US without talking about the biggest obstacle that Apple has set up, which is iMessage lockin... Blue bubble pressure is so real."
+> — Marques Brownlee, [6:49](https://www.youtube.com/watch?v=eCR17sBh-Qw&t=409s)
+
+### "Google Literally Used Applause Signs"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eCR17sBh-Qw?start=463&end=520" frameborder="0" allowfullscreen></iframe>
+
+> "I wasn't there so I can't confirm this but Andrew Edwards did say that they were showing applause signs to the audience who were there in person."
+> — Marques Brownlee, [7:43](https://www.youtube.com/watch?v=eCR17sBh-Qw&t=463s)
+
 ## Key Points
 
 - [1:44](https://www.youtube.com/watch?v=eCR17sBh-Qw&t=104) - Survey shows 65% of US consumers won't switch phone carriers even to save money, demonstrating high "perceived switching cost"

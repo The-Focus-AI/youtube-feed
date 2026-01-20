@@ -32,6 +32,43 @@ Parvatikar explains that the field is currently in a transition phase where path
 
 The discussion covers the timeline for adoption (2-3 years for more FDA approvals), the economic case for digitization (digital storage is cheaper than physical storage over 25 years), and the human role in AI-assisted diagnostics (humans will remain "in the driver's seat" like with Tesla autopilot). Parvatikar emphasizes that AI must "speak the language of pathologists" to gain clinical approval - heat maps and gradient-based explanations are insufficient without pathologist-friendly feature descriptions.
 
+## Highlights
+
+### "One Whole Slide Image Occupies 1-2 Tennis Courts"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IJvh0Ws1_i0?start=320&end=380" frameborder="0" allowfullscreen></iframe>
+
+> "If you take a one image print out at a 40x resolution it occupies anywhere between 1 to two tennis courts."
+> — Akash Parvatikar, [5:35](https://www.youtube.com/watch?v=IJvh0Ws1_i0&t=335s)
+
+### "The Same Sample Could Be Diagnosed Differently Around the World"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IJvh0Ws1_i0?start=645&end=720" frameborder="0" allowfullscreen></iframe>
+
+> "Your ground truth data might itself be imperfect wherein there might not be a gold standard ground truth for that particular image. There could be a doctor from NYU giving it a particular diagnosis. But if you take the same sample to west coast, they might diagnose it differently. If you take it to Europe or India, it could be entirely different."
+> — Akash Parvatikar, [10:45](https://www.youtube.com/watch?v=IJvh0Ws1_i0&t=645s)
+
+### "AI Must Speak the Language of Pathologists"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IJvh0Ws1_i0?start=1432&end=1490" frameborder="0" allowfullscreen></iframe>
+
+> "If the AI model doesn't talk the language of the pathologist you don't have an explainable AI framework. Sure it'll give you papers or maybe patent but it will not get a clinical approval."
+> — Akash Parvatikar, [24:08](https://www.youtube.com/watch?v=IJvh0Ws1_i0&t=1448s)
+
+### "Digital Storage vs Physical Storage for 25 Years"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IJvh0Ws1_i0?start=1320&end=1370" frameborder="0" allowfullscreen></iframe>
+
+> "Just imagine if there are like 12 million patients, 12 million glass slides across 25 years that has to be stored within the hospital setting. You would pay much much more for the real estate cost versus for a digital cloud storage."
+> — Akash Parvatikar, [22:03](https://www.youtube.com/watch?v=IJvh0Ws1_i0&t=1323s)
+
+### "US Facing Large Shortage of Pathologists"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IJvh0Ws1_i0?start=969&end=1020" frameborder="0" allowfullscreen></iframe>
+
+> "US is facing a large shortage of pathologist and in the coming decade the gap will widen even more."
+> — Akash Parvatikar, [16:09](https://www.youtube.com/watch?v=IJvh0Ws1_i0&t=969s)
+
 ## Key Points
 
 - **Digitization is the foundation** ([1:22](https://www.youtube.com/watch?v=IJvh0Ws1_i0&t=82s)) - Currently we are in the stage of digitizing pathology labs; clinicians still diagnose cancer under microscopes but there's a large push toward digitizing glass slides

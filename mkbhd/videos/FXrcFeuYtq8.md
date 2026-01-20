@@ -36,6 +36,36 @@ tags:
 
 Marques Brownlee provides a comprehensive hands-on review of iOS 26, Apple's major visual overhaul featuring the new "Liquid Glass" design language. The video ranks the top five new features from least to most significant: the redesigned camera app, visual intelligence improvements (including Apple's version of circle-to-search), the updated phone app with call screening and hold assist, CarPlay improvements, and the headline Liquid Glass design. MKBHD also covers honorable mentions including Photos app updates, 3D parallax wallpapers, Messages improvements with offline AI translation, customizable alarm snooze duration, and an audio input selector. While praising the lock screen implementation and theme engine, he expresses mixed feelings about the polarizing Liquid Glass aesthetic, noting readability concerns that Apple has been addressing through beta updates.
 
+## Highlights
+
+### "Apple Intelligence: Mostly Miss Until Now"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FXrcFeuYtq8?start=126&end=190" frameborder="0" allowfullscreen></iframe>
+
+> "Apple Intelligence since it was first announced. Honestly, mostly miss. A lot of things that aren't super useful, Genmoji, Image Playground, whatever. But visual intelligence that I've thought has potential, it has a high ceiling."
+> — Marques Brownlee, [2:10](https://www.youtube.com/watch?v=FXrcFeuYtq8&t=130s)
+
+### "iPhones Can Still Make Phone Calls"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FXrcFeuYtq8?start=278&end=345" frameborder="0" allowfullscreen></iframe>
+
+> "You know what's crazy? A lot of people don't know this, iPhones actually still can make phone calls. I know, it's crazy. I avoid them at all costs."
+> — Marques Brownlee, [4:47](https://www.youtube.com/watch?v=FXrcFeuYtq8&t=287s)
+
+### "CarPlay: Finally, About Damn Time"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FXrcFeuYtq8?start=382&end=445" frameborder="0" allowfullscreen></iframe>
+
+> "Imagine how happy I was when I was testing this new version of CarPlay and it didn't take up the entire screen when you get a text. Finally, it's about damn time."
+> — Marques Brownlee, [6:22](https://www.youtube.com/watch?v=FXrcFeuYtq8&t=382s)
+
+### "A Well-Executed Theme Engine"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FXrcFeuYtq8?start=685&end=760" frameborder="0" allowfullscreen></iframe>
+
+> "Whether you like it or not, you do have to admit it is a well-executed theme engine. How many times have you tried to do an icon theme where like, one or two icons gets left out and it just doesn't quite work? But this theme engine just handles every single app right out the box."
+> — Marques Brownlee, [11:56](https://www.youtube.com/watch?v=FXrcFeuYtq8&t=716s)
+
 ## Key Points
 
 - [0:55](https://www.youtube.com/watch?v=FXrcFeuYtq8&t=55) **#5 Camera App Redesign** - Apple redesigned the camera app with improved format selection. Instead of cycling through settings, you can now directly pick video frame rates (24, 30, 60 fps) and access additional settings by swiping up.

@@ -31,6 +31,43 @@ The video reveals that the answer lies with Lee Denim, who released their 101-J 
 
 Michael also promotes his own Iron Snail clothing line, including the Prologue V2 denim jacket and Chapter 1 jeans, while providing a comprehensive history of denim from ancient indigo dyes to the invention of riveted jeans by Jacob Davis and Levi Strauss.
 
+## Highlights
+
+### "Lee Denim is the Answer"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eP9iXl6m5tM?start=140&end=195" frameborder="0" allowfullscreen></iframe>
+
+> "Lee denim is the answer as to why the type 3 Levi's denim jacket and all the type 3s after that for many different brands have those two lines in the front and two lines in the back."
+> — Michael, [2:25](https://www.youtube.com/watch?v=eP9iXl6m5tM&t=145s)
+
+### "Indigo is 6,000 Years Old"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eP9iXl6m5tM?start=279&end=330" frameborder="0" allowfullscreen></iframe>
+
+> "Indigo is like a core thing of humanity as we know it. The oldest sample we have is 6,000 years old, more likely it was used up to 10,000 years ago."
+> — Michael, [4:52](https://www.youtube.com/watch?v=eP9iXl6m5tM&t=292s)
+
+### "The Type 2 Is Levi's Indecision"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eP9iXl6m5tM?start=624&end=680" frameborder="0" allowfullscreen></iframe>
+
+> "The Type 2 or the 507XX is kind of the pinnacle of Levi's indecision on if they want to be a workwear brand or if they want to be a fashion brand."
+> — Michael, [11:24](https://www.youtube.com/watch?v=eP9iXl6m5tM&t=684s)
+
+### "There Is No Type Four - Star Wars Changed Everything"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eP9iXl6m5tM?start=851&end=910" frameborder="0" allowfullscreen></iframe>
+
+> "There is no type four. After a virtually 70-year streak of uninterrupted smash hit western films, Hollywood is rocked by a little film called Star Wars."
+> — Michael, [14:15](https://www.youtube.com/watch?v=eP9iXl6m5tM&t=855s)
+
+### "The Toy Story Documentary"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eP9iXl6m5tM?start=880&end=910" frameborder="0" allowfullscreen></iframe>
+
+> "There's actually a very popular documentary about the shift from Western culture to space culture and how people got obsessed with it. The documentary is called Toy Story."
+> — Michael, [14:52](https://www.youtube.com/watch?v=eP9iXl6m5tM&t=892s)
+
 ## Key Points
 
 - **The Mystery Question** ([0:22](https://www.youtube.com/watch?v=eP9iXl6m5tM&t=22s)) - Denim jackets have two lines on either side, but their purpose wasn't obvious even to the host

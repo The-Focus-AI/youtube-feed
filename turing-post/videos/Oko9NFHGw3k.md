@@ -47,6 +47,43 @@ Goodger frames the strategic importance of the browser for OpenAI's mission: "a 
 
 The conversation covers practical aspects of building Atlas, including how they approach security through the "lethal trifecta" of private data, untrusted content, and external communication. Goodger emphasizes transparency and user control, with features like opt-in agent mode, the ability to run signed out, and a literal red stop button. He compares the current moment to "Netscape 1.0" for this new era of AI browsers, expressing excitement about the massive advancement expected over the next year.
 
+## Highlights
+
+### "It's made me more curious"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Oko9NFHGw3k?start=106&end=160" frameborder="0" allowfullscreen></iframe>
+
+> "When I've used Atlas, I have found it's made me more curious. I find myself asking more questions even things that I wouldn't have before because I think in the previous era when search was primary I would have to think for some time on what the search query that I want to run would be."
+> — Ben Goodger, [1:46](https://www.youtube.com/watch?v=Oko9NFHGw3k&t=106s)
+
+### "A brain needs a body to operate in"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Oko9NFHGw3k?start=853&end=905" frameborder="0" allowfullscreen></iframe>
+
+> "A brain needs a body to operate in and so I think AGI is something that can take action for you. The browser itself is environment where that can happen. That's why I'm so excited about the browser. I think the browser is a stepping stone to AI being able to orchestrate more of computing for you."
+> — Ben Goodger, [14:13](https://www.youtube.com/watch?v=Oko9NFHGw3k&t=853s)
+
+### "This is like a Netscape 1.0 moment"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Oko9NFHGw3k?start=944&end=995" frameborder="0" allowfullscreen></iframe>
+
+> "If I use an archaic analogy, I could say this is like a Netscape 1.0 moment for this new era of the web. So I'm super excited to see how it plays out over the next few years."
+> — Ben Goodger, [15:49](https://www.youtube.com/watch?v=Oko9NFHGw3k&t=949s)
+
+### "Big red stop button"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Oko9NFHGw3k?start=619&end=670" frameborder="0" allowfullscreen></iframe>
+
+> "While it is running, there is a little bar at the bottom of the screen with a big red stop button. If you've ever been in a machine shop and there's like a machine that spins or cuts or something like that, there's always that big red stop button that you can hit."
+> — Ben Goodger, [10:36](https://www.youtube.com/watch?v=Oko9NFHGw3k&t=636s)
+
+### "Web accessibility helps agents too"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Oko9NFHGw3k?start=342&end=395" frameborder="0" allowfullscreen></iframe>
+
+> "What we're telling folks right now is just making your site more accessible is actually the best thing. The tools and technologies that you would use web accessibility to make your site more accessible for example to a screen reader actually helps make it more accessible to an agent."
+> — Ben Goodger, [5:42](https://www.youtube.com/watch?v=Oko9NFHGw3k&t=342s)
+
 ## Key Points
 
 - **AI browsers lower friction for curiosity** ([1:21](https://www.youtube.com/watch?v=Oko9NFHGw3k&t=81s)) - Integrating AI directly into the browser makes it easier to ask questions without having to craft search queries or think about where to find information

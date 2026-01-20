@@ -34,6 +34,50 @@ The conversation explores Saudi Arabia's unique advantages in the global AI race
 
 David Sacks provides geopolitical context, explaining the strategic importance of the US-Saudi relationship dating back to 1945 and arguing that restricting AI technology exports to allied nations like Saudi Arabia only pushes them toward Chinese alternatives like Huawei. The interview highlights Humain's partnerships with AMD, Nvidia, Qualcomm, and Groq, including a deployment of 19,000 Groq chips serving 130 countries with only 5% of traffic coming from Saudi Arabia itself.
 
+## Highlights
+
+### "It took Aramco 9 months to deploy AI infrastructure"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U9TdxWTaYlE?start=204&end=265" frameborder="0" allowfullscreen></iframe>
+
+> "One of the biggest surprises I had is lack of AI infrastructure. It took them 9 months from the process of purchase order, export control process, deployment, installation. That means we have hindered a company to really achieve its objectives by 9 months."
+> — Tareq Amin, [3:24](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=204s)
+
+### "His royal highness wants to meet with you"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U9TdxWTaYlE?start=285&end=355" frameborder="0" allowfullscreen></iframe>
+
+> "Last year during my birthday, I get a call and it was really a strange number. It says it was from the royal court and it said his royal highness wants to meet with you. I said okay what did I do?"
+> — Tareq Amin, [4:45](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=285s)
+
+### "Lead the world through energy exports via tokens"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U9TdxWTaYlE?start=903&end=960" frameborder="0" allowfullscreen></iframe>
+
+> "Maybe Saudi Arabia today led the world in energy exports via oil. We should look at an opportunity to lead the world through energy exports via tokens."
+> — Tareq Amin, [15:03](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=903s)
+
+### "40 PhD scientists from Stanford, MIT, Harvard, Oxford"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U9TdxWTaYlE?start=1006&end=1060" frameborder="0" allowfullscreen></iframe>
+
+> "I have 40 PhD scientists today in my team. I sometimes honestly when I sit with them I said I'm really maybe I don't have enough credentials to sit with you guys in the room."
+> — Tareq Amin, [16:46](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=1006s)
+
+### "I learned innovation in US, scale in India, precision in Japan, optimism in Saudi"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U9TdxWTaYlE?start=1240&end=1305" frameborder="0" allowfullscreen></iframe>
+
+> "I learned innovation here in the US. When I moved to India, I learned scale. When I moved to Japan, I learned precision and quality. You come to Saudi Arabia and I'm learning optimism and vision truly."
+> — Tareq Amin, [20:40](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=1240s)
+
+### "It's binary: American technology or Chinese technology"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U9TdxWTaYlE?start=1523&end=1580" frameborder="0" allowfullscreen></iframe>
+
+> "Saudi Arabia is going to have data centers. Is that going to be American technology or Chinese technology? It's basically going to be our companies or it's going to be Huawei. It's binary."
+> — David Sacks, [25:23](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=1523s)
+
 ## Key Points
 
 - **Humain's Origin** ([4:45](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=285s)) - Tareq received a birthday call from the royal court to meet with MBS for an "AI brainstorming" session that was actually about unifying fragmented AI efforts

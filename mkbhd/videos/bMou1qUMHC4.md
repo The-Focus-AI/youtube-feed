@@ -33,6 +33,43 @@ tags:
 
 MKBHD provides his first hands-on impressions of Samsung's new Galaxy Z Fold 7 and Z Flip 7 foldable phones, announced at Samsung Unpacked. The Z Fold 7 receives major upgrades including a significantly thinner design (8.9mm closed), lighter weight (215g), the S25 Ultra's 200MP main camera, and Snapdragon 8 Elite for Galaxy chip. However, it loses S Pen support and increases in price to $1,999. The Z Flip 7 gets a larger 6.9" internal display, edge-to-edge 4.1" cover display, and bigger battery, but switches from Snapdragon to Exynos 2500 chip - potentially signaling Samsung's future direction. MKBHD praises the hardware improvements while noting Samsung's conservative approach to battery technology compared to competitors like Honor with silicon carbon batteries.
 
+## Highlights
+
+### "Lighter Than an S25 Ultra"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bMou1qUMHC4?start=68&end=111" frameborder="0" allowfullscreen></iframe>
+
+> "Each side unfolded is a little over 4 mm and so the whole thing closed is only 8.9 mm this time... The whole thing weighs 215 grams. That's actually lighter than an S25 Ultra."
+> — Marques Brownlee, [1:08](https://www.youtube.com/watch?v=bMou1qUMHC4&t=68s)
+
+### "The Most Diabolical Table Rock Ever"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bMou1qUMHC4?start=216&end=268" frameborder="0" allowfullscreen></iframe>
+
+> "This camera I think now is gonna have to take my trophy for the most I've ever seen a phone rock on a table with no case on it. This one is absolutely diabolical."
+> — Marques Brownlee, [3:36](https://www.youtube.com/watch?v=bMou1qUMHC4&t=216s)
+
+### "The $2,000 Foldable Reality"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bMou1qUMHC4?start=349&end=398" frameborder="0" allowfullscreen></iframe>
+
+> "It was $1,899, now it's $1,999 base. It was already expensive. Now, it's even more expensive. The ultra cameras and the thinner design and everything this year, $2,000 bucks to get a foldable."
+> — Marques Brownlee, [5:49](https://www.youtube.com/watch?v=bMou1qUMHC4&t=349s)
+
+### "Honor's Silicon Carbon Battery Advantage"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bMou1qUMHC4?start=398&end=447" frameborder="0" allowfullscreen></iframe>
+
+> "This is the Honor Magic V5... this phone is even thinner than Samsung's. It's about the same weight and it has a 5,820 mAh battery thanks to it being silicon carbon."
+> — Marques Brownlee, [6:38](https://www.youtube.com/watch?v=bMou1qUMHC4&t=398s)
+
+### "The Exynos Comeback Concern"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bMou1qUMHC4?start=533&end=584" frameborder="0" allowfullscreen></iframe>
+
+> "They've gone back from a Snapdragon chip to an Exynos chip in this phone... this could be a preview of the S26. Allegedly Samsung may be looking to switch fully back to Exynos for everything across the board."
+> — Marques Brownlee, [8:53](https://www.youtube.com/watch?v=bMou1qUMHC4&t=533s)
+
 ## Key Points
 
 - [0:07](https://www.youtube.com/watch?v=bMou1qUMHC4&t=7) - Introduction to the "tick-tock" upgrade cycle - last year was minimal updates, this year brings meaningful hardware changes

@@ -26,6 +26,50 @@ Bernt Børnich, founder and CEO of 1X, discusses his decade-long journey buildin
 
 The conversation explores the surprising emotional bonds people form with robots, the "quantum serial number" concept for robot identity, and the challenges of deploying robots in real homes where even Wi-Fi reliability becomes a major obstacle. Bernt shares his vision of transforming "have to" into "want to" - allowing humans to focus on what they're passionate about while robots handle mundane tasks. He discusses scaling targets of 100,000 robots by 2027 and 1 million by 2028, emphasizing the importance of managing customer expectations and delivering reliability over overpromising capabilities.
 
+## Highlights
+
+### "It was like getting another kid - it would get into trouble all the time"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NmI0UipVFyM?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+
+> "I had the first robot at home. It was like getting another kid. It would get into trouble all the time. I wanted to reset my house at night while sleeping and I wake up to strange noises in night like what the heck is going on?"
+> — Bernt Bornich, [0:00](https://www.youtube.com/watch?v=NmI0UipVFyM&t=0s)
+
+### "Someone knocks on my door - Neo goes over, opens it, and greets the guest fully autonomous"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NmI0UipVFyM?start=226&end=290" frameborder="0" allowfullscreen></iframe>
+
+> "Sitting in the couch reading a book, someone knocks on my door. I say 'Hey Neo can you get that?' Robot goes over, opens the door, and says hi to the guest. Fully autonomous. It's absolutely magical."
+> — Bernt Bornich, [3:46](https://www.youtube.com/watch?v=NmI0UipVFyM&t=226s)
+
+### "An elderly person refused to swap their robot for a better one - 'I want THIS one'"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NmI0UipVFyM?start=351&end=420" frameborder="0" allowfullscreen></iframe>
+
+> "In 2019 we did trials in healthcare. We had someone who wanted to keep their robot and we offered to swap it for a better one. They said 'No no no you can't take my robot. I don't want a new one. I want this one.' It's like saying you can't replace Fred with a better human."
+> — Bernt Bornich, [5:51](https://www.youtube.com/watch?v=NmI0UipVFyM&t=351s)
+
+### "Wi-Fi is almost harder than robotics"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NmI0UipVFyM?start=818&end=880" frameborder="0" allowfullscreen></iframe>
+
+> "Wi-Fi is almost harder than robotics. The robot is significantly less intelligent without good Wi-Fi for cloud AI access. The real world is so freaking hard."
+> — Bernt Bornich, [13:38](https://www.youtube.com/watch?v=NmI0UipVFyM&t=818s)
+
+### "At 11 I looked at an excavator and decided I'm going to make humanoids - it makes no sense"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NmI0UipVFyM?start=1142&end=1210" frameborder="0" allowfullscreen></iframe>
+
+> "I was 11 years old looking at an excavator doing its thing and I was like, I'm going to make humanoids. And it makes no sense. Humanoid is the pinnacle of engineering - it combines every science: materials, electromechanics, motors, sensors, AI, psychology."
+> — Bernt Bornich, [19:02](https://www.youtube.com/watch?v=NmI0UipVFyM&t=1142s)
+
+### "We've literally been on less than 48 hours of runway"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NmI0UipVFyM?start=1408&end=1475" frameborder="0" allowfullscreen></iframe>
+
+> "We've literally been on less than 48 hours of runway. Been close to the edge many times. We had to invent everything from first principles - motors, gears, sensors, actuators. You don't bootstrap humanoid robotics."
+> — Bernt Bornich, [23:28](https://www.youtube.com/watch?v=NmI0UipVFyM&t=1408s)
+
 ## Key Points
 
 - **Designing for home living** ([0:25](https://www.youtube.com/watch?v=NmI0UipVFyM&t=25s)) - Building humanoids that are pleasant to live with, not dark sci-fi; Scandinavian design influence for relatable, soft aesthetics

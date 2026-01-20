@@ -36,6 +36,43 @@ The conversation covers Buttigieg's defense of his tenure as Transportation Secr
 
 Buttigieg also reflects on working in the Biden administration, discusses whether Kamala Harris should have faced a quick primary, and shares his concerns about AI-driven job displacement. He draws parallels to the industrial Midwest where automation displaced workers, warning that white-collar workers may face even greater identity crises as AI transforms their professions. Looking toward 2028, Buttigieg signals he's a likely presidential candidate but says he's in "no hurry" to jump back into presidential politics.
 
+## Highlights
+
+### "Identity has become too central to how my party thinks"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xGMFooWNixI?start=1981&end=2050" frameborder="0" allowfullscreen></iframe>
+
+> "I think identity has become too central to how my party thinks... it felt like a salad bar, like here's something for your group and here's something for another group and it didn't add up into a story."
+> — Pete Buttigieg, [33:01](https://www.youtube.com/watch?v=xGMFooWNixI&t=1981s)
+
+### "The debt path we're on is not sustainable"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xGMFooWNixI?start=1620&end=1680" frameborder="0" allowfullscreen></iframe>
+
+> "The debt path we're on is not sustainable. And that's one area where you're right, neither party has covered themselves in glory. And it's an area where I would part with some in my own party."
+> — Pete Buttigieg, [27:00](https://www.youtube.com/watch?v=xGMFooWNixI&t=1620s)
+
+### "Human drivers have a murderous track record"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xGMFooWNixI?start=3775&end=3840" frameborder="0" allowfullscreen></iframe>
+
+> "Human drivers have a murderous track record... every day 100 to 150 people die on our roadways to car crashes and vehicles driven by humans. It's enough to fill a 737 every day."
+> — Pete Buttigieg, [54:45](https://www.youtube.com/watch?v=xGMFooWNixI&t=3285s)
+
+### "We didn't do enough early enough on immigration"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xGMFooWNixI?start=2407&end=2470" frameborder="0" allowfullscreen></iframe>
+
+> "I would agree that the last administration didn't do enough and didn't do enough early enough... if that executive order that happened toward the end, if that had been done in year 1, year two, would we be in a different place?"
+> — Pete Buttigieg, [40:07](https://www.youtube.com/watch?v=xGMFooWNixI&t=2407s)
+
+### "No republic has ever survived this level of inequality"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xGMFooWNixI?start=3765&end=3830" frameborder="0" allowfullscreen></iframe>
+
+> "My big worry is that if we're already at a level of concentration of wealth and power that no republic has ever survived, is this going to be a development that just makes wealth and power even more concentrated in even fewer hands?"
+> — Pete Buttigieg, [1:02:45](https://www.youtube.com/watch?v=xGMFooWNixI&t=3765s)
+
 ## Key Points
 
 - **Democrats lost tech leaders** ([1:31](https://www.youtube.com/watch?v=xGMFooWNixI&t=91s)) - Buttigieg acknowledges that many Silicon Valley leaders flipped from being active Democrats to backing Trump, suggesting short-term business and financial interests drove some decisions

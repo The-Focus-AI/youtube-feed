@@ -40,6 +40,36 @@ The conventional explanation for nondeterminism has been floating point arithmet
 
 The video emphasizes the importance of solving this problem for AI reliability, particularly as AI systems become integrated into critical areas like healthcare, education, and transportation. The Thinking Machines Lab's research suggests that while there is a trade-off between efficiency and reproducibility, achieving deterministic AI outputs is possible and essential for building trustworthy AI systems.
 
+## Highlights
+
+### "LLMs are not calculators"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6BFkLH-FSFA?start=22&end=75" frameborder="0" allowfullscreen></iframe>
+
+> "LLMs are not calculators. That's for sure. Even if sometimes we compare them to them in terms of technology using being a tool, when you use language model like ChatGPT or Claude or any open or closed source model, you might think that with the same input, it will be always the same output. But in practice, each time you send the same prompt, you will get slightly different answer."
+> — Host, [0:31](https://www.youtube.com/watch?v=6BFkLH-FSFA&t=31s)
+
+### "The real culprit is batching"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6BFkLH-FSFA?start=278&end=330" frameborder="0" allowfullscreen></iframe>
+
+> "When you send a prompt to a model hosted on a server, your request often isn't run by itself. To be efficient, the server groups multiple prompts together into a batch. And if your prompt goes alone, it's handled one way. If it goes in with nine others, it's handled slightly differently. And that grouping changes how the underlying operations run. And that can change the result."
+> — Host, [4:41](https://www.youtube.com/watch?v=6BFkLH-FSFA&t=281s)
+
+### "AI becoming our doctors, teachers, drivers, advisers"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6BFkLH-FSFA?start=389&end=440" frameborder="0" allowfullscreen></iframe>
+
+> "If you imagine AI becoming an essential part of our lives and it becomes so - becoming our doctors, becoming our teachers, our drivers, advisers, you need to be able to rely on the same output if the input is the same. Otherwise, it's just mindboggling."
+> — Host, [6:29](https://www.youtube.com/watch?v=6BFkLH-FSFA&t=389s)
+
+### "That's not good enough"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6BFkLH-FSFA?start=418&end=455" frameborder="0" allowfullscreen></iframe>
+
+> "Yes AI is probabilistic. Yes, it's tempting to accept a little non-determinism as normal, but that's not good enough. When we dig into inference systems, we can find where drift happens."
+> — Host (summarizing Thinking Machines Lab), [6:58](https://www.youtube.com/watch?v=6BFkLH-FSFA&t=418s)
+
 ## Key Points
 
 - **LLMs are not calculators** ([0:22](https://www.youtube.com/watch?v=6BFkLH-FSFA&t=22s)) - Unlike calculators that always give the same output for the same input, language models produce varying results even with identical prompts

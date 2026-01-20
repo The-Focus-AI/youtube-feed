@@ -40,6 +40,43 @@ The video breaks down key terminology mismatches: "prediction" for Sutton means 
 
 The analysis culminates in Sutton's four-part model of intelligence (policy, value function, perception, and transition model) and his view that AI succession to digital intelligence or augmented humans is inevitable. The host notes that while Sutton may seem harsh on LLMs, he acknowledges their surprising effectiveness while predicting that experience-based learning systems will eventually supersede them, as another instance of his famous "Bitter Lesson" - which he himself dismisses as merely an empirical observation about a particular 70-year period in history.
 
+## Highlights
+
+### "They spoke very different languages"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EwhHUQuqiaQ?start=56&end=110" frameborder="0" allowfullscreen></iframe>
+
+> "Suddenly his conversation with podcaster Dwarkesh Patel set internet and especially Twitter on fire. Why? What happened? Why there was so many misunderstandings? I think it is because these two people spoke very different languages and on very different level of understanding and level of abstraction."
+> — Host, [0:56](https://www.youtube.com/watch?v=EwhHUQuqiaQ&t=56s)
+
+### "Intelligence is the computational part of the ability to achieve goals"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EwhHUQuqiaQ?start=158&end=215" frameborder="0" allowfullscreen></iframe>
+
+> "For Sutton having a goal is the essence of intelligence. He quoted McCarthy that intelligence is the computational part of the ability to achieve goals. So for him goal means sign for intelligence."
+> — Host (quoting John McCarthy), [2:38](https://www.youtube.com/watch?v=EwhHUQuqiaQ&t=158s)
+
+### "The bitter lesson - who cares about that?"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EwhHUQuqiaQ?start=605&end=635" frameborder="0" allowfullscreen></iframe>
+
+> "The bitter lesson. Oh, who cares about that? That's an empirical observation about a particular period in history. 70 years in history doesn't necessarily have to apply the next 70 years."
+> — Richard Sutton, [10:15](https://www.youtube.com/watch?v=EwhHUQuqiaQ&t=615s)
+
+### "Don't be difficult. I mean this is obvious."
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EwhHUQuqiaQ?start=567&end=610" frameborder="0" allowfullscreen></iframe>
+
+> "It's surprising. Yeah, you can have such a different point of view... Don't be difficult. I mean this is obvious."
+> — Richard Sutton responding to Dwarkesh Patel, [9:27](https://www.youtube.com/watch?v=EwhHUQuqiaQ&t=567s)
+
+### "Old and new AI not fighting but failing to translate"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EwhHUQuqiaQ?start=589&end=625" frameborder="0" allowfullscreen></iframe>
+
+> "At this moment you see that they are on such a different level of understanding of the level of detailization how it's built that the conversation sounds like a debate when it's really two languages of intelligence talking past each other... In it you can hear the old and the new AI not fighting but failing to translate."
+> — Host, [9:53](https://www.youtube.com/watch?v=EwhHUQuqiaQ&t=593s)
+
 ## Key Points
 
 - **Richard Sutton's Background** ([0:25](https://www.youtube.com/watch?v=EwhHUQuqiaQ&t=25s)) - Sutton comes from the old school of AI, quoting Alan Turing and John McCarthy, and just won the 2024 Turing Award for inventing reinforcement learning

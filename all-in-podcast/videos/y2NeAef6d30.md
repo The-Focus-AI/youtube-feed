@@ -33,6 +33,50 @@ The conversation then shifts to AI data center energy costs, with Microsoft anno
 
 The hosts dive deep into California's proposed Billionaire Tax Amendment (BTA), which would impose a wealth tax on assets. Freeberg argues this represents an unprecedented elimination of private property rights, as it allows the government to seize post-tax assets through legislative vote. Sacks believes the ballot measure is likely to pass once it makes the ballot, predicting a "rush for the exits" from California. The episode concludes with discussion of Trump's pursuit of Greenland acquisition for national security and resource reasons.
 
+## Highlights
+
+### "Average income $200/month while food prices similar to US"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y2NeAef6d30?start=442&end=500" frameborder="0" allowfullscreen></iframe>
+
+> "The average income is about 200 bucks a month in Iran. And the price of food is roughly the same as the US, maybe a little bit less. A combo meal at McDonald's in Tehran is four bucks equivalent. So if you're making $200 a month and it's four bucks to go to McDonald's, costs catch up pretty quickly."
+> — David Friedberg, [7:22](https://www.youtube.com/watch?v=y2NeAef6d30&t=442s)
+
+### "My internet can get fixed a lot more easily than California can"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y2NeAef6d30?start=2109&end=2170" frameborder="0" allowfullscreen></iframe>
+
+> "I'd rather have an internet issue and keep 100% of my money than 5%, lose 5% plus 13.3% per year... My internet can get fixed a lot more easily than California can."
+> — David Sacks, [35:09](https://www.youtube.com/watch?v=y2NeAef6d30&t=2109s)
+
+### "Private property now becomes public property"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y2NeAef6d30?start=2251&end=2320" frameborder="0" allowfullscreen></iframe>
+
+> "Private property now becomes public property because as soon as you give the government the right to collect your post-tax assets through a legislative vote, you are basically saying that you no longer have private property."
+> — David Friedberg, [37:31](https://www.youtube.com/watch?v=y2NeAef6d30&t=2251s)
+
+### "Claude is a much better product now than OpenAI"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y2NeAef6d30?start=2047&end=2100" frameborder="0" allowfullscreen></iframe>
+
+> "I think there's pretty much uniformity amongst elite AI users that Claude is a much better product now than OpenAI and the models are better, the applications are better but they're doing it with less."
+> — Jason Calacanis, [34:07](https://www.youtube.com/watch?v=y2NeAef6d30&t=2047s)
+
+### "When a state shows you who they are, believe them"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y2NeAef6d30?start=2879&end=2940" frameborder="0" allowfullscreen></iframe>
+
+> "When a state shows you who they are, believe them the first time."
+> — David Sacks quoting Maya Angelou, [47:59](https://www.youtube.com/watch?v=y2NeAef6d30&t=2879s)
+
+### "You essentially have 300 VCs running around"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y2NeAef6d30?start=1976&end=2040" frameborder="0" allowfullscreen></iframe>
+
+> "You essentially have 300 VCs who are operating against a national priority and then they are rewarded for it. And so you get a BYD or you get a Xiaomi or you get these great companies."
+> — Chamath Palihapitiya on China's five-year planning, [32:56](https://www.youtube.com/watch?v=y2NeAef6d30&t=1976s)
+
 ## Key Points
 
 - **Davos Attendance** ([0:22](https://www.youtube.com/watch?v=y2NeAef6d30&t=22s)) - Jason and Sacks announce they're attending Davos to interview people at the USA House, with President Trump speaking there on Wednesday

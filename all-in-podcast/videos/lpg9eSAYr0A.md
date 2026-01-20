@@ -33,6 +33,43 @@ The conversation shifts to the home affordability crisis in America, where the a
 
 The episode also covers the H-1B visa debate following Trump's Fox News appearance, with Chamath explaining the $100,000 fee reform and how large companies abuse the lottery system by filing hundreds of thousands of applications. Friedberg delivers a science corner on the week's massive G5 geomagnetic storm caused by three coronal mass ejections, explaining the risks to satellites, GPS, and electrical infrastructure. The show concludes with observations about wealthy Americans seeking "escape hatches" in places like Tokyo, Singapore, and Balaji Srinivasan's Network State project in Malaysia.
 
+## Highlights
+
+### "CNBC got the calculator wrong by 100x"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lpg9eSAYr0A?start=53&end=115" frameborder="0" allowfullscreen></iframe>
+
+> "It's not that they got the calculator wrong. It's just that they're so uninvested in assets that they don't know how asset markets work."
+> — Chamath Palihapitiya, [1:25](https://www.youtube.com/watch?v=lpg9eSAYr0A&t=85s)
+
+### "These companies won't cook the books"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lpg9eSAYr0A?start=543&end=605" frameborder="0" allowfullscreen></iframe>
+
+> "The business models of these companies are just far too good for them to get to the point of having exhausted every other operational tactic that then they have to cook the books. These are not the seven companies that are going to cook the books."
+> — Chamath Palihapitiya, [9:03](https://www.youtube.com/watch?v=lpg9eSAYr0A&t=543s)
+
+### "You don't have a god-given right to live in Tokyo"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lpg9eSAYr0A?start=2060&end=2120" frameborder="0" allowfullscreen></iframe>
+
+> "You don't have a god-given right to live in Tokyo, Paris, Hong Kong, or any of the major cities. You need to live in the suburbs. You need to commute an hour to school."
+> — Jason Calacanis, [34:28](https://www.youtube.com/watch?v=lpg9eSAYr0A&t=2068s)
+
+### "Stephen Miller's deranged process"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lpg9eSAYr0A?start=2532&end=2595" frameborder="0" allowfullscreen></iframe>
+
+> "You can't be deporting people with Stephen Miller's deranged process of running people down and treating them inhumanely and then at the same time be saying, 'Hey, we want you to invest and build a battery factory.'"
+> — Jason Calacanis, [42:54](https://www.youtube.com/watch?v=lpg9eSAYr0A&t=2574s)
+
+### "G5 Geomagnetic Storm hits Earth"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lpg9eSAYr0A?start=2705&end=2770" frameborder="0" allowfullscreen></iframe>
+
+> "There were three major coronal mass ejections that happened in a row. Two of them kind of combined and hit the earth at the same time and we had the highest level recorded geomagnetic storm which was G5."
+> — David Friedberg, [45:05](https://www.youtube.com/watch?v=lpg9eSAYr0A&t=2705s)
+
 ## Key Points
 
 - **Michael Burry's AI Short** ([0:18](https://www.youtube.com/watch?v=lpg9eSAYr0A&t=18s)) - Burry disclosed shorts against Palantir and accused Meta/Oracle of $176B in hidden depreciation to inflate earnings by 20%

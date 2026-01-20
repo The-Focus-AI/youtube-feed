@@ -33,6 +33,36 @@ tags:
 
 MKBHD unboxes the entire iPhone 17 lineup including the iPhone 17, iPhone 17 Pro, iPhone 17 Pro Max, and the new ultra-thin iPhone Air. He shares first impressions on the new colors (green for base, orange and blue for Pro), discusses benchmark improvements with the A19/A19 Pro chips, and dives deep into battery capacity revelations. The video's "hot take" is that the base iPhone 17 is potentially the best deal in smartphones right now, offering better value than competitors like the Pixel. He also compares the iPhone Air to Samsung's S25 Edge, noting that while the Air is thinner, the S25 Edge offers more features like better cameras and stereo speakers.
 
+## Highlights
+
+### "Potentially the Best Deal in the Lineup"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s0EbxhQYeCA?start=65&end=125" frameborder="0" allowfullscreen></iframe>
+
+> "This base iPhone, I really am thinking is potentially the best deal they've had in the lineup in a long time."
+> — Marques Brownlee, [1:23](https://www.youtube.com/watch?v=s0EbxhQYeCA&t=83s)
+
+### "I Can't Believe Apple's Battery Claims"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s0EbxhQYeCA?start=441&end=500" frameborder="0" allowfullscreen></iframe>
+
+> "This adds definitely more fuel to the I don't really know if I can believe anything Apple says about battery... They rate the Air for 27 hours and they rate last year's iPhone 16 for 22."
+> — Marques Brownlee, [7:21](https://www.youtube.com/watch?v=s0EbxhQYeCA&t=441s)
+
+### "4.5 Hours Screen Time is C Minus Level"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s0EbxhQYeCA?start=480&end=540" frameborder="0" allowfullscreen></iframe>
+
+> "It's been trending towards around 4 and 1/2 hours of screen on time per day, which used to be good, but these days that's like C minus level."
+> — Marques Brownlee, [8:09](https://www.youtube.com/watch?v=s0EbxhQYeCA&t=489s)
+
+### "One of the Best Deals in All of Smartphones"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s0EbxhQYeCA?start=633&end=695" frameborder="0" allowfullscreen></iframe>
+
+> "The base iPhone this year is more clearly than ever the one that most people should get... I think this is one of the best deals in all of smartphones."
+> — Marques Brownlee, [10:37](https://www.youtube.com/watch?v=s0EbxhQYeCA&t=637s)
+
 ## Key Points
 
 - [0:00](https://www.youtube.com/watch?v=s0EbxhQYeCA&t=0s) - **Unboxing Overview**: MKBHD introduces all four iPhone 17 models: Pro Max (2TB/$2000), Pro (blue), base iPhone 17 (green), and iPhone Air

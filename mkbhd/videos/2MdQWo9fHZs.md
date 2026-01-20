@@ -41,6 +41,43 @@ tags:
 
 MKBHD reviews the OnePlus 15, a smartphone that goes far beyond a typical spec bump refresh. The phone features the new Snapdragon 8 Elite Gen 5 chip with 20-40% faster performance, a massive 7,300mAh silicon carbon battery (up from 6,000mAh on the OnePlus 13), and an innovative ceramic coating that makes the matte black finish scratch-resistant. The phone includes overkill specs like UFS 4.1 storage, up to 16GB LPDDR5X Ultra Plus RAM, IP69K water resistance, 165Hz gaming display, and custom Wi-Fi and touch response chips. However, the camera system represents a significant downgrade with smaller sensors, more noise, and the end of the Hasselblad partnership. Priced at $899-999, it offers exceptional performance and battery life but disappointing photography capabilities.
 
+## Highlights
+
+### "This phone isn't taking the damage, it's doing the damage"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2MdQWo9fHZs?start=199&end=250" frameborder="0" allowfullscreen></iframe>
+
+> "This phone isn't taking the damage, it's doing the damage. That's not normal. It's like call an ambulance, but not for me."
+> — Marques Brownlee, [3:55](https://www.youtube.com/watch?v=2MdQWo9fHZs&t=235s)
+
+### "Survive a laundry cycle"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2MdQWo9fHZs?start=250&end=300" frameborder="0" allowfullscreen></iframe>
+
+> "Pretty sure it could literally survive a laundry cycle and be fine."
+> — Marques Brownlee, [4:31](https://www.youtube.com/watch?v=2MdQWo9fHZs&t=271s)
+
+### "50% overnight, still 49% in the morning"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2MdQWo9fHZs?start=317&end=365" frameborder="0" allowfullscreen></iframe>
+
+> "Sometimes I'd end a day with like 50%, go to sleep, wake up, and it would have 49% ready for a whole another day."
+> — Marques Brownlee, [5:52](https://www.youtube.com/watch?v=2MdQWo9fHZs&t=352s)
+
+### "85% charge still more than Galaxy S25 Ultra"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2MdQWo9fHZs?start=384&end=440" frameborder="0" allowfullscreen></iframe>
+
+> "If you just wanted to guarantee the long-term battery health of the phone and limit it to 85% charge, it would still have more battery than the Galaxy S25 Ultra."
+> — Marques Brownlee, [6:31](https://www.youtube.com/watch?v=2MdQWo9fHZs&t=391s)
+
+### "Same camera as the $400 Honor 200"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2MdQWo9fHZs?start=622&end=675" frameborder="0" allowfullscreen></iframe>
+
+> "This is actually the same one that's in the $400 Honor 200, and it kind of acts like it."
+> — Marques Brownlee, [10:27](https://www.youtube.com/watch?v=2MdQWo9fHZs&t=627s)
+
 ## Key Points
 
 - [0:01](https://www.youtube.com/watch?v=2MdQWo9fHZs&t=1s) - Introduction: Phone praised as exceptionally good with new chip, design, display, and battery

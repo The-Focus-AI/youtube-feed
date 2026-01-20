@@ -28,6 +28,43 @@ The video reveals a phenomenon: Chinese domestic brands sell high-quality vintag
 
 Michael explores how this shopping model is "leaking" into the US through Shein, Temu, and TikTok Shop, potentially disrupting traditional retail. The investigation is nuanced - acknowledging both the quality possibilities and the concerns about labor, environmental standards, and the race to the bottom.
 
+## Highlights
+
+### "The jeans that I'm wearing are from Bronson. They cost $90."
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L6QUfMd82eY?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+
+> "This is a pair of selvedge denim reproduction jeans from 1936. They are really good quality. Levi's sells their reproduction pair for $300, but Buck Mason sells their reproduction pair for $270. So, Buck Mason is the deal, right? No. The jeans that I'm wearing are from Bronson. They cost $90."
+> — Michael, [0:00](https://www.youtube.com/watch?v=L6QUfMd82eY&t=0s)
+
+### "Bronson, a domestic Chinese vintage US military reproduction brand"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L6QUfMd82eY?start=20&end=80" frameborder="0" allowfullscreen></iframe>
+
+> "Bronson, a domestic Chinese vintage US military reproduction brand. One of the weirdest sentences I've probably ever said."
+> — Michael, [0:25](https://www.youtube.com/watch?v=L6QUfMd82eY&t=25s)
+
+### "I basically pestered their customer service"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L6QUfMd82eY?start=120&end=180" frameborder="0" allowfullscreen></iframe>
+
+> "I basically pestered their customer service until Een was like, 'Dude, what do you want to know?' And boy oh boy, did I get some answers."
+> — Michael, [2:35](https://www.youtube.com/watch?v=L6QUfMd82eY&t=155s)
+
+### "Made in China became shorthand for cheap garbage"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L6QUfMd82eY?start=315&end=375" frameborder="0" allowfullscreen></iframe>
+
+> "This is the nuance that gets lost. 'Made in China' became shorthand for 'cheap garbage' but China makes everything from garbage to the finest products on earth. It's about which tier of production you're accessing."
+> — Michael, [5:15](https://www.youtube.com/watch?v=L6QUfMd82eY&t=315s)
+
+### "Brand tax is real"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L6QUfMd82eY?start=615&end=675" frameborder="0" allowfullscreen></iframe>
+
+> "Brand tax is real. Buck Mason charges for being Buck Mason. You're paying for their aesthetic, their marketing, their brand story. If that matters to you, fine. But know what you're paying for."
+> — Michael, [10:15](https://www.youtube.com/watch?v=L6QUfMd82eY&t=615s)
+
 ## Key Points
 
 - **$90 vs $300 Comparison** ([0:00](https://www.youtube.com/watch?v=L6QUfMd82eY&t=0s)) - Bronson 1936 reproduction jeans cost $90, comparable Levi's reproductions $300, Buck Mason $270

@@ -28,6 +28,43 @@ The video reveals how the COVID-19 pandemic actually shaped their flagship Harls
 
 Crown Northampton is defined by four pillars: premium materials, obscene softness and comfort, whole cut construction, and simplicity. The video examines several sneaker models including the Jazz collection (nicknamed "marshmallows" by Japanese customers), the Harlston ($800), the shell cordovan models, the Abby with its unique semi-split leather construction, and the Everan Rambler boot.
 
+## Highlights
+
+### "Without the Unfailing Barrage of Boots, We Could Have Never Shattered the German Lines"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Th9rFZSbMHM?start=152&end=210" frameborder="0" allowfullscreen></iframe>
+
+> "Without the unfailing barrage of boots Northampton put over for all of the Allied armies we could have never shattered the German lines."
+> — Editor of the Northampton Independent, 1922, [2:36](https://www.youtube.com/watch?v=Th9rFZSbMHM&t=156s)
+
+### "Shell Cordovan is Buried Inside of a Horse's Butt"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Th9rFZSbMHM?start=604&end=660" frameborder="0" allowfullscreen></iframe>
+
+> "Shell cordovan is buried inside of a horse's butt to be frank, and although horses do have large butts they're not huge so you only get two shells per horse."
+> — Michael, [10:10](https://www.youtube.com/watch?v=Th9rFZSbMHM&t=610s)
+
+### "Chris Is Not a Savvy Businessman, He's an Artist"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Th9rFZSbMHM?start=88&end=145" frameborder="0" allowfullscreen></iframe>
+
+> "Chris is not a savvy businessman, he's an artist... if we're going to do this really slow process it's going to make these sneakers super expensive, let's not leave something in the gas tank and cheap out here."
+> — Michael, [1:42](https://www.youtube.com/watch?v=Th9rFZSbMHM&t=102s)
+
+### "Chris Said 'I'm Going to Use That in 25 Years'"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Th9rFZSbMHM?start=748&end=810" frameborder="0" allowfullscreen></iframe>
+
+> "Chris looked at that and said 'whoa, I'm going to use that in 25 years' and he did on the Abby."
+> — Michael, [12:50](https://www.youtube.com/watch?v=Th9rFZSbMHM&t=770s)
+
+### "Whole Cut Bespoke Welted Shoes Were Made to Show Off Skills 100 Years Ago"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Th9rFZSbMHM?start=835&end=895" frameborder="0" allowfullscreen></iframe>
+
+> "Whole cut bespoke welted shoes were being made to show off my great-grandfather's skills 100 years ago."
+> — Chris Woodford, [14:09](https://www.youtube.com/watch?v=Th9rFZSbMHM&t=849s)
+
 ## Key Points
 
 - **COVID-19 Design Origin** ([0:00](https://www.youtube.com/watch?v=Th9rFZSbMHM&t=0s)) - The Harlston sneaker's distinctive stitches exist because Chris Woodford adapted hand-sewn moccasin techniques to keep his business running during the pandemic when workers couldn't gather closely.

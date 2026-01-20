@@ -21,6 +21,43 @@ The video reveals obsessive attention to detail: checking whether shirts lay fla
 
 Key takeaways include Japanese t-shirts dominating the high-end market through loopwheel knitting, American brands like American Giant making incredibly durable heavyweights, and budget options like Uniqlo and House of Blanks offering remarkable quality for price.
 
+## Highlights
+
+### "Over the past few years, I have accidentally made it my goal to try and find the greatest t-shirts ever known to humankind."
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FSWl57UR4k0?start=30&end=75" frameborder="0" allowfullscreen></iframe>
+
+> "Over the past few years, I have accidentally made it my goal to try and find the greatest t-shirts ever known to humankind. This video is an amalgamation of my findings thus far."
+> — Michael, [0:35](https://www.youtube.com/watch?v=FSWl57UR4k0&t=35s)
+
+### "Loopwheel knitting is the key"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FSWl57UR4k0?start=240&end=300" frameborder="0" allowfullscreen></iframe>
+
+> "Loopwheel knitting is the key. These slow, vintage machines produce fabric with a distinctive soft hand and natural stretch recovery that modern high-speed knitting can't replicate. Takes forever to make, which is why it's expensive."
+> — Michael, [4:00](https://www.youtube.com/watch?v=FSWl57UR4k0&t=240s)
+
+### "House of Blanks might be the best pure value"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FSWl57UR4k0?start=720&end=780" frameborder="0" allowfullscreen></iframe>
+
+> "House of Blanks Heavyweight: this might be the best pure value in the video. Quality that rivals shirts at 2-3x the price. If budget matters, start here."
+> — Michael, [12:00](https://www.youtube.com/watch?v=FSWl57UR4k0&t=720s)
+
+### "Lady White is my personal favorite for daily wear"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FSWl57UR4k0?start=600&end=660" frameborder="0" allowfullscreen></iframe>
+
+> "Lady White Co. Our T-Shirt: made in LA. The drape is beautiful, the construction precise, the overall effect effortless. My personal favorite for daily wear."
+> — Michael, [10:00](https://www.youtube.com/watch?v=FSWl57UR4k0&t=600s)
+
+### "These shirts could stop bullets"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FSWl57UR4k0?start=420&end=480" frameborder="0" allowfullscreen></iframe>
+
+> "Now the Heavyweights. These shirts could stop bullets. Not literally. But they're built like tanks."
+> — Michael, [7:00](https://www.youtube.com/watch?v=FSWl57UR4k0&t=420s)
+
 ## Key Points
 
 - **Triple-Stitched Bound Collar** ([0:00](https://www.youtube.com/watch?v=FSWl57UR4k0&t=0s)) - Look for this construction detail on quality t-shirts; prevents collar from losing shape

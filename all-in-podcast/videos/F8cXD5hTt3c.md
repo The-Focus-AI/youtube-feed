@@ -38,6 +38,50 @@ The panel explores the radical compression of value creation, exemplified by Ant
 
 The discussion also addresses the implications for education and workforce development, with both guests arguing that the traditional model of 22 years of learning followed by 40 years of working is broken. They emphasize the need for lifelong learning, resilience, and the ability to work alongside AI agents. The session concludes with Jason's nostalgic "tech time capsule" featuring gadgets from CES past—from brick phones to Google Glass—prompting reflections on which current technologies will seem similarly antiquated in 30 years.
 
+## Highlights
+
+### "Anthropic's Explosive 10x Year-Over-Year Growth"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F8cXD5hTt3c?start=338&end=400" frameborder="0" allowfullscreen></iframe>
+
+> "That business when we invested was doing about $80 million, which was a 10x growth from the year before, 10x year, 10x growth the year before. And then this last year they've announced this they're growing another 10x or more."
+> — Hemant Taneja, [5:46](https://www.youtube.com/watch?v=F8cXD5hTt3c&t=346s)
+
+### "CEO Torn Between CFO and CIO"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F8cXD5hTt3c?start=571&end=630" frameborder="0" allowfullscreen></iframe>
+
+> "A typical non-tech CEO might say, 'Hey, Bob, do I listen to my CFO or my CIO right now?' CFO is saying, 'We've spent all this money. Why do we need to be the fast adopter? I'm not seeing the ROI yet. Can we pause?' CIO is saying, 'Are you freaking crazy? This is the moment that if we don't, we'll be disrupted.'"
+> — Bob Sternfels, [9:36](https://www.youtube.com/watch?v=F8cXD5hTt3c&t=576s)
+
+### "McKinsey Saved 1.5 Million Hours with AI"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F8cXD5hTt3c?start=1113&end=1170" frameborder="0" allowfullscreen></iframe>
+
+> "We saved 1.5 million hours in search and synthesis last year, but we're dividending that to solve more complicated problems and do different things. You guys are probably sick of McKinsey charts out there. We have agents that do this. They just gave you 2.5 million of them in the last 6 months."
+> — Bob Sternfels, [18:36](https://www.youtube.com/watch?v=F8cXD5hTt3c&t=1116s)
+
+### "Training Young People vs Training an Agent"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F8cXD5hTt3c?start=1570&end=1620" frameborder="0" allowfullscreen></iframe>
+
+> "Young people coming into the workforce I have to train are annoying. Setting up an agent who just does the work is easy. That's the game on the field right now that people don't want to talk about."
+> — Jason Calacanis, [26:15](https://www.youtube.com/watch?v=F8cXD5hTt3c&t=1575s)
+
+### "40,000 Humans, 25,000 Agents at McKinsey"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F8cXD5hTt3c?start=1778&end=1840" frameborder="0" allowfullscreen></iframe>
+
+> "That is the number of humans we have and the number of personalized agents we have as of last week in McKinsey. And I think we'll be at parity before the end of, by the end of this year. So you're literally deploying agents that can do a full 360 degree trusted job function."
+> — Bob Sternfels, [29:48](https://www.youtube.com/watch?v=F8cXD5hTt3c&t=1788s)
+
+### "Tesla Optimus Will Be the Most Transformative Product Ever"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F8cXD5hTt3c?start=2342&end=2400" frameborder="0" allowfullscreen></iframe>
+
+> "I can tell you now, nobody will remember that Tesla ever made a car. They will only remember the Optimus and that he is going to make a billion of those. And it is going to be the most transformative technology product ever made in the history of humanity."
+> — Jason Calacanis, [39:16](https://www.youtube.com/watch?v=F8cXD5hTt3c&t=2356s)
+
 ## Key Points
 
 - **AI will dwarf all previous tech revolutions** ([0:48](https://www.youtube.com/watch?v=F8cXD5hTt3c&t=48s)) - Jason argues everything from PC revolution to cloud computing to mobile will be dwarfed by AI's impact on society

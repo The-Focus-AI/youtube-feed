@@ -31,6 +31,43 @@ The announcement raises interesting questions about Apple's existing partnership
 
 The broader insight from this news is that controlling the user interface may matter more than owning the underlying AI models. Just as tools like Raycast let users swap between different AI models while maintaining a consistent experience, Apple is prioritizing keeping users in their ecosystem over building proprietary AI from scratch. This move is designed to prevent users from switching to Android phones specifically for better AI features.
 
+## Highlights
+
+### "Apple hasn't finally figured out AI"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TVsounscj4U?start=40&end=95" frameborder="0" allowfullscreen></iframe>
+
+> "This headline is basically now Apple and Google putting out statements confirming the hilarious news that Apple hasn't finally figured out AI. They will be partnering with a company who has figured out AI."
+> — Marques Brownlee, [0:40](https://www.youtube.com/watch?v=TVsounscj4U&t=40s)
+
+### "They're losing the AI race"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TVsounscj4U?start=91&end=140" frameborder="0" allowfullscreen></iframe>
+
+> "This is a pretty big news story just because it is a $4 trillion tech company that everyone assumes is on the bleeding edge of all this stuff and we're waiting for them to get it together and finally jump in the AI race and now this feels like the headline that we can all point to to say, 'Okay, yeah, they're losing the AI race.'"
+> — Marques Brownlee, [1:31](https://www.youtube.com/watch?v=TVsounscj4U&t=91s)
+
+### "Circle to Search could come to iPhone"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TVsounscj4U?start=319&end=360" frameborder="0" allowfullscreen></iframe>
+
+> "Circle to search is one of the absolute most useful AI features to me of the entire last 5 plus years where you can circle whatever's on your screen... If all of that is potentially coming to the iPhone, that would be a pretty nice outcome of this deal."
+> — Marques Brownlee, [5:36](https://www.youtube.com/watch?v=TVsounscj4U&t=336s)
+
+### "Who owns the models may not matter"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TVsounscj4U?start=357&end=425" frameborder="0" allowfullscreen></iframe>
+
+> "Maybe who owns the models is not as important as who controls the interface."
+> — Marques Brownlee, [6:11](https://www.youtube.com/watch?v=TVsounscj4U&t=371s)
+
+### "Keeping users on the iPhone"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TVsounscj4U?start=443&end=480" frameborder="0" allowfullscreen></iframe>
+
+> "Apple is going to do this deal because it keeps the user on the iPhone. And so if built-in AI tools and LLM was really one of the reasons you were actually going to leave the iPhone... this move is specifically to make sure that that is no longer one of the reasons that you would switch."
+> — Marques Brownlee, [7:23](https://www.youtube.com/watch?v=TVsounscj4U&t=443s)
+
 ## Key Points
 
 - **Siri Update Powered by Google** ([0:02](https://www.youtube.com/watch?v=TVsounscj4U&t=2s)) - Apple confirms the big Siri update coming in 2026 will use Google's technology as its foundation

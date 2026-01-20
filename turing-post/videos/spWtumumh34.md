@@ -33,6 +33,43 @@ The experts present competing timelines and perspectives. One notable prediction
 
 The discussion also addresses significant practical concerns including workforce disruption, cybersecurity implications (AGI as an "accelerant" for both attackers and defenders), and the emerging distinction between "cheap intelligence" (raw knowledge, pattern recognition) and "expensive intelligence" (human agency, creativity, original insight, and taste). Throughout, most experts converge on a human-centric view: AGI will augment and partner with humans rather than replace them, and direction and perspective will remain fundamentally human.
 
+## Highlights
+
+### "We need to understand consciousness to get the final breakthrough"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/spWtumumh34?start=145&end=195" frameborder="0" allowfullscreen></iframe>
+
+> "I think ultimately we need to understand the nature of the mind. They needed to understand consciousness and we need to understand the brain a lot better to be able to get the final breakthrough I think in simulating a mind and machines."
+> — Amjad Masad, [2:25](https://www.youtube.com/watch?v=spWtumumh34&t=145s)
+
+### "Coding systems will reach that point within 2 years"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/spWtumumh34?start=589&end=640" frameborder="0" allowfullscreen></iframe>
+
+> "We're expecting that the coding systems will reach that point within the next 2 years. And as soon as they reach that, yeah, I would say a maximum of 3 years of them working non-stop, day and night, they will be able to figure this out across all the domains."
+> — Amr Awadallah, [10:13](https://www.youtube.com/watch?v=spWtumumh34&t=613s)
+
+### "Cheap vs Expensive Intelligence"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/spWtumumh34?start=647&end=700" frameborder="0" allowfullscreen></iframe>
+
+> "There will be a kind of like bifurcation of like expensive and cheap intelligence. Like expensive types of intelligence are things like human agency, creativity, original insight, taste and vision and the stuff that like feels like it's like genius or original because it can't be reverse engineered from the data."
+> — Dev Rishi, [10:47](https://www.youtube.com/watch?v=spWtumumh34&t=647s)
+
+### "The Plate Theory for Superintelligence"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/spWtumumh34?start=931&end=990" frameborder="0" allowfullscreen></iframe>
+
+> "Think about like you know the world of problems that's like a plate and then in the middle you have the easy problems like 1 + 1 equals two print hello world right and then in the edge you have many different points maybe the north point is cure cancer okay and the west point is solve the Riemann hypothesis."
+> — Ulrik Hansen, [15:31](https://www.youtube.com/watch?v=spWtumumh34&t=931s)
+
+### "It's very hard for this super intelligent AI mathematician to fold laundry"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/spWtumumh34?start=904&end=935" frameborder="0" allowfullscreen></iframe>
+
+> "I like the word super intelligence better always better than AGI cuz I don't know really the difference they are so similar in a sense. I think super intelligence can be defined that's domain specific. So I can be a super intelligent AI mathematician. Right? It's very hard for this super intelligent AI mathematician to fold laundry the best."
+> — Ulrik Hansen, [15:04](https://www.youtube.com/watch?v=spWtumumh34&t=904s)
+
 ## Key Points
 
 - **True AGI Definition** ([0:56](https://www.youtube.com/watch?v=spWtumumh34&t=56s)) - Original AI researchers defined AGI as dropping an agent into any environment where it can successfully plan, learn skills efficiently on the fly, just like humans do when learning basketball.

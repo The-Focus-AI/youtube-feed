@@ -27,6 +27,43 @@ This video explores the fascinating cultural connection between Jamaica and Clar
 
 The video dives deep into the technical construction of the boot - covering rough-out leather, stitch-down construction, and crepe rubber soles - while also comparing modern Clarks quality to vintage 1980s models using measurements like durometer hardness. Michael also introduces Astorflex as a brand that more closely resembles original Clarks construction. The cultural section explains how the Desert Boot became the footwear of Jamaica's Rude Boys in the 1960s, symbolizing rebellion after independence, and how hundreds of songs have been written about Clarks in Jamaica, including Vybz Kartel's famous track.
 
+## Highlights
+
+### "Boots That Men Smuggled Into Jamaica Via Coffins"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JzAgs47Idzw?start=0&end=55" frameborder="0" allowfullscreen></iframe>
+
+> "These are Clark's desert boots. Boots that men smuggled into Jamaica via coffins."
+> — Michael, [0:00](https://www.youtube.com/watch?v=JzAgs47Idzw&t=0s)
+
+### "There Are Hundreds of Songs About Clarks in Jamaica"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JzAgs47Idzw?start=77&end=130" frameborder="0" allowfullscreen></iframe>
+
+> "There is not one song about Clarks in Jamaica. There are hundreds of songs."
+> — Michael, [1:19](https://www.youtube.com/watch?v=JzAgs47Idzw&t=79s)
+
+### "Nothing Is Like This Relationship"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JzAgs47Idzw?start=102&end=155" frameborder="0" allowfullscreen></iframe>
+
+> "There is nothing like the relationship between Jamaica and Clarks. I thought maybe blue jeans in the USA kind of but not like this. Nothing is like this."
+> — Michael, [1:51](https://www.youtube.com/watch?v=JzAgs47Idzw&t=111s)
+
+### "You Will Fall on Your Butt in Crepe"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JzAgs47Idzw?start=295&end=350" frameborder="0" allowfullscreen></iframe>
+
+> "You will fall on your butt eventually if you are wearing crepe. So, be careful out there."
+> — Michael, [5:20](https://www.youtube.com/watch?v=JzAgs47Idzw&t=320s)
+
+### "The Birth of the Rude Boy"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JzAgs47Idzw?start=707&end=765" frameborder="0" allowfullscreen></iframe>
+
+> "And those people, young men, those young men kind of rude to the system, the general system at be. They were rude boys. Nowadays, the term rude boy is pretty iconic."
+> — Michael, [12:05](https://www.youtube.com/watch?v=JzAgs47Idzw&t=725s)
+
 ## Key Points
 
 - **African Felkun Origins** ([0:10](https://www.youtube.com/watch?v=JzAgs47Idzw&t=10s)) - The Desert Boot is based on the African Felkun (Veldskoen), a hunting boot that British soldiers adopted for hot climates

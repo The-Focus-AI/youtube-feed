@@ -34,6 +34,50 @@ The second segment addresses a New York Times article that accused David Sacks o
 
 The final segment examines a viral claim that the U.S. poverty line should be $140,000 instead of $31,000 when factoring in modern costs like childcare. Chamath analyzes the data and finds the claim was based on high-cost areas like New York suburbs, while more typical cities show a required income around $93,000 for a family of four. This leads to a broader discussion about wealth taxes being proposed in California, Washington, and other states, and the hosts' concerns about a "slow descent into socialism."
 
+## Highlights
+
+### "ChatGPT5 was a bit of a flop"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uxi6LVKanuY?start=16&end=75" frameborder="0" allowfullscreen></iframe>
+
+> "Sam Altman issued Code Red... Chat GPT5, let's call it what it is, was a bit of a flop. It didn't perform to expectations... Anthropic is beating OpenAI in enterprise revenue."
+> — Jason Calacanis, [0:16](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=16s)
+
+### "Google gave themselves permission to take risk"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uxi6LVKanuY?start=1440&end=1510" frameborder="0" allowfullscreen></iframe>
+
+> "I think really importantly it's not just about Sergey coming back, it's about giving themselves permission to take risk... ChatGPT is now acting and OpenAI has been acting like an incumbent, fearful of losing market share."
+> — David Friedberg, [24:00](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=1440s)
+
+### "I divested almost a hundred funds at roughly 50% discount"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uxi6LVKanuY?start=2245&end=2310" frameborder="0" allowfullscreen></iframe>
+
+> "I divested almost a hundred funds that I had invested in, venture funds, things like that, angel funds at roughly a 50% discount to their fair market value."
+> — David Sacks, [37:25](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=2245s)
+
+### "There was no such dinner - they made it up"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uxi6LVKanuY?start=3105&end=3180" frameborder="0" allowfullscreen></iframe>
+
+> "There's just one problem with this narrative. There was no such dinner. We checked my schedule. They made up the dinner... So, they've got a source who's just making this up."
+> — David Sacks, [51:45](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=3105s)
+
+### "Norway's wealth tax caused $54 billion to leave"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uxi6LVKanuY?start=3750&end=3820" frameborder="0" allowfullscreen></iframe>
+
+> "Norway's 2022 wealth tax was supposed to raise $146 million of incremental revenue per year. Instead, $54 billion of net worth left the country. And they actually had a $448 million tax loss."
+> — David Friedberg, [62:30](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=3750s)
+
+### "Socialism emerges slowly"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uxi6LVKanuY?start=3840&end=3900" frameborder="0" allowfullscreen></iframe>
+
+> "Socialism emerges slowly. It's like a quiet sort of hum and then it becomes a roar and all of a sudden you're a frog in a pot and you don't realize you're being boiled."
+> — David Friedberg, [64:00](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=3840s)
+
 ## Key Points
 
 - **OpenAI Code Red** ([0:16](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=16s)) - Sam Altman issued memo telling employees to stop side projects and focus on core ChatGPT experience

@@ -31,6 +31,50 @@ The technology uses waste wood chips - which are free and abundant - mixed with 
 
 Allen, a former SpaceX intern who worked on Dragon thermal protection systems and Raptor engines during production surges, brings the same high-intensity culture to Terranova. The company is building 10 Gen 2 Prometheus units this year to enable 100-acre projects, with plans to license the technology to contractors worldwide - including discussions with ministers in Indonesia and Cambodia - rather than vertically integrating and slowing global deployment of this anti-subsidence solution.
 
+## Highlights
+
+### "Florida has enough waste wood to lift the entire city of Miami in one year"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AAJbpB9aLfI?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+
+> "We did the math. Florida has enough waste wood on a yearly basis to lift the entire city of Miami by the whole amount it needs in one year. We are basically the anti-subsidence and I think the right solution to fix that at scale."
+> — Laurence Allen, [0:00](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=0s)
+
+### "A gopher can literally take out a city by chewing through an earth levy"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AAJbpB9aLfI?start=194&end=260" frameborder="0" allowfullscreen></iframe>
+
+> "A gopher can literally take out like a city by just chewing through an earth levy. The predicted damage from that is about a trillion dollars. One of the things the leaders in the Bay Area meet every month about is protecting these levies from gophers."
+> — Laurence Allen, [3:14](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=194s)
+
+### "Seawalls cost $500 to $900 million for a small city"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AAJbpB9aLfI?start=65&end=130" frameborder="0" allowfullscreen></iframe>
+
+> "For a small municipality like my hometown of San Rafael, they quoted 500 to 900 million for the seawall that they needed, which is of course prohibitively expensive if it's like a 60,000 person city."
+> — Laurence Allen, [1:05](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=65s)
+
+### "Tehran sinks 25 cm a year due to groundwater extraction"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AAJbpB9aLfI?start=877&end=940" frameborder="0" allowfullscreen></iframe>
+
+> "Tehran sinks 25 cm a year due to groundwater extraction. There's just no, it's hard to even imagine what does it mean to sink like a foot a year. But it's a very serious problem and we are basically the anti-subsidence."
+> — Laurence Allen, [14:37](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=877s)
+
+### "San Rafael pays $1,000 per truck load to get rid of wood chips"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AAJbpB9aLfI?start=1026&end=1090" frameborder="0" allowfullscreen></iframe>
+
+> "In my hometown of San Rafael, they ship eight semi-truck loads of wood chips every single day to be burned in biomass energy plants. San Rafael pays $1,000 bucks a semi-truck load to get rid of it. And so, of course, you can get it for free if you'd want to."
+> — Laurence Allen, [17:06](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=1026s)
+
+### "Venice lifted a whole island in the 1970s but never did it again because of cement costs"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AAJbpB9aLfI?start=1256&end=1320" frameborder="0" allowfullscreen></iframe>
+
+> "In Venice in the 70s, they lifted a whole island with multiple buildings on it using a cementious mud mixture called mudjacking. It was super cool and obviously very relevant for Venice. They really just never did it again because it's so expensive. We solved that problem with wood chips which are free."
+> — Laurence Allen, [20:56](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=1256s)
+
 ## Key Points
 
 - **Land raising with wood chips** ([0:37](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=37s)) - Terranova lifts land by injecting wood chip slurry 15-300 feet underground, creating a permanent solution that doesn't decompose in anaerobic conditions

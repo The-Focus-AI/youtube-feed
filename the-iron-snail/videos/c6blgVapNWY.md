@@ -31,6 +31,50 @@ Michael from The Iron Snail presents a comprehensive guide to chore coats, exami
 
 The video covers iconic American brands like Pointer/LC King (the Reddit darling of 2013-2017) and Carhartt (100+ years of triple-stitched durability), compares Buck Mason's P41 military-inspired version and felted wool experiment, explores the Paynter phenomenon (800 jackets selling in 2 minutes with New York Times coverage), and crowns Le Mont St. Michel as the undisputed king for their heavy moleskin fabric developed specifically for Brittany, France's windy, rainy climate. The video culminates with Drake's $700 selvedge denim chore coat, praised for thoughtful details like double-layered shoulder panels with cut-outs for mobility.
 
+## Highlights
+
+### "I opened the box and I was like, I am the hottest man"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c6blgVapNWY?start=28&end=85" frameborder="0" allowfullscreen></iframe>
+
+> "I opened the box and I was like, I don't see the big deal. And then I put the chore coat on and I was like, I am the hottest man."
+> — Michael, [0:28](https://www.youtube.com/watch?v=c6blgVapNWY&t=28s)
+
+### "People go absolutely feral for these bad boys"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c6blgVapNWY?start=44&end=100" frameborder="0" allowfullscreen></iframe>
+
+> "People go absolutely feral for these bad boys. They sell out in like 2 minutes, 800 of them. There's a New York Times article about them. You don't own just one thing from this brand. You own like three or four."
+> — Michael, [0:44](https://www.youtube.com/watch?v=c6blgVapNWY&t=44s)
+
+### "There was Carhartt, there was Levi's, and then there was Pointer"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c6blgVapNWY?start=249&end=300" frameborder="0" allowfullscreen></iframe>
+
+> "There was Carhartt, there was Levi's, and then there was Pointer and LC King. It's that foundational to American workwear."
+> — Michael, [4:25](https://www.youtube.com/watch?v=c6blgVapNWY&t=265s)
+
+### "Sports coat, chore coat, and cardigan all had one baby"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c6blgVapNWY?start=415&end=470" frameborder="0" allowfullscreen></iframe>
+
+> "This is like if a sports coat, a chore coat, and a cardigan all got together and had one baby."
+> — Michael, [7:00](https://www.youtube.com/watch?v=c6blgVapNWY&t=420s)
+
+### "The CEO said grab one from the 30s and go back to work"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c6blgVapNWY?start=650&end=705" frameborder="0" allowfullscreen></iframe>
+
+> "The CEO said you could just grab one from the 30s and 40s, toss it on, and go back to work."
+> — Michael, [10:55](https://www.youtube.com/watch?v=c6blgVapNWY&t=655s)
+
+### "There's a little cut right here on the inside"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c6blgVapNWY?start=760&end=815" frameborder="0" allowfullscreen></iframe>
+
+> "There's a little cut right here on the inside of the jacket on that panel. I love that detail. Drake's I always associate with just heavy layering. So, this could just make it a little bit smoother to toss this jacket over some of their other jackets or shirts."
+> — Michael, [12:45](https://www.youtube.com/watch?v=c6blgVapNWY&t=765s)
+
 ## Key Points
 
 - **No Historical Chore Coat Standard** ([1:03](https://www.youtube.com/watch?v=c6blgVapNWY&t=63s)) - Chore coats got standardized and generic during Industrial Revolution; premium versions now differentiate by cuffs, pockets, length, thickness

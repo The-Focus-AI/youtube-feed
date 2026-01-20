@@ -33,6 +33,43 @@ tags:
 
 MKBHD delivers a glowing review of the iPhone 17, calling it the best base iPhone since Apple introduced the Pro lineup. The review opens with a comedic skit at "Honesty Wireless" where even a lottery winner is advised to buy the standard iPhone 17 over the Pro model. The core thesis: the iPhone 17 is finally a "straight up good deal" with no asterisks or caveats. Apple has added features previously reserved for Pro models - including a 120Hz variable refresh rate display, an innovative square selfie camera that automatically switches between horizontal and vertical crops, improved battery life, and doubled base storage to 256GB. At $800 (vs the Pixel 10's $900 for equivalent storage), MKBHD argues the iPhone 17 offers better value while making the $300 premium for the Pro harder to justify for most users.
 
+## Highlights
+
+### "Best Base iPhone Since Pro Lineup"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rng_yUSwrgU?start=138&end=195" frameborder="0" allowfullscreen></iframe>
+
+> "There's this funny thing that happens when the cheapest phone in a lineup of phones is a really good deal. It makes all of the more expensive versions feel like worse deals because they are. And this is the best base iPhone since they added the Pro to the lineup. And I don't think it's particularly close."
+> — Marques Brownlee, [2:18](https://www.youtube.com/watch?v=rng_yUSwrgU&t=138s)
+
+### "Finally Saying Goodbye to the $800 60Hz iPhone"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rng_yUSwrgU?start=183&end=240" frameborder="0" allowfullscreen></iframe>
+
+> "So, not only can we finally say goodbye to the $800 60 Hz iPhone, but it also now enables things like the always on display if you're into that."
+> — Marques Brownlee, [3:05](https://www.youtube.com/watch?v=rng_yUSwrgU&t=185s)
+
+### "The Selfie Camera Everyone Should Copy"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rng_yUSwrgU?start=246&end=320" frameborder="0" allowfullscreen></iframe>
+
+> "So this new selfie camera is across all the new iPhones in the lineup, the base, the Air, and the Pros. I think it's kind of genius and I think everyone should copy it and I think they probably will."
+> — Marques Brownlee, [5:10](https://www.youtube.com/watch?v=rng_yUSwrgU&t=310s)
+
+### "No Asterisks, No Ifs, Ands, or Buts"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rng_yUSwrgU?start=389&end=450" frameborder="0" allowfullscreen></iframe>
+
+> "The new iPhone 17 is just a straight up good deal now. No asterisks, no ifs, ands, or buts, just this phone is actually a good deal."
+> — Marques Brownlee, [6:30](https://www.youtube.com/watch?v=rng_yUSwrgU&t=390s)
+
+### "Camera Control Button Giving 3D Touch Vibes"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rng_yUSwrgU?start=548&end=610" frameborder="0" allowfullscreen></iframe>
+
+> "It's giving me 3D Touch vibes. Like, I actually wouldn't be totally shocked if it quietly disappeared in 2 years. I kind of hope it doesn't."
+> — Marques Brownlee, [9:17](https://www.youtube.com/watch?v=rng_yUSwrgU&t=557s)
+
 ## Key Points
 
 - [2:18](https://www.youtube.com/watch?v=rng_yUSwrgU&t=138) - When the cheapest phone in a lineup is a really good deal, it makes the more expensive versions feel like worse deals

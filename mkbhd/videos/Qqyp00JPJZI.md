@@ -45,6 +45,43 @@ tags:
 
 MKBHD reviews hot takes submitted by his audience on Twitter and Threads, rating each as either a "good take" or "bad take." The video covers five main hot takes: (1) humanoid robots are not the optimal form factor - which he agrees with, arguing specialized robots are more practical than general-purpose humanoid ones; (2) the Magic Mouse's bottom charging port is fine - which he disagrees with, noting it's an outdated design; (3) smartphones will be obsolete in 5 years - which he strongly disagrees with, saying the timeline is far too aggressive; (4) we should celebrate companies trying audacious things even if they fail - which he partially agrees with but warns against being too lenient; and (5) Siri isn't as bad as people make it out to be - which he surprisingly agrees with for basic tasks, though acknowledges it falls far behind competitors for anything requiring reasoning.
 
+## Highlights
+
+### "Why give a robot six arms and six legs?"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qqyp00JPJZI?start=285&end=340" frameborder="0" allowfullscreen></iframe>
+
+> "Even if it is one robot that goes around everywhere that does everything, why not give it six arms and six legs? Like, why does it have to look like a human and have eyes on the front?"
+> — Marques Brownlee, [5:10](https://www.youtube.com/watch?v=Qqyp00JPJZI&t=310s)
+
+### "Apple hasn't updated the Magic Mouse since high school"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qqyp00JPJZI?start=429&end=475" frameborder="0" allowfullscreen></iframe>
+
+> "It's wild that Apple is a multi-trillion dollar company and hasn't updated it."
+> — Marques Brownlee, [7:36](https://www.youtube.com/watch?v=Qqyp00JPJZI&t=456s)
+
+### "Is this the Humane burner account?"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qqyp00JPJZI?start=618&end=670" frameborder="0" allowfullscreen></iframe>
+
+> "Is this the Humane burner account?"
+> — Marques Brownlee, [10:33](https://www.youtube.com/watch?v=Qqyp00JPJZI&t=633s)
+
+### "That's the Magic Mouse and that's Siri"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qqyp00JPJZI?start=974&end=1030" frameborder="0" allowfullscreen></iframe>
+
+> "In a vacuum it seems fine but the second you are not in a vacuum anymore you see how much better everything else outside is and you realize how bad it is. That's the Magic Mouse and that's Siri."
+> — Marques Brownlee, [16:27](https://www.youtube.com/watch?v=Qqyp00JPJZI&t=987s)
+
+### "Getting me to say nice things about Siri"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qqyp00JPJZI?start=1025&end=1050" frameborder="0" allowfullscreen></iframe>
+
+> "That is truly impressive, internet commentator, for getting me to say nice things about Siri."
+> — Marques Brownlee, [17:08](https://www.youtube.com/watch?v=Qqyp00JPJZI&t=1028s)
+
 ## Key Points
 
 ### Hot Take 1: Humanoid Robots Are Not Optimal

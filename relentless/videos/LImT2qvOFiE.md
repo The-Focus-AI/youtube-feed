@@ -40,6 +40,57 @@ In this interview, Saurav Shroff, co-founder and CEO of Starpath, discusses the 
 
 Starpath has developed the lowest-cost, fastest-driving, highest-performance Moon/Mars rovers ever made, at around a hundred thousand dollars compared to NASA's hundreds of millions. They've also vertically integrated solar panel production after finding that existing space-grade solar panels cost 10-20x their entire system budget. The company now sells these panels to satellite companies at about a tenth of competitor prices. Shroff discusses the technical challenges, the importance of fast iteration cycles, and why SpaceX's Starship program is essential for making Mars colonization economically viable. He estimates that building a self-sustaining city requires around a thousand Starship flights over 10 synods.
 
+## Highlights
+
+### "A Mars city will spend 90 to 95% of its power producing rocket propellant"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LImT2qvOFiE?start=123&end=185" frameborder="0" allowfullscreen></iframe>
+
+> "A Mars city will spend 90 to 95% of its power producing rocket propellant. So the rocket propellant production plant on Mars can really be thought of as the second most important piece of infrastructure you need to build a city on Mars and the core engine that makes the city on Mars run."
+> — Saurav Shroff, [2:03](https://www.youtube.com/watch?v=LImT2qvOFiE&t=123s)
+
+### "An over 100x cost reduction on rovers"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LImT2qvOFiE?start=464&end=525" frameborder="0" allowfullscreen></iframe>
+
+> "At Star Path, we're building rovers for the low hundreds of thousands of dollars. So, we're talking about an over 100x cost reduction."
+> — Saurav Shroff, [7:44](https://www.youtube.com/watch?v=LImT2qvOFiE&t=464s)
+
+### "Solar panel quotes were 10 to 20 times our entire system budget"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LImT2qvOFiE?start=557&end=620" frameborder="0" allowfullscreen></iframe>
+
+> "The quotes we got from vendors for just the solar panels were 10 to 20 times more than what we want to spend on the entire system. So we wanted to spend $10 to $20 per watt. And we were getting quotes between $100 and $400 per watt for just the solar panels."
+> — Saurav Shroff, [9:17](https://www.youtube.com/watch?v=LImT2qvOFiE&t=557s)
+
+### "Mars is fundamentally more interesting because it has organics"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LImT2qvOFiE?start=744&end=806" frameborder="0" allowfullscreen></iframe>
+
+> "Mars is a fundamentally more interesting planet because it has organics. So it has carbon, hydrogen, nitrogen, oxygen and with organic compounds you can make a completely self-sustaining city on Mars. There's nothing that humans consume that you could point to on Mars and say like okay that's not possible to make."
+> — Saurav Shroff, [12:24](https://www.youtube.com/watch?v=LImT2qvOFiE&t=744s)
+
+### "Rover one took 3 weeks to build for $10,000 or less"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LImT2qvOFiE?start=1646&end=1710" frameborder="0" allowfullscreen></iframe>
+
+> "We went to Home Depot, we bought some parts, and we're like, okay, let's make something with wheels that moves. Rover One took us only 3 weeks to build. We spent 3 weeks and probably $10,000 or less. Rover One pretty much didn't work."
+> — Saurav Shroff, [27:26](https://www.youtube.com/watch?v=LImT2qvOFiE&t=1646s)
+
+### "A million tons to Mars equals a self-sustaining city"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LImT2qvOFiE?start=2977&end=3040" frameborder="0" allowfullscreen></iframe>
+
+> "A million tons to the surface of Mars is what it takes to make life multiplanetary roughly speaking if you want it to be permanent. Each Starship can carry 100 tons to the surface of Mars per flight. So you need a fleet of a thousand that makes 10 trips."
+> — Saurav Shroff, [49:37](https://www.youtube.com/watch?v=LImT2qvOFiE&t=2977s)
+
+### "The idiot index in aerospace is at least 100 to 1"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LImT2qvOFiE?start=4758&end=4820" frameborder="0" allowfullscreen></iframe>
+
+> "The idiot index is the ratio of the cost of the finished goods to the cost of the raw inputs. In aerospace, the idiot index can be like hundreds or sometimes thousands to one where you buy a product that might be $10,000 but if you had the design, you could fabricate it for 50."
+> — Saurav Shroff, [79:18](https://www.youtube.com/watch?v=LImT2qvOFiE&t=4758s)
+
 ## Key Points
 
 - **Two essential machines for Mars** ([0:40](https://www.youtube.com/watch?v=LImT2qvOFiE&t=40s)) - A fully reusable rocket and a rocket propellant production plant on Mars are the two key pieces of infrastructure needed for multiplanetary life

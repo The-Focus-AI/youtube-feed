@@ -31,6 +31,43 @@ Michael investigates whether Uniqlo lives up to its reputation as the "greatest 
 
 The verdict is nuanced: Uniqlo excels at cotton products (t-shirts, sweaters, denim) because cotton is cheap enough that they can use heavier, higher-quality materials while maintaining low prices. Their construction and quality control are consistently excellent. However, when it comes to more expensive raw materials like wool, the quality of the fabric starts to degrade to hit price points. The video also addresses ethical concerns about forced labor accusations and concludes that Uniqlo is not fast fashion but operates in a middle ground.
 
+## Highlights
+
+### "Every Single Employee Except One Walked Out"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qqZyGm0aqh4?start=30&end=90" frameborder="0" allowfullscreen></iframe>
+
+> "His leadership style is said to be that of a dictator's, and when he first inherited his father's clothing business, every single employee in the company except one walked out."
+> — Michael, [0:51](https://www.youtube.com/watch?v=qqZyGm0aqh4&t=51s)
+
+### "I Kick In the Door - The Nicest Jeans You've Ever Seen?"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qqZyGm0aqh4?start=415&end=475" frameborder="0" allowfullscreen></iframe>
+
+> "Picture this: it's Christmas time, a young couple is sitting around the tree, a girlfriend gives her boyfriend a pair of Uniqlo selvedge denim jeans... Boom! I kick in the door and I'm like 'the nicest jeans you've ever seen? What about these?'"
+> — Michael, [7:00](https://www.youtube.com/watch?v=qqZyGm0aqh4&t=420s)
+
+### "Super Washing Burns the Barbs Off with Chlorine Gas"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qqZyGm0aqh4?start=683&end=745" frameborder="0" allowfullscreen></iframe>
+
+> "Super washing removes those, typically through chlorine gas... And they burn the barbs of the wool off, and then a lot of brands and yarn makers then coat the fiber in very thin polymer that never comes off."
+> — Michael, [11:46](https://www.youtube.com/watch?v=qqZyGm0aqh4&t=706s)
+
+### "Fantastic Quality Control, But At the Mercy of Raw Goods"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qqZyGm0aqh4?start=823&end=880" frameborder="0" allowfullscreen></iframe>
+
+> "Uniqlo has absolutely fantastic quality control. All of the garments that I've ever touched from them have been spot on. The construction is great, but they are at the mercy of the raw goods that they are using to get things as low priced as possible."
+> — Michael, [13:43](https://www.youtube.com/watch?v=qqZyGm0aqh4&t=823s)
+
+### "Forced Labor Accusations - The True Ugly"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qqZyGm0aqh4?start=887&end=925" frameborder="0" allowfullscreen></iframe>
+
+> "In 2021, US Customs seized a delivery of their t-shirts, suspecting that they're using forced labor. So you know, it comes up a lot."
+> — Michael, [15:00](https://www.youtube.com/watch?v=qqZyGm0aqh4&t=900s)
+
 ## Key Points
 
 - **Tadashi Yanai's Empire** ([0:00](https://www.youtube.com/watch?v=qqZyGm0aqh4&t=0s)) - Uniqlo's founder is the richest man in Japan, worth $42.8 billion, known for dictator-like control over every facet of the business

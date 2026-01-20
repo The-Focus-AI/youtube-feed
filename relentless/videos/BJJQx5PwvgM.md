@@ -33,6 +33,50 @@ Jason Carman, founder of Story Company, discusses the journey of creating "Plane
 
 The conversation covers the intense production process, including 56 hours of straight editing, filming sick, hiring a Pixar veteran for concept direction, and managing over 200 visual effects shots on a tight budget. Jason reflects on the challenges of transitioning from documentary work (S3) to narrative filmmaking, the importance of focus, and his vision for building a cinematic universe with an upcoming trilogy of feature films.
 
+## Highlights
+
+### "56 hours of straight editing with maybe four hours of sleep"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BJJQx5PwvgM?start=39&end=100" frameborder="0" allowfullscreen></iframe>
+
+> "This is Jason Carman and he is the founder of Story Company and he is moments away from releasing his first short film, Planet. I know that this is like years in the making. How are you feeling right now? Well, it's about 56 hours of straight editing with maybe four hours of sleep. So, I feel alive. For now."
+> — Jason Carman, [0:39](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=39s)
+
+### "Story inspires science, science makes story real"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BJJQx5PwvgM?start=470&end=530" frameborder="0" allowfullscreen></iframe>
+
+> "The motto is story inspires science, science makes story real. And that's this idea that the sci-fi visions that people write that are potentially tractable on a scale one day eventually get built if they sort of win. And by win, I think it means that society and culture falls in love with the idea and wants to make it real."
+> — Jason Carman, [7:50](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=470s)
+
+### "There's no Nike for technology in science and engineering"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BJJQx5PwvgM?start=855&end=920" frameborder="0" allowfullscreen></iframe>
+
+> "There's no Nike for technology in science and engineering. Like if you like basketball, you can wear a Michael Jordan jersey or some ones. But if you like rockets, engineering, science, space, there's nothing that cool you can wear other than maybe a SpaceX shirt."
+> — Jason Carman, [14:15](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=855s)
+
+### "The first 6 months 95% of my time was spent on just making sure we didn't go bankrupt"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BJJQx5PwvgM?start=980&end=1050" frameborder="0" allowfullscreen></iframe>
+
+> "I decided it would be a good idea to not raise money for Story and bootstrap it off of doing client work, ad revenue, partnerships. And so I'd say the first six months, 95% of my time was spent on just making sure we didn't go bankrupt and getting our core team set up, onboarded, relocated."
+> — Jason Carman, [16:20](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=980s)
+
+### "What if we just said we were going to film the movie in 3 weeks?"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BJJQx5PwvgM?start=1230&end=1295" frameborder="0" allowfullscreen></iframe>
+
+> "I remember going to my chief of staff, Maxi, one day and being like, 'Okay, what if we just said we were going to film the movie in 3 weeks?' She was like, 'Fuck no. Absolutely not.' End of the week goes by and I'm like, 'We can't do it.' Now she's flipped and she's like, 'We're doing it.'"
+> — Jason Carman, [20:30](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=1230s)
+
+### "We went through 2,000 audition tapes"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BJJQx5PwvgM?start=1290&end=1355" frameborder="0" allowfullscreen></iframe>
+
+> "The moment the film really was like 'Oh, we got it' is the moment you cast the lead. And we went through, I think, 2,000 audition tapes. When Steven Miller, our lead, sent his side in, I was like, 'Oh, this is obviously the right guy. This is Dr. Evan Khan.'"
+> — Jason Carman, [21:30](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=1290s)
+
 ## Key Points
 
 - **Story Company's Mission** ([0:00](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=0s)) - Jason wants to create large cultural stories that make people want to return to movie theaters and feel optimistic about the future

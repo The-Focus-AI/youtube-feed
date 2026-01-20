@@ -34,6 +34,43 @@ Hong outlines Axiom Math's vision for building an AI mathematician through three
 
 The conversation explores the distinction between AGI and superintelligence, with Hong preferring the latter term. She uses a "plate" analogy: AGI tries to expand from easy problems at the center toward all hard problems at the edges (curing cancer, solving Riemann hypothesis, writing Nobel-worthy novels), while superintelligence picks a specific goal and goes directly toward it. Axiom bets on building a domain-specific superintelligent AI mathematician that serves as the "algorithmic pillar" for AI in science, leaving real-world testing to companies like Periodic Labs.
 
+## Highlights
+
+### "Next token prediction isn't how mathematical reasoning works"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3qGBMkgR6Ko?start=74&end=130" frameborder="0" allowfullscreen></iframe>
+
+> "Current models are trained by next token prediction. That isn't exactly what's going on when you're doing mathematical reasoning. If you are a human mathematician, you don't give an answer just because other people say that it's correct."
+> — Carina Hong, [1:14](https://www.youtube.com/watch?v=3qGBMkgR6Ko&t=74s)
+
+### "100,000 times data gap"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3qGBMkgR6Ko?start=1295&end=1350" frameborder="0" allowfullscreen></iframe>
+
+> "While there are more than one trillion tokens of Python code, there's only probably about like 10 million tokens of Lean code. That's 100,000 times data gap."
+> — Carina Hong, [21:41](https://www.youtube.com/watch?v=3qGBMkgR6Ko&t=1301s)
+
+### "Superintelligence can be domain specific"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3qGBMkgR6Ko?start=1436&end=1510" frameborder="0" allowfullscreen></iframe>
+
+> "I like the word superintelligence better always better than AGI... Superintelligence can be defined as domain specific. So I can be a super intelligent AI mathematician, right? It's very hard for this super intelligent AI mathematician to fold laundry the best."
+> — Carina Hong, [23:56](https://www.youtube.com/watch?v=3qGBMkgR6Ko&t=1436s)
+
+### "Mathematicians are truth seekers, messengers"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3qGBMkgR6Ko?start=1688&end=1745" frameborder="0" allowfullscreen></iframe>
+
+> "Mathematicians are almost like truth seekers, messengers. They climb ladders to pick on the sweetest apples and then spread it to humanity... What Hardy used to apologize for in A Mathematician's Apology, a sarcastic apology that 'well my math's just totally useless,' turned out to be quite useful in fact for war."
+> — Carina Hong, [28:35](https://www.youtube.com/watch?v=3qGBMkgR6Ko&t=1715s)
+
+### "Math and intuition is closer to arts than to science"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3qGBMkgR6Ko?start=1850&end=1900" frameborder="0" allowfullscreen></iframe>
+
+> "I always aspire for art, for artistic expressions and creations. And I think that math and intuition is closer to arts than to science. How do we sort of scientifically understand that? It's fascinating."
+> — Carina Hong, [30:58](https://www.youtube.com/watch?v=3qGBMkgR6Ko&t=1838s)
+
 ## Key Points
 
 - **Why LLMs fail at math** ([1:14](https://www.youtube.com/watch?v=3qGBMkgR6Ko&t=74s)) - Next-token prediction and human preference training don't match how mathematical reasoning works; models struggle with multi-step reasoning as problem trees get deep

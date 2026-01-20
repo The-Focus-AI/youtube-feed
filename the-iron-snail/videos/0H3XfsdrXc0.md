@@ -31,6 +31,43 @@ Michael explores why vintage sneakers have an indescribable quality that modern 
 
 The video provides a detailed breakdown of the sneaker's construction: hand-lasting the leather around a foot-shaped last, sewing the upper to the insole's gemming, filling gaps with cork, gluing on a leather strip to hide construction, adding a vegetable-tanned leather outsole, and finishing with Vibram pads. Michael also addresses the controversial manufacturing location - a factory in China that he describes as a "unicorn" capable of producing handsewn footwear that would cost $2,500 if made in Italy.
 
+## Highlights
+
+### "This sneaker would have been easier to make 150 years ago"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0H3XfsdrXc0?start=18&end=75" frameborder="0" allowfullscreen></iframe>
+
+> "This sneaker would have been easier to make 150 years ago. And apparently now these can only be made in one factory in the entire world."
+> — Michael, [0:18](https://www.youtube.com/watch?v=0H3XfsdrXc0&t=18s)
+
+### "The brands say it's impossible to remake their vintage sneakers"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0H3XfsdrXc0?start=74&end=130" frameborder="0" allowfullscreen></iframe>
+
+> "The brands that made those vintage running shoes, cleats and sneakers now say it's impossible to perfectly remake those exact same things that they used to make. There's always something missing - they don't feel right."
+> — Michael, [1:14](https://www.youtube.com/watch?v=0H3XfsdrXc0&t=74s)
+
+### "Horsehide got more expensive after we stopped riding horses"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0H3XfsdrXc0?start=360&end=415" frameborder="0" allowfullscreen></iframe>
+
+> "Horsehide unsurprisingly got a lot more expensive after we stopped riding horses into town every single day."
+> — Michael, [6:00](https://www.youtube.com/watch?v=0H3XfsdrXc0&t=360s)
+
+### "He's not sure if there are enough hand sewers in Italy"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0H3XfsdrXc0?start=575&end=630" frameborder="0" allowfullscreen></iframe>
+
+> "He said basically one, he's not sure if there's even enough hand sewers in Italy to make these shoes, two they would be stiffer and constructed differently, and three they would start at $2500 instead of $850."
+> — Michael, [9:39](https://www.youtube.com/watch?v=0H3XfsdrXc0&t=579s)
+
+### "Those tiny little things mean your sneaker loses handmade warmth"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0H3XfsdrXc0?start=780&end=830" frameborder="0" allowfullscreen></iframe>
+
+> "Those tiny little things that someone is not working on themselves and that Nike and big brands have to account for means your sneaker loses that sense of handmade warmth."
+> — Michael, [13:04](https://www.youtube.com/watch?v=0H3XfsdrXc0&t=784s)
+
 ## Key Points
 
 - **Feit Classic Lows Price** ([1:35](https://www.youtube.com/watch?v=0H3XfsdrXc0&t=95s)) - $850 sneakers that would cost $2,500 if made anywhere else besides their specific factory

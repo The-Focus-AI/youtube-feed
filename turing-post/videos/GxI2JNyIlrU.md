@@ -50,6 +50,43 @@ Hansen discusses the evolution of AI challenges since ChatGPT's launch, noting t
 
 The conversation also explores the future of human-AI collaboration, with Hansen introducing the concept of a "connection economy" replacing the current "intelligence economy." He distinguishes between "cheap" intelligence (facts, pattern recognition, boilerplate tasks) that AI handles well, and "expensive" intelligence (creativity, taste, original insight, human agency) that will remain distinctly human. Hansen believes the next 10 years will bring more technological change than the last 50, with AI enabling new drug discoveries, household robots, and new professions we cannot yet conceive.
 
+## Highlights
+
+### "What Really Is Blocking Progress Is the Data"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GxI2JNyIlrU?start=45&end=110" frameborder="0" allowfullscreen></iframe>
+
+> "But what really is blocking progress is the data."
+> — Ulrik Hansen, [0:45](https://www.youtube.com/watch?v=GxI2JNyIlrU&t=45s)
+
+### "Tesla Has a Thumbs Up Button Embedded in the Cars"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GxI2JNyIlrU?start=364&end=420" frameborder="0" allowfullscreen></iframe>
+
+> "They have like the equivalent of like a thumbs up and a thumbs down button that you're used to in chat right embedded in the cars because they have people driving the cars."
+> — Ulrik Hansen, [6:17](https://www.youtube.com/watch?v=GxI2JNyIlrU&t=377s)
+
+### "Synthetic Data Is Like the Snake Eating Its Own Tail"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GxI2JNyIlrU?start=1072&end=1130" frameborder="0" allowfullscreen></iframe>
+
+> "It's kind of like the snake eating its own tail."
+> — Ulrik Hansen, [18:30](https://www.youtube.com/watch?v=GxI2JNyIlrU&t=1110s)
+
+### "More Change in 10 Years Than the Last 50"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GxI2JNyIlrU?start=1470&end=1530" frameborder="0" allowfullscreen></iframe>
+
+> "We're likely to see more change from technology in like the next 10 years than we've seen in the last like 50 years."
+> — Ulrik Hansen, [24:38](https://www.youtube.com/watch?v=GxI2JNyIlrU&t=1478s)
+
+### "Excellence Is Not an Act But a Habit"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GxI2JNyIlrU?start=1632&end=1680" frameborder="0" allowfullscreen></iframe>
+
+> "We are what we repeatedly do. Excellence then is not an act but a habit."
+> — Ulrik Hansen quoting Aristotle, [27:28](https://www.youtube.com/watch?v=GxI2JNyIlrU&t=1648s)
+
 ## Key Points
 
 - **Data is the bottleneck** ([0:31](https://www.youtube.com/watch?v=GxI2JNyIlrU&t=31s)) - From Encord's vantage point working with 200+ top AI teams, data orchestration and enrichment is what constrains AI progress, not models which are largely interchangeable.

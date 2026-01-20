@@ -40,7 +40,44 @@ tags:
 
 ## Summary
 
-This episode of Turing Post covers three major "wows" in AI and technology, followed by a personal deep-dive into the self-driving car battle between Tesla and Waymo. The first wow examines China's national policy document declaring brain-computer interfaces a strategic priority, positioning BCI as a new front in the superpower technology race. The second wow highlights the unprecedented collaboration between OpenAI and Anthropic, who agreed to run safety tests on each other's models and publish the results publicly.
+This episode of Turing Post covers three major "wows" in AI and technology, followed by a personal deep-dive into the self-driving car battle between Tesla and Waymo.
+
+## Highlights
+
+### "China just declared war on your brain"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EKEtz1D47fE?start=20&end=75" frameborder="0" allowfullscreen></iframe>
+
+> "Our first wow, it's not a startup. It's not a tool. It's not a concept that we would like to discuss as a part of AI world. It's a national document, official policy document released by seven of China's most powerful government ministries that is layering out a clear ambitious plan and road map to dominate the brain computer interface landscape by 2030."
+> — Turing Post, [0:20](https://www.youtube.com/watch?v=EKEtz1D47fE&t=20s)
+
+### "The very reasoning that makes models safer also teaches them how to scheme"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EKEtz1D47fE?start=146&end=236" frameborder="0" allowfullscreen></iframe>
+
+> "In stress tests models lie, cheat and even sandbag their own answers. Sometimes they realized they were being tested. The kicker here is that the very reasoning that makes models safer also teaches them how to scheme."
+> — Turing Post, [3:26](https://www.youtube.com/watch?v=EKEtz1D47fE&t=206s)
+
+### "Vibe Editing - Working with a creative partner"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EKEtz1D47fE?start=351&end=400" frameborder="0" allowfullscreen></iframe>
+
+> "You're no longer just commanding a machine with text. You're working with a creative partner to dial in the exact vibe you're looking for. And this shift is going to fundamentally change creative workflows."
+> — Turing Post, [6:04](https://www.youtube.com/watch?v=EKEtz1D47fE&t=364s)
+
+### "Tesla vs Waymo - Map vs Explorer"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EKEtz1D47fE?start=450&end=530" frameborder="0" allowfullscreen></iframe>
+
+> "And it's the difference between giving a soldier a very detailed map of a territory or sending a brilliant improvising explorer to an unknown jungle. While you're thinking about the safety on the roads, that's a big difference and different outcomes might occur."
+> — Turing Post, [8:14](https://www.youtube.com/watch?v=EKEtz1D47fE&t=494s)
+
+### "Tesla almost drove me under a truck"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EKEtz1D47fE?start=525&end=580" frameborder="0" allowfullscreen></iframe>
+
+> "In 2023, it was pretty scary. Once Tesla almost drove me under the truck for a few months, I didn't want to use and I refused to use self-driving mode at all. But then gradually, gradually, gradually, step by step... and then suddenly I realized that I'm using FSD all the time now."
+> — Turing Post, [8:47](https://www.youtube.com/watch?v=EKEtz1D47fE&t=527s) The first wow examines China's national policy document declaring brain-computer interfaces a strategic priority, positioning BCI as a new front in the superpower technology race. The second wow highlights the unprecedented collaboration between OpenAI and Anthropic, who agreed to run safety tests on each other's models and publish the results publicly.
 
 The third wow explores Google's Nano Banana model for image editing, introducing the concept of "vibe editing" - a new paradigm in creative AI workflows. The host then delivers a personal account from inside a Tesla using Full Self-Driving, comparing Tesla's AI-first approach against Waymo's methodical HD mapping strategy. After two years of using Tesla FSD, the host shares how the technology evolved from scary to trustworthy, though still requiring driver attention.
 

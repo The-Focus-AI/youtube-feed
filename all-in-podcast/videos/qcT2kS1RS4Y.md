@@ -39,6 +39,50 @@ The interview covers Manchin's blocking of the $6 trillion Build Back Better bil
 
 Manchin also discusses his views on work requirements for entitlements, the failure to codify Roe v. Wade, the 2013 immigration reform that was blocked in the House, and his thoughts on the 2026 and 2028 elections. He reveals he would have participated in a mini-primary had the Democrats held one when Biden dropped out, and shares a humorous anecdote about discussing a "not stupid party" with Mitt Romney.
 
+## Highlights
+
+### "If you kill my effing bill, I'll never talk to you again"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qcT2kS1RS4Y?start=248&end=310" frameborder="0" allowfullscreen></iframe>
+
+> "He got pretty vulgar and just told me, 'If you kill my effing bill, I'll never talk to you again.' I said, 'If I could kill this effing bill you shouldn't talk to me again because if I could I would but I can't.'"
+> — Joe Manchin on Biden, [4:08](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=248s)
+
+### "We're not talking about diversity, sir. We're talking about bat crazy"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qcT2kS1RS4Y?start=483&end=540" frameborder="0" allowfullscreen></iframe>
+
+> "I said, 'Mr. President, you have the most liberal staff that I've ever seen.' He said, 'Well, Joe, they tell me I have the most diversified staff.' I said, 'We're not talking about diversity, sir. We're talking about bat crazy.'"
+> — Joe Manchin, [8:03](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=483s)
+
+### "Maybe we'd get one good term out of you"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qcT2kS1RS4Y?start=2008&end=2070" frameborder="0" allowfullscreen></iframe>
+
+> "She said, 'Joe, think of it this way. If we had term limits, maybe we get one good term out of you.' I had no comeback. She convinced me right there."
+> — Joe Manchin on a constituent, [33:28](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=2008s)
+
+### "I told you we couldn't beat him"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qcT2kS1RS4Y?start=3970&end=4030" frameborder="0" allowfullscreen></iframe>
+
+> "He ended up coming six times to my state and they spent an extra $25 million trying to beat me. And then afterwards, he calls me one week later, 'Come have lunch with me.' I walk in, he says, 'I told you we couldn't beat him.'"
+> — Joe Manchin on Trump, [66:10](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=3970s)
+
+### "Don't ever send that damn Joe Biden back to make a deal"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qcT2kS1RS4Y?start=4123&end=4180" frameborder="0" allowfullscreen></iframe>
+
+> "Harry Reid says, 'I told President Obama, don't ever send that damn Joe Biden back to make a deal. We don't want him here at all making a deal for Democrats.' Now he's the president. I think, boy, we got it now."
+> — Joe Manchin on Harry Reid, [68:43](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=4123s)
+
+### "We'll call it the not stupid party"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qcT2kS1RS4Y?start=4835&end=4895" frameborder="0" allowfullscreen></iframe>
+
+> "Mitt Romney and I were talking about running. He said, 'Joe, we have to start a new party.' I said, 'What would it be, man?' He said, 'We'll call it the not stupid party.' I said, 'Hell, my question is why we're involved then.'"
+> — Joe Manchin, [80:35](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=4835s)
+
 ## Key Points
 
 - **Blocking Build Back Better** ([17:41](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=1061s)) - Manchin refused to vote for BBB, describing it as a $10 trillion bill disguised as $6 trillion through timing gimmicks. He endured 8 months of pressure and never promised to vote for it.

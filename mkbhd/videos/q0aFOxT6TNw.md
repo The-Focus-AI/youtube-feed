@@ -27,6 +27,43 @@ tags:
 
 MKBHD reviews the iPhone 17 Pro and Pro Max, highlighting what he calls the "Pro Paradox" - that making these phones more professional actually benefits mainstream users the most. The new design is thicker and heavier than previous models, but this allows for bigger batteries, a vapor chamber for better thermal management, and improved cameras. The iPhone Air's existence freed Apple to make the Pro phones more substantial. Key upgrades include three matching 48-megapixel cameras (with a new 4X telephoto), the A19 Pro chip with 20% better performance, 20% larger batteries, 40-watt charging, and an all-aluminum body design. Despite some nitpicks about color options and "Scratchgate" concerns, MKBHD concludes this is the best Pro iPhone yet.
 
+## Highlights
+
+### "The best thing about iPhone Air is what it lets them do with Pro"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q0aFOxT6TNw?start=0&end=50" frameborder="0" allowfullscreen></iframe>
+
+> "The best thing about the iPhone Air is actually how much it enables Apple to make the Pro phones even more pro."
+> — Marques Brownlee, [0:00](https://www.youtube.com/watch?v=q0aFOxT6TNw&t=0s)
+
+### "90% of orders are Pro Maxes"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q0aFOxT6TNw?start=84&end=130" frameborder="0" allowfullscreen></iframe>
+
+> "Over half of Dbrand orders are Pro Maxes, that's like 90% of orders."
+> — Marques Brownlee, [1:25](https://www.youtube.com/watch?v=q0aFOxT6TNw&t=85s)
+
+### "Not a glass sandwich anymore"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q0aFOxT6TNw?start=302&end=360" frameborder="0" allowfullscreen></iframe>
+
+> "This is not a glass sandwich anymore. Literally, the whole body is aluminum with glass cutouts."
+> — Marques Brownlee, [5:02](https://www.youtube.com/watch?v=q0aFOxT6TNw&t=302s)
+
+### "The Pro Paradox"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q0aFOxT6TNw?start=652&end=700" frameborder="0" allowfullscreen></iframe>
+
+> "The paradox is that making the Pro iPhones more pro is actually better for the masses."
+> — Marques Brownlee, [10:52](https://www.youtube.com/watch?v=q0aFOxT6TNw&t=652s)
+
+### "Pro Max cracks 5,000mAh for the first time"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q0aFOxT6TNw?start=549&end=600" frameborder="0" allowfullscreen></iframe>
+
+> "The 17 Pro has a 20% larger battery and the Pro Max actually cracks 5,000mAh for the first time ever, and also 40 watt charging now."
+> — Marques Brownlee, [9:11](https://www.youtube.com/watch?v=q0aFOxT6TNw&t=551s)
+
 ## Key Points
 
 - [0:00](https://www.youtube.com/watch?v=q0aFOxT6TNw&t=0) **The Pro Paradox**: The iPhone Air's existence allows the Pro phones to be thicker and more feature-rich, and the Pro Max is by far the most popular model (90% of Dbrand accessory orders)

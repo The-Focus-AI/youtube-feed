@@ -41,7 +41,44 @@ tags:
 
 ## Summary
 
-This episode of Turing Post explores three major developments in AI and one overarching promise about the future of human-machine integration. The central focus is on Sam Altman's expanding technological empire, which now includes Merge Labs - a brain-computer interface company funded by Tools for Humanity (the same organization behind Worldcoin's iris-scanning technology). The video draws parallels between Altman's various ventures, suggesting he is building a comprehensive "cyber-physical ecosystem" that encompasses human identity verification (through eye scans), brain-machine interfaces, and AI systems.
+This episode of Turing Post explores three major developments in AI and one overarching promise about the future of human-machine integration.
+
+## Highlights
+
+### "This might be the last decade when your thinking is not recorded"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bXD4-e9FUIE?start=0&end=55" frameborder="0" allowfullscreen></iframe>
+
+> "First eyeballs and now brains. Sam Altman is really hungry and now rivals Elon Musk in the brain department. Your brain literally. You think AI can surprise you? Think again. And remember, this might be the last decade when your thinking is yet not recorded and analyzed."
+> — Turing Post, [0:00](https://www.youtube.com/watch?v=bXD4-e9FUIE&t=0s)
+
+### "Sam Altman's Cyber-Physical Ecosystem"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bXD4-e9FUIE?start=92&end=150" frameborder="0" allowfullscreen></iframe>
+
+> "The eyes, the identity, the brain, the devices you wear like the second skin, the data streams feeding robots, every piece drawn together into one vast connected system. Everything that can be merged. Sam Altman aims to merge on a planetary scale shaping an all-encompassing softly guided singularity."
+> — Turing Post, [1:32](https://www.youtube.com/watch?v=bXD4-e9FUIE&t=92s)
+
+### "The merge is probably our best case scenario" - Sam Altman, 2017
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bXD4-e9FUIE?start=200&end=260" frameborder="0" allowfullscreen></iframe>
+
+> "The merge can take a lot of forms. We could plug electrodes into our brains or we could also just become really close friends with a chatbot. But I think a merge is probably our best case scenario."
+> — Sam Altman (2017 blog post), [3:47](https://www.youtube.com/watch?v=bXD4-e9FUIE&t=227s)
+
+### "The language of our mind could end up in the hands of one corporation"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bXD4-e9FUIE?start=289&end=345" frameborder="0" allowfullscreen></iframe>
+
+> "The most secret thing we have, the language of our mind could end up in the hands of one person or one corporation. And the question is as old as the earth itself. Can we nurture such a powerful technology, such a powerful creation, and still remain the masters of our own destiny?"
+> — Turing Post, [5:05](https://www.youtube.com/watch?v=bXD4-e9FUIE&t=305s)
+
+### "Three things you can watch forever: Fire, water, and a robot folding laundry"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bXD4-e9FUIE?start=337&end=400" frameborder="0" allowfullscreen></iframe>
+
+> "In the world, there are truly three things you can watch forever. Fire burning, water falling, and a robot folding your laundry... And while it works, it even meets your gaze, gestures naturally, as if it were quietly saying, See, I can learn this too."
+> — Turing Post, [5:50](https://www.youtube.com/watch?v=bXD4-e9FUIE&t=350s) The central focus is on Sam Altman's expanding technological empire, which now includes Merge Labs - a brain-computer interface company funded by Tools for Humanity (the same organization behind Worldcoin's iris-scanning technology). The video draws parallels between Altman's various ventures, suggesting he is building a comprehensive "cyber-physical ecosystem" that encompasses human identity verification (through eye scans), brain-machine interfaces, and AI systems.
 
 The episode contrasts Merge Labs with Elon Musk's Neuralink, noting that while Neuralink focuses on restoring capabilities for people with paralysis, Merge Labs appears aimed at broader human-machine merging for healthy users. The video highlights Audrey Cruz, a Neuralink patient who has been sharing her raw, unfiltered progress on social media. A key technological development discussed is "brain foundation models" - AI systems trained on brain scan data (like BrainOmni) that could eventually decode neural signals faster and more accurately, especially when trained on invasive neural recordings.
 

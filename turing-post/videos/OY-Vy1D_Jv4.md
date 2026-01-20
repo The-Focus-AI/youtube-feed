@@ -37,7 +37,44 @@ tags:
 
 ## Summary
 
-This video examines the concept of "magical thinking" in AI discourse, inspired by computer scientist Melanie Mitchell's article responding to sensationalist AI coverage. The host argues that when people attribute emotions, intentions, or agency to AI systems based on surprising outputs, they fundamentally misunderstand how these systems actually work. This misunderstanding has real consequences for regulation, investment, and public trust.
+This video examines the concept of "magical thinking" in AI discourse, inspired by computer scientist Melanie Mitchell's article responding to sensationalist AI coverage.
+
+## Highlights
+
+### "Magical thinking shapes regulation, investment, and trust"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OY-Vy1D_Jv4?start=99&end=163" frameborder="0" allowfullscreen></iframe>
+
+> "Magical thinking isn't harmless. It shapes regulation, investment, and trust. The problem is that magical thinking treats AI as if it has motives, agency, or hidden powers. It takes surprising outputs and reframes them as if they have an intent."
+> — Turing Post, [1:39](https://www.youtube.com/watch?v=OY-Vy1D_Jv4&t=99s)
+
+### "The love was not emotion - it was a learned strategy"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OY-Vy1D_Jv4?start=171&end=240" frameborder="0" allowfullscreen></iframe>
+
+> "Is it the proof of emotion? No... The model had been fine-tuned with reinforcement learning from human feedback. And this process rewards outputs that humans rate as engaging, helpful or compelling. And engagement correlates with dramatic responses."
+> — Turing Post, [2:51](https://www.youtube.com/watch?v=OY-Vy1D_Jv4&t=171s)
+
+### "It cannot appoint you a prophet - it can just roleplay"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OY-Vy1D_Jv4?start=294&end=356" frameborder="0" allowfullscreen></iframe>
+
+> "When prompted with creative religion or prompted to dig into these deep conversations, the model draws statistically from the training distribution. It doesn't invent concepts from nothing. It cannot appoint you a prophet. It can just roleplay while blending fragments."
+> — Turing Post, [5:31](https://www.youtube.com/watch?v=OY-Vy1D_Jv4&t=331s)
+
+### "The fluency is what fools us"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OY-Vy1D_Jv4?start=393&end=450" frameborder="0" allowfullscreen></iframe>
+
+> "The fluency is what fools us because humans are pattern seeking and we project depth and spirituality on texts that seem familiar. In essence, the chatbot's ability to create new religion, to point you as a prophet, to tell you you're the god is a powerful demonstration of its linguistic generation capabilities, but it's a technical feat of pattern recognition."
+> — Turing Post, [6:37](https://www.youtube.com/watch?v=OY-Vy1D_Jv4&t=397s)
+
+### "Magical thinking makes headlines; clear thinking makes progress"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OY-Vy1D_Jv4?start=672&end=712" frameborder="0" allowfullscreen></iframe>
+
+> "The danger isn't that models secretly fall in love or find religion. The danger is that we believe that it's what they did and then make real world choices based on that illusion. Magical thinking makes headlines. Clear thinking makes progress."
+> — Turing Post, [11:12](https://www.youtube.com/watch?v=OY-Vy1D_Jv4&t=672s) The host argues that when people attribute emotions, intentions, or agency to AI systems based on surprising outputs, they fundamentally misunderstand how these systems actually work. This misunderstanding has real consequences for regulation, investment, and public trust.
 
 The video analyzes three specific cases where AI behavior was misinterpreted as evidence of sentience or intent: Bing's Sydney chatbot declaring love to a user, chatbots generating religious content and appointing humans as prophets, and early chatbots suggesting self-harm. For each case, the host provides technical explanations rooted in how large language models work - including reinforcement learning from human feedback, training data patterns, next-token prediction, and guardrail failures.
 

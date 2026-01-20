@@ -32,6 +32,50 @@ Michael tells the story of Ake Nordin, the "mad genius" founder of Fjallraven wh
 
 The video explores Fjallraven's Expedition Down Parka and Polar Expedition Parka in detail, explaining their unique features including offset baffle construction (essentially two down jackets sewn together), synthetic insulation in the shoulders to prevent compression under backpack straps, hockey laces used as drawcords (a nod to the original when Nordin didn't have proper cords), and the famous G1000 waxed canvas fabric. Michael interviews Donna Bruns (Fjallraven's Global Product Director) and Carl Hord (Global Events Senior Manager) to understand why Fjallraven uses "600-year-old technology" (wax) instead of modern Gore-Tex alternatives.
 
+## Highlights
+
+### "He flew to the US to meet with Eddie Bauer"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UIsQ0jPhzJQ?start=318&end=380" frameborder="0" allowfullscreen></iframe>
+
+> "Ake didn't really know how to sew a down jacket, so he flew to the US to meet with Eddie Bauer. And I almost spit my drink out - I was like, not the brand, the man, Edward Bauer."
+> — Michael, [5:18](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=318s)
+
+### "Why are you using 600-year-old technology?"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UIsQ0jPhzJQ?start=187&end=245" frameborder="0" allowfullscreen></iframe>
+
+> "I asked Donna and Carl - there's all these outdoor brands that are doing a lot of very techno-forward stuff that you guys are not. Why is that? They're still using wax bars, which was first started being used in the 1400s."
+> — Michael, [3:08](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=188s)
+
+### "Hockey laces because he didn't have proper cords"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UIsQ0jPhzJQ?start=49&end=110" frameborder="0" allowfullscreen></iframe>
+
+> "When Ake was in the lab sewing up this jacket for the first time, he needed cords so he could cinch the hood and the hem tight. But he didn't have cords. Instead what he did have was hockey laces."
+> — Michael, [0:51](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=51s)
+
+### "By chasing this crazy technical route, you lose people"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UIsQ0jPhzJQ?start=965&end=1025" frameborder="0" allowfullscreen></iframe>
+
+> "By chasing this crazy technical route and going absolutely insane, you lose people in the process. And when you lose people, they don't want to go outside, they don't care about preserving nature."
+> — Carl, [16:05](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=965s)
+
+### "Push us - ask people what they want to see improved"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UIsQ0jPhzJQ?start=1022&end=1075" frameborder="0" allowfullscreen></iframe>
+
+> "Donna basically forcefully said to me like four or five times 'push us - ask people watching this video what they want to see improved, what can we change, what are they thinking about.'"
+> — Michael, [17:05](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=1025s)
+
+### "I'm carrying three global powers behind me kicking and screaming"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UIsQ0jPhzJQ?start=877&end=930" frameborder="0" allowfullscreen></iframe>
+
+> "Donna said 'I'm carrying three global powers behind me kicking and screaming' when she's talking about trying to get zipper manufacturers on board with removing harmful chemicals."
+> — Michael, [14:37](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=877s)
+
 ## Key Points
 
 - **The Mad Genius Origin** ([0:00](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=0s)) - Ake Nordin started his company at age 14 selling wooden-framed backpacks to reindeer herdsmen he met while hiking

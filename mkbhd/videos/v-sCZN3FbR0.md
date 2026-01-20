@@ -31,6 +31,43 @@ The video covers approximately 18 distinct errors across various product reviews
 
 Drawing inspiration from Tom Scott's 2023 mistakes video, Marques emphasizes Hanlon's razor - that mistakes should not be attributed to malice when they can be explained by simple human error. He directly addresses conspiracy theories that suggest he intentionally makes errors for engagement, firmly denying this and reaffirming his commitment to accuracy in future content.
 
+## Highlights
+
+### "I wish YouTube would bring annotations back"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v-sCZN3FbR0?start=116&end=170" frameborder="0" allowfullscreen></iframe>
+
+> "I wish YouTube would bring annotations back."
+> — Marques Brownlee, [1:56](https://www.youtube.com/watch?v=v-sCZN3FbR0&t=116s)
+
+### "I hate when companies do that"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v-sCZN3FbR0?start=263&end=310" frameborder="0" allowfullscreen></iframe>
+
+> "Power Beats are the most popular earbuds in the Beats lineup, which would have just been easier to say, and I hate when companies do that."
+> — Marques Brownlee, [4:49](https://www.youtube.com/watch?v=v-sCZN3FbR0&t=289s)
+
+### "Can't fact check by Googling unreleased specs"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v-sCZN3FbR0?start=489&end=545" frameborder="0" allowfullscreen></iframe>
+
+> "I obviously can't fact check my specs that I say by googling it cuz Google's just going to give me rumored specs basically."
+> — Marques Brownlee, [8:34](https://www.youtube.com/watch?v=v-sCZN3FbR0&t=514s)
+
+### "No, that's not true - no engagement baiting"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v-sCZN3FbR0?start=778&end=820" frameborder="0" allowfullscreen></iframe>
+
+> "Oh, Marquez, he'll throw in like a factual inaccuracy here and there just to, you know, engagement bait or keep people commenting about stuff and keep engagement high. No, that's not true."
+> — Marques Brownlee, [13:10](https://www.youtube.com/watch?v=v-sCZN3FbR0&t=790s)
+
+### "Hanlon's razor"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v-sCZN3FbR0?start=759&end=800" frameborder="0" allowfullscreen></iframe>
+
+> "Keep in mind Hanlon's razor when you see those mistakes - basically not to attribute to malice what can be explained by stupidity."
+> — Marques Brownlee, [12:58](https://www.youtube.com/watch?v=v-sCZN3FbR0&t=778s)
+
 ## Key Points
 
 - **Fact-checking process** ([1:01](https://www.youtube.com/watch?v=v-sCZN3FbR0&t=61s)) - Added a specific fact-checking stage to his production process this year to catch errors before final export

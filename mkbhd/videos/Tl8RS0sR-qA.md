@@ -32,6 +32,36 @@ tags:
 
 MKBHD reviews the Google Pixel 10 Pro Fold, a nearly $2,000 foldable phone that presents an interesting paradox: the Pixel philosophy (smart software, good value) and foldable phone philosophy (premium hardware, premium price) are fundamentally at odds. While the phone features significant improvements including a redesigned gearless hinge, better displays (6.4" cover, 8" inner at 3000 nits), PixelSnap MagSafe compatibility, improved battery life (5,015 mAh), and IP68 water resistance, it still lags behind competitors in hardware aspects like thickness, weight, and processor performance (Tensor G5 vs Snapdragon 8 Elite). The verdict: it's a really good phone in a vacuum, but in the competitive $2,000 foldable market, buyers rightfully expect the absolute best hardware, which this phone doesn't deliver.
 
+## Highlights
+
+### "Pixel and foldable are opposites"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tl8RS0sR-qA?start=14&end=70" frameborder="0" allowfullscreen></iframe>
+
+> "I actually don't think that the concept of a Pixel, and the concept of a folding phone are actually really compatible, and that's okay."
+> — Marques Brownlee, [0:14](https://www.youtube.com/watch?v=Tl8RS0sR-qA&t=14s)
+
+### "Shout out to the hingeneers"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tl8RS0sR-qA?start=107&end=160" frameborder="0" allowfullscreen></iframe>
+
+> "Shout out to the hinge engineers. The hingeneers I guess."
+> — Marques Brownlee, [2:10](https://www.youtube.com/watch?v=Tl8RS0sR-qA&t=130s)
+
+### "A really good phone in a vacuum"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tl8RS0sR-qA?start=462&end=490" frameborder="0" allowfullscreen></iframe>
+
+> "This is a really good phone in a vacuum, but we're not in a vacuum, so you have to consider the other options that are really exciting and really pushing the limits."
+> — Marques Brownlee, [7:42](https://www.youtube.com/watch?v=Tl8RS0sR-qA&t=462s)
+
+### "I get inspired to crush my to-do list"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tl8RS0sR-qA?start=305&end=355" frameborder="0" allowfullscreen></iframe>
+
+> "Opening it up just like every other foldable, I get inspired to be way more productive. Like I start doing things I would never do normally on a phone, like organizing travel, and doing things side by side like email triage with schedule on the other half. Like I just get this itch to crush my to-do list."
+> — Marques Brownlee, [5:05](https://www.youtube.com/watch?v=Tl8RS0sR-qA&t=305s)
+
 ## Key Points
 
 - [0:14](https://youtube.com/watch?v=Tl8RS0sR-qA&t=14) - Core thesis: Pixel philosophy and foldable phone philosophy are opposites and not truly compatible

@@ -32,6 +32,50 @@ Michael reviews 15 of the internet's most recommended t-shirts, from budget Kirk
 
 The winner is Asket, praised as "the silkiest, densest, most interesting shirt that really surprised me" with its compact knit that feels like running your hands down glass. Lady White Co. receives the award for best all-around t-shirt company. Budget champions include Kirkland ($4.20) for incredible value and Uniqlo Heavyweight for best value overall. The video notably features the Merz B. Schwanen 215 t-shirt worn by Jeremy Allen White in The Bear, along with rare prototype Wonder Looper shirts including the world's heaviest t-shirt at 69% heavier than Champion reverse weave.
 
+## Highlights
+
+### "Kirkland at $4.20 - how on Earth are you making this?"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GMM_Hl1fTQ0?start=74&end=130" frameborder="0" allowfullscreen></iframe>
+
+> "Think if you went to a diner and you're expecting a cheeseburger to cost $10 and it cost $1 - you'd probably think how on Earth are you making this for $1. That's Kirkland."
+> — Michael, [1:14](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=74s)
+
+### "It feels like you're running your hands down glass"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GMM_Hl1fTQ0?start=352&end=410" frameborder="0" allowfullscreen></iframe>
+
+> "This is the epitome of this Asket t-shirt... this knit they call it compact, it's so compact that it literally doesn't feel like a knit product. It feels like you're running your hands down glass."
+> — Michael, [5:58](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=358s)
+
+### "It's not the shirt that makes the man"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GMM_Hl1fTQ0?start=561&end=620" frameborder="0" allowfullscreen></iframe>
+
+> "This is The Bear shirt. This is the famous shirt. Clearly I am not Jeremy Allen White so it looks like a regular shirt. That's kind of the whole deal - it's not the shirt that makes the man, it's the man that makes the shirt."
+> — Michael, [9:21](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=561s)
+
+### "This is the heaviest t-shirt - 69% heavier than Champion"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GMM_Hl1fTQ0?start=790&end=845" frameborder="0" allowfullscreen></iframe>
+
+> "This is the heaviest t-shirt. If you haven't gotten into the world of heavyweight knits, this is far heavier than a Champion reverse weave - this is 69% heavier. It is an absolute tank. You could hear the sounds when I scratch it."
+> — Michael, [13:10](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=790s)
+
+### "Sally Fox is a cotton pioneer"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GMM_Hl1fTQ0?start=688&end=745" frameborder="0" allowfullscreen></iframe>
+
+> "Sally Fox is a cotton pioneer. She's a legend in the cotton world because colored cotton was such a short staple cotton that it was very difficult to spin it into yarns and make it into t-shirts. She changed that."
+> — Michael, [11:28](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=688s)
+
+### "This is essentially game over"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GMM_Hl1fTQ0?start=126&end=180" frameborder="0" allowfullscreen></iframe>
+
+> "This is essentially game over. As someone who reviews clothing and makes clothing for a living, if you blindfolded me and spun me around three times and said 'quick, is this a $15 t-shirt or a t-shirt?' - this is Uniqlo."
+> — Michael, [2:06](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=126s)
+
 ## Key Points
 
 - **Kirkland Budget King** ([1:14](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=74s)) - Six-pack for $25 ($4.20 each), fantastic quality with good collar construction that withstands microphone test

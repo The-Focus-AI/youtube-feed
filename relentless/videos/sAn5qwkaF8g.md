@@ -34,6 +34,50 @@ The company operates as a vertically integrated business - they're a robotics co
 
 Saif shares his journey from being born in Canada and raised in the Middle East to founding the company after reading an essay called "If Fish Could Scream." He discusses the challenges of the down market, finding his co-founder Reed, and his philosophy of democratizing artisanal food. The company now serves almost every Michelin restaurant in the US that serves fish and exports to six countries.
 
+## Highlights
+
+### "Fish don't have vocal cords so we give them less empathy than terrestrial animals"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sAn5qwkaF8g?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+
+> "There was this essay: 'If fish could scream.' Because fish don't have vocal cords, we give them less empathy than terrestrial animals. Most fish are suffocated today, flopping around releasing stress hormones. It's kind of like putting a cow's head under water."
+> — Saif Khawaja, [0:00](https://www.youtube.com/watch?v=sAn5qwkaF8g&t=0s)
+
+### "61% of all fish landed don't make it to a plate"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sAn5qwkaF8g?start=255&end=320" frameborder="0" allowfullscreen></iframe>
+
+> "North America including Canada, The Guardian said 61% of all fish that are landed don't make it to a plate. A lot of that waste happens at the latter portion of the supply chain. Our premise is the fish are more unit economically efficient to trade."
+> — Saif Khawaja, [4:15](https://www.youtube.com/watch?v=sAn5qwkaF8g&t=255s)
+
+### "Over 90% of American fish are imported - half shipped overseas for processing then back"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sAn5qwkaF8g?start=1031&end=1095" frameborder="0" allowfullscreen></iframe>
+
+> "Over 90% of American fish are actually imported. Half are domestic origin - landed by American fishermen, shipped to Ecuador or Peru or Guatemala or China to be broken down, then brought back. It makes no sense."
+> — Saif Khawaja, [17:11](https://www.youtube.com/watch?v=sAn5qwkaF8g&t=1031s)
+
+### "The first version was a 3D printer with a nail stuck on the end"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sAn5qwkaF8g?start=767&end=830" frameborder="0" allowfullscreen></iframe>
+
+> "The very first version was a 3D printer with a nail stuck on the end of it and a plastic fish. We used OpenCV for computer vision. I had bought a bunch of dead fish from Whole Foods and was just going at it with the prototype."
+> — Saif Khawaja, [12:47](https://www.youtube.com/watch?v=sAn5qwkaF8g&t=767s)
+
+### "Serving almost every Michelin restaurant in the US that serves fish"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sAn5qwkaF8g?start=405&end=470" frameborder="0" allowfullscreen></iframe>
+
+> "We're serving almost every single Michelin restaurant in the country that serves fish. Through our distribution network we have access to over 50 stars. Our fish is being auctioned off in Tokyo. Best restaurants in Europe are reaching out by name."
+> — Saif Khawaja, [6:45](https://www.youtube.com/watch?v=sAn5qwkaF8g&t=405s)
+
+### "Co-founder at first sight - I knew from the first meeting"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sAn5qwkaF8g?start=1989&end=2055" frameborder="0" allowfullscreen></iframe>
+
+> "When we met for the first time in person, it was one of those things like the way people talk about meeting your wife for the first time and 'I knew I was going to marry this person.' It was co-founder at first sight. I met 40-50 potential co-founders before Reed."
+> — Saif Khawaja, [33:09](https://www.youtube.com/watch?v=sAn5qwkaF8g&t=1989s)
+
 ## Key Points
 
 - **Fish Suffocation Problem** ([0:00](https://www.youtube.com/watch?v=sAn5qwkaF8g&t=0s)) - Most fish today are suffocated on boat decks, flopping around for 5-60+ minutes releasing stress hormones

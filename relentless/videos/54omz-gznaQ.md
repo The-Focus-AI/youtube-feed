@@ -30,6 +30,50 @@ Daniel Francis, founder and CEO of Abel Police, discusses his journey building A
 
 The conversation explores the challenges of selling to fragmented government organizations, the importance of CJIS compliance, why police conferences are essential for breaking into the market, and how body cameras have transformed policing. Daniel shares his philosophy of understanding problems deeply through direct experience rather than traditional user interviews, and discusses his personal story of being paralyzed at 15 and learning to walk again.
 
+## Highlights
+
+### "We hit 130 mph on the highway, 50 mph in the Oakland Hills"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/54omz-gznaQ?start=145&end=210" frameborder="0" allowfullscreen></iframe>
+
+> "I was in a police chase and we hit 130 mph on the highway. But even crazier than that is we hit 50 mph in the Oakland Hills. And if you've ever been in the Oakland Hills, that's wild because those are very narrow, scary roads. It was 47 minutes. That was the best day of my life."
+> — Daniel Francis, [2:25](https://www.youtube.com/watch?v=54omz-gznaQ&t=145s)
+
+### "The best type of cop is a former bartender"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/54omz-gznaQ?start=315&end=375" frameborder="0" allowfullscreen></iframe>
+
+> "Policing is a service job. People think it's more like the military. My favorite prototype of a police officer: former bartender. Because policing is a service job. You have that right combination of service but also like you might be able to throw the guy out. And you can definitely talk shit, which is an important thing for a police officer to be able to do."
+> — Daniel Francis, [5:15](https://www.youtube.com/watch?v=54omz-gznaQ&t=315s)
+
+### "I explained alcoholism to my Chinese friend - 'I don't think we have anything like that in China'"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/54omz-gznaQ?start=590&end=660" frameborder="0" allowfullscreen></iframe>
+
+> "I was explaining alcoholism and he's like, 'I don't think we have anything like that in China. Like I never heard of that.' I was like, what a nation of supermen. And then I figured out - everybody, every male in China is an alcoholic. That's just standard."
+> — Daniel Francis, [9:50](https://www.youtube.com/watch?v=54omz-gznaQ&t=590s)
+
+### "He sat there in silence and said, 'That was bitching'"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/54omz-gznaQ?start=790&end=855" frameborder="0" allowfullscreen></iframe>
+
+> "I came in with a demo. I had taken my phone and held it to my chest and warned my friend for littering in this fake body cam video I made. I showed it to Captain Eric Smith at Richmond. The video ends and he just sits there in silence staring at the screen and he said, 'That was bitching.'"
+> — Daniel Francis, [13:10](https://www.youtube.com/watch?v=54omz-gznaQ&t=790s)
+
+### "Axon made it normal and then did a really terrible job at it"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/54omz-gznaQ?start=1015&end=1080" frameborder="0" allowfullscreen></iframe>
+
+> "It was weird when I was doing it but then Axon says it, it's normal. Axon made it normal and then Axon did a really terrible job at it. They just shove it through ChatGPT. It's so lazy. That's not how you do it. There's so many layers. It's very sophisticated."
+> — Daniel Francis, [16:55](https://www.youtube.com/watch?v=54omz-gznaQ&t=1015s)
+
+### "We do this not because it is easy, but because we thought it would be easy"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/54omz-gznaQ?start=118&end=180" frameborder="0" allowfullscreen></iframe>
+
+> "Have you ever heard the saying, we didn't do it because it's easy, we did it because we thought it would be easy? That's what I do."
+> — Daniel Francis, [1:58](https://www.youtube.com/watch?v=54omz-gznaQ&t=118s)
+
 ## Key Points
 
 - **Abel Police Product** ([12:36](https://www.youtube.com/watch?v=54omz-gznaQ&t=756s)) - Takes body cam footage and uses AI to turn it into police reports, since police spend one-third of their time writing reports

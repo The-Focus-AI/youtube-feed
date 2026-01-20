@@ -28,6 +28,36 @@ The video provides a comprehensive overview of robotics progress driven by gener
 
 The episode concludes with clips from both Elon Musk discussing Tesla's Optimus robots (predicting 10 billion+ robots by 2040) and Jensen Huang providing a philosophical take on robotics development, explaining the progression from locomotion to gross articulation to fine motor skills, and the concept of AI models that can "embody" different forms like humanoids, manipulators, or self-driving cars.
 
+## Highlights
+
+### "When Will Robots Have Human Capabilities? This Year."
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PAjb83HHLaU?start=15&end=75" frameborder="0" allowfullscreen></iframe>
+
+> "When do you think we're going to get robots that actually have human level capabilities? Oh, this year."
+> — Jensen Huang, [0:15](https://www.youtube.com/watch?v=PAjb83HHLaU&t=15s)
+
+### "10 Billion Robots by 2040 Is a Low Number"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PAjb83HHLaU?start=267&end=320" frameborder="0" allowfullscreen></iframe>
+
+> "10 billion by 2040? That's not... that's a low number."
+> — Elon Musk, [4:38](https://www.youtube.com/watch?v=PAjb83HHLaU&t=278s)
+
+### "You Embody the Car Like an Extension of You"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PAjb83HHLaU?start=349&end=400" frameborder="0" allowfullscreen></iframe>
+
+> "When you sit inside a car, somehow you embody the car. You're able to steer a car like it's an extension of you. When you picked up a tennis racket, you embodied the tennis racket. Somehow your arm got longer."
+> — Jensen Huang, [5:57](https://www.youtube.com/watch?v=PAjb83HHLaU&t=357s)
+
+### "Robots That Are Almost Boringly Helpful"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PAjb83HHLaU?start=97&end=150" frameborder="0" allowfullscreen></iframe>
+
+> "Don't forget we already have robots that are almost boringly helpful."
+> — Turing Post Host, [2:00](https://www.youtube.com/watch?v=PAjb83HHLaU&t=120s)
+
 ## Key Points
 
 - **Jensen Huang's Prediction** ([0:00](https://www.youtube.com/watch?v=PAjb83HHLaU&t=0s)) - When asked about human-level robot capabilities, Jensen Huang surprised everyone with his optimistic timeline

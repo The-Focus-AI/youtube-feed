@@ -33,6 +33,43 @@ The phone features a Snapdragon 8 Elite 4 Galaxy chip, 16GB RAM, 512GB storage, 
 
 While MKBHD highlights thoughtful design details like the extended bottom panel for easy opening and strong magnets, he notes downsides including visible screen creases, lower inside display brightness (1,600 nits vs 2,600 nits outside), and an expected price of $2,500-$3,000. Despite calling it a first-generation device with durability concerns, he concludes that for the right user who wants a true tablet in their pocket, the Z Trifold finally makes foldables make sense.
 
+## Highlights
+
+### "Foldables finally make sense"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/trsHTKqmZOk?start=22&end=70" frameborder="0" allowfullscreen></iframe>
+
+> "Now that I've used this phone, this is a device that's actually starting to make foldables make sense to me."
+> — Marques Brownlee, [0:22](https://www.youtube.com/watch?v=trsHTKqmZOk&t=22s)
+
+### "Thinner than Z Fold 1 through 5"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/trsHTKqmZOk?start=191&end=245" frameborder="0" allowfullscreen></iframe>
+
+> "For some perspective, this is actually thinner than the Z Fold 1 and the Z Fold 2 and the Z Fold 3 and the Z Fold 4 and the Z Fold 5."
+> — Marques Brownlee, [3:11](https://www.youtube.com/watch?v=trsHTKqmZOk&t=191s)
+
+### "The only Samsung phone that can run Dex standalone"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/trsHTKqmZOk?start=407&end=460" frameborder="0" allowfullscreen></iframe>
+
+> "This just happens to be the only Samsung phone that they'll let you run Samsung Dex on its own."
+> — Marques Brownlee, [6:47](https://www.youtube.com/watch?v=trsHTKqmZOk&t=407s)
+
+### "Don't fold it wrong"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/trsHTKqmZOk?start=464&end=510" frameborder="0" allowfullscreen></iframe>
+
+> "If you try to fold the right side first, it gives you this little message and vibrates and tells you, 'No, don't do that. That's not how you fold this phone.'"
+> — Marques Brownlee, [8:04](https://www.youtube.com/watch?v=trsHTKqmZOk&t=484s)
+
+### "Samsung's wild experimentation"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/trsHTKqmZOk?start=675&end=720" frameborder="0" allowfullscreen></iframe>
+
+> "It's also just hilarious that this exists from Samsung, isn't it? Like the same company that is ridiculously slow moving and chill and conservative on their Galaxy S phones."
+> — Marques Brownlee, [11:18](https://www.youtube.com/watch?v=trsHTKqmZOk&t=678s)
+
 ## Key Points
 
 - **Trifold form factor advantage** ([00:43](https://www.youtube.com/watch?v=trsHTKqmZOk&t=43s)) - Opens twice to provide a 10-inch widescreen tablet with 16:10 aspect ratio, making videos and content consumption significantly better than square 8-inch foldables

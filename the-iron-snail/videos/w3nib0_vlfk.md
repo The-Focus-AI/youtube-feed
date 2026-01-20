@@ -26,6 +26,50 @@ Michael from The Iron Snail presents the ultimate guide to raw Japanese selvedge
 
 The video breaks down the technical aspects of shuttle looms versus modern air-jet looms, explaining that the inefficiency of shuttle looms is precisely what makes selvedge denim special - the weft yarn loops back creating a self-finished edge that doesn't fray. Michael covers essential vocabulary like slub, nep, chain stitch, roping, whiskers, and honeycombs, while addressing common questions about durability, washing, and fit. He explains that Japanese selvedge denim's expense comes from slow shuttle loom production (2x cost), half-width fabric (4x cost), complex small-batch manufacturing, and historical attention to detail passed down from post-WWII American GIs who brought denim culture to Japan.
 
+## Highlights
+
+### "Japanese collectors pay thousands for the real thing"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w3nib0_vlfk?start=0&end=55" frameborder="0" allowfullscreen></iframe>
+
+> "Japanese Levi's collectors pay thousands upon thousands of dollars for the real thing. So they can grab their 1942 pair of Levi's and say, 'Nope, that's not right. That doesn't look right. Look at the fuzz. Very different.'"
+> — Michael, [0:13](https://www.youtube.com/watch?v=w3nib0_vlfk&t=13s)
+
+### "One of the leading causes of tuberculosis"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w3nib0_vlfk?start=24&end=80" frameborder="0" allowfullscreen></iframe>
+
+> "They were one of the leading causes of tuberculosis in the US for a very long time because the employees would suck on a component of them. And the bosses were like, 'Stop sucking on those. It's giving you typhoid.'"
+> — Michael, [0:32](https://www.youtube.com/watch?v=w3nib0_vlfk&t=32s)
+
+### "This denim is filled with twigs and leaf matter"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w3nib0_vlfk?start=47&end=105" frameborder="0" allowfullscreen></iframe>
+
+> "This denim is filled with twigs and leaf matter. This is some of the craziest textured denim in the world."
+> — Michael, [0:57](https://www.youtube.com/watch?v=w3nib0_vlfk&t=57s)
+
+### "Uniqlo shrunk 0%, fancy Japanese brands shrunk 9%"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w3nib0_vlfk?start=655&end=715" frameborder="0" allowfullscreen></iframe>
+
+> "Uniqlo shrunk 0% and fancy Japanese brands would sometimes shrink 9%. Because when you're making really fancy textiles with crazy yarns and you're trying to preserve all the character possible, you get wild shrink amounts."
+> — Michael, [10:55](https://www.youtube.com/watch?v=w3nib0_vlfk&t=655s)
+
+### "Levi's went in guns blazing and sued all of you"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w3nib0_vlfk?start=740&end=800" frameborder="0" allowfullscreen></iframe>
+
+> "Levi's went in guns blazing and was like 'we're suing all of you, take all of our stuff away.' So that's why similar details but kind of remixed."
+> — Michael, [12:25](https://www.youtube.com/watch?v=w3nib0_vlfk&t=745s)
+
+### "Two pigs flying instead of two horses"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w3nib0_vlfk?start=820&end=875" frameborder="0" allowfullscreen></iframe>
+
+> "So we still have a leather patch but it doesn't show two horses pulling jeans across like Levi's has. We have an arcuate but it's kind of different and wonky. Instead of a red tab we have a little red embroidery... you have two pigs flying if you're doing Studio D'Artisan."
+> — Michael, [13:45](https://www.youtube.com/watch?v=w3nib0_vlfk&t=825s)
+
 ## Key Points
 
 - **Raw vs Selvedge Distinction** ([2:05](https://www.youtube.com/watch?v=w3nib0_vlfk&t=125s)) - Raw denim is unwashed fabric that came off the loom; selvedge is a specific self-finished fabric made only on shuttle looms

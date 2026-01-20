@@ -36,6 +36,43 @@ tags:
 
 MKBHD critically examines the NEO humanoid robot from 1X Technologies, a $20,000 home robot that promises to do household chores autonomously. The core issue: nearly everything shown in promotional videos is actually remotely controlled by humans wearing VR headsets (teleoperated), not autonomous AI. Only two simple tasks in their entire 10-minute demo video were truly autonomous. Marques argues this represents a broader "AI promise problem" where companies sell futuristic dreams before the technology actually works, comparing it to similar overpromises from Humane Pin, Rabbit r1, and even Apple Intelligence.
 
+## Highlights
+
+### "100% teleoperated"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j31dmodZ-5c?start=216&end=280" frameborder="0" allowfullscreen></iframe>
+
+> "100% of the stuff they showed her, the carrying things around, the loading up the dishwasher... all of this is teleoperated."
+> — Marques Brownlee, [3:53](https://www.youtube.com/watch?v=j31dmodZ-5c&t=233s)
+
+### "Lost art of waiting before announcing"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j31dmodZ-5c?start=365&end=420" frameborder="0" allowfullscreen></iframe>
+
+> "There seems to be a bit of a lost art in waiting for a tech product before announcing and unveiling it."
+> — Marques Brownlee, [6:05](https://www.youtube.com/watch?v=j31dmodZ-5c&t=365s)
+
+### "Selling the dream before the product"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j31dmodZ-5c?start=389&end=440" frameborder="0" allowfullscreen></iframe>
+
+> "You end up selling the dream before you sell the actual product. And that is dangerous."
+> — Marques Brownlee, [6:35](https://www.youtube.com/watch?v=j31dmodZ-5c&t=395s)
+
+### "People who would benefit most are least likely to adopt"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j31dmodZ-5c?start=912&end=955" frameborder="0" allowfullscreen></iframe>
+
+> "The people that would benefit most from the ideal version of this robot, like the elderly, are the least likely to be early adopters."
+> — Marques Brownlee, [15:12](https://www.youtube.com/watch?v=j31dmodZ-5c&t=912s)
+
+### "They offered me a sponsored video"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j31dmodZ-5c?start=929&end=970" frameborder="0" allowfullscreen></iframe>
+
+> "Fun fact, they actually reached out to me 10 months ago in January offering to do a sponsored video. I didn't respond."
+> — Marques Brownlee, [15:29](https://www.youtube.com/watch?v=j31dmodZ-5c&t=929s)
+
 ## Key Points
 
 - [0:17](https://www.youtube.com/watch?v=j31dmodZ-5c&t=17) - Introduction to NEO: 5'6", 66 pounds, 4-hour battery life humanoid robot priced around $20,000

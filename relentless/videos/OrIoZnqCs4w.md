@@ -30,6 +30,50 @@ Ian Laffey, co-founder and CEO of Theseus, shares the journey of building GPS-de
 
 The interview covers Ian's path from a Yale physics student to defense tech founder, including multiple trips to Ukraine to test and iterate on their product in real combat conditions. He discusses the intense pressure of building hardware for life-or-death situations, the importance of understanding problems deeply before bringing in team members, and how hiking the Appalachian Trail at 18 shaped his approach to difficult challenges.
 
+## Highlights
+
+### "We posted on Twitter, slept 18 hours, woke up to messages from Ukraine and the White House"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OrIoZnqCs4w?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+
+> "We built a drone that flies without GPS using Google Maps to fingerprint where you are. We built that, put a picture up on Twitter, then slept for 18 hours. I woke up to tons of people from Ukraine, tons of people associated with the White House. Very quickly it became clear we needed to do this."
+> — Ian Laffey, [0:00](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=0s)
+
+### "First prototype was literally an Android phone strapped to a drone"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OrIoZnqCs4w?start=520&end=585" frameborder="0" allowfullscreen></iframe>
+
+> "Our first real prototype was basically an Android phone strapped to a drone. It sounds ridiculous, but it worked. We had to start somewhere. Phones have pretty good cameras and processors. It let us test the core concept without building custom hardware."
+> — Ian Laffey, [8:40](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=520s)
+
+### "Every day we're not shipping, that's a day where someone might die"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OrIoZnqCs4w?start=1015&end=1080" frameborder="0" allowfullscreen></iframe>
+
+> "Every day we're not shipping, that's a day where someone might die because they didn't have our product. That weight is always there. Every decision you make, you're thinking about the consequences. It makes you more careful, but also more stressful."
+> — Ian Laffey, [16:55](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=1015s)
+
+### "Sasha dropped out of his PhD. I quit my job. We went all in."
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OrIoZnqCs4w?start=440&end=505" frameborder="0" allowfullscreen></iframe>
+
+> "After the hackathon, the response made it clear - this was needed. People were literally fighting and dying, and this technology could help. Sasha dropped out of his PhD. I quit my job. We went all in. Within weeks we were talking to people in Ukraine."
+> — Ian Laffey, [7:20](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=440s)
+
+### "GPS has been military navigation backbone for decades - but it can be jammed"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OrIoZnqCs4w?start=259&end=325" frameborder="0" allowfullscreen></iframe>
+
+> "GPS has been the backbone of military navigation for decades. Missiles, drones, vehicles - everything uses GPS. But GPS can be jammed or spoofed. The Russians are really good at this. In Ukraine, GPS is basically unusable in many areas because of Russian jamming."
+> — Ian Laffey, [4:19](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=259s)
+
+### "The unknown unknowns are the things that will kill you in hardware"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OrIoZnqCs4w?start=2927&end=2990" frameborder="0" allowfullscreen></iframe>
+
+> "The unknown unknowns are the things that will kill you. In software, you can push a fix. In hardware, if you shipped something wrong, those units are gone. You have to be incredibly thorough about testing every edge case."
+> — Ian Laffey, [48:47](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=2927s)
+
 ## Key Points
 
 - **GPS-Denied Navigation** ([0:26](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=26s)) - Theseus builds technology that allows drones to navigate autonomously without GPS using visual fingerprinting against Google Maps/satellite imagery

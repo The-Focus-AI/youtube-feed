@@ -36,6 +36,43 @@ The video provides historical context for semiconductor development, showing how
 
 The video concludes with a powerful reverse perspective: if we used 1946 technology (vacuum tubes the size of light bulbs), an iPhone with its 19 billion transistors would need to be the size of New Jersey. If each modern transistor were the size of a Toyota Prius, the iPhone would be the size of planet Earth. This collaboration with Epic Spaceman effectively communicates just how remarkable modern chip manufacturing truly is.
 
+## Highlights
+
+### "Isn't it crazy how we taught rocks to do math?"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jh9pFp1oM7E?start=0&end=55" frameborder="0" allowfullscreen></iframe>
+
+> "Isn't it crazy how we taught rocks to do math?"
+> — Marques Brownlee, [0:00](https://www.youtube.com/watch?v=Jh9pFp1oM7E&t=0s)
+
+### "A grain of rice would be the size of Mount Rainier"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jh9pFp1oM7E?start=275&end=330" frameborder="0" allowfullscreen></iframe>
+
+> "A single grain of rice at this scale would be the size of Mount Rainier."
+> — Marques Brownlee, [5:04](https://www.youtube.com/watch?v=Jh9pFp1oM7E&t=304s)
+
+### "The size of New Jersey"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jh9pFp1oM7E?start=591&end=645" frameborder="0" allowfullscreen></iframe>
+
+> "Your phone with the technology from 80 years ago would need to be the size of the state of New Jersey to fit them all."
+> — Marques Brownlee, [10:16](https://www.youtube.com/watch?v=Jh9pFp1oM7E&t=616s)
+
+### "If a transistor was the size of a Prius"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jh9pFp1oM7E?start=635&end=685" frameborder="0" allowfullscreen></iframe>
+
+> "If a modern transistor was roughly the size of a Toyota Prius, then that iPhone that fits them all would be about the size of planet Earth."
+> — Marques Brownlee, [10:35](https://www.youtube.com/watch?v=Jh9pFp1oM7E&t=635s)
+
+### "Technology only gets better because of hard work"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jh9pFp1oM7E?start=167&end=210" frameborder="0" allowfullscreen></iframe>
+
+> "Technology only gets better because of the people working really hard on it. Like without this hard work, none of this improvement happens."
+> — Marques Brownlee, [2:50](https://www.youtube.com/watch?v=Jh9pFp1oM7E&t=170s)
+
 ## Key Points
 
 - **Scale Visualization Concept** ([0:53](https://www.youtube.com/watch?v=Jh9pFp1oM7E&t=53s)) - To appreciate how small transistors are, we need to shrink down rather than zoom in, with each snap reducing size by 100x (two orders of magnitude)

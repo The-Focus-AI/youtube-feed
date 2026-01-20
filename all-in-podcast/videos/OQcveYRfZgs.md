@@ -33,6 +33,50 @@ The discussion draws parallels between the 1920s and today, examining how both e
 
 The hosts debate whether we're currently in a bubble (monetary, speculative, or otherwise) and discuss how AI is fundamentally driving the economy - with data center spending accounting for significant GDP growth. They explore the political challenge of convincing the public to accept "less" rather than "more" from government, the role of tariffs in national security, and whether America needs a new social compact. Sorkin shares that he's restricted from investing in individual stocks due to his journalism career, though he wishes he had listened to Chamath's early Bitcoin recommendations on CNBC.
 
+## Highlights
+
+### "The Birth of Consumer Credit: General Motors 1919"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OQcveYRfZgs?start=244&end=300" frameborder="0" allowfullscreen></iframe>
+
+> "In 1919, General Motors says, 'You know what? We're going to start lending people money so that you can buy a car.' And that was actually like a major inflection point in America."
+> — Andrew Ross Sorkin, [4:20](https://www.youtube.com/watch?v=OQcveYRfZgs&t=260s)
+
+### "10-to-1 Margin: That's How Insane Things Were"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OQcveYRfZgs?start=288&end=350" frameborder="0" allowfullscreen></iframe>
+
+> "You could go into one of these places and you could put a buck down and they would literally loan you $10 off of your dollar. I mean, that's how insane things were."
+> — Andrew Ross Sorkin, [4:58](https://www.youtube.com/watch?v=OQcveYRfZgs&t=298s)
+
+### "Glass-Steagall's Dirty Secret: Lobbying to Destroy JP Morgan"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OQcveYRfZgs?start=1304&end=1370" frameborder="0" allowfullscreen></iframe>
+
+> "Glass-Steagall almost has nothing to do with breaking the banks apart for political reasons... it actually has to do with business reasons, meaning there was like some major bank money and lobbying going on behind the scenes to f*** over JP Morgan by the guys who were running Chase and the Rockefellers."
+> — Andrew Ross Sorkin, [21:51](https://www.youtube.com/watch?v=OQcveYRfZgs&t=1311s)
+
+### "Chamath Told Sorkin to Buy Bitcoin at $100"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OQcveYRfZgs?start=1622&end=1680" frameborder="0" allowfullscreen></iframe>
+
+> "I came on CNBC and I would tell Sorkin to buy it at $100 a coin, $200 a coin. Sorkin would show me a clip of Charlie Munger telling me that it was poison... And I said, 'I have tremendous respect for Charlie and Warren, but they're wrong.'"
+> — Chamath Palihapitiya, [27:05](https://www.youtube.com/watch?v=OQcveYRfZgs&t=1625s)
+
+### "AI Is 100-200 Basis Points of GDP"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OQcveYRfZgs?start=1861&end=1920" frameborder="0" allowfullscreen></iframe>
+
+> "The GDP quarterly GDP was like flat excluding data center spending... It's definitely 100 to 200 basis points of GDP."
+> — Chamath Palihapitiya, [31:06](https://www.youtube.com/watch?v=OQcveYRfZgs&t=1866s)
+
+### "Tariffs for Maximum Optionality"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OQcveYRfZgs?start=2667&end=2730" frameborder="0" allowfullscreen></iframe>
+
+> "Would I be okay with a less better car, but having a national transportation infrastructure that we control and cannot be turned off by somebody else? On the margins, I would say yeah, I'd be okay with that."
+> — Chamath Palihapitiya, [44:27](https://www.youtube.com/watch?v=OQcveYRfZgs&t=2667s)
+
 ## Key Points
 
 - **Credit Revolution of 1919** ([4:04](https://www.youtube.com/watch?v=OQcveYRfZgs&t=244s)) - General Motors started lending people money to buy cars in 1919, marking a major inflection point in American finance that Sears Roebuck and then banks replicated for stocks

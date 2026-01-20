@@ -28,6 +28,36 @@ Michael introduces the Samaras - the first collaboration between The Iron Snail 
 
 The Samaras feature premium materials including leather from Charles F. Stead tannery (known for producing the highest quality suede in the world), specifically their Waxy Commander leather which has a shrunken fiber structure stuffed with waxes for water resistance. A special edition version uses 22oz Buffalo Plaid wool woven by American Woolen in Connecticut - the same mill that produces fabric for the Mammoth jacket. The outsoles are Vibram Ice Trek with Arctic Grip for slip resistance on ice, and include a thermochromatic lug that turns blue when temperatures fall below freezing.
 
+## Highlights
+
+### "Desire to hike a mountain at any moment"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/of4vWilFse4?start=61&end=115" frameborder="0" allowfullscreen></iframe>
+
+> "Goral emphasizes minimalism, comfort, and town-wearable footwear, while The Iron Snail's focus is on the desire to be able to hike a mountain or slog through gross terrain at any moment."
+> — Narrator, [1:01](https://www.youtube.com/watch?v=of4vWilFse4&t=61s)
+
+### "Thermochromatic lug turns blue when freezing"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/of4vWilFse4?start=184&end=230" frameborder="0" allowfullscreen></iframe>
+
+> "The outsoles are Vibram's Ice Trek with Arctic Grip... These also come with a thermochromatic lug that turns blue when temperatures fall below freezing."
+> — Narrator, [3:05](https://www.youtube.com/watch?v=of4vWilFse4&t=185s)
+
+### "A Samara is a seed dispersal system"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/of4vWilFse4?start=223&end=260" frameborder="0" allowfullscreen></iframe>
+
+> "A Samara in nature is a dry fruit. Its general purpose is to be a seed dispersal system for the maple family of trees. According to Wikipedia, they are also commonly referred to as wing nuts, helicopters, whirly birds, whirly gigs, or in the north of England, a spinning jenny."
+> — Narrator, [3:43](https://www.youtube.com/watch?v=of4vWilFse4&t=223s)
+
+### "We both got 'most creative' in high school"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/of4vWilFse4?start=246&end=275" frameborder="0" allowfullscreen></iframe>
+
+> "Thank you Robin for the animations - they look awesome. We both got the 'most creative' superlative in high school. We were in the picture together, but she's Emmy nominated, so..."
+> — Michael, [4:06](https://www.youtube.com/watch?v=of4vWilFse4&t=246s)
+
 ## Key Points
 
 - **First Iron Snail x Goral Collaboration** ([0:00](https://www.youtube.com/watch?v=of4vWilFse4&t=0s)) - Project Samara, Edition Zero; Michael Christie and Dominic Goral as authors

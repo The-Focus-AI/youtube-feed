@@ -31,6 +31,36 @@ The video covers three main themes: the philosophical reframing of machine hallu
 
 The central argument is that AI hallucinations should not be viewed as errors but as creative opportunities. This perspective shift transforms the role of architects from drafters to curators—people with judgment who guide machines rather than draw every line themselves. The video suggests we are living through an "Alberti moment," a historical rupture as significant as the Renaissance codification of perspective.
 
+## Highlights
+
+### "Machine Hallucinations Are Creative Processes, Not Flaws"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SX8_9RX5vj8?start=153&end=210" frameborder="0" allowfullscreen></iframe>
+
+> "Machine hallucinations become a creative process. It's not a flaw. It's not something wrong. It's actually a moment that you can use to create art."
+> — Refik Anadol, [2:52](https://www.youtube.com/watch?v=SX8_9RX5vj8&t=172s)
+
+### "He Wants to Know If Buildings Can Dream"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SX8_9RX5vj8?start=268&end=325" frameborder="0" allowfullscreen></iframe>
+
+> "He wants to know if buildings can dream. And AI is that tool for him that allows him to imagine how machine hallucinates, how buildings dream, what they think about."
+> — Turing Post Host, [4:47](https://www.youtube.com/watch?v=SX8_9RX5vj8&t=287s)
+
+### "A Diver Who Brings Back Souvenirs from the Hidden World"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SX8_9RX5vj8?start=303&end=355" frameborder="0" allowfullscreen></iframe>
+
+> "He sees himself as a diver who brings back souvenirs from that hidden world."
+> — Turing Post Host on Refik Anadol, [5:15](https://www.youtube.com/watch?v=SX8_9RX5vj8&t=315s)
+
+### "The Architect Becomes a Curator, Buildings Become Dream Engines"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SX8_9RX5vj8?start=352&end=400" frameborder="0" allowfullscreen></iframe>
+
+> "The architect becomes a curator. The buildings become a dream engine. It's just beautiful."
+> — Turing Post Host, [6:15](https://www.youtube.com/watch?v=SX8_9RX5vj8&t=375s)
+
 ## Key Points
 
 - **Art Basel Miami Overview** ([0:10](https://www.youtube.com/watch?v=SX8_9RX5vj8&t=10s)) - Describes Art Basel as an island with the richest people on the planet, yachts in traffic, and enough creative output to power a small civilization

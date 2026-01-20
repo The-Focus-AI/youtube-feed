@@ -39,6 +39,43 @@ tags:
 
 MKBHD reviews the Xiaomi SU7 Max, a $42,000 electric car from the Chinese tech company best known for smartphones and consumer electronics. After driving it for two weeks, he finds it delivers premium features typically found in $75,000+ cars, including a 101 kWh battery, 673 horsepower, 320 miles of range, exceptional software, modular interior accessories, and impressive build quality. While the car isn't available in the US due to tariffs, MKBHD argues its existence raises the bar for the entire EV industry and demonstrates what's possible when a tech company enters the automotive space without legacy constraints.
 
+## Highlights
+
+### "A $42,000 car that feels like a $75,000 car"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mb6H7trzMfI?start=824&end=880" frameborder="0" allowfullscreen></iframe>
+
+> "This is a $42,000 car that feels like a $75,000 car if it were made here in the US."
+> — Marques Brownlee, [13:55](https://www.youtube.com/watch?v=Mb6H7trzMfI&t=835s)
+
+### "Navigation voice only in the driver's headrest"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mb6H7trzMfI?start=349&end=400" frameborder="0" allowfullscreen></iframe>
+
+> "That never happens in this car because it separates out the navigation audio and puts it just in that speaker behind me while all of the rest of the music and the sound in the car continues uninterrupted. So as a driver I hear the voice saying turn left, turn right, but everything else, including the music for all the passengers stays sick. That is my favorite software feature I've seen in a car in a while."
+> — Marques Brownlee, [6:05](https://www.youtube.com/watch?v=Mb6H7trzMfI&t=365s)
+
+### "One notch below Porsche"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mb6H7trzMfI?start=595&end=650" frameborder="0" allowfullscreen></iframe>
+
+> "This is not Porsche but it's like one notch below that, which is still really good."
+> — Marques Brownlee, [10:03](https://www.youtube.com/watch?v=Mb6H7trzMfI&t=603s)
+
+### "Normal car parts, but the integration is impressive"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mb6H7trzMfI?start=849&end=900" frameborder="0" allowfullscreen></iframe>
+
+> "It's not that there's any sort of crazy bleeding edge tech in this car that's impossible to replicate... This is a car made of normal car parts, but it's the putting them all together in one car that's so impressive."
+> — Marques Brownlee, [14:17](https://www.youtube.com/watch?v=Mb6H7trzMfI&t=857s)
+
+### "If this car was sold here, it would crush"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mb6H7trzMfI?start=882&end=930" frameborder="0" allowfullscreen></iframe>
+
+> "There's basically no question in my mind that if a car like this was sold in the US that it would crush, of course."
+> — Marques Brownlee, [14:55](https://www.youtube.com/watch?v=Mb6H7trzMfI&t=895s)
+
 ## Key Points
 
 ### The Xiaomi SU7 Max Specifications

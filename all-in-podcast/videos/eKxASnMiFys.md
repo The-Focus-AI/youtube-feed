@@ -39,6 +39,50 @@ The interview traces Machado's journey from a private sector professional who ne
 
 Machado details the regime's brutal tactics including imprisoning 2,500 people within 24 hours of the election, targeting activists' families, and committing what the UN has labeled crimes against humanity. She explains how Venezuela has become a safe haven for criminal networks, terrorist groups like Hezbollah and Hamas, and a strategic foothold for Russia, Iran, and China just three hours from Miami. Despite the darkness, she remains optimistic about a democratic transition and envisions Venezuela becoming the energy, technology, and democracy hub of the Americas.
 
+## Highlights
+
+### "Children eating from garbage in the country with the largest oil reserves"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eKxASnMiFys?start=498&end=560" frameborder="0" allowfullscreen></iframe>
+
+> "Imagine this David, the country that has the largest oil reserves in the world. I've been walking around those areas where that oil is actually beneath the ground and you see children eating from garbage."
+> — Maria Corina Machado, [8:18](https://www.youtube.com/watch?v=eKxASnMiFys&t=498s)
+
+### "Pensions in Venezuela are less than $1 a month"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eKxASnMiFys?start=800&end=860" frameborder="0" allowfullscreen></iframe>
+
+> "86% of our population nowadays lives in poverty. The pensions in Venezuela are less than $1 a month. David, $1 a month."
+> — Maria Corina Machado, [13:20](https://www.youtube.com/watch?v=eKxASnMiFys&t=800s)
+
+### "She broke my nose in five pieces on live TV"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eKxASnMiFys?start=1338&end=1400" frameborder="0" allowfullscreen></iframe>
+
+> "I turn around and there was this member of the parliament of the Chavista regime that hit me in the face and she broke my nose in five pieces... I was thrown to the floor. I was kicked by this and Cabello was watching everything. He was the president of the National Assembly."
+> — Maria Corina Machado, [22:18](https://www.youtube.com/watch?v=eKxASnMiFys&t=1338s)
+
+### "We smuggled Starlink antennas into the country"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eKxASnMiFys?start=2811&end=2875" frameborder="0" allowfullscreen></iframe>
+
+> "We smuggled Starlink antennas into the country, generators, laptops, cell phones, and without the regime noticing it, we installed these 130 operational places. And in less than 24 hours we were able to prove our victory with the original images of the tally sheets."
+> — Maria Corina Machado, [46:51](https://www.youtube.com/watch?v=eKxASnMiFys&t=2811s)
+
+### "Those who offer free what you must earn end up charging you with your freedom"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eKxASnMiFys?start=3373&end=3430" frameborder="0" allowfullscreen></iframe>
+
+> "Those who offer to give you for free what you need to get on your own with hard work, at the end end up charging you with the most valuable asset you could have, which is your freedom, your capacity to decide and to make your own decisions."
+> — Maria Corina Machado, [56:13](https://www.youtube.com/watch?v=eKxASnMiFys&t=3373s)
+
+### "2,500 people imprisoned in 24 hours"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eKxASnMiFys?start=1884&end=1945" frameborder="0" allowfullscreen></iframe>
+
+> "When we won the election last year in July 28, thousands of people went to the streets while we were counting the votes. And in a matter of 24 hours 2,500 people were in prison including young people, children, women that were even sexually assaulted."
+> — Maria Corina Machado, [31:24](https://www.youtube.com/watch?v=eKxASnMiFys&t=1884s)
+
 ## Key Points
 
 - **Nobel Peace Prize Winner** ([0:00](https://www.youtube.com/watch?v=eKxASnMiFys&t=0s)) - Maria Corina Machado won the 2025 Nobel Peace Prize two weeks before this interview for her leadership of Venezuela's democracy movement

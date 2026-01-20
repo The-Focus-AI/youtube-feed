@@ -33,6 +33,43 @@ The interview covers major trade deals including Japan's unprecedented $550 bill
 
 Lutnick projects 5-6% GDP growth for 2026, driven by $18 trillion in committed capital investments, 30 new construction projects already launched, and the administration's focus on eliminating an estimated trillion dollars in fraud. He emphasizes the administration's goal of making American workers better off - noting electricians at data center projects earning $500,000-$750,000 annually - while maintaining tariff revenues that could eventually replace income taxes for those earning under $150,000.
 
+## Highlights
+
+### "Trump's Tootsie Roll test"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fd6QaEJOjvI?start=114&end=175" frameborder="0" allowfullscreen></iframe>
+
+> "He handed me a Tootsie Roll like 'What's this?' It's a Tootsie Roll. 'Where's it made?' It's made in America. 'Well there you go. You gotta be on our team.'"
+> — Howard Lutnick, [2:09](https://www.youtube.com/watch?v=fd6QaEJOjvI&t=129s)
+
+### "$26 trillion owned by foreigners"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fd6QaEJOjvI?start=779&end=840" frameborder="0" allowfullscreen></iframe>
+
+> "Foreigners own $26 trillion of American goods. A trillion of that is farmland. What if they just bought Apple and put a Chinese boss in charge of all your data? You are selling America to foreigners."
+> — Howard Lutnick, [14:30](https://www.youtube.com/watch?v=fd6QaEJOjvI&t=870s)
+
+### "The Japanese don't buy Chevrolets"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fd6QaEJOjvI?start=1210&end=1275" frameborder="0" allowfullscreen></iframe>
+
+> "You know who owns the auto industry in Japan? Yakuza. So if you own a Chevrolet dealership, they come in and sit in your dealership. So you buy Chevrolets, you buy American? No, no, we don't do that."
+> — Howard Lutnick, [20:20](https://www.youtube.com/watch?v=fd6QaEJOjvI&t=1220s)
+
+### "Electricians making $500-750K"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fd6QaEJOjvI?start=3990&end=4055" frameborder="0" allowfullscreen></iframe>
+
+> "The electricians we're hiring are making $500,000 to $750,000 a year. That's what they're making. In the semiconductor factory. Because we need them so badly."
+> — Howard Lutnick, [1:06:45](https://www.youtube.com/watch?v=fd6QaEJOjvI&t=4005s)
+
+### "TSMC got rid of DEI for leverage"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fd6QaEJOjvI?start=4445&end=4505" frameborder="0" allowfullscreen></iframe>
+
+> "The day before I got sworn in, TSMC got rid of their DEI programs. Well they got something from me that they want, and they took that off because they knew it would matter to me. That's called leverage."
+> — Howard Lutnick, [1:14:30](https://www.youtube.com/watch?v=fd6QaEJOjvI&t=4470s)
+
 ## Key Points
 
 - **Air Force One Putin Meeting Story** ([0:00](https://www.youtube.com/watch?v=fd6QaEJOjvI&t=0s)) - Lutnick shares humorous story of falling asleep on Air Force One while Trump negotiated with European leaders, getting hit with a Tootsie Roll by the president who joked "while you're napping, we're trying to settle world peace"

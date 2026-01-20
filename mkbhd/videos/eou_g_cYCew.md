@@ -31,6 +31,43 @@ tags:
 
 MKBHD reviews the Xiaomi 17 Pro Max, a flagship smartphone that deliberately mirrors the iPhone 17 Pro Max in design and naming convention but aims to one-up Apple in nearly every specification. The phone features a 6.9-inch display with ultrasonic fingerprint sensor, the new Snapdragon 8 Elite Gen 5 chip matching iPhone's single-core performance, a massive 7,500mAh silicon-carbon battery with 100W wired and 50W wireless charging, and an impressive triple camera system. The standout feature is a 2.9-inch 120Hz OLED rear display that serves as a selfie viewfinder, notification center, and even supports a retro gaming controller case. While only available in China, the phone represents the most complete execution of the rear-screen concept to date.
 
+## Highlights
+
+### "Lighter than iPhone 17 Pro Max"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eou_g_cYCew?start=252&end=300" frameborder="0" allowfullscreen></iframe>
+
+> "This phone is lighter than the iPhone 17 Pro Max"
+> — Marques Brownlee, [4:19](https://www.youtube.com/watch?v=eou_g_cYCew&t=259s)
+
+### "Charge up an iPhone to 100%"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eou_g_cYCew?start=265&end=310" frameborder="0" allowfullscreen></iframe>
+
+> "22 and a half watt reverse wireless charging - so you can use this to wireless charge all your other devices and could charge up an iPhone to 100% if you really wanted to."
+> — Marques Brownlee, [4:25](https://www.youtube.com/watch?v=eou_g_cYCew&t=265s)
+
+### "Highest quality selfies mankind has ever seen"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eou_g_cYCew?start=398&end=450" frameborder="0" allowfullscreen></iframe>
+
+> "So turning it into a viewfinder for those primary cameras to take just the highest quality selfies mankind has ever seen."
+> — Marques Brownlee, [6:43](https://www.youtube.com/watch?v=eou_g_cYCew&t=403s)
+
+### "Ridiculous retro handheld gaming case"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eou_g_cYCew?start=577&end=620" frameborder="0" allowfullscreen></iframe>
+
+> "They even made this ridiculous retro handheld gaming case for the phone with real physical buttons. So if you put that on it connects via Bluetooth, and it becomes a controller for games on that back screen."
+> — Marques Brownlee, [9:37](https://www.youtube.com/watch?v=eou_g_cYCew&t=577s)
+
+### "Back screen impressed me more than I ever thought"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eou_g_cYCew?start=641&end=690" frameborder="0" allowfullscreen></iframe>
+
+> "This back screen really impressed me more than I ever thought I would in my life."
+> — Marques Brownlee, [10:41](https://www.youtube.com/watch?v=eou_g_cYCew&t=641s)
+
 ## Key Points
 
 - [0:00](https://www.youtube.com/watch?v=eou_g_cYCew&t=0) - Introduction comparing iPhone 17 Pro Max and Xiaomi 17 Pro Max designs
