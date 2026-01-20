@@ -111,6 +111,7 @@ After the summary, include embedded video clips for the most interesting/surpris
 - Set end time ~30-60 seconds after start for digestible clips
 - The pull quote should be the exact words from that segment
 - Good highlights are moments someone would want to share on social media
+- **SKIP THE INTRO** - Many videos open with a teaser/highlight reel (first 30-90 seconds) that repeats content from later in the video. Use the timestamps from the actual discussion, not the intro teaser
 
 ### Key Points
 

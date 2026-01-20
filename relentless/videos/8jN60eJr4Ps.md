@@ -66,9 +66,9 @@ The conversation reveals fascinating details about xAI's infrastructure achievem
 
 ### Cybertruck Bet - 24 Hour GPU Challenge
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=0&end=25" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=1395&end=1450" frameborder="0" allowfullscreen></iframe>
 
-> "Tyler took this bet with Elon—get a Cybertruck tonight if you can get a training run on these GPUs in 24 hours—and we were training that night. Did he get the Cybertruck? Yeah, he got the Cybertruck."
+> "Elon's like okay you get a Cybertruck tonight if you can get a training run on these GPUs in 24 hours. And we were training that night. Did he get the Cybertruck? Yeah he got it."
 > — Sulaiman Ghori
 
 ## Key Points
