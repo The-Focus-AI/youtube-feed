@@ -31,6 +31,64 @@ Shaun Maguire, Partner at Sequoia Capital, provides a deep dive into what makes 
 
 Shaun introduces a fascinating framework for understanding talent: the "15 levels of mathematicians" - distinct tiers of ability that can only be perceived by looking down from above, not up from below. He applies this to how he assesses founders, emphasizing the importance of calibrating one's sense of true tail outliers. The interview covers Shaun's unique path from math PhD programs to physics to becoming a competitive CS:GO player, his time at The Boring Company, and his insights on why people consistently underestimate both Elon and Jensen Huang.
 
+## Highlights
+
+### "Elon the Collective"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/62X1vm3QBuE?start=2&end=50" frameborder="0" allowfullscreen></iframe>
+
+> "There's Elon the individual, which I would never want to underestimate. But there's also Elon the collective, which is really like 20 people or so that have been working with him for a very long time. They've built unbelievable amounts of trust. They execute his will autonomously and just with force and scale and precision."
+> — Shaun Maguire, [0:02](https://www.youtube.com/watch?v=62X1vm3QBuE&t=2s)
+
+### "Bourbaki - The Math Collective"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/62X1vm3QBuE?start=75&end=130" frameborder="0" allowfullscreen></iframe>
+
+> "Bourbaki was a French math collective. This new mathematician burst onto the scene and started solving a bunch of unsolved problems in mathematics and the math community was like who is Bourbaki? And it turns out Bourbaki wasn't one person. Bourbaki was a collection of a bunch of very very talented young French mathematicians."
+> — Shaun Maguire, [1:15](https://www.youtube.com/watch?v=62X1vm3QBuE&t=75s)
+
+### "You're Going to Do Mechanical Engineering"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/62X1vm3QBuE?start=330&end=400" frameborder="0" allowfullscreen></iframe>
+
+> "Elon told him 'You're not going to do business development. You're going to do mechanical engineering.' The person studied economics. And they rose up to be a very senior engineer. He could just tell they had an engineering mind."
+> — Shaun Maguire, [5:52](https://www.youtube.com/watch?v=62X1vm3QBuE&t=352s)
+
+### "Rope to Hang Themselves"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/62X1vm3QBuE?start=390&end=450" frameborder="0" allowfullscreen></iframe>
+
+> "If you actually perform, you will rise up really really quickly. But if you screw up once, you're basically out. When you do this over 10 years... you build incredible loyalty with the most capable, competent people. You basically give them more than they could get anywhere."
+> — Shaun Maguire, [6:30](https://www.youtube.com/watch?v=62X1vm3QBuE&t=390s)
+
+### "15 Levels of Mathematicians"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/62X1vm3QBuE?start=940&end=1010" frameborder="0" allowfullscreen></iframe>
+
+> "In mathematics, there are something like 15 distinct levels beyond just being incredibly good at mathematics. People can look down with precision - you can see the tiers below you with precision. But it's not obvious at all from below."
+> — Shaun Maguire, [15:40](https://www.youtube.com/watch?v=62X1vm3QBuE&t=940s)
+
+### "800 Math SAT is a Joke"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/62X1vm3QBuE?start=1189&end=1250" frameborder="0" allowfullscreen></iframe>
+
+> "For every one of these people, they get an 800 on the math SAT without even trying. These people are just born and 800 math SAT is a joke. The typical high school teacher that teaches math can't tell the difference between any of these levels."
+> — Shaun Maguire, [19:49](https://www.youtube.com/watch?v=62X1vm3QBuE&t=1189s)
+
+### "Magnus Carlsen Drunk and Blindfolded"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/62X1vm3QBuE?start=1275&end=1340" frameborder="0" allowfullscreen></iframe>
+
+> "If you have a 2850 rated player play a 2700 rated player, they're going to absolutely crush them 99% of the time. This is where you get the video of Magnus Carlsen drunk beating someone at 2500-2600. He can play 10 of them simultaneously with a blindfold while drunk."
+> — Shaun Maguire, [21:15](https://www.youtube.com/watch?v=62X1vm3QBuE&t=1275s)
+
+### "Published a Paper with Juan"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/62X1vm3QBuE?start=1645&end=1740" frameborder="0" allowfullscreen></iframe>
+
+> "The founder had written a paper as an undergrad with Juan Maldacena, one of the most famous string theorists in the world. For me, that anecdote alone was like okay this guy is incredibly talented. Writing a paper with Juan as an undergrad means he has a minimum 2600 rated technical ability. Very few VCs would have picked up on that signal."
+> — Shaun Maguire, [27:25](https://www.youtube.com/watch?v=62X1vm3QBuE&t=1645s)
+
 ## Key Points
 
 - **Elon the Collective** ([0:30](https://www.youtube.com/watch?v=62X1vm3QBuE&t=30s)) - Beyond Elon the individual is "Elon the Collective" - about 20 people who have worked with him for over a decade, built unbelievable trust, and can execute his will autonomously with force, scale, and precision
