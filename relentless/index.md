@@ -19,51 +19,51 @@ last_updated: 2026-01-20
 
 ## Videos by Date
 
-| Title | Duration | Views | Link |
-|-------|----------|-------|------|
-| WTF is happening at xAI \| Sulaiman Ghori | 71:39 | 59,237 | [Details](videos/8jN60eJr4Ps.md) \| [Watch](https://www.youtube.com/watch?v=8jN60eJr4Ps) |
-| The Story of deel \| Shuo Wang | 111:37 | 2,481 | [Watch](https://www.youtube.com/watch?v=ExoQOtqtxX0) |
-| How Zipline Scaled to 2 Million Drone Deliveries \| Keller Cliffton | 66:05 | 4,216 | [Watch](https://www.youtube.com/watch?v=fZNLLYzjB2w) |
-| Bringing Back Supersonic Planes \| Ian Brooke, Astro Mechanica | 98:59 | 2,224 | [Watch](https://www.youtube.com/watch?v=CwaoUyaUM6s) |
-| How Land Raising Works \| Laurence Allen, Terranova | 77:40 | 1,910 | [Watch](https://www.youtube.com/watch?v=AAJbpB9aLfI) |
-| Competing to Build the Fastest-Growing Energy Startup Ever \| Base Power | 43:37 | 3,546 | [Watch](https://www.youtube.com/watch?v=YHx09w151Lc) |
-| China, Robotics, & Open-Source AI \| Clem Delangue | 107:58 | 3,085 | [Watch](https://www.youtube.com/watch?v=b0iJZS9HgJA) |
-| The Greatest World Conquerors In History \| Ben Wilson | 94:19 | 2,243 | [Watch](https://www.youtube.com/watch?v=pFmYF-20jbY) |
-| Curing Age-Related Diseases w Epigenetic Medicines \| Lada Nuzhna | 67:47 | 2,572 | [Watch](https://www.youtube.com/watch?v=SSkyiCwrBtw) |
-| Why Elon Outcompetes Everyone \| Shaun Maguire, Sequoia | 102:24 | 55,013 | [Watch](https://www.youtube.com/watch?v=62X1vm3QBuE) |
-| Fireside Chat w Joshua Browder | 55:52 | 1,394 | [Watch](https://www.youtube.com/watch?v=INCjTTw-rwg) |
-| Mold Toxicity & How To Treat It \| Ariana Thacker, Moldco | 65:50 | 949 | [Watch](https://www.youtube.com/watch?v=c_oBTi4foxo) |
-| Competing With China In 3D Printing \| Max Lobovsky, Formlabs | 66:29 | 5,319 | [Watch](https://www.youtube.com/watch?v=CcLHYxPRjDY) |
-| Building Unmanned Cargo Planes \| David Zagaynov, Poseidon | 54:35 | 18,947 | [Watch](https://www.youtube.com/watch?v=HbPxncZvWk8) |
-| How Shinkei Is Reshoring America's Seafood Supply Chain \| Saif Khawaja | 36:06 | 1,825 | [Watch](https://www.youtube.com/watch?v=sAn5qwkaF8g) |
-| Inversion CEO on Building the Future of Space Delivery \| Justin Fiaschetti | 77:57 | 1,692 | [Watch](https://www.youtube.com/watch?v=SfMzG3pg8Kc) |
-| How To Build A Self-Sustaining City On Mars \| Saurav Shroff, Starpath | 85:52 | 3,154 | [Watch](https://www.youtube.com/watch?v=LImT2qvOFiE) |
-| The Creator of Onewheel \| Kyle Doerksen | 63:41 | 1,245 | [Watch](https://www.youtube.com/watch?v=xTKpgrubLao) |
-| The Tesla of Boats \| Mitch Lee, Arc | 44:02 | 2,720 | [Watch](https://www.youtube.com/watch?v=bLEaYgyGvWg) |
-| Building Long-Range Hypersonic Missiles \| Bryon Hargis, Castelion | 118:01 | 3,787 | [Watch](https://www.youtube.com/watch?v=BiuTr1KyEOU) |
-| Why There's A Housing Crisis In The US \| Alexis Rivas, Cover | 57:10 | 2,293 | [Watch](https://www.youtube.com/watch?v=Wg_cFRjPQQo) |
-| How US Hardware Startups Will Outcompete China \| Pari Singh, Flow | 73:01 | 8,049 | [Watch](https://www.youtube.com/watch?v=989_qK5dVTU) |
-| The Manufacturing Startup That's Outcompeting China \| Jim Belosic, SendCutSend | 104:32 | 151,628 | [Watch](https://www.youtube.com/watch?v=mTnv9b0xDV8) |
-| Hardtech Roundtable: China vs USA, Manufacturing, AI Cults | 72:35 | 2,863 | [Watch](https://www.youtube.com/watch?v=FddjP_zNkyc) |
-| We'll Build 1 Million Humanoid Robots by 2028 \| Bernt Børnich, 1X | 31:35 | 10,305 | [Watch](https://www.youtube.com/watch?v=NmI0UipVFyM) |
-| #50 - Jason Carman, Founder of Story Company | 48:43 | 956 | [Watch](https://www.youtube.com/watch?v=BJJQx5PwvgM) |
-| #49 - Ian Laffey, Cofounder & CEO of Theseus | 107:50 | 2,144 | [Watch](https://www.youtube.com/watch?v=OrIoZnqCs4w) |
-| #48 - Police Chases, Ride Alongs, Bureaucracy \| Daniel Francis, Abel Police | 80:36 | 1,005 | [Watch](https://www.youtube.com/watch?v=54omz-gznaQ) |
-| #47 - Building a MASSIVE Mach 25 Space Gun \| Mike Grace, Longshot | 68:11 | 5,721 | [Watch](https://www.youtube.com/watch?v=QgylXuow4Qo) |
-| #46 - Ending The Genetic Lottery \| Noor Siddiqui, Orchid | 58:28 | 743 | [Watch](https://www.youtube.com/watch?v=vnBVlT4eBis) |
+| Title | Duration | Views |
+|-------|----------|-------|
+| [WTF is happening at xAI \| Sulaiman Ghori](videos/8jN60eJr4Ps.md) | 71:39 | 59,237 |
+| [The Story of deel \| Shuo Wang](videos/ExoQOtqtxX0.md) | 111:37 | 2,481 |
+| [How Zipline Scaled to 2 Million Drone Deliveries \| Keller Cliffton](videos/fZNLLYzjB2w.md) | 66:05 | 4,216 |
+| [Bringing Back Supersonic Planes \| Ian Brooke, Astro Mechanica](videos/CwaoUyaUM6s.md) | 98:59 | 2,224 |
+| [How Land Raising Works \| Laurence Allen, Terranova](videos/AAJbpB9aLfI.md) | 77:40 | 1,910 |
+| [Competing to Build the Fastest-Growing Energy Startup Ever \| Base Power](videos/YHx09w151Lc.md) | 43:37 | 3,546 |
+| [China, Robotics, & Open-Source AI \| Clem Delangue](videos/b0iJZS9HgJA.md) | 107:58 | 3,085 |
+| [The Greatest World Conquerors In History \| Ben Wilson](videos/pFmYF-20jbY.md) | 94:19 | 2,243 |
+| [Curing Age-Related Diseases w Epigenetic Medicines \| Lada Nuzhna](videos/SSkyiCwrBtw.md) | 67:47 | 2,572 |
+| [Why Elon Outcompetes Everyone \| Shaun Maguire, Sequoia](videos/62X1vm3QBuE.md) | 102:24 | 55,013 |
+| [Fireside Chat w Joshua Browder](videos/INCjTTw-rwg.md) | 55:52 | 1,394 |
+| [Mold Toxicity & How To Treat It \| Ariana Thacker, Moldco](videos/c_oBTi4foxo.md) | 65:50 | 949 |
+| [Competing With China In 3D Printing \| Max Lobovsky, Formlabs](videos/CcLHYxPRjDY.md) | 66:29 | 5,319 |
+| [Building Unmanned Cargo Planes \| David Zagaynov, Poseidon](videos/HbPxncZvWk8.md) | 54:35 | 18,947 |
+| [How Shinkei Is Reshoring America's Seafood Supply Chain \| Saif Khawaja](videos/sAn5qwkaF8g.md) | 36:06 | 1,825 |
+| [Inversion CEO on Building the Future of Space Delivery \| Justin Fiaschetti](videos/SfMzG3pg8Kc.md) | 77:57 | 1,692 |
+| [How To Build A Self-Sustaining City On Mars \| Saurav Shroff, Starpath](videos/LImT2qvOFiE.md) | 85:52 | 3,154 |
+| [The Creator of Onewheel \| Kyle Doerksen](videos/xTKpgrubLao.md) | 63:41 | 1,245 |
+| [The Tesla of Boats \| Mitch Lee, Arc](videos/bLEaYgyGvWg.md) | 44:02 | 2,720 |
+| [Building Long-Range Hypersonic Missiles \| Bryon Hargis, Castelion](videos/BiuTr1KyEOU.md) | 118:01 | 3,787 |
+| [Why There's A Housing Crisis In The US \| Alexis Rivas, Cover](videos/Wg_cFRjPQQo.md) | 57:10 | 2,293 |
+| [How US Hardware Startups Will Outcompete China \| Pari Singh, Flow](videos/989_qK5dVTU.md) | 73:01 | 8,049 |
+| [The Manufacturing Startup That's Outcompeting China \| Jim Belosic, SendCutSend](videos/mTnv9b0xDV8.md) | 104:32 | 151,628 |
+| [Hardtech Roundtable: China vs USA, Manufacturing, AI Cults](videos/FddjP_zNkyc.md) | 72:35 | 2,863 |
+| [We'll Build 1 Million Humanoid Robots by 2028 \| Bernt Børnich, 1X](videos/NmI0UipVFyM.md) | 31:35 | 10,305 |
+| [#50 - Jason Carman, Founder of Story Company](videos/BJJQx5PwvgM.md) | 48:43 | 956 |
+| [#49 - Ian Laffey, Cofounder & CEO of Theseus](videos/OrIoZnqCs4w.md) | 107:50 | 2,144 |
+| [#48 - Police Chases, Ride Alongs, Bureaucracy \| Daniel Francis, Abel Police](videos/54omz-gznaQ.md) | 80:36 | 1,005 |
+| [#47 - Building a MASSIVE Mach 25 Space Gun \| Mike Grace, Longshot](videos/QgylXuow4Qo.md) | 68:11 | 5,721 |
+| [#46 - Ending The Genetic Lottery \| Noor Siddiqui, Orchid](videos/vnBVlT4eBis.md) | 58:28 | 743 |
 
 ## Most Viewed Videos
 
-1. **The Manufacturing Startup That's Outcompeting China** - 151,628 views - [Watch](https://www.youtube.com/watch?v=mTnv9b0xDV8)
-2. **WTF is happening at xAI** - 59,237 views - [Watch](https://www.youtube.com/watch?v=8jN60eJr4Ps)
-3. **Why Elon Outcompetes Everyone** - 55,013 views - [Watch](https://www.youtube.com/watch?v=62X1vm3QBuE)
-4. **Building Unmanned Cargo Planes** - 18,947 views - [Watch](https://www.youtube.com/watch?v=HbPxncZvWk8)
-5. **We'll Build 1 Million Humanoid Robots by 2028** - 10,305 views - [Watch](https://www.youtube.com/watch?v=NmI0UipVFyM)
-6. **How US Hardware Startups Will Outcompete China** - 8,049 views - [Watch](https://www.youtube.com/watch?v=989_qK5dVTU)
-7. **Building a MASSIVE Mach 25 Space Gun** - 5,721 views - [Watch](https://www.youtube.com/watch?v=QgylXuow4Qo)
-8. **Competing With China In 3D Printing** - 5,319 views - [Watch](https://www.youtube.com/watch?v=CcLHYxPRjDY)
-9. **How Zipline Scaled to 2 Million Drone Deliveries** - 4,216 views - [Watch](https://www.youtube.com/watch?v=fZNLLYzjB2w)
-10. **Building Long-Range Hypersonic Missiles** - 3,787 views - [Watch](https://www.youtube.com/watch?v=BiuTr1KyEOU)
+1. **[The Manufacturing Startup That's Outcompeting China](videos/mTnv9b0xDV8.md)** - 151,628 views
+2. **[WTF is happening at xAI](videos/8jN60eJr4Ps.md)** - 59,237 views
+3. **[Why Elon Outcompetes Everyone](videos/62X1vm3QBuE.md)** - 55,013 views
+4. **[Building Unmanned Cargo Planes](videos/HbPxncZvWk8.md)** - 18,947 views
+5. **[We'll Build 1 Million Humanoid Robots by 2028](videos/NmI0UipVFyM.md)** - 10,305 views
+6. **[How US Hardware Startups Will Outcompete China](videos/989_qK5dVTU.md)** - 8,049 views
+7. **[Building a MASSIVE Mach 25 Space Gun](videos/QgylXuow4Qo.md)** - 5,721 views
+8. **[Competing With China In 3D Printing](videos/CcLHYxPRjDY.md)** - 5,319 views
+9. **[How Zipline Scaled to 2 Million Drone Deliveries](videos/fZNLLYzjB2w.md)** - 4,216 views
+10. **[Building Long-Range Hypersonic Missiles](videos/BiuTr1KyEOU.md)** - 3,787 views
 
 ## Topics Index
 

@@ -37,19 +37,39 @@ The conversation reveals fascinating details about xAI's infrastructure achievem
 ## Highlights
 
 ### "$2.5 Million Per Commit"
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=21&end=45" frameborder="0" allowfullscreen></iframe>
 
-### "Carnival Permits" - How They Built Colossus in 122 Days
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=1365&end=1600" frameborder="0" allowfullscreen></iframe>
+> "We did the math. Right now we're at about $2.5 million per commit to the main repo and I did five today."
+> — Sulaiman Ghori
+
+### "xAI is Actually Just a Carnival Company"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=1552&end=1610" frameborder="0" allowfullscreen></iframe>
+
+> "There's basically a special exception within the local and state government that says if you want to modify this ground temporarily—I think it's like for carnivals and stuff—you can. xAI is actually just a carnival company currently."
+> — Sulaiman Ghori
 
 ### Tesla Fleet as Distributed Compute
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=620&end=750" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=650&end=720" frameborder="0" allowfullscreen></iframe>
+
+> "There's like 4 million Tesla cars in North America alone... somewhere between 70-80% of the time they're sitting there idle probably charging. We can just pay owners to lease time off their car and let us run a human emulator on it."
+> — Sulaiman Ghori
 
 ### Virtual Employees on the Org Chart
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=2905&end=3000" frameborder="0" allowfullscreen></iframe>
 
-### Cybertruck Bet - 24 Hour GPU Training Challenge
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=2905&end=2965" frameborder="0" allowfullscreen></iframe>
+
+> "Multiple times I've gotten a ping saying 'Hey, this guy on the org chart reports to you. Is he like not in today?' And it's an AI. It's a virtual employee."
+> — Sulaiman Ghori
+
+### Cybertruck Bet - 24 Hour GPU Challenge
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=0&end=25" frameborder="0" allowfullscreen></iframe>
+
+> "Tyler took this bet with Elon—get a Cybertruck tonight if you can get a training run on these GPUs in 24 hours—and we were training that night. Did he get the Cybertruck? Yeah, he got the Cybertruck."
+> — Sulaiman Ghori
 
 ## Key Points
 
