@@ -21,7 +21,7 @@ last_updated: 2026-01-20
 
 | Title | Duration | Views | Link |
 |-------|----------|-------|------|
-| WTF is happening at xAI \| Sulaiman Ghori | 71:39 | 59,237 | [Watch](https://www.youtube.com/watch?v=8jN60eJr4Ps) |
+| WTF is happening at xAI \| Sulaiman Ghori | 71:39 | 59,237 | [Details](videos/8jN60eJr4Ps.md) \| [Watch](https://www.youtube.com/watch?v=8jN60eJr4Ps) |
 | The Story of deel \| Shuo Wang | 111:37 | 2,481 | [Watch](https://www.youtube.com/watch?v=ExoQOtqtxX0) |
 | How Zipline Scaled to 2 Million Drone Deliveries \| Keller Cliffton | 66:05 | 4,216 | [Watch](https://www.youtube.com/watch?v=fZNLLYzjB2w) |
 | Bringing Back Supersonic Planes \| Ian Brooke, Astro Mechanica | 98:59 | 2,224 | [Watch](https://www.youtube.com/watch?v=CwaoUyaUM6s) |

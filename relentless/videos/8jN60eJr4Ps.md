@@ -34,6 +34,23 @@ Sulaiman Ghori, a Member of Technical Staff at xAI, provides an unprecedented in
 
 The conversation reveals fascinating details about xAI's infrastructure achievements, including building the Colossus data center in 122 days using creative permitting approaches, running 80+ mobile generators to balance power loads, and their plans to potentially leverage Tesla's fleet of parked vehicles as distributed compute. Sulaiman also shares his personal journey from building fidget spinners and 3D printers as a teenager to constructing liquid fuel rocket engines, embodying the entrepreneurial engineering spirit that defines xAI.
 
+## Highlights
+
+### "$2.5 Million Per Commit"
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=21&end=45" frameborder="0" allowfullscreen></iframe>
+
+### "Carnival Permits" - How They Built Colossus in 122 Days
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=1365&end=1600" frameborder="0" allowfullscreen></iframe>
+
+### Tesla Fleet as Distributed Compute
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=620&end=750" frameborder="0" allowfullscreen></iframe>
+
+### Virtual Employees on the Org Chart
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=2905&end=3000" frameborder="0" allowfullscreen></iframe>
+
+### Cybertruck Bet - 24 Hour GPU Training Challenge
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=0&end=25" frameborder="0" allowfullscreen></iframe>
+
 ## Key Points
 
 - **No Due Dates** ([1:02](https://www.youtube.com/watch?v=8jN60eJr4Ps&t=62s)) - At xAI, due dates are "always yesterday" with no artificial blockers
