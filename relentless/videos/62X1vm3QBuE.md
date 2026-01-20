@@ -35,10 +35,10 @@ Shaun introduces a fascinating framework for understanding talent: the "15 level
 
 ### "Elon the Collective"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/62X1vm3QBuE?start=2&end=50" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/62X1vm3QBuE?start=241&end=300" frameborder="0" allowfullscreen></iframe>
 
-> "There's Elon the individual, which I would never want to underestimate. But there's also Elon the collective, which is really like 20 people or so that have been working with him for a very long time. They've built unbelievable amounts of trust. They execute his will autonomously and just with force and scale and precision."
-> — Shaun Maguire, [0:02](https://www.youtube.com/watch?v=62X1vm3QBuE&t=2s)
+> "There's Elon the Collective, which is probably about 20 people. They've been working with him for a very long time. They've built unbelievable amounts of trust. They can almost read his mind and they know what he would want to have done in some situation and then they also know when they need to escalate a question to him."
+> — Shaun Maguire, [4:01](https://www.youtube.com/watch?v=62X1vm3QBuE&t=241s)
 
 ### "Bourbaki - The Math Collective"
 
