@@ -1,8 +1,9 @@
 ---
 channel: Relentless
+channel_handle: "@relaboratories"
 channel_id: UCxYhf1bmbsXLU1ClPNS2P6g
 total_videos: 30
-last_updated: 2026-01-19
+last_updated: 2026-01-20
 ---
 
 # Relentless Channel Index
