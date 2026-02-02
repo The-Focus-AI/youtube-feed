@@ -2,8 +2,8 @@
 channel: Relentless
 channel_handle: "@relaboratories"
 channel_id: UCxYhf1bmbsXLU1ClPNS2P6g
-total_videos: 30
-last_updated: 2026-01-20
+total_videos: 31
+last_updated: 2026-02-02
 ---
 
 # Relentless Channel Index
@@ -12,15 +12,16 @@ last_updated: 2026-01-20
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 30 |
-| Total Views | 352,209 |
+| Total Videos | 31 |
+| Total Views | 353,703 |
 | Most Viewed | The Manufacturing Startup That's Outcompeting China (151,628) |
-| Average Video Length | ~67 min |
+| Average Video Length | ~69 min |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [My Conversation with Mehul Nariyawala, co-founder of Matic](videos/GikcVks0Uj4.md) | 127:40 | 1,494 |
 | [WTF is happening at xAI \| Sulaiman Ghori](videos/8jN60eJr4Ps.md) | 71:39 | 59,237 |
 | [The Story of deel \| Shuo Wang](videos/ExoQOtqtxX0.md) | 111:37 | 2,481 |
 | [How Zipline Scaled to 2 Million Drone Deliveries \| Keller Cliffton](videos/fZNLLYzjB2w.md) | 66:05 | 4,216 |
@@ -99,6 +100,7 @@ last_updated: 2026-01-20
 | Abel Police | Police Tech | Public Safety |
 | Longshot | Mach 25 Space Gun | Space |
 | Orchid | Ending The Genetic Lottery | Biotech |
+| Matic Robotics | My Conversation with Mehul Nariyawala | Robotics |
 
 ### Key Themes
 
@@ -121,6 +123,7 @@ last_updated: 2026-01-20
 - **Max Lobovsky** - Formlabs CEO
 - **Jim Belosic** - SendCutSend CEO
 - **Bernt Børnich** - 1X CEO
+- **Mehul Nariyawala** - Matic Robotics Co-Founder
 - **Elon Musk** - Referenced in multiple videos
 
 ## Video Categories

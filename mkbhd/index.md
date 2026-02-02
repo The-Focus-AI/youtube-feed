@@ -1,8 +1,8 @@
 ---
 channel: MKBHD
 channel_handle: "@mkbhd"
-total_videos: 30
-last_updated: 2026-01-17
+total_videos: 32
+last_updated: 2026-02-02
 ---
 
 # MKBHD Channel Index
@@ -11,10 +11,10 @@ last_updated: 2026-01-17
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 30 |
-| Total Views | 149,329,471 |
-| Date Range | November 13, 2024 - January 13, 2026 |
-| Average Video Length | 13:31 |
+| Total Videos | 32 |
+| Total Views | 156,407,466 |
+| Date Range | November 13, 2024 - January 26, 2026 |
+| Average Video Length | 13:28 |
 
 ---
 
@@ -22,6 +22,8 @@ last_updated: 2026-01-17
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
+| 2026-01-26 | The Downfall of OnePlus will be Studied | 15:04 | 3,869,231 | [Watch](https://www.youtube.com/watch?v=vZdbbN3FCzE) |
+| 2026-01-22 | Xiaomi 17 Ultra - More Camera than Phone! | 12:05 | 3,208,764 | [Watch](https://www.youtube.com/watch?v=DqAKQwagCDg) |
 | 2026-01-13 | The New Siri is... Google (Explained) | 8:22 | 3,379,463 | [Watch](https://www.youtube.com/watch?v=TVsounscj4U) |
 | 2026-01-09 | The Problem with this "Ultra Luxury" Smartphone | 15:32 | 2,062,715 | [Watch](https://www.youtube.com/watch?v=HLUamwXQ218) |
 | 2025-12-26 | I shrunk down into an M5 chip | 11:51 | 2,950,170 | [Watch](https://www.youtube.com/watch?v=Jh9pFp1oM7E) |

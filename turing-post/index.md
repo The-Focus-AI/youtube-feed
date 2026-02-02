@@ -1,8 +1,8 @@
 ---
 channel: Turing Post
 channel_handle: "@RealTuringPost"
-total_videos: 31
-last_updated: 2026-01-24
+total_videos: 33
+last_updated: 2026-02-02
 ---
 
 # Turing Post Channel Index
@@ -11,15 +11,17 @@ last_updated: 2026-01-24
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 31 |
-| Total Views | 95,389 |
-| Date Range | 2025-08-18 to 2026-01-24 |
-| Average Video Length | 17:01 |
+| Total Videos | 33 |
+| Total Views | 98,024 |
+| Date Range | 2025-08-18 to 2026-01-31 |
+| Average Video Length | 17:23 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
+| 2026-01-31 | [Inside a Chinese AI Lab: How MiniMax Builds Open Models](videos/GkUMqWeHn40.md) | 31:38 | 260 | [Watch](https://www.youtube.com/watch?v=GkUMqWeHn40) |
+| 2026-01-27 | [What Dario Amodei Gets Wrong About AI](videos/mf1CkHE5AkY.md) | 11:36 | 2,375 | [Watch](https://www.youtube.com/watch?v=mf1CkHE5AkY) |
 | 2026-01-24 | [This Is a Fight Worth Having: The Case for Open Source AI \| Raffi Krikorian, Mozilla CTO](videos/3ohQX-oYndI.md) | 25:39 | 7 | [Watch](https://www.youtube.com/watch?v=3ohQX-oYndI) |
 | 2026-01-23 | [Jensen Huang says robots will have human capabilities this year!](videos/PAjb83HHLaU.md) | 6:39 | 457 | [Watch](https://www.youtube.com/watch?v=PAjb83HHLaU) |
 | 2026-01-18 | [Beyond the Code: The Books That Shaped the Minds of AI Leaders](videos/E0jSj8oRFqo.md) | 25:17 | 973 | [Watch](https://www.youtube.com/watch?v=E0jSj8oRFqo) |
