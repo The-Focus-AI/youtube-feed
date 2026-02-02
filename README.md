@@ -12,7 +12,7 @@ The GitHub Pages site provides a markdown viewer that renders any file from this
 
 | Channel | Handle | Videos | Total Views | Focus |
 |---------|--------|--------|-------------|-------|
-| [All-In Podcast](all-in-podcast/index.md) | [@allin](https://youtube.com/@allin) | 30 | 10M+ | Tech, politics, economics, venture capital |
+| [All-In Podcast](all-in-podcast/index.md) | [@allin](https://youtube.com/@allin) | 37 | 11.5M+ | Tech, politics, economics, venture capital |
 | [MKBHD](mkbhd/index.md) | [@mkbhd](https://youtube.com/@mkbhd) | 30 | 149M+ | Tech reviews, smartphones, gadgets |
 | [Relentless](relentless/index.md) | [@relaboratories](https://youtube.com/@relaboratories) | 30 | 352K | Hard tech, manufacturing, aerospace, AI/robotics |
 | [The Iron Snail](the-iron-snail/index.md) | [@TheIronSnail](https://youtube.com/@TheIronSnail) | 30 | 13M+ | Fashion, clothing, heritage brands |
