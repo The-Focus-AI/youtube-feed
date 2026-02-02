@@ -2,8 +2,8 @@
 channel: All-In Podcast
 channel_handle: "@allin"
 channel_id: UCESLZhusAkFfsNsApnjF_Cg
-total_videos: 30
-last_updated: 2026-01-19
+total_videos: 37
+last_updated: 2026-02-02
 ---
 
 # All-In Podcast Channel Index
@@ -14,16 +14,23 @@ The All-In Podcast features Chamath Palihapitiya, Jason Calacanis, David Sacks, 
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 30 |
-| Total Views | 10,267,279 |
-| Date Range | 2024-11-05 to 2026-01-17 |
+| Total Videos | 37 |
+| Total Views | 11,506,165 |
+| Date Range | 2024-11-05 to 2026-01-31 |
 | Average Video Length | ~60 min |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
-| 2026-01-17 | Iran's Breaking Point, Trump's Greenland Acquisition, and Solving Energy Costs | 70:44 | 394,878 | [Watch](https://www.youtube.com/watch?v=y2NeAef6d30) |
+| 2026-01-31 | ICE Chaos in Minneapolis, Clawdbot Takeover, Why the Dollar is Dropping | 90:02 | 351,412 | [Watch](https://www.youtube.com/watch?v=gXY1kx7zlkk) |
+| 2026-01-25 | The Future of Everything: What CEOs of Circle, CrowdStrike & More See Coming in 2026 | 134:41 | 103,663 | [Watch](https://www.youtube.com/watch?v=w2BqPnVKVo4) |
+| 2026-01-24 | Dr. Mehmet Oz on Fixing American Healthcare + Fraud \| Live from Davos | 65:43 | 99,187 | [Watch](https://www.youtube.com/watch?v=b5p40OuTTW4) |
+| 2026-01-23 | Coinbase CEO's Top 3 Crypto Trends for 2026 + More from Davos! | 95:15 | 124,611 | [Watch](https://www.youtube.com/watch?v=-yrLEKjMyrM) |
+| 2026-01-23 | Inside America's AI Strategy: Infrastructure, Regulation, and Global Competition | 47:55 | 140,772 | [Watch](https://www.youtube.com/watch?v=NyP-euljCHM) |
+| 2026-01-22 | Europe's Free Speech Failure and the "Censorship Industrial Complex" with Sarah B. Rogers | 45:04 | 57,917 | [Watch](https://www.youtube.com/watch?v=e59hzyoKQCs) |
+| 2026-01-21 | Satya Nadella on AI's Business Revolution: What Happens to SaaS, OpenAI, and Microsoft? | 32:00 | 217,145 | [Watch](https://www.youtube.com/watch?v=5nCbHsCG334) |
+| 2026-01-17 | Iran's Breaking Point, Trump's Greenland Acquisition, and Solving Energy Costs | 70:44 | 527,525 | [Watch](https://www.youtube.com/watch?v=y2NeAef6d30) |
 | 2026-01-15 | Supercharging a New FDA: Marty Makary on Science, Power & Patients | 89:47 | 79,146 | [Watch](https://www.youtube.com/watch?v=DBlOJpT9Y1Y) |
 | 2026-01-14 | Why AI will dwarf every tech revolution before it: robots, manufacturing, AR glasses from CES 2026 | 51:02 | 123,788 | [Watch](https://www.youtube.com/watch?v=F8cXD5hTt3c) |
 | 2026-01-13 | Adam Carolla on California's Collapse: Fires, Failed Leadership, and Gyno-Fascism | 69:49 | 144,724 | [Watch](https://www.youtube.com/watch?v=pw7po593hJM) |
@@ -73,6 +80,17 @@ The All-In Podcast features Chamath Palihapitiya, Jason Calacanis, David Sacks, 
 
 | Guest | Title | Date | Link |
 |-------|-------|------|------|
+| Satya Nadella (Microsoft CEO) | AI's Business Revolution: SaaS, OpenAI, Microsoft | 2026-01-21 | [Watch](https://www.youtube.com/watch?v=5nCbHsCG334) |
+| Sarah B. Rogers (Under Secretary, State Dept) | Europe's Free Speech Failure, Censorship Industrial Complex | 2026-01-22 | [Watch](https://www.youtube.com/watch?v=e59hzyoKQCs) |
+| Michael Kratsios, David Sacks | Inside America's AI Strategy | 2026-01-23 | [Watch](https://www.youtube.com/watch?v=NyP-euljCHM) |
+| Brian Armstrong (Coinbase CEO) | Top 3 Crypto Trends for 2026 | 2026-01-23 | [Watch](https://www.youtube.com/watch?v=-yrLEKjMyrM) |
+| Andrew Feldman (Cerebras CEO) | Top 3 Crypto Trends for 2026 | 2026-01-23 | [Watch](https://www.youtube.com/watch?v=-yrLEKjMyrM) |
+| Jake Loosararian (Gecko Robotics CEO) | Top 3 Crypto Trends for 2026 | 2026-01-23 | [Watch](https://www.youtube.com/watch?v=-yrLEKjMyrM) |
+| Dr. Mehmet Oz (CMS Administrator) | Fixing American Healthcare + Fraud | 2026-01-24 | [Watch](https://www.youtube.com/watch?v=b5p40OuTTW4) |
+| Jeremy Allaire (Circle CEO) | Future of Everything: CEOs of Circle, CrowdStrike & More | 2026-01-25 | [Watch](https://www.youtube.com/watch?v=w2BqPnVKVo4) |
+| George Kurtz (CrowdStrike CEO) | Future of Everything: CEOs of Circle, CrowdStrike & More | 2026-01-25 | [Watch](https://www.youtube.com/watch?v=w2BqPnVKVo4) |
+| Adam Goldstein (Archer Aviation CEO) | Future of Everything: CEOs of Circle, CrowdStrike & More | 2026-01-25 | [Watch](https://www.youtube.com/watch?v=w2BqPnVKVo4) |
+| Chase Lochmiller (Crusoe Energy CEO) | Future of Everything: CEOs of Circle, CrowdStrike & More | 2026-01-25 | [Watch](https://www.youtube.com/watch?v=w2BqPnVKVo4) |
 | Marty Makary (FDA Commissioner) | Supercharging a New FDA | 2026-01-15 | [Watch](https://www.youtube.com/watch?v=DBlOJpT9Y1Y) |
 | Adam Carolla | California's Collapse: Fires, Failed Leadership | 2026-01-13 | [Watch](https://www.youtube.com/watch?v=pw7po593hJM) |
 | Howard Lutnick (Commerce Secretary) | How America Can Hit 6% GDP Growth | 2026-01-09 | [Watch](https://www.youtube.com/watch?v=fd6QaEJOjvI) |
@@ -95,6 +113,10 @@ The All-In Podcast features Chamath Palihapitiya, Jason Calacanis, David Sacks, 
 ## Topics Index
 
 ### AI & Technology
+- [Satya Nadella on AI's Business Revolution](videos/5nCbHsCG334.md)
+- [Inside America's AI Strategy](videos/NyP-euljCHM.md)
+- [Coinbase CEO's Top 3 Crypto Trends for 2026](videos/-yrLEKjMyrM.md)
+- [ICE Chaos in Minneapolis, Clawdbot Takeover](videos/gXY1kx7zlkk.md)
 - [OpenAI's Code Red, Sacks vs New York Times](videos/Uxi6LVKanuY.md)
 - [Does OpenAI Need a Bailout?](videos/6uYEPfiBMAE.md)
 - [Why AI will dwarf every tech revolution](videos/F8cXD5hTt3c.md)
@@ -106,6 +128,8 @@ The All-In Podcast features Chamath Palihapitiya, Jason Calacanis, David Sacks, 
 - [Dangerous AI Bias](videos/l__Koacw_oI.md)
 
 ### Politics & Government
+- [ICE Chaos in Minneapolis](videos/gXY1kx7zlkk.md)
+- [Europe's Free Speech Failure and Censorship Industrial Complex](videos/e59hzyoKQCs.md)
 - [Howard Lutnick: How America Can Hit 6% GDP Growth](videos/fd6QaEJOjvI.md)
 - [Scott Bessent: Fixing the Fed, Tariffs](videos/G0GuHkUbuEY.md)
 - [Joe Manchin: Chaos Inside Biden's White House](videos/qcT2kS1RS4Y.md)
@@ -116,6 +140,9 @@ The All-In Podcast features Chamath Palihapitiya, Jason Calacanis, David Sacks, 
 - [Tucker Carlson: Rise of Nick Fuentes](videos/cY5UFw2AIZo.md)
 
 ### Business & Markets
+- [Why the Dollar is Dropping, De-Dollarization](videos/gXY1kx7zlkk.md)
+- [The Future of Everything: CEOs of Circle, CrowdStrike & More](videos/w2BqPnVKVo4.md)
+- [Coinbase CEO's Top 3 Crypto Trends for 2026](videos/-yrLEKjMyrM.md)
 - [Massive Somali Fraud, $20B Groq-Nvidia Deal](videos/bhpd4NeTbCI.md)
 - [1929 vs 2025: Crashes, Bubbles & Lessons](videos/OQcveYRfZgs.md)
 - [Epstein Files, Nvidia Risks, Tether's Boom](videos/4tgV87SM-r0.md)
@@ -130,6 +157,7 @@ The All-In Podcast features Chamath Palihapitiya, Jason Calacanis, David Sacks, 
 - [California Forever](videos/ElhxzUO7YQM.md)
 
 ### Health & FDA
+- [Dr. Mehmet Oz on Fixing American Healthcare + Fraud](videos/b5p40OuTTW4.md)
 - [Supercharging a New FDA: Marty Makary](videos/DBlOJpT9Y1Y.md)
 - [How Chamath Optimized His Health](videos/_m_jwz5hzzw.md)
 
