@@ -1,8 +1,8 @@
 ---
 channel: The Iron Snail
 channel_handle: "@TheIronSnail"
-total_videos: 30
-last_updated: 2026-01-17
+total_videos: 31
+last_updated: 2026-01-29
 ---
 
 # The Iron Snail Channel Index
@@ -11,10 +11,10 @@ last_updated: 2026-01-17
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 30 |
-| Total Views | 13,284,496 |
-| Date Range | 2024-07-11 to 2026-01-11 |
-| Average Video Length | 15:59 |
+| Total Videos | 31 |
+| Total Views | 13,570,396 |
+| Date Range | 2023-12-22 to 2026-01-11 |
+| Average Video Length | 16:02 |
 
 ## Videos by Date
 
@@ -50,6 +50,7 @@ last_updated: 2026-01-17
 | 2024-08-05 | The Internet's Favorite T-Shirts, Ranked. (Pt. 2) | 14:58 | 368,982 | [Watch](https://www.youtube.com/watch?v=fuNp6W4DUWs) |
 | 2024-07-22 | 24 Summer Outfits I'm Wearing This Year. | 12:46 | 118,265 | [Watch](https://www.youtube.com/watch?v=MQRLTQbplg4) |
 | 2024-07-11 | The Internet's Favorite T-Shirts, Ranked. | 15:03 | 1,296,393 | [Watch](https://www.youtube.com/watch?v=GMM_Hl1fTQ0) |
+| 2023-12-22 | The 5 Greatest Winter Wool Jackets Of All Time. | 17:07 | 285,900 | [Watch](https://www.youtube.com/watch?v=u2c67bF9-OA) |
 
 ## Most Viewed Videos
 
@@ -86,7 +87,9 @@ last_updated: 2026-01-17
 | Eddie Bauer | 2+ | Karakoram, down jacket history |
 | Canada Goose | 2+ | Down jackets, Arctic Program |
 | Crown Northampton | 2+ | Handmade sneakers, shell cordovan |
-| Filson | 2+ | Waxed jackets, cruiser, mackinaw |
+| Filson | 3+ | Waxed jackets, cruiser, mackinaw, Double Mac |
+| Duckworth | 1 | Snowcrest, Rambouillet Merino, Montana wool |
+| WeatherWool | 1 | Al's Anorak, jacquard weave, outdoor jackets |
 | Bronson | 3+ | Value loopwheel, Chinese manufacturing |
 | Lady White Co. | 2+ | T-shirts, American knitwear |
 | Wonder Looper | 2+ | Fox Fiber, Ultimate Pima cotton |
@@ -95,6 +98,10 @@ last_updated: 2026-01-17
 
 | Product/Tech | Video | Context |
 |--------------|-------|---------|
+| Mammoth Jacket | [Wool Jackets](videos/u2c67bF9-OA.md) | Iron Snail's 28oz double-layer wool with wind wall technology |
+| Wind Wall Technology | [Wool Jackets](videos/u2c67bF9-OA.md) | Wool lining sandwiched between wool layers |
+| Double Mackinaw Cruiser | [Wool Jackets](videos/u2c67bF9-OA.md) | Filson cape coat, 24-26oz wool |
+| Rambouillet Merino Wool | [Wool Jackets](videos/u2c67bF9-OA.md) | Fine long-staple wool from Duckworth/WeatherWool |
 | M65 Field Jacket | [Field Jacket](videos/5fZ1KbN9O7s.md) | 25+ years of military development, hidden features |
 | N-1 Deck Jacket | [Navy Jacket](videos/KMQF8w-aRpY.md) | Killed the peacoat, alpaca lining |
 | Clarks Wallabees | [Jamaica Boot](videos/JzAgs47Idzw.md) | WWII connection, Jamaican culture |
@@ -148,6 +155,7 @@ last_updated: 2026-01-17
 - [How to Stop Being Cold Outside.](videos/tIMhDEVghPc.md)
 - [7 of The Greatest Chore Coats Money Can Buy.](videos/c6blgVapNWY.md)
 - [Why You're Paying More For Worse Clothes.](videos/L6QUfMd82eY.md)
+- [The 5 Greatest Winter Wool Jackets Of All Time.](videos/u2c67bF9-OA.md)
 
 ### Personal / Collection Videos
 - [35 Things I Can't Live Without.*](videos/3bWvGl_wS2I.md)
@@ -158,7 +166,7 @@ last_updated: 2026-01-17
 
 ## Tag Cloud
 
-jackets (8) | t-shirts (6) | military (5) | denim (4) | sweaters (3) | wool (3) | sneakers (3) | watches (2) | boots (2) | outfits (2) | vintage (2) | Japanese (2) | heritage (2) | value (2) | workwear (2) | winter (2)
+jackets (9) | t-shirts (6) | military (5) | wool (4) | denim (4) | sweaters (3) | sneakers (3) | watches (2) | boots (2) | outfits (2) | vintage (2) | Japanese (2) | heritage (2) | value (2) | workwear (2) | winter (2) | hunting (1) | mackinaw (1)
 
 ## Search Tips
 
