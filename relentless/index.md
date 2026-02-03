@@ -2,8 +2,8 @@
 channel: Relentless
 channel_handle: "@relaboratories"
 channel_id: UCxYhf1bmbsXLU1ClPNS2P6g
-total_videos: 31
-last_updated: 2026-02-02
+total_videos: 35
+last_updated: 2026-02-03
 ---
 
 # Relentless Channel Index
@@ -12,15 +12,19 @@ last_updated: 2026-02-02
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 31 |
-| Total Views | 353,703 |
+| Total Videos | 35 |
+| Total Views | 394,529 |
 | Most Viewed | The Manufacturing Startup That's Outcompeting China (151,628) |
-| Average Video Length | ~69 min |
+| Average Video Length | ~72 min |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [#45 - What Happens If A Million Drones Attack Tomorrow \| Michael LaFramboise, CEO Aurelius](videos/4ZQ0RLvcHTA.md) | 100:40 | 4,627 |
+| [#44 - WTF is happening in El Segundo?!](videos/eZ1kHP_TRF0.md) | 79:20 | 18,723 |
+| [#43 - SpaceX, Starship, Building A Gas Station On Mars \| Halen Mattison, CEO General Galactic](videos/AYOmMaBaQ3I.md) | 68:04 | 10,455 |
+| [#42 - Why Ancient Rome Didn't Industrialize \| Casey Handmer, CEO Terraform Industries](videos/rmmvqkNPo6A.md) | 105:25 | 7,021 |
 | [My Conversation with Mehul Nariyawala, co-founder of Matic](videos/GikcVks0Uj4.md) | 127:40 | 1,494 |
 | [WTF is happening at xAI \| Sulaiman Ghori](videos/8jN60eJr4Ps.md) | 71:39 | 59,237 |
 | [The Story of deel \| Shuo Wang](videos/ExoQOtqtxX0.md) | 111:37 | 2,481 |
@@ -59,12 +63,12 @@ last_updated: 2026-02-02
 2. **[WTF is happening at xAI](videos/8jN60eJr4Ps.md)** - 59,237 views
 3. **[Why Elon Outcompetes Everyone](videos/62X1vm3QBuE.md)** - 55,013 views
 4. **[Building Unmanned Cargo Planes](videos/HbPxncZvWk8.md)** - 18,947 views
-5. **[We'll Build 1 Million Humanoid Robots by 2028](videos/NmI0UipVFyM.md)** - 10,305 views
-6. **[How US Hardware Startups Will Outcompete China](videos/989_qK5dVTU.md)** - 8,049 views
-7. **[Building a MASSIVE Mach 25 Space Gun](videos/QgylXuow4Qo.md)** - 5,721 views
-8. **[Competing With China In 3D Printing](videos/CcLHYxPRjDY.md)** - 5,319 views
-9. **[How Zipline Scaled to 2 Million Drone Deliveries](videos/fZNLLYzjB2w.md)** - 4,216 views
-10. **[Building Long-Range Hypersonic Missiles](videos/BiuTr1KyEOU.md)** - 3,787 views
+5. **[WTF is happening in El Segundo?!](videos/eZ1kHP_TRF0.md)** - 18,723 views
+6. **[SpaceX, Starship, Building A Gas Station On Mars](videos/AYOmMaBaQ3I.md)** - 10,455 views
+7. **[We'll Build 1 Million Humanoid Robots by 2028](videos/NmI0UipVFyM.md)** - 10,305 views
+8. **[How US Hardware Startups Will Outcompete China](videos/989_qK5dVTU.md)** - 8,049 views
+9. **[Why Ancient Rome Didn't Industrialize](videos/rmmvqkNPo6A.md)** - 7,021 views
+10. **[Building a MASSIVE Mach 25 Space Gun](videos/QgylXuow4Qo.md)** - 5,721 views
 
 ## Topics Index
 
@@ -72,6 +76,10 @@ last_updated: 2026-02-02
 
 | Company | Video | Industry |
 |---------|-------|----------|
+| Aurelius | What Happens If A Million Drones Attack Tomorrow | Defense |
+| El Segundo Founders | WTF is happening in El Segundo?! | Manufacturing |
+| General Galactic | SpaceX, Starship, Building A Gas Station On Mars | Space |
+| Terraform Industries | Why Ancient Rome Didn't Industrialize | Climate Tech |
 | xAI | WTF is happening at xAI | AI/ML |
 | Deel | The Story of deel | HR Tech |
 | Zipline | How Zipline Scaled | Drone Delivery |
@@ -104,16 +112,19 @@ last_updated: 2026-02-02
 
 ### Key Themes
 
-- **Manufacturing & China Competition** - SendCutSend, Flow, Formlabs, Hardtech Roundtable
-- **Aerospace & Space** - Astro Mechanica, Inversion, Starpath, Longshot, Poseidon
+- **Manufacturing & China Competition** - SendCutSend, Flow, Formlabs, Hardtech Roundtable, El Segundo Roundtable
+- **Aerospace & Space** - Astro Mechanica, Inversion, Starpath, Longshot, Poseidon, General Galactic
 - **AI & Robotics** - xAI, Hugging Face, 1X
-- **Defense Tech** - Castelion (hypersonic missiles)
+- **Defense Tech** - Castelion (hypersonic missiles), Aurelius (counter-drone lasers)
 - **Biotech & Health** - General Control, Orchid, Moldco
-- **Energy & Climate** - Base Power, Terranova
+- **Energy & Climate** - Base Power, Terranova, Terraform Industries
 - **Transportation** - Zipline (drones), Arc (boats), Onewheel
 
 ### Notable People
 
+- **Michael LaFramboise** - Aurelius CEO (counter-drone lasers)
+- **Halen Mattison** - General Galactic CEO, ex-SpaceX
+- **Casey Handmer** - Terraform Industries CEO
 - **Sulaiman Ghori** - xAI Engineer
 - **Shuo Wang** - Deel
 - **Keller Cliffton** - Zipline
@@ -143,10 +154,14 @@ last_updated: 2026-02-02
 - Building a MASSIVE Mach 25 Space Gun
 - How To Build A Self-Sustaining City On Mars
 - We'll Build 1 Million Humanoid Robots by 2028
+- What Happens If A Million Drones Attack Tomorrow (Aurelius)
+- SpaceX, Starship, Building A Gas Station On Mars (General Galactic)
+- Why Ancient Rome Didn't Industrialize (Terraform Industries)
 
 ### Inside Look / Culture
 - WTF is happening at xAI
 - Why Elon Outcompetes Everyone
+- WTF is happening in El Segundo?!
 
 ### Industry Analysis
 - Hardtech Roundtable: China vs USA

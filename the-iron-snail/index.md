@@ -1,8 +1,8 @@
 ---
 channel: The Iron Snail
 channel_handle: "@TheIronSnail"
-total_videos: 31
-last_updated: 2026-01-29
+total_videos: 32
+last_updated: 2026-02-03
 ---
 
 # The Iron Snail Channel Index
@@ -11,61 +11,62 @@ last_updated: 2026-01-29
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 31 |
-| Total Views | 13,570,396 |
-| Date Range | 2023-12-22 to 2026-01-11 |
-| Average Video Length | 16:02 |
+| Total Videos | 32 |
+| Total Views | 14,591,560 |
+| Date Range | 2023-12-22 to 2026-02-02 |
+| Average Video Length | 15:52 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
-| 2026-01-11 | The Internet's Favorite Down Jackets, Ranked. | 19:26 | 395,851 | [Watch](https://www.youtube.com/watch?v=rHdMviAhDtE) |
-| 2025-12-13 | Why The Greatest Field Jacket Ever Made Is Also The Cheapest. | 13:56 | 855,950 | [Watch](https://www.youtube.com/watch?v=5fZ1KbN9O7s) |
-| 2025-11-20 | The Only Wool Sweaters I'd Buy.* | 24:23 | 673,443 | [Watch](https://www.youtube.com/watch?v=_x-_PLprz3g) |
-| 2025-10-24 | Is Patagonia Really THAT Good? | 18:01 | 523,650 | [Watch](https://www.youtube.com/watch?v=ixCSNbzQNcI) |
-| 2025-10-09 | The TRUTH About Merino Wool Shirts. | 19:38 | 485,535 | [Watch](https://www.youtube.com/watch?v=PmbmS3KwSi8) |
-| 2025-09-17 | I've Reviewed 100+ T-shirts. Here Are The Best Ones. | 16:43 | 570,405 | [Watch](https://www.youtube.com/watch?v=FSWl57UR4k0) |
-| 2025-08-24 | 35 Things I Can't Live Without.* | 18:03 | 246,013 | [Watch](https://www.youtube.com/watch?v=3bWvGl_wS2I) |
-| 2025-08-01 | Why New Balance Spent 43 Years On 1 Sneaker. | 18:19 | 253,319 | [Watch](https://www.youtube.com/watch?v=7CiUfsviMGI) |
-| 2025-07-21 | Why You're Paying More For Worse Clothes. | 17:31 | 225,699 | [Watch](https://www.youtube.com/watch?v=L6QUfMd82eY) |
-| 2025-06-30 | The Highest Quality, Lowest Price Clothing, Ranked. | 16:39 | 516,962 | [Watch](https://www.youtube.com/watch?v=A6SkEwdjj-8) |
-| 2025-06-07 | Why Jamaica Is Obsessed With A WWII Boot. | 14:43 | 288,800 | [Watch](https://www.youtube.com/watch?v=JzAgs47Idzw) |
-| 2025-05-13 | The Internet's Favorite Waxed Jackets, Ranked. | 20:01 | 600,165 | [Watch](https://www.youtube.com/watch?v=y3giKIuJjDk) |
-| 2025-04-26 | So, What Makes Japanese Selvedge Denim So Special? | 15:08 | 323,434 | [Watch](https://www.youtube.com/watch?v=w3nib0_vlfk) |
-| 2025-04-06 | Reviewing My Entire Watch Collection (Before I Sell It All). | 14:49 | 301,511 | [Watch](https://www.youtube.com/watch?v=pPBCSjP8-qs) |
-| 2025-03-22 | 7 of The Greatest Chore Coats Money Can Buy. | 15:09 | 316,221 | [Watch](https://www.youtube.com/watch?v=c6blgVapNWY) |
-| 2025-03-03 | Why This U.S. Military Coat Killed The Bomber. | 18:23 | 105,883 | [Watch](https://www.youtube.com/watch?v=WIEWvlu91jg) |
-| 2025-02-08 | Why Rolex Needed a Watch For Cave Explorers. | 14:38 | 141,967 | [Watch](https://www.youtube.com/watch?v=heaEB1JKePo) |
-| 2025-01-29 | How to Stop Being Cold Outside. | 19:17 | 666,568 | [Watch](https://www.youtube.com/watch?v=tIMhDEVghPc) |
-| 2025-01-09 | The Mad Genius Behind Sweden's #1 Winter Jacket. | 18:15 | 860,636 | [Watch](https://www.youtube.com/watch?v=UIsQ0jPhzJQ) |
-| 2024-12-23 | I've Made My Own (All Weather) Sneakers. | 4:14 | 53,501 | [Watch](https://www.youtube.com/watch?v=of4vWilFse4) |
-| 2024-12-15 | Why This U.S. Navy Jacket Killed The Peacoat. | 14:02 | 442,850 | [Watch](https://www.youtube.com/watch?v=KMQF8w-aRpY) |
-| 2024-11-30 | Why Japan Loves a Tiny English Sneaker Brand. | 16:07 | 566,934 | [Watch](https://www.youtube.com/watch?v=Th9rFZSbMHM) |
-| 2024-11-11 | My Favorite 24 Thrifted* Fall Pick-Ups. | 15:52 | 213,632 | [Watch](https://www.youtube.com/watch?v=_knrP8B7IeY) |
-| 2024-10-21 | The Internet's Favorite Sweatshirts, Ranked. | 18:21 | 701,825 | [Watch](https://www.youtube.com/watch?v=gy9_-Qbmzsk) |
-| 2024-10-05 | How The World's Most Interesting Sneakers Work. | 13:24 | 217,421 | [Watch](https://www.youtube.com/watch?v=0H3XfsdrXc0) |
-| 2024-09-15 | The Real Reason Levi's Jackets Have 2 Lines On The Front. | 15:06 | 649,666 | [Watch](https://www.youtube.com/watch?v=eP9iXl6m5tM) |
-| 2024-08-26 | Is Uniqlo Really THAT Good? | 15:27 | 1,638,481 | [Watch](https://www.youtube.com/watch?v=qqZyGm0aqh4) |
-| 2024-08-05 | The Internet's Favorite T-Shirts, Ranked. (Pt. 2) | 14:58 | 368,982 | [Watch](https://www.youtube.com/watch?v=fuNp6W4DUWs) |
-| 2024-07-22 | 24 Summer Outfits I'm Wearing This Year. | 12:46 | 118,265 | [Watch](https://www.youtube.com/watch?v=MQRLTQbplg4) |
-| 2024-07-11 | The Internet's Favorite T-Shirts, Ranked. | 15:03 | 1,296,393 | [Watch](https://www.youtube.com/watch?v=GMM_Hl1fTQ0) |
-| 2023-12-22 | The 5 Greatest Winter Wool Jackets Of All Time. | 17:07 | 285,900 | [Watch](https://www.youtube.com/watch?v=u2c67bF9-OA) |
+| 2026-02-02 | [The 125-Year-Old Wool Jacket Brands Still Can't Beat.](videos/XPIVM9e_lGU.md) | 13:51 | 63,264 | [Watch](https://www.youtube.com/watch?v=XPIVM9e_lGU) |
+| 2026-01-11 | [The Internet's Favorite Down Jackets, Ranked.](videos/rHdMviAhDtE.md) | 19:26 | 654,605 | [Watch](https://www.youtube.com/watch?v=rHdMviAhDtE) |
+| 2025-12-13 | [Why The Greatest Field Jacket Ever Made Is Also The Cheapest.](videos/5fZ1KbN9O7s.md) | 13:56 | 939,993 | [Watch](https://www.youtube.com/watch?v=5fZ1KbN9O7s) |
+| 2025-11-20 | [The Only Wool Sweaters I'd Buy.*](videos/_x-_PLprz3g.md) | 24:23 | 705,131 | [Watch](https://www.youtube.com/watch?v=_x-_PLprz3g) |
+| 2025-10-24 | [Is Patagonia Really THAT Good?](videos/ixCSNbzQNcI.md) | 18:01 | 555,781 | [Watch](https://www.youtube.com/watch?v=ixCSNbzQNcI) |
+| 2025-10-09 | [The TRUTH About Merino Wool Shirts.](videos/PmbmS3KwSi8.md) | 19:38 | 515,891 | [Watch](https://www.youtube.com/watch?v=PmbmS3KwSi8) |
+| 2025-09-17 | [I've Reviewed 100+ T-shirts. Here Are The Best Ones.](videos/FSWl57UR4k0.md) | 16:43 | 591,941 | [Watch](https://www.youtube.com/watch?v=FSWl57UR4k0) |
+| 2025-08-24 | [35 Things I Can't Live Without.*](videos/3bWvGl_wS2I.md) | 18:03 | 255,080 | [Watch](https://www.youtube.com/watch?v=3bWvGl_wS2I) |
+| 2025-08-01 | [Why New Balance Spent 43 Years On 1 Sneaker.](videos/7CiUfsviMGI.md) | 18:19 | 257,684 | [Watch](https://www.youtube.com/watch?v=7CiUfsviMGI) |
+| 2025-07-21 | [Why You're Paying More For Worse Clothes.](videos/L6QUfMd82eY.md) | 17:31 | 231,576 | [Watch](https://www.youtube.com/watch?v=L6QUfMd82eY) |
+| 2025-06-30 | [The Highest Quality, Lowest Price Clothing, Ranked.](videos/A6SkEwdjj-8.md) | 16:39 | 542,975 | [Watch](https://www.youtube.com/watch?v=A6SkEwdjj-8) |
+| 2025-06-07 | [Why Jamaica Is Obsessed With A WWII Boot.](videos/JzAgs47Idzw.md) | 14:43 | 294,698 | [Watch](https://www.youtube.com/watch?v=JzAgs47Idzw) |
+| 2025-05-13 | [The Internet's Favorite Waxed Jackets, Ranked.](videos/y3giKIuJjDk.md) | 20:01 | 622,505 | [Watch](https://www.youtube.com/watch?v=y3giKIuJjDk) |
+| 2025-04-26 | [So, What Makes Japanese Selvedge Denim So Special?](videos/w3nib0_vlfk.md) | 15:08 | 335,185 | [Watch](https://www.youtube.com/watch?v=w3nib0_vlfk) |
+| 2025-04-06 | [Reviewing My Entire Watch Collection (Before I Sell It All).](videos/pPBCSjP8-qs.md) | 14:49 | 308,241 | [Watch](https://www.youtube.com/watch?v=pPBCSjP8-qs) |
+| 2025-03-22 | [7 of The Greatest Chore Coats Money Can Buy.](videos/c6blgVapNWY.md) | 15:09 | 326,028 | [Watch](https://www.youtube.com/watch?v=c6blgVapNWY) |
+| 2025-03-03 | [Why This U.S. Military Coat Killed The Bomber.](videos/WIEWvlu91jg.md) | 18:23 | 111,790 | [Watch](https://www.youtube.com/watch?v=WIEWvlu91jg) |
+| 2025-02-08 | [Why Rolex Needed a Watch For Cave Explorers.](videos/heaEB1JKePo.md) | 14:38 | 143,522 | [Watch](https://www.youtube.com/watch?v=heaEB1JKePo) |
+| 2025-01-29 | [How to Stop Being Cold Outside.](videos/tIMhDEVghPc.md) | 19:17 | 685,612 | [Watch](https://www.youtube.com/watch?v=tIMhDEVghPc) |
+| 2025-01-09 | [The Mad Genius Behind Sweden's #1 Winter Jacket.](videos/UIsQ0jPhzJQ.md) | 18:15 | 878,765 | [Watch](https://www.youtube.com/watch?v=UIsQ0jPhzJQ) |
+| 2024-12-23 | [I've Made My Own (All Weather) Sneakers.](videos/of4vWilFse4.md) | 4:14 | 53,896 | [Watch](https://www.youtube.com/watch?v=of4vWilFse4) |
+| 2024-12-15 | [Why This U.S. Navy Jacket Killed The Peacoat.](videos/KMQF8w-aRpY.md) | 14:02 | 448,577 | [Watch](https://www.youtube.com/watch?v=KMQF8w-aRpY) |
+| 2024-11-30 | [Why Japan Loves a Tiny English Sneaker Brand.](videos/Th9rFZSbMHM.md) | 16:07 | 579,189 | [Watch](https://www.youtube.com/watch?v=Th9rFZSbMHM) |
+| 2024-11-11 | [My Favorite 24 Thrifted* Fall Pick-Ups.](videos/_knrP8B7IeY.md) | 15:52 | 216,210 | [Watch](https://www.youtube.com/watch?v=_knrP8B7IeY) |
+| 2024-10-21 | [The Internet's Favorite Sweatshirts, Ranked.](videos/gy9_-Qbmzsk.md) | 18:21 | 715,421 | [Watch](https://www.youtube.com/watch?v=gy9_-Qbmzsk) |
+| 2024-10-05 | [How The World's Most Interesting Sneakers Work.](videos/0H3XfsdrXc0.md) | 13:24 | 236,505 | [Watch](https://www.youtube.com/watch?v=0H3XfsdrXc0) |
+| 2024-09-15 | [The Real Reason Levi's Jackets Have 2 Lines On The Front.](videos/eP9iXl6m5tM.md) | 15:06 | 654,137 | [Watch](https://www.youtube.com/watch?v=eP9iXl6m5tM) |
+| 2024-08-26 | [Is Uniqlo Really THAT Good?](videos/qqZyGm0aqh4.md) | 15:27 | 1,652,839 | [Watch](https://www.youtube.com/watch?v=qqZyGm0aqh4) |
+| 2024-08-05 | [The Internet's Favorite T-Shirts, Ranked. (Pt. 2)](videos/fuNp6W4DUWs.md) | 14:58 | 372,294 | [Watch](https://www.youtube.com/watch?v=fuNp6W4DUWs) |
+| 2024-07-22 | [24 Summer Outfits I'm Wearing This Year.](videos/MQRLTQbplg4.md) | 12:46 | 119,472 | [Watch](https://www.youtube.com/watch?v=MQRLTQbplg4) |
+| 2024-07-11 | [The Internet's Favorite T-Shirts, Ranked.](videos/GMM_Hl1fTQ0.md) | 15:03 | 1,296,393 | [Watch](https://www.youtube.com/watch?v=GMM_Hl1fTQ0) |
+| 2023-12-22 | [The 5 Greatest Winter Wool Jackets Of All Time.](videos/u2c67bF9-OA.md) | 17:07 | 285,900 | [Watch](https://www.youtube.com/watch?v=u2c67bF9-OA) |
 
 ## Most Viewed Videos
 
 | Rank | Title | Views | Link |
 |------|-------|-------|------|
-| 1 | Is Uniqlo Really THAT Good? | 1,638,481 | [Watch](https://www.youtube.com/watch?v=qqZyGm0aqh4) |
-| 2 | The Internet's Favorite T-Shirts, Ranked. | 1,296,393 | [Watch](https://www.youtube.com/watch?v=GMM_Hl1fTQ0) |
-| 3 | The Mad Genius Behind Sweden's #1 Winter Jacket. | 860,636 | [Watch](https://www.youtube.com/watch?v=UIsQ0jPhzJQ) |
-| 4 | Why The Greatest Field Jacket Ever Made Is Also The Cheapest. | 855,950 | [Watch](https://www.youtube.com/watch?v=5fZ1KbN9O7s) |
-| 5 | The Internet's Favorite Sweatshirts, Ranked. | 701,825 | [Watch](https://www.youtube.com/watch?v=gy9_-Qbmzsk) |
-| 6 | The Only Wool Sweaters I'd Buy.* | 673,443 | [Watch](https://www.youtube.com/watch?v=_x-_PLprz3g) |
-| 7 | How to Stop Being Cold Outside. | 666,568 | [Watch](https://www.youtube.com/watch?v=tIMhDEVghPc) |
-| 8 | The Real Reason Levi's Jackets Have 2 Lines On The Front. | 649,666 | [Watch](https://www.youtube.com/watch?v=eP9iXl6m5tM) |
-| 9 | The Internet's Favorite Waxed Jackets, Ranked. | 600,165 | [Watch](https://www.youtube.com/watch?v=y3giKIuJjDk) |
-| 10 | I've Reviewed 100+ T-shirts. Here Are The Best Ones. | 570,405 | [Watch](https://www.youtube.com/watch?v=FSWl57UR4k0) |
+| 1 | [Is Uniqlo Really THAT Good?](videos/qqZyGm0aqh4.md) | 1,652,839 | [Watch](https://www.youtube.com/watch?v=qqZyGm0aqh4) |
+| 2 | [The Internet's Favorite T-Shirts, Ranked.](videos/GMM_Hl1fTQ0.md) | 1,296,393 | [Watch](https://www.youtube.com/watch?v=GMM_Hl1fTQ0) |
+| 3 | [Why The Greatest Field Jacket Ever Made Is Also The Cheapest.](videos/5fZ1KbN9O7s.md) | 939,993 | [Watch](https://www.youtube.com/watch?v=5fZ1KbN9O7s) |
+| 4 | [The Mad Genius Behind Sweden's #1 Winter Jacket.](videos/UIsQ0jPhzJQ.md) | 878,765 | [Watch](https://www.youtube.com/watch?v=UIsQ0jPhzJQ) |
+| 5 | [The Internet's Favorite Sweatshirts, Ranked.](videos/gy9_-Qbmzsk.md) | 715,421 | [Watch](https://www.youtube.com/watch?v=gy9_-Qbmzsk) |
+| 6 | [The Only Wool Sweaters I'd Buy.*](videos/_x-_PLprz3g.md) | 705,131 | [Watch](https://www.youtube.com/watch?v=_x-_PLprz3g) |
+| 7 | [How to Stop Being Cold Outside.](videos/tIMhDEVghPc.md) | 685,612 | [Watch](https://www.youtube.com/watch?v=tIMhDEVghPc) |
+| 8 | [The Internet's Favorite Down Jackets, Ranked.](videos/rHdMviAhDtE.md) | 654,605 | [Watch](https://www.youtube.com/watch?v=rHdMviAhDtE) |
+| 9 | [The Real Reason Levi's Jackets Have 2 Lines On The Front.](videos/eP9iXl6m5tM.md) | 654,137 | [Watch](https://www.youtube.com/watch?v=eP9iXl6m5tM) |
+| 10 | [The Internet's Favorite Waxed Jackets, Ranked.](videos/y3giKIuJjDk.md) | 622,505 | [Watch](https://www.youtube.com/watch?v=y3giKIuJjDk) |
 
 ## Topics Index
 
@@ -87,7 +88,11 @@ last_updated: 2026-01-29
 | Eddie Bauer | 2+ | Karakoram, down jacket history |
 | Canada Goose | 2+ | Down jackets, Arctic Program |
 | Crown Northampton | 2+ | Handmade sneakers, shell cordovan |
-| Filson | 3+ | Waxed jackets, cruiser, mackinaw, Double Mac |
+| Filson | 4+ | Waxed jackets, cruiser, mackinaw, Double Mac |
+| Fullcount | 1 | Owns Brown's Beach Cloth brand, Japanese heritage |
+| Brown's Beach Cloth | 1 | 1901 warp-knit wool technology, vests, jackets |
+| Anatomica | 1 | Beach Jacket, Japanese heritage |
+| Kapital | 1 | Beach Cloth vest, artisan Japanese clothing |
 | Duckworth | 1 | Snowcrest, Rambouillet Merino, Montana wool |
 | WeatherWool | 1 | Al's Anorak, jacquard weave, outdoor jackets |
 | Bronson | 3+ | Value loopwheel, Chinese manufacturing |
@@ -113,6 +118,9 @@ last_updated: 2026-01-29
 | Gore-Tex | [Winter Guide](videos/tIMhDEVghPc.md) | Waterproof breathable membranes |
 | Down Fill | [Down Jackets](videos/rHdMviAhDtE.md) | Fill power, warmth-to-weight ratio |
 | Waxed Cotton | [Waxed Jackets](videos/y3giKIuJjDk.md) | Weather resistance, patina development |
+| Brown's Beach Cloth | [125-Year-Old Wool Jacket](videos/XPIVM9e_lGU.md) | Warp-knit cotton/wool blend, shoddy recycled fleece |
+| Warp Knitting | [125-Year-Old Wool Jacket](videos/XPIVM9e_lGU.md) | Multiple loops simultaneously, won't unravel |
+| Shoddy/Recycled Wool | [125-Year-Old Wool Jacket](videos/XPIVM9e_lGU.md) | 1800s recycled fabric technology, Civil War history |
 
 ### Brands Mentioned Frequently
 
@@ -134,6 +142,7 @@ last_updated: 2026-01-29
 - [I've Reviewed 100+ T-shirts. Here Are The Best Ones.](videos/FSWl57UR4k0.md)
 
 ### History & Deep Dives
+- [The 125-Year-Old Wool Jacket Brands Still Can't Beat.](videos/XPIVM9e_lGU.md)
 - [Why The Greatest Field Jacket Ever Made Is Also The Cheapest.](videos/5fZ1KbN9O7s.md)
 - [Why This U.S. Navy Jacket Killed The Peacoat.](videos/KMQF8w-aRpY.md)
 - [Why This U.S. Military Coat Killed The Bomber.](videos/WIEWvlu91jg.md)
@@ -166,7 +175,7 @@ last_updated: 2026-01-29
 
 ## Tag Cloud
 
-jackets (9) | t-shirts (6) | military (5) | wool (4) | denim (4) | sweaters (3) | sneakers (3) | watches (2) | boots (2) | outfits (2) | vintage (2) | Japanese (2) | heritage (2) | value (2) | workwear (2) | winter (2) | hunting (1) | mackinaw (1)
+jackets (10) | t-shirts (6) | military (5) | wool (5) | denim (4) | sweaters (3) | sneakers (3) | watches (2) | boots (2) | outfits (2) | vintage (2) | Japanese (2) | heritage (2) | value (2) | workwear (2) | winter (2) | vest (1) | hunting (1) | mackinaw (1)
 
 ## Search Tips
 

@@ -1,8 +1,8 @@
 ---
 channel: Turing Post
 channel_handle: "@RealTuringPost"
-total_videos: 33
-last_updated: 2026-02-02
+total_videos: 34
+last_updated: 2026-02-03
 ---
 
 # Turing Post Channel Index
@@ -11,18 +11,19 @@ last_updated: 2026-02-02
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 33 |
-| Total Views | 98,024 |
-| Date Range | 2025-08-18 to 2026-01-31 |
-| Average Video Length | 17:23 |
+| Total Videos | 34 |
+| Total Views | 98,224 |
+| Date Range | 2025-08-18 to 2026-02-02 |
+| Average Video Length | 17:08 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
-| 2026-01-31 | [Inside a Chinese AI Lab: How MiniMax Builds Open Models](videos/GkUMqWeHn40.md) | 31:38 | 260 | [Watch](https://www.youtube.com/watch?v=GkUMqWeHn40) |
-| 2026-01-27 | [What Dario Amodei Gets Wrong About AI](videos/mf1CkHE5AkY.md) | 11:36 | 2,375 | [Watch](https://www.youtube.com/watch?v=mf1CkHE5AkY) |
-| 2026-01-24 | [This Is a Fight Worth Having: The Case for Open Source AI \| Raffi Krikorian, Mozilla CTO](videos/3ohQX-oYndI.md) | 25:39 | 7 | [Watch](https://www.youtube.com/watch?v=3ohQX-oYndI) |
+| 2026-02-02 | [We Entered an Era Where No One Knows What Comes Next](videos/SQVGjnV-ikM.md) | 8:55 | 200 | [Watch](https://www.youtube.com/watch?v=SQVGjnV-ikM) |
+| 2026-01-31 | [Inside a Chinese AI Lab: How MiniMax Builds Open Models](videos/GkUMqWeHn40.md) | 31:38 | 510 | [Watch](https://www.youtube.com/watch?v=GkUMqWeHn40) |
+| 2026-01-27 | [What Dario Amodei Gets Wrong About AI](videos/mf1CkHE5AkY.md) | 11:36 | 2,425 | [Watch](https://www.youtube.com/watch?v=mf1CkHE5AkY) |
+| 2026-01-24 | [This Is a Fight Worth Having: The Case for Open Source AI \| Raffi Krikorian, Mozilla CTO](videos/3ohQX-oYndI.md) | 25:39 | 839 | [Watch](https://www.youtube.com/watch?v=3ohQX-oYndI) |
 | 2026-01-23 | [Jensen Huang says robots will have human capabilities this year!](videos/PAjb83HHLaU.md) | 6:39 | 457 | [Watch](https://www.youtube.com/watch?v=PAjb83HHLaU) |
 | 2026-01-18 | [Beyond the Code: The Books That Shaped the Minds of AI Leaders](videos/E0jSj8oRFqo.md) | 25:17 | 973 | [Watch](https://www.youtube.com/watch?v=E0jSj8oRFqo) |
 | 2026-01-14 | [2026 Predictions: Will We Still Write Code, or Just Manage Agents?](videos/qqvODjOezX4.md) | 7:17 | 1,013 | [Watch](https://www.youtube.com/watch?v=qqvODjOezX4) |
@@ -97,6 +98,11 @@ last_updated: 2026-02-02
 | **Dylan Patel** | 1 | SemiAnalysis, chip industry |
 | **Spencer Huang** | 1 | NVIDIA robotics lead |
 | **Ulrik Hansen** | 1 | Encord CEO, data labeling |
+| **John von Neumann** | 1 | Original singularity concept (via Ulam's 1958 tribute) |
+| **Ray Kurzweil** | 1 | Author of "The Singularity is Near" |
+| **Elon Musk** | 1 | Claims 2026 is year of singularity |
+| **Stanislaw Ulam** | 1 | Mathematician, wrote about von Neumann's singularity concept |
+| **Nils Nilson** | 1 | SRI AI director in 1984, predicted natural language interfaces |
 
 ### Technologies & Products
 
@@ -105,6 +111,7 @@ last_updated: 2026-02-02
 | **Open Source AI** | 5+ | LAMP Stack, local models, data sovereignty |
 | **Large Language Models (LLMs)** | 15+ | Nondeterminism, context windows, reasoning |
 | **AGI/ASI** | 5 | Timelines, definitions, debates |
+| **Singularity** | 2 | Von Neumann definition, Kurzweil interpretation, prediction collapse |
 | **Reinforcement Learning** | 3 | Sutton, Karpathy perspectives |
 | **Sora** | 2 | Video generation, world models |
 | **World Models** | 3 | Physical AI, simulation |
@@ -127,10 +134,12 @@ last_updated: 2026-02-02
 | Neural Networks | 21 |
 | AI Breakthroughs | 19 |
 | Technology and Society | 21 |
-| Turing Post | 21 |
+| Turing Post | 22 |
 | AI Revolution | 19 |
 | AI Trends | 19 |
 | AGI | 5 |
+| Singularity | 2 |
+| TechHistory | 1 |
 | OpenSourceAI | 1 |
 | MozillaAI | 1 |
 | Robotics | 4 |
@@ -176,6 +185,7 @@ last_updated: 2026-02-02
 - [What's That About SORA](videos/5DQ3yab_9ys.md) - Video generation comparison
 
 ### Industry Analysis
+- [We Entered an Era Where No One Knows What Comes Next](videos/SQVGjnV-ikM.md) - Singularity, prediction collapse
 - [End of Scaling? Why Ilya Sutskever Walked Away](videos/oNC3363P_5s.md) - Scaling debates
 - [The AGI Debate – Are We Five Years from Singularity?](videos/spWtumumh34.md) - AGI timelines
 - [Sam Altman: Government Guarantees](videos/5-7QpZsffiI.md) - AI infrastructure policy
