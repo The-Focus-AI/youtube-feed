@@ -13,6 +13,7 @@ The GitHub Pages site provides a markdown viewer that renders any file from this
 | Channel | Handle | Videos | Total Views | Focus |
 |---------|--------|--------|-------------|-------|
 | [All-In Podcast](all-in-podcast/index.md) | [@allin](https://youtube.com/@allin) | 37 | 11.3M | Tech, politics, economics, venture capital |
+| [Dwarkesh Patel](dwarkesh-patel/index.md) | [@DwarkeshPatel](https://youtube.com/@DwarkeshPatel) | 1 | 741K | Long-form interviews, AI, tech, space, geopolitics |
 | [Lex Fridman](lex-fridman/index.md) | [@lexfridman](https://youtube.com/@lexfridman) | 30 | 28M | Long-form interviews, AI, science, philosophy |
 | [MKBHD](mkbhd/index.md) | [@mkbhd](https://youtube.com/@mkbhd) | 35 | 167M | Tech reviews, smartphones, gadgets |
 | [Relentless](relentless/index.md) | [@relaboratories](https://youtube.com/@relaboratories) | 35 | 395K | Hard tech, manufacturing, aerospace, AI/robotics |
