@@ -18,7 +18,7 @@ The GitHub Pages site provides a markdown viewer that renders any file from this
 | [MKBHD](mkbhd/index.md) | [@mkbhd](https://youtube.com/@mkbhd) | 35 | 167M | Tech reviews, smartphones, gadgets |
 | [Relentless](relentless/index.md) | [@relaboratories](https://youtube.com/@relaboratories) | 35 | 395K | Hard tech, manufacturing, aerospace, AI/robotics |
 | [The Iron Snail](the-iron-snail/index.md) | [@TheIronSnail](https://youtube.com/@TheIronSnail) | 32 | 14.6M | Fashion, clothing, heritage brands |
-| [Turing Post](turing-post/index.md) | [@RealTuringPost](https://youtube.com/@RealTuringPost) | 62 | 98K | AI/ML deep dives, industry interviews |
+| [Turing Post](turing-post/index.md) | [@RealTuringPost](https://youtube.com/@RealTuringPost) | 64 | 99K | AI/ML deep dives, industry interviews |
 
 ## What's Included
 

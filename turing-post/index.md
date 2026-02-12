@@ -1,8 +1,8 @@
 ---
 channel: Turing Post
 channel_handle: "@RealTuringPost"
-total_videos: 34
-last_updated: 2026-02-03
+total_videos: 64
+last_updated: 2026-02-12
 ---
 
 # Turing Post Channel Index
@@ -11,15 +11,17 @@ last_updated: 2026-02-03
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 34 |
-| Total Views | 98,224 |
-| Date Range | 2025-08-18 to 2026-02-02 |
-| Average Video Length | 17:08 |
+| Total Videos | 64 |
+| Total Views | 99,410 |
+| Date Range | 2025-08-18 to 2026-02-09 |
+| Average Video Length | 16:26 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
+| 2026-02-09 | [When AI Agents Start Hiring Humans: The Meatspace Layer Explained](videos/3c9A4gBnCEg.md) | 13:13 | 429 | [Watch](https://www.youtube.com/watch?v=3c9A4gBnCEg) |
+| 2026-02-06 | [Why the US need Open Models \| Nathan Lambert](videos/mq_V6zAjsSI.md) | 47:22 | 757 | [Watch](https://www.youtube.com/watch?v=mq_V6zAjsSI) |
 | 2026-02-02 | [We Entered an Era Where No One Knows What Comes Next](videos/SQVGjnV-ikM.md) | 8:55 | 200 | [Watch](https://www.youtube.com/watch?v=SQVGjnV-ikM) |
 | 2026-01-31 | [Inside a Chinese AI Lab: How MiniMax Builds Open Models](videos/GkUMqWeHn40.md) | 31:38 | 510 | [Watch](https://www.youtube.com/watch?v=GkUMqWeHn40) |
 | 2026-01-27 | [What Dario Amodei Gets Wrong About AI](videos/mf1CkHE5AkY.md) | 11:36 | 2,425 | [Watch](https://www.youtube.com/watch?v=mf1CkHE5AkY) |
@@ -71,6 +73,8 @@ last_updated: 2026-02-03
 | **Meta** | 2 | Llama, Yann LeCun perspectives |
 | **Replit** | 2 | AI coding, context management |
 | **Sourcegraph** | 2 | Code search, context windows |
+| **Allen Institute for AI (AI2)** | 1 | OLMo, open models, AI research |
+| **RentAHuman.ai** | 1 | AI agents hiring humans for physical tasks |
 | **Encord** | 1 | Data labeling, AI progress blockers |
 | **Rubrik** | 1 | AI resilience, cybersecurity |
 | **Fireworks AI** | 1 | Inference infrastructure |
@@ -82,6 +86,7 @@ last_updated: 2026-02-03
 
 | Person | Videos | Context |
 |--------|--------|---------|
+| **Nathan Lambert** | 1 | Allen Institute for AI, RLHF Book author, open models advocate |
 | **Raffi Krikorian** | 1 | Mozilla CTO, Open Source AI advocate |
 | **Andrej Karpathy** | 2 | Former Tesla/OpenAI, AI education, AGI perspectives |
 | **Dwarkesh Patel** | 4 | Podcast host, interviews with AI leaders |
@@ -103,6 +108,9 @@ last_updated: 2026-02-03
 | **Elon Musk** | 1 | Claims 2026 is year of singularity |
 | **Stanislaw Ulam** | 1 | Mathematician, wrote about von Neumann's singularity concept |
 | **Nils Nilson** | 1 | SRI AI director in 1984, predicted natural language interfaces |
+| **Fei-Fei Li** | 1 | ImageNet creator, Stanford AI Lab |
+| **Geoffrey Hinton** | 1 | Deep learning pioneer, AlexNet |
+| **Alexander Liplo** | 1 | Creator of RentAHuman.ai |
 
 ### Technologies & Products
 
@@ -164,6 +172,7 @@ last_updated: 2026-02-03
 ## Video Categories
 
 ### Interviews & Conversations
+- [Why the US need Open Models \| Nathan Lambert](videos/mq_V6zAjsSI.md) - AI2, open models, RLHF, coding agents
 - [This Is a Fight Worth Having: Open Source AI \| Raffi Krikorian](videos/3ohQX-oYndI.md) - CTO of Mozilla on OSAI
 - [Richard Sutton and Dwarkesh Patel](videos/EwhHUQuqiaQ.md) - RL pioneer on AI progress
 - [Andrej Karpathy and Dwarkesh Patel](videos/-lRBpyPt79c.md) - AGI bubble, AI aristocracy
@@ -185,6 +194,7 @@ last_updated: 2026-02-03
 - [What's That About SORA](videos/5DQ3yab_9ys.md) - Video generation comparison
 
 ### Industry Analysis
+- [When AI Agents Start Hiring Humans: The Meatspace Layer Explained](videos/3c9A4gBnCEg.md) - AI agents, RentAHuman.ai, embodiment
 - [We Entered an Era Where No One Knows What Comes Next](videos/SQVGjnV-ikM.md) - Singularity, prediction collapse
 - [End of Scaling? Why Ilya Sutskever Walked Away](videos/oNC3363P_5s.md) - Scaling debates
 - [The AGI Debate – Are We Five Years from Singularity?](videos/spWtumumh34.md) - AGI timelines
