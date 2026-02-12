@@ -14,7 +14,7 @@ The GitHub Pages site provides a markdown viewer that renders any file from this
 |---------|--------|--------|-------------|-------|
 | [All-In Podcast](all-in-podcast/index.md) | [@allin](https://youtube.com/@allin) | 37 | 11.3M | Tech, politics, economics, venture capital |
 | [Dwarkesh Patel](dwarkesh-patel/index.md) | [@DwarkeshPatel](https://youtube.com/@DwarkeshPatel) | 1 | 741K | Long-form interviews, AI, tech, space, geopolitics |
-| [Lex Fridman](lex-fridman/index.md) | [@lexfridman](https://youtube.com/@lexfridman) | 30 | 28M | Long-form interviews, AI, science, philosophy |
+| [Lex Fridman](lex-fridman/index.md) | [@lexfridman](https://youtube.com/@lexfridman) | 31 | 28.1M | Long-form interviews, AI, science, philosophy |
 | [MKBHD](mkbhd/index.md) | [@mkbhd](https://youtube.com/@mkbhd) | 35 | 167M | Tech reviews, smartphones, gadgets |
 | [Relentless](relentless/index.md) | [@relaboratories](https://youtube.com/@relaboratories) | 35 | 395K | Hard tech, manufacturing, aerospace, AI/robotics |
 | [The Iron Snail](the-iron-snail/index.md) | [@TheIronSnail](https://youtube.com/@TheIronSnail) | 32 | 14.6M | Fashion, clothing, heritage brands |

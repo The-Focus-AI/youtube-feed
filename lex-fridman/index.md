@@ -2,9 +2,9 @@
 channel: Lex Fridman
 channel_handle: "@lexfridman"
 channel_id: UCSHZKyawb77ixDdsGog4iWA
-total_videos: 30
-last_updated: 2026-02-03
-date_range: "2025-03-22 to 2026-01-31"
+total_videos: 31
+last_updated: 2026-02-12
+date_range: "2025-03-22 to 2026-02-12"
 ---
 
 # Lex Fridman Podcast Archive
@@ -15,16 +15,17 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 
 | Metric | Value |
 |--------|-------|
-| Total Videos Archived | 30 |
-| Total Views | 28,006,082 |
-| Date Range | Mar 22, 2025 - Jan 31, 2026 |
-| Average Video Length | 3:32:56 |
-| Total Watch Time | 106:28:13 |
+| Total Videos Archived | 31 |
+| Total Views | 28,121,731 |
+| Date Range | Mar 22, 2025 - Feb 12, 2026 |
+| Average Video Length | 3:32:23 |
+| Total Watch Time | 109:44:05 |
 
 ## Videos by Date
 
 | Date | Episode | Title | Duration | Views |
 |------|---------|-------|----------|-------|
+| 2026-02-12 | #491 | [OpenClaw: The Viral AI Agent that Broke the Internet - Peter Steinberger](videos/YFjfBk8HI5o.md) | 3:15:52 | 115,649 |
 | 2026-01-31 | #490 | [State of AI in 2026: LLMs, Coding, Scaling Laws, China, Agents, GPUs, AGI](videos/EV7WhVT270Q.md) | 4:25:13 | 408,453 |
 | 2026-01-13 | #489 | [Paul Rosolie: Uncontacted Tribes in the Amazon Jungle](videos/Z-FRe5AKmCU.md) | 3:06:19 | 978,192 |
 | 2025-12-31 | #488 | [Infinity, Paradoxes, Godel Incompleteness & the Mathematical Multiverse](videos/14OPT6CcsH4.md) | 3:52:17 | 337,936 |
