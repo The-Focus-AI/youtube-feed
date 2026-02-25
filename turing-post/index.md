@@ -1,8 +1,8 @@
 ---
 channel: Turing Post
 channel_handle: "@RealTuringPost"
-total_videos: 64
-last_updated: 2026-02-12
+total_videos: 66
+last_updated: 2026-02-24
 ---
 
 # Turing Post Channel Index
@@ -11,15 +11,17 @@ last_updated: 2026-02-12
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 64 |
-| Total Views | 99,410 |
-| Date Range | 2025-08-18 to 2026-02-09 |
-| Average Video Length | 16:26 |
+| Total Videos | 66 |
+| Total Views | 100,838 |
+| Date Range | 2025-08-18 to 2026-02-24 |
+| Average Video Length | 16:11 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
+| 2026-02-24 | [This chip runs a "baked" Llama so fast it looks like a glitch (Taalas HC1)](videos/ibbB5CsDwxQ.md) | 12:51 | 16 | [Watch](https://www.youtube.com/watch?v=ibbB5CsDwxQ) |
+| 2026-02-16 | [Dario Amodei and Dwarkesh Patel – Exponential Scaling vs. Real World Friction](videos/bjNQoo73gK4.md) | 9:30 | 1,412 | [Watch](https://www.youtube.com/watch?v=bjNQoo73gK4) |
 | 2026-02-09 | [When AI Agents Start Hiring Humans: The Meatspace Layer Explained](videos/3c9A4gBnCEg.md) | 13:13 | 429 | [Watch](https://www.youtube.com/watch?v=3c9A4gBnCEg) |
 | 2026-02-06 | [Why the US need Open Models \| Nathan Lambert](videos/mq_V6zAjsSI.md) | 47:22 | 757 | [Watch](https://www.youtube.com/watch?v=mq_V6zAjsSI) |
 | 2026-02-02 | [We Entered an Era Where No One Knows What Comes Next](videos/SQVGjnV-ikM.md) | 8:55 | 200 | [Watch](https://www.youtube.com/watch?v=SQVGjnV-ikM) |
@@ -64,11 +66,12 @@ last_updated: 2026-02-12
 | Company | Videos | Key Topics |
 |---------|--------|------------|
 | **OpenAI** | 10+ | AGI definitions, ChatGPT Atlas, Sam Altman statements, Sora |
-| **NVIDIA** | 5 | Physical AI, Omniverse, Isaac Lab, NVQ Link, Jensen Huang |
+| **NVIDIA** | 6 | Physical AI, Omniverse, Isaac Lab, NVQ Link, Jensen Huang, potential Taalas acquisition |
 | **Mozilla** | 1 | Open Source AI, LAMP Stack, Choice Suite, Data Sovereignty |
 | **Google/DeepMind** | 5 | Veo3, Gemini, scaling debates |
 | **Microsoft** | 3 | Azure AI, Satya Nadella, cloud infrastructure |
-| **Anthropic** | 2 | Claude, AI safety |
+| **Anthropic** | 3 | Claude, AI safety, scaling vs friction |
+| **Taalas** | 1 | HC1 chip, model-specific ASIC silicon |
 | **Tesla** | 2 | FSD, Optimus robots |
 | **Meta** | 2 | Llama, Yann LeCun perspectives |
 | **Replit** | 2 | AI coding, context management |
@@ -89,7 +92,7 @@ last_updated: 2026-02-12
 | **Nathan Lambert** | 1 | Allen Institute for AI, RLHF Book author, open models advocate |
 | **Raffi Krikorian** | 1 | Mozilla CTO, Open Source AI advocate |
 | **Andrej Karpathy** | 2 | Former Tesla/OpenAI, AI education, AGI perspectives |
-| **Dwarkesh Patel** | 4 | Podcast host, interviews with AI leaders |
+| **Dwarkesh Patel** | 5 | Podcast host, interviews with AI leaders, friction vs scaling |
 | **Sam Altman** | 4 | OpenAI CEO, AGI predictions, infrastructure |
 | **Jensen Huang** | 3 | NVIDIA CEO, robotics predictions, physical AI |
 | **Ilya Sutskever** | 2 | Safe Superintelligence, scaling debates |
@@ -111,6 +114,8 @@ last_updated: 2026-02-12
 | **Fei-Fei Li** | 1 | ImageNet creator, Stanford AI Lab |
 | **Geoffrey Hinton** | 1 | Deep learning pioneer, AlexNet |
 | **Alexander Liplo** | 1 | Creator of RentAHuman.ai |
+| **Dario Amodei** | 1 | Anthropic CEO, scaling exponentials, country of geniuses, capital treadmill |
+| **Bajik** | 1 | Taalas CEO, model-specific silicon |
 
 ### Technologies & Products
 
@@ -126,6 +131,7 @@ last_updated: 2026-02-12
 | **Robotics** | 4 | Humanoids, CES demos, Tesla Optimus |
 | **FSD (Full Self-Driving)** | 1 | Tesla, real-world experience |
 | **Quantum Computing** | 1 | NVQ Link, types, use cases |
+| **ASIC / AI Hardware** | 1 | Model-specific silicon, baked weights, inference optimization |
 | **Context Windows** | 2 | Management, compression, limits |
 | **AI Agents** | 3 | Agentic workflows, coding agents |
 | **Digital Pathology** | 1 | Cancer diagnosis, medical AI |
@@ -187,6 +193,7 @@ last_updated: 2026-02-12
 - [Can We Control AI That Controls Itself?](videos/5P8kgRcLF5Q.md) - AI resilience
 
 ### Explainers & Deep Dives
+- [This chip runs a "baked" Llama so fast it looks like a glitch (Taalas HC1)](videos/ibbB5CsDwxQ.md) - Model-specific ASIC silicon, 17K tokens/sec
 - [Context Windows Explained](videos/17cPQ3rgRdI.md) - Technical deep dive
 - [Nondeterminism in LLMs Explained](videos/6BFkLH-FSFA.md) - Why outputs drift
 - [What Is Quantum Computing?](videos/u8zYKDtaihA.md) - Types and use cases
@@ -194,6 +201,7 @@ last_updated: 2026-02-12
 - [What's That About SORA](videos/5DQ3yab_9ys.md) - Video generation comparison
 
 ### Industry Analysis
+- [Dario Amodei and Dwarkesh Patel – Exponential Scaling vs. Real World Friction](videos/bjNQoo73gK4.md) - Scaling laws, diffusion, institutional friction, capital treadmill
 - [When AI Agents Start Hiring Humans: The Meatspace Layer Explained](videos/3c9A4gBnCEg.md) - AI agents, RentAHuman.ai, embodiment
 - [We Entered an Era Where No One Knows What Comes Next](videos/SQVGjnV-ikM.md) - Singularity, prediction collapse
 - [End of Scaling? Why Ilya Sutskever Walked Away](videos/oNC3363P_5s.md) - Scaling debates
