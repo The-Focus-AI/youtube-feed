@@ -7,8 +7,8 @@ channel_id: UCBJycsmduvYEL83R_U4JriQ
 upload_date: 2026-01-26
 duration: 904
 duration_formatted: "15:04"
-view_count: 3869231
-like_count: 115306
+view_count: 4451358
+like_count: 125461
 thumbnail: https://i.ytimg.com/vi/vZdbbN3FCzE/maxresdefault.jpg
 category: Science & Technology
 tags:

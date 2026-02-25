@@ -1,8 +1,8 @@
 ---
 channel: MKBHD
 channel_handle: "@mkbhd"
-total_videos: 35
-last_updated: 2026-02-03
+total_videos: 37
+last_updated: 2026-02-24
 ---
 
 # MKBHD Channel Index
@@ -11,9 +11,9 @@ last_updated: 2026-02-03
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 35 |
-| Total Views | 167,107,583 |
-| Date Range | July 1, 2025 - January 26, 2026 |
+| Total Videos | 37 |
+| Total Views | 172,026,761 |
+| Date Range | July 1, 2025 - February 18, 2026 |
 | Average Video Length | 13:35 |
 
 ---
@@ -22,7 +22,9 @@ last_updated: 2026-02-03
 
 | Date | Title | Duration | Views |
 |------|-------|----------|-------|
-| 2026-01-26 | [The Downfall of OnePlus will be Studied](videos/vZdbbN3FCzE.md) | 15:04 | 3,927,300 |
+| 2026-02-18 | [Google Pixel 10A Impressions: (Never) Seen This Before](videos/iCSg_ul3G2w.md) | 8:31 | 2,868,476 |
+| 2026-02-06 | [The Problem with these Smartphone Batteries](videos/zPAY2VxfFBk.md) | 8:32 | 2,051,102 |
+| 2026-01-26 | [The Downfall of OnePlus will be Studied](videos/vZdbbN3FCzE.md) | 15:04 | 4,451,358 |
 | 2026-01-22 | [Xiaomi 17 Ultra - More Camera than Phone!](videos/DqAKQwagCDg.md) | 12:05 | 3,233,293 |
 | 2026-01-13 | [The New Siri is... Google (Explained)](videos/TVsounscj4U.md) | 8:22 | 3,826,952 |
 | 2026-01-09 | [The Problem with this "Ultra Luxury" Smartphone](videos/HLUamwXQ218.md) | 15:32 | 2,442,296 |
@@ -67,12 +69,13 @@ last_updated: 2026-02-03
 | Company | Videos | References |
 |---------|--------|------------|
 | **Apple** | 24 | iOS 26, iPhone 17, iPhone Air, AirPods Pro 3, Vision Pro, iPadOS 26, M5 chip, Siri, Apple Intelligence |
-| **Google** | 14 | Pixel 10, Gemini, Android 16, Tensor G5, YouTube, Circle to Search |
+| **Google** | 15 | Pixel 10, Pixel 10A, Gemini, Android 16, Tensor G5, YouTube, Circle to Search |
 | **Samsung** | 12 | Galaxy Z Fold 7, Galaxy Z Flip 7, Z Tri Fold, Galaxy S25 Ultra, Galaxy Tab S11 Ultra |
 | **Nothing** | 6 | Nothing Phone 3, Nothing Headphone 1, CMF Phone 2 Pro, Glyph Matrix |
 | **Nintendo** | 1 | Switch 2, Joy-Cons, Mario Kart World |
 | **Xiaomi** | 6 | Xiaomi 17 Pro Max, Xiaomi 17 Ultra, Xiaomi SU7, mini massage gun |
-| **OnePlus** | 5 | OnePlus 15, OnePlus downfall, silicon carbon battery |
+| **OnePlus** | 6 | OnePlus 15, OnePlus downfall, silicon carbon battery |
+| **Honor** | 1 | Honor Power 2 silicon carbon battery phone |
 | **Meta** | 3 | Ray-Ban Display glasses, Orion, smart glasses |
 | **Tesla** | 3 | Robotaxi, FSD, Model 3 |
 | **Qualcomm** | 9 | Snapdragon 8 Elite, Snapdragon 8 Elite Gen 5, Snapdragon 8s Gen 4 |
@@ -108,6 +111,8 @@ last_updated: 2026-02-03
 | Apple M5 Chip | I shrunk down into an M5 chip | [Summary](videos/Jh9pFp1oM7E.md) |
 | NEO Robot | The Problem with this Humanoid Robot | [Summary](videos/j31dmodZ-5c.md) |
 | Vertu Agent Q | The Problem with this "Ultra Luxury" Smartphone | [Summary](videos/HLUamwXQ218.md) |
+| Pixel 10A | Google Pixel 10A Impressions | [Summary](videos/iCSg_ul3G2w.md) |
+| Honor Power 2 | The Problem with these Smartphone Batteries | [Summary](videos/zPAY2VxfFBk.md) |
 | Tesla Robotaxi | Investigating the Tesla Robotaxi! | [Summary](videos/We2ZD0-IXPM.md) |
 | Galaxy Tab S11 Ultra | Dope Tech: STILL so good! | [Summary](videos/RvP-uVNwnXo.md) |
 | Nikon ZR | Dope Tech: STILL so good! | [Summary](videos/RvP-uVNwnXo.md) |
@@ -120,7 +125,7 @@ last_updated: 2026-02-03
 |------------|--------|---------|
 | **AI / LLMs** | 10+ | Siri, Gemini, ChatGPT, Claude, Apple Intelligence, Magic Cues |
 | **Foldable Phones** | 5 | Z Fold 7, Z Flip 7, Z Tri Fold, Pixel Fold, Huawei Mate XT |
-| **Silicon Carbon Batteries** | 5 | OnePlus 15, Xiaomi 17 Pro Max, Nothing Phone 3, enabling 7000+ mAh capacity |
+| **Silicon Carbon Batteries** | 6 | OnePlus 15, Xiaomi 17 Pro Max, Nothing Phone 3, Honor Power 2, swelling concerns, enabling 7000+ mAh capacity |
 | **Autonomous Driving** | 2 | Tesla FSD, Waymo, Robotaxi |
 | **Smart Glasses / AR** | 2 | Meta Ray-Ban Display, Apple Vision Pro, neural interfaces |
 | **MagSafe / Qi2** | 4 | Pixelsnap, magnetic charging ecosystem |
@@ -208,6 +213,7 @@ First hands-on looks at newly announced products.
 | [Samsung Galaxy Z Tri Fold Impressions: NOW It Makes Sense!](videos/trsHTKqmZOk.md) | Z Tri Fold | 2025-12-17 |
 | [iOS 26 Hands-On: Liquid Glass!](videos/FXrcFeuYtq8.md) | iOS 26 | 2025-07-24 |
 | [Wait... Smart Glasses are Suddenly Good?](videos/7gtc1DW2Tgo.md) | Meta Ray-Ban Display | 2025-09-19 |
+| [Google Pixel 10A Impressions: (Never) Seen This Before](videos/iCSg_ul3G2w.md) | Pixel 10A | 2026-02-18 |
 | [Xiaomi 17 Ultra - More Camera than Phone!](videos/DqAKQwagCDg.md) | Xiaomi 17 Ultra | 2026-01-22 |
 
 ### Explainers
@@ -215,6 +221,7 @@ Deep dives into technology, concepts, or industry analysis.
 
 | Video | Topic | Date |
 |-------|-------|------|
+| [The Problem with these Smartphone Batteries](videos/zPAY2VxfFBk.md) | Silicon carbon battery risks | 2026-02-06 |
 | [The Downfall of OnePlus will be Studied](videos/vZdbbN3FCzE.md) | OnePlus brand lifecycle | 2026-01-26 |
 | [The New Siri is... Google (Explained)](videos/TVsounscj4U.md) | Apple-Google AI partnership | 2026-01-13 |
 | [I shrunk down into an M5 chip](videos/Jh9pFp1oM7E.md) | Semiconductor scale visualization | 2025-12-26 |
@@ -253,6 +260,8 @@ All video summaries are available in the `videos/` directory:
 
 | Video ID | File |
 |----------|------|
+| iCSg_ul3G2w | [videos/iCSg_ul3G2w.md](videos/iCSg_ul3G2w.md) |
+| zPAY2VxfFBk | [videos/zPAY2VxfFBk.md](videos/zPAY2VxfFBk.md) |
 | vZdbbN3FCzE | [videos/vZdbbN3FCzE.md](videos/vZdbbN3FCzE.md) |
 | DqAKQwagCDg | [videos/DqAKQwagCDg.md](videos/DqAKQwagCDg.md) |
 | TVsounscj4U | [videos/TVsounscj4U.md](videos/TVsounscj4U.md) |

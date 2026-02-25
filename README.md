@@ -12,10 +12,10 @@ The GitHub Pages site provides a markdown viewer that renders any file from this
 
 | Channel | Handle | Videos | Total Views | Focus |
 |---------|--------|--------|-------------|-------|
-| [All-In Podcast](all-in-podcast/index.md) | [@allin](https://youtube.com/@allin) | 37 | 11.3M | Tech, politics, economics, venture capital |
-| [Dwarkesh Patel](dwarkesh-patel/index.md) | [@DwarkeshPatel](https://youtube.com/@DwarkeshPatel) | 1 | 741K | Long-form interviews, AI, tech, space, geopolitics |
+| [All-In Podcast](all-in-podcast/index.md) | [@allin](https://youtube.com/@allin) | 41 | 12.8M | Tech, politics, economics, venture capital |
+| [Dwarkesh Patel](dwarkesh-patel/index.md) | [@DwarkeshPatel](https://youtube.com/@DwarkeshPatel) | 15 | 9.5M | Long-form interviews, AI, tech, history, geopolitics |
 | [Lex Fridman](lex-fridman/index.md) | [@lexfridman](https://youtube.com/@lexfridman) | 31 | 28.1M | Long-form interviews, AI, science, philosophy |
-| [MKBHD](mkbhd/index.md) | [@mkbhd](https://youtube.com/@mkbhd) | 35 | 167M | Tech reviews, smartphones, gadgets |
+| [MKBHD](mkbhd/index.md) | [@mkbhd](https://youtube.com/@mkbhd) | 37 | 172M | Tech reviews, smartphones, gadgets |
 | [Relentless](relentless/index.md) | [@relaboratories](https://youtube.com/@relaboratories) | 35 | 395K | Hard tech, manufacturing, aerospace, AI/robotics |
 | [The Iron Snail](the-iron-snail/index.md) | [@TheIronSnail](https://youtube.com/@TheIronSnail) | 32 | 14.6M | Fashion, clothing, heritage brands |
 | [Turing Post](turing-post/index.md) | [@RealTuringPost](https://youtube.com/@RealTuringPost) | 66 | 101K | AI/ML deep dives, industry interviews |
