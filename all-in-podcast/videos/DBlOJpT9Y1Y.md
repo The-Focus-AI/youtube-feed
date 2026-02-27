@@ -41,35 +41,70 @@ Throughout the interview, Makary emphasizes patient-centered reform, citing his 
 
 ### "Why does it take 10 to 12 years for a new drug to come to market?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DBlOJpT9Y1Y?start=273&end=340" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DBlOJpT9Y1Y/hqdefault.jpg)](https://www.youtube.com/watch?v=DBlOJpT9Y1Y&t=273s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:33-5:40" "https://www.youtube.com/watch?v=DBlOJpT9Y1Y" --force-keyframes-at-cuts --merge-output-format mp4 -o "DBlOJpT9Y1Y-4m33s.mp4"
+```
+</details>
 
 > "Why does it take 10 to 12 years for a new drug to come to market? We've become so lukewarm and passive accepting that horrible timeline that it has just become the status quo."
 > — Marty Makary, [4:49](https://www.youtube.com/watch?v=DBlOJpT9Y1Y&t=289s)
 
 ### "My number one priority is not to censor Americans"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DBlOJpT9Y1Y?start=426&end=490" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DBlOJpT9Y1Y/hqdefault.jpg)](https://www.youtube.com/watch?v=DBlOJpT9Y1Y&t=426s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:06-8:10" "https://www.youtube.com/watch?v=DBlOJpT9Y1Y" --force-keyframes-at-cuts --merge-output-format mp4 -o "DBlOJpT9Y1Y-7m06s.mp4"
+```
+</details>
 
 > "The number one priority of the commissioner that preceded me was to fight misinformation. My number one priority is not to censor Americans. It's to deliver more cures and meaningful treatments faster to the American public."
 > — Marty Makary, [7:06](https://www.youtube.com/watch?v=DBlOJpT9Y1Y&t=426s)
 
 ### "I met a guy whose job was to change the ink cartridge on one fax machine"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DBlOJpT9Y1Y?start=1972&end=2030" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DBlOJpT9Y1Y/hqdefault.jpg)](https://www.youtube.com/watch?v=DBlOJpT9Y1Y&t=1972s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*32:52-33:50" "https://www.youtube.com/watch?v=DBlOJpT9Y1Y" --force-keyframes-at-cuts --merge-output-format mp4 -o "DBlOJpT9Y1Y-32m52s.mp4"
+```
+</details>
 
 > "I met a guy whose job was to change the ink cartridge on a fax machine... on one fax machine. Healthcare has single-handedly kept the fax industry alive."
 > — Marty Makary, [32:56](https://www.youtube.com/watch?v=DBlOJpT9Y1Y&t=1976s)
 
 ### "We have drugged our nation's kids at scale"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DBlOJpT9Y1Y?start=2148&end=2210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DBlOJpT9Y1Y/hqdefault.jpg)](https://www.youtube.com/watch?v=DBlOJpT9Y1Y&t=2148s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*35:48-36:50" "https://www.youtube.com/watch?v=DBlOJpT9Y1Y" --force-keyframes-at-cuts --merge-output-format mp4 -o "DBlOJpT9Y1Y-35m48s.mp4"
+```
+</details>
 
 > "We have drugged our nation's kids at scale. It's wrong. It needs to stop. We have to reexamine the root causes."
 > — Marty Makary, [35:55](https://www.youtube.com/watch?v=DBlOJpT9Y1Y&t=2155s)
 
 ### "Biden FDA sent zero enforcement letters - I sent 1,500"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DBlOJpT9Y1Y?start=4204&end=4270" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DBlOJpT9Y1Y/hqdefault.jpg)](https://www.youtube.com/watch?v=DBlOJpT9Y1Y&t=4204s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*70:04-71:10" "https://www.youtube.com/watch?v=DBlOJpT9Y1Y" --force-keyframes-at-cuts --merge-output-format mp4 -o "DBlOJpT9Y1Y-70m04s.mp4"
+```
+</details>
 
 > "The Biden folks in the year before I came to the FDA sent out zero enforcement letters. A department of about 35 people in charge of sending out enforcement letters sent out zero. I sent out 1,500 enforcement letters."
 > — Marty Makary, [70:35](https://www.youtube.com/watch?v=DBlOJpT9Y1Y&t=4235s)

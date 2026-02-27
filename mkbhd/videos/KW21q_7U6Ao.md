@@ -44,35 +44,70 @@ MKBHD reveals his 2026 daily driver phone setup, showcasing a two-phone system w
 
 ### "Do I regret getting orange?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KW21q_7U6Ao?start=367&end=420" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KW21q_7U6Ao/hqdefault.jpg)](https://www.youtube.com/watch?v=KW21q_7U6Ao&t=367s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:07-7:00" "https://www.youtube.com/watch?v=KW21q_7U6Ao" --force-keyframes-at-cuts --merge-output-format mp4 -o "KW21q_7U6Ao-6m07s.mp4"
+```
+</details>
 
 > "Do I regret getting orange? Uh, yeah, a little bit. Yeah. I wish there was a black one."
 > — Marques Brownlee, [6:12](https://www.youtube.com/watch?v=KW21q_7U6Ao&t=372s)
 
 ### "Gemini on lock screen because Siri is bad"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KW21q_7U6Ao?start=390&end=440" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KW21q_7U6Ao/hqdefault.jpg)](https://www.youtube.com/watch?v=KW21q_7U6Ao&t=390s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:30-7:20" "https://www.youtube.com/watch?v=KW21q_7U6Ao" --force-keyframes-at-cuts --merge-output-format mp4 -o "KW21q_7U6Ao-6m30s.mp4"
+```
+</details>
 
 > "I have also got Gemini on the lock screen because Siri is bad."
 > — Marques Brownlee, [6:32](https://www.youtube.com/watch?v=KW21q_7U6Ao&t=392s)
 
 ### "Why can't iPhone widgets scroll?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KW21q_7U6Ao?start=245&end=295" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KW21q_7U6Ao/hqdefault.jpg)](https://www.youtube.com/watch?v=KW21q_7U6Ao&t=245s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:05-4:55" "https://www.youtube.com/watch?v=KW21q_7U6Ao" --force-keyframes-at-cuts --merge-output-format mp4 -o "KW21q_7U6Ao-4m05s.mp4"
+```
+</details>
 
 > "Why can't you do that on the iPhone yet? They've had widgets for... None of them scroll. Let us scroll."
 > — Marques Brownlee, [4:12](https://www.youtube.com/watch?v=KW21q_7U6Ao&t=252s)
 
 ### "Flighty is one of the most useful apps of all time"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KW21q_7U6Ao?start=655&end=700" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KW21q_7U6Ao/hqdefault.jpg)](https://www.youtube.com/watch?v=KW21q_7U6Ao&t=655s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:55-11:40" "https://www.youtube.com/watch?v=KW21q_7U6Ao" --force-keyframes-at-cuts --merge-output-format mp4 -o "KW21q_7U6Ao-10m55s.mp4"
+```
+</details>
 
 > "Flighty, which is, as someone who's... one of the most useful apps of all time."
 > — Marques Brownlee, [11:00](https://www.youtube.com/watch?v=KW21q_7U6Ao&t=660s)
 
 ### "Phone app feels weird not to have"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KW21q_7U6Ao?start=145&end=195" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KW21q_7U6Ao/hqdefault.jpg)](https://www.youtube.com/watch?v=KW21q_7U6Ao&t=145s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:25-3:15" "https://www.youtube.com/watch?v=KW21q_7U6Ao" --force-keyframes-at-cuts --merge-output-format mp4 -o "KW21q_7U6Ao-2m25s.mp4"
+```
+</details>
 
 > "I really don't make that many phone calls, but for whatever reason it feels weird not having the phone app down there, so it's always there."
 > — Marques Brownlee, [2:31](https://www.youtube.com/watch?v=KW21q_7U6Ao&t=151s)

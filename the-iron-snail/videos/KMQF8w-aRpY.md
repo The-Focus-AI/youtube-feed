@@ -36,35 +36,70 @@ The video compares three modern interpretations of the N1: The Real McCoy's muse
 
 ### "The Other Job Was to Make Sure You Don't Get Trapped Inside Your Jacket"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KMQF8w-aRpY?start=27&end=75" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KMQF8w-aRpY/hqdefault.jpg)](https://www.youtube.com/watch?v=KMQF8w-aRpY&t=27s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:27-1:15" "https://www.youtube.com/watch?v=KMQF8w-aRpY" --force-keyframes-at-cuts --merge-output-format mp4 -o "KMQF8w-aRpY-0m27s.mp4"
+```
+</details>
 
 > "The other job was to make sure that you don't get trapped inside of your jacket if you were getting covered with freezing salt water all day."
 > — Michael, [0:27](https://www.youtube.com/watch?v=KMQF8w-aRpY&t=27s)
 
 ### "The Navy Borrowed Hook Closure Technology from Firefighters"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KMQF8w-aRpY?start=362&end=420" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KMQF8w-aRpY/hqdefault.jpg)](https://www.youtube.com/watch?v=KMQF8w-aRpY&t=362s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:02-7:00" "https://www.youtube.com/watch?v=KMQF8w-aRpY" --force-keyframes-at-cuts --merge-output-format mp4 -o "KMQF8w-aRpY-6m02s.mp4"
+```
+</details>
 
 > "So the US Navy said hey accountants can we borrow that technology and they said absolutely."
 > — Michael, [6:25](https://www.youtube.com/watch?v=KMQF8w-aRpY&t=385s)
 
 ### "Alpaca is Fine and Hollow - An Incredible Insulator"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KMQF8w-aRpY?start=615&end=665" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KMQF8w-aRpY/hqdefault.jpg)](https://www.youtube.com/watch?v=KMQF8w-aRpY&t=615s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:15-11:05" "https://www.youtube.com/watch?v=KMQF8w-aRpY" --force-keyframes-at-cuts --merge-output-format mp4 -o "KMQF8w-aRpY-10m15s.mp4"
+```
+</details>
 
 > "Alpaca is fine and hollow so it's very very warm which means that your coat or your jacket can be warmer without a lot of added weight."
 > — Michael, [10:41](https://www.youtube.com/watch?v=KMQF8w-aRpY&t=641s)
 
 ### "The Answer Was Never a One System Closure"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KMQF8w-aRpY?start=509&end=560" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KMQF8w-aRpY/hqdefault.jpg)](https://www.youtube.com/watch?v=KMQF8w-aRpY&t=509s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:29-9:20" "https://www.youtube.com/watch?v=KMQF8w-aRpY" --force-keyframes-at-cuts --merge-output-format mp4 -o "KMQF8w-aRpY-8m29s.mp4"
+```
+</details>
 
 > "The answer was never a one system closure system... perhaps instead of there being one fix all solution we need to break the solution up."
 > — Michael, [8:40](https://www.youtube.com/watch?v=KMQF8w-aRpY&t=520s)
 
 ### "Heat Straps Won the Warmth Championship"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KMQF8w-aRpY?start=776&end=830" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KMQF8w-aRpY/hqdefault.jpg)](https://www.youtube.com/watch?v=KMQF8w-aRpY&t=776s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:56-13:50" "https://www.youtube.com/watch?v=KMQF8w-aRpY" --force-keyframes-at-cuts --merge-output-format mp4 -o "KMQF8w-aRpY-12m56s.mp4"
+```
+</details>
 
 > "The warmest jacket that we tested today is Heat Straps. They came in with 10 degrees... The Real McCoys is warmer than the Levi's sherpa jacket just because of the storm cuffs alone."
 > — Michael, [13:21](https://www.youtube.com/watch?v=KMQF8w-aRpY&t=801s)

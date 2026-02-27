@@ -31,35 +31,70 @@ MKBHD reviews the Xiaomi 17 Ultra Leica Edition, a phone that leans all the way 
 
 ### "More Camera Than Phone"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DqAKQwagCDg?start=17&end=69" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DqAKQwagCDg/hqdefault.jpg)](https://www.youtube.com/watch?v=DqAKQwagCDg&t=17s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:17-1:09" "https://www.youtube.com/watch?v=DqAKQwagCDg" --force-keyframes-at-cuts --merge-output-format mp4 -o "DqAKQwagCDg-0m17s.mp4"
+```
+</details>
 
 > "But what if we just went all the way? What if it was just all camera that happens to have a phone attached to it? So, this is a Leica camera, but now this is the Xiaomi 17 Ultra Leica Edition."
 > — Marques Brownlee, [0:20](https://www.youtube.com/watch?v=DqAKQwagCDg&t=20s)
 
 ### "The Unboxing Experience"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DqAKQwagCDg?start=39&end=92" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DqAKQwagCDg/hqdefault.jpg)](https://www.youtube.com/watch?v=DqAKQwagCDg&t=39s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:39-1:32" "https://www.youtube.com/watch?v=DqAKQwagCDg" --force-keyframes-at-cuts --merge-output-format mp4 -o "DqAKQwagCDg-0m39s.mp4"
+```
+</details>
 
 > "You get this custom case with MagSafe magnets built in, an aluminum lens cap that works with this case, this really soft, extremely high quality microfiber cleaning cloth for keeping those lenses clean, and a wrist strap that can attach to the corner of the case like a camera lanyard. This accessories package alone probably costs 50, 60 bucks."
 > — Marques Brownlee, [0:49](https://www.youtube.com/watch?v=DqAKQwagCDg&t=49s)
 
 ### "Most Fun Camera Shooting Experience"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DqAKQwagCDg?start=202&end=270" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DqAKQwagCDg/hqdefault.jpg)](https://www.youtube.com/watch?v=DqAKQwagCDg&t=202s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:22-4:30" "https://www.youtube.com/watch?v=DqAKQwagCDg" --force-keyframes-at-cuts --merge-output-format mp4 -o "DqAKQwagCDg-3m22s.mp4"
+```
+</details>
 
 > "I wouldn't crown it necessarily the absolute best set of smartphone cameras. Like, quality-wise, it's still really good. It's very high up there, but it's not necessarily like the absolute best. But I would still crown it the best overall like most fun smartphone camera shooting experience that I've ever had."
 > — Marques Brownlee, [3:40](https://www.youtube.com/watch?v=DqAKQwagCDg&t=220s)
 
 ### "The Camera Ring"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DqAKQwagCDg?start=409&end=484" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DqAKQwagCDg/hqdefault.jpg)](https://www.youtube.com/watch?v=DqAKQwagCDg&t=409s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:49-8:04" "https://www.youtube.com/watch?v=DqAKQwagCDg" --force-keyframes-at-cuts --merge-output-format mp4 -o "DqAKQwagCDg-6m49s.mp4"
+```
+</details>
 
 > "This ring obviously it's metal. It turns and it turns fluidly, but as I turn I get these haptics that make it feel like it's clicking. So it simulates a notched ring and it's it's pretty convincing and satisfying. Twisting this ring really quick will actually act as a camera shortcut for opening the camera."
 > — Marques Brownlee, [7:02](https://www.youtube.com/watch?v=DqAKQwagCDg&t=422s)
 
 ### "A Full-Fledged Leica Experience in Your Pocket"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DqAKQwagCDg?start=625&end=675" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DqAKQwagCDg/hqdefault.jpg)](https://www.youtube.com/watch?v=DqAKQwagCDg&t=625s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:25-11:15" "https://www.youtube.com/watch?v=DqAKQwagCDg" --force-keyframes-at-cuts --merge-output-format mp4 -o "DqAKQwagCDg-10m25s.mp4"
+```
+</details>
 
 > "There is that famous quote that the best camera is the one you have with you. And so it's pretty sick that in the year 2026, you can have that be a full-fledged Leica experience that fits in your pocket."
 > — Marques Brownlee, [10:37](https://www.youtube.com/watch?v=DqAKQwagCDg&t=637s)

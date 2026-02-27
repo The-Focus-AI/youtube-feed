@@ -31,35 +31,70 @@ MKBHD reviews the iPhone 17 Pro and Pro Max, highlighting what he calls the "Pro
 
 ### "The best thing about iPhone Air is what it lets them do with Pro"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q0aFOxT6TNw?start=0&end=50" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/q0aFOxT6TNw/hqdefault.jpg)](https://www.youtube.com/watch?v=q0aFOxT6TNw&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-0:50" "https://www.youtube.com/watch?v=q0aFOxT6TNw" --force-keyframes-at-cuts --merge-output-format mp4 -o "q0aFOxT6TNw-0m00s.mp4"
+```
+</details>
 
 > "The best thing about the iPhone Air is actually how much it enables Apple to make the Pro phones even more pro."
 > — Marques Brownlee, [0:00](https://www.youtube.com/watch?v=q0aFOxT6TNw&t=0s)
 
 ### "90% of orders are Pro Maxes"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q0aFOxT6TNw?start=84&end=130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/q0aFOxT6TNw/hqdefault.jpg)](https://www.youtube.com/watch?v=q0aFOxT6TNw&t=84s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:24-2:10" "https://www.youtube.com/watch?v=q0aFOxT6TNw" --force-keyframes-at-cuts --merge-output-format mp4 -o "q0aFOxT6TNw-1m24s.mp4"
+```
+</details>
 
 > "Over half of Dbrand orders are Pro Maxes, that's like 90% of orders."
 > — Marques Brownlee, [1:25](https://www.youtube.com/watch?v=q0aFOxT6TNw&t=85s)
 
 ### "Not a glass sandwich anymore"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q0aFOxT6TNw?start=302&end=360" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/q0aFOxT6TNw/hqdefault.jpg)](https://www.youtube.com/watch?v=q0aFOxT6TNw&t=302s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:02-6:00" "https://www.youtube.com/watch?v=q0aFOxT6TNw" --force-keyframes-at-cuts --merge-output-format mp4 -o "q0aFOxT6TNw-5m02s.mp4"
+```
+</details>
 
 > "This is not a glass sandwich anymore. Literally, the whole body is aluminum with glass cutouts."
 > — Marques Brownlee, [5:02](https://www.youtube.com/watch?v=q0aFOxT6TNw&t=302s)
 
 ### "The Pro Paradox"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q0aFOxT6TNw?start=652&end=700" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/q0aFOxT6TNw/hqdefault.jpg)](https://www.youtube.com/watch?v=q0aFOxT6TNw&t=652s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:52-11:40" "https://www.youtube.com/watch?v=q0aFOxT6TNw" --force-keyframes-at-cuts --merge-output-format mp4 -o "q0aFOxT6TNw-10m52s.mp4"
+```
+</details>
 
 > "The paradox is that making the Pro iPhones more pro is actually better for the masses."
 > — Marques Brownlee, [10:52](https://www.youtube.com/watch?v=q0aFOxT6TNw&t=652s)
 
 ### "Pro Max cracks 5,000mAh for the first time"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q0aFOxT6TNw?start=549&end=600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/q0aFOxT6TNw/hqdefault.jpg)](https://www.youtube.com/watch?v=q0aFOxT6TNw&t=549s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:09-10:00" "https://www.youtube.com/watch?v=q0aFOxT6TNw" --force-keyframes-at-cuts --merge-output-format mp4 -o "q0aFOxT6TNw-9m09s.mp4"
+```
+</details>
 
 > "The 17 Pro has a 20% larger battery and the Pro Max actually cracks 5,000mAh for the first time ever, and also 40 watt charging now."
 > — Marques Brownlee, [9:11](https://www.youtube.com/watch?v=q0aFOxT6TNw&t=551s)

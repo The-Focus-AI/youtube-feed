@@ -37,28 +37,56 @@ MKBHD unboxes the entire iPhone 17 lineup including the iPhone 17, iPhone 17 Pro
 
 ### "Potentially the Best Deal in the Lineup"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/s0EbxhQYeCA?start=65&end=125" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/s0EbxhQYeCA/hqdefault.jpg)](https://www.youtube.com/watch?v=s0EbxhQYeCA&t=65s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:05-2:05" "https://www.youtube.com/watch?v=s0EbxhQYeCA" --force-keyframes-at-cuts --merge-output-format mp4 -o "s0EbxhQYeCA-1m05s.mp4"
+```
+</details>
 
 > "This base iPhone, I really am thinking is potentially the best deal they've had in the lineup in a long time."
 > — Marques Brownlee, [1:23](https://www.youtube.com/watch?v=s0EbxhQYeCA&t=83s)
 
 ### "I Can't Believe Apple's Battery Claims"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/s0EbxhQYeCA?start=441&end=500" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/s0EbxhQYeCA/hqdefault.jpg)](https://www.youtube.com/watch?v=s0EbxhQYeCA&t=441s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:21-8:20" "https://www.youtube.com/watch?v=s0EbxhQYeCA" --force-keyframes-at-cuts --merge-output-format mp4 -o "s0EbxhQYeCA-7m21s.mp4"
+```
+</details>
 
 > "This adds definitely more fuel to the I don't really know if I can believe anything Apple says about battery... They rate the Air for 27 hours and they rate last year's iPhone 16 for 22."
 > — Marques Brownlee, [7:21](https://www.youtube.com/watch?v=s0EbxhQYeCA&t=441s)
 
 ### "4.5 Hours Screen Time is C Minus Level"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/s0EbxhQYeCA?start=480&end=540" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/s0EbxhQYeCA/hqdefault.jpg)](https://www.youtube.com/watch?v=s0EbxhQYeCA&t=480s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:00-9:00" "https://www.youtube.com/watch?v=s0EbxhQYeCA" --force-keyframes-at-cuts --merge-output-format mp4 -o "s0EbxhQYeCA-8m00s.mp4"
+```
+</details>
 
 > "It's been trending towards around 4 and 1/2 hours of screen on time per day, which used to be good, but these days that's like C minus level."
 > — Marques Brownlee, [8:09](https://www.youtube.com/watch?v=s0EbxhQYeCA&t=489s)
 
 ### "One of the Best Deals in All of Smartphones"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/s0EbxhQYeCA?start=633&end=695" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/s0EbxhQYeCA/hqdefault.jpg)](https://www.youtube.com/watch?v=s0EbxhQYeCA&t=633s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:33-11:35" "https://www.youtube.com/watch?v=s0EbxhQYeCA" --force-keyframes-at-cuts --merge-output-format mp4 -o "s0EbxhQYeCA-10m33s.mp4"
+```
+</details>
 
 > "The base iPhone this year is more clearly than ever the one that most people should get... I think this is one of the best deals in all of smartphones."
 > — Marques Brownlee, [10:37](https://www.youtube.com/watch?v=s0EbxhQYeCA&t=637s)

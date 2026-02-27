@@ -47,49 +47,98 @@ The conversation delves into the challenges of hardware entrepreneurship, includ
 
 ### "Segway got the middle finger, Onewheel gets thumbs up"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xTKpgrubLao?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/xTKpgrubLao/hqdefault.jpg)](https://www.youtube.com/watch?v=xTKpgrubLao&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-1:00" "https://www.youtube.com/watch?v=xTKpgrubLao" --force-keyframes-at-cuts --merge-output-format mp4 -o "xTKpgrubLao-0m00s.mp4"
+```
+</details>
 
 > "Basically, the only self-balancing product before One Wheel was Segue. I think there's like a Paul Graham essay about what Segue should be. It's like should be like a board. When you see people, they should like give you thumbs up, you know, not like the middle finger. I think we kind of ended up building that."
 > — Kyle Doerksen, [0:00](https://www.youtube.com/watch?v=xTKpgrubLao&t=0s)
 
 ### "Snowboarding on powder is this three-dimensional feeling"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xTKpgrubLao?start=62&end=120" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/xTKpgrubLao/hqdefault.jpg)](https://www.youtube.com/watch?v=xTKpgrubLao&t=62s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:02-2:00" "https://www.youtube.com/watch?v=xTKpgrubLao" --force-keyframes-at-cuts --merge-output-format mp4 -o "xTKpgrubLao-1m02s.mp4"
+```
+</details>
 
 > "Snowboarding on powder to me is just this kind of three-dimensional feeling, right? Because the board's free to move in a number of different directions. And then I studied mechanical engineering and computer science and then worked as a product design consultant."
 > — Kyle Doerksen, [1:02](https://www.youtube.com/watch?v=xTKpgrubLao&t=62s)
 
 ### "A single axis gyro sensor was $90 until the Nintendo Wii"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xTKpgrubLao?start=401&end=465" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/xTKpgrubLao/hqdefault.jpg)](https://www.youtube.com/watch?v=xTKpgrubLao&t=401s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:41-7:45" "https://www.youtube.com/watch?v=xTKpgrubLao" --force-keyframes-at-cuts --merge-output-format mp4 -o "xTKpgrubLao-6m41s.mp4"
+```
+</details>
 
 > "A single axis gyro sensor was like ninety dollars. And then the Nintendo Wii came along and then the iPhone was really the truly high volume application. That drove the cost curve down to within a couple years you get a six degree of freedom IMU chip for three, four bucks."
 > — Kyle Doerksen, [6:41](https://www.youtube.com/watch?v=xTKpgrubLao&t=401s)
 
 ### "The TAM is zero until you start building it"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xTKpgrubLao?start=745&end=810" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/xTKpgrubLao/hqdefault.jpg)](https://www.youtube.com/watch?v=xTKpgrubLao&t=745s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:25-13:30" "https://www.youtube.com/watch?v=xTKpgrubLao" --force-keyframes-at-cuts --merge-output-format mp4 -o "xTKpgrubLao-12m25s.mp4"
+```
+</details>
 
 > "How big is this market? The TAM is zero until you start building it, right? It's market creation. So if you can show people what it's like visually, experientially, then you start building this thing and people see someone riding around and they're like 'what is that?'"
 > — Kyle Doerksen, [12:25](https://www.youtube.com/watch?v=xTKpgrubLao&t=745s)
 
 ### "Juicero raised between 100 and 200 million and sold at a loss"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xTKpgrubLao?start=840&end=905" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/xTKpgrubLao/hqdefault.jpg)](https://www.youtube.com/watch?v=xTKpgrubLao&t=840s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:00-15:05" "https://www.youtube.com/watch?v=xTKpgrubLao" --force-keyframes-at-cuts --merge-output-format mp4 -o "xTKpgrubLao-14m00s.mp4"
+```
+</details>
 
 > "I go to Sand Hill Road. They're like, 'Oh man, you should have been here yesterday. We had these guys that were making this thing called Juicero.' And of course, Juicero raised like between 100 and 200 million, didn't last very long. People found out you could just squeeze the juice out of the pack on your own."
 > — Kyle Doerksen, [14:00](https://www.youtube.com/watch?v=xTKpgrubLao&t=840s)
 
 ### "Domestic manufacturing for cash flow and intellectual property"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xTKpgrubLao?start=1056&end=1120" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/xTKpgrubLao/hqdefault.jpg)](https://www.youtube.com/watch?v=xTKpgrubLao&t=1056s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*17:36-18:40" "https://www.youtube.com/watch?v=xTKpgrubLao" --force-keyframes-at-cuts --merge-output-format mp4 -o "xTKpgrubLao-17m36s.mp4"
+```
+</details>
 
 > "One of the things that led us to was actually domestic manufacturing. We decided to build in the US. One of the big things was just cash flow - we'd get the order from a customer, our CM would build it, we'd ship it, and then they'd send us an invoice we needed to pay 30 days later. Very different than buying container loads from overseas."
 > — Kyle Doerksen, [17:36](https://www.youtube.com/watch?v=xTKpgrubLao&t=1056s)
 
 ### "Every single Onewheel gets a test ride in the factory"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xTKpgrubLao?start=1494&end=1560" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/xTKpgrubLao/hqdefault.jpg)](https://www.youtube.com/watch?v=xTKpgrubLao&t=1494s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*24:54-26:00" "https://www.youtube.com/watch?v=xTKpgrubLao" --force-keyframes-at-cuts --merge-output-format mp4 -o "xTKpgrubLao-24m54s.mp4"
+```
+</details>
 
 > "Even to this day, like every single Onewheel we make, we have a test rider in our factory like go take it for a lap and make sure it's all working just right."
 > — Kyle Doerksen, [24:54](https://www.youtube.com/watch?v=xTKpgrubLao&t=1494s)

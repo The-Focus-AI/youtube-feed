@@ -34,35 +34,70 @@ The conversation also addresses how private credit is the next bubble building, 
 
 ### "Private equity is totally screwed"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eWE6xmHu6Jw?start=14&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eWE6xmHu6Jw/hqdefault.jpg)](https://www.youtube.com/watch?v=eWE6xmHu6Jw&t=14s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:14-1:00" "https://www.youtube.com/watch?v=eWE6xmHu6Jw" --force-keyframes-at-cuts --merge-output-format mp4 -o "eWE6xmHu6Jw-0m14s.mp4"
+```
+</details>
 
 > "I think private equity is totally screwed. I don't think Silver Lake or Infinity or this deal are screwed, but I think private equity in general is totally hosed."
 > -- Chamath Palihapitiya, [0:14](https://www.youtube.com/watch?v=eWE6xmHu6Jw&t=14s)
 
 ### "Investing in venture is a return-free risk"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eWE6xmHu6Jw?start=169&end=215" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eWE6xmHu6Jw/hqdefault.jpg)](https://www.youtube.com/watch?v=eWE6xmHu6Jw&t=169s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:49-3:35" "https://www.youtube.com/watch?v=eWE6xmHu6Jw" --force-keyframes-at-cuts --merge-output-format mp4 -o "eWE6xmHu6Jw-2m49s.mp4"
+```
+</details>
 
 > "When you see that kind of hockey stick graph, it doesn't matter what asset class it is, the returns go to zero. We've seen this in venture capital, we've seen this in hedge funds, and we're now going to see this in private equity."
 > -- Chamath Palihapitiya, [2:49](https://www.youtube.com/watch?v=eWE6xmHu6Jw&t=169s)
 
 ### "What are your distributions? Don't show me your IRR"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eWE6xmHu6Jw?start=190&end=225" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eWE6xmHu6Jw/hqdefault.jpg)](https://www.youtube.com/watch?v=eWE6xmHu6Jw&t=190s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:10-3:45" "https://www.youtube.com/watch?v=eWE6xmHu6Jw" --force-keyframes-at-cuts --merge-output-format mp4 -o "eWE6xmHu6Jw-3m10s.mp4"
+```
+</details>
 
 > "In any of these alternative asset classes, there's only one thing you should always ask: What are your distributions? Don't show me your IRR. What is your DPI? And if the answer is zero, then it is a very challenged asset class."
 > -- Chamath Palihapitiya, [3:10](https://www.youtube.com/watch?v=eWE6xmHu6Jw&t=190s)
 
 ### "Private credit is the next big bubble"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eWE6xmHu6Jw?start=250&end=300" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eWE6xmHu6Jw/hqdefault.jpg)](https://www.youtube.com/watch?v=eWE6xmHu6Jw&t=250s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:10-5:00" "https://www.youtube.com/watch?v=eWE6xmHu6Jw" --force-keyframes-at-cuts --merge-output-format mp4 -o "eWE6xmHu6Jw-4m10s.mp4"
+```
+</details>
 
 > "The money's already leaked into private credit, which is the next big bubble that's building. It looks like this chart that you just showed."
 > -- Chamath Palihapitiya, [4:10](https://www.youtube.com/watch?v=eWE6xmHu6Jw&t=250s)
 
 ### "With Slack I was offside a billion dollars"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eWE6xmHu6Jw?start=387&end=410" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eWE6xmHu6Jw/hqdefault.jpg)](https://www.youtube.com/watch?v=eWE6xmHu6Jw&t=387s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:27-6:50" "https://www.youtube.com/watch?v=eWE6xmHu6Jw" --force-keyframes-at-cuts --merge-output-format mp4 -o "eWE6xmHu6Jw-6m27s.mp4"
+```
+</details>
 
 > "With Slack I was offside a billion dollars and I was like, I'm never letting this happen again. And so when I had the Coinbase thing, I sold it the first day."
 > -- Chamath Palihapitiya, [6:27](https://www.youtube.com/watch?v=eWE6xmHu6Jw&t=387s)

@@ -29,42 +29,84 @@ Despite the lack of hardware changes, MKBHD notes that Google is leaning fully i
 
 ### "They're Actually the Same Phone"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iCSg_ul3G2w?start=20&end=80" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/iCSg_ul3G2w/hqdefault.jpg)](https://www.youtube.com/watch?v=iCSg_ul3G2w&t=20s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:20-1:20" "https://www.youtube.com/watch?v=iCSg_ul3G2w" --force-keyframes-at-cuts --merge-output-format mp4 -o "iCSg_ul3G2w-0m20s.mp4"
+```
+</details>
 
 > "This one is actually truly effectively basically the same the same phone. And I don't think I've ever seen that before. Like on the outside, you literally cannot tell the difference versus last year's Pixel 9a because there basically is no difference."
 > — Marques Brownlee, [0:20](https://www.youtube.com/watch?v=iCSg_ul3G2w&t=20s)
 
 ### "All of This Footage Has Been of the Pixel 9A"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iCSg_ul3G2w?start=82&end=130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/iCSg_ul3G2w/hqdefault.jpg)](https://www.youtube.com/watch?v=iCSg_ul3G2w&t=82s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:22-2:10" "https://www.youtube.com/watch?v=iCSg_ul3G2w" --force-keyframes-at-cuts --merge-output-format mp4 -o "iCSg_ul3G2w-1m22s.mp4"
+```
+</details>
 
 > "In fact, all of the footage that you've been watching so far has actually been of the Pixel 9a. I'm joking, but it's really not that far off."
 > — Marques Brownlee, [1:22](https://www.youtube.com/watch?v=iCSg_ul3G2w&t=82s)
 
 ### "Here Is Every Single Difference"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iCSg_ul3G2w?start=173&end=234" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/iCSg_ul3G2w/hqdefault.jpg)](https://www.youtube.com/watch?v=iCSg_ul3G2w&t=173s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:53-3:54" "https://www.youtube.com/watch?v=iCSg_ul3G2w" --force-keyframes-at-cuts --merge-output-format mp4 -o "iCSg_ul3G2w-2m53s.mp4"
+```
+</details>
 
 > "I went through the spec sheet, studied it, compared it with the Pixel 9's, went back and forth, and I have come up with a list of every single thing, literally everything that's different about the 10A versus the 9a."
 > — Marques Brownlee, [2:53](https://www.youtube.com/watch?v=iCSg_ul3G2w&t=173s)
 
 ### "Missing Magnets and the Tensor G5"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iCSg_ul3G2w?start=261&end=324" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/iCSg_ul3G2w/hqdefault.jpg)](https://www.youtube.com/watch?v=iCSg_ul3G2w&t=261s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:21-5:24" "https://www.youtube.com/watch?v=iCSg_ul3G2w" --force-keyframes-at-cuts --merge-output-format mp4 -o "iCSg_ul3G2w-4m21s.mp4"
+```
+</details>
 
 > "I still do think there are some obvious things they should have done that the A series buyer really would have appreciated. Things like adding Pixel Snap, adding the magnets in the back of the phone... Or even just the chip. The Tensor G5 is their latest chip and this year they're not even doing that."
 > — Marques Brownlee, [4:21](https://www.youtube.com/watch?v=iCSg_ul3G2w&t=261s)
 
 ### "Why Even Release a New Phone at All?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iCSg_ul3G2w?start=397&end=460" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/iCSg_ul3G2w/hqdefault.jpg)](https://www.youtube.com/watch?v=iCSg_ul3G2w&t=397s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:37-7:40" "https://www.youtube.com/watch?v=iCSg_ul3G2w" --force-keyframes-at-cuts --merge-output-format mp4 -o "iCSg_ul3G2w-6m37s.mp4"
+```
+</details>
 
 > "All of this to me begs the question, why even release a new phone at all? If we're just going to essentially re-release almost the same exact phone because the hardware doesn't really matter that much and it's all about the software, why even release a new piece of hardware?"
 > — Marques Brownlee, [6:37](https://www.youtube.com/watch?v=iCSg_ul3G2w&t=397s)
 
 ### "The Afterthought Vibes"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iCSg_ul3G2w?start=430&end=480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/iCSg_ul3G2w/hqdefault.jpg)](https://www.youtube.com/watch?v=iCSg_ul3G2w&t=430s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:10-8:00" "https://www.youtube.com/watch?v=iCSg_ul3G2w" --force-keyframes-at-cuts --merge-output-format mp4 -o "iCSg_ul3G2w-7m10s.mp4"
+```
+</details>
 
 > "I was at Google's little setup for it and I just feel like the whole thing felt like an afterthought. Like we're just kind of doing the thing we always do where there's a new phone and we don't really care that much but here it is."
 > — Marques Brownlee, [7:10](https://www.youtube.com/watch?v=iCSg_ul3G2w&t=430s)

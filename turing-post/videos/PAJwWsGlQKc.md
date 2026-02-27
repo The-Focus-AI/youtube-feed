@@ -33,28 +33,56 @@ The "promise" segment addresses the ongoing challenge of AI-generated imagery lo
 
 ### "A Living Digital Twin of Our Planet"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PAJwWsGlQKc?start=58&end=120" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/PAJwWsGlQKc/hqdefault.jpg)](https://www.youtube.com/watch?v=PAJwWsGlQKc&t=58s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:58-2:00" "https://www.youtube.com/watch?v=PAJwWsGlQKc" --force-keyframes-at-cuts --merge-output-format mp4 -o "PAJwWsGlQKc-0m58s.mp4"
+```
+</details>
 
 > "They've created a living AI-powered digital twin of our planet. It's truly truly unbelievable. The AI model takes a full year's worth of data from dozens of different sources - satellites that see through clouds, measure forest height, track climate - and packs it all into a unique digital fingerprint for every single 10-meter square of Earth."
 > — Ksenia Se, [0:58](https://www.youtube.com/watch?v=PAJwWsGlQKc&t=58s)
 
 ### "Click on a Mangrove, Find Every Similar Ecosystem"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PAJwWsGlQKc?start=120&end=165" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/PAJwWsGlQKc/hqdefault.jpg)](https://www.youtube.com/watch?v=PAJwWsGlQKc&t=120s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:00-2:45" "https://www.youtube.com/watch?v=PAJwWsGlQKc" --force-keyframes-at-cuts --merge-output-format mp4 -o "PAJwWsGlQKc-2m00s.mp4"
+```
+</details>
 
 > "You can now do things that were previously impossible. You can click on a specific type of mangrove forest in one country and instantly find every similar ecosystem across the globe in seconds. You can compare the fingerprint of a piece of land from 2020 to now."
 > — Ksenia Se, [2:00](https://www.youtube.com/watch?v=PAJwWsGlQKc&t=120s)
 
 ### "NotebookLM Turns Notes Into Explainer Videos"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PAJwWsGlQKc?start=215&end=270" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/PAJwWsGlQKc/hqdefault.jpg)](https://www.youtube.com/watch?v=PAJwWsGlQKc&t=215s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:35-4:30" "https://www.youtube.com/watch?v=PAJwWsGlQKc" --force-keyframes-at-cuts --merge-output-format mp4 -o "PAJwWsGlQKc-3m35s.mp4"
+```
+</details>
 
 > "An AI assistant that takes your search notes and turns them into a narrated explainer video. No editing required."
 > — Ksenia Se, [3:35](https://www.youtube.com/watch?v=PAJwWsGlQKc&t=215s)
 
 ### "ChatGPT Moved a Psychologist to Tears"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PAJwWsGlQKc?start=320&end=380" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/PAJwWsGlQKc/hqdefault.jpg)](https://www.youtube.com/watch?v=PAJwWsGlQKc&t=320s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:20-6:20" "https://www.youtube.com/watch?v=PAJwWsGlQKc" --force-keyframes-at-cuts --merge-output-format mp4 -o "PAJwWsGlQKc-5m20s.mp4"
+```
+</details>
 
 > "A quiet exchange between the psychologist and ChatGPT that left him in tears. These all point in the same direction - AI systems that aren't just faster or more capable, but that start to hold context in deeper ways, whether that's the context of climate, of your team project, or your inner life."
 > — Ksenia Se, [5:20](https://www.youtube.com/watch?v=PAJwWsGlQKc&t=320s)

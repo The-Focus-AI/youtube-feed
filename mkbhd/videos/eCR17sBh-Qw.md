@@ -34,35 +34,70 @@ MKBHD analyzes the concept of "switching cost" in the smartphone industry, using
 
 ### "65% Wouldn't Switch Even to Save Money"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eCR17sBh-Qw?start=104&end=160" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eCR17sBh-Qw/hqdefault.jpg)](https://www.youtube.com/watch?v=eCR17sBh-Qw&t=104s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:44-2:40" "https://www.youtube.com/watch?v=eCR17sBh-Qw" --force-keyframes-at-cuts --merge-output-format mp4 -o "eCR17sBh-Qw-1m44s.mp4"
+```
+</details>
 
 > "65% of people, even if it meant they'd spent less money, still wouldn't switch phone carriers. So that is an example of an industry with a tremendously high perceived switching cost."
 > — Marques Brownlee, [1:44](https://www.youtube.com/watch?v=eCR17sBh-Qw&t=104s)
 
 ### "Copying is Actually About Switching Costs"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eCR17sBh-Qw?start=204&end=265" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eCR17sBh-Qw/hqdefault.jpg)](https://www.youtube.com/watch?v=eCR17sBh-Qw&t=204s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:24-4:25" "https://www.youtube.com/watch?v=eCR17sBh-Qw" --force-keyframes-at-cuts --merge-output-format mp4 -o "eCR17sBh-Qw-3m24s.mp4"
+```
+</details>
 
 > "To a lot of people, this looks like a basic copycat of that iPhone journal app. But the other real motivation behind making an app like this is switching costs... So now someone who really likes journaling no longer has a reason why they couldn't switch."
 > — Marques Brownlee, [3:24](https://www.youtube.com/watch?v=eCR17sBh-Qw&t=204s)
 
 ### "The Battle is Now Kids and Switchers"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eCR17sBh-Qw?start=372&end=430" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eCR17sBh-Qw/hqdefault.jpg)](https://www.youtube.com/watch?v=eCR17sBh-Qw&t=372s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:12-7:10" "https://www.youtube.com/watch?v=eCR17sBh-Qw" --force-keyframes-at-cuts --merge-output-format mp4 -o "eCR17sBh-Qw-6m12s.mp4"
+```
+</details>
 
 > "They used to be in a battle for new customers, but there's just so much less of that now. Like most of the world already has a smartphone. So the real battle now is actually two things. It's kids and people getting their first smartphone... And then switchers."
 > — Marques Brownlee, [6:12](https://www.youtube.com/watch?v=eCR17sBh-Qw&t=372s)
 
 ### "Blue Bubble Pressure is So Real"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eCR17sBh-Qw?start=403&end=465" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eCR17sBh-Qw/hqdefault.jpg)](https://www.youtube.com/watch?v=eCR17sBh-Qw&t=403s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:43-7:45" "https://www.youtube.com/watch?v=eCR17sBh-Qw" --force-keyframes-at-cuts --merge-output-format mp4 -o "eCR17sBh-Qw-6m43s.mp4"
+```
+</details>
 
 > "The last thing is you can't talk about switching cost in the US and normies in the US without talking about the biggest obstacle that Apple has set up, which is iMessage lockin... Blue bubble pressure is so real."
 > — Marques Brownlee, [6:49](https://www.youtube.com/watch?v=eCR17sBh-Qw&t=409s)
 
 ### "Google Literally Used Applause Signs"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eCR17sBh-Qw?start=463&end=520" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eCR17sBh-Qw/hqdefault.jpg)](https://www.youtube.com/watch?v=eCR17sBh-Qw&t=463s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:43-8:40" "https://www.youtube.com/watch?v=eCR17sBh-Qw" --force-keyframes-at-cuts --merge-output-format mp4 -o "eCR17sBh-Qw-7m43s.mp4"
+```
+</details>
 
 > "I wasn't there so I can't confirm this but Andrew Edwards did say that they were showing applause signs to the audience who were there in person."
 > — Marques Brownlee, [7:43](https://www.youtube.com/watch?v=eCR17sBh-Qw&t=463s)

@@ -36,42 +36,84 @@ The interview also explores the challenges of starting a hardware defense compan
 
 ### "The US has lost everything in the middle between sanctions and nuclear war"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BiuTr1KyEOU?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BiuTr1KyEOU/hqdefault.jpg)](https://www.youtube.com/watch?v=BiuTr1KyEOU&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-1:00" "https://www.youtube.com/watch?v=BiuTr1KyEOU" --force-keyframes-at-cuts --merge-output-format mp4 -o "BiuTr1KyEOU-0m00s.mp4"
+```
+</details>
 
 > "The US has lost its ability to hold countries like China with some kind of middle ground of more than economic sanctions less than global nuclear war. What we're really doing is giving an option to policymakers for something in the middle."
 > — Bryon Hargis, [0:00](https://www.youtube.com/watch?v=BiuTr1KyEOU&t=0s)
 
 ### "It was so traumatic my co-founder lost three months of his life that he doesn't remember"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BiuTr1KyEOU?start=415&end=480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BiuTr1KyEOU/hqdefault.jpg)](https://www.youtube.com/watch?v=BiuTr1KyEOU&t=415s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:55-8:00" "https://www.youtube.com/watch?v=BiuTr1KyEOU" --force-keyframes-at-cuts --merge-output-format mp4 -o "BiuTr1KyEOU-6m55s.mp4"
+```
+</details>
 
 > "It was actually so traumatic to one of my co-founders that he literally seems to have lost three months of his life that he doesn't remember. I had to remind him because he was like 'why are you lying to that person?' and I'm like 'what are you talking about? That was all the truth.'"
 > — Bryon Hargis, [6:55](https://www.youtube.com/watch?v=BiuTr1KyEOU&t=415s)
 
 ### "If you're looking for a different outcome, you need to do something different"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BiuTr1KyEOU?start=515&end=575" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BiuTr1KyEOU/hqdefault.jpg)](https://www.youtube.com/watch?v=BiuTr1KyEOU&t=515s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:35-9:35" "https://www.youtube.com/watch?v=BiuTr1KyEOU" --force-keyframes-at-cuts --merge-output-format mp4 -o "BiuTr1KyEOU-8m35s.mp4"
+```
+</details>
 
 > "If you're looking for a different outcome, you need to do something different. If you're doing something different, most people are going to think you're nuts. I don't care that everybody thinks we're doing aerospace wrong. I don't believe that and I think the results will speak for themselves."
 > — Bryon Hargis, [8:35](https://www.youtube.com/watch?v=BiuTr1KyEOU&t=515s)
 
 ### "My management style is like Jesus has the wheel"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BiuTr1KyEOU?start=858&end=920" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BiuTr1KyEOU/hqdefault.jpg)](https://www.youtube.com/watch?v=BiuTr1KyEOU&t=858s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:18-15:20" "https://www.youtube.com/watch?v=BiuTr1KyEOU" --force-keyframes-at-cuts --merge-output-format mp4 -o "BiuTr1KyEOU-14m18s.mp4"
+```
+</details>
 
 > "I'm not a micromanager. One of my co-founders said my management style is like Jesus has the wheel. You can trust people's decision making if you're all aligned on what the high level goal is."
 > — Bryon Hargis, [14:18](https://www.youtube.com/watch?v=BiuTr1KyEOU&t=858s)
 
 ### "Success in business has a huge degree of luck but being relentless is what you can control"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BiuTr1KyEOU?start=342&end=405" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BiuTr1KyEOU/hqdefault.jpg)](https://www.youtube.com/watch?v=BiuTr1KyEOU&t=342s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:42-6:45" "https://www.youtube.com/watch?v=BiuTr1KyEOU" --force-keyframes-at-cuts --merge-output-format mp4 -o "BiuTr1KyEOU-5m42s.mp4"
+```
+</details>
 
 > "Success in business has a huge degree of luck and you can't control that. But what can you control? You can control being relentless. You get kicked and you get up again and you do it again. Not every try is going to be successful, but odds are one of them will."
 > — Bryon Hargis, [5:42](https://www.youtube.com/watch?v=BiuTr1KyEOU&t=342s)
 
 ### "Hardware, defense, only selling to government - the worst possible combination"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BiuTr1KyEOU?start=390&end=450" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BiuTr1KyEOU/hqdefault.jpg)](https://www.youtube.com/watch?v=BiuTr1KyEOU&t=390s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:30-7:30" "https://www.youtube.com/watch?v=BiuTr1KyEOU" --force-keyframes-at-cuts --merge-output-format mp4 -o "BiuTr1KyEOU-6m30s.mp4"
+```
+</details>
 
 > "When we started the business in late '22, defense was anti-hot. We're not only doing defense, but we're doing hardware. And then I hit them with the zinger when we're only going to sell to the government, which investors love."
 > — Bryon Hargis, [6:30](https://www.youtube.com/watch?v=BiuTr1KyEOU&t=390s)

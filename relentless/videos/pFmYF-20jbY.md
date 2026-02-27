@@ -35,49 +35,98 @@ The conversation delves into why great leaders are fundamentally "addicts" drive
 
 ### "Every great person is fundamentally an addict"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pFmYF-20jbY?start=2&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pFmYF-20jbY/hqdefault.jpg)](https://www.youtube.com/watch?v=pFmYF-20jbY&t=2s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:02-1:00" "https://www.youtube.com/watch?v=pFmYF-20jbY" --force-keyframes-at-cuts --merge-output-format mp4 -o "pFmYF-20jbY-0m02s.mp4"
+```
+</details>
 
 > "Every great person is fundamentally an addict. So what's your internal monologue when an addict is doing meth or heroin? There's nothing other than the addiction. That's how Thomas Edison felt about inventing. How Steve Jobs felt about designing. How Napoleon felt about conquering."
 > — Ben Wilson, [0:02](https://www.youtube.com/watch?v=pFmYF-20jbY&t=2s)
 
 ### "I'm a shark who smells blood"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pFmYF-20jbY?start=20&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pFmYF-20jbY/hqdefault.jpg)](https://www.youtube.com/watch?v=pFmYF-20jbY&t=20s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:20-1:00" "https://www.youtube.com/watch?v=pFmYF-20jbY" --force-keyframes-at-cuts --merge-output-format mp4 -o "pFmYF-20jbY-0m20s.mp4"
+```
+</details>
 
 > "It's literally like I'm a shark who smells blood and you're asking me about my childhood. You know what I mean? Like I smell blood. Like I got to go eat."
 > — Ben Wilson, [0:20](https://www.youtube.com/watch?v=pFmYF-20jbY&t=20s)
 
 ### "The number one job of a leader is to provide certainty"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pFmYF-20jbY?start=2906&end=2970" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pFmYF-20jbY/hqdefault.jpg)](https://www.youtube.com/watch?v=pFmYF-20jbY&t=2906s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*48:26-49:30" "https://www.youtube.com/watch?v=pFmYF-20jbY" --force-keyframes-at-cuts --merge-output-format mp4 -o "pFmYF-20jbY-48m26s.mp4"
+```
+</details>
 
 > "World conquerors live with uncertainty. In fact, uncertainty is the medium in which they thrive. While everyone else freaks out and is paralyzed by uncertainty, they embrace it. And yet at the same time, their number one job for those who follow them is to provide certainty. You provide certainty in an uncertain world."
 > — Ben Wilson, [48:26](https://www.youtube.com/watch?v=pFmYF-20jbY&t=2906s)
 
 ### "Caesar took on half a billion dollars in personal debt"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pFmYF-20jbY?start=3059&end=3130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pFmYF-20jbY/hqdefault.jpg)](https://www.youtube.com/watch?v=pFmYF-20jbY&t=3059s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*50:59-52:10" "https://www.youtube.com/watch?v=pFmYF-20jbY" --force-keyframes-at-cuts --merge-output-format mp4 -o "pFmYF-20jbY-50m59s.mp4"
+```
+</details>
 
 > "Caesar very famously takes out a ridiculous amount of debt - in the equivalent it's like half a billion dollars in debt or something. Ridiculous. But personal debt. He goes from the most in debt man that Rome has ever seen to the wealthiest man that Rome has, maybe even the entire world has ever seen."
 > — Ben Wilson, [50:59](https://www.youtube.com/watch?v=pFmYF-20jbY&t=3059s)
 
 ### "Nothing great is created by committee"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pFmYF-20jbY?start=3529&end=3590" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pFmYF-20jbY/hqdefault.jpg)](https://www.youtube.com/watch?v=pFmYF-20jbY&t=3529s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*58:49-59:50" "https://www.youtube.com/watch?v=pFmYF-20jbY" --force-keyframes-at-cuts --merge-output-format mp4 -o "pFmYF-20jbY-58m49s.mp4"
+```
+</details>
 
 > "I think the optimal form of the world is you have the government that is not a dictatorship. But then you have on a small scale individual companies as dictatorships. Nothing great is created by committee. Like almost anywhere. Which means that you have to have on a small scale dictatorships on a company scale."
 > — Ben Wilson, [58:49](https://www.youtube.com/watch?v=pFmYF-20jbY&t=3529s)
 
 ### "The greatest resource lack in the world is vision"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pFmYF-20jbY?start=4041&end=4100" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pFmYF-20jbY/hqdefault.jpg)](https://www.youtube.com/watch?v=pFmYF-20jbY&t=4041s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*67:21-68:20" "https://www.youtube.com/watch?v=pFmYF-20jbY" --force-keyframes-at-cuts --merge-output-format mp4 -o "pFmYF-20jbY-67m21s.mp4"
+```
+</details>
 
 > "The greatest resource lack that we have in the world is not energy, it's not carbon, it's not oil, it's vision. And I think that there is a tremendous lack of vision in the world and there's never been less vision because it's so easy to be distracted."
 > — Ben Wilson, [1:07:21](https://www.youtube.com/watch?v=pFmYF-20jbY&t=4041s)
 
 ### "Great achievers eliminate optionality"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pFmYF-20jbY?start=4418&end=4480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pFmYF-20jbY/hqdefault.jpg)](https://www.youtube.com/watch?v=pFmYF-20jbY&t=4418s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*73:38-74:40" "https://www.youtube.com/watch?v=pFmYF-20jbY" --force-keyframes-at-cuts --merge-output-format mp4 -o "pFmYF-20jbY-73m38s.mp4"
+```
+</details>
 
 > "Great achievers eliminate optionality. The flip side of having lots of options is you're not going all in on anything. And great achievers go all in. They burn the boats. And it's not even a strategic decision for them often. It's just who they are."
 > — Ben Wilson, [1:13:38](https://www.youtube.com/watch?v=pFmYF-20jbY&t=4418s)

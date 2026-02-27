@@ -37,42 +37,84 @@ Looking ahead, Carolla predicts that California's fiscal problems - including an
 
 ### "Do Not Expect Any Rebuilding"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pw7po593hJM?start=412&end=470" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pw7po593hJM/hqdefault.jpg)](https://www.youtube.com/watch?v=pw7po593hJM&t=412s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:52-7:50" "https://www.youtube.com/watch?v=pw7po593hJM" --force-keyframes-at-cuts --merge-output-format mp4 -o "pw7po593hJM-6m52s.mp4"
+```
+</details>
 
 > "Do not expect any rebuilding. You guys have no idea what the permitting process is. You have no idea how much red tape there is in regulation. This is Los Angeles. Karen Bass is the mayor. There will be nothing rebuilt. I guarantee you that."
 > — Adam Carolla, [6:58](https://www.youtube.com/watch?v=pw7po593hJM&t=418s)
 
 ### "Gyno-Fascism: Safety Above All Else"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pw7po593hJM?start=497&end=560" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pw7po593hJM/hqdefault.jpg)](https://www.youtube.com/watch?v=pw7po593hJM&t=497s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:17-9:20" "https://www.youtube.com/watch?v=pw7po593hJM" --force-keyframes-at-cuts --merge-output-format mp4 -o "pw7po593hJM-8m17s.mp4"
+```
+</details>
 
 > "This is what I'm starting to learn is basically what people are calling gyno-fascism, which is way too many women in positions of power with an eye on safety. And it's safety uber alles."
 > — Adam Carolla, [8:40](https://www.youtube.com/watch?v=pw7po593hJM&t=520s)
 
 ### "Megan Kelly Has the Brain of a Cage Fighter"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pw7po593hJM?start=1440&end=1500" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pw7po593hJM/hqdefault.jpg)](https://www.youtube.com/watch?v=pw7po593hJM&t=1440s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*24:00-25:00" "https://www.youtube.com/watch?v=pw7po593hJM" --force-keyframes-at-cuts --merge-output-format mp4 -o "pw7po593hJM-24m00s.mp4"
+```
+</details>
 
 > "Megan Kelly has the brain of a cage fighter. She is more masculine than any dude I know in how she thinks."
 > — Adam Carolla, [24:20](https://www.youtube.com/watch?v=pw7po593hJM&t=1460s)
 
 ### "DEI Hiring: Good Luck Finding a Qualified Roofer"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pw7po593hJM?start=2000&end=2060" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pw7po593hJM/hqdefault.jpg)](https://www.youtube.com/watch?v=pw7po593hJM&t=2000s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*33:20-34:20" "https://www.youtube.com/watch?v=pw7po593hJM" --force-keyframes-at-cuts --merge-output-format mp4 -o "pw7po593hJM-33m20s.mp4"
+```
+</details>
 
 > "If you're going to limit your pool of roofers to women of color, you're going to have a hard time finding a qualified roofer and you're going to have to wait a while."
 > — Adam Carolla, [33:50](https://www.youtube.com/watch?v=pw7po593hJM&t=2030s)
 
 ### "Safe Spaces vs Octagons: America Will Self-Segregate"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pw7po593hJM?start=2174&end=2240" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pw7po593hJM/hqdefault.jpg)](https://www.youtube.com/watch?v=pw7po593hJM&t=2174s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*36:14-37:20" "https://www.youtube.com/watch?v=pw7po593hJM" --force-keyframes-at-cuts --merge-output-format mp4 -o "pw7po593hJM-36m14s.mp4"
+```
+</details>
 
 > "I said to Drew about 8 years ago, 'What's next is going to be safe spaces and octagons.' All the people tired of living in a nanny state are going to self-segregate. They're going to move to Florida, Texas, Tennessee. And the safe space people are going to end up in Portland and Seattle and Los Angeles."
 > — Adam Carolla, [36:30](https://www.youtube.com/watch?v=pw7po593hJM&t=2190s)
 
 ### "Service Dog at the Airport: Human Nature"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pw7po593hJM?start=2400&end=2460" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pw7po593hJM/hqdefault.jpg)](https://www.youtube.com/watch?v=pw7po593hJM&t=2400s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*40:00-41:00" "https://www.youtube.com/watch?v=pw7po593hJM" --force-keyframes-at-cuts --merge-output-format mp4 -o "pw7po593hJM-40m00s.mp4"
+```
+</details>
 
 > "10 minutes went by and the airport looked like a kennel because people are weak and they will take advantage of whatever system they can take advantage of."
 > — Adam Carolla, [40:00](https://www.youtube.com/watch?v=pw7po593hJM&t=2400s)

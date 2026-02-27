@@ -36,42 +36,84 @@ The video explores Fjallraven's Expedition Down Parka and Polar Expedition Parka
 
 ### "He flew to the US to meet with Eddie Bauer"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UIsQ0jPhzJQ?start=318&end=380" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/UIsQ0jPhzJQ/hqdefault.jpg)](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=318s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:18-6:20" "https://www.youtube.com/watch?v=UIsQ0jPhzJQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "UIsQ0jPhzJQ-5m18s.mp4"
+```
+</details>
 
 > "Ake didn't really know how to sew a down jacket, so he flew to the US to meet with Eddie Bauer. And I almost spit my drink out - I was like, not the brand, the man, Edward Bauer."
 > — Michael, [5:18](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=318s)
 
 ### "Why are you using 600-year-old technology?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UIsQ0jPhzJQ?start=187&end=245" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/UIsQ0jPhzJQ/hqdefault.jpg)](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=187s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:07-4:05" "https://www.youtube.com/watch?v=UIsQ0jPhzJQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "UIsQ0jPhzJQ-3m07s.mp4"
+```
+</details>
 
 > "I asked Donna and Carl - there's all these outdoor brands that are doing a lot of very techno-forward stuff that you guys are not. Why is that? They're still using wax bars, which was first started being used in the 1400s."
 > — Michael, [3:08](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=188s)
 
 ### "Hockey laces because he didn't have proper cords"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UIsQ0jPhzJQ?start=49&end=110" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/UIsQ0jPhzJQ/hqdefault.jpg)](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=49s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:49-1:50" "https://www.youtube.com/watch?v=UIsQ0jPhzJQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "UIsQ0jPhzJQ-0m49s.mp4"
+```
+</details>
 
 > "When Ake was in the lab sewing up this jacket for the first time, he needed cords so he could cinch the hood and the hem tight. But he didn't have cords. Instead what he did have was hockey laces."
 > — Michael, [0:51](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=51s)
 
 ### "By chasing this crazy technical route, you lose people"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UIsQ0jPhzJQ?start=965&end=1025" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/UIsQ0jPhzJQ/hqdefault.jpg)](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=965s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:05-17:05" "https://www.youtube.com/watch?v=UIsQ0jPhzJQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "UIsQ0jPhzJQ-16m05s.mp4"
+```
+</details>
 
 > "By chasing this crazy technical route and going absolutely insane, you lose people in the process. And when you lose people, they don't want to go outside, they don't care about preserving nature."
 > — Carl, [16:05](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=965s)
 
 ### "Push us - ask people what they want to see improved"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UIsQ0jPhzJQ?start=1022&end=1075" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/UIsQ0jPhzJQ/hqdefault.jpg)](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=1022s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*17:02-17:55" "https://www.youtube.com/watch?v=UIsQ0jPhzJQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "UIsQ0jPhzJQ-17m02s.mp4"
+```
+</details>
 
 > "Donna basically forcefully said to me like four or five times 'push us - ask people watching this video what they want to see improved, what can we change, what are they thinking about.'"
 > — Michael, [17:05](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=1025s)
 
 ### "I'm carrying three global powers behind me kicking and screaming"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UIsQ0jPhzJQ?start=877&end=930" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/UIsQ0jPhzJQ/hqdefault.jpg)](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=877s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:37-15:30" "https://www.youtube.com/watch?v=UIsQ0jPhzJQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "UIsQ0jPhzJQ-14m37s.mp4"
+```
+</details>
 
 > "Donna said 'I'm carrying three global powers behind me kicking and screaming' when she's talking about trying to get zipper manufacturers on board with removing harmful chemicals."
 > — Michael, [14:37](https://www.youtube.com/watch?v=UIsQ0jPhzJQ&t=877s)

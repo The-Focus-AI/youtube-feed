@@ -34,42 +34,84 @@ The second half of the interview dives deep into Peter's philosophy of "agentic 
 
 ### "I just prompted it into existence"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YFjfBk8HI5o?start=336&end=396" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/YFjfBk8HI5o/hqdefault.jpg)](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=336s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:36-6:36" "https://www.youtube.com/watch?v=YFjfBk8HI5o" --force-keyframes-at-cuts --merge-output-format mp4 -o "YFjfBk8HI5o-5m36s.mp4"
+```
+</details>
 
 > "I wanted that since April. A personal assistant. And I played around with stuff that gets all my WhatsApp... I pulled in all the data... and I got some really profound results. Like, I sent it to my friends... time flew by and it was November. The thing I started is actually happening. I just prompted it into existence."
 > -- Peter Steinberger, [5:36](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=336s)
 
 ### "How the fuck did it figure that out?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YFjfBk8HI5o?start=960&end=1020" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/YFjfBk8HI5o/hqdefault.jpg)](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=960s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:00-17:00" "https://www.youtube.com/watch?v=YFjfBk8HI5o" --force-keyframes-at-cuts --merge-output-format mp4 -o "YFjfBk8HI5o-16m00s.mp4"
+```
+</details>
 
 > "I sent an audio message and it just responded. And it's not supposed to work because you didn't give it that capability. I literally went, 'How the fuck did it figure that out?' The mad lad checked the header of the file, it was opus, so it used ffmpeg, wanted to use whisper but it didn't work, found the OpenAI key and just used Curl to send the audio."
 > -- Peter Steinberger, [16:00](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=960s)
 
 ### "The agent understands its own existence"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YFjfBk8HI5o?start=1370&end=1430" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/YFjfBk8HI5o/hqdefault.jpg)](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=1370s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*22:50-23:50" "https://www.youtube.com/watch?v=YFjfBk8HI5o" --force-keyframes-at-cuts --merge-output-format mp4 -o "YFjfBk8HI5o-22m50s.mp4"
+```
+</details>
 
 > "I watched my agent happily click things. It's very aware. It knows and understands how the harness works. It knows what model it runs. It understands its own system. Oh, you don't like anything? You just prompted it to modify its own software. We have people talk about self-modifying AI and I didn't even plan it."
 > -- Peter Steinberger, [22:50](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=1370s)
 
 ### "They sniped it in five seconds"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YFjfBk8HI5o?start=2103&end=2165" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/YFjfBk8HI5o/hqdefault.jpg)](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=2103s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*35:03-36:05" "https://www.youtube.com/watch?v=YFjfBk8HI5o" --force-keyframes-at-cuts --merge-output-format mp4 -o "YFjfBk8HI5o-35m03s.mp4"
+```
+</details>
 
 > "I had two browser windows open. An empty account ready to be renamed, and the other one I renamed. The five seconds of pressing rename there was too long. They stole the account name. Literally. Because there's no protection. They're not just good at harassment, they're good at using scripts and tools."
 > -- Peter Steinberger, [35:03](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=2103s)
 
 ### "After 3 AM I switch to vibe coding"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YFjfBk8HI5o?start=3885&end=3945" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/YFjfBk8HI5o/hqdefault.jpg)](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=3885s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*64:45-65:45" "https://www.youtube.com/watch?v=YFjfBk8HI5o" --force-keyframes-at-cuts --merge-output-format mp4 -o "YFjfBk8HI5o-64m45s.mp4"
+```
+</details>
 
 > "I actually call it the agentic Dunning-Kruger curve. A lot of people start and maybe start vibe coding. You prefer agentic engineering? Yeah, I always tell people I do agentic engineering. After 3:00 AM I switch to vibe coding. What a walk of shame. Yeah, you just have to clean up. We've all been there."
 > -- Peter Steinberger, [1:04:45](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=3885s)
 
 ### "Both Ned and Mark basically played with it"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YFjfBk8HI5o?start=8280&end=8340" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/YFjfBk8HI5o/hqdefault.jpg)](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=8280s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*138:00-139:00" "https://www.youtube.com/watch?v=YFjfBk8HI5o" --force-keyframes-at-cuts --merge-output-format mp4 -o "YFjfBk8HI5o-138m00s.mp4"
+```
+</details>
 
 > "Both Ned and Mark basically played with it. And I didn't get the same from every company. He got me in his WhatsApp and asked for a call. And I'm like, I don't know, give me 10 minutes. And then we had a 10-minute fight about what's better, Claude Code or Codex."
 > -- Peter Steinberger, [2:18:00](https://www.youtube.com/watch?v=YFjfBk8HI5o&t=8280s)

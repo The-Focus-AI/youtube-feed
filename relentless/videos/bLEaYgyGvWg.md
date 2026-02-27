@@ -31,42 +31,84 @@ The conversation covers Arc's strategy of starting in the premium market segment
 
 ### "Don't think gas cars. Think gas lawnmowers and leaf blowers"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bLEaYgyGvWg?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bLEaYgyGvWg/hqdefault.jpg)](https://www.youtube.com/watch?v=bLEaYgyGvWg&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-1:00" "https://www.youtube.com/watch?v=bLEaYgyGvWg" --force-keyframes-at-cuts --merge-output-format mp4 -o "bLEaYgyGvWg-0m00s.mp4"
+```
+</details>
 
 > "It's truly hard to convey how far behind the marine industry is. Don't think of gas cars. Think of gas lawnmowers, gas leaf blowers. We are not taking market risk and we're not taking technology risk cuz automotive has solved this. What we are taking is execution risk."
 > — Mitch Lee, [0:00](https://www.youtube.com/watch?v=bLEaYgyGvWg&t=0s)
 
 ### "Boat fumes lower your IQ by 10 points every time you go out"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bLEaYgyGvWg?start=526&end=590" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bLEaYgyGvWg/hqdefault.jpg)](https://www.youtube.com/watch?v=bLEaYgyGvWg&t=526s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:46-9:50" "https://www.youtube.com/watch?v=bLEaYgyGvWg" --force-keyframes-at-cuts --merge-output-format mp4 -o "bLEaYgyGvWg-8m46s.mp4"
+```
+</details>
 
 > "Gas boats suck at what they do. They are very loud, there's no sound dampening. They've got these fumes coming off of them. You're just like surrounding yourself with fumes that lower your IQ by 10 points every time you go out."
 > — Mitch Lee, [8:46](https://www.youtube.com/watch?v=bLEaYgyGvWg&t=526s)
 
 ### "The two best days of boat ownership are the day you buy it and the day you sell it"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bLEaYgyGvWg?start=587&end=650" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bLEaYgyGvWg/hqdefault.jpg)](https://www.youtube.com/watch?v=bLEaYgyGvWg&t=587s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:47-10:50" "https://www.youtube.com/watch?v=bLEaYgyGvWg" --force-keyframes-at-cuts --merge-output-format mp4 -o "bLEaYgyGvWg-9m47s.mp4"
+```
+</details>
 
 > "There's very few redeeming qualities about owning a boat which is why in the industry you get these sayings like the two best days of boat ownership are the day you buy it and the day you sell it."
 > — Mitch Lee, [9:47](https://www.youtube.com/watch?v=bLEaYgyGvWg&t=587s)
 
 ### "The fuel gauge goes like this because the fuel's sloshing around"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bLEaYgyGvWg?start=712&end=775" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bLEaYgyGvWg/hqdefault.jpg)](https://www.youtube.com/watch?v=bLEaYgyGvWg&t=712s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:52-12:55" "https://www.youtube.com/watch?v=bLEaYgyGvWg" --force-keyframes-at-cuts --merge-output-format mp4 -o "bLEaYgyGvWg-11m52s.mp4"
+```
+</details>
 
 > "Then you get out on the water and you're like, great. Well, I'm on a gas boat and my fuel gauge goes like this because the fuel's sloshing around. I don't actually know how long I can go on this thing. They haven't even solved that."
 > — Mitch Lee, [11:52](https://www.youtube.com/watch?v=bLEaYgyGvWg&t=712s)
 
 ### "The windshield went from $30,000 to $1,200"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bLEaYgyGvWg?start=1588&end=1650" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bLEaYgyGvWg/hqdefault.jpg)](https://www.youtube.com/watch?v=bLEaYgyGvWg&t=1588s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*26:28-27:30" "https://www.youtube.com/watch?v=bLEaYgyGvWg" --force-keyframes-at-cuts --merge-output-format mp4 -o "bLEaYgyGvWg-26m28s.mp4"
+```
+</details>
 
 > "We didn't know what we were doing when we were designing the windshield. You look at the Ark1, it's probably a $30,000 windshield. You look at the Ark Sport, it's a $1,200 windshield. Huge difference that comes from learning how to actually go do this."
 > — Mitch Lee, [26:59](https://www.youtube.com/watch?v=bLEaYgyGvWg&t=1619s)
 
 ### "Cargo ships can go hybrid electric even if you never plug them in"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bLEaYgyGvWg?start=1964&end=2030" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bLEaYgyGvWg/hqdefault.jpg)](https://www.youtube.com/watch?v=bLEaYgyGvWg&t=1964s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*32:44-33:50" "https://www.youtube.com/watch?v=bLEaYgyGvWg" --force-keyframes-at-cuts --merge-output-format mp4 -o "bLEaYgyGvWg-32m44s.mp4"
+```
+</details>
 
 > "Your average power consumption when you blend my loitering speeds with my high power speeds is only 1,000 horsepower. So I can just run those generators at their peak efficiency when I need them to. Even if you only use a hybrid model and never ever plug it in, it is still more efficient."
 > — Mitch Lee, [32:44](https://www.youtube.com/watch?v=bLEaYgyGvWg&t=1964s)

@@ -34,42 +34,84 @@ Tao also shares insights about productivity in mathematics, advice for young mat
 
 ### "Problems just at the boundary between easy and impossible"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HUkBz-cdB-k?start=49&end=109" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HUkBz-cdB-k/hqdefault.jpg)](https://www.youtube.com/watch?v=HUkBz-cdB-k&t=49s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:49-1:49" "https://www.youtube.com/watch?v=HUkBz-cdB-k" --force-keyframes-at-cuts --merge-output-format mp4 -o "HUkBz-cdB-k-0m49s.mp4"
+```
+</details>
 
 > "You can make problems arbitrarily difficult. What's really interesting are the problems just at the boundary between what we can do relatively easily and what are hopeless. Problems where existing techniques can do like 90% of the job and then you just need that remaining 10%."
 > — Terence Tao, [0:49](https://www.youtube.com/watch?v=HUkBz-cdB-k&t=49s)
 
 ### "The Kaya needle problem was a little puzzle from 1918"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HUkBz-cdB-k?start=120&end=180" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HUkBz-cdB-k/hqdefault.jpg)](https://www.youtube.com/watch?v=HUkBz-cdB-k&t=120s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:00-3:00" "https://www.youtube.com/watch?v=HUkBz-cdB-k" --force-keyframes-at-cuts --merge-output-format mp4 -o "HUkBz-cdB-k-2m00s.mp4"
+```
+</details>
 
 > "The Kaya problem is that you have a needle on a plane and you want it to execute a U-turn. You want to turn the needle around using as little area as possible. The surprising answer is that you can do it in arbitrarily small area using fractal-like patterns. It just got solved after over a century."
 > — Terence Tao, [2:00](https://www.youtube.com/watch?v=HUkBz-cdB-k&t=120s)
 
 ### "Navier-Stokes could have a machine that computes anything"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HUkBz-cdB-k?start=376&end=436" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HUkBz-cdB-k/hqdefault.jpg)](https://www.youtube.com/watch?v=HUkBz-cdB-k&t=376s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:16-7:16" "https://www.youtube.com/watch?v=HUkBz-cdB-k" --force-keyframes-at-cuts --merge-output-format mp4 -o "HUkBz-cdB-k-6m16s.mp4"
+```
+</details>
 
 > "The Navier-Stokes equations might be able to embed a universal Turing machine. Imagine a fluid configuration that functions like a computer. If you could do that, you could make fluids that do arbitrary computation, including blow up in finite time."
 > — Terence Tao, [6:16](https://www.youtube.com/watch?v=HUkBz-cdB-k&t=376s)
 
 ### "Mathematics vs Physics: different standards of truth"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HUkBz-cdB-k?start=2666&end=2726" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HUkBz-cdB-k/hqdefault.jpg)](https://www.youtube.com/watch?v=HUkBz-cdB-k&t=2666s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*44:26-45:26" "https://www.youtube.com/watch?v=HUkBz-cdB-k" --force-keyframes-at-cuts --merge-output-format mp4 -o "HUkBz-cdB-k-44m26s.mp4"
+```
+</details>
 
 > "Physicists and mathematicians have different standards of truth. A physicist might say 'this theory explains 99% of observations.' A mathematician would say 'but there's still 1% unexplained, so it's not proven.' Both approaches are valid but lead to different kinds of knowledge."
 > — Terence Tao, [44:26](https://www.youtube.com/watch?v=HUkBz-cdB-k&t=2666s)
 
 ### "AI could win a Fields Medal in 10-20 years"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HUkBz-cdB-k?start=7487&end=7547" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HUkBz-cdB-k/hqdefault.jpg)](https://www.youtube.com/watch?v=HUkBz-cdB-k&t=7487s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*124:47-125:47" "https://www.youtube.com/watch?v=HUkBz-cdB-k" --force-keyframes-at-cuts --merge-output-format mp4 -o "HUkBz-cdB-k-124m47s.mp4"
+```
+</details>
 
 > "Could AI win a Fields Medal? If we're talking about AI that produces human-readable proofs that other mathematicians can verify and build upon, I think it's plausible in maybe 10-20 years. The question is whether we call it 'winning' or just 'producing results.'"
 > — Terence Tao, [2:04:47](https://www.youtube.com/watch?v=HUkBz-cdB-k&t=7487s)
 
 ### "Perelman is the most mysterious figure in modern mathematics"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HUkBz-cdB-k?start=7450&end=7510" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HUkBz-cdB-k/hqdefault.jpg)](https://www.youtube.com/watch?v=HUkBz-cdB-k&t=7450s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*124:10-125:10" "https://www.youtube.com/watch?v=HUkBz-cdB-k" --force-keyframes-at-cuts --merge-output-format mp4 -o "HUkBz-cdB-k-124m10s.mp4"
+```
+</details>
 
 > "Perelman solved the Poincare Conjecture, one of the most important problems in mathematics, then turned down the Fields Medal and the million-dollar Clay prize. He's essentially withdrawn from mathematics and society. It's tragic but also fascinating."
 > — Terence Tao, [2:04:10](https://www.youtube.com/watch?v=HUkBz-cdB-k&t=7450s)

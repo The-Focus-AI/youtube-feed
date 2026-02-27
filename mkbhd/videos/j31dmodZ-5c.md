@@ -40,35 +40,70 @@ MKBHD critically examines the NEO humanoid robot from 1X Technologies, a $20,000
 
 ### "100% teleoperated"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j31dmodZ-5c?start=216&end=280" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/j31dmodZ-5c/hqdefault.jpg)](https://www.youtube.com/watch?v=j31dmodZ-5c&t=216s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:36-4:40" "https://www.youtube.com/watch?v=j31dmodZ-5c" --force-keyframes-at-cuts --merge-output-format mp4 -o "j31dmodZ-5c-3m36s.mp4"
+```
+</details>
 
 > "100% of the stuff they showed her, the carrying things around, the loading up the dishwasher... all of this is teleoperated."
 > — Marques Brownlee, [3:53](https://www.youtube.com/watch?v=j31dmodZ-5c&t=233s)
 
 ### "Lost art of waiting before announcing"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j31dmodZ-5c?start=365&end=420" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/j31dmodZ-5c/hqdefault.jpg)](https://www.youtube.com/watch?v=j31dmodZ-5c&t=365s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:05-7:00" "https://www.youtube.com/watch?v=j31dmodZ-5c" --force-keyframes-at-cuts --merge-output-format mp4 -o "j31dmodZ-5c-6m05s.mp4"
+```
+</details>
 
 > "There seems to be a bit of a lost art in waiting for a tech product before announcing and unveiling it."
 > — Marques Brownlee, [6:05](https://www.youtube.com/watch?v=j31dmodZ-5c&t=365s)
 
 ### "Selling the dream before the product"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j31dmodZ-5c?start=389&end=440" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/j31dmodZ-5c/hqdefault.jpg)](https://www.youtube.com/watch?v=j31dmodZ-5c&t=389s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:29-7:20" "https://www.youtube.com/watch?v=j31dmodZ-5c" --force-keyframes-at-cuts --merge-output-format mp4 -o "j31dmodZ-5c-6m29s.mp4"
+```
+</details>
 
 > "You end up selling the dream before you sell the actual product. And that is dangerous."
 > — Marques Brownlee, [6:35](https://www.youtube.com/watch?v=j31dmodZ-5c&t=395s)
 
 ### "People who would benefit most are least likely to adopt"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j31dmodZ-5c?start=912&end=955" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/j31dmodZ-5c/hqdefault.jpg)](https://www.youtube.com/watch?v=j31dmodZ-5c&t=912s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:12-15:55" "https://www.youtube.com/watch?v=j31dmodZ-5c" --force-keyframes-at-cuts --merge-output-format mp4 -o "j31dmodZ-5c-15m12s.mp4"
+```
+</details>
 
 > "The people that would benefit most from the ideal version of this robot, like the elderly, are the least likely to be early adopters."
 > — Marques Brownlee, [15:12](https://www.youtube.com/watch?v=j31dmodZ-5c&t=912s)
 
 ### "They offered me a sponsored video"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j31dmodZ-5c?start=929&end=970" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/j31dmodZ-5c/hqdefault.jpg)](https://www.youtube.com/watch?v=j31dmodZ-5c&t=929s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:29-16:10" "https://www.youtube.com/watch?v=j31dmodZ-5c" --force-keyframes-at-cuts --merge-output-format mp4 -o "j31dmodZ-5c-15m29s.mp4"
+```
+</details>
 
 > "Fun fact, they actually reached out to me 10 months ago in January offering to do a sponsored video. I didn't respond."
 > — Marques Brownlee, [15:29](https://www.youtube.com/watch?v=j31dmodZ-5c&t=929s)

@@ -37,28 +37,56 @@ MKBHD reviews the AirPods Pro 3, Apple's latest wireless earbuds that feature si
 
 ### "I Get It Now"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GB0b6KFZVq0?start=29&end=90" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GB0b6KFZVq0/hqdefault.jpg)](https://www.youtube.com/watch?v=GB0b6KFZVq0&t=29s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:29-1:30" "https://www.youtube.com/watch?v=GB0b6KFZVq0" --force-keyframes-at-cuts --merge-output-format mp4 -o "GB0b6KFZVq0-0m29s.mp4"
+```
+</details>
 
 > "I'm not typically a wear my headphones all day type of person like so many are. But with all the improvements in this third generation, I get it. I totally get it."
 > — Marques Brownlee, [0:43](https://www.youtube.com/watch?v=GB0b6KFZVq0&t=43s)
 
 ### "Best Fitting AirPods After Years of Falling Out"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GB0b6KFZVq0?start=137&end=200" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GB0b6KFZVq0/hqdefault.jpg)](https://www.youtube.com/watch?v=GB0b6KFZVq0&t=137s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:17-3:20" "https://www.youtube.com/watch?v=GB0b6KFZVq0" --force-keyframes-at-cuts --merge-output-format mp4 -o "GB0b6KFZVq0-2m17s.mp4"
+```
+</details>
 
 > "It's been years and generations of AirPods that have always slightly fallen out, but these actually stay."
 > — Marques Brownlee, [2:28](https://www.youtube.com/watch?v=GB0b6KFZVq0&t=148s)
 
 ### "World's Best ANC - No Asterisk"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GB0b6KFZVq0?start=330&end=400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GB0b6KFZVq0/hqdefault.jpg)](https://www.youtube.com/watch?v=GB0b6KFZVq0&t=330s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:30-6:40" "https://www.youtube.com/watch?v=GB0b6KFZVq0" --force-keyframes-at-cuts --merge-output-format mp4 -o "GB0b6KFZVq0-5m30s.mp4"
+```
+</details>
 
 > "World's best Active Noise Cancellation of any in-ear wireless headphones. No asterisk, no fine print, no weird comparisons or anything, just all gas, no breaks, big claim... Apple says a lot of things, things like the iPhone 16 Pro has studio quality microphones. Stuff that's obviously not totally true. But this one, this one's interesting."
 > — Marques Brownlee, [5:35](https://www.youtube.com/watch?v=GB0b6KFZVq0&t=335s)
 
 ### "3,295 Days and Still the Same Design"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GB0b6KFZVq0?start=637&end=690" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GB0b6KFZVq0/hqdefault.jpg)](https://www.youtube.com/watch?v=GB0b6KFZVq0&t=637s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:37-11:30" "https://www.youtube.com/watch?v=GB0b6KFZVq0" --force-keyframes-at-cuts --merge-output-format mp4 -o "GB0b6KFZVq0-10m37s.mp4"
+```
+</details>
 
 > "The original AirPods were announced 3,295 days ago and they still look like this. Like the tech has gotten way, way better. But all these generations with this small white..."
 > — Marques Brownlee, [10:37](https://www.youtube.com/watch?v=GB0b6KFZVq0&t=637s)

@@ -33,35 +33,70 @@ The episode features extended roleplay segments where Paul and Rich act as a hat
 
 ### "You're Not Going to Lose Your Job to AI. You're Going to Lose Your Job to Someone Else Using AI."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DyRfO9rlJGs?start=1560&end=1620" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DyRfO9rlJGs/hqdefault.jpg)](https://www.youtube.com/watch?v=DyRfO9rlJGs&t=1560s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*26:00-27:00" "https://www.youtube.com/watch?v=DyRfO9rlJGs" --force-keyframes-at-cuts --merge-output-format mp4 -o "DyRfO9rlJGs-26m00s.mp4"
+```
+</details>
 
 > "You guys know this. We've had this statement for three years now: you're not going to lose your job to AI. You're going to lose your job to someone else using AI. We've been saying this for years. And it was always kind of a cute little line. But it's real. That's actually happening."
 > -- Matt Seitz, [26:00](https://www.youtube.com/watch?v=DyRfO9rlJGs&t=1560s)
 
 ### "Bloom's Taxonomy and Why AI Feels Different"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DyRfO9rlJGs?start=1680&end=1740" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DyRfO9rlJGs/hqdefault.jpg)](https://www.youtube.com/watch?v=DyRfO9rlJGs&t=1680s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*28:00-29:00" "https://www.youtube.com/watch?v=DyRfO9rlJGs" --force-keyframes-at-cuts --merge-output-format mp4 -o "DyRfO9rlJGs-28m00s.mp4"
+```
+</details>
 
 > "Bloom's taxonomy is a hierarchy of thinking. At the bottom is understand and remember. At the top is create. Google, Wikipedia, YouTube -- they were incredible but only hit those two bottom levels. What these chatbots do is they hit all the top ones. You can say analyze this, synthesize this, write a short story."
 > -- Matt Seitz, [28:00](https://www.youtube.com/watch?v=DyRfO9rlJGs&t=1680s)
 
 ### "Shopify CEO: No New Headcount Until You Prove You Can't Do It with AI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DyRfO9rlJGs?start=900&end=960" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DyRfO9rlJGs/hqdefault.jpg)](https://www.youtube.com/watch?v=DyRfO9rlJGs&t=900s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:00-16:00" "https://www.youtube.com/watch?v=DyRfO9rlJGs" --force-keyframes-at-cuts --merge-output-format mp4 -o "DyRfO9rlJGs-15m00s.mp4"
+```
+</details>
 
 > "The CEO of Shopify says, listen, I am not going to give you new headcount until you prove to me you can't do this with AI. So one is a push. And then the second is encouragement and legitimate training."
 > -- Matt Seitz, [15:00](https://www.youtube.com/watch?v=DyRfO9rlJGs&t=900s)
 
 ### "Taxi Drivers Down 75%, But Net Drivers Are Up"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DyRfO9rlJGs?start=1380&end=1440" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DyRfO9rlJGs/hqdefault.jpg)](https://www.youtube.com/watch?v=DyRfO9rlJGs&t=1380s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*23:00-24:00" "https://www.youtube.com/watch?v=DyRfO9rlJGs" --force-keyframes-at-cuts --merge-output-format mp4 -o "DyRfO9rlJGs-23m00s.mp4"
+```
+</details>
 
 > "When Uber came along, the number of taxi drivers is down by 25% of what it was before -- 75% loss. Massive loss. But if you look at the net of all the new people now driving with Uber, DoorDash, Lyft, it's now more than there were taxi drivers before."
 > -- Matt Seitz, [23:00](https://www.youtube.com/watch?v=DyRfO9rlJGs&t=1380s)
 
 ### "Vibe Coding Is Like Giving an Eight-Year-Old a Credit Card"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DyRfO9rlJGs?start=2100&end=2160" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DyRfO9rlJGs/hqdefault.jpg)](https://www.youtube.com/watch?v=DyRfO9rlJGs&t=2100s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*35:00-36:00" "https://www.youtube.com/watch?v=DyRfO9rlJGs" --force-keyframes-at-cuts --merge-output-format mp4 -o "DyRfO9rlJGs-35m00s.mp4"
+```
+</details>
 
 > "I heard this quote: 'Vibe coding is like giving an eight-year-old a credit card.' What do you end up with? You end up with technical debt and stuff you can't unwind."
 > -- Matt Seitz, [35:00](https://www.youtube.com/watch?v=DyRfO9rlJGs&t=2100s)

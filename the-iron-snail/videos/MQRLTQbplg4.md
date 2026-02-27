@@ -35,42 +35,84 @@ The video covers versatile wardrobe staples including chambray shirts, Oxford sh
 
 ### "I realized I was thinking about dressing all wrong"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MQRLTQbplg4?start=552&end=620" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/MQRLTQbplg4/hqdefault.jpg)](https://www.youtube.com/watch?v=MQRLTQbplg4&t=552s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:12-10:20" "https://www.youtube.com/watch?v=MQRLTQbplg4" --force-keyframes-at-cuts --merge-output-format mp4 -o "MQRLTQbplg4-9m12s.mp4"
+```
+</details>
 
 > "I realized I was thinking about dressing all wrong. Essentially I was doing everything backwards - I was trying to figure out what I should wear instead of looking at who I am and what I do and basing what I wear off of that."
 > — Michael, [9:17](https://www.youtube.com/watch?v=MQRLTQbplg4&t=557s)
 
 ### "Taylor's Rule: Comfort Over Everything"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MQRLTQbplg4?start=86&end=130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/MQRLTQbplg4/hqdefault.jpg)](https://www.youtube.com/watch?v=MQRLTQbplg4&t=86s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:26-2:10" "https://www.youtube.com/watch?v=MQRLTQbplg4" --force-keyframes-at-cuts --merge-output-format mp4 -o "MQRLTQbplg4-1m26s.mp4"
+```
+</details>
 
 > "I have one rule: comfort over everything."
 > — Taylor, [1:30](https://www.youtube.com/watch?v=MQRLTQbplg4&t=90s)
 
 ### "Why am I going to wear a shirt that says Arkansas on it?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MQRLTQbplg4?start=629&end=685" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/MQRLTQbplg4/hqdefault.jpg)](https://www.youtube.com/watch?v=MQRLTQbplg4&t=629s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:29-11:25" "https://www.youtube.com/watch?v=MQRLTQbplg4" --force-keyframes-at-cuts --merge-output-format mp4 -o "MQRLTQbplg4-10m29s.mp4"
+```
+</details>
 
 > "I tried to find a graphic t-shirt for so long that I like but they all felt disingenuous like why am I going to wear a t-shirt that says Arkansas on it - never been to Arkansas."
 > — Michael, [10:33](https://www.youtube.com/watch?v=MQRLTQbplg4&t=633s)
 
 ### "I described linen as 'horrible'"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MQRLTQbplg4?start=254&end=310" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/MQRLTQbplg4/hqdefault.jpg)](https://www.youtube.com/watch?v=MQRLTQbplg4&t=254s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:14-5:10" "https://www.youtube.com/watch?v=MQRLTQbplg4" --force-keyframes-at-cuts --merge-output-format mp4 -o "MQRLTQbplg4-4m14s.mp4"
+```
+</details>
 
 > "Those of you that have seen certain videos on this channel, you probably know that the only word I would use to describe linen is 'horrible.' I don't like linen because I just steamed this and it immediately is a wrinkled mess... But I like it - when I embraced the wrinkles I started to be like 'oh yeah, this is cool.'"
 > — Michael, [4:14](https://www.youtube.com/watch?v=MQRLTQbplg4&t=254s)
 
 ### "I always feel like I look dumb no matter what I wear"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MQRLTQbplg4?start=351&end=410" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/MQRLTQbplg4/hqdefault.jpg)](https://www.youtube.com/watch?v=MQRLTQbplg4&t=351s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:51-6:50" "https://www.youtube.com/watch?v=MQRLTQbplg4" --force-keyframes-at-cuts --merge-output-format mp4 -o "MQRLTQbplg4-5m51s.mp4"
+```
+</details>
 
 > "I do work in fashion and work around very stylish people at all times... the person that I'm always meeting with in the Garment District is just dressed always incredibly simply - just black slacks, white shirt or some very simple top. And I always feel like I look dumb no matter what I wear."
 > — Michael, [5:51](https://www.youtube.com/watch?v=MQRLTQbplg4&t=351s)
 
 ### "If all else fails, jeans and a t-shirt"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MQRLTQbplg4?start=711&end=760" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/MQRLTQbplg4/hqdefault.jpg)](https://www.youtube.com/watch?v=MQRLTQbplg4&t=711s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:51-12:40" "https://www.youtube.com/watch?v=MQRLTQbplg4" --force-keyframes-at-cuts --merge-output-format mp4 -o "MQRLTQbplg4-11m51s.mp4"
+```
+</details>
 
 > "If all else fails honestly just rock the absolute crap out of jeans, leather shoes, and a t-shirt. Jeans are a lot of fun to wear because the more you wear them the more beat up they get."
 > — Michael, [12:23](https://www.youtube.com/watch?v=MQRLTQbplg4&t=743s)

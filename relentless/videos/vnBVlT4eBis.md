@@ -46,42 +46,84 @@ Siddiqui also addresses the historical moral panic surrounding every reproductiv
 
 ### "Midway through pregnancy you find out this baby doesn't have a skull - it's extremely traumatic"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vnBVlT4eBis?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vnBVlT4eBis/hqdefault.jpg)](https://www.youtube.com/watch?v=vnBVlT4eBis&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-1:00" "https://www.youtube.com/watch?v=vnBVlT4eBis" --force-keyframes-at-cuts --merge-output-format mp4 -o "vnBVlT4eBis-0m00s.mp4"
+```
+</details>
 
 > "A pregnancy is an extremely intense thing. You're metabolically running a marathon every single day for 9 months. The idea that midway through that process, you find out that this baby doesn't have a skull, isn't going to come to term - it's extremely traumatic."
 > — Noor Siddiqui, [0:00](https://www.youtube.com/watch?v=vnBVlT4eBis&t=0s)
 
 ### "25% of NICU infant deaths are genetic, 95% of rare diseases have no treatment"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vnBVlT4eBis?start=329&end=395" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vnBVlT4eBis/hqdefault.jpg)](https://www.youtube.com/watch?v=vnBVlT4eBis&t=329s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:29-6:35" "https://www.youtube.com/watch?v=vnBVlT4eBis" --force-keyframes-at-cuts --merge-output-format mp4 -o "vnBVlT4eBis-5m29s.mp4"
+```
+</details>
 
 > "25% of infant deaths in the NICU are due to genetic disease. 60% of moderate to severe intellectual disability is genetic. 50% of miscarriages are genetic. And 95% of rare genetic diseases have no treatment, let alone a cure."
 > — Noor Siddiqui, [5:29](https://www.youtube.com/watch?v=vnBVlT4eBis&t=329s)
 
 ### "The genetic lottery is incredibly unfair - now you can make it more equal"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vnBVlT4eBis?start=659&end=725" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vnBVlT4eBis/hqdefault.jpg)](https://www.youtube.com/watch?v=vnBVlT4eBis&t=659s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:59-12:05" "https://www.youtube.com/watch?v=vnBVlT4eBis" --force-keyframes-at-cuts --merge-output-format mp4 -o "vnBVlT4eBis-10m59s.mp4"
+```
+</details>
 
 > "The genetic lottery is incredibly unfair. Now you finally have this ability to make it more equal and more fair for everyone. For the first time, parents can genetically bless their child."
 > — Noor Siddiqui, [10:59](https://www.youtube.com/watch?v=vnBVlT4eBis&t=659s)
 
 ### "We have more data going into shoe buying than the biggest parenting decision - your child's genome"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vnBVlT4eBis?start=763&end=825" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vnBVlT4eBis/hqdefault.jpg)](https://www.youtube.com/watch?v=vnBVlT4eBis&t=763s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:43-13:45" "https://www.youtube.com/watch?v=vnBVlT4eBis" --force-keyframes-at-cuts --merge-output-format mp4 -o "vnBVlT4eBis-12m43s.mp4"
+```
+</details>
 
 > "We have more data going into where you go for lunch, what shoes you're going to buy, all these super trivial decisions, than the biggest parenting decision you'll ever make - your child's genome."
 > — Noor Siddiqui, [12:43](https://www.youtube.com/watch?v=vnBVlT4eBis&t=763s)
 
 ### "Two Supreme Court cases were required just for women to get condoms"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vnBVlT4eBis?start=2403&end=2470" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vnBVlT4eBis/hqdefault.jpg)](https://www.youtube.com/watch?v=vnBVlT4eBis&t=2403s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*40:03-41:10" "https://www.youtube.com/watch?v=vnBVlT4eBis" --force-keyframes-at-cuts --merge-output-format mp4 -o "vnBVlT4eBis-40m03s.mp4"
+```
+</details>
 
 > "There were two different Supreme Court cases fought over condoms. The first was so married women could get access, the second so unmarried women could. Previously they were banned under obscenity laws. Every reproductive technology faces moral panic."
 > — Noor Siddiqui, [40:03](https://www.youtube.com/watch?v=vnBVlT4eBis&t=2403s)
 
 ### "70-80 of our 100+ clinics were recruited by patient demand"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vnBVlT4eBis?start=1962&end=2030" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vnBVlT4eBis/hqdefault.jpg)](https://www.youtube.com/watch?v=vnBVlT4eBis&t=1962s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*32:42-33:50" "https://www.youtube.com/watch?v=vnBVlT4eBis" --force-keyframes-at-cuts --merge-output-format mp4 -o "vnBVlT4eBis-32m42s.mp4"
+```
+</details>
 
 > "We're in over 100 IVF centers now. 70-80 of those were recruited through patient demand - patients literally refused to use centers that didn't offer Orchid. The first embryos we screened were my own."
 > — Noor Siddiqui, [32:42](https://www.youtube.com/watch?v=vnBVlT4eBis&t=1962s)

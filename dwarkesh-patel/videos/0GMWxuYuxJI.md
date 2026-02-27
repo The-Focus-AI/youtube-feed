@@ -39,35 +39,70 @@ The conversation ranges from why sex exists (mitochondria are the reason, Lane a
 
 ### "The universe favors life this strongly"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0GMWxuYuxJI?start=1420&end=1480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/0GMWxuYuxJI/hqdefault.jpg)](https://www.youtube.com/watch?v=0GMWxuYuxJI&t=1420s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*23:40-24:40" "https://www.youtube.com/watch?v=0GMWxuYuxJI" --force-keyframes-at-cuts --merge-output-format mp4 -o "0GMWxuYuxJI-23m40s.mp4"
+```
+</details>
 
 > "I find it almost disturbing that the universe favors life this strongly. The Krebs cycle, the fundamental metabolic pathway, is thermodynamically favored. The chemistry just wants to happen. You don't need enzymes to catalyze most of these reactions -- they occur spontaneously in the right conditions."
 > -- Nick Lane, [23:40](https://www.youtube.com/watch?v=0GMWxuYuxJI&t=1420s)
 
 ### "A bolt of lightning across every membrane in your body"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0GMWxuYuxJI?start=240&end=310" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/0GMWxuYuxJI/hqdefault.jpg)](https://www.youtube.com/watch?v=0GMWxuYuxJI&t=240s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:00-5:10" "https://www.youtube.com/watch?v=0GMWxuYuxJI" --force-keyframes-at-cuts --merge-output-format mp4 -o "0GMWxuYuxJI-4m00s.mp4"
+```
+</details>
 
 > "The charge is about 150 to 200 millivolts, but that's across a membrane that is 5 nanometers thick. If you work out what the electric field strength is, it's about 30 million volts per meter. That is equivalent to a bolt of lightning. Every single membrane in your body has a bolt of lightning across it."
 > -- Nick Lane, [4:00](https://www.youtube.com/watch?v=0GMWxuYuxJI&t=240s)
 
 ### "All complex life from a single event"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0GMWxuYuxJI?start=90&end=160" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/0GMWxuYuxJI/hqdefault.jpg)](https://www.youtube.com/watch?v=0GMWxuYuxJI&t=90s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:30-2:40" "https://www.youtube.com/watch?v=0GMWxuYuxJI" --force-keyframes-at-cuts --merge-output-format mp4 -o "0GMWxuYuxJI-1m30s.mp4"
+```
+</details>
 
 > "If you look inside a plant cell or a human cell with an electron microscope, they have all the same kit. Why would they have all the same kit when one is an algae living in an ocean doing photosynthesis? We know that all eukaryotes descended from a single event in the whole history of life on Earth. It gives rise to all complex life."
 > -- Nick Lane, [1:30](https://www.youtube.com/watch?v=0GMWxuYuxJI&t=90s)
 
 ### "Mitochondria are the reason we have sex"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0GMWxuYuxJI?start=2536&end=2600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/0GMWxuYuxJI/hqdefault.jpg)](https://www.youtube.com/watch?v=0GMWxuYuxJI&t=2536s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*42:16-43:20" "https://www.youtube.com/watch?v=0GMWxuYuxJI" --force-keyframes-at-cuts --merge-output-format mp4 -o "0GMWxuYuxJI-42m16s.mp4"
+```
+</details>
 
 > "If both parents pass on mitochondria, you get a mixture. Different mitochondria have different optimal settings. They're going to be in conflict with each other. The cell can't tune itself to either of them. The way to solve this is that one parent provides the mitochondria and the other doesn't. That's the origin of two sexes."
 > -- Nick Lane, [42:16](https://www.youtube.com/watch?v=0GMWxuYuxJI&t=2536s)
 
 ### "Bacteria had 4 billion years and never got there"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0GMWxuYuxJI?start=150&end=220" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/0GMWxuYuxJI/hqdefault.jpg)](https://www.youtube.com/watch?v=0GMWxuYuxJI&t=150s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:30-3:40" "https://www.youtube.com/watch?v=0GMWxuYuxJI" --force-keyframes-at-cuts --merge-output-format mp4 -o "0GMWxuYuxJI-2m30s.mp4"
+```
+</details>
 
 > "Bacteria and archaea have far more genetic and metabolic diversity than eukaryotes do. They had 4 billion years to have a go at evolving complexity and they never got there. The barrier is not in the genes, it's not about information. It's about energy. The acquisition of mitochondria changes where the endpoints of evolution can be."
 > -- Nick Lane, [2:30](https://www.youtube.com/watch?v=0GMWxuYuxJI&t=150s)

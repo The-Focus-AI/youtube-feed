@@ -39,42 +39,84 @@ Sutskever also shares his thinking on alignment, deployment strategy, and SSI's 
 
 ### "We are back to the age of research"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aR20FWCCjAs?start=1276&end=1330" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/aR20FWCCjAs/hqdefault.jpg)](https://www.youtube.com/watch?v=aR20FWCCjAs&t=1276s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*21:16-22:10" "https://www.youtube.com/watch?v=aR20FWCCjAs" --force-keyframes-at-cuts --merge-output-format mp4 -o "aR20FWCCjAs-21m16s.mp4"
+```
+</details>
 
 > "Pre-training will run out of data. What do you do next? But now that compute is big, compute is back to the age of research. Up until 2020, from 2012, it was the age of research. From 2020 to 2025, it was the age of scaling. Now we are back to the age of research, just with big computers."
 > -- Ilya Sutskever, [21:16](https://www.youtube.com/watch?v=aR20FWCCjAs&t=1276s)
 
 ### "A human being is not an AGI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aR20FWCCjAs?start=2978&end=3040" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/aR20FWCCjAs/hqdefault.jpg)](https://www.youtube.com/watch?v=aR20FWCCjAs&t=2978s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*49:38-50:40" "https://www.youtube.com/watch?v=aR20FWCCjAs" --force-keyframes-at-cuts --merge-output-format mp4 -o "aR20FWCCjAs-49m38s.mp4"
+```
+</details>
 
 > "If you think about the term 'AGI,' you will realize that a human being is not an AGI. A human being lacks a huge amount of knowledge and capability. Instead, we rely on continual learning. So let's suppose that we achieve success -- the question is, how do you define it? It's going to be a 15-year-old that's very eager to go, a great student, very eager."
 > -- Ilya Sutskever, [49:38](https://www.youtube.com/watch?v=aR20FWCCjAs&t=2978s)
 
 ### "He couldn't make decisions at all"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aR20FWCCjAs?start=695&end=745" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/aR20FWCCjAs/hqdefault.jpg)](https://www.youtube.com/watch?v=aR20FWCCjAs&t=695s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:35-12:25" "https://www.youtube.com/watch?v=aR20FWCCjAs" --force-keyframes-at-cuts --merge-output-format mp4 -o "aR20FWCCjAs-11m35s.mp4"
+```
+</details>
 
 > "I read about this person who had some kind of brain damage that took out his emotional processing. He still remained very articulate, and on tests he seemed to be just fine. But he didn't feel anger, he didn't feel animated. He couldn't make decisions at all. It took him hours to decide on which socks to wear."
 > -- Ilya Sutskever, [11:35](https://www.youtube.com/watch?v=aR20FWCCjAs&t=695s)
 
 ### "I think it's very possible from broad deployment"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aR20FWCCjAs?start=3148&end=3230" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/aR20FWCCjAs/hqdefault.jpg)](https://www.youtube.com/watch?v=aR20FWCCjAs&t=3148s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*52:28-53:50" "https://www.youtube.com/watch?v=aR20FWCCjAs" --force-keyframes-at-cuts --merge-output-format mp4 -o "aR20FWCCjAs-52m28s.mp4"
+```
+</details>
 
 > "I think that it is likely that we will see very rapid economic growth. Once you get to a point where models can learn as well as humans, and you have many of them, then there will be rapid economic growth -- unless there will be some kind of regulation. I think it's very possible from broad deployment."
 > -- Ilya Sutskever, [52:28](https://www.youtube.com/watch?v=aR20FWCCjAs&t=3148s)
 
 ### "The whole problem is the power"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aR20FWCCjAs?start=3450&end=3500" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/aR20FWCCjAs/hqdefault.jpg)](https://www.youtube.com/watch?v=aR20FWCCjAs&t=3450s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*57:30-58:20" "https://www.youtube.com/watch?v=aR20FWCCjAs" --force-keyframes-at-cuts --merge-output-format mp4 -o "aR20FWCCjAs-57m30s.mp4"
+```
+</details>
 
 > "Future AI is going to be different. It's going to be powerful. What is the problem of AI and AGI? The whole problem is the power. You've got to be showing the thing. I maintain that most people who work on AI also don't fully appreciate what's coming, because of what people see on a day-to-day basis."
 > -- Ilya Sutskever, [57:30](https://www.youtube.com/watch?v=aR20FWCCjAs&t=3450s)
 
 ### "Ugliness, there's no room for ugliness"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aR20FWCCjAs?start=5669&end=5730" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/aR20FWCCjAs/hqdefault.jpg)](https://www.youtube.com/watch?v=aR20FWCCjAs&t=5669s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*94:29-95:30" "https://www.youtube.com/watch?v=aR20FWCCjAs" --force-keyframes-at-cuts --merge-output-format mp4 -o "aR20FWCCjAs-94m29s.mp4"
+```
+</details>
 
 > "How things should be -- thinking from multiple angles and looking for what's fundamental or not fundamental. Ugliness, there's no room for ugliness. Correct inspiration from the brain. Multiple things have to be present at the same time. The more confident you can be in a top-down belief, the more you should keep going when experiments contradict you."
 > -- Ilya Sutskever, [1:34:29](https://www.youtube.com/watch?v=aR20FWCCjAs&t=5669s)

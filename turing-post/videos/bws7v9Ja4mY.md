@@ -35,35 +35,70 @@ A particularly notable moment from Google I/O was the unannounced appearance of 
 
 ### "We've barely scratched 1% of what AI can do"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bws7v9Ja4mY?start=20&end=55" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bws7v9Ja4mY/hqdefault.jpg)](https://www.youtube.com/watch?v=bws7v9Ja4mY&t=20s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:20-0:55" "https://www.youtube.com/watch?v=bws7v9Ja4mY" --force-keyframes-at-cuts --merge-output-format mp4 -o "bws7v9Ja4mY-0m20s.mp4"
+```
+</details>
 
 > "Kevin Scott, CTO of Microsoft, inspired me to do that. He said that we've got capabilities overhang. What does it mean? Actually, it's pretty simple. It means that we barely scratched the surface of what LLMs are capable of. And not only LLMs, large language models, the modality of text, but also video, audio, images, all this multi-model world we're driving in is immense, but we haven't even scratched 1% of it."
 > — Ksenia Se, [0:15](https://www.youtube.com/watch?v=bws7v9Ja4mY&t=15s)
 
 ### "Microsoft discovered a PFAS-free coolant in 200 hours"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bws7v9Ja4mY?start=83&end=160" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bws7v9Ja4mY/hqdefault.jpg)](https://www.youtube.com/watch?v=bws7v9Ja4mY&t=83s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:23-2:40" "https://www.youtube.com/watch?v=bws7v9Ja4mY" --force-keyframes-at-cuts --merge-output-format mp4 -o "bws7v9Ja4mY-1m23s.mp4"
+```
+</details>
 
 > "John Link revealed a breakthrough cooling discovery via AI in just 200 hours. They not only discover this new coolant in under 200 hours. They also took it and implemented it in the real laboratory. Why this coolant is also so special? Because it's PFAS free and it means it is free from forever chemicals often used in electronics coolant."
 > — Ksenia Se, [1:23](https://www.youtube.com/watch?v=bws7v9Ja4mY&t=83s)
 
 ### "Google AI Mode connects everything together"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bws7v9Ja4mY?start=175&end=250" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bws7v9Ja4mY/hqdefault.jpg)](https://www.youtube.com/watch?v=bws7v9Ja4mY&t=175s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:55-4:10" "https://www.youtube.com/watch?v=bws7v9Ja4mY" --force-keyframes-at-cuts --merge-output-format mp4 -o "bws7v9Ja4mY-2m55s.mp4"
+```
+</details>
 
 > "If you imagine how much you interact with Google, how much you interact with Gmail, how much of our lives are in this browser and all these products. Now the AI mode actually connects everything together that Google provides and also it makes search, it brings search to different level."
 > — Ksenia Se, [2:55](https://www.youtube.com/watch?v=bws7v9Ja4mY&t=175s)
 
 ### "UBS frees up analyst time with AI avatars"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bws7v9Ja4mY?start=352&end=390" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bws7v9Ja4mY/hqdefault.jpg)](https://www.youtube.com/watch?v=bws7v9Ja4mY&t=352s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:52-6:30" "https://www.youtube.com/watch?v=bws7v9Ja4mY" --force-keyframes-at-cuts --merge-output-format mp4 -o "bws7v9Ja4mY-5m52s.mp4"
+```
+</details>
 
 > "UBS deploys AI financial avatars. You might think it's nothing, but they use AI generated avatars of their analysts to deliver research insights via video. And that frees up a lot of time for analysts to do some other substantial work. I think it's a little thing but actually shows you the huge cut of human time that was spent on sometimes repetitive stuff."
 > — Ksenia Se, [5:52](https://www.youtube.com/watch?v=bws7v9Ja4mY&t=352s)
 
 ### "Sergey Brin expects Google to achieve AGI first"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bws7v9Ja4mY?start=456&end=510" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bws7v9Ja4mY/hqdefault.jpg)](https://www.youtube.com/watch?v=bws7v9Ja4mY&t=456s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:36-8:30" "https://www.youtube.com/watch?v=bws7v9Ja4mY" --force-keyframes-at-cuts --merge-output-format mp4 -o "bws7v9Ja4mY-7m36s.mp4"
+```
+</details>
 
 > "The other thing that actually was surprising for me and I think it's telling a lot was that during the fireside chat at Google IO that was supposed to be between Alex Katz and Demis Hassabis, the third person came to the stage and was Sergey Brin the co-founder of Google. This unannounced appearance and him being on a stage as a boss just shows you how strong he feels about this new AI race. And one thing he said, he expects for Demis Hassabis and Google DeepMind to achieve AGI first."
 > — Ksenia Se, [7:36](https://www.youtube.com/watch?v=bws7v9Ja4mY&t=456s)

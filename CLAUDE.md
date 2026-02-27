@@ -18,7 +18,13 @@ This document describes how to create a comprehensive, searchable archive of any
 The YouTube skill must be available. Test with:
 
 ```bash
-npx tsx /Users/wschenk/.claude/plugins/cache/focus-marketplace/google-skill/0.8.0/scripts/youtube.ts dl-channel @channelhandle --max=5
+npx tsx /Users/wschenk/.claude/plugins/cache/focus-marketplace/google-skill/0.11.0/scripts/youtube.ts dl-channel @channelhandle --max=5
+```
+
+For multi-speaker content (podcasts, interviews, panel discussions), the **interview-transcriber** provides speaker-identified transcripts via Gemini audio transcription. It lives at `/Users/wschenk/The-Focus-AI/interview-transcriber` and requires `GEMINI_API_KEY` in the environment.
+
+```bash
+cd /Users/wschenk/The-Focus-AI/interview-transcriber && npx tsx src/cli.ts --help
 ```
 
 ## Step 1: Get Video List
@@ -26,7 +32,7 @@ npx tsx /Users/wschenk/.claude/plugins/cache/focus-marketplace/google-skill/0.8.
 Fetch the channel's recent videos:
 
 ```bash
-npx tsx /Users/wschenk/.claude/plugins/cache/focus-marketplace/google-skill/0.8.0/scripts/youtube.ts dl-channel @channelhandle --max=30
+npx tsx /Users/wschenk/.claude/plugins/cache/focus-marketplace/google-skill/0.11.0/scripts/youtube.ts dl-channel @channelhandle --max=30
 ```
 
 This returns JSON with video IDs, titles, durations, view counts, and URLs.
@@ -43,11 +49,30 @@ For each video, run these commands to get data:
 
 ```bash
 # Get transcript with timestamps
-npx tsx /Users/wschenk/.claude/plugins/cache/focus-marketplace/google-skill/0.8.0/scripts/youtube.ts transcript {VIDEO_ID}
+npx tsx /Users/wschenk/.claude/plugins/cache/focus-marketplace/google-skill/0.11.0/scripts/youtube.ts transcript {VIDEO_ID}
 
 # Get video metadata
-npx tsx /Users/wschenk/.claude/plugins/cache/focus-marketplace/google-skill/0.8.0/scripts/youtube.ts dl-info {VIDEO_ID}
+npx tsx /Users/wschenk/.claude/plugins/cache/focus-marketplace/google-skill/0.11.0/scripts/youtube.ts dl-info {VIDEO_ID}
 ```
+
+### Multi-Speaker Content (Podcasts, Interviews)
+
+For videos with multiple speakers, use the **interview-transcriber** instead of the basic YouTube transcript. It provides speaker identification via Gemini audio analysis:
+
+```bash
+cd /Users/wschenk/The-Focus-AI/interview-transcriber && \
+  npx tsx src/cli.ts "https://www.youtube.com/watch?v={VIDEO_ID}" \
+    -o "{VIDEO_ID}.json" \
+    -s
+```
+
+This produces a JSON file with speaker-labeled segments. The transcriber:
+- Processes audio in 10-minute chunks
+- Passes discovered speaker names forward to subsequent chunks
+- Normalizes generic labels ("Speaker A") to real names when possible
+- Drops malformed/garbage segments automatically
+
+Use the JSON output to build the markdown file with speaker-attributed transcript and quotes.
 
 ## Step 4: Video File Format
 
@@ -81,29 +106,46 @@ tags:
 [2-3 paragraphs summarizing the video content]
 ```
 
-### Highlights Section (NEW)
+### Highlights Section
 
-After the summary, include embedded video clips for the most interesting/surprising moments. Each highlight should have:
+After the summary, include clickable thumbnail links for the most interesting/surprising moments. Each highlight should have:
 1. A descriptive heading
-2. An embedded YouTube iframe with start/end times
+2. A clickable thumbnail image that links to YouTube at the exact timestamp
 3. The pull quote or key statement from that moment
+4. A copy-pasteable yt-dlp command to download the clip locally
 
 ```markdown
 ## Highlights
 
 ### "{Pull Quote or Topic Title}"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/{VIDEO_ID}?start={seconds}&end={seconds}" frameborder="0" allowfullscreen></iframe>
+[![{Brief description}](https://img.youtube.com/vi/{VIDEO_ID}/hqdefault.jpg)](https://www.youtube.com/watch?v={VIDEO_ID}&t={start_seconds}s)
 
 > "{The actual quote or key statement from this moment}"
-> — Speaker Name, [MM:SS](https://www.youtube.com/watch?v={VIDEO_ID}&t={seconds}s)
+> — Speaker Name, [MM:SS](https://www.youtube.com/watch?v={VIDEO_ID}&t={start_seconds}s)
+
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*{MM:SS}-{MM:SS}" "https://www.youtube.com/watch?v={VIDEO_ID}" --force-keyframes-at-cuts --merge-output-format mp4 -o "{slug}.mp4"
+```
+</details>
 
 ### "{Another Topic}"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/{VIDEO_ID}?start={seconds}&end={seconds}" frameborder="0" allowfullscreen></iframe>
+[![{Brief description}](https://img.youtube.com/vi/{VIDEO_ID}/hqdefault.jpg)](https://www.youtube.com/watch?v={VIDEO_ID}&t={start_seconds}s)
 
 > "{Quote}"
-> — Speaker, [MM:SS](url&t={seconds}s)
+> — Speaker, [MM:SS](https://www.youtube.com/watch?v={VIDEO_ID}&t={start_seconds}s)
+
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*{MM:SS}-{MM:SS}" "https://www.youtube.com/watch?v={VIDEO_ID}" --force-keyframes-at-cuts --merge-output-format mp4 -o "{slug}.mp4"
+```
+</details>
 ```
 
 **Guidelines for Highlights:**
@@ -147,12 +189,16 @@ After the summary, include embedded video clips for the most interesting/surpris
 ## Surprising Quotes
 
 > "{Quote text}"
-> — [MM:SS](url&t={seconds}s)
+> — Speaker Name, [MM:SS](url&t={seconds}s)
 
 [Include 3-5 notable/surprising quotes beyond those in Highlights]
 ```
 
+For multi-speaker content, always attribute quotes to the specific speaker by name.
+
 ### Transcript
+
+For single-speaker videos:
 
 ```markdown
 ## Transcript
@@ -164,11 +210,25 @@ After the summary, include embedded video clips for the most interesting/surpris
 [Continue with FULL transcript grouped into logical paragraphs]
 ```
 
+For multi-speaker content (podcasts, interviews), use speaker-labeled format:
+
+```markdown
+## Transcript
+
+**Paul Ford:** [0:02](https://www.youtube.com/watch?v={VIDEO_ID}&t=2s) Welcome to Aboard. Today we're going to talk about...
+
+**Rich Ziade:** [0:15](https://www.youtube.com/watch?v={VIDEO_ID}&t=15s) Yeah, this is a great topic because...
+
+**Paul Ford:** [0:32](https://www.youtube.com/watch?v={VIDEO_ID}&t=32s) Exactly. And the thing that really surprised me...
+
+[Continue with FULL transcript, each utterance prefixed with **Speaker Name:**]
+```
+
 ## Timestamp Format Rules
 
 - Display format: MM:SS (e.g., 4:35)
 - URL format: `&t={seconds}s` with integer seconds (e.g., `&t=275s`)
-- Embed format: `?start={seconds}&end={seconds}` (e.g., `?start=275&end=320`)
+- Clip command format: `"*MM:SS-MM:SS"` for yt-dlp download sections
 - Group transcript segments into logical paragraphs (3-6 sentences each)
 - Every paragraph starts with a clickable timestamp link
 

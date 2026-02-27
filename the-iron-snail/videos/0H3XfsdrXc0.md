@@ -35,35 +35,70 @@ The video provides a detailed breakdown of the sneaker's construction: hand-last
 
 ### "This sneaker would have been easier to make 150 years ago"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0H3XfsdrXc0?start=18&end=75" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/0H3XfsdrXc0/hqdefault.jpg)](https://www.youtube.com/watch?v=0H3XfsdrXc0&t=18s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:18-1:15" "https://www.youtube.com/watch?v=0H3XfsdrXc0" --force-keyframes-at-cuts --merge-output-format mp4 -o "0H3XfsdrXc0-0m18s.mp4"
+```
+</details>
 
 > "This sneaker would have been easier to make 150 years ago. And apparently now these can only be made in one factory in the entire world."
 > — Michael, [0:18](https://www.youtube.com/watch?v=0H3XfsdrXc0&t=18s)
 
 ### "The brands say it's impossible to remake their vintage sneakers"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0H3XfsdrXc0?start=74&end=130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/0H3XfsdrXc0/hqdefault.jpg)](https://www.youtube.com/watch?v=0H3XfsdrXc0&t=74s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:14-2:10" "https://www.youtube.com/watch?v=0H3XfsdrXc0" --force-keyframes-at-cuts --merge-output-format mp4 -o "0H3XfsdrXc0-1m14s.mp4"
+```
+</details>
 
 > "The brands that made those vintage running shoes, cleats and sneakers now say it's impossible to perfectly remake those exact same things that they used to make. There's always something missing - they don't feel right."
 > — Michael, [1:14](https://www.youtube.com/watch?v=0H3XfsdrXc0&t=74s)
 
 ### "Horsehide got more expensive after we stopped riding horses"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0H3XfsdrXc0?start=360&end=415" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/0H3XfsdrXc0/hqdefault.jpg)](https://www.youtube.com/watch?v=0H3XfsdrXc0&t=360s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:00-6:55" "https://www.youtube.com/watch?v=0H3XfsdrXc0" --force-keyframes-at-cuts --merge-output-format mp4 -o "0H3XfsdrXc0-6m00s.mp4"
+```
+</details>
 
 > "Horsehide unsurprisingly got a lot more expensive after we stopped riding horses into town every single day."
 > — Michael, [6:00](https://www.youtube.com/watch?v=0H3XfsdrXc0&t=360s)
 
 ### "He's not sure if there are enough hand sewers in Italy"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0H3XfsdrXc0?start=575&end=630" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/0H3XfsdrXc0/hqdefault.jpg)](https://www.youtube.com/watch?v=0H3XfsdrXc0&t=575s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:35-10:30" "https://www.youtube.com/watch?v=0H3XfsdrXc0" --force-keyframes-at-cuts --merge-output-format mp4 -o "0H3XfsdrXc0-9m35s.mp4"
+```
+</details>
 
 > "He said basically one, he's not sure if there's even enough hand sewers in Italy to make these shoes, two they would be stiffer and constructed differently, and three they would start at $2500 instead of $850."
 > — Michael, [9:39](https://www.youtube.com/watch?v=0H3XfsdrXc0&t=579s)
 
 ### "Those tiny little things mean your sneaker loses handmade warmth"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0H3XfsdrXc0?start=780&end=830" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/0H3XfsdrXc0/hqdefault.jpg)](https://www.youtube.com/watch?v=0H3XfsdrXc0&t=780s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:00-13:50" "https://www.youtube.com/watch?v=0H3XfsdrXc0" --force-keyframes-at-cuts --merge-output-format mp4 -o "0H3XfsdrXc0-13m00s.mp4"
+```
+</details>
 
 > "Those tiny little things that someone is not working on themselves and that Nike and big brands have to account for means your sneaker loses that sense of handmade warmth."
 > — Michael, [13:04](https://www.youtube.com/watch?v=0H3XfsdrXc0&t=784s)

@@ -40,35 +40,70 @@ A substantial portion focuses on anti-AI sentiment, particularly among conservat
 
 ### "These brands are husks"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cY5UFw2AIZo?start=421&end=480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/cY5UFw2AIZo/hqdefault.jpg)](https://www.youtube.com/watch?v=cY5UFw2AIZo&t=421s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:01-8:00" "https://www.youtube.com/watch?v=cY5UFw2AIZo" --force-keyframes-at-cuts --merge-output-format mp4 -o "cY5UFw2AIZo-7m01s.mp4"
+```
+</details>
 
 > "Buying CBS News is like buying RCA Records or something. It just doesn't have any effect. These brands are husks. In fact, all they are is brands at this point."
 > — Tucker Carlson, [7:21](https://www.youtube.com/watch?v=cY5UFw2AIZo&t=441s)
 
 ### "Universal principles or the mafia"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cY5UFw2AIZo?start=1740&end=1800" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/cY5UFw2AIZo/hqdefault.jpg)](https://www.youtube.com/watch?v=cY5UFw2AIZo&t=1740s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*29:00-30:00" "https://www.youtube.com/watch?v=cY5UFw2AIZo" --force-keyframes-at-cuts --merge-output-format mp4 -o "cY5UFw2AIZo-29m00s.mp4"
+```
+</details>
 
 > "We're governed by universal principles or we're governed by the mafia. Those are our choices. Your principles have to apply to every human being or certainly every American citizen, period, or they're not principles."
 > — Tucker Carlson, [29:00](https://www.youtube.com/watch?v=cY5UFw2AIZo&t=1740s)
 
 ### "Identity politics breeds counter-identity politics"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cY5UFw2AIZo?start=2853&end=2920" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/cY5UFw2AIZo/hqdefault.jpg)](https://www.youtube.com/watch?v=cY5UFw2AIZo&t=2853s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*47:33-48:40" "https://www.youtube.com/watch?v=cY5UFw2AIZo" --force-keyframes-at-cuts --merge-output-format mp4 -o "cY5UFw2AIZo-47m33s.mp4"
+```
+</details>
 
 > "If you have identity politics, at some point you're going to get white identity politics. I wrote a book about this almost 10 years ago, which was totally ignored, but that's inevitable."
 > — Tucker Carlson, [47:33](https://www.youtube.com/watch?v=cY5UFw2AIZo&t=2853s)
 
 ### "No one has explained why we should be excited about AI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cY5UFw2AIZo?start=3180&end=3240" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/cY5UFw2AIZo/hqdefault.jpg)](https://www.youtube.com/watch?v=cY5UFw2AIZo&t=3180s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*53:00-54:00" "https://www.youtube.com/watch?v=cY5UFw2AIZo" --force-keyframes-at-cuts --merge-output-format mp4 -o "cY5UFw2AIZo-53m00s.mp4"
+```
+</details>
 
 > "No one has explained why we should be excited about AI. I'm a gold buyer and ammo buyer and freeze-dried food buyer as I already told you. But like, what's the answer? How is this great for the average person?"
 > — Tucker Carlson, [53:00](https://www.youtube.com/watch?v=cY5UFw2AIZo&t=3180s)
 
 ### "I do bury gold in my yard"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cY5UFw2AIZo?start=5625&end=5680" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/cY5UFw2AIZo/hqdefault.jpg)](https://www.youtube.com/watch?v=cY5UFw2AIZo&t=5625s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*93:45-94:40" "https://www.youtube.com/watch?v=cY5UFw2AIZo" --force-keyframes-at-cuts --merge-output-format mp4 -o "cY5UFw2AIZo-93m45s.mp4"
+```
+</details>
 
 > "I do bury gold in my yard because that's the kind of man I am, primitive. I've also scattered millions of ball bearings around my backyard. So good luck with your metal detector."
 > — Tucker Carlson, [93:52](https://www.youtube.com/watch?v=cY5UFw2AIZo&t=5632s)

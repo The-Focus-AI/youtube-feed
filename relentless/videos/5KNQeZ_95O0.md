@@ -34,35 +34,70 @@ Ali also shares his frameworks for decision-making, including going all-in on da
 
 ### "Inject As Much Risk As You Can Into the Company"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5KNQeZ_95O0?start=70&end=130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5KNQeZ_95O0/hqdefault.jpg)](https://www.youtube.com/watch?v=5KNQeZ_95O0&t=70s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:10-2:10" "https://www.youtube.com/watch?v=5KNQeZ_95O0" --force-keyframes-at-cuts --merge-output-format mp4 -o "5KNQeZ_95O0-1m10s.mp4"
+```
+</details>
 
 > "I came to the realization that the founder's job is to inject as much risk as they can into the company because really no one else will. Bold moves that have pretty bad downside also, but if it works, it works well."
 > -- Ali Ansari, [1:10](https://www.youtube.com/watch?v=5KNQeZ_95O0&t=70s)
 
 ### "Sometimes We Have Absurd Bonuses"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5KNQeZ_95O0?start=1732&end=1795" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5KNQeZ_95O0/hqdefault.jpg)](https://www.youtube.com/watch?v=5KNQeZ_95O0&t=1732s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*28:52-29:55" "https://www.youtube.com/watch?v=5KNQeZ_95O0" --force-keyframes-at-cuts --merge-output-format mp4 -o "5KNQeZ_95O0-28m52s.mp4"
+```
+</details>
 
 > "When you're in a space that is growing so fast and 3 months can literally double your run rate, you actually do need short-term incentives. Our recruitment team sometimes gets these absurd bonuses if they hire a thousand people. Sometimes we have a customer about to sign and I might tell them, 'If this closes, you'll double your equity.'"
 > -- Ali Ansari, [28:52](https://www.youtube.com/watch?v=5KNQeZ_95O0&t=1732s)
 
 ### "Losing Their Biggest Customer Before an Investor Pitch"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5KNQeZ_95O0?start=2418&end=2485" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5KNQeZ_95O0/hqdefault.jpg)](https://www.youtube.com/watch?v=5KNQeZ_95O0&t=2418s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*40:18-41:25" "https://www.youtube.com/watch?v=5KNQeZ_95O0" --force-keyframes-at-cuts --merge-output-format mp4 -o "5KNQeZ_95O0-40m18s.mp4"
+```
+</details>
 
 > "We got a call that our biggest customer was about to churn. This was like 70% of our revenue. And we had an investor meeting in two hours. I had to go into that meeting knowing that the numbers I was about to present might not be real by next month."
 > -- Ali Ansari, [40:18](https://www.youtube.com/watch?v=5KNQeZ_95O0&t=2418s)
 
 ### "Taking Action As Fast As Possible"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5KNQeZ_95O0?start=3045&end=3110" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5KNQeZ_95O0/hqdefault.jpg)](https://www.youtube.com/watch?v=5KNQeZ_95O0&t=3045s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*50:45-51:50" "https://www.youtube.com/watch?v=5KNQeZ_95O0" --force-keyframes-at-cuts --merge-output-format mp4 -o "5KNQeZ_95O0-50m45s.mp4"
+```
+</details>
 
 > "When you feel the urge to act, act immediately. Don't let it simmer. The quality of your decisions doesn't improve with time in most cases -- it gets worse because you start overthinking and rationalizing inaction."
 > -- Ali Ansari, [50:45](https://www.youtube.com/watch?v=5KNQeZ_95O0&t=3045s)
 
 ### "What It Felt Like Growing Revenue 30x in a Year"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5KNQeZ_95O0?start=3372&end=3440" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5KNQeZ_95O0/hqdefault.jpg)](https://www.youtube.com/watch?v=5KNQeZ_95O0&t=3372s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*56:12-57:20" "https://www.youtube.com/watch?v=5KNQeZ_95O0" --force-keyframes-at-cuts --merge-output-format mp4 -o "5KNQeZ_95O0-56m12s.mp4"
+```
+</details>
 
 > "Growing 30x in a year is honestly terrifying. Every month the company is fundamentally different from the month before. The processes that worked at $4 million are completely broken at $50 million and what works at $50 million is completely broken at $200 million."
 > -- Ali Ansari, [56:12](https://www.youtube.com/watch?v=5KNQeZ_95O0&t=3372s)

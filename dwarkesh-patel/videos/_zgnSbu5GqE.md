@@ -33,35 +33,70 @@ Patel argues that the "economic diffusion lag" explanation for why AI has not ye
 
 ### "If we're close to a humanlike learner, RL scaling is doomed"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_zgnSbu5GqE?start=0&end=50" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_zgnSbu5GqE/hqdefault.jpg)](https://www.youtube.com/watch?v=_zgnSbu5GqE&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-0:50" "https://www.youtube.com/watch?v=_zgnSbu5GqE" --force-keyframes-at-cuts --merge-output-format mp4 -o "_zgnSbu5GqE-0m00s.mp4"
+```
+</details>
 
 > "I'm confused why some people have super short timelines yet at the same time are bullish on scaling up reinforcement learning atop LLMs. If we're actually close to a humanlike learner, then this whole approach of training on verifiable outcomes is doomed."
 > -- Dwarkesh Patel, [0:00](https://www.youtube.com/watch?v=_zgnSbu5GqE&t=0s)
 
 ### "Robotics proves the learning gap"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_zgnSbu5GqE?start=70&end=130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_zgnSbu5GqE/hqdefault.jpg)](https://www.youtube.com/watch?v=_zgnSbu5GqE&t=70s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:10-2:10" "https://www.youtube.com/watch?v=_zgnSbu5GqE" --force-keyframes-at-cuts --merge-output-format mp4 -o "_zgnSbu5GqE-1m10s.mp4"
+```
+</details>
 
 > "In some fundamental sense, robotics is an algorithms problem, not a hardware or a data problem. With very little training, a human can learn how to operate current hardware to do useful work. So if you actually had a humanlike learner, robotics would be in large part a solved problem."
 > -- Dwarkesh Patel, [1:10](https://www.youtube.com/watch?v=_zgnSbu5GqE&t=70s)
 
 ### "Diffusion lag is cope"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_zgnSbu5GqE?start=309&end=370" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_zgnSbu5GqE/hqdefault.jpg)](https://www.youtube.com/watch?v=_zgnSbu5GqE&t=309s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:09-6:10" "https://www.youtube.com/watch?v=_zgnSbu5GqE" --force-keyframes-at-cuts --merge-output-format mp4 -o "_zgnSbu5GqE-5m09s.mp4"
+```
+</details>
 
 > "Sometimes people will say that the reason that AIs aren't more widely deployed right now is that technology takes a long time to diffuse. And I think this is cope. If these models actually were like humans on a server, they'd diffuse incredibly quickly."
 > -- Dwarkesh Patel, [5:09](https://www.youtube.com/watch?v=_zgnSbu5GqE&t=309s)
 
 ### "Some goalpost shifting is actually justified"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_zgnSbu5GqE?start=399&end=475" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_zgnSbu5GqE/hqdefault.jpg)](https://www.youtube.com/watch?v=_zgnSbu5GqE&t=399s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:39-7:55" "https://www.youtube.com/watch?v=_zgnSbu5GqE" --force-keyframes-at-cuts --merge-output-format mp4 -o "_zgnSbu5GqE-6m39s.mp4"
+```
+</details>
 
 > "If you showed me Gemini 3 in 2020, I would have been certain that it could automate half of knowledge work. And so we keep solving what we thought were the sufficient bottlenecks to AGI. We have models that have general understanding. They have few-shot learning. They have reasoning. And yet we still don't have AGI."
 > -- Dwarkesh Patel, [6:39](https://www.youtube.com/watch?v=_zgnSbu5GqE&t=399s)
 
 ### "Continual learning is the real singularity driver"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_zgnSbu5GqE?start=567&end=630" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_zgnSbu5GqE/hqdefault.jpg)](https://www.youtube.com/watch?v=_zgnSbu5GqE&t=567s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:27-10:30" "https://www.youtube.com/watch?v=_zgnSbu5GqE" --force-keyframes-at-cuts --merge-output-format mp4 -o "_zgnSbu5GqE-9m27s.mp4"
+```
+</details>
 
 > "All these scenarios neglect what I think will be the main driver of further improvements at top AGI: continual learning. Again, think about how humans become more capable than anything. It's mostly from experience in the relevant domain."
 > -- Dwarkesh Patel, [9:27](https://www.youtube.com/watch?v=_zgnSbu5GqE&t=567s)

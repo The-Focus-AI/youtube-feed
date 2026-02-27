@@ -35,35 +35,70 @@ MKBHD reviews the Xiaomi 17 Pro Max, a flagship smartphone that deliberately mir
 
 ### "Lighter than iPhone 17 Pro Max"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eou_g_cYCew?start=252&end=300" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eou_g_cYCew/hqdefault.jpg)](https://www.youtube.com/watch?v=eou_g_cYCew&t=252s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:12-5:00" "https://www.youtube.com/watch?v=eou_g_cYCew" --force-keyframes-at-cuts --merge-output-format mp4 -o "eou_g_cYCew-4m12s.mp4"
+```
+</details>
 
 > "This phone is lighter than the iPhone 17 Pro Max"
 > — Marques Brownlee, [4:19](https://www.youtube.com/watch?v=eou_g_cYCew&t=259s)
 
 ### "Charge up an iPhone to 100%"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eou_g_cYCew?start=265&end=310" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eou_g_cYCew/hqdefault.jpg)](https://www.youtube.com/watch?v=eou_g_cYCew&t=265s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:25-5:10" "https://www.youtube.com/watch?v=eou_g_cYCew" --force-keyframes-at-cuts --merge-output-format mp4 -o "eou_g_cYCew-4m25s.mp4"
+```
+</details>
 
 > "22 and a half watt reverse wireless charging - so you can use this to wireless charge all your other devices and could charge up an iPhone to 100% if you really wanted to."
 > — Marques Brownlee, [4:25](https://www.youtube.com/watch?v=eou_g_cYCew&t=265s)
 
 ### "Highest quality selfies mankind has ever seen"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eou_g_cYCew?start=398&end=450" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eou_g_cYCew/hqdefault.jpg)](https://www.youtube.com/watch?v=eou_g_cYCew&t=398s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:38-7:30" "https://www.youtube.com/watch?v=eou_g_cYCew" --force-keyframes-at-cuts --merge-output-format mp4 -o "eou_g_cYCew-6m38s.mp4"
+```
+</details>
 
 > "So turning it into a viewfinder for those primary cameras to take just the highest quality selfies mankind has ever seen."
 > — Marques Brownlee, [6:43](https://www.youtube.com/watch?v=eou_g_cYCew&t=403s)
 
 ### "Ridiculous retro handheld gaming case"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eou_g_cYCew?start=577&end=620" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eou_g_cYCew/hqdefault.jpg)](https://www.youtube.com/watch?v=eou_g_cYCew&t=577s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:37-10:20" "https://www.youtube.com/watch?v=eou_g_cYCew" --force-keyframes-at-cuts --merge-output-format mp4 -o "eou_g_cYCew-9m37s.mp4"
+```
+</details>
 
 > "They even made this ridiculous retro handheld gaming case for the phone with real physical buttons. So if you put that on it connects via Bluetooth, and it becomes a controller for games on that back screen."
 > — Marques Brownlee, [9:37](https://www.youtube.com/watch?v=eou_g_cYCew&t=577s)
 
 ### "Back screen impressed me more than I ever thought"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eou_g_cYCew?start=641&end=690" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eou_g_cYCew/hqdefault.jpg)](https://www.youtube.com/watch?v=eou_g_cYCew&t=641s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:41-11:30" "https://www.youtube.com/watch?v=eou_g_cYCew" --force-keyframes-at-cuts --merge-output-format mp4 -o "eou_g_cYCew-10m41s.mp4"
+```
+</details>
 
 > "This back screen really impressed me more than I ever thought I would in my life."
 > — Marques Brownlee, [10:41](https://www.youtube.com/watch?v=eou_g_cYCew&t=641s)

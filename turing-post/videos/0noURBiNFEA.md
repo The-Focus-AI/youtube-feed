@@ -37,35 +37,70 @@ The interview covers Microsoft's "co-pilot" metaphor as a trust-building framewo
 
 ### "The agent did exactly what a person would do"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0noURBiNFEA?start=157&end=195" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/0noURBiNFEA/hqdefault.jpg)](https://www.youtube.com/watch?v=0noURBiNFEA&t=157s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:37-3:15" "https://www.youtube.com/watch?v=0noURBiNFEA" --force-keyframes-at-cuts --merge-output-format mp4 -o "0noURBiNFEA-2m37s.mp4"
+```
+</details>
 
 > "We just watched the agent upgrade a codebase from Java 8 to Java 17. It did exactly what a person would do. I changed all these APIs. Oh, I compiled it, but now I forgot I need this dependency. So I went and installed some stuff. That pulled these other dependencies and just kept working through the problem the same way a person would do."
 > — Eric Boyd, [2:37](https://www.youtube.com/watch?v=0noURBiNFEA&t=157s)
 
 ### "People also hallucinate"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0noURBiNFEA?start=293&end=310" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/0noURBiNFEA/hqdefault.jpg)](https://www.youtube.com/watch?v=0noURBiNFEA&t=293s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:53-5:10" "https://www.youtube.com/watch?v=0noURBiNFEA" --force-keyframes-at-cuts --merge-output-format mp4 -o "0noURBiNFEA-4m53s.mp4"
+```
+</details>
 
 > "If the AI performs and makes mistakes at the same level of humans, is that okay? It feels like the answer today is no. We have a higher bar. People make mistakes. People are fallible. People also hallucinate. How do you live with AI that has some of those same characteristics? That's a pretty big societal question."
 > — Eric Boyd, [4:53](https://www.youtube.com/watch?v=0noURBiNFEA&t=293s)
 
 ### "Websites without AI agents will seem silly"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0noURBiNFEA?start=480&end=495" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/0noURBiNFEA/hqdefault.jpg)](https://www.youtube.com/watch?v=0noURBiNFEA&t=480s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:00-8:15" "https://www.youtube.com/watch?v=0noURBiNFEA" --force-keyframes-at-cuts --merge-output-format mp4 -o "0noURBiNFEA-8m00s.mp4"
+```
+</details>
 
 > "It'll be the change of like, what do you mean this website doesn't have an AI agent that can help me answer my question immediately? That'll seem silly - like they just haven't caught up and updated."
 > — Eric Boyd, [8:00](https://www.youtube.com/watch?v=0noURBiNFEA&t=480s)
 
 ### "Is it AGI? I don't know. I don't think so."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0noURBiNFEA?start=585&end=620" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/0noURBiNFEA/hqdefault.jpg)](https://www.youtube.com/watch?v=0noURBiNFEA&t=585s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:45-10:20" "https://www.youtube.com/watch?v=0noURBiNFEA" --force-keyframes-at-cuts --merge-output-format mp4 -o "0noURBiNFEA-9m45s.mp4"
+```
+</details>
 
 > "Is it AGI? I don't know. I don't think so. It's pretty helpful though. It's a very useful tool. I really like being able to use it. The things that people worry about with AGI in terms of jobs changing and disruption - those are real concerns, but they're real concerns with the tools we have today."
 > — Eric Boyd, [9:45](https://www.youtube.com/watch?v=0noURBiNFEA&t=585s)
 
 ### "Character and judgment are the dominant things"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0noURBiNFEA?start=560&end=585" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/0noURBiNFEA/hqdefault.jpg)](https://www.youtube.com/watch?v=0noURBiNFEA&t=560s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:20-9:45" "https://www.youtube.com/watch?v=0noURBiNFEA" --force-keyframes-at-cuts --merge-output-format mp4 -o "0noURBiNFEA-9m20s.mp4"
+```
+</details>
 
 > "As a parent, I still think the important things of your character and your judgment are the dominant things that we need as a society to work on. But the tools that they have access to, they're going to need to learn how to use."
 > — Eric Boyd, [9:20](https://www.youtube.com/watch?v=0noURBiNFEA&t=560s)

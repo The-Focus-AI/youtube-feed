@@ -41,35 +41,70 @@ The most provocative segment comes when the hosts probe US-China rivalry. Tsai p
 
 ### "Caitlin Clark's 4x impact on the WNBA"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sp35RmulTDc?start=106&end=166" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/sp35RmulTDc/hqdefault.jpg)](https://www.youtube.com/watch?v=sp35RmulTDc&t=106s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:46-2:46" "https://www.youtube.com/watch?v=sp35RmulTDc" --force-keyframes-at-cuts --merge-output-format mp4 -o "sp35RmulTDc-1m46s.mp4"
+```
+</details>
 
 > "Caitlin Clark definitely had an effect on the WNBA. All the metrics went up. Viewership, ticket sales, sponsorship, everything went up like almost 4x. The economic impact that she's made to the league is extraordinary. Undeniable."
 > — Joe Tsai, [1:46](https://www.youtube.com/watch?v=sp35RmulTDc&t=106s)
 
 ### "Jack Ma: the teacher who became a leader"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sp35RmulTDc?start=420&end=480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/sp35RmulTDc/hqdefault.jpg)](https://www.youtube.com/watch?v=sp35RmulTDc&t=420s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:00-8:00" "https://www.youtube.com/watch?v=sp35RmulTDc" --force-keyframes-at-cuts --merge-output-format mp4 -o "sp35RmulTDc-7m00s.mp4"
+```
+</details>
 
 > "He's a teacher by training. Teachers in a way make natural leaders because you have to communicate well and you can identify talent. Teachers have enough humility that they're very happy if their students go off and become more successful than they are. In building a company, you need to be able to accommodate people who are smarter than you."
 > — Joe Tsai, [7:00](https://www.youtube.com/watch?v=sp35RmulTDc&t=420s)
 
 ### "China hasn't started a war in decades"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sp35RmulTDc?start=720&end=780" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/sp35RmulTDc/hqdefault.jpg)](https://www.youtube.com/watch?v=sp35RmulTDc&t=720s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:00-13:00" "https://www.youtube.com/watch?v=sp35RmulTDc" --force-keyframes-at-cuts --merge-output-format mp4 -o "sp35RmulTDc-12m00s.mp4"
+```
+</details>
 
 > "China has not started a war in the last how many years? 30 years, 40 years. If you observe the behavior of the Chinese people and the Chinese state, it's a very peaceful nation. China cares about its own economic development. They care about the well-being of its citizens."
 > — Joe Tsai, [12:00](https://www.youtube.com/watch?v=sp35RmulTDc&t=720s)
 
 ### "AI is like air"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sp35RmulTDc?start=1100&end=1160" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/sp35RmulTDc/hqdefault.jpg)](https://www.youtube.com/watch?v=sp35RmulTDc&t=1100s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:20-19:20" "https://www.youtube.com/watch?v=sp35RmulTDc" --force-keyframes-at-cuts --merge-output-format mp4 -o "sp35RmulTDc-18m20s.mp4"
+```
+</details>
 
 > "AI is such an important element of life. It's almost like air. Why would any one country say we have a sole claim to air? There's so many things AI can do in medicine, in biology. I think there's a lot of room for cooperation."
 > — Joe Tsai, [18:20](https://www.youtube.com/watch?v=sp35RmulTDc&t=1100s)
 
 ### "From 8% to 50% AI adoption in one year"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sp35RmulTDc?start=1200&end=1260" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/sp35RmulTDc/hqdefault.jpg)](https://www.youtube.com/watch?v=sp35RmulTDc&t=1200s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:00-21:00" "https://www.youtube.com/watch?v=sp35RmulTDc" --force-keyframes-at-cuts --merge-output-format mp4 -o "sp35RmulTDc-20m00s.mp4"
+```
+</details>
 
 > "I've seen a survey of Chinese firms. Last year only 8% were using AI in their business. Now that number is approaching half, 50%. The adoption rate has been fairly fast. My definition of winning is not who comes up with the strongest AI model, but who can adopt it faster."
 > — Joe Tsai, [20:00](https://www.youtube.com/watch?v=sp35RmulTDc&t=1200s)

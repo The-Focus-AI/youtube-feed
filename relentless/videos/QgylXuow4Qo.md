@@ -48,42 +48,84 @@ The interview covers the colorful history of space guns from Gerald Bull's HARP 
 
 ### "I want to crack the solar system open like an egg"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QgylXuow4Qo?start=0&end=65" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/QgylXuow4Qo/hqdefault.jpg)](https://www.youtube.com/watch?v=QgylXuow4Qo&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-1:05" "https://www.youtube.com/watch?v=QgylXuow4Qo" --force-keyframes-at-cuts --merge-output-format mp4 -o "QgylXuow4Qo-0m00s.mp4"
+```
+</details>
 
 > "If you want to do something in aerospace engineering, your task is to find something a German dude worked on in the 1930s and steal it. I'm trying to build a goddamn Panama Canal for putting stuff into space. I want to crack the solar system open like an egg."
 > — Mike Grace, [0:00](https://www.youtube.com/watch?v=QgylXuow4Qo&t=0s)
 
 ### "The gun is made of sewer pipe and concrete - no carbon fiber, no inconel"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QgylXuow4Qo?start=300&end=365" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/QgylXuow4Qo/hqdefault.jpg)](https://www.youtube.com/watch?v=QgylXuow4Qo&t=300s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:00-6:05" "https://www.youtube.com/watch?v=QgylXuow4Qo" --force-keyframes-at-cuts --merge-output-format mp4 -o "QgylXuow4Qo-5m00s.mp4"
+```
+</details>
 
 > "The gun no longer has to be made of crazy engineered gun tube. It can be made out of sewer pipe, which is what this is. Sewer pipe and concrete. Mild steel and sex appeal, baby. No inconel, no carbon fiber. The maximum pressure is around 1,000 PSI - a third of a scuba tank."
 > — Mike Grace, [5:00](https://www.youtube.com/watch?v=QgylXuow4Qo&t=300s)
 
 ### "The moral of Gerald Bull's story is don't build death stars for dictators"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QgylXuow4Qo?start=630&end=695" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/QgylXuow4Qo/hqdefault.jpg)](https://www.youtube.com/watch?v=QgylXuow4Qo&t=630s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:30-11:35" "https://www.youtube.com/watch?v=QgylXuow4Qo" --force-keyframes-at-cuts --merge-output-format mp4 -o "QgylXuow4Qo-10m30s.mp4"
+```
+</details>
 
 > "Gerald Bull built a gun that shot projectiles 200km into space. Then he got jailed by the CIA, worked for Saddam Hussein building a super gun, and was assassinated by Mossad in 1989. The moral of Gerald Bull's story is don't build death stars for dictators."
 > — Mike Grace, [10:30](https://www.youtube.com/watch?v=QgylXuow4Qo&t=630s)
 
 ### "Rockets are expensive because they are flying bombs"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QgylXuow4Qo?start=1081&end=1145" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/QgylXuow4Qo/hqdefault.jpg)](https://www.youtube.com/watch?v=QgylXuow4Qo&t=1081s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:01-19:05" "https://www.youtube.com/watch?v=QgylXuow4Qo" --force-keyframes-at-cuts --merge-output-format mp4 -o "QgylXuow4Qo-18m01s.mp4"
+```
+</details>
 
 > "Rockets are expensive because they are flying bombs. If one Starship out of 500 catastrophically explodes for no reason, that'll be the best rocket ever built by man. That risk premium makes rockets inherently expensive."
 > — Mike Grace, [18:01](https://www.youtube.com/watch?v=QgylXuow4Qo&t=1081s)
 
 ### "Nothing about Falcon 9 was impossible in the 1970s"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QgylXuow4Qo?start=941&end=1010" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/QgylXuow4Qo/hqdefault.jpg)](https://www.youtube.com/watch?v=QgylXuow4Qo&t=941s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:41-16:50" "https://www.youtube.com/watch?v=QgylXuow4Qo" --force-keyframes-at-cuts --merge-output-format mp4 -o "QgylXuow4Qo-15m41s.mp4"
+```
+</details>
 
 > "Nothing about the reusable Falcon 9 was impossible in the 1970s. We had the materials, we had the computing. The military-industrial complex just had no incentive to make launch cheap. They wanted cost-plus contracts."
 > — Mike Grace, [15:41](https://www.youtube.com/watch?v=QgylXuow4Qo&t=941s)
 
 ### "We started with a 40-foot PVC potato gun in my garage"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QgylXuow4Qo?start=2279&end=2345" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/QgylXuow4Qo/hqdefault.jpg)](https://www.youtube.com/watch?v=QgylXuow4Qo&t=2279s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*37:59-39:05" "https://www.youtube.com/watch?v=QgylXuow4Qo" --force-keyframes-at-cuts --merge-output-format mp4 -o "QgylXuow4Qo-37m59s.mp4"
+```
+</details>
 
 > "We started with a 40-foot PVC potato gun in my garage that achieved Mach 1.8. Extremely dangerous. PVC fragments like a grenade. I should not have done that. But that's where it began."
 > — Mike Grace, [37:59](https://www.youtube.com/watch?v=QgylXuow4Qo&t=2279s)

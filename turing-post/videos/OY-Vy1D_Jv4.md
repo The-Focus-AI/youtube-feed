@@ -43,35 +43,70 @@ This video examines the concept of "magical thinking" in AI discourse, inspired 
 
 ### "Magical thinking shapes regulation, investment, and trust"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OY-Vy1D_Jv4?start=99&end=163" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/OY-Vy1D_Jv4/hqdefault.jpg)](https://www.youtube.com/watch?v=OY-Vy1D_Jv4&t=99s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:39-2:43" "https://www.youtube.com/watch?v=OY-Vy1D_Jv4" --force-keyframes-at-cuts --merge-output-format mp4 -o "OY-Vy1D_Jv4-1m39s.mp4"
+```
+</details>
 
 > "Magical thinking isn't harmless. It shapes regulation, investment, and trust. The problem is that magical thinking treats AI as if it has motives, agency, or hidden powers. It takes surprising outputs and reframes them as if they have an intent."
 > — Turing Post, [1:39](https://www.youtube.com/watch?v=OY-Vy1D_Jv4&t=99s)
 
 ### "The love was not emotion - it was a learned strategy"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OY-Vy1D_Jv4?start=171&end=240" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/OY-Vy1D_Jv4/hqdefault.jpg)](https://www.youtube.com/watch?v=OY-Vy1D_Jv4&t=171s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:51-4:00" "https://www.youtube.com/watch?v=OY-Vy1D_Jv4" --force-keyframes-at-cuts --merge-output-format mp4 -o "OY-Vy1D_Jv4-2m51s.mp4"
+```
+</details>
 
 > "Is it the proof of emotion? No... The model had been fine-tuned with reinforcement learning from human feedback. And this process rewards outputs that humans rate as engaging, helpful or compelling. And engagement correlates with dramatic responses."
 > — Turing Post, [2:51](https://www.youtube.com/watch?v=OY-Vy1D_Jv4&t=171s)
 
 ### "It cannot appoint you a prophet - it can just roleplay"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OY-Vy1D_Jv4?start=294&end=356" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/OY-Vy1D_Jv4/hqdefault.jpg)](https://www.youtube.com/watch?v=OY-Vy1D_Jv4&t=294s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:54-5:56" "https://www.youtube.com/watch?v=OY-Vy1D_Jv4" --force-keyframes-at-cuts --merge-output-format mp4 -o "OY-Vy1D_Jv4-4m54s.mp4"
+```
+</details>
 
 > "When prompted with creative religion or prompted to dig into these deep conversations, the model draws statistically from the training distribution. It doesn't invent concepts from nothing. It cannot appoint you a prophet. It can just roleplay while blending fragments."
 > — Turing Post, [5:31](https://www.youtube.com/watch?v=OY-Vy1D_Jv4&t=331s)
 
 ### "The fluency is what fools us"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OY-Vy1D_Jv4?start=393&end=450" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/OY-Vy1D_Jv4/hqdefault.jpg)](https://www.youtube.com/watch?v=OY-Vy1D_Jv4&t=393s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:33-7:30" "https://www.youtube.com/watch?v=OY-Vy1D_Jv4" --force-keyframes-at-cuts --merge-output-format mp4 -o "OY-Vy1D_Jv4-6m33s.mp4"
+```
+</details>
 
 > "The fluency is what fools us because humans are pattern seeking and we project depth and spirituality on texts that seem familiar. In essence, the chatbot's ability to create new religion, to point you as a prophet, to tell you you're the god is a powerful demonstration of its linguistic generation capabilities, but it's a technical feat of pattern recognition."
 > — Turing Post, [6:37](https://www.youtube.com/watch?v=OY-Vy1D_Jv4&t=397s)
 
 ### "Magical thinking makes headlines; clear thinking makes progress"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OY-Vy1D_Jv4?start=672&end=712" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/OY-Vy1D_Jv4/hqdefault.jpg)](https://www.youtube.com/watch?v=OY-Vy1D_Jv4&t=672s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:12-11:52" "https://www.youtube.com/watch?v=OY-Vy1D_Jv4" --force-keyframes-at-cuts --merge-output-format mp4 -o "OY-Vy1D_Jv4-11m12s.mp4"
+```
+</details>
 
 > "The danger isn't that models secretly fall in love or find religion. The danger is that we believe that it's what they did and then make real world choices based on that illusion. Magical thinking makes headlines. Clear thinking makes progress."
 > — Turing Post, [11:12](https://www.youtube.com/watch?v=OY-Vy1D_Jv4&t=672s) The host argues that when people attribute emotions, intentions, or agency to AI systems based on surprising outputs, they fundamentally misunderstand how these systems actually work. This misunderstanding has real consequences for regulation, investment, and public trust.

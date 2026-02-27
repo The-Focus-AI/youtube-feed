@@ -30,35 +30,70 @@ The video highlights that the "best" jacket depends entirely on matching your ne
 
 ### "This jacket is coated in resin that will start peeling"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rHdMviAhDtE?start=220&end=280" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rHdMviAhDtE/hqdefault.jpg)](https://www.youtube.com/watch?v=rHdMviAhDtE&t=220s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:40-4:40" "https://www.youtube.com/watch?v=rHdMviAhDtE" --force-keyframes-at-cuts --merge-output-format mp4 -o "rHdMviAhDtE-3m40s.mp4"
+```
+</details>
 
 > "Hey, by the way, this entire jacket is coated in a resin that whether you wear it or not or store it properly or not is going to start peeling, flaking, and falling off. That's just how the jacket's going to be. The second it's made, it will start to decay."
 > — Michael, [3:49](https://www.youtube.com/watch?v=rHdMviAhDtE&t=229s)
 
 ### "Decathlon $250 - what the heck is going on?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rHdMviAhDtE?start=334&end=395" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rHdMviAhDtE/hqdefault.jpg)](https://www.youtube.com/watch?v=rHdMviAhDtE&t=334s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:34-6:35" "https://www.youtube.com/watch?v=rHdMviAhDtE" --force-keyframes-at-cuts --merge-output-format mp4 -o "rHdMviAhDtE-5m34s.mp4"
+```
+</details>
 
 > "I never heard Decathlon in my life. And I was like, it's probably not going to be that good. Nope. That's one of the best jackets that I've ever seen for this price."
 > — Michael, [5:34](https://www.youtube.com/watch?v=rHdMviAhDtE&t=334s)
 
 ### "The most skilled down jacket makers on the entire planet"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rHdMviAhDtE?start=916&end=970" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rHdMviAhDtE/hqdefault.jpg)](https://www.youtube.com/watch?v=rHdMviAhDtE&t=916s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:16-16:10" "https://www.youtube.com/watch?v=rHdMviAhDtE" --force-keyframes-at-cuts --merge-output-format mp4 -o "rHdMviAhDtE-15m16s.mp4"
+```
+</details>
 
 > "The people actually making the jackets and down comforters and everything for Feathered Friends are some of the most skilled down jacket whatever makers on the entire planet. That is not an overexaggeration."
 > — Michael, [15:23](https://www.youtube.com/watch?v=rHdMviAhDtE&t=923s)
 
 ### "Why not just skip the chemicals entirely?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rHdMviAhDtE?start=851&end=910" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rHdMviAhDtE/hqdefault.jpg)](https://www.youtube.com/watch?v=rHdMviAhDtE&t=851s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:11-15:10" "https://www.youtube.com/watch?v=rHdMviAhDtE" --force-keyframes-at-cuts --merge-output-format mp4 -o "rHdMviAhDtE-14m11s.mp4"
+```
+</details>
 
 > "All these brands say this is the newest technology to keep you dry... and then 10 years later they say like, 'Oops, sorry. Those chemicals turned out to be very bad for everybody involved. Why not just skip them entirely and stick to the old classics?'"
 > — Michael, [14:22](https://www.youtube.com/watch?v=rHdMviAhDtE&t=862s)
 
 ### "Arctic researchers who didn't own their coats"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rHdMviAhDtE?start=1109&end=1160" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rHdMviAhDtE/hqdefault.jpg)](https://www.youtube.com/watch?v=rHdMviAhDtE&t=1109s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:29-19:20" "https://www.youtube.com/watch?v=rHdMviAhDtE" --force-keyframes-at-cuts --merge-output-format mp4 -o "rHdMviAhDtE-18m29s.mp4"
+```
+</details>
 
 > "Their jackets are still just down jackets. They're not any warmer unless you get a giant one. They're just incredibly overbuilt tanks because their history was a lot of their stuff was for Arctic researchers who didn't own their coats, so they would pass them to someone else."
 > — Michael, [18:46](https://www.youtube.com/watch?v=rHdMviAhDtE&t=1126s)

@@ -33,28 +33,56 @@ Krikorian concludes by advocating for the "Rebel Alliance" of open-source contri
 
 ### "Economics and Values Starting to Align"
 
-<iframe width="560" height="515" src="https://www.youtube.com/embed/3ohQX-oYndI?start=93&end=153" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3ohQX-oYndI/hqdefault.jpg)](https://www.youtube.com/watch?v=3ohQX-oYndI&t=93s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:33-2:33" "https://www.youtube.com/watch?v=3ohQX-oYndI" --force-keyframes-at-cuts --merge-output-format mp4 -o "3ohQX-oYndI-1m33s.mp4"
+```
+</details>
 
 > "I think that it is an unfair thing to assume that open source wins because of values. I think it needs to be this combination of values and economics need to really work out in order for it to make sense... We're starting to see a bunch of people have very similar comments that they've passed through the prototyping stage. They're getting into like the steady-state utilization phase."
 > — Raffi Krikorian, [1:33](https://www.youtube.com/watch?v=3ohQX-oYndI&t=93s)
 
 ### "The LAMP Stack for AI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3ohQX-oYndI?start=431&end=477" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3ohQX-oYndI/hqdefault.jpg)](https://www.youtube.com/watch?v=3ohQX-oYndI&t=431s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:11-7:57" "https://www.youtube.com/watch?v=3ohQX-oYndI" --force-keyframes-at-cuts --merge-output-format mp4 -o "3ohQX-oYndI-7m11s.mp4"
+```
+</details>
 
 > "What I would propose is that we should look at on like four different layers. So like we look at it as like the compute layer, we look at it at the model layer, we look at at the data layer... and then we look at the developer experience layer. And I think this replicates itself both on training and on the inference side. And so I think that like what the conversation looks like that we need to have is like what do APIs look like or what do standards look like between those layers so that we as an open-source ecosystem can start coalescing around this lamp-like stack metaphor."
 > — Raffi Krikorian, [7:11](https://www.youtube.com/watch?v=3ohQX-oYndI&t=431s)
 
 ### "I Own My Context"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3ohQX-oYndI?start=1054&end=1100" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3ohQX-oYndI/hqdefault.jpg)](https://www.youtube.com/watch?v=3ohQX-oYndI&t=1054s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*17:34-18:20" "https://www.youtube.com/watch?v=3ohQX-oYndI" --force-keyframes-at-cuts --merge-output-format mp4 -o "3ohQX-oYndI-17m34s.mp4"
+```
+</details>
 
 > "How do we make user context portable across a different sets of model providers so that we can invert that ownership paradigm that it's not that the model provider owns my context. I own my context and I can make it portable and I can expose different aspects of it depending on what we're trying to do at any given moment."
 > — Raffi Krikorian, [17:34](https://www.youtube.com/watch?v=3ohQX-oYndI&t=1054s)
 
 ### "Instrument Choice as Early as You Can"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3ohQX-oYndI?start=1322&end=1382" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3ohQX-oYndI/hqdefault.jpg)](https://www.youtube.com/watch?v=3ohQX-oYndI&t=1322s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*22:02-23:02" "https://www.youtube.com/watch?v=3ohQX-oYndI" --force-keyframes-at-cuts --merge-output-format mp4 -o "3ohQX-oYndI-22m02s.mp4"
+```
+</details>
 
 > "Try to instrument choice into your engineering stack as early as you can... Give yourself the exit door as early as you can so that you can then do it later when the time is right. Don't make it a massive engineering, a herculean engineering effort later."
 > — Raffi Krikorian, [22:02](https://www.youtube.com/watch?v=3ohQX-oYndI&t=1322s)

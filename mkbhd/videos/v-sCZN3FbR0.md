@@ -35,35 +35,70 @@ Drawing inspiration from Tom Scott's 2023 mistakes video, Marques emphasizes Han
 
 ### "I wish YouTube would bring annotations back"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v-sCZN3FbR0?start=116&end=170" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/v-sCZN3FbR0/hqdefault.jpg)](https://www.youtube.com/watch?v=v-sCZN3FbR0&t=116s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:56-2:50" "https://www.youtube.com/watch?v=v-sCZN3FbR0" --force-keyframes-at-cuts --merge-output-format mp4 -o "v-sCZN3FbR0-1m56s.mp4"
+```
+</details>
 
 > "I wish YouTube would bring annotations back."
 > — Marques Brownlee, [1:56](https://www.youtube.com/watch?v=v-sCZN3FbR0&t=116s)
 
 ### "I hate when companies do that"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v-sCZN3FbR0?start=263&end=310" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/v-sCZN3FbR0/hqdefault.jpg)](https://www.youtube.com/watch?v=v-sCZN3FbR0&t=263s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:23-5:10" "https://www.youtube.com/watch?v=v-sCZN3FbR0" --force-keyframes-at-cuts --merge-output-format mp4 -o "v-sCZN3FbR0-4m23s.mp4"
+```
+</details>
 
 > "Power Beats are the most popular earbuds in the Beats lineup, which would have just been easier to say, and I hate when companies do that."
 > — Marques Brownlee, [4:49](https://www.youtube.com/watch?v=v-sCZN3FbR0&t=289s)
 
 ### "Can't fact check by Googling unreleased specs"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v-sCZN3FbR0?start=489&end=545" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/v-sCZN3FbR0/hqdefault.jpg)](https://www.youtube.com/watch?v=v-sCZN3FbR0&t=489s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:09-9:05" "https://www.youtube.com/watch?v=v-sCZN3FbR0" --force-keyframes-at-cuts --merge-output-format mp4 -o "v-sCZN3FbR0-8m09s.mp4"
+```
+</details>
 
 > "I obviously can't fact check my specs that I say by googling it cuz Google's just going to give me rumored specs basically."
 > — Marques Brownlee, [8:34](https://www.youtube.com/watch?v=v-sCZN3FbR0&t=514s)
 
 ### "No, that's not true - no engagement baiting"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v-sCZN3FbR0?start=778&end=820" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/v-sCZN3FbR0/hqdefault.jpg)](https://www.youtube.com/watch?v=v-sCZN3FbR0&t=778s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:58-13:40" "https://www.youtube.com/watch?v=v-sCZN3FbR0" --force-keyframes-at-cuts --merge-output-format mp4 -o "v-sCZN3FbR0-12m58s.mp4"
+```
+</details>
 
 > "Oh, Marquez, he'll throw in like a factual inaccuracy here and there just to, you know, engagement bait or keep people commenting about stuff and keep engagement high. No, that's not true."
 > — Marques Brownlee, [13:10](https://www.youtube.com/watch?v=v-sCZN3FbR0&t=790s)
 
 ### "Hanlon's razor"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v-sCZN3FbR0?start=759&end=800" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/v-sCZN3FbR0/hqdefault.jpg)](https://www.youtube.com/watch?v=v-sCZN3FbR0&t=759s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:39-13:20" "https://www.youtube.com/watch?v=v-sCZN3FbR0" --force-keyframes-at-cuts --merge-output-format mp4 -o "v-sCZN3FbR0-12m39s.mp4"
+```
+</details>
 
 > "Keep in mind Hanlon's razor when you see those mistakes - basically not to attribute to malice what can be explained by stupidity."
 > — Marques Brownlee, [12:58](https://www.youtube.com/watch?v=v-sCZN3FbR0&t=778s)

@@ -38,42 +38,84 @@ The final segment examines a viral claim that the U.S. poverty line should be $1
 
 ### "ChatGPT5 was a bit of a flop"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uxi6LVKanuY?start=16&end=75" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Uxi6LVKanuY/hqdefault.jpg)](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=16s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:16-1:15" "https://www.youtube.com/watch?v=Uxi6LVKanuY" --force-keyframes-at-cuts --merge-output-format mp4 -o "Uxi6LVKanuY-0m16s.mp4"
+```
+</details>
 
 > "Sam Altman issued Code Red... Chat GPT5, let's call it what it is, was a bit of a flop. It didn't perform to expectations... Anthropic is beating OpenAI in enterprise revenue."
 > — Jason Calacanis, [0:16](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=16s)
 
 ### "Google gave themselves permission to take risk"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uxi6LVKanuY?start=1440&end=1510" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Uxi6LVKanuY/hqdefault.jpg)](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=1440s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*24:00-25:10" "https://www.youtube.com/watch?v=Uxi6LVKanuY" --force-keyframes-at-cuts --merge-output-format mp4 -o "Uxi6LVKanuY-24m00s.mp4"
+```
+</details>
 
 > "I think really importantly it's not just about Sergey coming back, it's about giving themselves permission to take risk... ChatGPT is now acting and OpenAI has been acting like an incumbent, fearful of losing market share."
 > — David Friedberg, [24:00](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=1440s)
 
 ### "I divested almost a hundred funds at roughly 50% discount"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uxi6LVKanuY?start=2245&end=2310" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Uxi6LVKanuY/hqdefault.jpg)](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=2245s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*37:25-38:30" "https://www.youtube.com/watch?v=Uxi6LVKanuY" --force-keyframes-at-cuts --merge-output-format mp4 -o "Uxi6LVKanuY-37m25s.mp4"
+```
+</details>
 
 > "I divested almost a hundred funds that I had invested in, venture funds, things like that, angel funds at roughly a 50% discount to their fair market value."
 > — David Sacks, [37:25](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=2245s)
 
 ### "There was no such dinner - they made it up"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uxi6LVKanuY?start=3105&end=3180" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Uxi6LVKanuY/hqdefault.jpg)](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=3105s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*51:45-53:00" "https://www.youtube.com/watch?v=Uxi6LVKanuY" --force-keyframes-at-cuts --merge-output-format mp4 -o "Uxi6LVKanuY-51m45s.mp4"
+```
+</details>
 
 > "There's just one problem with this narrative. There was no such dinner. We checked my schedule. They made up the dinner... So, they've got a source who's just making this up."
 > — David Sacks, [51:45](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=3105s)
 
 ### "Norway's wealth tax caused $54 billion to leave"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uxi6LVKanuY?start=3750&end=3820" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Uxi6LVKanuY/hqdefault.jpg)](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=3750s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*62:30-63:40" "https://www.youtube.com/watch?v=Uxi6LVKanuY" --force-keyframes-at-cuts --merge-output-format mp4 -o "Uxi6LVKanuY-62m30s.mp4"
+```
+</details>
 
 > "Norway's 2022 wealth tax was supposed to raise $146 million of incremental revenue per year. Instead, $54 billion of net worth left the country. And they actually had a $448 million tax loss."
 > — David Friedberg, [62:30](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=3750s)
 
 ### "Socialism emerges slowly"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uxi6LVKanuY?start=3840&end=3900" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Uxi6LVKanuY/hqdefault.jpg)](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=3840s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*64:00-65:00" "https://www.youtube.com/watch?v=Uxi6LVKanuY" --force-keyframes-at-cuts --merge-output-format mp4 -o "Uxi6LVKanuY-64m00s.mp4"
+```
+</details>
 
 > "Socialism emerges slowly. It's like a quiet sort of hum and then it becomes a roar and all of a sudden you're a frog in a pot and you don't realize you're being boiled."
 > — David Friedberg, [64:00](https://www.youtube.com/watch?v=Uxi6LVKanuY&t=3840s)

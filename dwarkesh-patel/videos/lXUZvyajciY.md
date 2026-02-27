@@ -40,42 +40,84 @@ On reinforcement learning, Karpathy is scathing: "RL is terrible. It just so hap
 
 ### "We're summoning ghosts, not building animals"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lXUZvyajciY?start=565&end=600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/lXUZvyajciY/hqdefault.jpg)](https://www.youtube.com/watch?v=lXUZvyajciY&t=565s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:25-10:00" "https://www.youtube.com/watch?v=lXUZvyajciY" --force-keyframes-at-cuts --merge-output-format mp4 -o "lXUZvyajciY-9m25s.mp4"
+```
+</details>
 
 > "We're building ghosts or spirits. We're not doing training by evolution. We're training on human data and the data that they've put on the Internet. It's a different kind of intelligence. We're starting off at a different point almost."
 > -- Andrej Karpathy, [9:25](https://www.youtube.com/watch?v=lXUZvyajciY&t=565s)
 
 ### "Reinforcement learning is terrible"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lXUZvyajciY?start=2460&end=2530" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/lXUZvyajciY/hqdefault.jpg)](https://www.youtube.com/watch?v=lXUZvyajciY&t=2460s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*41:00-42:10" "https://www.youtube.com/watch?v=lXUZvyajciY" --force-keyframes-at-cuts --merge-output-format mp4 -o "lXUZvyajciY-41m00s.mp4"
+```
+</details>
 
 > "Reinforcement learning is terrible. It just so happens that everything else is much worse. In reinforcement learning, you try hundreds of solutions. One gets the right answer. Then literally what RL does is it upweights every single thing you did along the way. You're sucking the bits of supervision from the answer and broadcasting that across the entire trajectory. It's just stupid."
 > -- Andrej Karpathy, [41:00](https://www.youtube.com/watch?v=lXUZvyajciY&t=2460s)
 
 ### "The demo is very easy, but the product is very hard"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lXUZvyajciY?start=6240&end=6310" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/lXUZvyajciY/hqdefault.jpg)](https://www.youtube.com/watch?v=lXUZvyajciY&t=6240s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*104:00-105:10" "https://www.youtube.com/watch?v=lXUZvyajciY" --force-keyframes-at-cuts --merge-output-format mp4 -o "lXUZvyajciY-104m00s.mp4"
+```
+</details>
 
 > "I had a very early demo of Waymo in 2014. It took us around Palo Alto and I thought it was very close. For some kinds of tasks, the demo is very easy, but the product is very hard. Every single nine is a constant amount of work. When you get a demo and something works 90% of the time, that's one nine. Then you need the second nine, a third nine."
 > -- Andrej Karpathy, [1:44:00](https://www.youtube.com/watch?v=lXUZvyajciY&t=6240s)
 
 ### "AGI will blend into 2% GDP growth"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lXUZvyajciY?start=4050&end=4120" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/lXUZvyajciY/hqdefault.jpg)](https://www.youtube.com/watch?v=lXUZvyajciY&t=4050s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*67:30-68:40" "https://www.youtube.com/watch?v=lXUZvyajciY" --force-keyframes-at-cuts --merge-output-format mp4 -o "lXUZvyajciY-67m30s.mp4"
+```
+</details>
 
 > "With AI we're going to see the exact same thing. It's a new kind of computer. But it has all these problems, and it's still going to add up to the same exponential. It's going to be very foreign to people who are expecting a hockey stick. The intelligence explosion will show up as an indistinguishable continuation of the 2% growth trajectory, just as the Internet did."
 > -- Andrej Karpathy, [1:07:30](https://www.youtube.com/watch?v=lXUZvyajciY&t=4050s)
 
 ### "Models have too much memory -- I want to remove the knowledge"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lXUZvyajciY?start=1540&end=1600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/lXUZvyajciY/hqdefault.jpg)](https://www.youtube.com/watch?v=lXUZvyajciY&t=1540s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*25:40-26:40" "https://www.youtube.com/watch?v=lXUZvyajciY" --force-keyframes-at-cuts --merge-output-format mp4 -o "lXUZvyajciY-25m40s.mp4"
+```
+</details>
 
 > "What I think we have to do going forward is figure out ways to remove some of the knowledge. I want this intelligent entity that is stripped from knowledge. I want the magic of intelligence and problem-solving without the memory."
 > -- Andrej Karpathy, [25:40](https://www.youtube.com/watch?v=lXUZvyajciY&t=1540s)
 
 ### "Post-AGI education is fun -- it's the gym for the brain"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lXUZvyajciY?start=7800&end=7860" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/lXUZvyajciY/hqdefault.jpg)](https://www.youtube.com/watch?v=lXUZvyajciY&t=7800s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*130:00-131:00" "https://www.youtube.com/watch?v=lXUZvyajciY" --force-keyframes-at-cuts --merge-output-format mp4 -o "lXUZvyajciY-130m00s.mp4"
+```
+</details>
 
 > "Post-AGI education is fun. We don't need humans' physical strength anymore -- we have machines that do that. Why do people go to the gym? Because it feels good and you look hot when you have a six-pack. Education will play out in the same way."
 > -- Andrej Karpathy, [2:10:00](https://www.youtube.com/watch?v=lXUZvyajciY&t=7800s)

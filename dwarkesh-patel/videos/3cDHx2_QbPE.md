@@ -34,35 +34,70 @@ The discussion also touches on Terraform Industries' work on synthetic natural g
 
 ### "Solar's 43% learning rate is astonishing"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3cDHx2_QbPE?start=1080&end=1140" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3cDHx2_QbPE/hqdefault.jpg)](https://www.youtube.com/watch?v=3cDHx2_QbPE&t=1080s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:00-19:00" "https://www.youtube.com/watch?v=3cDHx2_QbPE" --force-keyframes-at-cuts --merge-output-format mp4 -o "3cDHx2_QbPE-18m00s.mp4"
+```
+</details>
 
 > "The Wright's Law coefficient for solar is 43%. For every doubling of cumulative production, we get a 43% reduction in cost. And roughly every two to two and a half years, we're doubling production and dropping the price by 43%. So it's roughly 15-20% cost reduction per year."
 > -- Casey Handmer, [18:00](https://www.youtube.com/watch?v=3cDHx2_QbPE&t=1080s)
 
 ### "The grid is the poster child for Baumol cost disease"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3cDHx2_QbPE?start=1560&end=1620" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3cDHx2_QbPE/hqdefault.jpg)](https://www.youtube.com/watch?v=3cDHx2_QbPE&t=1560s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*26:00-27:00" "https://www.youtube.com/watch?v=3cDHx2_QbPE" --force-keyframes-at-cuts --merge-output-format mp4 -o "3cDHx2_QbPE-26m00s.mp4"
+```
+</details>
 
 > "The delivery cost is perpetually on the brink of bankruptcy. Every additional solar panel, wind turbine, or gas plant you add -- getting that power to your house is really expensive. The grid is the poster child for Baumol cost disease."
 > -- Casey Handmer, [26:00](https://www.youtube.com/watch?v=3cDHx2_QbPE&t=1560s)
 
 ### "50,000 acres of solar-powered data centers"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3cDHx2_QbPE?start=1620&end=1680" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3cDHx2_QbPE/hqdefault.jpg)](https://www.youtube.com/watch?v=3cDHx2_QbPE&t=1620s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*27:00-28:00" "https://www.youtube.com/watch?v=3cDHx2_QbPE" --force-keyframes-at-cuts --merge-output-format mp4 -o "3cDHx2_QbPE-27m00s.mp4"
+```
+</details>
 
 > "If you want five gigawatts, that's 50,000 acres. And 50,000 acres sounds like a lot, but the amount of land put aside for the Hanford site to produce the plutonium in the Manhattan Project is comparable. Nevada alone is 80 million acres."
 > -- Casey Handmer, [27:00](https://www.youtube.com/watch?v=3cDHx2_QbPE&t=1620s)
 
 ### "One human brain simulated on a sheet of paper floating in space"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3cDHx2_QbPE?start=3530&end=3590" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3cDHx2_QbPE/hqdefault.jpg)](https://www.youtube.com/watch?v=3cDHx2_QbPE&t=3530s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*58:50-59:50" "https://www.youtube.com/watch?v=3cDHx2_QbPE" --force-keyframes-at-cuts --merge-output-format mp4 -o "3cDHx2_QbPE-58m50s.mp4"
+```
+</details>
 
 > "One human brain can be simulated in roughly the area of a sheet of paper, floating in space. That's the attractor state. Computronium at the center of a solar cell."
 > -- Casey Handmer, [58:50](https://www.youtube.com/watch?v=3cDHx2_QbPE&t=3530s)
 
 ### "China's energy vulnerability is its Achilles' heel"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3cDHx2_QbPE?start=97&end=145" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3cDHx2_QbPE/hqdefault.jpg)](https://www.youtube.com/watch?v=3cDHx2_QbPE&t=97s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:37-2:25" "https://www.youtube.com/watch?v=3cDHx2_QbPE" --force-keyframes-at-cuts --merge-output-format mp4 -o "3cDHx2_QbPE-1m37s.mp4"
+```
+</details>
 
 > "China's surrounded by 15 countries with no good mountain ranges or rivers to protect it. They get almost all their oil from countries that they don't control, on fleets of oil tankers that they can't defend. Synthetic fuels could level the playing field."
 > -- Casey Handmer, [1:37](https://www.youtube.com/watch?v=3cDHx2_QbPE&t=97s)

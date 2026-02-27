@@ -35,35 +35,70 @@ The conversation concludes with thoughts on AGI, where Gupta views it as an inev
 
 ### "AI Agents Are the Human Problem on Steroids"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5P8kgRcLF5Q?start=112&end=165" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5P8kgRcLF5Q/hqdefault.jpg)](https://www.youtube.com/watch?v=5P8kgRcLF5Q&t=112s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:52-2:45" "https://www.youtube.com/watch?v=5P8kgRcLF5Q" --force-keyframes-at-cuts --merge-output-format mp4 -o "5P8kgRcLF5Q-1m52s.mp4"
+```
+</details>
 
 > "AI agents are on steroids. They're going to be many more of them. They're going to be taking actions a lot faster and again in a very non-deterministic and maybe unpredictable way."
 > — Anneka Gupta, [2:11](https://www.youtube.com/watch?v=5P8kgRcLF5Q&t=131s)
 
 ### "The Three Pillars of AI Resilience"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5P8kgRcLF5Q?start=158&end=225" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5P8kgRcLF5Q/hqdefault.jpg)](https://www.youtube.com/watch?v=5P8kgRcLF5Q&t=158s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:38-3:45" "https://www.youtube.com/watch?v=5P8kgRcLF5Q" --force-keyframes-at-cuts --merge-output-format mp4 -o "5P8kgRcLF5Q-2m38s.mp4"
+```
+</details>
 
 > "First step is visibility. So, how can you actually monitor, get visibility into what is happening? What AI agents do you have running? What are the actions they're taking? What applications do they have access to?"
 > — Anneka Gupta, [2:54](https://www.youtube.com/watch?v=5P8kgRcLF5Q&t=174s)
 
 ### "Log Everything Your AI Agent Does"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5P8kgRcLF5Q?start=401&end=455" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5P8kgRcLF5Q/hqdefault.jpg)](https://www.youtube.com/watch?v=5P8kgRcLF5Q&t=401s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:41-7:35" "https://www.youtube.com/watch?v=5P8kgRcLF5Q" --force-keyframes-at-cuts --merge-output-format mp4 -o "5P8kgRcLF5Q-6m41s.mp4"
+```
+</details>
 
 > "Log every single thing that your AI agent is doing. And if you have that... you can go back, you can assess for quality challenges, like is this actually producing the results that I think it should be producing?"
 > — Anneka Gupta, [6:41](https://www.youtube.com/watch?v=5P8kgRcLF5Q&t=401s)
 
 ### "People Who Fear AI Usually Have Never Used It"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5P8kgRcLF5Q?start=887&end=940" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5P8kgRcLF5Q/hqdefault.jpg)](https://www.youtube.com/watch?v=5P8kgRcLF5Q&t=887s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:47-15:40" "https://www.youtube.com/watch?v=5P8kgRcLF5Q" --force-keyframes-at-cuts --merge-output-format mp4 -o "5P8kgRcLF5Q-14m47s.mp4"
+```
+</details>
 
 > "The majority of times I hear from people that they are afraid of AI is when they never used it."
 > — Anneka Gupta, [14:51](https://www.youtube.com/watch?v=5P8kgRcLF5Q&t=891s)
 
 ### "AGI Could Give Foreign Governments Very Broad Outcomes"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5P8kgRcLF5Q?start=1399&end=1455" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5P8kgRcLF5Q/hqdefault.jpg)](https://www.youtube.com/watch?v=5P8kgRcLF5Q&t=1399s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*23:19-24:15" "https://www.youtube.com/watch?v=5P8kgRcLF5Q" --force-keyframes-at-cuts --merge-output-format mp4 -o "5P8kgRcLF5Q-23m19s.mp4"
+```
+</details>
 
 > "With AGI, you could give a very broad outcome. So you could have from a national security perspective, you could have a foreign government that's trying to wage war on another country give very broad outcomes for what it's looking for and AGI will just go figure out how to execute on those outcomes."
 > — Anneka Gupta, [23:19](https://www.youtube.com/watch?v=5P8kgRcLF5Q&t=1399s)

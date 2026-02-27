@@ -37,35 +37,70 @@ Lutnick projects 5-6% GDP growth for 2026, driven by $18 trillion in committed c
 
 ### "Trump's Tootsie Roll test"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fd6QaEJOjvI?start=114&end=175" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/fd6QaEJOjvI/hqdefault.jpg)](https://www.youtube.com/watch?v=fd6QaEJOjvI&t=114s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:54-2:55" "https://www.youtube.com/watch?v=fd6QaEJOjvI" --force-keyframes-at-cuts --merge-output-format mp4 -o "fd6QaEJOjvI-1m54s.mp4"
+```
+</details>
 
 > "He handed me a Tootsie Roll like 'What's this?' It's a Tootsie Roll. 'Where's it made?' It's made in America. 'Well there you go. You gotta be on our team.'"
 > — Howard Lutnick, [2:09](https://www.youtube.com/watch?v=fd6QaEJOjvI&t=129s)
 
 ### "$26 trillion owned by foreigners"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fd6QaEJOjvI?start=779&end=840" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/fd6QaEJOjvI/hqdefault.jpg)](https://www.youtube.com/watch?v=fd6QaEJOjvI&t=779s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:59-14:00" "https://www.youtube.com/watch?v=fd6QaEJOjvI" --force-keyframes-at-cuts --merge-output-format mp4 -o "fd6QaEJOjvI-12m59s.mp4"
+```
+</details>
 
 > "Foreigners own $26 trillion of American goods. A trillion of that is farmland. What if they just bought Apple and put a Chinese boss in charge of all your data? You are selling America to foreigners."
 > — Howard Lutnick, [14:30](https://www.youtube.com/watch?v=fd6QaEJOjvI&t=870s)
 
 ### "The Japanese don't buy Chevrolets"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fd6QaEJOjvI?start=1210&end=1275" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/fd6QaEJOjvI/hqdefault.jpg)](https://www.youtube.com/watch?v=fd6QaEJOjvI&t=1210s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:10-21:15" "https://www.youtube.com/watch?v=fd6QaEJOjvI" --force-keyframes-at-cuts --merge-output-format mp4 -o "fd6QaEJOjvI-20m10s.mp4"
+```
+</details>
 
 > "You know who owns the auto industry in Japan? Yakuza. So if you own a Chevrolet dealership, they come in and sit in your dealership. So you buy Chevrolets, you buy American? No, no, we don't do that."
 > — Howard Lutnick, [20:20](https://www.youtube.com/watch?v=fd6QaEJOjvI&t=1220s)
 
 ### "Electricians making $500-750K"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fd6QaEJOjvI?start=3990&end=4055" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/fd6QaEJOjvI/hqdefault.jpg)](https://www.youtube.com/watch?v=fd6QaEJOjvI&t=3990s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*66:30-67:35" "https://www.youtube.com/watch?v=fd6QaEJOjvI" --force-keyframes-at-cuts --merge-output-format mp4 -o "fd6QaEJOjvI-66m30s.mp4"
+```
+</details>
 
 > "The electricians we're hiring are making $500,000 to $750,000 a year. That's what they're making. In the semiconductor factory. Because we need them so badly."
 > — Howard Lutnick, [1:06:45](https://www.youtube.com/watch?v=fd6QaEJOjvI&t=4005s)
 
 ### "TSMC got rid of DEI for leverage"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fd6QaEJOjvI?start=4445&end=4505" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/fd6QaEJOjvI/hqdefault.jpg)](https://www.youtube.com/watch?v=fd6QaEJOjvI&t=4445s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*74:05-75:05" "https://www.youtube.com/watch?v=fd6QaEJOjvI" --force-keyframes-at-cuts --merge-output-format mp4 -o "fd6QaEJOjvI-74m05s.mp4"
+```
+</details>
 
 > "The day before I got sworn in, TSMC got rid of their DEI programs. Well they got something from me that they want, and they took that off because they knew it would matter to me. That's called leverage."
 > — Howard Lutnick, [1:14:30](https://www.youtube.com/watch?v=fd6QaEJOjvI&t=4470s)

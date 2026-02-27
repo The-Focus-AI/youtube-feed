@@ -35,42 +35,84 @@ The conversation covers SendCutSend's unconventional approach to business includ
 
 ### "I'm told I'm taking risks. I don't see it that way - this is what it takes to move forward"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mTnv9b0xDV8?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mTnv9b0xDV8/hqdefault.jpg)](https://www.youtube.com/watch?v=mTnv9b0xDV8&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-1:00" "https://www.youtube.com/watch?v=mTnv9b0xDV8" --force-keyframes-at-cuts --merge-output-format mp4 -o "mTnv9b0xDV8-0m00s.mp4"
+```
+</details>
 
 > "I am often told that I'm taking risks. And I don't see it that way. I'm just like, no, this is what it's going to take to move forward. Manufacturing is infinite. This place will never ever ever be perfect. We'll never have enough capacity. So this can keep me busy for the foreseeable future."
 > — Jim Belosic, [0:00](https://www.youtube.com/watch?v=mTnv9b0xDV8&t=0s)
 
 ### "I've never been wronged with generosity"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mTnv9b0xDV8?start=413&end=475" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mTnv9b0xDV8/hqdefault.jpg)](https://www.youtube.com/watch?v=mTnv9b0xDV8&t=413s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:53-7:55" "https://www.youtube.com/watch?v=mTnv9b0xDV8" --force-keyframes-at-cuts --merge-output-format mp4 -o "mTnv9b0xDV8-6m53s.mp4"
+```
+</details>
 
 > "I've never been wronged with generosity. If I'm overly generous and it doesn't reciprocate, it's still fine. We've had FedEx guys that put on chains in snow to make their one delivery here because they love us and we take good care of them."
 > — Jim Belosic, [7:25](https://www.youtube.com/watch?v=mTnv9b0xDV8&t=445s)
 
 ### "Don't save money - the more we spend on experience, the more customers we get"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mTnv9b0xDV8?start=594&end=660" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mTnv9b0xDV8/hqdefault.jpg)](https://www.youtube.com/watch?v=mTnv9b0xDV8&t=594s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:54-11:00" "https://www.youtube.com/watch?v=mTnv9b0xDV8" --force-keyframes-at-cuts --merge-output-format mp4 -o "mTnv9b0xDV8-9m54s.mp4"
+```
+</details>
 
 > "Don't save money. Go for that good experience. Oftentimes we find that the more we spend, the better that experience is, the more customers we get, the longer lifetime value we have. There's a difference between being frugal and being cheap."
 > — Jim Belosic, [9:54](https://www.youtube.com/watch?v=mTnv9b0xDV8&t=594s)
 
 ### "If you say nobody wants to work anymore, they don't want to work for you"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mTnv9b0xDV8?start=6000&end=6065" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mTnv9b0xDV8/hqdefault.jpg)](https://www.youtube.com/watch?v=mTnv9b0xDV8&t=6000s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*100:00-101:05" "https://www.youtube.com/watch?v=mTnv9b0xDV8" --force-keyframes-at-cuts --merge-output-format mp4 -o "mTnv9b0xDV8-100m00s.mp4"
+```
+</details>
 
 > "If you say nobody wants to work anymore, they don't want to work for you. They don't want to work for your pay, your hours, your conditions. Everybody wants to work. They just don't want to work somewhere crappy."
 > — Jim Belosic, [1:40:00](https://www.youtube.com/watch?v=mTnv9b0xDV8&t=6000s)
 
 ### "I hire problem solvers, not sheet metal guys"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mTnv9b0xDV8?start=5346&end=5415" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mTnv9b0xDV8/hqdefault.jpg)](https://www.youtube.com/watch?v=mTnv9b0xDV8&t=5346s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*89:06-90:15" "https://www.youtube.com/watch?v=mTnv9b0xDV8" --force-keyframes-at-cuts --merge-output-format mp4 -o "mTnv9b0xDV8-89m06s.mp4"
+```
+</details>
 
 > "I'm not hiring sheet metal guys. I'm hiring people that are problem solvers. We've got rocket scientists, biologists, aerospace engineers. If you hire a bunch of sheet metal guys, they're going to try and solve sheet metal problems using sheet metal tools."
 > — Jim Belosic, [1:29:06](https://www.youtube.com/watch?v=mTnv9b0xDV8&t=5346s)
 
 ### "We give out 'fun coupons' - cash bonuses for going above and beyond"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mTnv9b0xDV8?start=359&end=425" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mTnv9b0xDV8/hqdefault.jpg)](https://www.youtube.com/watch?v=mTnv9b0xDV8&t=359s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:59-7:05" "https://www.youtube.com/watch?v=mTnv9b0xDV8" --force-keyframes-at-cuts --merge-output-format mp4 -o "mTnv9b0xDV8-5m59s.mp4"
+```
+</details>
 
 > "We call them fun coupons. We get paid in cash from one of our recyclers and redistribute that into the org. If a FedEx driver stayed a little late because we were slow loading the truck - hey, here's a fun coupon, $100 bill. We use those to lubricate the ecosystem."
 > — Jim Belosic, [5:59](https://www.youtube.com/watch?v=mTnv9b0xDV8&t=359s)

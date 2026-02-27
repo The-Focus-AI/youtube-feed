@@ -47,35 +47,70 @@ Lin also shares her personal leadership journey, revealing how she overcame self
 
 ### "Product-Market Fit is the Beginning of Bankruptcy"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bb4FHFpokkY?start=133&end=195" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bb4FHFpokkY/hqdefault.jpg)](https://www.youtube.com/watch?v=bb4FHFpokkY&t=133s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:13-3:15" "https://www.youtube.com/watch?v=bb4FHFpokkY" --force-keyframes-at-cuts --merge-output-format mp4 -o "bb4FHFpokkY-2m13s.mp4"
+```
+</details>
 
 > "Having a product market fit is the beginning of going to bankruptcy."
 > — Lin Qiao, [2:58](https://www.youtube.com/watch?v=bb4FHFpokkY&t=178s)
 
 ### "One Size Fits One, Not One Size Fits All"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bb4FHFpokkY?start=482&end=540" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bb4FHFpokkY/hqdefault.jpg)](https://www.youtube.com/watch?v=bb4FHFpokkY&t=482s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:02-9:00" "https://www.youtube.com/watch?v=bb4FHFpokkY" --force-keyframes-at-cuts --merge-output-format mp4 -o "bb4FHFpokkY-8m02s.mp4"
+```
+</details>
 
 > "We actually don't believe in one size fits all. We believe in one size fits one and every application is different."
 > — Lin Qiao, [8:16](https://www.youtube.com/watch?v=bb4FHFpokkY&t=496s)
 
 ### "Nobody Has Absolute Secret Sauce"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bb4FHFpokkY?start=824&end=880" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bb4FHFpokkY/hqdefault.jpg)](https://www.youtube.com/watch?v=bb4FHFpokkY&t=824s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:44-14:40" "https://www.youtube.com/watch?v=bb4FHFpokkY" --force-keyframes-at-cuts --merge-output-format mp4 -o "bb4FHFpokkY-13m44s.mp4"
+```
+</details>
 
 > "So does anyone has absolute secret sauce? Probably not."
 > — Lin Qiao, [14:05](https://www.youtube.com/watch?v=bb4FHFpokkY&t=845s)
 
 ### "Industry Should See 100 Times More Efficient AI Infrastructure"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bb4FHFpokkY?start=1230&end=1290" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bb4FHFpokkY/hqdefault.jpg)](https://www.youtube.com/watch?v=bb4FHFpokkY&t=1230s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:30-21:30" "https://www.youtube.com/watch?v=bb4FHFpokkY" --force-keyframes-at-cuts --merge-output-format mp4 -o "bb4FHFpokkY-20m30s.mp4"
+```
+</details>
 
 > "The industry should see 100 times more efficient in AI infrastructure."
 > — Lin Qiao, [21:01](https://www.youtube.com/watch?v=bb4FHFpokkY&t=1261s)
 
 ### "Find People Who Challenge You and Make You Uncomfortable"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bb4FHFpokkY?start=1500&end=1550" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bb4FHFpokkY/hqdefault.jpg)](https://www.youtube.com/watch?v=bb4FHFpokkY&t=1500s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*25:00-25:50" "https://www.youtube.com/watch?v=bb4FHFpokkY" --force-keyframes-at-cuts --merge-output-format mp4 -o "bb4FHFpokkY-25m00s.mp4"
+```
+</details>
 
 > "Find the people who really challenge you and make you uncomfortable is a blessing... don't be afraid of failure. Once you get to the other end of this tunnel you'll be a different person."
 > — Lin Qiao, [25:21](https://www.youtube.com/watch?v=bb4FHFpokkY&t=1521s)

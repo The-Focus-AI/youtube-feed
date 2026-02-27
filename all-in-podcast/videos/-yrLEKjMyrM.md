@@ -39,28 +39,56 @@ Gecko Robotics CEO Jake Loosararian demonstrates how AI-powered robots are trans
 
 ### "Five of Top 20 Global Banks Now Using Coinbase"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-yrLEKjMyrM?start=420&end=480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-yrLEKjMyrM/hqdefault.jpg)](https://www.youtube.com/watch?v=-yrLEKjMyrM&t=420s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:00-8:00" "https://www.youtube.com/watch?v=-yrLEKjMyrM" --force-keyframes-at-cuts --merge-output-format mp4 -o "-yrLEKjMyrM-7m00s.mp4"
+```
+</details>
 
 > "Five of the top 20 global banks in the world are now using Coinbase to build their crypto infrastructure. A couple are public - JP Morgan, PNC Bank. This is the institutional adoption wave. Banks are realizing crypto is infrastructure for the internet economy."
 > — Brian Armstrong, [7:00](https://www.youtube.com/watch?v=-yrLEKjMyrM&t=420s)
 
 ### "Stablecoins Will Be the Payment Rails of Internet Commerce"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-yrLEKjMyrM?start=1080&end=1140" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-yrLEKjMyrM/hqdefault.jpg)](https://www.youtube.com/watch?v=-yrLEKjMyrM&t=1080s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:00-19:00" "https://www.youtube.com/watch?v=-yrLEKjMyrM" --force-keyframes-at-cuts --merge-output-format mp4 -o "-yrLEKjMyrM-18m00s.mp4"
+```
+</details>
 
 > "Stablecoins are going to be how money moves on the internet. Not Bitcoin, not Ethereum - stablecoins backed by dollars. Instant settlement, programmable, low cost. Every internet company will build on this infrastructure. We're talking trillions in annual volume."
 > — Brian Armstrong, [18:00](https://www.youtube.com/watch?v=-yrLEKjMyrM&t=1080s)
 
 ### "Cerebras Trains Models 100x Faster Than GPU Clusters"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-yrLEKjMyrM?start=2731&end=2791" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-yrLEKjMyrM/hqdefault.jpg)](https://www.youtube.com/watch?v=-yrLEKjMyrM&t=2731s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*45:31-46:31" "https://www.youtube.com/watch?v=-yrLEKjMyrM" --force-keyframes-at-cuts --merge-output-format mp4 -o "-yrLEKjMyrM-45m31s.mp4"
+```
+</details>
 
 > "Time is the scarce resource in AI, not compute. If I can train your model in 3 days instead of 3 months, that's transformative. You can iterate faster, respond to competitors faster, deploy features faster. We're 100x faster than traditional GPU clusters for training."
 > — Andrew Feldman, [45:31](https://www.youtube.com/watch?v=-yrLEKjMyrM&t=2731s)
 
 ### "Our Robots Found Cracks That Would Have Killed Workers"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-yrLEKjMyrM?start=5030&end=5090" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-yrLEKjMyrM/hqdefault.jpg)](https://www.youtube.com/watch?v=-yrLEKjMyrM&t=5030s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*83:50-84:50" "https://www.youtube.com/watch?v=-yrLEKjMyrM" --force-keyframes-at-cuts --merge-output-format mp4 -o "-yrLEKjMyrM-83m50s.mp4"
+```
+</details>
 
 > "We deployed our robots at a power plant and found stress cracks in a boiler that human inspectors had missed for years. If that boiler had failed during operation, it would have killed workers and potentially caused a catastrophic explosion. AI + robotics saves lives."
 > — Jake Loosararian, [1:23:50](https://www.youtube.com/watch?v=-yrLEKjMyrM&t=5030s)

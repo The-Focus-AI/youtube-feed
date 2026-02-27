@@ -38,35 +38,70 @@ MKBHD reviews Apple's iPhone Air, the thinnest iPhone ever made - thinner than a
 
 ### "Thinner Than a Number Two Pencil"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tDARtYjUiHs?start=21&end=75" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tDARtYjUiHs/hqdefault.jpg)](https://www.youtube.com/watch?v=tDARtYjUiHs&t=21s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:21-1:15" "https://www.youtube.com/watch?v=tDARtYjUiHs" --force-keyframes-at-cuts --merge-output-format mp4 -o "tDARtYjUiHs-0m21s.mp4"
+```
+</details>
 
 > "It's thinner than a number two pencil, thinner than any previous iPhone including the one that bent. It's thinner than the freaking iPod Touch. That is ridiculous."
 > — Marques Brownlee, [0:31](https://www.youtube.com/watch?v=tDARtYjUiHs&t=31s)
 
 ### "Beauty is Pain"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tDARtYjUiHs?start=100&end=165" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tDARtYjUiHs/hqdefault.jpg)](https://www.youtube.com/watch?v=tDARtYjUiHs&t=100s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:40-2:45" "https://www.youtube.com/watch?v=tDARtYjUiHs" --force-keyframes-at-cuts --merge-output-format mp4 -o "tDARtYjUiHs-1m40s.mp4"
+```
+</details>
 
 > "There are a bunch of trade-offs. It doesn't just get this thin magically without a bunch of sacrifices. Beauty is pain after all."
 > — Marques Brownlee, [1:40](https://www.youtube.com/watch?v=tDARtYjUiHs&t=100s)
 
 ### "One of the Most Durable iPhones Ever"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tDARtYjUiHs?start=450&end=530" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tDARtYjUiHs/hqdefault.jpg)](https://www.youtube.com/watch?v=tDARtYjUiHs&t=450s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:30-8:50" "https://www.youtube.com/watch?v=tDARtYjUiHs" --force-keyframes-at-cuts --merge-output-format mp4 -o "tDARtYjUiHs-7m30s.mp4"
+```
+</details>
 
 > "It's literally one of the most impressively durable iPhones I've ever tested. I'm not exaggerating... The titanium frame can withstand way more pressure than any human can put on it and it'll snap back to flat every time."
 > — Marques Brownlee, [7:46](https://www.youtube.com/watch?v=tDARtYjUiHs&t=466s)
 
 ### "One Half of a Foldable iPhone"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tDARtYjUiHs?start=774&end=840" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tDARtYjUiHs/hqdefault.jpg)](https://www.youtube.com/watch?v=tDARtYjUiHs&t=774s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:54-14:00" "https://www.youtube.com/watch?v=tDARtYjUiHs" --force-keyframes-at-cuts --merge-output-format mp4 -o "tDARtYjUiHs-12m54s.mp4"
+```
+</details>
 
 > "But I lied. There's actually a third way to look at the iPhone Air, and that is as one half of a foldable iPhone that we all expect as early as next year."
 > — Marques Brownlee, [12:54](https://www.youtube.com/watch?v=tDARtYjUiHs&t=774s)
 
 ### "The Box That iOS Comes In"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tDARtYjUiHs?start=872&end=930" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tDARtYjUiHs/hqdefault.jpg)](https://www.youtube.com/watch?v=tDARtYjUiHs&t=872s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:32-15:30" "https://www.youtube.com/watch?v=tDARtYjUiHs" --force-keyframes-at-cuts --merge-output-format mp4 -o "tDARtYjUiHs-14m32s.mp4"
+```
+</details>
 
 > "But now it's like I'm reviewing, you know, the box that iOS comes in, you know? And I think this package, like, this will speak to plenty of people. It's beautiful, it's super trim, it's super light in the hand."
 > — Marques Brownlee, [14:41](https://www.youtube.com/watch?v=tDARtYjUiHs&t=881s)

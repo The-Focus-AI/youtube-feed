@@ -44,28 +44,56 @@ The analysis reveals a deeper tension between private ambition and public risk. 
 
 ### "How Do You Build the Future Economy Without Becoming Too Big to Fail?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5-7QpZsffiI?start=0&end=55" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5-7QpZsffiI/hqdefault.jpg)](https://www.youtube.com/watch?v=5-7QpZsffiI&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-0:55" "https://www.youtube.com/watch?v=5-7QpZsffiI" --force-keyframes-at-cuts --merge-output-format mp4 -o "5-7QpZsffiI-0m00s.mp4"
+```
+</details>
 
 > "How do you build the future economy without becoming too big to fail?"
 > — Turing Post Host, [0:00](https://www.youtube.com/watch?v=5-7QpZsffiI&t=0s)
 
 ### "Governments Should Build Compute Reserves Like Strategic Oil Reserves"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5-7QpZsffiI?start=156&end=210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5-7QpZsffiI/hqdefault.jpg)](https://www.youtube.com/watch?v=5-7QpZsffiI&t=156s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:36-3:30" "https://www.youtube.com/watch?v=5-7QpZsffiI" --force-keyframes-at-cuts --merge-output-format mp4 -o "5-7QpZsffiI-2m36s.mp4"
+```
+</details>
 
 > "Governments should build their own compute reserves like strategic oil reserves, but for intelligence."
 > — Sam Altman (paraphrased), [2:45](https://www.youtube.com/watch?v=5-7QpZsffiI&t=165s)
 
 ### "When a Company Signs Up for a Trillion, the Market Looks Like a State"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5-7QpZsffiI?start=260&end=315" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5-7QpZsffiI/hqdefault.jpg)](https://www.youtube.com/watch?v=5-7QpZsffiI&t=260s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:20-5:15" "https://www.youtube.com/watch?v=5-7QpZsffiI" --force-keyframes-at-cuts --merge-output-format mp4 -o "5-7QpZsffiI-4m20s.mp4"
+```
+</details>
 
 > "When a company signs up for more than a trillion in infrastructure, the market starts to look more like a state itself."
 > — Turing Post Host, [4:32](https://www.youtube.com/watch?v=5-7QpZsffiI&t=272s)
 
 ### "When $1.4 Trillion Belief Becomes Reality, It Becomes the System"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5-7QpZsffiI?start=385&end=430" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5-7QpZsffiI/hqdefault.jpg)](https://www.youtube.com/watch?v=5-7QpZsffiI&t=385s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:25-7:10" "https://www.youtube.com/watch?v=5-7QpZsffiI" --force-keyframes-at-cuts --merge-output-format mp4 -o "5-7QpZsffiI-6m25s.mp4"
+```
+</details>
 
 > "It's one thing to believe in something without proof. But when that belief drives $1.4 trillion of investment, it's no longer just belief. It becomes the system itself."
 > — Turing Post Host, [6:32](https://www.youtube.com/watch?v=5-7QpZsffiI&t=392s)

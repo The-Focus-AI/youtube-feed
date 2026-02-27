@@ -39,28 +39,56 @@ MKBHD delivers his first hands-on impressions of Google's entire Pixel 10 lineup
 
 ### "We Just Won Gold at World Games"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/269OsrzG3Ew?start=1&end=55" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/269OsrzG3Ew/hqdefault.jpg)](https://www.youtube.com/watch?v=269OsrzG3Ew&t=1s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:01-0:55" "https://www.youtube.com/watch?v=269OsrzG3Ew" --force-keyframes-at-cuts --merge-output-format mp4 -o "269OsrzG3Ew-0m01s.mp4"
+```
+</details>
 
 > "First off the plane, by the way. I'm recording this after, back from Chengdu, China, where we just won gold with Team USA in Ultimate Frisbee at the World Games."
 > — Marques Brownlee, [0:01](https://www.youtube.com/watch?v=269OsrzG3Ew&t=1s)
 
 ### "Pixelsnap is Basically MagSafe"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/269OsrzG3Ew?start=109&end=195" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/269OsrzG3Ew/hqdefault.jpg)](https://www.youtube.com/watch?v=269OsrzG3Ew&t=109s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:49-3:15" "https://www.youtube.com/watch?v=269OsrzG3Ew" --force-keyframes-at-cuts --merge-output-format mp4 -o "269OsrzG3Ew-1m49s.mp4"
+```
+</details>
 
 > "For all intents and purposes, Pixelsnap is basically MagSafe. It's great. We'll take it."
 > — Marques Brownlee, [3:08](https://www.youtube.com/watch?v=269OsrzG3Ew&t=188s)
 
 ### "I Knew We'd Get Here Eventually"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/269OsrzG3Ew?start=599&end=665" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/269OsrzG3Ew/hqdefault.jpg)](https://www.youtube.com/watch?v=269OsrzG3Ew&t=599s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:59-11:05" "https://www.youtube.com/watch?v=269OsrzG3Ew" --force-keyframes-at-cuts --merge-output-format mp4 -o "269OsrzG3Ew-9m59s.mp4"
+```
+</details>
 
 > "I knew we were gonna get here eventually. I just didn't know when. But the idea is, you don't need to know how to use the photo editing tools. You can just talk to your phone."
 > — Marques Brownlee, [10:03](https://www.youtube.com/watch?v=269OsrzG3Ew&t=603s)
 
 ### "The Smartest Phone in the Room"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/269OsrzG3Ew?start=487&end=550" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/269OsrzG3Ew/hqdefault.jpg)](https://www.youtube.com/watch?v=269OsrzG3Ew&t=487s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:07-9:10" "https://www.youtube.com/watch?v=269OsrzG3Ew" --force-keyframes-at-cuts --merge-output-format mp4 -o "269OsrzG3Ew-8m07s.mp4"
+```
+</details>
 
 > "They've never had a 100-megapixel camera or 100-watt charging. But instead, the Pixel focuses on being the 'smartest' phone in the room by just having a ton of really useful AI features."
 > — Marques Brownlee, [8:21](https://www.youtube.com/watch?v=269OsrzG3Ew&t=501s)

@@ -45,35 +45,70 @@ This episode of "3 Wows and 1 Promise" is uniquely recorded from inside a Tesla 
 
 ### "That's bananas that the media didn't cover the meaning"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vYubwUBds7I?start=25&end=85" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vYubwUBds7I/hqdefault.jpg)](https://www.youtube.com/watch?v=vYubwUBds7I&t=25s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:25-1:25" "https://www.youtube.com/watch?v=vYubwUBds7I" --force-keyframes-at-cuts --merge-output-format mp4 -o "vYubwUBds7I-0m25s.mp4"
+```
+</details>
 
 > "And I don't want to take any sides, any political sides, but seriously, that's bananas that the media didn't cover the meaning of what she was saying. They covered how rare she would appear at the White House, which is just snobbish and misses the point."
 > — Turing Post, [0:46](https://www.youtube.com/watch?v=vYubwUBds7I&t=46s)
 
 ### "If we humans cannot align our differences, how are we supposed to teach models?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vYubwUBds7I?start=202&end=260" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vYubwUBds7I/hqdefault.jpg)](https://www.youtube.com/watch?v=vYubwUBds7I&t=202s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:22-4:20" "https://www.youtube.com/watch?v=vYubwUBds7I" --force-keyframes-at-cuts --merge-output-format mp4 -o "vYubwUBds7I-3m22s.mp4"
+```
+</details>
 
 > "No matter what you think about the person, if they use their power to push the right thing forward, you can appreciate and support it. If we humans cannot align our differences for greater good, how are we supposed to teach models to do that?"
 > — Turing Post, [3:35](https://www.youtube.com/watch?v=vYubwUBds7I&t=215s)
 
 ### "22 of the top 50 mobile AI apps were built in China"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vYubwUBds7I?start=274&end=330" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vYubwUBds7I/hqdefault.jpg)](https://www.youtube.com/watch?v=vYubwUBds7I&t=274s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:34-5:30" "https://www.youtube.com/watch?v=vYubwUBds7I" --force-keyframes-at-cuts --merge-output-format mp4 -o "vYubwUBds7I-4m34s.mp4"
+```
+</details>
 
 > "China is literally everywhere. 22 of the top 50 mobile AI apps were built in China and now they're used globally. Is it a competition? Is it dominance? Is it foolish wrong strategies of open source versus closed source?"
 > — Turing Post, [4:34](https://www.youtube.com/watch?v=vYubwUBds7I&t=274s)
 
 ### "The age of the third space on wheels"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vYubwUBds7I?start=537&end=600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vYubwUBds7I/hqdefault.jpg)](https://www.youtube.com/watch?v=vYubwUBds7I&t=537s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:57-10:00" "https://www.youtube.com/watch?v=vYubwUBds7I" --force-keyframes-at-cuts --merge-output-format mp4 -o "vYubwUBds7I-8m57s.mp4"
+```
+</details>
 
 > "The commute now is not a dead time. It's a found time... We're entering the age of the third space on wheels. When cars are not only moving us, they're hosting us. They will be our offices, our studios, our reading rooms, our theaters, our nap pods."
 > — Turing Post, [9:06](https://www.youtube.com/watch?v=vYubwUBds7I&t=546s)
 
 ### "Grand AI Challenges - Education and Robotics"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vYubwUBds7I?start=612&end=665" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vYubwUBds7I/hqdefault.jpg)](https://www.youtube.com/watch?v=vYubwUBds7I&t=612s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:12-11:05" "https://www.youtube.com/watch?v=vYubwUBds7I" --force-keyframes-at-cuts --merge-output-format mp4 -o "vYubwUBds7I-10m12s.mp4"
+```
+</details>
 
 > "AI can grade math, but it fails at understanding why a student gets a problem wrong. And this challenge is about diagnosing misconceptions, opening the door to truly personalized education."
 > — Turing Post, [10:12](https://www.youtube.com/watch?v=vYubwUBds7I&t=612s) The host covers three major AI developments: First, the White House AI summit where Melania Trump addressed top tech CEOs about AI as a national priority focusing on infrastructure, security, and talent development. OpenAI responded the same day with a plan to certify 10 million Americans in AI skills by 2030.

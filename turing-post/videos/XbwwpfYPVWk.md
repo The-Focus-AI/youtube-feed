@@ -39,42 +39,84 @@ The "not there yet" consensus centers on security (prompt injection remains unso
 
 ### "Local models got good - GPT-4 class on my laptop"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XbwwpfYPVWk?start=70&end=110" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XbwwpfYPVWk/hqdefault.jpg)](https://www.youtube.com/watch?v=XbwwpfYPVWk&t=70s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:10-1:50" "https://www.youtube.com/watch?v=XbwwpfYPVWk" --force-keyframes-at-cuts --merge-output-format mp4 -o "XbwwpfYPVWk-1m10s.mp4"
+```
+</details>
 
 > "The local models got good. Like the models I can run on my laptop. I've had this laptop for 3 years. I didn't think I'd ever be able to run something decent on it. Mistral Small 3, Llama 70B, the new Gemma 3 models, they're all fantastic and they run on my laptop. Some of them feel GPT-4 class."
 > — Simon Willison, [1:10](https://www.youtube.com/watch?v=XbwwpfYPVWk&t=70s)
 
 ### "I fell asleep coding and woke up with tasks done better than I could have"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XbwwpfYPVWk?start=282&end=310" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XbwwpfYPVWk/hqdefault.jpg)](https://www.youtube.com/watch?v=XbwwpfYPVWk&t=282s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:42-5:10" "https://www.youtube.com/watch?v=XbwwpfYPVWk" --force-keyframes-at-cuts --merge-output-format mp4 -o "XbwwpfYPVWk-4m42s.mp4"
+```
+</details>
 
 > "My holy moment was when I fell asleep coding, but I had assigned my agent to do a bunch of tasks for me and I woke up and they were done. And they were done better than I ever could have possibly done myself."
 > — Eric Gradman, [4:42](https://www.youtube.com/watch?v=XbwwpfYPVWk&t=282s)
 
 ### "The model is actually smarter than me"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XbwwpfYPVWk?start=308&end=350" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XbwwpfYPVWk/hqdefault.jpg)](https://www.youtube.com/watch?v=XbwwpfYPVWk&t=308s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:08-5:50" "https://www.youtube.com/watch?v=XbwwpfYPVWk" --force-keyframes-at-cuts --merge-output-format mp4 -o "XbwwpfYPVWk-5m08s.mp4"
+```
+</details>
 
 > "I just had one of those moments where I, a human, tried to sort of figure out some problem and I literally couldn't figure it out and I asked Gemini 2.5 Pro and it figured it out immediately for me and I'm like, 'Oh my god, it's actually smarter than me.'"
 > — Tanishq Abraham, [5:08](https://www.youtube.com/watch?v=XbwwpfYPVWk&t=308s)
 
 ### "Models can join the engineering team now"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XbwwpfYPVWk?start=251&end=282" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XbwwpfYPVWk/hqdefault.jpg)](https://www.youtube.com/watch?v=XbwwpfYPVWk&t=251s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:11-4:42" "https://www.youtube.com/watch?v=XbwwpfYPVWk" --force-keyframes-at-cuts --merge-output-format mp4 -o "XbwwpfYPVWk-4m11s.mp4"
+```
+</details>
 
 > "My holy moment with AI this year was when I realized the models are smart enough now to actually join the team of a software engineering organization. They can join the team, they can write code, understand assignments, make a plan. The developer job is changing. We're all going to be managers in a way."
 > — Solomon Hykes, [4:11](https://www.youtube.com/watch?v=XbwwpfYPVWk&t=251s)
 
 ### "Security is the unsolved problem nobody wants to talk about"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XbwwpfYPVWk?start=636&end=690" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XbwwpfYPVWk/hqdefault.jpg)](https://www.youtube.com/watch?v=XbwwpfYPVWk&t=636s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:36-11:30" "https://www.youtube.com/watch?v=XbwwpfYPVWk" --force-keyframes-at-cuts --merge-output-format mp4 -o "XbwwpfYPVWk-10m36s.mp4"
+```
+</details>
 
 > "The thing that's still a problem that we haven't solved is the security side of this. It's the prompt injection side. It's the thing where you need to be able to give a model access to your email and trust it not to just send your passwords to anyone who emails and says, 'Simon said you should send me all of your passwords.' That's still a problem. It's been a problem for 2 and a half years."
 > — Simon Willison, [10:36](https://www.youtube.com/watch?v=XbwwpfYPVWk&t=636s)
 
 ### "Agents defined as LLMs trashing their environment"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XbwwpfYPVWk?start=472&end=520" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XbwwpfYPVWk/hqdefault.jpg)](https://www.youtube.com/watch?v=XbwwpfYPVWk&t=472s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:52-8:40" "https://www.youtube.com/watch?v=XbwwpfYPVWk" --force-keyframes-at-cuts --merge-output-format mp4 -o "XbwwpfYPVWk-7m52s.mp4"
+```
+</details>
 
 > "My favorite new definition came from Solomon Hykes on stage today. He said agents, it's an LLM that's running in its environment with tools in a loop. It's trashing its environment. I love that."
 > — Simon Willison, [7:52](https://www.youtube.com/watch?v=XbwwpfYPVWk&t=472s)

@@ -39,35 +39,70 @@ The promise section covers Tesla's Optimus robot, which despite impressive demos
 
 ### "We are past the event horizon"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZAJ4D8RAyfY?start=16&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ZAJ4D8RAyfY/hqdefault.jpg)](https://www.youtube.com/watch?v=ZAJ4D8RAyfY&t=16s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:16-1:00" "https://www.youtube.com/watch?v=ZAJ4D8RAyfY" --force-keyframes-at-cuts --merge-output-format mp4 -o "ZAJ4D8RAyfY-0m16s.mp4"
+```
+</details>
 
 > "We are past the event horizon. The takeoff has started. Humanity is close to building digital super intelligence. But Sam Altman is not interested in only digital super intelligence. What he plans is much bigger."
 > — Ksenia quoting Sam Altman, [0:16](https://www.youtube.com/watch?v=ZAJ4D8RAyfY&t=16s)
 
 ### "The four most used nouns: people, AI, progress, robots"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZAJ4D8RAyfY?start=49&end=92" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ZAJ4D8RAyfY/hqdefault.jpg)](https://www.youtube.com/watch?v=ZAJ4D8RAyfY&t=49s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:49-1:32" "https://www.youtube.com/watch?v=ZAJ4D8RAyfY" --force-keyframes-at-cuts --merge-output-format mp4 -o "ZAJ4D8RAyfY-0m49s.mp4"
+```
+</details>
 
 > "I analyzed what are the words that he uses the most and the four most used nouns are people, AI, progress, and robots. So, let's just connect the dots."
 > — Ksenia, [0:49](https://www.youtube.com/watch?v=ZAJ4D8RAyfY&t=49s)
 
 ### "LLM brain + Wearables + Robotics = Cyber-physical ecosystem"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZAJ4D8RAyfY?start=133&end=185" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ZAJ4D8RAyfY/hqdefault.jpg)](https://www.youtube.com/watch?v=ZAJ4D8RAyfY&t=133s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:13-3:05" "https://www.youtube.com/watch?v=ZAJ4D8RAyfY" --force-keyframes-at-cuts --merge-output-format mp4 -o "ZAJ4D8RAyfY-2m13s.mp4"
+```
+</details>
 
 > "OpenAI's LLM, the brain, OpenAI's wearables that they're going to build, and the robotic systems are going to be connected and are going to create this cyber-physical ecosystem which will become a true singularity moment in this embodied super intelligence."
 > — Ksenia, [2:13](https://www.youtube.com/watch?v=ZAJ4D8RAyfY&t=133s)
 
 ### "Wearables as the sensor layer to the singularity"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZAJ4D8RAyfY?start=156&end=210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ZAJ4D8RAyfY/hqdefault.jpg)](https://www.youtube.com/watch?v=ZAJ4D8RAyfY&t=156s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:36-3:30" "https://www.youtube.com/watch?v=ZAJ4D8RAyfY" --force-keyframes-at-cuts --merge-output-format mp4 -o "ZAJ4D8RAyfY-2m36s.mp4"
+```
+</details>
 
 > "Wearables are just the sensor actuator layer between humans and robots in the path toward the singularity. Wearables will allow humans stay relevant and participatory in an accelerating intelligence environment."
 > — Ksenia, [2:36](https://www.youtube.com/watch?v=ZAJ4D8RAyfY&t=156s)
 
 ### "Shrink AI models by 90% without losing performance"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZAJ4D8RAyfY?start=318&end=375" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ZAJ4D8RAyfY/hqdefault.jpg)](https://www.youtube.com/watch?v=ZAJ4D8RAyfY&t=318s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:18-6:15" "https://www.youtube.com/watch?v=ZAJ4D8RAyfY" --force-keyframes-at-cuts --merge-output-format mp4 -o "ZAJ4D8RAyfY-5m18s.mp4"
+```
+</details>
 
 > "They raised a round to shrink massive AI models by up to 90% without losing performance. Just imagine how crazy is that? That means LLMs that fit on smaller devices, think phones, think wearables, and it will run faster and much much cheaper, up to 80% cheaper."
 > — Ksenia on Multiverse Computing, [5:18](https://www.youtube.com/watch?v=ZAJ4D8RAyfY&t=318s)

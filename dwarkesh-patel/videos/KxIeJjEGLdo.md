@@ -32,35 +32,70 @@ The lecture covers the First Sino-Japanese War (1894-95), where Japan defeated t
 
 ### "Japan's defeat of China detonated the Confucian world order"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KxIeJjEGLdo?start=192&end=240" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KxIeJjEGLdo/hqdefault.jpg)](https://www.youtube.com/watch?v=KxIeJjEGLdo&t=192s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:12-4:00" "https://www.youtube.com/watch?v=KxIeJjEGLdo" --force-keyframes-at-cuts --merge-output-format mp4 -o "KxIeJjEGLdo-3m12s.mp4"
+```
+</details>
 
 > "When Japan proved to the Chinese that they can't be better than China -- this effect on China was far more devastating than any Western defeat. The Chinese could write off Western victories as irrelevant. But Japan's victory basically detonated the Confucian world order. The Chinese have been trying to find a replacement ever since."
 > -- Sarah Paine, [3:12](https://www.youtube.com/watch?v=KxIeJjEGLdo&t=192s)
 
 ### "The Trans-Siberian Railway created Japan's three-year window for empire"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KxIeJjEGLdo?start=926&end=980" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KxIeJjEGLdo/hqdefault.jpg)](https://www.youtube.com/watch?v=KxIeJjEGLdo&t=926s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:26-16:20" "https://www.youtube.com/watch?v=KxIeJjEGLdo" --force-keyframes-at-cuts --merge-output-format mp4 -o "KxIeJjEGLdo-15m26s.mp4"
+```
+</details>
 
 > "Japan understood exactly what the Trans-Siberian Railway was. Once Russia completes this thing, Japan can no longer be the dominant Asian power because Russia will be able to project military force directly into the theater. Japan had a window of opportunity that would slam shut."
 > -- Sarah Paine, [15:26](https://www.youtube.com/watch?v=KxIeJjEGLdo&t=926s)
 
 ### "General Nogi's poem: Wars bring much sorrow"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KxIeJjEGLdo?start=2900&end=2960" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KxIeJjEGLdo/hqdefault.jpg)](https://www.youtube.com/watch?v=KxIeJjEGLdo&t=2900s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*48:20-49:20" "https://www.youtube.com/watch?v=KxIeJjEGLdo" --force-keyframes-at-cuts --merge-output-format mp4 -o "KxIeJjEGLdo-48m20s.mp4"
+```
+</details>
 
 > "Imperial troops, a million strong, But siege and field warfare left them desolate. Ashamed, what face can I show? How many men have returned? Wars bring much sorrow."
 > -- General Nogi's poem, read by Sarah Paine, [48:20](https://www.youtube.com/watch?v=KxIeJjEGLdo&t=2900s)
 
 ### "Russia's cooperative adversary problem"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KxIeJjEGLdo?start=4550&end=4610" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KxIeJjEGLdo/hqdefault.jpg)](https://www.youtube.com/watch?v=KxIeJjEGLdo&t=4550s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*75:50-76:50" "https://www.youtube.com/watch?v=KxIeJjEGLdo" --force-keyframes-at-cuts --merge-output-format mp4 -o "KxIeJjEGLdo-75m50s.mp4"
+```
+</details>
 
 > "A cooperative adversary is not one that wants to cooperate with you, but one that cooperates with your strategy even though they're trying to win. Like playing chess with a little child -- they're trying to win, they just don't know how. Russia was Japan's cooperative adversary."
 > -- Sarah Paine, [1:15:50](https://www.youtube.com/watch?v=KxIeJjEGLdo&t=4550s)
 
 ### "If you're not willing to change your mind, you're just stupid"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KxIeJjEGLdo?start=5270&end=5330" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KxIeJjEGLdo/hqdefault.jpg)](https://www.youtube.com/watch?v=KxIeJjEGLdo&t=5270s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*87:50-88:50" "https://www.youtube.com/watch?v=KxIeJjEGLdo" --force-keyframes-at-cuts --merge-output-format mp4 -o "KxIeJjEGLdo-87m50s.mp4"
+```
+</details>
 
 > "You may not know the answer. I don't care who's right. I care what's right. If you're not willing to change your mind, you're just stupid. It's incredible the number of people who believe their only option is their current opinion."
 > -- Sarah Paine, [1:27:50](https://www.youtube.com/watch?v=KxIeJjEGLdo&t=5270s)

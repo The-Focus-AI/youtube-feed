@@ -33,35 +33,70 @@ Throughout, both hosts make disclosures (Casey's boyfriend works at Anthropic, K
 
 ### "Claude Code Successfully Installed"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ji_xpQzZDHo?start=85&end=135" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ji_xpQzZDHo/hqdefault.jpg)](https://www.youtube.com/watch?v=ji_xpQzZDHo&t=85s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:25-2:15" "https://www.youtube.com/watch?v=ji_xpQzZDHo" --force-keyframes-at-cuts --merge-output-format mp4 -o "ji_xpQzZDHo-1m25s.mp4"
+```
+</details>
 
 > "Well, so in fact, Kevin, it's giving me the words 'setting up Claude Code.' And in fact, it just said 'Claude Code successfully installed.' It is important that I make the following disclosure. My boyfriend works at Anthropic."
 > -- Casey Newton, [1:25](https://www.youtube.com/watch?v=ji_xpQzZDHo&t=85s)
 
 ### "The Website is Already Done"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ji_xpQzZDHo?start=370&end=425" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ji_xpQzZDHo/hqdefault.jpg)](https://www.youtube.com/watch?v=ji_xpQzZDHo&t=370s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:10-7:05" "https://www.youtube.com/watch?v=ji_xpQzZDHo" --force-keyframes-at-cuts --merge-output-format mp4 -o "ji_xpQzZDHo-6m10s.mp4"
+```
+</details>
 
 > "Kevin, what if I told you that the Hard Fork website is already done? A show about the future that's already here -- that is the real Hard Fork tagline. We did not tell it that. It just kind of found it."
 > -- Casey Newton & Kevin Roose, [6:10](https://www.youtube.com/watch?v=ji_xpQzZDHo&t=370s)
 
 ### "Dangerously Skip Permissions"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ji_xpQzZDHo?start=292&end=340" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ji_xpQzZDHo/hqdefault.jpg)](https://www.youtube.com/watch?v=ji_xpQzZDHo&t=292s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:52-5:40" "https://www.youtube.com/watch?v=ji_xpQzZDHo" --force-keyframes-at-cuts --merge-output-format mp4 -o "ji_xpQzZDHo-4m52s.mp4"
+```
+</details>
 
 > "I have done something a little bit dangerous here which is I'm using a mode called 'dangerously skip permissions.' If you're scared, if you like to live in fear, don't dangerously skip permissions. But if you want to experience the thrill of vibe coding close to the metal, then dangerously skip those."
 > -- Casey Newton & Kevin Roose, [4:52](https://www.youtube.com/watch?v=ji_xpQzZDHo&t=292s)
 
 ### "Do You Understand Any of This Code?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ji_xpQzZDHo?start=44&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ji_xpQzZDHo/hqdefault.jpg)](https://www.youtube.com/watch?v=ji_xpQzZDHo&t=44s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:44-1:00" "https://www.youtube.com/watch?v=ji_xpQzZDHo" --force-keyframes-at-cuts --merge-output-format mp4 -o "ji_xpQzZDHo-0m44s.mp4"
+```
+</details>
 
 > "Like lots of code is scrolling past, but do you understand what any of this is or is doing?" "I do. Thanks for asking. Any other questions?"
 > -- Kevin Roose & Casey Newton, [0:44](https://www.youtube.com/watch?v=ji_xpQzZDHo&t=44s)
 
 ### "Party Mode Activated"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ji_xpQzZDHo?start=1350&end=1400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ji_xpQzZDHo/hqdefault.jpg)](https://www.youtube.com/watch?v=ji_xpQzZDHo&t=1350s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*22:30-23:20" "https://www.youtube.com/watch?v=ji_xpQzZDHo" --force-keyframes-at-cuts --merge-output-format mp4 -o "ji_xpQzZDHo-22m30s.mp4"
+```
+</details>
 
 > "Enter the code. Up, up, down, down, left, right, left, right, B, A. And it says 'You found the secret.' Party mode activated. A nice little table flip emoji. And it says 'Click anywhere to return to reality.'"
 > -- Casey Newton, [22:30](https://www.youtube.com/watch?v=ji_xpQzZDHo&t=1350s)

@@ -42,28 +42,56 @@ The common theme across all four interviews is infrastructure - whether it's reg
 
 ### "Stablecoins Will Be the Money Layer for AI Agents"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w2BqPnVKVo4?start=1680&end=1740" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/w2BqPnVKVo4/hqdefault.jpg)](https://www.youtube.com/watch?v=w2BqPnVKVo4&t=1680s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*28:00-29:00" "https://www.youtube.com/watch?v=w2BqPnVKVo4" --force-keyframes-at-cuts --merge-output-format mp4 -o "w2BqPnVKVo4-28m00s.mp4"
+```
+</details>
 
 > "When you have billions of AI agents that need to transact value instantly, 24/7, across borders, you can't use the traditional banking system. Stablecoins become the obvious solution. They're programmable money with instant settlement. This is the infrastructure layer for the AI economy."
 > — Jeremy Allaire, [28:00](https://www.youtube.com/watch?v=w2BqPnVKVo4&t=1680s)
 
 ### "China, Russia, North Korea - The Cybersecurity Threat Landscape"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w2BqPnVKVo4?start=3753&end=3813" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/w2BqPnVKVo4/hqdefault.jpg)](https://www.youtube.com/watch?v=w2BqPnVKVo4&t=3753s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*62:33-63:33" "https://www.youtube.com/watch?v=w2BqPnVKVo4" --force-keyframes-at-cuts --merge-output-format mp4 -o "w2BqPnVKVo4-62m33s.mp4"
+```
+</details>
 
 > "The most capable hacker nations are China, Russia, and North Korea, in that order. China is playing the long game - they're in your systems for years, stealing intellectual property. Russia is more opportunistic and destructive. North Korea is motivated by revenue generation to fund their regime."
 > — George Kurtz, [1:02:33](https://www.youtube.com/watch?v=w2BqPnVKVo4&t=3753s)
 
 ### "eVTOLs Could Launch in Select Cities by End of 2026"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w2BqPnVKVo4?start=5273&end=5333" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/w2BqPnVKVo4/hqdefault.jpg)](https://www.youtube.com/watch?v=w2BqPnVKVo4&t=5273s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*87:53-88:53" "https://www.youtube.com/watch?v=w2BqPnVKVo4" --force-keyframes-at-cuts --merge-output-format mp4 -o "w2BqPnVKVo4-87m53s.mp4"
+```
+</details>
 
 > "We're targeting commercial operations in select markets by Q4 2026. Not everywhere at once - but in cities where we have the infrastructure, regulatory approvals, and demand. This is the year eVTOLs go from concept to reality."
 > — Adam Goldstein, [1:27:53](https://www.youtube.com/watch?v=w2BqPnVKVo4&t=5273s)
 
 ### "We're Powering AI Training With Flared Natural Gas"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w2BqPnVKVo4?start=6747&end=6807" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/w2BqPnVKVo4/hqdefault.jpg)](https://www.youtube.com/watch?v=w2BqPnVKVo4&t=6747s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*112:27-113:27" "https://www.youtube.com/watch?v=w2BqPnVKVo4" --force-keyframes-at-cuts --merge-output-format mp4 -o "w2BqPnVKVo4-112m27s.mp4"
+```
+</details>
 
 > "The AI buildout needs massive amounts of power. We're solving this by putting data centers directly at stranded energy sources - natural gas that would otherwise be flared, renewable energy that would be curtailed. We're turning waste into compute."
 > — Chase Lochmiller, [1:52:27](https://www.youtube.com/watch?v=w2BqPnVKVo4&t=6747s)

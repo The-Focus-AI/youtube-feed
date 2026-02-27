@@ -46,42 +46,84 @@ The discussion also covers ElevenLabs' strategic decision not to open source the
 
 ### "Real-time translation will happen this year"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Znm_glAFMUQ?start=0&end=50" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Znm_glAFMUQ/hqdefault.jpg)](https://www.youtube.com/watch?v=Znm_glAFMUQ&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-0:50" "https://www.youtube.com/watch?v=Znm_glAFMUQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "Znm_glAFMUQ-0m00s.mp4"
+```
+</details>
 
 > "I think the next stage will be how do you make it real time? I think this will happen this year... In the next stage ideally you have some device, let's say it's a headphone or some other device like mobile phone where you can speak and it live translates to the other person."
 > — Mati Staniszewski, [0:00](https://www.youtube.com/watch?v=Znm_glAFMUQ&t=0s)
 
 ### "English to Spanish is 30-40% longer when spoken"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Znm_glAFMUQ?start=480&end=540" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Znm_glAFMUQ/hqdefault.jpg)](https://www.youtube.com/watch?v=Znm_glAFMUQ&t=480s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:00-9:00" "https://www.youtube.com/watch?v=Znm_glAFMUQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "Znm_glAFMUQ-8m00s.mp4"
+```
+</details>
 
 > "English to Spanish is 30 or 40% longer when spoken. So if you need to keep the length the same, it's hard. The conversations that Lex has, if we are able to do them semi-automatic or fully automatic in the future, it will be a good proof point that the technology is really there."
 > — Mati Staniszewski, [8:00](https://www.youtube.com/watch?v=Znm_glAFMUQ&t=480s)
 
 ### "The emotion problem requires massive annotated datasets"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Znm_glAFMUQ?start=286&end=335" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Znm_glAFMUQ/hqdefault.jpg)](https://www.youtube.com/watch?v=Znm_glAFMUQ&t=286s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:46-5:35" "https://www.youtube.com/watch?v=Znm_glAFMUQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "Znm_glAFMUQ-4m46s.mp4"
+```
+</details>
 
 > "The first step would be to create a very large dataset and we work with voice coaches and people to effectively create larger sets of audio that then you annotate of how you say things. In this sentence the emotionality is excited, calm..."
 > — Mati Staniszewski, [4:46](https://www.youtube.com/watch?v=Znm_glAFMUQ&t=286s)
 
 ### "70 milliseconds for text-to-speech"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Znm_glAFMUQ?start=780&end=840" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Znm_glAFMUQ/hqdefault.jpg)](https://www.youtube.com/watch?v=Znm_glAFMUQ&t=780s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:00-14:00" "https://www.youtube.com/watch?v=Znm_glAFMUQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "Znm_glAFMUQ-13m00s.mp4"
+```
+</details>
 
 > "Current latency is end to end, with everything, with network, with interruptions, between a second to 1.2 seconds depending on the region. The text-to-speech which is the part of generating from text to audio, we have the quickest model which is 70 milliseconds."
 > — Mati Staniszewski, [13:00](https://www.youtube.com/watch?v=Znm_glAFMUQ&t=780s)
 
 ### "We want to build the Babel Fish"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Znm_glAFMUQ?start=133&end=180" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Znm_glAFMUQ/hqdefault.jpg)](https://www.youtube.com/watch?v=Znm_glAFMUQ&t=133s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:13-3:00" "https://www.youtube.com/watch?v=Znm_glAFMUQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "Znm_glAFMUQ-2m13s.mp4"
+```
+</details>
 
 > "I don't know if you are familiar with the Hitchhiker's Guide to the Galaxy and the Babel Fish. That's exactly where that's going to head. Would love to be part of making this happen."
 > — Mati Staniszewski, [2:13](https://www.youtube.com/watch?v=Znm_glAFMUQ&t=133s)
 
 ### "Multimodal is the future, but enterprise needs control"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Znm_glAFMUQ?start=880&end=940" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Znm_glAFMUQ/hqdefault.jpg)](https://www.youtube.com/watch?v=Znm_glAFMUQ&t=880s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:40-15:40" "https://www.youtube.com/watch?v=Znm_glAFMUQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "Znm_glAFMUQ-14m40s.mp4"
+```
+</details>
 
 > "In the multimodal you will not have as much stability but you will have more naturalness and quicker conversation. For big enterprise companies the three-step solution is usually the best because you have the LLM and you want to make sure it stays on topic, doesn't go off the rails."
 > — Mati Staniszewski, [14:40](https://www.youtube.com/watch?v=Znm_glAFMUQ&t=880s)

@@ -36,28 +36,56 @@ MKBHD reviews the Google Pixel 10 Pro Fold, a nearly $2,000 foldable phone that 
 
 ### "Pixel and foldable are opposites"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Tl8RS0sR-qA?start=14&end=70" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Tl8RS0sR-qA/hqdefault.jpg)](https://www.youtube.com/watch?v=Tl8RS0sR-qA&t=14s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:14-1:10" "https://www.youtube.com/watch?v=Tl8RS0sR-qA" --force-keyframes-at-cuts --merge-output-format mp4 -o "Tl8RS0sR-qA-0m14s.mp4"
+```
+</details>
 
 > "I actually don't think that the concept of a Pixel, and the concept of a folding phone are actually really compatible, and that's okay."
 > — Marques Brownlee, [0:14](https://www.youtube.com/watch?v=Tl8RS0sR-qA&t=14s)
 
 ### "Shout out to the hingeneers"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Tl8RS0sR-qA?start=107&end=160" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Tl8RS0sR-qA/hqdefault.jpg)](https://www.youtube.com/watch?v=Tl8RS0sR-qA&t=107s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:47-2:40" "https://www.youtube.com/watch?v=Tl8RS0sR-qA" --force-keyframes-at-cuts --merge-output-format mp4 -o "Tl8RS0sR-qA-1m47s.mp4"
+```
+</details>
 
 > "Shout out to the hinge engineers. The hingeneers I guess."
 > — Marques Brownlee, [2:10](https://www.youtube.com/watch?v=Tl8RS0sR-qA&t=130s)
 
 ### "A really good phone in a vacuum"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Tl8RS0sR-qA?start=462&end=490" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Tl8RS0sR-qA/hqdefault.jpg)](https://www.youtube.com/watch?v=Tl8RS0sR-qA&t=462s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:42-8:10" "https://www.youtube.com/watch?v=Tl8RS0sR-qA" --force-keyframes-at-cuts --merge-output-format mp4 -o "Tl8RS0sR-qA-7m42s.mp4"
+```
+</details>
 
 > "This is a really good phone in a vacuum, but we're not in a vacuum, so you have to consider the other options that are really exciting and really pushing the limits."
 > — Marques Brownlee, [7:42](https://www.youtube.com/watch?v=Tl8RS0sR-qA&t=462s)
 
 ### "I get inspired to crush my to-do list"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Tl8RS0sR-qA?start=305&end=355" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Tl8RS0sR-qA/hqdefault.jpg)](https://www.youtube.com/watch?v=Tl8RS0sR-qA&t=305s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:05-5:55" "https://www.youtube.com/watch?v=Tl8RS0sR-qA" --force-keyframes-at-cuts --merge-output-format mp4 -o "Tl8RS0sR-qA-5m05s.mp4"
+```
+</details>
 
 > "Opening it up just like every other foldable, I get inspired to be way more productive. Like I start doing things I would never do normally on a phone, like organizing travel, and doing things side by side like email triage with schedule on the other half. Like I just get this itch to crush my to-do list."
 > — Marques Brownlee, [5:05](https://www.youtube.com/watch?v=Tl8RS0sR-qA&t=305s)

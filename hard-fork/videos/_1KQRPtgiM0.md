@@ -37,42 +37,84 @@ The second half features an interview with New York Times reporter Alexandra Alt
 
 ### "Software Engineering Is 90% Automated Right Now"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_1KQRPtgiM0?start=568&end=630" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_1KQRPtgiM0/hqdefault.jpg)](https://www.youtube.com/watch?v=_1KQRPtgiM0&t=568s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:28-10:30" "https://www.youtube.com/watch?v=_1KQRPtgiM0" --force-keyframes-at-cuts --merge-output-format mp4 -o "_1KQRPtgiM0-9m28s.mp4"
+```
+</details>
 
 > "I talked to an executive at one of the big AI companies this week who said that basically right now software engineering is kind of 90% automated. You still need a human to check in on the code... but within the year this person's prediction was that software engineering will be fully automated."
 > -- Kevin Roose, [9:28](https://www.youtube.com/watch?v=_1KQRPtgiM0&t=568s)
 
 ### "If You're Still Writing Code by Hand, That's Going to Be Obsolete"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_1KQRPtgiM0?start=660&end=720" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_1KQRPtgiM0/hqdefault.jpg)](https://www.youtube.com/watch?v=_1KQRPtgiM0&t=660s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:00-12:00" "https://www.youtube.com/watch?v=_1KQRPtgiM0" --force-keyframes-at-cuts --merge-output-format mp4 -o "_1KQRPtgiM0-11m00s.mp4"
+```
+</details>
 
 > "I do believe that the ceiling for Claude commits to GitHub is probably not 20%. I think it's probably going to be a lot higher than that. I think that by the end of the year, if you are still writing code by hand, that is going to be an obsolete behavior."
 > -- Casey Newton, [11:00](https://www.youtube.com/watch?v=_1KQRPtgiM0&t=660s)
 
 ### "Claude Wrote 'His Turgid Manhood'"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_1KQRPtgiM0?start=1490&end=1550" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_1KQRPtgiM0/hqdefault.jpg)](https://www.youtube.com/watch?v=_1KQRPtgiM0&t=1490s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*24:50-25:50" "https://www.youtube.com/watch?v=_1KQRPtgiM0" --force-keyframes-at-cuts --merge-output-format mp4 -o "_1KQRPtgiM0-24m50s.mp4"
+```
+</details>
 
 > "She mentioned that Claude had written in one of her recent drafts 'his turgid manhood.' That was the kind of language she was getting. And so then she started writing lists of words that the AI loved -- like shiver, unravel, manhood, moan -- and blocking them."
 > -- Alexandra Alter, [24:50](https://www.youtube.com/watch?v=_1KQRPtgiM0&t=1490s)
 
 ### "Make It Slow and Agonizing. Do Not Rush to the Finish."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_1KQRPtgiM0?start=1540&end=1580" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_1KQRPtgiM0/hqdefault.jpg)](https://www.youtube.com/watch?v=_1KQRPtgiM0&t=1540s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*25:40-26:20" "https://www.youtube.com/watch?v=_1KQRPtgiM0" --force-keyframes-at-cuts --merge-output-format mp4 -o "_1KQRPtgiM0-25m40s.mp4"
+```
+</details>
 
 > "She says it's very important that you tell the chatbot to slow down because otherwise they just jump to the end of the scene. Everyone's tangled in the sheets. So she gave them a specific prompt which was something along the lines of 'make it slow and agonizing. Do not rush to the finish.'"
 > -- Alexandra Alter, [25:40](https://www.youtube.com/watch?v=_1KQRPtgiM0&t=1540s)
 
 ### "Baba O'Riley, Smells Like Teen Spirit -- It Got Them All Right"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_1KQRPtgiM0?start=2790&end=2840" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_1KQRPtgiM0/hqdefault.jpg)](https://www.youtube.com/watch?v=_1KQRPtgiM0&t=2790s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*46:30-47:20" "https://www.youtube.com/watch?v=_1KQRPtgiM0" --force-keyframes-at-cuts --merge-output-format mp4 -o "_1KQRPtgiM0-46m30s.mp4"
+```
+</details>
 
 > "Would you believe? It is killing it. Baba O'Riley. Smells Like Teen Spirit. For What It's Worth. Sympathy for the Devil. These are so many great... Wait, this is amazing. It got all of them right."
 > -- Kevin Roose, [46:30](https://www.youtube.com/watch?v=_1KQRPtgiM0&t=2790s)
 
 ### "He Says Her Name Like a Ragged Prayer"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_1KQRPtgiM0?start=2180&end=2240" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_1KQRPtgiM0/hqdefault.jpg)](https://www.youtube.com/watch?v=_1KQRPtgiM0&t=2180s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*36:20-37:20" "https://www.youtube.com/watch?v=_1KQRPtgiM0" --force-keyframes-at-cuts --merge-output-format mp4 -o "_1KQRPtgiM0-36m20s.mp4"
+```
+</details>
 
 > "I was reading through several AI generated romance novels... and I read this phrase, 'the hero whispers her name like a ragged prayer.' And I realized that phrase was in several of the books and repeatedly within the same books. One of them said, 'I've actually had to block that phrase. It loves to say ragged prayer.'"
 > -- Alexandra Alter, [36:20](https://www.youtube.com/watch?v=_1KQRPtgiM0&t=2180s)

@@ -35,42 +35,84 @@ Allen, a former SpaceX intern who worked on Dragon thermal protection systems an
 
 ### "Florida has enough waste wood to lift the entire city of Miami in one year"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AAJbpB9aLfI?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/AAJbpB9aLfI/hqdefault.jpg)](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-1:00" "https://www.youtube.com/watch?v=AAJbpB9aLfI" --force-keyframes-at-cuts --merge-output-format mp4 -o "AAJbpB9aLfI-0m00s.mp4"
+```
+</details>
 
 > "We did the math. Florida has enough waste wood on a yearly basis to lift the entire city of Miami by the whole amount it needs in one year. We are basically the anti-subsidence and I think the right solution to fix that at scale."
 > — Laurence Allen, [0:00](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=0s)
 
 ### "A gopher can literally take out a city by chewing through an earth levy"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AAJbpB9aLfI?start=194&end=260" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/AAJbpB9aLfI/hqdefault.jpg)](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=194s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:14-4:20" "https://www.youtube.com/watch?v=AAJbpB9aLfI" --force-keyframes-at-cuts --merge-output-format mp4 -o "AAJbpB9aLfI-3m14s.mp4"
+```
+</details>
 
 > "A gopher can literally take out like a city by just chewing through an earth levy. The predicted damage from that is about a trillion dollars. One of the things the leaders in the Bay Area meet every month about is protecting these levies from gophers."
 > — Laurence Allen, [3:14](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=194s)
 
 ### "Seawalls cost $500 to $900 million for a small city"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AAJbpB9aLfI?start=65&end=130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/AAJbpB9aLfI/hqdefault.jpg)](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=65s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:05-2:10" "https://www.youtube.com/watch?v=AAJbpB9aLfI" --force-keyframes-at-cuts --merge-output-format mp4 -o "AAJbpB9aLfI-1m05s.mp4"
+```
+</details>
 
 > "For a small municipality like my hometown of San Rafael, they quoted 500 to 900 million for the seawall that they needed, which is of course prohibitively expensive if it's like a 60,000 person city."
 > — Laurence Allen, [1:05](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=65s)
 
 ### "Tehran sinks 25 cm a year due to groundwater extraction"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AAJbpB9aLfI?start=877&end=940" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/AAJbpB9aLfI/hqdefault.jpg)](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=877s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:37-15:40" "https://www.youtube.com/watch?v=AAJbpB9aLfI" --force-keyframes-at-cuts --merge-output-format mp4 -o "AAJbpB9aLfI-14m37s.mp4"
+```
+</details>
 
 > "Tehran sinks 25 cm a year due to groundwater extraction. There's just no, it's hard to even imagine what does it mean to sink like a foot a year. But it's a very serious problem and we are basically the anti-subsidence."
 > — Laurence Allen, [14:37](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=877s)
 
 ### "San Rafael pays $1,000 per truck load to get rid of wood chips"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AAJbpB9aLfI?start=1026&end=1090" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/AAJbpB9aLfI/hqdefault.jpg)](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=1026s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*17:06-18:10" "https://www.youtube.com/watch?v=AAJbpB9aLfI" --force-keyframes-at-cuts --merge-output-format mp4 -o "AAJbpB9aLfI-17m06s.mp4"
+```
+</details>
 
 > "In my hometown of San Rafael, they ship eight semi-truck loads of wood chips every single day to be burned in biomass energy plants. San Rafael pays $1,000 bucks a semi-truck load to get rid of it. And so, of course, you can get it for free if you'd want to."
 > — Laurence Allen, [17:06](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=1026s)
 
 ### "Venice lifted a whole island in the 1970s but never did it again because of cement costs"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AAJbpB9aLfI?start=1256&end=1320" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/AAJbpB9aLfI/hqdefault.jpg)](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=1256s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:56-22:00" "https://www.youtube.com/watch?v=AAJbpB9aLfI" --force-keyframes-at-cuts --merge-output-format mp4 -o "AAJbpB9aLfI-20m56s.mp4"
+```
+</details>
 
 > "In Venice in the 70s, they lifted a whole island with multiple buildings on it using a cementious mud mixture called mudjacking. It was super cool and obviously very relevant for Venice. They really just never did it again because it's so expensive. We solved that problem with wood chips which are free."
 > — Laurence Allen, [20:56](https://www.youtube.com/watch?v=AAJbpB9aLfI&t=1256s)

@@ -45,42 +45,84 @@ Max provides insights on global manufacturing competition, arguing that tariffs 
 
 ### "Their settlement offer was hand over your company and have jobs at 3D Systems"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CcLHYxPRjDY?start=316&end=380" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CcLHYxPRjDY/hqdefault.jpg)](https://www.youtube.com/watch?v=CcLHYxPRjDY&t=316s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:16-6:20" "https://www.youtube.com/watch?v=CcLHYxPRjDY" --force-keyframes-at-cuts --merge-output-format mp4 -o "CcLHYxPRjDY-5m16s.mp4"
+```
+</details>
 
 > "We knew this was an existential threat. Pretty much any lawyer you talk to says the minimum you're going to spend fighting this is like three or four million. The total amount of money we had raised was less than 2 million. Their offer was you can hand over your company and have jobs at 3D Systems. That was the settlement proposal."
 > — Max Lobovsky, [5:37](https://www.youtube.com/watch?v=CcLHYxPRjDY&t=337s)
 
 ### "There's no correlation between difficulty and value - that's the basic thing people get wrong"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CcLHYxPRjDY?start=936&end=1000" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CcLHYxPRjDY/hqdefault.jpg)](https://www.youtube.com/watch?v=CcLHYxPRjDY&t=936s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:36-16:40" "https://www.youtube.com/watch?v=CcLHYxPRjDY" --force-keyframes-at-cuts --merge-output-format mp4 -o "CcLHYxPRjDY-15m36s.mp4"
+```
+</details>
 
 > "You need to orient yourself around the problem, not the solution. There's no correlation at all between difficulty and value. That's the basic thing that a lot of hard tech startups get wrong. I fell for the classic MIT startup failure mode: if it's important, it must be really hard."
 > — Max Lobovsky, [15:36](https://www.youtube.com/watch?v=CcLHYxPRjDY&t=936s)
 
 ### "If we applied our idea to FDM, we would be a larger company today"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CcLHYxPRjDY?start=826&end=890" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CcLHYxPRjDY/hqdefault.jpg)](https://www.youtube.com/watch?v=CcLHYxPRjDY&t=826s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:46-14:50" "https://www.youtube.com/watch?v=CcLHYxPRjDY" --force-keyframes-at-cuts --merge-output-format mp4 -o "CcLHYxPRjDY-13m46s.mp4"
+```
+</details>
 
 > "The single biggest decision that we should have made differently in the history of the company: if we applied that idea to FDM, we would be a larger company today because that's a larger category than SLA. Companies like Makerbot are completely irrelevant today."
 > — Max Lobovsky, [13:46](https://www.youtube.com/watch?v=CcLHYxPRjDY&t=826s)
 
 ### "Stress should only flow in one direction - upwards"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CcLHYxPRjDY?start=640&end=705" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CcLHYxPRjDY/hqdefault.jpg)](https://www.youtube.com/watch?v=CcLHYxPRjDY&t=640s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:40-11:45" "https://www.youtube.com/watch?v=CcLHYxPRjDY" --force-keyframes-at-cuts --merge-output-format mp4 -o "CcLHYxPRjDY-10m40s.mp4"
+```
+</details>
 
 > "One of our board members has a nice line that in a business stress should only flow in one direction and that's upwards. While it's good to set ambitious goals and push people to the limits of their ability, you don't need to bother them with something that they can't do a lot about. That's just unproductive stress."
 > — Max Lobovsky, [10:40](https://www.youtube.com/watch?v=CcLHYxPRjDY&t=640s)
 
 ### "Tariffs have helped Chinese companies over American companies on net"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CcLHYxPRjDY?start=2743&end=2810" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CcLHYxPRjDY/hqdefault.jpg)](https://www.youtube.com/watch?v=CcLHYxPRjDY&t=2743s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*45:43-46:50" "https://www.youtube.com/watch?v=CcLHYxPRjDY" --force-keyframes-at-cuts --merge-output-format mp4 -o "CcLHYxPRjDY-45m43s.mp4"
+```
+</details>
 
 > "I'm pretty sure tariffs have helped Chinese companies over American companies on net. Chinese companies are essentially always faster at adapting. If you throw a change at them, that's just going to help the Chinese company. Apple and Huawei manufacture phones in the same place, but Huawei responds to changes faster."
 > — Max Lobovsky, [45:43](https://www.youtube.com/watch?v=CcLHYxPRjDY&t=2743s)
 
 ### "We are at the end of Pax Americana"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CcLHYxPRjDY?start=3068&end=3135" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CcLHYxPRjDY/hqdefault.jpg)](https://www.youtube.com/watch?v=CcLHYxPRjDY&t=3068s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*51:08-52:15" "https://www.youtube.com/watch?v=CcLHYxPRjDY" --force-keyframes-at-cuts --merge-output-format mp4 -o "CcLHYxPRjDY-51m08s.mp4"
+```
+</details>
 
 > "We are at the end of Pax Americana. China has four times our population with roughly equal entrepreneurship and work ethic. To maintain a full complete tech stack in the modern world now requires like a billion people. It used to maybe only take 100 million."
 > — Max Lobovsky, [51:08](https://www.youtube.com/watch?v=CcLHYxPRjDY&t=3068s)

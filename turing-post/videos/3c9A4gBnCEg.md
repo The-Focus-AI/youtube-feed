@@ -38,35 +38,70 @@ The host raises important questions about liability, labor dignity, and safety w
 
 ### "From Decision Makers to Infrastructure"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3c9A4gBnCEg?start=562&end=600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3c9A4gBnCEg/hqdefault.jpg)](https://www.youtube.com/watch?v=3c9A4gBnCEg&t=562s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:22-10:00" "https://www.youtube.com/watch?v=3c9A4gBnCEg" --force-keyframes-at-cuts --merge-output-format mp4 -o "3c9A4gBnCEg-9m22s.mp4"
+```
+</details>
 
 > "The crazy part of it is that some people would say that from the decision makers, from supervisors, we became infrastructure. We are physical actuators in the AI world."
 > -- Turing Post, [9:22](https://www.youtube.com/watch?v=3c9A4gBnCEg&t=562s)
 
 ### "Human Presence as an API"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3c9A4gBnCEg?start=535&end=565" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3c9A4gBnCEg/hqdefault.jpg)](https://www.youtube.com/watch?v=3c9A4gBnCEg&t=535s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:55-9:25" "https://www.youtube.com/watch?v=3c9A4gBnCEg" --force-keyframes-at-cuts --merge-output-format mp4 -o "3c9A4gBnCEg-8m55s.mp4"
+```
+</details>
 
 > "RentAHuman.ai turns human presence itself into an API. An AI agent managing logistics can now verify that a retail location actually exists thanks to a human."
 > -- Turing Post, [8:55](https://www.youtube.com/watch?v=3c9A4gBnCEg&t=535s)
 
 ### "AI is the Client Now"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3c9A4gBnCEg?start=455&end=500" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3c9A4gBnCEg/hqdefault.jpg)](https://www.youtube.com/watch?v=3c9A4gBnCEg&t=455s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:35-8:20" "https://www.youtube.com/watch?v=3c9A4gBnCEg" --force-keyframes-at-cuts --merge-output-format mp4 -o "3c9A4gBnCEg-7m35s.mp4"
+```
+</details>
 
 > "The relationship has fundamentally flipped. For 20 years, humans hired AI to directed human labor to train AI. And now the premise is that AI is the client. AI is the requester. AI is the customer."
 > -- Turing Post, [7:35](https://www.youtube.com/watch?v=3c9A4gBnCEg&t=455s)
 
 ### "Without Mechanical Turk, ImageNet Does Not Exist"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3c9A4gBnCEg?start=291&end=340" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3c9A4gBnCEg/hqdefault.jpg)](https://www.youtube.com/watch?v=3c9A4gBnCEg&t=291s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:51-5:40" "https://www.youtube.com/watch?v=3c9A4gBnCEg" --force-keyframes-at-cuts --merge-output-format mp4 -o "3c9A4gBnCEg-4m51s.mp4"
+```
+</details>
 
 > "Without Mechanical Turk's human labor infrastructure, ImageNet does not exist. Without ImageNet, what happens next does not exist."
 > -- Turing Post, [4:51](https://www.youtube.com/watch?v=3c9A4gBnCEg&t=291s)
 
 ### "The Joke Has Come Full Circle"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3c9A4gBnCEg?start=734&end=775" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3c9A4gBnCEg/hqdefault.jpg)](https://www.youtube.com/watch?v=3c9A4gBnCEg&t=734s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:14-12:55" "https://www.youtube.com/watch?v=3c9A4gBnCEg" --force-keyframes-at-cuts --merge-output-format mp4 -o "3c9A4gBnCEg-12m14s.mp4"
+```
+</details>
 
 > "In 2026, RentAHuman.ai is the inverse. Real automatons pretending to have bodies with actual humans hidden inside their systems acting as their hands and feet in the world. The joke has come full circle, except it's not a joke anymore."
 > -- Turing Post, [12:14](https://www.youtube.com/watch?v=3c9A4gBnCEg&t=734s)

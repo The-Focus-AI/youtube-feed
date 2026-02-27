@@ -36,35 +36,70 @@ The listener mailbag covers an entertaining variety of topics: the origin of the
 
 ### "Casey's AI Meditation Resolution Was a Major Flop"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XAYc9NTJ-Mo?start=93&end=145" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XAYc9NTJ-Mo/hqdefault.jpg)](https://www.youtube.com/watch?v=XAYc9NTJ-Mo&t=93s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:33-2:25" "https://www.youtube.com/watch?v=XAYc9NTJ-Mo" --force-keyframes-at-cuts --merge-output-format mp4 -o "XAYc9NTJ-Mo-1m33s.mp4"
+```
+</details>
 
 > "Well, Kevin, I'm afraid I would have to categorize this one as a major flop. Every single time I did it, I felt very good. However, my instinct to meditate again was non-existent."
 > -- Casey Newton, [1:33](https://www.youtube.com/watch?v=XAYc9NTJ-Mo&t=93s)
 
 ### "Casey Finally Cracked His Productivity System"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XAYc9NTJ-Mo?start=780&end=840" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XAYc9NTJ-Mo/hqdefault.jpg)](https://www.youtube.com/watch?v=XAYc9NTJ-Mo&t=780s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:00-14:00" "https://www.youtube.com/watch?v=XAYc9NTJ-Mo" --force-keyframes-at-cuts --merge-output-format mp4 -o "XAYc9NTJ-Mo-13m00s.mp4"
+```
+</details>
 
 > "For the next one year, I am going to try not to make any meaningful change to my productivity system because I think I finally cracked it, Kev."
 > -- Casey Newton, [13:00](https://www.youtube.com/watch?v=XAYc9NTJ-Mo&t=780s)
 
 ### "The Turing Test Has Been Passed and Nobody Noticed"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XAYc9NTJ-Mo?start=2540&end=2600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XAYc9NTJ-Mo/hqdefault.jpg)](https://www.youtube.com/watch?v=XAYc9NTJ-Mo&t=2540s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*42:20-43:20" "https://www.youtube.com/watch?v=XAYc9NTJ-Mo" --force-keyframes-at-cuts --merge-output-format mp4 -o "XAYc9NTJ-Mo-42m20s.mp4"
+```
+</details>
 
 > "In 2025, researchers showed that newer models were judged to be human 73% of the time. Yes, the Turing test has been passed in the classical formulation and people who are moving the goalposts now want to talk about the things that AI can't do."
 > -- Kevin Roose, [42:20](https://www.youtube.com/watch?v=XAYc9NTJ-Mo&t=2540s)
 
 ### "Moffett vs. Air Canada -- The Chatbot Liability Case"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XAYc9NTJ-Mo?start=2340&end=2400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XAYc9NTJ-Mo/hqdefault.jpg)](https://www.youtube.com/watch?v=XAYc9NTJ-Mo&t=2340s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*39:00-40:00" "https://www.youtube.com/watch?v=XAYc9NTJ-Mo" --force-keyframes-at-cuts --merge-output-format mp4 -o "XAYc9NTJ-Mo-39m00s.mp4"
+```
+</details>
 
 > "Air Canada argued they aren't liable because the chatbot was a separate legal entity that was responsible for its own actions. And the tribunal in Canada called this argument 'remarkable' and said actually the chatbot's just part of your website, Air Canada."
 > -- Casey Newton, [39:00](https://www.youtube.com/watch?v=XAYc9NTJ-Mo&t=2340s)
 
 ### "I Am Going to Be Where I Am"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XAYc9NTJ-Mo?start=680&end=740" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XAYc9NTJ-Mo/hqdefault.jpg)](https://www.youtube.com/watch?v=XAYc9NTJ-Mo&t=680s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:20-12:20" "https://www.youtube.com/watch?v=XAYc9NTJ-Mo" --force-keyframes-at-cuts --merge-output-format mp4 -o "XAYc9NTJ-Mo-11m20s.mp4"
+```
+</details>
 
 > "We sat down to dinner with this person for like two plus hours and I did not see them look at their phone one time. To me that was a lesson that you actually don't have to know what's going on in all of the pockets of your life at once."
 > -- Kevin Roose, [11:20](https://www.youtube.com/watch?v=XAYc9NTJ-Mo&t=680s)

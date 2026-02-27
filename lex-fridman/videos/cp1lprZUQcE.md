@@ -31,28 +31,56 @@ Holland explains how World War II was truly the first global conflict, affecting
 
 ### "D-Day: 6,939 vessels and 12,000 aircraft in 24 hours"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cp1lprZUQcE?start=26&end=86" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/cp1lprZUQcE/hqdefault.jpg)](https://www.youtube.com/watch?v=cp1lprZUQcE&t=26s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:26-1:26" "https://www.youtube.com/watch?v=cp1lprZUQcE" --force-keyframes-at-cuts --merge-output-format mp4 -o "cp1lprZUQcE-0m26s.mp4"
+```
+</details>
 
 > "On D-Day you've got 6,939 vessels of which there are 1,213 warships, 4,127 assault craft, 12,500 aircraft, 155,000 men landed and dropped from the air in a 24-hour period. It is phenomenal. It is staggering."
 > — James Holland, [0:26](https://www.youtube.com/watch?v=cp1lprZUQcE&t=26s)
 
 ### "World War II was truly global - unlike any war before"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cp1lprZUQcE?start=73&end=133" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/cp1lprZUQcE/hqdefault.jpg)](https://www.youtube.com/watch?v=cp1lprZUQcE&t=73s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:13-2:13" "https://www.youtube.com/watch?v=cp1lprZUQcE" --force-keyframes-at-cuts --merge-output-format mp4 -o "cp1lprZUQcE-1m13s.mp4"
+```
+</details>
 
 > "The Second World War witnessed the deaths of more than 60 million people from over 60 different countries. Entire cities were laid waste. National borders were redrawn. It really is truly global. It's fought in deserts, jungles, mountains, across oceans. No other war has affected so many lives."
 > — James Holland, [1:13](https://www.youtube.com/watch?v=cp1lprZUQcE&t=73s)
 
 ### "Hitler's ideology: Lebensraum and racial hierarchy"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cp1lprZUQcE?start=671&end=731" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/cp1lprZUQcE/hqdefault.jpg)](https://www.youtube.com/watch?v=cp1lprZUQcE&t=671s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:11-12:11" "https://www.youtube.com/watch?v=cp1lprZUQcE" --force-keyframes-at-cuts --merge-output-format mp4 -o "cp1lprZUQcE-11m11s.mp4"
+```
+</details>
 
 > "Lebensraum - living space - was Hitler's obsession. He believed Germans needed to conquer the East, remove the Slavic populations, and colonize the land. This wasn't a secret plan. He wrote about it in Mein Kampf. The Holocaust and the war are inseparable from this ideology."
 > — James Holland, [11:11](https://www.youtube.com/watch?v=cp1lprZUQcE&t=671s)
 
 ### "Churchill stood alone when others wanted to negotiate"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cp1lprZUQcE?start=7796&end=7856" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/cp1lprZUQcE/hqdefault.jpg)](https://www.youtube.com/watch?v=cp1lprZUQcE&t=7796s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*129:56-130:56" "https://www.youtube.com/watch?v=cp1lprZUQcE" --force-keyframes-at-cuts --merge-output-format mp4 -o "cp1lprZUQcE-129m56s.mp4"
+```
+</details>
 
 > "In May 1940, with France falling, there were serious discussions in the British Cabinet about negotiating peace. Churchill refused. He said we shall fight on the beaches, we shall never surrender. That decision changed history."
 > — James Holland, [2:09:56](https://www.youtube.com/watch?v=cp1lprZUQcE&t=7796s)

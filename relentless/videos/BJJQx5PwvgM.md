@@ -37,42 +37,84 @@ The conversation covers the intense production process, including 56 hours of st
 
 ### "56 hours of straight editing with maybe four hours of sleep"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BJJQx5PwvgM?start=39&end=100" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BJJQx5PwvgM/hqdefault.jpg)](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=39s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:39-1:40" "https://www.youtube.com/watch?v=BJJQx5PwvgM" --force-keyframes-at-cuts --merge-output-format mp4 -o "BJJQx5PwvgM-0m39s.mp4"
+```
+</details>
 
 > "This is Jason Carman and he is the founder of Story Company and he is moments away from releasing his first short film, Planet. I know that this is like years in the making. How are you feeling right now? Well, it's about 56 hours of straight editing with maybe four hours of sleep. So, I feel alive. For now."
 > — Jason Carman, [0:39](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=39s)
 
 ### "Story inspires science, science makes story real"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BJJQx5PwvgM?start=470&end=530" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BJJQx5PwvgM/hqdefault.jpg)](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=470s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:50-8:50" "https://www.youtube.com/watch?v=BJJQx5PwvgM" --force-keyframes-at-cuts --merge-output-format mp4 -o "BJJQx5PwvgM-7m50s.mp4"
+```
+</details>
 
 > "The motto is story inspires science, science makes story real. And that's this idea that the sci-fi visions that people write that are potentially tractable on a scale one day eventually get built if they sort of win. And by win, I think it means that society and culture falls in love with the idea and wants to make it real."
 > — Jason Carman, [7:50](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=470s)
 
 ### "There's no Nike for technology in science and engineering"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BJJQx5PwvgM?start=855&end=920" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BJJQx5PwvgM/hqdefault.jpg)](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=855s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:15-15:20" "https://www.youtube.com/watch?v=BJJQx5PwvgM" --force-keyframes-at-cuts --merge-output-format mp4 -o "BJJQx5PwvgM-14m15s.mp4"
+```
+</details>
 
 > "There's no Nike for technology in science and engineering. Like if you like basketball, you can wear a Michael Jordan jersey or some ones. But if you like rockets, engineering, science, space, there's nothing that cool you can wear other than maybe a SpaceX shirt."
 > — Jason Carman, [14:15](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=855s)
 
 ### "The first 6 months 95% of my time was spent on just making sure we didn't go bankrupt"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BJJQx5PwvgM?start=980&end=1050" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BJJQx5PwvgM/hqdefault.jpg)](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=980s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:20-17:30" "https://www.youtube.com/watch?v=BJJQx5PwvgM" --force-keyframes-at-cuts --merge-output-format mp4 -o "BJJQx5PwvgM-16m20s.mp4"
+```
+</details>
 
 > "I decided it would be a good idea to not raise money for Story and bootstrap it off of doing client work, ad revenue, partnerships. And so I'd say the first six months, 95% of my time was spent on just making sure we didn't go bankrupt and getting our core team set up, onboarded, relocated."
 > — Jason Carman, [16:20](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=980s)
 
 ### "What if we just said we were going to film the movie in 3 weeks?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BJJQx5PwvgM?start=1230&end=1295" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BJJQx5PwvgM/hqdefault.jpg)](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=1230s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:30-21:35" "https://www.youtube.com/watch?v=BJJQx5PwvgM" --force-keyframes-at-cuts --merge-output-format mp4 -o "BJJQx5PwvgM-20m30s.mp4"
+```
+</details>
 
 > "I remember going to my chief of staff, Maxi, one day and being like, 'Okay, what if we just said we were going to film the movie in 3 weeks?' She was like, 'Fuck no. Absolutely not.' End of the week goes by and I'm like, 'We can't do it.' Now she's flipped and she's like, 'We're doing it.'"
 > — Jason Carman, [20:30](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=1230s)
 
 ### "We went through 2,000 audition tapes"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BJJQx5PwvgM?start=1290&end=1355" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BJJQx5PwvgM/hqdefault.jpg)](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=1290s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*21:30-22:35" "https://www.youtube.com/watch?v=BJJQx5PwvgM" --force-keyframes-at-cuts --merge-output-format mp4 -o "BJJQx5PwvgM-21m30s.mp4"
+```
+</details>
 
 > "The moment the film really was like 'Oh, we got it' is the moment you cast the lead. And we went through, I think, 2,000 audition tapes. When Steven Miller, our lead, sent his side in, I was like, 'Oh, this is obviously the right guy. This is Dr. Evan Khan.'"
 > — Jason Carman, [21:30](https://www.youtube.com/watch?v=BJJQx5PwvgM&t=1290s)

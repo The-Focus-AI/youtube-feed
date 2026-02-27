@@ -32,42 +32,84 @@ Sharon also shares insights on why AI researchers are surprised by market excite
 
 ### "These Are My Children" - Maternal Instinct for AI Models
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RW01xM8Jj3o?start=93&end=140" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/RW01xM8Jj3o/hqdefault.jpg)](https://www.youtube.com/watch?v=RW01xM8Jj3o&t=93s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:33-2:20" "https://www.youtube.com/watch?v=RW01xM8Jj3o" --force-keyframes-at-cuts --merge-output-format mp4 -o "RW01xM8Jj3o-1m33s.mp4"
+```
+</details>
 
 > "It weirdly turned on my maternal instinct. I was like, 'These are my children.' Because you could see the model improve over time. Like over time, you see eyes as it trains and then you see a full face and then you're like, 'Oh my gosh, I nurtured it to get to this stage. I tuned the right hyperparameters, I put in the right data to get it into the right place.'"
 > — Sharon Zhou, [1:33](https://www.youtube.com/watch?v=RW01xM8Jj3o&t=93s)
 
 ### "Hallucinations Are a Technical Problem"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RW01xM8Jj3o?start=454&end=505" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/RW01xM8Jj3o/hqdefault.jpg)](https://www.youtube.com/watch?v=RW01xM8Jj3o&t=454s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:34-8:25" "https://www.youtube.com/watch?v=RW01xM8Jj3o" --force-keyframes-at-cuts --merge-output-format mp4 -o "RW01xM8Jj3o-7m34s.mp4"
+```
+</details>
 
 > "We realized it was actually a technical problem, not a philosophical one. For many of them it was just that certain tokens needed to be a little bit more deterministic in certain contexts and they couldn't be made up. Once we were able to frame the problem correctly, we were able to solve it technically."
 > — Sharon Zhou, [7:34](https://www.youtube.com/watch?v=RW01xM8Jj3o&t=454s)
 
 ### "From 6% to 90% Accuracy"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RW01xM8Jj3o?start=654&end=700" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/RW01xM8Jj3o/hqdefault.jpg)](https://www.youtube.com/watch?v=RW01xM8Jj3o&t=654s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:54-11:40" "https://www.youtube.com/watch?v=RW01xM8Jj3o" --force-keyframes-at-cuts --merge-output-format mp4 -o "RW01xM8Jj3o-10m54s.mp4"
+```
+</details>
 
 > "For Colgate, it was from 30% accuracy using OpenAI's latest model to 90%. For another Fortune 100 company, they had even more complex stuff - it was 6% to 90%. The most magical thing for me is seeing them do it - not us. I was not there. I did not write a line of code for them. Their developers did it."
 > — Sharon Zhou, [10:54](https://www.youtube.com/watch?v=RW01xM8Jj3o&t=654s)
 
 ### "Agents vs Models: Object-Oriented vs Functional Programming"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RW01xM8Jj3o?start=874&end=930" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/RW01xM8Jj3o/hqdefault.jpg)](https://www.youtube.com/watch?v=RW01xM8Jj3o&t=874s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:34-15:30" "https://www.youtube.com/watch?v=RW01xM8Jj3o" --force-keyframes-at-cuts --merge-output-format mp4 -o "RW01xM8Jj3o-14m34s.mp4"
+```
+</details>
 
 > "The agent view of the world is centered around almost a human or an individual. The AI is an individual as opposed to AI as a model. The equivalence in software engineering is OOP - object-oriented programming - as opposed to functional programming. It's just a different view into almost effectively the same thing."
 > — Sharon Zhou, [14:34](https://www.youtube.com/watch?v=RW01xM8Jj3o&t=874s)
 
 ### "Cancer Research: 3-5 Years to Weeks"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RW01xM8Jj3o?start=1133&end=1175" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/RW01xM8Jj3o/hqdefault.jpg)](https://www.youtube.com/watch?v=RW01xM8Jj3o&t=1133s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:53-19:35" "https://www.youtube.com/watch?v=RW01xM8Jj3o" --force-keyframes-at-cuts --merge-output-format mp4 -o "RW01xM8Jj3o-18m53s.mp4"
+```
+</details>
 
 > "They're trying to bring down a three to five year timeline of regular cancer research to just weeks. If you just step back and think about it, that transforms an industry completely. That completely and fundamentally will change human health."
 > — Sharon Zhou, [18:53](https://www.youtube.com/watch?v=RW01xM8Jj3o&t=1133s)
 
 ### "It's Never the User's Fault"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RW01xM8Jj3o?start=1755&end=1810" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/RW01xM8Jj3o/hqdefault.jpg)](https://www.youtube.com/watch?v=RW01xM8Jj3o&t=1755s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*29:15-30:10" "https://www.youtube.com/watch?v=RW01xM8Jj3o" --force-keyframes-at-cuts --merge-output-format mp4 -o "RW01xM8Jj3o-29m15s.mp4"
+```
+</details>
 
 > "I only went into computer science because I took a class where the professor said, 'It's never the user's fault.' And I just thought it's never been my fault. I was made fun of for using technology growing up and I was not good with it. And I was really inspired to think, well, if I am the dumbest user, I can think of ways to design the system for that dumbest user like me."
 > — Sharon Zhou, [29:15](https://www.youtube.com/watch?v=RW01xM8Jj3o&t=1755s)

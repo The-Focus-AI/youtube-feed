@@ -42,42 +42,84 @@ The conversation also covers fascinating tangents: why humans never evolved thei
 
 ### "Evolution designed us to die fast -- three reasons why"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XCLODgdCmKA?start=78&end=140" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XCLODgdCmKA/hqdefault.jpg)](https://www.youtube.com/watch?v=XCLODgdCmKA&t=78s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:18-2:20" "https://www.youtube.com/watch?v=XCLODgdCmKA" --force-keyframes-at-cuts --merge-output-format mp4 -o "XCLODgdCmKA-1m18s.mp4"
+```
+</details>
 
 > "There are a couple of things you have to think about. One is: what's the positive selective pressure that would make one live longer? Do you have that selective pressure present? Two: are there anti-selective pressures working against longevity? And three: even if selection is there, can the genome actually execute on it given its limited mutation rate?"
 > -- Jacob Kimmel, [1:18](https://www.youtube.com/watch?v=XCLODgdCmKA&t=78s)
 
 ### "Aging as a length regularizer"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XCLODgdCmKA?start=577&end=600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XCLODgdCmKA/hqdefault.jpg)](https://www.youtube.com/watch?v=XCLODgdCmKA&t=577s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:37-10:00" "https://www.youtube.com/watch?v=XCLODgdCmKA" --force-keyframes-at-cuts --merge-output-format mp4 -o "XCLODgdCmKA-9m37s.mp4"
+```
+</details>
 
 > "I love this idea of aging as a length regularizer. When companies are training models, they'll have a penalty: 'Think carefully, but don't make the chain of thought too long.' Is aging, over the course of your life, one such regularizer?"
 > -- Dwarkesh Patel, [9:37](https://www.youtube.com/watch?v=XCLODgdCmKA&t=577s)
 
 ### "Why humans never evolved their own antibiotics"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XCLODgdCmKA?start=774&end=900" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XCLODgdCmKA/hqdefault.jpg)](https://www.youtube.com/watch?v=XCLODgdCmKA&t=774s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:54-15:00" "https://www.youtube.com/watch?v=XCLODgdCmKA" --force-keyframes-at-cuts --merge-output-format mp4 -o "XCLODgdCmKA-12m54s.mp4"
+```
+</details>
 
 > "It feels like antibiotics should be something evolution could have figured out. Where do antibiotics come from? They're just metabolites, largely from fungi and bacteria. But the challenge is the Red Queen effect -- even if our human genome stumbled into making an antibiotic, the bacteria would have mutated around it pretty quickly."
 > -- Jacob Kimmel, [12:54](https://www.youtube.com/watch?v=XCLODgdCmKA&t=774s)
 
 ### "Transcription factors are evolution's levers"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XCLODgdCmKA?start=2200&end=2260" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XCLODgdCmKA/hqdefault.jpg)](https://www.youtube.com/watch?v=XCLODgdCmKA&t=2200s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*36:40-37:40" "https://www.youtube.com/watch?v=XCLODgdCmKA" --force-keyframes-at-cuts --merge-output-format mp4 -o "XCLODgdCmKA-36m40s.mp4"
+```
+</details>
 
 > "Transcription factors are a really nice substrate for evolution to effect change. In some ways they might be evolution's levers for altering biology. By pulling on those same levers that evolution has used, maybe there are amazing things we can engender upon biology."
 > -- Jacob Kimmel, [36:40](https://www.youtube.com/watch?v=XCLODgdCmKA&t=2200s)
 
 ### "The immune system as the ultimate drug delivery platform"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XCLODgdCmKA?start=2960&end=3040" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XCLODgdCmKA/hqdefault.jpg)](https://www.youtube.com/watch?v=XCLODgdCmKA&t=2960s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*49:20-50:40" "https://www.youtube.com/watch?v=XCLODgdCmKA" --force-keyframes-at-cuts --merge-output-format mp4 -o "XCLODgdCmKA-49m20s.mp4"
+```
+</details>
 
 > "If I were to Rip Van Winkle into the future, I think the way we will be delivering these nucleic acid medicines is through engineered immune cells. They deliver the medicine only to the right places, only at the right times, only when your body actually dictates that you need it."
 > -- Jacob Kimmel, [49:20](https://www.youtube.com/watch?v=XCLODgdCmKA&t=2960s)
 
 ### "10^16 combinations -- you can't brute force this"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XCLODgdCmKA?start=1920&end=1980" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XCLODgdCmKA/hqdefault.jpg)](https://www.youtube.com/watch?v=XCLODgdCmKA&t=1920s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*32:00-33:00" "https://www.youtube.com/watch?v=XCLODgdCmKA" --force-keyframes-at-cuts --merge-output-format mp4 -o "XCLODgdCmKA-32m00s.mp4"
+```
+</details>
 
 > "There are somewhere between 1,000 and 2,000 transcription factors. If four to six factors might be required, the number of combinations is about 10^16. In order to just screen through all of those, you would need to do more single-cell sequencing than the entire world has ever done. It's just not tractable to do exhaustively."
 > -- Jacob Kimmel, [32:00](https://www.youtube.com/watch?v=XCLODgdCmKA&t=1920s)

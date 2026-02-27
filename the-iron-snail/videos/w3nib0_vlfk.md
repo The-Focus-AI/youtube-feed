@@ -30,42 +30,84 @@ The video breaks down the technical aspects of shuttle looms versus modern air-j
 
 ### "Japanese collectors pay thousands for the real thing"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w3nib0_vlfk?start=0&end=55" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/w3nib0_vlfk/hqdefault.jpg)](https://www.youtube.com/watch?v=w3nib0_vlfk&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-0:55" "https://www.youtube.com/watch?v=w3nib0_vlfk" --force-keyframes-at-cuts --merge-output-format mp4 -o "w3nib0_vlfk-0m00s.mp4"
+```
+</details>
 
 > "Japanese Levi's collectors pay thousands upon thousands of dollars for the real thing. So they can grab their 1942 pair of Levi's and say, 'Nope, that's not right. That doesn't look right. Look at the fuzz. Very different.'"
 > — Michael, [0:13](https://www.youtube.com/watch?v=w3nib0_vlfk&t=13s)
 
 ### "One of the leading causes of tuberculosis"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w3nib0_vlfk?start=24&end=80" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/w3nib0_vlfk/hqdefault.jpg)](https://www.youtube.com/watch?v=w3nib0_vlfk&t=24s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:24-1:20" "https://www.youtube.com/watch?v=w3nib0_vlfk" --force-keyframes-at-cuts --merge-output-format mp4 -o "w3nib0_vlfk-0m24s.mp4"
+```
+</details>
 
 > "They were one of the leading causes of tuberculosis in the US for a very long time because the employees would suck on a component of them. And the bosses were like, 'Stop sucking on those. It's giving you typhoid.'"
 > — Michael, [0:32](https://www.youtube.com/watch?v=w3nib0_vlfk&t=32s)
 
 ### "This denim is filled with twigs and leaf matter"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w3nib0_vlfk?start=47&end=105" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/w3nib0_vlfk/hqdefault.jpg)](https://www.youtube.com/watch?v=w3nib0_vlfk&t=47s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:47-1:45" "https://www.youtube.com/watch?v=w3nib0_vlfk" --force-keyframes-at-cuts --merge-output-format mp4 -o "w3nib0_vlfk-0m47s.mp4"
+```
+</details>
 
 > "This denim is filled with twigs and leaf matter. This is some of the craziest textured denim in the world."
 > — Michael, [0:57](https://www.youtube.com/watch?v=w3nib0_vlfk&t=57s)
 
 ### "Uniqlo shrunk 0%, fancy Japanese brands shrunk 9%"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w3nib0_vlfk?start=655&end=715" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/w3nib0_vlfk/hqdefault.jpg)](https://www.youtube.com/watch?v=w3nib0_vlfk&t=655s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:55-11:55" "https://www.youtube.com/watch?v=w3nib0_vlfk" --force-keyframes-at-cuts --merge-output-format mp4 -o "w3nib0_vlfk-10m55s.mp4"
+```
+</details>
 
 > "Uniqlo shrunk 0% and fancy Japanese brands would sometimes shrink 9%. Because when you're making really fancy textiles with crazy yarns and you're trying to preserve all the character possible, you get wild shrink amounts."
 > — Michael, [10:55](https://www.youtube.com/watch?v=w3nib0_vlfk&t=655s)
 
 ### "Levi's went in guns blazing and sued all of you"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w3nib0_vlfk?start=740&end=800" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/w3nib0_vlfk/hqdefault.jpg)](https://www.youtube.com/watch?v=w3nib0_vlfk&t=740s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:20-13:20" "https://www.youtube.com/watch?v=w3nib0_vlfk" --force-keyframes-at-cuts --merge-output-format mp4 -o "w3nib0_vlfk-12m20s.mp4"
+```
+</details>
 
 > "Levi's went in guns blazing and was like 'we're suing all of you, take all of our stuff away.' So that's why similar details but kind of remixed."
 > — Michael, [12:25](https://www.youtube.com/watch?v=w3nib0_vlfk&t=745s)
 
 ### "Two pigs flying instead of two horses"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w3nib0_vlfk?start=820&end=875" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/w3nib0_vlfk/hqdefault.jpg)](https://www.youtube.com/watch?v=w3nib0_vlfk&t=820s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:40-14:35" "https://www.youtube.com/watch?v=w3nib0_vlfk" --force-keyframes-at-cuts --merge-output-format mp4 -o "w3nib0_vlfk-13m40s.mp4"
+```
+</details>
 
 > "So we still have a leather patch but it doesn't show two horses pulling jeans across like Levi's has. We have an arcuate but it's kind of different and wonky. Instead of a red tab we have a little red embroidery... you have two pigs flying if you're doing Studio D'Artisan."
 > — Michael, [13:45](https://www.youtube.com/watch?v=w3nib0_vlfk&t=825s)

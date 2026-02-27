@@ -38,35 +38,70 @@ The discussion covers YouTube's growing product portfolio including YouTube TV, 
 
 ### "$70 billion paid to creators"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5bSGrQou4Lo?start=128&end=188" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5bSGrQou4Lo/hqdefault.jpg)](https://www.youtube.com/watch?v=5bSGrQou4Lo&t=128s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:08-3:08" "https://www.youtube.com/watch?v=5bSGrQou4Lo" --force-keyframes-at-cuts --merge-output-format mp4 -o "5bSGrQou4Lo-2m08s.mp4"
+```
+</details>
 
 > "We've paid out in the last 3 years over $70 billion to the creator economy. We are the original and world's largest creator economy. There are north of 3 million creators in the partner program today earning revenue."
 > — Neal Mohan, [2:08](https://www.youtube.com/watch?v=5bSGrQou4Lo&t=128s)
 
 ### "Are you taking too much from creators?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5bSGrQou4Lo?start=67&end=130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5bSGrQou4Lo/hqdefault.jpg)](https://www.youtube.com/watch?v=5bSGrQou4Lo&t=67s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:07-2:10" "https://www.youtube.com/watch?v=5bSGrQou4Lo" --force-keyframes-at-cuts --merge-output-format mp4 -o "5bSGrQou4Lo-1m07s.mp4"
+```
+</details>
 
 > "You don't pay for content upfront. You do it all with the 55% revenue split. You sweep 45%. Seems like you're doing pretty well. Are you taking too much money from creators? Can we get that down to 30%?"
 > — Jason Calacanis, [1:07](https://www.youtube.com/watch?v=5bSGrQou4Lo&t=67s)
 
 ### "People were climbing 5G cell towers"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5bSGrQou4Lo?start=760&end=820" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5bSGrQou4Lo/hqdefault.jpg)](https://www.youtube.com/watch?v=5bSGrQou4Lo&t=760s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:40-13:40" "https://www.youtube.com/watch?v=5bSGrQou4Lo" --force-keyframes-at-cuts --merge-output-format mp4 -o "5bSGrQou4Lo-12m40s.mp4"
+```
+</details>
 
 > "I literally woke up one day and there were people climbing 5G cell towers and falling from cell towers because now it was like you could literally get the thing from cell towers. It sounds crazy today but that was the nature of the types of things that were popping up."
 > — Neal Mohan, [12:40](https://www.youtube.com/watch?v=5bSGrQou4Lo&t=760s)
 
 ### "YouTube Shorts: 70 billion views a day"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5bSGrQou4Lo?start=18&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5bSGrQou4Lo/hqdefault.jpg)](https://www.youtube.com/watch?v=5bSGrQou4Lo&t=18s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:18-1:00" "https://www.youtube.com/watch?v=5bSGrQou4Lo" --force-keyframes-at-cuts --merge-output-format mp4 -o "5bSGrQou4Lo-0m18s.mp4"
+```
+</details>
 
 > "YouTube is now by far the biggest streamer in the world. Shorts, I think, has just surpassed 70 billion views a day."
 > — Intro montage, [0:18](https://www.youtube.com/watch?v=5bSGrQou4Lo&t=18s)
 
 ### "Likeness detection is the future of content ID for AI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5bSGrQou4Lo?start=1560&end=1620" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5bSGrQou4Lo/hqdefault.jpg)](https://www.youtube.com/watch?v=5bSGrQou4Lo&t=1560s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*26:00-27:00" "https://www.youtube.com/watch?v=5bSGrQou4Lo" --force-keyframes-at-cuts --merge-output-format mp4 -o "5bSGrQou4Lo-26m00s.mp4"
+```
+</details>
 
 > "We are working on this notion of likeness detection where if it's a Chamath face, the algorithm should be good enough to detect that and then give you a choice as to whether that should come down. Or there might be creators that choose to monetize it. We actually have a track record of doing that because of Content ID."
 > — Neal Mohan, [26:00](https://www.youtube.com/watch?v=5bSGrQou4Lo&t=1560s)

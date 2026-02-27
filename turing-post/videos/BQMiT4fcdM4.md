@@ -40,35 +40,70 @@ The "promise" segment delivers a twist: Jensen Huang's 2009 commencement speech 
 
 ### "Never in history has there been a GPU developers conference"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BQMiT4fcdM4?start=145&end=175" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BQMiT4fcdM4/hqdefault.jpg)](https://www.youtube.com/watch?v=BQMiT4fcdM4&t=145s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:25-2:55" "https://www.youtube.com/watch?v=BQMiT4fcdM4" --force-keyframes-at-cuts --merge-output-format mp4 -o "BQMiT4fcdM4-2m25s.mp4"
+```
+</details>
 
 > "This is the first conference for GPUs. Never in the history of the computer industry has there been a developers conference for programming GPUs. And look how large it is."
 > — Jensen Huang, 2009, [2:25](https://www.youtube.com/watch?v=BQMiT4fcdM4&t=145s)
 
 ### "200 times speedup and it did no harm"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BQMiT4fcdM4?start=273&end=310" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BQMiT4fcdM4/hqdefault.jpg)](https://www.youtube.com/watch?v=BQMiT4fcdM4&t=273s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:33-5:10" "https://www.youtube.com/watch?v=BQMiT4fcdM4" --force-keyframes-at-cuts --merge-output-format mp4 -o "BQMiT4fcdM4-4m33s.mp4"
+```
+</details>
 
 > "We saw a speedup for parallel applications of nearly 200 times - between 100 to 200 times. An enormous feat. And yet on mostly sequential programs, it did no harm. It did no harm. And so the most important thing in creating a new architecture is to make sure number one it does no harm."
 > — Jensen Huang, 2009, [4:33](https://www.youtube.com/watch?v=BQMiT4fcdM4&t=273s)
 
 ### "Even Google doesn't have it"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BQMiT4fcdM4?start=555&end=575" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BQMiT4fcdM4/hqdefault.jpg)](https://www.youtube.com/watch?v=BQMiT4fcdM4&t=555s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:15-9:35" "https://www.youtube.com/watch?v=BQMiT4fcdM4" --force-keyframes-at-cuts --merge-output-format mp4 -o "BQMiT4fcdM4-9m15s.mp4"
+```
+</details>
 
 > "I'm very proud to report that at Stanford Vision Lab, we are the first one to have ever built a visual recognition algorithm that recognizes more than 20,000 object classes. Even Google doesn't have it."
 > — Fei-Fei Li, 2012, [9:15](https://www.youtube.com/watch?v=BQMiT4fcdM4&t=555s)
 
 ### "5 years before OpenAI was even thought of"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BQMiT4fcdM4?start=685&end=720" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BQMiT4fcdM4/hqdefault.jpg)](https://www.youtube.com/watch?v=BQMiT4fcdM4&t=685s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:25-12:00" "https://www.youtube.com/watch?v=BQMiT4fcdM4" --force-keyframes-at-cuts --merge-output-format mp4 -o "BQMiT4fcdM4-11m25s.mp4"
+```
+</details>
 
 > "He talks about AGI. He calls it AGI. It was 5 years before OpenAI was even thought of. Isn't that crazy? Deep Mind's early work laid the foundation for later triumphs like AlphaGo, which beat the world's best Go player in 2016 and blew everyone's mind."
 > — Ksenia Se, [11:25](https://www.youtube.com/watch?v=BQMiT4fcdM4&t=685s)
 
 ### "We didn't know that it was impossible"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BQMiT4fcdM4?start=837&end=875" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BQMiT4fcdM4/hqdefault.jpg)](https://www.youtube.com/watch?v=BQMiT4fcdM4&t=837s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:57-14:35" "https://www.youtube.com/watch?v=BQMiT4fcdM4" --force-keyframes-at-cuts --merge-output-format mp4 -o "BQMiT4fcdM4-13m57s.mp4"
+```
+</details>
 
 > "We were young, naive, idealistic. We didn't know what we didn't know about building the industry and about building our company. We didn't know that it was impossible. We just imagined how great it would be if computers would do what we imagined. Our fresh and innocent perspective, unencumbered by conventional wisdom, allowed us to see what 30, 40, 50 other companies could not and did not."
 > — Jensen Huang, 2009, [13:57](https://www.youtube.com/watch?v=BQMiT4fcdM4&t=837s)

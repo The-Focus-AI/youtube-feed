@@ -34,42 +34,84 @@ The interview covers Ian's path from a Yale physics student to defense tech foun
 
 ### "We posted on Twitter, slept 18 hours, woke up to messages from Ukraine and the White House"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OrIoZnqCs4w?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/OrIoZnqCs4w/hqdefault.jpg)](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-1:00" "https://www.youtube.com/watch?v=OrIoZnqCs4w" --force-keyframes-at-cuts --merge-output-format mp4 -o "OrIoZnqCs4w-0m00s.mp4"
+```
+</details>
 
 > "We built a drone that flies without GPS using Google Maps to fingerprint where you are. We built that, put a picture up on Twitter, then slept for 18 hours. I woke up to tons of people from Ukraine, tons of people associated with the White House. Very quickly it became clear we needed to do this."
 > — Ian Laffey, [0:00](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=0s)
 
 ### "First prototype was literally an Android phone strapped to a drone"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OrIoZnqCs4w?start=520&end=585" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/OrIoZnqCs4w/hqdefault.jpg)](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=520s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:40-9:45" "https://www.youtube.com/watch?v=OrIoZnqCs4w" --force-keyframes-at-cuts --merge-output-format mp4 -o "OrIoZnqCs4w-8m40s.mp4"
+```
+</details>
 
 > "Our first real prototype was basically an Android phone strapped to a drone. It sounds ridiculous, but it worked. We had to start somewhere. Phones have pretty good cameras and processors. It let us test the core concept without building custom hardware."
 > — Ian Laffey, [8:40](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=520s)
 
 ### "Every day we're not shipping, that's a day where someone might die"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OrIoZnqCs4w?start=1015&end=1080" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/OrIoZnqCs4w/hqdefault.jpg)](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=1015s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:55-18:00" "https://www.youtube.com/watch?v=OrIoZnqCs4w" --force-keyframes-at-cuts --merge-output-format mp4 -o "OrIoZnqCs4w-16m55s.mp4"
+```
+</details>
 
 > "Every day we're not shipping, that's a day where someone might die because they didn't have our product. That weight is always there. Every decision you make, you're thinking about the consequences. It makes you more careful, but also more stressful."
 > — Ian Laffey, [16:55](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=1015s)
 
 ### "Sasha dropped out of his PhD. I quit my job. We went all in."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OrIoZnqCs4w?start=440&end=505" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/OrIoZnqCs4w/hqdefault.jpg)](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=440s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:20-8:25" "https://www.youtube.com/watch?v=OrIoZnqCs4w" --force-keyframes-at-cuts --merge-output-format mp4 -o "OrIoZnqCs4w-7m20s.mp4"
+```
+</details>
 
 > "After the hackathon, the response made it clear - this was needed. People were literally fighting and dying, and this technology could help. Sasha dropped out of his PhD. I quit my job. We went all in. Within weeks we were talking to people in Ukraine."
 > — Ian Laffey, [7:20](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=440s)
 
 ### "GPS has been military navigation backbone for decades - but it can be jammed"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OrIoZnqCs4w?start=259&end=325" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/OrIoZnqCs4w/hqdefault.jpg)](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=259s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:19-5:25" "https://www.youtube.com/watch?v=OrIoZnqCs4w" --force-keyframes-at-cuts --merge-output-format mp4 -o "OrIoZnqCs4w-4m19s.mp4"
+```
+</details>
 
 > "GPS has been the backbone of military navigation for decades. Missiles, drones, vehicles - everything uses GPS. But GPS can be jammed or spoofed. The Russians are really good at this. In Ukraine, GPS is basically unusable in many areas because of Russian jamming."
 > — Ian Laffey, [4:19](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=259s)
 
 ### "The unknown unknowns are the things that will kill you in hardware"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OrIoZnqCs4w?start=2927&end=2990" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/OrIoZnqCs4w/hqdefault.jpg)](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=2927s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*48:47-49:50" "https://www.youtube.com/watch?v=OrIoZnqCs4w" --force-keyframes-at-cuts --merge-output-format mp4 -o "OrIoZnqCs4w-48m47s.mp4"
+```
+</details>
 
 > "The unknown unknowns are the things that will kill you. In software, you can push a fix. In hardware, if you shipped something wrong, those units are gone. You have to be incredibly thorough about testing every edge case."
 > — Ian Laffey, [48:47](https://www.youtube.com/watch?v=OrIoZnqCs4w&t=2927s)

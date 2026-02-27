@@ -39,28 +39,56 @@ The "promise" section addresses OpenAI and Google both achieving gold medal scor
 
 ### "AI that has a past"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/52NIr_joGMw?start=132&end=160" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/52NIr_joGMw/hqdefault.jpg)](https://www.youtube.com/watch?v=52NIr_joGMw&t=132s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:12-2:40" "https://www.youtube.com/watch?v=52NIr_joGMw" --force-keyframes-at-cuts --merge-output-format mp4 -o "52NIr_joGMw-2m12s.mp4"
+```
+</details>
 
 > "The real wow here is the conceptual leap. We're moving from AI as a stateless tool that only knows the present moment to an AI that has a past. An AI that can draw on a vast library of visual experiences to reason and answer questions. This is a foundational step towards something that can genuinely learn from experience."
 > — Ksenia Se, [2:12](https://www.youtube.com/watch?v=52NIr_joGMw&t=132s)
 
 ### "The combination outperforms either alone"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/52NIr_joGMw?start=254&end=288" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/52NIr_joGMw/hqdefault.jpg)](https://www.youtube.com/watch?v=52NIr_joGMw&t=254s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:14-4:48" "https://www.youtube.com/watch?v=52NIr_joGMw" --force-keyframes-at-cuts --merge-output-format mp4 -o "52NIr_joGMw-4m14s.mp4"
+```
+</details>
 
 > "Google ran a study where they pitted historians against Ian and then had them work together. The results were clear - the combination of historian and AI far outperformed either one alone. This wow is the partnership between AI and humans. This is AI in service of the humanities."
 > — Ksenia Se, [4:14](https://www.youtube.com/watch?v=52NIr_joGMw&t=254s)
 
 ### "A person regaining agency one keystroke at a time"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/52NIr_joGMw?start=348&end=380" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/52NIr_joGMw/hqdefault.jpg)](https://www.youtube.com/watch?v=52NIr_joGMw&t=348s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:48-6:20" "https://www.youtube.com/watch?v=52NIr_joGMw" --force-keyframes-at-cuts --merge-output-format mp4 -o "52NIr_joGMw-5m48s.mp4"
+```
+</details>
 
 > "The wow here is the raw humanity of it. This isn't a lab experiment anymore. It's a person regaining agency one keystroke, one letter at a time, and sharing their journey with all of us. It's the visceral, undeniable proof of concept for brain computer interfaces."
 > — Ksenia Se, [5:48](https://www.youtube.com/watch?v=52NIr_joGMw&t=348s)
 
 ### "The real story isn't who won"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/52NIr_joGMw?start=518&end=550" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/52NIr_joGMw/hqdefault.jpg)](https://www.youtube.com/watch?v=52NIr_joGMw&t=518s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:38-9:10" "https://www.youtube.com/watch?v=52NIr_joGMw" --force-keyframes-at-cuts --merge-output-format mp4 -o "52NIr_joGMw-8m38s.mp4"
+```
+</details>
 
 > "The real crucial takeaway is not who got the gold medal - it's that both of them did. The race is now neck and neck. Don't get distracted by who won on any given day. The intense competition, this relentless race for talent, for funding, for the perception of being number one is what is accelerating the entire field forward."
 > — Ksenia Se, [8:38](https://www.youtube.com/watch?v=52NIr_joGMw&t=518s)

@@ -31,35 +31,70 @@ The video progresses from unranked jackets (Devium, Ginew, Tom Beckbe, Iron & Re
 
 ### "I Have Three Wax Jackets On Right Now - I'm Like a Candle"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3giKIuJjDk?start=347&end=410" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/y3giKIuJjDk/hqdefault.jpg)](https://www.youtube.com/watch?v=y3giKIuJjDk&t=347s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:47-6:50" "https://www.youtube.com/watch?v=y3giKIuJjDk" --force-keyframes-at-cuts --merge-output-format mp4 -o "y3giKIuJjDk-5m47s.mp4"
+```
+</details>
 
 > "I have three wax jackets on right now. I'm like a candle."
 > — Michael, [5:53](https://www.youtube.com/watch?v=y3giKIuJjDk&t=353s)
 
 ### "200 Videos Later, Everybody Wants Comfort"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3giKIuJjDk?start=386&end=445" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/y3giKIuJjDk/hqdefault.jpg)](https://www.youtube.com/watch?v=y3giKIuJjDk&t=386s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:26-7:25" "https://www.youtube.com/watch?v=y3giKIuJjDk" --force-keyframes-at-cuts --merge-output-format mp4 -o "y3giKIuJjDk-6m26s.mp4"
+```
+</details>
 
 > "200 videos later, everybody wants comfort. That's all you want. Well, that's most of what you want."
 > — Michael, [6:30](https://www.youtube.com/watch?v=y3giKIuJjDk&t=390s)
 
 ### "Freenote Cloth Is One of the Greatest American Heritage Brands Ever"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3giKIuJjDk?start=738&end=800" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/y3giKIuJjDk/hqdefault.jpg)](https://www.youtube.com/watch?v=y3giKIuJjDk&t=738s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:18-13:20" "https://www.youtube.com/watch?v=y3giKIuJjDk" --force-keyframes-at-cuts --merge-output-format mp4 -o "y3giKIuJjDk-12m18s.mp4"
+```
+</details>
 
 > "Freenote Cloth is one of the greatest, if not the greatest American heritage brands ever."
 > — Michael, [12:35](https://www.youtube.com/watch?v=y3giKIuJjDk&t=755s)
 
 ### "It's Just a Flannel with Teeth"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3giKIuJjDk?start=563&end=620" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/y3giKIuJjDk/hqdefault.jpg)](https://www.youtube.com/watch?v=y3giKIuJjDk&t=563s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:23-10:20" "https://www.youtube.com/watch?v=y3giKIuJjDk" --force-keyframes-at-cuts --merge-output-format mp4 -o "y3giKIuJjDk-9m23s.mp4"
+```
+</details>
 
 > "It's just a flannel with teeth is what it feels like."
 > — Michael on the Dehen 1920 Crissman Overshirt, [9:48](https://www.youtube.com/watch?v=y3giKIuJjDk&t=588s)
 
 ### "Pedro Pascal. Pedro Pascal. Pedro Pascal."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3giKIuJjDk?start=969&end=1030" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/y3giKIuJjDk/hqdefault.jpg)](https://www.youtube.com/watch?v=y3giKIuJjDk&t=969s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:09-17:10" "https://www.youtube.com/watch?v=y3giKIuJjDk" --force-keyframes-at-cuts --merge-output-format mp4 -o "y3giKIuJjDk-16m09s.mp4"
+```
+</details>
 
 > "Pedro Pascal. Pedro Pascal. What jacket is Pedro Pascal wearing in The Last of Us? Sorry, I just had to do that to get those sweet, sweet search term views."
 > — Michael, [16:25](https://www.youtube.com/watch?v=y3giKIuJjDk&t=985s)

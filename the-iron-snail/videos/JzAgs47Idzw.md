@@ -31,35 +31,70 @@ The video dives deep into the technical construction of the boot - covering roug
 
 ### "Boots That Men Smuggled Into Jamaica Via Coffins"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JzAgs47Idzw?start=0&end=55" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/JzAgs47Idzw/hqdefault.jpg)](https://www.youtube.com/watch?v=JzAgs47Idzw&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-0:55" "https://www.youtube.com/watch?v=JzAgs47Idzw" --force-keyframes-at-cuts --merge-output-format mp4 -o "JzAgs47Idzw-0m00s.mp4"
+```
+</details>
 
 > "These are Clark's desert boots. Boots that men smuggled into Jamaica via coffins."
 > — Michael, [0:00](https://www.youtube.com/watch?v=JzAgs47Idzw&t=0s)
 
 ### "There Are Hundreds of Songs About Clarks in Jamaica"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JzAgs47Idzw?start=77&end=130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/JzAgs47Idzw/hqdefault.jpg)](https://www.youtube.com/watch?v=JzAgs47Idzw&t=77s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:17-2:10" "https://www.youtube.com/watch?v=JzAgs47Idzw" --force-keyframes-at-cuts --merge-output-format mp4 -o "JzAgs47Idzw-1m17s.mp4"
+```
+</details>
 
 > "There is not one song about Clarks in Jamaica. There are hundreds of songs."
 > — Michael, [1:19](https://www.youtube.com/watch?v=JzAgs47Idzw&t=79s)
 
 ### "Nothing Is Like This Relationship"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JzAgs47Idzw?start=102&end=155" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/JzAgs47Idzw/hqdefault.jpg)](https://www.youtube.com/watch?v=JzAgs47Idzw&t=102s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:42-2:35" "https://www.youtube.com/watch?v=JzAgs47Idzw" --force-keyframes-at-cuts --merge-output-format mp4 -o "JzAgs47Idzw-1m42s.mp4"
+```
+</details>
 
 > "There is nothing like the relationship between Jamaica and Clarks. I thought maybe blue jeans in the USA kind of but not like this. Nothing is like this."
 > — Michael, [1:51](https://www.youtube.com/watch?v=JzAgs47Idzw&t=111s)
 
 ### "You Will Fall on Your Butt in Crepe"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JzAgs47Idzw?start=295&end=350" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/JzAgs47Idzw/hqdefault.jpg)](https://www.youtube.com/watch?v=JzAgs47Idzw&t=295s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:55-5:50" "https://www.youtube.com/watch?v=JzAgs47Idzw" --force-keyframes-at-cuts --merge-output-format mp4 -o "JzAgs47Idzw-4m55s.mp4"
+```
+</details>
 
 > "You will fall on your butt eventually if you are wearing crepe. So, be careful out there."
 > — Michael, [5:20](https://www.youtube.com/watch?v=JzAgs47Idzw&t=320s)
 
 ### "The Birth of the Rude Boy"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JzAgs47Idzw?start=707&end=765" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/JzAgs47Idzw/hqdefault.jpg)](https://www.youtube.com/watch?v=JzAgs47Idzw&t=707s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:47-12:45" "https://www.youtube.com/watch?v=JzAgs47Idzw" --force-keyframes-at-cuts --merge-output-format mp4 -o "JzAgs47Idzw-11m47s.mp4"
+```
+</details>
 
 > "And those people, young men, those young men kind of rude to the system, the general system at be. They were rude boys. Nowadays, the term rude boy is pretty iconic."
 > — Michael, [12:05](https://www.youtube.com/watch?v=JzAgs47Idzw&t=725s)

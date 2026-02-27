@@ -36,42 +36,84 @@ The episode also covers Nvidia's blowout earnings (revenue up 62% YoY), Google's
 
 ### "I think he's a spy"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4tgV87SM-r0?start=481&end=540" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/4tgV87SM-r0/hqdefault.jpg)](https://www.youtube.com/watch?v=4tgV87SM-r0&t=481s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:01-9:00" "https://www.youtube.com/watch?v=4tgV87SM-r0" --force-keyframes-at-cuts --merge-output-format mp4 -o "4tgV87SM-r0-8m01s.mp4"
+```
+</details>
 
 > "I think looking back on it, I think he's a spy. I think he worked for intelligence agencies... Why would he have an interest in the top scientists in the top universities to get close to them and then who did he want to pass that information on to? Russia, Israel, the CIA."
 > — Jason Calacanis, [8:01](https://www.youtube.com/watch?v=4tgV87SM-r0&t=481s)
 
 ### "$168 million for tax advice"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4tgV87SM-r0?start=611&end=665" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/4tgV87SM-r0/hqdefault.jpg)](https://www.youtube.com/watch?v=4tgV87SM-r0&t=611s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:11-11:05" "https://www.youtube.com/watch?v=4tgV87SM-r0" --force-keyframes-at-cuts --merge-output-format mp4 -o "4tgV87SM-r0-10m11s.mp4"
+```
+</details>
 
 > "Leon Black who's the founder of Apollo in one year paid Epstein $168 million for tax advice... I am hard-pressed to understand what advice could have been given to me that where I would have paid $168 million."
 > — Chamath Palihapitiya, [10:28](https://www.youtube.com/watch?v=4tgV87SM-r0&t=628s)
 
 ### "Upwards of more than 95% margins"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4tgV87SM-r0?start=1338&end=1400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/4tgV87SM-r0/hqdefault.jpg)](https://www.youtube.com/watch?v=4tgV87SM-r0&t=1338s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*22:18-23:20" "https://www.youtube.com/watch?v=4tgV87SM-r0" --force-keyframes-at-cuts --merge-output-format mp4 -o "4tgV87SM-r0-22m18s.mp4"
+```
+</details>
 
 > "They're making 10 billion. What's more, what do you think their profit margins are?... Upwards of more than 95%... Here we are grinding away trying to get to 30-40%. It's so many of our business and he's like, 'Yeah, yeah, it's incredible.'"
 > — Chamath Palihapitiya on Tether, [22:18](https://www.youtube.com/watch?v=4tgV87SM-r0&t=1338s)
 
 ### "Burry's implication is completely false"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4tgV87SM-r0?start=2030&end=2096" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/4tgV87SM-r0/hqdefault.jpg)](https://www.youtube.com/watch?v=4tgV87SM-r0&t=2030s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*33:50-34:56" "https://www.youtube.com/watch?v=4tgV87SM-r0" --force-keyframes-at-cuts --merge-output-format mp4 -o "4tgV87SM-r0-33m50s.mp4"
+```
+</details>
 
 > "Burry's implication that they are cooking the books or hiding accounting is completely false because all of the accounting is apparent in the cash flow statement and in the balance sheet."
 > — David Friedberg, [33:50](https://www.youtube.com/watch?v=4tgV87SM-r0&t=2030s)
 
 ### "I cried and realized I wasn't doing what I should be doing"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4tgV87SM-r0?start=2850&end=2920" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/4tgV87SM-r0/hqdefault.jpg)](https://www.youtube.com/watch?v=4tgV87SM-r0&t=2850s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*47:30-48:40" "https://www.youtube.com/watch?v=4tgV87SM-r0" --force-keyframes-at-cuts --merge-output-format mp4 -o "4tgV87SM-r0-47m30s.mp4"
+```
+</details>
 
 > "I saw the movie Oppenheimer in IMAX and I left that movie and I cried and I realized I wasn't doing what I should be doing with my life by being this board member who was useless... and I made the decision to step in as CEO."
 > — David Friedberg, [47:30](https://www.youtube.com/watch?v=4tgV87SM-r0&t=2850s)
 
 ### "Purity in the chaos"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4tgV87SM-r0?start=3540&end=3600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/4tgV87SM-r0/hqdefault.jpg)](https://www.youtube.com/watch?v=4tgV87SM-r0&t=3540s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*59:00-60:00" "https://www.youtube.com/watch?v=4tgV87SM-r0" --force-keyframes-at-cuts --merge-output-format mp4 -o "4tgV87SM-r0-59m00s.mp4"
+```
+</details>
 
 > "I just think there's some purity or beauty in the chaos after everyone's, after you get past where everyone's prepared, and I'm interested in that space and I have no interest in the space that everyone's prepared."
 > — Alan Keating, [59:07](https://www.youtube.com/watch?v=4tgV87SM-r0&t=3547s)

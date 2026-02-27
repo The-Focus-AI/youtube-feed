@@ -32,35 +32,70 @@ MKBHD reviews the Nothing Phone 3, challenging Nothing's claim that this is thei
 
 ### "This is No More of a Flagship Than Nothing's Previous Phones"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4KbrxIpQgkM?start=121&end=175" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/4KbrxIpQgkM/hqdefault.jpg)](https://www.youtube.com/watch?v=4KbrxIpQgkM&t=121s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:01-2:55" "https://www.youtube.com/watch?v=4KbrxIpQgkM" --force-keyframes-at-cuts --merge-output-format mp4 -o "4KbrxIpQgkM-2m01s.mp4"
+```
+</details>
 
 > "I've been using this for the last week and I'm gonna disagree with the whole premise here actually. This is no more of a flagship than Nothing's previous phones. Now are they lying to us? Eh, not exactly but kind of."
 > — Marques Brownlee, [2:01](https://www.youtube.com/watch?v=4KbrxIpQgkM&t=121s)
 
 ### "The Playbook is to Cut Back Just a Little"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4KbrxIpQgkM?start=197&end=250" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/4KbrxIpQgkM/hqdefault.jpg)](https://www.youtube.com/watch?v=4KbrxIpQgkM&t=197s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:17-4:10" "https://www.youtube.com/watch?v=4KbrxIpQgkM" --force-keyframes-at-cuts --merge-output-format mp4 -o "4KbrxIpQgkM-3m17s.mp4"
+```
+</details>
 
 > "The playbook is to just cut back just a little, stuff in ways that hopefully you won't notice. And it still feels like a flagship, but that allows 'em to cut costs and undercut the competition a little bit."
 > — Marques Brownlee, [3:17](https://www.youtube.com/watch?v=4KbrxIpQgkM&t=197s)
 
 ### "Flagship Battery for Sure"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4KbrxIpQgkM?start=423&end=470" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/4KbrxIpQgkM/hqdefault.jpg)](https://www.youtube.com/watch?v=4KbrxIpQgkM&t=423s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:03-7:50" "https://www.youtube.com/watch?v=4KbrxIpQgkM" --force-keyframes-at-cuts --merge-output-format mp4 -o "4KbrxIpQgkM-7m03s.mp4"
+```
+</details>
 
 > "It's silicon carbon, it supports wireless charging, reverse wired charging. It's great. It sips power in standby and it's genuinely a two day phone even without the more efficient LTPO display. So honestly flagship battery for sure."
 > — Marques Brownlee, [7:03](https://www.youtube.com/watch?v=4KbrxIpQgkM&t=423s)
 
 ### "The Real Best Part of a Nothing Phone"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4KbrxIpQgkM?start=768&end=820" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/4KbrxIpQgkM/hqdefault.jpg)](https://www.youtube.com/watch?v=4KbrxIpQgkM&t=768s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:48-13:40" "https://www.youtube.com/watch?v=4KbrxIpQgkM" --force-keyframes-at-cuts --merge-output-format mp4 -o "4KbrxIpQgkM-12m48s.mp4"
+```
+</details>
 
 > "The real best part of a Nothing phone is still the software, because Nothing OS 3.5, soon to be updated to 4.0. Like they have this tastefully modified version of Android with finely-tuned, smooth performance and a handful of useful features."
 > — Marques Brownlee, [12:48](https://www.youtube.com/watch?v=4KbrxIpQgkM&t=768s)
 
 ### "They Did Marketing"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4KbrxIpQgkM?start=884&end=932" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/4KbrxIpQgkM/hqdefault.jpg)](https://www.youtube.com/watch?v=4KbrxIpQgkM&t=884s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:44-15:32" "https://www.youtube.com/watch?v=4KbrxIpQgkM" --force-keyframes-at-cuts --merge-output-format mp4 -o "4KbrxIpQgkM-14m44s.mp4"
+```
+</details>
 
 > "Flagship, the word flagship, is a marketing term. And so maybe the review title should just been Nothing Phone 3, They Did Marketing, whatever. But the point is, it still stands. They're charging 799 for this phone and there are other really good phones that you can get for that much money."
 > — Marques Brownlee, [14:44](https://www.youtube.com/watch?v=4KbrxIpQgkM&t=884s)

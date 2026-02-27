@@ -35,35 +35,70 @@ Rich then draws the crucial distinction: people with existing technical knowledg
 
 ### "I did five things I've never done before in a half hour"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/g0b1vZ-qG5I?start=715&end=770" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/g0b1vZ-qG5I/hqdefault.jpg)](https://www.youtube.com/watch?v=g0b1vZ-qG5I&t=715s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:55-12:50" "https://www.youtube.com/watch?v=g0b1vZ-qG5I" --force-keyframes-at-cuts --merge-output-format mp4 -o "g0b1vZ-qG5I-11m55s.mp4"
+```
+</details>
 
 > "I did like five things I've never done before. I did them without thinking about them, having known about them. Soldering was one that was physical. But the brain stuff -- I'm going to build an operating system for this one particular piece of hardware, I'm going to couple it tightly to the hardware that I just made, and build a way to quickly load multiple modules."
 > -- Paul Ford, [11:55](https://www.youtube.com/watch?v=g0b1vZ-qG5I&t=715s)
 
 ### "Experienced technologists get rocket boosters"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/g0b1vZ-qG5I?start=830&end=885" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/g0b1vZ-qG5I/hqdefault.jpg)](https://www.youtube.com/watch?v=g0b1vZ-qG5I&t=830s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:50-14:45" "https://www.youtube.com/watch?v=g0b1vZ-qG5I" --force-keyframes-at-cuts --merge-output-format mp4 -o "g0b1vZ-qG5I-13m50s.mp4"
+```
+</details>
 
 > "This is a weird moment because the old people have an absolutely exponential advantage. If you basically understand what technology is and how it works, your access to like 50 zillion other things in the world -- the cost has gone down and is approaching zero."
 > -- Rich Ziade, [13:50](https://www.youtube.com/watch?v=g0b1vZ-qG5I&t=830s)
 
 ### "The pad thai box is the bubble"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/g0b1vZ-qG5I?start=1025&end=1075" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/g0b1vZ-qG5I/hqdefault.jpg)](https://www.youtube.com/watch?v=g0b1vZ-qG5I&t=1025s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*17:05-17:55" "https://www.youtube.com/watch?v=g0b1vZ-qG5I" --force-keyframes-at-cuts --merge-output-format mp4 -o "g0b1vZ-qG5I-17m05s.mp4"
+```
+</details>
 
 > "Everyone is thinking the same box I use to order pad thai is going to be the box that helps me refinance my mortgage. That is the bubble. That's the promise. And that is the bubble."
 > -- Paul Ford and Rich Ziade, [17:05](https://www.youtube.com/watch?v=g0b1vZ-qG5I&t=1025s)
 
 ### "All this convenience leads to depression"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/g0b1vZ-qG5I?start=1290&end=1340" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/g0b1vZ-qG5I/hqdefault.jpg)](https://www.youtube.com/watch?v=g0b1vZ-qG5I&t=1290s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*21:30-22:20" "https://www.youtube.com/watch?v=g0b1vZ-qG5I" --force-keyframes-at-cuts --merge-output-format mp4 -o "g0b1vZ-qG5I-21m30s.mp4"
+```
+</details>
 
 > "All this convenience I think just leads to depression. You on episode nine with pad thai noodles dripping on your shirt because everything just sort of comes to you. There's such a gift on the other side of struggle. If everything is too convenient -- how do you feel good about what's on the other side of something you achieved?"
 > -- Rich Ziade, [21:30](https://www.youtube.com/watch?v=g0b1vZ-qG5I&t=1290s)
 
 ### "We're not vibe coding -- we're blueprinting"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/g0b1vZ-qG5I?start=190&end=240" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/g0b1vZ-qG5I/hqdefault.jpg)](https://www.youtube.com/watch?v=g0b1vZ-qG5I&t=190s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:10-4:00" "https://www.youtube.com/watch?v=g0b1vZ-qG5I" --force-keyframes-at-cuts --merge-output-format mp4 -o "g0b1vZ-qG5I-3m10s.mp4"
+```
+</details>
 
 > "What we do is we don't rush to building the thing. We draft a blueprint. The conversation you have with Aboard for the first 5 minutes are pretty much filling in the details that go into a blueprint. And that is very different than typical vibe coding tools, which love to go to build as quickly as possible."
 > -- Rich Ziade, [3:10](https://www.youtube.com/watch?v=g0b1vZ-qG5I&t=190s)

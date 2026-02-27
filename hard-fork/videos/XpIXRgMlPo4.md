@@ -39,35 +39,70 @@ Baszucki defends the company's track record, pointing to new AI-powered facial a
 
 ### "You Don't Think You Have a Problem with Predators?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XpIXRgMlPo4?start=14&end=28" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XpIXRgMlPo4/hqdefault.jpg)](https://www.youtube.com/watch?v=XpIXRgMlPo4&t=14s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:14-0:28" "https://www.youtube.com/watch?v=XpIXRgMlPo4" --force-keyframes-at-cuts --merge-output-format mp4 -o "XpIXRgMlPo4-0m14s.mp4"
+```
+</details>
 
 > "You don't think you have a problem with predators on the platform? I think we're doing an incredible job at innovating relative to the number of people on our platform and the hours in really leaning into the future."
 > -- Casey Newton and David Baszucki, [0:14](https://www.youtube.com/watch?v=XpIXRgMlPo4&t=14s)
 
 ### "The Scale We're At Is Absolutely Mindboggling"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XpIXRgMlPo4?start=730&end=790" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XpIXRgMlPo4/hqdefault.jpg)](https://www.youtube.com/watch?v=XpIXRgMlPo4&t=730s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:10-13:10" "https://www.youtube.com/watch?v=XpIXRgMlPo4" --force-keyframes-at-cuts --merge-output-format mp4 -o "XpIXRgMlPo4-12m10s.mp4"
+```
+</details>
 
 > "The scale we're at is absolutely mindboggling right now. 150 million people every day. We have experiences on our platform which have 25 million people playing at the same time. Traditionally in the gaming market, the record prior to that was 11 or 12 for all of Fortnite."
 > -- David Baszucki, [12:10](https://www.youtube.com/watch?v=XpIXRgMlPo4&t=730s)
 
 ### "Is This a Stealth Interview Where You Love Everything We're Doing?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XpIXRgMlPo4?start=1450&end=1510" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XpIXRgMlPo4/hqdefault.jpg)](https://www.youtube.com/watch?v=XpIXRgMlPo4&t=1450s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*24:10-25:10" "https://www.youtube.com/watch?v=XpIXRgMlPo4" --force-keyframes-at-cuts --merge-output-format mp4 -o "XpIXRgMlPo4-24m10s.mp4"
+```
+</details>
 
 > "Is this a stealth interview where actually you love everything we're doing and you're here to stealthily support it? We were told you wanted to come in and talk about your new age gating technology."
 > -- David Baszucki deflecting tough questions, [24:10](https://www.youtube.com/watch?v=XpIXRgMlPo4&t=1450s)
 
 ### "47.3 Million People Concurrently Playing"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XpIXRgMlPo4?start=217&end=262" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XpIXRgMlPo4/hqdefault.jpg)](https://www.youtube.com/watch?v=XpIXRgMlPo4&t=217s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:37-4:22" "https://www.youtube.com/watch?v=XpIXRgMlPo4" --force-keyframes-at-cuts --merge-output-format mp4 -o "XpIXRgMlPo4-3m37s.mp4"
+```
+</details>
 
 > "There was one day when 47.3 million people were concurrently playing games on the platform. And that's just like a huge number of young people. This is becoming kind of a de facto gathering place for young people especially in this country."
 > -- Casey Newton and Kevin Roose, [3:37](https://www.youtube.com/watch?v=XpIXRgMlPo4&t=217s)
 
 ### "Will You Fix the Problems by the Time My Kid Is Old Enough?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XpIXRgMlPo4?start=2150&end=2220" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XpIXRgMlPo4/hqdefault.jpg)](https://www.youtube.com/watch?v=XpIXRgMlPo4&t=2150s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*35:50-37:00" "https://www.youtube.com/watch?v=XpIXRgMlPo4" --force-keyframes-at-cuts --merge-output-format mp4 -o "XpIXRgMlPo4-35m50s.mp4"
+```
+</details>
 
 > "My kid right now is about 3 and a half years old. Will you fix the problems with safety on your platform by the time that my kid is old enough to ask me that question? I'm gonna go more out of the box in that Roblox is an amazing platform right now for your kid."
 > -- Kevin Roose and David Baszucki, [35:50](https://www.youtube.com/watch?v=XpIXRgMlPo4&t=2150s)

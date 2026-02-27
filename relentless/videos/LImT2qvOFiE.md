@@ -44,49 +44,98 @@ Starpath has developed the lowest-cost, fastest-driving, highest-performance Moo
 
 ### "A Mars city will spend 90 to 95% of its power producing rocket propellant"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LImT2qvOFiE?start=123&end=185" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LImT2qvOFiE/hqdefault.jpg)](https://www.youtube.com/watch?v=LImT2qvOFiE&t=123s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:03-3:05" "https://www.youtube.com/watch?v=LImT2qvOFiE" --force-keyframes-at-cuts --merge-output-format mp4 -o "LImT2qvOFiE-2m03s.mp4"
+```
+</details>
 
 > "A Mars city will spend 90 to 95% of its power producing rocket propellant. So the rocket propellant production plant on Mars can really be thought of as the second most important piece of infrastructure you need to build a city on Mars and the core engine that makes the city on Mars run."
 > — Saurav Shroff, [2:03](https://www.youtube.com/watch?v=LImT2qvOFiE&t=123s)
 
 ### "An over 100x cost reduction on rovers"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LImT2qvOFiE?start=464&end=525" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LImT2qvOFiE/hqdefault.jpg)](https://www.youtube.com/watch?v=LImT2qvOFiE&t=464s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:44-8:45" "https://www.youtube.com/watch?v=LImT2qvOFiE" --force-keyframes-at-cuts --merge-output-format mp4 -o "LImT2qvOFiE-7m44s.mp4"
+```
+</details>
 
 > "At Star Path, we're building rovers for the low hundreds of thousands of dollars. So, we're talking about an over 100x cost reduction."
 > — Saurav Shroff, [7:44](https://www.youtube.com/watch?v=LImT2qvOFiE&t=464s)
 
 ### "Solar panel quotes were 10 to 20 times our entire system budget"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LImT2qvOFiE?start=557&end=620" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LImT2qvOFiE/hqdefault.jpg)](https://www.youtube.com/watch?v=LImT2qvOFiE&t=557s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:17-10:20" "https://www.youtube.com/watch?v=LImT2qvOFiE" --force-keyframes-at-cuts --merge-output-format mp4 -o "LImT2qvOFiE-9m17s.mp4"
+```
+</details>
 
 > "The quotes we got from vendors for just the solar panels were 10 to 20 times more than what we want to spend on the entire system. So we wanted to spend $10 to $20 per watt. And we were getting quotes between $100 and $400 per watt for just the solar panels."
 > — Saurav Shroff, [9:17](https://www.youtube.com/watch?v=LImT2qvOFiE&t=557s)
 
 ### "Mars is fundamentally more interesting because it has organics"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LImT2qvOFiE?start=744&end=806" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LImT2qvOFiE/hqdefault.jpg)](https://www.youtube.com/watch?v=LImT2qvOFiE&t=744s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:24-13:26" "https://www.youtube.com/watch?v=LImT2qvOFiE" --force-keyframes-at-cuts --merge-output-format mp4 -o "LImT2qvOFiE-12m24s.mp4"
+```
+</details>
 
 > "Mars is a fundamentally more interesting planet because it has organics. So it has carbon, hydrogen, nitrogen, oxygen and with organic compounds you can make a completely self-sustaining city on Mars. There's nothing that humans consume that you could point to on Mars and say like okay that's not possible to make."
 > — Saurav Shroff, [12:24](https://www.youtube.com/watch?v=LImT2qvOFiE&t=744s)
 
 ### "Rover one took 3 weeks to build for $10,000 or less"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LImT2qvOFiE?start=1646&end=1710" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LImT2qvOFiE/hqdefault.jpg)](https://www.youtube.com/watch?v=LImT2qvOFiE&t=1646s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*27:26-28:30" "https://www.youtube.com/watch?v=LImT2qvOFiE" --force-keyframes-at-cuts --merge-output-format mp4 -o "LImT2qvOFiE-27m26s.mp4"
+```
+</details>
 
 > "We went to Home Depot, we bought some parts, and we're like, okay, let's make something with wheels that moves. Rover One took us only 3 weeks to build. We spent 3 weeks and probably $10,000 or less. Rover One pretty much didn't work."
 > — Saurav Shroff, [27:26](https://www.youtube.com/watch?v=LImT2qvOFiE&t=1646s)
 
 ### "A million tons to Mars equals a self-sustaining city"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LImT2qvOFiE?start=2977&end=3040" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LImT2qvOFiE/hqdefault.jpg)](https://www.youtube.com/watch?v=LImT2qvOFiE&t=2977s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*49:37-50:40" "https://www.youtube.com/watch?v=LImT2qvOFiE" --force-keyframes-at-cuts --merge-output-format mp4 -o "LImT2qvOFiE-49m37s.mp4"
+```
+</details>
 
 > "A million tons to the surface of Mars is what it takes to make life multiplanetary roughly speaking if you want it to be permanent. Each Starship can carry 100 tons to the surface of Mars per flight. So you need a fleet of a thousand that makes 10 trips."
 > — Saurav Shroff, [49:37](https://www.youtube.com/watch?v=LImT2qvOFiE&t=2977s)
 
 ### "The idiot index in aerospace is at least 100 to 1"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LImT2qvOFiE?start=4758&end=4820" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LImT2qvOFiE/hqdefault.jpg)](https://www.youtube.com/watch?v=LImT2qvOFiE&t=4758s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*79:18-80:20" "https://www.youtube.com/watch?v=LImT2qvOFiE" --force-keyframes-at-cuts --merge-output-format mp4 -o "LImT2qvOFiE-79m18s.mp4"
+```
+</details>
 
 > "The idiot index is the ratio of the cost of the finished goods to the cost of the raw inputs. In aerospace, the idiot index can be like hundreds or sometimes thousands to one where you buy a product that might be $10,000 but if you had the design, you could fabricate it for 50."
 > — Saurav Shroff, [79:18](https://www.youtube.com/watch?v=LImT2qvOFiE&t=4758s)

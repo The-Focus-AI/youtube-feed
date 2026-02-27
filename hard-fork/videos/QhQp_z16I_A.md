@@ -36,35 +36,70 @@ The episode closes with both hosts expressing deep concern that the only thing s
 
 ### "Two Carveouts That Don't Sound Like Huge Asks"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QhQp_z16I_A?start=196&end=240" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/QhQp_z16I_A/hqdefault.jpg)](https://www.youtube.com/watch?v=QhQp_z16I_A&t=196s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:16-4:00" "https://www.youtube.com/watch?v=QhQp_z16I_A" --force-keyframes-at-cuts --merge-output-format mp4 -o "QhQp_z16I_A-3m16s.mp4"
+```
+</details>
 
 > "Three of the companies signed it. OpenAI and xAI and Google all signed this contract. Anthropic did not. And they asked for two changes, basically two carveouts to this policy. They said, 'We don't want Claude to be used for mass domestic surveillance and we don't want Claude to be used for autonomous kinetic operations.' ...And I have to say, those don't sound like huge asks."
 > -- Kevin Roose & Casey Newton, [3:16](https://www.youtube.com/watch?v=QhQp_z16I_A&t=196s)
 
 ### "This Is Typically Reserved for Foreign Adversaries"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QhQp_z16I_A?start=260&end=310" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/QhQp_z16I_A/hqdefault.jpg)](https://www.youtube.com/watch?v=QhQp_z16I_A&t=260s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:20-5:10" "https://www.youtube.com/watch?v=QhQp_z16I_A" --force-keyframes-at-cuts --merge-output-format mp4 -o "QhQp_z16I_A-4m20s.mp4"
+```
+</details>
 
 > "Now that is a very strong move. It is often applied to foreign adversaries. So Huawei, the Chinese tech company, was designated a supply chain risk. Kaspersky Lab, the Russian antivirus malware company, has also been designated a supply chain risk. This is something that is typically reserved for companies that run in adversarial countries."
 > -- Kevin Roose, [4:20](https://www.youtube.com/watch?v=QhQp_z16I_A&t=260s)
 
 ### "Claude Was Involved in Capturing the President of Venezuela"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QhQp_z16I_A?start=115&end=150" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/QhQp_z16I_A/hqdefault.jpg)](https://www.youtube.com/watch?v=QhQp_z16I_A&t=115s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:55-2:30" "https://www.youtube.com/watch?v=QhQp_z16I_A" --force-keyframes-at-cuts --merge-output-format mp4 -o "QhQp_z16I_A-1m55s.mp4"
+```
+</details>
 
 > "There's also a classified system that is run through Palantir and Amazon Bedrock... that lets the US military use Claude in specific classified situations for things like helping them capture the president of Venezuela. That was reportedly a use that Claude was involved in last month."
 > -- Kevin Roose, [1:55](https://www.youtube.com/watch?v=QhQp_z16I_A&t=115s)
 
 ### "Surveillance and Murder Bots Are Coming to AI, But Not to Claude"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QhQp_z16I_A?start=744&end=810" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/QhQp_z16I_A/hqdefault.jpg)](https://www.youtube.com/watch?v=QhQp_z16I_A&t=744s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:24-13:30" "https://www.youtube.com/watch?v=QhQp_z16I_A" --force-keyframes-at-cuts --merge-output-format mp4 -o "QhQp_z16I_A-12m24s.mp4"
+```
+</details>
 
 > "They're saying surveillance and murder bots are coming to AI but not to Claude. If I'm on their marketing team, those might be fights I actually wanted to pick because they're putting my competitors in a pretty bad light, aren't they?"
 > -- Casey Newton, [12:24](https://www.youtube.com/watch?v=QhQp_z16I_A&t=744s)
 
 ### "No One Else Is Waging This Battle"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QhQp_z16I_A?start=910&end=970" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/QhQp_z16I_A/hqdefault.jpg)](https://www.youtube.com/watch?v=QhQp_z16I_A&t=910s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:10-16:10" "https://www.youtube.com/watch?v=QhQp_z16I_A" --force-keyframes-at-cuts --merge-output-format mp4 -o "QhQp_z16I_A-15m10s.mp4"
+```
+</details>
 
 > "I'm less struck by the fact that Anthropic is waging this battle and more struck by the fact that no one else is. The fact that it seems like Google, OpenAI, and xAI are all prepared to sign up for what could be mass surveillance and autonomous killing weapons -- I actually find quite chilling."
 > -- Casey Newton, [15:10](https://www.youtube.com/watch?v=QhQp_z16I_A&t=910s)

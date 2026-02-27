@@ -41,42 +41,84 @@ The final segment covers Zohran Mamdani's victory in the New York City mayoral r
 
 ### "Sam Altman Gets Feisty on BG2"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6uYEPfiBMAE?start=75&end=130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/6uYEPfiBMAE/hqdefault.jpg)](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=75s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:15-2:10" "https://www.youtube.com/watch?v=6uYEPfiBMAE" --force-keyframes-at-cuts --merge-output-format mp4 -o "6uYEPfiBMAE-1m15s.mp4"
+```
+</details>
 
 > "First of all, we're doing well more revenue than that. Second of all, Brad, if you want to sell your shares, I'll find you a buyer."
 > — Sam Altman, [1:27](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=87s)
 
 ### "No Federal Bailout for AI Companies"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6uYEPfiBMAE?start=626&end=705" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/6uYEPfiBMAE/hqdefault.jpg)](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=626s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:26-11:45" "https://www.youtube.com/watch?v=6uYEPfiBMAE" --force-keyframes-at-cuts --merge-output-format mp4 -o "6uYEPfiBMAE-10m26s.mp4"
+```
+</details>
 
 > "There's not going to be a federal bailout for AI. Not going to happen. We have five major frontier model companies right now, and there are new companies being formed all the time. And if one of them fails, hey, it's going to go out of business and the other ones are going to replace it."
 > — David Sacks, [11:00](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=660s)
 
 ### "Jensen Huang: China Will Win the AI Race"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6uYEPfiBMAE?start=1096&end=1160" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/6uYEPfiBMAE/hqdefault.jpg)](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=1096s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:16-19:20" "https://www.youtube.com/watch?v=6uYEPfiBMAE" --force-keyframes-at-cuts --merge-output-format mp4 -o "6uYEPfiBMAE-18m16s.mp4"
+```
+</details>
 
 > "China is going to win the AI race."
 > — Jensen Huang (quoted), [18:25](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=1105s)
 
 ### "Peter Thiel's 2020 Warning on Socialism"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6uYEPfiBMAE?start=4095&end=4160" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/6uYEPfiBMAE/hqdefault.jpg)](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=4095s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*68:15-69:20" "https://www.youtube.com/watch?v=6uYEPfiBMAE" --force-keyframes-at-cuts --merge-output-format mp4 -o "6uYEPfiBMAE-68m15s.mp4"
+```
+</details>
 
 > "If one has no stake in the capitalist system, then one may well turn against it."
 > — Peter Thiel (from 2020 memo), [1:08:46](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=4126s)
 
 ### "Chamath Becomes Sympathetic to Student Loan Forgiveness"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6uYEPfiBMAE?start=4239&end=4300" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/6uYEPfiBMAE/hqdefault.jpg)](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=4239s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*70:39-71:40" "https://www.youtube.com/watch?v=6uYEPfiBMAE" --force-keyframes-at-cuts --merge-output-format mp4 -o "6uYEPfiBMAE-70m39s.mp4"
+```
+</details>
 
 > "This was the first moment in years where I have now become sympathetic to this idea of student loan forgiveness. I was never sympathetic to this idea. I am sympathetic to it now."
 > — Chamath Palihapitiya, [1:10:49](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=4249s)
 
 ### "Millennials as Socialists Might Be Unemployable"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6uYEPfiBMAE?start=4331&end=4390" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/6uYEPfiBMAE/hqdefault.jpg)](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=4331s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*72:11-73:10" "https://www.youtube.com/watch?v=6uYEPfiBMAE" --force-keyframes-at-cuts --merge-output-format mp4 -o "6uYEPfiBMAE-72m11s.mp4"
+```
+</details>
 
 > "Maybe the fact that all these millennials are socialists might have something to do with the fact they're unemployable. Who the hell wants to hire young Lenin 2.0 communist revolutionary to be in their company if they don't believe in capitalism?"
 > — David Sacks, [1:12:11](https://www.youtube.com/watch?v=6uYEPfiBMAE&t=4331s)

@@ -31,35 +31,70 @@ The episode features an extended and entertaining roleplay where Paul and Rich a
 
 ### "The Shorter the Deck, the Bigger the Bill"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cxBkQ2Jwh4A?start=570&end=630" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/cxBkQ2Jwh4A/hqdefault.jpg)](https://www.youtube.com/watch?v=cxBkQ2Jwh4A&t=570s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:30-10:30" "https://www.youtube.com/watch?v=cxBkQ2Jwh4A" --force-keyframes-at-cuts --merge-output-format mp4 -o "cxBkQ2Jwh4A-9m30s.mp4"
+```
+</details>
 
 > "There's a saying in consulting: the shorter the deck, the bigger the bill. Say your piece, explain rationale, tell them what they should go do and then let someone else go do it."
 > -- Rich Zottoli, [9:30](https://www.youtube.com/watch?v=cxBkQ2Jwh4A&t=570s)
 
 ### "It's Someone Who Takes Your Watch to Tell You the Time"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cxBkQ2Jwh4A?start=108&end=160" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/cxBkQ2Jwh4A/hqdefault.jpg)](https://www.youtube.com/watch?v=cxBkQ2Jwh4A&t=108s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:48-2:40" "https://www.youtube.com/watch?v=cxBkQ2Jwh4A" --force-keyframes-at-cuts --merge-output-format mp4 -o "cxBkQ2Jwh4A-1m48s.mp4"
+```
+</details>
 
 > "The classic line is it's someone who takes your watch to tell you the time."
 > -- Paul Ford, [1:48](https://www.youtube.com/watch?v=cxBkQ2Jwh4A&t=108s)
 
 ### "The Management Consultant Becomes Translucent and Disappears"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cxBkQ2Jwh4A?start=750&end=820" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/cxBkQ2Jwh4A/hqdefault.jpg)](https://www.youtube.com/watch?v=cxBkQ2Jwh4A&t=750s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:30-13:40" "https://www.youtube.com/watch?v=cxBkQ2Jwh4A" --force-keyframes-at-cuts --merge-output-format mp4 -o "cxBkQ2Jwh4A-12m30s.mp4"
+```
+</details>
 
 > "The moment they say, 'Can you do it?' that management consultant somehow becomes translucent and disappears. Pops the smoke. And then 28-year-olds show up. Lots of them. Lots and lots of them. Backed by enormous outsourced teams."
 > -- Rich Zottoli, [12:30](https://www.youtube.com/watch?v=cxBkQ2Jwh4A&t=750s)
 
 ### "AI Is Really Good at Bureaucracy"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cxBkQ2Jwh4A?start=870&end=930" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/cxBkQ2Jwh4A/hqdefault.jpg)](https://www.youtube.com/watch?v=cxBkQ2Jwh4A&t=870s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:30-15:30" "https://www.youtube.com/watch?v=cxBkQ2Jwh4A" --force-keyframes-at-cuts --merge-output-format mp4 -o "cxBkQ2Jwh4A-14m30s.mp4"
+```
+</details>
 
 > "AI is really good at bureaucracy. It's spidered the whole web and pulled in all these documents. So many things on Earth are actually about how to comply with an ISO code or how to get your mortgage structured."
 > -- Paul Ford, [14:30](https://www.youtube.com/watch?v=cxBkQ2Jwh4A&t=870s)
 
 ### "I Want to Pay 20% Less. Please."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cxBkQ2Jwh4A?start=1200&end=1270" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/cxBkQ2Jwh4A/hqdefault.jpg)](https://www.youtube.com/watch?v=cxBkQ2Jwh4A&t=1200s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:00-21:10" "https://www.youtube.com/watch?v=cxBkQ2Jwh4A" --force-keyframes-at-cuts --merge-output-format mp4 -o "cxBkQ2Jwh4A-20m00s.mp4"
+```
+</details>
 
 > "Paul, they're screaming at me. I want to pay 20% less. Please. Just give me something, man. I got the guy tomorrow morning at 9:00."
 > -- Rich Zottoli (roleplaying a client), [20:00](https://www.youtube.com/watch?v=cxBkQ2Jwh4A&t=1200s)

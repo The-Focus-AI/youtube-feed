@@ -33,42 +33,84 @@ The conversation pivots to the broader AI bubble question. Paul makes a nuanced 
 
 ### "AI does not know why it's doing anything"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eDwNbCGHcTA?start=870&end=930" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eDwNbCGHcTA/hqdefault.jpg)](https://www.youtube.com/watch?v=eDwNbCGHcTA&t=870s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:30-15:30" "https://www.youtube.com/watch?v=eDwNbCGHcTA" --force-keyframes-at-cuts --merge-output-format mp4 -o "eDwNbCGHcTA-14m30s.mp4"
+```
+</details>
 
 > "AI does not know why it's doing anything. It is not driven by purpose or goal or even a subset of goals. It is just expressing code. It does not distinguish code from a poem, from an essay. It's another set of tokens."
 > -- Rich Zotti, [14:30](https://www.youtube.com/watch?v=eDwNbCGHcTA&t=870s)
 
 ### "Language without thought"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eDwNbCGHcTA?start=960&end=1020" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eDwNbCGHcTA/hqdefault.jpg)](https://www.youtube.com/watch?v=eDwNbCGHcTA&t=960s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:00-17:00" "https://www.youtube.com/watch?v=eDwNbCGHcTA" --force-keyframes-at-cuts --merge-output-format mp4 -o "eDwNbCGHcTA-16m00s.mp4"
+```
+</details>
 
 > "There's a formulation the writer Rusty Foster came up with which is 'language without thought.' We've never had language without thought before and it's really confusing because we just expect the thought to be there."
 > -- Paul Ford, [16:00](https://www.youtube.com/watch?v=eDwNbCGHcTA&t=960s)
 
 ### "We are in a bubble"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eDwNbCGHcTA?start=1420&end=1480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eDwNbCGHcTA/hqdefault.jpg)](https://www.youtube.com/watch?v=eDwNbCGHcTA&t=1420s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*23:40-24:40" "https://www.youtube.com/watch?v=eDwNbCGHcTA" --force-keyframes-at-cuts --merge-output-format mp4 -o "eDwNbCGHcTA-23m40s.mp4"
+```
+</details>
 
 > "Are we in a bubble? Yeah, we are in a bubble. I just got an email from Bloomberg this weekend. They're like, hey, what would an AI crash look like?"
 > -- Paul Ford, [23:40](https://www.youtube.com/watch?v=eDwNbCGHcTA&t=1420s)
 
 ### "I believe we are in a financial industry focused AI bubble"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eDwNbCGHcTA?start=1490&end=1560" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eDwNbCGHcTA/hqdefault.jpg)](https://www.youtube.com/watch?v=eDwNbCGHcTA&t=1490s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*24:50-26:00" "https://www.youtube.com/watch?v=eDwNbCGHcTA" --force-keyframes-at-cuts --merge-output-format mp4 -o "eDwNbCGHcTA-24m50s.mp4"
+```
+</details>
 
 > "I believe we are in a financial industry focused AI bubble. I do not believe that AI as a technology is severely overvalued. I think that everything is misallocated."
 > -- Paul Ford, [24:50](https://www.youtube.com/watch?v=eDwNbCGHcTA&t=1490s)
 
 ### "Give me 20,000 startups, not five"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eDwNbCGHcTA?start=1730&end=1790" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eDwNbCGHcTA/hqdefault.jpg)](https://www.youtube.com/watch?v=eDwNbCGHcTA&t=1730s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*28:50-29:50" "https://www.youtube.com/watch?v=eDwNbCGHcTA" --force-keyframes-at-cuts --merge-output-format mp4 -o "eDwNbCGHcTA-28m50s.mp4"
+```
+</details>
 
 > "Give me 20,000 startups, not five. Get me there and then you'll find that we'll be back here after the crash, but it'll be sustainable."
 > -- Paul Ford, [28:50](https://www.youtube.com/watch?v=eDwNbCGHcTA&t=1730s)
 
 ### "Most software projects never complete"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eDwNbCGHcTA?start=740&end=790" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eDwNbCGHcTA/hqdefault.jpg)](https://www.youtube.com/watch?v=eDwNbCGHcTA&t=740s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:20-13:10" "https://www.youtube.com/watch?v=eDwNbCGHcTA" --force-keyframes-at-cuts --merge-output-format mp4 -o "eDwNbCGHcTA-12m20s.mp4"
+```
+</details>
 
 > "Most software projects never complete. And so like whatever the LLM learned, I doubt it learned how to finish code because there are no precedents."
 > -- Paul Ford, [12:20](https://www.youtube.com/watch?v=eDwNbCGHcTA&t=740s)

@@ -35,35 +35,70 @@ The episode also touches on broader consumer sentiment, revealing that Americans
 
 ### "AI awareness is higher than Doritos"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/317XJdJ-src?start=1070&end=1120" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/317XJdJ-src/hqdefault.jpg)](https://www.youtube.com/watch?v=317XJdJ-src&t=1070s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*17:50-18:40" "https://www.youtube.com/watch?v=317XJdJ-src" --force-keyframes-at-cuts --merge-output-format mp4 -o "317XJdJ-src-17m50s.mp4"
+```
+</details>
 
 > "More than 90% of people have heard of AI, which is higher than the people who are aware of Doritos, of TikTok, of Viagra, of Ozempic."
 > -- Dan Frommer, [17:50](https://www.youtube.com/watch?v=317XJdJ-src&t=1070s)
 
 ### "Two-thirds of young people used ChatGPT last month"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/317XJdJ-src?start=1140&end=1190" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/317XJdJ-src/hqdefault.jpg)](https://www.youtube.com/watch?v=317XJdJ-src&t=1140s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*19:00-19:50" "https://www.youtube.com/watch?v=317XJdJ-src" --force-keyframes-at-cuts --merge-output-format mp4 -o "317XJdJ-src-19m00s.mp4"
+```
+</details>
 
 > "Almost two-thirds of Gen Z and millennials use ChatGPT in the last month. 62% of Gen Z millennials say they used AI in the past month."
 > -- Dan Frommer, [19:00](https://www.youtube.com/watch?v=317XJdJ-src&t=1140s)
 
 ### "Gen Z is more skeptical than millennials about AI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/317XJdJ-src?start=1490&end=1550" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/317XJdJ-src/hqdefault.jpg)](https://www.youtube.com/watch?v=317XJdJ-src&t=1490s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*24:50-25:50" "https://www.youtube.com/watch?v=317XJdJ-src" --force-keyframes-at-cuts --merge-output-format mp4 -o "317XJdJ-src-24m50s.mp4"
+```
+</details>
 
 > "40% of millennials say very positively about AI's impact on their career. Gen Z lower -- only 27% say very positively. Gen Z seems to be a lot more cynical and less trusting than millennials."
 > -- Dan Frommer, [24:50](https://www.youtube.com/watch?v=317XJdJ-src&t=1490s)
 
 ### "Venmo in the Northeast, Cash App in the South"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/317XJdJ-src?start=1700&end=1750" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/317XJdJ-src/hqdefault.jpg)](https://www.youtube.com/watch?v=317XJdJ-src&t=1700s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*28:20-29:10" "https://www.youtube.com/watch?v=317XJdJ-src" --force-keyframes-at-cuts --merge-output-format mp4 -o "317XJdJ-src-28m20s.mp4"
+```
+</details>
 
 > "We see actual real differences in what online payments tools they use. There's kind of a Venmo in the northeast, Cash App in the south vibe happening. That's a real thing."
 > -- Dan Frommer, [28:20](https://www.youtube.com/watch?v=317XJdJ-src&t=1700s)
 
 ### "Consumers are complaining but spending"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/317XJdJ-src?start=2100&end=2150" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/317XJdJ-src/hqdefault.jpg)](https://www.youtube.com/watch?v=317XJdJ-src&t=2100s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*35:00-35:50" "https://www.youtube.com/watch?v=317XJdJ-src" --force-keyframes-at-cuts --merge-output-format mp4 -o "317XJdJ-src-35m00s.mp4"
+```
+</details>
 
 > "The American consumer says they're worse now than during the Great Financial Crisis, than after 9/11. But the holiday shopping numbers exceeded expectations. A lot of things people say they're just saying and they're not doing."
 > -- Dan Frommer, [35:00](https://www.youtube.com/watch?v=317XJdJ-src&t=2100s)

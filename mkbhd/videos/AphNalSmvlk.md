@@ -34,28 +34,56 @@ MKBHD reviews iPadOS 26 after three weeks of testing, evaluating whether the iPa
 
 ### "Apple Finally Did The Thing"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AphNalSmvlk?start=2&end=55" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/AphNalSmvlk/hqdefault.jpg)](https://www.youtube.com/watch?v=AphNalSmvlk&t=2s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:02-0:55" "https://www.youtube.com/watch?v=AphNalSmvlk" --force-keyframes-at-cuts --merge-output-format mp4 -o "AphNalSmvlk-0m02s.mp4"
+```
+</details>
 
 > "When iPadOS 26 got announced, it looked like a game changer. It felt like everybody on the internet who was waiting for years just watched Apple finally do the thing. They just made the iPad a computer."
 > — Marques Brownlee, [0:02](https://www.youtube.com/watch?v=AphNalSmvlk&t=2s)
 
 ### "Can I? vs Do I Want To?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AphNalSmvlk?start=411&end=475" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/AphNalSmvlk/hqdefault.jpg)](https://www.youtube.com/watch?v=AphNalSmvlk&t=411s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:51-7:55" "https://www.youtube.com/watch?v=AphNalSmvlk" --force-keyframes-at-cuts --merge-output-format mp4 -o "AphNalSmvlk-6m51s.mp4"
+```
+</details>
 
 > "The question isn't actually, 'Can I replace my laptop with an iPad?' Because yes, I can. The question really became 'Do I want to?'"
 > — Marques Brownlee, [6:57](https://www.youtube.com/watch?v=AphNalSmvlk&t=417s)
 
 ### "What You've Created is Basically a Laptop"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AphNalSmvlk?start=558&end=620" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/AphNalSmvlk/hqdefault.jpg)](https://www.youtube.com/watch?v=AphNalSmvlk&t=558s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:18-10:20" "https://www.youtube.com/watch?v=AphNalSmvlk" --force-keyframes-at-cuts --merge-output-format mp4 -o "AphNalSmvlk-9m18s.mp4"
+```
+</details>
 
 > "But then look at what you've created, like adding a mouse and a keyboard, a display, the Folio case, like the whole thing is suddenly basically the same thickness and weight as a laptop again. So you might as well just get the laptop."
 > — Marques Brownlee, [9:32](https://www.youtube.com/watch?v=AphNalSmvlk&t=572s)
 
 ### "It's Still an iPad, Which is Pretty Sweet"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AphNalSmvlk?start=619&end=680" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/AphNalSmvlk/hqdefault.jpg)](https://www.youtube.com/watch?v=AphNalSmvlk&t=619s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:19-11:20" "https://www.youtube.com/watch?v=AphNalSmvlk" --force-keyframes-at-cuts --merge-output-format mp4 -o "AphNalSmvlk-10m19s.mp4"
+```
+</details>
 
 > "So no doubt the ceiling of what an iPad is capable of as a computer has been raised, but it's still an iPad, which is pretty sweet too."
 > — Marques Brownlee, [11:02](https://www.youtube.com/watch?v=AphNalSmvlk&t=662s)

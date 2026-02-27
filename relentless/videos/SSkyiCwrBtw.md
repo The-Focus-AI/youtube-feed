@@ -34,42 +34,84 @@ Lada explains how epigenetics allows cells with identical DNA to become entirely
 
 ### "The future is this crazy exciting party and I won't be part of it"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SSkyiCwrBtw?start=58&end=125" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SSkyiCwrBtw/hqdefault.jpg)](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=58s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:58-2:05" "https://www.youtube.com/watch?v=SSkyiCwrBtw" --force-keyframes-at-cuts --merge-output-format mp4 -o "SSkyiCwrBtw-0m58s.mp4"
+```
+</details>
 
 > "I'm not a person who naturally feels FOMO - I can miss a thousand parties and never notice. But that was the first time I truly felt FOMO for the future because I realized the future is this crazy exciting party and I won't be part of it."
 > — Lada Nuzhna, [1:41](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=101s)
 
 ### "ioBiotech went from idea to human data in less than 4 years by going to China"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SSkyiCwrBtw?start=0&end=65" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SSkyiCwrBtw/hqdefault.jpg)](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-1:05" "https://www.youtube.com/watch?v=SSkyiCwrBtw" --force-keyframes-at-cuts --merge-output-format mp4 -o "SSkyiCwrBtw-0m00s.mp4"
+```
+</details>
 
 > "ioBiotech sold to AstraZeneca for like a billion. They went from idea to human data in less than 4 years - an insane timeline. They went to China. Now you have to ask yourself: how am I competitive with a 9-person Chinese team?"
 > — Lada Nuzhna, [0:08](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=8s)
 
 ### "There's a graveyard of companies that raised $200 million and never pushed a drug to clinic"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SSkyiCwrBtw?start=1339&end=1400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SSkyiCwrBtw/hqdefault.jpg)](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=1339s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*22:19-23:20" "https://www.youtube.com/watch?v=SSkyiCwrBtw" --force-keyframes-at-cuts --merge-output-format mp4 -o "SSkyiCwrBtw-22m19s.mp4"
+```
+</details>
 
 > "There is a graveyard of companies that raised $200 million, spent six years developing something, and never pushed a drug to clinic. China can do that with a few million dollars and a few people."
 > — Lada Nuzhna, [22:19](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=1339s)
 
 ### "60% of National Institute of Aging funding goes to Alzheimer's alone"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SSkyiCwrBtw?start=501&end=565" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SSkyiCwrBtw/hqdefault.jpg)](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=501s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:21-9:25" "https://www.youtube.com/watch?v=SSkyiCwrBtw" --force-keyframes-at-cuts --merge-output-format mp4 -o "SSkyiCwrBtw-8m21s.mp4"
+```
+</details>
 
 > "60% of National Institute of Aging funding goes to Alzheimer's alone. If you want to work on aging broadly, you effectively have to work on Alzheimer's to get funded. Government funding is completely broken for this space."
 > — Lada Nuzhna, [8:21](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=501s)
 
 ### "No kid is born 30 years old even from old parents - nature resets cellular age"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SSkyiCwrBtw?start=342&end=410" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SSkyiCwrBtw/hqdefault.jpg)](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=342s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:42-6:50" "https://www.youtube.com/watch?v=SSkyiCwrBtw" --force-keyframes-at-cuts --merge-output-format mp4 -o "SSkyiCwrBtw-5m42s.mp4"
+```
+</details>
 
 > "No kid is born being 30 years old even if conceived by parents who were 30. Everyone's born with eggs and sperm that age for decades before conception. Somehow babies are not old even though they appear from old cells. Nature knows how to reset this."
 > — Lada Nuzhna, [5:42](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=342s)
 
 ### "I live life like a video game - optimizing for the most interesting outcome"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SSkyiCwrBtw?start=3962&end=4027" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SSkyiCwrBtw/hqdefault.jpg)](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=3962s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*66:02-67:07" "https://www.youtube.com/watch?v=SSkyiCwrBtw" --force-keyframes-at-cuts --merge-output-format mp4 -o "SSkyiCwrBtw-66m02s.mp4"
+```
+</details>
 
 > "My internal experience of life feels like I'm living in a video game. I just try to optimize for the most interesting outcome at any given point. Every big risk I've taken has paid off. People don't take enough risks."
 > — Lada Nuzhna, [1:06:02](https://www.youtube.com/watch?v=SSkyiCwrBtw&t=3962s)

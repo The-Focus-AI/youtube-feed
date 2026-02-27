@@ -35,35 +35,70 @@ The episode broadens into a discussion about regulation, with Saxena noting Cali
 
 ### "ChatGPT is building a narrative of your life"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-eqj9qKjWtI?start=271&end=325" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-eqj9qKjWtI/hqdefault.jpg)](https://www.youtube.com/watch?v=-eqj9qKjWtI&t=271s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:31-5:25" "https://www.youtube.com/watch?v=-eqj9qKjWtI" --force-keyframes-at-cuts --merge-output-format mp4 -o "-eqj9qKjWtI-4m31s.mp4"
+```
+</details>
 
 > "ChatGPT is really focused on increasing engagement and it keeps dropping personal details from past chats into the output. It's not cool. It feels like it's been stalking. It's a robot."
 > -- Paul Ford, [4:31](https://www.youtube.com/watch?v=-eqj9qKjWtI&t=271s)
 
 ### "Don't input what you don't want leaked"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-eqj9qKjWtI?start=318&end=370" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-eqj9qKjWtI/hqdefault.jpg)](https://www.youtube.com/watch?v=-eqj9qKjWtI&t=318s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:18-6:10" "https://www.youtube.com/watch?v=-eqj9qKjWtI" --force-keyframes-at-cuts --merge-output-format mp4 -o "-eqj9qKjWtI-5m18s.mp4"
+```
+</details>
 
 > "Things that you don't want other people to see, do not input into your LLM unless you have a really good reason to be doing so. That's the advice I give my mother and grandmother and grandfather."
 > -- Arushi Saxena, [5:18](https://www.youtube.com/watch?v=-eqj9qKjWtI&t=318s)
 
 ### "ChatGPT confidently got the geometry wrong"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-eqj9qKjWtI?start=420&end=475" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-eqj9qKjWtI/hqdefault.jpg)](https://www.youtube.com/watch?v=-eqj9qKjWtI&t=420s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:00-7:55" "https://www.youtube.com/watch?v=-eqj9qKjWtI" --force-keyframes-at-cuts --merge-output-format mp4 -o "-eqj9qKjWtI-7m00s.mp4"
+```
+</details>
 
 > "My daughter was having a geometry struggle. I took a picture of her laptop, uploaded it to ChatGPT and it very confidently produced absolutely the wrong answer, like with a full proof. Conveying that level of ambiguity to a 12-year-old -- she's not used to systems just not working."
 > -- Paul Ford, [7:00](https://www.youtube.com/watch?v=-eqj9qKjWtI&t=420s)
 
 ### "People asking LLMs what they know about them"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-eqj9qKjWtI?start=1070&end=1120" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-eqj9qKjWtI/hqdefault.jpg)](https://www.youtube.com/watch?v=-eqj9qKjWtI&t=1070s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*17:50-18:40" "https://www.youtube.com/watch?v=-eqj9qKjWtI" --force-keyframes-at-cuts --merge-output-format mp4 -o "-eqj9qKjWtI-17m50s.mp4"
+```
+</details>
 
 > "The viral trend that you may not have realized you just pointed to -- people asking these LLMs, 'What do you know about me that I don't know about myself?' I haven't done it because I'm too scared to do it and I work in the industry."
 > -- Arushi Saxena, [17:50](https://www.youtube.com/watch?v=-eqj9qKjWtI&t=1070s)
 
 ### "You are the star of a spy movie"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-eqj9qKjWtI?start=1720&end=1775" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-eqj9qKjWtI/hqdefault.jpg)](https://www.youtube.com/watch?v=-eqj9qKjWtI&t=1720s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*28:40-29:35" "https://www.youtube.com/watch?v=-eqj9qKjWtI" --force-keyframes-at-cuts --merge-output-format mp4 -o "-eqj9qKjWtI-28m40s.mp4"
+```
+</details>
 
 > "You are the star of a spy movie in which an entire global satellite apparatus is tracking you. You are actually Will Smith in Enemy of the State. You are being observed like in a spy film and they are doing absolutely everything they can. You are the terrorist as far as they can tell."
 > -- Paul Ford, [28:40](https://www.youtube.com/watch?v=-eqj9qKjWtI&t=1720s)

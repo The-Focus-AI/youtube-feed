@@ -42,42 +42,84 @@ The hosts then perform their own standup sets, with David Sacks particularly imp
 
 ### "Why Billionaires Do a Podcast"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7_3gKoQPUfM?start=349&end=400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/7_3gKoQPUfM/hqdefault.jpg)](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=349s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:49-6:40" "https://www.youtube.com/watch?v=7_3gKoQPUfM" --force-keyframes-at-cuts --merge-output-format mp4 -o "7_3gKoQPUfM-5m49s.mp4"
+```
+</details>
 
 > "You guys realize you don't have to do a podcast, right? Whenever anyone is asked what they would do if they had a billion dollars, I've never heard the answer: attend weekly Zoom calls."
 > — Tony Hinchcliffe, [6:02](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=362s)
 
 ### "Tony's Struggle Years: $300 Rent for a Bean Bag"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7_3gKoQPUfM?start=1413&end=1470" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/7_3gKoQPUfM/hqdefault.jpg)](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=1413s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*23:33-24:30" "https://www.youtube.com/watch?v=7_3gKoQPUfM" --force-keyframes-at-cuts --merge-output-format mp4 -o "7_3gKoQPUfM-23m33s.mp4"
+```
+</details>
 
 > "I paid 300 rent for a bean bag on the ground. And let me remind you, the bathrooms were in the other guy's bedroom. So you had to tiptoe if you had to pee in the middle of the night through somebody else's bedroom."
 > — Tony Hinchcliffe, [23:40](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=1420s)
 
 ### "Elon Buying Twitter Changed Everything"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7_3gKoQPUfM?start=2038&end=2100" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/7_3gKoQPUfM/hqdefault.jpg)](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=2038s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*33:58-35:00" "https://www.youtube.com/watch?v=7_3gKoQPUfM" --force-keyframes-at-cuts --merge-output-format mp4 -o "7_3gKoQPUfM-33m58s.mp4"
+```
+</details>
 
 > "Elon bought Twitter and that was the first event that shifted the momentum."
 > — Tony Hinchcliffe, [34:21](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=2061s)
 
 ### "Sacks Destroys JCal: The Epstein Files Hoax"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7_3gKoQPUfM?start=2530&end=2580" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/7_3gKoQPUfM/hqdefault.jpg)](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=2530s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*42:10-43:00" "https://www.youtube.com/watch?v=7_3gKoQPUfM" --force-keyframes-at-cuts --merge-output-format mp4 -o "7_3gKoQPUfM-42m10s.mp4"
+```
+</details>
 
 > "I knew the Epstein files were a hoax as soon as I saw that JCal was in them. Couldn't want to blackmail a loser."
 > — David Sacks, [42:12](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=2532s)
 
 ### "Alphabet's Historic $2 Trillion Year"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7_3gKoQPUfM?start=3014&end=3070" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/7_3gKoQPUfM/hqdefault.jpg)](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=3014s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*50:14-51:10" "https://www.youtube.com/watch?v=7_3gKoQPUfM" --force-keyframes-at-cuts --merge-output-format mp4 -o "7_3gKoQPUfM-50m14s.mp4"
+```
+</details>
 
 > "Alphabet went from two trillion market cap to 4 trillion market cap this year. That's 10 billion market cap gain every day. They added 10 billion of value every day for the entire year."
 > — David Friedberg, [50:36](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=3036s)
 
 ### "Kill Tony Success: Dedric Flynn's Story"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7_3gKoQPUfM?start=3261&end=3320" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/7_3gKoQPUfM/hqdefault.jpg)](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=3261s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*54:21-55:20" "https://www.youtube.com/watch?v=7_3gKoQPUfM" --force-keyframes-at-cuts --merge-output-format mp4 -o "7_3gKoQPUfM-54m21s.mp4"
+```
+</details>
 
 > "In just four weeks, he was made a regular randomly. Pulled him out of the bucket. Saw him. The interview so likable. I skipped golden ticket and made him the first appointed regular that we maybe get one of those every two years."
 > — Tony Hinchcliffe, [54:21](https://www.youtube.com/watch?v=7_3gKoQPUfM&t=3261s)

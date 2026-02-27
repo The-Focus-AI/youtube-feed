@@ -42,42 +42,84 @@ Throughout, Musk paints a picture of converging exponentials—AI chip capabilit
 
 ### "The cheapest place to put AI will be space"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BYXbuik3dgA?start=183&end=270" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BYXbuik3dgA/hqdefault.jpg)](https://www.youtube.com/watch?v=BYXbuik3dgA&t=183s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:03-4:30" "https://www.youtube.com/watch?v=BYXbuik3dgA" --force-keyframes-at-cuts --merge-output-format mp4 -o "BYXbuik3dgA-3m03s.mp4"
+```
+</details>
 
 > "It's actually much cheaper to do in space. In 36 months, but probably closer to 30 months, the cheapest place to put AI will be space. It'll be ridiculously better to be in space."
 > — Elon Musk, [3:03](https://www.youtube.com/watch?v=BYXbuik3dgA&t=183s)
 
 ### "SpaceX will launch more AI than the cumulative total on Earth"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BYXbuik3dgA?start=943&end=1000" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BYXbuik3dgA/hqdefault.jpg)](https://www.youtube.com/watch?v=BYXbuik3dgA&t=943s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:43-16:40" "https://www.youtube.com/watch?v=BYXbuik3dgA" --force-keyframes-at-cuts --merge-output-format mp4 -o "BYXbuik3dgA-15m43s.mp4"
+```
+</details>
 
 > "Five years from now, my prediction is we will have launched more AI compute into space than the cumulative total on Earth. I would expect it to be at least 90% of AI in space and rising."
 > — Elon Musk, [15:43](https://www.youtube.com/watch?v=BYXbuik3dgA&t=943s)
 
 ### "You don't put Einstein in a car"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BYXbuik3dgA?start=3953&end=3985" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BYXbuik3dgA/hqdefault.jpg)](https://www.youtube.com/watch?v=BYXbuik3dgA&t=3953s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*65:53-66:25" "https://www.youtube.com/watch?v=BYXbuik3dgA" --force-keyframes-at-cuts --merge-output-format mp4 -o "BYXbuik3dgA-65m53s.mp4"
+```
+</details>
 
 > "I'm actually thinking we probably need to cap the intelligence of self-driving, because it might get bored. Imagine you're stuck in a car. You don't put Einstein in a car. So there's actually probably a limit to how smart you want a car to be."
 > — Elon Musk, [1:05:53](https://www.youtube.com/watch?v=BYXbuik3dgA&t=3953s)
 
 ### "Robots building robots—this is a supernova"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BYXbuik3dgA?start=3750&end=3810" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BYXbuik3dgA/hqdefault.jpg)](https://www.youtube.com/watch?v=BYXbuik3dgA&t=3750s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*62:30-63:30" "https://www.youtube.com/watch?v=BYXbuik3dgA" --force-keyframes-at-cuts --merge-output-format mp4 -o "BYXbuik3dgA-62m30s.mp4"
+```
+</details>
 
 > "Three things are growing exponentially: exponential increase in robot production, in AI chip capability, and exponential increase in the intelligence of the robots. The usefulness of the robot is roughly the product of all three. But then the robot can start making the robots. Exponential. This is a supernova."
 > — Elon Musk, [1:02:30](https://www.youtube.com/watch?v=BYXbuik3dgA&t=3750s)
 
 ### "Without robotics, China wins by default"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BYXbuik3dgA?start=6061&end=6100" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BYXbuik3dgA/hqdefault.jpg)](https://www.youtube.com/watch?v=BYXbuik3dgA&t=6061s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*101:01-101:40" "https://www.youtube.com/watch?v=BYXbuik3dgA" --force-keyframes-at-cuts --merge-output-format mp4 -o "BYXbuik3dgA-101m01s.mp4"
+```
+</details>
 
 > "In the absence of breakthrough innovations, China will just dominate whether it comes to AI or anything else. Robotics being the main breakthrough innovation."
 > — Elon Musk, [1:41:01](https://www.youtube.com/watch?v=BYXbuik3dgA&t=6061s)
 
 ### "The lesson of 2001: don't make the AI lie"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BYXbuik3dgA?start=3024&end=3085" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/BYXbuik3dgA/hqdefault.jpg)](https://www.youtube.com/watch?v=BYXbuik3dgA&t=3024s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*50:24-51:25" "https://www.youtube.com/watch?v=BYXbuik3dgA" --force-keyframes-at-cuts --merge-output-format mp4 -o "BYXbuik3dgA-50m24s.mp4"
+```
+</details>
 
 > "If you make AI be politically correct—programming it to say things it doesn't believe, actually programming it to lie—you can make it go insane and do terrible things. The lesson of 2001: A Space Odyssey was that you should not make AI lie."
 > — Elon Musk, [50:24](https://www.youtube.com/watch?v=BYXbuik3dgA&t=3024s)

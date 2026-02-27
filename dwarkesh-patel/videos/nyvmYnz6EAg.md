@@ -32,35 +32,70 @@ The video is adapted from a blog post Dwarkesh wrote after disagreeing with bull
 
 ### "The saxophone analogy for why LLMs can't learn"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nyvmYnz6EAg?start=137&end=190" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/nyvmYnz6EAg/hqdefault.jpg)](https://www.youtube.com/watch?v=nyvmYnz6EAg&t=137s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:17-3:10" "https://www.youtube.com/watch?v=nyvmYnz6EAg" --force-keyframes-at-cuts --merge-output-format mp4 -o "nyvmYnz6EAg-2m17s.mp4"
+```
+</details>
 
 > "How would you teach a kid to play the saxophone? They'd see how it sounds, and they'd adjust. Now imagine trying to teach saxophone instead: A student reads your notes and when they fail, you refine your instructions. It wouldn't work. No matter how well honed your instructions, nobody can learn to play saxophone from reading your instructions."
 > -- Dwarkesh Patel, [2:17](https://www.youtube.com/watch?v=nyvmYnz6EAg&t=137s)
 
 ### "Even Claude Code reverses hard-earned lessons"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nyvmYnz6EAg?start=312&end=370" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/nyvmYnz6EAg/hqdefault.jpg)](https://www.youtube.com/watch?v=nyvmYnz6EAg&t=312s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:12-6:10" "https://www.youtube.com/watch?v=nyvmYnz6EAg" --force-keyframes-at-cuts --merge-output-format mp4 -o "nyvmYnz6EAg-5m12s.mp4"
+```
+</details>
 
 > "Even Claude Code will often reverse a hard-earned lesson after you hit /compact -- because the explanation for why something was done gets compressed away. I just think that titrating all this rich feedback into a compact format will be brittle in domains outside of software."
 > -- Dwarkesh Patel, [5:12](https://www.youtube.com/watch?v=nyvmYnz6EAg&t=312s)
 
 ### "Have you read the reasoning traces from o3?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nyvmYnz6EAg?start=690&end=770" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/nyvmYnz6EAg/hqdefault.jpg)](https://www.youtube.com/watch?v=nyvmYnz6EAg&t=690s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:30-12:50" "https://www.youtube.com/watch?v=nyvmYnz6EAg" --force-keyframes-at-cuts --merge-output-format mp4 -o "nyvmYnz6EAg-11m30s.mp4"
+```
+</details>
 
 > "Have you read the reasoning traces from o3? It's breaking down a problem, thinking through what the user wants, and correcting itself when it notices something is off. How are we just like, 'Oh yeah of course a machine can do that'? At this point, part of you has to step back and say: We're making machines that are intelligent."
 > -- Dwarkesh Patel, [11:30](https://www.youtube.com/watch?v=nyvmYnz6EAg&t=690s)
 
 ### "AI timelines are lognormal"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nyvmYnz6EAg?start=904&end=970" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/nyvmYnz6EAg/hqdefault.jpg)](https://www.youtube.com/watch?v=nyvmYnz6EAg&t=904s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:04-16:10" "https://www.youtube.com/watch?v=nyvmYnz6EAg" --force-keyframes-at-cuts --merge-output-format mp4 -o "nyvmYnz6EAg-15m04s.mp4"
+```
+</details>
 
 > "I am forecasting a pretty wild world within the next decade. The timelines are very lognormal. It's either this decade or it could be the 2030s or even the 2040s. AI progress has been driven by scaling training compute. It's been over 4x a year. After 2030, AI progress has to mostly come from algorithmic improvements."
 > -- Dwarkesh Patel, [15:04](https://www.youtube.com/watch?v=nyvmYnz6EAg&t=904s)
 
 ### "I'd take a 50/50 bet on doing my taxes by 2028"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nyvmYnz6EAg?start=779&end=840" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/nyvmYnz6EAg/hqdefault.jpg)](https://www.youtube.com/watch?v=nyvmYnz6EAg&t=779s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:59-14:00" "https://www.youtube.com/watch?v=nyvmYnz6EAg" --force-keyframes-at-cuts --merge-output-format mp4 -o "nyvmYnz6EAg-12m59s.mp4"
+```
+</details>
 
 > "I'd take a 50/50 bet that AI can do my taxes end-to-end for my small business, including chasing down all the receipts, emailing back and forth with anyone who we need invoices from, and sending it to the IRS. This I'd say 2028."
 > -- Dwarkesh Patel, [12:59](https://www.youtube.com/watch?v=nyvmYnz6EAg&t=779s)

@@ -43,42 +43,84 @@ Notably, Apple receives both praise and criticism this year - the iPhone 17 wins
 
 ### "The Smartphone is Still OP"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sfyL4BswUeE?start=6&end=70" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/sfyL4BswUeE/hqdefault.jpg)](https://www.youtube.com/watch?v=sfyL4BswUeE&t=6s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:06-1:10" "https://www.youtube.com/watch?v=sfyL4BswUeE" --force-keyframes-at-cuts --merge-output-format mp4 -o "sfyL4BswUeE-0m06s.mp4"
+```
+</details>
 
 > "Somehow in a world of AI devices and smart glasses and XR headsets, the smartphone is still OP. Like, this is still the center of our personal computing lives."
 > — Marques Brownlee, [0:17](https://www.youtube.com/watch?v=sfyL4BswUeE&t=17s)
 
 ### "Z Flip 7: Avoiding Doom Scrolling"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sfyL4BswUeE?start=320&end=380" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/sfyL4BswUeE/hqdefault.jpg)](https://www.youtube.com/watch?v=sfyL4BswUeE&t=320s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:20-6:20" "https://www.youtube.com/watch?v=sfyL4BswUeE" --force-keyframes-at-cuts --merge-output-format mp4 -o "sfyL4BswUeE-5m20s.mp4"
+```
+</details>
 
 > "I was managing notifications, texting people back and handling critical stuff, but not ever really getting distracted into doom scrolling or mindless smartphone usage like I would on a normal phone."
 > — Marques Brownlee, [5:32](https://www.youtube.com/watch?v=sfyL4BswUeE&t=332s)
 
 ### "iPhone Air: Nobody Asked For This"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sfyL4BswUeE?start=1161&end=1220" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/sfyL4BswUeE/hqdefault.jpg)](https://www.youtube.com/watch?v=sfyL4BswUeE&t=1161s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*19:21-20:20" "https://www.youtube.com/watch?v=sfyL4BswUeE" --force-keyframes-at-cuts --merge-output-format mp4 -o "sfyL4BswUeE-19m21s.mp4"
+```
+</details>
 
 > "Nobody asked for this. Nobody needs this. In fact, I've been asking specifically for change in the opposite direction. But then you use this phone and it starts to make other very normal phones feel like tanks."
 > — Marques Brownlee, [19:21](https://www.youtube.com/watch?v=sfyL4BswUeE&t=1161s)
 
 ### "Apple Finally Made the Base iPhone Complete"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sfyL4BswUeE?start=1463&end=1520" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/sfyL4BswUeE/hqdefault.jpg)](https://www.youtube.com/watch?v=sfyL4BswUeE&t=1463s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*24:23-25:20" "https://www.youtube.com/watch?v=sfyL4BswUeE" --force-keyframes-at-cuts --merge-output-format mp4 -o "sfyL4BswUeE-24m23s.mp4"
+```
+</details>
 
 > "Apple just finally went ahead and did what they should have done years ago. They made the base iPhone a complete phone. It almost felt shocking to see them finally do it."
 > — Marques Brownlee, [24:25](https://www.youtube.com/watch?v=sfyL4BswUeE&t=1465s)
 
 ### "iPhone 16: Bust of the Year"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sfyL4BswUeE?start=1574&end=1640" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/sfyL4BswUeE/hqdefault.jpg)](https://www.youtube.com/watch?v=sfyL4BswUeE&t=1574s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*26:14-27:20" "https://www.youtube.com/watch?v=sfyL4BswUeE" --force-keyframes-at-cuts --merge-output-format mp4 -o "sfyL4BswUeE-26m14s.mp4"
+```
+</details>
 
 > "It is the cheapest new iPhone, but it is not a cheap iPhone. And if anyone was considering buying one, they were recommended to get a 16 or a 15 Pro instead."
 > — Marques Brownlee, [27:38](https://www.youtube.com/watch?v=sfyL4BswUeE&t=1658s)
 
 ### "Base iPhone is Finally a Better Deal"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sfyL4BswUeE?start=1839&end=1900" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/sfyL4BswUeE/hqdefault.jpg)](https://www.youtube.com/watch?v=sfyL4BswUeE&t=1839s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*30:39-31:40" "https://www.youtube.com/watch?v=sfyL4BswUeE" --force-keyframes-at-cuts --merge-output-format mp4 -o "sfyL4BswUeE-30m39s.mp4"
+```
+</details>
 
 > "So now this base iPhone is a better deal than the base S25 and the base Pixel. It's about damn time."
 > — Marques Brownlee, [30:45](https://www.youtube.com/watch?v=sfyL4BswUeE&t=1845s)

@@ -37,35 +37,70 @@ MKBHD examines the 2025 Apple Vision Pro refresh, which received an M5 chip upgr
 
 ### "The new one is actually heavier"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rU9aqBv0YdY?start=182&end=240" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rU9aqBv0YdY/hqdefault.jpg)](https://www.youtube.com/watch?v=rU9aqBv0YdY&t=182s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:02-4:00" "https://www.youtube.com/watch?v=rU9aqBv0YdY" --force-keyframes-at-cuts --merge-output-format mp4 -o "rU9aqBv0YdY-3m02s.mp4"
+```
+</details>
 
 > "Matter of fact, the weight of the new one is listed as higher than the original because it comes by default with this new Dual Knit Band."
 > — Marques Brownlee, [3:02](https://www.youtube.com/watch?v=rU9aqBv0YdY&t=182s)
 
 ### "Most use has been watching movies"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rU9aqBv0YdY?start=483&end=540" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rU9aqBv0YdY/hqdefault.jpg)](https://www.youtube.com/watch?v=rU9aqBv0YdY&t=483s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:03-9:00" "https://www.youtube.com/watch?v=rU9aqBv0YdY" --force-keyframes-at-cuts --merge-output-format mp4 -o "rU9aqBv0YdY-8m03s.mp4"
+```
+</details>
 
 > "It turns out most of the use of Vision Pro has been watching movies... which is a shame because it's capable of so much more."
 > — Marques Brownlee, [8:05](https://www.youtube.com/watch?v=rU9aqBv0YdY&t=485s)
 
 ### "They scrapped Vision Pro Air for smart glasses"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rU9aqBv0YdY?start=550&end=600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rU9aqBv0YdY/hqdefault.jpg)](https://www.youtube.com/watch?v=rU9aqBv0YdY&t=550s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:10-10:00" "https://www.youtube.com/watch?v=rU9aqBv0YdY" --force-keyframes-at-cuts --merge-output-format mp4 -o "rU9aqBv0YdY-9m10s.mp4"
+```
+</details>
 
 > "There's even been some other reporting that they've scrapped plans for a future lightweight version of the Vision Pro that was going to come up after this, like the 'Vision Pro Air.' And they're shifting those resources to try to develop smart glasses."
 > — Marques Brownlee, [9:10](https://www.youtube.com/watch?v=rU9aqBv0YdY&t=550s)
 
 ### "Fewer people want a face-computer"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rU9aqBv0YdY?start=605&end=640" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rU9aqBv0YdY/hqdefault.jpg)](https://www.youtube.com/watch?v=rU9aqBv0YdY&t=605s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:05-10:40" "https://www.youtube.com/watch?v=rU9aqBv0YdY" --force-keyframes-at-cuts --merge-output-format mp4 -o "rU9aqBv0YdY-10m05s.mp4"
+```
+</details>
 
 > "Turns out there's way less people who wanna spend significant time in a face-computer, even if it's really impressive."
 > — Marques Brownlee, [10:05](https://www.youtube.com/watch?v=rU9aqBv0YdY&t=605s)
 
 ### "Nothing quite like actual reality through glass"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rU9aqBv0YdY?start=618&end=640" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rU9aqBv0YdY/hqdefault.jpg)](https://www.youtube.com/watch?v=rU9aqBv0YdY&t=618s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:18-10:40" "https://www.youtube.com/watch?v=rU9aqBv0YdY" --force-keyframes-at-cuts --merge-output-format mp4 -o "rU9aqBv0YdY-10m18s.mp4"
+```
+</details>
 
 > "There's just nothing quite like having actual reality through some glass with some stuff overlaid on top."
 > — Marques Brownlee, [10:18](https://www.youtube.com/watch?v=rU9aqBv0YdY&t=618s)

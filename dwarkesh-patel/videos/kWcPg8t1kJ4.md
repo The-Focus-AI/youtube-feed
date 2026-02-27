@@ -31,35 +31,70 @@ The episode covers surprisingly effective interventions (corporate campaigns to 
 
 ### "The feed conversion ratio for chickens is 2x"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kWcPg8t1kJ4?start=138&end=190" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kWcPg8t1kJ4/hqdefault.jpg)](https://www.youtube.com/watch?v=kWcPg8t1kJ4&t=138s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:18-3:10" "https://www.youtube.com/watch?v=kWcPg8t1kJ4" --force-keyframes-at-cuts --merge-output-format mp4 -o "kWcPg8t1kJ4-2m18s.mp4"
+```
+</details>
 
 > "The chicken has evolved over a very long time to be an incredibly efficient bioreactor. It takes a small amount of grain and converts it very efficiently into meat. The feed conversion ratio for chickens is 2x. That grain is incredibly cheap because they've removed everything about providing comfort. You're trying to beat the price of this finely optimized biological machine. That is actually a really hard target to meet."
 > -- Lewis Bollard, [2:18](https://www.youtube.com/watch?v=kWcPg8t1kJ4&t=138s)
 
 ### "$1 can prevent 10 years of animal suffering"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kWcPg8t1kJ4?start=1693&end=1750" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kWcPg8t1kJ4/hqdefault.jpg)](https://www.youtube.com/watch?v=kWcPg8t1kJ4&t=1693s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*28:13-29:10" "https://www.youtube.com/watch?v=kWcPg8t1kJ4" --force-keyframes-at-cuts --merge-output-format mp4 -o "kWcPg8t1kJ4-28m13s.mp4"
+```
+</details>
 
 > "The work to get hens out of cages has already impacted well north of 500 million hens. The amount of money spent just on those campaigns was maybe $10-15 million a year over a couple of years. That's far less than 1:10 of a dollar per animal year of suffering averted. So $1 can do more than 10 years of animal suffering prevention."
 > -- Lewis Bollard, [28:13](https://www.youtube.com/watch?v=kWcPg8t1kJ4&t=1693s)
 
 ### "We made a mistake as a movement focusing on diet"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kWcPg8t1kJ4?start=482&end=530" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kWcPg8t1kJ4/hqdefault.jpg)](https://www.youtube.com/watch?v=kWcPg8t1kJ4&t=482s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:02-8:50" "https://www.youtube.com/watch?v=kWcPg8t1kJ4" --force-keyframes-at-cuts --merge-output-format mp4 -o "kWcPg8t1kJ4-8m02s.mp4"
+```
+</details>
 
 > "I think we made a mistake as a movement making this about diet and personal behavior. This is not how large-scale social change occurs. We need people to be advocates for reform, regardless of their personal diet."
 > -- Lewis Bollard, [8:02](https://www.youtube.com/watch?v=kWcPg8t1kJ4&t=482s)
 
 ### "The meat lobby got a lock on Congress"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kWcPg8t1kJ4?start=2501&end=2560" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kWcPg8t1kJ4/hqdefault.jpg)](https://www.youtube.com/watch?v=kWcPg8t1kJ4&t=2501s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*41:41-42:40" "https://www.youtube.com/watch?v=kWcPg8t1kJ4" --force-keyframes-at-cuts --merge-output-format mp4 -o "kWcPg8t1kJ4-41m41s.mp4"
+```
+</details>
 
 > "The meat industry accounts for less than 1% of Americans and doesn't even get that much money. Yet it has an incredible lock on the legislative process where it can stop any reform. They have effectively used the image of the American farmer to kill any animal welfare legislation."
 > -- Lewis Bollard, [41:41](https://www.youtube.com/watch?v=kWcPg8t1kJ4&t=2501s)
 
 ### "8 billion chicks killed at birth every year"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kWcPg8t1kJ4?start=594&end=650" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kWcPg8t1kJ4/hqdefault.jpg)](https://www.youtube.com/watch?v=kWcPg8t1kJ4&t=594s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:54-10:50" "https://www.youtube.com/watch?v=kWcPg8t1kJ4" --force-keyframes-at-cuts --merge-output-format mp4 -o "kWcPg8t1kJ4-9m54s.mp4"
+```
+</details>
 
 > "The standard practice is that about 8 billion male chicks every year are killed at birth -- either through a giant meat grinder or suffocated in bags the day they're born. In-ovo sexing technology can determine the sex of eggs very early in incubation, saving 200 million chicks from that fate."
 > -- Lewis Bollard, [9:54](https://www.youtube.com/watch?v=kWcPg8t1kJ4&t=594s)

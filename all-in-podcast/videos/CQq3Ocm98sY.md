@@ -37,35 +37,70 @@ Kevin Bass, a citizen journalist who used AI tools to analyze the Epstein files,
 
 ### "An Epstein class that operates above law and accountability"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CQq3Ocm98sY?start=98&end=160" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CQq3Ocm98sY/hqdefault.jpg)](https://www.youtube.com/watch?v=CQq3Ocm98sY&t=98s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:38-2:40" "https://www.youtube.com/watch?v=CQq3Ocm98sY" --force-keyframes-at-cuts --merge-output-format mp4 -o "CQq3Ocm98sY-1m38s.mp4"
+```
+</details>
 
 > "It is pretty clear-cut that they did violate their official duties. This is about Prince Andrew serving as a UK trade adviser and forwarding non-public information to Jeffrey Epstein... and the tip off that he gave to Jeffrey Epstein about an upcoming bailout."
 > — Saagar Enjeti, [1:38](https://www.youtube.com/watch?v=CQq3Ocm98sY&t=98s)
 
 ### "The worst story of my adult lifetime in terms of media coverage"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CQq3Ocm98sY?start=2050&end=2110" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CQq3Ocm98sY/hqdefault.jpg)](https://www.youtube.com/watch?v=CQq3Ocm98sY&t=2050s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*34:10-35:10" "https://www.youtube.com/watch?v=CQq3Ocm98sY" --force-keyframes-at-cuts --merge-output-format mp4 -o "CQq3Ocm98sY-34m10s.mp4"
+```
+</details>
 
 > "I think this is the worst story of my adult lifetime in terms of the media coverage and it implicates the alternative media, the mainstream media, and everybody in between. It's actually shocking. I will predict here and now that if we revisit this issue in two or three years, people will come to realize that they were bamboozled on a mass scale."
 > — Michael Tracey, [34:10](https://www.youtube.com/watch?v=CQq3Ocm98sY&t=2050s)
 
 ### "A billion-dollar Epstein industry"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CQq3Ocm98sY?start=2200&end=2260" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CQq3Ocm98sY/hqdefault.jpg)](https://www.youtube.com/watch?v=CQq3Ocm98sY&t=2200s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*36:40-37:40" "https://www.youtube.com/watch?v=CQq3Ocm98sY" --force-keyframes-at-cuts --merge-output-format mp4 -o "CQq3Ocm98sY-36m40s.mp4"
+```
+</details>
 
 > "We're not supposed to ever consider the massive financial incentives where the Epstein industry is now something like I've estimated a billion dollars in terms of the payouts that have been given to purported victims who are allowed to just reimagine things that happened to them 20 years before."
 > — Michael Tracey, [36:40](https://www.youtube.com/watch?v=CQq3Ocm98sY&t=2200s)
 
 ### "It almost looks like best friends"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CQq3Ocm98sY?start=4570&end=4630" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CQq3Ocm98sY/hqdefault.jpg)](https://www.youtube.com/watch?v=CQq3Ocm98sY&t=4570s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*76:10-77:10" "https://www.youtube.com/watch?v=CQq3Ocm98sY" --force-keyframes-at-cuts --merge-output-format mp4 -o "CQq3Ocm98sY-76m10s.mp4"
+```
+</details>
 
 > "The extent of the relationship between Epstein and Reed Hoffman, it almost looks like best friends. My best friends I don't interact with anywhere near as much as Reed Hoffman and Jeffrey Epstein did between 2013 and 2019. There are something around 400 initiations by Hoffman to Epstein."
 > — Kevin Bass, [1:16:10](https://www.youtube.com/watch?v=CQq3Ocm98sY&t=4570s)
 
 ### "He kind of put himself in play"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CQq3Ocm98sY?start=5520&end=5580" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CQq3Ocm98sY/hqdefault.jpg)](https://www.youtube.com/watch?v=CQq3Ocm98sY&t=5520s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*92:00-93:00" "https://www.youtube.com/watch?v=CQq3Ocm98sY" --force-keyframes-at-cuts --merge-output-format mp4 -o "CQq3Ocm98sY-92m00s.mp4"
+```
+</details>
 
 > "If he had just kept his mouth shut and not accused other people, I'm not even sure this would be a topic on the show. But he kind of put himself in play by saying all of these things and I do think it's appropriate to examine the record and assess his credibility on that basis."
 > — David Sacks on Reid Hoffman, [1:32:00](https://www.youtube.com/watch?v=CQq3Ocm98sY&t=5520s)

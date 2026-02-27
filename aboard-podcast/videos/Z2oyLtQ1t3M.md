@@ -35,35 +35,70 @@ The episode also raises fundamental questions about free speech and AI: Is an LL
 
 ### "Sam Altman's going to let ChatGPT write porn"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z2oyLtQ1t3M?start=209&end=260" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Z2oyLtQ1t3M/hqdefault.jpg)](https://www.youtube.com/watch?v=Z2oyLtQ1t3M&t=209s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:29-4:20" "https://www.youtube.com/watch?v=Z2oyLtQ1t3M" --force-keyframes-at-cuts --merge-output-format mp4 -o "Z2oyLtQ1t3M-3m29s.mp4"
+```
+</details>
 
 > "Sam Altman's out there. He's saying, you know what? I'm going to be cool with this thing generating erotica. We've been turning it down. We've been saying no more erotica. But I'm gonna let ChatGPT -- you wanted it to write porn for you, you just say, 'Write me some porn.' It's gonna do it."
 > -- Rich Ziade, [3:29](https://www.youtube.com/watch?v=Z2oyLtQ1t3M&t=209s)
 
 ### "The velocity of consolidation is incredible"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z2oyLtQ1t3M?start=1215&end=1270" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Z2oyLtQ1t3M/hqdefault.jpg)](https://www.youtube.com/watch?v=Z2oyLtQ1t3M&t=1215s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:15-21:10" "https://www.youtube.com/watch?v=Z2oyLtQ1t3M" --force-keyframes-at-cuts --merge-output-format mp4 -o "Z2oyLtQ1t3M-20m15s.mp4"
+```
+</details>
 
 > "The internet was incredibly distributed and democratic in the beginning. And then over about 15-20 years it became incredibly consolidated. The velocity of consolidation we've seen in AI in like two years -- it's incredible. It's down to like two companies at this point. It's kind of bananas."
 > -- Rich Ziade, [20:15](https://www.youtube.com/watch?v=Z2oyLtQ1t3M&t=1215s)
 
 ### "Christian rock is universally terrible"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z2oyLtQ1t3M?start=520&end=570" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Z2oyLtQ1t3M/hqdefault.jpg)](https://www.youtube.com/watch?v=Z2oyLtQ1t3M&t=520s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:40-9:30" "https://www.youtube.com/watch?v=Z2oyLtQ1t3M" --force-keyframes-at-cuts --merge-output-format mp4 -o "Z2oyLtQ1t3M-8m40s.mp4"
+```
+</details>
 
 > "Religious organizations tend to make their own. It's almost always incredibly inferior. Like Christian rock is universally -- even Christian rock fans know it's terrible. But it speaks to their values and they can listen to it without feeling threatened."
 > -- Paul Ford, [8:40](https://www.youtube.com/watch?v=Z2oyLtQ1t3M&t=520s)
 
 ### "Does a machine have a right to free speech?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z2oyLtQ1t3M?start=1010&end=1060" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Z2oyLtQ1t3M/hqdefault.jpg)](https://www.youtube.com/watch?v=Z2oyLtQ1t3M&t=1010s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:50-17:40" "https://www.youtube.com/watch?v=Z2oyLtQ1t3M" --force-keyframes-at-cuts --merge-output-format mp4 -o "Z2oyLtQ1t3M-16m50s.mp4"
+```
+</details>
 
 > "Is the LLM protected by free speech? Is the interaction with the LLM protected by free speech? These tools now are gaining autonomy and can assert themselves and cause damage that -- it's hard to draw a dotted line back to a team of people that are responsible for it."
 > -- Rich Ziade, [16:50](https://www.youtube.com/watch?v=Z2oyLtQ1t3M&t=1010s)
 
 ### "Part of a trillion dollars is porn"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z2oyLtQ1t3M?start=810&end=860" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Z2oyLtQ1t3M/hqdefault.jpg)](https://www.youtube.com/watch?v=Z2oyLtQ1t3M&t=810s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:30-14:20" "https://www.youtube.com/watch?v=Z2oyLtQ1t3M" --force-keyframes-at-cuts --merge-output-format mp4 -o "Z2oyLtQ1t3M-13m30s.mp4"
+```
+</details>
 
 > "They're aiming for a trillion dollar IPO. And so part of a trillion dollars -- like a chunk of the trillion dollars is porn. He knows that this is an audience. It's probably tens of millions, if not hundreds of millions globally who are into erotic literature."
 > -- Rich Ziade, [13:30](https://www.youtube.com/watch?v=Z2oyLtQ1t3M&t=810s)

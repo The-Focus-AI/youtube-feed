@@ -34,28 +34,56 @@ Paul and Rich explore the tension between AI's potential to democratize medical 
 
 ### "AI's real superpower in healthcare is... cutting down on paperwork"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J3yr8LMAqGE?start=420&end=480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/J3yr8LMAqGE/hqdefault.jpg)](https://www.youtube.com/watch?v=J3yr8LMAqGE&t=420s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:00-8:00" "https://www.youtube.com/watch?v=J3yr8LMAqGE" --force-keyframes-at-cuts --merge-output-format mp4 -o "J3yr8LMAqGE-7m00s.mp4"
+```
+</details>
 
 > "Everyone wants to talk about AI diagnosing diseases and it's like, the biggest thing AI is doing in healthcare right now is helping doctors spend less time filling out forms. That's not sexy but it's genuinely transformative because doctors are spending 50% of their time on paperwork."
 > -- Paul Ford, [7:00](https://www.youtube.com/watch?v=J3yr8LMAqGE&t=420s)
 
 ### "Every patient now arrives with a ChatGPT diagnosis"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J3yr8LMAqGE?start=900&end=960" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/J3yr8LMAqGE/hqdefault.jpg)](https://www.youtube.com/watch?v=J3yr8LMAqGE&t=900s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:00-16:00" "https://www.youtube.com/watch?v=J3yr8LMAqGE" --force-keyframes-at-cuts --merge-output-format mp4 -o "J3yr8LMAqGE-15m00s.mp4"
+```
+</details>
 
 > "What happens when every patient arrives at their appointment armed with a diagnosis from Dr. ChatGPT? The doctor-patient relationship is fundamentally changing because the patient now walks in with an opinion. And sometimes it's right, which is the really scary part."
 > -- Rich Ziade, [15:00](https://www.youtube.com/watch?v=J3yr8LMAqGE&t=900s)
 
 ### "Healthcare is the sector where AI hype is most dangerous"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J3yr8LMAqGE?start=1200&end=1260" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/J3yr8LMAqGE/hqdefault.jpg)](https://www.youtube.com/watch?v=J3yr8LMAqGE&t=1200s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:00-21:00" "https://www.youtube.com/watch?v=J3yr8LMAqGE" --force-keyframes-at-cuts --merge-output-format mp4 -o "J3yr8LMAqGE-20m00s.mp4"
+```
+</details>
 
 > "In most industries, if AI gets something wrong, you lose some money or waste some time. In healthcare, if AI gets something wrong, someone could die. The stakes are completely different and anyone who treats healthcare AI like any other tech deployment is being irresponsible."
 > -- Paul Ford, [20:00](https://www.youtube.com/watch?v=J3yr8LMAqGE&t=1200s)
 
 ### "Dashboards suck for a lot of people"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J3yr8LMAqGE?start=180&end=230" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/J3yr8LMAqGE/hqdefault.jpg)](https://www.youtube.com/watch?v=J3yr8LMAqGE&t=180s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:00-3:50" "https://www.youtube.com/watch?v=J3yr8LMAqGE" --force-keyframes-at-cuts --merge-output-format mp4 -o "J3yr8LMAqGE-3m00s.mp4"
+```
+</details>
 
 > "Dashboards suck for a lot of people. They're hard to digest. They're hard to make decisions off of. And so we wanted to build a platform that allows people who are not technical, who are not used to looking at data all day, to make better decisions."
 > -- Rich Ziade, [3:00](https://www.youtube.com/watch?v=J3yr8LMAqGE&t=180s)

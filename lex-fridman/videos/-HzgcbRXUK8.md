@@ -32,21 +32,42 @@ The conversation explores learnable patterns in nature, computation and P vs NP,
 
 ### "Video models are reverse engineering physics from YouTube"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-HzgcbRXUK8?start=874&end=934" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-HzgcbRXUK8/hqdefault.jpg)](https://www.youtube.com/watch?v=-HzgcbRXUK8&t=874s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:34-15:34" "https://www.youtube.com/watch?v=-HzgcbRXUK8" --force-keyframes-at-cuts --merge-output-format mp4 -o "-HzgcbRXUK8-14m34s.mp4"
+```
+</details>
 
 > "If you look at Veo, our video generation model, it can model liquids surprisingly well - materials, specular lighting. I used to write physics engines and graphics engines in gaming. It's painstakingly hard to build programs that do that. Yet these systems are reverse engineering from just watching YouTube videos."
 > — Demis Hassabis, [14:26](https://www.youtube.com/watch?v=-HzgcbRXUK8&t=874s)
 
 ### "Perhaps most of reality has a lower dimensional manifold"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-HzgcbRXUK8?start=874&end=934" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-HzgcbRXUK8/hqdefault.jpg)](https://www.youtube.com/watch?v=-HzgcbRXUK8&t=874s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:34-15:34" "https://www.youtube.com/watch?v=-HzgcbRXUK8" --force-keyframes-at-cuts --merge-output-format mp4 -o "-HzgcbRXUK8-14m34s.mp4"
+```
+</details>
 
 > "Perhaps there is some kind of lower dimensional manifold that can be learned if we actually fully understood what's going on under the hood. That's maybe true of most of reality."
 > — Demis Hassabis, [14:26](https://www.youtube.com/watch?v=-HzgcbRXUK8&t=874s)
 
 ### "P(doom) and human resilience"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-HzgcbRXUK8?start=7370&end=7430" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-HzgcbRXUK8/hqdefault.jpg)](https://www.youtube.com/watch?v=-HzgcbRXUK8&t=7370s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*122:50-123:50" "https://www.youtube.com/watch?v=-HzgcbRXUK8" --force-keyframes-at-cuts --merge-output-format mp4 -o "-HzgcbRXUK8-122m50s.mp4"
+```
+</details>
 
 > "If p(doom) is actually high at some point, all of humanity will be aligned in making sure that's not the case. There's a self-modulating aspect. I have a lot of faith in humanity rising up to meet that moment."
 > — Demis Hassabis, [2:02:50](https://www.youtube.com/watch?v=-HzgcbRXUK8&t=7370s)

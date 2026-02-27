@@ -34,35 +34,70 @@ The episode lands on a pragmatic middle ground: while tools like Claude Code are
 
 ### "The Niche Anthropic Has Found"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LO01DBQEUiY?start=159&end=220" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LO01DBQEUiY/hqdefault.jpg)](https://www.youtube.com/watch?v=LO01DBQEUiY&t=159s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:39-3:40" "https://www.youtube.com/watch?v=LO01DBQEUiY" --force-keyframes-at-cuts --merge-output-format mp4 -o "LO01DBQEUiY-2m39s.mp4"
+```
+</details>
 
 > "The niche Anthropic has found is around building software with AI. I wouldn't even call it vibe coding anymore. I would say it's a new kind of development environment that uses LLMs based on prompts."
 > -- Paul Ford, [2:39](https://www.youtube.com/watch?v=LO01DBQEUiY&t=159s)
 
 ### "Nobody Knows Anything"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LO01DBQEUiY?start=355&end=400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LO01DBQEUiY/hqdefault.jpg)](https://www.youtube.com/watch?v=LO01DBQEUiY&t=355s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:55-6:40" "https://www.youtube.com/watch?v=LO01DBQEUiY" --force-keyframes-at-cuts --merge-output-format mp4 -o "LO01DBQEUiY-5m55s.mp4"
+```
+</details>
 
 > "I went to an Every meetup around Claude Code... really smart people. Dan is just building apps all day long. But what I noticed reading the room is he and I are aliens. Most people are really trying to get their heads around it. And what did you find? Nobody knows anything."
 > -- Paul Ford, [5:55](https://www.youtube.com/watch?v=LO01DBQEUiY&t=355s)
 
 ### "The Consumer Space Was an Absolute Home Run"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LO01DBQEUiY?start=612&end=670" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LO01DBQEUiY/hqdefault.jpg)](https://www.youtube.com/watch?v=LO01DBQEUiY&t=612s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:12-11:10" "https://www.youtube.com/watch?v=LO01DBQEUiY" --force-keyframes-at-cuts --merge-output-format mp4 -o "LO01DBQEUiY-10m12s.mp4"
+```
+</details>
 
 > "The consumer space was an absolute home run. Partly because of the tech. Because the answers are great most of the time. But also, the usability was probably one of the most basic entry points you could ever put in front of someone... Now you shift gears and you want to conquer other worlds with this thing."
 > -- Rich Ziade, [10:12](https://www.youtube.com/watch?v=LO01DBQEUiY&t=612s)
 
 ### "I Own Seven Flower Shops in Chicago"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LO01DBQEUiY?start=920&end=980" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LO01DBQEUiY/hqdefault.jpg)](https://www.youtube.com/watch?v=LO01DBQEUiY&t=920s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:20-16:20" "https://www.youtube.com/watch?v=LO01DBQEUiY" --force-keyframes-at-cuts --merge-output-format mp4 -o "LO01DBQEUiY-15m20s.mp4"
+```
+</details>
 
 > "I have a chain of flower shops in Chicago. I own seven of them. I'm losing track of who's got what. And I need software for it. I'm not going to hire some fancy firm. Accenture won't return your call. You can't afford SAP. Can AI solve this for me?"
 > -- Rich Ziade, [15:20](https://www.youtube.com/watch?v=LO01DBQEUiY&t=920s)
 
 ### "When Everybody Can Do Something, It Doesn't Matter Anymore"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LO01DBQEUiY?start=1430&end=1490" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LO01DBQEUiY/hqdefault.jpg)](https://www.youtube.com/watch?v=LO01DBQEUiY&t=1430s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*23:50-24:50" "https://www.youtube.com/watch?v=LO01DBQEUiY" --force-keyframes-at-cuts --merge-output-format mp4 -o "LO01DBQEUiY-23m50s.mp4"
+```
+</details>
 
 > "The minute everybody can do something, it doesn't matter anymore. There's no moat left. What's going to matter is discretion, utility, security, trust."
 > -- Paul Ford, [23:50](https://www.youtube.com/watch?v=LO01DBQEUiY&t=1430s)

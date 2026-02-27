@@ -34,28 +34,56 @@ The conversation concludes with discussion of how America can maintain its lead 
 
 ### "The Difference From Dot-Com: Real Demand Exists"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NyP-euljCHM?start=95&end=155" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/NyP-euljCHM/hqdefault.jpg)](https://www.youtube.com/watch?v=NyP-euljCHM&t=95s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:35-2:35" "https://www.youtube.com/watch?v=NyP-euljCHM" --force-keyframes-at-cuts --merge-output-format mp4 -o "NyP-euljCHM-1m35s.mp4"
+```
+</details>
 
 > "In the late '90s, we built all this fiber infrastructure speculatively with no real demand. Today's AI buildout is different - the demand is there. Companies are using these models, generating revenue, solving real problems. That's why this isn't a bubble."
 > — Michael Kratsios, [1:35](https://www.youtube.com/watch?v=NyP-euljCHM&t=95s)
 
 ### "AI Will Transform Government Services"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NyP-euljCHM?start=762&end=822" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/NyP-euljCHM/hqdefault.jpg)](https://www.youtube.com/watch?v=NyP-euljCHM&t=762s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:42-13:42" "https://www.youtube.com/watch?v=NyP-euljCHM" --force-keyframes-at-cuts --merge-output-format mp4 -o "NyP-euljCHM-12m42s.mp4"
+```
+</details>
 
 > "In the Global South, 40-50% of GDP is public sector. If AI makes governments 10-20% more efficient at delivering services, that's multiple points of GDP growth right there. This is transformative for developing nations."
 > — David Sacks, [12:42](https://www.youtube.com/watch?v=NyP-euljCHM&t=762s)
 
 ### "China Has Capabilities, But America Has Culture"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NyP-euljCHM?start=1359&end=1419" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/NyP-euljCHM/hqdefault.jpg)](https://www.youtube.com/watch?v=NyP-euljCHM&t=1359s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*22:39-23:39" "https://www.youtube.com/watch?v=NyP-euljCHM" --force-keyframes-at-cuts --merge-output-format mp4 -o "NyP-euljCHM-22m39s.mp4"
+```
+</details>
 
 > "China has smart people, capital, and ambition. But what they don't have is the entrepreneurial culture, the willingness to fail fast, the open ecosystem that produces breakthrough innovation. That's America's structural advantage."
 > — Michael Kratsios, [22:39](https://www.youtube.com/watch?v=NyP-euljCHM&t=1359s)
 
 ### "Tech Will Be Higher Percentage of GDP in 5 Years"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NyP-euljCHM?start=2352&end=2412" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/NyP-euljCHM/hqdefault.jpg)](https://www.youtube.com/watch?v=NyP-euljCHM&t=2352s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*39:12-40:12" "https://www.youtube.com/watch?v=NyP-euljCHM" --force-keyframes-at-cuts --merge-output-format mp4 -o "NyP-euljCHM-39m12s.mp4"
+```
+</details>
 
 > "This isn't zero-sum. The TAM is expanding. Five years from now, technology will be a higher percentage of global GDP. The question is whether American companies will capture the majority of that value or whether we'll cede ground to China."
 > — David Sacks, [39:12](https://www.youtube.com/watch?v=NyP-euljCHM&t=2352s)

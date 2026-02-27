@@ -54,35 +54,70 @@ The conversation also explores the future of human-AI collaboration, with Hansen
 
 ### "What Really Is Blocking Progress Is the Data"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GxI2JNyIlrU?start=45&end=110" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GxI2JNyIlrU/hqdefault.jpg)](https://www.youtube.com/watch?v=GxI2JNyIlrU&t=45s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:45-1:50" "https://www.youtube.com/watch?v=GxI2JNyIlrU" --force-keyframes-at-cuts --merge-output-format mp4 -o "GxI2JNyIlrU-0m45s.mp4"
+```
+</details>
 
 > "But what really is blocking progress is the data."
 > — Ulrik Hansen, [0:45](https://www.youtube.com/watch?v=GxI2JNyIlrU&t=45s)
 
 ### "Tesla Has a Thumbs Up Button Embedded in the Cars"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GxI2JNyIlrU?start=364&end=420" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GxI2JNyIlrU/hqdefault.jpg)](https://www.youtube.com/watch?v=GxI2JNyIlrU&t=364s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:04-7:00" "https://www.youtube.com/watch?v=GxI2JNyIlrU" --force-keyframes-at-cuts --merge-output-format mp4 -o "GxI2JNyIlrU-6m04s.mp4"
+```
+</details>
 
 > "They have like the equivalent of like a thumbs up and a thumbs down button that you're used to in chat right embedded in the cars because they have people driving the cars."
 > — Ulrik Hansen, [6:17](https://www.youtube.com/watch?v=GxI2JNyIlrU&t=377s)
 
 ### "Synthetic Data Is Like the Snake Eating Its Own Tail"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GxI2JNyIlrU?start=1072&end=1130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GxI2JNyIlrU/hqdefault.jpg)](https://www.youtube.com/watch?v=GxI2JNyIlrU&t=1072s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*17:52-18:50" "https://www.youtube.com/watch?v=GxI2JNyIlrU" --force-keyframes-at-cuts --merge-output-format mp4 -o "GxI2JNyIlrU-17m52s.mp4"
+```
+</details>
 
 > "It's kind of like the snake eating its own tail."
 > — Ulrik Hansen, [18:30](https://www.youtube.com/watch?v=GxI2JNyIlrU&t=1110s)
 
 ### "More Change in 10 Years Than the Last 50"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GxI2JNyIlrU?start=1470&end=1530" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GxI2JNyIlrU/hqdefault.jpg)](https://www.youtube.com/watch?v=GxI2JNyIlrU&t=1470s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*24:30-25:30" "https://www.youtube.com/watch?v=GxI2JNyIlrU" --force-keyframes-at-cuts --merge-output-format mp4 -o "GxI2JNyIlrU-24m30s.mp4"
+```
+</details>
 
 > "We're likely to see more change from technology in like the next 10 years than we've seen in the last like 50 years."
 > — Ulrik Hansen, [24:38](https://www.youtube.com/watch?v=GxI2JNyIlrU&t=1478s)
 
 ### "Excellence Is Not an Act But a Habit"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GxI2JNyIlrU?start=1632&end=1680" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GxI2JNyIlrU/hqdefault.jpg)](https://www.youtube.com/watch?v=GxI2JNyIlrU&t=1632s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*27:12-28:00" "https://www.youtube.com/watch?v=GxI2JNyIlrU" --force-keyframes-at-cuts --merge-output-format mp4 -o "GxI2JNyIlrU-27m12s.mp4"
+```
+</details>
 
 > "We are what we repeatedly do. Excellence then is not an act but a habit."
 > — Ulrik Hansen quoting Aristotle, [27:28](https://www.youtube.com/watch?v=GxI2JNyIlrU&t=1648s)

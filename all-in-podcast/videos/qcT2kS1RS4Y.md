@@ -43,42 +43,84 @@ Manchin also discusses his views on work requirements for entitlements, the fail
 
 ### "If you kill my effing bill, I'll never talk to you again"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qcT2kS1RS4Y?start=248&end=310" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/qcT2kS1RS4Y/hqdefault.jpg)](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=248s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:08-5:10" "https://www.youtube.com/watch?v=qcT2kS1RS4Y" --force-keyframes-at-cuts --merge-output-format mp4 -o "qcT2kS1RS4Y-4m08s.mp4"
+```
+</details>
 
 > "He got pretty vulgar and just told me, 'If you kill my effing bill, I'll never talk to you again.' I said, 'If I could kill this effing bill you shouldn't talk to me again because if I could I would but I can't.'"
 > — Joe Manchin on Biden, [4:08](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=248s)
 
 ### "We're not talking about diversity, sir. We're talking about bat crazy"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qcT2kS1RS4Y?start=483&end=540" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/qcT2kS1RS4Y/hqdefault.jpg)](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=483s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:03-9:00" "https://www.youtube.com/watch?v=qcT2kS1RS4Y" --force-keyframes-at-cuts --merge-output-format mp4 -o "qcT2kS1RS4Y-8m03s.mp4"
+```
+</details>
 
 > "I said, 'Mr. President, you have the most liberal staff that I've ever seen.' He said, 'Well, Joe, they tell me I have the most diversified staff.' I said, 'We're not talking about diversity, sir. We're talking about bat crazy.'"
 > — Joe Manchin, [8:03](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=483s)
 
 ### "Maybe we'd get one good term out of you"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qcT2kS1RS4Y?start=2008&end=2070" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/qcT2kS1RS4Y/hqdefault.jpg)](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=2008s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*33:28-34:30" "https://www.youtube.com/watch?v=qcT2kS1RS4Y" --force-keyframes-at-cuts --merge-output-format mp4 -o "qcT2kS1RS4Y-33m28s.mp4"
+```
+</details>
 
 > "She said, 'Joe, think of it this way. If we had term limits, maybe we get one good term out of you.' I had no comeback. She convinced me right there."
 > — Joe Manchin on a constituent, [33:28](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=2008s)
 
 ### "I told you we couldn't beat him"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qcT2kS1RS4Y?start=3970&end=4030" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/qcT2kS1RS4Y/hqdefault.jpg)](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=3970s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*66:10-67:10" "https://www.youtube.com/watch?v=qcT2kS1RS4Y" --force-keyframes-at-cuts --merge-output-format mp4 -o "qcT2kS1RS4Y-66m10s.mp4"
+```
+</details>
 
 > "He ended up coming six times to my state and they spent an extra $25 million trying to beat me. And then afterwards, he calls me one week later, 'Come have lunch with me.' I walk in, he says, 'I told you we couldn't beat him.'"
 > — Joe Manchin on Trump, [66:10](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=3970s)
 
 ### "Don't ever send that damn Joe Biden back to make a deal"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qcT2kS1RS4Y?start=4123&end=4180" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/qcT2kS1RS4Y/hqdefault.jpg)](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=4123s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*68:43-69:40" "https://www.youtube.com/watch?v=qcT2kS1RS4Y" --force-keyframes-at-cuts --merge-output-format mp4 -o "qcT2kS1RS4Y-68m43s.mp4"
+```
+</details>
 
 > "Harry Reid says, 'I told President Obama, don't ever send that damn Joe Biden back to make a deal. We don't want him here at all making a deal for Democrats.' Now he's the president. I think, boy, we got it now."
 > — Joe Manchin on Harry Reid, [68:43](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=4123s)
 
 ### "We'll call it the not stupid party"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qcT2kS1RS4Y?start=4835&end=4895" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/qcT2kS1RS4Y/hqdefault.jpg)](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=4835s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*80:35-81:35" "https://www.youtube.com/watch?v=qcT2kS1RS4Y" --force-keyframes-at-cuts --merge-output-format mp4 -o "qcT2kS1RS4Y-80m35s.mp4"
+```
+</details>
 
 > "Mitt Romney and I were talking about running. He said, 'Joe, we have to start a new party.' I said, 'What would it be, man?' He said, 'We'll call it the not stupid party.' I said, 'Hell, my question is why we're involved then.'"
 > — Joe Manchin, [80:35](https://www.youtube.com/watch?v=qcT2kS1RS4Y&t=4835s)

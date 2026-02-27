@@ -34,35 +34,70 @@ Kenia's main thesis is that the future won't be decided by a single scaling curv
 
 ### "Dario thinks in exponentials. Dwarkesh keeps pointing at friction."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bjNQoo73gK4?start=46&end=100" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bjNQoo73gK4/hqdefault.jpg)](https://www.youtube.com/watch?v=bjNQoo73gK4&t=46s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:46-1:40" "https://www.youtube.com/watch?v=bjNQoo73gK4" --force-keyframes-at-cuts --merge-output-format mp4 -o "bjNQoo73gK4-0m46s.mp4"
+```
+</details>
 
 > "The disagreement is not about whether the models are improving. They are. It is about how that improvement meets the real world."
 > — Kenia, [0:54](https://www.youtube.com/watch?v=bjNQoo73gK4&t=54s)
 
 ### "Why aren't experts already replaced?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bjNQoo73gK4?start=163&end=230" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bjNQoo73gK4/hqdefault.jpg)](https://www.youtube.com/watch?v=bjNQoo73gK4&t=163s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:43-3:50" "https://www.youtube.com/watch?v=bjNQoo73gK4" --force-keyframes-at-cuts --merge-output-format mp4 -o "bjNQoo73gK4-2m43s.mp4"
+```
+</details>
 
 > "If you truly have systems approaching expert-level cognition, why are they not already replacing substantial fractions of knowledge work? Why does the corporate world still function primarily through human processes?"
 > — Kenia (paraphrasing Dwarkesh), [2:43](https://www.youtube.com/watch?v=bjNQoo73gK4&t=163s)
 
 ### "Diffusion as cope"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bjNQoo73gK4?start=244&end=270" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bjNQoo73gK4/hqdefault.jpg)](https://www.youtube.com/watch?v=bjNQoo73gK4&t=244s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:04-4:30" "https://www.youtube.com/watch?v=bjNQoo73gK4" --force-keyframes-at-cuts --merge-output-format mp4 -o "bjNQoo73gK4-4m04s.mp4"
+```
+</details>
 
 > "It's very interesting when Dwarkesh calls 'diffusion' what labs use as cope — to just take away the pressure when everyone awaits the biggest achievements from the models and then the labs say 'it's diffusion, it's an economical diffusion, we can do nothing about it.'"
 > — Kenia, [4:04](https://www.youtube.com/watch?v=bjNQoo73gK4&t=244s)
 
 ### "The capital treadmill"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bjNQoo73gK4?start=391&end=435" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bjNQoo73gK4/hqdefault.jpg)](https://www.youtube.com/watch?v=bjNQoo73gK4&t=391s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:31-7:15" "https://www.youtube.com/watch?v=bjNQoo73gK4" --force-keyframes-at-cuts --merge-output-format mp4 -o "bjNQoo73gK4-6m31s.mp4"
+```
+</details>
 
 > "The system resembles a treadmill in which profits are not harvested but continuously converted into larger training runs. Overextension risks insolvency before projected capability milestones are reached. Underinvestment risks falling irreversibly behind. But overinvestment means bankrupt."
 > — Kenia, [6:31](https://www.youtube.com/watch?v=bjNQoo73gK4&t=391s)
 
 ### "The future won't be decided by a single curve"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bjNQoo73gK4?start=536&end=570" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bjNQoo73gK4/hqdefault.jpg)](https://www.youtube.com/watch?v=bjNQoo73gK4&t=536s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:56-9:30" "https://www.youtube.com/watch?v=bjNQoo73gK4" --force-keyframes-at-cuts --merge-output-format mp4 -o "bjNQoo73gK4-8m56s.mp4"
+```
+</details>
 
 > "The future is unlikely to be decided by a single curve. It will emerge from the interaction between scaling laws, capital cycles, governance adoption, and human coordination. And that interaction is far more complex than any single prophecy allows."
 > — Kenia, [8:56](https://www.youtube.com/watch?v=bjNQoo73gK4&t=536s)

@@ -42,42 +42,84 @@ Martinis discusses the current state of quantum computing (50-100 qubits, but ne
 
 ### "My dad didn't have a high school education, but very smart person"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GWOPRdN8INU?start=66&end=125" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GWOPRdN8INU/hqdefault.jpg)](https://www.youtube.com/watch?v=GWOPRdN8INU&t=66s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:06-2:05" "https://www.youtube.com/watch?v=GWOPRdN8INU" --force-keyframes-at-cuts --merge-output-format mp4 -o "GWOPRdN8INU-1m06s.mp4"
+```
+</details>
 
 > "My dad actually didn't have a high school education, but very smart person. He was always building things in the garage, various projects. So, I grew up kind of knowing how to build things, which also kind of tells you how things work, kind of empirical view, tactical view of how physics works."
 > — John Martinis, [1:06](https://www.youtube.com/watch?v=GWOPRdN8INU&t=66s)
 
 ### "If you make the wall thin enough, the ball will tunnel through"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GWOPRdN8INU?start=278&end=340" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GWOPRdN8INU/hqdefault.jpg)](https://www.youtube.com/watch?v=GWOPRdN8INU&t=278s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:38-5:40" "https://www.youtube.com/watch?v=GWOPRdN8INU" --force-keyframes-at-cuts --merge-output-format mp4 -o "GWOPRdN8INU-4m38s.mp4"
+```
+</details>
 
 > "If you think about throwing a ball against the wall, it's going to bounce off. But if you make the wall thin enough and the ball light enough, it'll then every once in a while tunnel through because of the laws of quantum mechanics."
 > — John Martinis, [4:38](https://www.youtube.com/watch?v=GWOPRdN8INU&t=278s)
 
 ### "I was just a lowly graduate student at Feynman's talk"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GWOPRdN8INU?start=1537&end=1600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GWOPRdN8INU/hqdefault.jpg)](https://www.youtube.com/watch?v=GWOPRdN8INU&t=1537s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*25:37-26:40" "https://www.youtube.com/watch?v=GWOPRdN8INU" --force-keyframes-at-cuts --merge-output-format mp4 -o "GWOPRdN8INU-25m37s.mp4"
+```
+</details>
 
 > "Afterwards he was absolutely mobbed by people asking him questions... I was a graduate student so I was kind of at the outside ring... I was just a lowly graduate student so I could hear a little bit but what I learned from this, it was a great question and something that would be kind of worth doing for your life work because it's so deep and so interesting."
 > — John Martinis, [25:37](https://www.youtube.com/watch?v=GWOPRdN8INU&t=1537s)
 
 ### "China published something indicating they were on par"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GWOPRdN8INU?start=2456&end=2520" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GWOPRdN8INU/hqdefault.jpg)](https://www.youtube.com/watch?v=GWOPRdN8INU&t=2456s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*40:56-42:00" "https://www.youtube.com/watch?v=GWOPRdN8INU" --force-keyframes-at-cuts --merge-output-format mp4 -o "GWOPRdN8INU-40m56s.mp4"
+```
+</details>
 
 > "The thing that scares me a little bit is, you know, last December the Google group published the latest results, which is really much nicer. They made some real improvement, but then China soon afterward published something kind of indicating they were on par or near par."
 > — John Martinis, [40:56](https://www.youtube.com/watch?v=GWOPRdN8INU&t=2456s)
 
 ### "My wife didn't wake me up because she knew the day was going to be hectic"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GWOPRdN8INU?start=2759&end=2820" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GWOPRdN8INU/hqdefault.jpg)](https://www.youtube.com/watch?v=GWOPRdN8INU&t=2759s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*45:59-47:00" "https://www.youtube.com/watch?v=GWOPRdN8INU" --force-keyframes-at-cuts --merge-output-format mp4 -o "GWOPRdN8INU-45m59s.mp4"
+```
+</details>
 
 > "We got the call at 3:00 and my wife answered the phone and found out what happened. But she didn't wake me up right away because she knew the day was going to be hectic and I needed my sleep to not be grumpy. So, she woke me up at 5:30."
 > — John Martinis, [45:59](https://www.youtube.com/watch?v=GWOPRdN8INU&t=2759s)
 
 ### "We need approximately 1 million qubits for general-purpose quantum computing"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GWOPRdN8INU?start=2154&end=2220" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GWOPRdN8INU/hqdefault.jpg)](https://www.youtube.com/watch?v=GWOPRdN8INU&t=2154s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*35:54-37:00" "https://www.youtube.com/watch?v=GWOPRdN8INU" --force-keyframes-at-cuts --merge-output-format mp4 -o "GWOPRdN8INU-35m54s.mp4"
+```
+</details>
 
 > "Right now we're about 50 or 100 qubits for the superconducting case... you're talking about a million qubit quantum computers to be general purpose and solve really hard problems. A million something. A million is a good round number for it. Maybe a little bit more. And right now we're at a hundred."
 > — John Martinis, [35:54](https://www.youtube.com/watch?v=GWOPRdN8INU&t=2154s)

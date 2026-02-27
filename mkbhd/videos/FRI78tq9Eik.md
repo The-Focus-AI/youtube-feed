@@ -31,28 +31,56 @@ The AI features range from useful (call screening cloned from Pixel, LLM-powered
 
 ### "That's genuinely really sick!"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FRI78tq9Eik?start=196&end=240" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FRI78tq9Eik/hqdefault.jpg)](https://www.youtube.com/watch?v=FRI78tq9Eik&t=196s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:16-4:00" "https://www.youtube.com/watch?v=FRI78tq9Eik" --force-keyframes-at-cuts --merge-output-format mp4 -o "FRI78tq9Eik-3m16s.mp4"
+```
+</details>
 
 > "This is a hardware-level control over the pixels on the display... when you turn it on, the display should look normal, but as you get off-axis, it actually fades to gray and almost black from both the horizontal... anyone trying to look over your shoulder will see basically a blank screen. That's genuinely really sick!"
 > -- Marques Brownlee, [3:16](https://www.youtube.com/watch?v=FRI78tq9Eik&t=196s)
 
 ### "The most Samsung thing ever"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FRI78tq9Eik?start=268&end=326" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FRI78tq9Eik/hqdefault.jpg)](https://www.youtube.com/watch?v=FRI78tq9Eik&t=268s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:28-5:26" "https://www.youtube.com/watch?v=FRI78tq9Eik" --force-keyframes-at-cuts --merge-output-format mp4 -o "FRI78tq9Eik-4m28s.mp4"
+```
+</details>
 
 > "This also to me, if you think about it, is the most Samsung thing ever... they're also the same company that did the Galaxy Note Edge, the Galaxy Fold... curved screen, waterfall screen, folding screen, multiple folding screen... this feels like a very Samsung move and I hope it catches on."
 > -- Marques Brownlee, [4:28](https://www.youtube.com/watch?v=FRI78tq9Eik&t=268s)
 
 ### "Just for the password field"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FRI78tq9Eik?start=241&end=268" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FRI78tq9Eik/hqdefault.jpg)](https://www.youtube.com/watch?v=FRI78tq9Eik&t=241s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:01-4:28" "https://www.youtube.com/watch?v=FRI78tq9Eik" --force-keyframes-at-cuts --merge-output-format mp4 -o "FRI78tq9Eik-4m01s.mp4"
+```
+</details>
 
 > "You can also have it in certain locations or for certain apps, like just for your banking or photos app... just for the password field, while you're filling in, it will just black out that part... I just think this is awesome!"
 > -- Marques Brownlee, [4:01](https://www.youtube.com/watch?v=FRI78tq9Eik&t=241s)
 
 ### "Throwing a bunch of AI to see what sticks"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FRI78tq9Eik?start=396&end=432" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FRI78tq9Eik/hqdefault.jpg)](https://www.youtube.com/watch?v=FRI78tq9Eik&t=396s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:36-7:12" "https://www.youtube.com/watch?v=FRI78tq9Eik" --force-keyframes-at-cuts --merge-output-format mp4 -o "FRI78tq9Eik-6m36s.mp4"
+```
+</details>
 
 > "Creative Studio, which is kind of the same thing as, like, borderline useless in my opinion. It feels like they're just throwing a bunch of AI just to see what will stick... I feel like in an age where it's more important than ever to trust what comes from people's cell phones, the slippery slope of, like, it's weird."
 > -- Marques Brownlee, [6:36](https://www.youtube.com/watch?v=FRI78tq9Eik&t=396s)

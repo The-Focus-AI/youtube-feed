@@ -32,35 +32,70 @@ Crown Northampton is defined by four pillars: premium materials, obscene softnes
 
 ### "Without the Unfailing Barrage of Boots, We Could Have Never Shattered the German Lines"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Th9rFZSbMHM?start=152&end=210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Th9rFZSbMHM/hqdefault.jpg)](https://www.youtube.com/watch?v=Th9rFZSbMHM&t=152s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:32-3:30" "https://www.youtube.com/watch?v=Th9rFZSbMHM" --force-keyframes-at-cuts --merge-output-format mp4 -o "Th9rFZSbMHM-2m32s.mp4"
+```
+</details>
 
 > "Without the unfailing barrage of boots Northampton put over for all of the Allied armies we could have never shattered the German lines."
 > — Editor of the Northampton Independent, 1922, [2:36](https://www.youtube.com/watch?v=Th9rFZSbMHM&t=156s)
 
 ### "Shell Cordovan is Buried Inside of a Horse's Butt"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Th9rFZSbMHM?start=604&end=660" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Th9rFZSbMHM/hqdefault.jpg)](https://www.youtube.com/watch?v=Th9rFZSbMHM&t=604s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:04-11:00" "https://www.youtube.com/watch?v=Th9rFZSbMHM" --force-keyframes-at-cuts --merge-output-format mp4 -o "Th9rFZSbMHM-10m04s.mp4"
+```
+</details>
 
 > "Shell cordovan is buried inside of a horse's butt to be frank, and although horses do have large butts they're not huge so you only get two shells per horse."
 > — Michael, [10:10](https://www.youtube.com/watch?v=Th9rFZSbMHM&t=610s)
 
 ### "Chris Is Not a Savvy Businessman, He's an Artist"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Th9rFZSbMHM?start=88&end=145" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Th9rFZSbMHM/hqdefault.jpg)](https://www.youtube.com/watch?v=Th9rFZSbMHM&t=88s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:28-2:25" "https://www.youtube.com/watch?v=Th9rFZSbMHM" --force-keyframes-at-cuts --merge-output-format mp4 -o "Th9rFZSbMHM-1m28s.mp4"
+```
+</details>
 
 > "Chris is not a savvy businessman, he's an artist... if we're going to do this really slow process it's going to make these sneakers super expensive, let's not leave something in the gas tank and cheap out here."
 > — Michael, [1:42](https://www.youtube.com/watch?v=Th9rFZSbMHM&t=102s)
 
 ### "Chris Said 'I'm Going to Use That in 25 Years'"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Th9rFZSbMHM?start=748&end=810" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Th9rFZSbMHM/hqdefault.jpg)](https://www.youtube.com/watch?v=Th9rFZSbMHM&t=748s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:28-13:30" "https://www.youtube.com/watch?v=Th9rFZSbMHM" --force-keyframes-at-cuts --merge-output-format mp4 -o "Th9rFZSbMHM-12m28s.mp4"
+```
+</details>
 
 > "Chris looked at that and said 'whoa, I'm going to use that in 25 years' and he did on the Abby."
 > — Michael, [12:50](https://www.youtube.com/watch?v=Th9rFZSbMHM&t=770s)
 
 ### "Whole Cut Bespoke Welted Shoes Were Made to Show Off Skills 100 Years Ago"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Th9rFZSbMHM?start=835&end=895" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Th9rFZSbMHM/hqdefault.jpg)](https://www.youtube.com/watch?v=Th9rFZSbMHM&t=835s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:55-14:55" "https://www.youtube.com/watch?v=Th9rFZSbMHM" --force-keyframes-at-cuts --merge-output-format mp4 -o "Th9rFZSbMHM-13m55s.mp4"
+```
+</details>
 
 > "Whole cut bespoke welted shoes were being made to show off my great-grandfather's skills 100 years ago."
 > — Chris Woodford, [14:09](https://www.youtube.com/watch?v=Th9rFZSbMHM&t=849s)

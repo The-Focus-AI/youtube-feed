@@ -41,42 +41,84 @@ CZ also discusses his presidential pardon from Trump, his current projects inclu
 
 ### "I sold my apartment and bought Bitcoin"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vQwXgxJxwnw?start=1892&end=1950" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vQwXgxJxwnw/hqdefault.jpg)](https://www.youtube.com/watch?v=vQwXgxJxwnw&t=1892s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*31:32-32:30" "https://www.youtube.com/watch?v=vQwXgxJxwnw" --force-keyframes-at-cuts --merge-output-format mp4 -o "vQwXgxJxwnw-31m32s.mp4"
+```
+</details>
 
 > "I said look I'm going to sell my apartment in Shanghai and then buy Bitcoin... I sold the apartment for roughly $900,000... every trench I get, I just buy. The first trench at $800 and then Bitcoin is dropping $600, $400. Kind of averaged to about $600."
 > — CZ, [31:32](https://www.youtube.com/watch?v=vQwXgxJxwnw&t=1892s)
 
 ### "We never seen them this hostile"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vQwXgxJxwnw?start=4413&end=4470" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vQwXgxJxwnw/hqdefault.jpg)](https://www.youtube.com/watch?v=vQwXgxJxwnw&t=4413s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*73:33-74:30" "https://www.youtube.com/watch?v=vQwXgxJxwnw" --force-keyframes-at-cuts --merge-output-format mp4 -o "vQwXgxJxwnw-73m33s.mp4"
+```
+</details>
 
 > "The most common thing I hear from my lawyers is we have never seen them this hostile on a case like this. We have never seen this before."
 > — CZ, [73:33](https://www.youtube.com/watch?v=vQwXgxJxwnw&t=4413s)
 
 ### "The prison guard's first words"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vQwXgxJxwnw?start=5362&end=5425" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vQwXgxJxwnw/hqdefault.jpg)](https://www.youtube.com/watch?v=vQwXgxJxwnw&t=5362s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*89:22-90:25" "https://www.youtube.com/watch?v=vQwXgxJxwnw" --force-keyframes-at-cuts --merge-output-format mp4 -o "vQwXgxJxwnw-89m22s.mp4"
+```
+</details>
 
 > "The minute I walked into the prison gate the guard says well you're going to need some protection here. I hear the Pacific Islanders are hiring so you might want to join them."
 > — CZ, [89:22](https://www.youtube.com/watch?v=vQwXgxJxwnw&t=5362s)
 
 ### "Agents are not going to use banks"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vQwXgxJxwnw?start=6360&end=6420" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vQwXgxJxwnw/hqdefault.jpg)](https://www.youtube.com/watch?v=vQwXgxJxwnw&t=6360s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*106:00-107:00" "https://www.youtube.com/watch?v=vQwXgxJxwnw" --force-keyframes-at-cuts --merge-output-format mp4 -o "vQwXgxJxwnw-106m00s.mp4"
+```
+</details>
 
 > "Agents can transact a million times more than us. And they're not going to use banks. Banks just won't be able to... Banks won't onboard and AML KYC an agent. Doesn't even make sense."
 > — CZ, [106:00](https://www.youtube.com/watch?v=vQwXgxJxwnw&t=6360s)
 
 ### "Money doesn't mean very much to me"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vQwXgxJxwnw?start=3274&end=3340" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vQwXgxJxwnw/hqdefault.jpg)](https://www.youtube.com/watch?v=vQwXgxJxwnw&t=3274s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*54:34-55:40" "https://www.youtube.com/watch?v=vQwXgxJxwnw" --force-keyframes-at-cuts --merge-output-format mp4 -o "vQwXgxJxwnw-54m34s.mp4"
+```
+</details>
 
 > "Depending on the day, you're a deca billionaire or a centibillionaire. What does it all mean? It doesn't mean very much to me... If you look at my house, the living room water leaks every month or so because the house is so old."
 > — CZ, [54:34](https://www.youtube.com/watch?v=vQwXgxJxwnw&t=3274s)
 
 ### "Push yourself 120% and get lucky"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vQwXgxJxwnw?start=6861&end=6930" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vQwXgxJxwnw/hqdefault.jpg)](https://www.youtube.com/watch?v=vQwXgxJxwnw&t=6861s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*114:21-115:30" "https://www.youtube.com/watch?v=vQwXgxJxwnw" --force-keyframes-at-cuts --merge-output-format mp4 -o "vQwXgxJxwnw-114m21s.mp4"
+```
+</details>
 
 > "I'm a normal dude. I don't think I'm super smart. But you don't need to be super smart to be successful... If you push yourself to like 120% 110 130 somewhere in that range where you can last long. If you do that for like 30 years and you get lucky, you will most likely be relatively successful."
 > — CZ, [114:21](https://www.youtube.com/watch?v=vQwXgxJxwnw&t=6861s)

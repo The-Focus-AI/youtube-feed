@@ -44,35 +44,70 @@ In this episode of "Three Wows and One Promise," host Christa from Turing Post e
 
 ### "How are you supposed to make conclusions on 52 interviews?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WBPkkjI2dxM?start=59&end=135" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/WBPkkjI2dxM/hqdefault.jpg)](https://www.youtube.com/watch?v=WBPkkjI2dxM&t=59s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:59-2:15" "https://www.youtube.com/watch?v=WBPkkjI2dxM" --force-keyframes-at-cuts --merge-output-format mp4 -o "WBPkkjI2dxM-0m59s.mp4"
+```
+</details>
 
 > "Let's open this report. First sentence it says despite 30 to 40 billion in enterprise investment into Genai this report uncovers a surprising result in that 95% of organizations are getting zero return... Do you know how many people interviews they conducted? 52. How in the world are you supposed to make any conclusions on that number of people you talk to?"
 > — Turing Post, [0:59](https://www.youtube.com/watch?v=WBPkkjI2dxM&t=59s)
 
 ### "AI will conquer us - if you don't know how to read"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WBPkkjI2dxM?start=241&end=300" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/WBPkkjI2dxM/hqdefault.jpg)](https://www.youtube.com/watch?v=WBPkkjI2dxM&t=241s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:01-5:00" "https://www.youtube.com/watch?v=WBPkkjI2dxM" --force-keyframes-at-cuts --merge-output-format mp4 -o "WBPkkjI2dxM-4m01s.mp4"
+```
+</details>
 
 > "My request to media and to people out there who are afraid that AI will conquer us. It's possible if you don't know how to read, if you don't know how to analyze what you see in front of your eyes, and if you don't ask questions. So, please, please read with your eyes open."
 > — Turing Post, [4:01](https://www.youtube.com/watch?v=WBPkkjI2dxM&t=241s)
 
 ### "AI is an algorithm - it cannot be conscious"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WBPkkjI2dxM?start=384&end=445" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/WBPkkjI2dxM/hqdefault.jpg)](https://www.youtube.com/watch?v=WBPkkjI2dxM&t=384s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:24-7:25" "https://www.youtube.com/watch?v=WBPkkjI2dxM" --force-keyframes-at-cuts --merge-output-format mp4 -o "WBPkkjI2dxM-6m24s.mp4"
+```
+</details>
 
 > "I just want everyone to think about it and to be aware at every point of your life that AI cannot be conscious. Whatever people tell you, whatever AI tells you, AI is an algorithm with very complicated and sophisticated reward optimization, it might be engineered by human to feel like conscious being, but it's not conscious."
 > — Turing Post, [6:24](https://www.youtube.com/watch?v=WBPkkjI2dxM&t=384s)
 
 ### "AI is not Skynet or HAL 9000 - it's like electricity"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WBPkkjI2dxM?start=495&end=560" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/WBPkkjI2dxM/hqdefault.jpg)](https://www.youtube.com/watch?v=WBPkkjI2dxM&t=495s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:15-9:20" "https://www.youtube.com/watch?v=WBPkkjI2dxM" --force-keyframes-at-cuts --merge-output-format mp4 -o "WBPkkjI2dxM-8m15s.mp4"
+```
+</details>
 
 > "Throughout my career as an AI interpreter, AI explainer, AI storyteller, that's what I'm trying to say. AI is super powerful tool. It's not magic. It's not Skynet. It's not HAL 9000 from Space Odyssey. AI and generative AI is a tool."
 > — Turing Post, [8:15](https://www.youtube.com/watch?v=WBPkkjI2dxM&t=495s)
 
 ### "AI will give us time to stare at the wall and come up with phenomenal ideas"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WBPkkjI2dxM?start=680&end=732" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/WBPkkjI2dxM/hqdefault.jpg)](https://www.youtube.com/watch?v=WBPkkjI2dxM&t=680s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:20-12:12" "https://www.youtube.com/watch?v=WBPkkjI2dxM" --force-keyframes-at-cuts --merge-output-format mp4 -o "WBPkkjI2dxM-11m20s.mp4"
+```
+</details>
 
 > "In my opinion, AI will give us time not to be super productive even though you can be super productive with AI. It will give us time to stare at the wall and come up with phenomenal ideas that we humans are famous for."
 > — Turing Post, [11:51](https://www.youtube.com/watch?v=WBPkkjI2dxM&t=711s) The episode dissects three major topics: a widely-cited MIT report on AI investments that turns out to be a thinly-veiled advertisement for MIT Nanda project, Mustafa Suleyman's essay on "seemingly conscious AI" and why we must build AI for people rather than to be a person, and a New York Times opinion piece arguing that AI is becoming ordinary rather than superhuman.

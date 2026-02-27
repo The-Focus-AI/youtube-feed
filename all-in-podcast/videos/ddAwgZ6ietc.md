@@ -42,35 +42,70 @@ The episode concludes with a heated debate about the explosion of state-level AI
 
 ### "PE's existential crisis"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ddAwgZ6ietc?start=200&end=260" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ddAwgZ6ietc/hqdefault.jpg)](https://www.youtube.com/watch?v=ddAwgZ6ietc&t=200s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:20-4:20" "https://www.youtube.com/watch?v=ddAwgZ6ietc" --force-keyframes-at-cuts --merge-output-format mp4 -o "ddAwgZ6ietc-3m20s.mp4"
+```
+</details>
 
 > "The whole model of PE is that you use leverage to buy a company, you cut costs, you engineer the balance sheet, and you sell it in three to five years. But when interest rates are at 5% and you can't do financial engineering anymore, and the exit market is closed, you have to actually operate these businesses. That's a totally different skillset."
 > — Jason Calacanis, [3:20](https://www.youtube.com/watch?v=ddAwgZ6ietc&t=200s)
 
 ### "The AI rollup goldmine"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ddAwgZ6ietc?start=1700&end=1760" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ddAwgZ6ietc/hqdefault.jpg)](https://www.youtube.com/watch?v=ddAwgZ6ietc&t=1700s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*28:20-29:20" "https://www.youtube.com/watch?v=ddAwgZ6ietc" --force-keyframes-at-cuts --merge-output-format mp4 -o "ddAwgZ6ietc-28m20s.mp4"
+```
+</details>
 
 > "You buy a boring vertical SaaS company doing $50 million in revenue with 60% margins. You inject AI into the product. You cut the support team by 80%. You automate half the sales process. Suddenly you've got 85% margins and the product is actually better. That's the AI rollup playbook and nobody's really doing it at scale yet."
 > — Jason Calacanis, [28:20](https://www.youtube.com/watch?v=ddAwgZ6ietc&t=1700s)
 
 ### "Open source is the real story"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ddAwgZ6ietc?start=2900&end=2960" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ddAwgZ6ietc/hqdefault.jpg)](https://www.youtube.com/watch?v=ddAwgZ6ietc&t=2900s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*48:20-49:20" "https://www.youtube.com/watch?v=ddAwgZ6ietc" --force-keyframes-at-cuts --merge-output-format mp4 -o "ddAwgZ6ietc-48m20s.mp4"
+```
+</details>
 
 > "DeepSeek just released a model that scores within a few points of Claude and GPT-4 on every benchmark, and it cost them a fraction of what it cost Anthropic and OpenAI to build. If open source models get to 95% of frontier capability at 10% of the cost, the entire business model of the proprietary AI labs comes into question."
 > — Chamath Palihapitiya, [48:20](https://www.youtube.com/watch?v=ddAwgZ6ietc&t=2900s)
 
 ### "700 bills across 45 states"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ddAwgZ6ietc?start=3950&end=4010" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ddAwgZ6ietc/hqdefault.jpg)](https://www.youtube.com/watch?v=ddAwgZ6ietc&t=3950s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*65:50-66:50" "https://www.youtube.com/watch?v=ddAwgZ6ietc" --force-keyframes-at-cuts --merge-output-format mp4 -o "ddAwgZ6ietc-65m50s.mp4"
+```
+</details>
 
 > "There are over 700 AI-related bills that have been introduced in 45 state legislatures. If every state passes its own AI regulation, you're going to have a patchwork that makes it impossible for any AI company to operate nationally. This is exactly where federal preemption is needed."
 > — David Sacks, [1:05:50](https://www.youtube.com/watch?v=ddAwgZ6ietc&t=3950s)
 
 ### "AI slop or the future of content?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ddAwgZ6ietc?start=2350&end=2410" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ddAwgZ6ietc/hqdefault.jpg)](https://www.youtube.com/watch?v=ddAwgZ6ietc&t=2350s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*39:10-40:10" "https://www.youtube.com/watch?v=ddAwgZ6ietc" --force-keyframes-at-cuts --merge-output-format mp4 -o "ddAwgZ6ietc-39m10s.mp4"
+```
+</details>
 
 > "OpenAI and Meta both just launched short-form video apps where you type a prompt and it generates a TikTok-style video. The quality is actually impressive. But the question is: does anyone actually want to watch AI-generated content? Or is this just the industrialization of slop?"
 > — David Friedberg, [39:10](https://www.youtube.com/watch?v=ddAwgZ6ietc&t=2350s)

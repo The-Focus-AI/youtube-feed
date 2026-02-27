@@ -35,35 +35,70 @@ Michael also promotes his own Iron Snail clothing line, including the Prologue V
 
 ### "Lee Denim is the Answer"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eP9iXl6m5tM?start=140&end=195" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eP9iXl6m5tM/hqdefault.jpg)](https://www.youtube.com/watch?v=eP9iXl6m5tM&t=140s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:20-3:15" "https://www.youtube.com/watch?v=eP9iXl6m5tM" --force-keyframes-at-cuts --merge-output-format mp4 -o "eP9iXl6m5tM-2m20s.mp4"
+```
+</details>
 
 > "Lee denim is the answer as to why the type 3 Levi's denim jacket and all the type 3s after that for many different brands have those two lines in the front and two lines in the back."
 > — Michael, [2:25](https://www.youtube.com/watch?v=eP9iXl6m5tM&t=145s)
 
 ### "Indigo is 6,000 Years Old"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eP9iXl6m5tM?start=279&end=330" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eP9iXl6m5tM/hqdefault.jpg)](https://www.youtube.com/watch?v=eP9iXl6m5tM&t=279s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:39-5:30" "https://www.youtube.com/watch?v=eP9iXl6m5tM" --force-keyframes-at-cuts --merge-output-format mp4 -o "eP9iXl6m5tM-4m39s.mp4"
+```
+</details>
 
 > "Indigo is like a core thing of humanity as we know it. The oldest sample we have is 6,000 years old, more likely it was used up to 10,000 years ago."
 > — Michael, [4:52](https://www.youtube.com/watch?v=eP9iXl6m5tM&t=292s)
 
 ### "The Type 2 Is Levi's Indecision"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eP9iXl6m5tM?start=624&end=680" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eP9iXl6m5tM/hqdefault.jpg)](https://www.youtube.com/watch?v=eP9iXl6m5tM&t=624s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:24-11:20" "https://www.youtube.com/watch?v=eP9iXl6m5tM" --force-keyframes-at-cuts --merge-output-format mp4 -o "eP9iXl6m5tM-10m24s.mp4"
+```
+</details>
 
 > "The Type 2 or the 507XX is kind of the pinnacle of Levi's indecision on if they want to be a workwear brand or if they want to be a fashion brand."
 > — Michael, [11:24](https://www.youtube.com/watch?v=eP9iXl6m5tM&t=684s)
 
 ### "There Is No Type Four - Star Wars Changed Everything"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eP9iXl6m5tM?start=851&end=910" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eP9iXl6m5tM/hqdefault.jpg)](https://www.youtube.com/watch?v=eP9iXl6m5tM&t=851s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:11-15:10" "https://www.youtube.com/watch?v=eP9iXl6m5tM" --force-keyframes-at-cuts --merge-output-format mp4 -o "eP9iXl6m5tM-14m11s.mp4"
+```
+</details>
 
 > "There is no type four. After a virtually 70-year streak of uninterrupted smash hit western films, Hollywood is rocked by a little film called Star Wars."
 > — Michael, [14:15](https://www.youtube.com/watch?v=eP9iXl6m5tM&t=855s)
 
 ### "The Toy Story Documentary"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eP9iXl6m5tM?start=880&end=910" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eP9iXl6m5tM/hqdefault.jpg)](https://www.youtube.com/watch?v=eP9iXl6m5tM&t=880s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:40-15:10" "https://www.youtube.com/watch?v=eP9iXl6m5tM" --force-keyframes-at-cuts --merge-output-format mp4 -o "eP9iXl6m5tM-14m40s.mp4"
+```
+</details>
 
 > "There's actually a very popular documentary about the shift from Western culture to space culture and how people got obsessed with it. The documentary is called Toy Story."
 > — Michael, [14:52](https://www.youtube.com/watch?v=eP9iXl6m5tM&t=892s)

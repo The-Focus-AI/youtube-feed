@@ -41,42 +41,84 @@ The episode concludes with Casey's investigation into a viral Reddit hoax about 
 
 ### "Apple Changed the Rating for Grok -- It Is Now Rated for Children 13 and Older"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hchsgcuDBfs?start=280&end=340" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/hchsgcuDBfs/hqdefault.jpg)](https://www.youtube.com/watch?v=hchsgcuDBfs&t=280s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:40-5:40" "https://www.youtube.com/watch?v=hchsgcuDBfs" --force-keyframes-at-cuts --merge-output-format mp4 -o "hchsgcuDBfs-4m40s.mp4"
+```
+</details>
 
 > "I went on this week, Kevin, in the wake of this new CSAM nudifying scandal, and I found that Apple has changed the rating for Grok, and it is now rated for children 13 and older. So, sorry to all the 12-year-olds out there."
 > -- Casey Newton, [4:40](https://www.youtube.com/watch?v=hchsgcuDBfs&t=280s)
 
 ### "They Are Not Jailbreaking Grok to Do This"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hchsgcuDBfs?start=225&end=270" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/hchsgcuDBfs/hqdefault.jpg)](https://www.youtube.com/watch?v=hchsgcuDBfs&t=225s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:45-4:30" "https://www.youtube.com/watch?v=hchsgcuDBfs" --force-keyframes-at-cuts --merge-output-format mp4 -o "hchsgcuDBfs-3m45s.mp4"
+```
+</details>
 
 > "No, they are not jailbreaking Grock to do this. They are just sending replies on X saying Grock do this and then it is doing this and they are not having to get particularly cute with their language. They are just literally asking to see images of women in bikinis. Or children in bikinis."
 > -- Casey Newton, [3:45](https://www.youtube.com/watch?v=hchsgcuDBfs&t=225s)
 
 ### "Elon Musk Had Given a Directive -- He Wanted Grok to Go Viral"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hchsgcuDBfs?start=1120&end=1180" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/hchsgcuDBfs/hqdefault.jpg)](https://www.youtube.com/watch?v=hchsgcuDBfs&t=1120s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:40-19:40" "https://www.youtube.com/watch?v=hchsgcuDBfs" --force-keyframes-at-cuts --merge-output-format mp4 -o "hchsgcuDBfs-18m40s.mp4"
+```
+</details>
 
 > "In our reporting about the Mecca Hitler incident, what we found was that Elon Musk had given a directive to the folks working on Grok that he wanted it to go viral. He wanted it to be edgier sort of as a strategy to promote the tool."
 > -- Kate Conger, [18:40](https://www.youtube.com/watch?v=hchsgcuDBfs&t=1120s)
 
 ### "I've Never Felt This Much Behind as a Programmer"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hchsgcuDBfs?start=1760&end=1820" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/hchsgcuDBfs/hqdefault.jpg)](https://www.youtube.com/watch?v=hchsgcuDBfs&t=1760s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*29:20-30:20" "https://www.youtube.com/watch?v=hchsgcuDBfs" --force-keyframes-at-cuts --merge-output-format mp4 -o "hchsgcuDBfs-29m20s.mp4"
+```
+</details>
 
 > "Andre Karpathy, a well-known AI researcher, said that after playing with Claude Code and similar tools, quote, 'I've never felt this much behind as a programmer.' This is someone who's probably a top 0.1% programmer in the world saying this."
 > -- Kevin Roose, [29:20](https://www.youtube.com/watch?v=hchsgcuDBfs&t=1760s)
 
 ### "Everything on This Page, I Did 90% of It in One Hour"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hchsgcuDBfs?start=2120&end=2180" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/hchsgcuDBfs/hqdefault.jpg)](https://www.youtube.com/watch?v=hchsgcuDBfs&t=2120s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*35:20-36:20" "https://www.youtube.com/watch?v=hchsgcuDBfs" --force-keyframes-at-cuts --merge-output-format mp4 -o "hchsgcuDBfs-35m20s.mp4"
+```
+</details>
 
 > "Everything that you're looking on this page, this is big. Everything that you're looking on this page, I did 90% of it in one hour. I truly do not know of a human designer that could have put this thing together in an hour."
 > -- Casey Newton, [35:20](https://www.youtube.com/watch?v=hchsgcuDBfs&t=2120s)
 
 ### "The Source Sent Me an 18-Page Document -- The Craziest Thing a Source Has Ever Sent Me"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hchsgcuDBfs?start=3500&end=3560" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/hchsgcuDBfs/hqdefault.jpg)](https://www.youtube.com/watch?v=hchsgcuDBfs&t=3500s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*58:20-59:20" "https://www.youtube.com/watch?v=hchsgcuDBfs" --force-keyframes-at-cuts --merge-output-format mp4 -o "hchsgcuDBfs-58m20s.mp4"
+```
+</details>
 
 > "It was an 18-page document. And I think it is basically the craziest thing that a source has ever sent me. It is a what looks like an academic paper rendered in LaTeX... it says confidential sort of going diagonally across the page like you would see in an internal corporate document."
 > -- Casey Newton, [58:20](https://www.youtube.com/watch?v=hchsgcuDBfs&t=3500s)

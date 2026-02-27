@@ -37,42 +37,84 @@ MKBHD delivers a balanced review of the Google Pixel 10 and Pixel 10 Pro, framin
 
 ### "The Good News/Bad News Pixel Dilemma"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i63u-iAnhuk?start=0&end=48" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/i63u-iAnhuk/hqdefault.jpg)](https://www.youtube.com/watch?v=i63u-iAnhuk&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-0:48" "https://www.youtube.com/watch?v=i63u-iAnhuk" --force-keyframes-at-cuts --merge-output-format mp4 -o "i63u-iAnhuk-0m00s.mp4"
+```
+</details>
 
 > "All right, I have... What do you want first? The good news, great. Good call. It's still a Pixel. The bad news? It is still a Pixel."
 > — Marques Brownlee, [0:00](https://www.youtube.com/watch?v=i63u-iAnhuk&t=0s)
 
 ### "The Shocking GPU Benchmark Results"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i63u-iAnhuk?start=362&end=420" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/i63u-iAnhuk/hqdefault.jpg)](https://www.youtube.com/watch?v=i63u-iAnhuk&t=362s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:02-7:00" "https://www.youtube.com/watch?v=i63u-iAnhuk" --force-keyframes-at-cuts --merge-output-format mp4 -o "i63u-iAnhuk-6m02s.mp4"
+```
+</details>
 
 > "For some reason, Geekbench 6 OpenCL scores are literally half of the Pixel 9s and a full, like, 600% behind... Jesus."
 > — Marques Brownlee, [6:02](https://www.youtube.com/watch?v=i63u-iAnhuk&t=362s)
 
 ### "Magic Cue's Disappointing Reality"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i63u-iAnhuk?start=687&end=753" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/i63u-iAnhuk/hqdefault.jpg)](https://www.youtube.com/watch?v=i63u-iAnhuk&t=687s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:27-12:33" "https://www.youtube.com/watch?v=i63u-iAnhuk" --force-keyframes-at-cuts --merge-output-format mp4 -o "i63u-iAnhuk-11m27s.mp4"
+```
+</details>
 
 > "The thing it did the most often was it just kept giving me a link back to, like, open my calendar and check for the information myself, which is still kinda helpful, but only half as helpful as advertised."
 > — Marques Brownlee, [11:27](https://www.youtube.com/watch?v=i63u-iAnhuk&t=687s)
 
 ### "Conversational Photo Editing is a Game Changer"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i63u-iAnhuk?start=778&end=833" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/i63u-iAnhuk/hqdefault.jpg)](https://www.youtube.com/watch?v=i63u-iAnhuk&t=778s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:58-13:53" "https://www.youtube.com/watch?v=i63u-iAnhuk" --force-keyframes-at-cuts --merge-output-format mp4 -o "i63u-iAnhuk-12m58s.mp4"
+```
+</details>
 
 > "From simple stuff like, you know, brighten up the faces... But all the way up to 'Add a hot air balloon to the sky.' It'll do that. Or, 'Delete the cars...' And then it does it."
 > — Marques Brownlee, [12:58](https://www.youtube.com/watch?v=i63u-iAnhuk&t=778s)
 
 ### "Pixel Zoom Gets Smoked by Samsung"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i63u-iAnhuk?start=952&end=1016" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/i63u-iAnhuk/hqdefault.jpg)](https://www.youtube.com/watch?v=i63u-iAnhuk&t=952s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:52-16:56" "https://www.youtube.com/watch?v=i63u-iAnhuk" --force-keyframes-at-cuts --merge-output-format mp4 -o "i63u-iAnhuk-15m52s.mp4"
+```
+</details>
 
 > "They kinda look like they have a cartoon filter over them, even compared to a pretty mediocre zoom like the iPhone 16 Pro. And it gets absolutely smoked by a good zoom like the S25 Ultra."
 > — Marques Brownlee, [16:18](https://www.youtube.com/watch?v=i63u-iAnhuk&t=978s)
 
 ### "The Pixel's Aging Problem"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i63u-iAnhuk?start=1109&end=1160" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/i63u-iAnhuk/hqdefault.jpg)](https://www.youtube.com/watch?v=i63u-iAnhuk&t=1109s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:29-19:20" "https://www.youtube.com/watch?v=i63u-iAnhuk" --force-keyframes-at-cuts --merge-output-format mp4 -o "i63u-iAnhuk-18m29s.mp4"
+```
+</details>
 
 > "I'm probably gonna switch to as my main daily driver phone and then I'm probably gonna with more tempting... And then I'll probably when it starts aging poorly."
 > — Marques Brownlee, [18:29](https://www.youtube.com/watch?v=i63u-iAnhuk&t=1109s)

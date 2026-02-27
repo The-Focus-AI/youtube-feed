@@ -33,42 +33,84 @@ The conversation explores Cover's iterative approach to product development, sta
 
 ### "Homes should be 10x cheaper than cars on a cost per square foot basis - but they're not"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Wg_cFRjPQQo?start=0&end=65" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Wg_cFRjPQQo/hqdefault.jpg)](https://www.youtube.com/watch?v=Wg_cFRjPQQo&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-1:05" "https://www.youtube.com/watch?v=Wg_cFRjPQQo" --force-keyframes-at-cuts --merge-output-format mp4 -o "Wg_cFRjPQQo-0m00s.mp4"
+```
+</details>
 
 > "The home should be 10 times cheaper than the car on a cost per square foot standpoint, but it's not. If you look at how those two things are made, it's night and day. The only way to make homes better, faster, higher quality at scale is vertical integration."
 > — Alexis Rivas, [0:00](https://www.youtube.com/watch?v=Wg_cFRjPQQo&t=0s)
 
 ### "It took longer to do the paperwork than to build the home"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Wg_cFRjPQQo?start=1174&end=1240" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Wg_cFRjPQQo/hqdefault.jpg)](https://www.youtube.com/watch?v=Wg_cFRjPQQo&t=1174s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*19:34-20:40" "https://www.youtube.com/watch?v=Wg_cFRjPQQo" --force-keyframes-at-cuts --merge-output-format mp4 -o "Wg_cFRjPQQo-19m34s.mp4"
+```
+</details>
 
 > "Our fastest build ever was 104 days from permit submission to certificate of occupancy. It took longer to do the paperwork to build a home than to actually build a home. More than half was regulatory paperwork, not construction."
 > — Alexis Rivas, [19:34](https://www.youtube.com/watch?v=Wg_cFRjPQQo&t=1174s)
 
 ### "Tesla employees were commuting 3 hours each way to the factory"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Wg_cFRjPQQo?start=141&end=205" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Wg_cFRjPQQo/hqdefault.jpg)](https://www.youtube.com/watch?v=Wg_cFRjPQQo&t=141s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:21-3:25" "https://www.youtube.com/watch?v=Wg_cFRjPQQo" --force-keyframes-at-cuts --merge-output-format mp4 -o "Wg_cFRjPQQo-2m21s.mp4"
+```
+</details>
 
 > "We did 9 months in the Bay Area before moving to Southern California. Factory space was insanely expensive and Tesla engineers were commuting 3 hours each way to the factory. That's insane and not sustainable."
 > — Alexis Rivas, [2:21](https://www.youtube.com/watch?v=Wg_cFRjPQQo&t=141s)
 
 ### "Prefab has been tried for 100 years - we started high-end to prove it's a better way to build"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Wg_cFRjPQQo?start=185&end=250" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Wg_cFRjPQQo/hqdefault.jpg)](https://www.youtube.com/watch?v=Wg_cFRjPQQo&t=185s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:05-4:10" "https://www.youtube.com/watch?v=Wg_cFRjPQQo" --force-keyframes-at-cuts --merge-output-format mp4 -o "Wg_cFRjPQQo-3m05s.mp4"
+```
+</details>
 
 > "Building homes in a factory has been around for 100 years. Most people developed a reputation for low quality, associated with mobile homes. We started high-end in Southern California to prove to the world this is a better way to build first."
 > — Alexis Rivas, [3:05](https://www.youtube.com/watch?v=Wg_cFRjPQQo&t=185s)
 
 ### "We built a one-bedroom home in 8 days - unsustainably long days"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Wg_cFRjPQQo?start=695&end=760" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Wg_cFRjPQQo/hqdefault.jpg)](https://www.youtube.com/watch?v=Wg_cFRjPQQo&t=695s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:35-12:40" "https://www.youtube.com/watch?v=Wg_cFRjPQQo" --force-keyframes-at-cuts --merge-output-format mp4 -o "Wg_cFRjPQQo-11m35s.mp4"
+```
+</details>
 
 > "The third version, we built the home - a one-bedroom with kitchen and bathroom - in 8 days. That was 8 unsustainably long days. A lot of burning the 3AM oil. If we're looking at hours, probably 3 weeks worth in 8 days. But people are living in those."
 > — Alexis Rivas, [11:35](https://www.youtube.com/watch?v=Wg_cFRjPQQo&t=695s)
 
 ### "85% of homes are custom floor plans - but unique end result doesn't mean every part is unique"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Wg_cFRjPQQo?start=2123&end=2195" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Wg_cFRjPQQo/hqdefault.jpg)](https://www.youtube.com/watch?v=Wg_cFRjPQQo&t=2123s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*35:23-36:35" "https://www.youtube.com/watch?v=Wg_cFRjPQQo" --force-keyframes-at-cuts --merge-output-format mp4 -o "Wg_cFRjPQQo-35m23s.mp4"
+```
+</details>
 
 > "85% of our homes are custom floor plans. But unique end result doesn't mean every part is unique. Finite standardized Lego blocks - wall panels, floor panels, roof panels - combine in practically infinite configurations to create unique homes."
 > — Alexis Rivas, [35:23](https://www.youtube.com/watch?v=Wg_cFRjPQQo&t=2123s)

@@ -32,35 +32,70 @@ The hosts compare three AI-powered browsers (DIA, Perplexity's Comet, and Google
 
 ### "There Is No AI Without the Web"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xpzum-yCWv8?start=780&end=840" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/xpzum-yCWv8/hqdefault.jpg)](https://www.youtube.com/watch?v=xpzum-yCWv8&t=780s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:00-14:00" "https://www.youtube.com/watch?v=xpzum-yCWv8" --force-keyframes-at-cuts --merge-output-format mp4 -o "xpzum-yCWv8-13m00s.mp4"
+```
+</details>
 
 > "There is no AI without the web. The web tends to be produced by very large organizations putting all their stuff to help everyone else work with them. The appetite for more knowledge is so strong for AI companies that they want to take in everything."
 > -- Rich Zottoli, [13:00](https://www.youtube.com/watch?v=xpzum-yCWv8&t=780s)
 
 ### "Most People Don't Change What They Do"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xpzum-yCWv8?start=1080&end=1140" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/xpzum-yCWv8/hqdefault.jpg)](https://www.youtube.com/watch?v=xpzum-yCWv8&t=1080s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:00-19:00" "https://www.youtube.com/watch?v=xpzum-yCWv8" --force-keyframes-at-cuts --merge-output-format mp4 -o "xpzum-yCWv8-18m00s.mp4"
+```
+</details>
 
 > "Most people don't change what they do. My mom is still typing in Google. She's not hankering to get ChatGPT. AOL dialup ended like six months ago. There was still tens of millions of dollars a year on AOL dialup. Because it worked."
 > -- Rich Zottoli, [18:00](https://www.youtube.com/watch?v=xpzum-yCWv8&t=1080s)
 
 ### "A Really Excellent Web Summarizer"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xpzum-yCWv8?start=870&end=930" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/xpzum-yCWv8/hqdefault.jpg)](https://www.youtube.com/watch?v=xpzum-yCWv8&t=870s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:30-15:30" "https://www.youtube.com/watch?v=xpzum-yCWv8" --force-keyframes-at-cuts --merge-output-format mp4 -o "xpzum-yCWv8-14m30s.mp4"
+```
+</details>
 
 > "A good way to look at AI in this context is that if you really use it, it's essentially a really excellent web summarizer. It's a UX innovation to a large extent."
 > -- Rich Zottoli, [14:30](https://www.youtube.com/watch?v=xpzum-yCWv8&t=870s)
 
 ### "Google Is Worth More Than All the Real Estate in New York City"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xpzum-yCWv8?start=990&end=1050" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/xpzum-yCWv8/hqdefault.jpg)](https://www.youtube.com/watch?v=xpzum-yCWv8&t=990s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:30-17:30" "https://www.youtube.com/watch?v=xpzum-yCWv8" --force-keyframes-at-cuts --merge-output-format mp4 -o "xpzum-yCWv8-16m30s.mp4"
+```
+</details>
 
 > "All five boroughs of New York City real estate is worth somewhere between one and two trillion dollars. Google is worth more. So is Apple. When you think about them giving up territory, that's like saying, 'Hey, New York City, why don't you give up Central Park and everything south?'"
 > -- Rich Zottoli, [16:30](https://www.youtube.com/watch?v=xpzum-yCWv8&t=990s)
 
 ### "The Buffet Doesn't Constantly Refill"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xpzum-yCWv8?start=1800&end=1860" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/xpzum-yCWv8/hqdefault.jpg)](https://www.youtube.com/watch?v=xpzum-yCWv8&t=1800s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*30:00-31:00" "https://www.youtube.com/watch?v=xpzum-yCWv8" --force-keyframes-at-cuts --merge-output-format mp4 -o "xpzum-yCWv8-30m00s.mp4"
+```
+</details>
 
 > "The buffet doesn't constantly refill. AI took off because the web was so rich, but we still have to keep replenishing the content on the web. You got to come out, you got to put the bacon bits and the peas in."
 > -- Paul Ford, [30:00](https://www.youtube.com/watch?v=xpzum-yCWv8&t=1800s)

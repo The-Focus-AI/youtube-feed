@@ -55,35 +55,70 @@ Finally, in a "history mystery" segment, Professor Mark Humphries describes how 
 
 ### "We Are Going to Build Freaking Data Centers in Space"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UBe4_V04Okg?start=143&end=210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/UBe4_V04Okg/hqdefault.jpg)](https://www.youtube.com/watch?v=UBe4_V04Okg&t=143s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:23-3:30" "https://www.youtube.com/watch?v=UBe4_V04Okg" --force-keyframes-at-cuts --merge-output-format mp4 -o "UBe4_V04Okg-2m23s.mp4"
+```
+</details>
 
 > "We are at the stage of this bubble where people have come to feel like we cannot provide enough electricity for the future we want to build on the planet that we live on. We actually have to get off the planet to realize our ambitions."
 > -- Casey Newton, [2:23](https://www.youtube.com/watch?v=UBe4_V04Okg&t=143s)
 
 ### "When Are the Pitchforks Going to Be Out?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UBe4_V04Okg?start=1800&end=1860" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/UBe4_V04Okg/hqdefault.jpg)](https://www.youtube.com/watch?v=UBe4_V04Okg&t=1800s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*30:00-31:00" "https://www.youtube.com/watch?v=UBe4_V04Okg" --force-keyframes-at-cuts --merge-output-format mp4 -o "UBe4_V04Okg-30m00s.mp4"
+```
+</details>
 
 > "The main question that people talk about is when are the pitchforks going to be out for this technology and what is going to cause the pitchforks to come out? I have come to the conclusion that rather than it being a singular issue, it's going to be this kind of miasma of issues."
 > -- Dean Ball, [30:00](https://www.youtube.com/watch?v=UBe4_V04Okg&t=1800s)
 
 ### "The Model Did Something Models Shouldn't Be Able to Do"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UBe4_V04Okg?start=3300&end=3370" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/UBe4_V04Okg/hqdefault.jpg)](https://www.youtube.com/watch?v=UBe4_V04Okg&t=3300s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*55:00-56:10" "https://www.youtube.com/watch?v=UBe4_V04Okg" --force-keyframes-at-cuts --merge-output-format mp4 -o "UBe4_V04Okg-55m00s.mp4"
+```
+</details>
 
 > "The model had to work backwards from a different currency system with a different base. The thing that makes that important is that models shouldn't be able to do that. These models are basically trained in pattern recognition."
 > -- Mark Humphries, [55:00](https://www.youtube.com/watch?v=UBe4_V04Okg&t=3300s)
 
 ### "NIMBYs to KNOPs: Not On My Planet"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UBe4_V04Okg?start=900&end=950" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/UBe4_V04Okg/hqdefault.jpg)](https://www.youtube.com/watch?v=UBe4_V04Okg&t=900s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:00-15:50" "https://www.youtube.com/watch?v=UBe4_V04Okg" --force-keyframes-at-cuts --merge-output-format mp4 -o "UBe4_V04Okg-15m00s.mp4"
+```
+</details>
 
 > "We'll have gone from the NIMBYs saying not in my backyard to this new group of people that I'm calling the KNOPs that are saying not on my planet, and they want all the data centers just built up in the sky."
 > -- Casey Newton, [15:00](https://www.youtube.com/watch?v=UBe4_V04Okg&t=900s)
 
 ### "You Posted Your Way to a Job in the Federal Government"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UBe4_V04Okg?start=1200&end=1250" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/UBe4_V04Okg/hqdefault.jpg)](https://www.youtube.com/watch?v=UBe4_V04Okg&t=1200s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:00-20:50" "https://www.youtube.com/watch?v=UBe4_V04Okg" --force-keyframes-at-cuts --merge-output-format mp4 -o "UBe4_V04Okg-20m00s.mp4"
+```
+</details>
 
 > "My Substack is called Hyperdimensional. I was recruited to the White House on the basis of primarily my writing on Substack. Probably a big chunk of it was my posts on X, which is maybe even more scary."
 > -- Dean Ball, [20:00](https://www.youtube.com/watch?v=UBe4_V04Okg&t=1200s)

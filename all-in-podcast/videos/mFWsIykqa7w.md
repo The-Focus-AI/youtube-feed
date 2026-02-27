@@ -41,42 +41,84 @@ On the business side, Triple H discusses WWE's massive content output (52 weeks 
 
 ### "The most charismatic person gets elected president"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mFWsIykqa7w?start=279&end=340" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mFWsIykqa7w/hqdefault.jpg)](https://www.youtube.com/watch?v=mFWsIykqa7w&t=279s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:39-5:40" "https://www.youtube.com/watch?v=mFWsIykqa7w" --force-keyframes-at-cuts --merge-output-format mp4 -o "mFWsIykqa7w-4m39s.mp4"
+```
+</details>
 
 > "If you go back through history, even in politics, and you look at the person that gets elected in every presidential cycle, it's the most charismatic person on that stage that gets elected president. At the end of the day, they're picking who they like."
 > — Triple H, [4:39](https://www.youtube.com/watch?v=mFWsIykqa7w&t=279s)
 
 ### "Trump was willing to get egg on his face"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mFWsIykqa7w?start=311&end=375" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mFWsIykqa7w/hqdefault.jpg)](https://www.youtube.com/watch?v=mFWsIykqa7w&t=311s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:11-6:15" "https://www.youtube.com/watch?v=mFWsIykqa7w" --force-keyframes-at-cuts --merge-output-format mp4 -o "mFWsIykqa7w-5m11s.mp4"
+```
+</details>
 
 > "Donald Trump was very good in our world of WWE because he was okay to be himself. He was okay to sort of get egg on his face and be embarrassed sometimes. He was okay to put it all out there and just be him."
 > — Triple H, [5:11](https://www.youtube.com/watch?v=mFWsIykqa7w&t=311s)
 
 ### "The best heel believes he is justified"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mFWsIykqa7w?start=411&end=470" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mFWsIykqa7w/hqdefault.jpg)](https://www.youtube.com/watch?v=mFWsIykqa7w&t=411s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:51-7:50" "https://www.youtube.com/watch?v=mFWsIykqa7w" --force-keyframes-at-cuts --merge-output-format mp4 -o "mFWsIykqa7w-6m51s.mp4"
+```
+</details>
 
 > "As long as the bad guy, the heel is justified somewhere in his mind that what he is doing is right, that leads to the best heel. Because if 90% of the world disagrees with you, but you believe no, you're all wrong. I see this and it is right."
 > — Triple H, [6:51](https://www.youtube.com/watch?v=mFWsIykqa7w&t=411s)
 
 ### "We don't write shows based on great matches"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mFWsIykqa7w?start=591&end=655" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mFWsIykqa7w/hqdefault.jpg)](https://www.youtube.com/watch?v=mFWsIykqa7w&t=591s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:51-10:55" "https://www.youtube.com/watch?v=mFWsIykqa7w" --force-keyframes-at-cuts --merge-output-format mp4 -o "mFWsIykqa7w-9m51s.mp4"
+```
+</details>
 
 > "We don't write the shows based on that'll be a great match. We write it on the stories that we can create. The protagonist, the antagonist, how does that work with each other? Telling stories that can resonate with people."
 > — Triple H, [9:51](https://www.youtube.com/watch?v=mFWsIykqa7w&t=591s)
 
 ### "COVID showed people that experiences matter, not objects"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mFWsIykqa7w?start=1192&end=1260" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mFWsIykqa7w/hqdefault.jpg)](https://www.youtube.com/watch?v=mFWsIykqa7w&t=1192s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*19:52-21:00" "https://www.youtube.com/watch?v=mFWsIykqa7w" --force-keyframes-at-cuts --merge-output-format mp4 -o "mFWsIykqa7w-19m52s.mp4"
+```
+</details>
 
 > "I think COVID that moment in COVID started to maybe show people that like objects aren't where it's at, that experiences are where it's at. Especially shared experience."
 > — Triple H, [19:52](https://www.youtube.com/watch?v=mFWsIykqa7w&t=1192s)
 
 ### "Blur the line between real and fantasy - that's when it gets magical"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mFWsIykqa7w?start=1514&end=1564" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mFWsIykqa7w/hqdefault.jpg)](https://www.youtube.com/watch?v=mFWsIykqa7w&t=1514s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*25:14-26:04" "https://www.youtube.com/watch?v=mFWsIykqa7w" --force-keyframes-at-cuts --merge-output-format mp4 -o "mFWsIykqa7w-25m14s.mp4"
+```
+</details>
 
 > "Today you have to sort of blend who you are real life with the character that you play and sort of blur this line. Blur this line of the fourth wall of was that real or do these guys really not like each other... and that's when it gets magical."
 > — Triple H, [25:14](https://www.youtube.com/watch?v=mFWsIykqa7w&t=1514s)

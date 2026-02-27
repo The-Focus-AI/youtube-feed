@@ -39,42 +39,84 @@ The interview also covers the economics and geopolitics of the coming robot revo
 
 ### "Five years to fully autonomous household robots"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/48pxVdmkMIE?start=640&end=700" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/48pxVdmkMIE/hqdefault.jpg)](https://www.youtube.com/watch?v=48pxVdmkMIE&t=640s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:40-11:40" "https://www.youtube.com/watch?v=48pxVdmkMIE" --force-keyframes-at-cuts --merge-output-format mp4 -o "48pxVdmkMIE-10m40s.mp4"
+```
+</details>
 
 > "Okay, five years. If you can fully autonomously run a household, you can fully autonomously do most blue-collar work. My median estimate is five years for robots that are able to do most blue-collar work in the economy."
 > -- Sergey Levine, [10:40](https://www.youtube.com/watch?v=48pxVdmkMIE&t=640s)
 
 ### "The self-improvement flywheel"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/48pxVdmkMIE?start=275&end=340" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/48pxVdmkMIE/hqdefault.jpg)](https://www.youtube.com/watch?v=48pxVdmkMIE&t=275s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:35-5:40" "https://www.youtube.com/watch?v=48pxVdmkMIE" --force-keyframes-at-cuts --merge-output-format mp4 -o "48pxVdmkMIE-4m35s.mp4"
+```
+</details>
 
 > "Once we reach some basic level of competence, the robots will go out there in the world. And out there in the world, they can collect experience and get better. To me, what I tend to think about in terms of timelines is not the date when it's done, but the date when the flywheel starts."
 > -- Sergey Levine, [4:35](https://www.youtube.com/watch?v=48pxVdmkMIE&t=275s)
 
 ### "Robots can make mistakes and learn from them"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/48pxVdmkMIE?start=458&end=520" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/48pxVdmkMIE/hqdefault.jpg)](https://www.youtube.com/watch?v=48pxVdmkMIE&t=458s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:38-8:40" "https://www.youtube.com/watch?v=48pxVdmkMIE" --force-keyframes-at-cuts --merge-output-format mp4 -o "48pxVdmkMIE-7m38s.mp4"
+```
+</details>
 
 > "When you're doing physical tasks, that stuff just happens more often than it does with language. If you answer a question wrong, it's not like you can just go back and fix it. But if you're folding the T-shirt and you drop it, you can reflect on that, figure out what went wrong."
 > -- Sergey Levine, [7:38](https://www.youtube.com/watch?v=48pxVdmkMIE&t=458s)
 
 ### "One second of context, folding inside-out shorts"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/48pxVdmkMIE?start=2780&end=2850" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/48pxVdmkMIE/hqdefault.jpg)](https://www.youtube.com/watch?v=48pxVdmkMIE&t=2780s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*46:20-47:30" "https://www.youtube.com/watch?v=48pxVdmkMIE" --force-keyframes-at-cuts --merge-output-format mp4 -o "48pxVdmkMIE-46m20s.mp4"
+```
+</details>
 
 > "What's especially surprising is that this model only has one second of context. It's seeing the image of what happened in the last second, and it's crazy that it will just see the last thing that happened and know: fold it inside out, then fold it correctly. One second of memory is enough to execute on a minute-long task."
 > -- Sergey Levine, [46:20](https://www.youtube.com/watch?v=48pxVdmkMIE&t=2780s)
 
 ### "Robots don't have to be humanoid"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/48pxVdmkMIE?start=4230&end=4290" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/48pxVdmkMIE/hqdefault.jpg)](https://www.youtube.com/watch?v=48pxVdmkMIE&t=4230s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*70:30-71:30" "https://www.youtube.com/watch?v=48pxVdmkMIE" --force-keyframes-at-cuts --merge-output-format mp4 -o "48pxVdmkMIE-70m30s.mp4"
+```
+</details>
 
 > "People sometimes think about robots as copies of people. But it's like your car or a bulldozer. You can put them into all sorts of weird places. You can make a robot that's 100 feet tall. If you have the intelligence to power it, you can probably do a lot better than the human form factor."
 > -- Sergey Levine, [1:10:30](https://www.youtube.com/watch?v=48pxVdmkMIE&t=4230s)
 
 ### "Robots can help manufacture more robots"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/48pxVdmkMIE?start=4520&end=4580" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/48pxVdmkMIE/hqdefault.jpg)](https://www.youtube.com/watch?v=48pxVdmkMIE&t=4520s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*75:20-76:20" "https://www.youtube.com/watch?v=48pxVdmkMIE" --force-keyframes-at-cuts --merge-output-format mp4 -o "48pxVdmkMIE-75m20s.mp4"
+```
+</details>
 
 > "Robots, unlike phones or computers, can help with the work of manufacturing more of themselves. Phones don't themselves help with the work. They can help you or they can help others. But robots which would go into this feedback loop -- that's the key difference."
 > -- Sergey Levine, [1:15:20](https://www.youtube.com/watch?v=48pxVdmkMIE&t=4520s)

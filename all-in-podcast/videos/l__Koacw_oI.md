@@ -37,42 +37,84 @@ The final segments focus on Tesla's earnings call, Elon Musk's compensation pack
 
 ### "My fundamental concern is if I build this enormous robot army"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l__Koacw_oI?start=2985&end=3045" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/l__Koacw_oI/hqdefault.jpg)](https://www.youtube.com/watch?v=l__Koacw_oI&t=2985s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*49:45-50:45" "https://www.youtube.com/watch?v=l__Koacw_oI" --force-keyframes-at-cuts --merge-output-format mp4 -o "l__Koacw_oI-49m45s.mp4"
+```
+</details>
 
 > "My fundamental concern with how much voting control I have at Tesla is if I build this enormous robot army. Can I just be ousted in the future? I don't feel comfortable building that robot army if I don't have at least influence over it."
 > — Elon Musk (quoted), [49:45](https://www.youtube.com/watch?v=l__Koacw_oI&t=2985s)
 
 ### "These robots are going to Mars"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l__Koacw_oI?start=3660&end=3720" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/l__Koacw_oI/hqdefault.jpg)](https://www.youtube.com/watch?v=l__Koacw_oI&t=3660s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*61:00-62:00" "https://www.youtube.com/watch?v=l__Koacw_oI" --force-keyframes-at-cuts --merge-output-format mp4 -o "l__Koacw_oI-61m00s.mp4"
+```
+</details>
 
 > "I'm willing to bet dollars to donuts that these robots go to Mars. I don't think they're going to... SpaceX buys them and sends them to Mars. You don't want to figure out how to create portable water and breathing mechanisms on Mars for the first 5 years. Send robots. Guess what? They don't need to eat or breathe or pee or poop."
 > — Chamath Palihapitiya, [61:00](https://www.youtube.com/watch?v=l__Koacw_oI&t=3660s)
 
 ### "Garbage in, garbage out - left-leaning publications as AI training data"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l__Koacw_oI?start=4125&end=4185" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/l__Koacw_oI/hqdefault.jpg)](https://www.youtube.com/watch?v=l__Koacw_oI&t=4125s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*68:45-69:45" "https://www.youtube.com/watch?v=l__Koacw_oI" --force-keyframes-at-cuts --merge-output-format mp4 -o "l__Koacw_oI-68m45s.mp4"
+```
+</details>
 
 > "The problem that I think we have to confront now is that when you have garbage in, you have garbage out. And so if you use left-leaning publications like the New York Times and Reddit as your input source, then you're going to have things that are perceived as biased to 50% of the population."
 > — Chamath Palihapitiya, [68:45](https://www.youtube.com/watch?v=l__Koacw_oI&t=4125s)
 
 ### "When Gemini said George Washington was black, people stopped using it"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l__Koacw_oI?start=4320&end=4380" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/l__Koacw_oI/hqdefault.jpg)](https://www.youtube.com/watch?v=l__Koacw_oI&t=4320s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*72:00-73:00" "https://www.youtube.com/watch?v=l__Koacw_oI" --force-keyframes-at-cuts --merge-output-format mp4 -o "l__Koacw_oI-72m00s.mp4"
+```
+</details>
 
 > "When Gemini put out saying George Washington was black, people stopped using it. They're like, 'This thing's a joke.' So, I do think that consumers are not dumb and I don't believe in taking away agency from consumers."
 > — David Friedberg, [72:00](https://www.youtube.com/watch?v=l__Koacw_oI&t=4320s)
 
 ### "5% wealth tax on billionaires - political bait"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l__Koacw_oI?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/l__Koacw_oI/hqdefault.jpg)](https://www.youtube.com/watch?v=l__Koacw_oI&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-1:00" "https://www.youtube.com/watch?v=l__Koacw_oI" --force-keyframes-at-cuts --merge-output-format mp4 -o "l__Koacw_oI-0m00s.mp4"
+```
+</details>
 
 > "The SEIU filed a ballot initiative to amend the California Constitution to introduce a one-time billionaire's wealth tax where billionaires have to pay a one-time tax of 5% of their net worth, including their private stock, including their real estate... it is very likely the case that the SEIU is simply using this as a baiting mechanism."
 > — David Friedberg, [0:00](https://www.youtube.com/watch?v=l__Koacw_oI&t=0s)
 
 ### "AI models value whites, males, and Americans as less valuable"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l__Koacw_oI?start=3834&end=3900" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/l__Koacw_oI/hqdefault.jpg)](https://www.youtube.com/watch?v=l__Koacw_oI&t=3834s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*63:54-65:00" "https://www.youtube.com/watch?v=l__Koacw_oI" --force-keyframes-at-cuts --merge-output-format mp4 -o "l__Koacw_oI-63m54s.mp4"
+```
+</details>
 
 > "What the paper purports to show is that almost all of these models, except for maybe Grok, view whites as less valuable than non-whites and males as less valuable than females and Americans as less valuable than people of other cultures, especially global south."
 > — David Sacks, [63:54](https://www.youtube.com/watch?v=l__Koacw_oI&t=3834s)

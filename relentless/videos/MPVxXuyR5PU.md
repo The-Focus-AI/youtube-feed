@@ -31,35 +31,70 @@ A significant portion of the interview dives into what actually causes cognitive
 
 ### "The Shingles Vaccine Reduces Alzheimer's Risk by 20%"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MPVxXuyR5PU?start=2971&end=3040" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/MPVxXuyR5PU/hqdefault.jpg)](https://www.youtube.com/watch?v=MPVxXuyR5PU&t=2971s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*49:31-50:40" "https://www.youtube.com/watch?v=MPVxXuyR5PU" --force-keyframes-at-cuts --merge-output-format mp4 -o "MPVxXuyR5PU-49m31s.mp4"
+```
+</details>
 
 > "There's a group in Wales where if you were born after this cutoff date, you were eligible for the shingles vaccine. And if you were born just before, you were not. They found that people that had the shingles vaccine were 20% less likely to develop Alzheimer's within 7 years. Why? We have no idea."
 > -- Sacha Schermerhorn, [49:31](https://www.youtube.com/watch?v=MPVxXuyR5PU&t=2971s)
 
 ### "Living Without a Phone"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MPVxXuyR5PU?start=2762&end=2830" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/MPVxXuyR5PU/hqdefault.jpg)](https://www.youtube.com/watch?v=MPVxXuyR5PU&t=2762s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*46:02-47:10" "https://www.youtube.com/watch?v=MPVxXuyR5PU" --force-keyframes-at-cuts --merge-output-format mp4 -o "MPVxXuyR5PU-46m02s.mp4"
+```
+</details>
 
 > "I don't carry a phone. I've found that the single biggest driver of my productivity and my ability to think deeply about hard problems is eliminating distractions. And the phone is the ultimate distraction machine."
 > -- Sacha Schermerhorn, [46:02](https://www.youtube.com/watch?v=MPVxXuyR5PU&t=2762s)
 
 ### "Filtering for Missionaries vs Mercenaries"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MPVxXuyR5PU?start=2184&end=2250" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/MPVxXuyR5PU/hqdefault.jpg)](https://www.youtube.com/watch?v=MPVxXuyR5PU&t=2184s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*36:24-37:30" "https://www.youtube.com/watch?v=MPVxXuyR5PU" --force-keyframes-at-cuts --merge-output-format mp4 -o "MPVxXuyR5PU-36m24s.mp4"
+```
+</details>
 
 > "When you're trying to solve something as hard as Alzheimer's, you need people who are genuinely obsessed with the mission. Mercenaries will leave when things get hard. Missionaries will run through walls because they believe the problem must be solved."
 > -- Sacha Schermerhorn, [36:24](https://www.youtube.com/watch?v=MPVxXuyR5PU&t=2184s)
 
 ### "Lack of Agency Causes Burnout"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MPVxXuyR5PU?start=2467&end=2535" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/MPVxXuyR5PU/hqdefault.jpg)](https://www.youtube.com/watch?v=MPVxXuyR5PU&t=2467s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*41:07-42:15" "https://www.youtube.com/watch?v=MPVxXuyR5PU" --force-keyframes-at-cuts --merge-output-format mp4 -o "MPVxXuyR5PU-41m07s.mp4"
+```
+</details>
 
 > "I don't think burnout comes from working too hard. I think burnout comes from a lack of agency -- when people feel like they can't affect the outcome. Give people ownership and the ability to steer and they'll work insane hours without burning out."
 > -- Sacha Schermerhorn, [41:07](https://www.youtube.com/watch?v=MPVxXuyR5PU&t=2467s)
 
 ### "Self-Financing Moonshots"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MPVxXuyR5PU?start=1141&end=1210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/MPVxXuyR5PU/hqdefault.jpg)](https://www.youtube.com/watch?v=MPVxXuyR5PU&t=1141s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*19:01-20:10" "https://www.youtube.com/watch?v=MPVxXuyR5PU" --force-keyframes-at-cuts --merge-output-format mp4 -o "MPVxXuyR5PU-19m01s.mp4"
+```
+</details>
 
 > "We structured Babylon to self-finance our Alzheimer's moonshots. Most biotech companies raise hundreds of millions and bet it all on one drug candidate. We want to be able to take many shots on goal, and the only way to do that is to not be beholden to the typical VC model."
 > -- Sacha Schermerhorn, [19:01](https://www.youtube.com/watch?v=MPVxXuyR5PU&t=1141s)

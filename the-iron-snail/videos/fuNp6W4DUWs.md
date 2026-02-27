@@ -33,35 +33,70 @@ The winner with 25.8% of votes is Bronson, a $30 "loop wheel" t-shirt, though Mi
 
 ### "This Shirt Feels Like I Am Shirtless"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fuNp6W4DUWs?start=518&end=575" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/fuNp6W4DUWs/hqdefault.jpg)](https://www.youtube.com/watch?v=fuNp6W4DUWs&t=518s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:38-9:35" "https://www.youtube.com/watch?v=fuNp6W4DUWs" --force-keyframes-at-cuts --merge-output-format mp4 -o "fuNp6W4DUWs-8m38s.mp4"
+```
+</details>
 
 > "This shirt it feels like right now I am shirtless. This is the most amazing shirt on this list by far."
 > — Michael, [8:56](https://www.youtube.com/watch?v=fuNp6W4DUWs&t=536s)
 
 ### "Queen Victoria Mistook Sea Island Cotton for Silk"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fuNp6W4DUWs?start=595&end=655" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/fuNp6W4DUWs/hqdefault.jpg)](https://www.youtube.com/watch?v=fuNp6W4DUWs&t=595s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:55-10:55" "https://www.youtube.com/watch?v=fuNp6W4DUWs" --force-keyframes-at-cuts --merge-output-format mp4 -o "fuNp6W4DUWs-9m55s.mp4"
+```
+</details>
 
 > "Sea Island cotton you may not know is the longest staple cotton in existence... you can make Sea Island cotton virtually feel like silk to the point where Queen Victoria mistook Sea Island cotton for silk."
 > — Michael, [10:10](https://www.youtube.com/watch?v=fuNp6W4DUWs&t=610s)
 
 ### "Bronson Says It's Loop Wheel, But By Definition It's Not"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fuNp6W4DUWs?start=722&end=780" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/fuNp6W4DUWs/hqdefault.jpg)](https://www.youtube.com/watch?v=fuNp6W4DUWs&t=722s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:02-13:00" "https://www.youtube.com/watch?v=fuNp6W4DUWs" --force-keyframes-at-cuts --merge-output-format mp4 -o "fuNp6W4DUWs-12m02s.mp4"
+```
+</details>
 
 > "Bronson says it is a loop wheel t-shirt but by definition it is not a loop wheel t-shirt. The problem is we don't have a solid definition of what loop wheel is."
 > — Michael, [13:38](https://www.youtube.com/watch?v=fuNp6W4DUWs&t=818s)
 
 ### "The Winner Smoked the Competition But Kind of Deceives You"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fuNp6W4DUWs?start=0&end=55" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/fuNp6W4DUWs/hqdefault.jpg)](https://www.youtube.com/watch?v=fuNp6W4DUWs&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-0:55" "https://www.youtube.com/watch?v=fuNp6W4DUWs" --force-keyframes-at-cuts --merge-output-format mp4 -o "fuNp6W4DUWs-0m00s.mp4"
+```
+</details>
 
 > "The one brand that tallied the most votes and smoked the competition is a very different brand than these three and to be honest uh they kind of deceive you a little bit."
 > — Michael, [0:19](https://www.youtube.com/watch?v=fuNp6W4DUWs&t=19s)
 
 ### "Samurai Goes Even More Extreme - Half Meter Per Hour"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fuNp6W4DUWs?start=430&end=490" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/fuNp6W4DUWs/hqdefault.jpg)](https://www.youtube.com/watch?v=fuNp6W4DUWs&t=430s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:10-8:10" "https://www.youtube.com/watch?v=fuNp6W4DUWs" --force-keyframes-at-cuts --merge-output-format mp4 -o "fuNp6W4DUWs-7m10s.mp4"
+```
+</details>
 
 > "The big thing in loop wheel culture is to say these machines are so slow they can only knit 1 meter of fabric per hour. Samurai comes in and says '1 meter? Oh my gosh, slow down! We can only do a half meter of fabric per hour.'"
 > — Michael, [7:10](https://www.youtube.com/watch?v=fuNp6W4DUWs&t=430s)

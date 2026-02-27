@@ -38,42 +38,84 @@ David Sacks provides geopolitical context, explaining the strategic importance o
 
 ### "It took Aramco 9 months to deploy AI infrastructure"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U9TdxWTaYlE?start=204&end=265" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/U9TdxWTaYlE/hqdefault.jpg)](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=204s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:24-4:25" "https://www.youtube.com/watch?v=U9TdxWTaYlE" --force-keyframes-at-cuts --merge-output-format mp4 -o "U9TdxWTaYlE-3m24s.mp4"
+```
+</details>
 
 > "One of the biggest surprises I had is lack of AI infrastructure. It took them 9 months from the process of purchase order, export control process, deployment, installation. That means we have hindered a company to really achieve its objectives by 9 months."
 > — Tareq Amin, [3:24](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=204s)
 
 ### "His royal highness wants to meet with you"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U9TdxWTaYlE?start=285&end=355" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/U9TdxWTaYlE/hqdefault.jpg)](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=285s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:45-5:55" "https://www.youtube.com/watch?v=U9TdxWTaYlE" --force-keyframes-at-cuts --merge-output-format mp4 -o "U9TdxWTaYlE-4m45s.mp4"
+```
+</details>
 
 > "Last year during my birthday, I get a call and it was really a strange number. It says it was from the royal court and it said his royal highness wants to meet with you. I said okay what did I do?"
 > — Tareq Amin, [4:45](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=285s)
 
 ### "Lead the world through energy exports via tokens"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U9TdxWTaYlE?start=903&end=960" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/U9TdxWTaYlE/hqdefault.jpg)](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=903s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:03-16:00" "https://www.youtube.com/watch?v=U9TdxWTaYlE" --force-keyframes-at-cuts --merge-output-format mp4 -o "U9TdxWTaYlE-15m03s.mp4"
+```
+</details>
 
 > "Maybe Saudi Arabia today led the world in energy exports via oil. We should look at an opportunity to lead the world through energy exports via tokens."
 > — Tareq Amin, [15:03](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=903s)
 
 ### "40 PhD scientists from Stanford, MIT, Harvard, Oxford"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U9TdxWTaYlE?start=1006&end=1060" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/U9TdxWTaYlE/hqdefault.jpg)](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=1006s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:46-17:40" "https://www.youtube.com/watch?v=U9TdxWTaYlE" --force-keyframes-at-cuts --merge-output-format mp4 -o "U9TdxWTaYlE-16m46s.mp4"
+```
+</details>
 
 > "I have 40 PhD scientists today in my team. I sometimes honestly when I sit with them I said I'm really maybe I don't have enough credentials to sit with you guys in the room."
 > — Tareq Amin, [16:46](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=1006s)
 
 ### "I learned innovation in US, scale in India, precision in Japan, optimism in Saudi"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U9TdxWTaYlE?start=1240&end=1305" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/U9TdxWTaYlE/hqdefault.jpg)](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=1240s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:40-21:45" "https://www.youtube.com/watch?v=U9TdxWTaYlE" --force-keyframes-at-cuts --merge-output-format mp4 -o "U9TdxWTaYlE-20m40s.mp4"
+```
+</details>
 
 > "I learned innovation here in the US. When I moved to India, I learned scale. When I moved to Japan, I learned precision and quality. You come to Saudi Arabia and I'm learning optimism and vision truly."
 > — Tareq Amin, [20:40](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=1240s)
 
 ### "It's binary: American technology or Chinese technology"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U9TdxWTaYlE?start=1523&end=1580" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/U9TdxWTaYlE/hqdefault.jpg)](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=1523s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*25:23-26:20" "https://www.youtube.com/watch?v=U9TdxWTaYlE" --force-keyframes-at-cuts --merge-output-format mp4 -o "U9TdxWTaYlE-25m23s.mp4"
+```
+</details>
 
 > "Saudi Arabia is going to have data centers. Is that going to be American technology or Chinese technology? It's basically going to be our companies or it's going to be Huawei. It's binary."
 > — David Sacks, [25:23](https://www.youtube.com/watch?v=U9TdxWTaYlE&t=1523s)

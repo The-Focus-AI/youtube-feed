@@ -25,35 +25,70 @@ Key takeaways include Japanese t-shirts dominating the high-end market through l
 
 ### "Over the past few years, I have accidentally made it my goal to try and find the greatest t-shirts ever known to humankind."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FSWl57UR4k0?start=30&end=75" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FSWl57UR4k0/hqdefault.jpg)](https://www.youtube.com/watch?v=FSWl57UR4k0&t=30s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:30-1:15" "https://www.youtube.com/watch?v=FSWl57UR4k0" --force-keyframes-at-cuts --merge-output-format mp4 -o "FSWl57UR4k0-0m30s.mp4"
+```
+</details>
 
 > "Over the past few years, I have accidentally made it my goal to try and find the greatest t-shirts ever known to humankind. This video is an amalgamation of my findings thus far."
 > — Michael, [0:35](https://www.youtube.com/watch?v=FSWl57UR4k0&t=35s)
 
 ### "Loopwheel knitting is the key"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FSWl57UR4k0?start=240&end=300" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FSWl57UR4k0/hqdefault.jpg)](https://www.youtube.com/watch?v=FSWl57UR4k0&t=240s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:00-5:00" "https://www.youtube.com/watch?v=FSWl57UR4k0" --force-keyframes-at-cuts --merge-output-format mp4 -o "FSWl57UR4k0-4m00s.mp4"
+```
+</details>
 
 > "Loopwheel knitting is the key. These slow, vintage machines produce fabric with a distinctive soft hand and natural stretch recovery that modern high-speed knitting can't replicate. Takes forever to make, which is why it's expensive."
 > — Michael, [4:00](https://www.youtube.com/watch?v=FSWl57UR4k0&t=240s)
 
 ### "House of Blanks might be the best pure value"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FSWl57UR4k0?start=720&end=780" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FSWl57UR4k0/hqdefault.jpg)](https://www.youtube.com/watch?v=FSWl57UR4k0&t=720s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:00-13:00" "https://www.youtube.com/watch?v=FSWl57UR4k0" --force-keyframes-at-cuts --merge-output-format mp4 -o "FSWl57UR4k0-12m00s.mp4"
+```
+</details>
 
 > "House of Blanks Heavyweight: this might be the best pure value in the video. Quality that rivals shirts at 2-3x the price. If budget matters, start here."
 > — Michael, [12:00](https://www.youtube.com/watch?v=FSWl57UR4k0&t=720s)
 
 ### "Lady White is my personal favorite for daily wear"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FSWl57UR4k0?start=600&end=660" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FSWl57UR4k0/hqdefault.jpg)](https://www.youtube.com/watch?v=FSWl57UR4k0&t=600s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:00-11:00" "https://www.youtube.com/watch?v=FSWl57UR4k0" --force-keyframes-at-cuts --merge-output-format mp4 -o "FSWl57UR4k0-10m00s.mp4"
+```
+</details>
 
 > "Lady White Co. Our T-Shirt: made in LA. The drape is beautiful, the construction precise, the overall effect effortless. My personal favorite for daily wear."
 > — Michael, [10:00](https://www.youtube.com/watch?v=FSWl57UR4k0&t=600s)
 
 ### "These shirts could stop bullets"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FSWl57UR4k0?start=420&end=480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FSWl57UR4k0/hqdefault.jpg)](https://www.youtube.com/watch?v=FSWl57UR4k0&t=420s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:00-8:00" "https://www.youtube.com/watch?v=FSWl57UR4k0" --force-keyframes-at-cuts --merge-output-format mp4 -o "FSWl57UR4k0-7m00s.mp4"
+```
+</details>
 
 > "Now the Heavyweights. These shirts could stop bullets. Not literally. But they're built like tanks."
 > — Michael, [7:00](https://www.youtube.com/watch?v=FSWl57UR4k0&t=420s)

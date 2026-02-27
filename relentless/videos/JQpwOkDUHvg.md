@@ -38,35 +38,70 @@ The conversation also covers the strategic decisions around fitting the manufact
 
 ### "$120 Million for Dies vs Zero"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JQpwOkDUHvg?start=46&end=110" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/JQpwOkDUHvg/hqdefault.jpg)](https://www.youtube.com/watch?v=JQpwOkDUHvg&t=46s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:46-1:50" "https://www.youtube.com/watch?v=JQpwOkDUHvg" --force-keyframes-at-cuts --merge-output-format mp4 -o "JQpwOkDUHvg-0m46s.mp4"
+```
+</details>
 
 > "I was talking with some of my friends at Tesla. A full set of dies for one of the first cars they made was $120 million. With our process, we realized we can get these robot sheet formers to form sheet metal without any need for dies. Two robots come from two sides, start pinching the sheet. As you expand, one of the robots starts giving it shape."
 > -- Ed Mehr, [0:46](https://www.youtube.com/watch?v=JQpwOkDUHvg&t=46s)
 
 ### "Working at SpaceX in 2012"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JQpwOkDUHvg?start=1457&end=1525" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/JQpwOkDUHvg/hqdefault.jpg)](https://www.youtube.com/watch?v=JQpwOkDUHvg&t=1457s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*24:17-25:25" "https://www.youtube.com/watch?v=JQpwOkDUHvg" --force-keyframes-at-cuts --merge-output-format mp4 -o "JQpwOkDUHvg-24m17s.mp4"
+```
+</details>
 
 > "When I was at SpaceX in 2012, what struck me most was the culture of just trying things. There was no 'let's study this for six months.' It was 'build it, test it, if it breaks, figure out why, fix it, try again.' That speed of iteration changed how I think about manufacturing."
 > -- Ed Mehr, [24:17](https://www.youtube.com/watch?v=JQpwOkDUHvg&t=1457s)
 
 ### "The Limiting Factor in Creating More Elons"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JQpwOkDUHvg?start=828&end=895" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/JQpwOkDUHvg/hqdefault.jpg)](https://www.youtube.com/watch?v=JQpwOkDUHvg&t=828s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:48-14:55" "https://www.youtube.com/watch?v=JQpwOkDUHvg" --force-keyframes-at-cuts --merge-output-format mp4 -o "JQpwOkDUHvg-13m48s.mp4"
+```
+</details>
 
 > "The limiting factor in creating more Elons is not talent. There are brilliant people everywhere. The limiting factor is that they can't turn their ideas into physical reality fast enough. If we make it so any great idea can become real through rapid manufacturing, that's going to be a massive company."
 > -- Ed Mehr, [13:48](https://www.youtube.com/watch?v=JQpwOkDUHvg&t=828s)
 
 ### "Building the First Prototype on $300K"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JQpwOkDUHvg?start=978&end=1045" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/JQpwOkDUHvg/hqdefault.jpg)](https://www.youtube.com/watch?v=JQpwOkDUHvg&t=978s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:18-17:25" "https://www.youtube.com/watch?v=JQpwOkDUHvg" --force-keyframes-at-cuts --merge-output-format mp4 -o "JQpwOkDUHvg-16m18s.mp4"
+```
+</details>
 
 > "We built our first prototype on $300,000. People said it couldn't be done. They said you need at least $10 million to build a robotic forming system. But when you're naive enough to not know what you can't do, you just figure it out."
 > -- Ed Mehr, [16:18](https://www.youtube.com/watch?v=JQpwOkDUHvg&t=978s)
 
 ### "Freedom of Expression in the Physical World"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JQpwOkDUHvg?start=60&end=120" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/JQpwOkDUHvg/hqdefault.jpg)](https://www.youtube.com/watch?v=JQpwOkDUHvg&t=60s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:00-2:00" "https://www.youtube.com/watch?v=JQpwOkDUHvg" --force-keyframes-at-cuts --merge-output-format mp4 -o "JQpwOkDUHvg-1m00s.mp4"
+```
+</details>
 
 > "I would love to live in a world where any great idea can become real. We announced a collaborative work with Toyota enabling people to design a car that's uniquely how they want it to look like. If we make a company that enables freedom of expression in the physical world, that's going to be a massive company."
 > -- Ed Mehr, [1:00](https://www.youtube.com/watch?v=JQpwOkDUHvg&t=60s)

@@ -34,42 +34,84 @@ Delangue emphasizes Hugging Face's unusual organizational structure: extremely f
 
 ### "A world where only a few companies can do AI would be a very scary dystopian world"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b0iJZS9HgJA?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/b0iJZS9HgJA/hqdefault.jpg)](https://www.youtube.com/watch?v=b0iJZS9HgJA&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-1:00" "https://www.youtube.com/watch?v=b0iJZS9HgJA" --force-keyframes-at-cuts --merge-output-format mp4 -o "b0iJZS9HgJA-0m00s.mp4"
+```
+</details>
 
 > "Something that we should be scared about is to end up in a world where only a few companies are able to do AI. I think that would be a very scary dystopian world. Open source is a way to fight these natural tendencies. We believe that tens of thousands, hundreds of thousands of startups, of nonprofits, of governments should be able to build with AI."
 > — Clem Delangue, [0:00](https://www.youtube.com/watch?v=b0iJZS9HgJA&t=0s)
 
 ### "We were three random French guys without much network"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b0iJZS9HgJA?start=635&end=700" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/b0iJZS9HgJA/hqdefault.jpg)](https://www.youtube.com/watch?v=b0iJZS9HgJA&t=635s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:35-11:40" "https://www.youtube.com/watch?v=b0iJZS9HgJA" --force-keyframes-at-cuts --merge-output-format mp4 -o "b0iJZS9HgJA-10m35s.mp4"
+```
+</details>
 
 > "If you think of it, if you look at us at the time, the founders, we were three random French guys without much network, without much special access to any kind of network or any kind of organization. It's really the community that made us who we are."
 > — Clem Delangue, [10:35](https://www.youtube.com/watch?v=b0iJZS9HgJA&t=635s)
 
 ### "We got a thousand likes on Twitter and thought we broke the internet"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b0iJZS9HgJA?start=560&end=620" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/b0iJZS9HgJA/hqdefault.jpg)](https://www.youtube.com/watch?v=b0iJZS9HgJA&t=560s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:20-10:20" "https://www.youtube.com/watch?v=b0iJZS9HgJA" --force-keyframes-at-cuts --merge-output-format mp4 -o "b0iJZS9HgJA-9m20s.mp4"
+```
+</details>
 
 > "Thomas worked the whole weekend and on Monday he tweeted about the release of PyTorch pre-trained BERT. And we got like a thousand likes on Twitter at the time which to us must have been a huge thing - for us it was like we broke the internet, what happened? Why are so many people liking this?"
 > — Clem Delangue, [9:20](https://www.youtube.com/watch?v=b0iJZS9HgJA&t=560s)
 
 ### "I try not to trust people, but instead trust systems and incentives"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b0iJZS9HgJA?start=720&end=785" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/b0iJZS9HgJA/hqdefault.jpg)](https://www.youtube.com/watch?v=b0iJZS9HgJA&t=720s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:00-13:05" "https://www.youtube.com/watch?v=b0iJZS9HgJA" --force-keyframes-at-cuts --merge-output-format mp4 -o "b0iJZS9HgJA-12m00s.mp4"
+```
+</details>
 
 > "When you think about doing good in the world, I tend to try not to trust too much people, but instead trust the systems and the incentives. We built Hugging Face in a way that if we're making open source more popular, we're going to do well as a company. It aligns the incentives."
 > — Clem Delangue, [12:00](https://www.youtube.com/watch?v=b0iJZS9HgJA&t=720s)
 
 ### "Anyone from the team can tweet from the Hugging Face Twitter account"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b0iJZS9HgJA?start=905&end=970" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/b0iJZS9HgJA/hqdefault.jpg)](https://www.youtube.com/watch?v=b0iJZS9HgJA&t=905s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:05-16:10" "https://www.youtube.com/watch?v=b0iJZS9HgJA" --force-keyframes-at-cuts --merge-output-format mp4 -o "b0iJZS9HgJA-15m05s.mp4"
+```
+</details>
 
 > "Our social accounts - we don't have someone who's responsible for them as a community manager. Anyone from the team can tweet from the Hugging Face Twitter account. And that creates kind of like a distribution of responsibilities that shows everyone that it's their responsibilities to interact with the community."
 > — Clem Delangue, [15:05](https://www.youtube.com/watch?v=b0iJZS9HgJA&t=905s)
 
 ### "We believe everyone can do technical work, communicate, and hire"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b0iJZS9HgJA?start=1002&end=1065" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/b0iJZS9HgJA/hqdefault.jpg)](https://www.youtube.com/watch?v=b0iJZS9HgJA&t=1002s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:42-17:45" "https://www.youtube.com/watch?v=b0iJZS9HgJA" --force-keyframes-at-cuts --merge-output-format mp4 -o "b0iJZS9HgJA-16m42s.mp4"
+```
+</details>
 
 > "For us we're taking a little bit of a different approach where we believe everyone is able to do technical work, everyone is able to communicate, everyone is able to hire. We rather try to hire generalists and help them do all of that."
 > — Clem Delangue, [16:42](https://www.youtube.com/watch?v=b0iJZS9HgJA&t=1002s)

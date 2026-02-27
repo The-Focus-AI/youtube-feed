@@ -36,35 +36,70 @@ The founders discuss why they chose El Segundo over other tech hubs, the importa
 
 ### "This Table vs Every Great Power Adversary"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eZ1kHP_TRF0?start=1594&end=1650" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eZ1kHP_TRF0/hqdefault.jpg)](https://www.youtube.com/watch?v=eZ1kHP_TRF0&t=1594s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*26:34-27:30" "https://www.youtube.com/watch?v=eZ1kHP_TRF0" --force-keyframes-at-cuts --merge-output-format mp4 -o "eZ1kHP_TRF0-26m34s.mp4"
+```
+</details>
 
 > "It is essentially this table versus every great power adversary of the United States. If the wrong thing happens at this table right here, the United States is set back by 30 years at least."
 > — [26:34](https://www.youtube.com/watch?v=eZ1kHP_TRF0&t=1594s)
 
 ### "Crypto is Dishonorable"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eZ1kHP_TRF0?start=930&end=990" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eZ1kHP_TRF0/hqdefault.jpg)](https://www.youtube.com/watch?v=eZ1kHP_TRF0&t=930s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:30-16:30" "https://www.youtube.com/watch?v=eZ1kHP_TRF0" --force-keyframes-at-cuts --merge-output-format mp4 -o "eZ1kHP_TRF0-15m30s.mp4"
+```
+</details>
 
 > "Our civilization is dying. Birth rates are collapsing. The economy is largely this fake financial instrument on top of what little hard assets we still have. As long as we do get giddy and excited about rugpulling people for 4 million bucks that you're going to go blow on a car and online casinos, we're going to see these issues persist."
 > — [15:30](https://www.youtube.com/watch?v=eZ1kHP_TRF0&t=930s)
 
 ### "Software Industry Looks Like a Joke"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eZ1kHP_TRF0?start=1263&end=1320" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eZ1kHP_TRF0/hqdefault.jpg)](https://www.youtube.com/watch?v=eZ1kHP_TRF0&t=1263s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*21:03-22:00" "https://www.youtube.com/watch?v=eZ1kHP_TRF0" --force-keyframes-at-cuts --merge-output-format mp4 -o "eZ1kHP_TRF0-21m03s.mp4"
+```
+</details>
 
 > "These industries on net just dwarf the entire software industry. It makes the software industry look like a joke. The real money is to be made by owning the atoms and doing so across all of these industries."
 > — [21:03](https://www.youtube.com/watch?v=eZ1kHP_TRF0&t=1263s)
 
 ### "SpaceX Flew a Booster 30 Times"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eZ1kHP_TRF0?start=1079&end=1135" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eZ1kHP_TRF0/hqdefault.jpg)](https://www.youtube.com/watch?v=eZ1kHP_TRF0&t=1079s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*17:59-18:55" "https://www.youtube.com/watch?v=eZ1kHP_TRF0" --force-keyframes-at-cuts --merge-output-format mp4 -o "eZ1kHP_TRF0-17m59s.mp4"
+```
+</details>
 
 > "They flew a booster 30 times. The most valuable privately held company in the world is SpaceX. Building something intensely meaningful that they will always have. That is far more honorable than releasing the next token."
 > — [17:59](https://www.youtube.com/watch?v=eZ1kHP_TRF0&t=1079s)
 
 ### "China Built 30 Nuclear Reactors"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eZ1kHP_TRF0?start=1585&end=1594" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/eZ1kHP_TRF0/hqdefault.jpg)](https://www.youtube.com/watch?v=eZ1kHP_TRF0&t=1585s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*26:25-26:34" "https://www.youtube.com/watch?v=eZ1kHP_TRF0" --force-keyframes-at-cuts --merge-output-format mp4 -o "eZ1kHP_TRF0-26m25s.mp4"
+```
+</details>
 
 > "We built two new nuclear sites in the last 50 years. China has 30 nuclear reactors under construction right now."
 > — [26:25](https://www.youtube.com/watch?v=eZ1kHP_TRF0&t=1585s)

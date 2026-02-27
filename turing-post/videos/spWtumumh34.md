@@ -37,35 +37,70 @@ The discussion also addresses significant practical concerns including workforce
 
 ### "We need to understand consciousness to get the final breakthrough"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/spWtumumh34?start=145&end=195" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/spWtumumh34/hqdefault.jpg)](https://www.youtube.com/watch?v=spWtumumh34&t=145s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:25-3:15" "https://www.youtube.com/watch?v=spWtumumh34" --force-keyframes-at-cuts --merge-output-format mp4 -o "spWtumumh34-2m25s.mp4"
+```
+</details>
 
 > "I think ultimately we need to understand the nature of the mind. They needed to understand consciousness and we need to understand the brain a lot better to be able to get the final breakthrough I think in simulating a mind and machines."
 > — Amjad Masad, [2:25](https://www.youtube.com/watch?v=spWtumumh34&t=145s)
 
 ### "Coding systems will reach that point within 2 years"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/spWtumumh34?start=589&end=640" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/spWtumumh34/hqdefault.jpg)](https://www.youtube.com/watch?v=spWtumumh34&t=589s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:49-10:40" "https://www.youtube.com/watch?v=spWtumumh34" --force-keyframes-at-cuts --merge-output-format mp4 -o "spWtumumh34-9m49s.mp4"
+```
+</details>
 
 > "We're expecting that the coding systems will reach that point within the next 2 years. And as soon as they reach that, yeah, I would say a maximum of 3 years of them working non-stop, day and night, they will be able to figure this out across all the domains."
 > — Amr Awadallah, [10:13](https://www.youtube.com/watch?v=spWtumumh34&t=613s)
 
 ### "Cheap vs Expensive Intelligence"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/spWtumumh34?start=647&end=700" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/spWtumumh34/hqdefault.jpg)](https://www.youtube.com/watch?v=spWtumumh34&t=647s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:47-11:40" "https://www.youtube.com/watch?v=spWtumumh34" --force-keyframes-at-cuts --merge-output-format mp4 -o "spWtumumh34-10m47s.mp4"
+```
+</details>
 
 > "There will be a kind of like bifurcation of like expensive and cheap intelligence. Like expensive types of intelligence are things like human agency, creativity, original insight, taste and vision and the stuff that like feels like it's like genius or original because it can't be reverse engineered from the data."
 > — Dev Rishi, [10:47](https://www.youtube.com/watch?v=spWtumumh34&t=647s)
 
 ### "The Plate Theory for Superintelligence"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/spWtumumh34?start=931&end=990" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/spWtumumh34/hqdefault.jpg)](https://www.youtube.com/watch?v=spWtumumh34&t=931s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:31-16:30" "https://www.youtube.com/watch?v=spWtumumh34" --force-keyframes-at-cuts --merge-output-format mp4 -o "spWtumumh34-15m31s.mp4"
+```
+</details>
 
 > "Think about like you know the world of problems that's like a plate and then in the middle you have the easy problems like 1 + 1 equals two print hello world right and then in the edge you have many different points maybe the north point is cure cancer okay and the west point is solve the Riemann hypothesis."
 > — Ulrik Hansen, [15:31](https://www.youtube.com/watch?v=spWtumumh34&t=931s)
 
 ### "It's very hard for this super intelligent AI mathematician to fold laundry"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/spWtumumh34?start=904&end=935" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/spWtumumh34/hqdefault.jpg)](https://www.youtube.com/watch?v=spWtumumh34&t=904s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:04-15:35" "https://www.youtube.com/watch?v=spWtumumh34" --force-keyframes-at-cuts --merge-output-format mp4 -o "spWtumumh34-15m04s.mp4"
+```
+</details>
 
 > "I like the word super intelligence better always better than AGI cuz I don't know really the difference they are so similar in a sense. I think super intelligence can be defined that's domain specific. So I can be a super intelligent AI mathematician. Right? It's very hard for this super intelligent AI mathematician to fold laundry the best."
 > — Ulrik Hansen, [15:04](https://www.youtube.com/watch?v=spWtumumh34&t=904s)

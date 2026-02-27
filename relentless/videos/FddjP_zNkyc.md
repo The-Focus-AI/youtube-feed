@@ -36,42 +36,84 @@ The founders discuss why they started their companies, the frontier spirit of Sa
 
 ### "Silicon Valley got really rich off of enterprise SaaS - now it feels like a return to form"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FddjP_zNkyc?start=0&end=65" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FddjP_zNkyc/hqdefault.jpg)](https://www.youtube.com/watch?v=FddjP_zNkyc&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-1:05" "https://www.youtube.com/watch?v=FddjP_zNkyc" --force-keyframes-at-cuts --merge-output-format mp4 -o "FddjP_zNkyc-0m00s.mp4"
+```
+</details>
 
 > "Silicon Valley used to be the innovation capital of the world. It's where the semiconductor was done, where the internet was pioneered. Then there's skyscrapers built behind us solely for software as a service. The past 10 years the city has changed and I don't think all for the better. But it feels like a return to form for Silicon Valley is happening right now."
 > — Jason Carman, [0:00](https://www.youtube.com/watch?v=FddjP_zNkyc&t=0s)
 
 ### "We know more about the surface of Mars than our own oceans"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FddjP_zNkyc?start=532&end=600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FddjP_zNkyc/hqdefault.jpg)](https://www.youtube.com/watch?v=FddjP_zNkyc&t=532s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:52-10:00" "https://www.youtube.com/watch?v=FddjP_zNkyc" --force-keyframes-at-cuts --merge-output-format mp4 -o "FddjP_zNkyc-8m52s.mp4"
+```
+</details>
 
 > "The subsea technology space is so ancient. It hasn't changed much since the 80s. We know more about the surface of Mars than we know about our own oceans. We believe Atlantis is out there somewhere. There's trillions of dollars of minerals at the bottom of the ocean."
 > — Will O'Brien, [8:52](https://www.youtube.com/watch?v=FddjP_zNkyc&t=532s)
 
 ### "The appliance market is as big as the smartphone market - and there is no Apple"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FddjP_zNkyc?start=1603&end=1665" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FddjP_zNkyc/hqdefault.jpg)](https://www.youtube.com/watch?v=FddjP_zNkyc&t=1603s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*26:43-27:45" "https://www.youtube.com/watch?v=FddjP_zNkyc" --force-keyframes-at-cuts --merge-output-format mp4 -o "FddjP_zNkyc-26m43s.mp4"
+```
+</details>
 
 > "The appliance market is just as big as the smartphone market. And there is no Apple in that market, which makes no sense. The appliance industry has been neglected for decades without seeing a ton of innovation."
 > — Sam D'Amico, [26:43](https://www.youtube.com/watch?v=FddjP_zNkyc&t=1603s)
 
 ### "Jim Belosic is the best American manufacturing founder CEO alive"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FddjP_zNkyc?start=1915&end=1980" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FddjP_zNkyc/hqdefault.jpg)](https://www.youtube.com/watch?v=FddjP_zNkyc&t=1915s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*31:55-33:00" "https://www.youtube.com/watch?v=FddjP_zNkyc" --force-keyframes-at-cuts --merge-output-format mp4 -o "FddjP_zNkyc-31m55s.mp4"
+```
+</details>
 
 > "Jim Belosic is probably the best American manufacturing founder CEO alive right now. SendCutSend delivers parts as fast, cheap, and reliably and quality as China does within days. He employs Americans, shows other manufacturing companies what they can do."
 > — Roundtable Discussion, [31:55](https://www.youtube.com/watch?v=FddjP_zNkyc&t=1915s)
 
 ### "A kid in rural Kansas with $200/month has access to the best AI tools"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FddjP_zNkyc?start=1755&end=1820" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FddjP_zNkyc/hqdefault.jpg)](https://www.youtube.com/watch?v=FddjP_zNkyc&t=1755s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*29:15-30:20" "https://www.youtube.com/watch?v=FddjP_zNkyc" --force-keyframes-at-cuts --merge-output-format mp4 -o "FddjP_zNkyc-29m15s.mp4"
+```
+</details>
 
 > "We're at the highest leverage point in decades. A kid in rural Kansas, as long as they're down to pay 200 bucks a month for the latest AI models, has access to the best information sources. You can use them to code, to build stuff. It's unprecedented."
 > — Sam D'Amico, [29:15](https://www.youtube.com/watch?v=FddjP_zNkyc&t=1755s)
 
 ### "Storytellers create narrative air cover for builders of scary-sounding things"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FddjP_zNkyc?start=1418&end=1485" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FddjP_zNkyc/hqdefault.jpg)](https://www.youtube.com/watch?v=FddjP_zNkyc&t=1418s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*23:38-24:45" "https://www.youtube.com/watch?v=FddjP_zNkyc" --force-keyframes-at-cuts --merge-output-format mp4 -o "FddjP_zNkyc-23m38s.mp4"
+```
+</details>
 
 > "The storytellers are an underrated part of the equation. Technologists building scary-sounding things need storytellers to create beautiful narrative about the future that pulls people to work at these great companies and support them and not be afraid."
 > — Jason Carman, [23:38](https://www.youtube.com/watch?v=FddjP_zNkyc&t=1418s)

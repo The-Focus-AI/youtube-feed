@@ -41,42 +41,84 @@ Justin explains the structural truths driving their business: humans always want
 
 ### "We couldn't conceive that this wasn't a thing - we spent the first month looking for competitors"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SfMzG3pg8Kc?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SfMzG3pg8Kc/hqdefault.jpg)](https://www.youtube.com/watch?v=SfMzG3pg8Kc&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-1:00" "https://www.youtube.com/watch?v=SfMzG3pg8Kc" --force-keyframes-at-cuts --merge-output-format mp4 -o "SfMzG3pg8Kc-0m00s.mp4"
+```
+</details>
 
 > "If you think about companies in space that make money, they use space as a platform - satellite internet, imaging, GPS. What if you could do that with physical cargo? The first month we spent looking to see who else was doing it. We couldn't conceive that this wasn't a thing."
 > — Justin Fiaschetti, [0:00](https://www.youtube.com/watch?v=SfMzG3pg8Kc&t=0s)
 
 ### "Cheaper to store cargo in orbit than have it accessible anywhere on Earth"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SfMzG3pg8Kc?start=1082&end=1145" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SfMzG3pg8Kc/hqdefault.jpg)](https://www.youtube.com/watch?v=SfMzG3pg8Kc&t=1082s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:02-19:05" "https://www.youtube.com/watch?v=SfMzG3pg8Kc" --force-keyframes-at-cuts --merge-output-format mp4 -o "SfMzG3pg8Kc-18m02s.mp4"
+```
+</details>
 
 > "It's actually cheaper to store cargo in orbit and deliver it down to the ground anywhere on Earth than it is to have that same cargo accessible anywhere on Earth via warehouses. The economics have finally shifted."
 > — Justin Fiaschetti, [18:02](https://www.youtube.com/watch?v=SfMzG3pg8Kc&t=1082s)
 
 ### "We don't have backup parachutes because no humans aboard"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SfMzG3pg8Kc?start=847&end=910" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SfMzG3pg8Kc/hqdefault.jpg)](https://www.youtube.com/watch?v=SfMzG3pg8Kc&t=847s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:07-15:10" "https://www.youtube.com/watch?v=SfMzG3pg8Kc" --force-keyframes-at-cuts --merge-output-format mp4 -o "SfMzG3pg8Kc-14m07s.mp4"
+```
+</details>
 
 > "We don't have a backup parachute. SpaceX did not have that luxury - NASA required redundant parachutes on Dragon. Since we have no humans aboard, we can simplify the design significantly."
 > — Justin Fiaschetti, [14:07](https://www.youtube.com/watch?v=SfMzG3pg8Kc&t=847s)
 
 ### "Industry quoted 3 years for parachutes - so we built our own capability"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SfMzG3pg8Kc?start=2825&end=2890" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SfMzG3pg8Kc/hqdefault.jpg)](https://www.youtube.com/watch?v=SfMzG3pg8Kc&t=2825s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*47:05-48:10" "https://www.youtube.com/watch?v=SfMzG3pg8Kc" --force-keyframes-at-cuts --merge-output-format mp4 -o "SfMzG3pg8Kc-47m05s.mp4"
+```
+</details>
 
 > "When we went out to get parachutes for our vehicle, it was going to be three years and millions of dollars. And so we said, well, we can build those. We now have full parachute manufacturing capability in-house."
 > — Justin Fiaschetti, [47:05](https://www.youtube.com/watch?v=SfMzG3pg8Kc&t=2825s)
 
 ### "If the first aircraft didn't have to have humans, it probably wouldn't have"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SfMzG3pg8Kc?start=1738&end=1800" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SfMzG3pg8Kc/hqdefault.jpg)](https://www.youtube.com/watch?v=SfMzG3pg8Kc&t=1738s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*28:58-30:00" "https://www.youtube.com/watch?v=SfMzG3pg8Kc" --force-keyframes-at-cuts --merge-output-format mp4 -o "SfMzG3pg8Kc-28m58s.mp4"
+```
+</details>
 
 > "If the first aircraft didn't have to have humans, it probably wouldn't have. Amelia Earhart, Charles Lindbergh - those heroic feats were artifacts of no autonomous guidance existing. We don't need that constraint."
 > — Justin Fiaschetti, [28:58](https://www.youtube.com/watch?v=SfMzG3pg8Kc&t=1738s)
 
 ### "F-117 stealth reduced 32 aircraft requirement to 1 - we enable similar force multiplication"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SfMzG3pg8Kc?start=1636&end=1700" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SfMzG3pg8Kc/hqdefault.jpg)](https://www.youtube.com/watch?v=SfMzG3pg8Kc&t=1636s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*27:16-28:20" "https://www.youtube.com/watch?v=SfMzG3pg8Kc" --force-keyframes-at-cuts --merge-output-format mp4 -o "SfMzG3pg8Kc-27m16s.mp4"
+```
+</details>
 
 > "The F-117 stealth aircraft reduced a 32-aircraft requirement to strike a target to just 1. Space delivery enables similar force multiplication - you don't need forward bases and supply chains."
 > — Justin Fiaschetti, [27:16](https://www.youtube.com/watch?v=SfMzG3pg8Kc&t=1636s)

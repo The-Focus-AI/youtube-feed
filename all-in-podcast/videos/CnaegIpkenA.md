@@ -35,42 +35,84 @@ The discussion of prediction markets centers on the Super Bowl, where over $2 bi
 
 ### "When do tokens outpace the salary of the employee?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CnaegIpkenA?start=1000&end=1060" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CnaegIpkenA/hqdefault.jpg)](https://www.youtube.com/watch?v=CnaegIpkenA&t=1000s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:40-17:40" "https://www.youtube.com/watch?v=CnaegIpkenA" --force-keyframes-at-cuts --merge-output-format mp4 -o "CnaegIpkenA-16m40s.mp4"
+```
+</details>
 
 > "We hit $300 a day per agent using the Claude API like instantly and that was doing maybe 10 or 20%. That's $100,000 a year per agent. When do tokens outpace the salary of the employee? Because you're about to hit it. I'm about to hit it. I think superstar developers are already there."
 > — Chamath Palihapitiya, [16:40](https://www.youtube.com/watch?v=CnaegIpkenA&t=1000s)
 
 ### "Is on-prem the new cloud?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CnaegIpkenA?start=620&end=680" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CnaegIpkenA/hqdefault.jpg)](https://www.youtube.com/watch?v=CnaegIpkenA&t=620s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:20-11:20" "https://www.youtube.com/watch?v=CnaegIpkenA" --force-keyframes-at-cuts --merge-output-format mp4 -o "CnaegIpkenA-10m20s.mp4"
+```
+</details>
 
 > "Is on-prem the new cloud? Which is weird to think that could even be possible. Once you use these tools, it is very difficult for a company to control how their data is used. If you're using a set of agents to act on all that information, all those agent traces are going back to these model builders."
 > — Chamath Palihapitiya, [10:20](https://www.youtube.com/watch?v=CnaegIpkenA&t=620s)
 
 ### "Warren Buffett generated zero alpha after Reg FD"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CnaegIpkenA?start=1420&end=1480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CnaegIpkenA/hqdefault.jpg)](https://www.youtube.com/watch?v=CnaegIpkenA&t=1420s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*23:40-24:40" "https://www.youtube.com/watch?v=CnaegIpkenA" --force-keyframes-at-cuts --merge-output-format mp4 -o "CnaegIpkenA-23m40s.mp4"
+```
+</details>
 
 > "Warren Buffett's returns were double the market returns when this kind of information sharing was legal. And the minute that it became illegal and you had to act on the same edge as everybody else, his returns went to the market return. He generated zero alpha."
 > — Chamath Palihapitiya, [23:40](https://www.youtube.com/watch?v=CnaegIpkenA&t=1420s)
 
 ### "The concrete that breaks the camel's back"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CnaegIpkenA?start=2150&end=2210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CnaegIpkenA/hqdefault.jpg)](https://www.youtube.com/watch?v=CnaegIpkenA&t=2150s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*35:50-36:50" "https://www.youtube.com/watch?v=CnaegIpkenA" --force-keyframes-at-cuts --merge-output-format mp4 -o "CnaegIpkenA-35m50s.mp4"
+```
+</details>
 
 > "If you end up with a Democrat-controlled House and a Democrat president in 2028, you'll very likely see a federalization of state and local pension obligations. When you add that liability to this CBO report, I think that could be not just the straw that breaks the camel's back, but the concrete that breaks the camel's back."
 > — David Friedberg, [35:50](https://www.youtube.com/watch?v=CnaegIpkenA&t=2150s)
 
 ### "The beginning of a new golden age"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CnaegIpkenA?start=3340&end=3400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CnaegIpkenA/hqdefault.jpg)](https://www.youtube.com/watch?v=CnaegIpkenA&t=3340s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*55:40-56:40" "https://www.youtube.com/watch?v=CnaegIpkenA" --force-keyframes-at-cuts --merge-output-format mp4 -o "CnaegIpkenA-55m40s.mp4"
+```
+</details>
 
 > "When we look back on this period, it could end up being a little bit like the late 90s. We had phenomenal economic growth, the internet. I suspect we'll look back on this time period as the beginning of a new golden age."
 > — David Sacks, [55:40](https://www.youtube.com/watch?v=CnaegIpkenA&t=3340s)
 
 ### "The Ferrari experience with Jony Ive's touch"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CnaegIpkenA?start=3830&end=3890" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CnaegIpkenA/hqdefault.jpg)](https://www.youtube.com/watch?v=CnaegIpkenA&t=3830s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*63:50-64:50" "https://www.youtube.com/watch?v=CnaegIpkenA" --force-keyframes-at-cuts --merge-output-format mp4 -o "CnaegIpkenA-63m50s.mp4"
+```
+</details>
 
 > "The screen looks very Mac-inspired except unlike Tesla which is no buttons and removing buttons, they're adding buttons here and making the buttons very tactile. All the sports car enthusiasts love tactile memory-based buttons that you can just have fun with and flip and feel like you're a fighter pilot."
 > — Jason Calacanis, [1:03:50](https://www.youtube.com/watch?v=CnaegIpkenA&t=3830s)

@@ -43,42 +43,84 @@ Bessent also addresses Main Street concerns about affordability, acknowledging t
 
 ### "President Trump cured cancer but it caused dandruff"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G0GuHkUbuEY?start=220&end=280" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/G0GuHkUbuEY/hqdefault.jpg)](https://www.youtube.com/watch?v=G0GuHkUbuEY&t=220s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:40-4:40" "https://www.youtube.com/watch?v=G0GuHkUbuEY" --force-keyframes-at-cuts --merge-output-format mp4 -o "G0GuHkUbuEY-3m40s.mp4"
+```
+</details>
 
 > "People didn't have an open mind. They became the Trump tariffs which immediately a large cohort... because President Trump wanted to do it, it must be bad. I said the other day, President Trump cured cancer but it caused dandruff. Then people would say, well, you know, President Trump has caused a dandruff epidemic."
 > — Scott Bessent, [3:40](https://www.youtube.com/watch?v=G0GuHkUbuEY&t=220s)
 
 ### "The Fed as the engine of inequality"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G0GuHkUbuEY?start=1657&end=1720" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/G0GuHkUbuEY/hqdefault.jpg)](https://www.youtube.com/watch?v=G0GuHkUbuEY&t=1657s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*27:37-28:40" "https://www.youtube.com/watch?v=G0GuHkUbuEY" --force-keyframes-at-cuts --merge-output-format mp4 -o "G0GuHkUbuEY-27m37s.mp4"
+```
+</details>
 
 > "I called the Fed the engine of inequality. And someone said to me, well, do you believe that the Fed is responsible for economic equality in the system? And I said, absolutely not. That is not one of their mandates, but they shouldn't be exacerbating it and they were the leading cause of it."
 > — Scott Bessent, [27:40](https://www.youtube.com/watch?v=G0GuHkUbuEY&t=1660s)
 
 ### "97% of advanced chips made in Taiwan - the biggest threat"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G0GuHkUbuEY?start=2935&end=3000" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/G0GuHkUbuEY/hqdefault.jpg)](https://www.youtube.com/watch?v=G0GuHkUbuEY&t=2935s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*48:55-50:00" "https://www.youtube.com/watch?v=G0GuHkUbuEY" --force-keyframes-at-cuts --merge-output-format mp4 -o "G0GuHkUbuEY-48m55s.mp4"
+```
+</details>
 
 > "The biggest threat is that 97% of the upper level precision chip manufacturer, the advanced chip manufacturers is made in Taiwan... more than the Arab oil embargo that I lived through in the 70s when I was lined up with my parents at the pump to do odd even days."
 > — Scott Bessent, [49:34](https://www.youtube.com/watch?v=G0GuHkUbuEY&t=2974s)
 
 ### "The economy is biology, not math"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G0GuHkUbuEY?start=2338&end=2400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/G0GuHkUbuEY/hqdefault.jpg)](https://www.youtube.com/watch?v=G0GuHkUbuEY&t=2338s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*38:58-40:00" "https://www.youtube.com/watch?v=G0GuHkUbuEY" --force-keyframes-at-cuts --merge-output-format mp4 -o "G0GuHkUbuEY-38m58s.mp4"
+```
+</details>
 
 > "The economy, the markets are biology. They're not math. They're not physics. They're nonlinearities. They're very complex systems. They're mutations in the system. And this idea that we can have this decimal point certainty is just absurd."
 > — Scott Bessent, [39:16](https://www.youtube.com/watch?v=G0GuHkUbuEY&t=2356s)
 
 ### "Trump accounts - merging Main Street and Wall Street"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G0GuHkUbuEY?start=3188&end=3250" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/G0GuHkUbuEY/hqdefault.jpg)](https://www.youtube.com/watch?v=G0GuHkUbuEY&t=3188s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*53:08-54:10" "https://www.youtube.com/watch?v=G0GuHkUbuEY" --force-keyframes-at-cuts --merge-output-format mp4 -o "G0GuHkUbuEY-53m08s.mp4"
+```
+</details>
 
 > "I've talked about parallel prosperity, Wall Street and Main Street. This is the biggest merger in history because it is merging Main Street and Wall Street. By giving every child $1,000 at birth for these accounts, we are going to increase financial literacy and optimism in the market."
 > — Scott Bessent, [53:08](https://www.youtube.com/watch?v=G0GuHkUbuEY&t=3188s)
 
 ### "Justice Kagan's towering intellect"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G0GuHkUbuEY?start=779&end=840" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/G0GuHkUbuEY/hqdefault.jpg)](https://www.youtube.com/watch?v=G0GuHkUbuEY&t=779s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:59-14:00" "https://www.youtube.com/watch?v=G0GuHkUbuEY" --force-keyframes-at-cuts --merge-output-format mp4 -o "G0GuHkUbuEY-12m59s.mp4"
+```
+</details>
 
 > "Not my political leanings but Justice Kagan was just an intellect of towering impressiveness. I came away thinking I am glad that Justice Alito is not my father because he is smart. He is bombastic and when he got the knife into a couple of the plaintiffs in a line of questioning, he moves it around quite a bit."
 > — Scott Bessent, [13:02](https://www.youtube.com/watch?v=G0GuHkUbuEY&t=782s)

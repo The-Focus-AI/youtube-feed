@@ -42,35 +42,70 @@ Musk also addresses AI developments, calling it a "supersonic tsunami" that's co
 
 ### "$400 lunches at empty Twitter HQ"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j6_VfR-CyuM?start=1605&end=1665" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/j6_VfR-CyuM/hqdefault.jpg)](https://www.youtube.com/watch?v=j6_VfR-CyuM&t=1605s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*26:45-27:45" "https://www.youtube.com/watch?v=j6_VfR-CyuM" --force-keyframes-at-cuts --merge-output-format mp4 -o "j6_VfR-CyuM-26m45s.mp4"
+```
+</details>
 
 > "We discovered that the actual price of the lunch was $400. The original price was $20, but it was at 5% occupancy. So it was 20 times higher and they still kept making the same amount."
 > — Elon Musk, [26:55](https://www.youtube.com/watch?v=j6_VfR-CyuM&t=1615s)
 
 ### "Fresh tampons in empty building for years"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j6_VfR-CyuM?start=1750&end=1810" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/j6_VfR-CyuM/hqdefault.jpg)](https://www.youtube.com/watch?v=j6_VfR-CyuM&t=1750s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*29:10-30:10" "https://www.youtube.com/watch?v=j6_VfR-CyuM" --force-keyframes-at-cuts --merge-output-format mp4 -o "j6_VfR-CyuM-29m10s.mp4"
+```
+</details>
 
 > "Every week they would put a fresh box of tampons in an empty building for years. You'd have to be a burglar who is a transman burglar unwilling to use the woman's bathroom. You're more likely to be struck by a meteor than need that tampon."
 > — Elon Musk, [29:35](https://www.youtube.com/watch?v=j6_VfR-CyuM&t=1775s)
 
 ### "Larry called me a speciesist"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j6_VfR-CyuM?start=3140&end=3200" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/j6_VfR-CyuM/hqdefault.jpg)](https://www.youtube.com/watch?v=j6_VfR-CyuM&t=3140s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*52:20-53:20" "https://www.youtube.com/watch?v=j6_VfR-CyuM" --force-keyframes-at-cuts --merge-output-format mp4 -o "j6_VfR-CyuM-52m20s.mp4"
+```
+</details>
 
 > "Larry, what side are you on? He called me a speciesist for being pro-human. I'm like, we need to make sure the AI doesn't destroy all the humans. And then he called me a speciesist."
 > — Elon Musk, [52:40](https://www.youtube.com/watch?v=j6_VfR-CyuM&t=3160s)
 
 ### "Closed for Maximum Profit AI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j6_VfR-CyuM?start=3270&end=3330" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/j6_VfR-CyuM/hqdefault.jpg)](https://www.youtube.com/watch?v=j6_VfR-CyuM&t=3270s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*54:30-55:30" "https://www.youtube.com/watch?v=j6_VfR-CyuM" --force-keyframes-at-cuts --merge-output-format mp4 -o "j6_VfR-CyuM-54m30s.mp4"
+```
+</details>
 
 > "OpenAI needs to change its name to Closed for Maximum Profit AI. It went from being the United Nations to being Spectre in James Bond land."
 > — Elon Musk, [55:00](https://www.youtube.com/watch?v=j6_VfR-CyuM&t=3300s)
 
 ### "Bill Gates didn't know the numbers"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j6_VfR-CyuM?start=4260&end=4320" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/j6_VfR-CyuM/hqdefault.jpg)](https://www.youtube.com/watch?v=j6_VfR-CyuM&t=4260s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*71:00-72:00" "https://www.youtube.com/watch?v=j6_VfR-CyuM" --force-keyframes-at-cuts --merge-output-format mp4 -o "j6_VfR-CyuM-71m00s.mp4"
+```
+</details>
 
 > "He came to visit me at the Tesla Gigafactory and was telling me it's impossible to have a long range semi truck. I was like, well but we literally have them. And Pepsi is literally using them right now. And he's like, 'No, no, it doesn't work.' And he didn't know any of the numbers."
 > — Elon Musk, [1:11:00](https://www.youtube.com/watch?v=j6_VfR-CyuM&t=4260s)

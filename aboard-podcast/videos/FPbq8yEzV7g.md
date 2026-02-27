@@ -33,35 +33,70 @@ The hosts explore the economic backdrop -- a booming stock market alongside post
 
 ### "You didn't get rejected"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FPbq8yEzV7g?start=1090&end=1150" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FPbq8yEzV7g/hqdefault.jpg)](https://www.youtube.com/watch?v=FPbq8yEzV7g&t=1090s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:10-19:10" "https://www.youtube.com/watch?v=FPbq8yEzV7g" --force-keyframes-at-cuts --merge-output-format mp4 -o "FPbq8yEzV7g-18m10s.mp4"
+```
+</details>
 
 > "You didn't get rejected. Nobody decided you weren't good enough. They actually didn't give you the time of day. They didn't give you any real attention. And that's because of the sheer volume of what's going on right now and how everyone's trying to automate it away."
 > -- Rich Zotti, [18:10](https://www.youtube.com/watch?v=FPbq8yEzV7g&t=1090s)
 
 ### "The job search has become a humiliation ritual"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FPbq8yEzV7g?start=250&end=310" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FPbq8yEzV7g/hqdefault.jpg)](https://www.youtube.com/watch?v=FPbq8yEzV7g&t=250s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:10-5:10" "https://www.youtube.com/watch?v=FPbq8yEzV7g" --force-keyframes-at-cuts --merge-output-format mp4 -o "FPbq8yEzV7g-4m10s.mp4"
+```
+</details>
 
 > "The title is great. The title is 'The Job Search Has Become a Humiliation Ritual.' Well, that's not different than it ever used to be."
 > -- Paul Ford & Rich Zotti, [4:10](https://www.youtube.com/watch?v=FPbq8yEzV7g&t=250s)
 
 ### "We're entering this world of essentially total distrust"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FPbq8yEzV7g?start=1200&end=1260" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FPbq8yEzV7g/hqdefault.jpg)](https://www.youtube.com/watch?v=FPbq8yEzV7g&t=1200s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:00-21:00" "https://www.youtube.com/watch?v=FPbq8yEzV7g" --force-keyframes-at-cuts --merge-output-format mp4 -o "FPbq8yEzV7g-20m00s.mp4"
+```
+</details>
 
 > "We're entering this world of essentially total distrust. You are going to attempt to build a relationship with me automatically. You are going to have absolutely no respect for my time."
 > -- Rich Zotti, [20:00](https://www.youtube.com/watch?v=FPbq8yEzV7g&t=1200s)
 
 ### "You're telling people to put their pants on"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FPbq8yEzV7g?start=1470&end=1530" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FPbq8yEzV7g/hqdefault.jpg)](https://www.youtube.com/watch?v=FPbq8yEzV7g&t=1470s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*24:30-25:30" "https://www.youtube.com/watch?v=FPbq8yEzV7g" --force-keyframes-at-cuts --merge-output-format mp4 -o "FPbq8yEzV7g-24m30s.mp4"
+```
+</details>
 
 > "I will work really hard and you can pay me less until I get good and then I would hope you would pay me more. No one writes that. But that's actually the signal that cuts through."
 > -- Rich Zotti, [24:30](https://www.youtube.com/watch?v=FPbq8yEzV7g&t=1470s)
 
 ### "The equivalent of being dumped by your boyfriend and eating six tubs of ice cream"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FPbq8yEzV7g?start=520&end=580" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FPbq8yEzV7g/hqdefault.jpg)](https://www.youtube.com/watch?v=FPbq8yEzV7g&t=520s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:40-9:40" "https://www.youtube.com/watch?v=FPbq8yEzV7g" --force-keyframes-at-cuts --merge-output-format mp4 -o "FPbq8yEzV7g-8m40s.mp4"
+```
+</details>
 
 > "This absolutely like one hundred year event occurred. The markets kind of cratered for a minute and then there's just this massive spend kicked in. It was like the equivalent of being dumped by your boyfriend and deciding you're going to eat six tubs of ice cream."
 > -- Rich Zotti, [8:40](https://www.youtube.com/watch?v=FPbq8yEzV7g&t=520s)

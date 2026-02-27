@@ -28,35 +28,70 @@ MKBHD explores the complete lifecycle of OnePlus, from its explosive launch as t
 
 ### "OnePlus is Still Alive Here in 2026"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vZdbbN3FCzE?start=77&end=125" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vZdbbN3FCzE/hqdefault.jpg)](https://www.youtube.com/watch?v=vZdbbN3FCzE&t=77s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:17-2:05" "https://www.youtube.com/watch?v=vZdbbN3FCzE" --force-keyframes-at-cuts --merge-output-format mp4 -o "vZdbbN3FCzE-1m17s.mp4"
+```
+</details>
 
 > "OnePlus is still alive here in 2026. They've now done the whole arc from start to finish. And so they've sort of accidentally become the blueprint for survival as an enthusiast brand."
 > — Marques Brownlee, [1:17](https://www.youtube.com/watch?v=vZdbbN3FCzE&t=77s)
 
 ### "The OnePlus 1 Was Absolutely Nuts"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vZdbbN3FCzE?start=130&end=184" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vZdbbN3FCzE/hqdefault.jpg)](https://www.youtube.com/watch?v=vZdbbN3FCzE&t=130s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:10-3:04" "https://www.youtube.com/watch?v=vZdbbN3FCzE" --force-keyframes-at-cuts --merge-output-format mp4 -o "vZdbbN3FCzE-2m10s.mp4"
+```
+</details>
 
 > "The hype for this phone was absolutely nuts before it even started shipping. It had all these flagship specs with the latest gen Snapdragon 800 series chip and it was $300 somehow which was unreal."
 > — Marques Brownlee, [2:10](https://www.youtube.com/watch?v=vZdbbN3FCzE&t=130s)
 
 ### "Peak OnePlus: The 7T Pro"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vZdbbN3FCzE?start=400&end=455" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vZdbbN3FCzE/hqdefault.jpg)](https://www.youtube.com/watch?v=vZdbbN3FCzE&t=400s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:40-7:35" "https://www.youtube.com/watch?v=vZdbbN3FCzE" --force-keyframes-at-cuts --merge-output-format mp4 -o "vZdbbN3FCzE-6m40s.mp4"
+```
+</details>
 
 > "My favorite OnePlus phone of all time would be the OnePlus 7T Pro. That is a phone I genuinely believe I could still use today and be totally happy with. Between the really modern design, the super clean software, the ridiculously responsive performance, the really fast charging, even the pop-up selfie camera, and it was 660 bucks."
 > — Marques Brownlee, [6:40](https://www.youtube.com/watch?v=vZdbbN3FCzE&t=400s)
 
 ### "What the Masses Want Drives Enthusiasts Away"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vZdbbN3FCzE?start=555&end=610" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vZdbbN3FCzE/hqdefault.jpg)](https://www.youtube.com/watch?v=vZdbbN3FCzE&t=555s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:15-10:10" "https://www.youtube.com/watch?v=vZdbbN3FCzE" --force-keyframes-at-cuts --merge-output-format mp4 -o "vZdbbN3FCzE-9m15s.mp4"
+```
+</details>
 
 > "If you want to offer something that the masses actually want, that will be the exact something that drives the enthusiasts away. And every enthusiast brand, every single one has this realization at some point."
 > — Marques Brownlee, [9:18](https://www.youtube.com/watch?v=vZdbbN3FCzE&t=558s)
 
 ### "Most Successful But Also Least Successful Jump"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vZdbbN3FCzE?start=663&end=720" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vZdbbN3FCzE/hqdefault.jpg)](https://www.youtube.com/watch?v=vZdbbN3FCzE&t=663s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:03-12:00" "https://www.youtube.com/watch?v=vZdbbN3FCzE" --force-keyframes-at-cuts --merge-output-format mp4 -o "vZdbbN3FCzE-11m03s.mp4"
+```
+</details>
 
 > "OnePlus has somehow pulled off the most successful but also least successful jump from enthusiast to mainstream that we've ever seen."
 > — Marques Brownlee, [11:03](https://www.youtube.com/watch?v=vZdbbN3FCzE&t=663s)

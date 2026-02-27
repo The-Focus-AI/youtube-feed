@@ -34,42 +34,84 @@ Michael argues that Brown's Beach Cloth was essentially ahead of its time, predi
 
 ### "People were writing him letters begging him to never change the configuration"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XPIVM9e_lGU?start=62&end=110" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XPIVM9e_lGU/hqdefault.jpg)](https://www.youtube.com/watch?v=XPIVM9e_lGU&t=62s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:02-1:50" "https://www.youtube.com/watch?v=XPIVM9e_lGU" --force-keyframes-at-cuts --merge-output-format mp4 -o "XPIVM9e_lGU-1m02s.mp4"
+```
+</details>
 
 > "William Brown's fabric in the 1900s was basically considered like a space age fabric. It was mind-blowing. People were writing him letters begging him to never change the configuration of it because it was perfect."
 > — Michael, [1:02](https://www.youtube.com/watch?v=XPIVM9e_lGU&t=62s)
 
 ### "The Civil War gave recycled fabric a terrible name"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XPIVM9e_lGU?start=223&end=270" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XPIVM9e_lGU/hqdefault.jpg)](https://www.youtube.com/watch?v=XPIVM9e_lGU&t=223s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:43-4:30" "https://www.youtube.com/watch?v=XPIVM9e_lGU" --force-keyframes-at-cuts --merge-output-format mp4 -o "XPIVM9e_lGU-3m43s.mp4"
+```
+</details>
 
 > "The Civil War had a lot of people enlisting very, very, very fast. And the US government was like, 'Hey, clothing brands, we need uniforms very fast.' So, they basically made junk uniforms that didn't fit... Absolute junk. And what did soldiers call that? Shoddy."
 > — Michael, [3:43](https://www.youtube.com/watch?v=XPIVM9e_lGU&t=223s)
 
 ### "It's like a soccer net - won't unravel if there's a hole"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XPIVM9e_lGU?start=406&end=455" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XPIVM9e_lGU/hqdefault.jpg)](https://www.youtube.com/watch?v=XPIVM9e_lGU&t=406s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:46-7:35" "https://www.youtube.com/watch?v=XPIVM9e_lGU" --force-keyframes-at-cuts --merge-output-format mp4 -o "XPIVM9e_lGU-6m46s.mp4"
+```
+</details>
 
 > "Brown's Beach Cloth uses a form of knitting called warp knitting... The first thing that it doesn't do is unravel or ladder if there's a hole in it. So if you think of a soccer net, if you kicked a ball in it and there was a hole in that net, it doesn't go poof and just open up."
 > — Michael, [6:46](https://www.youtube.com/watch?v=XPIVM9e_lGU&t=406s)
 
 ### "Recycled wool in fleece: You're destroying the fibers anyway"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XPIVM9e_lGU?start=604&end=650" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XPIVM9e_lGU/hqdefault.jpg)](https://www.youtube.com/watch?v=XPIVM9e_lGU&t=604s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:04-10:50" "https://www.youtube.com/watch?v=XPIVM9e_lGU" --force-keyframes-at-cuts --merge-output-format mp4 -o "XPIVM9e_lGU-10m04s.mp4"
+```
+</details>
 
 > "Fleece is a bursted yarn. So you basically get a machine, you rip up all of the loops... and then you screw it all up and destroy the fibers so they're fluffy and lofted. Those long fiber lengths don't matter because you're going to destroy the yarns anyways. You're doing it anyways. Why spend more money to do the same thing?"
 > — Michael, [10:04](https://www.youtube.com/watch?v=XPIVM9e_lGU&t=604s)
 
 ### "The vest was a test drive for revolutionary technology"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XPIVM9e_lGU?start=754&end=800" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XPIVM9e_lGU/hqdefault.jpg)](https://www.youtube.com/watch?v=XPIVM9e_lGU&t=754s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:34-13:20" "https://www.youtube.com/watch?v=XPIVM9e_lGU" --force-keyframes-at-cuts --merge-output-format mp4 -o "XPIVM9e_lGU-12m34s.mp4"
+```
+</details>
 
 > "You could put this on under your kit and it improved it because of all the qualities that we talked about before. All of a sudden, you take off your woven vest, put on this knit one, you're lighter, more breathable, more comfortable, everything like that. Bing, bang, boom, you want the whole Brown fleet."
 > — Michael, [12:34](https://www.youtube.com/watch?v=XPIVM9e_lGU&t=754s)
 
 ### "Knit clothing will dominate in 5-10 years"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XPIVM9e_lGU?start=798&end=830" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XPIVM9e_lGU/hqdefault.jpg)](https://www.youtube.com/watch?v=XPIVM9e_lGU&t=798s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:18-13:50" "https://www.youtube.com/watch?v=XPIVM9e_lGU" --force-keyframes-at-cuts --merge-output-format mp4 -o "XPIVM9e_lGU-13m18s.mp4"
+```
+</details>
 
 > "I have a theory that in 5 to 10 years, even pretty dangerous professions and stuff like that will be heavily based on knit clothing. And woven clothing is going to become specialty heritage stuff almost completely. And Mr. William W. Brown was kind of the first guy to be like, 'This is it. This is the future.'"
 > — Michael, [13:18](https://www.youtube.com/watch?v=XPIVM9e_lGU&t=798s)

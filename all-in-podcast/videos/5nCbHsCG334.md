@@ -39,35 +39,70 @@ The discussion concludes with Nadella's vision for enterprise AI adoption - both
 
 ### "Macro Delegate, Micro Steer" - The New Metaphor for AI
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5nCbHsCG334?start=540&end=600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5nCbHsCG334/hqdefault.jpg)](https://www.youtube.com/watch?v=5nCbHsCG334&t=540s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:00-10:00" "https://www.youtube.com/watch?v=5nCbHsCG334" --force-keyframes-at-cuts --merge-output-format mp4 -o "5nCbHsCG334-9m00s.mp4"
+```
+</details>
 
 > "Jobs had the bicycle for the mind. Bill had information at your fingertips. We need a new metaphor for AI. The one I like came from the CEO of Notion: manager of infinite minds. You macro delegate and micro steer. You give it instructions in parallel while it's doing work."
 > — Satya Nadella, [9:00](https://www.youtube.com/watch?v=5nCbHsCG334&t=540s)
 
 ### "Microsoft Flat Headcount, Added $90B Revenue, Doubled Profits"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5nCbHsCG334?start=885&end=945" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5nCbHsCG334/hqdefault.jpg)](https://www.youtube.com/watch?v=5nCbHsCG334&t=885s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:45-15:45" "https://www.youtube.com/watch?v=5nCbHsCG334" --force-keyframes-at-cuts --merge-output-format mp4 -o "5nCbHsCG334-14m45s.mp4"
+```
+</details>
 
 > "Four years ago you had the same number of employees you have at Microsoft now, but you put a $90 billion onto the top line of the revenue in that time and you doubled your income. How did that happen? At some level this is the biggest structural change in knowledge work since PCs."
 > — Jason Calacanis, [14:45](https://www.youtube.com/watch?v=5nCbHsCG334&t=885s)
 
 ### "LinkedIn Collapsed Four Roles Into Full-Stack Builders"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5nCbHsCG334?start=960&end=1020" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5nCbHsCG334/hqdefault.jpg)](https://www.youtube.com/watch?v=5nCbHsCG334&t=960s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:00-17:00" "https://www.youtube.com/watch?v=5nCbHsCG334" --force-keyframes-at-cuts --merge-output-format mp4 -o "5nCbHsCG334-16m00s.mp4"
+```
+</details>
 
 > "At LinkedIn we used to have product managers, designers, front-end engineers, and backend engineers. We took those first four roles and combined them - increased scope - and said let's make them all full-stack builders. It's a structural change that allows us to change both the work and the workflow."
 > — Satya Nadella, [16:00](https://www.youtube.com/watch?v=5nCbHsCG334&t=960s)
 
 ### "You Create Technology, But Benefits Come From Intense Use"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5nCbHsCG334?start=1380&end=1440" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5nCbHsCG334/hqdefault.jpg)](https://www.youtube.com/watch?v=5nCbHsCG334&t=1380s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*23:00-24:00" "https://www.youtube.com/watch?v=5nCbHsCG334" --force-keyframes-at-cuts --merge-output-format mp4 -o "5nCbHsCG334-23m00s.mp4"
+```
+</details>
 
 > "I always go back to this study by Diego Comín out of Dartmouth about the Industrial Revolution. Countries that brought in the latest technology and did value-add on top of it got ahead. With general purpose technologies like AI, it needs to spread. Unless we see diffusion and intense use, we're not going to have success."
 > — Satya Nadella, [23:00](https://www.youtube.com/watch?v=5nCbHsCG334&t=1380s)
 
 ### "As Many Models As Firms in the World"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5nCbHsCG334?start=1620&end=1680" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5nCbHsCG334/hqdefault.jpg)](https://www.youtube.com/watch?v=5nCbHsCG334&t=1620s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*27:00-28:00" "https://www.youtube.com/watch?v=5nCbHsCG334" --force-keyframes-at-cuts --merge-output-format mp4 -o "5nCbHsCG334-27m00s.mp4"
+```
+</details>
 
 > "When somebody asks me how many models should there be, I'll say as many models as firms in the world. A firm should be able to take the tacit knowledge it has and embed it inside weights in a model that they control. That's how this knowledge economy becomes an AI economy."
 > — Satya Nadella, [27:00](https://www.youtube.com/watch?v=5nCbHsCG334&t=1620s)

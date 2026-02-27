@@ -33,35 +33,70 @@ Alex emphasizes that we're in a time of "tremendous change and opportunity" wher
 
 ### "A Brain in a Jar"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LQIrsmercPw?start=56&end=95" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LQIrsmercPw/hqdefault.jpg)](https://www.youtube.com/watch?v=LQIrsmercPw&t=56s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:56-1:35" "https://www.youtube.com/watch?v=LQIrsmercPw" --force-keyframes-at-cuts --merge-output-format mp4 -o "LQIrsmercPw-0m56s.mp4"
+```
+</details>
 
 > "MCP is a protocol for giving the model more context about things... A really smart model is like a brain in a jar - it doesn't have access to anything that's immediately around it. So MCP kind of helps us just remove that jar and let the model connect to data sources that are proximal to it, call tools to affect change in different systems, and helps us give the models arms and legs to do things in the world."
 > — Alex Hancock, [0:56](https://www.youtube.com/watch?v=LQIrsmercPw&t=56s)
 
 ### "MCP Won Already"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LQIrsmercPw?start=1028&end=1060" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LQIrsmercPw/hqdefault.jpg)](https://www.youtube.com/watch?v=LQIrsmercPw&t=1028s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*17:08-17:40" "https://www.youtube.com/watch?v=LQIrsmercPw" --force-keyframes-at-cuts --merge-output-format mp4 -o "LQIrsmercPw-17m08s.mp4"
+```
+</details>
 
 > "I think MCP won already. You only need a slight edge with open source protocol and you're just zooming - it's really hard to catch up. Bitcoin and Ethereum - Ethereum will never catch up even though you can argue it's a better system. There's a first mover advantage that accumulates over time."
 > — Alex Hancock, [17:08](https://www.youtube.com/watch?v=LQIrsmercPw&t=1028s)
 
 ### "This is a New Way of Working"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LQIrsmercPw?start=0&end=42" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LQIrsmercPw/hqdefault.jpg)](https://www.youtube.com/watch?v=LQIrsmercPw&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-0:42" "https://www.youtube.com/watch?v=LQIrsmercPw" --force-keyframes-at-cuts --merge-output-format mp4 -o "LQIrsmercPw-0m00s.mp4"
+```
+</details>
 
 > "This is a new way of working. I mean a time of tremendous change and opportunity for all of us. Creating software is changing fundamentally... The nature of creating software is changing fundamentally. It's not changing in an incremental way. It's not an incremental improvement."
 > — Alex Hancock, [0:00](https://www.youtube.com/watch?v=LQIrsmercPw&t=0s)
 
 ### "Context is Everything"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LQIrsmercPw?start=751&end=815" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LQIrsmercPw/hqdefault.jpg)](https://www.youtube.com/watch?v=LQIrsmercPw&t=751s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:31-13:35" "https://www.youtube.com/watch?v=LQIrsmercPw" --force-keyframes-at-cuts --merge-output-format mp4 -o "LQIrsmercPw-12m31s.mp4"
+```
+</details>
 
 > "I see one of the most interesting challenges in using this technology right now to be the models are capable. The models are getting very smart. Getting them the right context to perform a task is largely the task. If you give the model the right context, it can do a great job. And if you don't give the model the right context, it can do a terrible job."
 > — Alex Hancock, [12:31](https://www.youtube.com/watch?v=LQIrsmercPw&t=751s)
 
 ### "AGI Will Be Incremental"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LQIrsmercPw?start=1245&end=1300" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LQIrsmercPw/hqdefault.jpg)](https://www.youtube.com/watch?v=LQIrsmercPw&t=1245s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:45-21:40" "https://www.youtube.com/watch?v=LQIrsmercPw" --force-keyframes-at-cuts --merge-output-format mp4 -o "LQIrsmercPw-20m45s.mp4"
+```
+</details>
 
 > "It's a process that's going to be continual improvement and it's not going to be like a before and after. These things just continuing to get more and more and more capable and doing more for us, and at a certain point you're going to look at them and realize that they're incredibly powerful and incredibly intelligent."
 > — Alex Hancock, [20:45](https://www.youtube.com/watch?v=LQIrsmercPw&t=1245s)

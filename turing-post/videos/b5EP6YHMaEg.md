@@ -38,35 +38,70 @@ The discussion covers synthetic data's limitations, the importance of benchmarks
 
 ### "Training people is not much different from training models"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b5EP6YHMaEg?start=706&end=735" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/b5EP6YHMaEg/hqdefault.jpg)](https://www.youtube.com/watch?v=b5EP6YHMaEg&t=706s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:46-12:15" "https://www.youtube.com/watch?v=b5EP6YHMaEg" --force-keyframes-at-cuts --merge-output-format mp4 -o "b5EP6YHMaEg-11m46s.mp4"
+```
+</details>
 
 > "Training people is not much different from training models. People are best trained by examples. So you create a data set of use cases, you show them to people explaining 'here is right, here is wrong' and while processing through those examples, people are training their own neural network and then start to understand the logic."
 > — Olga Megorskaya, [11:46](https://www.youtube.com/watch?v=b5EP6YHMaEg&t=706s)
 
 ### "We are training experts to distrust LLMs"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b5EP6YHMaEg?start=561&end=600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/b5EP6YHMaEg/hqdefault.jpg)](https://www.youtube.com/watch?v=b5EP6YHMaEg&t=561s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:21-10:00" "https://www.youtube.com/watch?v=b5EP6YHMaEg" --force-keyframes-at-cuts --merge-output-format mp4 -o "b5EP6YHMaEg-9m21s.mp4"
+```
+</details>
 
 > "The most important skill that we are training our experts right now is to distrust LLM - to see when actually the plan that AI agent has created is wrong. In 70% it would be correct but in 30% it would be wrong. This is the most important and most responsible part of human input - to say 'no, no, no, I'm not listening to you here. I am applying my own amazing human wisdom to do it my way.'"
 > — Olga Megorskaya, [9:21](https://www.youtube.com/watch?v=b5EP6YHMaEg&t=561s)
 
 ### "30 seconds became 10 hours"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b5EP6YHMaEg?start=256&end=295" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/b5EP6YHMaEg/hqdefault.jpg)](https://www.youtube.com/watch?v=b5EP6YHMaEg&t=256s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:16-4:55" "https://www.youtube.com/watch?v=b5EP6YHMaEg" --force-keyframes-at-cuts --merge-output-format mp4 -o "b5EP6YHMaEg-4m16s.mp4"
+```
+</details>
 
 > "Many years ago, the average task that was needed to be executed by the human annotator was like 30 seconds. We even had this 30 seconds as a magical number literally hardcoded in our platform. Right now this is no surprise of tasks taking 10 hours, even sometimes several days of human work to prepare one item in a data set."
 > — Olga Megorskaya, [4:16](https://www.youtube.com/watch?v=b5EP6YHMaEg&t=256s)
 
 ### "Human expert is a benchmark"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b5EP6YHMaEg?start=1660&end=1700" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/b5EP6YHMaEg/hqdefault.jpg)](https://www.youtube.com/watch?v=b5EP6YHMaEg&t=1660s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*27:40-28:20" "https://www.youtube.com/watch?v=b5EP6YHMaEg" --force-keyframes-at-cuts --merge-output-format mp4 -o "b5EP6YHMaEg-27m40s.mp4"
+```
+</details>
 
 > "Ultimately the whole concept of AI is that human expert is not an executor. Human expert is a benchmark. AI is trying to keep up with the human expertise. We have in some areas already reached the situation when the average model is performing better than the average human. That's why it is a specific job to collect the collective human wisdom that would still be higher than the wisdom of the AI."
 > — Olga Megorskaya, [27:40](https://www.youtube.com/watch?v=b5EP6YHMaEg&t=1660s)
 
 ### "The power of text - Foucault's Pendulum"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b5EP6YHMaEg?start=1730&end=1780" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/b5EP6YHMaEg/hqdefault.jpg)](https://www.youtube.com/watch?v=b5EP6YHMaEg&t=1730s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*28:50-29:40" "https://www.youtube.com/watch?v=b5EP6YHMaEg" --force-keyframes-at-cuts --merge-output-format mp4 -o "b5EP6YHMaEg-28m50s.mp4"
+```
+</details>
 
 > "It describes how actually the simple sequence of letters, the simple text can create by itself whole new concepts, whole new societies, whole new religions and ultimately the questions of life and death of particular people. If you think about it, this is what we are observing now with large language models. This is a fascinating power of the text."
 > — Olga Megorskaya, [28:50](https://www.youtube.com/watch?v=b5EP6YHMaEg&t=1730s)

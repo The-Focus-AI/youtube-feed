@@ -34,42 +34,84 @@ A particularly interesting segment explores the history of RAG, with Amr setting
 
 ### "I would challenge anybody saying RAG is dead"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DaYASTIJcok?start=59&end=130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DaYASTIJcok/hqdefault.jpg)](https://www.youtube.com/watch?v=DaYASTIJcok&t=59s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:59-2:10" "https://www.youtube.com/watch?v=DaYASTIJcok" --force-keyframes-at-cuts --merge-output-format mp4 -o "DaYASTIJcok-0m59s.mp4"
+```
+</details>
 
 > "Even the largest companies like Google Amazon Microsoft all of them are leveraging and using RAG even with the larger context window. The larger context window simply means that we can give more information to the large language model in the prompt, but we still have to pick the right information to be giving it. If we give it a lot of quote unquote garbage as part of that prompt, the model actually struggles. The large language models are good at doing what's called single needle retrieval. They can find one needle in a haystack, maybe two, but they're not very good at finding multiple facts that are relevant within the context window."
 > — Amr Awadallah, [0:59](https://www.youtube.com/watch?v=DaYASTIJcok&t=59s)
 
 ### "RAG separates memory from reasoning"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DaYASTIJcok?start=119&end=170" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DaYASTIJcok/hqdefault.jpg)](https://www.youtube.com/watch?v=DaYASTIJcok&t=119s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:59-2:50" "https://www.youtube.com/watch?v=DaYASTIJcok" --force-keyframes-at-cuts --merge-output-format mp4 -o "DaYASTIJcok-1m59s.mp4"
+```
+</details>
 
 > "RAG on the other hand separates the memory layer which is the knowledge from the reasoning layer, the inference layer which is the experience or the intelligence. And that model works for us as humans as well. Like if you go into a high school exam and we make that an open book exam versus a closed book exam and there is an assistant beside you that very quickly highlights the most relevant sentences that you should be considering while forming your response. You end up doing much better in your exams."
 > — Amr Awadallah, [1:59](https://www.youtube.com/watch?v=DaYASTIJcok&t=119s)
 
 ### "You still need a guardian angel"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DaYASTIJcok?start=756&end=820" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DaYASTIJcok/hqdefault.jpg)](https://www.youtube.com/watch?v=DaYASTIJcok&t=756s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:36-13:40" "https://www.youtube.com/watch?v=DaYASTIJcok" --force-keyframes-at-cuts --merge-output-format mp4 -o "DaYASTIJcok-12m36s.mp4"
+```
+</details>
 
 > "Even when you do surgery within the weights of the model, which is what everybody in our leaderboard does, even the best models in the world from OpenAI and from Google, they still hallucinate around 1%. So even with all that surgery, you cannot just take the model with surgery, meaning fine-tuning, and then depend on it as is. You still need a guardian angel, that's what we call a guardian agent, that monitors the output of the model and catches it when it hallucinates."
 > — Amr Awadallah, [12:36](https://www.youtube.com/watch?v=DaYASTIJcok&t=756s)
 
 ### "RAG goes back to the 1960s"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DaYASTIJcok?start=972&end=1040" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DaYASTIJcok/hqdefault.jpg)](https://www.youtube.com/watch?v=DaYASTIJcok&t=972s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:12-17:20" "https://www.youtube.com/watch?v=DaYASTIJcok" --force-keyframes-at-cuts --merge-output-format mp4 -o "DaYASTIJcok-16m12s.mp4"
+```
+</details>
 
 > "The research community going back all the way to the pioneers of information retrieval and natural language understanding. There are some startups saying 'oh we created RAG, we invented RAG.' I'm like no, this approach goes back to 1960s where there were very early systems, one of them is called BASEBALL, that highlighted this approach of if you really want to be very confident in the response you're giving back, mimicking what humans do is the right way."
 > — Amr Awadallah, [16:12](https://www.youtube.com/watch?v=DaYASTIJcok&t=972s)
 
 ### "Hallucination is not going away with transformers"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DaYASTIJcok?start=1047&end=1120" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DaYASTIJcok/hqdefault.jpg)](https://www.youtube.com/watch?v=DaYASTIJcok&t=1047s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*17:27-18:40" "https://www.youtube.com/watch?v=DaYASTIJcok" --force-keyframes-at-cuts --merge-output-format mp4 -o "DaYASTIJcok-17m27s.mp4"
+```
+</details>
 
 > "Not with the current architecture of transformers. If you look at transformers and deep neural networks, these techniques are very probabilistic in nature. And by definition, when you have something that's probabilistic and statistical, there's always going to be a probability of a false positive or a false negative. We seem to be hitting a plateau right now at 1%. But if we can get detection of hallucination to be perfect, that's a non-issue because yes we're not going to eliminate hallucination but at least we're going to be able to detect it."
 > — Amr Awadallah, [17:27](https://www.youtube.com/watch?v=DaYASTIJcok&t=1047s)
 
 ### "AGI is just five years out"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DaYASTIJcok?start=1220&end=1290" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/DaYASTIJcok/hqdefault.jpg)](https://www.youtube.com/watch?v=DaYASTIJcok&t=1220s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:20-21:30" "https://www.youtube.com/watch?v=DaYASTIJcok" --force-keyframes-at-cuts --merge-output-format mp4 -o "DaYASTIJcok-20m20s.mp4"
+```
+</details>
 
 > "AGI is achieving a system that can be better than any human at any topic. We don't have that today. We have these systems that are better than us in some domains but only better than the average of us. The reason why just five years is because of coding. The big labs are very focused on the coding problem. Once the AI system can start working on itself, that will speed up the timeline significantly. We're expecting that the coding systems will reach that point within the next two years."
 > — Amr Awadallah, [20:20](https://www.youtube.com/watch?v=DaYASTIJcok&t=1220s)

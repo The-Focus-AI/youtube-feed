@@ -33,35 +33,70 @@ The episode closes with both hosts expressing concern that the very innovation e
 
 ### "Ethics Don't Scale"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EO-tTXD3pIE?start=666&end=715" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EO-tTXD3pIE/hqdefault.jpg)](https://www.youtube.com/watch?v=EO-tTXD3pIE&t=666s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:06-11:55" "https://www.youtube.com/watch?v=EO-tTXD3pIE" --force-keyframes-at-cuts --merge-output-format mp4 -o "EO-tTXD3pIE-11m06s.mp4"
+```
+</details>
 
 > "I have a little thing I say a lot which is like ethics don't scale. But the reality is when you get to that size, you are such a nation state that anything that people think you are doing is the most evil thing you could possibly do. You're also doing the other thing like massive."
 > -- Paul Ford, [11:06](https://www.youtube.com/watch?v=EO-tTXD3pIE&t=666s)
 
 ### "These Are Nerds"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EO-tTXD3pIE?start=935&end=982" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EO-tTXD3pIE/hqdefault.jpg)](https://www.youtube.com/watch?v=EO-tTXD3pIE&t=935s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:35-16:22" "https://www.youtube.com/watch?v=EO-tTXD3pIE" --force-keyframes-at-cuts --merge-output-format mp4 -o "EO-tTXD3pIE-15m35s.mp4"
+```
+</details>
 
 > "These are nerds. And when you tell like nerds who succeeded are still nerds and they're still actually pretty insecure. Like Zuckerberg is still freaking awkward today."
 > -- Paul Ford, [15:35](https://www.youtube.com/watch?v=EO-tTXD3pIE&t=935s)
 
 ### "The Cake Doesn't Taste Good"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EO-tTXD3pIE?start=1359&end=1420" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EO-tTXD3pIE/hqdefault.jpg)](https://www.youtube.com/watch?v=EO-tTXD3pIE&t=1359s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*22:39-23:40" "https://www.youtube.com/watch?v=EO-tTXD3pIE" --force-keyframes-at-cuts --merge-output-format mp4 -o "EO-tTXD3pIE-22m39s.mp4"
+```
+</details>
 
 > "So much of what made American innovation and Silicon Valley what it is -- this incredible explosion of value creation -- designed in California, built in China. The premise for that getting created is entirely under threat."
 > -- Rich Zottoli, [22:39](https://www.youtube.com/watch?v=EO-tTXD3pIE&t=1359s)
 
 ### "They Were Worried Regulation Would Ruin Innovation, But What's Going to Ruin It Is Corruption"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EO-tTXD3pIE?start=1410&end=1470" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EO-tTXD3pIE/hqdefault.jpg)](https://www.youtube.com/watch?v=EO-tTXD3pIE&t=1410s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*23:30-24:30" "https://www.youtube.com/watch?v=EO-tTXD3pIE" --force-keyframes-at-cuts --merge-output-format mp4 -o "EO-tTXD3pIE-23m30s.mp4"
+```
+</details>
 
 > "They were worried that regulation would ruin the innovation engine, but what's going to ruin it is corruption."
 > -- Paul Ford, [23:30](https://www.youtube.com/watch?v=EO-tTXD3pIE&t=1410s)
 
 ### "You Can Literally Go to the White House with a Golden Loaf"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EO-tTXD3pIE?start=1545&end=1600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EO-tTXD3pIE/hqdefault.jpg)](https://www.youtube.com/watch?v=EO-tTXD3pIE&t=1545s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*25:45-26:40" "https://www.youtube.com/watch?v=EO-tTXD3pIE" --force-keyframes-at-cuts --merge-output-format mp4 -o "EO-tTXD3pIE-25m45s.mp4"
+```
+</details>
 
 > "You can literally go to the White House with a golden loaf and they will not put 25% tariffs on your product. And the truth is that is not grounded in a value system that creates value and creates growth -- it's transactional."
 > -- Paul Ford, [25:45](https://www.youtube.com/watch?v=EO-tTXD3pIE&t=1545s)

@@ -49,35 +49,70 @@ MKBHD reviews hot takes submitted by his audience on Twitter and Threads, rating
 
 ### "Why give a robot six arms and six legs?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qqyp00JPJZI?start=285&end=340" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Qqyp00JPJZI/hqdefault.jpg)](https://www.youtube.com/watch?v=Qqyp00JPJZI&t=285s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:45-5:40" "https://www.youtube.com/watch?v=Qqyp00JPJZI" --force-keyframes-at-cuts --merge-output-format mp4 -o "Qqyp00JPJZI-4m45s.mp4"
+```
+</details>
 
 > "Even if it is one robot that goes around everywhere that does everything, why not give it six arms and six legs? Like, why does it have to look like a human and have eyes on the front?"
 > — Marques Brownlee, [5:10](https://www.youtube.com/watch?v=Qqyp00JPJZI&t=310s)
 
 ### "Apple hasn't updated the Magic Mouse since high school"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qqyp00JPJZI?start=429&end=475" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Qqyp00JPJZI/hqdefault.jpg)](https://www.youtube.com/watch?v=Qqyp00JPJZI&t=429s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:09-7:55" "https://www.youtube.com/watch?v=Qqyp00JPJZI" --force-keyframes-at-cuts --merge-output-format mp4 -o "Qqyp00JPJZI-7m09s.mp4"
+```
+</details>
 
 > "It's wild that Apple is a multi-trillion dollar company and hasn't updated it."
 > — Marques Brownlee, [7:36](https://www.youtube.com/watch?v=Qqyp00JPJZI&t=456s)
 
 ### "Is this the Humane burner account?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qqyp00JPJZI?start=618&end=670" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Qqyp00JPJZI/hqdefault.jpg)](https://www.youtube.com/watch?v=Qqyp00JPJZI&t=618s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:18-11:10" "https://www.youtube.com/watch?v=Qqyp00JPJZI" --force-keyframes-at-cuts --merge-output-format mp4 -o "Qqyp00JPJZI-10m18s.mp4"
+```
+</details>
 
 > "Is this the Humane burner account?"
 > — Marques Brownlee, [10:33](https://www.youtube.com/watch?v=Qqyp00JPJZI&t=633s)
 
 ### "That's the Magic Mouse and that's Siri"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qqyp00JPJZI?start=974&end=1030" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Qqyp00JPJZI/hqdefault.jpg)](https://www.youtube.com/watch?v=Qqyp00JPJZI&t=974s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:14-17:10" "https://www.youtube.com/watch?v=Qqyp00JPJZI" --force-keyframes-at-cuts --merge-output-format mp4 -o "Qqyp00JPJZI-16m14s.mp4"
+```
+</details>
 
 > "In a vacuum it seems fine but the second you are not in a vacuum anymore you see how much better everything else outside is and you realize how bad it is. That's the Magic Mouse and that's Siri."
 > — Marques Brownlee, [16:27](https://www.youtube.com/watch?v=Qqyp00JPJZI&t=987s)
 
 ### "Getting me to say nice things about Siri"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qqyp00JPJZI?start=1025&end=1050" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Qqyp00JPJZI/hqdefault.jpg)](https://www.youtube.com/watch?v=Qqyp00JPJZI&t=1025s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*17:05-17:30" "https://www.youtube.com/watch?v=Qqyp00JPJZI" --force-keyframes-at-cuts --merge-output-format mp4 -o "Qqyp00JPJZI-17m05s.mp4"
+```
+</details>
 
 > "That is truly impressive, internet commentator, for getting me to say nice things about Siri."
 > — Marques Brownlee, [17:08](https://www.youtube.com/watch?v=Qqyp00JPJZI&t=1028s)

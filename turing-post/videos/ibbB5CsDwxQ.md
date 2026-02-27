@@ -35,35 +35,70 @@ Kenia argues that Taalas is betting parts of LLM inference are entering the "inf
 
 ### "A model baked into a chip"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ibbB5CsDwxQ?start=62&end=120" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ibbB5CsDwxQ/hqdefault.jpg)](https://www.youtube.com/watch?v=ibbB5CsDwxQ&t=62s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:02-2:00" "https://www.youtube.com/watch?v=ibbB5CsDwxQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "ibbB5CsDwxQ-1m02s.mp4"
+```
+</details>
 
 > "The company is called Taalas and the chip is called HC1. They are showing it on an 8 billion parameter class model in the Llama family. Their headline claim: the speed is about 16,000 to 17,000 tokens per second. Taalas is about 13-14 times faster. How crazy is that?"
 > — Kenia, [1:02](https://www.youtube.com/watch?v=ibbB5CsDwxQ&t=62s)
 
 ### "A lot of work here is not math — it's just traffic"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ibbB5CsDwxQ?start=171&end=230" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ibbB5CsDwxQ/hqdefault.jpg)](https://www.youtube.com/watch?v=ibbB5CsDwxQ&t=171s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:51-3:50" "https://www.youtube.com/watch?v=ibbB5CsDwxQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "ibbB5CsDwxQ-2m51s.mp4"
+```
+</details>
 
 > "A lot of work here is not math. It's just traffic. It's just how much data is moving around. In modern inference, the bottleneck usually looks like memory movement and bandwidth. You can have enormous compute capability and still spend time waiting for the right numbers to show up in the right place."
 > — Kenia, [2:51](https://www.youtube.com/watch?v=ibbB5CsDwxQ&t=171s)
 
 ### "Nobody went into this corner"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ibbB5CsDwxQ?start=322&end=370" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ibbB5CsDwxQ/hqdefault.jpg)](https://www.youtube.com/watch?v=ibbB5CsDwxQ&t=322s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:22-6:10" "https://www.youtube.com/watch?v=ibbB5CsDwxQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "ibbB5CsDwxQ-5m22s.mp4"
+```
+</details>
 
 > "Nobody went into this corner because everybody felt AI was changing so rapidly. But we wanted to see what's hiding in that corner, what we could get if we explore for it. And you can get a lot."
 > — Taalas CEO Bajik (quoted by Kenia), [5:22](https://www.youtube.com/watch?v=ibbB5CsDwxQ&t=322s)
 
 ### "From CPUs to GPUs to ASICs — Bitcoin shows the pattern"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ibbB5CsDwxQ?start=453&end=510" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ibbB5CsDwxQ/hqdefault.jpg)](https://www.youtube.com/watch?v=ibbB5CsDwxQ&t=453s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:33-8:30" "https://www.youtube.com/watch?v=ibbB5CsDwxQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "ibbB5CsDwxQ-7m33s.mp4"
+```
+</details>
 
 > "Bitcoin mining is the clearest example. Early mining ran on CPUs then moved to GPUs. Then mining shifted to ASICs. Today Bitcoin mining is dominated by SHA-256 ASIC miners because they're massively more efficient. They do less variety and more volume. They turn electricity into hashes with less waste, and at scale that becomes the only thing that matters."
 > — Kenia, [7:33](https://www.youtube.com/watch?v=ibbB5CsDwxQ&t=453s)
 
 ### "Once a workload becomes infrastructure, specialization shows up"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ibbB5CsDwxQ?start=693&end=745" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ibbB5CsDwxQ/hqdefault.jpg)](https://www.youtube.com/watch?v=ibbB5CsDwxQ&t=693s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:33-12:25" "https://www.youtube.com/watch?v=ibbB5CsDwxQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "ibbB5CsDwxQ-11m33s.mp4"
+```
+</details>
 
 > "Taalas is not a miracle. It is a reminder of an old rule in computing. Once a workload becomes infrastructure, specialization starts showing up because waste becomes expensive. GPUs powered the AI decade because they gave us flexibility when we needed it most. If parts of AI are now becoming utilities, the hardware story begins to shift."
 > — Kenia, [11:33](https://www.youtube.com/watch?v=ibbB5CsDwxQ&t=693s)

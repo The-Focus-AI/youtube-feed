@@ -31,35 +31,70 @@ What sets MiniMax apart is their collaborative structure: researchers and expert
 
 ### "During reinforcement learning the model tries its best to hack a lot of things"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GkUMqWeHn40?start=162&end=210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GkUMqWeHn40/hqdefault.jpg)](https://www.youtube.com/watch?v=GkUMqWeHn40&t=162s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:42-3:30" "https://www.youtube.com/watch?v=GkUMqWeHn40" --force-keyframes-at-cuts --merge-output-format mp4 -o "GkUMqWeHn40-2m42s.mp4"
+```
+</details>
 
 > "The model during reinforcement learning tries its best to hack a lot of things, right? For example, it uses bashes a lot and sometimes it might not be very safe behaviors as our expert developers say because sometimes the expert developers have their own expectations on how the model works but then it doesn't go that way if we don't constrain it. So we do a lot of alignment to solve that issue."
 > — Olive Song, [2:42](https://www.youtube.com/watch?v=GkUMqWeHn40&t=162s)
 
 ### "ICU in the morning and then KTV at night"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GkUMqWeHn40?start=99&end=160" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GkUMqWeHn40/hqdefault.jpg)](https://www.youtube.com/watch?v=GkUMqWeHn40&t=99s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:39-2:40" "https://www.youtube.com/watch?v=GkUMqWeHn40" --force-keyframes-at-cuts --merge-output-format mp4 -o "GkUMqWeHn40-1m39s.mp4"
+```
+</details>
 
 > "We were joking that during one day we have good results in the morning and then sometimes it becomes bad results at night. Sometimes we call it we have like ICU in the morning and then KTV at night. So typically a good time would be usually receiving some good results or like even if running into new problems is a good time."
 > — Olive Song, [1:39](https://www.youtube.com/watch?v=GkUMqWeHn40&t=99s)
 
 ### "Engineering is very very very important"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GkUMqWeHn40?start=399&end=464" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GkUMqWeHn40/hqdefault.jpg)](https://www.youtube.com/watch?v=GkUMqWeHn40&t=399s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:39-7:44" "https://www.youtube.com/watch?v=GkUMqWeHn40" --force-keyframes-at-cuts --merge-output-format mp4 -o "GkUMqWeHn40-6m39s.mp4"
+```
+</details>
 
 > "It all ends up being closer to the theoretical algorithm. We try to scale to the theoretical extreme and for example the precision part is one thing that we found would kind of prevent us from being close to that extreme. During our experiments we found that the accuracy didn't go up. We looked at it layer by layer and found it out."
 > — Olive Song, [6:39](https://www.youtube.com/watch?v=GkUMqWeHn40&t=399s)
 
 ### "We have an internal agent that tracks all the new articles and papers"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GkUMqWeHn40?start=1622&end=1685" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GkUMqWeHn40/hqdefault.jpg)](https://www.youtube.com/watch?v=GkUMqWeHn40&t=1622s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*27:02-28:05" "https://www.youtube.com/watch?v=GkUMqWeHn40" --force-keyframes-at-cuts --merge-output-format mp4 -o "GkUMqWeHn40-27m02s.mp4"
+```
+</details>
 
 > "We have an internal agent that tracks all the new articles and blogs and papers and then it dispatches to different subjects and then it summarizes and then it analyzes. So we have an internal researcher if I call it that does some filtering by itself and then it gives what is filtered to us."
 > — Olive Song, [27:02](https://www.youtube.com/watch?v=GkUMqWeHn40&t=1622s)
 
 ### "The current open models can't adjust to different environments"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GkUMqWeHn40?start=1296&end=1365" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GkUMqWeHn40/hqdefault.jpg)](https://www.youtube.com/watch?v=GkUMqWeHn40&t=1296s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*21:36-22:45" "https://www.youtube.com/watch?v=GkUMqWeHn40" --force-keyframes-at-cuts --merge-output-format mp4 -o "GkUMqWeHn40-21m36s.mp4"
+```
+</details>
 
 > "I think open models are not very good at adjusting to different environments. People use Claude in different coding environments and they perform well in all environments. But I don't feel like the current open models can achieve that level of understanding of the different environments. It is a solvable problem and we are working on it."
 > — Olive Song, [21:36](https://www.youtube.com/watch?v=GkUMqWeHn40&t=1296s)

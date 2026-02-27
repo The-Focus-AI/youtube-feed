@@ -35,42 +35,84 @@ The conversation explores the technical challenges of scaling vector databases, 
 
 ### "Knowledge is where models were 5 years ago"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ITbwVFZYepc?start=44&end=95" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ITbwVFZYepc/hqdefault.jpg)](https://www.youtube.com/watch?v=ITbwVFZYepc&t=44s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:44-1:35" "https://www.youtube.com/watch?v=ITbwVFZYepc" --force-keyframes-at-cuts --merge-output-format mp4 -o "ITbwVFZYepc-0m44s.mp4"
+```
+</details>
 
 > "I think the state of memory and knowledge is where foundational models were maybe 5 years ago. When you look at foundational models today, they really specialize in having cognitive skills. Reading, writing, summarizing, reasoning, problem solving, math, coding - those are cognitive skills. That is a completely different kind of skill or completely different kind of machinery that you need for memory. Something has to be able to read, consume, understand, organize, and index in some way to make it available in real time for decision-making."
 > — Edo Liberty, [0:44](https://www.youtube.com/watch?v=ITbwVFZYepc&t=44s)
 
 ### "We had to rebuild the architecture multiple times"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ITbwVFZYepc?start=800&end=870" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ITbwVFZYepc/hqdefault.jpg)](https://www.youtube.com/watch?v=ITbwVFZYepc&t=800s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:20-14:30" "https://www.youtube.com/watch?v=ITbwVFZYepc" --force-keyframes-at-cuts --merge-output-format mp4 -o "ITbwVFZYepc-13m20s.mp4"
+```
+</details>
 
 > "We've evolved our architecture multiple times already, every time to unlock 10x in scale. Even with our design for only vector database, we already had to evolve our architecture multiple times and we're now very far away from what pretty much any node-based solution is offering. We had to rewrite everything and really make sure that you organize data a lot more effectively."
 > — Edo Liberty, [13:20](https://www.youtube.com/watch?v=ITbwVFZYepc&t=800s)
 
 ### "What does knowledge mean?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ITbwVFZYepc?start=1207&end=1280" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ITbwVFZYepc/hqdefault.jpg)](https://www.youtube.com/watch?v=ITbwVFZYepc&t=1207s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:07-21:20" "https://www.youtube.com/watch?v=ITbwVFZYepc" --force-keyframes-at-cuts --merge-output-format mp4 -o "ITbwVFZYepc-20m07s.mp4"
+```
+</details>
 
 > "The questions that we don't ask as a technology community enough is really what does knowledge mean? What do we expect from these systems? How accurate do they need to be in what setting? What does accuracy even mean? There are also really deep questions on what do you do with contested information. Sometimes you have a point of view and they have the opposite point of view, both in the data."
 > — Edo Liberty, [20:07](https://www.youtube.com/watch?v=ITbwVFZYepc&t=1207s)
 
 ### "I don't think you can be intelligent without being knowledgeable"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ITbwVFZYepc?start=1420&end=1480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ITbwVFZYepc/hqdefault.jpg)](https://www.youtube.com/watch?v=ITbwVFZYepc&t=1420s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*23:40-24:40" "https://www.youtube.com/watch?v=ITbwVFZYepc" --force-keyframes-at-cuts --merge-output-format mp4 -o "ITbwVFZYepc-23m40s.mp4"
+```
+</details>
 
 > "100%. I don't think you can be intelligent without being knowledgeable. I just don't think that's possible. When you speak to your primary care doctor, it's not enough that they have a very high IQ. You really want them to have gone to medical school and you really hope that they've actually understood what they were reading and they remember it roughly."
 > — Edo Liberty, [23:40](https://www.youtube.com/watch?v=ITbwVFZYepc&t=1420s)
 
 ### "Competition is very good for the industry"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ITbwVFZYepc?start=624&end=680" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ITbwVFZYepc/hqdefault.jpg)](https://www.youtube.com/watch?v=ITbwVFZYepc&t=624s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:24-11:20" "https://www.youtube.com/watch?v=ITbwVFZYepc" --force-keyframes-at-cuts --merge-output-format mp4 -o "ITbwVFZYepc-10m24s.mp4"
+```
+</details>
 
 > "Almost the definition of a category is that you have competition. It's like otherwise it's not a category. It is very good for the industry that there's competition. It's very good that we are being pushed to do better, faster, cheaper, more features. We're being pushed by our customers to be more efficient. We're being pushed to innovate on our technology and our architecture."
 > — Edo Liberty, [10:24](https://www.youtube.com/watch?v=ITbwVFZYepc&t=624s)
 
 ### "The world has already changed"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ITbwVFZYepc?start=1665&end=1730" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/ITbwVFZYepc/hqdefault.jpg)](https://www.youtube.com/watch?v=ITbwVFZYepc&t=1665s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*27:45-28:50" "https://www.youtube.com/watch?v=ITbwVFZYepc" --force-keyframes-at-cuts --merge-output-format mp4 -o "ITbwVFZYepc-27m45s.mp4"
+```
+</details>
 
 > "I think that the world has already changed and will keep changing and the value that we'll unlock from this is massive. Companies are going to be smaller, people are going to be doing more. A lot of menial cognitive tasks, all the summarizing, putting your notes in Salesforce after the meeting - all that nonsense that people hate doing is just going to go away and be done better, faster, and cheaper."
 > — Edo Liberty, [27:45](https://www.youtube.com/watch?v=ITbwVFZYepc&t=1665s)

@@ -39,35 +39,70 @@ Dr. Oz also discusses Trump's vision for healthcare centered on three pillars: t
 
 ### "$170-250 Billion in Annual CMS Fraud"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b5p40OuTTW4?start=2106&end=2166" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/b5p40OuTTW4/hqdefault.jpg)](https://www.youtube.com/watch?v=b5p40OuTTW4&t=2106s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*35:06-36:06" "https://www.youtube.com/watch?v=b5p40OuTTW4" --force-keyframes-at-cuts --merge-output-format mp4 -o "b5p40OuTTW4-35m06s.mp4"
+```
+</details>
 
 > "I believe 10-15% of CMS spending is fraudulent. That's $170 billion to $250 billion every single year. This is not a rounding error. This is more than we spend on many entire government agencies. And it's being stolen by organized criminal networks."
 > — Dr. Mehmet Oz, [35:06](https://www.youtube.com/watch?v=b5p40OuTTW4&t=2106s)
 
 ### "California Has $20-30B in Medicaid Fraud Annually"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b5p40OuTTW4?start=2642&end=2702" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/b5p40OuTTW4/hqdefault.jpg)](https://www.youtube.com/watch?v=b5p40OuTTW4&t=2642s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*44:02-45:02" "https://www.youtube.com/watch?v=b5p40OuTTW4" --force-keyframes-at-cuts --merge-output-format mp4 -o "b5p40OuTTW4-44m02s.mp4"
+```
+</details>
 
 > "California's Medicaid fraud is estimated at $20 to $30 billion per year. Much of it is organized crime - Armenian gangs, Russian gangs, Chinese gangs - setting up fake clinics, billing for services never rendered. The state has basically no enforcement."
 > — Dr. Mehmet Oz, [44:02](https://www.youtube.com/watch?v=b5p40OuTTW4&t=2642s)
 
 ### "Trump's Three Healthcare Pillars: Transparency, Choice, Competition"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b5p40OuTTW4?start=206&end=266" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/b5p40OuTTW4/hqdefault.jpg)](https://www.youtube.com/watch?v=b5p40OuTTW4&t=206s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:26-4:26" "https://www.youtube.com/watch?v=b5p40OuTTW4" --force-keyframes-at-cuts --merge-output-format mp4 -o "b5p40OuTTW4-3m26s.mp4"
+```
+</details>
 
 > "President Trump's vision is simple: transparency so you know what things cost, choice so you can decide where to get care, and competition so providers have to compete on price and quality. If we get those three things right, the market will fix a lot of our problems."
 > — Dr. Mehmet Oz, [3:26](https://www.youtube.com/watch?v=b5p40OuTTW4&t=206s)
 
 ### "AI Will Enable Self-Directed Healthcare"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b5p40OuTTW4?start=806&end=866" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/b5p40OuTTW4/hqdefault.jpg)](https://www.youtube.com/watch?v=b5p40OuTTW4&t=806s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:26-14:26" "https://www.youtube.com/watch?v=b5p40OuTTW4" --force-keyframes-at-cuts --merge-output-format mp4 -o "b5p40OuTTW4-13m26s.mp4"
+```
+</details>
 
 > "AI is going to democratize medical knowledge. Within a few years, you'll be able to describe your symptoms to an AI that knows your complete medical history and get diagnostic accuracy that rivals or exceeds most doctors. This will empower patients to direct their own care."
 > — Dr. Mehmet Oz, [13:26](https://www.youtube.com/watch?v=b5p40OuTTW4&t=806s)
 
 ### "GLP-1s Will Become Affordable Through Competition"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b5p40OuTTW4?start=1810&end=1870" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/b5p40OuTTW4/hqdefault.jpg)](https://www.youtube.com/watch?v=b5p40OuTTW4&t=1810s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*30:10-31:10" "https://www.youtube.com/watch?v=b5p40OuTTW4" --force-keyframes-at-cuts --merge-output-format mp4 -o "b5p40OuTTW4-30m10s.mp4"
+```
+</details>
 
 > "Ozempic and Wegovy are expensive now, but competition is coming. You'll see multiple manufacturers, biosimilars, generics. Within 3-5 years these drugs will be a fraction of current cost. And if they prevent diabetes, heart disease, and obesity complications, they'll save the system money."
 > — Dr. Mehmet Oz, [30:10](https://www.youtube.com/watch?v=b5p40OuTTW4&t=1810s)

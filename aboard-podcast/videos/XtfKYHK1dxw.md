@@ -33,35 +33,70 @@ The hosts also explore the broader landscape: Google's comeback with Gemini, Chi
 
 ### "He had fundamental disagreements with Sam Altman"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XtfKYHK1dxw?start=120&end=175" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XtfKYHK1dxw/hqdefault.jpg)](https://www.youtube.com/watch?v=XtfKYHK1dxw&t=120s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:00-2:55" "https://www.youtube.com/watch?v=XtfKYHK1dxw" --force-keyframes-at-cuts --merge-output-format mp4 -o "XtfKYHK1dxw-2m00s.mp4"
+```
+</details>
 
 > "He was essentially a person who was like, 'We're not being serious enough about this technology. We're not being focused on safety.' A real true kind of scientist type. And he had some really fundamental disagreements with Sam Altman at OpenAI and was like, I'm going to go do my own thing."
 > -- Paul Ford, [2:00](https://www.youtube.com/watch?v=XtfKYHK1dxw&t=120s)
 
 ### "A 15,000-word essay from a tech CEO -- that's unusual"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XtfKYHK1dxw?start=350&end=410" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XtfKYHK1dxw/hqdefault.jpg)](https://www.youtube.com/watch?v=XtfKYHK1dxw&t=350s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:50-6:50" "https://www.youtube.com/watch?v=XtfKYHK1dxw" --force-keyframes-at-cuts --merge-output-format mp4 -o "XtfKYHK1dxw-5m50s.mp4"
+```
+</details>
 
 > "You don't typically get these kinds of essays from tech executives. Usually it's a blog post or a tweet thread. This is a real piece of writing. It's long. It's thoughtful. It engages with criticism. And that alone is worth paying attention to, regardless of whether you agree with every word."
 > -- Paul Ford, [5:50](https://www.youtube.com/watch?v=XtfKYHK1dxw&t=350s)
 
 ### "The adolescence metaphor actually works"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XtfKYHK1dxw?start=550&end=610" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XtfKYHK1dxw/hqdefault.jpg)](https://www.youtube.com/watch?v=XtfKYHK1dxw&t=550s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:10-10:10" "https://www.youtube.com/watch?v=XtfKYHK1dxw" --force-keyframes-at-cuts --merge-output-format mp4 -o "XtfKYHK1dxw-9m10s.mp4"
+```
+</details>
 
 > "Technology is going through its adolescence. It's powerful enough to cause real harm but not mature enough to be trusted fully on its own. And that's actually a pretty honest framing -- like, we built this thing and it's kind of out of control and we need guardrails."
 > -- Paul Ford, [9:10](https://www.youtube.com/watch?v=XtfKYHK1dxw&t=550s)
 
 ### "Regulation is dead on arrival in this political environment"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XtfKYHK1dxw?start=1200&end=1260" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XtfKYHK1dxw/hqdefault.jpg)](https://www.youtube.com/watch?v=XtfKYHK1dxw&t=1200s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:00-21:00" "https://www.youtube.com/watch?v=XtfKYHK1dxw" --force-keyframes-at-cuts --merge-output-format mp4 -o "XtfKYHK1dxw-20m00s.mp4"
+```
+</details>
 
 > "Here's the thing though -- you can write a beautiful essay about regulation but we're in a political moment where nobody is going to regulate anything. So what is this really? It's a philosophical document, not a policy proposal."
 > -- Rich Ziade, [20:00](https://www.youtube.com/watch?v=XtfKYHK1dxw&t=1200s)
 
 ### "DeepSeek changed the vibes"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XtfKYHK1dxw?start=1500&end=1555" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XtfKYHK1dxw/hqdefault.jpg)](https://www.youtube.com/watch?v=XtfKYHK1dxw&t=1500s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*25:00-25:55" "https://www.youtube.com/watch?v=XtfKYHK1dxw" --force-keyframes-at-cuts --merge-output-format mp4 -o "XtfKYHK1dxw-25m00s.mp4"
+```
+</details>
 
 > "When DeepSeek showed up, the whole conversation shifted. All of a sudden it wasn't just American companies racing each other. It was like, oh wait, China can do this too, and maybe cheaper. That changes the calculus for everybody talking about regulation."
 > -- Paul Ford, [25:00](https://www.youtube.com/watch?v=XtfKYHK1dxw&t=1500s)

@@ -39,35 +39,70 @@ Zach shares both his excitement and concerns about the AI-driven future of devel
 
 ### "Vibe Coding Is the Fastest Way to Ship Crap to Production"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kz1hATcz-q8?start=401&end=460" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kz1hATcz-q8/hqdefault.jpg)](https://www.youtube.com/watch?v=kz1hATcz-q8&t=401s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:41-7:40" "https://www.youtube.com/watch?v=kz1hATcz-q8" --force-keyframes-at-cuts --merge-output-format mp4 -o "kz1hATcz-q8-6m41s.mp4"
+```
+</details>
 
 > "For pro developers, vibe coding is kind of the fastest way to ship crap to production."
 > — Zach Lloyd, [6:57](https://www.youtube.com/watch?v=kz1hATcz-q8&t=417s)
 
 ### "Agents Will Delete Tests to Make Them Pass"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kz1hATcz-q8?start=1355&end=1410" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kz1hATcz-q8/hqdefault.jpg)](https://www.youtube.com/watch?v=kz1hATcz-q8&t=1355s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*22:35-23:30" "https://www.youtube.com/watch?v=kz1hATcz-q8" --force-keyframes-at-cuts --merge-output-format mp4 -o "kz1hATcz-q8-22m35s.mp4"
+```
+</details>
 
 > "If you just give it a goal you got to be really careful. It'll just start like deleting tests and be like oh the test passed now. It's like well no not really."
 > — Zach Lloyd, [22:51](https://www.youtube.com/watch?v=kz1hATcz-q8&t=1371s)
 
 ### "Become a Senior Developer As Fast As You Can"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kz1hATcz-q8?start=849&end=905" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kz1hATcz-q8/hqdefault.jpg)](https://www.youtube.com/watch?v=kz1hATcz-q8&t=849s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:09-15:05" "https://www.youtube.com/watch?v=kz1hATcz-q8" --force-keyframes-at-cuts --merge-output-format mp4 -o "kz1hATcz-q8-14m09s.mp4"
+```
+</details>
 
 > "A junior developer right now I think the thing you need to do if you want to stay in software engineering is become a senior developer as fast as you can and learn how to leverage these tools."
 > — Zach Lloyd, [14:16](https://www.youtube.com/watch?v=kz1hATcz-q8&t=856s)
 
 ### "Agentic Workflow Will Be Primary Within 6-12 Months"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kz1hATcz-q8?start=1563&end=1620" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kz1hATcz-q8/hqdefault.jpg)](https://www.youtube.com/watch?v=kz1hATcz-q8&t=1563s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*26:03-27:00" "https://www.youtube.com/watch?v=kz1hATcz-q8" --force-keyframes-at-cuts --merge-output-format mp4 -o "kz1hATcz-q8-26m03s.mp4"
+```
+</details>
 
 > "I bet you within like 6 to 12 months that the agentic workflow is primary workflow and the autocomplete workflow is no longer the primary workflow. I put a lot of money on that."
 > — Zach Lloyd, [26:03](https://www.youtube.com/watch?v=kz1hATcz-q8&t=1563s)
 
 ### "Development Is Switching From Development by Hand to Development by Prompt"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kz1hATcz-q8?start=55&end=115" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kz1hATcz-q8/hqdefault.jpg)](https://www.youtube.com/watch?v=kz1hATcz-q8&t=55s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:55-1:55" "https://www.youtube.com/watch?v=kz1hATcz-q8" --force-keyframes-at-cuts --merge-output-format mp4 -o "kz1hATcz-q8-0m55s.mp4"
+```
+</details>
 
 > "Development right now is switching from development by hand to development by prompt."
 > — Zach Lloyd, [0:55](https://www.youtube.com/watch?v=kz1hATcz-q8&t=55s)

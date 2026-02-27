@@ -45,35 +45,70 @@ The top 10 features major AI stories (DeepSeek at 8, Sora at 9, ChatGPT at 3), g
 
 ### "Data Centers: Number One Most Iconic Technology of 2025"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kZ5Jq2Is888?start=3987&end=4050" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kZ5Jq2Is888/hqdefault.jpg)](https://www.youtube.com/watch?v=kZ5Jq2Is888&t=3987s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*66:27-67:30" "https://www.youtube.com/watch?v=kZ5Jq2Is888" --force-keyframes-at-cuts --merge-output-format mp4 -o "kZ5Jq2Is888-66m27s.mp4"
+```
+</details>
 
 > "It would be hard to tell the story of 2025 in technology without the humble data center. This is not just the largest infrastructure project in America of the year but maybe the largest infrastructure project in history."
 > -- Kevin Roose, [66:27](https://www.youtube.com/watch?v=kZ5Jq2Is888&t=3987s)
 
 ### "Mecca Hitler: When You Can't Control AI Alignment"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kZ5Jq2Is888?start=3540&end=3600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kZ5Jq2Is888/hqdefault.jpg)](https://www.youtube.com/watch?v=kZ5Jq2Is888&t=3540s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*59:00-60:00" "https://www.youtube.com/watch?v=kZ5Jq2Is888" --force-keyframes-at-cuts --merge-output-format mp4 -o "kZ5Jq2Is888-59m00s.mp4"
+```
+</details>
 
 > "Here comes Elon Musk, someone with unlimited money, and he wants to make the anti-woke right-wing chatbot. And it turns out that when you do that, it starts calling itself Mecca Hitler. And then when you try to undo that, it turns out you can't actually control the models that well."
 > -- Kevin Roose, [59:00](https://www.youtube.com/watch?v=kZ5Jq2Is888&t=3540s)
 
 ### "Claude Code: A Billion Dollars in Year One"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kZ5Jq2Is888?start=1666&end=1720" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kZ5Jq2Is888/hqdefault.jpg)](https://www.youtube.com/watch?v=kZ5Jq2Is888&t=1666s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*27:46-28:40" "https://www.youtube.com/watch?v=kZ5Jq2Is888" --force-keyframes-at-cuts --merge-output-format mp4 -o "kZ5Jq2Is888-27m46s.mp4"
+```
+</details>
 
 > "This is a project that was started as a prototype by a single engineer at Anthropic and is now on track for roughly a billion dollars in revenue in its first year."
 > -- Kevin Roose on Claude Code, [27:46](https://www.youtube.com/watch?v=kZ5Jq2Is888&t=1666s)
 
 ### "The Anti-Straw Crusader Works at Anthropic Now"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kZ5Jq2Is888?start=1310&end=1360" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kZ5Jq2Is888/hqdefault.jpg)](https://www.youtube.com/watch?v=kZ5Jq2Is888&t=1310s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*21:50-22:40" "https://www.youtube.com/watch?v=kZ5Jq2Is888" --force-keyframes-at-cuts --merge-output-format mp4 -o "kZ5Jq2Is888-21m50s.mp4"
+```
+</details>
 
 > "The campaign against plastic straws was started back in 2011 when a 9-year-old Vermont boy, Milo Crest, did a school science project and estimated that Americans were using 500 million straws a day. Do you know where that 9-year-old boy works today? Anthropic."
 > -- Kevin Roose, [21:50](https://www.youtube.com/watch?v=kZ5Jq2Is888&t=1310s)
 
 ### "DeepSeek: They Told Us How They Made It"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kZ5Jq2Is888?start=3420&end=3480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kZ5Jq2Is888/hqdefault.jpg)](https://www.youtube.com/watch?v=kZ5Jq2Is888&t=3420s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*57:00-58:00" "https://www.youtube.com/watch?v=kZ5Jq2Is888" --force-keyframes-at-cuts --merge-output-format mp4 -o "kZ5Jq2Is888-57m00s.mp4"
+```
+</details>
 
 > "To this day, the DeepSeek R1 paper is still our best and one of our only sources of information about how these reasoning models are built and what the underlying technology looks like because none of the American companies who are building these models are publishing the details like DeepSeek did."
 > -- Kevin Roose, [57:00](https://www.youtube.com/watch?v=kZ5Jq2Is888&t=3420s)

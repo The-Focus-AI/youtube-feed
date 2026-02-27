@@ -37,35 +37,70 @@ While MKBHD highlights thoughtful design details like the extended bottom panel 
 
 ### "Foldables finally make sense"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/trsHTKqmZOk?start=22&end=70" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/trsHTKqmZOk/hqdefault.jpg)](https://www.youtube.com/watch?v=trsHTKqmZOk&t=22s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:22-1:10" "https://www.youtube.com/watch?v=trsHTKqmZOk" --force-keyframes-at-cuts --merge-output-format mp4 -o "trsHTKqmZOk-0m22s.mp4"
+```
+</details>
 
 > "Now that I've used this phone, this is a device that's actually starting to make foldables make sense to me."
 > — Marques Brownlee, [0:22](https://www.youtube.com/watch?v=trsHTKqmZOk&t=22s)
 
 ### "Thinner than Z Fold 1 through 5"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/trsHTKqmZOk?start=191&end=245" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/trsHTKqmZOk/hqdefault.jpg)](https://www.youtube.com/watch?v=trsHTKqmZOk&t=191s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:11-4:05" "https://www.youtube.com/watch?v=trsHTKqmZOk" --force-keyframes-at-cuts --merge-output-format mp4 -o "trsHTKqmZOk-3m11s.mp4"
+```
+</details>
 
 > "For some perspective, this is actually thinner than the Z Fold 1 and the Z Fold 2 and the Z Fold 3 and the Z Fold 4 and the Z Fold 5."
 > — Marques Brownlee, [3:11](https://www.youtube.com/watch?v=trsHTKqmZOk&t=191s)
 
 ### "The only Samsung phone that can run Dex standalone"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/trsHTKqmZOk?start=407&end=460" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/trsHTKqmZOk/hqdefault.jpg)](https://www.youtube.com/watch?v=trsHTKqmZOk&t=407s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:47-7:40" "https://www.youtube.com/watch?v=trsHTKqmZOk" --force-keyframes-at-cuts --merge-output-format mp4 -o "trsHTKqmZOk-6m47s.mp4"
+```
+</details>
 
 > "This just happens to be the only Samsung phone that they'll let you run Samsung Dex on its own."
 > — Marques Brownlee, [6:47](https://www.youtube.com/watch?v=trsHTKqmZOk&t=407s)
 
 ### "Don't fold it wrong"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/trsHTKqmZOk?start=464&end=510" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/trsHTKqmZOk/hqdefault.jpg)](https://www.youtube.com/watch?v=trsHTKqmZOk&t=464s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:44-8:30" "https://www.youtube.com/watch?v=trsHTKqmZOk" --force-keyframes-at-cuts --merge-output-format mp4 -o "trsHTKqmZOk-7m44s.mp4"
+```
+</details>
 
 > "If you try to fold the right side first, it gives you this little message and vibrates and tells you, 'No, don't do that. That's not how you fold this phone.'"
 > — Marques Brownlee, [8:04](https://www.youtube.com/watch?v=trsHTKqmZOk&t=484s)
 
 ### "Samsung's wild experimentation"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/trsHTKqmZOk?start=675&end=720" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/trsHTKqmZOk/hqdefault.jpg)](https://www.youtube.com/watch?v=trsHTKqmZOk&t=675s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:15-12:00" "https://www.youtube.com/watch?v=trsHTKqmZOk" --force-keyframes-at-cuts --merge-output-format mp4 -o "trsHTKqmZOk-11m15s.mp4"
+```
+</details>
 
 > "It's also just hilarious that this exists from Samsung, isn't it? Like the same company that is ridiculously slow moving and chill and conservative on their Galaxy S phones."
 > — Marques Brownlee, [11:18](https://www.youtube.com/watch?v=trsHTKqmZOk&t=678s)

@@ -37,42 +37,84 @@ The hosts debate whether we're currently in a bubble (monetary, speculative, or 
 
 ### "The Birth of Consumer Credit: General Motors 1919"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OQcveYRfZgs?start=244&end=300" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/OQcveYRfZgs/hqdefault.jpg)](https://www.youtube.com/watch?v=OQcveYRfZgs&t=244s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:04-5:00" "https://www.youtube.com/watch?v=OQcveYRfZgs" --force-keyframes-at-cuts --merge-output-format mp4 -o "OQcveYRfZgs-4m04s.mp4"
+```
+</details>
 
 > "In 1919, General Motors says, 'You know what? We're going to start lending people money so that you can buy a car.' And that was actually like a major inflection point in America."
 > — Andrew Ross Sorkin, [4:20](https://www.youtube.com/watch?v=OQcveYRfZgs&t=260s)
 
 ### "10-to-1 Margin: That's How Insane Things Were"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OQcveYRfZgs?start=288&end=350" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/OQcveYRfZgs/hqdefault.jpg)](https://www.youtube.com/watch?v=OQcveYRfZgs&t=288s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:48-5:50" "https://www.youtube.com/watch?v=OQcveYRfZgs" --force-keyframes-at-cuts --merge-output-format mp4 -o "OQcveYRfZgs-4m48s.mp4"
+```
+</details>
 
 > "You could go into one of these places and you could put a buck down and they would literally loan you $10 off of your dollar. I mean, that's how insane things were."
 > — Andrew Ross Sorkin, [4:58](https://www.youtube.com/watch?v=OQcveYRfZgs&t=298s)
 
 ### "Glass-Steagall's Dirty Secret: Lobbying to Destroy JP Morgan"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OQcveYRfZgs?start=1304&end=1370" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/OQcveYRfZgs/hqdefault.jpg)](https://www.youtube.com/watch?v=OQcveYRfZgs&t=1304s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*21:44-22:50" "https://www.youtube.com/watch?v=OQcveYRfZgs" --force-keyframes-at-cuts --merge-output-format mp4 -o "OQcveYRfZgs-21m44s.mp4"
+```
+</details>
 
 > "Glass-Steagall almost has nothing to do with breaking the banks apart for political reasons... it actually has to do with business reasons, meaning there was like some major bank money and lobbying going on behind the scenes to f*** over JP Morgan by the guys who were running Chase and the Rockefellers."
 > — Andrew Ross Sorkin, [21:51](https://www.youtube.com/watch?v=OQcveYRfZgs&t=1311s)
 
 ### "Chamath Told Sorkin to Buy Bitcoin at $100"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OQcveYRfZgs?start=1622&end=1680" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/OQcveYRfZgs/hqdefault.jpg)](https://www.youtube.com/watch?v=OQcveYRfZgs&t=1622s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*27:02-28:00" "https://www.youtube.com/watch?v=OQcveYRfZgs" --force-keyframes-at-cuts --merge-output-format mp4 -o "OQcveYRfZgs-27m02s.mp4"
+```
+</details>
 
 > "I came on CNBC and I would tell Sorkin to buy it at $100 a coin, $200 a coin. Sorkin would show me a clip of Charlie Munger telling me that it was poison... And I said, 'I have tremendous respect for Charlie and Warren, but they're wrong.'"
 > — Chamath Palihapitiya, [27:05](https://www.youtube.com/watch?v=OQcveYRfZgs&t=1625s)
 
 ### "AI Is 100-200 Basis Points of GDP"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OQcveYRfZgs?start=1861&end=1920" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/OQcveYRfZgs/hqdefault.jpg)](https://www.youtube.com/watch?v=OQcveYRfZgs&t=1861s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*31:01-32:00" "https://www.youtube.com/watch?v=OQcveYRfZgs" --force-keyframes-at-cuts --merge-output-format mp4 -o "OQcveYRfZgs-31m01s.mp4"
+```
+</details>
 
 > "The GDP quarterly GDP was like flat excluding data center spending... It's definitely 100 to 200 basis points of GDP."
 > — Chamath Palihapitiya, [31:06](https://www.youtube.com/watch?v=OQcveYRfZgs&t=1866s)
 
 ### "Tariffs for Maximum Optionality"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OQcveYRfZgs?start=2667&end=2730" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/OQcveYRfZgs/hqdefault.jpg)](https://www.youtube.com/watch?v=OQcveYRfZgs&t=2667s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*44:27-45:30" "https://www.youtube.com/watch?v=OQcveYRfZgs" --force-keyframes-at-cuts --merge-output-format mp4 -o "OQcveYRfZgs-44m27s.mp4"
+```
+</details>
 
 > "Would I be okay with a less better car, but having a national transportation infrastructure that we control and cannot be turned off by somebody else? On the margins, I would say yeah, I'd be okay with that."
 > — Chamath Palihapitiya, [44:27](https://www.youtube.com/watch?v=OQcveYRfZgs&t=2667s)

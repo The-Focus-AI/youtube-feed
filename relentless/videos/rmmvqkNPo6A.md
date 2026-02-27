@@ -36,35 +36,70 @@ The conversation covers Terraform Industries' mission to produce synthetic natur
 
 ### "Ancient Rome Could Have Industrialized"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rmmvqkNPo6A?start=3058&end=3120" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rmmvqkNPo6A/hqdefault.jpg)](https://www.youtube.com/watch?v=rmmvqkNPo6A&t=3058s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*50:58-52:00" "https://www.youtube.com/watch?v=rmmvqkNPo6A" --force-keyframes-at-cuts --merge-output-format mp4 -o "rmmvqkNPo6A-50m58s.mp4"
+```
+</details>
 
 > "The ancient Romans in principle had the technology to industrialize. They did coal mining on industrial scale. They had steam engines, but they weren't using steam boilers to pump water out of mines. Part of the reason is entrepreneurs being executed by the emperor because they disrupted the status quo."
 > — Casey Handmer, [50:58](https://www.youtube.com/watch?v=rmmvqkNPo6A&t=3058s)
 
 ### "Playing Factorio IRL"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rmmvqkNPo6A?start=1195&end=1260" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rmmvqkNPo6A/hqdefault.jpg)](https://www.youtube.com/watch?v=rmmvqkNPo6A&t=1195s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*19:55-21:00" "https://www.youtube.com/watch?v=rmmvqkNPo6A" --force-keyframes-at-cuts --merge-output-format mp4 -o "rmmvqkNPo6A-19m55s.mp4"
+```
+</details>
 
 > "I describe what we do as playing Factorio IRL. You're just optimizing production chains, finding the bottlenecks, removing them, and scaling up. It's the most fun you can have with your clothes on."
 > — Casey Handmer, [19:55](https://www.youtube.com/watch?v=rmmvqkNPo6A&t=1195s)
 
 ### "How to Create More Elons"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rmmvqkNPo6A?start=342&end=400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rmmvqkNPo6A/hqdefault.jpg)](https://www.youtube.com/watch?v=rmmvqkNPo6A&t=342s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:42-6:40" "https://www.youtube.com/watch?v=rmmvqkNPo6A" --force-keyframes-at-cuts --merge-output-format mp4 -o "rmmvqkNPo6A-5m42s.mp4"
+```
+</details>
 
 > "The set of people who have the necessary skills to perform the kinds of government reforms that everyone acknowledges are desperately needed does not intersect with the set of people who would ever have interest in doing it. If you have those sorts of skills, you can make way way more money as a startup or running a company."
 > — Casey Handmer, [5:42](https://www.youtube.com/watch?v=rmmvqkNPo6A&t=342s)
 
 ### "Barbecuing Mars with Solar Cells"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rmmvqkNPo6A?start=27&end=90" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rmmvqkNPo6A/hqdefault.jpg)](https://www.youtube.com/watch?v=rmmvqkNPo6A&t=27s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:27-1:30" "https://www.youtube.com/watch?v=rmmvqkNPo6A" --force-keyframes-at-cuts --merge-output-format mp4 -o "rmmvqkNPo6A-0m27s.mp4"
+```
+</details>
 
 > "Probably the easiest way to terraform Mars is mass-producing solar cells here on Earth in some factory in Taiwan, launching them into Earth orbit and they can fly the rest of the way and basically barbecue the planet."
 > — Casey Handmer, [0:27](https://www.youtube.com/watch?v=rmmvqkNPo6A&t=27s)
 
 ### "We're Still Using Leaded Gasoline"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rmmvqkNPo6A?start=3350&end=3410" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rmmvqkNPo6A/hqdefault.jpg)](https://www.youtube.com/watch?v=rmmvqkNPo6A&t=3350s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*55:50-56:50" "https://www.youtube.com/watch?v=rmmvqkNPo6A" --force-keyframes-at-cuts --merge-output-format mp4 -o "rmmvqkNPo6A-55m50s.mp4"
+```
+</details>
 
 > "We're still using leaded gasoline in aviation. 100LL is still the standard for piston aircraft. Everyone knows it's terrible but the regulatory capture is so complete that we can't move past it."
 > — Casey Handmer, [55:50](https://www.youtube.com/watch?v=rmmvqkNPo6A&t=3350s)

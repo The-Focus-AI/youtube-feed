@@ -38,28 +38,56 @@ Beyond coding agents, the video covers predictions about multimodality (combinin
 
 ### "If You're Still Using an IDE by Next Summer, You're Not a Good Engineer"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qqvODjOezX4?start=71&end=135" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/qqvODjOezX4/hqdefault.jpg)](https://www.youtube.com/watch?v=qqvODjOezX4&t=71s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:11-2:15" "https://www.youtube.com/watch?v=qqvODjOezX4" --force-keyframes-at-cuts --merge-output-format mp4 -o "qqvODjOezX4-1m11s.mp4"
+```
+</details>
 
 > "My hot take is if you're still using an IDE by next summer, you're not a good engineer anymore."
 > — Steve Yegge, [1:52](https://www.youtube.com/watch?v=qqvODjOezX4&t=112s)
 
 ### "How Did My Agents Do Last Night?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qqvODjOezX4?start=95&end=150" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/qqvODjOezX4/hqdefault.jpg)](https://www.youtube.com/watch?v=qqvODjOezX4&t=95s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:35-2:30" "https://www.youtube.com/watch?v=qqvODjOezX4" --force-keyframes-at-cuts --merge-output-format mp4 -o "qqvODjOezX4-1m35s.mp4"
+```
+</details>
 
 > "You'll come in in the morning with your coffee and you'll be like, 'How did my agents do last night?' And it'll show you this one's stuck, this one's finished, this one needs your help."
 > — Steve Yegge, [1:35](https://www.youtube.com/watch?v=qqvODjOezX4&t=95s)
 
 ### "Agent Users Will Become More Managers Than ICs"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qqvODjOezX4?start=231&end=290" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/qqvODjOezX4/hqdefault.jpg)](https://www.youtube.com/watch?v=qqvODjOezX4&t=231s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:51-4:50" "https://www.youtube.com/watch?v=qqvODjOezX4" --force-keyframes-at-cuts --merge-output-format mp4 -o "qqvODjOezX4-3m51s.mp4"
+```
+</details>
 
 > "I think 2026 agent users will become more managers than ICs."
 > — Michele Catasta, [3:51](https://www.youtube.com/watch?v=qqvODjOezX4&t=231s)
 
 ### "Millions of Non-Technical Users Creating Advanced Software"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qqvODjOezX4?start=262&end=320" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/qqvODjOezX4/hqdefault.jpg)](https://www.youtube.com/watch?v=qqvODjOezX4&t=262s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:22-5:20" "https://www.youtube.com/watch?v=qqvODjOezX4" --force-keyframes-at-cuts --merge-output-format mp4 -o "qqvODjOezX4-4m22s.mp4"
+```
+</details>
 
 > "I expect millions of users, non-technical users, to become proficient using coding agents... and I expect most of them to create something far more advanced than just prototypes."
 > — Michele Catasta, [4:34](https://www.youtube.com/watch?v=qqvODjOezX4&t=274s)

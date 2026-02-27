@@ -42,42 +42,84 @@ The video also reveals some unexpected findings from the Prenuvo scan: while Cha
 
 ### "My father lived a really unhealthy life"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_m_jwz5hzzw?start=30&end=90" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_m_jwz5hzzw/hqdefault.jpg)](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=30s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:30-1:30" "https://www.youtube.com/watch?v=_m_jwz5hzzw" --force-keyframes-at-cuts --merge-output-format mp4 -o "_m_jwz5hzzw-0m30s.mp4"
+```
+</details>
 
 > "My father lived a really unhealthy life. He struggled with alcoholism for decades. He was diabetic. He had heart issues. And in the end, he died of a cardiac arrest."
 > — Chamath Palihapitiya, [0:30](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=30s)
 
 ### "I could say the sky is blue and there will be opinions that say it's not"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_m_jwz5hzzw?start=139&end=180" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_m_jwz5hzzw/hqdefault.jpg)](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=139s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:19-3:00" "https://www.youtube.com/watch?v=_m_jwz5hzzw" --force-keyframes-at-cuts --merge-output-format mp4 -o "_m_jwz5hzzw-2m19s.mp4"
+```
+</details>
 
 > "What I've learned in my career is I could talk about anything. I could say the sky is blue and there will be opinions that say it's not."
 > — Chamath Palihapitiya, [2:19](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=139s)
 
 ### "The more success you have, the easier it is to detach yourself from real life"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_m_jwz5hzzw?start=340&end=395" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_m_jwz5hzzw/hqdefault.jpg)](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=340s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:40-6:35" "https://www.youtube.com/watch?v=_m_jwz5hzzw" --force-keyframes-at-cuts --merge-output-format mp4 -o "_m_jwz5hzzw-5m40s.mp4"
+```
+</details>
 
 > "The more success that you can have, the easier it is to detach yourself from real life. And then you start to miss out on people."
 > — Chamath Palihapitiya, [5:40](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=340s)
 
 ### "Suck it, people. All the haters out there."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_m_jwz5hzzw?start=497&end=545" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_m_jwz5hzzw/hqdefault.jpg)](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=497s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:17-9:05" "https://www.youtube.com/watch?v=_m_jwz5hzzw" --force-keyframes-at-cuts --merge-output-format mp4 -o "_m_jwz5hzzw-8m17s.mp4"
+```
+</details>
 
 > "Suck it, people. All the haters out there. Nothing worrisome, no change when it comes to my brain. I'm really relieved."
 > — Chamath Palihapitiya, [8:17](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=497s)
 
 ### "You have a zero calcium score"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_m_jwz5hzzw?start=582&end=640" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_m_jwz5hzzw/hqdefault.jpg)](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=582s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:42-10:40" "https://www.youtube.com/watch?v=_m_jwz5hzzw" --force-keyframes-at-cuts --merge-output-format mp4 -o "_m_jwz5hzzw-9m42s.mp4"
+```
+</details>
 
 > "What I'm going to do now is present something that's quite astonishing. You have a zero calcium score and you still have a zero calcium score."
 > — Dr. Carlsburg, [9:42](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=582s)
 
 ### "Living well is the best return there is"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_m_jwz5hzzw?start=714&end=751" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_m_jwz5hzzw/hqdefault.jpg)](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=714s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:54-12:31" "https://www.youtube.com/watch?v=_m_jwz5hzzw" --force-keyframes-at-cuts --merge-output-format mp4 -o "_m_jwz5hzzw-11m54s.mp4"
+```
+</details>
 
 > "Optimal health isn't a destination. It's a journey. But at the end of the day, we all face the same choice. Do we wait until something breaks or do we start listening now? Starting the health journey can be scary. But in my opinion, I think it's worth it because living well is the best return there is."
 > — Chamath Palihapitiya, [11:54](https://www.youtube.com/watch?v=_m_jwz5hzzw&t=714s)

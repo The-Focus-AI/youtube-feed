@@ -35,42 +35,84 @@ The interview concludes with Bravo's thoughts on why Thoma Bravo will remain pri
 
 ### "The industry is taken"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R1q4wcV-ImY?start=350&end=410" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/R1q4wcV-ImY/hqdefault.jpg)](https://www.youtube.com/watch?v=R1q4wcV-ImY&t=350s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:50-6:50" "https://www.youtube.com/watch?v=R1q4wcV-ImY" --force-keyframes-at-cuts --merge-output-format mp4 -o "R1q4wcV-ImY-5m50s.mp4"
+```
+</details>
 
 > "I got one interview with one of the largest private equity firms at the time and the head of the firm said, 'There's not much opportunity in our industry anymore and the industry is taken.' Now our firm is multiples bigger than they are."
 > -- Orlando Bravo, [5:50](https://www.youtube.com/watch?v=R1q4wcV-ImY&t=350s)
 
 ### "The deal's not in the office"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R1q4wcV-ImY?start=455&end=515" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/R1q4wcV-ImY/hqdefault.jpg)](https://www.youtube.com/watch?v=R1q4wcV-ImY&t=455s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:35-8:35" "https://www.youtube.com/watch?v=R1q4wcV-ImY" --force-keyframes-at-cuts --merge-output-format mp4 -o "R1q4wcV-ImY-7m35s.mp4"
+```
+</details>
 
 > "If you have too big of a team, you become internally focused and start dreaming about conversations internally. The deal's not in the office, the company's not in the office, and the buyer of your company's not in the office. So, you always have to be outward facing."
 > -- Orlando Bravo, [7:35](https://www.youtube.com/watch?v=R1q4wcV-ImY&t=455s)
 
 ### "Carl Toma was going to fire me"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R1q4wcV-ImY?start=706&end=760" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/R1q4wcV-ImY/hqdefault.jpg)](https://www.youtube.com/watch?v=R1q4wcV-ImY&t=706s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:46-12:40" "https://www.youtube.com/watch?v=R1q4wcV-ImY" --force-keyframes-at-cuts --merge-output-format mp4 -o "R1q4wcV-ImY-11m46s.mp4"
+```
+</details>
 
 > "Carl Toma was going to fire me and this is also true. He talked about it in his 70th birthday and he gave me another chance and I said, 'Okay, I'm not good at what we were doing then. I'm gonna go for existing management, really established companies and software.'"
 > -- Orlando Bravo, [11:46](https://www.youtube.com/watch?v=R1q4wcV-ImY&t=706s)
 
 ### "There is a big risk of AI in this business"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R1q4wcV-ImY?start=826&end=870" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/R1q4wcV-ImY/hqdefault.jpg)](https://www.youtube.com/watch?v=R1q4wcV-ImY&t=826s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:46-14:30" "https://www.youtube.com/watch?v=R1q4wcV-ImY" --force-keyframes-at-cuts --merge-output-format mp4 -o "R1q4wcV-ImY-13m46s.mp4"
+```
+</details>
 
 > "There is a big risk of AI in this business. I mean in a big big way. There's so many verticals that are going to get disrupted, there's so many areas that are very confusing and you don't want to touch, so it limits the space significantly."
 > -- Orlando Bravo, [13:46](https://www.youtube.com/watch?v=R1q4wcV-ImY&t=826s)
 
 ### "Eliminate the reason for the call altogether"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R1q4wcV-ImY?start=1280&end=1340" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/R1q4wcV-ImY/hqdefault.jpg)](https://www.youtube.com/watch?v=R1q4wcV-ImY&t=1280s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*21:20-22:20" "https://www.youtube.com/watch?v=R1q4wcV-ImY" --force-keyframes-at-cuts --merge-output-format mp4 -o "R1q4wcV-ImY-21m20s.mp4"
+```
+</details>
 
 > "Many people look to offshore support and now maybe AI would get on that. What we say is eliminate the reason for the call altogether because there's nothing you can do in product."
 > -- Orlando Bravo, [21:20](https://www.youtube.com/watch?v=R1q4wcV-ImY&t=1280s)
 
 ### "Puerto Rico should be a state"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R1q4wcV-ImY?start=1660&end=1720" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/R1q4wcV-ImY/hqdefault.jpg)](https://www.youtube.com/watch?v=R1q4wcV-ImY&t=1660s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*27:40-28:40" "https://www.youtube.com/watch?v=R1q4wcV-ImY" --force-keyframes-at-cuts --merge-output-format mp4 -o "R1q4wcV-ImY-27m40s.mp4"
+```
+</details>
 
 > "I'm going to say something I've never said before. I do believe it'll be better for Puerto Rico to be a state if the US would allow that."
 > -- Orlando Bravo, [27:40](https://www.youtube.com/watch?v=R1q4wcV-ImY&t=1660s)

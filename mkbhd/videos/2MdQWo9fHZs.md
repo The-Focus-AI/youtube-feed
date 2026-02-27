@@ -45,35 +45,70 @@ MKBHD reviews the OnePlus 15, a smartphone that goes far beyond a typical spec b
 
 ### "This phone isn't taking the damage, it's doing the damage"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2MdQWo9fHZs?start=199&end=250" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/2MdQWo9fHZs/hqdefault.jpg)](https://www.youtube.com/watch?v=2MdQWo9fHZs&t=199s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:19-4:10" "https://www.youtube.com/watch?v=2MdQWo9fHZs" --force-keyframes-at-cuts --merge-output-format mp4 -o "2MdQWo9fHZs-3m19s.mp4"
+```
+</details>
 
 > "This phone isn't taking the damage, it's doing the damage. That's not normal. It's like call an ambulance, but not for me."
 > — Marques Brownlee, [3:55](https://www.youtube.com/watch?v=2MdQWo9fHZs&t=235s)
 
 ### "Survive a laundry cycle"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2MdQWo9fHZs?start=250&end=300" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/2MdQWo9fHZs/hqdefault.jpg)](https://www.youtube.com/watch?v=2MdQWo9fHZs&t=250s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:10-5:00" "https://www.youtube.com/watch?v=2MdQWo9fHZs" --force-keyframes-at-cuts --merge-output-format mp4 -o "2MdQWo9fHZs-4m10s.mp4"
+```
+</details>
 
 > "Pretty sure it could literally survive a laundry cycle and be fine."
 > — Marques Brownlee, [4:31](https://www.youtube.com/watch?v=2MdQWo9fHZs&t=271s)
 
 ### "50% overnight, still 49% in the morning"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2MdQWo9fHZs?start=317&end=365" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/2MdQWo9fHZs/hqdefault.jpg)](https://www.youtube.com/watch?v=2MdQWo9fHZs&t=317s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:17-6:05" "https://www.youtube.com/watch?v=2MdQWo9fHZs" --force-keyframes-at-cuts --merge-output-format mp4 -o "2MdQWo9fHZs-5m17s.mp4"
+```
+</details>
 
 > "Sometimes I'd end a day with like 50%, go to sleep, wake up, and it would have 49% ready for a whole another day."
 > — Marques Brownlee, [5:52](https://www.youtube.com/watch?v=2MdQWo9fHZs&t=352s)
 
 ### "85% charge still more than Galaxy S25 Ultra"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2MdQWo9fHZs?start=384&end=440" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/2MdQWo9fHZs/hqdefault.jpg)](https://www.youtube.com/watch?v=2MdQWo9fHZs&t=384s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:24-7:20" "https://www.youtube.com/watch?v=2MdQWo9fHZs" --force-keyframes-at-cuts --merge-output-format mp4 -o "2MdQWo9fHZs-6m24s.mp4"
+```
+</details>
 
 > "If you just wanted to guarantee the long-term battery health of the phone and limit it to 85% charge, it would still have more battery than the Galaxy S25 Ultra."
 > — Marques Brownlee, [6:31](https://www.youtube.com/watch?v=2MdQWo9fHZs&t=391s)
 
 ### "Same camera as the $400 Honor 200"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2MdQWo9fHZs?start=622&end=675" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/2MdQWo9fHZs/hqdefault.jpg)](https://www.youtube.com/watch?v=2MdQWo9fHZs&t=622s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:22-11:15" "https://www.youtube.com/watch?v=2MdQWo9fHZs" --force-keyframes-at-cuts --merge-output-format mp4 -o "2MdQWo9fHZs-10m22s.mp4"
+```
+</details>
 
 > "This is actually the same one that's in the $400 Honor 200, and it kind of acts like it."
 > — Marques Brownlee, [10:27](https://www.youtube.com/watch?v=2MdQWo9fHZs&t=627s)

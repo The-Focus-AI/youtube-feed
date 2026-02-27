@@ -37,35 +37,70 @@ The conversation covers the technical challenges of building orbital gas station
 
 ### "Dragon Capsule Exploded"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AYOmMaBaQ3I?start=65&end=130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/AYOmMaBaQ3I/hqdefault.jpg)](https://www.youtube.com/watch?v=AYOmMaBaQ3I&t=65s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:05-2:10" "https://www.youtube.com/watch?v=AYOmMaBaQ3I" --force-keyframes-at-cuts --merge-output-format mp4 -o "AYOmMaBaQ3I-1m05s.mp4"
+```
+</details>
 
 > "I was there when we had one of the Dragon capsules explode during a test firing on the ground. We brought it back and we were doing checkouts on the ground. We were going to try to do some test firing on the engine and it just exploded everywhere. I got a call on a Saturday and they were like, 'Yeah, capsule's gone, dude.'"
 > — Halen Mattison, [1:05](https://www.youtube.com/watch?v=AYOmMaBaQ3I&t=65s)
 
 ### "China Can Capture Anything in Orbit"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AYOmMaBaQ3I?start=28&end=55" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/AYOmMaBaQ3I/hqdefault.jpg)](https://www.youtube.com/watch?v=AYOmMaBaQ3I&t=28s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:28-0:55" "https://www.youtube.com/watch?v=AYOmMaBaQ3I" --force-keyframes-at-cuts --merge-output-format mp4 -o "AYOmMaBaQ3I-0m28s.mp4"
+```
+</details>
 
 > "China is the only nation that has demonstrated the ability to capture and rendezvous with a non-cooperative asset. They can basically go and capture anything on orbit. The US cannot do that right now."
 > — Halen Mattison, [0:28](https://www.youtube.com/watch?v=AYOmMaBaQ3I&t=28s)
 
 ### "Largest Non-Nuclear Explosion in History"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AYOmMaBaQ3I?start=9&end=28" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/AYOmMaBaQ3I/hqdefault.jpg)](https://www.youtube.com/watch?v=AYOmMaBaQ3I&t=9s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:09-0:28" "https://www.youtube.com/watch?v=AYOmMaBaQ3I" --force-keyframes-at-cuts --merge-output-format mp4 -o "AYOmMaBaQ3I-0m09s.mp4"
+```
+</details>
 
 > "In the case of Starship, you've got so much methane and so much oxygen that if those mixed well enough, you would end up with the largest non-nuclear explosion in history by a factor of five."
 > — Halen Mattison, [0:09](https://www.youtube.com/watch?v=AYOmMaBaQ3I&t=9s)
 
 ### "SpaceX Failure Investigations"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AYOmMaBaQ3I?start=145&end=200" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/AYOmMaBaQ3I/hqdefault.jpg)](https://www.youtube.com/watch?v=AYOmMaBaQ3I&t=145s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:25-3:20" "https://www.youtube.com/watch?v=AYOmMaBaQ3I" --force-keyframes-at-cuts --merge-output-format mp4 -o "AYOmMaBaQ3I-2m25s.mp4"
+```
+</details>
 
 > "That's one of the cool things about SpaceX that they probably do better than pretty much anyone else out there - investigate when they screw up. The failure investigation style that SpaceX has crafted has allowed them to figure out a lot of the exceptionally hard problems."
 > — Halen Mattison, [2:25](https://www.youtube.com/watch?v=AYOmMaBaQ3I&t=145s)
 
 ### "You Don't Need to Be a Billionaire"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AYOmMaBaQ3I?start=0&end=9" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/AYOmMaBaQ3I/hqdefault.jpg)](https://www.youtube.com/watch?v=AYOmMaBaQ3I&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-0:09" "https://www.youtube.com/watch?v=AYOmMaBaQ3I" --force-keyframes-at-cuts --merge-output-format mp4 -o "AYOmMaBaQ3I-0m00s.mp4"
+```
+</details>
 
 > "You don't need to be a billionaire to do a space company or do a cool hard tech startup."
 > — Halen Mattison, [0:00](https://www.youtube.com/watch?v=AYOmMaBaQ3I&t=0s)

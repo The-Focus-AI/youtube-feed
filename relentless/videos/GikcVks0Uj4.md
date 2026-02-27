@@ -37,42 +37,84 @@ The interview covers Matic's technical innovations in computer vision and 3D map
 
 ### "We're Building Artwork Through Product"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GikcVks0Uj4?start=157&end=210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GikcVks0Uj4/hqdefault.jpg)](https://www.youtube.com/watch?v=GikcVks0Uj4&t=157s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:37-3:30" "https://www.youtube.com/watch?v=GikcVks0Uj4" --force-keyframes-at-cuts --merge-output-format mp4 -o "GikcVks0Uj4-2m37s.mp4"
+```
+</details>
 
 > "Why are we not creating our own artwork through this product? Ultimately, what Steve Jobs said is make something wonderful and that wonderful itself is storytelling. Some people make an impact through their art or their song, their books. We wanted to make an impact through building something that people would absolutely love."
 > — Mehul Nariyawala, [2:37](https://www.youtube.com/watch?v=GikcVks0Uj4&t=157s)
 
 ### "Minimum Lovable Product, Not MVP"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GikcVks0Uj4?start=246&end=310" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GikcVks0Uj4/hqdefault.jpg)](https://www.youtube.com/watch?v=GikcVks0Uj4&t=246s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:06-5:10" "https://www.youtube.com/watch?v=GikcVks0Uj4" --force-keyframes-at-cuts --merge-output-format mp4 -o "GikcVks0Uj4-4m06s.mp4"
+```
+</details>
 
 > "We're going into a product category where people have expectation of certain things for robot vacuums. We need to not only meet that but exceed that. In our case we need what we refer to as minimum lovable product."
 > — Mehul Nariyawala, [4:06](https://www.youtube.com/watch?v=GikcVks0Uj4&t=246s)
 
 ### "20 Eyes But No Brain"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GikcVks0Uj4?start=386&end=440" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GikcVks0Uj4/hqdefault.jpg)](https://www.youtube.com/watch?v=GikcVks0Uj4&t=386s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:26-7:20" "https://www.youtube.com/watch?v=GikcVks0Uj4" --force-keyframes-at-cuts --merge-output-format mp4 -o "GikcVks0Uj4-6m26s.mp4"
+```
+</details>
 
 > "All these robots have 20 eyes but no brain. Can we actually give it a visual cortex of the robot? The entire space of indoor robotics were built upside down where all these disc robots were essentially automation without intelligence."
 > — Mehul Nariyawala, [6:26](https://www.youtube.com/watch?v=GikcVks0Uj4&t=386s)
 
 ### "It's Just a F***ing Thermostat"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GikcVks0Uj4?start=403&end=465" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GikcVks0Uj4/hqdefault.jpg)](https://www.youtube.com/watch?v=GikcVks0Uj4&t=403s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:43-7:45" "https://www.youtube.com/watch?v=GikcVks0Uj4" --force-keyframes-at-cuts --merge-output-format mp4 -o "GikcVks0Uj4-6m43s.mp4"
+```
+</details>
 
 > "Tony Fadell at Nest, people were telling him 'Why don't you put notifications in the Nest thermostat?' And he said, you know, it's just a f***ing thermostat. No one wants R2-D2, they want a solution to their problem."
 > — [6:43](https://www.youtube.com/watch?v=GikcVks0Uj4&t=403s)
 
 ### "Production Hell is Real"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GikcVks0Uj4?start=6505&end=6570" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GikcVks0Uj4/hqdefault.jpg)](https://www.youtube.com/watch?v=GikcVks0Uj4&t=6505s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*108:25-109:30" "https://www.youtube.com/watch?v=GikcVks0Uj4" --force-keyframes-at-cuts --merge-output-format mp4 -o "GikcVks0Uj4-108m25s.mp4"
+```
+</details>
 
 > "Production hell is very real. We took a lot of capital from public markets and VCs and for two years basically didn't produce single unit. And it was this absolute nightmare of every day you're just trying to survive and not go bankrupt."
 > — Mehul Nariyawala, [1:48:25](https://www.youtube.com/watch?v=GikcVks0Uj4&t=6505s)
 
 ### "Pain as a Moat"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GikcVks0Uj4?start=7337&end=7400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GikcVks0Uj4/hqdefault.jpg)](https://www.youtube.com/watch?v=GikcVks0Uj4&t=7337s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*122:17-123:20" "https://www.youtube.com/watch?v=GikcVks0Uj4" --force-keyframes-at-cuts --merge-output-format mp4 -o "GikcVks0Uj4-122m17s.mp4"
+```
+</details>
 
 > "This is such a painful business that no one else wants to be in it. And that is the moat. The pain itself is the moat. Because if it was easy, everyone would do it."
 > — Mehul Nariyawala, [2:02:17](https://www.youtube.com/watch?v=GikcVks0Uj4&t=7337s)

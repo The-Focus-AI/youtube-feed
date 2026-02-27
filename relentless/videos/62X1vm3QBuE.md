@@ -35,56 +35,112 @@ Shaun introduces a fascinating framework for understanding talent: the "15 level
 
 ### "Elon the Collective"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/62X1vm3QBuE?start=241&end=300" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/62X1vm3QBuE/hqdefault.jpg)](https://www.youtube.com/watch?v=62X1vm3QBuE&t=241s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:01-5:00" "https://www.youtube.com/watch?v=62X1vm3QBuE" --force-keyframes-at-cuts --merge-output-format mp4 -o "62X1vm3QBuE-4m01s.mp4"
+```
+</details>
 
 > "There's Elon the Collective, which is probably about 20 people. They've been working with him for a very long time. They've built unbelievable amounts of trust. They can almost read his mind and they know what he would want to have done in some situation and then they also know when they need to escalate a question to him."
 > — Shaun Maguire, [4:01](https://www.youtube.com/watch?v=62X1vm3QBuE&t=241s)
 
 ### "Bourbaki - The Math Collective"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/62X1vm3QBuE?start=75&end=130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/62X1vm3QBuE/hqdefault.jpg)](https://www.youtube.com/watch?v=62X1vm3QBuE&t=75s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:15-2:10" "https://www.youtube.com/watch?v=62X1vm3QBuE" --force-keyframes-at-cuts --merge-output-format mp4 -o "62X1vm3QBuE-1m15s.mp4"
+```
+</details>
 
 > "Bourbaki was a French math collective. This new mathematician burst onto the scene and started solving a bunch of unsolved problems in mathematics and the math community was like who is Bourbaki? And it turns out Bourbaki wasn't one person. Bourbaki was a collection of a bunch of very very talented young French mathematicians."
 > — Shaun Maguire, [1:15](https://www.youtube.com/watch?v=62X1vm3QBuE&t=75s)
 
 ### "You're Going to Do Mechanical Engineering"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/62X1vm3QBuE?start=330&end=400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/62X1vm3QBuE/hqdefault.jpg)](https://www.youtube.com/watch?v=62X1vm3QBuE&t=330s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:30-6:40" "https://www.youtube.com/watch?v=62X1vm3QBuE" --force-keyframes-at-cuts --merge-output-format mp4 -o "62X1vm3QBuE-5m30s.mp4"
+```
+</details>
 
 > "Elon told him 'You're not going to do business development. You're going to do mechanical engineering.' The person studied economics. And they rose up to be a very senior engineer. He could just tell they had an engineering mind."
 > — Shaun Maguire, [5:52](https://www.youtube.com/watch?v=62X1vm3QBuE&t=352s)
 
 ### "Rope to Hang Themselves"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/62X1vm3QBuE?start=390&end=450" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/62X1vm3QBuE/hqdefault.jpg)](https://www.youtube.com/watch?v=62X1vm3QBuE&t=390s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:30-7:30" "https://www.youtube.com/watch?v=62X1vm3QBuE" --force-keyframes-at-cuts --merge-output-format mp4 -o "62X1vm3QBuE-6m30s.mp4"
+```
+</details>
 
 > "If you actually perform, you will rise up really really quickly. But if you screw up once, you're basically out. When you do this over 10 years... you build incredible loyalty with the most capable, competent people. You basically give them more than they could get anywhere."
 > — Shaun Maguire, [6:30](https://www.youtube.com/watch?v=62X1vm3QBuE&t=390s)
 
 ### "15 Levels of Mathematicians"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/62X1vm3QBuE?start=940&end=1010" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/62X1vm3QBuE/hqdefault.jpg)](https://www.youtube.com/watch?v=62X1vm3QBuE&t=940s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:40-16:50" "https://www.youtube.com/watch?v=62X1vm3QBuE" --force-keyframes-at-cuts --merge-output-format mp4 -o "62X1vm3QBuE-15m40s.mp4"
+```
+</details>
 
 > "In mathematics, there are something like 15 distinct levels beyond just being incredibly good at mathematics. People can look down with precision - you can see the tiers below you with precision. But it's not obvious at all from below."
 > — Shaun Maguire, [15:40](https://www.youtube.com/watch?v=62X1vm3QBuE&t=940s)
 
 ### "800 Math SAT is a Joke"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/62X1vm3QBuE?start=1189&end=1250" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/62X1vm3QBuE/hqdefault.jpg)](https://www.youtube.com/watch?v=62X1vm3QBuE&t=1189s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*19:49-20:50" "https://www.youtube.com/watch?v=62X1vm3QBuE" --force-keyframes-at-cuts --merge-output-format mp4 -o "62X1vm3QBuE-19m49s.mp4"
+```
+</details>
 
 > "For every one of these people, they get an 800 on the math SAT without even trying. These people are just born and 800 math SAT is a joke. The typical high school teacher that teaches math can't tell the difference between any of these levels."
 > — Shaun Maguire, [19:49](https://www.youtube.com/watch?v=62X1vm3QBuE&t=1189s)
 
 ### "Magnus Carlsen Drunk and Blindfolded"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/62X1vm3QBuE?start=1275&end=1340" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/62X1vm3QBuE/hqdefault.jpg)](https://www.youtube.com/watch?v=62X1vm3QBuE&t=1275s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*21:15-22:20" "https://www.youtube.com/watch?v=62X1vm3QBuE" --force-keyframes-at-cuts --merge-output-format mp4 -o "62X1vm3QBuE-21m15s.mp4"
+```
+</details>
 
 > "If you have a 2850 rated player play a 2700 rated player, they're going to absolutely crush them 99% of the time. This is where you get the video of Magnus Carlsen drunk beating someone at 2500-2600. He can play 10 of them simultaneously with a blindfold while drunk."
 > — Shaun Maguire, [21:15](https://www.youtube.com/watch?v=62X1vm3QBuE&t=1275s)
 
 ### "Published a Paper with Juan"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/62X1vm3QBuE?start=1645&end=1740" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/62X1vm3QBuE/hqdefault.jpg)](https://www.youtube.com/watch?v=62X1vm3QBuE&t=1645s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*27:25-29:00" "https://www.youtube.com/watch?v=62X1vm3QBuE" --force-keyframes-at-cuts --merge-output-format mp4 -o "62X1vm3QBuE-27m25s.mp4"
+```
+</details>
 
 > "The founder had written a paper as an undergrad with Juan Maldacena, one of the most famous string theorists in the world. For me, that anecdote alone was like okay this guy is incredibly talented. Writing a paper with Juan as an undergrad means he has a minimum 2600 rated technical ability. Very few VCs would have picked up on that signal."
 > — Shaun Maguire, [27:25](https://www.youtube.com/watch?v=62X1vm3QBuE&t=1645s)

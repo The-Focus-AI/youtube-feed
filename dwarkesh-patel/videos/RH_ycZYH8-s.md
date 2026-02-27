@@ -39,42 +39,84 @@ The lecture concludes with contemporary implications, drawing parallels between 
 
 ### "Russia stripped Manchuria's entire industrial base"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RH_ycZYH8-s?start=1073&end=1135" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/RH_ycZYH8-s/hqdefault.jpg)](https://www.youtube.com/watch?v=RH_ycZYH8-s&t=1073s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*17:53-18:55" "https://www.youtube.com/watch?v=RH_ycZYH8-s" --force-keyframes-at-cuts --merge-output-format mp4 -o "RH_ycZYH8-s-17m53s.mp4"
+```
+</details>
 
 > "They also take away Manchuria's industrial base. They take 83% of the electrical power equipment, 86% of mining, 82% of cement production. Plus they take 640,000 Japanese POWs to be slave labor. China had been fighting Japan in one form or another since 1931. Russia comes in for the cameo at the end."
 > -- Sarah Paine, [17:53](https://www.youtube.com/watch?v=RH_ycZYH8-s&t=1073s)
 
 ### "The Karakhan Manifesto -- the origin of the myth that Russia treated China nicely"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RH_ycZYH8-s?start=575&end=640" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/RH_ycZYH8-s/hqdefault.jpg)](https://www.youtube.com/watch?v=RH_ycZYH8-s&t=575s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:35-10:40" "https://www.youtube.com/watch?v=RH_ycZYH8-s" --force-keyframes-at-cuts --merge-output-format mp4 -o "RH_ycZYH8-s-9m35s.mp4"
+```
+</details>
 
 > "We're Bolsheviks. We'll return your lands from those unequal treaties and be your friends against the imperialist powers. We're not like that anymore. The facts are they didn't return these territories until the 1950s, after the Westerners had returned theirs. But from the Karakhan Manifesto is the origin of the myth that the Russians somehow treated the Chinese nicely."
 > -- Sarah Paine, [9:35](https://www.youtube.com/watch?v=RH_ycZYH8-s&t=575s)
 
 ### "Stalin's Korean War gambit -- low risk, high reward"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RH_ycZYH8-s?start=1360&end=1420" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/RH_ycZYH8-s/hqdefault.jpg)](https://www.youtube.com/watch?v=RH_ycZYH8-s&t=1360s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*22:40-23:40" "https://www.youtube.com/watch?v=RH_ycZYH8-s" --force-keyframes-at-cuts --merge-output-format mp4 -o "RH_ycZYH8-s-22m40s.mp4"
+```
+</details>
 
 > "From that moment on, Stalin sees a low-risk, high-reward strategy where he's going to weaken China. So what's not to love about fighting to the last Chinese? Stalin thinks this is great. Also because China is so isolated by this war, it's going to tie China to Russia ever more tightly. It gives Russia space to rebuild after World War II while its rival bleeds."
 > -- Sarah Paine, [22:40](https://www.youtube.com/watch?v=RH_ycZYH8-s&t=1360s)
 
 ### "Putin has risen to power on a diet of hot wars"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RH_ycZYH8-s?start=3300&end=3360" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/RH_ycZYH8-s/hqdefault.jpg)](https://www.youtube.com/watch?v=RH_ycZYH8-s&t=3300s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*55:00-56:00" "https://www.youtube.com/watch?v=RH_ycZYH8-s" --force-keyframes-at-cuts --merge-output-format mp4 -o "RH_ycZYH8-s-55m00s.mp4"
+```
+</details>
 
 > "Putin has risen to power on a diet of hot wars. Second Chechen War, where he levels the Chechen capital. He turns Chechnya into an environmental waste zone. Then he gets quite popular for his war with Georgia, taking South Ossetia and Abkhazia from Georgia."
 > -- Sarah Paine, [55:00](https://www.youtube.com/watch?v=RH_ycZYH8-s&t=3300s)
 
 ### "Democracy and empire don't mix"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RH_ycZYH8-s?start=3120&end=3170" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/RH_ycZYH8-s/hqdefault.jpg)](https://www.youtube.com/watch?v=RH_ycZYH8-s&t=3120s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*52:00-52:50" "https://www.youtube.com/watch?v=RH_ycZYH8-s" --force-keyframes-at-cuts --merge-output-format mp4 -o "RH_ycZYH8-s-52m00s.mp4"
+```
+</details>
 
 > "Democracy and communism don't mix and democracy and empire don't mix. Elections are an incredibly powerful thing. This is where nationalism comes in."
 > -- Sarah Paine, [52:00](https://www.youtube.com/watch?v=RH_ycZYH8-s&t=3120s)
 
 ### "Territory stolen from China was larger than the US east of the Mississippi"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RH_ycZYH8-s?start=1175&end=1210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/RH_ycZYH8-s/hqdefault.jpg)](https://www.youtube.com/watch?v=RH_ycZYH8-s&t=1175s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*19:35-20:10" "https://www.youtube.com/watch?v=RH_ycZYH8-s" --force-keyframes-at-cuts --merge-output-format mp4 -o "RH_ycZYH8-s-19m35s.mp4"
+```
+</details>
 
 > "If you add up all the territory that the Russians took -- from the 1858 Treaty of Aigun and 1860 Treaty of Peking, plus pulling Mongolia from the Chinese sphere of influence -- it's larger than all US territory east of the Mississippi."
 > -- Sarah Paine, [19:35](https://www.youtube.com/watch?v=RH_ycZYH8-s&t=1175s)

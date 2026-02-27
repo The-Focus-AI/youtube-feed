@@ -32,28 +32,56 @@ The Samaras feature premium materials including leather from Charles F. Stead ta
 
 ### "Desire to hike a mountain at any moment"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/of4vWilFse4?start=61&end=115" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/of4vWilFse4/hqdefault.jpg)](https://www.youtube.com/watch?v=of4vWilFse4&t=61s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:01-1:55" "https://www.youtube.com/watch?v=of4vWilFse4" --force-keyframes-at-cuts --merge-output-format mp4 -o "of4vWilFse4-1m01s.mp4"
+```
+</details>
 
 > "Goral emphasizes minimalism, comfort, and town-wearable footwear, while The Iron Snail's focus is on the desire to be able to hike a mountain or slog through gross terrain at any moment."
 > — Narrator, [1:01](https://www.youtube.com/watch?v=of4vWilFse4&t=61s)
 
 ### "Thermochromatic lug turns blue when freezing"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/of4vWilFse4?start=184&end=230" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/of4vWilFse4/hqdefault.jpg)](https://www.youtube.com/watch?v=of4vWilFse4&t=184s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:04-3:50" "https://www.youtube.com/watch?v=of4vWilFse4" --force-keyframes-at-cuts --merge-output-format mp4 -o "of4vWilFse4-3m04s.mp4"
+```
+</details>
 
 > "The outsoles are Vibram's Ice Trek with Arctic Grip... These also come with a thermochromatic lug that turns blue when temperatures fall below freezing."
 > — Narrator, [3:05](https://www.youtube.com/watch?v=of4vWilFse4&t=185s)
 
 ### "A Samara is a seed dispersal system"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/of4vWilFse4?start=223&end=260" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/of4vWilFse4/hqdefault.jpg)](https://www.youtube.com/watch?v=of4vWilFse4&t=223s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:43-4:20" "https://www.youtube.com/watch?v=of4vWilFse4" --force-keyframes-at-cuts --merge-output-format mp4 -o "of4vWilFse4-3m43s.mp4"
+```
+</details>
 
 > "A Samara in nature is a dry fruit. Its general purpose is to be a seed dispersal system for the maple family of trees. According to Wikipedia, they are also commonly referred to as wing nuts, helicopters, whirly birds, whirly gigs, or in the north of England, a spinning jenny."
 > — Narrator, [3:43](https://www.youtube.com/watch?v=of4vWilFse4&t=223s)
 
 ### "We both got 'most creative' in high school"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/of4vWilFse4?start=246&end=275" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/of4vWilFse4/hqdefault.jpg)](https://www.youtube.com/watch?v=of4vWilFse4&t=246s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:06-4:35" "https://www.youtube.com/watch?v=of4vWilFse4" --force-keyframes-at-cuts --merge-output-format mp4 -o "of4vWilFse4-4m06s.mp4"
+```
+</details>
 
 > "Thank you Robin for the animations - they look awesome. We both got the 'most creative' superlative in high school. We were in the picture together, but she's Emmy nominated, so..."
 > — Michael, [4:06](https://www.youtube.com/watch?v=of4vWilFse4&t=246s)

@@ -31,28 +31,56 @@ The "promise" segment introduces Felix, an early MIT robot designed to demonstra
 
 ### "Machines That Think Like Animals"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/shKHSAf_KAY?start=60&end=96" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/shKHSAf_KAY/hqdefault.jpg)](https://www.youtube.com/watch?v=shKHSAf_KAY&t=60s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:00-1:36" "https://www.youtube.com/watch?v=shKHSAf_KAY" --force-keyframes-at-cuts --merge-output-format mp4 -o "shKHSAf_KAY-1m00s.mp4"
+```
+</details>
 
 > "Would you say that machines are becoming smarter and smarter? Yes. We're making them smarter and smarter. We're building into them better memories. We're building into them the possibility of learning and those things are happening very fast... The word 'think' is one of the words like 'life' and 'soul' which are bad words. They mean just what we want them to mean. But I would say that we have machines which if they were to be for the first time discovered by an animal psychologist would be said to think in the way that animals do."
 > — Norbert Wiener (1954), [1:00](https://www.youtube.com/watch?v=shKHSAf_KAY&t=60s)
 
 ### "Consciousness Is About 50 Things"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/shKHSAf_KAY?start=148&end=228" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/shKHSAf_KAY/hqdefault.jpg)](https://www.youtube.com/watch?v=shKHSAf_KAY&t=148s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:28-3:48" "https://www.youtube.com/watch?v=shKHSAf_KAY" --force-keyframes-at-cuts --merge-output-format mp4 -o "shKHSAf_KAY-2m28s.mp4"
+```
+</details>
 
 > "There is no such thing as consciousness, but there's dozens of processes that involve memories of what you've been recently doing and new ways to represent things and describing things in language rather than images... The existence of the word consciousness is the main reason why psychology... they got stuck thinking that these words like consciousness and ethics are things rather than big complicated structures that might have a better explanation."
 > — Marvin Minsky, [2:28](https://www.youtube.com/watch?v=shKHSAf_KAY&t=148s)
 
 ### "No One Read Turing's Paper"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/shKHSAf_KAY?start=470&end=510" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/shKHSAf_KAY/hqdefault.jpg)](https://www.youtube.com/watch?v=shKHSAf_KAY&t=470s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:50-8:30" "https://www.youtube.com/watch?v=shKHSAf_KAY" --force-keyframes-at-cuts --merge-output-format mp4 -o "shKHSAf_KAY-7m50s.mp4"
+```
+</details>
 
 > "The one person who already had expressed the view that computers were the key to artificial intelligence was Turing who had written this article 'Computing Machinery and Intelligence' that was published in 1950. But I can't find anyone who was interested in artificial intelligence who had read that article - with the exception of Selfridge who claimed he'd read it but didn't believe it."
 > — John McCarthy, [7:50](https://www.youtube.com/watch?v=shKHSAf_KAY&t=470s)
 
 ### "Interactive Computing Was Obvious"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/shKHSAf_KAY?start=512&end=570" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/shKHSAf_KAY/hqdefault.jpg)](https://www.youtube.com/watch?v=shKHSAf_KAY&t=512s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:32-9:30" "https://www.youtube.com/watch?v=shKHSAf_KAY" --force-keyframes-at-cuts --merge-output-format mp4 -o "shKHSAf_KAY-8m32s.mp4"
+```
+</details>
 
 > "I became convinced that computers were the key to artificial intelligence in 1955. And at that point the idea of time sharing was immediately apparent to me because I was thinking about artificial intelligence already - the question was 'well how are you going to interact with it?' The idea that one should be sitting comfortably in one's office and interacting with the computer... I began to look around and talk to people and was very surprised that that wasn't what everybody thought."
 > — John McCarthy, [8:32](https://www.youtube.com/watch?v=shKHSAf_KAY&t=512s)

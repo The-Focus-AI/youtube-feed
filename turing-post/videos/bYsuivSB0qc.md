@@ -35,42 +35,84 @@ Dev also discusses how Predibase pivoted after the ChatGPT moment, betting speci
 
 ### "Train once and learn forever is actually here today"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bYsuivSB0qc?start=37&end=80" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bYsuivSB0qc/hqdefault.jpg)](https://www.youtube.com/watch?v=bYsuivSB0qc&t=37s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:37-1:20" "https://www.youtube.com/watch?v=bYsuivSB0qc" --force-keyframes-at-cuts --merge-output-format mp4 -o "bYsuivSB0qc-0m37s.mp4"
+```
+</details>
 
 > "That world is actually here today. Most of the time when we see customers using models in production, they're taking a model someone else has done 99% of the heavy lifting on and then they're doing a last mile 1% customization. The trend is going to be a shift where people stop using a static model and instead have a pipeline that allows them to improve the model continuously while it's in production."
 > — Devvret Rishi, [0:37](https://www.youtube.com/watch?v=bYsuivSB0qc&t=37s)
 
 ### "If you can measure it, you can improve it"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bYsuivSB0qc?start=110&end=180" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bYsuivSB0qc/hqdefault.jpg)](https://www.youtube.com/watch?v=bYsuivSB0qc&t=110s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:50-3:00" "https://www.youtube.com/watch?v=bYsuivSB0qc" --force-keyframes-at-cuts --merge-output-format mp4 -o "bYsuivSB0qc-1m50s.mp4"
+```
+</details>
 
 > "Reinforcement fine-tuning takes a different approach. Rather than needing large amounts of labeled data, you can actually do fine-tuning with really small quantities of data. Think about a dozen examples or so. And you add in this concept of reward functions. If you're teaching a model how to write code, you might write a reward function that says you'll get plus five points if you get the formatting correct and another 10 points if it compiles and another 20 points if the unit tests pass. The goal with reinforcement fine-tuning is if you can measure it, you can improve it."
 > — Devvret Rishi, [1:50](https://www.youtube.com/watch?v=bYsuivSB0qc&t=110s)
 
 ### "90% accuracy becomes sub-50% user experience with multiple calls"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bYsuivSB0qc?start=403&end=450" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bYsuivSB0qc/hqdefault.jpg)](https://www.youtube.com/watch?v=bYsuivSB0qc&t=403s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:43-7:30" "https://www.youtube.com/watch?v=bYsuivSB0qc" --force-keyframes-at-cuts --merge-output-format mp4 -o "bYsuivSB0qc-6m43s.mp4"
+```
+</details>
 
 > "My view is that right now the way that these agents get built are quite brittle. A lot of times people have built a really compelling demo that works well if you are on the golden path. But if you go off the golden path then the model is triggering a number of different error areas. It's a very simple thing. If you're only 90% accurate on a given LLM call and your LLM has to make five different calls, you're already sub 50% in terms of the user experience."
 > — Devvret Rishi, [6:43](https://www.youtube.com/watch?v=bYsuivSB0qc&t=403s)
 
 ### "I don't need my point of sales system to recite French poetry"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bYsuivSB0qc?start=710&end=760" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bYsuivSB0qc/hqdefault.jpg)](https://www.youtube.com/watch?v=bYsuivSB0qc&t=710s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:50-12:40" "https://www.youtube.com/watch?v=bYsuivSB0qc" --force-keyframes-at-cuts --merge-output-format mp4 -o "bYsuivSB0qc-11m50s.mp4"
+```
+</details>
 
 > "My favorite customer quote is generalized intelligence is great, but I don't need my point of sales system to recite French poetry. Most customer use cases look like something like one of our customers, Checkr, does. They look through employee background checks and are looking to extract out very specific information with respect to criminal codes and violations. They need to be able to do a really high quality job on one particular set of tasks."
 > — Devvret Rishi, [11:50](https://www.youtube.com/watch?v=bYsuivSB0qc&t=710s)
 
 ### "We aren't going to live in a world where one model rules it all"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bYsuivSB0qc?start=0&end=20" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bYsuivSB0qc/hqdefault.jpg)](https://www.youtube.com/watch?v=bYsuivSB0qc&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-0:20" "https://www.youtube.com/watch?v=bYsuivSB0qc" --force-keyframes-at-cuts --merge-output-format mp4 -o "bYsuivSB0qc-0m00s.mp4"
+```
+</details>
 
 > "We aren't going to live in a world where one model rules it all. You're going to see a mix of open-source models, closed and commercial models, different size parameter ranges, and just like any software tool, people are going to choose the best tool for their individual task."
 > — Devvret Rishi, [0:00](https://www.youtube.com/watch?v=bYsuivSB0qc&t=0s)
 
 ### "Open source is 6 months ahead of schedule"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bYsuivSB0qc?start=1295&end=1350" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bYsuivSB0qc/hqdefault.jpg)](https://www.youtube.com/watch?v=bYsuivSB0qc&t=1295s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*21:35-22:30" "https://www.youtube.com/watch?v=bYsuivSB0qc" --force-keyframes-at-cuts --merge-output-format mp4 -o "bYsuivSB0qc-21m35s.mp4"
+```
+</details>
 
 > "Today Deepseek R1 or V3, Qwen 3, Llama 4, these models are not only on par but many times actually in the benchmarks doing even better than the leading commercial models. To me that's actually 6 months ahead of schedule. I would have thought end of 2025 would have been the earliest that we'd see open source models beat commercial models."
 > — Devvret Rishi, [21:35](https://www.youtube.com/watch?v=bYsuivSB0qc&t=1295s)

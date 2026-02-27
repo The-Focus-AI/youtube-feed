@@ -34,35 +34,70 @@ Finally, the hosts play HatGPT, covering Amazon's "Project Dawn" layoffs, Caroli
 
 ### "Phone to Phone Combat in the Streets"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5dTmsGBHKTM?start=30&end=90" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5dTmsGBHKTM/hqdefault.jpg)](https://www.youtube.com/watch?v=5dTmsGBHKTM&t=30s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:30-1:30" "https://www.youtube.com/watch?v=5dTmsGBHKTM" --force-keyframes-at-cuts --merge-output-format mp4 -o "5dTmsGBHKTM-0m30s.mp4"
+```
+</details>
 
 > "Kevin and I have both been horrified by the fatal shooting of Alex Prey, the second fatal shooting of a US citizen by federal agents this month. While we don't often turn our attention directly to matters of politics and protests on the show, we both believe that the tech industry is playing a role in this story."
 > -- Casey Newton, [0:30](https://www.youtube.com/watch?v=5dTmsGBHKTM&t=30s)
 
 ### "The Memes Will Continue"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5dTmsGBHKTM?start=580&end=640" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5dTmsGBHKTM/hqdefault.jpg)](https://www.youtube.com/watch?v=5dTmsGBHKTM&t=580s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:40-10:40" "https://www.youtube.com/watch?v=5dTmsGBHKTM" --force-keyframes-at-cuts --merge-output-format mp4 -o "5dTmsGBHKTM-9m40s.mp4"
+```
+</details>
 
 > "The White House released an AI-altered image of a civil rights attorney to make her look like she's crying when she wasn't. When the administration was asked why they're sharing obviously doctored images, a spokesman just said 'the memes will continue.' Which I honestly found chilling."
 > -- Casey Newton, [9:40](https://www.youtube.com/watch?v=5dTmsGBHKTM&t=580s)
 
 ### "It Works About 70% of the Time"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5dTmsGBHKTM?start=1850&end=1910" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5dTmsGBHKTM/hqdefault.jpg)](https://www.youtube.com/watch?v=5dTmsGBHKTM&t=1850s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*30:50-31:50" "https://www.youtube.com/watch?v=5dTmsGBHKTM" --force-keyframes-at-cuts --merge-output-format mp4 -o "5dTmsGBHKTM-30m50s.mp4"
+```
+</details>
 
 > "I connected it to my email, my calendar, a few other services and I thought it would be great if in the morning I would get a nice briefing. And by hook and by crook over a handful of days, I got something that works about 70% of the time."
 > -- Casey Newton, [30:50](https://www.youtube.com/watch?v=5dTmsGBHKTM&t=1850s)
 
 ### "The Yawning Inside-Outside Gap"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5dTmsGBHKTM?start=2350&end=2410" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5dTmsGBHKTM/hqdefault.jpg)](https://www.youtube.com/watch?v=5dTmsGBHKTM&t=2350s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*39:10-40:10" "https://www.youtube.com/watch?v=5dTmsGBHKTM" --force-keyframes-at-cuts --merge-output-format mp4 -o "5dTmsGBHKTM-39m10s.mp4"
+```
+</details>
 
 > "I've never seen such a yawning inside-outside gap. People in San Francisco are putting multi-agent Claude swarms in charge of their lives, consulting chatbots before every decision. People elsewhere are still trying to get approval to use Copilot in Teams, if they're using AI at all."
 > -- Kevin Roose, [39:10](https://www.youtube.com/watch?v=5dTmsGBHKTM&t=2350s)
 
 ### "Stuff That Barely Works in January Might Be Pretty Freaking Good by November"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5dTmsGBHKTM?start=2150&end=2210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5dTmsGBHKTM/hqdefault.jpg)](https://www.youtube.com/watch?v=5dTmsGBHKTM&t=2150s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*35:50-36:50" "https://www.youtube.com/watch?v=5dTmsGBHKTM" --force-keyframes-at-cuts --merge-output-format mp4 -o "5dTmsGBHKTM-35m50s.mp4"
+```
+</details>
 
 > "This is honestly just what it is often like to cover technology -- you are writing about stuff that is directionally correct, way too early, and barely works. Stuff that barely works in January might be pretty freaking good by November."
 > -- Casey Newton, [35:50](https://www.youtube.com/watch?v=5dTmsGBHKTM&t=2150s)

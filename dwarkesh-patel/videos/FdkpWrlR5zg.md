@@ -40,42 +40,84 @@ Paine concludes with pointed lessons for today's "second Cold War," arguing that
 
 ### "The most dangerous moment is when a bad government begins to reform"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FdkpWrlR5zg?start=1838&end=1900" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FdkpWrlR5zg/hqdefault.jpg)](https://www.youtube.com/watch?v=FdkpWrlR5zg&t=1838s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*30:38-31:40" "https://www.youtube.com/watch?v=FdkpWrlR5zg" --force-keyframes-at-cuts --merge-output-format mp4 -o "FdkpWrlR5zg-30m38s.mp4"
+```
+</details>
 
 > "Alexis de Tocqueville wrote about the last days of the French monarchy: 'The most dangerous moment for a bad government is when it begins to reform.' All of these counter-arguments agree on at least one thing: Gorbachev's role in how the Cold War turned out was pivotal."
 > -- Sarah Paine, [30:38](https://www.youtube.com/watch?v=FdkpWrlR5zg&t=1838s)
 
 ### "It was like a donut empire"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FdkpWrlR5zg?start=1920&end=1960" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FdkpWrlR5zg/hqdefault.jpg)](https://www.youtube.com/watch?v=FdkpWrlR5zg&t=1920s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*32:00-32:40" "https://www.youtube.com/watch?v=FdkpWrlR5zg" --force-keyframes-at-cuts --merge-output-format mp4 -o "FdkpWrlR5zg-32m00s.mp4"
+```
+</details>
 
 > "People in Eastern Europe as a group were more prosperous than Russians. It was like a donut empire. Russians could no longer siphon off the wealth, which explains why they wanted to leave."
 > -- Sarah Paine, [32:00](https://www.youtube.com/watch?v=FdkpWrlR5zg&t=1920s)
 
 ### "The economy was aggregating all the lies"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FdkpWrlR5zg?start=1665&end=1730" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FdkpWrlR5zg/hqdefault.jpg)](https://www.youtube.com/watch?v=FdkpWrlR5zg&t=1665s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*27:45-28:50" "https://www.youtube.com/watch?v=FdkpWrlR5zg" --force-keyframes-at-cuts --merge-output-format mp4 -o "FdkpWrlR5zg-27m45s.mp4"
+```
+</details>
 
 > "Everyone's lying to each other. If you're working for a subunit of an enterprise, you're saying you have less than you do and saying you need more than you do. The plan is aggregating all the lies. The higher up the food chain, the worse the data is, so that the Soviet government has no idea what's actually going on."
 > -- Sarah Paine, [27:45](https://www.youtube.com/watch?v=FdkpWrlR5zg&t=1665s)
 
 ### "The Soviets spent up to 70% of GDP on military"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FdkpWrlR5zg?start=211&end=260" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FdkpWrlR5zg/hqdefault.jpg)](https://www.youtube.com/watch?v=FdkpWrlR5zg&t=211s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:31-4:20" "https://www.youtube.com/watch?v=FdkpWrlR5zg" --force-keyframes-at-cuts --merge-output-format mp4 -o "FdkpWrlR5zg-3m31s.mp4"
+```
+</details>
 
 > "After the Cold War ended, it turns out it was at least 40 or 50%. Economy-busting 70%, if you take into account associated military things. The United States was spending less than 8%, and Nazi Germany, which is no piker, 55%."
 > -- Sarah Paine, [3:31](https://www.youtube.com/watch?v=FdkpWrlR5zg&t=211s)
 
 ### "74 items in a Moscow supermarket"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FdkpWrlR5zg?start=4390&end=4450" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FdkpWrlR5zg/hqdefault.jpg)](https://www.youtube.com/watch?v=FdkpWrlR5zg&t=4390s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*73:10-74:10" "https://www.youtube.com/watch?v=FdkpWrlR5zg" --force-keyframes-at-cuts --merge-output-format mp4 -o "FdkpWrlR5zg-73m10s.mp4"
+```
+</details>
 
 > "There were 74 items total in this supermarket. Think of that compared to a candy rack as you leave a 7-Eleven. The smell just about knocked you out, rotten produce everywhere. Russians are good at making borscht."
 > -- Sarah Paine, [1:13:10](https://www.youtube.com/watch?v=FdkpWrlR5zg&t=4390s)
 
 ### "We are putting a plastic bag on our own head"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FdkpWrlR5zg?start=6560&end=6620" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FdkpWrlR5zg/hqdefault.jpg)](https://www.youtube.com/watch?v=FdkpWrlR5zg&t=6560s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*109:20-110:20" "https://www.youtube.com/watch?v=FdkpWrlR5zg" --force-keyframes-at-cuts --merge-output-format mp4 -o "FdkpWrlR5zg-109m20s.mp4"
+```
+</details>
 
 > "If we're going to dump all our allies, if they organize without us... if we're going to just blow through our good hand of cards without thinking very carefully about what we're doing... we become like the Soviets, putting a plastic bag on our own head."
 > -- Sarah Paine, [1:49:20](https://www.youtube.com/watch?v=FdkpWrlR5zg&t=6560s)

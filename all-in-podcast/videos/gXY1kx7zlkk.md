@@ -46,35 +46,70 @@ The final segment examines the weakening dollar, surging gold and silver prices,
 
 ### "Billions in Medicaid Fraud in Minnesota"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gXY1kx7zlkk?start=1425&end=1485" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/gXY1kx7zlkk/hqdefault.jpg)](https://www.youtube.com/watch?v=gXY1kx7zlkk&t=1425s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*23:45-24:45" "https://www.youtube.com/watch?v=gXY1kx7zlkk" --force-keyframes-at-cuts --merge-output-format mp4 -o "gXY1kx7zlkk-23m45s.mp4"
+```
+</details>
 
 > "The U.S. Attorney for Minnesota estimated that billions of dollars have been paid out by Medicaid in Minnesota that may be fraudulent. This is not millions, this is billions with a B. And it's particularly connected to childcare fraud schemes where people are claiming to provide childcare services that don't actually exist."
 > — David Sacks, [23:45](https://www.youtube.com/watch?v=gXY1kx7zlkk&t=1425s)
 
 ### "I've Deployed 100 Claude Instances Across My Companies"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gXY1kx7zlkk?start=2754&end=2820" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/gXY1kx7zlkk/hqdefault.jpg)](https://www.youtube.com/watch?v=gXY1kx7zlkk&t=2754s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*45:54-47:00" "https://www.youtube.com/watch?v=gXY1kx7zlkk" --force-keyframes-at-cuts --merge-output-format mp4 -o "gXY1kx7zlkk-45m54s.mp4"
+```
+</details>
 
 > "I literally have over 100 instances of Claude deployed across all my different companies doing different tasks. From accounting reconciliation to customer support ticket triage to code review. This is the Clawdbot takeover. This is the moment where it's not experimental anymore - it's actually working."
 > — Jason Calacanis, [45:54](https://www.youtube.com/watch?v=gXY1kx7zlkk&t=2754s)
 
 ### "Kimi K2.5 is Astonishingly Good"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gXY1kx7zlkk?start=3180&end=3240" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/gXY1kx7zlkk/hqdefault.jpg)](https://www.youtube.com/watch?v=gXY1kx7zlkk&t=3180s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*53:00-54:00" "https://www.youtube.com/watch?v=gXY1kx7zlkk" --force-keyframes-at-cuts --merge-output-format mp4 -o "gXY1kx7zlkk-53m00s.mp4"
+```
+</details>
 
 > "I've been testing the Chinese model Kimi K2.5 and it is astonishingly good. On some benchmarks it's matching or exceeding GPT-4 and Claude. This is what David has been warning about - if we don't maintain our lead in AI, China is right there ready to leapfrog us."
 > — Jason Calacanis, [53:00](https://www.youtube.com/watch?v=gXY1kx7zlkk&t=3180s)
 
 ### "Gold Hitting All-Time Highs Signals De-Dollarization"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gXY1kx7zlkk?start=4198&end=4260" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/gXY1kx7zlkk/hqdefault.jpg)](https://www.youtube.com/watch?v=gXY1kx7zlkk&t=4198s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*69:58-71:00" "https://www.youtube.com/watch?v=gXY1kx7zlkk" --force-keyframes-at-cuts --merge-output-format mp4 -o "gXY1kx7zlkk-69m58s.mp4"
+```
+</details>
 
 > "Gold is at all-time highs. Silver is ripping. This is not just about inflation hedging. This is central banks around the world, particularly in the BRICS nations, systematically reducing their dollar reserves and buying hard assets. This is de-dollarization in real time."
 > — Chamath Palihapitiya, [1:09:58](https://www.youtube.com/watch?v=gXY1kx7zlkk&t=4198s)
 
 ### "Polymarket Has Me at 4% to Be California Governor"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gXY1kx7zlkk?start=4805&end=4870" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/gXY1kx7zlkk/hqdefault.jpg)](https://www.youtube.com/watch?v=gXY1kx7zlkk&t=4805s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*80:05-81:10" "https://www.youtube.com/watch?v=gXY1kx7zlkk" --force-keyframes-at-cuts --merge-output-format mp4 -o "gXY1kx7zlkk-80m05s.mp4"
+```
+</details>
 
 > "Polymarket currently has me at 4% odds to be the next governor of California. Which is hilarious because I'm not even officially running. But apparently I'm ahead of several declared candidates. Shows you the state of California politics right now."
 > — Chamath Palihapitiya, [1:20:05](https://www.youtube.com/watch?v=gXY1kx7zlkk&t=4805s)

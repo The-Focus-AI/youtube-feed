@@ -35,42 +35,84 @@ The video covers iconic American brands like Pointer/LC King (the Reddit darling
 
 ### "I opened the box and I was like, I am the hottest man"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c6blgVapNWY?start=28&end=85" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/c6blgVapNWY/hqdefault.jpg)](https://www.youtube.com/watch?v=c6blgVapNWY&t=28s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:28-1:25" "https://www.youtube.com/watch?v=c6blgVapNWY" --force-keyframes-at-cuts --merge-output-format mp4 -o "c6blgVapNWY-0m28s.mp4"
+```
+</details>
 
 > "I opened the box and I was like, I don't see the big deal. And then I put the chore coat on and I was like, I am the hottest man."
 > — Michael, [0:28](https://www.youtube.com/watch?v=c6blgVapNWY&t=28s)
 
 ### "People go absolutely feral for these bad boys"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c6blgVapNWY?start=44&end=100" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/c6blgVapNWY/hqdefault.jpg)](https://www.youtube.com/watch?v=c6blgVapNWY&t=44s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:44-1:40" "https://www.youtube.com/watch?v=c6blgVapNWY" --force-keyframes-at-cuts --merge-output-format mp4 -o "c6blgVapNWY-0m44s.mp4"
+```
+</details>
 
 > "People go absolutely feral for these bad boys. They sell out in like 2 minutes, 800 of them. There's a New York Times article about them. You don't own just one thing from this brand. You own like three or four."
 > — Michael, [0:44](https://www.youtube.com/watch?v=c6blgVapNWY&t=44s)
 
 ### "There was Carhartt, there was Levi's, and then there was Pointer"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c6blgVapNWY?start=249&end=300" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/c6blgVapNWY/hqdefault.jpg)](https://www.youtube.com/watch?v=c6blgVapNWY&t=249s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:09-5:00" "https://www.youtube.com/watch?v=c6blgVapNWY" --force-keyframes-at-cuts --merge-output-format mp4 -o "c6blgVapNWY-4m09s.mp4"
+```
+</details>
 
 > "There was Carhartt, there was Levi's, and then there was Pointer and LC King. It's that foundational to American workwear."
 > — Michael, [4:25](https://www.youtube.com/watch?v=c6blgVapNWY&t=265s)
 
 ### "Sports coat, chore coat, and cardigan all had one baby"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c6blgVapNWY?start=415&end=470" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/c6blgVapNWY/hqdefault.jpg)](https://www.youtube.com/watch?v=c6blgVapNWY&t=415s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:55-7:50" "https://www.youtube.com/watch?v=c6blgVapNWY" --force-keyframes-at-cuts --merge-output-format mp4 -o "c6blgVapNWY-6m55s.mp4"
+```
+</details>
 
 > "This is like if a sports coat, a chore coat, and a cardigan all got together and had one baby."
 > — Michael, [7:00](https://www.youtube.com/watch?v=c6blgVapNWY&t=420s)
 
 ### "The CEO said grab one from the 30s and go back to work"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c6blgVapNWY?start=650&end=705" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/c6blgVapNWY/hqdefault.jpg)](https://www.youtube.com/watch?v=c6blgVapNWY&t=650s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:50-11:45" "https://www.youtube.com/watch?v=c6blgVapNWY" --force-keyframes-at-cuts --merge-output-format mp4 -o "c6blgVapNWY-10m50s.mp4"
+```
+</details>
 
 > "The CEO said you could just grab one from the 30s and 40s, toss it on, and go back to work."
 > — Michael, [10:55](https://www.youtube.com/watch?v=c6blgVapNWY&t=655s)
 
 ### "There's a little cut right here on the inside"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c6blgVapNWY?start=760&end=815" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/c6blgVapNWY/hqdefault.jpg)](https://www.youtube.com/watch?v=c6blgVapNWY&t=760s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:40-13:35" "https://www.youtube.com/watch?v=c6blgVapNWY" --force-keyframes-at-cuts --merge-output-format mp4 -o "c6blgVapNWY-12m40s.mp4"
+```
+</details>
 
 > "There's a little cut right here on the inside of the jacket on that panel. I love that detail. Drake's I always associate with just heavy layering. So, this could just make it a little bit smoother to toss this jacket over some of their other jackets or shirts."
 > — Michael, [12:45](https://www.youtube.com/watch?v=c6blgVapNWY&t=765s)

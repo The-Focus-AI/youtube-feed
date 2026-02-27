@@ -37,42 +37,84 @@ The final segment covers updates on the Forkiverse, the Hard Fork and Search Eng
 
 ### "I am 99.9% confident that social media is hurting kids by the millions"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tZSteN2g5yM?start=607&end=620" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tZSteN2g5yM/hqdefault.jpg)](https://www.youtube.com/watch?v=tZSteN2g5yM&t=607s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:07-10:20" "https://www.youtube.com/watch?v=tZSteN2g5yM" --force-keyframes-at-cuts --merge-output-format mp4 -o "tZSteN2g5yM-10m07s.mp4"
+```
+</details>
 
 > "I can't say that I'm certain that social media caused the big increase in 2012. But I can say I am 99.9% confident at this point that social media is hurting kids by the millions."
 > -- Jonathan Haidt, [10:07](https://www.youtube.com/watch?v=tZSteN2g5yM&t=607s)
 
 ### "It's the whole goddamn environment"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tZSteN2g5yM?start=441&end=454" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tZSteN2g5yM/hqdefault.jpg)](https://www.youtube.com/watch?v=tZSteN2g5yM&t=441s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:21-7:34" "https://www.youtube.com/watch?v=tZSteN2g5yM" --force-keyframes-at-cuts --merge-output-format mp4 -o "tZSteN2g5yM-7m21s.mp4"
+```
+</details>
 
 > "What I've realized is it's the whole goddamn environment. It's all the fish hooks dangled in front of boys. You want porn, gambling, vaping, sports betting. Even crypto investing is gamified."
 > -- Jonathan Haidt, [7:21](https://www.youtube.com/watch?v=tZSteN2g5yM&t=441s)
 
 ### "If we can't win on social media, just give up on AI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tZSteN2g5yM?start=1295&end=1345" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tZSteN2g5yM/hqdefault.jpg)](https://www.youtube.com/watch?v=tZSteN2g5yM&t=1295s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*21:35-22:25" "https://www.youtube.com/watch?v=tZSteN2g5yM" --force-keyframes-at-cuts --merge-output-format mp4 -o "tZSteN2g5yM-21m35s.mp4"
+```
+</details>
 
 > "If we can't win on social media, if we can't get consensus that this is bad and that government should do something, then I just give up on AI. Just say it's game over. Our kids are gone. The boys are going to have sexy chatbots their whole lives. They're never going to reproduce."
 > -- Jonathan Haidt, [21:35](https://www.youtube.com/watch?v=tZSteN2g5yM&t=1295s)
 
 ### "I have honestly no idea what it will do"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tZSteN2g5yM?start=1820&end=1870" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tZSteN2g5yM/hqdefault.jpg)](https://www.youtube.com/watch?v=tZSteN2g5yM&t=1820s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*30:20-31:10" "https://www.youtube.com/watch?v=tZSteN2g5yM" --force-keyframes-at-cuts --merge-output-format mp4 -o "tZSteN2g5yM-30m20s.mp4"
+```
+</details>
 
 > "Somebody responded, 'Will it parse my X bookmark graveyard?' And you responded, 'I have honestly no idea what it will do.' And I laughed so hard. I thought, finally, an honest software developer who just admits that we don't know how any of this stuff works."
 > -- Casey Newton, [30:20](https://www.youtube.com/watch?v=tZSteN2g5yM&t=1820s)
 
 ### "A welder built his own business infrastructure from scratch with AI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tZSteN2g5yM?start=2260&end=2320" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tZSteN2g5yM/hqdefault.jpg)](https://www.youtube.com/watch?v=tZSteN2g5yM&t=2260s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*37:40-38:40" "https://www.youtube.com/watch?v=tZSteN2g5yM" --force-keyframes-at-cuts --merge-output-format mp4 -o "tZSteN2g5yM-37m40s.mp4"
+```
+</details>
 
 > "I really want people in my demographic to understand that this isn't 'I asked ChatGPT to write an email.' This is: I built my own business infrastructure from scratch with an AI pair programmer despite having zero formal training and a high school education."
 > -- Listener Joe (read by Kevin Roose), [37:40](https://www.youtube.com/watch?v=tZSteN2g5yM&t=2260s)
 
 ### "I felt the little whisper of the demon that has driven Elon Musk"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tZSteN2g5yM?start=3470&end=3520" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tZSteN2g5yM/hqdefault.jpg)](https://www.youtube.com/watch?v=tZSteN2g5yM&t=3470s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*57:50-58:40" "https://www.youtube.com/watch?v=tZSteN2g5yM" --force-keyframes-at-cuts --merge-output-format mp4 -o "tZSteN2g5yM-57m50s.mp4"
+```
+</details>
 
 > "I was like, 'Oh my god, this person's not being very nice to me. I could ban them from the entire internet we've created.' And I was proud. All I did was block them from my account. But I felt the little whisper of the demon that has driven Elon Musk into Planets Unknown."
 > -- PJ Vogt, [57:50](https://www.youtube.com/watch?v=tZSteN2g5yM&t=3470s)

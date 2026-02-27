@@ -35,35 +35,70 @@ Throughout the interview, Baiju reflects on the parallels between his first and 
 
 ### "Get Your Failures Out of the Way Quickly"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a7B2rgAOUkc?start=2322&end=2400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/a7B2rgAOUkc/hqdefault.jpg)](https://www.youtube.com/watch?v=a7B2rgAOUkc&t=2322s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*38:42-40:00" "https://www.youtube.com/watch?v=a7B2rgAOUkc" --force-keyframes-at-cuts --merge-output-format mp4 -o "a7B2rgAOUkc-38m42s.mp4"
+```
+</details>
 
 > "Get your failures out of the way quickly. Don't be too precious with the idea. Just try it. Even if the idea is not perfect, you're going to learn way more by completing the loop."
 > -- Baiju Bhatt, [38:42](https://www.youtube.com/watch?v=a7B2rgAOUkc&t=2322s)
 
 ### "What If You Just Deleted All of It?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a7B2rgAOUkc?start=1696&end=1760" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/a7B2rgAOUkc/hqdefault.jpg)](https://www.youtube.com/watch?v=a7B2rgAOUkc&t=1696s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*28:16-29:20" "https://www.youtube.com/watch?v=a7B2rgAOUkc" --force-keyframes-at-cuts --merge-output-format mp4 -o "a7B2rgAOUkc-28m16s.mp4"
+```
+</details>
 
 > "What if you just took the chips and moved them right next to the receiver? What if you put the solar panels and the GPUs on the backs of the solar panels? Why not just delete the laser entirely?"
 > -- Baiju Bhatt, [28:16](https://www.youtube.com/watch?v=a7B2rgAOUkc&t=1696s)
 
 ### "The Pursuit Is the Joy"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a7B2rgAOUkc?start=3786&end=3850" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/a7B2rgAOUkc/hqdefault.jpg)](https://www.youtube.com/watch?v=a7B2rgAOUkc&t=3786s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*63:06-64:10" "https://www.youtube.com/watch?v=a7B2rgAOUkc" --force-keyframes-at-cuts --merge-output-format mp4 -o "a7B2rgAOUkc-63m06s.mp4"
+```
+</details>
 
 > "The real high about all of this was when I went from not knowing and being unsure of my ideas to knowing that my ideas were right. It's not the IPO day. It's the day seven years earlier when we made a breakthrough in the product."
 > -- Baiju Bhatt, [63:06](https://www.youtube.com/watch?v=a7B2rgAOUkc&t=3786s)
 
 ### "It's Not Over Until I Win"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a7B2rgAOUkc?start=3900&end=3960" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/a7B2rgAOUkc/hqdefault.jpg)](https://www.youtube.com/watch?v=a7B2rgAOUkc&t=3900s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*65:00-66:00" "https://www.youtube.com/watch?v=a7B2rgAOUkc" --force-keyframes-at-cuts --merge-output-format mp4 -o "a7B2rgAOUkc-65m00s.mp4"
+```
+</details>
 
 > "When are we going to be eight years in on the brink of bankruptcy? When you get to that point and you get to the other side of it, it's very difficult to stop you. I just declare to myself: it's not over until I win."
 > -- Baiju Bhatt, [65:00](https://www.youtube.com/watch?v=a7B2rgAOUkc&t=3900s)
 
 ### "I Bought a Satellite with My Gold Card"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a7B2rgAOUkc?start=3119&end=3180" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/a7B2rgAOUkc/hqdefault.jpg)](https://www.youtube.com/watch?v=a7B2rgAOUkc&t=3119s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*51:59-53:00" "https://www.youtube.com/watch?v=a7B2rgAOUkc" --force-keyframes-at-cuts --merge-output-format mp4 -o "a7B2rgAOUkc-51m59s.mp4"
+```
+</details>
 
 > "I seeded the company with $10 million of my own. I used that money to hire a small team, book a ride share, buy a satellite. I put my deposit down with my Robinhood gold card."
 > -- Baiju Bhatt, [51:59](https://www.youtube.com/watch?v=a7B2rgAOUkc&t=3119s)

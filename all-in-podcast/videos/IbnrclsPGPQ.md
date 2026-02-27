@@ -45,35 +45,70 @@ The tech portion features a deep dive into AMD's bet-the-farm deal with OpenAI, 
 
 ### "The moonshot presidency"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IbnrclsPGPQ?start=420&end=480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/IbnrclsPGPQ/hqdefault.jpg)](https://www.youtube.com/watch?v=IbnrclsPGPQ&t=420s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:00-8:00" "https://www.youtube.com/watch?v=IbnrclsPGPQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "IbnrclsPGPQ-7m00s.mp4"
+```
+</details>
 
 > "We might call Trump the moonshot presidency. If you think about everything he's trying to accomplish, even Hillary Clinton said if he pulls off peace between Ukraine and Russia, she herself will nominate him for a Nobel Peace Prize. There are moonshots going on everywhere: China, AI, re-industrialization, India, Pakistan, Ukraine, Russia, the Middle East."
 > — Brad Gerstner, [7:00](https://www.youtube.com/watch?v=IbnrclsPGPQ&t=420s)
 
 ### "Lisa's bet-the-farm moment"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IbnrclsPGPQ?start=2760&end=2830" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/IbnrclsPGPQ/hqdefault.jpg)](https://www.youtube.com/watch?v=IbnrclsPGPQ&t=2760s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*46:00-47:10" "https://www.youtube.com/watch?v=IbnrclsPGPQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "IbnrclsPGPQ-46m00s.mp4"
+```
+</details>
 
 > "In 2022, Nvidia and AMD had basically the same revenue, $25 billion. This year, Nvidia will do 10x that at roughly $210-230 billion, and AMD will do $33 billion. Nvidia's captured nearly 100% of the incremental AI data center revenues. Lisa gave away 10% of the company. Either the MI450 gets adopted and they get back into the game, or they're out."
 > — Brad Gerstner, [46:00](https://www.youtube.com/watch?v=IbnrclsPGPQ&t=2760s)
 
 ### "He who controls the supply chain controls the empire"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IbnrclsPGPQ?start=3300&end=3370" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/IbnrclsPGPQ/hqdefault.jpg)](https://www.youtube.com/watch?v=IbnrclsPGPQ&t=3300s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*55:00-56:10" "https://www.youtube.com/watch?v=IbnrclsPGPQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "IbnrclsPGPQ-55m00s.mp4"
+```
+</details>
 
 > "Sam was in Korea shaking hands with SK Hynix and Samsung. He's buying forward capacity on HBM because now he can allocate that share. It reminded me of this Rothschild quote: 'I care not what puppet is placed upon the throne of England. The man who controls Britain's money supply controls the British Empire.'"
 > — Chamath Palihapitiya, [55:00](https://www.youtube.com/watch?v=IbnrclsPGPQ&t=3300s)
 
 ### "There's not a dark GPU in the world"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IbnrclsPGPQ?start=4020&end=4080" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/IbnrclsPGPQ/hqdefault.jpg)](https://www.youtube.com/watch?v=IbnrclsPGPQ&t=4020s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*67:00-68:00" "https://www.youtube.com/watch?v=IbnrclsPGPQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "IbnrclsPGPQ-67m00s.mp4"
+```
+</details>
 
 > "Everybody's looking for the bubble. Everybody's like, 'It's dark fiber. There's no way you can 10x your revenues at Nvidia without it being a bubble.' But the reality today is Nvidia trades at a lower price-to-earnings multiple than it did at $200 a share. There is not a dark GPU in the world today."
 > — Brad Gerstner, [1:07:00](https://www.youtube.com/watch?v=IbnrclsPGPQ&t=4020s)
 
 ### "Everything is becoming a market"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IbnrclsPGPQ?start=4880&end=4940" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/IbnrclsPGPQ/hqdefault.jpg)](https://www.youtube.com/watch?v=IbnrclsPGPQ&t=4880s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*81:20-82:20" "https://www.youtube.com/watch?v=IbnrclsPGPQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "IbnrclsPGPQ-81m20s.mp4"
+```
+</details>
 
 > "Everything is becoming a market. You'll have sports that look like markets, knowledge that becomes a market, and then equities and debt instruments that'll be tokenized, fungible. You can just take a long or short position on almost anything."
 > — Chamath Palihapitiya, [1:21:20](https://www.youtube.com/watch?v=IbnrclsPGPQ&t=4880s)

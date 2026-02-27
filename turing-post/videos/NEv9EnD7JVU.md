@@ -40,35 +40,70 @@ A significant portion of the interview covers NVIDIA's open-source strategy and 
 
 ### "A Car Tries Not to Hit the World, A Robot Tries to Hit It Just Right"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NEv9EnD7JVU?start=228&end=290" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/NEv9EnD7JVU/hqdefault.jpg)](https://www.youtube.com/watch?v=NEv9EnD7JVU&t=228s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:48-4:50" "https://www.youtube.com/watch?v=NEv9EnD7JVU" --force-keyframes-at-cuts --merge-output-format mp4 -o "NEv9EnD7JVU-3m48s.mp4"
+```
+</details>
 
 > "A car spends all of its time trying not to hit the world. Whereas a robot spends all of its time trying to hit the world just right."
 > — Spencer Huang, [3:48](https://www.youtube.com/watch?v=NEv9EnD7JVU&t=228s)
 
 ### "Snow Becomes Just Universe N Plus One"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NEv9EnD7JVU?start=360&end=420" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/NEv9EnD7JVU/hqdefault.jpg)](https://www.youtube.com/watch?v=NEv9EnD7JVU&t=360s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:00-7:00" "https://www.youtube.com/watch?v=NEv9EnD7JVU" --force-keyframes-at-cuts --merge-output-format mp4 -o "NEv9EnD7JVU-6m00s.mp4"
+```
+</details>
 
 > "By the time that you deploy them into the real world, the first time they see snow, even though they've never seen it before, it just becomes universe N plus 1."
 > — Spencer Huang, [6:37](https://www.youtube.com/watch?v=NEv9EnD7JVU&t=397s)
 
 ### "Nobody Wants to Build the Tools They're Building"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NEv9EnD7JVU?start=1007&end=1060" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/NEv9EnD7JVU/hqdefault.jpg)](https://www.youtube.com/watch?v=NEv9EnD7JVU&t=1007s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:47-17:40" "https://www.youtube.com/watch?v=NEv9EnD7JVU" --force-keyframes-at-cuts --merge-output-format mp4 -o "NEv9EnD7JVU-16m47s.mp4"
+```
+</details>
 
 > "Most people don't even want to build the tools they're building. It just happens that there's nothing out there that has the functionality they need."
 > — Spencer Huang, [16:57](https://www.youtube.com/watch?v=NEv9EnD7JVU&t=1017s)
 
 ### "The Robotics Data Gap Problem"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NEv9EnD7JVU?start=1471&end=1535" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/NEv9EnD7JVU/hqdefault.jpg)](https://www.youtube.com/watch?v=NEv9EnD7JVU&t=1471s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*24:31-25:35" "https://www.youtube.com/watch?v=NEv9EnD7JVU" --force-keyframes-at-cuts --merge-output-format mp4 -o "NEv9EnD7JVU-24m31s.mp4"
+```
+</details>
 
 > "LLM had the luxury of having a huge corpus of data... One of the problems you have with robotics, the biggest problem is that data gap. And we don't have a couple hundred or thousand years to fill in that data."
 > — Spencer Huang, [24:31](https://www.youtube.com/watch?v=NEv9EnD7JVU&t=1471s)
 
 ### "Being Jensen Huang's Son is Easier Than Solving Robotics"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NEv9EnD7JVU?start=1281&end=1330" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/NEv9EnD7JVU/hqdefault.jpg)](https://www.youtube.com/watch?v=NEv9EnD7JVU&t=1281s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*21:21-22:10" "https://www.youtube.com/watch?v=NEv9EnD7JVU" --force-keyframes-at-cuts --merge-output-format mp4 -o "NEv9EnD7JVU-21m21s.mp4"
+```
+</details>
 
 > "I think solving for robotics is definitely harder because I've had 35 years to adapt to being his son."
 > — Spencer Huang, [21:37](https://www.youtube.com/watch?v=NEv9EnD7JVU&t=1297s)

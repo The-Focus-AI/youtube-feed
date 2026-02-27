@@ -42,35 +42,70 @@ The video concludes that AI is not a bubble about to crash - it's evolving exact
 
 ### "I almost want to reject the question entirely"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-lRBpyPt79c?start=119&end=170" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-lRBpyPt79c/hqdefault.jpg)](https://www.youtube.com/watch?v=-lRBpyPt79c&t=119s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:59-2:50" "https://www.youtube.com/watch?v=-lRBpyPt79c" --force-keyframes-at-cuts --merge-output-format mp4 -o "-lRBpyPt79c-1m59s.mp4"
+```
+</details>
 
 > "I'm almost tempted to reject the question entirely because again, I see this as an extension of computing. Have we talked about how to chart progress in computing, or how do you chart progress in computing since the 1970s or whatever? What is the x-axis?"
 > — Andrej Karpathy, [2:01](https://www.youtube.com/watch?v=-lRBpyPt79c&t=121s)
 
 ### "Every new nine costs the same as all previous progress"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-lRBpyPt79c?start=310&end=365" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-lRBpyPt79c/hqdefault.jpg)](https://www.youtube.com/watch?v=-lRBpyPt79c&t=310s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:10-6:05" "https://www.youtube.com/watch?v=-lRBpyPt79c" --force-keyframes-at-cuts --merge-output-format mp4 -o "-lRBpyPt79c-5m10s.mp4"
+```
+</details>
 
 > "Every new nine - like 99% to 99.9% to 99.99% - costs the same amount of work as all the previous progress combined."
 > — Andrej Karpathy, [5:15](https://www.youtube.com/watch?v=-lRBpyPt79c&t=315s)
 
 ### "Leisure was not idleness - it was a technology of reflection"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-lRBpyPt79c?start=596&end=650" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-lRBpyPt79c/hqdefault.jpg)](https://www.youtube.com/watch?v=-lRBpyPt79c&t=596s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:56-10:50" "https://www.youtube.com/watch?v=-lRBpyPt79c" --force-keyframes-at-cuts --merge-output-format mp4 -o "-lRBpyPt79c-9m56s.mp4"
+```
+</details>
 
 > "Historically, the aristocrat was defined by the absence of necessity. Freed from physical labor, aristocrats cultivated what they considered higher human faculties: education, rhetoric, governance, aesthetics, and philosophy. Leisure was not idleness. It was a technology of reflection."
 > — Host, [9:56](https://www.youtube.com/watch?v=-lRBpyPt79c&t=596s)
 
 ### "It's not a superintelligence emerging - it's a super educated civilization"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-lRBpyPt79c?start=812&end=855" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-lRBpyPt79c/hqdefault.jpg)](https://www.youtube.com/watch?v=-lRBpyPt79c&t=812s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:32-14:15" "https://www.youtube.com/watch?v=-lRBpyPt79c" --force-keyframes-at-cuts --merge-output-format mp4 -o "-lRBpyPt79c-13m32s.mp4"
+```
+</details>
 
 > "It's not a superintelligence emerging. It's a super educated civilization we need to become."
 > — Host, [13:48](https://www.youtube.com/watch?v=-lRBpyPt79c&t=828s)
 
 ### "AI is exactly what it's supposed to be"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-lRBpyPt79c?start=499&end=545" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-lRBpyPt79c/hqdefault.jpg)](https://www.youtube.com/watch?v=-lRBpyPt79c&t=499s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:19-9:05" "https://www.youtube.com/watch?v=-lRBpyPt79c" --force-keyframes-at-cuts --merge-output-format mp4 -o "-lRBpyPt79c-8m19s.mp4"
+```
+</details>
 
 > "AI itself, AI is fine. AI is exactly what it's supposed to be. It's evolving. It's diffusing. It's blending into the economy, massively blending into economy and our daily workflows. It's not breaking reality. It's upgrading it one autocomplete at a time."
 > — Host, [8:26](https://www.youtube.com/watch?v=-lRBpyPt79c&t=506s)

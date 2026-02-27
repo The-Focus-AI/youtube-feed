@@ -37,35 +37,70 @@ The final segment addresses what Chamath calls an "AI PR crisis" - Google, Micro
 
 ### "I burned them - those are single use Loro Pianos"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XIOKr51Q_hA?start=238&end=300" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XIOKr51Q_hA/hqdefault.jpg)](https://www.youtube.com/watch?v=XIOKr51Q_hA&t=238s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:58-5:00" "https://www.youtube.com/watch?v=XIOKr51Q_hA" --force-keyframes-at-cuts --merge-output-format mp4 -o "XIOKr51Q_hA-3m58s.mp4"
+```
+</details>
 
 > "I burned them. Those are one use for Chamath. Those are single use Loro Pianos. Once I got in the car, I gave Eugene my shoes and I said, 'Burn these, Eugene. I never want to see these ever again. They've touched the pavement of San Francisco.'"
 > — Chamath Palihapitiya, [4:04](https://www.youtube.com/watch?v=XIOKr51Q_hA&t=244s)
 
 ### "We don't have to live this way. This is a choice."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XIOKr51Q_hA?start=835&end=900" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XIOKr51Q_hA/hqdefault.jpg)](https://www.youtube.com/watch?v=XIOKr51Q_hA&t=835s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:55-15:00" "https://www.youtube.com/watch?v=XIOKr51Q_hA" --force-keyframes-at-cuts --merge-output-format mp4 -o "XIOKr51Q_hA-13m55s.mp4"
+```
+</details>
 
 > "We don't have to live this way. This is a choice."
 > — David Sacks, [13:55](https://www.youtube.com/watch?v=XIOKr51Q_hA&t=835s)
 
 ### "China had the world's largest GDP 70% of those years"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XIOKr51Q_hA?start=2280&end=2345" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XIOKr51Q_hA/hqdefault.jpg)](https://www.youtube.com/watch?v=XIOKr51Q_hA&t=2280s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*38:00-39:05" "https://www.youtube.com/watch?v=XIOKr51Q_hA" --force-keyframes-at-cuts --merge-output-format mp4 -o "XIOKr51Q_hA-38m00s.mp4"
+```
+</details>
 
 > "If you go back to 1500 to now, over all of those years, China had the world's largest GDP 70% of those years... the Chinese think about this as reasserting the dominance that we've always had."
 > — Chamath Palihapitiya, [38:00](https://www.youtube.com/watch?v=XIOKr51Q_hA&t=2280s)
 
 ### "Francis Fukuyama literally bats zero"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XIOKr51Q_hA?start=2670&end=2730" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XIOKr51Q_hA/hqdefault.jpg)](https://www.youtube.com/watch?v=XIOKr51Q_hA&t=2670s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*44:30-45:30" "https://www.youtube.com/watch?v=XIOKr51Q_hA" --force-keyframes-at-cuts --merge-output-format mp4 -o "XIOKr51Q_hA-44m30s.mp4"
+```
+</details>
 
 > "The thing with Francis Fukuyama is he writes in this beautiful way, but he literally bats zero. You could basically read a Francis Fukuyama book and understand that whatever the opposite of what he wrote is likely going to happen."
 > — Chamath Palihapitiya, [44:45](https://www.youtube.com/watch?v=XIOKr51Q_hA&t=2685s)
 
 ### "Tokens are not jobs"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XIOKr51Q_hA?start=3330&end=3395" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XIOKr51Q_hA/hqdefault.jpg)](https://www.youtube.com/watch?v=XIOKr51Q_hA&t=3330s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*55:30-56:35" "https://www.youtube.com/watch?v=XIOKr51Q_hA" --force-keyframes-at-cuts --merge-output-format mp4 -o "XIOKr51Q_hA-55m30s.mp4"
+```
+</details>
 
 > "What they know is that tokens are not jobs. And if AI is going to be embraced by the public, I think what we need to do a better job of is to show the tangible economic benefits."
 > — Chamath Palihapitiya, [55:30](https://www.youtube.com/watch?v=XIOKr51Q_hA&t=3330s)

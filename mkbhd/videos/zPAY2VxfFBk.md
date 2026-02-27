@@ -27,35 +27,70 @@ The real reason for holdouts, MKBHD reveals through industry sources, is a serio
 
 ### "10,000 mAh and Thinner Than an iPhone"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zPAY2VxfFBk?start=2&end=50" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/zPAY2VxfFBk/hqdefault.jpg)](https://www.youtube.com/watch?v=zPAY2VxfFBk&t=2s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:02-0:50" "https://www.youtube.com/watch?v=zPAY2VxfFBk" --force-keyframes-at-cuts --merge-output-format mp4 -o "zPAY2VxfFBk-0m02s.mp4"
+```
+</details>
 
 > "This is the Honor Power 2. Yes, it's absolutely a clone of the iPhone, but it's also thinner than the iPhone and has a 10,000 mAh battery. And this is the world we're living in now."
 > — Marques Brownlee, [0:02](https://www.youtube.com/watch?v=zPAY2VxfFBk&t=2s)
 
 ### "Silicon Can Expand to Three Times Its Volume"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zPAY2VxfFBk?start=240&end=295" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/zPAY2VxfFBk/hqdefault.jpg)](https://www.youtube.com/watch?v=zPAY2VxfFBk&t=240s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:00-4:55" "https://www.youtube.com/watch?v=zPAY2VxfFBk" --force-keyframes-at-cuts --merge-output-format mp4 -o "zPAY2VxfFBk-4m00s.mp4"
+```
+</details>
 
 > "During charging in a silicon carbon smartphone battery, the silicon heats up and absorbs lithium ions. And when that happens, the silicon can expand to three times its original volume. So that's kind of insane."
 > — Marques Brownlee, [4:00](https://www.youtube.com/watch?v=zPAY2VxfFBk&t=240s)
 
 ### "A Literal Steel Cage Around the Battery"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zPAY2VxfFBk?start=308&end=340" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/zPAY2VxfFBk/hqdefault.jpg)](https://www.youtube.com/watch?v=zPAY2VxfFBk&t=308s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:08-5:40" "https://www.youtube.com/watch?v=zPAY2VxfFBk" --force-keyframes-at-cuts --merge-output-format mp4 -o "zPAY2VxfFBk-5m08s.mp4"
+```
+</details>
 
 > "I've actually been told there are certain devices that have a literal steel cage around the battery to prevent it from swelling."
 > — Marques Brownlee, [5:10](https://www.youtube.com/watch?v=zPAY2VxfFBk&t=310s)
 
 ### "One in 250,000 Might Not Be Good Enough"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zPAY2VxfFBk?start=372&end=420" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/zPAY2VxfFBk/hqdefault.jpg)](https://www.youtube.com/watch?v=zPAY2VxfFBk&t=372s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:12-7:00" "https://www.youtube.com/watch?v=zPAY2VxfFBk" --force-keyframes-at-cuts --merge-output-format mp4 -o "zPAY2VxfFBk-6m12s.mp4"
+```
+</details>
 
 > "Getting issues down to a rate of under one in 250,000 feels pretty good. But at Samsung or Apple's scale, if it's tens of millions of phones, that could still not be good enough. That could still be a dozen exploding Note 7s like it was in 2016."
 > — Marques Brownlee, [6:12](https://www.youtube.com/watch?v=zPAY2VxfFBk&t=372s)
 
 ### "People Just Want the Blue Bubbles"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zPAY2VxfFBk?start=433&end=475" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/zPAY2VxfFBk/hqdefault.jpg)](https://www.youtube.com/watch?v=zPAY2VxfFBk&t=433s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:13-7:55" "https://www.youtube.com/watch?v=zPAY2VxfFBk" --force-keyframes-at-cuts --merge-output-format mp4 -o "zPAY2VxfFBk-7m13s.mp4"
+```
+</details>
 
 > "The US especially is a very software focused market. There's all this ecosystem lock in and inherently less hardware competition. People just want the blue bubbles at this point."
 > — Marques Brownlee, [7:13](https://www.youtube.com/watch?v=zPAY2VxfFBk&t=433s)

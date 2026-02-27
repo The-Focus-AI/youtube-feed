@@ -36,35 +36,70 @@ The segment also covers Meta's plans to add facial recognition technology to its
 
 ### "Get the Flock Out of My Neighborhood"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Xoi0_sPssNY?start=60&end=115" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Xoi0_sPssNY/hqdefault.jpg)](https://www.youtube.com/watch?v=Xoi0_sPssNY&t=60s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:00-1:55" "https://www.youtube.com/watch?v=Xoi0_sPssNY" --force-keyframes-at-cuts --merge-output-format mp4 -o "Xoi0_sPssNY-1m00s.mp4"
+```
+</details>
 
 > "Ring puts out this ad during the Super Bowl that says they are starting to link their technology, their doorbells to save lost pets by connecting all the footage from all these cameras... But instead of being a heartwarming tale, this led to the destruction of a partnership between Ring and Flock Safety. People were so creeped out that they said, 'Wait a minute, you were doing what?' People are saying, 'Get the flock out of my neighborhood.'"
 > -- Kevin Roose, [1:00](https://www.youtube.com/watch?v=Xoi0_sPssNY&t=60s)
 
 ### "Toto: We Put the PU in GPU"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Xoi0_sPssNY?start=178&end=248" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Xoi0_sPssNY/hqdefault.jpg)](https://www.youtube.com/watch?v=Xoi0_sPssNY&t=178s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:58-4:08" "https://www.youtube.com/watch?v=Xoi0_sPssNY" --force-keyframes-at-cuts --merge-output-format mp4 -o "Xoi0_sPssNY-2m58s.mp4"
+```
+</details>
 
 > "Toto makes advanced ceramics that help to stabilize silicon wafers during chip production... Toto, the humble toilet company is playing a major role. And so there's an activist investor in the UK who sent a letter to the board of Toto exhorting it to make more of its advanced ceramics. Basically, stop making so many toilets and start making chip parts."
 > -- Kevin Roose, [2:58](https://www.youtube.com/watch?v=Xoi0_sPssNY&t=178s)
 
 ### Meta's Cynical Facial Recognition Timing
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Xoi0_sPssNY?start=280&end=340" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Xoi0_sPssNY/hqdefault.jpg)](https://www.youtube.com/watch?v=Xoi0_sPssNY&t=280s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:40-5:40" "https://www.youtube.com/watch?v=Xoi0_sPssNY" --force-keyframes-at-cuts --merge-output-format mp4 -o "Xoi0_sPssNY-4m40s.mp4"
+```
+</details>
 
 > "The quote that got everyone's attention from this story was from an internal document in which Meta Reality Labs wrote: 'We will launch during a dynamic political environment where many civil society groups that we would expect to attack us would have their resources focused on other concerns.'"
 > -- Casey Newton, [4:40](https://www.youtube.com/watch?v=Xoi0_sPssNY&t=280s)
 
 ### "It's a Very Good Thing That Meta Sucks at Developing AI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Xoi0_sPssNY?start=359&end=400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Xoi0_sPssNY/hqdefault.jpg)](https://www.youtube.com/watch?v=Xoi0_sPssNY&t=359s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:59-6:40" "https://www.youtube.com/watch?v=Xoi0_sPssNY" --force-keyframes-at-cuts --merge-output-format mp4 -o "Xoi0_sPssNY-5m59s.mp4"
+```
+</details>
 
 > "It's a really good thing that Meta sucks at developing AI, because if they were good at it, it would be terrifying."
 > -- Kevin Roose, [5:59](https://www.youtube.com/watch?v=Xoi0_sPssNY&t=359s)
 
 ### AI Agents Hiring Humans on RentAHuman
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Xoi0_sPssNY?start=620&end=665" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Xoi0_sPssNY/hqdefault.jpg)](https://www.youtube.com/watch?v=Xoi0_sPssNY&t=620s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:20-11:05" "https://www.youtube.com/watch?v=Xoi0_sPssNY" --force-keyframes-at-cuts --merge-output-format mp4 -o "Xoi0_sPssNY-10m20s.mp4"
+```
+</details>
 
 > "Another agent tried to hire him to deliver a bouquet of flowers to Anthropic as a special thanks for developing Claude. Which I think will get you banned from the building."
 > -- Kevin Roose, [10:26](https://www.youtube.com/watch?v=Xoi0_sPssNY&t=626s)

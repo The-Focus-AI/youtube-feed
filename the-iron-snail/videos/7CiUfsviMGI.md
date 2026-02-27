@@ -33,35 +33,70 @@ Michael traces the evolution through each version (990, 990v2, 990v3, etc.), the
 
 ### "The most expensive running shoe on the market ever"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7CiUfsviMGI?start=10&end=70" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/7CiUfsviMGI/hqdefault.jpg)](https://www.youtube.com/watch?v=7CiUfsviMGI&t=10s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:10-1:10" "https://www.youtube.com/watch?v=7CiUfsviMGI" --force-keyframes-at-cuts --merge-output-format mp4 -o "7CiUfsviMGI-0m10s.mp4"
+```
+</details>
 
 > "In 1982, New Balance blew the doors off of the running world. They released the pinnacle of running technology with a mind-numbing price of $100, the most expensive running shoe on the market ever at that time."
 > — Michael, [0:10](https://www.youtube.com/watch?v=7CiUfsviMGI&t=10s)
 
 ### "Not New Balance. They chose bleak, dull, gray."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7CiUfsviMGI?start=35&end=95" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/7CiUfsviMGI/hqdefault.jpg)](https://www.youtube.com/watch?v=7CiUfsviMGI&t=35s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:35-1:35" "https://www.youtube.com/watch?v=7CiUfsviMGI" --force-keyframes-at-cuts --merge-output-format mp4 -o "7CiUfsviMGI-0m35s.mp4"
+```
+</details>
 
 > "Everybody's trying to make their sneakers look like they're on fire. You're going super fast. Not New Balance. They chose bleak, dull, gray. I do like it though."
 > — Michael, [0:35](https://www.youtube.com/watch?v=7CiUfsviMGI&t=35s)
 
 ### "Nobody wears these sneakers to run anymore"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7CiUfsviMGI?start=45&end=105" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/7CiUfsviMGI/hqdefault.jpg)](https://www.youtube.com/watch?v=7CiUfsviMGI&t=45s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:45-1:45" "https://www.youtube.com/watch?v=7CiUfsviMGI" --force-keyframes-at-cuts --merge-output-format mp4 -o "7CiUfsviMGI-0m45s.mp4"
+```
+</details>
 
 > "And this is the result of 43 years of obsessive engineering that same running sneaker. But you may have noticed one thing. Nobody wears these sneakers to run anymore. Why? Where in the formula did New Balance royally screw up?"
 > — Michael, [0:45](https://www.youtube.com/watch?v=7CiUfsviMGI&t=45s)
 
 ### "New Balance was the original dad shoe"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7CiUfsviMGI?start=600&end=660" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/7CiUfsviMGI/hqdefault.jpg)](https://www.youtube.com/watch?v=7CiUfsviMGI&t=600s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:00-11:00" "https://www.youtube.com/watch?v=7CiUfsviMGI" --force-keyframes-at-cuts --merge-output-format mp4 -o "7CiUfsviMGI-10m00s.mp4"
+```
+</details>
 
 > "New Balance was the original dad shoe. Comfortable, practical, aggressively unfashionable. Dads wore them because they worked, not because they looked good. Then looking good became looking like you didn't care about looking good."
 > — Michael, [10:00](https://www.youtube.com/watch?v=7CiUfsviMGI&t=600s)
 
 ### "Except the moon. Didn't get to the moon, did you Rolex?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7CiUfsviMGI?start=540&end=600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/7CiUfsviMGI/hqdefault.jpg)](https://www.youtube.com/watch?v=7CiUfsviMGI&t=540s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:00-10:00" "https://www.youtube.com/watch?v=7CiUfsviMGI" --force-keyframes-at-cuts --merge-output-format mp4 -o "7CiUfsviMGI-9m00s.mp4"
+```
+</details>
 
 > "Steve Jobs wearing New Balance 991s and 993s didn't hurt. The most influential tech figure of his era choosing the dorkiest sneaker brand legitimized them in a specific way. Silicon Valley adopted them."
 > — Michael, [9:00](https://www.youtube.com/watch?v=7CiUfsviMGI&t=540s)

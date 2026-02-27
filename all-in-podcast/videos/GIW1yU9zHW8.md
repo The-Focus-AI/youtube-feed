@@ -37,42 +37,84 @@ Throughout the conversation, the hosts wrestle with legitimate concerns about jo
 
 ### "We reached a new level of retardation this week"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GIW1yU9zHW8?start=23&end=80" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GIW1yU9zHW8/hqdefault.jpg)](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=23s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:23-1:20" "https://www.youtube.com/watch?v=GIW1yU9zHW8" --force-keyframes-at-cuts --merge-output-format mp4 -o "GIW1yU9zHW8-0m23s.mp4"
+```
+</details>
 
 > "We reached a new level of retardation this week that we cannot avoid. Bernie Sanders has a major pitch, a moratorium on new AI data centers. Here's his argument. Number one, the billionaires are pushing AI because they want more money and power. Number two, there's going to be massive unemployment."
 > — Jason Calacanis, [0:23](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=23s)
 
 ### "Only 39% of Americans believe the benefits of AI will outweigh the harms"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GIW1yU9zHW8?start=1300&end=1360" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GIW1yU9zHW8/hqdefault.jpg)](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=1300s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*21:40-22:40" "https://www.youtube.com/watch?v=GIW1yU9zHW8" --force-keyframes-at-cuts --merge-output-format mp4 -o "GIW1yU9zHW8-21m40s.mp4"
+```
+</details>
 
 > "Only 39% of Americans believe the benefits of AI will outweigh the harms. 83% of people in China believe the benefits will outweigh the harms. So the discourse has really been affected by some of these institutions."
 > — David Sacks, [21:52](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=1312s)
 
 ### "Half the country doesn't own stocks"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GIW1yU9zHW8?start=769&end=830" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GIW1yU9zHW8/hqdefault.jpg)](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=769s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:49-13:50" "https://www.youtube.com/watch?v=GIW1yU9zHW8" --force-keyframes-at-cuts --merge-output-format mp4 -o "GIW1yU9zHW8-12m49s.mp4"
+```
+</details>
 
 > "Half the country doesn't own stocks, so they're not participating in it. And they're not blind to seeing self-driving cars or seeing their kids having a hard time getting a job. People are scared and our industry is scaring them I think by not meeting them where they are."
 > — Jason Calacanis, [12:49](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=769s)
 
 ### "Two years after the launch of AI chatbots, there's been no discernible disruption"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GIW1yU9zHW8?start=1800&end=1860" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GIW1yU9zHW8/hqdefault.jpg)](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=1800s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*30:00-31:00" "https://www.youtube.com/watch?v=GIW1yU9zHW8" --force-keyframes-at-cuts --merge-output-format mp4 -o "GIW1yU9zHW8-30m00s.mp4"
+```
+</details>
 
 > "Two years after the launch of AI chatbots, there's been no discernible disruption to the labor market and the early studies and data are showing wage increases and actually job increases."
 > — Chamath Palihapitiya, [30:08](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=1808s)
 
 ### "China is using AI to develop breakthrough chip manufacturing technology"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GIW1yU9zHW8?start=3855&end=3920" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GIW1yU9zHW8/hqdefault.jpg)](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=3855s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*64:15-65:20" "https://www.youtube.com/watch?v=GIW1yU9zHW8" --force-keyframes-at-cuts --merge-output-format mp4 -o "GIW1yU9zHW8-64m15s.mp4"
+```
+</details>
 
 > "They're using AI to optimize the photomask patterns. Instead of needing the incredibly precise optics that ASML uses, they're using computational methods to achieve similar results with less sophisticated equipment. This is concerning because the entire basis of our chip export controls to China was that they couldn't get access to these EUV machines."
 > — David Friedberg, [64:15](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=3855s)
 
 ### "Cannabis 100-200x more potent than before"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GIW1yU9zHW8?start=5330&end=5380" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GIW1yU9zHW8/hqdefault.jpg)](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=5330s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*88:50-89:40" "https://www.youtube.com/watch?v=GIW1yU9zHW8" --force-keyframes-at-cuts --merge-output-format mp4 -o "GIW1yU9zHW8-88m50s.mp4"
+```
+</details>
 
 > "The smoking a joint from our youth is very different than smoking these like resins and stuff that they've created apparently that are like 100 times the potency, 200 times potency and they can put you in a psychotic state. Really dangerous folks."
 > — Jason Calacanis, [88:57](https://www.youtube.com/watch?v=GIW1yU9zHW8&t=5337s)

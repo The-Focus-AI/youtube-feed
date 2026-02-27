@@ -37,42 +37,84 @@ Prime also shares candid insights about living with ADHD, his unconventional pro
 
 ### "My mind exploded when I saw a class that contains itself"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tNZnLkRBYA8?start=42&end=102" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tNZnLkRBYA8/hqdefault.jpg)](https://www.youtube.com/watch?v=tNZnLkRBYA8&t=42s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:42-1:42" "https://www.youtube.com/watch?v=tNZnLkRBYA8" --force-keyframes-at-cuts --merge-output-format mp4 -o "tNZnLkRBYA8-0m42s.mp4"
+```
+</details>
 
 > "It was the second class in data structures and the teacher was talking about linked lists. He shows code and it's like abstract class node and then it had a private member of type node. For the first time ever, I was like, 'Oh my gosh, there's no end. This is not a set of 10 items. This is a set of infinite items.' My mind kind of exploded in that moment."
 > — ThePrimeagen, [0:42](https://www.youtube.com/watch?v=tNZnLkRBYA8&t=42s)
 
 ### "I would've been the guy who took advantage of all my friends"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tNZnLkRBYA8?start=2256&end=2316" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tNZnLkRBYA8/hqdefault.jpg)](https://www.youtube.com/watch?v=tNZnLkRBYA8&t=2256s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*37:36-38:36" "https://www.youtube.com/watch?v=tNZnLkRBYA8" --force-keyframes-at-cuts --merge-output-format mp4 -o "tNZnLkRBYA8-37m36s.mp4"
+```
+</details>
 
 > "If I didn't have God in my life, I would've been the guy who took advantage of all my friends. I would've been a real piece of garbage person. I had this thing in me that God reached in and grabbed and was like, 'No, you don't get to be that.' Without that I would not be who I am today."
 > — ThePrimeagen, [37:36](https://www.youtube.com/watch?v=tNZnLkRBYA8&t=2256s)
 
 ### "Printf debugging is the superior form of debugging"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tNZnLkRBYA8?start=5809&end=5869" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tNZnLkRBYA8/hqdefault.jpg)](https://www.youtube.com/watch?v=tNZnLkRBYA8&t=5809s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*96:49-97:49" "https://www.youtube.com/watch?v=tNZnLkRBYA8" --force-keyframes-at-cuts --merge-output-format mp4 -o "tNZnLkRBYA8-96m49s.mp4"
+```
+</details>
 
 > "I think printf debugging is superior to traditional debugging in many ways. When you add a print statement, you're explicitly stating 'I believe this value should be X at this point.' It forces you to reason about your code. Debuggers let you be lazy."
 > — ThePrimeagen, [1:36:49](https://www.youtube.com/watch?v=tNZnLkRBYA8&t=5809s)
 
 ### "I broke Netflix production with one line of code"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tNZnLkRBYA8?start=6544&end=6604" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tNZnLkRBYA8/hqdefault.jpg)](https://www.youtube.com/watch?v=tNZnLkRBYA8&t=6544s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*109:04-110:04" "https://www.youtube.com/watch?v=tNZnLkRBYA8" --force-keyframes-at-cuts --merge-output-format mp4 -o "tNZnLkRBYA8-109m04s.mp4"
+```
+</details>
 
 > "I broke Netflix production. One line of code. It took out Falcor for about 45 minutes globally. That's 200 million users unable to browse Netflix properly. And you know what? I didn't get fired. Netflix had a culture where you learn from mistakes, you don't punish them."
 > — ThePrimeagen, [1:49:04](https://www.youtube.com/watch?v=tNZnLkRBYA8&t=6544s)
 
 ### "Rust changed how I think about programming forever"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tNZnLkRBYA8?start=10063&end=10123" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tNZnLkRBYA8/hqdefault.jpg)](https://www.youtube.com/watch?v=tNZnLkRBYA8&t=10063s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*167:43-168:43" "https://www.youtube.com/watch?v=tNZnLkRBYA8" --force-keyframes-at-cuts --merge-output-format mp4 -o "tNZnLkRBYA8-167m43s.mp4"
+```
+</details>
 
 > "Rust changed how I think about programming forever. Not because of the borrow checker, but because it forces you to think about ownership and lifetimes. Even when I'm writing JavaScript now, I think about who owns this data, how long does it live. That mental model is invaluable."
 > — ThePrimeagen, [2:47:43](https://www.youtube.com/watch?v=tNZnLkRBYA8&t=10063s)
 
 ### "AI is the best rubber duck ever invented"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tNZnLkRBYA8?start=14927&end=14987" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tNZnLkRBYA8/hqdefault.jpg)](https://www.youtube.com/watch?v=tNZnLkRBYA8&t=14927s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*248:47-249:47" "https://www.youtube.com/watch?v=tNZnLkRBYA8" --force-keyframes-at-cuts --merge-output-format mp4 -o "tNZnLkRBYA8-248m47s.mp4"
+```
+</details>
 
 > "AI is the best rubber duck ever invented. I use it constantly. Not to write code for me, but to talk through problems. I'll explain what I'm trying to do, and half the time, just the act of explaining it makes the solution obvious."
 > — ThePrimeagen, [4:08:47](https://www.youtube.com/watch?v=tNZnLkRBYA8&t=14927s)

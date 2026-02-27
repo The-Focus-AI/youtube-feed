@@ -36,35 +36,70 @@ The interview explores why traditional missile-based defense is economically uns
 
 ### "A Million Drones on the West Coast"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4ZQ0RLvcHTA?start=0&end=45" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/4ZQ0RLvcHTA/hqdefault.jpg)](https://www.youtube.com/watch?v=4ZQ0RLvcHTA&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-0:45" "https://www.youtube.com/watch?v=4ZQ0RLvcHTA" --force-keyframes-at-cuts --merge-output-format mp4 -o "4ZQ0RLvcHTA-0m00s.mp4"
+```
+</details>
 
 > "A million drones show up on the west coast of California tomorrow morning. What do we do? If you use a missile, million-dollar cost to shoot down a thousand or ten-thousand dollar drone. You can't do that indefinitely."
 > — Michael LaFramboise, [0:00](https://www.youtube.com/watch?v=4ZQ0RLvcHTA&t=0s)
 
 ### "We Destroy the Drone"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4ZQ0RLvcHTA?start=25&end=50" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/4ZQ0RLvcHTA/hqdefault.jpg)](https://www.youtube.com/watch?v=4ZQ0RLvcHTA&t=25s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:25-0:50" "https://www.youtube.com/watch?v=4ZQ0RLvcHTA" --force-keyframes-at-cuts --merge-output-format mp4 -o "4ZQ0RLvcHTA-0m25s.mp4"
+```
+</details>
 
 > "This is why we've chosen laser systems to really work on. We destroy the drone. We cut off its rotor. We drill through the center of it, right? It is destroyed. It's not like interfered with electromagnetically."
 > — Michael LaFramboise, [0:25](https://www.youtube.com/watch?v=4ZQ0RLvcHTA&t=25s)
 
 ### "Fight to the Death"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4ZQ0RLvcHTA?start=45&end=80" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/4ZQ0RLvcHTA/hqdefault.jpg)](https://www.youtube.com/watch?v=4ZQ0RLvcHTA&t=45s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:45-1:20" "https://www.youtube.com/watch?v=4ZQ0RLvcHTA" --force-keyframes-at-cuts --merge-output-format mp4 -o "4ZQ0RLvcHTA-0m45s.mp4"
+```
+</details>
 
 > "I remember saying to myself, if I do this thing, if I do this startup, no matter what happens, I will get out there. I will fight to the death. If I lose at the end of the day, I can live with it."
 > — Michael LaFramboise, [0:45](https://www.youtube.com/watch?v=4ZQ0RLvcHTA&t=45s)
 
 ### "60-80% of Ukrainian Casualties"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4ZQ0RLvcHTA?start=140&end=180" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/4ZQ0RLvcHTA/hqdefault.jpg)](https://www.youtube.com/watch?v=4ZQ0RLvcHTA&t=140s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:20-3:00" "https://www.youtube.com/watch?v=4ZQ0RLvcHTA" --force-keyframes-at-cuts --merge-output-format mp4 -o "4ZQ0RLvcHTA-2m20s.mp4"
+```
+</details>
 
 > "You're reading reports where like 60, 70, 80% of Ukrainian casualties are due to FPV drones. Russian drone production was really ramping - hundreds of thousands per month at that time."
 > — Michael LaFramboise, [2:20](https://www.youtube.com/watch?v=4ZQ0RLvcHTA&t=140s)
 
 ### "Fiber Optic Cable Drones"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4ZQ0RLvcHTA?start=120&end=145" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/4ZQ0RLvcHTA/hqdefault.jpg)](https://www.youtube.com/watch?v=4ZQ0RLvcHTA&t=120s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:00-2:25" "https://www.youtube.com/watch?v=4ZQ0RLvcHTA" --force-keyframes-at-cuts --merge-output-format mp4 -o "4ZQ0RLvcHTA-2m00s.mp4"
+```
+</details>
 
 > "I don't think at that time the fiber optic cable drones had really come into the fray but drone production was really ramping. The fiber optic cable drones changed everything because they can't be jammed."
 > — Michael LaFramboise, [2:00](https://www.youtube.com/watch?v=4ZQ0RLvcHTA&t=120s)

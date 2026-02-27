@@ -35,35 +35,70 @@ MKBHD reviews the Meta Ray-Ban Display glasses, the consumer-ready evolution of 
 
 ### "Writing whole sentences with no errors"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7gtc1DW2Tgo?start=175&end=230" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/7gtc1DW2Tgo/hqdefault.jpg)](https://www.youtube.com/watch?v=7gtc1DW2Tgo&t=175s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:55-3:50" "https://www.youtube.com/watch?v=7gtc1DW2Tgo" --force-keyframes-at-cuts --merge-output-format mp4 -o "7gtc1DW2Tgo-2m55s.mp4"
+```
+</details>
 
 > "I was writing whole sentences first try, quickly, with no errors. It was nuts."
 > — Marques Brownlee, [3:20](https://www.youtube.com/watch?v=7gtc1DW2Tgo&t=200s)
 
 ### "The rate of improvement is insane"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7gtc1DW2Tgo?start=127&end=175" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/7gtc1DW2Tgo/hqdefault.jpg)](https://www.youtube.com/watch?v=7gtc1DW2Tgo&t=127s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:07-2:55" "https://www.youtube.com/watch?v=7gtc1DW2Tgo" --force-keyframes-at-cuts --merge-output-format mp4 -o "7gtc1DW2Tgo-2m07s.mp4"
+```
+</details>
 
 > "The rate of improvement is insane."
 > — Marques Brownlee, [2:10](https://www.youtube.com/watch?v=7gtc1DW2Tgo&t=130s)
 
 ### "They weigh 69 grams - nice"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7gtc1DW2Tgo?start=220&end=265" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/7gtc1DW2Tgo/hqdefault.jpg)](https://www.youtube.com/watch?v=7gtc1DW2Tgo&t=220s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:40-4:25" "https://www.youtube.com/watch?v=7gtc1DW2Tgo" --force-keyframes-at-cuts --merge-output-format mp4 -o "7gtc1DW2Tgo-3m40s.mp4"
+```
+</details>
 
 > "And they weigh 69 grams. Nice."
 > — Marques Brownlee, [3:40](https://www.youtube.com/watch?v=7gtc1DW2Tgo&t=220s)
 
 ### "Meta selling at a loss to get them in people's hands"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7gtc1DW2Tgo?start=400&end=450" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/7gtc1DW2Tgo/hqdefault.jpg)](https://www.youtube.com/watch?v=7gtc1DW2Tgo&t=400s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:40-7:30" "https://www.youtube.com/watch?v=7gtc1DW2Tgo" --force-keyframes-at-cuts --merge-output-format mp4 -o "7gtc1DW2Tgo-6m40s.mp4"
+```
+</details>
 
 > "I wouldn't be surprised if Meta is actually losing money in an effort to just get them out and get 'em into people's hands."
 > — Marques Brownlee, [6:58](https://www.youtube.com/watch?v=7gtc1DW2Tgo&t=418s)
 
 ### "The keynote was so brutal"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7gtc1DW2Tgo?start=514&end=590" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/7gtc1DW2Tgo/hqdefault.jpg)](https://www.youtube.com/watch?v=7gtc1DW2Tgo&t=514s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:34-9:50" "https://www.youtube.com/watch?v=7gtc1DW2Tgo" --force-keyframes-at-cuts --merge-output-format mp4 -o "7gtc1DW2Tgo-8m34s.mp4"
+```
+</details>
 
 > "The keynote was so brutal, mainly because so many of the live demos that they tried went about as poorly as they possibly could have."
 > — Marques Brownlee, [8:38](https://www.youtube.com/watch?v=7gtc1DW2Tgo&t=518s)

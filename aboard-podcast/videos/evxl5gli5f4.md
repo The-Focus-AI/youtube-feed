@@ -32,35 +32,70 @@ The debate plays out through a vivid thought experiment where Paul progressively
 
 ### "We're in the Space Age Era of AI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/evxl5gli5f4?start=186&end=240" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/evxl5gli5f4/hqdefault.jpg)](https://www.youtube.com/watch?v=evxl5gli5f4&t=186s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:06-4:00" "https://www.youtube.com/watch?v=evxl5gli5f4" --force-keyframes-at-cuts --merge-output-format mp4 -o "evxl5gli5f4-3m06s.mp4"
+```
+</details>
 
 > "I think we're in the space age era of AI where people are like it's all going to be this and only this forever. The cultural change transformation narrative is very similar to that of the space age where we were all going to be literally in orbit by now."
 > -- Paul Ford, [3:06](https://www.youtube.com/watch?v=evxl5gli5f4&t=186s)
 
 ### "The Gatekeepers Are People"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/evxl5gli5f4?start=244&end=300" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/evxl5gli5f4/hqdefault.jpg)](https://www.youtube.com/watch?v=evxl5gli5f4&t=244s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:04-5:00" "https://www.youtube.com/watch?v=evxl5gli5f4" --force-keyframes-at-cuts --merge-output-format mp4 -o "evxl5gli5f4-4m04s.mp4"
+```
+</details>
 
 > "The thing that people get wrong more than anything around technology is they forget that the gatekeepers are people. Almost every time. The guard in front of that gate? Old habits. Old patterns. Status quo and culture and power. And the truth is, people often win."
 > -- Rich Ziade, [4:04](https://www.youtube.com/watch?v=evxl5gli5f4&t=244s)
 
 ### "Someone Could Make Seamless Next Year"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/evxl5gli5f4?start=380&end=440" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/evxl5gli5f4/hqdefault.jpg)](https://www.youtube.com/watch?v=evxl5gli5f4&t=380s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:20-7:20" "https://www.youtube.com/watch?v=evxl5gli5f4" --force-keyframes-at-cuts --merge-output-format mp4 -o "evxl5gli5f4-6m20s.mp4"
+```
+</details>
 
 > "Next year someone could make Seamless or GrubHub or DoorDash. They can make their own. They can launch it. It will be cheaper and better. It will be AI enabled. You'll just take a photo of your menu, upload it, it'll make a website and set everything up for you."
 > -- Paul Ford, [6:20](https://www.youtube.com/watch?v=evxl5gli5f4&t=380s)
 
 ### "They Send Someone to Your Restaurant"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/evxl5gli5f4?start=735&end=795" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/evxl5gli5f4/hqdefault.jpg)](https://www.youtube.com/watch?v=evxl5gli5f4&t=735s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:15-13:15" "https://www.youtube.com/watch?v=evxl5gli5f4" --force-keyframes-at-cuts --merge-output-format mp4 -o "evxl5gli5f4-12m15s.mp4"
+```
+</details>
 
 > "One of the things these platforms do is they send someone to your restaurant to set you up with a laptop for 3 days and take pictures of your food. Because otherwise it just isn't going to happen. Nobody wants to click on anything. There are armies of salespeople. It is a nightmare. It is an absolute nightmare."
 > -- Rich Ziade, [12:15](https://www.youtube.com/watch?v=evxl5gli5f4&t=735s)
 
 ### "Making a Platform Is a Small Component of Succeeding"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/evxl5gli5f4?start=870&end=930" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/evxl5gli5f4/hqdefault.jpg)](https://www.youtube.com/watch?v=evxl5gli5f4&t=870s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:30-15:30" "https://www.youtube.com/watch?v=evxl5gli5f4" --force-keyframes-at-cuts --merge-output-format mp4 -o "evxl5gli5f4-14m30s.mp4"
+```
+</details>
 
 > "Making a platform is a small component of disrupting and succeeding. Disrupting an existing status quo and succeeding. The cost of making a platform just went from many millions of dollars to tens of thousands of dollars. But that's not what determines success."
 > -- Rich Ziade, [14:30](https://www.youtube.com/watch?v=evxl5gli5f4&t=870s)

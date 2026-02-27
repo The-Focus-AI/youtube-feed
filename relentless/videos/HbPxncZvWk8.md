@@ -44,42 +44,84 @@ The interview covers Poseidon's vertically integrated manufacturing approach, th
 
 ### "Planes are largely the same that got developed and certified in the 70s and 80s"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HbPxncZvWk8?start=114&end=175" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HbPxncZvWk8/hqdefault.jpg)](https://www.youtube.com/watch?v=HbPxncZvWk8&t=114s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:54-2:55" "https://www.youtube.com/watch?v=HbPxncZvWk8" --force-keyframes-at-cuts --merge-output-format mp4 -o "HbPxncZvWk8-1m54s.mp4"
+```
+</details>
 
 > "One of the things I noticed was that we had hyper optimized a bunch of our logistics infrastructure in terms of distribution centers and vans. But one of the large things that we hadn't optimized are the planes. These planes are largely the same that had gotten developed and certified in the 70s and 80s."
 > — David Zagaynov, [1:54](https://www.youtube.com/watch?v=HbPxncZvWk8&t=114s)
 
 ### "The average regional air cargo line is flying planes that are 35 to 40 years old"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HbPxncZvWk8?start=298&end=360" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HbPxncZvWk8/hqdefault.jpg)](https://www.youtube.com/watch?v=HbPxncZvWk8&t=298s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:58-6:00" "https://www.youtube.com/watch?v=HbPxncZvWk8" --force-keyframes-at-cuts --merge-output-format mp4 -o "HbPxncZvWk8-4m58s.mp4"
+```
+</details>
 
 > "The average regional air cargo line is flying planes that are an average of 35 to 40 years old. These are old old airframes and haven't been updated to modern tech."
 > — David Zagaynov, [4:58](https://www.youtube.com/watch?v=HbPxncZvWk8&t=298s)
 
 ### "About a magnitude reduction in parts"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HbPxncZvWk8?start=580&end=640" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HbPxncZvWk8/hqdefault.jpg)](https://www.youtube.com/watch?v=HbPxncZvWk8&t=580s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:40-10:40" "https://www.youtube.com/watch?v=HbPxncZvWk8" --force-keyframes-at-cuts --merge-output-format mp4 -o "HbPxncZvWk8-9m40s.mp4"
+```
+</details>
 
 > "The 747 has like 120,000 different suppliers. By going pilotless and doing it with composites, it's about a magnitude reduction in parts which is pretty nuts."
 > — David Zagaynov, [9:40](https://www.youtube.com/watch?v=HbPxncZvWk8&t=580s)
 
 ### "I just strip completely and swim through a foot of duck poop"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HbPxncZvWk8?start=630&end=695" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HbPxncZvWk8/hqdefault.jpg)](https://www.youtube.com/watch?v=HbPxncZvWk8&t=630s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:30-11:35" "https://www.youtube.com/watch?v=HbPxncZvWk8" --force-keyframes-at-cuts --merge-output-format mp4 -o "HbPxncZvWk8-10m30s.mp4"
+```
+</details>
 
 > "We went out to the lake at Golden Gate Park at 1:00 a.m. We take off, try to go up higher and lose control and the thing flips. I just strip completely, run into the water, swim like 100 meters and drag it back. This is the nastiest lake ever. The floor of the lake was like a foot of duck poop."
 > — David Zagaynov, [10:30](https://www.youtube.com/watch?v=HbPxncZvWk8&t=630s)
 
 ### "We're building the cargo truck for the skies"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HbPxncZvWk8?start=1130&end=1180" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HbPxncZvWk8/hqdefault.jpg)](https://www.youtube.com/watch?v=HbPxncZvWk8&t=1130s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:50-19:40" "https://www.youtube.com/watch?v=HbPxncZvWk8" --force-keyframes-at-cuts --merge-output-format mp4 -o "HbPxncZvWk8-18m50s.mp4"
+```
+</details>
 
 > "We're building the cargo truck for the skies. It's like the good cheap reliable F-150 for moving things around in the sky."
 > — David Zagaynov, [18:50](https://www.youtube.com/watch?v=HbPxncZvWk8&t=1130s)
 
 ### "Part 108 for large drones passed by executive order"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HbPxncZvWk8?start=1326&end=1390" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HbPxncZvWk8/hqdefault.jpg)](https://www.youtube.com/watch?v=HbPxncZvWk8&t=1326s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*22:06-23:10" "https://www.youtube.com/watch?v=HbPxncZvWk8" --force-keyframes-at-cuts --merge-output-format mp4 -o "HbPxncZvWk8-22m06s.mp4"
+```
+</details>
 
 > "Trump passed an executive order that pushed the FAA to publish language for Part 108, which regulates drones larger than 50 lbs beyond visual line of sight. It's a clear framework for getting large cargo drones approved. We're very optimistic that there's going to be a clear regulatory path."
 > — David Zagaynov, [22:06](https://www.youtube.com/watch?v=HbPxncZvWk8&t=1326s)

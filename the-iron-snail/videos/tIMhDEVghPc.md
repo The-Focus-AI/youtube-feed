@@ -37,35 +37,70 @@ The video dives deep into down jacket technology, explaining fill power, fill we
 
 ### "It's Probably Not the Last Piece of Your Outerwear"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tIMhDEVghPc?start=103&end=160" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tIMhDEVghPc/hqdefault.jpg)](https://www.youtube.com/watch?v=tIMhDEVghPc&t=103s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:43-2:40" "https://www.youtube.com/watch?v=tIMhDEVghPc" --force-keyframes-at-cuts --merge-output-format mp4 -o "tIMhDEVghPc-1m43s.mp4"
+```
+</details>
 
 > "If you just hate the cold it's probably because you don't have a good mitten or hat system or layer system in general. It's usually not the last piece of your outer wear."
 > — Michael, [1:57](https://www.youtube.com/watch?v=tIMhDEVghPc&t=117s)
 
 ### "1,000 Fill Power Performed the Same as 750 in Humidity"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tIMhDEVghPc?start=659&end=720" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tIMhDEVghPc/hqdefault.jpg)](https://www.youtube.com/watch?v=tIMhDEVghPc&t=659s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:59-12:00" "https://www.youtube.com/watch?v=tIMhDEVghPc" --force-keyframes-at-cuts --merge-output-format mp4 -o "tIMhDEVghPc-10m59s.mp4"
+```
+</details>
 
 > "I was reading one study where in moderate humidity a 1,000 fill power down jacket performed the same as a 750 fill power down jacket."
 > — Michael, [11:30](https://www.youtube.com/watch?v=tIMhDEVghPc&t=690s)
 
 ### "No Acceptable Level of PFAS in Our Water System"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tIMhDEVghPc?start=857&end=920" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tIMhDEVghPc/hqdefault.jpg)](https://www.youtube.com/watch?v=tIMhDEVghPc&t=857s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:17-15:20" "https://www.youtube.com/watch?v=tIMhDEVghPc" --force-keyframes-at-cuts --merge-output-format mp4 -o "tIMhDEVghPc-14m17s.mp4"
+```
+</details>
 
 > "The original formula of Gore-Tex actually contained PFAS. It got banned because it's not that great for the environment or people. And by not that great - there's no acceptable level of PFAS in our water system at all."
 > — Michael, [14:32](https://www.youtube.com/watch?v=tIMhDEVghPc&t=872s)
 
 ### "In 20 Years We'll Just Wear Foam White Crocs"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tIMhDEVghPc?start=927&end=985" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tIMhDEVghPc/hqdefault.jpg)](https://www.youtube.com/watch?v=tIMhDEVghPc&t=927s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:27-16:25" "https://www.youtube.com/watch?v=tIMhDEVghPc" --force-keyframes-at-cuts --merge-output-format mp4 -o "tIMhDEVghPc-15m27s.mp4"
+```
+</details>
 
 > "I think eventually winter jackets are going to be foam. I think this is all very old school now and in 20 years we'll just wear foam white crocs. I think that's what we'll be doing."
 > — Michael, [15:41](https://www.youtube.com/watch?v=tIMhDEVghPc&t=941s)
 
 ### "Woven Baffles - No Stitching, No Water, No Down Leakage"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tIMhDEVghPc?start=965&end=1020" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/tIMhDEVghPc/hqdefault.jpg)](https://www.youtube.com/watch?v=tIMhDEVghPc&t=965s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:05-17:00" "https://www.youtube.com/watch?v=tIMhDEVghPc" --force-keyframes-at-cuts --merge-output-format mp4 -o "tIMhDEVghPc-16m05s.mp4"
+```
+</details>
 
 > "They are weaving it together at points and opening it up at certain points... making baffles out of a singular fabric with no stitching. Since there's no stitching, the water's not coming through, the wind isn't coming through, you don't have to worry about down leaking out."
 > — Michael, [16:30](https://www.youtube.com/watch?v=tIMhDEVghPc&t=990s)

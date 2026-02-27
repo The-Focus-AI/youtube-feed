@@ -37,35 +37,70 @@ The video also covers the decline of Eddie Bauer after the founder sold the comp
 
 ### "Eddie Bauer's Dad Sold 2 Acres of Downtown Seattle for a Plum Farm"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WIEWvlu91jg?start=195&end=250" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/WIEWvlu91jg/hqdefault.jpg)](https://www.youtube.com/watch?v=WIEWvlu91jg&t=195s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:15-4:10" "https://www.youtube.com/watch?v=WIEWvlu91jg" --force-keyframes-at-cuts --merge-output-format mp4 -o "WIEWvlu91jg-3m15s.mp4"
+```
+</details>
 
 > "Eddie Bauer's dad, a crack businessman, sold 2 acres of downtown Seattle 9 years after he got it so he can go work at a plum farm and dry prunes. So oops."
 > — Michael, [3:38](https://www.youtube.com/watch?v=WIEWvlu91jg&t=218s)
 
 ### "Holy Crap, You Are the Only Actual Company That Did This"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WIEWvlu91jg?start=560&end=615" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/WIEWvlu91jg/hqdefault.jpg)](https://www.youtube.com/watch?v=WIEWvlu91jg&t=560s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:20-10:15" "https://www.youtube.com/watch?v=WIEWvlu91jg" --force-keyframes-at-cuts --merge-output-format mp4 -o "WIEWvlu91jg-9m20s.mp4"
+```
+</details>
 
 > "Holy crap, you are the only actual company that did this - everybody else is delinquent. Can you make more?"
 > — U.S. Military to Eddie Bauer, [9:25](https://www.youtube.com/watch?v=WIEWvlu91jg&t=565s)
 
 ### "The B-9 Parka - Designed for -70 Degrees"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WIEWvlu91jg?start=615&end=670" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/WIEWvlu91jg/hqdefault.jpg)](https://www.youtube.com/watch?v=WIEWvlu91jg&t=615s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:15-11:10" "https://www.youtube.com/watch?v=WIEWvlu91jg" --force-keyframes-at-cuts --merge-output-format mp4 -o "WIEWvlu91jg-10m15s.mp4"
+```
+</details>
 
 > "Most down jackets you know you could really crush them and compress them. The B-9, this one specifically, is so much feathers that it's just like a rock."
 > — Michael, [10:56](https://www.youtube.com/watch?v=WIEWvlu91jg&t=656s)
 
 ### "Jim Whittaker Would Need His Jacket Back"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WIEWvlu91jg?start=923&end=980" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/WIEWvlu91jg/hqdefault.jpg)](https://www.youtube.com/watch?v=WIEWvlu91jg&t=923s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:23-16:20" "https://www.youtube.com/watch?v=WIEWvlu91jg" --force-keyframes-at-cuts --merge-output-format mp4 -o "WIEWvlu91jg-15m23s.mp4"
+```
+</details>
 
 > "50 years after his ascent, at an event celebrating his ascent, his jacket was in a museum. Jim Whittaker stood up in front of everybody in his 80s and said if he was going to climb Everest again, he would need to get his jacket back."
 > — Michael, [15:40](https://www.youtube.com/watch?v=WIEWvlu91jg&t=940s)
 
 ### "Crescent Down Works - Eddie Bauer in Spirit"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WIEWvlu91jg?start=1078&end=1110" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/WIEWvlu91jg/hqdefault.jpg)](https://www.youtube.com/watch?v=WIEWvlu91jg&t=1078s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*17:58-18:30" "https://www.youtube.com/watch?v=WIEWvlu91jg" --force-keyframes-at-cuts --merge-output-format mp4 -o "WIEWvlu91jg-17m58s.mp4"
+```
+</details>
 
 > "Good news though is we essentially have an Eddie Bauer in spirit and that is Crescent Down Works, made in Seattle Washington. The founder of the brand, And Mikkelson, she worked with Eddie Bauer in his down testing lab in 1969."
 > — Michael, [18:02](https://www.youtube.com/watch?v=WIEWvlu91jg&t=1082s)

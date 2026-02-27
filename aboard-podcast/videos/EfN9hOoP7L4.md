@@ -31,35 +31,70 @@ In the second half, they pivot to a New York Times op-ed about raising children 
 
 ### "If I Google Local Gyms, That's Different Than Working Out"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EfN9hOoP7L4?start=1680&end=1730" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EfN9hOoP7L4/hqdefault.jpg)](https://www.youtube.com/watch?v=EfN9hOoP7L4&t=1680s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*28:00-28:50" "https://www.youtube.com/watch?v=EfN9hOoP7L4" --force-keyframes-at-cuts --merge-output-format mp4 -o "EfN9hOoP7L4-28m00s.mp4"
+```
+</details>
 
 > "If I Google local gyms, that's different than working out. Right. Like if I Google -- anyway, keep going."
 > -- Rich Zottoli, [28:00](https://www.youtube.com/watch?v=EfN9hOoP7L4&t=1680s)
 
 ### "The Real World Spoils the Party"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EfN9hOoP7L4?start=840&end=910" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EfN9hOoP7L4/hqdefault.jpg)](https://www.youtube.com/watch?v=EfN9hOoP7L4&t=840s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:00-15:10" "https://www.youtube.com/watch?v=EfN9hOoP7L4" --force-keyframes-at-cuts --merge-output-format mp4 -o "EfN9hOoP7L4-14m00s.mp4"
+```
+</details>
 
 > "As they walked them through all the shitty paperwork involved in trying to get a mortgage, it was clear that the real world had spoiled the party. All that disruption that was supposed to happen fell down immediately. You call it plateauing. I call it reality."
 > -- Rich Zottoli, [14:00](https://www.youtube.com/watch?v=EfN9hOoP7L4&t=840s)
 
 ### "One Person Created a Web Server That Runs on a Vape Pen"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EfN9hOoP7L4?start=618&end=660" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EfN9hOoP7L4/hqdefault.jpg)](https://www.youtube.com/watch?v=EfN9hOoP7L4&t=618s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:18-11:00" "https://www.youtube.com/watch?v=EfN9hOoP7L4" --force-keyframes-at-cuts --merge-output-format mp4 -o "EfN9hOoP7L4-10m18s.mp4"
+```
+</details>
 
 > "One person did create a web server that runs on a vape pen. That was good. That actually brought me back. I was like, okay, we're still alive."
 > -- Paul Ford, [10:18](https://www.youtube.com/watch?v=EfN9hOoP7L4&t=618s)
 
 ### "AI Is Embedded in Normal Apps"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EfN9hOoP7L4?start=1500&end=1560" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EfN9hOoP7L4/hqdefault.jpg)](https://www.youtube.com/watch?v=EfN9hOoP7L4&t=1500s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*25:00-26:00" "https://www.youtube.com/watch?v=EfN9hOoP7L4" --force-keyframes-at-cuts --merge-output-format mp4 -o "EfN9hOoP7L4-25m00s.mp4"
+```
+</details>
 
 > "If you think your kid can't do their homework with AI because you block the other stuff, if they have WhatsApp, they can use AI. It's in Google searches. It's kind of embedded itself everywhere."
 > -- Rich Zottoli, [25:00](https://www.youtube.com/watch?v=EfN9hOoP7L4&t=1500s)
 
 ### "Get Them to Do the Most Corrupt Possible Thing with an LLM"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EfN9hOoP7L4?start=2040&end=2100" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EfN9hOoP7L4/hqdefault.jpg)](https://www.youtube.com/watch?v=EfN9hOoP7L4&t=2040s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*34:00-35:00" "https://www.youtube.com/watch?v=EfN9hOoP7L4" --force-keyframes-at-cuts --merge-output-format mp4 -o "EfN9hOoP7L4-34m00s.mp4"
+```
+</details>
 
 > "Get the kids to do the most corrupt possible thing in a constrained environment with an LLM. Get them to make a really evil bullying LLM. Give them the freedom to be bad with these things so they can see how easily the technologies can be pushed in a direction."
 > -- Paul Ford, [34:00](https://www.youtube.com/watch?v=EfN9hOoP7L4&t=2040s)

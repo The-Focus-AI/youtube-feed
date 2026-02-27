@@ -31,42 +31,84 @@ The video includes two full training rounds between Lex and Khabib, a brief grap
 
 ### "This pressure is insane"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KGVpKPNUdzA?start=299&end=395" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KGVpKPNUdzA/hqdefault.jpg)](https://www.youtube.com/watch?v=KGVpKPNUdzA&t=299s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:59-6:35" "https://www.youtube.com/watch?v=KGVpKPNUdzA" --force-keyframes-at-cuts --merge-output-format mp4 -o "KGVpKPNUdzA-4m59s.mp4"
+```
+</details>
 
 > "This right here, this pressure is fucking insane... I feel like a white belt."
 > -- Lex Fridman, [4:59](https://www.youtube.com/watch?v=KGVpKPNUdzA&t=299s)
 
 ### "I don't need to do nothing -- I make you work"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KGVpKPNUdzA?start=833&end=880" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KGVpKPNUdzA/hqdefault.jpg)](https://www.youtube.com/watch?v=KGVpKPNUdzA&t=833s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:53-14:40" "https://www.youtube.com/watch?v=KGVpKPNUdzA" --force-keyframes-at-cuts --merge-output-format mp4 -o "KGVpKPNUdzA-13m53s.mp4"
+```
+</details>
 
 > "I don't need to do nothing. You have to spend your energy to get up. Why I have to force? I make you work."
 > -- Khabib Nurmagomedov, [13:53](https://www.youtube.com/watch?v=KGVpKPNUdzA&t=833s)
 
 ### "Now I understand why people run"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KGVpKPNUdzA?start=870&end=920" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KGVpKPNUdzA/hqdefault.jpg)](https://www.youtube.com/watch?v=KGVpKPNUdzA&t=870s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:30-15:20" "https://www.youtube.com/watch?v=KGVpKPNUdzA" --force-keyframes-at-cuts --merge-output-format mp4 -o "KGVpKPNUdzA-14m30s.mp4"
+```
+</details>
 
 > "Now I understand why people run."
 > -- Lex Fridman, [14:35](https://www.youtube.com/watch?v=KGVpKPNUdzA&t=875s)
 
 ### "Mentally smash"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KGVpKPNUdzA?start=1086&end=1145" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KGVpKPNUdzA/hqdefault.jpg)](https://www.youtube.com/watch?v=KGVpKPNUdzA&t=1086s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:06-19:05" "https://www.youtube.com/watch?v=KGVpKPNUdzA" --force-keyframes-at-cuts --merge-output-format mp4 -o "KGVpKPNUdzA-18m06s.mp4"
+```
+</details>
 
 > "I want him to feel pressure. Because I play, he play. Yeah, I can play with anybody, anytime, but I want to show him a little bit, like pressure, you understand. Scramble after scramble, and I put him in my position... Mentally smash."
 > -- Khabib Nurmagomedov, [18:06](https://www.youtube.com/watch?v=KGVpKPNUdzA&t=1086s)
 
 ### "Keep going -- all my life"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KGVpKPNUdzA?start=1186&end=1230" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KGVpKPNUdzA/hqdefault.jpg)](https://www.youtube.com/watch?v=KGVpKPNUdzA&t=1186s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*19:46-20:30" "https://www.youtube.com/watch?v=KGVpKPNUdzA" --force-keyframes-at-cuts --merge-output-format mp4 -o "KGVpKPNUdzA-19m46s.mp4"
+```
+</details>
 
 > "Keep going. All my life, keep going, keep going... You know Dan Gable? He always said in practice he wanted to go until he quits. He never got there. That's why he's Olympic champion."
 > -- Khabib Nurmagomedov & Lex Fridman, [19:46](https://www.youtube.com/watch?v=KGVpKPNUdzA&t=1186s)
 
 ### "It's like one-on-one with Michael Jordan at the YMCA"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KGVpKPNUdzA?start=1304&end=1328" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KGVpKPNUdzA/hqdefault.jpg)](https://www.youtube.com/watch?v=KGVpKPNUdzA&t=1304s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*21:44-22:08" "https://www.youtube.com/watch?v=KGVpKPNUdzA" --force-keyframes-at-cuts --merge-output-format mp4 -o "KGVpKPNUdzA-21m44s.mp4"
+```
+</details>
 
 > "It's like one-on-one with Michael Jordan in the YMCA."
 > -- Lex Fridman, [21:48](https://www.youtube.com/watch?v=KGVpKPNUdzA&t=1308s)

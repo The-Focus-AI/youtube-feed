@@ -35,42 +35,84 @@ The thrifted pieces range from rare vintage finds like a made-in-Canada blanket-
 
 ### "We're leaving New York"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_knrP8B7IeY?start=75&end=130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_knrP8B7IeY/hqdefault.jpg)](https://www.youtube.com/watch?v=_knrP8B7IeY&t=75s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:15-2:10" "https://www.youtube.com/watch?v=_knrP8B7IeY" --force-keyframes-at-cuts --merge-output-format mp4 -o "_knrP8B7IeY-1m15s.mp4"
+```
+</details>
 
 > "In the meantime we're leaving New York. Taylor and I, today - well tomorrow but this is my last day in New York and I love New York so I don't particularly know how I feel about it."
 > — Michael, [1:15](https://www.youtube.com/watch?v=_knrP8B7IeY&t=75s)
 
 ### "The first ever product from the Iron Snail knitting division"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_knrP8B7IeY?start=33&end=85" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_knrP8B7IeY/hqdefault.jpg)](https://www.youtube.com/watch?v=_knrP8B7IeY&t=33s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:33-1:25" "https://www.youtube.com/watch?v=_knrP8B7IeY" --force-keyframes-at-cuts --merge-output-format mp4 -o "_knrP8B7IeY-0m33s.mp4"
+```
+</details>
 
 > "This you mere Mortals is the first ever product from the Iron Snail knitting division code name Billy Goat."
 > — Michael, [0:33](https://www.youtube.com/watch?v=_knrP8B7IeY&t=33s)
 
 ### "Columbia now has insulation being used by NASA"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_knrP8B7IeY?start=178&end=230" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_knrP8B7IeY/hqdefault.jpg)](https://www.youtube.com/watch?v=_knrP8B7IeY&t=178s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:58-3:50" "https://www.youtube.com/watch?v=_knrP8B7IeY" --force-keyframes-at-cuts --merge-output-format mp4 -o "_knrP8B7IeY-2m58s.mp4"
+```
+</details>
 
 > "Columbia the Columbia now is so different they started off as a hat company then they made knitwear with cotton and wool and now they literally have insulation from their company being used by NASA."
 > — Michael, [3:07](https://www.youtube.com/watch?v=_knrP8B7IeY&t=187s)
 
 ### "What makes it harder to recommend Filson"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_knrP8B7IeY?start=657&end=710" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_knrP8B7IeY/hqdefault.jpg)](https://www.youtube.com/watch?v=_knrP8B7IeY&t=657s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:57-11:50" "https://www.youtube.com/watch?v=_knrP8B7IeY" --force-keyframes-at-cuts --merge-output-format mp4 -o "_knrP8B7IeY-10m57s.mp4"
+```
+</details>
 
 > "What makes it harder to recommend Filson is that their sale price should be around where they should be selling their pieces at not the retail price."
 > — Michael, [10:57](https://www.youtube.com/watch?v=_knrP8B7IeY&t=657s)
 
 ### "Carhartt licensed their name during the Great Depression"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_knrP8B7IeY?start=834&end=890" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_knrP8B7IeY/hqdefault.jpg)](https://www.youtube.com/watch?v=_knrP8B7IeY&t=834s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:54-14:50" "https://www.youtube.com/watch?v=_knrP8B7IeY" --force-keyframes-at-cuts --merge-output-format mp4 -o "_knrP8B7IeY-13m54s.mp4"
+```
+</details>
 
 > "Carhartt like their name out apparently during the Great Depression and it took them a long time to get all of those licenses back."
 > — Michael, [14:00](https://www.youtube.com/watch?v=_knrP8B7IeY&t=840s)
 
 ### "I always think I have much more time than I do"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_knrP8B7IeY?start=712&end=765" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_knrP8B7IeY/hqdefault.jpg)](https://www.youtube.com/watch?v=_knrP8B7IeY&t=712s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:52-12:45" "https://www.youtube.com/watch?v=_knrP8B7IeY" --force-keyframes-at-cuts --merge-output-format mp4 -o "_knrP8B7IeY-11m52s.mp4"
+```
+</details>
 
 > "I am one who always thinks they have much more time than they do have and then I end up scrambling and realizing that it's over when I thought something I had more time it already was over."
 > — Michael, [12:04](https://www.youtube.com/watch?v=_knrP8B7IeY&t=724s)

@@ -33,42 +33,84 @@ The twist comes when Michael reveals that the happiest watches in his collection
 
 ### "Hit this watch with a baseball bat. Go on the moon."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pPBCSjP8-qs?start=156&end=210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pPBCSjP8-qs/hqdefault.jpg)](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=156s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:36-3:30" "https://www.youtube.com/watch?v=pPBCSjP8-qs" --force-keyframes-at-cuts --merge-output-format mp4 -o "pPBCSjP8-qs-2m36s.mp4"
+```
+</details>
 
 > "Hit this watch with a baseball bat. Go scuba diving. Go on the moon. It's approved for that. It's the greatest watch in the entire world."
 > — Michael, [2:40](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=160s)
 
 ### "The goal was to get Taylor to like me"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pPBCSjP8-qs?start=262&end=320" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pPBCSjP8-qs/hqdefault.jpg)](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=262s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:22-5:20" "https://www.youtube.com/watch?v=pPBCSjP8-qs" --force-keyframes-at-cuts --merge-output-format mp4 -o "pPBCSjP8-qs-4m22s.mp4"
+```
+</details>
 
 > "Taylor and a few of my friends and her friends, we all went kayaking, but the goal was to get Taylor to like me. But at the same time, there was a second goal and I brought a bunch of Casios with me and I wanted to test their water resistance."
 > — Michael, [4:22](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=262s)
 
 ### "The watch I got for my dad"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pPBCSjP8-qs?start=685&end=745" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pPBCSjP8-qs/hqdefault.jpg)](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=685s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:25-12:25" "https://www.youtube.com/watch?v=pPBCSjP8-qs" --force-keyframes-at-cuts --merge-output-format mp4 -o "pPBCSjP8-qs-11m25s.mp4"
+```
+</details>
 
 > "This watch and all the other watches that we talked about today and even the one that I gave to Ronnie on his wedding day are not the reason that I want to sell my watches. There is one more watch and that is the watch that I got for my dad."
 > — Michael, [11:25](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=685s)
 
 ### "Working 7 days a week, 13 hours a day"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pPBCSjP8-qs?start=715&end=775" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pPBCSjP8-qs/hqdefault.jpg)](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=715s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:55-12:55" "https://www.youtube.com/watch?v=pPBCSjP8-qs" --force-keyframes-at-cuts --merge-output-format mp4 -o "pPBCSjP8-qs-11m55s.mp4"
+```
+</details>
 
 > "Around 7 days a week, 13 hours a day. I try to take some time to dinner with Taylor. But it's like you're running a marathon. And then not even like a quarter way through the marathon, I'm like, 'Oh, I'm doing so good. I should drink a giant Mountain Dew and eat donuts.'"
 > — Michael, [11:55](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=715s)
 
 ### "The happiest watches are the ones I gave away"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pPBCSjP8-qs?start=740&end=800" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pPBCSjP8-qs/hqdefault.jpg)](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=740s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:20-13:20" "https://www.youtube.com/watch?v=pPBCSjP8-qs" --force-keyframes-at-cuts --merge-output-format mp4 -o "pPBCSjP8-qs-12m20s.mp4"
+```
+</details>
 
 > "The watches that I have the most pride about, that I'm the happiest about, the best memories I have about are the watch that I got Ronnie for his wedding and the watch that I got my dad."
 > — Michael, [12:20](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=740s)
 
 ### "I am the Portland Maine Bandit"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pPBCSjP8-qs?start=800&end=855" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/pPBCSjP8-qs/hqdefault.jpg)](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=800s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:20-14:15" "https://www.youtube.com/watch?v=pPBCSjP8-qs" --force-keyframes-at-cuts --merge-output-format mp4 -o "pPBCSjP8-qs-13m20s.mp4"
+```
+</details>
 
 > "I think sadly the twist of this video is that I am the Portland Maine Bandit after all, and I'm going to rid myself of my entire watch collection. My main focus right now is spending more time with Taylor."
 > — Michael, [13:20](https://www.youtube.com/watch?v=pPBCSjP8-qs&t=800s)

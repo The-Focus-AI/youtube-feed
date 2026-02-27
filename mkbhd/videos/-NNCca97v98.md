@@ -31,35 +31,70 @@ MKBHD reviews the Nintendo Switch 2 from the perspective of a tech reviewer who 
 
 ### "Second Generation Products Are Always the Most Interesting"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-NNCca97v98?start=68&end=122" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-NNCca97v98/hqdefault.jpg)](https://www.youtube.com/watch?v=-NNCca97v98&t=68s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:08-2:02" "https://www.youtube.com/watch?v=-NNCca97v98" --force-keyframes-at-cuts --merge-output-format mp4 -o "-NNCca97v98-1m08s.mp4"
+```
+</details>
 
 > "I've said this many times. The second generation product is always the most interesting. See, when Nintendo launched the original Switch, the concept was pretty novel... It's like a two-in-one. It's risky, but the value proposition was there and it happened to take off."
 > — Marques Brownlee, [1:08](https://www.youtube.com/watch?v=-NNCca97v98&t=68s)
 
 ### "The Joy-Cons Are the Switch"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-NNCca97v98?start=243&end=295" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-NNCca97v98/hqdefault.jpg)](https://www.youtube.com/watch?v=-NNCca97v98&t=243s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:03-4:55" "https://www.youtube.com/watch?v=-NNCca97v98" --force-keyframes-at-cuts --merge-output-format mp4 -o "-NNCca97v98-4m03s.mp4"
+```
+</details>
 
 > "These new joy-cons with bigger joysticks, but also the extremely satisfying magnets, this is what makes the Switch the Switch, and I think they've nailed this part. Instead of sliding off on rails, now it's magnets."
 > — Marques Brownlee, [4:03](https://www.youtube.com/watch?v=-NNCca97v98&t=243s)
 
 ### "It Breathes New Life Into Previous Games"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-NNCca97v98?start=405&end=450" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-NNCca97v98/hqdefault.jpg)](https://www.youtube.com/watch?v=-NNCca97v98&t=405s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:45-7:30" "https://www.youtube.com/watch?v=-NNCca97v98" --force-keyframes-at-cuts --merge-output-format mp4 -o "-NNCca97v98-6m45s.mp4"
+```
+</details>
 
 > "If you are a Switch 1 gamer, then even without buying new games, the Switch 2 kind of breathes new life into a lot of your previous games, for a price."
 > — Marques Brownlee, [6:45](https://www.youtube.com/watch?v=-NNCca97v98&t=405s)
 
 ### "Battery Life is the Weak Point"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-NNCca97v98?start=422&end=485" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-NNCca97v98/hqdefault.jpg)](https://www.youtube.com/watch?v=-NNCca97v98&t=422s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:02-8:05" "https://www.youtube.com/watch?v=-NNCca97v98" --force-keyframes-at-cuts --merge-output-format mp4 -o "-NNCca97v98-7m02s.mp4"
+```
+</details>
 
 > "The truth is, the battery is the weak point I've been able to find in my testing. And in hindsight, it probably makes sense 'cause when you take a device and give it an even bigger display and even more frames per second and an even more powerful chip, of course battery life suffers."
 > — Marques Brownlee, [7:02](https://www.youtube.com/watch?v=-NNCca97v98&t=422s)
 
 ### "It Really Comes Down to the Games"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-NNCca97v98?start=652&end=700" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-NNCca97v98/hqdefault.jpg)](https://www.youtube.com/watch?v=-NNCca97v98&t=652s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:52-11:40" "https://www.youtube.com/watch?v=-NNCca97v98" --force-keyframes-at-cuts --merge-output-format mp4 -o "-NNCca97v98-10m52s.mp4"
+```
+</details>
 
 > "If you're in a purchase decision, it really comes down to the games. Like which games do you wanna play? If you're a Call of Duty person, you were never gonna buy a Switch 2. But if you love Mario, well then, here we are."
 > — Marques Brownlee, [10:52](https://www.youtube.com/watch?v=-NNCca97v98&t=652s)

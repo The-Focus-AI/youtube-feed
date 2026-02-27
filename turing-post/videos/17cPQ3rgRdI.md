@@ -41,28 +41,56 @@ A key insight shared across multiple interviews is that while larger context win
 
 ### "We're Burning GPUs Just to Remember That You Said Hello"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/17cPQ3rgRdI?start=30&end=90" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/17cPQ3rgRdI/hqdefault.jpg)](https://www.youtube.com/watch?v=17cPQ3rgRdI&t=30s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:30-1:30" "https://www.youtube.com/watch?v=17cPQ3rgRdI" --force-keyframes-at-cuts --merge-output-format mp4 -o "17cPQ3rgRdI-0m30s.mp4"
+```
+</details>
 
 > "We're burning GPUs just to remember that you said hello a bunch of windows before."
 > — Turing Post Host, [0:51](https://www.youtube.com/watch?v=17cPQ3rgRdI&t=51s)
 
 ### "You're Smearing Intelligence Across the Context Window"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/17cPQ3rgRdI?start=73&end=130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/17cPQ3rgRdI/hqdefault.jpg)](https://www.youtube.com/watch?v=17cPQ3rgRdI&t=73s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:13-2:10" "https://www.youtube.com/watch?v=17cPQ3rgRdI" --force-keyframes-at-cuts --merge-output-format mp4 -o "17cPQ3rgRdI-1m13s.mp4"
+```
+</details>
 
 > "You're basically smearing the intelligence across different parts of the context window."
 > — Dex Horthy, [1:19](https://www.youtube.com/watch?v=17cPQ3rgRdI&t=79s)
 
 ### "Talk to Claude 60-70 Hours a Week to Build Intuition"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/17cPQ3rgRdI?start=338&end=395" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/17cPQ3rgRdI/hqdefault.jpg)](https://www.youtube.com/watch?v=17cPQ3rgRdI&t=338s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:38-6:35" "https://www.youtube.com/watch?v=17cPQ3rgRdI" --force-keyframes-at-cuts --merge-output-format mp4 -o "17cPQ3rgRdI-5m38s.mp4"
+```
+</details>
 
 > "Just talk to Claude for 60-70 hours a week for a couple weeks and you will build the right intuition to know what's working, what's not working in your context window."
 > — Steve Yegge, [5:59](https://www.youtube.com/watch?v=17cPQ3rgRdI&t=359s)
 
 ### "When It Hits 5-10%, I Am Done"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/17cPQ3rgRdI?start=508&end=555" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/17cPQ3rgRdI/hqdefault.jpg)](https://www.youtube.com/watch?v=17cPQ3rgRdI&t=508s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:28-9:15" "https://www.youtube.com/watch?v=17cPQ3rgRdI" --force-keyframes-at-cuts --merge-output-format mp4 -o "17cPQ3rgRdI-8m28s.mp4"
+```
+</details>
 
 > "And when it hits about 10%, even when it hits 5%, I am done... It'll pay you off at 20%."
 > — Steve Yegge, [8:41](https://www.youtube.com/watch?v=17cPQ3rgRdI&t=521s)

@@ -35,28 +35,56 @@ MKBHD travels to Austin, Texas to conduct a hands-on comparison between Tesla's 
 
 ### "One of the Hardest Problems on Earth"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/We2ZD0-IXPM?start=3&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/We2ZD0-IXPM/hqdefault.jpg)](https://www.youtube.com/watch?v=We2ZD0-IXPM&t=3s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:03-1:00" "https://www.youtube.com/watch?v=We2ZD0-IXPM" --force-keyframes-at-cuts --merge-output-format mp4 -o "We2ZD0-IXPM-0m03s.mp4"
+```
+</details>
 
 > "Truly autonomous driving is one of the hardest technological problems to solve on planet Earth today for so many reasons. There's millions and millions of variables. No two roads are exactly alike. And the number of possible scenarios to navigate is almost infinite."
 > — Marques Brownlee, [0:03](https://www.youtube.com/watch?v=We2ZD0-IXPM&t=3s)
 
 ### "Like a Really Short Driver Who Wasn't Saying Anything"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/We2ZD0-IXPM?start=255&end=320" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/We2ZD0-IXPM/hqdefault.jpg)](https://www.youtube.com/watch?v=We2ZD0-IXPM&t=255s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:15-5:20" "https://www.youtube.com/watch?v=We2ZD0-IXPM" --force-keyframes-at-cuts --merge-output-format mp4 -o "We2ZD0-IXPM-4m15s.mp4"
+```
+</details>
 
 > "It felt like I was a passenger to a really short driver who wasn't saying anything."
 > — Marques Brownlee, [4:30](https://www.youtube.com/watch?v=We2ZD0-IXPM&t=270s)
 
 ### "Waymos Miss the Sensor and Block Traffic"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/We2ZD0-IXPM?start=894&end=960" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/We2ZD0-IXPM/hqdefault.jpg)](https://www.youtube.com/watch?v=We2ZD0-IXPM&t=894s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:54-16:00" "https://www.youtube.com/watch?v=We2ZD0-IXPM" --force-keyframes-at-cuts --merge-output-format mp4 -o "We2ZD0-IXPM-14m54s.mp4"
+```
+</details>
 
 > "He was talking about how there's certain sensors that you have to drive over and trip just the right way to get the light to change. And Waymos miss that sensor all the time and then just sit there blocking traffic. And he's had to drive up and trip the sensor for it."
 > — Marques Brownlee, [15:05](https://www.youtube.com/watch?v=We2ZD0-IXPM&t=905s)
 
 ### "Worse Than iPhone vs Android Twitter"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/We2ZD0-IXPM?start=996&end=1033" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/We2ZD0-IXPM/hqdefault.jpg)](https://www.youtube.com/watch?v=We2ZD0-IXPM&t=996s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:36-17:13" "https://www.youtube.com/watch?v=We2ZD0-IXPM" --force-keyframes-at-cuts --merge-output-format mp4 -o "We2ZD0-IXPM-16m36s.mp4"
+```
+</details>
 
 > "I kind of think robotaxi versus Waymo Twitter is worse than iPhone versus Android ever was."
 > — Marques Brownlee, [16:47](https://www.youtube.com/watch?v=We2ZD0-IXPM&t=1007s)

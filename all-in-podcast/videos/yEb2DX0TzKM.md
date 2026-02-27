@@ -39,49 +39,98 @@ The conversation also touches on geopolitics, with Friedberg predicting the Russ
 
 ### "About half a trillion of net worth has left California"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yEb2DX0TzKM?start=172&end=240" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/yEb2DX0TzKM/hqdefault.jpg)](https://www.youtube.com/watch?v=yEb2DX0TzKM&t=172s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:52-4:00" "https://www.youtube.com/watch?v=yEb2DX0TzKM" --force-keyframes-at-cuts --merge-output-format mp4 -o "yEb2DX0TzKM-2m52s.mp4"
+```
+</details>
 
 > "When you look at our friends that all explicitly left, it's about half a trillion of net worth, which I think is very bad for the long-term budget of California."
 > — Chamath Palihapitiya, [2:52](https://www.youtube.com/watch?v=yEb2DX0TzKM&t=172s)
 
 ### "Replace the fragility of rugged individualism with the warmth of collectivism"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yEb2DX0TzKM?start=664&end=730" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/yEb2DX0TzKM/hqdefault.jpg)](https://www.youtube.com/watch?v=yEb2DX0TzKM&t=664s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:04-12:10" "https://www.youtube.com/watch?v=yEb2DX0TzKM" --force-keyframes-at-cuts --merge-output-format mp4 -o "yEb2DX0TzKM-11m04s.mp4"
+```
+</details>
 
 > "We're going to replace the fragility of rugged individualism with the warmth of collectivism."
 > — Mamani quote discussed, [11:04](https://www.youtube.com/watch?v=yEb2DX0TzKM&t=664s)
 
 ### "The Trump boom: 5-6% GDP"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yEb2DX0TzKM?start=833&end=900" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/yEb2DX0TzKM/hqdefault.jpg)](https://www.youtube.com/watch?v=yEb2DX0TzKM&t=833s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:53-15:00" "https://www.youtube.com/watch?v=yEb2DX0TzKM" --force-keyframes-at-cuts --merge-output-format mp4 -o "yEb2DX0TzKM-13m53s.mp4"
+```
+</details>
 
 > "The good economic news start breaking out before 2025 was even over. We have 2.7% inflation. Core CPI at 2.6. Both those are 40 basis points below expectations. 4.3% GDP growth in Q3. Lowest trade deficit since 2009."
 > — David Sacks, [13:53](https://www.youtube.com/watch?v=yEb2DX0TzKM&t=833s)
 
 ### "The Venezuela operation lasted three hours"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yEb2DX0TzKM?start=1683&end=1750" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/yEb2DX0TzKM/hqdefault.jpg)](https://www.youtube.com/watch?v=yEb2DX0TzKM&t=1683s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*28:03-29:10" "https://www.youtube.com/watch?v=yEb2DX0TzKM" --force-keyframes-at-cuts --merge-output-format mp4 -o "yEb2DX0TzKM-28m03s.mp4"
+```
+</details>
 
 > "This war with Venezuela, if you want to call it that, it was a flawless operation. It lasted three hours. They went in there and they basically captured Maduro. No Americans were killed."
 > — David Sacks, [28:03](https://www.youtube.com/watch?v=yEb2DX0TzKM&t=1683s)
 
 ### "Nobel prizes don't keep people in power. Men with guns do."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yEb2DX0TzKM?start=1767&end=1830" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/yEb2DX0TzKM/hqdefault.jpg)](https://www.youtube.com/watch?v=yEb2DX0TzKM&t=1767s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*29:27-30:30" "https://www.youtube.com/watch?v=yEb2DX0TzKM" --force-keyframes-at-cuts --merge-output-format mp4 -o "yEb2DX0TzKM-29m27s.mp4"
+```
+</details>
 
 > "The Democrats are criticizing the administration for not putting Maria Karina Machado in power. But here's the problem. Nobel prizes don't keep people in power. Men with guns keep people in power."
 > — David Sacks, [29:27](https://www.youtube.com/watch?v=yEb2DX0TzKM&t=1767s)
 
 ### "The economic cost to Sacks will exceed a billion dollars"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yEb2DX0TzKM?start=2371&end=2430" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/yEb2DX0TzKM/hqdefault.jpg)](https://www.youtube.com/watch?v=yEb2DX0TzKM&t=2371s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*39:31-40:30" "https://www.youtube.com/watch?v=yEb2DX0TzKM" --force-keyframes-at-cuts --merge-output-format mp4 -o "yEb2DX0TzKM-39m31s.mp4"
+```
+</details>
 
 > "I divested my Grok shares as part of joining the government... XAI just raised an up round at twice the valuation. The economic cost to Sacks will probably exceed a billion dollars by the time he leaves."
 > — Chamath Palihapitiya, [39:31](https://www.youtube.com/watch?v=yEb2DX0TzKM&t=2371s)
 
 ### "SpaceX will reverse merge into Tesla"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yEb2DX0TzKM?start=3375&end=3440" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/yEb2DX0TzKM/hqdefault.jpg)](https://www.youtube.com/watch?v=yEb2DX0TzKM&t=3375s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*56:15-57:20" "https://www.youtube.com/watch?v=yEb2DX0TzKM" --force-keyframes-at-cuts --merge-output-format mp4 -o "yEb2DX0TzKM-56m15s.mp4"
+```
+</details>
 
 > "My contrarian belief number one is I don't think SpaceX will IPO. I think that it will reverse merge into Tesla and I think Elon will use it as a moment to consolidate control and power of his two seminal assets into one cap table."
 > — Chamath Palihapitiya, [56:15](https://www.youtube.com/watch?v=yEb2DX0TzKM&t=3375s)

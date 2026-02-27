@@ -44,42 +44,84 @@ The discussion ranges into the practical implications: why the cortex may be doi
 
 ### "Evolution's secret: reward functions, not architecture"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_9V_Hbe-N1A?start=78&end=140" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_9V_Hbe-N1A/hqdefault.jpg)](https://www.youtube.com/watch?v=_9V_Hbe-N1A&t=78s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:18-2:20" "https://www.youtube.com/watch?v=_9V_Hbe-N1A" --force-keyframes-at-cuts --merge-output-format mp4 -o "_9V_Hbe-N1A-1m18s.mp4"
+```
+</details>
 
 > "My personal hunch within that framework is that the most underappreciated piece is the role of these very specific loss functions. Machine learning tends to like simple, clean loss functions. Predict the next token, cross-entropy. I think evolution may have built a lot of intelligence through many different loss functions at different stages of development."
 > -- Adam Marblestone, [1:18](https://www.youtube.com/watch?v=_9V_Hbe-N1A&t=78s)
 
 ### "The cortex might be doing omnidirectional inference"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_9V_Hbe-N1A?start=210&end=280" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_9V_Hbe-N1A/hqdefault.jpg)](https://www.youtube.com/watch?v=_9V_Hbe-N1A&t=210s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:30-4:40" "https://www.youtube.com/watch?v=_9V_Hbe-N1A" --force-keyframes-at-cuts --merge-output-format mp4 -o "_9V_Hbe-N1A-3m30s.mp4"
+```
+</details>
 
 > "What if the cortex is natively doing something where it can predict any pattern in any subset of variables from any other subset? Omnidirectional inference. That is a little bit more like 'probabilistic AI' -- extremely similar to what Yann LeCun would say."
 > -- Adam Marblestone, [3:30](https://www.youtube.com/watch?v=_9V_Hbe-N1A&t=210s)
 
 ### "How does evolution encode 'don't piss off important people'?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_9V_Hbe-N1A?start=424&end=480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_9V_Hbe-N1A/hqdefault.jpg)](https://www.youtube.com/watch?v=_9V_Hbe-N1A&t=424s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:04-8:00" "https://www.youtube.com/watch?v=_9V_Hbe-N1A" --force-keyframes-at-cuts --merge-output-format mp4 -o "_9V_Hbe-N1A-7m04s.mp4"
+```
+</details>
 
 > "Evolution has never seen Yann LeCun. It's never known what an important scientist or a podcast is. But it knows you should not piss off really important people in the tribe. It has to do this without knowing in advance all the things you might learn."
 > -- Adam Marblestone, [7:04](https://www.youtube.com/watch?v=_9V_Hbe-N1A&t=424s)
 
 ### "The genome is only 3 gigabytes -- and most of that is shared with yeast"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_9V_Hbe-N1A?start=1695&end=1760" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_9V_Hbe-N1A/hqdefault.jpg)](https://www.youtube.com/watch?v=_9V_Hbe-N1A&t=1695s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*28:15-29:20" "https://www.youtube.com/watch?v=_9V_Hbe-N1A" --force-keyframes-at-cuts --merge-output-format mp4 -o "_9V_Hbe-N1A-28m15s.mp4"
+```
+</details>
 
 > "3 gigabytes is the size of the genome. Obviously a small fraction of that is devoted to neural stuff. We have a lot in common with yeast. So much of the genome is just going towards basic cellular machinery -- it can get energy, it can replicate. The differences that matter include the social instincts."
 > -- Adam Marblestone, [28:15](https://www.youtube.com/watch?v=_9V_Hbe-N1A&t=1695s)
 
 ### "A paperclip maximizer might need less genomic complexity than a prosocial agent"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_9V_Hbe-N1A?start=2870&end=2930" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_9V_Hbe-N1A/hqdefault.jpg)](https://www.youtube.com/watch?v=_9V_Hbe-N1A&t=2870s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*47:50-48:50" "https://www.youtube.com/watch?v=_9V_Hbe-N1A" --force-keyframes-at-cuts --merge-output-format mp4 -o "_9V_Hbe-N1A-47m50s.mp4"
+```
+</details>
 
 > "I'm concerned that the minimum viable set of instincts needed to make something smart is way less than the minimum viable set of instincts needed for ethics and social behavior. The Steering Subsystem is actually the hard part."
 > -- Adam Marblestone, [47:50](https://www.youtube.com/watch?v=_9V_Hbe-N1A&t=2870s)
 
 ### "The mouse brain connectome is achievable for tens of millions"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_9V_Hbe-N1A?start=3780&end=3840" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/_9V_Hbe-N1A/hqdefault.jpg)](https://www.youtube.com/watch?v=_9V_Hbe-N1A&t=3780s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*63:00-64:00" "https://www.youtube.com/watch?v=_9V_Hbe-N1A" --force-keyframes-at-cuts --merge-output-format mp4 -o "_9V_Hbe-N1A-63m00s.mp4"
+```
+</details>
 
 > "E11 technology and the suite of efforts around it could get the mouse connectome down to low tens of millions of dollars. A human brain is about 1,000 times bigger. With technology development, could we do a human brain for less than a billion? That's not out of the question."
 > -- Adam Marblestone, [1:03:00](https://www.youtube.com/watch?v=_9V_Hbe-N1A&t=3780s)

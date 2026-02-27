@@ -36,35 +36,70 @@ Wood also reveals that ARK is moving its own incorporation out of Delaware, call
 
 ### "Real GDP growth will accelerate towards 7% plus"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oNJ_ouDNNT0?start=188&end=250" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/oNJ_ouDNNT0/hqdefault.jpg)](https://www.youtube.com/watch?v=oNJ_ouDNNT0&t=188s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:08-4:10" "https://www.youtube.com/watch?v=oNJ_ouDNNT0" --force-keyframes-at-cuts --merge-output-format mp4 -o "oNJ_ouDNNT0-3m08s.mp4"
+```
+</details>
 
 > "We believe that the productivity uplift is going to be so strong during the next 5 to 10 years, and I think President Trump's tax package is going to turbocharge this, that real GDP growth will accelerate from that 3% where it has been for the last 125 years towards 7% plus."
 > -- Cathie Wood, [3:08](https://www.youtube.com/watch?v=oNJ_ouDNNT0&t=188s)
 
 ### "Truly disruptive innovation's time to shine"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oNJ_ouDNNT0?start=451&end=520" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/oNJ_ouDNNT0/hqdefault.jpg)](https://www.youtube.com/watch?v=oNJ_ouDNNT0&t=451s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:31-8:40" "https://www.youtube.com/watch?v=oNJ_ouDNNT0" --force-keyframes-at-cuts --merge-output-format mp4 -o "oNJ_ouDNNT0-7m31s.mp4"
+```
+</details>
 
 > "I feel as though a rubber band has been stretching for the last four years and it let go with the election of Donald Trump. That's when truly disruptive innovation started to shine and the stock market started to broaden out."
 > -- Cathie Wood, [7:31](https://www.youtube.com/watch?v=oNJ_ouDNNT0&t=451s)
 
 ### "You use ChatGPT every day, but you can't buy OpenAI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oNJ_ouDNNT0?start=782&end=820" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/oNJ_ouDNNT0/hqdefault.jpg)](https://www.youtube.com/watch?v=oNJ_ouDNNT0&t=782s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:02-13:40" "https://www.youtube.com/watch?v=oNJ_ouDNNT0" --force-keyframes-at-cuts --merge-output-format mp4 -o "oNJ_ouDNNT0-13m02s.mp4"
+```
+</details>
 
 > "You use ChatGPT every day, but you can't buy OpenAI. But you can buy a lottery ticket or you can bet on sports, and it makes no sense."
 > -- Jason Calacanis & Cathie Wood, [13:02](https://www.youtube.com/watch?v=oNJ_ouDNNT0&t=782s)
 
 ### "Our price target is $2,600"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oNJ_ouDNNT0?start=1010&end=1040" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/oNJ_ouDNNT0/hqdefault.jpg)](https://www.youtube.com/watch?v=oNJ_ouDNNT0&t=1010s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:50-17:20" "https://www.youtube.com/watch?v=oNJ_ouDNNT0" --force-keyframes-at-cuts --merge-output-format mp4 -o "oNJ_ouDNNT0-16m50s.mp4"
+```
+</details>
 
 > "Our price target is $2,600. I think it's at $330 today. And we have very little for humanoid robots in there. But what Elon is capitalizing on is this convergence: robotics, energy storage, and AI."
 > -- Cathie Wood, [16:50](https://www.youtube.com/watch?v=oNJ_ouDNNT0&t=1010s)
 
 ### "We are moving out of Delaware"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oNJ_ouDNNT0?start=1105&end=1145" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/oNJ_ouDNNT0/hqdefault.jpg)](https://www.youtube.com/watch?v=oNJ_ouDNNT0&t=1105s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:25-19:05" "https://www.youtube.com/watch?v=oNJ_ouDNNT0" --force-keyframes-at-cuts --merge-output-format mp4 -o "oNJ_ouDNNT0-18m25s.mp4"
+```
+</details>
 
 > "We are moving out of Delaware. They're not predictable now and they're activist. What business do they have overriding the shareholders of Tesla when it comes to a pay package?"
 > -- Cathie Wood, [18:30](https://www.youtube.com/watch?v=oNJ_ouDNNT0&t=1110s)

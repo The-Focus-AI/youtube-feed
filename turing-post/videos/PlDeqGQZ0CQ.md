@@ -31,35 +31,70 @@ When asked about the MCP vs A2A protocol debate, Amjad declares that "MCP won al
 
 ### "People Shouldn't Learn to Code"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PlDeqGQZ0CQ?start=0&end=55" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/PlDeqGQZ0CQ/hqdefault.jpg)](https://www.youtube.com/watch?v=PlDeqGQZ0CQ&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-0:55" "https://www.youtube.com/watch?v=PlDeqGQZ0CQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "PlDeqGQZ0CQ-0m00s.mp4"
+```
+</details>
 
 > "And now you're saying people shouldn't even learn to code. Turned out to be a very controversial statement. The main thing that changed was the progress in AI. Code is a means to program. It is not programming. It's actually very tedious. There's all these syntax issues with it. And I think agents are the next stage as we've gone to higher levels of abstraction since the start of computing."
 > — Amjad Masad, [0:00](https://www.youtube.com/watch?v=PlDeqGQZ0CQ&t=0s)
 
 ### "$1 Million ARR in 4 Hours"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PlDeqGQZ0CQ?start=305&end=360" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/PlDeqGQZ0CQ/hqdefault.jpg)](https://www.youtube.com/watch?v=PlDeqGQZ0CQ&t=305s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:05-6:00" "https://www.youtube.com/watch?v=PlDeqGQZ0CQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "PlDeqGQZ0CQ-5m05s.mp4"
+```
+</details>
 
 > "There's a story a few days ago that the CEO of the company... he built his entire product on Replit agents. It's actually a million dollar ARR business. So he has over a million in recurring revenue and he built the entire product, the MVP, in 4 hours."
 > — Amjad Masad, [5:05](https://www.youtube.com/watch?v=PlDeqGQZ0CQ&t=305s)
 
 ### "MCP Won Already"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PlDeqGQZ0CQ?start=1020&end=1065" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/PlDeqGQZ0CQ/hqdefault.jpg)](https://www.youtube.com/watch?v=PlDeqGQZ0CQ&t=1020s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*17:00-17:45" "https://www.youtube.com/watch?v=PlDeqGQZ0CQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "PlDeqGQZ0CQ-17m00s.mp4"
+```
+</details>
 
 > "I think MCP won already. You only need a slight edge with open source protocol and you're just zooming - it's really hard to catch up. Bitcoin and Ethereum - Ethereum will never catch up even though you can argue it's a better system. There's a first mover advantage that accumulates over time."
 > — Amjad Masad, [17:00](https://www.youtube.com/watch?v=PlDeqGQZ0CQ&t=1020s)
 
 ### "Consciousness as a Strange Loop"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PlDeqGQZ0CQ?start=1095&end=1155" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/PlDeqGQZ0CQ/hqdefault.jpg)](https://www.youtube.com/watch?v=PlDeqGQZ0CQ&t=1095s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:15-19:15" "https://www.youtube.com/watch?v=PlDeqGQZ0CQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "PlDeqGQZ0CQ-18m15s.mp4"
+```
+</details>
 
 > "There's a book called 'I Am a Strange Loop' and his whole thesis is that consciousness is an emergent component of a system that can self-reflect. The moment you can loop on yourself and self-reflect and have a model for yourself, you're actually conscious."
 > — Amjad Masad, [18:15](https://www.youtube.com/watch?v=PlDeqGQZ0CQ&t=1095s)
 
 ### "Access to Opportunity"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PlDeqGQZ0CQ?start=1162&end=1210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/PlDeqGQZ0CQ/hqdefault.jpg)](https://www.youtube.com/watch?v=PlDeqGQZ0CQ&t=1162s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*19:22-20:10" "https://www.youtube.com/watch?v=PlDeqGQZ0CQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "PlDeqGQZ0CQ-19m22s.mp4"
+```
+</details>
 
 > "One of the paradoxes of the internet is it was supposed to be this great equalizer where no matter where you are, you should be able to contribute and make money. But the wealth really concentrated in Silicon Valley. I think with AI it's going to be deflationary on many things including creating software - the costs will go down and there's going to be more opportunity for people in emerging markets."
 > — Amjad Masad, [19:22](https://www.youtube.com/watch?v=PlDeqGQZ0CQ&t=1162s)

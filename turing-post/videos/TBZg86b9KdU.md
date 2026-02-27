@@ -40,35 +40,70 @@ The bonus highlight covers Black Forest Labs' Flux Kontext release, which enable
 
 ### "My cloned voice speaks better English than I do"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TBZg86b9KdU?start=70&end=98" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/TBZg86b9KdU/hqdefault.jpg)](https://www.youtube.com/watch?v=TBZg86b9KdU&t=70s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:10-1:38" "https://www.youtube.com/watch?v=TBZg86b9KdU" --force-keyframes-at-cuts --merge-output-format mp4 -o "TBZg86b9KdU-1m10s.mp4"
+```
+</details>
 
 > "It sounds like my sister became a robot. The best part about it is that the English of this voice is better than mine."
 > — Ksenia testing Resemble AI, [1:10](https://www.youtube.com/watch?v=TBZg86b9KdU&t=70s)
 
 ### "Doctors cutting documentation time from 90 to 30 minutes"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TBZg86b9KdU?start=102&end=145" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/TBZg86b9KdU/hqdefault.jpg)](https://www.youtube.com/watch?v=TBZg86b9KdU&t=102s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:42-2:25" "https://www.youtube.com/watch?v=TBZg86b9KdU" --force-keyframes-at-cuts --merge-output-format mp4 -o "TBZg86b9KdU-1m42s.mp4"
+```
+</details>
 
 > "I just read that a lot of doctors now use AI to record the conversations with the patients and then transcribe it and that it saves them. Usually it took them 90 minutes to prepare the documentation for patients and now it reduced to 30 minutes."
 > — Ksenia, [1:42](https://www.youtube.com/watch?v=TBZg86b9KdU&t=102s)
 
 ### "Veo 3 - So unintuitive that I don't understand how to use it"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TBZg86b9KdU?start=423&end=450" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/TBZg86b9KdU/hqdefault.jpg)](https://www.youtube.com/watch?v=TBZg86b9KdU&t=423s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:03-7:30" "https://www.youtube.com/watch?v=TBZg86b9KdU" --force-keyframes-at-cuts --merge-output-format mp4 -o "TBZg86b9KdU-7m03s.mp4"
+```
+</details>
 
 > "It's so not intuitive and not clear that a user like me who sees the computer not for the first time does not understand how to make a video with Veo 3. And it took me 11 minutes to just work with this little thing and I haven't even received two scenes. So again, not there yet."
 > — Ksenia, [7:03](https://www.youtube.com/watch?v=TBZg86b9KdU&t=423s)
 
 ### "Odyssey interactive video - A new form of storytelling"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TBZg86b9KdU?start=502&end=565" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/TBZg86b9KdU/hqdefault.jpg)](https://www.youtube.com/watch?v=TBZg86b9KdU&t=502s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:22-9:25" "https://www.youtube.com/watch?v=TBZg86b9KdU" --force-keyframes-at-cuts --merge-output-format mp4 -o "TBZg86b9KdU-8m22s.mp4"
+```
+</details>
 
 > "So, not only you can move in this world, which is exciting, but you can also switch the world channels. That's so awesome. Now imagine creating games with this outstanding format. This is truly a new form of storytelling."
 > — Ksenia, [8:22](https://www.youtube.com/watch?v=TBZg86b9KdU&t=502s)
 
 ### "Flux Kontext - Magic image editing"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TBZg86b9KdU?start=613&end=657" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/TBZg86b9KdU/hqdefault.jpg)](https://www.youtube.com/watch?v=TBZg86b9KdU&t=613s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:13-10:57" "https://www.youtube.com/watch?v=TBZg86b9KdU" --force-keyframes-at-cuts --merge-output-format mp4 -o "TBZg86b9KdU-10m13s.mp4"
+```
+</details>
 
 > "The coolest part about new Flux Kontext is that you can choose a picture and then you can edit it with your prompt. Magic, right? The image generation is pretty consistent."
 > — Ksenia, [10:13](https://www.youtube.com/watch?v=TBZg86b9KdU&t=613s)

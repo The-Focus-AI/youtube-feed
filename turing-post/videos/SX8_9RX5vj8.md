@@ -35,28 +35,56 @@ The central argument is that AI hallucinations should not be viewed as errors bu
 
 ### "Machine Hallucinations Are Creative Processes, Not Flaws"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SX8_9RX5vj8?start=153&end=210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SX8_9RX5vj8/hqdefault.jpg)](https://www.youtube.com/watch?v=SX8_9RX5vj8&t=153s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:33-3:30" "https://www.youtube.com/watch?v=SX8_9RX5vj8" --force-keyframes-at-cuts --merge-output-format mp4 -o "SX8_9RX5vj8-2m33s.mp4"
+```
+</details>
 
 > "Machine hallucinations become a creative process. It's not a flaw. It's not something wrong. It's actually a moment that you can use to create art."
 > — Refik Anadol, [2:52](https://www.youtube.com/watch?v=SX8_9RX5vj8&t=172s)
 
 ### "He Wants to Know If Buildings Can Dream"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SX8_9RX5vj8?start=268&end=325" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SX8_9RX5vj8/hqdefault.jpg)](https://www.youtube.com/watch?v=SX8_9RX5vj8&t=268s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:28-5:25" "https://www.youtube.com/watch?v=SX8_9RX5vj8" --force-keyframes-at-cuts --merge-output-format mp4 -o "SX8_9RX5vj8-4m28s.mp4"
+```
+</details>
 
 > "He wants to know if buildings can dream. And AI is that tool for him that allows him to imagine how machine hallucinates, how buildings dream, what they think about."
 > — Turing Post Host, [4:47](https://www.youtube.com/watch?v=SX8_9RX5vj8&t=287s)
 
 ### "A Diver Who Brings Back Souvenirs from the Hidden World"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SX8_9RX5vj8?start=303&end=355" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SX8_9RX5vj8/hqdefault.jpg)](https://www.youtube.com/watch?v=SX8_9RX5vj8&t=303s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:03-5:55" "https://www.youtube.com/watch?v=SX8_9RX5vj8" --force-keyframes-at-cuts --merge-output-format mp4 -o "SX8_9RX5vj8-5m03s.mp4"
+```
+</details>
 
 > "He sees himself as a diver who brings back souvenirs from that hidden world."
 > — Turing Post Host on Refik Anadol, [5:15](https://www.youtube.com/watch?v=SX8_9RX5vj8&t=315s)
 
 ### "The Architect Becomes a Curator, Buildings Become Dream Engines"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SX8_9RX5vj8?start=352&end=400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SX8_9RX5vj8/hqdefault.jpg)](https://www.youtube.com/watch?v=SX8_9RX5vj8&t=352s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:52-6:40" "https://www.youtube.com/watch?v=SX8_9RX5vj8" --force-keyframes-at-cuts --merge-output-format mp4 -o "SX8_9RX5vj8-5m52s.mp4"
+```
+</details>
 
 > "The architect becomes a curator. The buildings become a dream engine. It's just beautiful."
 > — Turing Post Host, [6:15](https://www.youtube.com/watch?v=SX8_9RX5vj8&t=375s)

@@ -38,35 +38,70 @@ Key findings: Wrangler beats Levi's for raw denim value, Muji Labo makes loopwhe
 
 ### "$400 sweatshirts and $10 sweatshirts, $1,000 jeans and $12 jeans"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A6SkEwdjj-8?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/A6SkEwdjj-8/hqdefault.jpg)](https://www.youtube.com/watch?v=A6SkEwdjj-8&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-1:00" "https://www.youtube.com/watch?v=A6SkEwdjj-8" --force-keyframes-at-cuts --merge-output-format mp4 -o "A6SkEwdjj-8-0m00s.mp4"
+```
+</details>
 
 > "We've looked at $400 sweatshirts and $10 sweatshirts, $1,000 jeans and $12 jeans, $200 t-shirts, $1 t-shirt. But big question of this video, out of all of those that we've gone over so far, what's the highest quality for the lowest price?"
 > — Michael, [0:00](https://www.youtube.com/watch?v=A6SkEwdjj-8&t=0s)
 
 ### "Wrangler takes the cake - industry disruptors"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A6SkEwdjj-8?start=105&end=165" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/A6SkEwdjj-8/hqdefault.jpg)](https://www.youtube.com/watch?v=A6SkEwdjj-8&t=105s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:45-2:45" "https://www.youtube.com/watch?v=A6SkEwdjj-8" --force-keyframes-at-cuts --merge-output-format mp4 -o "A6SkEwdjj-8-1m45s.mp4"
+```
+</details>
 
 > "Wrangler takes the cake from me just because they came in historically as the industry disruptors. They came in way after Levi's. So that brand was able to take a pair of jeans, a denim jacket, and be like, 'Okay, if we were going to make these legends better, what would we do?'"
 > — Michael, [1:45](https://www.youtube.com/watch?v=A6SkEwdjj-8&t=105s)
 
 ### "Muji Labo makes loopwheel sweatshirts"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A6SkEwdjj-8?start=360&end=420" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/A6SkEwdjj-8/hqdefault.jpg)](https://www.youtube.com/watch?v=A6SkEwdjj-8&t=360s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:00-7:00" "https://www.youtube.com/watch?v=A6SkEwdjj-8" --force-keyframes-at-cuts --merge-output-format mp4 -o "A6SkEwdjj-8-6m00s.mp4"
+```
+</details>
 
 > "Here's the surprise: Muji Labo makes loopwheel sweatshirts. Loopwheel is the slow, vintage knitting method that produces exceptional fabric - soft, stretchy, durable. Usually costs a fortune. Muji Labo offers it at a fraction."
 > — Michael, [6:00](https://www.youtube.com/watch?v=A6SkEwdjj-8&t=360s)
 
 ### "Gildan Hammer is surprisingly good"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A6SkEwdjj-8?start=495&end=555" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/A6SkEwdjj-8/hqdefault.jpg)](https://www.youtube.com/watch?v=A6SkEwdjj-8&t=495s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:15-9:15" "https://www.youtube.com/watch?v=A6SkEwdjj-8" --force-keyframes-at-cuts --merge-output-format mp4 -o "A6SkEwdjj-8-8m15s.mp4"
+```
+</details>
 
 > "Gildan Hammer T-Shirt is surprisingly good. Yes, Gildan. The Hammer line specifically delivers better than expected quality. Genuine value entry point."
 > — Michael, [8:15](https://www.youtube.com/watch?v=A6SkEwdjj-8&t=495s)
 
 ### "Dead turtle. That's very sad."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A6SkEwdjj-8?start=70&end=130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/A6SkEwdjj-8/hqdefault.jpg)](https://www.youtube.com/watch?v=A6SkEwdjj-8&t=70s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:10-2:10" "https://www.youtube.com/watch?v=A6SkEwdjj-8" --force-keyframes-at-cuts --merge-output-format mp4 -o "A6SkEwdjj-8-1m10s.mp4"
+```
+</details>
 
 > "Dead turtle. That's very sad. Very sad. Today we're trying to find the golden geese. I knew when I said that that was wrong. The word is obviously golden geek."
 > — Michael, [1:20](https://www.youtube.com/watch?v=A6SkEwdjj-8&t=80s)

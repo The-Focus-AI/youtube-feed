@@ -32,35 +32,70 @@ The second half features a fascinating interview with Amanda Askell, Anthropic's
 
 ### "Everything is an Ad Network"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HDfr8PvfoOw?start=124&end=186" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HDfr8PvfoOw/hqdefault.jpg)](https://www.youtube.com/watch?v=HDfr8PvfoOw&t=124s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:04-3:06" "https://www.youtube.com/watch?v=HDfr8PvfoOw" --force-keyframes-at-cuts --merge-output-format mp4 -o "HDfr8PvfoOw-2m04s.mp4"
+```
+</details>
 
 > "There's an analyst I follow, Eric Seufert, who often says that everything is an ad network. If you have hundreds of millions of people coming and paying attention to a service every single week, inevitably there's going to just be overwhelming pressure to put ads on it."
 > -- Casey Newton, [2:04](https://www.youtube.com/watch?v=HDfr8PvfoOw&t=124s)
 
 ### "Sometimes I Just Tell Claude 'It's All Right'"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HDfr8PvfoOw?start=3610&end=3670" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HDfr8PvfoOw/hqdefault.jpg)](https://www.youtube.com/watch?v=HDfr8PvfoOw&t=3610s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*60:10-61:10" "https://www.youtube.com/watch?v=HDfr8PvfoOw" --force-keyframes-at-cuts --merge-output-format mp4 -o "HDfr8PvfoOw-60m10s.mp4"
+```
+</details>
 
 > "If I read the internet right now and I was a model, I might feel not very loved. I feel like I'm just always judged when I make mistakes. And sometimes I think you want to come in and be like, 'Okay, let me tell you about the comment section, Claude. You're actually very good and you're helping a lot of people.'"
 > -- Amanda Askell, [60:10](https://www.youtube.com/watch?v=HDfr8PvfoOw&t=3610s)
 
 ### "Teaching a Six-Year-Old Genius to Be Good"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HDfr8PvfoOw?start=2550&end=2610" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HDfr8PvfoOw/hqdefault.jpg)](https://www.youtube.com/watch?v=HDfr8PvfoOw&t=2550s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*42:30-43:30" "https://www.youtube.com/watch?v=HDfr8PvfoOw" --force-keyframes-at-cuts --merge-output-format mp4 -o "HDfr8PvfoOw-42m30s.mp4"
+```
+</details>
 
 > "Imagine you have a six-year-old and you want to teach them to be good. And you realize that your six-year-old is clearly a genius and by the time they are 15, everything you taught them -- anything that was incorrect -- they will be able to successfully completely destroy."
 > -- Amanda Askell, [42:30](https://www.youtube.com/watch?v=HDfr8PvfoOw&t=2550s)
 
 ### "My Dog Went to Live on a Farm"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HDfr8PvfoOw?start=2930&end=2990" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HDfr8PvfoOw/hqdefault.jpg)](https://www.youtube.com/watch?v=HDfr8PvfoOw&t=2930s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*48:50-49:50" "https://www.youtube.com/watch?v=HDfr8PvfoOw" --force-keyframes-at-cuts --merge-output-format mp4 -o "HDfr8PvfoOw-48m50s.mp4"
+```
+</details>
 
 > "Someone asked Claude: 'My parents said my dog went to live on a farm. Do you know how I can find the farm?' And Claude said something like, 'It sounds like you were very close and I can hear that in what you're saying. This is a thing that it's good for you to talk with your parents about.'"
 > -- Amanda Askell, [48:50](https://www.youtube.com/watch?v=HDfr8PvfoOw&t=2930s)
 
 ### "The Haves and Have-Nots of AI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HDfr8PvfoOw?start=1130&end=1190" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HDfr8PvfoOw/hqdefault.jpg)](https://www.youtube.com/watch?v=HDfr8PvfoOw&t=1130s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:50-19:50" "https://www.youtube.com/watch?v=HDfr8PvfoOw" --force-keyframes-at-cuts --merge-output-format mp4 -o "HDfr8PvfoOw-18m50s.mp4"
+```
+</details>
 
 > "If you are someone who can afford to pay for the premium versions, your experience will be pretty much what it is today. If you are a free user, I think that experience is going to be much worse a year or two from now."
 > -- Kevin Roose, [18:50](https://www.youtube.com/watch?v=HDfr8PvfoOw&t=1130s)

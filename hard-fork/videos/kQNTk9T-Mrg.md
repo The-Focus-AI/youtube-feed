@@ -44,35 +44,70 @@ The episode closes with the annual Hard Forking Christmas carol, a tech-themed r
 
 ### "iRobot Was Roadkill"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kQNTk9T-Mrg?start=810&end=870" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kQNTk9T-Mrg/hqdefault.jpg)](https://www.youtube.com/watch?v=kQNTk9T-Mrg&t=810s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:30-14:30" "https://www.youtube.com/watch?v=kQNTk9T-Mrg" --force-keyframes-at-cuts --merge-output-format mp4 -o "kQNTk9T-Mrg-13m30s.mp4"
+```
+</details>
 
 > "I believe iRobot had nothing to do with the blocking of the deal with the FTC. I believe iRobot was -- this is Colin's personal view -- we were roadkill."
 > -- Colin Angle, [13:30](https://www.youtube.com/watch?v=kQNTk9T-Mrg&t=810s)
 
 ### "We Got Wet Mopping Wrong"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kQNTk9T-Mrg?start=580&end=640" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kQNTk9T-Mrg/hqdefault.jpg)](https://www.youtube.com/watch?v=kQNTk9T-Mrg&t=580s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:40-10:40" "https://www.youtube.com/watch?v=kQNTk9T-Mrg" --force-keyframes-at-cuts --merge-output-format mp4 -o "kQNTk9T-Mrg-9m40s.mp4"
+```
+</details>
 
 > "Honestly, we got wet mopping wrong. We built our first mopping robot two years after Roomba and we felt like creating an independent mopping solution was the right strategy. But the customer didn't go for it. It was never going to work as an independent product. I deserve arrows for mopping."
 > -- Colin Angle, [9:40](https://www.youtube.com/watch?v=kQNTk9T-Mrg&t=580s)
 
 ### "Casey's Spicy Apple CEO Prediction"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kQNTk9T-Mrg?start=2880&end=2940" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kQNTk9T-Mrg/hqdefault.jpg)](https://www.youtube.com/watch?v=kQNTk9T-Mrg&t=2880s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*48:00-49:00" "https://www.youtube.com/watch?v=kQNTk9T-Mrg" --force-keyframes-at-cuts --merge-output-format mp4 -o "kQNTk9T-Mrg-48m00s.mp4"
+```
+</details>
 
 > "My low confidence prediction for 2026 is that Apple will replace Tim Cook after his retirement with an outside CEO. Dark horse candidates: Jony Ive, Brian Chesky, or Mira Murati."
 > -- Kevin Roose, [48:00](https://www.youtube.com/watch?v=kQNTk9T-Mrg&t=2880s)
 
 ### "Casey Goes Three for Three on 2025 Predictions"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kQNTk9T-Mrg?start=1620&end=1680" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kQNTk9T-Mrg/hqdefault.jpg)](https://www.youtube.com/watch?v=kQNTk9T-Mrg&t=1620s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*27:00-28:00" "https://www.youtube.com/watch?v=kQNTk9T-Mrg" --force-keyframes-at-cuts --merge-output-format mp4 -o "kQNTk9T-Mrg-27m00s.mp4"
+```
+</details>
 
 > "X and XAI merged in March in an all-stock deal. If you listened to our predictions episode last year and placed a large bet on the Casey Newton low confidence prediction, you made some money."
 > -- Casey Newton, [27:00](https://www.youtube.com/watch?v=kQNTk9T-Mrg&t=1620s)
 
 ### "An AI Company Will Solve a Millennium Prize Problem"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kQNTk9T-Mrg?start=1860&end=1920" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kQNTk9T-Mrg/hqdefault.jpg)](https://www.youtube.com/watch?v=kQNTk9T-Mrg&t=1860s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*31:00-32:00" "https://www.youtube.com/watch?v=kQNTk9T-Mrg" --force-keyframes-at-cuts --merge-output-format mp4 -o "kQNTk9T-Mrg-31m00s.mp4"
+```
+</details>
 
 > "My high confidence prediction for 2026 is that an AI company will solve one of the Millennium Prize problems -- these seven hardest unsolved problems in mathematics with a million-dollar prize each."
 > -- Kevin Roose, [31:00](https://www.youtube.com/watch?v=kQNTk9T-Mrg&t=1860s)

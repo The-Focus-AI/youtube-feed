@@ -33,35 +33,70 @@ Second, they discuss the fascinating case of Daniel Stenberg, creator of curl (t
 
 ### "If you have unlimited inventory, nothing is interesting"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kMz317CHnIk?start=1570&end=1630" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kMz317CHnIk/hqdefault.jpg)](https://www.youtube.com/watch?v=kMz317CHnIk&t=1570s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*26:10-27:10" "https://www.youtube.com/watch?v=kMz317CHnIk" --force-keyframes-at-cuts --merge-output-format mp4 -o "kMz317CHnIk-26m10s.mp4"
+```
+</details>
 
 > "If you have unlimited inventory, nothing is interesting. If you showed me one of these outside the AI slop revolution, I'd be like, 'Oh, wow. That's interesting.' Because I'm not seeing it a thousand different ways all day."
 > -- Rich Zotti, [26:10](https://www.youtube.com/watch?v=kMz317CHnIk&t=1570s)
 
 ### "Only engineers are above expectations in AI adoption"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kMz317CHnIk?start=680&end=740" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kMz317CHnIk/hqdefault.jpg)](https://www.youtube.com/watch?v=kMz317CHnIk&t=680s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:20-12:20" "https://www.youtube.com/watch?v=kMz317CHnIk" --force-keyframes-at-cuts --merge-output-format mp4 -o "kMz317CHnIk-11m20s.mp4"
+```
+</details>
 
 > "There is no revolution happening except in engineering. When you work in tech it feels like the world. But man, the fisheries industry -- not really all over AI."
 > -- Paul Ford, [11:20](https://www.youtube.com/watch?v=kMz317CHnIk&t=680s)
 
 ### "The body rejects the transplant"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kMz317CHnIk?start=910&end=970" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kMz317CHnIk/hqdefault.jpg)](https://www.youtube.com/watch?v=kMz317CHnIk&t=910s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:10-16:10" "https://www.youtube.com/watch?v=kMz317CHnIk" --force-keyframes-at-cuts --merge-output-format mp4 -o "kMz317CHnIk-15m10s.mp4"
+```
+</details>
 
 > "It's sort of like you get the liver transplant and then you wait to see if the body rejects it or not. This is a transplant of new technology into the culture. And very often the body is like, I just don't want any part of this. I'd really actually rather not survive."
 > -- Rich Zotti, [15:10](https://www.youtube.com/watch?v=kMz317CHnIk&t=910s)
 
 ### "The robots intelligently guided find dozens of credible bugs"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kMz317CHnIk?start=1240&end=1300" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kMz317CHnIk/hqdefault.jpg)](https://www.youtube.com/watch?v=kMz317CHnIk&t=1240s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:40-21:40" "https://www.youtube.com/watch?v=kMz317CHnIk" --force-keyframes-at-cuts --merge-output-format mp4 -o "kMz317CHnIk-20m40s.mp4"
+```
+</details>
 
 > "I've been programming for 25 years. I'm not going to find a bug in curl. But the robots intelligently guided find dozens of some of them pretty serious, credible bugs to harden and improve the product."
 > -- Paul Ford, [20:40](https://www.youtube.com/watch?v=kMz317CHnIk&t=1240s)
 
 ### "Slop is forgettable strip mall garbage"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kMz317CHnIk?start=1840&end=1900" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kMz317CHnIk/hqdefault.jpg)](https://www.youtube.com/watch?v=kMz317CHnIk&t=1840s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*30:40-31:40" "https://www.youtube.com/watch?v=kMz317CHnIk" --force-keyframes-at-cuts --merge-output-format mp4 -o "kMz317CHnIk-30m40s.mp4"
+```
+</details>
 
 > "Slop. It's a perfect word. Forgettable strip mall garbage. It's the visual equivalent of auto-generated filler music for malls."
 > -- Paul Ford & Rich Zotti, [30:40](https://www.youtube.com/watch?v=kMz317CHnIk&t=1840s)

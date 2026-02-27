@@ -39,42 +39,84 @@ The conversation covers Zipline's scrappy beginnings, their decision to launch i
 
 ### "99% of the world is dying for innovation - that's the story of Zipline"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fZNLLYzjB2w?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/fZNLLYzjB2w/hqdefault.jpg)](https://www.youtube.com/watch?v=fZNLLYzjB2w&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-1:00" "https://www.youtube.com/watch?v=fZNLLYzjB2w" --force-keyframes-at-cuts --merge-output-format mp4 -o "fZNLLYzjB2w-0m00s.mp4"
+```
+</details>
 
 > "The places that have the most access to technology are the places that appreciate it the least. 99% of the world isn't that - they're dying for innovation, dying for a tech startup to show up and help them solve problems in a really innovative way. That's kind of been the story of Zipline."
 > — Keller Cliffton, [0:00](https://www.youtube.com/watch?v=fZNLLYzjB2w&t=0s)
 
 ### "Our board member asked: Is this how you thought it would end?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fZNLLYzjB2w?start=470&end=535" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/fZNLLYzjB2w/hqdefault.jpg)](https://www.youtube.com/watch?v=fZNLLYzjB2w&t=470s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:50-8:55" "https://www.youtube.com/watch?v=fZNLLYzjB2w" --force-keyframes-at-cuts --merge-output-format mp4 -o "fZNLLYzjB2w-7m50s.mp4"
+```
+</details>
 
 > "I remember a conversation with our board member at the time who basically said, 'Is this how you thought it would end?' He was 100% sure that the company was dead. Like, there was no question in his mind. And I was like, well, it isn't over."
 > — Keller Cliffton, [7:50](https://www.youtube.com/watch?v=fZNLLYzjB2w&t=470s)
 
 ### "We do this not because it is easy, but because we thought it would be easy"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fZNLLYzjB2w?start=548&end=615" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/fZNLLYzjB2w/hqdefault.jpg)](https://www.youtube.com/watch?v=fZNLLYzjB2w&t=548s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:08-10:15" "https://www.youtube.com/watch?v=fZNLLYzjB2w" --force-keyframes-at-cuts --merge-output-format mp4 -o "fZNLLYzjB2w-9m08s.mp4"
+```
+</details>
 
 > "I saw this picture on Twitter: we do this not because it is easy - but because we thought it would be easy. This is like the definition of Zipline. A certain amount of naivete is 100% required. If you knew how hard it was going to be, you probably would not try at all."
 > — Keller Cliffton, [9:08](https://www.youtube.com/watch?v=fZNLLYzjB2w&t=548s)
 
 ### "Shut up. Just do blood."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fZNLLYzjB2w?start=795&end=860" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/fZNLLYzjB2w/hqdefault.jpg)](https://www.youtube.com/watch?v=fZNLLYzjB2w&t=795s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:15-14:20" "https://www.youtube.com/watch?v=fZNLLYzjB2w" --force-keyframes-at-cuts --merge-output-format mp4 -o "fZNLLYzjB2w-13m15s.mp4"
+```
+</details>
 
 > "I'm pitching the Minister of Health of Rwanda in a hoodie. I said we'll deliver every medical product in the supply chain. She looked at me and said, 'Keller, shut up. Just do blood.' 50% of transfusions go toward moms with postpartum hemorrhaging, 30% toward kids under five."
 > — Keller Cliffton, [13:15](https://www.youtube.com/watch?v=fZNLLYzjB2w&t=795s)
 
 ### "My co-founders bought deep sea fishing poles from Walmart to build our recovery system"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fZNLLYzjB2w?start=378&end=445" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/fZNLLYzjB2w/hqdefault.jpg)](https://www.youtube.com/watch?v=fZNLLYzjB2w&t=378s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:18-7:25" "https://www.youtube.com/watch?v=fZNLLYzjB2w" --force-keyframes-at-cuts --merge-output-format mp4 -o "fZNLLYzjB2w-6m18s.mp4"
+```
+</details>
 
 > "My co-founders went to Walmart and bought two deep sea fishing poles, built a metal hinge, bolted it into the ground, strung a line between them, and flew the aircraft at those fishing poles. It worked. That became snapcatch, which has now recovered 1.8 million aircraft."
 > — Keller Cliffton, [6:18](https://www.youtube.com/watch?v=fZNLLYzjB2w&t=378s)
 
 ### "Normal delivery platforms have -10 to -20 NPS. We have 95."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fZNLLYzjB2w?start=19&end=80" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/fZNLLYzjB2w/hqdefault.jpg)](https://www.youtube.com/watch?v=fZNLLYzjB2w&t=19s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:19-1:20" "https://www.youtube.com/watch?v=fZNLLYzjB2w" --force-keyframes-at-cuts --merge-output-format mp4 -o "fZNLLYzjB2w-0m19s.mp4"
+```
+</details>
 
 > "Normal delivery platforms actually have net promoter scores of like -10, -20. The service right now has a net promoter score of 95. We deliver to apartments, townhomes, hotels, even public parks. We're hitting new record numbers of deliveries practically every day."
 > — Keller Cliffton, [0:19](https://www.youtube.com/watch?v=fZNLLYzjB2w&t=19s)

@@ -43,42 +43,84 @@ The lecture then pivots to the present day, applying the maritime-continental fr
 
 ### "Britain -- the country with the 360-degree moat"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SdMgOXfSBQw?start=50&end=110" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SdMgOXfSBQw/hqdefault.jpg)](https://www.youtube.com/watch?v=SdMgOXfSBQw&t=50s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:50-1:50" "https://www.youtube.com/watch?v=SdMgOXfSBQw" --force-keyframes-at-cuts --merge-output-format mp4 -o "SdMgOXfSBQw-0m50s.mp4"
+```
+</details>
 
 > "It turns out that the possibilities for maritime powers are fundamentally different. Basically, a small subset of countries can do things that open certain possibilities. Others can't. I'm going to talk about this story through the country with the 360-degree 'you can't get me' moat."
 > -- Sarah Paine, [0:50](https://www.youtube.com/watch?v=SdMgOXfSBQw&t=50s)
 
 ### "Germany should have bought U-boats, not pocket battleships"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SdMgOXfSBQw?start=1720&end=1780" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SdMgOXfSBQw/hqdefault.jpg)](https://www.youtube.com/watch?v=SdMgOXfSBQw&t=1720s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*28:40-29:40" "https://www.youtube.com/watch?v=SdMgOXfSBQw" --force-keyframes-at-cuts --merge-output-format mp4 -o "SdMgOXfSBQw-28m40s.mp4"
+```
+</details>
 
 > "Germany, surrounded by narrow seas, ought to think about submarines. If you look at why the war turned out the way it did, it's that Germany bought the wrong navy. Arguably, Germany bought the wrong navy twice. It should have bought a lot of U-boats and started earlier."
 > -- Sarah Paine, [28:40](https://www.youtube.com/watch?v=SdMgOXfSBQw&t=1720s)
 
 ### "The Battle of the Atlantic turns in May 1943"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SdMgOXfSBQw?start=1568&end=1630" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SdMgOXfSBQw/hqdefault.jpg)](https://www.youtube.com/watch?v=SdMgOXfSBQw&t=1568s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*26:08-27:10" "https://www.youtube.com/watch?v=SdMgOXfSBQw" --force-keyframes-at-cuts --merge-output-format mp4 -o "SdMgOXfSBQw-26m08s.mp4"
+```
+</details>
 
 > "The kill rate is so high that in May of 1943, Donitz loses 25% of all deployed U-boats in a single month. That's a massive percentage of what they have. He pulls them out of the North Atlantic because it's become a death trap."
 > -- Sarah Paine, [26:08](https://www.youtube.com/watch?v=SdMgOXfSBQw&t=1568s)
 
 ### "Putin's sad naval story"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SdMgOXfSBQw?start=3180&end=3240" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SdMgOXfSBQw/hqdefault.jpg)](https://www.youtube.com/watch?v=SdMgOXfSBQw&t=3180s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*53:00-54:00" "https://www.youtube.com/watch?v=SdMgOXfSBQw" --force-keyframes-at-cuts --merge-output-format mp4 -o "SdMgOXfSBQw-53m00s.mp4"
+```
+</details>
 
 > "Putin's got one aircraft carrier, the Admiral Kuznetsov. Long time to be in the shop. It sank the dry dock that Russia has to repair it, and then there's been all sorts of charges of corruption. It's not getting repaired anytime fast."
 > -- Sarah Paine, [53:00](https://www.youtube.com/watch?v=SdMgOXfSBQw&t=3180s)
 
 ### "If we blow our alliance system, it's not going to go well"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SdMgOXfSBQw?start=4680&end=4740" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SdMgOXfSBQw/hqdefault.jpg)](https://www.youtube.com/watch?v=SdMgOXfSBQw&t=4680s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*78:00-79:00" "https://www.youtube.com/watch?v=SdMgOXfSBQw" --force-keyframes-at-cuts --merge-output-format mp4 -o "SdMgOXfSBQw-78m00s.mp4"
+```
+</details>
 
 > "If we blow our alliance system, we're going to be in a position where things don't go well. Particularly if we think we're going to go it alone against China and think that'll go well for us. It won't."
 > -- Sarah Paine, [1:18:00](https://www.youtube.com/watch?v=SdMgOXfSBQw&t=4680s)
 
 ### "The thing worse than fighting with allies"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SdMgOXfSBQw?start=2640&end=2700" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SdMgOXfSBQw/hqdefault.jpg)](https://www.youtube.com/watch?v=SdMgOXfSBQw&t=2640s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*44:00-45:00" "https://www.youtube.com/watch?v=SdMgOXfSBQw" --force-keyframes-at-cuts --merge-output-format mp4 -o "SdMgOXfSBQw-44m00s.mp4"
+```
+</details>
 
 > "Churchill, the great wit, talked about the thing worse than fighting with allies, and that's fighting without them. You need these complementary capabilities to gang up on your continental problem."
 > -- Sarah Paine, [44:00](https://www.youtube.com/watch?v=SdMgOXfSBQw&t=2640s)

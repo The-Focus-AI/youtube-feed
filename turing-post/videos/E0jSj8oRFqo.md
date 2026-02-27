@@ -35,35 +35,70 @@ The video emphasizes that understanding where AI is heading requires looking at 
 
 ### "Consciousness emerges from systems that can self-reflect"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E0jSj8oRFqo?start=97&end=155" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/E0jSj8oRFqo/hqdefault.jpg)](https://www.youtube.com/watch?v=E0jSj8oRFqo&t=97s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:37-2:35" "https://www.youtube.com/watch?v=E0jSj8oRFqo" --force-keyframes-at-cuts --merge-output-format mp4 -o "E0jSj8oRFqo-1m37s.mp4"
+```
+</details>
 
 > "There's a book called I Am a Strange Loop and his whole thesis is that consciousness is an emergent component of a system that can self-reflect. So the moment you can loop on yourself and self-reflect and have a model for yourself you're actually conscious."
 > — Amjad Masad, [1:37](https://www.youtube.com/watch?v=E0jSj8oRFqo&t=97s)
 
 ### "The power of text predicted LLMs"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E0jSj8oRFqo?start=255&end=315" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/E0jSj8oRFqo/hqdefault.jpg)](https://www.youtube.com/watch?v=E0jSj8oRFqo&t=255s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:15-5:15" "https://www.youtube.com/watch?v=E0jSj8oRFqo" --force-keyframes-at-cuts --merge-output-format mp4 -o "E0jSj8oRFqo-4m15s.mp4"
+```
+</details>
 
 > "Even though it was written like in 1980s long before any AI happened, basically what it describes is the power of the text and the power of literally letters. It describes how actually the simple sequence of letters, the simple text can create by itself the whole new concepts, the whole new societies, the whole new religions."
 > — Olga Megorskaya on Foucault's Pendulum, [4:15](https://www.youtube.com/watch?v=E0jSj8oRFqo&t=255s)
 
 ### "He could never defeat an enemy unless he loved them"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E0jSj8oRFqo?start=687&end=745" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/E0jSj8oRFqo/hqdefault.jpg)](https://www.youtube.com/watch?v=E0jSj8oRFqo&t=687s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:27-12:25" "https://www.youtube.com/watch?v=E0jSj8oRFqo" --force-keyframes-at-cuts --merge-output-format mp4 -o "E0jSj8oRFqo-11m27s.mp4"
+```
+</details>
 
 > "One of the lines in it is he could never defeat an enemy unless he loved them because it's once you love someone that you really understand their weakness. And it's like one of the most beautiful lines in this book."
 > — Anneka Gupta on Ender's Game, [13:35](https://www.youtube.com/watch?v=E0jSj8oRFqo&t=815s)
 
 ### "The biggest fiction of all is money"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E0jSj8oRFqo?start=1239&end=1295" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/E0jSj8oRFqo/hqdefault.jpg)](https://www.youtube.com/watch?v=E0jSj8oRFqo&t=1239s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:39-21:35" "https://www.youtube.com/watch?v=E0jSj8oRFqo" --force-keyframes-at-cuts --merge-output-format mp4 -o "E0jSj8oRFqo-20m39s.mp4"
+```
+</details>
 
 > "One of the key insights they have in this book, it's our ability to believe in stories in fiction... And one of the funny lines they have in the book is the biggest fiction of all that we all believe in is money. Holding like a $100, that sheet of paper has no value. If you go to a monkey and give them $100 and a banana, they will take the banana every time."
 > — Amr Awadallah on Sapiens, [20:39](https://www.youtube.com/watch?v=E0jSj8oRFqo&t=1239s)
 
 ### "Breakthroughs come from years of grinding"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E0jSj8oRFqo?start=841&end=900" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/E0jSj8oRFqo/hqdefault.jpg)](https://www.youtube.com/watch?v=E0jSj8oRFqo&t=841s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:01-15:00" "https://www.youtube.com/watch?v=E0jSj8oRFqo" --force-keyframes-at-cuts --merge-output-format mp4 -o "E0jSj8oRFqo-14m01s.mp4"
+```
+</details>
 
 > "It's super interesting reading about the daily rituals of these people because you realize that the insight or the art or the breakthrough whatever it might be were created not from a single insight but really from many years of grinding away and iterating on things before they found that insight."
 > — Ulrik Hansen on Daily Rituals, [14:01](https://www.youtube.com/watch?v=E0jSj8oRFqo&t=841s)

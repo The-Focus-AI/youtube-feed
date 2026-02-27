@@ -34,42 +34,84 @@ This episode serves as an excellent overview of where AI stands at the beginning
 
 ### "The DeepSeek moment really won the hearts of the people who work on open models"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EV7WhVT270Q?start=117&end=180" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EV7WhVT270Q/hqdefault.jpg)](https://www.youtube.com/watch?v=EV7WhVT270Q&t=117s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:57-3:00" "https://www.youtube.com/watch?v=EV7WhVT270Q" --force-keyframes-at-cuts --merge-output-format mp4 -o "EV7WhVT270Q-1m57s.mp4"
+```
+</details>
 
 > "The DeepSeek moment really won the hearts of the people who work on open models. I don't think there will be a take-it-all scenario where one company wins at the moment."
 > — Sebastian Raschka, [1:57](https://www.youtube.com/watch?v=EV7WhVT270Q&t=117s)
 
 ### "Transformers are remarkably simple and elegant"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EV7WhVT270Q?start=2408&end=2468" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EV7WhVT270Q/hqdefault.jpg)](https://www.youtube.com/watch?v=EV7WhVT270Q&t=2408s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*40:08-41:08" "https://www.youtube.com/watch?v=EV7WhVT270Q" --force-keyframes-at-cuts --merge-output-format mp4 -o "EV7WhVT270Q-40m08s.mp4"
+```
+</details>
 
 > "What's remarkable about transformers is how simple and elegant they are. It's essentially just matrix multiplications and attention mechanisms, yet they can learn incredibly complex patterns."
 > — Sebastian Raschka, [40:08](https://www.youtube.com/watch?v=EV7WhVT270Q&t=2408s)
 
 ### "Post-training is where the magic happens"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EV7WhVT270Q?start=5838&end=5898" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EV7WhVT270Q/hqdefault.jpg)](https://www.youtube.com/watch?v=EV7WhVT270Q&t=5838s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*97:18-98:18" "https://www.youtube.com/watch?v=EV7WhVT270Q" --force-keyframes-at-cuts --merge-output-format mp4 -o "EV7WhVT270Q-97m18s.mp4"
+```
+</details>
 
 > "Pre-training gives you a base model that's essentially a next-token predictor. Post-training is where the magic happens - where you turn that into something that's actually useful and aligned with what humans want."
 > — Nathan Lambert, [1:37:18](https://www.youtube.com/watch?v=EV7WhVT270Q&t=5838s)
 
 ### "The 72+ hour work week culture in AI labs"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EV7WhVT270Q?start=8463&end=8523" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EV7WhVT270Q/hqdefault.jpg)](https://www.youtube.com/watch?v=EV7WhVT270Q&t=8463s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*141:03-142:03" "https://www.youtube.com/watch?v=EV7WhVT270Q" --force-keyframes-at-cuts --merge-output-format mp4 -o "EV7WhVT270Q-141m03s.mp4"
+```
+</details>
 
 > "There's this culture in AI labs right now where people are working 72+ hour weeks. It's intense. The question is whether that's sustainable and whether it's actually necessary to make progress."
 > — Nathan Lambert, [2:21:03](https://www.youtube.com/watch?v=EV7WhVT270Q&t=8463s)
 
 ### "AGI might be closer than we think"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EV7WhVT270Q?start=10771&end=10831" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EV7WhVT270Q/hqdefault.jpg)](https://www.youtube.com/watch?v=EV7WhVT270Q&t=10771s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*179:31-180:31" "https://www.youtube.com/watch?v=EV7WhVT270Q" --force-keyframes-at-cuts --merge-output-format mp4 -o "EV7WhVT270Q-179m31s.mp4"
+```
+</details>
 
 > "If you look at the rate of progress, AGI might be closer than we think. The real question is not 'if' but 'when' and 'what kind of AGI' - will it be a single system or a collection of specialized agents?"
 > — Nathan Lambert, [2:59:31](https://www.youtube.com/watch?v=EV7WhVT270Q&t=10771s)
 
 ### "AI won't replace programmers, but programmers with AI will replace programmers without AI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EV7WhVT270Q?start=11207&end=11267" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EV7WhVT270Q/hqdefault.jpg)](https://www.youtube.com/watch?v=EV7WhVT270Q&t=11207s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*186:47-187:47" "https://www.youtube.com/watch?v=EV7WhVT270Q" --force-keyframes-at-cuts --merge-output-format mp4 -o "EV7WhVT270Q-186m47s.mp4"
+```
+</details>
 
 > "I don't think AI will replace programmers entirely, but programmers who use AI effectively will replace programmers who don't. It's a tool that amplifies your capabilities."
 > — Sebastian Raschka, [3:06:47](https://www.youtube.com/watch?v=EV7WhVT270Q&t=11207s)

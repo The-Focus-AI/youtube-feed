@@ -37,35 +37,70 @@ The episode concludes with Chamath discussing the $20 billion Groq-Nvidia deal, 
 
 ### "Industrial-scale fraud"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bhpd4NeTbCI?start=137&end=200" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bhpd4NeTbCI/hqdefault.jpg)](https://www.youtube.com/watch?v=bhpd4NeTbCI&t=137s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:17-3:20" "https://www.youtube.com/watch?v=bhpd4NeTbCI" --force-keyframes-at-cuts --merge-output-format mp4 -o "bhpd4NeTbCI-2m17s.mp4"
+```
+</details>
 
 > "The magnitude cannot be overstated. It's staggering. Industrial-scale fraud."
 > — Federal prosecutor on Minnesota fraud, [2:30](https://www.youtube.com/watch?v=bhpd4NeTbCI&t=150s)
 
 ### "Autism claims spiked 130x in 5 years"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bhpd4NeTbCI?start=1940&end=2005" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bhpd4NeTbCI/hqdefault.jpg)](https://www.youtube.com/watch?v=bhpd4NeTbCI&t=1940s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*32:20-33:25" "https://www.youtube.com/watch?v=bhpd4NeTbCI" --force-keyframes-at-cuts --merge-output-format mp4 -o "bhpd4NeTbCI-32m20s.mp4"
+```
+</details>
 
 > "Medicaid claims for autism in Minnesota spiked like 130x in 5 years. From 2018 to 2023 it went from 3 million to $400 million."
 > — Jason Calacanis, [32:20](https://www.youtube.com/watch?v=bhpd4NeTbCI&t=1940s)
 
 ### "Beginning of the end of American Empire"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bhpd4NeTbCI?start=3600&end=3665" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bhpd4NeTbCI/hqdefault.jpg)](https://www.youtube.com/watch?v=bhpd4NeTbCI&t=3600s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*60:00-61:05" "https://www.youtube.com/watch?v=bhpd4NeTbCI" --force-keyframes-at-cuts --merge-output-format mp4 -o "bhpd4NeTbCI-60m00s.mp4"
+```
+</details>
 
 > "If this is true, if nothing happens and we deem this kind of theft acceptable, it is the beginning of the end of the American Empire."
 > — Chamath Palihapitiya, [1:00:00](https://www.youtube.com/watch?v=bhpd4NeTbCI&t=3600s)
 
 ### "Democrats denouncing waste is like Don Corleone denouncing the mafia"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bhpd4NeTbCI?start=4100&end=4165" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bhpd4NeTbCI/hqdefault.jpg)](https://www.youtube.com/watch?v=bhpd4NeTbCI&t=4100s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*68:20-69:25" "https://www.youtube.com/watch?v=bhpd4NeTbCI" --force-keyframes-at-cuts --merge-output-format mp4 -o "bhpd4NeTbCI-68m20s.mp4"
+```
+</details>
 
 > "Democrats denouncing government waste is like Don Corleone denouncing the mafia."
 > — David Sacks, [1:08:30](https://www.youtube.com/watch?v=bhpd4NeTbCI&t=4110s)
 
 ### "Groq founder is a genius of biblical proportions"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bhpd4NeTbCI?start=6030&end=6090" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bhpd4NeTbCI/hqdefault.jpg)](https://www.youtube.com/watch?v=bhpd4NeTbCI&t=6030s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*100:30-101:30" "https://www.youtube.com/watch?v=bhpd4NeTbCI" --force-keyframes-at-cuts --merge-output-format mp4 -o "bhpd4NeTbCI-100m30s.mp4"
+```
+</details>
 
 > "Jonathan Ross, who invented the TPU for Google, is a genius of biblical proportions. He's the one who saw this from the beginning."
 > — Chamath Palihapitiya, [1:40:30](https://www.youtube.com/watch?v=bhpd4NeTbCI&t=6030s)

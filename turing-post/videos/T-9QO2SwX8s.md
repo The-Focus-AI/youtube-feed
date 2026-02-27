@@ -39,35 +39,70 @@ The third wow reveals China's AI gold rush through their mandatory AI registry s
 
 ### "My kids will never be smarter than AI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T-9QO2SwX8s?start=78&end=135" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/T-9QO2SwX8s/hqdefault.jpg)](https://www.youtube.com/watch?v=T-9QO2SwX8s&t=78s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:18-2:15" "https://www.youtube.com/watch?v=T-9QO2SwX8s" --force-keyframes-at-cuts --merge-output-format mp4 -o "T-9QO2SwX8s-1m18s.mp4"
+```
+</details>
 
 > "Sam Altman became a parent and that changed his vision about AI. He's not talking that much about AGI anymore. He's talking about super intelligence, but becoming a parent made this shift in his understanding on what you should pay attention to and it's much more practical."
 > — Ksenia, [1:18](https://www.youtube.com/watch?v=T-9QO2SwX8s&t=78s)
 
 ### "We are in the 1960s era of computing all over again"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T-9QO2SwX8s?start=277&end=345" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/T-9QO2SwX8s/hqdefault.jpg)](https://www.youtube.com/watch?v=T-9QO2SwX8s&t=277s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:37-5:45" "https://www.youtube.com/watch?v=T-9QO2SwX8s" --force-keyframes-at-cuts --merge-output-format mp4 -o "T-9QO2SwX8s-4m37s.mp4"
+```
+</details>
 
 > "He believes we are in the 1960s era of computing all over again meaning that it implies massive ground floor opportunity to rebuild everything. He says also that there is a huge amount of software to rewrite and write from scratch."
 > — Ksenia on Andrej Karpathy, [4:37](https://www.youtube.com/watch?v=T-9QO2SwX8s&t=277s)
 
 ### "English is becoming the hottest programming language"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T-9QO2SwX8s?start=266&end=315" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/T-9QO2SwX8s/hqdefault.jpg)](https://www.youtube.com/watch?v=T-9QO2SwX8s&t=266s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:26-5:15" "https://www.youtube.com/watch?v=T-9QO2SwX8s" --force-keyframes-at-cuts --merge-output-format mp4 -o "T-9QO2SwX8s-4m26s.mp4"
+```
+</details>
 
 > "He again highlights that now English is becoming the hottest programming language because you can just talk to your program in the natural language."
 > — Ksenia on Karpathy, [4:26](https://www.youtube.com/watch?v=T-9QO2SwX8s&t=266s)
 
 ### "Agents as people's spirits on the internet"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T-9QO2SwX8s?start=437&end=510" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/T-9QO2SwX8s/hqdefault.jpg)](https://www.youtube.com/watch?v=T-9QO2SwX8s&t=437s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:17-8:30" "https://www.youtube.com/watch?v=T-9QO2SwX8s" --force-keyframes-at-cuts --merge-output-format mp4 -o "T-9QO2SwX8s-7m17s.mp4"
+```
+</details>
 
 > "He calls agents 'people's spirits on internet' and that's something from Miyazaki almost - that there are these spirits of us on internet that will be able to act from our behalf as our spirits."
 > — Ksenia on Karpathy, [7:17](https://www.youtube.com/watch?v=T-9QO2SwX8s&t=437s)
 
 ### "China's 3,700 generative AI tools"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T-9QO2SwX8s?start=569&end=658" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/T-9QO2SwX8s/hqdefault.jpg)](https://www.youtube.com/watch?v=T-9QO2SwX8s&t=569s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:29-10:58" "https://www.youtube.com/watch?v=T-9QO2SwX8s" --force-keyframes-at-cuts --merge-output-format mp4 -o "T-9QO2SwX8s-9m29s.mp4"
+```
+</details>
 
 > "What if I tell you that there's a country with a public list with over 3,700 generative AI tools and that country is China. And thanks to its mandatory AI registry, we can finally see what their AI gold rush actually looks like."
 > — Ksenia, [9:29](https://www.youtube.com/watch?v=T-9QO2SwX8s&t=569s)

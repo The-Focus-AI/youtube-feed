@@ -42,28 +42,56 @@ The most intense moments come when Dylan Patel presses Nadella on Microsoft's ca
 
 ### "There's no birthright here"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Bqou0T-Wxnk?start=247&end=295" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Bqou0T-Wxnk/hqdefault.jpg)](https://www.youtube.com/watch?v=Bqou0T-Wxnk&t=247s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:07-4:55" "https://www.youtube.com/watch?v=Bqou0T-Wxnk" --force-keyframes-at-cuts --merge-output-format mp4 -o "Bqou0T-Wxnk-4m07s.mp4"
+```
+</details>
 
 > "But you've gone from near 100% or certainly way above 50% to, you know, sub 25% market share in just one year. What is the sort of confidence that people can get that Microsoft..." "There's no, again, it goes back a little bit to sort of there's no birthright here that we should have any confidence other than to say hey we should go innovate."
 > — Satya Nadella, [4:07](https://www.youtube.com/watch?v=Bqou0T-Wxnk&t=247s)
 
 ### "Sovereignty in chips is a bit of a scam"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Bqou0T-Wxnk?start=499&end=545" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Bqou0T-Wxnk/hqdefault.jpg)](https://www.youtube.com/watch?v=Bqou0T-Wxnk&t=499s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:19-9:05" "https://www.youtube.com/watch?v=Bqou0T-Wxnk" --force-keyframes-at-cuts --merge-output-format mp4 -o "Bqou0T-Wxnk-8m19s.mp4"
+```
+</details>
 
 > "Sovereignty in chips is a bit of a scam. Countries still end up buying them from Taiwan because reality beats politics."
 > — Dylan Patel, [8:28](https://www.youtube.com/watch?v=Bqou0T-Wxnk&t=508s)
 
 ### "It's run anywhere as long as anywhere means Azure"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Bqou0T-Wxnk?start=438&end=490" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Bqou0T-Wxnk/hqdefault.jpg)](https://www.youtube.com/watch?v=Bqou0T-Wxnk&t=438s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:18-8:10" "https://www.youtube.com/watch?v=Bqou0T-Wxnk" --force-keyframes-at-cuts --merge-output-format mp4 -o "Bqou0T-Wxnk-7m18s.mp4"
+```
+</details>
 
 > "Satya keeps emphasizing that OpenAI API is stateless and can theoretically run anywhere and everywhere. But then explains that every meaningful partner who uses it will still end up on Azure. Stateless or not, the gravity pulls everything back into Microsoft's cloud. It's run anywhere as long as anywhere means Azure."
 > — Host analysis, [8:00](https://www.youtube.com/watch?v=Bqou0T-Wxnk&t=480s)
 
 ### "You can learn more from Satya's body language"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Bqou0T-Wxnk?start=616&end=670" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Bqou0T-Wxnk/hqdefault.jpg)](https://www.youtube.com/watch?v=Bqou0T-Wxnk&t=616s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:16-11:10" "https://www.youtube.com/watch?v=Bqou0T-Wxnk" --force-keyframes-at-cuts --merge-output-format mp4 -o "Bqou0T-Wxnk-10m16s.mp4"
+```
+</details>
 
 > "You can learn more about the future of AI and Microsoft from Satya's body language in this conversation than from some of the actual answers."
 > — Host, [10:59](https://www.youtube.com/watch?v=Bqou0T-Wxnk&t=659s)

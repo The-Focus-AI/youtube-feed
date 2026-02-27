@@ -31,42 +31,84 @@ Champion emerges as the top-ranked sweatshirt with 11.14% of votes, followed by 
 
 ### "What's the difference between a $391 and $17 sweatshirt?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gy9_-Qbmzsk?start=17&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/gy9_-Qbmzsk/hqdefault.jpg)](https://www.youtube.com/watch?v=gy9_-Qbmzsk&t=17s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:17-1:00" "https://www.youtube.com/watch?v=gy9_-Qbmzsk" --force-keyframes-at-cuts --merge-output-format mp4 -o "gy9_-Qbmzsk-0m17s.mp4"
+```
+</details>
 
 > "What's the difference between a $391 sweatshirt I got from Japan and a $17 sweatshirt I got from Amazon? What about everything else in between? Both of these sweatshirts are in the internet's top 10 list of the greatest sweatshirts available right now."
 > — Michael, [0:17](https://www.youtube.com/watch?v=gy9_-Qbmzsk&t=17s)
 
 ### "This sweatshirt feels like it was teleported from the 90s"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gy9_-Qbmzsk?start=206&end=260" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/gy9_-Qbmzsk/hqdefault.jpg)](https://www.youtube.com/watch?v=gy9_-Qbmzsk&t=206s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:26-4:20" "https://www.youtube.com/watch?v=gy9_-Qbmzsk" --force-keyframes-at-cuts --merge-output-format mp4 -o "gy9_-Qbmzsk-3m26s.mp4"
+```
+</details>
 
 > "This sweatshirt feels like it was teleported from the 90s. I have a specific memory in my head of hugging my aunt who I think had an Arizona sweatshirt on and it felt exactly like this."
 > — Michael, [3:35](https://www.youtube.com/watch?v=gy9_-Qbmzsk&t=215s)
 
 ### "When I opened this massive tank of a monster"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gy9_-Qbmzsk?start=778&end=835" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/gy9_-Qbmzsk/hqdefault.jpg)](https://www.youtube.com/watch?v=gy9_-Qbmzsk&t=778s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:58-13:55" "https://www.youtube.com/watch?v=gy9_-Qbmzsk" --force-keyframes-at-cuts --merge-output-format mp4 -o "gy9_-Qbmzsk-12m58s.mp4"
+```
+</details>
 
 > "When I opened this massive tank of a monster from the box I just was like 'holy crap, this is the craziest sweatshirt I've ever felt in my life.' First off, reinforced arms. Also rib knitting on the shoulders for more flexibility."
 > — Michael, [12:58](https://www.youtube.com/watch?v=gy9_-Qbmzsk&t=778s)
 
 ### "Ben Russell invented the sweatshirt"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gy9_-Qbmzsk?start=672&end=720" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/gy9_-Qbmzsk/hqdefault.jpg)](https://www.youtube.com/watch?v=gy9_-Qbmzsk&t=672s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:12-12:00" "https://www.youtube.com/watch?v=gy9_-Qbmzsk" --force-keyframes-at-cuts --merge-output-format mp4 -o "gy9_-Qbmzsk-11m12s.mp4"
+```
+</details>
 
 > "Ben Russell I believe it was, was playing football, had an itchy wool jersey on, and then made the sweatshirt."
 > — Michael, [11:15](https://www.youtube.com/watch?v=gy9_-Qbmzsk&t=675s)
 
 ### "Champion is that one guy who came back to the neighborhood"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gy9_-Qbmzsk?start=990&end=1050" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/gy9_-Qbmzsk/hqdefault.jpg)](https://www.youtube.com/watch?v=gy9_-Qbmzsk&t=990s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:30-17:30" "https://www.youtube.com/watch?v=gy9_-Qbmzsk" --force-keyframes-at-cuts --merge-output-format mp4 -o "gy9_-Qbmzsk-16m30s.mp4"
+```
+</details>
 
 > "Champion is a brand where I feel like they did you good. You know they're that one guy that was super successful but then came back to the neighborhood and was the same guy as before and was like 'what's up guys, how's it going?'"
 > — Michael, [16:30](https://www.youtube.com/watch?v=gy9_-Qbmzsk&t=990s)
 
 ### "Oh what happened Reigning Champ?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gy9_-Qbmzsk?start=517&end=570" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/gy9_-Qbmzsk/hqdefault.jpg)](https://www.youtube.com/watch?v=gy9_-Qbmzsk&t=517s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:37-9:30" "https://www.youtube.com/watch?v=gy9_-Qbmzsk" --force-keyframes-at-cuts --merge-output-format mp4 -o "gy9_-Qbmzsk-8m37s.mp4"
+```
+</details>
 
 > "Oh what happened Reigning Champ? It's a time for the video, this is when you're supposed to show off. I opened this sweatshirt from the box and said 'oh no, we got a pretty bacony collar on this Reigning Champ sweatshirt.'"
 > — Michael, [8:37](https://www.youtube.com/watch?v=gy9_-Qbmzsk&t=517s)

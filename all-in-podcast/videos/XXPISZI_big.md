@@ -33,35 +33,70 @@ The talk concludes with Johnson pushing back against the startup culture of grin
 
 ### "Your resting heart rate before sleep is the best thing you can do for your health"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XXPISZI_big?start=356&end=420" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XXPISZI_big/hqdefault.jpg)](https://www.youtube.com/watch?v=XXPISZI_big&t=356s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:56-7:00" "https://www.youtube.com/watch?v=XXPISZI_big" --force-keyframes-at-cuts --merge-output-format mp4 -o "XXPISZI_big-5m56s.mp4"
+```
+</details>
 
 > "The single best thing I've learned out of everything I've ever done is your resting heart rate before sleep is the best thing you can do for your health. Hands down."
 > -- Bryan Johnson, [5:56](https://www.youtube.com/watch?v=XXPISZI_big&t=356s)
 
 ### "Sleep is the best performance-enhancing drug"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XXPISZI_big?start=410&end=460" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XXPISZI_big/hqdefault.jpg)](https://www.youtube.com/watch?v=XXPISZI_big&t=410s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:50-7:40" "https://www.youtube.com/watch?v=XXPISZI_big" --force-keyframes-at-cuts --merge-output-format mp4 -o "XXPISZI_big-6m50s.mp4"
+```
+</details>
 
 > "Did you know if you don't sleep, your prefrontal cortex goes offline and you lose your willpower. So when you're trying to not eat the cookie, you're powerless. You can't do it. It's gone. Sleep is the best performance-enhancing drug in the whole world."
 > -- Bryan Johnson, [6:55](https://www.youtube.com/watch?v=XXPISZI_big&t=415s)
 
 ### "My left ear is 64 years old"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XXPISZI_big?start=228&end=270" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XXPISZI_big/hqdefault.jpg)](https://www.youtube.com/watch?v=XXPISZI_big&t=228s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:48-4:30" "https://www.youtube.com/watch?v=XXPISZI_big" --force-keyframes-at-cuts --merge-output-format mp4 -o "XXPISZI_big-3m48s.mp4"
+```
+</details>
 
 > "I'm 47. My left ear is 64 years old. It's because I shot a lot of guns as a kid. I was right-handed like this with a lot of exposure in my ear. And I also listen to a lot of loud music."
 > -- Bryan Johnson, [3:48](https://www.youtube.com/watch?v=XXPISZI_big&t=228s)
 
 ### "The narrative that you have to martyr yourself is not true"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XXPISZI_big?start=567&end=600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XXPISZI_big/hqdefault.jpg)](https://www.youtube.com/watch?v=XXPISZI_big&t=567s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:27-10:00" "https://www.youtube.com/watch?v=XXPISZI_big" --force-keyframes-at-cuts --merge-output-format mp4 -o "XXPISZI_big-9m27s.mp4"
+```
+</details>
 
 > "Yes, you're a startup founder. The narrative is you have to martyr yourself, literally martyr yourself to achieve success. That is not true. You will be a better founder, parent, partner, whatever if you prioritize your sleep."
 > -- Bryan Johnson, [9:29](https://www.youtube.com/watch?v=XXPISZI_big&t=569s)
 
 ### "Don't Die is the next major ideology"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XXPISZI_big?start=594&end=632" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/XXPISZI_big/hqdefault.jpg)](https://www.youtube.com/watch?v=XXPISZI_big&t=594s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:54-10:32" "https://www.youtube.com/watch?v=XXPISZI_big" --force-keyframes-at-cuts --merge-output-format mp4 -o "XXPISZI_big-9m54s.mp4"
+```
+</details>
 
 > "Don't die is the next major ideology on par with democracy, capitalism, Christianity, Islam. It is the next thing we do as a species."
 > -- Bryan Johnson, [10:14](https://www.youtube.com/watch?v=XXPISZI_big&t=614s)

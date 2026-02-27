@@ -37,35 +37,70 @@ MKBHD provides his first hands-on impressions of Samsung's new Galaxy Z Fold 7 a
 
 ### "Lighter Than an S25 Ultra"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bMou1qUMHC4?start=68&end=111" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bMou1qUMHC4/hqdefault.jpg)](https://www.youtube.com/watch?v=bMou1qUMHC4&t=68s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:08-1:51" "https://www.youtube.com/watch?v=bMou1qUMHC4" --force-keyframes-at-cuts --merge-output-format mp4 -o "bMou1qUMHC4-1m08s.mp4"
+```
+</details>
 
 > "Each side unfolded is a little over 4 mm and so the whole thing closed is only 8.9 mm this time... The whole thing weighs 215 grams. That's actually lighter than an S25 Ultra."
 > — Marques Brownlee, [1:08](https://www.youtube.com/watch?v=bMou1qUMHC4&t=68s)
 
 ### "The Most Diabolical Table Rock Ever"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bMou1qUMHC4?start=216&end=268" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bMou1qUMHC4/hqdefault.jpg)](https://www.youtube.com/watch?v=bMou1qUMHC4&t=216s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:36-4:28" "https://www.youtube.com/watch?v=bMou1qUMHC4" --force-keyframes-at-cuts --merge-output-format mp4 -o "bMou1qUMHC4-3m36s.mp4"
+```
+</details>
 
 > "This camera I think now is gonna have to take my trophy for the most I've ever seen a phone rock on a table with no case on it. This one is absolutely diabolical."
 > — Marques Brownlee, [3:36](https://www.youtube.com/watch?v=bMou1qUMHC4&t=216s)
 
 ### "The $2,000 Foldable Reality"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bMou1qUMHC4?start=349&end=398" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bMou1qUMHC4/hqdefault.jpg)](https://www.youtube.com/watch?v=bMou1qUMHC4&t=349s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:49-6:38" "https://www.youtube.com/watch?v=bMou1qUMHC4" --force-keyframes-at-cuts --merge-output-format mp4 -o "bMou1qUMHC4-5m49s.mp4"
+```
+</details>
 
 > "It was $1,899, now it's $1,999 base. It was already expensive. Now, it's even more expensive. The ultra cameras and the thinner design and everything this year, $2,000 bucks to get a foldable."
 > — Marques Brownlee, [5:49](https://www.youtube.com/watch?v=bMou1qUMHC4&t=349s)
 
 ### "Honor's Silicon Carbon Battery Advantage"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bMou1qUMHC4?start=398&end=447" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bMou1qUMHC4/hqdefault.jpg)](https://www.youtube.com/watch?v=bMou1qUMHC4&t=398s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:38-7:27" "https://www.youtube.com/watch?v=bMou1qUMHC4" --force-keyframes-at-cuts --merge-output-format mp4 -o "bMou1qUMHC4-6m38s.mp4"
+```
+</details>
 
 > "This is the Honor Magic V5... this phone is even thinner than Samsung's. It's about the same weight and it has a 5,820 mAh battery thanks to it being silicon carbon."
 > — Marques Brownlee, [6:38](https://www.youtube.com/watch?v=bMou1qUMHC4&t=398s)
 
 ### "The Exynos Comeback Concern"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bMou1qUMHC4?start=533&end=584" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/bMou1qUMHC4/hqdefault.jpg)](https://www.youtube.com/watch?v=bMou1qUMHC4&t=533s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:53-9:44" "https://www.youtube.com/watch?v=bMou1qUMHC4" --force-keyframes-at-cuts --merge-output-format mp4 -o "bMou1qUMHC4-8m53s.mp4"
+```
+</details>
 
 > "They've gone back from a Snapdragon chip to an Exynos chip in this phone... this could be a preview of the S26. Allegedly Samsung may be looking to switch fully back to Exynos for everything across the board."
 > — Marques Brownlee, [8:53](https://www.youtube.com/watch?v=bMou1qUMHC4&t=533s)

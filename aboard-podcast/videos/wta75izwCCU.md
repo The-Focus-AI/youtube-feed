@@ -35,35 +35,70 @@ The episode also dives into the emerging world of AI-generated video content, fr
 
 ### "FYP Core -- naming music trends with Claude"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wta75izwCCU?start=545&end=600" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/wta75izwCCU/hqdefault.jpg)](https://www.youtube.com/watch?v=wta75izwCCU&t=545s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:05-10:00" "https://www.youtube.com/watch?v=wta75izwCCU" --force-keyframes-at-cuts --merge-output-format mp4 -o "wta75izwCCU-9m05s.mp4"
+```
+</details>
 
 > "I fired up Claude and I was like, here's what this thing I'm trying to describe is. Can you help me come up with some names? And it didn't come up with the name, but what it's really good at is just giving you a bunch of related concepts that you can mess around with yourself. So we came up with FYP Core."
 > -- Max Read, [9:05](https://www.youtube.com/watch?v=wta75izwCCU&t=545s)
 
 ### "Writing is exercise for the mind"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wta75izwCCU?start=870&end=930" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/wta75izwCCU/hqdefault.jpg)](https://www.youtube.com/watch?v=wta75izwCCU&t=870s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:30-15:30" "https://www.youtube.com/watch?v=wta75izwCCU" --force-keyframes-at-cuts --merge-output-format mp4 -o "wta75izwCCU-14m30s.mp4"
+```
+</details>
 
 > "I'm never going to lift a car up, right? But I go to the gym anyway because I know it's good for my body and my mind and presumably my soul to stay fit. And I think that writing has that same quality. Sitting down to think through an issue and spend a lot of time agonizing and moving those words around -- the process itself is illuminating."
 > -- Max Read, [14:30](https://www.youtube.com/watch?v=wta75izwCCU&t=870s)
 
 ### "We're not far from not being able to tell"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wta75izwCCU?start=760&end=810" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/wta75izwCCU/hqdefault.jpg)](https://www.youtube.com/watch?v=wta75izwCCU&t=760s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:40-13:30" "https://www.youtube.com/watch?v=wta75izwCCU" --force-keyframes-at-cuts --merge-output-format mp4 -o "wta75izwCCU-12m40s.mp4"
+```
+</details>
 
 > "We can all agree I don't want to read an op-ed written in ChatGPT voice. But the pace of progress and the sophistication -- we're not far away from not noticing, not being able to tell. We're just not far away."
 > -- Rich Ziade, [12:40](https://www.youtube.com/watch?v=wta75izwCCU&t=760s)
 
 ### "Never underestimate people's willingness to watch garbage"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wta75izwCCU?start=935&end=985" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/wta75izwCCU/hqdefault.jpg)](https://www.youtube.com/watch?v=wta75izwCCU&t=935s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:35-16:25" "https://www.youtube.com/watch?v=wta75izwCCU" --force-keyframes-at-cuts --merge-output-format mp4 -o "wta75izwCCU-15m35s.mp4"
+```
+</details>
 
 > "You should never underestimate the willingness of people to watch stuff that has no human thought or intent or whatever behind it if it's just filling up time and space."
 > -- Max Read, [15:35](https://www.youtube.com/watch?v=wta75izwCCU&t=935s)
 
 ### "October 7th, the all-AI miniseries"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wta75izwCCU?start=1350&end=1400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/wta75izwCCU/hqdefault.jpg)](https://www.youtube.com/watch?v=wta75izwCCU&t=1350s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*22:30-23:20" "https://www.youtube.com/watch?v=wta75izwCCU" --force-keyframes-at-cuts --merge-output-format mp4 -o "wta75izwCCU-22m30s.mp4"
+```
+</details>
 
 > "There's a network, a pseudo Netflix of all AI generated content. They made an October 7th miniseries, all AI generated. 6 million views. It might be the most tasteless thing I've ever seen in my life."
 > -- Paul Ford, [22:30](https://www.youtube.com/watch?v=wta75izwCCU&t=1350s)

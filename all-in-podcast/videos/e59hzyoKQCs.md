@@ -36,28 +36,56 @@ Rogers draws connections between European censorship efforts and the "Censorship
 
 ### "Public Diplomacy: Government to People, Not Government to Government"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e59hzyoKQCs?start=142&end=202" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/e59hzyoKQCs/hqdefault.jpg)](https://www.youtube.com/watch?v=e59hzyoKQCs&t=142s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:22-3:22" "https://www.youtube.com/watch?v=e59hzyoKQCs" --force-keyframes-at-cuts --merge-output-format mp4 -o "e59hzyoKQCs-2m22s.mp4"
+```
+</details>
 
 > "Diplomacy traditionally concerns the relationship between the American government and foreign governments. But public diplomacy is different - it addresses the relationship between the American government and foreign publics. That's become very important as trust in institutions has declined."
 > — Sarah B. Rogers, [2:22](https://www.youtube.com/watch?v=e59hzyoKQCs&t=142s)
 
 ### "The DSA is a Censorship Tariff on American Companies"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e59hzyoKQCs?start=824&end=884" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/e59hzyoKQCs/hqdefault.jpg)](https://www.youtube.com/watch?v=e59hzyoKQCs&t=824s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:44-14:44" "https://www.youtube.com/watch?v=e59hzyoKQCs" --force-keyframes-at-cuts --merge-output-format mp4 -o "e59hzyoKQCs-13m44s.mp4"
+```
+</details>
 
 > "The Digital Services Act is essentially a censorship tariff. Europe is forcing American tech companies to censor speech that would be protected under the First Amendment or face massive fines. It's protectionism disguised as user safety."
 > — Sarah B. Rogers, [13:44](https://www.youtube.com/watch?v=e59hzyoKQCs&t=824s)
 
 ### "Mass Migration Criticism Being Censored in Germany"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e59hzyoKQCs?start=1015&end=1075" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/e59hzyoKQCs/hqdefault.jpg)](https://www.youtube.com/watch?v=e59hzyoKQCs&t=1015s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:55-17:55" "https://www.youtube.com/watch?v=e59hzyoKQCs" --force-keyframes-at-cuts --merge-output-format mp4 -o "e59hzyoKQCs-16m55s.mp4"
+```
+</details>
 
 > "In Germany, if you criticize mass migration policies on social media, the government can pressure platforms to remove your posts or even have you arrested. This is legitimate political speech being criminalized. It's deeply troubling for those of us who value free expression."
 > — Sarah B. Rogers, [16:55](https://www.youtube.com/watch?v=e59hzyoKQCs&t=1015s)
 
 ### "Understanding the Censorship Industrial Complex"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e59hzyoKQCs?start=2082&end=2142" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/e59hzyoKQCs/hqdefault.jpg)](https://www.youtube.com/watch?v=e59hzyoKQCs&t=2082s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*34:42-35:42" "https://www.youtube.com/watch?v=e59hzyoKQCs" --force-keyframes-at-cuts --merge-output-format mp4 -o "e59hzyoKQCs-34m42s.mp4"
+```
+</details>
 
 > "The Censorship Industrial Complex is this network of NGOs, academic centers, government agencies, all coordinating to identify 'misinformation' and pressure platforms to remove it. But who decides what's misinformation? Usually it's just speech they disagree with politically."
 > — Sarah B. Rogers, [34:42](https://www.youtube.com/watch?v=e59hzyoKQCs&t=2082s)

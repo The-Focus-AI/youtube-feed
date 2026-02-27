@@ -31,21 +31,42 @@ The conversation begins with DHH's strong opinions about cookie banners, JavaScr
 
 ### "Cookie banners: No one anywhere believes they do anything good"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vagyIcmIGOQ?start=0&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vagyIcmIGOQ/hqdefault.jpg)](https://www.youtube.com/watch?v=vagyIcmIGOQ&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-1:00" "https://www.youtube.com/watch?v=vagyIcmIGOQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "vagyIcmIGOQ-0m00s.mp4"
+```
+</details>
 
 > "No one anywhere who's serious believes that cookie banners does anything good for anyone. Yet, we've been unable to get rid of it. If you go to goddamn Mars on one of Elon's rockets and you try to access a web page, you'll still see a cookie banner."
 > — DHH, [0:00](https://www.youtube.com/watch?v=vagyIcmIGOQ&t=0s)
 
 ### "Programmers are essentially CRUD monkeys"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vagyIcmIGOQ?start=60&end=120" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vagyIcmIGOQ/hqdefault.jpg)](https://www.youtube.com/watch?v=vagyIcmIGOQ&t=60s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:00-2:00" "https://www.youtube.com/watch?v=vagyIcmIGOQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "vagyIcmIGOQ-1m00s.mp4"
+```
+</details>
 
 > "A lot of people are very uncomfortable with the fact that they are essentially CRUD monkeys. They just make systems that create, read, update, or delete rows in a database. And they have to compensate for that existential dread by over complicating things."
 > — DHH, [1:00](https://www.youtube.com/watch?v=vagyIcmIGOQ&t=60s)
 
 ### "Racing at the edge of adhesion"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vagyIcmIGOQ?start=140&end=200" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vagyIcmIGOQ/hqdefault.jpg)](https://www.youtube.com/watch?v=vagyIcmIGOQ&t=140s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:20-3:20" "https://www.youtube.com/watch?v=vagyIcmIGOQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "vagyIcmIGOQ-2m20s.mp4"
+```
+</details>
 
 > "A huge part of the satisfaction of driving a race car is driving it at the edge of adhesion. You're essentially just a tiny movement away from spinning out. It doesn't take much. Then the car starts rotating. Once it starts rotating, you lose grip and you're going for the wall."
 > — DHH, [2:20](https://www.youtube.com/watch?v=vagyIcmIGOQ&t=140s)

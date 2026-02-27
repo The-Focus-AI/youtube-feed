@@ -31,35 +31,70 @@ The emotional core is the box-opening of samples - an authentic moment where Mic
 
 ### "One of two things are going to happen when I open this box"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3bWvGl_wS2I?start=50&end=110" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3bWvGl_wS2I/hqdefault.jpg)](https://www.youtube.com/watch?v=3bWvGl_wS2I&t=50s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:50-1:50" "https://www.youtube.com/watch?v=3bWvGl_wS2I" --force-keyframes-at-cuts --merge-output-format mp4 -o "3bWvGl_wS2I-0m50s.mp4"
+```
+</details>
 
 > "One of two things are going to happen when I open this box. Either it's fantastic. Everything is in order. Or there's something so catastrophically wrong that I have to open this at the end of the video because it's going to ruin my day and possibly months of my life."
 > — Michael, [0:50](https://www.youtube.com/watch?v=3bWvGl_wS2I&t=50s)
 
 ### "Japanese denim made in America"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3bWvGl_wS2I?start=0&end=50" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3bWvGl_wS2I/hqdefault.jpg)](https://www.youtube.com/watch?v=3bWvGl_wS2I&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-0:50" "https://www.youtube.com/watch?v=3bWvGl_wS2I" --force-keyframes-at-cuts --merge-output-format mp4 -o "3bWvGl_wS2I-0m00s.mp4"
+```
+</details>
 
 > "This is Japanese denim made in America. If it's made in America, how can it be made in— That's what I'm trying to call it. I just got back from a lovely little trip to Pennsylvania to see the first ever Iron Snail made in USA salvage denim."
 > — Michael, [0:00](https://www.youtube.com/watch?v=3bWvGl_wS2I&t=0s)
 
 ### "None of that has happened this year"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3bWvGl_wS2I?start=90&end=150" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3bWvGl_wS2I/hqdefault.jpg)](https://www.youtube.com/watch?v=3bWvGl_wS2I&t=90s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:30-2:30" "https://www.youtube.com/watch?v=3bWvGl_wS2I" --force-keyframes-at-cuts --merge-output-format mp4 -o "3bWvGl_wS2I-1m30s.mp4"
+```
+</details>
 
 > "I had two goals this year. One, try to keep the Iron Snail US stocked as much as possible all year long. Two, try to post videos near weekly if possible. Keen viewers of the channel may have noticed that none of that has happened this year."
 > — Michael, [2:05](https://www.youtube.com/watch?v=3bWvGl_wS2I&t=125s)
 
 ### "FoxFibre is equally exciting"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3bWvGl_wS2I?start=870&end=930" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3bWvGl_wS2I/hqdefault.jpg)](https://www.youtube.com/watch?v=3bWvGl_wS2I&t=870s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:30-15:30" "https://www.youtube.com/watch?v=3bWvGl_wS2I" --force-keyframes-at-cuts --merge-output-format mp4 -o "3bWvGl_wS2I-14m30s.mp4"
+```
+</details>
 
 > "FoxFibre is equally exciting. Sally Fox developed this cotton that grows naturally colored. No dye, no water waste from dyeing. The color is in the DNA of the cotton plant."
 > — Michael, [14:30](https://www.youtube.com/watch?v=3bWvGl_wS2I&t=870s)
 
 ### "Not catastrophic - some things to adjust"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3bWvGl_wS2I?start=780&end=840" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3bWvGl_wS2I/hqdefault.jpg)](https://www.youtube.com/watch?v=3bWvGl_wS2I&t=780s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:00-14:00" "https://www.youtube.com/watch?v=3bWvGl_wS2I" --force-keyframes-at-cuts --merge-output-format mp4 -o "3bWvGl_wS2I-13m00s.mp4"
+```
+</details>
 
 > "Okay. Not catastrophic. Some things to adjust but nothing that ruins the whole project. Relief. This is what the brand-building process actually looks like. It's not glamorous."
 > — Michael, [13:00](https://www.youtube.com/watch?v=3bWvGl_wS2I&t=780s)

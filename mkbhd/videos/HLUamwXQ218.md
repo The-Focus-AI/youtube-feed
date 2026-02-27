@@ -33,35 +33,70 @@ The main selling point - a 24/7 concierge service accessed via a dedicated "Ruby
 
 ### "$5,380 plus tax plus shipping"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HLUamwXQ218?start=36&end=90" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HLUamwXQ218/hqdefault.jpg)](https://www.youtube.com/watch?v=HLUamwXQ218&t=36s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:36-1:30" "https://www.youtube.com/watch?v=HLUamwXQ218" --force-keyframes-at-cuts --merge-output-format mp4 -o "HLUamwXQ218-0m36s.mp4"
+```
+</details>
 
 > "This phone I paid $5,380 for, plus tax, plus shipping."
 > — Marques Brownlee, [0:54](https://www.youtube.com/watch?v=HLUamwXQ218&t=54s)
 
 ### "World's first AI agent phone for entrepreneurs"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HLUamwXQ218?start=150&end=200" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HLUamwXQ218/hqdefault.jpg)](https://www.youtube.com/watch?v=HLUamwXQ218&t=150s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:30-3:20" "https://www.youtube.com/watch?v=HLUamwXQ218" --force-keyframes-at-cuts --merge-output-format mp4 -o "HLUamwXQ218-2m30s.mp4"
+```
+</details>
 
 > "This is positioned as the world's first AI agent phone for entrepreneurs. I'm dead serious. That's a quote straight from the top of their website. I wish I was joking."
 > — Marques Brownlee, [2:40](https://www.youtube.com/watch?v=HLUamwXQ218&t=160s)
 
 ### "Artistic soul over mere specifications"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HLUamwXQ218?start=491&end=540" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HLUamwXQ218/hqdefault.jpg)](https://www.youtube.com/watch?v=HLUamwXQ218&t=491s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:11-9:00" "https://www.youtube.com/watch?v=HLUamwXQ218" --force-keyframes-at-cuts --merge-output-format mp4 -o "HLUamwXQ218-8m11s.mp4"
+```
+</details>
 
 > "Their website says, 'We pursue artistic soul over mere specifications.' which I guess explains why they're using a Sony IMX906 sensor, which is the same as we've seen in Samsung's A55 and a bunch of other sub $500 phones."
 > — Marques Brownlee, [8:18](https://www.youtube.com/watch?v=HLUamwXQ218&t=498s)
 
 ### "It's real, man. It's real."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HLUamwXQ218?start=743&end=800" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HLUamwXQ218/hqdefault.jpg)](https://www.youtube.com/watch?v=HLUamwXQ218&t=743s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:23-13:20" "https://www.youtube.com/watch?v=HLUamwXQ218" --force-keyframes-at-cuts --merge-output-format mp4 -o "HLUamwXQ218-12m23s.mp4"
+```
+</details>
 
 > "I've actually chatted with this human assistant long enough to ask, 'Are you a human?' To which they replied, 'It's real, man. It's real.'"
 > — Marques Brownlee, [12:23](https://www.youtube.com/watch?v=HLUamwXQ218&t=743s)
 
 ### "More dollars than cents"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HLUamwXQ218?start=892&end=935" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/HLUamwXQ218/hqdefault.jpg)](https://www.youtube.com/watch?v=HLUamwXQ218&t=892s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:52-15:35" "https://www.youtube.com/watch?v=HLUamwXQ218" --force-keyframes-at-cuts --merge-output-format mp4 -o "HLUamwXQ218-14m52s.mp4"
+```
+</details>
 
 > "This one just happens to be a crudely skinned Android phone designed to take advantage of people with way more dollars than cents. Get it?"
 > — Marques Brownlee, [15:17](https://www.youtube.com/watch?v=HLUamwXQ218&t=917s)

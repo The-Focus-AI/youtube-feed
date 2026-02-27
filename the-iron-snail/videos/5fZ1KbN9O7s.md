@@ -32,35 +32,70 @@ The video reveals why the M65 became an iconic piece beyond military use - it of
 
 ### "15 buttons later - the most adaptable piece"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5fZ1KbN9O7s?start=53&end=110" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5fZ1KbN9O7s/hqdefault.jpg)](https://www.youtube.com/watch?v=5fZ1KbN9O7s&t=53s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:53-1:50" "https://www.youtube.com/watch?v=5fZ1KbN9O7s" --force-keyframes-at-cuts --merge-output-format mp4 -o "5fZ1KbN9O7s-0m53s.mp4"
+```
+</details>
 
 > "15 buttons later meant the M65 was the most adaptable piece the US military has ever made."
 > — Michael, [1:05](https://www.youtube.com/watch?v=5fZ1KbN9O7s&t=65s)
 
 ### "Nobody knew how to dress for war"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5fZ1KbN9O7s?start=151&end=210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5fZ1KbN9O7s/hqdefault.jpg)](https://www.youtube.com/watch?v=5fZ1KbN9O7s&t=151s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:31-3:30" "https://www.youtube.com/watch?v=5fZ1KbN9O7s" --force-keyframes-at-cuts --merge-output-format mp4 -o "5fZ1KbN9O7s-2m31s.mp4"
+```
+</details>
 
 > "War, it changed dramatically in the last 200 years. So, nobody knew how to dress for war for a pretty long time, and it killed a lot of people. It wasn't good, but we got the M65 out of it."
 > — Michael, [2:33](https://www.youtube.com/watch?v=5fZ1KbN9O7s&t=153s)
 
 ### "There is no other jacket they want to wear ever"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5fZ1KbN9O7s?start=751&end=810" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5fZ1KbN9O7s/hqdefault.jpg)](https://www.youtube.com/watch?v=5fZ1KbN9O7s&t=751s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:31-13:30" "https://www.youtube.com/watch?v=5fZ1KbN9O7s" --force-keyframes-at-cuts --merge-output-format mp4 -o "5fZ1KbN9O7s-12m31s.mp4"
+```
+</details>
 
 > "There is no other jacket on the planet that they want to wear ever. M65 for life."
 > — Michael, [12:42](https://www.youtube.com/watch?v=5fZ1KbN9O7s&t=762s)
 
 ### "NYCO was the last great blended fabric"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5fZ1KbN9O7s?start=776&end=830" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5fZ1KbN9O7s/hqdefault.jpg)](https://www.youtube.com/watch?v=5fZ1KbN9O7s&t=776s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:56-13:50" "https://www.youtube.com/watch?v=5fZ1KbN9O7s" --force-keyframes-at-cuts --merge-output-format mp4 -o "5fZ1KbN9O7s-12m56s.mp4"
+```
+</details>
 
 > "NYCO fabric was probably the last great natural and synthetic blended fabric that the military was using widely. It's very comfortable. It feels cozy. It doesn't make really loud noises when you're rubbing it together."
 > — Michael, [12:57](https://www.youtube.com/watch?v=5fZ1KbN9O7s&t=777s)
 
 ### "The soldiers hated it"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5fZ1KbN9O7s?start=215&end=270" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5fZ1KbN9O7s/hqdefault.jpg)](https://www.youtube.com/watch?v=5fZ1KbN9O7s&t=215s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:35-4:30" "https://www.youtube.com/watch?v=5fZ1KbN9O7s" --force-keyframes-at-cuts --merge-output-format mp4 -o "5fZ1KbN9O7s-3m35s.mp4"
+```
+</details>
 
 > "Notice how it looks nothing like the M65 that I'm wearing right now. It's because the M41 was terrible. Every all the soldiers were like, 'This what is this? This is like a windbreaker that I would wear when I'm at home not trying to fight a war.'"
 > — Michael, [3:35](https://www.youtube.com/watch?v=5fZ1KbN9O7s&t=215s)

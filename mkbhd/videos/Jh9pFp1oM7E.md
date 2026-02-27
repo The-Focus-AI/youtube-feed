@@ -40,35 +40,70 @@ The video concludes with a powerful reverse perspective: if we used 1946 technol
 
 ### "Isn't it crazy how we taught rocks to do math?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Jh9pFp1oM7E?start=0&end=55" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Jh9pFp1oM7E/hqdefault.jpg)](https://www.youtube.com/watch?v=Jh9pFp1oM7E&t=0s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-0:55" "https://www.youtube.com/watch?v=Jh9pFp1oM7E" --force-keyframes-at-cuts --merge-output-format mp4 -o "Jh9pFp1oM7E-0m00s.mp4"
+```
+</details>
 
 > "Isn't it crazy how we taught rocks to do math?"
 > — Marques Brownlee, [0:00](https://www.youtube.com/watch?v=Jh9pFp1oM7E&t=0s)
 
 ### "A grain of rice would be the size of Mount Rainier"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Jh9pFp1oM7E?start=275&end=330" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Jh9pFp1oM7E/hqdefault.jpg)](https://www.youtube.com/watch?v=Jh9pFp1oM7E&t=275s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:35-5:30" "https://www.youtube.com/watch?v=Jh9pFp1oM7E" --force-keyframes-at-cuts --merge-output-format mp4 -o "Jh9pFp1oM7E-4m35s.mp4"
+```
+</details>
 
 > "A single grain of rice at this scale would be the size of Mount Rainier."
 > — Marques Brownlee, [5:04](https://www.youtube.com/watch?v=Jh9pFp1oM7E&t=304s)
 
 ### "The size of New Jersey"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Jh9pFp1oM7E?start=591&end=645" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Jh9pFp1oM7E/hqdefault.jpg)](https://www.youtube.com/watch?v=Jh9pFp1oM7E&t=591s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:51-10:45" "https://www.youtube.com/watch?v=Jh9pFp1oM7E" --force-keyframes-at-cuts --merge-output-format mp4 -o "Jh9pFp1oM7E-9m51s.mp4"
+```
+</details>
 
 > "Your phone with the technology from 80 years ago would need to be the size of the state of New Jersey to fit them all."
 > — Marques Brownlee, [10:16](https://www.youtube.com/watch?v=Jh9pFp1oM7E&t=616s)
 
 ### "If a transistor was the size of a Prius"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Jh9pFp1oM7E?start=635&end=685" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Jh9pFp1oM7E/hqdefault.jpg)](https://www.youtube.com/watch?v=Jh9pFp1oM7E&t=635s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:35-11:25" "https://www.youtube.com/watch?v=Jh9pFp1oM7E" --force-keyframes-at-cuts --merge-output-format mp4 -o "Jh9pFp1oM7E-10m35s.mp4"
+```
+</details>
 
 > "If a modern transistor was roughly the size of a Toyota Prius, then that iPhone that fits them all would be about the size of planet Earth."
 > — Marques Brownlee, [10:35](https://www.youtube.com/watch?v=Jh9pFp1oM7E&t=635s)
 
 ### "Technology only gets better because of hard work"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Jh9pFp1oM7E?start=167&end=210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Jh9pFp1oM7E/hqdefault.jpg)](https://www.youtube.com/watch?v=Jh9pFp1oM7E&t=167s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:47-3:30" "https://www.youtube.com/watch?v=Jh9pFp1oM7E" --force-keyframes-at-cuts --merge-output-format mp4 -o "Jh9pFp1oM7E-2m47s.mp4"
+```
+</details>
 
 > "Technology only gets better because of the people working really hard on it. Like without this hard work, none of this improvement happens."
 > — Marques Brownlee, [2:50](https://www.youtube.com/watch?v=Jh9pFp1oM7E&t=170s)

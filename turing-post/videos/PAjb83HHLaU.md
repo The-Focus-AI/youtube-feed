@@ -32,28 +32,56 @@ The episode concludes with clips from both Elon Musk discussing Tesla's Optimus 
 
 ### "When Will Robots Have Human Capabilities? This Year."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PAjb83HHLaU?start=15&end=75" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/PAjb83HHLaU/hqdefault.jpg)](https://www.youtube.com/watch?v=PAjb83HHLaU&t=15s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:15-1:15" "https://www.youtube.com/watch?v=PAjb83HHLaU" --force-keyframes-at-cuts --merge-output-format mp4 -o "PAjb83HHLaU-0m15s.mp4"
+```
+</details>
 
 > "When do you think we're going to get robots that actually have human level capabilities? Oh, this year."
 > — Jensen Huang, [0:15](https://www.youtube.com/watch?v=PAjb83HHLaU&t=15s)
 
 ### "10 Billion Robots by 2040 Is a Low Number"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PAjb83HHLaU?start=267&end=320" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/PAjb83HHLaU/hqdefault.jpg)](https://www.youtube.com/watch?v=PAjb83HHLaU&t=267s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:27-5:20" "https://www.youtube.com/watch?v=PAjb83HHLaU" --force-keyframes-at-cuts --merge-output-format mp4 -o "PAjb83HHLaU-4m27s.mp4"
+```
+</details>
 
 > "10 billion by 2040? That's not... that's a low number."
 > — Elon Musk, [4:38](https://www.youtube.com/watch?v=PAjb83HHLaU&t=278s)
 
 ### "You Embody the Car Like an Extension of You"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PAjb83HHLaU?start=349&end=400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/PAjb83HHLaU/hqdefault.jpg)](https://www.youtube.com/watch?v=PAjb83HHLaU&t=349s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:49-6:40" "https://www.youtube.com/watch?v=PAjb83HHLaU" --force-keyframes-at-cuts --merge-output-format mp4 -o "PAjb83HHLaU-5m49s.mp4"
+```
+</details>
 
 > "When you sit inside a car, somehow you embody the car. You're able to steer a car like it's an extension of you. When you picked up a tennis racket, you embodied the tennis racket. Somehow your arm got longer."
 > — Jensen Huang, [5:57](https://www.youtube.com/watch?v=PAjb83HHLaU&t=357s)
 
 ### "Robots That Are Almost Boringly Helpful"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PAjb83HHLaU?start=97&end=150" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/PAjb83HHLaU/hqdefault.jpg)](https://www.youtube.com/watch?v=PAjb83HHLaU&t=97s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:37-2:30" "https://www.youtube.com/watch?v=PAjb83HHLaU" --force-keyframes-at-cuts --merge-output-format mp4 -o "PAjb83HHLaU-1m37s.mp4"
+```
+</details>
 
 > "Don't forget we already have robots that are almost boringly helpful."
 > — Turing Post Host, [2:00](https://www.youtube.com/watch?v=PAjb83HHLaU&t=120s)

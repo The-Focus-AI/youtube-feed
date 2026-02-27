@@ -50,35 +50,70 @@ The video culminates with the reveal of his own Mammoth Jacket featuring "wind w
 
 ### "Filson is the PowerHouse of Heritage wool outerwear"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u2c67bF9-OA?start=58&end=115" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/u2c67bF9-OA/hqdefault.jpg)](https://www.youtube.com/watch?v=u2c67bF9-OA&t=58s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:58-1:55" "https://www.youtube.com/watch?v=u2c67bF9-OA" --force-keyframes-at-cuts --merge-output-format mp4 -o "u2c67bF9-OA-0m58s.mp4"
+```
+</details>
 
 > "A lot of people have a lot of different things to say about Filson but you can't argue they are the PowerHouse of Heritage wool outerwear. If you say where should I get a wool jacket everyone says Filson."
 > — Michael, [0:58](https://www.youtube.com/watch?v=u2c67bF9-OA&t=58s)
 
 ### "Coarse wool is an absolute tank"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u2c67bF9-OA?start=359&end=420" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/u2c67bF9-OA/hqdefault.jpg)](https://www.youtube.com/watch?v=u2c67bF9-OA&t=359s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:59-7:00" "https://www.youtube.com/watch?v=u2c67bF9-OA" --force-keyframes-at-cuts --merge-output-format mp4 -o "u2c67bF9-OA-5m59s.mp4"
+```
+</details>
 
 > "Coarse wool is an absolute tank to wear, to have. It lasts forever. It's very abrasion resistant. It doesn't pill easily. It doesn't tear easily. But the trade-off is it's rather rough against your skin."
 > — Michael, [5:59](https://www.youtube.com/watch?v=u2c67bF9-OA&t=359s)
 
 ### "Why we see Filsons that are 100 years old"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u2c67bF9-OA?start=378&end=430" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/u2c67bF9-OA/hqdefault.jpg)](https://www.youtube.com/watch?v=u2c67bF9-OA&t=378s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:18-7:10" "https://www.youtube.com/watch?v=u2c67bF9-OA" --force-keyframes-at-cuts --merge-output-format mp4 -o "u2c67bF9-OA-6m18s.mp4"
+```
+</details>
 
 > "The strength of coarse wool is why we see Filsons that are 100 years old, why we see wool jackets from the 40s that I can still order on eBay for $120 something dollars and wear them until I die."
 > — Michael, [6:18](https://www.youtube.com/watch?v=u2c67bF9-OA&t=378s)
 
 ### "It's an internal Cape coat with an extra layer of wool sandwiched between"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u2c67bF9-OA?start=921&end=980" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/u2c67bF9-OA/hqdefault.jpg)](https://www.youtube.com/watch?v=u2c67bF9-OA&t=921s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:21-16:20" "https://www.youtube.com/watch?v=u2c67bF9-OA" --force-keyframes-at-cuts --merge-output-format mp4 -o "u2c67bF9-OA-15m21s.mp4"
+```
+</details>
 
 > "The easiest way that I say it to people is it's an internal Cape coat with an extra layer of wool sandwiched between it."
 > — Michael, [15:21](https://www.youtube.com/watch?v=u2c67bF9-OA&t=921s)
 
 ### "The highest quality jacket I could possibly make for $550"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u2c67bF9-OA?start=968&end=1020" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/u2c67bF9-OA/hqdefault.jpg)](https://www.youtube.com/watch?v=u2c67bF9-OA&t=968s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:08-17:00" "https://www.youtube.com/watch?v=u2c67bF9-OA" --force-keyframes-at-cuts --merge-output-format mp4 -o "u2c67bF9-OA-16m08s.mp4"
+```
+</details>
 
 > "For what it is I think this is the highest quality jacket that you can get at $550. It's the highest quality jacket that I could possibly make for $550."
 > — Michael, [16:08](https://www.youtube.com/watch?v=u2c67bF9-OA&t=968s)

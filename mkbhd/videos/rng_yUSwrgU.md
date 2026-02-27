@@ -37,35 +37,70 @@ MKBHD delivers a glowing review of the iPhone 17, calling it the best base iPhon
 
 ### "Best Base iPhone Since Pro Lineup"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rng_yUSwrgU?start=138&end=195" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rng_yUSwrgU/hqdefault.jpg)](https://www.youtube.com/watch?v=rng_yUSwrgU&t=138s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:18-3:15" "https://www.youtube.com/watch?v=rng_yUSwrgU" --force-keyframes-at-cuts --merge-output-format mp4 -o "rng_yUSwrgU-2m18s.mp4"
+```
+</details>
 
 > "There's this funny thing that happens when the cheapest phone in a lineup of phones is a really good deal. It makes all of the more expensive versions feel like worse deals because they are. And this is the best base iPhone since they added the Pro to the lineup. And I don't think it's particularly close."
 > — Marques Brownlee, [2:18](https://www.youtube.com/watch?v=rng_yUSwrgU&t=138s)
 
 ### "Finally Saying Goodbye to the $800 60Hz iPhone"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rng_yUSwrgU?start=183&end=240" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rng_yUSwrgU/hqdefault.jpg)](https://www.youtube.com/watch?v=rng_yUSwrgU&t=183s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:03-4:00" "https://www.youtube.com/watch?v=rng_yUSwrgU" --force-keyframes-at-cuts --merge-output-format mp4 -o "rng_yUSwrgU-3m03s.mp4"
+```
+</details>
 
 > "So, not only can we finally say goodbye to the $800 60 Hz iPhone, but it also now enables things like the always on display if you're into that."
 > — Marques Brownlee, [3:05](https://www.youtube.com/watch?v=rng_yUSwrgU&t=185s)
 
 ### "The Selfie Camera Everyone Should Copy"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rng_yUSwrgU?start=246&end=320" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rng_yUSwrgU/hqdefault.jpg)](https://www.youtube.com/watch?v=rng_yUSwrgU&t=246s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:06-5:20" "https://www.youtube.com/watch?v=rng_yUSwrgU" --force-keyframes-at-cuts --merge-output-format mp4 -o "rng_yUSwrgU-4m06s.mp4"
+```
+</details>
 
 > "So this new selfie camera is across all the new iPhones in the lineup, the base, the Air, and the Pros. I think it's kind of genius and I think everyone should copy it and I think they probably will."
 > — Marques Brownlee, [5:10](https://www.youtube.com/watch?v=rng_yUSwrgU&t=310s)
 
 ### "No Asterisks, No Ifs, Ands, or Buts"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rng_yUSwrgU?start=389&end=450" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rng_yUSwrgU/hqdefault.jpg)](https://www.youtube.com/watch?v=rng_yUSwrgU&t=389s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:29-7:30" "https://www.youtube.com/watch?v=rng_yUSwrgU" --force-keyframes-at-cuts --merge-output-format mp4 -o "rng_yUSwrgU-6m29s.mp4"
+```
+</details>
 
 > "The new iPhone 17 is just a straight up good deal now. No asterisks, no ifs, ands, or buts, just this phone is actually a good deal."
 > — Marques Brownlee, [6:30](https://www.youtube.com/watch?v=rng_yUSwrgU&t=390s)
 
 ### "Camera Control Button Giving 3D Touch Vibes"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rng_yUSwrgU?start=548&end=610" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rng_yUSwrgU/hqdefault.jpg)](https://www.youtube.com/watch?v=rng_yUSwrgU&t=548s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:08-10:10" "https://www.youtube.com/watch?v=rng_yUSwrgU" --force-keyframes-at-cuts --merge-output-format mp4 -o "rng_yUSwrgU-9m08s.mp4"
+```
+</details>
 
 > "It's giving me 3D Touch vibes. Like, I actually wouldn't be totally shocked if it quietly disappeared in 2 years. I kind of hope it doesn't."
 > — Marques Brownlee, [9:17](https://www.youtube.com/watch?v=rng_yUSwrgU&t=557s)

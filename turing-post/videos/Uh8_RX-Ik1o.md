@@ -39,35 +39,70 @@ Renen Hallak, founder and CEO of VAST Data, joins Ksenia on The Inference Show t
 
 ### "Every single human endeavor will change drastically"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uh8_RX-Ik1o?start=131&end=195" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Uh8_RX-Ik1o/hqdefault.jpg)](https://www.youtube.com/watch?v=Uh8_RX-Ik1o&t=131s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:11-3:15" "https://www.youtube.com/watch?v=Uh8_RX-Ik1o" --force-keyframes-at-cuts --merge-output-format mp4 -o "Uh8_RX-Ik1o-2m11s.mp4"
+```
+</details>
 
 > "If we're looking 10 years into the future, there is not anything I can think of that will not need to change drastically. It's not just developers and lawyers and support assistants. It's going to be every single human endeavor. Art, science, physical endeavors, construction work, carpenters, they will all be augmented in a very serious way by these new technologies."
 > — Renen Hallak, [2:11](https://www.youtube.com/watch?v=Uh8_RX-Ik1o&t=131s)
 
 ### "Metadata is far more important than raw data"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uh8_RX-Ik1o?start=423&end=490" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Uh8_RX-Ik1o/hqdefault.jpg)](https://www.youtube.com/watch?v=Uh8_RX-Ik1o&t=423s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:03-8:10" "https://www.youtube.com/watch?v=Uh8_RX-Ik1o" --force-keyframes-at-cuts --merge-output-format mp4 -o "Uh8_RX-Ik1o-7m03s.mp4"
+```
+</details>
 
 > "Metadata is important a lot more than it used to be because historically we were analyzing numbers and we were putting those numbers in columns of a database and it was relatively easy to understand what's going on. And now we have all this unstructured data. It's fuzzy. We don't really know what to do with it. And so we need to give it meaning."
 > — Renen Hallak, [7:03](https://www.youtube.com/watch?v=Uh8_RX-Ik1o&t=423s)
 
 ### "First give agents the ability to build their own model of the universe"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uh8_RX-Ik1o?start=785&end=860" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Uh8_RX-Ik1o/hqdefault.jpg)](https://www.youtube.com/watch?v=Uh8_RX-Ik1o&t=785s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:05-14:20" "https://www.youtube.com/watch?v=Uh8_RX-Ik1o" --force-keyframes-at-cuts --merge-output-format mp4 -o "Uh8_RX-Ik1o-13m05s.mp4"
+```
+</details>
 
 > "First thing we need to do is give agents the ability to build their own model of the universe. They can't all be based on the last model from OpenAI or xAI. They need to fine-tune their own models as they progress based on data that they are exposed to. And then instead of having one AI, we will have a million AIs or 10 million AIs."
 > — Renen Hallak, [13:05](https://www.youtube.com/watch?v=Uh8_RX-Ik1o&t=785s)
 
 ### "It's the same with our kids - instill values, then trust them"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uh8_RX-Ik1o?start=1043&end=1105" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Uh8_RX-Ik1o/hqdefault.jpg)](https://www.youtube.com/watch?v=Uh8_RX-Ik1o&t=1043s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*17:23-18:25" "https://www.youtube.com/watch?v=Uh8_RX-Ik1o" --force-keyframes-at-cuts --merge-output-format mp4 -o "Uh8_RX-Ik1o-17m23s.mp4"
+```
+</details>
 
 > "I think it's the same with our kids, right? We're not trying to control our kids. We're trying to raise them with certain values and then trust them that they have those values and that they will make good decisions based on those values that we instilled in them."
 > — Renen Hallak, [17:47](https://www.youtube.com/watch?v=Uh8_RX-Ik1o&t=1067s)
 
 ### "Evolution on steroids - 800 billion computers, new generation every minute"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uh8_RX-Ik1o?start=1506&end=1558" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Uh8_RX-Ik1o/hqdefault.jpg)](https://www.youtube.com/watch?v=Uh8_RX-Ik1o&t=1506s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*25:06-25:58" "https://www.youtube.com/watch?v=Uh8_RX-Ik1o" --force-keyframes-at-cuts --merge-output-format mp4 -o "Uh8_RX-Ik1o-25m06s.mp4"
+```
+</details>
 
 > "We can have instead of 8 billion computers, we can have 800 billion computers. And we can have a new generation spin up every minute, not every 20 years. It's evolution on steroids."
 > — Renen Hallak, [25:37](https://www.youtube.com/watch?v=Uh8_RX-Ik1o&t=1537s) - a foundational infrastructure layer that connects data, compute, and policy for the agentic era. Hallak explains how VAST Data evolved from a storage company in 2016 to building a comprehensive operating system for AI workloads, driven by customer demands for increasingly sophisticated capabilities including databases, compute management, and agent orchestration.

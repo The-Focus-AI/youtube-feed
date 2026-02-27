@@ -37,42 +37,84 @@ Thacker details how she went through 600 rejections raising her first fund Consc
 
 ### "This is one of the biggest medical blind spots driving chronic illness in America"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c_oBTi4foxo?start=76&end=140" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/c_oBTi4foxo/hqdefault.jpg)](https://www.youtube.com/watch?v=c_oBTi4foxo&t=76s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:16-2:20" "https://www.youtube.com/watch?v=c_oBTi4foxo" --force-keyframes-at-cuts --merge-output-format mp4 -o "c_oBTi4foxo-1m16s.mp4"
+```
+</details>
 
 > "25 million is our estimate for chronic inflammatory response syndrome. Our thesis is that this is one of the biggest medical blind spots in driving chronic illness here in America at the root cause of neurodegeneration, IBS, fibromyalgia, chronic fatigue syndrome. Even we think there's ties to obesity and metabolic conditions too."
 > — Ariana Thacker, [1:16](https://www.youtube.com/watch?v=c_oBTi4foxo&t=76s)
 
 ### "Around 50% of homes have a hidden mold issue"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c_oBTi4foxo?start=206&end=270" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/c_oBTi4foxo/hqdefault.jpg)](https://www.youtube.com/watch?v=c_oBTi4foxo&t=206s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:26-4:30" "https://www.youtube.com/watch?v=c_oBTi4foxo" --force-keyframes-at-cuts --merge-output-format mp4 -o "c_oBTi4foxo-3m26s.mp4"
+```
+</details>
 
 > "Our thesis is that around 50% of homes have a hidden mold issue. There's been over 12,800 homes surveyed across the US. 50% had mold growth, dampness and water damage. I've seen estimates as high as 70% for mold alone."
 > — Ariana Thacker, [3:26](https://www.youtube.com/watch?v=c_oBTi4foxo&t=206s)
 
 ### "It only took six and a half months for me to develop a chronic condition"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c_oBTi4foxo?start=568&end=630" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/c_oBTi4foxo/hqdefault.jpg)](https://www.youtube.com/watch?v=c_oBTi4foxo&t=568s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:28-10:30" "https://www.youtube.com/watch?v=c_oBTi4foxo" --force-keyframes-at-cuts --merge-output-format mp4 -o "c_oBTi4foxo-9m28s.mp4"
+```
+</details>
 
 > "For me personally, someone quite healthy coming in with the genetic susceptibility, it only took six and a half months for me to develop a chronic condition to mold. No prior health issues to be clear. So it can happen in a matter of months for some patients."
 > — Ariana Thacker, [9:28](https://www.youtube.com/watch?v=c_oBTi4foxo&t=568s)
 
 ### "Frequent urination affects 80-90% of male patients we see"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c_oBTi4foxo?start=418&end=480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/c_oBTi4foxo/hqdefault.jpg)](https://www.youtube.com/watch?v=c_oBTi4foxo&t=418s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:58-8:00" "https://www.youtube.com/watch?v=c_oBTi4foxo" --force-keyframes-at-cuts --merge-output-format mp4 -o "c_oBTi4foxo-6m58s.mp4"
+```
+</details>
 
 > "Getting up and go to the bathroom multiple times a night is really indicative. That's a very common symptom. I'd say that's almost 80-90% of the male patients that we see. It's due to ADH and osmolality dysregulation."
 > — Ariana Thacker, [6:58](https://www.youtube.com/watch?v=c_oBTi4foxo&t=418s)
 
 ### "There's an insurance code for being bit by a turtle, but not for mold related illness"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c_oBTi4foxo?start=3150&end=3210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/c_oBTi4foxo/hqdefault.jpg)](https://www.youtube.com/watch?v=c_oBTi4foxo&t=3150s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*52:30-53:30" "https://www.youtube.com/watch?v=c_oBTi4foxo" --force-keyframes-at-cuts --merge-output-format mp4 -o "c_oBTi4foxo-52m30s.mp4"
+```
+</details>
 
 > "There's an insurance code for being bit by a turtle, but not for mold related illness. That's how far behind the medical establishment is on recognizing this condition."
 > — Ariana Thacker, [52:30](https://www.youtube.com/watch?v=c_oBTi4foxo&t=3150s)
 
 ### "I went through 600 rejections raising my first fund"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c_oBTi4foxo?start=1519&end=1580" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/c_oBTi4foxo/hqdefault.jpg)](https://www.youtube.com/watch?v=c_oBTi4foxo&t=1519s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*25:19-26:20" "https://www.youtube.com/watch?v=c_oBTi4foxo" --force-keyframes-at-cuts --merge-output-format mp4 -o "c_oBTi4foxo-25m19s.mp4"
+```
+</details>
 
 > "I went through 600 rejections raising my first fund, Conscience VC. I lived at my parents' apartment in LA, woke at 4am daily, sometimes pitched in a robe. By the end, I was closing half to two-thirds of pitches after iterating my approach."
 > — Ariana Thacker, [25:19](https://www.youtube.com/watch?v=c_oBTi4foxo&t=1519s)

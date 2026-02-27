@@ -37,42 +37,84 @@ The third segment features a demo of Google's Project Genie, an experimental res
 
 ### "SpaceX Has Acquired a Cash Furnace Named xAI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I9vRCYtzYD8?start=147&end=200" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/I9vRCYtzYD8/hqdefault.jpg)](https://www.youtube.com/watch?v=I9vRCYtzYD8&t=147s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:27-3:20" "https://www.youtube.com/watch?v=I9vRCYtzYD8" --force-keyframes-at-cuts --merge-output-format mp4 -o "I9vRCYtzYD8-2m27s.mp4"
+```
+</details>
 
 > "I think there is a less grandiose way of describing what we have just seen here, which is that a very valuable and profitable company in SpaceX has acquired a cash furnace named xAI."
 > -- Casey Newton, [2:27](https://www.youtube.com/watch?v=I9vRCYtzYD8&t=147s)
 
 ### "Ketamine Is So Powerful That It Must Be Used Carefully"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I9vRCYtzYD8?start=131&end=170" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/I9vRCYtzYD8/hqdefault.jpg)](https://www.youtube.com/watch?v=I9vRCYtzYD8&t=131s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:11-2:50" "https://www.youtube.com/watch?v=I9vRCYtzYD8" --force-keyframes-at-cuts --merge-output-format mp4 -o "I9vRCYtzYD8-2m11s.mp4"
+```
+</details>
 
 > "'SpaceX has acquired xAI to form the most ambitious vertically integrated innovation engine on and off Earth... scaling to make a sentient sun to understand the universe and extend the light of consciousness to the stars.' Casey, your reaction. 'Ketamine is so powerful that it must be used carefully.'"
 > -- Kevin Roose & Casey Newton, [2:11](https://www.youtube.com/watch?v=I9vRCYtzYD8&t=131s)
 
 ### "Elon's Core Advantage Is Access to the Most Money"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I9vRCYtzYD8?start=730&end=790" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/I9vRCYtzYD8/hqdefault.jpg)](https://www.youtube.com/watch?v=I9vRCYtzYD8&t=730s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:10-13:10" "https://www.youtube.com/watch?v=I9vRCYtzYD8" --force-keyframes-at-cuts --merge-output-format mp4 -o "I9vRCYtzYD8-12m10s.mp4"
+```
+</details>
 
 > "This is Elon using the core advantage he has in the AI race which is access to the most money and the ability to combine many different companies together. The whole bet is: we may not be at the frontier right now, we may be a second tier lab, but we have a lot of money... and we are just going to bet that if we have enough time, we will be able to catch up."
 > -- Casey Newton, [12:10](https://www.youtube.com/watch?v=I9vRCYtzYD8&t=730s)
 
 ### "Nvidia Said 'This Is Too Crazy'"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I9vRCYtzYD8?start=1150&end=1210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/I9vRCYtzYD8/hqdefault.jpg)](https://www.youtube.com/watch?v=I9vRCYtzYD8&t=1150s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*19:10-20:10" "https://www.youtube.com/watch?v=I9vRCYtzYD8" --force-keyframes-at-cuts --merge-output-format mp4 -o "I9vRCYtzYD8-19m10s.mp4"
+```
+</details>
 
 > "Do you remember when Sam Altman would say things like, 'Our plans are literally so crazy, we're gonna have to invent new financial instruments'? This leasing deal, I believe, was one of those crazy financial instruments. And Nvidia said, 'This is too crazy.'"
 > -- Casey Newton, [19:10](https://www.youtube.com/watch?v=I9vRCYtzYD8&t=1150s)
 
 ### "The Microphone Escaping the Studio"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I9vRCYtzYD8?start=1690&end=1750" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/I9vRCYtzYD8/hqdefault.jpg)](https://www.youtube.com/watch?v=I9vRCYtzYD8&t=1690s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*28:10-29:10" "https://www.youtube.com/watch?v=I9vRCYtzYD8" --force-keyframes-at-cuts --merge-output-format mp4 -o "I9vRCYtzYD8-28m10s.mp4"
+```
+</details>
 
 > "I gave a very limited prompt. I basically said create a Hard Fork podcast studio, and for the character I said create a microphone with googly eyes... It turns out there is no escape from the podcast studio. The microphone goes out into the hallway, but then all the doors are just black and locked. I accidentally made a David Lynch movie."
 > -- Casey Newton, [28:10](https://www.youtube.com/watch?v=I9vRCYtzYD8&t=1690s)
 
 ### "It's Like Aliens Have Landed"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I9vRCYtzYD8?start=3510&end=3560" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/I9vRCYtzYD8/hqdefault.jpg)](https://www.youtube.com/watch?v=I9vRCYtzYD8&t=3510s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*58:30-59:20" "https://www.youtube.com/watch?v=I9vRCYtzYD8" --force-keyframes-at-cuts --merge-output-format mp4 -o "I9vRCYtzYD8-58m30s.mp4"
+```
+</details>
 
 > "This is new. It's like aliens have landed and we're getting an insight into it. So, this is very new and it's happening in front of everybody."
 > -- Matt Schlicht, [58:30](https://www.youtube.com/watch?v=I9vRCYtzYD8&t=3510s)

@@ -40,35 +40,70 @@ Gemini 3 shows major improvements across benchmarks, including nearly doubling t
 
 ### "Their Names Are Gemini 3 and Opus 4.5"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rq-2i1blAlU?start=60&end=110" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rq-2i1blAlU/hqdefault.jpg)](https://www.youtube.com/watch?v=rq-2i1blAlU&t=60s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:00-1:50" "https://www.youtube.com/watch?v=rq-2i1blAlU" --force-keyframes-at-cuts --merge-output-format mp4 -o "rq-2i1blAlU-1m00s.mp4"
+```
+</details>
 
 > "Maybe more than other model releases, this one seems to have the attention of Google's competitors. We're hearing a lot of whispers from folks who work at other AI labs that it seems like Gemini 3 has managed to figure some things out in a way that may be bad for their businesses."
 > -- Casey Newton, [1:00](https://www.youtube.com/watch?v=rq-2i1blAlU&t=60s)
 
 ### "Step One: Build an Illegal Monopoly"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rq-2i1blAlU?start=346&end=370" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rq-2i1blAlU/hqdefault.jpg)](https://www.youtube.com/watch?v=rq-2i1blAlU&t=346s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:46-6:10" "https://www.youtube.com/watch?v=rq-2i1blAlU" --force-keyframes-at-cuts --merge-output-format mp4 -o "rq-2i1blAlU-5m46s.mp4"
+```
+</details>
 
 > "Google's big advantage here over their competitors is that they have products that are used by billions of people a day and they can kind of shove Gemini 3 into those products over time. Which is why we always tell students when they ask us for advice, step one, build an illegal monopoly."
 > -- Kevin Roose, [5:46](https://www.youtube.com/watch?v=rq-2i1blAlU&t=346s)
 
 ### "Dead on Track for AGI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rq-2i1blAlU?start=660&end=720" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rq-2i1blAlU/hqdefault.jpg)](https://www.youtube.com/watch?v=rq-2i1blAlU&t=660s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:00-12:00" "https://www.youtube.com/watch?v=rq-2i1blAlU" --force-keyframes-at-cuts --merge-output-format mp4 -o "rq-2i1blAlU-11m00s.mp4"
+```
+</details>
 
 > "I think it's sort of dead on track. We're really happy with this progress. I think it's an absolutely amazing model and is right on track of what I was expecting... I still think there'll be one or two more things that are required to really get the consistency across the board that you'd expect from a general intelligence."
 > -- Demis Hassabis, [11:00](https://www.youtube.com/watch?v=rq-2i1blAlU&t=660s)
 
 ### "Maybe It's One of Those Cool Drag Racers"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rq-2i1blAlU?start=498&end=540" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rq-2i1blAlU/hqdefault.jpg)](https://www.youtube.com/watch?v=rq-2i1blAlU&t=498s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:18-9:00" "https://www.youtube.com/watch?v=rq-2i1blAlU" --force-keyframes-at-cuts --merge-output-format mp4 -o "rq-2i1blAlU-8m18s.mp4"
+```
+</details>
 
 > "Two years ago, Sundar Pichai told us that Bard was a souped-up Civic in a race with more powerful cars. What kind of car is Gemini 3? Well, I hope it's a bit faster than a Honda Civic. Maybe it's one of those cool drag racers."
 > -- Demis Hassabis, [8:18](https://www.youtube.com/watch?v=rq-2i1blAlU&t=498s)
 
 ### "Not Working Out for the Rest of the Web"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rq-2i1blAlU?start=333&end=370" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/rq-2i1blAlU/hqdefault.jpg)](https://www.youtube.com/watch?v=rq-2i1blAlU&t=333s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:33-6:10" "https://www.youtube.com/watch?v=rq-2i1blAlU" --force-keyframes-at-cuts --merge-output-format mp4 -o "rq-2i1blAlU-5m33s.mp4"
+```
+</details>
 
 > "So far they say that the usage keeps going up for AI overviews and every quarter they continue to make more money. So seems to be working out for them. Not working out for the rest of the web, but it's working out well for Google."
 > -- Kevin Roose, [5:33](https://www.youtube.com/watch?v=rq-2i1blAlU&t=333s)

@@ -35,42 +35,84 @@ The interview also covers Sequoia's consensus-based investment process (any part
 
 ### "Investing in venture is a return-free risk"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TKtIoF4yLos?start=289&end=340" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/TKtIoF4yLos/hqdefault.jpg)](https://www.youtube.com/watch?v=TKtIoF4yLos&t=289s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:49-5:40" "https://www.youtube.com/watch?v=TKtIoF4yLos" --force-keyframes-at-cuts --merge-output-format mp4 -o "TKtIoF4yLos-4m49s.mp4"
+```
+</details>
 
 > "You need 40 Figmas a year for the industry to make the returns work, which means that they don't. So in my opinion, investing in venture is a return-free risk."
 > -- Roelof Botha, [4:49](https://www.youtube.com/watch?v=TKtIoF4yLos&t=289s)
 
 ### "Over 30% of the total value of the NASDAQ"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TKtIoF4yLos?start=963&end=1010" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/TKtIoF4yLos/hqdefault.jpg)](https://www.youtube.com/watch?v=TKtIoF4yLos&t=963s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:03-16:50" "https://www.youtube.com/watch?v=TKtIoF4yLos" --force-keyframes-at-cuts --merge-output-format mp4 -o "TKtIoF4yLos-16m03s.mp4"
+```
+</details>
 
 > "The companies in which we were private investors when they were little companies today account for over 30% of the total value of the NASDAQ."
 > -- Roelof Botha, [16:03](https://www.youtube.com/watch?v=TKtIoF4yLos&t=963s)
 
 ### "98% reduction in companies founded in China"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TKtIoF4yLos?start=623&end=665" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/TKtIoF4yLos/hqdefault.jpg)](https://www.youtube.com/watch?v=TKtIoF4yLos&t=623s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:23-11:05" "https://www.youtube.com/watch?v=TKtIoF4yLos" --force-keyframes-at-cuts --merge-output-format mp4 -o "TKtIoF4yLos-10m23s.mp4"
+```
+</details>
 
 > "In 2018 there were 51,000 companies started in China. In 2023 it was 1,200. You had a 98% reduction in the number of companies founded in China."
 > -- Roelof Botha, [10:23](https://www.youtube.com/watch?v=TKtIoF4yLos&t=623s)
 
 ### "Exceptional people who are not so easy to get along with"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TKtIoF4yLos?start=1218&end=1270" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/TKtIoF4yLos/hqdefault.jpg)](https://www.youtube.com/watch?v=TKtIoF4yLos&t=1218s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:18-21:10" "https://www.youtube.com/watch?v=TKtIoF4yLos" --force-keyframes-at-cuts --merge-output-format mp4 -o "TKtIoF4yLos-20m18s.mp4"
+```
+</details>
 
 > "Don Valentine said: people are exceptional or not exceptional, easy to get along with or not so easy to get along with. Roelof, we normally make money in one of those four quadrants. Your job is to figure out which one. And it's the exceptional people who are not so easy to get along with."
 > -- Roelof Botha, [20:18](https://www.youtube.com/watch?v=TKtIoF4yLos&t=1218s)
 
 ### "$6.7 billion in gains by doing nothing except being patient"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TKtIoF4yLos?start=1080&end=1120" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/TKtIoF4yLos/hqdefault.jpg)](https://www.youtube.com/watch?v=TKtIoF4yLos&t=1080s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:00-18:40" "https://www.youtube.com/watch?v=TKtIoF4yLos" --force-keyframes-at-cuts --merge-output-format mp4 -o "TKtIoF4yLos-18m00s.mp4"
+```
+</details>
 
 > "Since we launched this 3 and a half years ago, we've accumulated another $6.7 billion in gains by doing nothing except being patient."
 > -- Roelof Botha, [18:00](https://www.youtube.com/watch?v=TKtIoF4yLos&t=1080s)
 
 ### "Doug showed up at my house with a homemade pesto jar"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TKtIoF4yLos?start=1340&end=1400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/TKtIoF4yLos/hqdefault.jpg)](https://www.youtube.com/watch?v=TKtIoF4yLos&t=1340s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*22:20-23:20" "https://www.youtube.com/watch?v=TKtIoF4yLos" --force-keyframes-at-cuts --merge-output-format mp4 -o "TKtIoF4yLos-22m20s.mp4"
+```
+</details>
 
 > "I was really having a lot of self-doubt and Doug showed up at my house with a homemade pesto jar. He just wanted to tell me that he was there to support me through this dark period."
 > -- Roelof Botha, [22:20](https://www.youtube.com/watch?v=TKtIoF4yLos&t=1340s)

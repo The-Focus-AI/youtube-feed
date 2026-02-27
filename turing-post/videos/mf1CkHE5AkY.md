@@ -36,42 +36,84 @@ The tragedy, according to the critique, is that somewhere inside this 150 pages 
 
 ### "A closed loop of confidence"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mf1CkHE5AkY?start=18&end=77" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mf1CkHE5AkY/hqdefault.jpg)](https://www.youtube.com/watch?v=mf1CkHE5AkY&t=18s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:18-1:17" "https://www.youtube.com/watch?v=mf1CkHE5AkY" --force-keyframes-at-cuts --merge-output-format mp4 -o "mf1CkHE5AkY-0m18s.mp4"
+```
+</details>
 
 > "The problem of this essay is a closed loop of confidence reinforced by a small circle of powerful and wealthy people who rarely challenge each other's assumptions. They're just absolutely sure they're right. That by itself makes me cautious."
 > — Ksenia Se, [0:18](https://www.youtube.com/watch?v=mf1CkHE5AkY&t=18s)
 
 ### "150 pages as if the assumption is already true"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mf1CkHE5AkY?start=122&end=169" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mf1CkHE5AkY/hqdefault.jpg)](https://www.youtube.com/watch?v=mf1CkHE5AkY&t=122s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:02-2:49" "https://www.youtube.com/watch?v=mf1CkHE5AkY" --force-keyframes-at-cuts --merge-output-format mp4 -o "mf1CkHE5AkY-2m02s.mp4"
+```
+</details>
 
 > "Dario Amodei acknowledges uncertainty. He says this might not happen and that he can be wrong. But then he proceeds to write 150 pages as if the assumption is already true. It's like saying I'm not certain if aliens will land in Times Square next Tuesday, but let me spend the next 2 hours explaining exactly how we should change global governance assuming they definitely will."
 > — Ksenia Se, [2:02](https://www.youtube.com/watch?v=mf1CkHE5AkY&t=122s)
 
 ### "Depth without breadth is just tunnel vision"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mf1CkHE5AkY?start=184&end=206" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mf1CkHE5AkY/hqdefault.jpg)](https://www.youtube.com/watch?v=mf1CkHE5AkY&t=184s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:04-3:26" "https://www.youtube.com/watch?v=mf1CkHE5AkY" --force-keyframes-at-cuts --merge-output-format mp4 -o "mf1CkHE5AkY-3m04s.mp4"
+```
+</details>
 
 > "What Dario Amodei does not do and what he should do if this were a rigorous analysis: he should explore not one branch but the tree of possibilities with incredible depth. But he doesn't ask other questions. And depth without breadth is just tunnel vision."
 > — Ksenia Se, [3:04](https://www.youtube.com/watch?v=mf1CkHE5AkY&t=184s)
 
 ### "The absurd mismatch between threats and solutions"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mf1CkHE5AkY?start=258&end=320" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mf1CkHE5AkY/hqdefault.jpg)](https://www.youtube.com/watch?v=mf1CkHE5AkY&t=258s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:18-5:20" "https://www.youtube.com/watch?v=mf1CkHE5AkY" --force-keyframes-at-cuts --merge-output-format mp4 -o "mf1CkHE5AkY-4m18s.mp4"
+```
+</details>
 
 > "When describing risks, Amodei is sophisticated, nuanced, considers failure modes. When proposing solutions, he becomes vague, optimistic, and weirdly deferential to market forces. If you told me an asteroid was going to hit Earth in two years with 50% probability and my response was 'NASA should publish quarterly transparency reports,' you would rightly call me insane. But that's essentially what's happening in this article."
 > — Ksenia Se, [4:18](https://www.youtube.com/watch?v=mf1CkHE5AkY&t=258s)
 
 ### "The CEO conflict of interest"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mf1CkHE5AkY?start=322&end=392" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mf1CkHE5AkY/hqdefault.jpg)](https://www.youtube.com/watch?v=mf1CkHE5AkY&t=322s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:22-6:32" "https://www.youtube.com/watch?v=mf1CkHE5AkY" --force-keyframes-at-cuts --merge-output-format mp4 -o "mf1CkHE5AkY-5m22s.mp4"
+```
+</details>
 
 > "Dario Amodei is not a disinterested observer. He is the CEO of Anthropic, a company valued at over 60 billion, racing to build exactly the technology he's warning about. You can't hold all three of these positions simultaneously: The threat is existential. The industry can be trusted. And we should rely mainly on voluntary industry actions. Pick two. You cannot have all three."
 > — Ksenia Se, [5:22](https://www.youtube.com/watch?v=mf1CkHE5AkY&t=322s)
 
 ### "Every reference comes from science fiction"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mf1CkHE5AkY?start=453&end=520" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mf1CkHE5AkY/hqdefault.jpg)](https://www.youtube.com/watch?v=mf1CkHE5AkY&t=453s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:33-8:40" "https://www.youtube.com/watch?v=mf1CkHE5AkY" --force-keyframes-at-cuts --merge-output-format mp4 -o "mf1CkHE5AkY-7m33s.mp4"
+```
+</details>
 
 > "Every single cultural reference in this essay comes from science fiction. Not from economics, not from political science, not from history of technology regulation. Science fiction is specifically designed to model irreversible catastrophic failures. That makes your argument feel mythic rather than empirical. And that's exactly why skeptics keep saying this sounds like sci-fi because it literally is using sci-fi."
 > — Ksenia Se, [7:33](https://www.youtube.com/watch?v=mf1CkHE5AkY&t=453s)

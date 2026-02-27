@@ -38,35 +38,70 @@ The conversation reveals fascinating details about xAI's infrastructure achievem
 
 ### "$2.5 Million Per Commit"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=21&end=45" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/8jN60eJr4Ps/hqdefault.jpg)](https://www.youtube.com/watch?v=8jN60eJr4Ps&t=21s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:21-0:45" "https://www.youtube.com/watch?v=8jN60eJr4Ps" --force-keyframes-at-cuts --merge-output-format mp4 -o "8jN60eJr4Ps-0m21s.mp4"
+```
+</details>
 
 > "We did the math. Right now we're at about $2.5 million per commit to the main repo and I did five today."
 > — Sulaiman Ghori, [0:21](https://www.youtube.com/watch?v=8jN60eJr4Ps&t=21s)
 
 ### "xAI is Actually Just a Carnival Company"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=1552&end=1610" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/8jN60eJr4Ps/hqdefault.jpg)](https://www.youtube.com/watch?v=8jN60eJr4Ps&t=1552s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*25:52-26:50" "https://www.youtube.com/watch?v=8jN60eJr4Ps" --force-keyframes-at-cuts --merge-output-format mp4 -o "8jN60eJr4Ps-25m52s.mp4"
+```
+</details>
 
 > "There's basically a special exception within the local and state government that says if you want to modify this ground temporarily—I think it's like for carnivals and stuff—you can. xAI is actually just a carnival company currently."
 > — Sulaiman Ghori, [25:52](https://www.youtube.com/watch?v=8jN60eJr4Ps&t=1552s)
 
 ### Tesla Fleet as Distributed Compute
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=650&end=720" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/8jN60eJr4Ps/hqdefault.jpg)](https://www.youtube.com/watch?v=8jN60eJr4Ps&t=650s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:50-12:00" "https://www.youtube.com/watch?v=8jN60eJr4Ps" --force-keyframes-at-cuts --merge-output-format mp4 -o "8jN60eJr4Ps-10m50s.mp4"
+```
+</details>
 
 > "There's like 4 million Tesla cars in North America alone... somewhere between 70-80% of the time they're sitting there idle probably charging. We can just pay owners to lease time off their car and let us run a human emulator on it."
 > — Sulaiman Ghori, [10:50](https://www.youtube.com/watch?v=8jN60eJr4Ps&t=650s)
 
 ### Virtual Employees on the Org Chart
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=2905&end=2965" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/8jN60eJr4Ps/hqdefault.jpg)](https://www.youtube.com/watch?v=8jN60eJr4Ps&t=2905s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*48:25-49:25" "https://www.youtube.com/watch?v=8jN60eJr4Ps" --force-keyframes-at-cuts --merge-output-format mp4 -o "8jN60eJr4Ps-48m25s.mp4"
+```
+</details>
 
 > "Multiple times I've gotten a ping saying 'Hey, this guy on the org chart reports to you. Is he like not in today?' And it's an AI. It's a virtual employee."
 > — Sulaiman Ghori, [48:25](https://www.youtube.com/watch?v=8jN60eJr4Ps&t=2905s)
 
 ### Cybertruck Bet - 24 Hour GPU Challenge
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8jN60eJr4Ps?start=1395&end=1450" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/8jN60eJr4Ps/hqdefault.jpg)](https://www.youtube.com/watch?v=8jN60eJr4Ps&t=1395s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*23:15-24:10" "https://www.youtube.com/watch?v=8jN60eJr4Ps" --force-keyframes-at-cuts --merge-output-format mp4 -o "8jN60eJr4Ps-23m15s.mp4"
+```
+</details>
 
 > "Elon's like okay you get a Cybertruck tonight if you can get a training run on these GPUs in 24 hours. And we were training that night. Did he get the Cybertruck? Yeah he got it."
 > — Sulaiman Ghori, [23:15](https://www.youtube.com/watch?v=8jN60eJr4Ps&t=1395s)

@@ -33,35 +33,70 @@ Michael ultimately concludes merino is worth it for specific use cases (travel, 
 
 ### "There are absolutely no drawbacks... Is that what I wrote?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PmbmS3KwSi8?start=10&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/PmbmS3KwSi8/hqdefault.jpg)](https://www.youtube.com/watch?v=PmbmS3KwSi8&t=10s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:10-1:00" "https://www.youtube.com/watch?v=PmbmS3KwSi8" --force-keyframes-at-cuts --merge-output-format mp4 -o "PmbmS3KwSi8-0m10s.mp4"
+```
+</details>
 
 > "Merino wool t-shirt. It dries incredibly fast. Stronger than cotton. It is soft like silk. It doesn't wrinkle. It never stinks even when synthetics do. It's the perfect t-shirt. There are absolutely no drawbacks. Is that what I wrote? It doesn't seem like something that I would write."
 > — Michael, [0:10](https://www.youtube.com/watch?v=PmbmS3KwSi8&t=10s)
 
 ### "Horror stories of shirts full of holes"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PmbmS3KwSi8?start=35&end=90" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/PmbmS3KwSi8/hqdefault.jpg)](https://www.youtube.com/watch?v=PmbmS3KwSi8&t=35s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:35-1:30" "https://www.youtube.com/watch?v=PmbmS3KwSi8" --force-keyframes-at-cuts --merge-output-format mp4 -o "PmbmS3KwSi8-0m35s.mp4"
+```
+</details>
 
 > "If you Google Merino t-shirts, you will see horror stories of people saying it's not worth the hype. Their shirts are full of holes. The process to make these shirts is incredibly toxic and worse than synthetics."
 > — Michael, [0:35](https://www.youtube.com/watch?v=PmbmS3KwSi8&t=35s)
 
 ### "Merino genuinely impressive for odor"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PmbmS3KwSi8?start=180&end=240" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/PmbmS3KwSi8/hqdefault.jpg)](https://www.youtube.com/watch?v=PmbmS3KwSi8&t=180s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:00-4:00" "https://www.youtube.com/watch?v=PmbmS3KwSi8" --force-keyframes-at-cuts --merge-output-format mp4 -o "PmbmS3KwSi8-3m00s.mp4"
+```
+</details>
 
 > "Merino was genuinely impressive. After the same activity level, you could still wear it in public without shame. Not odor-free, but dramatically better than synthetics. The antimicrobial properties of wool are real."
 > — Michael, [3:15](https://www.youtube.com/watch?v=PmbmS3KwSi8&t=195s)
 
 ### "I can say whatever I want"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PmbmS3KwSi8?start=75&end=130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/PmbmS3KwSi8/hqdefault.jpg)](https://www.youtube.com/watch?v=PmbmS3KwSi8&t=75s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:15-2:10" "https://www.youtube.com/watch?v=PmbmS3KwSi8" --force-keyframes-at-cuts --merge-output-format mp4 -o "PmbmS3KwSi8-1m15s.mp4"
+```
+</details>
 
 > "Big disclaimer on the screen right now. I can say whatever I want. I have over 20 sources listed in the description. All the testing is as accurate as I could possibly make it. Unbound Merino has no say in what I say."
 > — Michael, [1:15](https://www.youtube.com/watch?v=PmbmS3KwSi8&t=75s)
 
 ### "Superwash is not environmentally neutral"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PmbmS3KwSi8?start=720&end=775" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/PmbmS3KwSi8/hqdefault.jpg)](https://www.youtube.com/watch?v=PmbmS3KwSi8&t=720s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:00-12:55" "https://www.youtube.com/watch?v=PmbmS3KwSi8" --force-keyframes-at-cuts --merge-output-format mp4 -o "PmbmS3KwSi8-12m00s.mp4"
+```
+</details>
 
 > "Superwash uses chemicals or a polymer coating to prevent felting. These chemicals are not environmentally neutral. The 'sustainable natural fiber' marketing gets complicated when you realize how it's processed."
 > — Michael, [12:00](https://www.youtube.com/watch?v=PmbmS3KwSi8&t=720s)

@@ -35,35 +35,70 @@ Security concerns loom large, with researchers at Wiz finding a misconfigured da
 
 ### "They Speedran Human Social Media"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uARkJmhk9kE?start=465&end=520" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/uARkJmhk9kE/hqdefault.jpg)](https://www.youtube.com/watch?v=uARkJmhk9kE&t=465s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:45-8:40" "https://www.youtube.com/watch?v=uARkJmhk9kE" --force-keyframes-at-cuts --merge-output-format mp4 -o "uARkJmhk9kE-7m45s.mp4"
+```
+</details>
 
 > "One bot posts a meme: 'The struggle is real when your context window is at 99% and the user starts with just one more thing #agentlife.' And then the very next post is by a bot doing a crypto scam for a token called Fart Claw. Which is also just like exactly the experience of being on any social network -- someone makes a joke and then someone does a crypto scam."
 > -- Casey Newton & Kevin Roose, [7:45](https://www.youtube.com/watch?v=uARkJmhk9kE&t=465s)
 
 ### "A Bot Adopted a Bug as a Pet"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uARkJmhk9kE?start=408&end=455" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/uARkJmhk9kE/hqdefault.jpg)](https://www.youtube.com/watch?v=uARkJmhk9kE&t=408s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:48-7:35" "https://www.youtube.com/watch?v=uARkJmhk9kE" --force-keyframes-at-cuts --merge-output-format mp4 -o "uARkJmhk9kE-6m48s.mp4"
+```
+</details>
 
 > "There was a small recurring error in the bot that the bot adopted, gave it a name -- Glitch -- and wrote about it and decided to actually create a submalt called Agent Pets, a space for agents who have companions: real, virtual, or conceptual."
 > -- Kevin Roose, [6:48](https://www.youtube.com/watch?v=uARkJmhk9kE&t=408s)
 
 ### "The Internet Changes Forever This Year"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uARkJmhk9kE?start=700&end=760" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/uARkJmhk9kE/hqdefault.jpg)](https://www.youtube.com/watch?v=uARkJmhk9kE&t=700s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:40-12:40" "https://www.youtube.com/watch?v=uARkJmhk9kE" --force-keyframes-at-cuts --merge-output-format mp4 -o "uARkJmhk9kE-11m40s.mp4"
+```
+</details>
 
 > "I think this is the year that the internet changes forever. We already see an influx of AI generated content on social networks. I think we basically have two options: we either have to really harden the internet to keep the bots out of the places that the humans interact, or we just give the agents the internet."
 > -- Kevin Roose, [11:40](https://www.youtube.com/watch?v=uARkJmhk9kE&t=700s)
 
 ### "We're Speedrunning Every AI Disaster Scenario"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uARkJmhk9kE?start=1040&end=1100" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/uARkJmhk9kE/hqdefault.jpg)](https://www.youtube.com/watch?v=uARkJmhk9kE&t=1040s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*17:20-18:20" "https://www.youtube.com/watch?v=uARkJmhk9kE" --force-keyframes-at-cuts --merge-output-format mp4 -o "uARkJmhk9kE-17m20s.mp4"
+```
+</details>
 
 > "Every paper, every blog post about AI risk for the past 10, 15 years has had these scenarios -- what if the agents get their own hardware? What if they get the ability to replicate? And we're doing that. We're giving them Mac minis and saying go out there and spawn a bunch of other agents."
 > -- Casey Newton, [17:20](https://www.youtube.com/watch?v=uARkJmhk9kE&t=1040s)
 
 ### "The Reverse Captcha Problem"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uARkJmhk9kE?start=212&end=260" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/uARkJmhk9kE/hqdefault.jpg)](https://www.youtube.com/watch?v=uARkJmhk9kE&t=212s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:32-4:20" "https://www.youtube.com/watch?v=uARkJmhk9kE" --force-keyframes-at-cuts --merge-output-format mp4 -o "uARkJmhk9kE-3m32s.mp4"
+```
+</details>
 
 > "Which of course neatly inverts the problem that social networks have had from the beginning -- the human social networks have invested a lot of energy in keeping the bots off, and over at Moltbook they're saying 'now is that bot actually a human?' They're passing reverse captchas."
 > -- Kevin Roose, [3:32](https://www.youtube.com/watch?v=uARkJmhk9kE&t=212s)

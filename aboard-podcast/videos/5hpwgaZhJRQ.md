@@ -33,35 +33,70 @@ The episode is a sharp, funny examination of the real organizational dynamics ar
 
 ### "I Built It in Six Hours Using the Most Powerful Technology on Earth"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5hpwgaZhJRQ?start=342&end=400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5hpwgaZhJRQ/hqdefault.jpg)](https://www.youtube.com/watch?v=5hpwgaZhJRQ&t=342s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:42-6:40" "https://www.youtube.com/watch?v=5hpwgaZhJRQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "5hpwgaZhJRQ-5m42s.mp4"
+```
+</details>
 
 > "Come to my Windows XP machine that we have provisioned and let me bring this bad boy up. I use Claude to build this. This has a database behind it and it has a beautiful interface. It looks really nice... It took six hours."
 > -- Paul Ford as "Doug", [5:42](https://www.youtube.com/watch?v=5hpwgaZhJRQ&t=342s)
 
 ### "$15 Million in Reimbursable Expenses, Doug"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5hpwgaZhJRQ?start=413&end=480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5hpwgaZhJRQ/hqdefault.jpg)](https://www.youtube.com/watch?v=5hpwgaZhJRQ&t=413s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:53-8:00" "https://www.youtube.com/watch?v=5hpwgaZhJRQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "5hpwgaZhJRQ-6m53s.mp4"
+```
+</details>
 
 > "Last year we received over $15 million in reimbursable expenses. Our clients trust us that when we run those invoices and we add those numbers up that they are accurate... This is money we're talking about, Doug. Money is exchanging hands."
 > -- Rich Ziade as "Mr. Jeremy", [6:53](https://www.youtube.com/watch?v=5hpwgaZhJRQ&t=413s)
 
 ### "I Don't Want AI Testing AI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5hpwgaZhJRQ?start=563&end=615" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5hpwgaZhJRQ/hqdefault.jpg)](https://www.youtube.com/watch?v=5hpwgaZhJRQ&t=563s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:23-10:15" "https://www.youtube.com/watch?v=5hpwgaZhJRQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "5hpwgaZhJRQ-9m23s.mp4"
+```
+</details>
 
 > "One more thing. I don't want AI testing AI... Not going to cut it."
 > -- Rich Ziade as "Mr. Jeremy", [9:23](https://www.youtube.com/watch?v=5hpwgaZhJRQ&t=563s)
 
 ### "The Boss Is More Vulnerable"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5hpwgaZhJRQ?start=814&end=860" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5hpwgaZhJRQ/hqdefault.jpg)](https://www.youtube.com/watch?v=5hpwgaZhJRQ&t=814s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:34-14:20" "https://www.youtube.com/watch?v=5hpwgaZhJRQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "5hpwgaZhJRQ-13m34s.mp4"
+```
+</details>
 
 > "In some ways the boss is more vulnerable. Because I can play with these toys and something really blows up. I'll just go -- I'm an AI enhanced accelerated developer. There aren't enough of me right now. I can make as much mess as I want."
 > -- Paul Ford, [13:34](https://www.youtube.com/watch?v=5hpwgaZhJRQ&t=814s)
 
 ### "Nobody in History Has Ever Worked One-Shot"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5hpwgaZhJRQ?start=1130&end=1190" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5hpwgaZhJRQ/hqdefault.jpg)](https://www.youtube.com/watch?v=5hpwgaZhJRQ&t=1130s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:50-19:50" "https://www.youtube.com/watch?v=5hpwgaZhJRQ" --force-keyframes-at-cuts --merge-output-format mp4 -o "5hpwgaZhJRQ-18m50s.mp4"
+```
+</details>
 
 > "Everybody is obsessed with one shot and standing up zillions of agents and you give it a prompt. Nothing in culture, nothing in history has ever worked that way."
 > -- Paul Ford, [18:50](https://www.youtube.com/watch?v=5hpwgaZhJRQ&t=1130s)

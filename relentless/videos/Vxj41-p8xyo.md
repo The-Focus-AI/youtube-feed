@@ -38,35 +38,70 @@ In the second half, Jake dives into biosurveillance -- the technology for detect
 
 ### "What If You Were a Super Terrorist?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Vxj41-p8xyo?start=4545&end=4615" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Vxj41-p8xyo/hqdefault.jpg)](https://www.youtube.com/watch?v=Vxj41-p8xyo&t=4545s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*75:45-76:55" "https://www.youtube.com/watch?v=Vxj41-p8xyo" --force-keyframes-at-cuts --merge-output-format mp4 -o "Vxj41-p8xyo-75m45s.mp4"
+```
+</details>
 
 > "If you wanted to be a super terrorist, what are the things that you would do? If you generally know your way around a lab, it's really not that tricky to encapsulate the purified virus. You could have a terrorist walk into JFK airport carrying a little tube of Ebola, spread it across the handles in all the major bathrooms. You would never know that it was him."
 > -- Jake Adler, [1:15:45](https://www.youtube.com/watch?v=Vxj41-p8xyo&t=4545s)
 
 ### "Tourniquets Since Alexander the Great"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Vxj41-p8xyo?start=346&end=415" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Vxj41-p8xyo/hqdefault.jpg)](https://www.youtube.com/watch?v=Vxj41-p8xyo&t=346s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:46-6:55" "https://www.youtube.com/watch?v=Vxj41-p8xyo" --force-keyframes-at-cuts --merge-output-format mp4 -o "Vxj41-p8xyo-5m46s.mp4"
+```
+</details>
 
 > "The tourniquet as a concept hasn't fundamentally changed since Alexander the Great. We're still wrapping something tightly around a limb to cut off blood flow. That's insane. Three thousand years and the basic idea is the same."
 > -- Jake Adler, [5:46](https://www.youtube.com/watch?v=Vxj41-p8xyo&t=346s)
 
 ### "Running a Marathon with No Training Using Auto-Injectors"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Vxj41-p8xyo?start=2423&end=2490" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Vxj41-p8xyo/hqdefault.jpg)](https://www.youtube.com/watch?v=Vxj41-p8xyo&t=2423s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*40:23-41:30" "https://www.youtube.com/watch?v=Vxj41-p8xyo" --force-keyframes-at-cuts --merge-output-format mp4 -o "Vxj41-p8xyo-40m23s.mp4"
+```
+</details>
 
 > "Using auto-injectors to run a marathon with no training -- the idea that you could pharmacologically enhance physical performance to the point where an untrained person could complete extreme endurance events. The military has been researching this for decades."
 > -- Jake Adler, [40:23](https://www.youtube.com/watch?v=Vxj41-p8xyo&t=2423s)
 
 ### "The DOD Doesn't Buy the Best Technology"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Vxj41-p8xyo?start=5067&end=5135" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Vxj41-p8xyo/hqdefault.jpg)](https://www.youtube.com/watch?v=Vxj41-p8xyo&t=5067s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*84:27-85:35" "https://www.youtube.com/watch?v=Vxj41-p8xyo" --force-keyframes-at-cuts --merge-output-format mp4 -o "Vxj41-p8xyo-84m27s.mp4"
+```
+</details>
 
 > "The DOD doesn't buy the best technology. They buy the best positioned solution. You can have the most advanced technology in the world, but if you don't understand the procurement process, if you don't have the right relationships, if you don't speak the language, you will lose to an inferior product every single time."
 > -- Jake Adler, [1:24:27](https://www.youtube.com/watch?v=Vxj41-p8xyo&t=5067s)
 
 ### "Sleeping 2 Hours"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Vxj41-p8xyo?start=2843&end=2910" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/Vxj41-p8xyo/hqdefault.jpg)](https://www.youtube.com/watch?v=Vxj41-p8xyo&t=2843s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*47:23-48:30" "https://www.youtube.com/watch?v=Vxj41-p8xyo" --force-keyframes-at-cuts --merge-output-format mp4 -o "Vxj41-p8xyo-47m23s.mp4"
+```
+</details>
 
 > "There are military programs researching whether you can maintain cognitive and physical performance on 2 hours of sleep. The combination of specific pharmacological compounds and training protocols can supposedly compress the sleep requirement dramatically."
 > -- Jake Adler, [47:23](https://www.youtube.com/watch?v=Vxj41-p8xyo&t=2843s)

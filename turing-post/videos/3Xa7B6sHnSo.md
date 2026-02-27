@@ -38,35 +38,70 @@ The "promise" section critiques Genie 3 from Google DeepMind - an impressive dem
 
 ### "Models play chess like amateur humans"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3Xa7B6sHnSo?start=142&end=195" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3Xa7B6sHnSo/hqdefault.jpg)](https://www.youtube.com/watch?v=3Xa7B6sHnSo&t=142s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:22-3:15" "https://www.youtube.com/watch?v=3Xa7B6sHnSo" --force-keyframes-at-cuts --merge-output-format mp4 -o "3Xa7B6sHnSo-2m22s.mp4"
+```
+</details>
 
 > "I watched the match between Grok and Gemini Pro and it was pure theater. They act like us amateur chess players. Five moves like a grandmaster sometimes and then followed by 10 moves as a hangover amateur. It was hard to explain why this model would make this move. It was really hilarious."
 > — Ksenia Se, [2:22](https://www.youtube.com/watch?v=3Xa7B6sHnSo&t=142s)
 
 ### "People were furious about losing their companion"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3Xa7B6sHnSo?start=284&end=315" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3Xa7B6sHnSo/hqdefault.jpg)](https://www.youtube.com/watch?v=3Xa7B6sHnSo&t=284s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:44-5:15" "https://www.youtube.com/watch?v=3Xa7B6sHnSo" --force-keyframes-at-cuts --merge-output-format mp4 -o "3Xa7B6sHnSo-4m44s.mp4"
+```
+</details>
 
 > "We saw from Reddit discussions after the launch of GPT5. People were furious about losing their companion. Yeah, exactly that. When GPT5 launched as a model, we all realized that we lost something that was very special."
 > — Ksenia Se, [4:44](https://www.youtube.com/watch?v=3Xa7B6sHnSo&t=284s)
 
 ### "700 million users a week - complete ignorance"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3Xa7B6sHnSo?start=347&end=395" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3Xa7B6sHnSo/hqdefault.jpg)](https://www.youtube.com/watch?v=3Xa7B6sHnSo&t=347s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:47-6:35" "https://www.youtube.com/watch?v=3Xa7B6sHnSo" --force-keyframes-at-cuts --merge-output-format mp4 -o "3Xa7B6sHnSo-5m47s.mp4"
+```
+</details>
 
 > "This uneven results, this complete ignorance about the 700 million users a week and potentially more is a funny wow to notice. My wow is about how they encapsulated and bubbled in their own world thinking how to prepare influencers and developers to say good things about GPT5 - not thinking about all these millions and millions of users."
 > — Ksenia Se, [5:47](https://www.youtube.com/watch?v=3Xa7B6sHnSo&t=347s)
 
 ### "It's not about model quality anymore"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3Xa7B6sHnSo?start=420&end=475" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3Xa7B6sHnSo/hqdefault.jpg)](https://www.youtube.com/watch?v=3Xa7B6sHnSo&t=420s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:00-7:55" "https://www.youtube.com/watch?v=3Xa7B6sHnSo" --force-keyframes-at-cuts --merge-output-format mp4 -o "3Xa7B6sHnSo-7m00s.mp4"
+```
+</details>
 
 > "It's not that much about the quality of a model. Now it's much more about the quality of user experience and what we can do with these models. We crossed this invisible threshold about if the model is good or not. Now it's about relationship between the model and the end user."
 > — Ksenia Se, [7:00](https://www.youtube.com/watch?v=3Xa7B6sHnSo&t=420s)
 
 ### "Demos always look good - that's the definition"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3Xa7B6sHnSo?start=708&end=755" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3Xa7B6sHnSo/hqdefault.jpg)](https://www.youtube.com/watch?v=3Xa7B6sHnSo&t=708s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:48-12:35" "https://www.youtube.com/watch?v=3Xa7B6sHnSo" --force-keyframes-at-cuts --merge-output-format mp4 -o "3Xa7B6sHnSo-11m48s.mp4"
+```
+</details>
 
 > "That's my problem with models that launched only with demo. Demo always looks good. That's the definition of demo - to demonstrate the best of the model. So when you cannot try it, when you cannot actually put your hands on it, it doesn't really matter."
 > — Ksenia Se, [11:48](https://www.youtube.com/watch?v=3Xa7B6sHnSo&t=708s)

@@ -32,28 +32,56 @@ The third wow showcases LTX Studio's revolutionary real-time AI filmmaking suite
 
 ### "Beyond P-Doom - Where's P-Harmony?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/POCp7C1dp-4?start=86&end=145" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/POCp7C1dp-4/hqdefault.jpg)](https://www.youtube.com/watch?v=POCp7C1dp-4&t=86s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:26-2:25" "https://www.youtube.com/watch?v=POCp7C1dp-4" --force-keyframes-at-cuts --merge-output-format mp4 -o "POCp7C1dp-4-1m26s.mp4"
+```
+</details>
 
 > "P-doom, P-dystopia were the words constantly repeated during the conversation and there was no word that would balance it. For example, like P-heaven, P-harmony, or at least P-balance, which is still probable and possible if we do it right. I don't believe that only P-doom, only P-dystopia is possible. I believe there is a field of possibilities."
 > — Ksenia Se, [1:26](https://www.youtube.com/watch?v=POCp7C1dp-4&t=86s)
 
 ### "Kimi K2: 200 Tokens Per Second, 90% Cheaper"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/POCp7C1dp-4?start=354&end=395" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/POCp7C1dp-4/hqdefault.jpg)](https://www.youtube.com/watch?v=POCp7C1dp-4&t=354s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:54-6:35" "https://www.youtube.com/watch?v=POCp7C1dp-4" --force-keyframes-at-cuts --merge-output-format mp4 -o "POCp7C1dp-4-5m54s.mp4"
+```
+</details>
 
 > "Kimi K2 beats industry giants on coding benchmarks and when run on specialized Groq hardware - just mind-blowing. It achieves blazing speeds of over 200 tokens per second while being up to 90% cheaper than proprietary competitors."
 > — Ksenia Se, [5:54](https://www.youtube.com/watch?v=POCp7C1dp-4&t=354s)
 
 ### "LTX Studio: Create at the Speed of Thought"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/POCp7C1dp-4?start=429&end=497" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/POCp7C1dp-4/hqdefault.jpg)](https://www.youtube.com/watch?v=POCp7C1dp-4&t=429s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:09-8:17" "https://www.youtube.com/watch?v=POCp7C1dp-4" --force-keyframes-at-cuts --merge-output-format mp4 -o "POCp7C1dp-4-7m09s.mp4"
+```
+</details>
 
 > "You start with an idea or a script. LTX Studio instantly breaks it down into a full storyboard with different scenes and shot types. From there, you enter what they call director mode. This is where the magic happens. You can change every element of a scene with a simple text prompt."
 > — Ksenia Se, [7:09](https://www.youtube.com/watch?v=POCp7C1dp-4&t=429s)
 
 ### "Complete Recklessness" - Grok 4 Companions Critique
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/POCp7C1dp-4?start=648&end=720" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/POCp7C1dp-4/hqdefault.jpg)](https://www.youtube.com/watch?v=POCp7C1dp-4&t=648s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:48-12:00" "https://www.youtube.com/watch?v=POCp7C1dp-4" --force-keyframes-at-cuts --merge-output-format mp4 -o "POCp7C1dp-4-10m48s.mp4"
+```
+</details>
 
 > "Both characters are in the same application. And just imagine giving your phone to your child. Do you assume your child will not push buttons? The first thing that they do, they explore the app and they push all the buttons that they can... It's not a promise for me. It's a big fail. It just demonstrates complete recklessness and irresponsibility."
 > — Ksenia Se, [10:48](https://www.youtube.com/watch?v=POCp7C1dp-4&t=648s)

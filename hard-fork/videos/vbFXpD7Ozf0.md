@@ -40,35 +40,70 @@ Kevin and Casey discuss their hands-on impressions of the latest AI models, with
 
 ### "Their Names Are Gemini 3 and Opus 4.5"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vbFXpD7Ozf0?start=201&end=270" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vbFXpD7Ozf0/hqdefault.jpg)](https://www.youtube.com/watch?v=vbFXpD7Ozf0&t=201s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:21-4:30" "https://www.youtube.com/watch?v=vbFXpD7Ozf0" --force-keyframes-at-cuts --merge-output-format mp4 -o "vbFXpD7Ozf0-3m21s.mp4"
+```
+</details>
 
 > "I think there are two big reasons, Kevin, and their names are Gemini 3 and Opus 4.5. Over the past few weeks, we have seen Google and Anthropic both release state-of-the-art models that in various ways challenge some of the core pillars of what OpenAI is trying to do."
 > -- Casey Newton, [3:21](https://www.youtube.com/watch?v=vbFXpD7Ozf0&t=201s)
 
 ### "A Year Ago We Were Checking the Model for Hallucinations -- Now They're Checking Us"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vbFXpD7Ozf0?start=1901&end=1960" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vbFXpD7Ozf0/hqdefault.jpg)](https://www.youtube.com/watch?v=vbFXpD7Ozf0&t=1901s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*31:41-32:40" "https://www.youtube.com/watch?v=vbFXpD7Ozf0" --force-keyframes-at-cuts --merge-output-format mp4 -o "vbFXpD7Ozf0-31m41s.mp4"
+```
+</details>
 
 > "A year ago we were checking the model for hallucinations. Now they're checking us for hallucinations."
 > -- Kevin Roose, [31:41](https://www.youtube.com/watch?v=vbFXpD7Ozf0&t=1901s)
 
 ### "It Sent a Chill Through My Spine"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vbFXpD7Ozf0?start=2160&end=2230" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vbFXpD7Ozf0/hqdefault.jpg)](https://www.youtube.com/watch?v=vbFXpD7Ozf0&t=2160s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*36:00-37:10" "https://www.youtube.com/watch?v=vbFXpD7Ozf0" --force-keyframes-at-cuts --merge-output-format mp4 -o "vbFXpD7Ozf0-36m00s.mp4"
+```
+</details>
 
 > "I did this for the first time with Opus 4.5 and it honestly sent a chill through my spine because for the first time I was looking at sentences that it looked like I could have written them."
 > -- Casey Newton, [36:00](https://www.youtube.com/watch?v=vbFXpD7Ozf0&t=2160s)
 
 ### "The Blurry JPEG Is Getting Less Blurry"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vbFXpD7Ozf0?start=2700&end=2770" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vbFXpD7Ozf0/hqdefault.jpg)](https://www.youtube.com/watch?v=vbFXpD7Ozf0&t=2700s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*45:00-46:10" "https://www.youtube.com/watch?v=vbFXpD7Ozf0" --force-keyframes-at-cuts --merge-output-format mp4 -o "vbFXpD7Ozf0-45m00s.mp4"
+```
+</details>
 
 > "We are in a moment where the AI is getting higher resolution. That was the feeling that I had when Claude was able to just create something that was writing sentences that for the first time felt like me. It was like, okay, the blurry JPEG is getting a touch less blurry."
 > -- Casey Newton, [45:00](https://www.youtube.com/watch?v=vbFXpD7Ozf0&t=2700s)
 
 ### "If You're Starting from Scratch in December 2025, You're Cooked"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vbFXpD7Ozf0?start=1770&end=1830" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/vbFXpD7Ozf0/hqdefault.jpg)](https://www.youtube.com/watch?v=vbFXpD7Ozf0&t=1770s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*29:30-30:30" "https://www.youtube.com/watch?v=vbFXpD7Ozf0" --force-keyframes-at-cuts --merge-output-format mp4 -o "vbFXpD7Ozf0-29m30s.mp4"
+```
+</details>
 
 > "Bro, if you're starting from scratch in December 2025 on your AI program, you're cooked. You truly no one has ever been more cooked."
 > -- Casey Newton on Apple's AI efforts, [29:30](https://www.youtube.com/watch?v=vbFXpD7Ozf0&t=1770s)

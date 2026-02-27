@@ -35,35 +35,70 @@ The verdict is nuanced: Uniqlo excels at cotton products (t-shirts, sweaters, de
 
 ### "Every Single Employee Except One Walked Out"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qqZyGm0aqh4?start=30&end=90" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/qqZyGm0aqh4/hqdefault.jpg)](https://www.youtube.com/watch?v=qqZyGm0aqh4&t=30s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:30-1:30" "https://www.youtube.com/watch?v=qqZyGm0aqh4" --force-keyframes-at-cuts --merge-output-format mp4 -o "qqZyGm0aqh4-0m30s.mp4"
+```
+</details>
 
 > "His leadership style is said to be that of a dictator's, and when he first inherited his father's clothing business, every single employee in the company except one walked out."
 > — Michael, [0:51](https://www.youtube.com/watch?v=qqZyGm0aqh4&t=51s)
 
 ### "I Kick In the Door - The Nicest Jeans You've Ever Seen?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qqZyGm0aqh4?start=415&end=475" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/qqZyGm0aqh4/hqdefault.jpg)](https://www.youtube.com/watch?v=qqZyGm0aqh4&t=415s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:55-7:55" "https://www.youtube.com/watch?v=qqZyGm0aqh4" --force-keyframes-at-cuts --merge-output-format mp4 -o "qqZyGm0aqh4-6m55s.mp4"
+```
+</details>
 
 > "Picture this: it's Christmas time, a young couple is sitting around the tree, a girlfriend gives her boyfriend a pair of Uniqlo selvedge denim jeans... Boom! I kick in the door and I'm like 'the nicest jeans you've ever seen? What about these?'"
 > — Michael, [7:00](https://www.youtube.com/watch?v=qqZyGm0aqh4&t=420s)
 
 ### "Super Washing Burns the Barbs Off with Chlorine Gas"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qqZyGm0aqh4?start=683&end=745" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/qqZyGm0aqh4/hqdefault.jpg)](https://www.youtube.com/watch?v=qqZyGm0aqh4&t=683s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:23-12:25" "https://www.youtube.com/watch?v=qqZyGm0aqh4" --force-keyframes-at-cuts --merge-output-format mp4 -o "qqZyGm0aqh4-11m23s.mp4"
+```
+</details>
 
 > "Super washing removes those, typically through chlorine gas... And they burn the barbs of the wool off, and then a lot of brands and yarn makers then coat the fiber in very thin polymer that never comes off."
 > — Michael, [11:46](https://www.youtube.com/watch?v=qqZyGm0aqh4&t=706s)
 
 ### "Fantastic Quality Control, But At the Mercy of Raw Goods"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qqZyGm0aqh4?start=823&end=880" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/qqZyGm0aqh4/hqdefault.jpg)](https://www.youtube.com/watch?v=qqZyGm0aqh4&t=823s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:43-14:40" "https://www.youtube.com/watch?v=qqZyGm0aqh4" --force-keyframes-at-cuts --merge-output-format mp4 -o "qqZyGm0aqh4-13m43s.mp4"
+```
+</details>
 
 > "Uniqlo has absolutely fantastic quality control. All of the garments that I've ever touched from them have been spot on. The construction is great, but they are at the mercy of the raw goods that they are using to get things as low priced as possible."
 > — Michael, [13:43](https://www.youtube.com/watch?v=qqZyGm0aqh4&t=823s)
 
 ### "Forced Labor Accusations - The True Ugly"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qqZyGm0aqh4?start=887&end=925" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/qqZyGm0aqh4/hqdefault.jpg)](https://www.youtube.com/watch?v=qqZyGm0aqh4&t=887s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:47-15:25" "https://www.youtube.com/watch?v=qqZyGm0aqh4" --force-keyframes-at-cuts --merge-output-format mp4 -o "qqZyGm0aqh4-14m47s.mp4"
+```
+</details>
 
 > "In 2021, US Customs seized a delivery of their t-shirts, suspecting that they're using forced labor. So you know, it comes up a lot."
 > — Michael, [15:00](https://www.youtube.com/watch?v=qqZyGm0aqh4&t=900s)

@@ -45,42 +45,84 @@ The second half dives deep into geopolitics and governance: why both US and Chin
 
 ### "I'm at 90% on a country of geniuses in a data center"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n1E9IZfvGMA?start=831&end=895" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/n1E9IZfvGMA/hqdefault.jpg)](https://www.youtube.com/watch?v=n1E9IZfvGMA&t=831s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:51-14:55" "https://www.youtube.com/watch?v=n1E9IZfvGMA" --force-keyframes-at-cuts --merge-output-format mp4 -o "n1E9IZfvGMA-13m51s.mp4"
+```
+</details>
 
 > "On the basic hypothesis of, as you put it, 'a country of geniuses in a data center,' I'm at 90% on that. There's another 5% which is that I'm very wrong about the science. With coding, I think we'll be there in one or two years in terms of being able to do end-to-end coding."
 > -- Dario Amodei, [13:51](https://www.youtube.com/watch?v=n1E9IZfvGMA&t=831s)
 
 ### "If we had a country of geniuses in a data center, we would know it"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n1E9IZfvGMA?start=1666&end=1690" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/n1E9IZfvGMA/hqdefault.jpg)](https://www.youtube.com/watch?v=n1E9IZfvGMA&t=1666s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*27:46-28:10" "https://www.youtube.com/watch?v=n1E9IZfvGMA" --force-keyframes-at-cuts --merge-output-format mp4 -o "n1E9IZfvGMA-27m46s.mp4"
+```
+</details>
 
 > "I don't believe we're basically at AGI. If we had a 'country of geniuses in a data center,' we would know it. Everyone in Washington would know it. But we would know it. We don't."
 > -- Dario Amodei, [27:46](https://www.youtube.com/watch?v=n1E9IZfvGMA&t=1666s)
 
 ### "There is zero time for bullshit"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n1E9IZfvGMA?start=2153&end=2200" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/n1E9IZfvGMA/hqdefault.jpg)](https://www.youtube.com/watch?v=n1E9IZfvGMA&t=2153s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*35:53-36:40" "https://www.youtube.com/watch?v=n1E9IZfvGMA" --force-keyframes-at-cuts --merge-output-format mp4 -o "n1E9IZfvGMA-35m53s.mp4"
+```
+</details>
 
 > "Within Anthropic, this is just really unambiguous. There is zero time for bullshit. Why do you think we're concerned? Because we think we're ahead of the competitors."
 > -- Dario Amodei, [35:53](https://www.youtube.com/watch?v=n1E9IZfvGMA&t=2153s)
 
 ### "Revenue growth: $100M to $1B in 2024, still accelerating"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n1E9IZfvGMA?start=1283&end=1345" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/n1E9IZfvGMA/hqdefault.jpg)](https://www.youtube.com/watch?v=n1E9IZfvGMA&t=1283s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*21:23-22:25" "https://www.youtube.com/watch?v=n1E9IZfvGMA" --force-keyframes-at-cuts --merge-output-format mp4 -o "n1E9IZfvGMA-21m23s.mp4"
+```
+</details>
 
 > "In 2024, it was $100 million to $1 billion. You would think it would slow down, but we've seen 10x per year growth in revenue. I would bet it stays pretty fast."
 > -- Dario Amodei, [21:23](https://www.youtube.com/watch?v=n1E9IZfvGMA&t=1283s)
 
 ### "I can't buy $1 trillion a year of compute in 2027"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n1E9IZfvGMA?start=2780&end=2840" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/n1E9IZfvGMA/hqdefault.jpg)](https://www.youtube.com/watch?v=n1E9IZfvGMA&t=2780s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*46:20-47:20" "https://www.youtube.com/watch?v=n1E9IZfvGMA" --force-keyframes-at-cuts --merge-output-format mp4 -o "n1E9IZfvGMA-46m20s.mp4"
+```
+</details>
 
 > "I could buy $1 trillion of compute. If my revenue is not $1 trillion dollars, there's no hedge on earth that could stop me from going bankrupt. Even though a part of my brain wonders... I can't buy $1 trillion a year of compute in 2027."
 > -- Dario Amodei, [46:20](https://www.youtube.com/watch?v=n1E9IZfvGMA&t=2780s)
 
 ### "Dictatorships become morally obsolete"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n1E9IZfvGMA?start=7570&end=7630" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/n1E9IZfvGMA/hqdefault.jpg)](https://www.youtube.com/watch?v=n1E9IZfvGMA&t=7570s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*126:10-127:10" "https://www.youtube.com/watch?v=n1E9IZfvGMA" --force-keyframes-at-cuts --merge-output-format mp4 -o "n1E9IZfvGMA-126m10s.mp4"
+```
+</details>
 
 > "I am actually hopeful that -- it sounds too optimistic -- dictatorships become morally obsolete. Just as the feudal system was basically a form of government, and when technological change happened, it was no longer sustainable."
 > -- Dario Amodei, [2:06:10](https://www.youtube.com/watch?v=n1E9IZfvGMA&t=7570s)

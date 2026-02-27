@@ -35,28 +35,56 @@ MKBHD reveals his dual identity as both a tech reviewer and professional ultimat
 
 ### "Playing for Four Teams at Once"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-7X5KukvABc?start=5&end=60" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-7X5KukvABc/hqdefault.jpg)](https://www.youtube.com/watch?v=-7X5KukvABc&t=5s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:05-1:00" "https://www.youtube.com/watch?v=-7X5KukvABc" --force-keyframes-at-cuts --merge-output-format mp4 -o "-7X5KukvABc-0m05s.mp4"
+```
+</details>
 
 > "I am actually a professional ultimate frisbee player. I swear. Actually, I'm playing for four different teams right now. New York Empire, Pride of New York, Team USA for World Games, and Team USA Mix for beach world championships... all at the same time."
 > — Marques Brownlee, [0:05](https://www.youtube.com/watch?v=-7X5KukvABc&t=5s)
 
 ### "Inaccurate the Same Way Every Time"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-7X5KukvABc?start=175&end=235" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-7X5KukvABc/hqdefault.jpg)](https://www.youtube.com/watch?v=-7X5KukvABc&t=175s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:55-3:55" "https://www.youtube.com/watch?v=-7X5KukvABc" --force-keyframes-at-cuts --merge-output-format mp4 -o "-7X5KukvABc-2m55s.mp4"
+```
+</details>
 
 > "As far as calorie counting, I'm not convinced that the Apple Watch is particularly accurate. But the real key for me is that it's inaccurate the same way every time... I don't think a frisbee practice is actually 3,600 calories. I don't even think that's possible."
 > — Marques Brownlee, [2:55](https://www.youtube.com/watch?v=-7X5KukvABc&t=175s)
 
 ### "Same Cleats Since 2007"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-7X5KukvABc?start=503&end=560" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-7X5KukvABc/hqdefault.jpg)](https://www.youtube.com/watch?v=-7X5KukvABc&t=503s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:23-9:20" "https://www.youtube.com/watch?v=-7X5KukvABc" --force-keyframes-at-cuts --merge-output-format mp4 -o "-7X5KukvABc-8m23s.mp4"
+```
+</details>
 
 > "I have worn the same style of cleat every year I've played Ultimate since 2007, which is basically whatever the lightest weight soccer cleat I can find is."
 > — Marques Brownlee, [8:28](https://www.youtube.com/watch?v=-7X5KukvABc&t=508s)
 
 ### "My Escape From Being Online"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-7X5KukvABc?start=552&end=610" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-7X5KukvABc/hqdefault.jpg)](https://www.youtube.com/watch?v=-7X5KukvABc&t=552s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:12-10:10" "https://www.youtube.com/watch?v=-7X5KukvABc" --force-keyframes-at-cuts --merge-output-format mp4 -o "-7X5KukvABc-9m12s.mp4"
+```
+</details>
 
 > "I feel like Ultimate Frisbee is my home away from being online all the time and being super immersed in tech. And I think that's really important for me to have."
 > — Marques Brownlee, [9:19](https://www.youtube.com/watch?v=-7X5KukvABc&t=559s)

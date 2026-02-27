@@ -37,42 +37,84 @@ The conversation explores why private jet travel is "insanely expensive" (a Gulf
 
 ### "Private jet travel costs $200,000 one way - most people have no idea"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CwaoUyaUM6s?start=11&end=75" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CwaoUyaUM6s/hqdefault.jpg)](https://www.youtube.com/watch?v=CwaoUyaUM6s&t=11s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:11-1:15" "https://www.youtube.com/watch?v=CwaoUyaUM6s" --force-keyframes-at-cuts --merge-output-format mp4 -o "CwaoUyaUM6s-0m11s.mp4"
+```
+</details>
 
 > "I don't think people get just how insanely expensive private jet travel is. The cheapest whole aircraft that you can get for one of those trips is on the order of at least $200,000. Almost a quarter million - one way. The aircraft I'm making is less than $10,000 for the whole jet."
 > — Ian Brooke, [0:11](https://www.youtube.com/watch?v=CwaoUyaUM6s&t=11s)
 
 ### "It's easier to make flight cheaper if you control every part of the equation"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CwaoUyaUM6s?start=81&end=145" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CwaoUyaUM6s/hqdefault.jpg)](https://www.youtube.com/watch?v=CwaoUyaUM6s&t=81s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:21-2:25" "https://www.youtube.com/watch?v=CwaoUyaUM6s" --force-keyframes-at-cuts --merge-output-format mp4 -o "CwaoUyaUM6s-1m21s.mp4"
+```
+</details>
 
 > "It is easier to solve the problem of making flight cheaper if you have control over every part of that equation. It's more expensive to be integrated, but if your whole value proposition is that it's going to be cheaper to fly, you need to control every element. So we're building the engines, designing the airframes, and we'll eventually operate."
 > — Ian Brooke, [1:21](https://www.youtube.com/watch?v=CwaoUyaUM6s&t=81s)
 
 ### "You can't go straight for the airliner - margins are too thin"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CwaoUyaUM6s?start=187&end=250" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CwaoUyaUM6s/hqdefault.jpg)](https://www.youtube.com/watch?v=CwaoUyaUM6s&t=187s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:07-4:10" "https://www.youtube.com/watch?v=CwaoUyaUM6s" --force-keyframes-at-cuts --merge-output-format mp4 -o "CwaoUyaUM6s-3m07s.mp4"
+```
+</details>
 
 > "My strategy on this is you just can't go straight for the airliner. The airliner market has extremely thin margins. Airlines are barely profitable on a good day. So if you're trying to introduce new technology with all the development costs, you can't compete on price with existing airliners. But the private jet market is completely different."
 > — Ian Brooke, [3:07](https://www.youtube.com/watch?v=CwaoUyaUM6s&t=187s)
 
 ### "The physics of supersonic flight actually favor smaller aircraft"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CwaoUyaUM6s?start=430&end=495" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CwaoUyaUM6s/hqdefault.jpg)](https://www.youtube.com/watch?v=CwaoUyaUM6s&t=430s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:10-8:15" "https://www.youtube.com/watch?v=CwaoUyaUM6s" --force-keyframes-at-cuts --merge-output-format mp4 -o "CwaoUyaUM6s-7m10s.mp4"
+```
+</details>
 
 > "The key insight is that the physics of supersonic flight actually favor smaller aircraft in some ways. The wave drag that makes supersonic flight inefficient scales with the cross-sectional area. So a smaller, more slender aircraft can be relatively more efficient."
 > — Ian Brooke, [7:10](https://www.youtube.com/watch?v=CwaoUyaUM6s&t=430s)
 
 ### "We're trying to fundamentally change the economics of fast travel"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CwaoUyaUM6s?start=658&end=720" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CwaoUyaUM6s/hqdefault.jpg)](https://www.youtube.com/watch?v=CwaoUyaUM6s&t=658s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:58-12:00" "https://www.youtube.com/watch?v=CwaoUyaUM6s" --force-keyframes-at-cuts --merge-output-format mp4 -o "CwaoUyaUM6s-10m58s.mp4"
+```
+</details>
 
 > "We're not just trying to make a slightly better version of what exists. We're trying to fundamentally change the economics of fast travel. Getting to that cost point requires building everything in-house, optimizing every part of the system, and operating at scale."
 > — Ian Brooke, [10:58](https://www.youtube.com/watch?v=CwaoUyaUM6s&t=658s)
 
 ### "Mistakes in aviation can be fatal - so you have to think through failure modes first"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CwaoUyaUM6s?start=798&end=860" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/CwaoUyaUM6s/hqdefault.jpg)](https://www.youtube.com/watch?v=CwaoUyaUM6s&t=798s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:18-14:20" "https://www.youtube.com/watch?v=CwaoUyaUM6s" --force-keyframes-at-cuts --merge-output-format mp4 -o "CwaoUyaUM6s-13m18s.mp4"
+```
+</details>
 
 > "The thing about aviation is that mistakes can be fatal. So there's a strong incentive to do things right the first time. You can't just ship a minimum viable product when crashes are the feedback mechanism. That forces a certain discipline."
 > — Ian Brooke, [13:18](https://www.youtube.com/watch?v=CwaoUyaUM6s&t=798s)

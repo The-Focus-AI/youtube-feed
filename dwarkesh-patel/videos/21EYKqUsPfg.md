@@ -39,42 +39,84 @@ The conversation culminates in a remarkable discussion about the succession from
 
 ### "LLMs have no goal -- that's starting in the wrong place"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/21EYKqUsPfg?start=462&end=530" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/21EYKqUsPfg/hqdefault.jpg)](https://www.youtube.com/watch?v=21EYKqUsPfg&t=462s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:42-8:50" "https://www.youtube.com/watch?v=21EYKqUsPfg" --force-keyframes-at-cuts --merge-output-format mp4 -o "21EYKqUsPfg-7m42s.mp4"
+```
+</details>
 
 > "Let's go back to their lack of a goal. I like John McCarthy's definition that intelligence is the computational part of the ability to achieve goals. If you don't have a goal, you're just a behaving system. You're not intelligent."
 > -- Richard Sutton, [7:42](https://www.youtube.com/watch?v=21EYKqUsPfg&t=462s)
 
 ### "It has always turned out to be bad"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/21EYKqUsPfg?start=768&end=830" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/21EYKqUsPfg/hqdefault.jpg)](https://www.youtube.com/watch?v=21EYKqUsPfg&t=768s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:48-13:50" "https://www.youtube.com/watch?v=21EYKqUsPfg" --force-keyframes-at-cuts --merge-output-format mp4 -o "21EYKqUsPfg-12m48s.mp4"
+```
+</details>
 
 > "There's never any reason why starting with human knowledge has to be bad. But it has always turned out to be bad. People get committed to the knowledge approach, and they psychologically can't let go. That's what has always happened. They get superseded by the methods that are truly scalable."
 > -- Richard Sutton, [12:48](https://www.youtube.com/watch?v=21EYKqUsPfg&t=768s)
 
 ### "The weak methods have just totally won"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/21EYKqUsPfg?start=2599&end=2660" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/21EYKqUsPfg/hqdefault.jpg)](https://www.youtube.com/watch?v=21EYKqUsPfg&t=2599s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*43:19-44:20" "https://www.youtube.com/watch?v=21EYKqUsPfg" --force-keyframes-at-cuts --merge-output-format mp4 -o "21EYKqUsPfg-43m19s.mp4"
+```
+</details>
 
 > "There was a long-standing controversy in AI about simple methods like search and learning, compared to expert knowledge. In the old days, they called them weak methods because they're just using computation. But the weak methods have just totally won."
 > -- Richard Sutton, [43:19](https://www.youtube.com/watch?v=21EYKqUsPfg&t=2599s)
 
 ### "We are animals first"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/21EYKqUsPfg?start=1155&end=1220" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/21EYKqUsPfg/hqdefault.jpg)](https://www.youtube.com/watch?v=21EYKqUsPfg&t=1155s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*19:15-20:20" "https://www.youtube.com/watch?v=21EYKqUsPfg" --force-keyframes-at-cuts --merge-output-format mp4 -o "21EYKqUsPfg-19m15s.mp4"
+```
+</details>
 
 > "Humans are animals. What distinguishes us, we should consider secondary. We're trying to replicate intelligence. If you want to understand what it takes to go to the moon or to build semiconductors, you have to understand the basic animal intelligence that makes that happen."
 > -- Richard Sutton, [19:15](https://www.youtube.com/watch?v=21EYKqUsPfg&t=1155s)
 
 ### "Succession to AI is inevitable"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/21EYKqUsPfg?start=3275&end=3340" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/21EYKqUsPfg/hqdefault.jpg)](https://www.youtube.com/watch?v=21EYKqUsPfg&t=3275s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*54:35-55:40" "https://www.youtube.com/watch?v=21EYKqUsPfg" --force-keyframes-at-cuts --merge-output-format mp4 -o "21EYKqUsPfg-54m35s.mp4"
+```
+</details>
 
 > "We will figure out how intelligence works. We won't stop just at human level -- we will reach superintelligence. And it's inevitable that things that are smarter at getting things around would gain resources and power. You're going to have succession to AI. Those four things seem clear and sure to happen."
 > -- Richard Sutton, [54:35](https://www.youtube.com/watch?v=21EYKqUsPfg&t=3275s)
 
 ### "The transition from evolved to designed intelligence"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/21EYKqUsPfg?start=3445&end=3520" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/21EYKqUsPfg/hqdefault.jpg)](https://www.youtube.com/watch?v=21EYKqUsPfg&t=3445s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*57:25-58:40" "https://www.youtube.com/watch?v=21EYKqUsPfg" --force-keyframes-at-cuts --merge-output-format mp4 -o "21EYKqUsPfg-57m25s.mp4"
+```
+</details>
 
 > "This is a key step in the universe. It's the transition from the evolved to the designed. We humans and animals are evolved. Our AIs are designed, our technology is designed. Now we're reaching the point where we can design intelligence that we do understand how it works. This is one of the four great transitions in the universe."
 > -- Richard Sutton, [57:25](https://www.youtube.com/watch?v=21EYKqUsPfg&t=3445s)

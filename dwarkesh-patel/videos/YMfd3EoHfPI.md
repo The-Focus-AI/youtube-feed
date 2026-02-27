@@ -32,35 +32,70 @@ The conversation covers the tsarist regime's repression, why the peasants inadve
 
 ### "The modernization dilemma: How do you import technology but keep out freedom?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YMfd3EoHfPI?start=126&end=250" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/YMfd3EoHfPI/hqdefault.jpg)](https://www.youtube.com/watch?v=YMfd3EoHfPI&t=126s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:06-4:10" "https://www.youtube.com/watch?v=YMfd3EoHfPI" --force-keyframes-at-cuts --merge-output-format mp4 -o "YMfd3EoHfPI-2m06s.mp4"
+```
+</details>
 
 > "How do you bring in airplanes, or AI, but keep out freedom, property rights, all the things that come with it? The tsarist regime was a quintessential example. You modernize because you need to -- if somebody has ships made out of steel, either you get them too or they're going to show up at your door."
 > -- Stephen Kotkin, [2:06](https://www.youtube.com/watch?v=YMfd3EoHfPI&t=126s)
 
 ### "Stalin was not Stalin yet when they could have stopped him"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YMfd3EoHfPI?start=5760&end=5830" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/YMfd3EoHfPI/hqdefault.jpg)](https://www.youtube.com/watch?v=YMfd3EoHfPI&t=5760s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*96:00-97:10" "https://www.youtube.com/watch?v=YMfd3EoHfPI" --force-keyframes-at-cuts --merge-output-format mp4 -o "YMfd3EoHfPI-96m00s.mp4"
+```
+</details>
 
 > "It's clear that Stalin was not Stalin yet. He becomes Stalin in the process of exercising power. He's not born Stalin, and that's the key point. Today you look at Putin -- why doesn't somebody assassinate him? Xi Jinping -- he's hurting China. Why don't the people around him push him out?"
 > -- Stephen Kotkin, [1:36:00](https://www.youtube.com/watch?v=YMfd3EoHfPI&t=5760s)
 
 ### "The peasants brought Lenin to power, then he enslaved them"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YMfd3EoHfPI?start=1470&end=1540" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/YMfd3EoHfPI/hqdefault.jpg)](https://www.youtube.com/watch?v=YMfd3EoHfPI&t=1470s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*24:30-25:40" "https://www.youtube.com/watch?v=YMfd3EoHfPI" --force-keyframes-at-cuts --merge-output-format mp4 -o "YMfd3EoHfPI-24m30s.mp4"
+```
+</details>
 
 > "The peasant revolution is going to bring about, inadvertently, the death of the peasants owning the land. The peasants, through their land seizures, helped bring Lenin and his Bolsheviks to power, only to then be expropriated and forced onto collective farms."
 > -- Stephen Kotkin, [24:30](https://www.youtube.com/watch?v=YMfd3EoHfPI&t=1470s)
 
 ### "Communism only has to do one thing to survive: hold power"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YMfd3EoHfPI?start=4150&end=4220" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/YMfd3EoHfPI/hqdefault.jpg)](https://www.youtube.com/watch?v=YMfd3EoHfPI&t=4150s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*69:10-70:20" "https://www.youtube.com/watch?v=YMfd3EoHfPI" --force-keyframes-at-cuts --merge-output-format mp4 -o "YMfd3EoHfPI-69m10s.mp4"
+```
+</details>
 
 > "Communism can fail at everything. It can fail at delivering prosperity, it can fail at delivering peace. It only has to do one thing to survive: hold power. And it has suppressed all the political alternatives."
 > -- Stephen Kotkin, [1:09:10](https://www.youtube.com/watch?v=YMfd3EoHfPI&t=4150s)
 
 ### "The Communist Party didn't bring growth -- it got out of the way"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YMfd3EoHfPI?start=4460&end=4530" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/YMfd3EoHfPI/hqdefault.jpg)](https://www.youtube.com/watch?v=YMfd3EoHfPI&t=4460s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*74:20-75:30" "https://www.youtube.com/watch?v=YMfd3EoHfPI" --force-keyframes-at-cuts --merge-output-format mp4 -o "YMfd3EoHfPI-74m20s.mp4"
+```
+</details>
 
 > "People say the Communist Party brought China's economic growth. No. The Communist Party put more than a billion people in poverty in the first place. Why are a billion plus people in poverty? Because of the Communist Party. When they grudgingly allowed market behavior, the people lift themselves out of poverty."
 > -- Stephen Kotkin, [1:14:20](https://www.youtube.com/watch?v=YMfd3EoHfPI&t=4460s)

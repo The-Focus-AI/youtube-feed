@@ -34,28 +34,56 @@ The video closes with Dwarkesh discussing continual learning, acknowledging that
 
 ### "LLMs are not learning anything during training"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u3HBJVjpXuw?start=38&end=95" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/u3HBJVjpXuw/hqdefault.jpg)](https://www.youtube.com/watch?v=u3HBJVjpXuw&t=38s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:38-1:35" "https://www.youtube.com/watch?v=u3HBJVjpXuw" --force-keyframes-at-cuts --merge-output-format mp4 -o "u3HBJVjpXuw-0m38s.mp4"
+```
+</details>
 
 > "Most of the compute that's spent on an LLM is not learning anything during this entire phase we call training. That is obviously not an efficient way to learn -- the training period by itself is highly inefficient, condensing tens of thousands of years of human experience."
 > -- Dwarkesh Patel (steelmanning Sutton), [0:38](https://www.youtube.com/watch?v=u3HBJVjpXuw&t=38s)
 
 ### "Pretraining data is like fossil fuels"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u3HBJVjpXuw?start=214&end=270" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/u3HBJVjpXuw/hqdefault.jpg)](https://www.youtube.com/watch?v=u3HBJVjpXuw&t=214s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:34-4:30" "https://www.youtube.com/watch?v=u3HBJVjpXuw" --force-keyframes-at-cuts --merge-output-format mp4 -o "u3HBJVjpXuw-3m34s.mp4"
+```
+</details>
 
 > "Ilya Sutskever gave a talk a couple of months ago and he compared pretraining data to fossil fuels. Just because fossil fuels are not a renewable energy source doesn't mean we ended up on a dead-end track by using them. We simply couldn't have transitioned from the water wheel to solar without them."
 > -- Dwarkesh Patel, [3:34](https://www.youtube.com/watch?v=u3HBJVjpXuw&t=214s)
 
 ### "Imitation learning is RL, just very long horizon"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u3HBJVjpXuw?start=367&end=420" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/u3HBJVjpXuw/hqdefault.jpg)](https://www.youtube.com/watch?v=u3HBJVjpXuw&t=367s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:07-7:00" "https://www.youtube.com/watch?v=u3HBJVjpXuw" --force-keyframes-at-cuts --merge-output-format mp4 -o "u3HBJVjpXuw-6m07s.mp4"
+```
+</details>
 
 > "Imitation learning is not categorically different. The LLM is making a conjecture about the structure of the world and how the different pieces of it relate to each other. And it receives reward in proportion to how well it does."
 > -- Dwarkesh Patel, [6:07](https://www.youtube.com/watch?v=u3HBJVjpXuw&t=367s)
 
 ### "We're going the opposite way from meta-RL"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u3HBJVjpXuw?start=634&end=695" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/u3HBJVjpXuw/hqdefault.jpg)](https://www.youtube.com/watch?v=u3HBJVjpXuw&t=634s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:34-11:35" "https://www.youtube.com/watch?v=u3HBJVjpXuw" --force-keyframes-at-cuts --merge-output-format mp4 -o "u3HBJVjpXuw-10m34s.mp4"
+```
+</details>
 
 > "The original idea was to use meta-RL to make an RL agent. That agent can then adapt quickly. But we're going the opposite way. We first made a language model and we're hoping that we do enough RL on it to make it into an agent. Maybe this won't work!"
 > -- Dwarkesh Patel, [10:34](https://www.youtube.com/watch?v=u3HBJVjpXuw&t=634s)

@@ -36,42 +36,84 @@ The panel dives into several key themes: the enormous gap between AI hype and he
 
 ### "Everyone claims ROI. Very few have credible proof at scale."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nBfCHI2J4pk?start=420&end=480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/nBfCHI2J4pk/hqdefault.jpg)](https://www.youtube.com/watch?v=nBfCHI2J4pk&t=420s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:00-8:00" "https://www.youtube.com/watch?v=nBfCHI2J4pk" --force-keyframes-at-cuts --merge-output-format mp4 -o "nBfCHI2J4pk-7m00s.mp4"
+```
+</details>
 
 > "Healthcare AI is drowning in inflated promises. Boards want measurable impact. VCs are demanding proof. And frontline teams need solutions that don't create new problems while solving old ones."
 > -- Panel introduction, [7:00](https://www.youtube.com/watch?v=nBfCHI2J4pk&t=420s)
 
 ### "Dashboards suck -- we built something better"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nBfCHI2J4pk?start=180&end=240" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/nBfCHI2J4pk/hqdefault.jpg)](https://www.youtube.com/watch?v=nBfCHI2J4pk&t=180s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:00-4:00" "https://www.youtube.com/watch?v=nBfCHI2J4pk" --force-keyframes-at-cuts --merge-output-format mp4 -o "nBfCHI2J4pk-3m00s.mp4"
+```
+</details>
 
 > "Dashboards suck for a lot of people. They're hard to digest. They're hard to make decisions off of. And so we wanted to build a platform that allows people who are not technical, who are not used to looking at data all day, to make better decisions."
 > -- Rich Ziade, [3:00](https://www.youtube.com/watch?v=nBfCHI2J4pk&t=180s)
 
 ### "The biggest barrier to AI in healthcare isn't the technology"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nBfCHI2J4pk?start=1800&end=1860" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/nBfCHI2J4pk/hqdefault.jpg)](https://www.youtube.com/watch?v=nBfCHI2J4pk&t=1800s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*30:00-31:00" "https://www.youtube.com/watch?v=nBfCHI2J4pk" --force-keyframes-at-cuts --merge-output-format mp4 -o "nBfCHI2J4pk-30m00s.mp4"
+```
+</details>
 
 > "The biggest barrier to AI in healthcare isn't the technology -- it's workflow integration. You can build the most brilliant AI tool in the world, but if it doesn't fit into how a clinician actually works, nobody will use it. And that's where most healthcare AI startups die."
 > -- Chethan Sarabu, [30:00](https://www.youtube.com/watch?v=nBfCHI2J4pk&t=1800s)
 
 ### "Women's health has been systematically underserved"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nBfCHI2J4pk?start=2400&end=2460" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/nBfCHI2J4pk/hqdefault.jpg)](https://www.youtube.com/watch?v=nBfCHI2J4pk&t=2400s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*40:00-41:00" "https://www.youtube.com/watch?v=nBfCHI2J4pk" --force-keyframes-at-cuts --merge-output-format mp4 -o "nBfCHI2J4pk-40m00s.mp4"
+```
+</details>
 
 > "Women's health has been systematically underserved by both the healthcare system and the tech industry. The data gaps are enormous. And AI, if we're not careful, will just replicate and amplify those gaps. But if we're thoughtful, it could be the thing that finally closes them."
 > -- Erynn Petersen, [40:00](https://www.youtube.com/watch?v=nBfCHI2J4pk&t=2400s)
 
 ### "Policy moves slower than technology, but it matters more"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nBfCHI2J4pk?start=3000&end=3060" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/nBfCHI2J4pk/hqdefault.jpg)](https://www.youtube.com/watch?v=nBfCHI2J4pk&t=3000s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*50:00-51:00" "https://www.youtube.com/watch?v=nBfCHI2J4pk" --force-keyframes-at-cuts --merge-output-format mp4 -o "nBfCHI2J4pk-50m00s.mp4"
+```
+</details>
 
 > "When I was at the White House working on cancer innovation, the thing I learned is that policy moves slower than technology -- always. But in healthcare, the policy decisions matter more than the technology decisions because they determine who gets access."
 > -- Kamal Menghrajani, [50:00](https://www.youtube.com/watch?v=nBfCHI2J4pk&t=3000s)
 
 ### "First, do no harm -- applies to software too"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nBfCHI2J4pk?start=3600&end=3660" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/nBfCHI2J4pk/hqdefault.jpg)](https://www.youtube.com/watch?v=nBfCHI2J4pk&t=3600s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*60:00-61:00" "https://www.youtube.com/watch?v=nBfCHI2J4pk" --force-keyframes-at-cuts --merge-output-format mp4 -o "nBfCHI2J4pk-60m00s.mp4"
+```
+</details>
 
 > "In healthcare, 'move fast and break things' isn't just a bad idea -- it's potentially criminal. The Hippocratic oath applies to the tools we build too. If your AI creates a misdiagnosis, that's not a bug report. That's a patient harm event."
 > -- Chethan Sarabu, [60:00](https://www.youtube.com/watch?v=nBfCHI2J4pk&t=3600s)

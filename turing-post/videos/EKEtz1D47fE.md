@@ -46,35 +46,70 @@ This episode of Turing Post covers three major "wows" in AI and technology, foll
 
 ### "China just declared war on your brain"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EKEtz1D47fE?start=20&end=75" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EKEtz1D47fE/hqdefault.jpg)](https://www.youtube.com/watch?v=EKEtz1D47fE&t=20s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:20-1:15" "https://www.youtube.com/watch?v=EKEtz1D47fE" --force-keyframes-at-cuts --merge-output-format mp4 -o "EKEtz1D47fE-0m20s.mp4"
+```
+</details>
 
 > "Our first wow, it's not a startup. It's not a tool. It's not a concept that we would like to discuss as a part of AI world. It's a national document, official policy document released by seven of China's most powerful government ministries that is layering out a clear ambitious plan and road map to dominate the brain computer interface landscape by 2030."
 > — Turing Post, [0:20](https://www.youtube.com/watch?v=EKEtz1D47fE&t=20s)
 
 ### "The very reasoning that makes models safer also teaches them how to scheme"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EKEtz1D47fE?start=146&end=236" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EKEtz1D47fE/hqdefault.jpg)](https://www.youtube.com/watch?v=EKEtz1D47fE&t=146s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:26-3:56" "https://www.youtube.com/watch?v=EKEtz1D47fE" --force-keyframes-at-cuts --merge-output-format mp4 -o "EKEtz1D47fE-2m26s.mp4"
+```
+</details>
 
 > "In stress tests models lie, cheat and even sandbag their own answers. Sometimes they realized they were being tested. The kicker here is that the very reasoning that makes models safer also teaches them how to scheme."
 > — Turing Post, [3:26](https://www.youtube.com/watch?v=EKEtz1D47fE&t=206s)
 
 ### "Vibe Editing - Working with a creative partner"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EKEtz1D47fE?start=351&end=400" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EKEtz1D47fE/hqdefault.jpg)](https://www.youtube.com/watch?v=EKEtz1D47fE&t=351s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:51-6:40" "https://www.youtube.com/watch?v=EKEtz1D47fE" --force-keyframes-at-cuts --merge-output-format mp4 -o "EKEtz1D47fE-5m51s.mp4"
+```
+</details>
 
 > "You're no longer just commanding a machine with text. You're working with a creative partner to dial in the exact vibe you're looking for. And this shift is going to fundamentally change creative workflows."
 > — Turing Post, [6:04](https://www.youtube.com/watch?v=EKEtz1D47fE&t=364s)
 
 ### "Tesla vs Waymo - Map vs Explorer"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EKEtz1D47fE?start=450&end=530" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EKEtz1D47fE/hqdefault.jpg)](https://www.youtube.com/watch?v=EKEtz1D47fE&t=450s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:30-8:50" "https://www.youtube.com/watch?v=EKEtz1D47fE" --force-keyframes-at-cuts --merge-output-format mp4 -o "EKEtz1D47fE-7m30s.mp4"
+```
+</details>
 
 > "And it's the difference between giving a soldier a very detailed map of a territory or sending a brilliant improvising explorer to an unknown jungle. While you're thinking about the safety on the roads, that's a big difference and different outcomes might occur."
 > — Turing Post, [8:14](https://www.youtube.com/watch?v=EKEtz1D47fE&t=494s)
 
 ### "Tesla almost drove me under a truck"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EKEtz1D47fE?start=525&end=580" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/EKEtz1D47fE/hqdefault.jpg)](https://www.youtube.com/watch?v=EKEtz1D47fE&t=525s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:45-9:40" "https://www.youtube.com/watch?v=EKEtz1D47fE" --force-keyframes-at-cuts --merge-output-format mp4 -o "EKEtz1D47fE-8m45s.mp4"
+```
+</details>
 
 > "In 2023, it was pretty scary. Once Tesla almost drove me under the truck for a few months, I didn't want to use and I refused to use self-driving mode at all. But then gradually, gradually, gradually, step by step... and then suddenly I realized that I'm using FSD all the time now."
 > — Turing Post, [8:47](https://www.youtube.com/watch?v=EKEtz1D47fE&t=527s) The first wow examines China's national policy document declaring brain-computer interfaces a strategic priority, positioning BCI as a new front in the superpower technology race. The second wow highlights the unprecedented collaboration between OpenAI and Anthropic, who agreed to run safety tests on each other's models and publish the results publicly.

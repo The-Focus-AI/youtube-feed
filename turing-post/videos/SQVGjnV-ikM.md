@@ -36,28 +36,56 @@ The episode traces the concept back to John von Neumann's original 1958 definiti
 
 ### "Progress felt linear enough to narrate. Even uncertainty had structure."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SQVGjnV-ikM?start=130&end=175" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SQVGjnV-ikM/hqdefault.jpg)](https://www.youtube.com/watch?v=SQVGjnV-ikM&t=130s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:10-2:55" "https://www.youtube.com/watch?v=SQVGjnV-ikM" --force-keyframes-at-cuts --merge-output-format mp4 -o "SQVGjnV-ikM-2m10s.mp4"
+```
+</details>
 
 > "Progress felt linear enough to narrate. Even uncertainty had structure. And that's what made me thinking about how different things feel now. If I ask you today what comes next after large language models, there is no single answer."
 > — Turing Post, [2:10](https://www.youtube.com/watch?v=SQVGjnV-ikM&t=130s)
 
 ### "The singularity is not a machine. It's a limit of explanation."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SQVGjnV-ikM?start=249&end=290" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SQVGjnV-ikM/hqdefault.jpg)](https://www.youtube.com/watch?v=SQVGjnV-ikM&t=249s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:09-4:50" "https://www.youtube.com/watch?v=SQVGjnV-ikM" --force-keyframes-at-cuts --merge-output-format mp4 -o "SQVGjnV-ikM-4m09s.mp4"
+```
+</details>
 
 > "Acceleration reaching a point where familiar ways of understanding stop working. In the original sense, the singularity is not a machine. It's a limit of explanation."
 > — Turing Post, [4:09](https://www.youtube.com/watch?v=SQVGjnV-ikM&t=249s)
 
 ### "The future stopped being easy to describe even without dates"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SQVGjnV-ikM?start=382&end=430" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SQVGjnV-ikM/hqdefault.jpg)](https://www.youtube.com/watch?v=SQVGjnV-ikM&t=382s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:22-7:10" "https://www.youtube.com/watch?v=SQVGjnV-ikM" --force-keyframes-at-cuts --merge-output-format mp4 -o "SQVGjnV-ikM-6m22s.mp4"
+```
+</details>
 
 > "When someone says that 2026 is the year of the singularity, I think it's not about machines becoming sentient and us becoming united with machines. It's becoming closer to that original von Neumann intuition that the pace and structure of change no longer fit the way we're used to talking about progress."
 > — Turing Post, [6:22](https://www.youtube.com/watch?v=SQVGjnV-ikM&t=382s)
 
 ### "We don't have an exact bottleneck anymore"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SQVGjnV-ikM?start=337&end=380" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/SQVGjnV-ikM/hqdefault.jpg)](https://www.youtube.com/watch?v=SQVGjnV-ikM&t=337s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:37-6:20" "https://www.youtube.com/watch?v=SQVGjnV-ikM" --force-keyframes-at-cuts --merge-output-format mp4 -o "SQVGjnV-ikM-5m37s.mp4"
+```
+</details>
 
 > "Today there is no single bottleneck like that. Do we need compute for pre-training? Do we need compute for mid-training? Or do we need compute for post-training? And where is the most thing to uncover and discover and explore? Everywhere. We don't have an exact bottleneck."
 > — Turing Post, [5:37](https://www.youtube.com/watch?v=SQVGjnV-ikM&t=337s)

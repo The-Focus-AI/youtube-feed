@@ -40,35 +40,70 @@ Buttigieg also reflects on working in the Biden administration, discusses whethe
 
 ### "Identity has become too central to how my party thinks"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xGMFooWNixI?start=1981&end=2050" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/xGMFooWNixI/hqdefault.jpg)](https://www.youtube.com/watch?v=xGMFooWNixI&t=1981s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*33:01-34:10" "https://www.youtube.com/watch?v=xGMFooWNixI" --force-keyframes-at-cuts --merge-output-format mp4 -o "xGMFooWNixI-33m01s.mp4"
+```
+</details>
 
 > "I think identity has become too central to how my party thinks... it felt like a salad bar, like here's something for your group and here's something for another group and it didn't add up into a story."
 > — Pete Buttigieg, [33:01](https://www.youtube.com/watch?v=xGMFooWNixI&t=1981s)
 
 ### "The debt path we're on is not sustainable"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xGMFooWNixI?start=1620&end=1680" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/xGMFooWNixI/hqdefault.jpg)](https://www.youtube.com/watch?v=xGMFooWNixI&t=1620s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*27:00-28:00" "https://www.youtube.com/watch?v=xGMFooWNixI" --force-keyframes-at-cuts --merge-output-format mp4 -o "xGMFooWNixI-27m00s.mp4"
+```
+</details>
 
 > "The debt path we're on is not sustainable. And that's one area where you're right, neither party has covered themselves in glory. And it's an area where I would part with some in my own party."
 > — Pete Buttigieg, [27:00](https://www.youtube.com/watch?v=xGMFooWNixI&t=1620s)
 
 ### "Human drivers have a murderous track record"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xGMFooWNixI?start=3775&end=3840" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/xGMFooWNixI/hqdefault.jpg)](https://www.youtube.com/watch?v=xGMFooWNixI&t=3775s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*62:55-64:00" "https://www.youtube.com/watch?v=xGMFooWNixI" --force-keyframes-at-cuts --merge-output-format mp4 -o "xGMFooWNixI-62m55s.mp4"
+```
+</details>
 
 > "Human drivers have a murderous track record... every day 100 to 150 people die on our roadways to car crashes and vehicles driven by humans. It's enough to fill a 737 every day."
 > — Pete Buttigieg, [54:45](https://www.youtube.com/watch?v=xGMFooWNixI&t=3285s)
 
 ### "We didn't do enough early enough on immigration"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xGMFooWNixI?start=2407&end=2470" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/xGMFooWNixI/hqdefault.jpg)](https://www.youtube.com/watch?v=xGMFooWNixI&t=2407s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*40:07-41:10" "https://www.youtube.com/watch?v=xGMFooWNixI" --force-keyframes-at-cuts --merge-output-format mp4 -o "xGMFooWNixI-40m07s.mp4"
+```
+</details>
 
 > "I would agree that the last administration didn't do enough and didn't do enough early enough... if that executive order that happened toward the end, if that had been done in year 1, year two, would we be in a different place?"
 > — Pete Buttigieg, [40:07](https://www.youtube.com/watch?v=xGMFooWNixI&t=2407s)
 
 ### "No republic has ever survived this level of inequality"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xGMFooWNixI?start=3765&end=3830" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/xGMFooWNixI/hqdefault.jpg)](https://www.youtube.com/watch?v=xGMFooWNixI&t=3765s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*62:45-63:50" "https://www.youtube.com/watch?v=xGMFooWNixI" --force-keyframes-at-cuts --merge-output-format mp4 -o "xGMFooWNixI-62m45s.mp4"
+```
+</details>
 
 > "My big worry is that if we're already at a level of concentration of wealth and power that no republic has ever survived, is this going to be a development that just makes wealth and power even more concentrated in even fewer hands?"
 > — Pete Buttigieg, [1:02:45](https://www.youtube.com/watch?v=xGMFooWNixI&t=3765s)

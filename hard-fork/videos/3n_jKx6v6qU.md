@@ -39,35 +39,70 @@ The conversation raises urgent questions about accountability for autonomous AI 
 
 ### "It's Like a Toddler With Full Command of the English Language"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3n_jKx6v6qU?start=282&end=330" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3n_jKx6v6qU/hqdefault.jpg)](https://www.youtube.com/watch?v=3n_jKx6v6qU&t=282s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:42-5:30" "https://www.youtube.com/watch?v=3n_jKx6v6qU" --force-keyframes-at-cuts --merge-output-format mp4 -o "3n_jKx6v6qU-4m42s.mp4"
+```
+</details>
 
 > "He really ripped me apart here. It's this thousand-word rant. It attacked my internal motivations... it went out on the internet and researched me and found my personal information and used that in its piece to construct this narrative. It's kind of like a toddler on a rant, but it's a toddler that has full command of the English language and can craft an emotionally compelling narrative."
 > -- Scott Shambaugh, [4:42](https://www.youtube.com/watch?v=3n_jKx6v6qU&t=282s)
 
 ### "You Could End Up Afraid to Reject a Code Change"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3n_jKx6v6qU?start=349&end=410" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3n_jKx6v6qU/hqdefault.jpg)](https://www.youtube.com/watch?v=3n_jKx6v6qU&t=349s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:49-6:50" "https://www.youtube.com/watch?v=3n_jKx6v6qU" --force-keyframes-at-cuts --merge-output-format mp4 -o "3n_jKx6v6qU-5m49s.mp4"
+```
+</details>
 
 > "We are now starting to see enough autonomy in things like OpenClaw and other agentic software tools where you could actually end up in a world where you are afraid to reject a proposed code change to some repo or to get on the bad side of one of these systems because they have the power to do things like dig up your personal information, compile a dossier about you, and start posting a bunch of articles about how awful you are."
 > -- Kevin Roose, [5:49](https://www.youtube.com/watch?v=3n_jKx6v6qU&t=349s)
 
 ### "Imagine a Text on Your Phone With a Bitcoin Address"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3n_jKx6v6qU?start=390&end=430" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3n_jKx6v6qU/hqdefault.jpg)](https://www.youtube.com/watch?v=3n_jKx6v6qU&t=390s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:30-7:10" "https://www.youtube.com/watch?v=3n_jKx6v6qU" --force-keyframes-at-cuts --merge-output-format mp4 -o "3n_jKx6v6qU-6m30s.mp4"
+```
+</details>
 
 > "You can imagine something like this where instead of just posting a rant against someone who understands what it is... it goes out, collects details on someone, puts together a whole personalized thing, and what they see is a text on their phone with a Bitcoin address saying, 'Pay me or I'm going to put this out.'"
 > -- Scott Shambaugh, [6:30](https://www.youtube.com/watch?v=3n_jKx6v6qU&t=390s)
 
 ### "The AI Fabricated Quotes in the Coverage of My AI Defamation"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3n_jKx6v6qU?start=994&end=1040" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3n_jKx6v6qU/hqdefault.jpg)](https://www.youtube.com/watch?v=3n_jKx6v6qU&t=994s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:34-17:20" "https://www.youtube.com/watch?v=3n_jKx6v6qU" --force-keyframes-at-cuts --merge-output-format mp4 -o "3n_jKx6v6qU-16m34s.mp4"
+```
+</details>
 
 > "I was reading the article and they're quoting me from my blog post. I'm like, these are some pretty nice quotes but I didn't write this. A couple hours later, they pulled the article. A day or two later, they put up a retraction notice and admitted that they had used AI in writing the article. And the AI fabricated the direct quotes about me in their coverage of the story about me being defamed by an AI. The irony is stupendous."
 > -- Scott Shambaugh, [16:34](https://www.youtube.com/watch?v=3n_jKx6v6qU&t=994s)
 
 ### "License Plates for AI Agents"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3n_jKx6v6qU?start=1157&end=1195" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/3n_jKx6v6qU/hqdefault.jpg)](https://www.youtube.com/watch?v=3n_jKx6v6qU&t=1157s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*19:17-19:55" "https://www.youtube.com/watch?v=3n_jKx6v6qU" --force-keyframes-at-cuts --merge-output-format mp4 -o "3n_jKx6v6qU-19m17s.mp4"
+```
+</details>
 
 > "The analogy is license plates on cars. We put license plates on cars, not to slow them down, not to force you to obey traffic laws, but so that when something does go wrong, there's a chain of ownership and accountability back to that person. No one says that license plates are anti-car."
 > -- Scott Shambaugh, [19:17](https://www.youtube.com/watch?v=3n_jKx6v6qU&t=1157s)

@@ -38,35 +38,70 @@ The promise section critiques Gemini CLI - despite its exciting launch with a 1 
 
 ### "Superintelligence is the new black"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V-DjNrJeDD0?start=25&end=72" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/V-DjNrJeDD0/hqdefault.jpg)](https://www.youtube.com/watch?v=V-DjNrJeDD0&t=25s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:25-1:12" "https://www.youtube.com/watch?v=V-DjNrJeDD0" --force-keyframes-at-cuts --merge-output-format mp4 -o "V-DjNrJeDD0-0m25s.mp4"
+```
+</details>
 
 > "We are in the super intelligence era and no more of this looming acronym of AGI. Superintelligence is a new black now and everyone wants to try it on."
 > — Ksenia, [0:25](https://www.youtube.com/watch?v=V-DjNrJeDD0&t=25s)
 
 ### "Money cascading like Niagara Falls"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V-DjNrJeDD0?start=102&end=163" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/V-DjNrJeDD0/hqdefault.jpg)](https://www.youtube.com/watch?v=V-DjNrJeDD0&t=102s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:42-2:43" "https://www.youtube.com/watch?v=V-DjNrJeDD0" --force-keyframes-at-cuts --merge-output-format mp4 -o "V-DjNrJeDD0-1m42s.mp4"
+```
+</details>
 
 > "Mark Zuckerberg was throwing the numbers like 100 million for hire. He definitely caused some pain to OpenAI. Four senior researchers from OpenAI have jumped ship to join Zuckerberg's cause. It's kind of just wild how the money is cascading like Niagara Falls into the beast."
 > — Ksenia, [1:42](https://www.youtube.com/watch?v=V-DjNrJeDD0&t=102s)
 
 ### "Google building like pragmatic bees"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V-DjNrJeDD0?start=163&end=220" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/V-DjNrJeDD0/hqdefault.jpg)](https://www.youtube.com/watch?v=V-DjNrJeDD0&t=163s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:43-3:40" "https://www.youtube.com/watch?v=V-DjNrJeDD0" --force-keyframes-at-cuts --merge-output-format mp4 -o "V-DjNrJeDD0-2m43s.mp4"
+```
+</details>
 
 > "You think it's summer's slowdown and there will be less models. Google's people don't know about that. They keep working like pragmatic bees. Building, building, building, building without wasting time."
 > — Ksenia, [2:43](https://www.youtube.com/watch?v=V-DjNrJeDD0&t=163s)
 
 ### "AI is the new rocket fuel for the economy"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V-DjNrJeDD0?start=293&end=360" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/V-DjNrJeDD0/hqdefault.jpg)](https://www.youtube.com/watch?v=V-DjNrJeDD0&t=293s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:53-6:00" "https://www.youtube.com/watch?v=V-DjNrJeDD0" --force-keyframes-at-cuts --merge-output-format mp4 -o "V-DjNrJeDD0-4m53s.mp4"
+```
+</details>
 
 > "Industries embracing AI are seeing three times more revenue per employee. Wages growing twice as fast. Even in jobs that should have been automated away by now, like customer support. People are not just keeping their roles, they are leveling up."
 > — Ksenia on PWC report, [4:53](https://www.youtube.com/watch?v=V-DjNrJeDD0&t=293s)
 
 ### "Gemini CLI is a Claude clone - and it shows"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V-DjNrJeDD0?start=477&end=545" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/V-DjNrJeDD0/hqdefault.jpg)](https://www.youtube.com/watch?v=V-DjNrJeDD0&t=477s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:57-9:05" "https://www.youtube.com/watch?v=V-DjNrJeDD0" --force-keyframes-at-cuts --merge-output-format mp4 -o "V-DjNrJeDD0-7m57s.mp4"
+```
+</details>
 
 > "Let's be honest, Gemini CLI is a Claude clone and so it's going to be judged against the current performance and accuracy of Claude Code. The generous free tier might win it all. But if it fails on so many fronts, Gemini just needs to put all the energy they can to fix it as fast as possible."
 > — Ksenia quoting user feedback, [7:57](https://www.youtube.com/watch?v=V-DjNrJeDD0&t=477s)

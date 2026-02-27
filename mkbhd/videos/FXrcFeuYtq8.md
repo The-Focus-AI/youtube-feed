@@ -40,28 +40,56 @@ Marques Brownlee provides a comprehensive hands-on review of iOS 26, Apple's maj
 
 ### "Apple Intelligence: Mostly Miss Until Now"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FXrcFeuYtq8?start=126&end=190" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FXrcFeuYtq8/hqdefault.jpg)](https://www.youtube.com/watch?v=FXrcFeuYtq8&t=126s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:06-3:10" "https://www.youtube.com/watch?v=FXrcFeuYtq8" --force-keyframes-at-cuts --merge-output-format mp4 -o "FXrcFeuYtq8-2m06s.mp4"
+```
+</details>
 
 > "Apple Intelligence since it was first announced. Honestly, mostly miss. A lot of things that aren't super useful, Genmoji, Image Playground, whatever. But visual intelligence that I've thought has potential, it has a high ceiling."
 > — Marques Brownlee, [2:10](https://www.youtube.com/watch?v=FXrcFeuYtq8&t=130s)
 
 ### "iPhones Can Still Make Phone Calls"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FXrcFeuYtq8?start=278&end=345" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FXrcFeuYtq8/hqdefault.jpg)](https://www.youtube.com/watch?v=FXrcFeuYtq8&t=278s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:38-5:45" "https://www.youtube.com/watch?v=FXrcFeuYtq8" --force-keyframes-at-cuts --merge-output-format mp4 -o "FXrcFeuYtq8-4m38s.mp4"
+```
+</details>
 
 > "You know what's crazy? A lot of people don't know this, iPhones actually still can make phone calls. I know, it's crazy. I avoid them at all costs."
 > — Marques Brownlee, [4:47](https://www.youtube.com/watch?v=FXrcFeuYtq8&t=287s)
 
 ### "CarPlay: Finally, About Damn Time"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FXrcFeuYtq8?start=382&end=445" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FXrcFeuYtq8/hqdefault.jpg)](https://www.youtube.com/watch?v=FXrcFeuYtq8&t=382s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:22-7:25" "https://www.youtube.com/watch?v=FXrcFeuYtq8" --force-keyframes-at-cuts --merge-output-format mp4 -o "FXrcFeuYtq8-6m22s.mp4"
+```
+</details>
 
 > "Imagine how happy I was when I was testing this new version of CarPlay and it didn't take up the entire screen when you get a text. Finally, it's about damn time."
 > — Marques Brownlee, [6:22](https://www.youtube.com/watch?v=FXrcFeuYtq8&t=382s)
 
 ### "A Well-Executed Theme Engine"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FXrcFeuYtq8?start=685&end=760" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/FXrcFeuYtq8/hqdefault.jpg)](https://www.youtube.com/watch?v=FXrcFeuYtq8&t=685s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:25-12:40" "https://www.youtube.com/watch?v=FXrcFeuYtq8" --force-keyframes-at-cuts --merge-output-format mp4 -o "FXrcFeuYtq8-11m25s.mp4"
+```
+</details>
 
 > "Whether you like it or not, you do have to admit it is a well-executed theme engine. How many times have you tried to do an icon theme where like, one or two icons gets left out and it just doesn't quite work? But this theme engine just handles every single app right out the box."
 > — Marques Brownlee, [11:56](https://www.youtube.com/watch?v=FXrcFeuYtq8&t=716s)

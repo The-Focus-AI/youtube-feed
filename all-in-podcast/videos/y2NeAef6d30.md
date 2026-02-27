@@ -37,42 +37,84 @@ The hosts dive deep into California's proposed Billionaire Tax Amendment (BTA), 
 
 ### "Average income $200/month while food prices similar to US"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y2NeAef6d30?start=442&end=500" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/y2NeAef6d30/hqdefault.jpg)](https://www.youtube.com/watch?v=y2NeAef6d30&t=442s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:22-8:20" "https://www.youtube.com/watch?v=y2NeAef6d30" --force-keyframes-at-cuts --merge-output-format mp4 -o "y2NeAef6d30-7m22s.mp4"
+```
+</details>
 
 > "The average income is about 200 bucks a month in Iran. And the price of food is roughly the same as the US, maybe a little bit less. A combo meal at McDonald's in Tehran is four bucks equivalent. So if you're making $200 a month and it's four bucks to go to McDonald's, costs catch up pretty quickly."
 > — David Friedberg, [7:22](https://www.youtube.com/watch?v=y2NeAef6d30&t=442s)
 
 ### "My internet can get fixed a lot more easily than California can"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y2NeAef6d30?start=2109&end=2170" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/y2NeAef6d30/hqdefault.jpg)](https://www.youtube.com/watch?v=y2NeAef6d30&t=2109s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*35:09-36:10" "https://www.youtube.com/watch?v=y2NeAef6d30" --force-keyframes-at-cuts --merge-output-format mp4 -o "y2NeAef6d30-35m09s.mp4"
+```
+</details>
 
 > "I'd rather have an internet issue and keep 100% of my money than 5%, lose 5% plus 13.3% per year... My internet can get fixed a lot more easily than California can."
 > — David Sacks, [35:09](https://www.youtube.com/watch?v=y2NeAef6d30&t=2109s)
 
 ### "Private property now becomes public property"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y2NeAef6d30?start=2251&end=2320" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/y2NeAef6d30/hqdefault.jpg)](https://www.youtube.com/watch?v=y2NeAef6d30&t=2251s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*37:31-38:40" "https://www.youtube.com/watch?v=y2NeAef6d30" --force-keyframes-at-cuts --merge-output-format mp4 -o "y2NeAef6d30-37m31s.mp4"
+```
+</details>
 
 > "Private property now becomes public property because as soon as you give the government the right to collect your post-tax assets through a legislative vote, you are basically saying that you no longer have private property."
 > — David Friedberg, [37:31](https://www.youtube.com/watch?v=y2NeAef6d30&t=2251s)
 
 ### "Claude is a much better product now than OpenAI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y2NeAef6d30?start=2047&end=2100" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/y2NeAef6d30/hqdefault.jpg)](https://www.youtube.com/watch?v=y2NeAef6d30&t=2047s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*34:07-35:00" "https://www.youtube.com/watch?v=y2NeAef6d30" --force-keyframes-at-cuts --merge-output-format mp4 -o "y2NeAef6d30-34m07s.mp4"
+```
+</details>
 
 > "I think there's pretty much uniformity amongst elite AI users that Claude is a much better product now than OpenAI and the models are better, the applications are better but they're doing it with less."
 > — Jason Calacanis, [34:07](https://www.youtube.com/watch?v=y2NeAef6d30&t=2047s)
 
 ### "When a state shows you who they are, believe them"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y2NeAef6d30?start=2879&end=2940" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/y2NeAef6d30/hqdefault.jpg)](https://www.youtube.com/watch?v=y2NeAef6d30&t=2879s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*47:59-49:00" "https://www.youtube.com/watch?v=y2NeAef6d30" --force-keyframes-at-cuts --merge-output-format mp4 -o "y2NeAef6d30-47m59s.mp4"
+```
+</details>
 
 > "When a state shows you who they are, believe them the first time."
 > — David Sacks quoting Maya Angelou, [47:59](https://www.youtube.com/watch?v=y2NeAef6d30&t=2879s)
 
 ### "You essentially have 300 VCs running around"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y2NeAef6d30?start=1976&end=2040" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/y2NeAef6d30/hqdefault.jpg)](https://www.youtube.com/watch?v=y2NeAef6d30&t=1976s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*32:56-34:00" "https://www.youtube.com/watch?v=y2NeAef6d30" --force-keyframes-at-cuts --merge-output-format mp4 -o "y2NeAef6d30-32m56s.mp4"
+```
+</details>
 
 > "You essentially have 300 VCs who are operating against a national priority and then they are rewarded for it. And so you get a BYD or you get a Xiaomi or you get these great companies."
 > — Chamath Palihapitiya on China's five-year planning, [32:56](https://www.youtube.com/watch?v=y2NeAef6d30&t=1976s)

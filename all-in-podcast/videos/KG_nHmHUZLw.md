@@ -42,42 +42,84 @@ Emanuel offers insights on talent representation in the streaming era, explainin
 
 ### "Infinite distribution makes content extremely valuable"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KG_nHmHUZLw?start=93&end=160" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KG_nHmHUZLw/hqdefault.jpg)](https://www.youtube.com/watch?v=KG_nHmHUZLw&t=93s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:33-2:40" "https://www.youtube.com/watch?v=KG_nHmHUZLw" --force-keyframes-at-cuts --merge-output-format mp4 -o "KG_nHmHUZLw-1m33s.mp4"
+```
+</details>
 
 > "Had this idea about where content was going from George Gilder who wrote this book Life After Television and said there's going to be infinite distribution and then content's going to be really really valuable and there's going to be many forms of content."
 > — Ari Emanuel, [1:33](https://www.youtube.com/watch?v=KG_nHmHUZLw&t=93s)
 
 ### "Podcasting will turn into the syndication business"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KG_nHmHUZLw?start=392&end=450" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KG_nHmHUZLw/hqdefault.jpg)](https://www.youtube.com/watch?v=KG_nHmHUZLw&t=392s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:32-7:30" "https://www.youtube.com/watch?v=KG_nHmHUZLw" --force-keyframes-at-cuts --merge-output-format mp4 -o "KG_nHmHUZLw-6m32s.mp4"
+```
+</details>
 
 > "I think the podcasting business is going to turn into the syndication business that used to be on the broadcast and the station groups. So Oprah was the king world kind of thing. Oprah was the behemoth and then Dr. Phil and Dr. Oz. She launched a bunch of, you'll probably see that reincarnated through people with podcasts."
 > — Ari Emanuel, [6:32](https://www.youtube.com/watch?v=KG_nHmHUZLw&t=392s)
 
 ### "The opposite bet on AI is live"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KG_nHmHUZLw?start=580&end=640" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KG_nHmHUZLw/hqdefault.jpg)](https://www.youtube.com/watch?v=KG_nHmHUZLw&t=580s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:40-10:40" "https://www.youtube.com/watch?v=KG_nHmHUZLw" --force-keyframes-at-cuts --merge-output-format mp4 -o "KG_nHmHUZLw-9m40s.mp4"
+```
+</details>
 
 > "I've made a decision that live content is where I'm going to sit. I'm really good at that. I'm really good at monetizing that. If you have AI over there, the opposite bet on AI is not data centers. It's live. Humans want connection."
 > — Ari Emanuel, [9:40](https://www.youtube.com/watch?v=KG_nHmHUZLw&t=580s)
 
 ### "3-day work week for full employment"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KG_nHmHUZLw?start=655&end=720" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KG_nHmHUZLw/hqdefault.jpg)](https://www.youtube.com/watch?v=KG_nHmHUZLw&t=655s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:55-12:00" "https://www.youtube.com/watch?v=KG_nHmHUZLw" --force-keyframes-at-cuts --merge-output-format mp4 -o "KG_nHmHUZLw-10m55s.mp4"
+```
+</details>
 
 > "I think it's kind of like a 4-day work week now. Probably going down to three. I was seeing Elon and seeing the robots. Probably 3-day work week for full employment. There's going to be a lot of free time."
 > — Ari Emanuel, [10:55](https://www.youtube.com/watch?v=KG_nHmHUZLw&t=655s)
 
 ### "Because I'm dyslexic, they touched the third rail"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KG_nHmHUZLw?start=1150&end=1210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KG_nHmHUZLw/hqdefault.jpg)](https://www.youtube.com/watch?v=KG_nHmHUZLw&t=1150s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*19:10-20:10" "https://www.youtube.com/watch?v=KG_nHmHUZLw" --force-keyframes-at-cuts --merge-output-format mp4 -o "KG_nHmHUZLw-19m10s.mp4"
+```
+</details>
 
 > "When people don't think... because I'm dyslexic. I remember growing up anybody that thought I was stupid, they touched the third rail."
 > — Ari Emanuel, [19:10](https://www.youtube.com/watch?v=KG_nHmHUZLw&t=1150s)
 
 ### "My mom says I hate you all equally"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KG_nHmHUZLw?start=1480&end=1530" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/KG_nHmHUZLw/hqdefault.jpg)](https://www.youtube.com/watch?v=KG_nHmHUZLw&t=1480s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*24:40-25:30" "https://www.youtube.com/watch?v=KG_nHmHUZLw" --force-keyframes-at-cuts --merge-output-format mp4 -o "KG_nHmHUZLw-24m40s.mp4"
+```
+</details>
 
 > "Why do you think one's in Chicago, one's in Washington, one's in LA? The cities are like when they come together they explode... My mom used to say, 'You don't love me as much as you love Zeke.' And she turns to him and she goes to all of us. She goes, 'I hate you all equally.'"
 > — Ari Emanuel, [24:40](https://www.youtube.com/watch?v=KG_nHmHUZLw&t=1480s)

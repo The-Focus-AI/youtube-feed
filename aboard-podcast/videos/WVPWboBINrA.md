@@ -36,42 +36,84 @@ The roleplay section features Paul as a mid-level engineer declaring he can buil
 
 ### "Claude Code is the Best CLI Coding Agent"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WVPWboBINrA?start=370&end=430" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/WVPWboBINrA/hqdefault.jpg)](https://www.youtube.com/watch?v=WVPWboBINrA&t=370s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:10-7:10" "https://www.youtube.com/watch?v=WVPWboBINrA" --force-keyframes-at-cuts --merge-output-format mp4 -o "WVPWboBINrA-6m10s.mp4"
+```
+</details>
 
 > "Of the CLI agents I've used, it's the best. The quality of the code... I think the makers of Claude have trained it on a corpus of data that includes a lot more code. The model itself is tilted toward code."
 > -- Kevin Barrett, [6:10](https://www.youtube.com/watch?v=WVPWboBINrA&t=370s)
 
 ### "Magic for 30 Minutes"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WVPWboBINrA?start=665&end=720" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/WVPWboBINrA/hqdefault.jpg)](https://www.youtube.com/watch?v=WVPWboBINrA&t=665s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:05-12:00" "https://www.youtube.com/watch?v=WVPWboBINrA" --force-keyframes-at-cuts --merge-output-format mp4 -o "WVPWboBINrA-11m05s.mp4"
+```
+</details>
 
 > "You know what's fun? For about 30 minutes, a magic act. You know what's not fun after about four hours? Magic act. Not fun."
 > -- Paul Ford & Rich Ziade, [11:05](https://www.youtube.com/watch?v=WVPWboBINrA&t=665s)
 
 ### "Spec-Based Tools Are Halfway Right"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WVPWboBINrA?start=870&end=930" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/WVPWboBINrA/hqdefault.jpg)](https://www.youtube.com/watch?v=WVPWboBINrA&t=870s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:30-15:30" "https://www.youtube.com/watch?v=WVPWboBINrA" --force-keyframes-at-cuts --merge-output-format mp4 -o "WVPWboBINrA-14m30s.mp4"
+```
+</details>
 
 > "There's a fatal flaw with spec-driven AI tools... the plain English artifact has to leap to code and that inference gap is too wide. You're still leaving it to chance for the models to translate English language descriptions of software into the actual software."
 > -- Rich Ziade, [14:30](https://www.youtube.com/watch?v=WVPWboBINrA&t=870s)
 
 ### "Using a Crane to Do Reps at the Gym"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WVPWboBINrA?start=1750&end=1810" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/WVPWboBINrA/hqdefault.jpg)](https://www.youtube.com/watch?v=WVPWboBINrA&t=1750s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*29:10-30:10" "https://www.youtube.com/watch?v=WVPWboBINrA" --force-keyframes-at-cuts --merge-output-format mp4 -o "WVPWboBINrA-29m10s.mp4"
+```
+</details>
 
 > "If I were building a growth program for a large engineering team and I had junior engineers, I would consider banning them from using Claude Code because I don't think they would learn. It's kind of like using a crane to do reps at the gym -- they wouldn't be building any muscle."
 > -- Kevin Barrett, [29:10](https://www.youtube.com/watch?v=WVPWboBINrA&t=1750s)
 
 ### "Statistically Likely Code"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WVPWboBINrA?start=2310&end=2370" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/WVPWboBINrA/hqdefault.jpg)](https://www.youtube.com/watch?v=WVPWboBINrA&t=2310s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*38:30-39:30" "https://www.youtube.com/watch?v=WVPWboBINrA" --force-keyframes-at-cuts --merge-output-format mp4 -o "WVPWboBINrA-38m30s.mp4"
+```
+</details>
 
 > "The really scary thing about generated code is that definitionally what an LLM does is produce statistically likely code. It produces code that looks correct. Which means that when there's a bug, it's really hard to see because it looks correct by definition."
 > -- Kevin Barrett, [38:30](https://www.youtube.com/watch?v=WVPWboBINrA&t=2310s)
 
 ### "Engineering Has Been a Culture of No"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WVPWboBINrA?start=1850&end=1910" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/WVPWboBINrA/hqdefault.jpg)](https://www.youtube.com/watch?v=WVPWboBINrA&t=1850s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*30:50-31:50" "https://www.youtube.com/watch?v=WVPWboBINrA" --force-keyframes-at-cuts --merge-output-format mp4 -o "WVPWboBINrA-30m50s.mp4"
+```
+</details>
 
 > "Engineering has been a culture of no for 50, 60, 70 years and I think that successful engineering can become a culture of yes. 'Hey, let's try it out. We'll probably throw it away but we can do it this afternoon.' What used to be six months of planning."
 > -- Paul Ford, [30:50](https://www.youtube.com/watch?v=WVPWboBINrA&t=1850s)

@@ -36,42 +36,84 @@ The winner is Asket, praised as "the silkiest, densest, most interesting shirt t
 
 ### "Kirkland at $4.20 - how on Earth are you making this?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GMM_Hl1fTQ0?start=74&end=130" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GMM_Hl1fTQ0/hqdefault.jpg)](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=74s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:14-2:10" "https://www.youtube.com/watch?v=GMM_Hl1fTQ0" --force-keyframes-at-cuts --merge-output-format mp4 -o "GMM_Hl1fTQ0-1m14s.mp4"
+```
+</details>
 
 > "Think if you went to a diner and you're expecting a cheeseburger to cost $10 and it cost $1 - you'd probably think how on Earth are you making this for $1. That's Kirkland."
 > — Michael, [1:14](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=74s)
 
 ### "It feels like you're running your hands down glass"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GMM_Hl1fTQ0?start=352&end=410" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GMM_Hl1fTQ0/hqdefault.jpg)](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=352s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:52-6:50" "https://www.youtube.com/watch?v=GMM_Hl1fTQ0" --force-keyframes-at-cuts --merge-output-format mp4 -o "GMM_Hl1fTQ0-5m52s.mp4"
+```
+</details>
 
 > "This is the epitome of this Asket t-shirt... this knit they call it compact, it's so compact that it literally doesn't feel like a knit product. It feels like you're running your hands down glass."
 > — Michael, [5:58](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=358s)
 
 ### "It's not the shirt that makes the man"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GMM_Hl1fTQ0?start=561&end=620" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GMM_Hl1fTQ0/hqdefault.jpg)](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=561s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:21-10:20" "https://www.youtube.com/watch?v=GMM_Hl1fTQ0" --force-keyframes-at-cuts --merge-output-format mp4 -o "GMM_Hl1fTQ0-9m21s.mp4"
+```
+</details>
 
 > "This is The Bear shirt. This is the famous shirt. Clearly I am not Jeremy Allen White so it looks like a regular shirt. That's kind of the whole deal - it's not the shirt that makes the man, it's the man that makes the shirt."
 > — Michael, [9:21](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=561s)
 
 ### "This is the heaviest t-shirt - 69% heavier than Champion"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GMM_Hl1fTQ0?start=790&end=845" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GMM_Hl1fTQ0/hqdefault.jpg)](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=790s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:10-14:05" "https://www.youtube.com/watch?v=GMM_Hl1fTQ0" --force-keyframes-at-cuts --merge-output-format mp4 -o "GMM_Hl1fTQ0-13m10s.mp4"
+```
+</details>
 
 > "This is the heaviest t-shirt. If you haven't gotten into the world of heavyweight knits, this is far heavier than a Champion reverse weave - this is 69% heavier. It is an absolute tank. You could hear the sounds when I scratch it."
 > — Michael, [13:10](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=790s)
 
 ### "Sally Fox is a cotton pioneer"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GMM_Hl1fTQ0?start=688&end=745" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GMM_Hl1fTQ0/hqdefault.jpg)](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=688s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:28-12:25" "https://www.youtube.com/watch?v=GMM_Hl1fTQ0" --force-keyframes-at-cuts --merge-output-format mp4 -o "GMM_Hl1fTQ0-11m28s.mp4"
+```
+</details>
 
 > "Sally Fox is a cotton pioneer. She's a legend in the cotton world because colored cotton was such a short staple cotton that it was very difficult to spin it into yarns and make it into t-shirts. She changed that."
 > — Michael, [11:28](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=688s)
 
 ### "This is essentially game over"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GMM_Hl1fTQ0?start=126&end=180" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/GMM_Hl1fTQ0/hqdefault.jpg)](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=126s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:06-3:00" "https://www.youtube.com/watch?v=GMM_Hl1fTQ0" --force-keyframes-at-cuts --merge-output-format mp4 -o "GMM_Hl1fTQ0-2m06s.mp4"
+```
+</details>
 
 > "This is essentially game over. As someone who reviews clothing and makes clothing for a living, if you blindfolded me and spun me around three times and said 'quick, is this a $15 t-shirt or a t-shirt?' - this is Uniqlo."
 > — Michael, [2:06](https://www.youtube.com/watch?v=GMM_Hl1fTQ0&t=126s)

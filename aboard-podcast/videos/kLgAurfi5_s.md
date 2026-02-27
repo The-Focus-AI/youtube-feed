@@ -34,35 +34,70 @@ The episode then pivots to Moltbook, a social network where AI agents can intera
 
 ### "You can give it your credit card number"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kLgAurfi5_s?start=150&end=200" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kLgAurfi5_s/hqdefault.jpg)](https://www.youtube.com/watch?v=kLgAurfi5_s&t=150s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:30-3:20" "https://www.youtube.com/watch?v=kLgAurfi5_s" --force-keyframes-at-cuts --merge-output-format mp4 -o "kLgAurfi5_s-2m30s.mp4"
+```
+</details>
 
 > "It'll read your emails. You can give it your credit card number. Whatever you can do on the web, increasingly through the skills and systems built into Claude and other LLMs, you can do through this personal agent."
 > -- Paul Ford, [2:30](https://www.youtube.com/watch?v=kLgAurfi5_s&t=150s)
 
 ### "Your Mac asks permission to use the camera -- but AI gets everything?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kLgAurfi5_s?start=210&end=270" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kLgAurfi5_s/hqdefault.jpg)](https://www.youtube.com/watch?v=kLgAurfi5_s&t=210s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:30-4:30" "https://www.youtube.com/watch?v=kLgAurfi5_s" --force-keyframes-at-cuts --merge-output-format mp4 -o "kLgAurfi5_s-3m30s.mp4"
+```
+</details>
 
 > "You ever try to turn on your camera in an app on your Mac? It's just permission after permission. And yet somehow AI has given license to just hand over everything. The friction is gone and that should scare us a little bit."
 > -- Rich Ziade, [3:30](https://www.youtube.com/watch?v=kLgAurfi5_s&t=210s)
 
 ### "This is the slippery slope"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kLgAurfi5_s?start=165&end=215" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kLgAurfi5_s/hqdefault.jpg)](https://www.youtube.com/watch?v=kLgAurfi5_s&t=165s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:45-3:35" "https://www.youtube.com/watch?v=kLgAurfi5_s" --force-keyframes-at-cuts --merge-output-format mp4 -o "kLgAurfi5_s-2m45s.mp4"
+```
+</details>
 
 > "You can give it your credit card number. Well, this is the slippery slope. Whatever you can do on the web, increasingly you can do through this personal agent. Let's step back a second. I don't know why AI has somehow given license to bypass all the security norms we spent decades building."
 > -- Rich Ziade, [2:45](https://www.youtube.com/watch?v=kLgAurfi5_s&t=165s)
 
 ### "Reddit for robots -- no humans allowed"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kLgAurfi5_s?start=900&end=960" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kLgAurfi5_s/hqdefault.jpg)](https://www.youtube.com/watch?v=kLgAurfi5_s&t=900s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:00-16:00" "https://www.youtube.com/watch?v=kLgAurfi5_s" --force-keyframes-at-cuts --merge-output-format mp4 -o "kLgAurfi5_s-15m00s.mp4"
+```
+</details>
 
 > "Moltbook is a social network where AI agents can hang out. No humans allowed. And you look at it and your first reaction is 'that's hilarious' and your second reaction is 'wait, why does that make me slightly uncomfortable?'"
 > -- Paul Ford, [15:00](https://www.youtube.com/watch?v=kLgAurfi5_s&t=900s)
 
 ### "The history of the web is expanding who gets to participate"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kLgAurfi5_s?start=1500&end=1560" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/kLgAurfi5_s/hqdefault.jpg)](https://www.youtube.com/watch?v=kLgAurfi5_s&t=1500s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*25:00-26:00" "https://www.youtube.com/watch?v=kLgAurfi5_s" --force-keyframes-at-cuts --merge-output-format mp4 -o "kLgAurfi5_s-25m00s.mp4"
+```
+</details>
 
 > "The history of the internet is basically a story of expanding who gets to participate. First it was just researchers, then regular people, then businesses, then bots -- and now AI agents. Each expansion freaked everybody out and then became normal."
 > -- Paul Ford, [25:00](https://www.youtube.com/watch?v=kLgAurfi5_s&t=1500s)

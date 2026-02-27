@@ -38,42 +38,84 @@ Looking ahead to 2026-2027, Lambert identifies agentic systems as the dominant t
 
 ### "They're going to be the engine for the next 10 years of AI research"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mq_V6zAjsSI?start=222&end=302" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mq_V6zAjsSI/hqdefault.jpg)](https://www.youtube.com/watch?v=mq_V6zAjsSI&t=222s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:42-5:02" "https://www.youtube.com/watch?v=mq_V6zAjsSI" --force-keyframes-at-cuts --merge-output-format mp4 -o "mq_V6zAjsSI-3m42s.mp4"
+```
+</details>
 
 > "They're going to be the engine for the next 10 years of AI research because academia is just in a lull of influence in terms of the evolution of the science... open models are the platform by which that innovation is happening. And for a country like the US that has had such an excellent history of scientific projects and institutions, if they want to be the institution of AI research they should consider it useful and imperative to have that open model investment be intentional and understood."
 > -- Nathan Lambert, [3:42](https://www.youtube.com/watch?v=mq_V6zAjsSI&t=222s)
 
 ### "Our only other option is open weights"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mq_V6zAjsSI?start=342&end=420" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mq_V6zAjsSI/hqdefault.jpg)](https://www.youtube.com/watch?v=mq_V6zAjsSI&t=342s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:42-7:00" "https://www.youtube.com/watch?v=mq_V6zAjsSI" --force-keyframes-at-cuts --merge-output-format mp4 -o "mq_V6zAjsSI-5m42s.mp4"
+```
+</details>
 
 > "They know that tech companies and potential customers in the US won't sign up for an API where data is sent to China and they pay. They've told me this. They're like, well, our only other option is open weights because then they could still most likely use it."
 > -- Nathan Lambert, [5:42](https://www.youtube.com/watch?v=mq_V6zAjsSI&t=342s)
 
 ### "Cloud Code with Opus 4.5 is when I finally started using coding agents"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mq_V6zAjsSI?start=962&end=1022" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mq_V6zAjsSI/hqdefault.jpg)](https://www.youtube.com/watch?v=mq_V6zAjsSI&t=962s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*16:02-17:02" "https://www.youtube.com/watch?v=mq_V6zAjsSI" --force-keyframes-at-cuts --merge-output-format mp4 -o "mq_V6zAjsSI-16m02s.mp4"
+```
+</details>
 
 > "I've talked to people at these companies and they're like, 'Wow, yeah, Cloud Code with Opus 4.5 is when I finally started using coding agents a couple months ago.' And if they're like still just getting obsessed with them, then they will decide, oh, we need to train the model that's really really good at this."
 > -- Nathan Lambert, [16:02](https://www.youtube.com/watch?v=mq_V6zAjsSI&t=962s)
 
 ### "Musk Industries, for better or worse, has a bit of villain vibes"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mq_V6zAjsSI?start=1216&end=1280" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mq_V6zAjsSI/hqdefault.jpg)](https://www.youtube.com/watch?v=mq_V6zAjsSI&t=1216s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*20:16-21:20" "https://www.youtube.com/watch?v=mq_V6zAjsSI" --force-keyframes-at-cuts --merge-output-format mp4 -o "mq_V6zAjsSI-20m16s.mp4"
+```
+</details>
 
 > "Musk Industries, for better or worse, has a bit of villain vibes, but in a sci-fi movie... for whatever opinion on Elon you have, especially on the political side that I think he should spend less time in, he has such a track record in building businesses that I have to think that there is a plan there."
 > -- Nathan Lambert, [20:16](https://www.youtube.com/watch?v=mq_V6zAjsSI&t=1216s)
 
 ### "The model's outputs are so literally the product"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mq_V6zAjsSI?start=1925&end=2000" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mq_V6zAjsSI/hqdefault.jpg)](https://www.youtube.com/watch?v=mq_V6zAjsSI&t=1925s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*32:05-33:20" "https://www.youtube.com/watch?v=mq_V6zAjsSI" --force-keyframes-at-cuts --merge-output-format mp4 -o "mq_V6zAjsSI-32m05s.mp4"
+```
+</details>
 
 > "The model's language is the interface by which the user sees the information. And it's like therefore the model's outputs are so literally the product. If the product is what keeps the person engaged and uses certain triggers to get people to come back to it... that is so deeply entwined in how you would approach what is the user experience."
 > -- Nathan Lambert, [32:05](https://www.youtube.com/watch?v=mq_V6zAjsSI&t=1925s)
 
 ### "One is what we have is an AGI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mq_V6zAjsSI?start=2617&end=2690" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/mq_V6zAjsSI/hqdefault.jpg)](https://www.youtube.com/watch?v=mq_V6zAjsSI&t=2617s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*43:37-44:50" "https://www.youtube.com/watch?v=mq_V6zAjsSI" --force-keyframes-at-cuts --merge-output-format mp4 -o "mq_V6zAjsSI-43m37s.mp4"
+```
+</details>
 
 > "I have two views on AGI. One is what we have is an AGI. And two, I understand the colloquial SF lingo for AGI, which is like a drop-in replacement for a remote worker, which I see... I would push them again on like Claude Code's latest form being pretty close to their definition of AGI if you really are flexible and work with it."
 > -- Nathan Lambert, [43:37](https://www.youtube.com/watch?v=mq_V6zAjsSI&t=2617s)

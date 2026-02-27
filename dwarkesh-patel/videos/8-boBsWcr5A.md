@@ -41,42 +41,84 @@ The most revealing portion covers Microsoft's infrastructure strategy. Nadella e
 
 ### "We are now a capital-intensive knowledge business"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8-boBsWcr5A?start=4272&end=4335" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/8-boBsWcr5A/hqdefault.jpg)](https://www.youtube.com/watch?v=8-boBsWcr5A&t=4272s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*71:12-72:15" "https://www.youtube.com/watch?v=8-boBsWcr5A" --force-keyframes-at-cuts --merge-output-format mp4 -o "8-boBsWcr5A-71m12s.mp4"
+```
+</details>
 
 > "I describe it as we are now a capital-intensive knowledge business. We have to use our knowledge to differentiate capital. The hardware guys have done a phenomenal job. But the software improvements of really throughput optimization we've been able to get quarter-over-quarter -- it's 5x, 10x, maybe 40x in some cases. That's knowledge intensity coming in."
 > -- Satya Nadella, [1:11:12](https://www.youtube.com/watch?v=8-boBsWcr5A&t=4272s)
 
 ### "Cursor is going to kill you -- it's not Borland"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8-boBsWcr5A?start=877&end=920" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/8-boBsWcr5A/hqdefault.jpg)](https://www.youtube.com/watch?v=8-boBsWcr5A&t=877s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:37-15:20" "https://www.youtube.com/watch?v=8-boBsWcr5A" --force-keyframes-at-cuts --merge-output-format mp4 -o "8-boBsWcr5A-14m37s.mp4"
+```
+</details>
 
 > "When you say, who's the competition now? Cursor is going to kill you -- it's not Borland. This is the right direction. This is it. The fact that we went from $500 million to $5 billion in the coding AI market in one year -- this is like the cloud-like stuff. Coding and AI is probably going to be the software factory category."
 > -- Satya Nadella, [14:37](https://www.youtube.com/watch?v=8-boBsWcr5A&t=877s)
 
 ### "Now I see where my money is going"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8-boBsWcr5A?start=198&end=245" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/8-boBsWcr5A/hqdefault.jpg)](https://www.youtube.com/watch?v=8-boBsWcr5A&t=198s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:18-4:05" "https://www.youtube.com/watch?v=8-boBsWcr5A" --force-keyframes-at-cuts --merge-output-format mp4 -o "8-boBsWcr5A-3m18s.mp4"
+```
+</details>
 
 > "My God, it's kind of loud. 'Now I see where my money is going.' Welcome to the software company."
 > -- Satya Nadella, [3:18](https://www.youtube.com/watch?v=8-boBsWcr5A&t=198s)
 
 ### "Office 365 becomes the agent substrate"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8-boBsWcr5A?start=1879&end=1940" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/8-boBsWcr5A/hqdefault.jpg)](https://www.youtube.com/watch?v=8-boBsWcr5A&t=1879s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*31:19-32:20" "https://www.youtube.com/watch?v=8-boBsWcr5A" --force-keyframes-at-cuts --merge-output-format mp4 -o "8-boBsWcr5A-31m19s.mp4"
+```
+</details>
 
 > "In fact, I kind of look at Office 365, which today is an end-user tools business, becoming a business in support of agents doing work. In fact, all the stuff we built underneath -- you need some place to store it, some place to compute it, some place to manage all of these activities. The pricing is not just per user, it's per agent."
 > -- Satya Nadella, [31:19](https://www.youtube.com/watch?v=8-boBsWcr5A&t=1879s)
 
 ### "There's no birthright here"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8-boBsWcr5A?start=1153&end=1210" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/8-boBsWcr5A/hqdefault.jpg)](https://www.youtube.com/watch?v=8-boBsWcr5A&t=1153s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*19:13-20:10" "https://www.youtube.com/watch?v=8-boBsWcr5A" --force-keyframes-at-cuts --merge-output-format mp4 -o "8-boBsWcr5A-19m13s.mp4"
+```
+</details>
 
 > "But you've gone from near 100% market share to sub-25% market share in coding AI in just one year. What makes you confident that Microsoft will keep winning? My response to that -- there's no birthright here, other than to say we should go innovate. What I'm optimistic about is that this category is going to be a lot bigger."
 > -- Satya Nadella, [19:13](https://www.youtube.com/watch?v=8-boBsWcr5A&t=1153s)
 
 ### "Trust in tech is probably the most important feature"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8-boBsWcr5A?start=5257&end=5290" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/8-boBsWcr5A/hqdefault.jpg)](https://www.youtube.com/watch?v=8-boBsWcr5A&t=5257s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*87:37-88:10" "https://www.youtube.com/watch?v=8-boBsWcr5A" --force-keyframes-at-cuts --merge-output-format mp4 -o "8-boBsWcr5A-87m37s.mp4"
+```
+</details>
 
 > "Trust in tech is probably the most important feature. It is, 'Can I trust you, the company, and can I trust your institutions to be a long-term supplier?' That's a good note to end on."
 > -- Satya Nadella, [1:27:37](https://www.youtube.com/watch?v=8-boBsWcr5A&t=5257s)

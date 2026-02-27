@@ -44,35 +44,70 @@ In this "Dope Tech Revisited" episode, Marques Brownlee returns to the beloved D
 
 ### "The Porsche 911 of computer mice"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RvP-uVNwnXo?start=223&end=280" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/RvP-uVNwnXo/hqdefault.jpg)](https://www.youtube.com/watch?v=RvP-uVNwnXo&t=223s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:43-4:40" "https://www.youtube.com/watch?v=RvP-uVNwnXo" --force-keyframes-at-cuts --merge-output-format mp4 -o "RvP-uVNwnXo-3m43s.mp4"
+```
+</details>
 
 > "I feel like this is becoming like the Porsche 911 of computer mice... This is not changing very much from generation to generation. It keeps the same silhouette, the iconic shape that everyone knows. But each time they improve a little bit and iterate over and over to the nth degree."
 > — Marques Brownlee, [3:43](https://www.youtube.com/watch?v=RvP-uVNwnXo&t=223s)
 
 ### "Thinner than iPad Pro, thinner than iPhone Air"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RvP-uVNwnXo?start=518&end=570" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/RvP-uVNwnXo/hqdefault.jpg)](https://www.youtube.com/watch?v=RvP-uVNwnXo&t=518s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*8:38-9:30" "https://www.youtube.com/watch?v=RvP-uVNwnXo" --force-keyframes-at-cuts --merge-output-format mp4 -o "RvP-uVNwnXo-8m38s.mp4"
+```
+</details>
 
 > "That's not just thinner than most tablets. That is thinner than the iPad Pro, thinner than the iPhone Air, and just about anything this big with a screen on it."
 > — Marques Brownlee, [8:51](https://www.youtube.com/watch?v=RvP-uVNwnXo&t=531s)
 
 ### "Two companies merging and the consumer wins"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RvP-uVNwnXo?start=762&end=820" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/RvP-uVNwnXo/hqdefault.jpg)](https://www.youtube.com/watch?v=RvP-uVNwnXo&t=762s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:42-13:40" "https://www.youtube.com/watch?v=RvP-uVNwnXo" --force-keyframes-at-cuts --merge-output-format mp4 -o "RvP-uVNwnXo-12m42s.mp4"
+```
+</details>
 
 > "In the long, long history of people's favorite tech companies getting purchased, how many of those are a story that ends with everyone being happy other than people getting paid? Not very many."
 > — Marques Brownlee, [12:42](https://www.youtube.com/watch?v=RvP-uVNwnXo&t=762s)
 
 ### "The tool should enable creativity"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RvP-uVNwnXo?start=894&end=945" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/RvP-uVNwnXo/hqdefault.jpg)](https://www.youtube.com/watch?v=RvP-uVNwnXo&t=894s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:54-15:45" "https://www.youtube.com/watch?v=RvP-uVNwnXo" --force-keyframes-at-cuts --merge-output-format mp4 -o "RvP-uVNwnXo-14m54s.mp4"
+```
+</details>
 
 > "Philosophically, I feel like it should be the other way around. The tool should enable whatever creative thing you want to make."
 > — Marques Brownlee, [14:54](https://www.youtube.com/watch?v=RvP-uVNwnXo&t=894s)
 
 ### "Devialet speakers in Newark airport"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RvP-uVNwnXo?start=401&end=450" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/RvP-uVNwnXo/hqdefault.jpg)](https://www.youtube.com/watch?v=RvP-uVNwnXo&t=401s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:41-7:30" "https://www.youtube.com/watch?v=RvP-uVNwnXo" --force-keyframes-at-cuts --merge-output-format mp4 -o "RvP-uVNwnXo-6m41s.mp4"
+```
+</details>
 
 > "Fun fact, I now mostly see these in Newark airport. Next time you're in Newark airport, look up in the corners of the little kiosks and the tiny stores they have in between gates, and I guarantee you'll start seeing tons of these little speakers from Devialet."
 > — Marques Brownlee, [6:41](https://www.youtube.com/watch?v=RvP-uVNwnXo&t=401s)

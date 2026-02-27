@@ -38,35 +38,70 @@ Tong shares her vision for a hybrid future where websites serve dual purposes: d
 
 ### "Bot traffic will be the majority by year's end"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-zgvAukEDFE?start=117&end=145" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-zgvAukEDFE/hqdefault.jpg)](https://www.youtube.com/watch?v=-zgvAukEDFE&t=117s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:57-2:25" "https://www.youtube.com/watch?v=-zgvAukEDFE" --force-keyframes-at-cuts --merge-output-format mp4 -o "-zgvAukEDFE-1m57s.mp4"
+```
+</details>
 
 > "It started way like over a year ago. We started seeing these trends early last year. It became wildly disruptive last summer and like I've only seen it increase. If I were to follow the trend lines of what I'm seeing, it's going to be a majority of traffic by the end of this year."
 > — Linda Tong, [1:57](https://www.youtube.com/watch?v=-zgvAukEDFE&t=117s)
 
 ### "We need agent-optimized sites"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-zgvAukEDFE?start=319&end=375" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-zgvAukEDFE/hqdefault.jpg)](https://www.youtube.com/watch?v=-zgvAukEDFE&t=319s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*5:19-6:15" "https://www.youtube.com/watch?v=-zgvAukEDFE" --force-keyframes-at-cuts --merge-output-format mp4 -o "-zgvAukEDFE-5m19s.mp4"
+```
+</details>
 
 > "The same way that mobile came on the scene in 2009 and people were like 'oh I need a mobile optimized site,' I think we are going to need agent optimized sites - sites that are built to interact with these agentic workflows and these different LLMs that are trying to really understand and sort of index these sites."
 > — Linda Tong, [5:19](https://www.youtube.com/watch?v=-zgvAukEDFE&t=319s)
 
 ### "Don't block bots - it's the new SEO"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-zgvAukEDFE?start=203&end=250" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-zgvAukEDFE/hqdefault.jpg)](https://www.youtube.com/watch?v=-zgvAukEDFE&t=203s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:23-4:10" "https://www.youtube.com/watch?v=-zgvAukEDFE" --force-keyframes-at-cuts --merge-output-format mp4 -o "-zgvAukEDFE-3m23s.mp4"
+```
+</details>
 
 > "Some people were like 'Oh, should I just block it?' And I'm like, 'No, don't block it.' This is now what people are calling AEO or GEO or AIO - it's finding a way to SEO these AI-backed chatbots. Being available to be referenced and indexed is super important."
 > — Linda Tong, [3:23](https://www.youtube.com/watch?v=-zgvAukEDFE&t=203s)
 
 ### "It's silly to show everyone the same website"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-zgvAukEDFE?start=875&end=935" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-zgvAukEDFE/hqdefault.jpg)](https://www.youtube.com/watch?v=-zgvAukEDFE&t=875s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:35-15:35" "https://www.youtube.com/watch?v=-zgvAukEDFE" --force-keyframes-at-cuts --merge-output-format mp4 -o "-zgvAukEDFE-14m35s.mp4"
+```
+</details>
 
 > "When you go online, it's kind of silly to see the same Gap. It's not like you have a brick-and-mortar store and you can only fit it within 2500 square feet. It should be highly dynamic because the web doesn't have those constraints. But for some reason, we've applied physical constraints to what the web should be."
 > — Linda Tong, [14:35](https://www.youtube.com/watch?v=-zgvAukEDFE&t=875s)
 
 ### "The Ender's Game leadership philosophy"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-zgvAukEDFE?start=1475&end=1545" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/-zgvAukEDFE/hqdefault.jpg)](https://www.youtube.com/watch?v=-zgvAukEDFE&t=1475s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*24:35-25:45" "https://www.youtube.com/watch?v=-zgvAukEDFE" --force-keyframes-at-cuts --merge-output-format mp4 -o "-zgvAukEDFE-24m35s.mp4"
+```
+</details>
 
 > "One of the lines in it is he could never defeat an enemy unless he loved them because once you love someone that you really understand their weakness. Good leadership is not one of authority. It's one of influence. That book is probably through and through one of the best examples of it."
 > — Linda Tong, [24:35](https://www.youtube.com/watch?v=-zgvAukEDFE&t=1475s)

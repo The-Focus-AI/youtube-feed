@@ -35,35 +35,70 @@ The episode also covers Etsy's partnership with OpenAI to display products direc
 
 ### "Very Few Companies Fail Because They Don't Write Enough Code"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YOhcr71TydA?start=745&end=800" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/YOhcr71TydA/hqdefault.jpg)](https://www.youtube.com/watch?v=YOhcr71TydA&t=745s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:25-13:20" "https://www.youtube.com/watch?v=YOhcr71TydA" --force-keyframes-at-cuts --merge-output-format mp4 -o "YOhcr71TydA-12m25s.mp4"
+```
+</details>
 
 > "Very few companies don't succeed because they cannot get enough code into production. It's almost always strategy, prioritization, and some of these other things. So that whole productivity discourse is maybe a little bit misplaced."
 > -- Rafe Colburn, [12:25](https://www.youtube.com/watch?v=YOhcr71TydA&t=745s)
 
 ### "If No One Told Executives About AI, Engineers Would Think It's the Greatest Thing"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YOhcr71TydA?start=766&end=820" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/YOhcr71TydA/hqdefault.jpg)](https://www.youtube.com/watch?v=YOhcr71TydA&t=766s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*12:46-13:40" "https://www.youtube.com/watch?v=YOhcr71TydA" --force-keyframes-at-cuts --merge-output-format mp4 -o "YOhcr71TydA-12m46s.mp4"
+```
+</details>
 
 > "If no one told anything in the executive suite about AI, engineers would think this is the greatest thing that ever happened to them in their entire career. They discovered it themselves. It is so useful for so many things."
 > -- Rafe Colburn, [12:46](https://www.youtube.com/watch?v=YOhcr71TydA&t=766s)
 
 ### "It's Your Code"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YOhcr71TydA?start=881&end=930" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/YOhcr71TydA/hqdefault.jpg)](https://www.youtube.com/watch?v=YOhcr71TydA&t=881s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:41-15:30" "https://www.youtube.com/watch?v=YOhcr71TydA" --force-keyframes-at-cuts --merge-output-format mp4 -o "YOhcr71TydA-14m41s.mp4"
+```
+</details>
 
 > "The policy at the bottom is like you're responsible for the things you check in to GitHub. You're responsible for the emails you send to people. If you use AI to make it and it's better, great. But ultimately, it's your code."
 > -- Rafe Colburn, [14:41](https://www.youtube.com/watch?v=YOhcr71TydA&t=881s)
 
 ### "To an LLM, Everything Is Metadata"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YOhcr71TydA?start=1690&end=1740" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/YOhcr71TydA/hqdefault.jpg)](https://www.youtube.com/watch?v=YOhcr71TydA&t=1690s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*28:10-29:00" "https://www.youtube.com/watch?v=YOhcr71TydA" --force-keyframes-at-cuts --merge-output-format mp4 -o "YOhcr71TydA-28m10s.mp4"
+```
+</details>
 
 > "We don't have the metadata that like an Amazon has. We have like millions of small sellers. They just describe their items. But to an LLM, everything is metadata. Everything is an API. The taxonomy stuff can actually be solved now, whereas asking humans to do it is..."
 > -- Rafe Colburn, [28:10](https://www.youtube.com/watch?v=YOhcr71TydA&t=1690s)
 
 ### "Lean In -- You'll Have a Massive Competitive Advantage"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YOhcr71TydA?start=2080&end=2140" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/YOhcr71TydA/hqdefault.jpg)](https://www.youtube.com/watch?v=YOhcr71TydA&t=2080s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*34:40-35:40" "https://www.youtube.com/watch?v=YOhcr71TydA" --force-keyframes-at-cuts --merge-output-format mp4 -o "YOhcr71TydA-34m40s.mp4"
+```
+</details>
 
 > "If you can figure out how to really be an expert and harness AI to do your job, you will have a massive competitive advantage over your peers. But if you think you can just type stuff into a box and make your job go away, you just kind of miss the point."
 > -- Rafe Colburn, [34:40](https://www.youtube.com/watch?v=YOhcr71TydA&t=2080s)

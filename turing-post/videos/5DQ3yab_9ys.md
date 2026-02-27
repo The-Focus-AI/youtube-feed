@@ -45,35 +45,70 @@ The analysis draws on insights from Azeem Azhar of Exponential View, who notes t
 
 ### "ChatGPT + TikTok - That was freaking genius"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5DQ3yab_9ys?start=72&end=120" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5DQ3yab_9ys/hqdefault.jpg)](https://www.youtube.com/watch?v=5DQ3yab_9ys&t=72s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:12-2:00" "https://www.youtube.com/watch?v=5DQ3yab_9ys" --force-keyframes-at-cuts --merge-output-format mp4 -o "5DQ3yab_9ys-1m12s.mp4"
+```
+</details>
 
 > "We also saw recently when Veo 3 by Google was launched. It was quite mind-blowing but also bulky to use. And the OpenAI team came up with an idea to marry ChatGPT and TikTok. That was freaking genius."
 > — Host, [1:31](https://www.youtube.com/watch?v=5DQ3yab_9ys&t=91s)
 
 ### "Your data is in the system"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5DQ3yab_9ys?start=142&end=200" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5DQ3yab_9ys/hqdefault.jpg)](https://www.youtube.com/watch?v=5DQ3yab_9ys&t=142s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:22-3:20" "https://www.youtube.com/watch?v=5DQ3yab_9ys" --force-keyframes-at-cuts --merge-output-format mp4 -o "5DQ3yab_9ys-2m22s.mp4"
+```
+</details>
 
 > "If you want to create a Sora video for yourself, you need to record a super short clip. First, you read three digits from the screen that captures both your voice and your mimics. Then, you turn your head left. Then, you turn your head right or up and down, depends what the system tells you. And that's it. Your data is in the system."
 > — Host, [2:22](https://www.youtube.com/watch?v=5DQ3yab_9ys&t=142s)
 
 ### "Just do the same prompt again"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5DQ3yab_9ys?start=275&end=320" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5DQ3yab_9ys/hqdefault.jpg)](https://www.youtube.com/watch?v=5DQ3yab_9ys&t=275s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:35-5:20" "https://www.youtube.com/watch?v=5DQ3yab_9ys" --force-keyframes-at-cuts --merge-output-format mp4 -o "5DQ3yab_9ys-4m35s.mp4"
+```
+</details>
 
 > "What I noticed, and it's kind of almost stupid, is that if for the first time when you prompt it, it says it violates our rules or blah blah blah, you just do it again. You just do the same prompt again and then you receive a video."
 > — Host, [4:35](https://www.youtube.com/watch?v=5DQ3yab_9ys&t=275s)
 
 ### "Will YouTube need Sora more than Sora needs YouTube?"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5DQ3yab_9ys?start=593&end=645" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5DQ3yab_9ys/hqdefault.jpg)](https://www.youtube.com/watch?v=5DQ3yab_9ys&t=593s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:53-10:45" "https://www.youtube.com/watch?v=5DQ3yab_9ys" --force-keyframes-at-cuts --merge-output-format mp4 -o "5DQ3yab_9ys-9m53s.mp4"
+```
+</details>
 
 > "OpenAI are betting that they can build a creator economy without relying on YouTube, TikTok or others. They could own the generation layer, distribution layer, and eventually a monetization channel. Will YouTube need Sora more than Sora needs YouTube? If OpenAI can crack retention and monetization, they own both the supply and demand side, that's a different game than being a model provider."
 > — Azeem Azhar, [10:11](https://www.youtube.com/watch?v=5DQ3yab_9ys&t=611s)
 
 ### "Veo 3 completely missed the point"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5DQ3yab_9ys?start=701&end=750" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/5DQ3yab_9ys/hqdefault.jpg)](https://www.youtube.com/watch?v=5DQ3yab_9ys&t=701s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:41-12:30" "https://www.youtube.com/watch?v=5DQ3yab_9ys" --force-keyframes-at-cuts --merge-output-format mp4 -o "5DQ3yab_9ys-11m41s.mp4"
+```
+</details>
 
 > "Sad to say, though Veo 3 by Google can be superior as a model, it completely missed the point of social interaction. Let's remember OpenAI created just in a few days a social network and a massive training playground."
 > — Host, [11:41](https://www.youtube.com/watch?v=5DQ3yab_9ys&t=701s)

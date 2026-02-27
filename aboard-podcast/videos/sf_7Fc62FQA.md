@@ -33,35 +33,70 @@ The conversation expands into a broader examination of the advertising economics
 
 ### "New York City doesn't love AI"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sf_7Fc62FQA?start=470&end=530" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/sf_7Fc62FQA/hqdefault.jpg)](https://www.youtube.com/watch?v=sf_7Fc62FQA&t=470s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*7:50-8:50" "https://www.youtube.com/watch?v=sf_7Fc62FQA" --force-keyframes-at-cuts --merge-output-format mp4 -o "sf_7Fc62FQA-7m50s.mp4"
+```
+</details>
 
 > "New York City doesn't love AI. Just not really. It's one of the reasons why we keep doubling down here. The city has an identity. Sometimes it'll just be sports teams but you can get a Wall Street guy and a Karsi guy and get them to fight about the Mets."
 > -- Paul Ford, [7:50](https://www.youtube.com/watch?v=sf_7Fc62FQA&t=470s)
 
 ### "You can't walk up to anyone on the subway and say 'Will you be my friend?'"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sf_7Fc62FQA?start=630&end=690" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/sf_7Fc62FQA/hqdefault.jpg)](https://www.youtube.com/watch?v=sf_7Fc62FQA&t=630s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*10:30-11:30" "https://www.youtube.com/watch?v=sf_7Fc62FQA" --force-keyframes-at-cuts --merge-output-format mp4 -o "sf_7Fc62FQA-10m30s.mp4"
+```
+</details>
 
 > "Here's what you can't do on the subway. Let's say you're a tourist. You can't walk up to anyone and say, 'Will you be my friend?' It's bad. It's just not -- you can do that in other places."
 > -- Paul Ford, [10:30](https://www.youtube.com/watch?v=sf_7Fc62FQA&t=630s)
 
 ### "The necklace is just going to get tighter and tighter"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sf_7Fc62FQA?start=1420&end=1480" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/sf_7Fc62FQA/hqdefault.jpg)](https://www.youtube.com/watch?v=sf_7Fc62FQA&t=1420s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*23:40-24:40" "https://www.youtube.com/watch?v=sf_7Fc62FQA" --force-keyframes-at-cuts --merge-output-format mp4 -o "sf_7Fc62FQA-23m40s.mp4"
+```
+</details>
 
 > "User beware. You're not a buyer. You don't think you're a buyer. You're a user. But user beware because we've seen what happens with free data. And now this thing's around your neck and the necklace is just going to get tighter and tighter."
 > -- Rich Zotti, [23:40](https://www.youtube.com/watch?v=sf_7Fc62FQA&t=1420s)
 
 ### "I don't want Peter Thiel talking about the Antichrist"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sf_7Fc62FQA?start=1120&end=1180" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/sf_7Fc62FQA/hqdefault.jpg)](https://www.youtube.com/watch?v=sf_7Fc62FQA&t=1120s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*18:40-19:40" "https://www.youtube.com/watch?v=sf_7Fc62FQA" --force-keyframes-at-cuts --merge-output-format mp4 -o "sf_7Fc62FQA-18m40s.mp4"
+```
+</details>
 
 > "We don't want anything to do with that culturally. I don't want Peter Thiel talking about the Antichrist while he just sweats that sort of weird gossamer sweat that he has. If I had that kind of money, I would never be slick. I'd be matte."
 > -- Paul Ford, [18:40](https://www.youtube.com/watch?v=sf_7Fc62FQA&t=1120s)
 
 ### "Friend is a nice Silicon Valley concept until fundamentalists use it to control their daughters"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sf_7Fc62FQA?start=1300&end=1360" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/sf_7Fc62FQA/hqdefault.jpg)](https://www.youtube.com/watch?v=sf_7Fc62FQA&t=1300s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*21:40-22:40" "https://www.youtube.com/watch?v=sf_7Fc62FQA" --force-keyframes-at-cuts --merge-output-format mp4 -o "sf_7Fc62FQA-21m40s.mp4"
+```
+</details>
 
 > "Friend is like a nice Silicon Valley concept until fundamentalist religious people use it to control their daughters and now we're really upset about it. All this stuff is coming for us."
 > -- Paul Ford, [21:40](https://www.youtube.com/watch?v=sf_7Fc62FQA&t=1300s)

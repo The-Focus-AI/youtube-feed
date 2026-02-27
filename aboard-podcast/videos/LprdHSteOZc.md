@@ -33,35 +33,70 @@ The conversation explores why custom software economics have never aligned with 
 
 ### "It's like 50% of the economy. We just don't talk about it because it's so boring."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LprdHSteOZc?start=144&end=200" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LprdHSteOZc/hqdefault.jpg)](https://www.youtube.com/watch?v=LprdHSteOZc&t=144s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*2:24-3:20" "https://www.youtube.com/watch?v=LprdHSteOZc" --force-keyframes-at-cuts --merge-output-format mp4 -o "LprdHSteOZc-2m24s.mp4"
+```
+</details>
 
 > "It's like 50% of the economy. We just don't talk about it because it's so boring."
 > -- Paul Ford, [2:24](https://www.youtube.com/watch?v=LprdHSteOZc&t=144s)
 
 ### "The economics of creating custom software just don't line up"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LprdHSteOZc?start=790&end=850" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LprdHSteOZc/hqdefault.jpg)](https://www.youtube.com/watch?v=LprdHSteOZc&t=790s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:10-14:10" "https://www.youtube.com/watch?v=LprdHSteOZc" --force-keyframes-at-cuts --merge-output-format mp4 -o "LprdHSteOZc-13m10s.mp4"
+```
+</details>
 
 > "It's financially unattractive, in many ways untenable, to build custom software for a small business efficiently enough and cheaply enough that it's valuable to them and it's good value to the software provider."
 > -- Rich Zotti, [13:10](https://www.youtube.com/watch?v=LprdHSteOZc&t=790s)
 
 ### "They just want their thing"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LprdHSteOZc?start=660&end=730" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LprdHSteOZc/hqdefault.jpg)](https://www.youtube.com/watch?v=LprdHSteOZc&t=660s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*11:00-12:10" "https://www.youtube.com/watch?v=LprdHSteOZc" --force-keyframes-at-cuts --merge-output-format mp4 -o "LprdHSteOZc-11m00s.mp4"
+```
+</details>
 
 > "Vibe coding just looks like the answer to all of your problems. Because over here, I'm going to not be able to buy a summer house and my bonus pool will be really small. Over here, I have to keep using Notion or spreadsheets or this crappy tool from 25 years ago that everybody hates. And in the middle, I just tell a robot and run away."
 > -- Rich Zotti, [11:02](https://www.youtube.com/watch?v=LprdHSteOZc&t=662s)
 
 ### "You know what we should rename agents? Locusts."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LprdHSteOZc?start=1310&end=1370" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LprdHSteOZc/hqdefault.jpg)](https://www.youtube.com/watch?v=LprdHSteOZc&t=1310s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*21:50-22:50" "https://www.youtube.com/watch?v=LprdHSteOZc" --force-keyframes-at-cuts --merge-output-format mp4 -o "LprdHSteOZc-21m50s.mp4"
+```
+</details>
 
 > "You know what we should rename agents? Locusts. You're releasing the swarm and then they eat all the crops."
 > -- Paul Ford, [21:50](https://www.youtube.com/watch?v=LprdHSteOZc&t=1310s)
 
 ### "I had a very nice guy come up to me after"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LprdHSteOZc?start=1050&end=1110" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/LprdHSteOZc/hqdefault.jpg)](https://www.youtube.com/watch?v=LprdHSteOZc&t=1050s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*17:30-18:30" "https://www.youtube.com/watch?v=LprdHSteOZc" --force-keyframes-at-cuts --merge-output-format mp4 -o "LprdHSteOZc-17m30s.mp4"
+```
+</details>
 
 > "I had a very nice guy who has an outsourced development firm come up to me after and he's like, 'I gotta say, I just wonder if this is the death of my business.'"
 > -- Paul Ford, [17:30](https://www.youtube.com/watch?v=LprdHSteOZc&t=1050s)

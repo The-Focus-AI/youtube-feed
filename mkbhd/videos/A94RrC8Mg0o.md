@@ -32,35 +32,70 @@ MKBHD reviews the Nothing Headphone 1, the company's first over-ear noise cancel
 
 ### "Nothing Has Become a Design Company"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A94RrC8Mg0o?start=8&end=55" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/A94RrC8Mg0o/hqdefault.jpg)](https://www.youtube.com/watch?v=A94RrC8Mg0o&t=8s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:08-0:55" "https://www.youtube.com/watch?v=A94RrC8Mg0o" --force-keyframes-at-cuts --merge-output-format mp4 -o "A94RrC8Mg0o-0m08s.mp4"
+```
+</details>
 
 > "So, Nothing has become known as a design company. And that's not a bad thing, people love great design. But you can think of them as something like a fashion brand in the genre of consumer electronics."
 > — Marques Brownlee, [0:08](https://www.youtube.com/watch?v=A94RrC8Mg0o&t=8s)
 
 ### "More Elegant Than a Cybertruck"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A94RrC8Mg0o?start=74&end=120" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/A94RrC8Mg0o/hqdefault.jpg)](https://www.youtube.com/watch?v=A94RrC8Mg0o&t=74s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*1:14-2:00" "https://www.youtube.com/watch?v=A94RrC8Mg0o" --force-keyframes-at-cuts --merge-output-format mp4 -o "A94RrC8Mg0o-1m14s.mp4"
+```
+</details>
 
 > "Like all that means is some people are going to love it and some people are going to hate it because it looks different. I do think this is a bit more elegant than a Cybertruck, though."
 > — Marques Brownlee, [1:21](https://www.youtube.com/watch?v=A94RrC8Mg0o&t=81s)
 
 ### "Thankfully They're Almost Nothing Alike"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A94RrC8Mg0o?start=183&end=230" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/A94RrC8Mg0o/hqdefault.jpg)](https://www.youtube.com/watch?v=A94RrC8Mg0o&t=183s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:03-3:50" "https://www.youtube.com/watch?v=A94RrC8Mg0o" --force-keyframes-at-cuts --merge-output-format mp4 -o "A94RrC8Mg0o-3m03s.mp4"
+```
+</details>
 
 > "So I bought them. They were like 400 bucks on their site, but they're listed for $220 on Amazon, so that's where I got them. But I'm happy to report that, thankfully, they're almost nothing alike."
 > — Marques Brownlee, [3:03](https://www.youtube.com/watch?v=A94RrC8Mg0o&t=183s)
 
 ### "Thumbs Up to the Control System"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A94RrC8Mg0o?start=281&end=330" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/A94RrC8Mg0o/hqdefault.jpg)](https://www.youtube.com/watch?v=A94RrC8Mg0o&t=281s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:41-5:30" "https://www.youtube.com/watch?v=A94RrC8Mg0o" --force-keyframes-at-cuts --merge-output-format mp4 -o "A94RrC8Mg0o-4m41s.mp4"
+```
+</details>
 
 > "So no touch controls, only tactile, physical buttons and switches. Thumbs up to the control system."
 > — Marques Brownlee, [4:46](https://www.youtube.com/watch?v=A94RrC8Mg0o&t=286s)
 
 ### "If Sonys Are an A+, These Are a B+"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A94RrC8Mg0o?start=403&end=450" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/A94RrC8Mg0o/hqdefault.jpg)](https://www.youtube.com/watch?v=A94RrC8Mg0o&t=403s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*6:43-7:30" "https://www.youtube.com/watch?v=A94RrC8Mg0o" --force-keyframes-at-cuts --merge-output-format mp4 -o "A94RrC8Mg0o-6m43s.mp4"
+```
+</details>
 
 > "I will say on the extreme end, it's about a notch and a half behind the Sonys. I could still hear some plane noise where I'd never hear it with the Sonys. But it's definitely not a deal breaker. If the Sonys are an A+, these are a B+."
 > — Marques Brownlee, [6:43](https://www.youtube.com/watch?v=A94RrC8Mg0o&t=403s)

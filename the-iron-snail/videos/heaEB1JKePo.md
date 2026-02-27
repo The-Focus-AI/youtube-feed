@@ -33,35 +33,70 @@ The story traces Rolex's rise from Hans Wilsdorf's vision to create durable, acc
 
 ### "A Genie Whispered the Name Rolex"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/heaEB1JKePo?start=41&end=100" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/heaEB1JKePo/hqdefault.jpg)](https://www.youtube.com/watch?v=heaEB1JKePo&t=41s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:41-1:40" "https://www.youtube.com/watch?v=heaEB1JKePo" --force-keyframes-at-cuts --merge-output-format mp4 -o "heaEB1JKePo-0m41s.mp4"
+```
+</details>
 
 > "The founder of Rolex Hans Wilsdorf said he came up with the name Rolex when a genie whispered it into his ear while he was on a horse-drawn bus in London."
 > — Michael, [0:48](https://www.youtube.com/watch?v=heaEB1JKePo&t=48s)
 
 ### "Unprecedented Dominance - Top Five Competitors Combined"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/heaEB1JKePo?start=21&end=75" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/heaEB1JKePo/hqdefault.jpg)](https://www.youtube.com/watch?v=heaEB1JKePo&t=21s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:21-1:15" "https://www.youtube.com/watch?v=heaEB1JKePo" --force-keyframes-at-cuts --merge-output-format mp4 -o "heaEB1JKePo-0m21s.mp4"
+```
+</details>
 
 > "In 2023 their watch sales surpassed their top five competitors combined and Morgan Stanley has called this unprecedented dominance."
 > — Michael, [0:29](https://www.youtube.com/watch?v=heaEB1JKePo&t=29s)
 
 ### "Mercedes Gleitze's Vindication Swim"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/heaEB1JKePo?start=229&end=300" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/heaEB1JKePo/hqdefault.jpg)](https://www.youtube.com/watch?v=heaEB1JKePo&t=229s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*3:49-5:00" "https://www.youtube.com/watch?v=heaEB1JKePo" --force-keyframes-at-cuts --merge-output-format mp4 -o "heaEB1JKePo-3m49s.mp4"
+```
+</details>
 
 > "This swim - the Vindication Swim - was a BFD. It was a big deal all of a sudden because this woman Mercedes is trying to prove that she in fact is the greatest swimmer."
 > — Michael, [4:33](https://www.youtube.com/watch?v=heaEB1JKePo&t=273s)
 
 ### "Except the Moon - That Goes to Omega"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/heaEB1JKePo?start=585&end=640" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/heaEB1JKePo/hqdefault.jpg)](https://www.youtube.com/watch?v=heaEB1JKePo&t=585s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:45-10:40" "https://www.youtube.com/watch?v=heaEB1JKePo" --force-keyframes-at-cuts --merge-output-format mp4 -o "heaEB1JKePo-9m45s.mp4"
+```
+</details>
 
 > "Rolex did literally every single great human achievement since Rolex came out - they've been there... except the moon. Didn't get to the moon, did you Rolex? That goes to Omega."
 > — Michael, [9:45](https://www.youtube.com/watch?v=heaEB1JKePo&t=585s)
 
 ### "Make a Watch for Every Dream and Get It On the Winner"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/heaEB1JKePo?start=851&end=900" frameborder="0" allowfullscreen></iframe>
+[![Clip](https://img.youtube.com/vi/heaEB1JKePo/hqdefault.jpg)](https://www.youtube.com/watch?v=heaEB1JKePo&t=851s)
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*14:11-15:00" "https://www.youtube.com/watch?v=heaEB1JKePo" --force-keyframes-at-cuts --merge-output-format mp4 -o "heaEB1JKePo-14m11s.mp4"
+```
+</details>
 
 > "They essentially have a model for every dream, every human accomplishment that you could possibly have, and their whole goal is make a watch that's fit for that scenario and get it on the winner - has to be on the winner."
 > — Michael, [14:11](https://www.youtube.com/watch?v=heaEB1JKePo&t=851s)
