@@ -1,8 +1,8 @@
 ---
 channel: MKBHD
 channel_handle: "@mkbhd"
-total_videos: 37
-last_updated: 2026-02-24
+total_videos: 39
+last_updated: 2026-02-26
 ---
 
 # MKBHD Channel Index
@@ -11,9 +11,9 @@ last_updated: 2026-02-24
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 37 |
-| Total Views | 172,026,761 |
-| Date Range | July 1, 2025 - February 18, 2026 |
+| Total Videos | 39 |
+| Total Views | 182,651,785 |
+| Date Range | June 10, 2025 - February 25, 2026 |
 | Average Video Length | 13:35 |
 
 ---
@@ -22,6 +22,7 @@ last_updated: 2026-02-24
 
 | Date | Title | Duration | Views |
 |------|-------|----------|-------|
+| 2026-02-25 | [Samsung Galaxy S26/Ultra Impressions: 1 Crazy Display Feature!](videos/FRI78tq9Eik.md) | 9:10 | 3,163,244 |
 | 2026-02-18 | [Google Pixel 10A Impressions: (Never) Seen This Before](videos/iCSg_ul3G2w.md) | 8:31 | 2,868,476 |
 | 2026-02-06 | [The Problem with these Smartphone Batteries](videos/zPAY2VxfFBk.md) | 8:32 | 2,051,102 |
 | 2026-01-26 | [The Downfall of OnePlus will be Studied](videos/vZdbbN3FCzE.md) | 15:04 | 4,451,358 |
@@ -56,6 +57,7 @@ last_updated: 2026-02-24
 | 2025-07-08 | [Nothing Phone 3 Review: They Lied!](videos/4KbrxIpQgkM.md) | 15:37 | 3,849,512 |
 | 2025-07-03 | [My Nintendo Switch 2 Review (Doesn't Matter?)](videos/-NNCca97v98.md) | 13:17 | 3,183,434 |
 | 2025-07-01 | [Nothing Headphone 1 Review: As Good as They Look?](videos/A94RrC8Mg0o.md) | 11:16 | 3,836,761 |
+| 2025-06-10 | [WWDC 2025 Impressions: Liquid Glass!](videos/1E3tv_3D95g.md) | 18:23 | 7,461,780 |
 | 2024-12-05 | [Driving Xiaomi's Electric Car: Are we Cooked?](videos/Mb6H7trzMfI.md) | 17:24 | 9,403,535 |
 | 2024-11-13 | [OnePlus 15 Review: This is Not Normal!](videos/2MdQWo9fHZs.md) | 12:52 | 5,364,103 |
 | 2024-09-15 | [AirPods Pro 3 Review: I Understand It Now!](videos/GB0b6KFZVq0.md) | 11:50 | 6,679,271 |
@@ -68,9 +70,9 @@ last_updated: 2026-02-24
 
 | Company | Videos | References |
 |---------|--------|------------|
-| **Apple** | 24 | iOS 26, iPhone 17, iPhone Air, AirPods Pro 3, Vision Pro, iPadOS 26, M5 chip, Siri, Apple Intelligence |
+| **Apple** | 25 | WWDC 2025, iOS 26, iPhone 17, iPhone Air, AirPods Pro 3, Vision Pro, iPadOS 26, M5 chip, Siri, Apple Intelligence, Liquid Glass |
 | **Google** | 15 | Pixel 10, Pixel 10A, Gemini, Android 16, Tensor G5, YouTube, Circle to Search |
-| **Samsung** | 12 | Galaxy Z Fold 7, Galaxy Z Flip 7, Z Tri Fold, Galaxy S25 Ultra, Galaxy Tab S11 Ultra |
+| **Samsung** | 13 | Galaxy S26/Ultra, Galaxy Z Fold 7, Galaxy Z Flip 7, Z Tri Fold, Galaxy S25 Ultra, Galaxy Tab S11 Ultra |
 | **Nothing** | 6 | Nothing Phone 3, Nothing Headphone 1, CMF Phone 2 Pro, Glyph Matrix |
 | **Nintendo** | 1 | Switch 2, Joy-Cons, Mario Kart World |
 | **Xiaomi** | 6 | Xiaomi 17 Pro Max, Xiaomi 17 Ultra, Xiaomi SU7, mini massage gun |
@@ -112,6 +114,7 @@ last_updated: 2026-02-24
 | NEO Robot | The Problem with this Humanoid Robot | [Summary](videos/j31dmodZ-5c.md) |
 | Vertu Agent Q | The Problem with this "Ultra Luxury" Smartphone | [Summary](videos/HLUamwXQ218.md) |
 | Pixel 10A | Google Pixel 10A Impressions | [Summary](videos/iCSg_ul3G2w.md) |
+| Samsung Galaxy S26/Ultra | Samsung Galaxy S26/Ultra Impressions | [Summary](videos/FRI78tq9Eik.md) |
 | Honor Power 2 | The Problem with these Smartphone Batteries | [Summary](videos/zPAY2VxfFBk.md) |
 | Tesla Robotaxi | Investigating the Tesla Robotaxi! | [Summary](videos/We2ZD0-IXPM.md) |
 | Galaxy Tab S11 Ultra | Dope Tech: STILL so good! | [Summary](videos/RvP-uVNwnXo.md) |
@@ -132,6 +135,7 @@ last_updated: 2026-02-24
 | **5G / Modems** | 2 | Apple C1X modem, mmWave |
 | **Humanoid Robots** | 2 | NEO, Boston Dynamics, teleoperation |
 | **Active Noise Cancellation** | 2 | Nothing Headphone 1, Sony XM6 |
+| **Privacy Display** | 1 | Samsung S26 Ultra hardware-level privacy screen, pixel-level control |
 | **Gaming Consoles** | 1 | Nintendo Switch 2, Joy-Con magnets, 4K60 docked |
 
 ---
@@ -175,11 +179,11 @@ last_updated: 2026-02-24
 | 3 | [Wait... Smart Glasses are Suddenly Good?](videos/7gtc1DW2Tgo.md) | 7,694,303 | 2025-09-19 |
 | 4 | [iOS 26 Hands-On: Liquid Glass!](videos/FXrcFeuYtq8.md) | 7,638,438 | 2025-07-24 |
 | 5 | [iPhone 17/Pro/Air Unboxing: 1 Hot Take!](videos/s0EbxhQYeCA.md) | 7,468,499 | 2025-09-17 |
-| 6 | [AirPods Pro 3 Review: I Understand It Now!](videos/GB0b6KFZVq0.md) | 6,679,271 | 2024-09-15 |
-| 7 | [Xiaomi 17 Pro Max: An iPhone... But Better!](videos/eou_g_cYCew.md) | 6,610,145 | 2025-10-14 |
-| 8 | [The Problem with this Humanoid Robot](videos/j31dmodZ-5c.md) | 6,344,124 | 2025-10-30 |
-| 9 | [iPhone 17 Pro Review: Paradox in a Box!](videos/q0aFOxT6TNw.md) | 6,038,560 | 2025-09-26 |
-| 10 | [iPhone Air Review: Beauty is Pain](videos/tDARtYjUiHs.md) | 5,823,353 | 2025-09-23 |
+| 6 | [WWDC 2025 Impressions: Liquid Glass!](videos/1E3tv_3D95g.md) | 7,461,780 | 2025-06-10 |
+| 7 | [AirPods Pro 3 Review: I Understand It Now!](videos/GB0b6KFZVq0.md) | 6,679,271 | 2024-09-15 |
+| 8 | [Xiaomi 17 Pro Max: An iPhone... But Better!](videos/eou_g_cYCew.md) | 6,610,145 | 2025-10-14 |
+| 9 | [The Problem with this Humanoid Robot](videos/j31dmodZ-5c.md) | 6,344,124 | 2025-10-30 |
+| 10 | [iPhone 17 Pro Review: Paradox in a Box!](videos/q0aFOxT6TNw.md) | 6,038,560 | 2025-09-26 |
 
 ---
 
@@ -214,6 +218,8 @@ First hands-on looks at newly announced products.
 | [iOS 26 Hands-On: Liquid Glass!](videos/FXrcFeuYtq8.md) | iOS 26 | 2025-07-24 |
 | [Wait... Smart Glasses are Suddenly Good?](videos/7gtc1DW2Tgo.md) | Meta Ray-Ban Display | 2025-09-19 |
 | [Google Pixel 10A Impressions: (Never) Seen This Before](videos/iCSg_ul3G2w.md) | Pixel 10A | 2026-02-18 |
+| [Samsung Galaxy S26/Ultra Impressions: 1 Crazy Display Feature!](videos/FRI78tq9Eik.md) | Samsung Galaxy S26/Ultra | 2026-02-25 |
+| [WWDC 2025 Impressions: Liquid Glass!](videos/1E3tv_3D95g.md) | WWDC 2025, iOS 26, iPadOS 26 | 2025-06-10 |
 | [Xiaomi 17 Ultra - More Camera than Phone!](videos/DqAKQwagCDg.md) | Xiaomi 17 Ultra | 2026-01-22 |
 
 ### Explainers
@@ -260,6 +266,8 @@ All video summaries are available in the `videos/` directory:
 
 | Video ID | File |
 |----------|------|
+| FRI78tq9Eik | [videos/FRI78tq9Eik.md](videos/FRI78tq9Eik.md) |
+| 1E3tv_3D95g | [videos/1E3tv_3D95g.md](videos/1E3tv_3D95g.md) |
 | iCSg_ul3G2w | [videos/iCSg_ul3G2w.md](videos/iCSg_ul3G2w.md) |
 | zPAY2VxfFBk | [videos/zPAY2VxfFBk.md](videos/zPAY2VxfFBk.md) |
 | vZdbbN3FCzE | [videos/vZdbbN3FCzE.md](videos/vZdbbN3FCzE.md) |

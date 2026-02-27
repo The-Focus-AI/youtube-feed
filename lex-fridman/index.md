@@ -2,9 +2,9 @@
 channel: Lex Fridman
 channel_handle: "@lexfridman"
 channel_id: UCSHZKyawb77ixDdsGog4iWA
-total_videos: 31
-last_updated: 2026-02-12
-date_range: "2025-03-22 to 2026-02-12"
+total_videos: 32
+last_updated: 2026-02-26
+date_range: "2025-03-22 to 2026-02-25"
 ---
 
 # Lex Fridman Podcast Archive
@@ -15,16 +15,17 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 
 | Metric | Value |
 |--------|-------|
-| Total Videos Archived | 31 |
-| Total Views | 28,121,731 |
-| Date Range | Mar 22, 2025 - Feb 12, 2026 |
-| Average Video Length | 3:32:23 |
-| Total Watch Time | 109:44:05 |
+| Total Videos Archived | 32 |
+| Total Views | 28,387,819 |
+| Date Range | Mar 22, 2025 - Feb 25, 2026 |
+| Average Video Length | 3:26:06 |
+| Total Watch Time | 110:06:14 |
 
 ## Videos by Date
 
 | Date | Episode | Title | Duration | Views |
 |------|---------|-------|----------|-------|
+| 2026-02-25 | - | [Khabib vs Lex: Training with Khabib \| FULL EXCLUSIVE FOOTAGE](videos/KGVpKPNUdzA.md) | 22:09 | 266,088 |
 | 2026-02-12 | #491 | [OpenClaw: The Viral AI Agent that Broke the Internet - Peter Steinberger](videos/YFjfBk8HI5o.md) | 3:15:52 | 115,649 |
 | 2026-01-31 | #490 | [State of AI in 2026: LLMs, Coding, Scaling Laws, China, Agents, GPUs, AGI](videos/EV7WhVT270Q.md) | 4:25:13 | 408,453 |
 | 2026-01-13 | #489 | [Paul Rosolie: Uncontacted Tribes in the Amazon Jungle](videos/Z-FRe5AKmCU.md) | 3:06:19 | 978,192 |
@@ -117,6 +118,9 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 - **[Robert Rodriguez on Filmmaking](videos/xJoT3bJyHuA.md)** - Sin City, El Mariachi, James Cameron
 - **[Oliver Anthony on Music](videos/4OyB3hFb2AA.md)** - Rich Men North of Richmond, blue-collar America
 
+### Martial Arts & MMA
+- **[Khabib vs Lex: Training with Khabib](videos/KGVpKPNUdzA.md)** - Grappling session with Khabib Nurmagomedov, UFC, wrestling pressure
+
 ### Conservation & Nature
 - **[Paul Rosolie on Amazon](videos/Z-FRe5AKmCU.md)** - Uncontacted tribes, Junglekeepers
 
@@ -163,6 +167,9 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 - **Robert Rodriguez** - Filmmaker
 - **Oliver Anthony** - Singer-songwriter
 
+### Martial Arts
+- **Khabib Nurmagomedov** - UFC champion, undefeated MMA fighter
+
 ### China Experts
 - **Keyu Jin** - LSE economist
 - **Jeffrey Wasserstrom** - China historian
@@ -192,12 +199,15 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 ### Energy
 - **Helion Energy** - Fusion power
 
+### Combat Sports
+- **UFC** - UFC Performance Institute training footage
+
 ### Conservation
 - **Junglekeepers** - Amazon protection
 
 ## Tag Cloud
 
-AI (6), Programming (6), History (5), Politics (5), China (3), Mathematics (2), Physics (2), Gaming (3), War (3), Israel (3), Ukraine (2), Russia (2), Iran (2), Fusion Energy (1), Nuclear Physics (1), Telegram (1), Privacy (1), Amazon (1), Conservation (1), Dinosaurs (1), T-Rex (1), Paleontology (1), Infinity (1), Set Theory (1), Godel (1), Black Holes (1), Gravitational Waves (1), Ancient History (1), Cuneiform (1), WW2 (2), Hitler (2), Churchill (1), Stalin (1), Genghis Khan (1), Mongol Empire (1), Ruby on Rails (1), Microsoft (1), Windows (1), Unreal Engine (1), Fortnite (1), Filmmaking (1), Sin City (1), Country Music (1), Nobel Prize (1), Fields Medal (1), DOGE (1), Trump (3), Libertarian (2)
+AI (6), Programming (6), History (5), Politics (5), China (3), Mathematics (2), Physics (2), Gaming (3), War (3), Israel (3), Ukraine (2), Russia (2), Iran (2), Fusion Energy (1), Nuclear Physics (1), Telegram (1), Privacy (1), Amazon (1), Conservation (1), Dinosaurs (1), T-Rex (1), Paleontology (1), Infinity (1), Set Theory (1), Godel (1), Black Holes (1), Gravitational Waves (1), Ancient History (1), Cuneiform (1), WW2 (2), Hitler (2), Churchill (1), Stalin (1), Genghis Khan (1), Mongol Empire (1), Ruby on Rails (1), Microsoft (1), Windows (1), Unreal Engine (1), Fortnite (1), Filmmaking (1), Sin City (1), Country Music (1), Nobel Prize (1), Fields Medal (1), DOGE (1), Trump (3), Libertarian (2), MMA (1), UFC (1), Martial Arts (1), Khabib (1), Grappling (1), Wrestling (1)
 
 ## External Links
 

@@ -12,11 +12,13 @@ The GitHub Pages site provides a markdown viewer that renders any file from this
 
 | Channel | Handle | Videos | Total Views | Focus |
 |---------|--------|--------|-------------|-------|
-| [All-In Podcast](all-in-podcast/index.md) | [@allin](https://youtube.com/@allin) | 41 | 12.8M | Tech, politics, economics, venture capital |
-| [Dwarkesh Patel](dwarkesh-patel/index.md) | [@DwarkeshPatel](https://youtube.com/@DwarkeshPatel) | 15 | 9.5M | Long-form interviews, AI, tech, history, geopolitics |
-| [Lex Fridman](lex-fridman/index.md) | [@lexfridman](https://youtube.com/@lexfridman) | 31 | 28.1M | Long-form interviews, AI, science, philosophy |
-| [MKBHD](mkbhd/index.md) | [@mkbhd](https://youtube.com/@mkbhd) | 37 | 172M | Tech reviews, smartphones, gadgets |
-| [Relentless](relentless/index.md) | [@relaboratories](https://youtube.com/@relaboratories) | 35 | 395K | Hard tech, manufacturing, aerospace, AI/robotics |
+| [Aboard Podcast](aboard-podcast/index.md) | [@AboardPodcast](https://youtube.com/@AboardPodcast) | 25 | 41K | Tech, AI, business culture, vibe coding |
+| [All-In Podcast](all-in-podcast/index.md) | [@allin](https://youtube.com/@allin) | 50 | 14.4M | Tech, politics, economics, venture capital |
+| [Dwarkesh Patel](dwarkesh-patel/index.md) | [@DwarkeshPatel](https://youtube.com/@DwarkeshPatel) | 20 | 12.3M | Long-form interviews, AI, tech, history, geopolitics |
+| [Hard Fork](hard-fork/index.md) | [@hardfork](https://youtube.com/@hardfork) | 19 | 565K | NYT tech podcast, AI news, culture |
+| [Lex Fridman](lex-fridman/index.md) | [@lexfridman](https://youtube.com/@lexfridman) | 32 | 28.4M | Long-form interviews, AI, science, philosophy |
+| [MKBHD](mkbhd/index.md) | [@mkbhd](https://youtube.com/@mkbhd) | 39 | 182.7M | Tech reviews, smartphones, gadgets |
+| [Relentless](relentless/index.md) | [@relaboratories](https://youtube.com/@relaboratories) | 40 | 410K | Hard tech, manufacturing, aerospace, AI/robotics |
 | [The Iron Snail](the-iron-snail/index.md) | [@TheIronSnail](https://youtube.com/@TheIronSnail) | 32 | 14.6M | Fashion, clothing, heritage brands |
 | [Turing Post](turing-post/index.md) | [@RealTuringPost](https://youtube.com/@RealTuringPost) | 66 | 101K | AI/ML deep dives, industry interviews |
 

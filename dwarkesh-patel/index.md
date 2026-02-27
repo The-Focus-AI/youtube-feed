@@ -1,8 +1,8 @@
 ---
 channel: Dwarkesh Patel
 channel_handle: "@DwarkeshPatel"
-total_videos: 9
-last_updated: 2026-02-24
+total_videos: 20
+last_updated: 2026-02-26
 ---
 
 # Dwarkesh Patel Channel Index
@@ -11,10 +11,10 @@ last_updated: 2026-02-24
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 9 |
-| Total Views | 5,808,021 |
-| Date Range | 2025-08-21 to 2026-02-05 |
-| Average Video Length | 1:35:25 |
+| Total Videos | 20 |
+| Total Views | 8,275,486 |
+| Date Range | 2025-07-10 to 2026-02-05 |
+| Average Video Length | 1:21:33 |
 
 ## Videos by Date
 
@@ -29,18 +29,24 @@ last_updated: 2026-02-24
 | [Fully autonomous robots are much closer than you think -- Sergey Levine](videos/48pxVdmkMIE.md) | 1:28:28 | 222,696 |
 | [Sarah Paine -- How Hitler almost starved Britain](videos/SdMgOXfSBQw.md) | 1:36:07 | 1,192,629 |
 | [Evolution designed us to die fast; we can change that -- Jacob Kimmel](videos/XCLODgdCmKA.md) | 1:45:20 | 76,280 |
+| [China is killing the US on energy. Does that mean they'll win AGI? -- Casey Handmer](videos/3cDHx2_QbPE.md) | 68:22 | 91,774 |
+| [Artificial meat is harder than artificial intelligence -- Lewis Bollard](videos/kWcPg8t1kJ4.md) | 68:05 | 52,995 |
+| [Why I don't think AGI is right around the corner](videos/nyvmYnz6EAg.md) | 17:14 | 188,380 |
+| [Sarah Paine -- How Imperial Japan defeated Tsarist Russia & Qing China](videos/KxIeJjEGLdo.md) | 116:22 | 1,359,745 |
+| [Stephen Kotkin -- How Stalin became the most powerful dictator in history](videos/YMfd3EoHfPI.md) | 133:35 | 774,571 |
 
 ## Most Viewed Videos
 
 1. **[Sarah Paine -- How Russia sabotaged China's rise](videos/RH_ycZYH8-s.md)** - 1,483,830 views
-2. **[Sarah Paine -- How Hitler almost starved Britain](videos/SdMgOXfSBQw.md)** - 1,192,629 views
-3. **[Andrej Karpathy -- "We're summoning ghosts, not building animals"](videos/lXUZvyajciY.md)** - 1,183,515 views
-4. **[Elon Musk -- "In 36 months, the cheapest place to put AI will be space"](videos/BYXbuik3dgA.md)** - 740,610 views
-5. **[Richard Sutton -- Father of RL thinks LLMs are a dead end](videos/21EYKqUsPfg.md)** - 669,128 views
-6. **[Fully autonomous robots are much closer than you think -- Sergey Levine](videos/48pxVdmkMIE.md)** - 222,696 views
-7. **["I find it almost disturbing that the universe favors life this strongly" -- Nick Lane](videos/0GMWxuYuxJI.md)** - 133,671 views
-8. **[Some thoughts on the Sutton interview](videos/u3HBJVjpXuw.md)** - 105,662 views
-9. **[Evolution designed us to die fast; we can change that -- Jacob Kimmel](videos/XCLODgdCmKA.md)** - 76,280 views
+2. **[Sarah Paine -- How Imperial Japan defeated Tsarist Russia & Qing China](videos/KxIeJjEGLdo.md)** - 1,359,745 views
+3. **[Sarah Paine -- How Hitler almost starved Britain](videos/SdMgOXfSBQw.md)** - 1,192,629 views
+4. **[Andrej Karpathy -- "We're summoning ghosts, not building animals"](videos/lXUZvyajciY.md)** - 1,183,515 views
+5. **[Stephen Kotkin -- How Stalin became the most powerful dictator in history](videos/YMfd3EoHfPI.md)** - 774,571 views
+6. **[Elon Musk -- "In 36 months, the cheapest place to put AI will be space"](videos/BYXbuik3dgA.md)** - 740,610 views
+7. **[Richard Sutton -- Father of RL thinks LLMs are a dead end](videos/21EYKqUsPfg.md)** - 669,128 views
+8. **[Fully autonomous robots are much closer than you think -- Sergey Levine](videos/48pxVdmkMIE.md)** - 222,696 views
+9. **[Why I don't think AGI is right around the corner](videos/nyvmYnz6EAg.md)** - 188,380 views
+10. **["I find it almost disturbing that the universe favors life this strongly" -- Nick Lane](videos/0GMWxuYuxJI.md)** - 133,671 views
 
 ## Topics Index
 
@@ -65,6 +71,8 @@ last_updated: 2026-02-24
 | NewLimit | 1 | Epigenetic reprogramming to reverse aging using transcription factors |
 | Roche | 1 | Pharma R&D led by Aviv Regev, Perturb-seq inventor |
 | Eli Lilly | 1 | Incretin mimetics (GLP-1 drugs), direct-to-consumer pharma |
+| Terraform Industries | 2 | Solar-powered synthetic fuel, energy for AI data centers |
+| Open Philanthropy | 1 | Farmed animal welfare strategy, effective altruism |
 
 ### Products & Technologies
 
@@ -115,6 +123,16 @@ last_updated: 2026-02-24
 - **Single-cell RNA Sequencing** - [Jacob Kimmel interview](videos/XCLODgdCmKA.md)
 - **Eroom's Law** - [Jacob Kimmel interview](videos/XCLODgdCmKA.md)
 - **Gene Duplication** - [Jacob Kimmel interview](videos/XCLODgdCmKA.md)
+- **Solar Energy / Wright's Law** - [Casey Handmer interview](videos/3cDHx2_QbPE.md)
+- **Off-Grid Data Centers** - [Casey Handmer interview](videos/3cDHx2_QbPE.md)
+- **Cultivated Meat** - [Lewis Bollard interview](videos/kWcPg8t1kJ4.md)
+- **Factory Farming Economics** - [Lewis Bollard interview](videos/kWcPg8t1kJ4.md)
+- **AGI Timelines** - [Why I don't think AGI is right around the corner](videos/nyvmYnz6EAg.md)
+- **Meiji Restoration** - [Sarah Paine lecture](videos/KxIeJjEGLdo.md)
+- **Russo-Japanese War** - [Sarah Paine lecture](videos/KxIeJjEGLdo.md)
+- **Grand Strategy (DIME)** - [Sarah Paine lecture](videos/KxIeJjEGLdo.md)
+- **Collectivization / Soviet Terror** - [Stephen Kotkin interview](videos/YMfd3EoHfPI.md)
+- **Modernization Dilemma** - [Stephen Kotkin interview](videos/YMfd3EoHfPI.md)
 
 ## Tag Cloud
 - AI (5)
@@ -217,12 +235,33 @@ last_updated: 2026-02-24
 - CAR-T (1)
 - pharma (1)
 - delivery-mechanisms (1)
+- solar-energy (1)
+- data-centers (1)
+- Wrights-Law (1)
+- climate-tech (1)
+- cultivated-meat (1)
+- animal-welfare (1)
+- factory-farming (1)
+- effective-altruism (1)
+- AGI-timelines (1)
+- computer-use (1)
+- Japan (1)
+- Meiji (1)
+- Russo-Japanese-War (1)
+- grand-strategy (1)
+- Kotkin (1)
+- collectivization (1)
+- Deng-Xiaoping (1)
+- Xi-Jinping (1)
+- Soviet-Union (1)
 
 ## Video Categories
-- **Interviews** - [Elon Musk interview](videos/BYXbuik3dgA.md), [Sarah Paine lecture](videos/RH_ycZYH8-s.md), [Andrej Karpathy interview](videos/lXUZvyajciY.md), [Nick Lane interview](videos/0GMWxuYuxJI.md), [Richard Sutton interview](videos/21EYKqUsPfg.md), [Sergey Levine interview](videos/48pxVdmkMIE.md), [Sarah Paine WWII lecture](videos/SdMgOXfSBQw.md), [Jacob Kimmel interview](videos/XCLODgdCmKA.md)
-- **Commentary/Reflections** - [Some thoughts on the Sutton interview](videos/u3HBJVjpXuw.md)
-- **Geopolitics/History** - [Sarah Paine lecture](videos/RH_ycZYH8-s.md), [Sarah Paine WWII lecture](videos/SdMgOXfSBQw.md)
-- **AI/Machine Learning** - [Karpathy interview](videos/lXUZvyajciY.md), [Sutton interview](videos/21EYKqUsPfg.md), [Levine interview](videos/48pxVdmkMIE.md), [Elon Musk interview](videos/BYXbuik3dgA.md)
+- **Interviews** - [Elon Musk interview](videos/BYXbuik3dgA.md), [Sarah Paine lecture](videos/RH_ycZYH8-s.md), [Andrej Karpathy interview](videos/lXUZvyajciY.md), [Nick Lane interview](videos/0GMWxuYuxJI.md), [Richard Sutton interview](videos/21EYKqUsPfg.md), [Sergey Levine interview](videos/48pxVdmkMIE.md), [Sarah Paine WWII lecture](videos/SdMgOXfSBQw.md), [Jacob Kimmel interview](videos/XCLODgdCmKA.md), [Casey Handmer interview](videos/3cDHx2_QbPE.md), [Lewis Bollard interview](videos/kWcPg8t1kJ4.md), [Sarah Paine Japan lecture](videos/KxIeJjEGLdo.md), [Stephen Kotkin interview](videos/YMfd3EoHfPI.md)
+- **Commentary/Reflections** - [Some thoughts on the Sutton interview](videos/u3HBJVjpXuw.md), [Why I don't think AGI is right around the corner](videos/nyvmYnz6EAg.md)
+- **Geopolitics/History** - [Sarah Paine lecture](videos/RH_ycZYH8-s.md), [Sarah Paine WWII lecture](videos/SdMgOXfSBQw.md), [Sarah Paine Japan lecture](videos/KxIeJjEGLdo.md), [Stephen Kotkin interview](videos/YMfd3EoHfPI.md)
+- **AI/Machine Learning** - [Karpathy interview](videos/lXUZvyajciY.md), [Sutton interview](videos/21EYKqUsPfg.md), [Levine interview](videos/48pxVdmkMIE.md), [Elon Musk interview](videos/BYXbuik3dgA.md), [Why I don't think AGI is right around the corner](videos/nyvmYnz6EAg.md)
+- **Energy/Climate** - [Casey Handmer interview](videos/3cDHx2_QbPE.md)
 - **Science/Biology** - [Nick Lane interview](videos/0GMWxuYuxJI.md), [Jacob Kimmel interview](videos/XCLODgdCmKA.md)
-- **Military History/Strategy** - [Sarah Paine WWII lecture](videos/SdMgOXfSBQw.md)
+- **Ethics/Animal Welfare** - [Lewis Bollard interview](videos/kWcPg8t1kJ4.md)
+- **Military History/Strategy** - [Sarah Paine WWII lecture](videos/SdMgOXfSBQw.md), [Sarah Paine Japan lecture](videos/KxIeJjEGLdo.md)
 - **Longevity/Aging** - [Jacob Kimmel interview](videos/XCLODgdCmKA.md)

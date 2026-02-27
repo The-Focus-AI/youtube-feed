@@ -2,8 +2,8 @@
 channel: Relentless
 channel_handle: "@relaboratories"
 channel_id: UCxYhf1bmbsXLU1ClPNS2P6g
-total_videos: 35
-last_updated: 2026-02-03
+total_videos: 40
+last_updated: 2026-02-26
 ---
 
 # Relentless Channel Index
@@ -12,8 +12,8 @@ last_updated: 2026-02-03
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 35 |
-| Total Views | 394,529 |
+| Total Videos | 40 |
+| Total Views | 409,183 |
 | Most Viewed | The Manufacturing Startup That's Outcompeting China (151,628) |
 | Average Video Length | ~72 min |
 
@@ -21,6 +21,10 @@ last_updated: 2026-02-03
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [Why the Co-Founder of Robinhood is working on Space Datacenters \| Baiju Bhatt, Aetherflux](videos/a7B2rgAOUkc.md) | 85:45 | 1,055 |
+| [The Quest to Cure Alzheimer's \| Sacha Schermerhorn, Babylon Bio](videos/MPVxXuyR5PU.md) | 83:55 | 1,529 |
+| [How micro1 grew from $4M to $200M revenue in a year \| Ali Ansari](videos/5KNQeZ_95O0.md) | 96:53 | 4,818 |
+| [The Future of Metal Manufacturing \| Machina Labs](videos/JQpwOkDUHvg.md) | 80:56 | 5,373 |
 | [#45 - What Happens If A Million Drones Attack Tomorrow \| Michael LaFramboise, CEO Aurelius](videos/4ZQ0RLvcHTA.md) | 100:40 | 4,627 |
 | [#44 - WTF is happening in El Segundo?!](videos/eZ1kHP_TRF0.md) | 79:20 | 18,723 |
 | [#43 - SpaceX, Starship, Building A Gas Station On Mars \| Halen Mattison, CEO General Galactic](videos/AYOmMaBaQ3I.md) | 68:04 | 10,455 |
@@ -56,6 +60,7 @@ last_updated: 2026-02-03
 | [#48 - Police Chases, Ride Alongs, Bureaucracy \| Daniel Francis, Abel Police](videos/54omz-gznaQ.md) | 80:36 | 1,005 |
 | [#47 - Building a MASSIVE Mach 25 Space Gun \| Mike Grace, Longshot](videos/QgylXuow4Qo.md) | 68:11 | 5,721 |
 | [#46 - Ending The Genetic Lottery \| Noor Siddiqui, Orchid](videos/vnBVlT4eBis.md) | 58:28 | 743 |
+| [#41 - Building The First Biotech Prime \| Jake Adler, CEO Pilgrim](videos/Vxj41-p8xyo.md) | 1:57:18 | 1,879 |
 
 ## Most Viewed Videos
 
@@ -109,14 +114,21 @@ last_updated: 2026-02-03
 | Longshot | Mach 25 Space Gun | Space |
 | Orchid | Ending The Genetic Lottery | Biotech |
 | Matic Robotics | My Conversation with Mehul Nariyawala | Robotics |
+| Aetherflux | Why the Co-Founder of Robinhood is working on Space Datacenters | Space/Energy |
+| Robinhood | Why the Co-Founder of Robinhood is working on Space Datacenters | Fintech |
+| Babylon Bio | The Quest to Cure Alzheimer's | Biotech |
+| micro1 | How micro1 grew from $4M to $200M revenue in a year | AI Data |
+| Machina Labs | The Future of Metal Manufacturing | Manufacturing |
+| Toyota | The Future of Metal Manufacturing | Automotive |
+| Pilgrim | Building The First Biotech Prime | Biodefense |
 
 ### Key Themes
 
-- **Manufacturing & China Competition** - SendCutSend, Flow, Formlabs, Hardtech Roundtable, El Segundo Roundtable
-- **Aerospace & Space** - Astro Mechanica, Inversion, Starpath, Longshot, Poseidon, General Galactic
-- **AI & Robotics** - xAI, Hugging Face, 1X
-- **Defense Tech** - Castelion (hypersonic missiles), Aurelius (counter-drone lasers)
-- **Biotech & Health** - General Control, Orchid, Moldco
+- **Manufacturing & China Competition** - SendCutSend, Flow, Formlabs, Machina Labs, Hardtech Roundtable, El Segundo Roundtable
+- **Aerospace & Space** - Astro Mechanica, Inversion, Starpath, Longshot, Poseidon, General Galactic, Aetherflux
+- **AI & Robotics** - xAI, Hugging Face, 1X, micro1
+- **Defense Tech** - Castelion (hypersonic missiles), Aurelius (counter-drone lasers), Pilgrim (biodefense)
+- **Biotech & Health** - General Control, Orchid, Moldco, Babylon Bio (Alzheimer's)
 - **Energy & Climate** - Base Power, Terranova, Terraform Industries
 - **Transportation** - Zipline (drones), Arc (boats), Onewheel
 
@@ -135,6 +147,11 @@ last_updated: 2026-02-03
 - **Jim Belosic** - SendCutSend CEO
 - **Bernt Børnich** - 1X CEO
 - **Mehul Nariyawala** - Matic Robotics Co-Founder
+- **Baiju Bhatt** - Aetherflux CEO, Robinhood co-founder
+- **Sacha Schermerhorn** - Babylon Bio CEO
+- **Ali Ansari** - micro1 CEO
+- **Ed Mehr** - Machina Labs CEO
+- **Jake Adler** - Pilgrim CEO
 - **Elon Musk** - Referenced in multiple videos
 
 ## Video Categories
@@ -147,6 +164,11 @@ last_updated: 2026-02-03
 - Building Unmanned Cargo Planes
 - The Tesla of Boats
 - The Creator of Onewheel
+
+### Founder Interviews (continued)
+- Why the Co-Founder of Robinhood is working on Space Datacenters (Aetherflux)
+- How micro1 grew from $4M to $200M revenue in a year
+- The Future of Metal Manufacturing (Machina Labs)
 
 ### Deep Tech / Hard Tech
 - Bringing Back Supersonic Planes
@@ -172,3 +194,5 @@ last_updated: 2026-02-03
 - Curing Age-Related Diseases w Epigenetic Medicines
 - Ending The Genetic Lottery
 - Mold Toxicity & How To Treat It
+- The Quest to Cure Alzheimer's (Babylon Bio)
+- Building The First Biotech Prime (Pilgrim)
