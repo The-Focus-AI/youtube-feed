@@ -2,9 +2,9 @@
 channel: Lex Fridman
 channel_handle: "@lexfridman"
 channel_id: UCSHZKyawb77ixDdsGog4iWA
-total_videos: 32
-last_updated: 2026-02-26
-date_range: "2025-03-22 to 2026-02-25"
+total_videos: 33
+last_updated: 2026-03-02
+date_range: "2025-03-22 to 2026-03-01"
 ---
 
 # Lex Fridman Podcast Archive
@@ -15,16 +15,17 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 
 | Metric | Value |
 |--------|-------|
-| Total Videos Archived | 32 |
-| Total Views | 28,387,819 |
-| Date Range | Mar 22, 2025 - Feb 25, 2026 |
-| Average Video Length | 3:26:06 |
-| Total Watch Time | 110:06:14 |
+| Total Videos Archived | 33 |
+| Total Views | 28,557,899 |
+| Date Range | Mar 22, 2025 - Mar 1, 2026 |
+| Average Video Length | 3:24:33 |
+| Total Watch Time | 112:40:01 |
 
 ## Videos by Date
 
 | Date | Episode | Title | Duration | Views |
 |------|---------|-------|----------|-------|
+| 2026-03-01 | #492 | [Rick Beato: Greatest Guitarists of All Time, History & Future of Music](videos/1SJiTwbSI58.md) | 2:33:47 | 170,080 |
 | 2026-02-25 | - | [Khabib vs Lex: Training with Khabib \| FULL EXCLUSIVE FOOTAGE](videos/KGVpKPNUdzA.md) | 22:09 | 266,088 |
 | 2026-02-12 | #491 | [OpenClaw: The Viral AI Agent that Broke the Internet - Peter Steinberger](videos/YFjfBk8HI5o.md) | 3:15:52 | 115,649 |
 | 2026-01-31 | #490 | [State of AI in 2026: LLMs, Coding, Scaling Laws, China, Agents, GPUs, AGI](videos/EV7WhVT270Q.md) | 4:25:13 | 408,453 |

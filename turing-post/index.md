@@ -1,8 +1,8 @@
 ---
 channel: Turing Post
 channel_handle: "@RealTuringPost"
-total_videos: 66
-last_updated: 2026-02-24
+total_videos: 67
+last_updated: 2026-03-02
 ---
 
 # Turing Post Channel Index
@@ -11,15 +11,16 @@ last_updated: 2026-02-24
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 66 |
-| Total Views | 100,838 |
-| Date Range | 2025-08-18 to 2026-02-24 |
-| Average Video Length | 16:11 |
+| Total Videos | 67 |
+| Total Views | 101,097 |
+| Date Range | 2025-08-18 to 2026-02-28 |
+| Average Video Length | 16:05 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
+| 2026-02-28 | [Why Reflection AI Bets Their Business on Open Weights \| Ioannis Antonoglou, co-founder and CTO](videos/y2Nw5JzownM.md) | 10:12 | 259 | [Watch](https://www.youtube.com/watch?v=y2Nw5JzownM) |
 | 2026-02-24 | [This chip runs a "baked" Llama so fast it looks like a glitch (Taalas HC1)](videos/ibbB5CsDwxQ.md) | 12:51 | 16 | [Watch](https://www.youtube.com/watch?v=ibbB5CsDwxQ) |
 | 2026-02-16 | [Dario Amodei and Dwarkesh Patel – Exponential Scaling vs. Real World Friction](videos/bjNQoo73gK4.md) | 9:30 | 1,412 | [Watch](https://www.youtube.com/watch?v=bjNQoo73gK4) |
 | 2026-02-09 | [When AI Agents Start Hiring Humans: The Meatspace Layer Explained](videos/3c9A4gBnCEg.md) | 13:13 | 429 | [Watch](https://www.youtube.com/watch?v=3c9A4gBnCEg) |

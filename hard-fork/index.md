@@ -1,8 +1,8 @@
 ---
 channel: Hard Fork
 channel_handle: "@hardfork"
-total_videos: 19
-last_updated: 2026-02-26
+total_videos: 21
+last_updated: 2026-03-02
 ---
 
 # Hard Fork Channel Index
@@ -13,15 +13,17 @@ Hard Fork is a New York Times podcast hosted by **Kevin Roose** and **Casey Newt
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 19 |
-| Total Views | 574,847 |
-| Date Range | 2025-11-14 to 2026-02-23 |
-| Average Video Length | 48:54 |
+| Total Videos | 21 |
+| Total Views | 602,976 |
+| Date Range | 2025-11-14 to 2026-03-01 |
+| Average Video Length | 48:17 |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [OpenAI Vs. Anthropic: How the Pentagon Picked Its Partner](videos/Zj35mEtwUvY.md) | 30:45 | 15,329 |
+| [Ask the Economist: Is A.I. Really Coming for Your Job?](videos/f3vXSQHNMl8.md) | 58:56 | 12,800 |
 | [Revenge of the A.I. Bot: 'I'm Just the First Person This Has Happened to'](videos/3n_jKx6v6qU.md) | 23:00 | 10,592 |
 | [Six Bizarre Tech Stories You Might Have Missed](videos/Xoi0_sPssNY.md) | 13:06 | 6,072 |
 | [Anthropic Said No to Autonomous Weapons. The U.S. Is Fighting Back.](videos/QhQp_z16I_A.md) | 24:42 | 11,554 |
@@ -54,6 +56,7 @@ Hard Fork is a New York Times podcast hosted by **Kevin Roose** and **Casey Newt
 8. **[SpaceX Buys xAI: What's Behind Elon's Mega-Merger?](videos/I9vRCYtzYD8.md)** - 18,024 views
 9. **[Grok's Deepfake Disaster: Can Anyone Stop Musk's A.I. Chatbot? \| EP 173](videos/hchsgcuDBfs.md)** - 17,459 views
 10. **[We Have to Talk About Moltbook ...](videos/uARkJmhk9kE.md)** - 15,651 views
+11. **[OpenAI Vs. Anthropic: How the Pentagon Picked Its Partner](videos/Zj35mEtwUvY.md)** - 15,329 views
 
 ## Topics Index
 
@@ -61,9 +64,9 @@ Hard Fork is a New York Times podcast hosted by **Kevin Roose** and **Casey Newt
 
 | Company / Model | Videos | Context |
 |----------------|--------|---------|
-| Anthropic / Claude | 3 | [Can You Teach Claude to be 'Good'?](videos/HDfr8PvfoOw.md), [Why We're Crazy About Claude Code](videos/ji_xpQzZDHo.md), [Anthropic Said No to Autonomous Weapons](videos/QhQp_z16I_A.md) |
+| Anthropic / Claude | 5 | [Can You Teach Claude to be 'Good'?](videos/HDfr8PvfoOw.md), [Why We're Crazy About Claude Code](videos/ji_xpQzZDHo.md), [Anthropic Said No to Autonomous Weapons](videos/QhQp_z16I_A.md), [OpenAI Vs. Anthropic: How the Pentagon Picked Its Partner](videos/Zj35mEtwUvY.md), [Ask the Economist: Is A.I. Really Coming for Your Job?](videos/f3vXSQHNMl8.md) |
 | Google / Gemini | 2 | [Demis Hassabis & Josh Woodward on Gemini 3.0](videos/rq-2i1blAlU.md), [Why Google Wants to Put Data Centers in Space](videos/UBe4_V04Okg.md) |
-| OpenAI | 1 | [Why OpenAI Is Spooked](videos/vbFXpD7Ozf0.md) |
+| OpenAI | 2 | [Why OpenAI Is Spooked](videos/vbFXpD7Ozf0.md), [OpenAI Vs. Anthropic: How the Pentagon Picked Its Partner](videos/Zj35mEtwUvY.md) |
 | xAI / Grok | 2 | [SpaceX Buys xAI](videos/I9vRCYtzYD8.md), [Grok's Deepfake Disaster](videos/hchsgcuDBfs.md) |
 
 ### AI Ethics & Safety
@@ -71,7 +74,7 @@ Hard Fork is a New York Times podcast hosted by **Kevin Roose** and **Casey Newt
 | Topic | Videos |
 |-------|--------|
 | AI Alignment & Values | [Can You Teach Claude to be 'Good'?](videos/HDfr8PvfoOw.md) |
-| Autonomous Weapons | [Anthropic Said No to Autonomous Weapons](videos/QhQp_z16I_A.md) |
+| Autonomous Weapons | [Anthropic Said No to Autonomous Weapons](videos/QhQp_z16I_A.md), [OpenAI Vs. Anthropic: How the Pentagon Picked Its Partner](videos/Zj35mEtwUvY.md), [Ask the Economist: Is A.I. Really Coming for Your Job?](videos/f3vXSQHNMl8.md) |
 | Deepfakes | [Grok's Deepfake Disaster](videos/hchsgcuDBfs.md), [How to Optimize Your Life in 2026](videos/XAYc9NTJ-Mo.md) |
 | Child Safety | [We Asked Roblox's C.E.O. About Child Safety](videos/XpIXRgMlPo4.md) |
 
@@ -80,7 +83,7 @@ Hard Fork is a New York Times podcast hosted by **Kevin Roose** and **Casey Newt
 | Topic | Videos |
 |-------|--------|
 | AI Assistants | [An A.I. Assistant That's Too Good to Be True?](videos/5dTmsGBHKTM.md) |
-| AI Bots Gone Wrong | [Revenge of the A.I. Bot](videos/3n_jKx6v6qU.md) |
+| AI Bots Gone Wrong | [Revenge of the A.I. Bot](videos/3n_jKx6v6qU.md), [Ask the Economist (OpenClaw update)](videos/f3vXSQHNMl8.md) |
 | AI Scientists | [A.I. Scientists Are Here. But Is Progress Accelerating?](videos/Dn4OWufAggk.md) |
 | AI Coding Tools | [Why We're Crazy About Claude Code](videos/ji_xpQzZDHo.md) |
 
@@ -115,6 +118,7 @@ Hard Fork is a New York Times podcast hosted by **Kevin Roose** and **Casey Newt
 
 | Guest | Role | Episode |
 |-------|------|---------|
+| Anton Korinek | Economist, University of Virginia | [Ask the Economist: Is A.I. Really Coming for Your Job?](videos/f3vXSQHNMl8.md) |
 | Amanda Askell | Philosopher, Anthropic | [Can You Teach Claude to be 'Good'?](videos/HDfr8PvfoOw.md) |
 | Demis Hassabis | CEO, Google DeepMind | [Demis Hassabis & Josh Woodward on Gemini 3.0](videos/rq-2i1blAlU.md) |
 | Josh Woodward | VP Product, Google DeepMind | [Demis Hassabis & Josh Woodward on Gemini 3.0](videos/rq-2i1blAlU.md) |
@@ -124,13 +128,13 @@ Hard Fork is a New York Times podcast hosted by **Kevin Roose** and **Casey Newt
 ## Video Categories
 
 - **Deep Dives & Analysis** - [Should You Be Afraid of the SaaSpocalypse?](videos/_1KQRPtgiM0.md), [SpaceX Buys xAI](videos/I9vRCYtzYD8.md), [An A.I. Assistant That's Too Good to Be True?](videos/5dTmsGBHKTM.md), [A.I. Scientists Are Here](videos/Dn4OWufAggk.md), [Why OpenAI Is Spooked](videos/vbFXpD7Ozf0.md)
-- **Interviews** - [Can You Teach Claude to be 'Good'?](videos/HDfr8PvfoOw.md), [Demis Hassabis & Josh Woodward on Gemini 3.0](videos/rq-2i1blAlU.md), [Jonathan Haidt Brings New Evidence](videos/tZSteN2g5yM.md), [We Asked Roblox's C.E.O. About Child Safety](videos/XpIXRgMlPo4.md)
+- **Interviews** - [Can You Teach Claude to be 'Good'?](videos/HDfr8PvfoOw.md), [Demis Hassabis & Josh Woodward on Gemini 3.0](videos/rq-2i1blAlU.md), [Jonathan Haidt Brings New Evidence](videos/tZSteN2g5yM.md), [We Asked Roblox's C.E.O. About Child Safety](videos/XpIXRgMlPo4.md), [Ask the Economist: Is A.I. Really Coming for Your Job?](videos/f3vXSQHNMl8.md)
 - **Product Reviews & Hands-On** - [Why We're Crazy About Claude Code](videos/ji_xpQzZDHo.md), [We Have to Talk About Moltbook ...](videos/uARkJmhk9kE.md)
-- **Explainers** - [Grok's Deepfake Disaster](videos/hchsgcuDBfs.md), [Anthropic Said No to Autonomous Weapons](videos/QhQp_z16I_A.md), [Revenge of the A.I. Bot](videos/3n_jKx6v6qU.md)
+- **Explainers** - [Grok's Deepfake Disaster](videos/hchsgcuDBfs.md), [Anthropic Said No to Autonomous Weapons](videos/QhQp_z16I_A.md), [Revenge of the A.I. Bot](videos/3n_jKx6v6qU.md), [OpenAI Vs. Anthropic: How the Pentagon Picked Its Partner](videos/Zj35mEtwUvY.md)
 - **Year-End / Predictions** - [The 50 Most Iconic Technologies of 2025](videos/kZ5Jq2Is888.md), [iRobot's Bankruptcy + 2026 Predictions!](videos/kQNTk9T-Mrg.md), [How to Optimize Your Life in 2026](videos/XAYc9NTJ-Mo.md)
 - **Short Features** - [Six Bizarre Tech Stories You Might Have Missed](videos/Xoi0_sPssNY.md)
 - **Business & Mergers** - [SpaceX Buys xAI](videos/I9vRCYtzYD8.md), [Why Google Wants to Put Data Centers in Space](videos/UBe4_V04Okg.md)
 
 ## Tag Cloud
 
-AI (14) | Anthropic (3) | Google (2) | OpenAI (1) | xAI (2) | Grok (1) | Claude (2) | Gemini (1) | deepfakes (2) | ethics (2) | safety (2) | autonomous weapons (1) | child safety (1) | social media (1) | SaaS (1) | robotics (1) | iRobot (1) | Roblox (1) | SpaceX (1) | Elon Musk (2) | coding tools (1) | AI agents (2) | AI assistants (1) | productivity (1) | predictions (1) | tech retrospective (1) | interviews (4) | space (1) | data centers (1) | AI models (2) | Moltbook (1)
+AI (16) | Anthropic (5) | Google (2) | OpenAI (3) | xAI (2) | Grok (1) | Claude (4) | Gemini (1) | deepfakes (2) | ethics (2) | safety (3) | autonomous weapons (3) | child safety (1) | social media (1) | SaaS (1) | robotics (1) | iRobot (1) | Roblox (1) | SpaceX (1) | Elon Musk (2) | coding tools (1) | AI agents (3) | AI assistants (1) | productivity (1) | predictions (1) | tech retrospective (1) | interviews (5) | space (1) | data centers (1) | AI models (2) | Moltbook (1) | Pentagon (3) | AI economy (1) | job market (1) | Sam Altman (1) | Pete Hegseth (2) | Dario Amodei (2) | OpenClaw (1) | Alpha School (1) | surveillance (2) | supply chain risk (1)

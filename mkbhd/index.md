@@ -1,8 +1,8 @@
 ---
 channel: MKBHD
 channel_handle: "@mkbhd"
-total_videos: 39
-last_updated: 2026-02-26
+total_videos: 40
+last_updated: 2026-03-02
 ---
 
 # MKBHD Channel Index
@@ -11,10 +11,10 @@ last_updated: 2026-02-26
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 39 |
-| Total Views | 182,651,785 |
-| Date Range | June 10, 2025 - February 25, 2026 |
-| Average Video Length | 13:35 |
+| Total Videos | 40 |
+| Total Views | 184,078,227 |
+| Date Range | June 10, 2025 - February 28, 2026 |
+| Average Video Length | 13:30 |
 
 ---
 
@@ -22,6 +22,7 @@ last_updated: 2026-02-26
 
 | Date | Title | Duration | Views |
 |------|-------|----------|-------|
+| 2026-02-28 | [Samsung Galaxy Buds 4 Pro Review: Better than AirPods!](videos/wRaDbRjVrc4.md) | 8:51 | 1,426,442 |
 | 2026-02-25 | [Samsung Galaxy S26/Ultra Impressions: 1 Crazy Display Feature!](videos/FRI78tq9Eik.md) | 9:10 | 3,163,244 |
 | 2026-02-18 | [Google Pixel 10A Impressions: (Never) Seen This Before](videos/iCSg_ul3G2w.md) | 8:31 | 2,868,476 |
 | 2026-02-06 | [The Problem with these Smartphone Batteries](videos/zPAY2VxfFBk.md) | 8:32 | 2,051,102 |

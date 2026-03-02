@@ -1,8 +1,8 @@
 ---
 channel: The Iron Snail
 channel_handle: "@TheIronSnail"
-total_videos: 32
-last_updated: 2026-02-03
+total_videos: 33
+last_updated: 2026-03-02
 ---
 
 # The Iron Snail Channel Index
@@ -11,15 +11,16 @@ last_updated: 2026-02-03
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 32 |
-| Total Views | 14,591,560 |
-| Date Range | 2023-12-22 to 2026-02-02 |
-| Average Video Length | 15:52 |
+| Total Videos | 33 |
+| Total Views | 14,833,187 |
+| Date Range | 2023-12-22 to 2026-02-27 |
+| Average Video Length | 15:48 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
+| 2026-02-27 | [Why People in The Coldest Places Wear Yellow Mittens.](videos/uI9IVadeONc.md) | 11:34 | 241,627 | [Watch](https://www.youtube.com/watch?v=uI9IVadeONc) |
 | 2026-02-02 | [The 125-Year-Old Wool Jacket Brands Still Can't Beat.](videos/XPIVM9e_lGU.md) | 13:51 | 63,264 | [Watch](https://www.youtube.com/watch?v=XPIVM9e_lGU) |
 | 2026-01-11 | [The Internet's Favorite Down Jackets, Ranked.](videos/rHdMviAhDtE.md) | 19:26 | 654,605 | [Watch](https://www.youtube.com/watch?v=rHdMviAhDtE) |
 | 2025-12-13 | [Why The Greatest Field Jacket Ever Made Is Also The Cheapest.](videos/5fZ1KbN9O7s.md) | 13:56 | 939,993 | [Watch](https://www.youtube.com/watch?v=5fZ1KbN9O7s) |

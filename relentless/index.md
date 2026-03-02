@@ -2,8 +2,8 @@
 channel: Relentless
 channel_handle: "@relaboratories"
 channel_id: UCxYhf1bmbsXLU1ClPNS2P6g
-total_videos: 40
-last_updated: 2026-02-26
+total_videos: 41
+last_updated: 2026-03-02
 ---
 
 # Relentless Channel Index
@@ -12,8 +12,8 @@ last_updated: 2026-02-26
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 40 |
-| Total Views | 409,183 |
+| Total Videos | 41 |
+| Total Views | 415,219 |
 | Most Viewed | The Manufacturing Startup That's Outcompeting China (151,628) |
 | Average Video Length | ~72 min |
 
@@ -21,6 +21,7 @@ last_updated: 2026-02-26
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [The US vs. China Manufacturing Debate](videos/TRcvUUMaBcA.md) | 76:56 | 6,036 |
 | [Why the Co-Founder of Robinhood is working on Space Datacenters \| Baiju Bhatt, Aetherflux](videos/a7B2rgAOUkc.md) | 85:45 | 1,055 |
 | [The Quest to Cure Alzheimer's \| Sacha Schermerhorn, Babylon Bio](videos/MPVxXuyR5PU.md) | 83:55 | 1,529 |
 | [How micro1 grew from $4M to $200M revenue in a year \| Ali Ansari](videos/5KNQeZ_95O0.md) | 96:53 | 4,818 |
