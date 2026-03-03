@@ -1,8 +1,8 @@
 ---
 channel: Aboard Podcast
 channel_handle: "@AboardPodcast"
-total_videos: 25
-last_updated: 2026-02-26
+total_videos: 26
+last_updated: 2026-03-03
 ---
 
 # Aboard Podcast Channel Index
@@ -13,16 +13,17 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 25 |
-| Total Views | 40,467 |
-| Date Range | 2025-09-02 to 2026-02-24 |
-| Average Video Length | 36:53 |
-| Total Runtime | 15.4 hours |
+| Total Videos | 26 |
+| Total Views | 40,468 |
+| Date Range | 2025-09-02 to 2026-03-03 |
+| Average Video Length | 36:29 |
+| Total Runtime | 15.8 hours |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [Product Is More Than Prompts](videos/FU32JUxYiHg.md) | 26:05 | 1 |
 | [Gideon Lewis-Kraus: How Anthropic Sees Claude](videos/Y3daHxt_TlA.md) | 41:31 | 58 |
 | [Can Tech CEOs Be Thoughtful](videos/XtfKYHK1dxw.md) | 37:42 | 36 |
 | [Robot Reddit Wants Your Passwords](videos/kLgAurfi5_s.md) | 35:42 | 45 |
@@ -86,9 +87,9 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 
 | Product/Technology | Videos | Context |
 |--------------------|--------|---------|
-| Claude / Claude Code | 5 | Coding agent, developer experience, personality, alignment |
+| Claude / Claude Code | 6 | Coding agent, developer experience, personality, alignment, terminal UX |
 | ChatGPT | 4 | Memory features, shopping, consumer adoption, erotic content |
-| Vibe Coding (general) | 7 | Tools landscape, limitations, enterprise adoption, SMB applications |
+| Vibe Coding (general) | 8 | Tools landscape, limitations, enterprise adoption, SMB applications, product management disruption |
 | Cursor | 2 | IDE for AI-assisted coding |
 | Perplexity | 1 | AI-powered search browser |
 | Sora | 2 | AI video generation, "slop" content |
@@ -104,8 +105,8 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 
 | Person | Videos | Context |
 |--------|--------|---------|
-| Paul Ford | 25 | Co-host, Aboard co-founder |
-| Rich Ziade | 25 | Co-host, Aboard co-founder |
+| Paul Ford | 26 | Co-host, Aboard co-founder |
+| Rich Ziade | 26 | Co-host, Aboard co-founder |
 | Dario Amodei | 2 | Anthropic CEO, "Adolescence of Technology" essay |
 | Sam Altman | 2 | OpenAI CEO, disagreements with Amodei |
 | Gideon Lewis-Kraus | 1 | New Yorker writer, Anthropic feature |
@@ -129,7 +130,7 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 | AI Safety & Trust | [Arushi Saxena: Can We Trust AI?](videos/-eqj9qKjWtI.md), [Can Tech CEOs Be Thoughtful](videos/XtfKYHK1dxw.md), [Gideon Lewis-Kraus: How Anthropic Sees Claude](videos/Y3daHxt_TlA.md) |
 | AI in Healthcare | [Docs Heart Bots](videos/J3yr8LMAqGE.md), [AI in Healthcare: What Actually Works?](videos/nBfCHI2J4pk.md) |
 | Privacy & Surveillance | [Arushi Saxena: Can We Trust AI?](videos/-eqj9qKjWtI.md), [NYC Sends AI Packing](videos/sf_7Fc62FQA.md), [Robot Reddit Wants Your Passwords](videos/kLgAurfi5_s.md) |
-| Jobs & Labor Market | [Bots Ate My Resume](videos/FPbq8yEzV7g.md), [Welcome to Slopworld](videos/kMz317CHnIk.md), [Matt Seitz: MBA...I?](videos/DyRfO9rlJGs.md) |
+| Jobs & Labor Market | [Bots Ate My Resume](videos/FPbq8yEzV7g.md), [Welcome to Slopworld](videos/kMz317CHnIk.md), [Matt Seitz: MBA...I?](videos/DyRfO9rlJGs.md), [Product Is More Than Prompts](videos/FU32JUxYiHg.md) |
 | Consulting & Billable Work | [The Billable Hour is Dead](videos/cxBkQ2Jwh4A.md) |
 | Search & SEO/GEO | [Is Search Really the Future of AI?](videos/xpzum-yCWv8.md) |
 | AI & Content/Slop | [Welcome to Slopworld](videos/kMz317CHnIk.md), [Max Read: Reporting on the Big, Bad Internet](videos/wta75izwCCU.md) |
@@ -154,6 +155,7 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 - [Webinar: The State of Vibe Coding](videos/WVPWboBINrA.md) - Comprehensive survey of vibe coding tools and landscape
 
 ### Regular Episodes (Paul & Rich)
+- [Product Is More Than Prompts](videos/FU32JUxYiHg.md) - How AI and vibe coding are disrupting product management and design roles
 - [Can Tech CEOs Be Thoughtful](videos/XtfKYHK1dxw.md) - Analyzing Dario Amodei's essay on tech responsibility
 - [Robot Reddit Wants Your Passwords](videos/kLgAurfi5_s.md) - OpenClaw, Moltbook, and AI agent permissions
 - [Docs Heart Bots](videos/J3yr8LMAqGE.md) - AI's impact on healthcare
@@ -174,4 +176,4 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 
 ## Tag Cloud
 
-AI (13) | vibe coding (8) | enterprise software (4) | AI safety (3) | regulation (3) | healthcare (3) | AI bubble (3) | privacy (3) | education (3) | Anthropic (3) | OpenAI (3) | security (3) | e-commerce (2) | journalism (2) | AI ethics (2) | surveillance (2) | startups (2) | consumers (2) | hiring/jobs (2) | Claude Code (2) | AI agents (2) | slop (2) | advertising (2) | engineering culture (2) | engineering management (2) | platform economics (1) | network effects (1) | voice interfaces (1) | politics (1) | crypto (1) | SMB (1) | bug bounties (1) | GEO/SEO (1) | Substack (1) | free speech (1) | parenting (1) | consulting (1) | billable hour (1) | women's health (1) | panel discussion (1) | webinar (1) | interpretability (1) | alignment (1) | virtue ethics (1) | autonomous agents (1) | Etsy (1) | Gen Z (1) | TikTok Shop (1)
+AI (14) | vibe coding (9) | enterprise software (4) | AI safety (3) | regulation (3) | healthcare (3) | AI bubble (3) | privacy (3) | education (3) | Anthropic (3) | OpenAI (3) | security (3) | product management (2) | e-commerce (2) | journalism (2) | AI ethics (2) | surveillance (2) | startups (2) | consumers (2) | hiring/jobs (2) | Claude Code (2) | AI agents (2) | slop (2) | advertising (2) | engineering culture (2) | engineering management (2) | design (1) | user experience (1) | platform economics (1) | network effects (1) | voice interfaces (1) | politics (1) | crypto (1) | SMB (1) | bug bounties (1) | GEO/SEO (1) | Substack (1) | free speech (1) | parenting (1) | consulting (1) | billable hour (1) | women's health (1) | panel discussion (1) | webinar (1) | interpretability (1) | alignment (1) | virtue ethics (1) | autonomous agents (1) | Etsy (1) | Gen Z (1) | TikTok Shop (1)

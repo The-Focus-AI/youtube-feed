@@ -1,8 +1,8 @@
 ---
 channel: Turing Post
 channel_handle: "@RealTuringPost"
-total_videos: 67
-last_updated: 2026-03-02
+total_videos: 68
+last_updated: 2026-03-03
 ---
 
 # Turing Post Channel Index
@@ -11,15 +11,16 @@ last_updated: 2026-03-02
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 67 |
-| Total Views | 101,097 |
-| Date Range | 2025-08-18 to 2026-02-28 |
+| Total Videos | 68 |
+| Total Views | 101,600 |
+| Date Range | 2025-08-18 to 2026-03-02 |
 | Average Video Length | 16:05 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
+| 2026-03-02 | [The Pentagon Called Anthropic a "Supply Chain Risk." They're Not Wrong](videos/o9d12zG6kNM.md) | 11:51 | 503 | [Watch](https://www.youtube.com/watch?v=o9d12zG6kNM) |
 | 2026-02-28 | [Why Reflection AI Bets Their Business on Open Weights \| Ioannis Antonoglou, co-founder and CTO](videos/y2Nw5JzownM.md) | 10:12 | 259 | [Watch](https://www.youtube.com/watch?v=y2Nw5JzownM) |
 | 2026-02-24 | [This chip runs a "baked" Llama so fast it looks like a glitch (Taalas HC1)](videos/ibbB5CsDwxQ.md) | 12:51 | 16 | [Watch](https://www.youtube.com/watch?v=ibbB5CsDwxQ) |
 | 2026-02-16 | [Dario Amodei and Dwarkesh Patel – Exponential Scaling vs. Real World Friction](videos/bjNQoo73gK4.md) | 9:30 | 1,412 | [Watch](https://www.youtube.com/watch?v=bjNQoo73gK4) |
@@ -66,12 +67,12 @@ last_updated: 2026-03-02
 
 | Company | Videos | Key Topics |
 |---------|--------|------------|
-| **OpenAI** | 10+ | AGI definitions, ChatGPT Atlas, Sam Altman statements, Sora |
+| **OpenAI** | 10+ | AGI definitions, ChatGPT Atlas, Sam Altman statements, Sora, defense contracts |
 | **NVIDIA** | 6 | Physical AI, Omniverse, Isaac Lab, NVQ Link, Jensen Huang, potential Taalas acquisition |
 | **Mozilla** | 1 | Open Source AI, LAMP Stack, Choice Suite, Data Sovereignty |
 | **Google/DeepMind** | 5 | Veo3, Gemini, scaling debates |
 | **Microsoft** | 3 | Azure AI, Satya Nadella, cloud infrastructure |
-| **Anthropic** | 3 | Claude, AI safety, scaling vs friction |
+| **Anthropic** | 4 | Claude, AI safety, scaling vs friction, Pentagon supply chain risk |
 | **Taalas** | 1 | HC1 chip, model-specific ASIC silicon |
 | **Tesla** | 2 | FSD, Optimus robots |
 | **Meta** | 2 | Llama, Yann LeCun perspectives |
@@ -85,6 +86,7 @@ last_updated: 2026-03-02
 | **Warp** | 1 | AI-native terminal, future of coding |
 | **HistoWiz** | 1 | Digital pathology |
 | **Axiom Math** | 1 | Formal verification, AI mathematician |
+| **Palantir** | 1 | Government AI deployments with Anthropic and AWS |
 
 ### People
 
@@ -94,7 +96,7 @@ last_updated: 2026-03-02
 | **Raffi Krikorian** | 1 | Mozilla CTO, Open Source AI advocate |
 | **Andrej Karpathy** | 2 | Former Tesla/OpenAI, AI education, AGI perspectives |
 | **Dwarkesh Patel** | 5 | Podcast host, interviews with AI leaders, friction vs scaling |
-| **Sam Altman** | 4 | OpenAI CEO, AGI predictions, infrastructure |
+| **Sam Altman** | 5 | OpenAI CEO, AGI predictions, infrastructure, defense contracts |
 | **Jensen Huang** | 3 | NVIDIA CEO, robotics predictions, physical AI |
 | **Ilya Sutskever** | 2 | Safe Superintelligence, scaling debates |
 | **Satya Nadella** | 1 | Microsoft CEO, AI scaling |
@@ -115,7 +117,7 @@ last_updated: 2026-03-02
 | **Fei-Fei Li** | 1 | ImageNet creator, Stanford AI Lab |
 | **Geoffrey Hinton** | 1 | Deep learning pioneer, AlexNet |
 | **Alexander Liplo** | 1 | Creator of RentAHuman.ai |
-| **Dario Amodei** | 1 | Anthropic CEO, scaling exponentials, country of geniuses, capital treadmill |
+| **Dario Amodei** | 2 | Anthropic CEO, scaling exponentials, country of geniuses, capital treadmill, Pentagon supply chain risk |
 | **Bajik** | 1 | Taalas CEO, model-specific silicon |
 
 ### Technologies & Products
@@ -202,6 +204,7 @@ last_updated: 2026-03-02
 - [What's That About SORA](videos/5DQ3yab_9ys.md) - Video generation comparison
 
 ### Industry Analysis
+- [The Pentagon Called Anthropic a "Supply Chain Risk."](videos/o9d12zG6kNM.md) - Anthropic vs Pentagon, defense procurement, OpenAI contrast, supply chain risk
 - [Dario Amodei and Dwarkesh Patel – Exponential Scaling vs. Real World Friction](videos/bjNQoo73gK4.md) - Scaling laws, diffusion, institutional friction, capital treadmill
 - [When AI Agents Start Hiring Humans: The Meatspace Layer Explained](videos/3c9A4gBnCEg.md) - AI agents, RentAHuman.ai, embodiment
 - [We Entered an Era Where No One Knows What Comes Next](videos/SQVGjnV-ikM.md) - Singularity, prediction collapse
