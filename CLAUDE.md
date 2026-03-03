@@ -21,7 +21,7 @@ The YouTube skill must be available. Test with:
 npx tsx /Users/wschenk/.claude/plugins/cache/focus-marketplace/google-skill/0.11.0/scripts/youtube.ts dl-channel @channelhandle --max=5
 ```
 
-For multi-speaker content (podcasts, interviews, panel discussions), the **interview-transcriber** provides speaker-identified transcripts via Gemini audio transcription. It lives at `/Users/wschenk/The-Focus-AI/interview-transcriber` and requires `GEMINI_API_KEY` in the environment.
+For multi-speaker content (podcasts, interviews, panel discussions), the **interview-transcriber** provides speaker-identified transcripts via Gemini audio transcription. It lives at `/Users/wschenk/The-Focus-AI/interview-transcriber` and requires `GEMINI_API_KEY` in the environment. See the "Multi-Speaker Content" section in Step 3 for which channels require this and the exact speaker names to use.
 
 ```bash
 cd /Users/wschenk/The-Focus-AI/interview-transcriber && npx tsx src/cli.ts --help
@@ -55,24 +55,42 @@ npx tsx /Users/wschenk/.claude/plugins/cache/focus-marketplace/google-skill/0.11
 npx tsx /Users/wschenk/.claude/plugins/cache/focus-marketplace/google-skill/0.11.0/scripts/youtube.ts dl-info {VIDEO_ID}
 ```
 
-### Multi-Speaker Content (Podcasts, Interviews)
+### Multi-Speaker Content (Podcasts, Interviews) — REQUIRED
 
-For videos with multiple speakers, use the **interview-transcriber** instead of the basic YouTube transcript. It provides speaker identification via Gemini audio analysis:
+**For ALL multi-speaker content, you MUST use the interview-transcriber** instead of the basic YouTube transcript. The YouTube transcript has NO speaker identification — it's just raw text. The interview-transcriber uses Gemini audio analysis to identify who is speaking.
+
+**Multi-speaker channels (ALWAYS use interview-transcriber):**
+
+| Channel | Speakers | `--speakers` flag |
+|---------|----------|-------------------|
+| All-In Podcast | Jason Calacanis, Chamath Palihapitiya, David Sacks, David Friedberg | `"Jason Calacanis,Chamath Palihapitiya,David Sacks,David Friedberg"` |
+| Hard Fork | Kevin Roose, Casey Newton | `"Kevin Roose,Casey Newton"` |
+| Lex Fridman | Lex Fridman + guest (check title) | `"Lex Fridman,{Guest Name}"` |
+| Aboard Podcast | Paul Ford, Rich Ziade + guest | `"Paul Ford,Rich Ziade,{Guest Name}"` |
+| Relentless | Ti Morse + guests (check title) | `"Ti Morse,{Guest Names}"` |
+| Dwarkesh Patel | Dwarkesh Patel + guest | `"Dwarkesh Patel,{Guest Name}"` |
+
+**Single-speaker channels (use YouTube transcript):**
+- MKBHD (Marques Brownlee solo)
+- The Iron Snail (narrated)
+- Turing Post (narrated)
+
+**Command:**
 
 ```bash
 cd /Users/wschenk/The-Focus-AI/interview-transcriber && \
   npx tsx src/cli.ts "https://www.youtube.com/watch?v={VIDEO_ID}" \
-    -o "{VIDEO_ID}.json" \
-    -s
+    --speakers "Speaker1,Speaker2,Speaker3" \
+    -o /Users/wschenk/The-Focus-AI/youtube-feed/{channel-name}/videos/{VIDEO_ID}.json \
+    -c 180
 ```
 
-This produces a JSON file with speaker-labeled segments. The transcriber:
-- Processes audio in 10-minute chunks
-- Passes discovered speaker names forward to subsequent chunks
-- Normalizes generic labels ("Speaker A") to real names when possible
-- Drops malformed/garbage segments automatically
+The `-c 180` flag uses 3-minute chunks for better timestamp accuracy. The `--speakers` flag seeds speaker names so they're used consistently across all chunks.
 
-Use the JSON output to build the markdown file with speaker-attributed transcript and quotes.
+**Processing the JSON output:**
+The JSON contains an array of segments with `speaker`, `text`, and `start` fields. Use these to build the markdown with `**Speaker Name:** [MM:SS](url) text` format for the transcript section, and attribute all quotes and highlights to specific speakers.
+
+**IMPORTANT:** Never use the basic YouTube transcript for multi-speaker content. The result will have no speaker names and the transcript will be unusable for a podcast/interview archive.
 
 ## Step 4: Video File Format
 
