@@ -1,8 +1,8 @@
 ---
 channel: Turing Post
 channel_handle: "@RealTuringPost"
-total_videos: 68
-last_updated: 2026-03-03
+total_videos: 69
+last_updated: 2026-03-08
 ---
 
 # Turing Post Channel Index
@@ -11,15 +11,16 @@ last_updated: 2026-03-03
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 68 |
-| Total Views | 101,600 |
-| Date Range | 2025-08-18 to 2026-03-02 |
-| Average Video Length | 16:05 |
+| Total Videos | 69 |
+| Total Views | 101,765 |
+| Date Range | 2025-08-18 to 2026-03-06 |
+| Average Video Length | 15:58 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
+| 2026-03-06 | [What Reflection AI offers to beat closed labs](videos/zd3B8sNNgmk.md) | 15:52 | 165 | [Watch](https://www.youtube.com/watch?v=zd3B8sNNgmk) |
 | 2026-03-02 | [The Pentagon Called Anthropic a "Supply Chain Risk." They're Not Wrong](videos/o9d12zG6kNM.md) | 11:51 | 503 | [Watch](https://www.youtube.com/watch?v=o9d12zG6kNM) |
 | 2026-02-28 | [Why Reflection AI Bets Their Business on Open Weights \| Ioannis Antonoglou, co-founder and CTO](videos/y2Nw5JzownM.md) | 10:12 | 259 | [Watch](https://www.youtube.com/watch?v=y2Nw5JzownM) |
 | 2026-02-24 | [This chip runs a "baked" Llama so fast it looks like a glitch (Taalas HC1)](videos/ibbB5CsDwxQ.md) | 12:51 | 16 | [Watch](https://www.youtube.com/watch?v=ibbB5CsDwxQ) |
@@ -86,6 +87,7 @@ last_updated: 2026-03-03
 | **Warp** | 1 | AI-native terminal, future of coding |
 | **HistoWiz** | 1 | Digital pathology |
 | **Axiom Math** | 1 | Formal verification, AI mathematician |
+| **Reflection AI** | 2 | Open-weight frontier models, $2B Series B, RL-aware pre-training |
 | **Palantir** | 1 | Government AI deployments with Anthropic and AWS |
 
 ### People
@@ -118,6 +120,9 @@ last_updated: 2026-03-03
 | **Geoffrey Hinton** | 1 | Deep learning pioneer, AlexNet |
 | **Alexander Liplo** | 1 | Creator of RentAHuman.ai |
 | **Dario Amodei** | 2 | Anthropic CEO, scaling exponentials, country of geniuses, capital treadmill, Pentagon supply chain risk |
+| **Ioannis Antonoglou** | 2 | Reflection AI co-founder/CTO, ex-DeepMind, AlphaGo/AlphaZero/MuZero |
+| **Shane Legg** | 1 | DeepMind co-founder, recruited Antonoglou to build AGI |
+| **Demis Hassabis** | 1 | DeepMind co-founder |
 | **Bajik** | 1 | Taalas CEO, model-specific silicon |
 
 ### Technologies & Products
@@ -128,7 +133,7 @@ last_updated: 2026-03-03
 | **Large Language Models (LLMs)** | 15+ | Nondeterminism, context windows, reasoning |
 | **AGI/ASI** | 5 | Timelines, definitions, debates |
 | **Singularity** | 2 | Von Neumann definition, Kurzweil interpretation, prediction collapse |
-| **Reinforcement Learning** | 3 | Sutton, Karpathy perspectives |
+| **Reinforcement Learning** | 4 | Sutton, Karpathy perspectives, Reflection AI RL-aware pre-training |
 | **Sora** | 2 | Video generation, world models |
 | **World Models** | 3 | Physical AI, simulation |
 | **Robotics** | 4 | Humanoids, CES demos, Tesla Optimus |
@@ -157,8 +162,9 @@ last_updated: 2026-03-03
 | AGI | 5 |
 | Singularity | 2 |
 | TechHistory | 1 |
-| OpenSourceAI | 1 |
+| OpenSourceAI | 2 |
 | MozillaAI | 1 |
+| AI Safety | 1 |
 | Robotics | 4 |
 | World Models | 3 |
 | FutureOfCoding | 3 |
@@ -168,19 +174,20 @@ last_updated: 2026-03-03
 | Rank | Title | Views | Link |
 |------|-------|-------|------|
 | 1 | Richard Sutton and Dwarkesh Patel – speaking two different languages | 46,029 | [Watch](https://www.youtube.com/watch?v=EwhHUQuqiaQ) |
-| 2 | Andrej Karpathy and Dwarkesh Patel – Popping the AGI Bubble | 11,772 | [Watch](https://www.youtube.com/watch?v=-lRBpyPt79c) |
-| 3 | What Really Blocks AI Progress? Ulrik Hansen from Encord | 4,746 | [Watch](https://www.youtube.com/watch?v=GxI2JNyIlrU) |
-| 4 | What AI Is Missing for Real Reasoning? Axiom Math's Carina Hong | 4,750 | [Watch](https://www.youtube.com/watch?v=3qGBMkgR6Ko) |
-| 5 | End of Scaling? Why Ilya Sutskever Walked Away | 3,088 | [Watch](https://www.youtube.com/watch?v=oNC3363P_5s) |
-| 6 | Spencer Huang: NVIDIA's Big Plan for Physical AI | 2,057 | [Watch](https://www.youtube.com/watch?v=NEv9EnD7JVU) |
-| 7 | What Is The Future Of Coding? Warp's Vision | 1,997 | [Watch](https://www.youtube.com/watch?v=kz1hATcz-q8) |
-| 8 | Nondeterminism in LLMs Explained: Why Outputs Drift | 1,694 | [Watch](https://www.youtube.com/watch?v=6BFkLH-FSFA) |
-| 9 | The AGI Debate – Are We Five Years from Singularity? | 1,352 | [Watch](https://www.youtube.com/watch?v=spWtumumh34) |
-| 10 | Satya Nadella, Dwarkesh Patel, Dylan Patel – scaling, scaffolding | 1,130 | [Watch](https://www.youtube.com/watch?v=Bqou0T-Wxnk) |
+| 2 | This chip runs a "baked" Llama so fast it looks like a glitch (Taalas HC1) | 14,486 | [Watch](https://www.youtube.com/watch?v=ibbB5CsDwxQ) |
+| 3 | Andrej Karpathy and Dwarkesh Patel – Popping the AGI Bubble | 11,772 | [Watch](https://www.youtube.com/watch?v=-lRBpyPt79c) |
+| 4 | Inside MiniMax: How They Build Open Models | 5,049 | [Watch](https://www.youtube.com/watch?v=GkUMqWeHn40) |
+| 5 | What AI Is Missing for Real Reasoning? Axiom Math's Carina Hong | 4,750 | [Watch](https://www.youtube.com/watch?v=3qGBMkgR6Ko) |
+| 6 | What Really Blocks AI Progress? Ulrik Hansen from Encord | 4,746 | [Watch](https://www.youtube.com/watch?v=GxI2JNyIlrU) |
+| 7 | End of Scaling? Why Ilya Sutskever Walked Away | 3,088 | [Watch](https://www.youtube.com/watch?v=oNC3363P_5s) |
+| 8 | What Dario Amodei Gets Wrong About AI | 3,067 | [Watch](https://www.youtube.com/watch?v=mf1CkHE5AkY) |
+| 9 | When AI Agents Start Hiring Humans: The Meatspace Layer Explained | 2,112 | [Watch](https://www.youtube.com/watch?v=3c9A4gBnCEg) |
+| 10 | Spencer Huang: NVIDIA's Big Plan for Physical AI | 2,057 | [Watch](https://www.youtube.com/watch?v=NEv9EnD7JVU) |
 
 ## Video Categories
 
 ### Interviews & Conversations
+- [What Reflection AI offers to beat closed labs](videos/zd3B8sNNgmk.md) - Ioannis Antonoglou, frontier open-weight models, RL, AlphaGo
 - [Why the US need Open Models \| Nathan Lambert](videos/mq_V6zAjsSI.md) - AI2, open models, RLHF, coding agents
 - [This Is a Fight Worth Having: Open Source AI \| Raffi Krikorian](videos/3ohQX-oYndI.md) - CTO of Mozilla on OSAI
 - [Richard Sutton and Dwarkesh Patel](videos/EwhHUQuqiaQ.md) - RL pioneer on AI progress

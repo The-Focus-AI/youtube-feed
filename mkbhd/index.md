@@ -1,8 +1,8 @@
 ---
 channel: MKBHD
 channel_handle: "@mkbhd"
-total_videos: 40
-last_updated: 2026-03-02
+total_videos: 44
+last_updated: 2026-03-11
 ---
 
 # MKBHD Channel Index
@@ -11,10 +11,10 @@ last_updated: 2026-03-02
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 40 |
-| Total Views | 184,078,227 |
-| Date Range | June 10, 2025 - February 28, 2026 |
-| Average Video Length | 13:30 |
+| Total Videos | 44 |
+| Total Views | 195,627,868 |
+| Date Range | June 10, 2025 - March 10, 2026 |
+| Average Video Length | 13:11 |
 
 ---
 
@@ -22,7 +22,11 @@ last_updated: 2026-03-02
 
 | Date | Title | Duration | Views |
 |------|-------|----------|-------|
-| 2026-02-28 | [Samsung Galaxy Buds 4 Pro Review: Better than AirPods!](videos/wRaDbRjVrc4.md) | 8:51 | 1,426,442 |
+| 2026-03-10 | [Macbook Neo Review: Better than you Think!](videos/iGeXGdYE7UE.md) | 12:53 | 1,367,662 |
+| 2026-03-09 | [Apple Studio Display XDR Review: We're All Pros Now!](videos/yWI33R4xyIc.md) | 10:41 | 1,475,678 |
+| 2026-03-06 | [Samsung Galaxy S26 Ultra Review: There's a Catch](videos/nfHRMqqO578.md) | 12:35 | 2,106,600 |
+| 2026-03-04 | [Macbook Neo Impressions: Reincarnated!](videos/kBX5WH9b4M4.md) | 8:47 | 6,599,701 |
+| 2026-02-28 | [Samsung Galaxy Buds 4 Pro Review: Better than AirPods!](videos/wRaDbRjVrc4.md) | 8:51 | 1,994,248 |
 | 2026-02-25 | [Samsung Galaxy S26/Ultra Impressions: 1 Crazy Display Feature!](videos/FRI78tq9Eik.md) | 9:10 | 3,163,244 |
 | 2026-02-18 | [Google Pixel 10A Impressions: (Never) Seen This Before](videos/iCSg_ul3G2w.md) | 8:31 | 2,868,476 |
 | 2026-02-06 | [The Problem with these Smartphone Batteries](videos/zPAY2VxfFBk.md) | 8:32 | 2,051,102 |
@@ -71,13 +75,15 @@ last_updated: 2026-03-02
 
 | Company | Videos | References |
 |---------|--------|------------|
-| **Apple** | 25 | WWDC 2025, iOS 26, iPhone 17, iPhone Air, AirPods Pro 3, Vision Pro, iPadOS 26, M5 chip, Siri, Apple Intelligence, Liquid Glass |
+| **Apple** | 28 | WWDC 2025, iOS 26, iPhone 17, iPhone Air, AirPods Pro 3, Vision Pro, iPadOS 26, M5 chip, MacBook Neo, MacBook Neo Review, Studio Display XDR, Siri, Apple Intelligence, Liquid Glass, A18 Pro, A19 Pro |
 | **Google** | 15 | Pixel 10, Pixel 10A, Gemini, Android 16, Tensor G5, YouTube, Circle to Search |
-| **Samsung** | 13 | Galaxy S26/Ultra, Galaxy Z Fold 7, Galaxy Z Flip 7, Z Tri Fold, Galaxy S25 Ultra, Galaxy Tab S11 Ultra |
+| **Samsung** | 14 | Galaxy S26 Ultra Review, Galaxy S26/Ultra Impressions, Galaxy Buds 4 Pro, Galaxy Z Fold 7, Galaxy Z Flip 7, Z Tri Fold, Galaxy S25 Ultra, Galaxy Tab S11 Ultra |
 | **Nothing** | 6 | Nothing Phone 3, Nothing Headphone 1, CMF Phone 2 Pro, Glyph Matrix |
 | **Nintendo** | 1 | Switch 2, Joy-Cons, Mario Kart World |
 | **Xiaomi** | 6 | Xiaomi 17 Pro Max, Xiaomi 17 Ultra, Xiaomi SU7, mini massage gun |
 | **OnePlus** | 6 | OnePlus 15, OnePlus downfall, silicon carbon battery |
+| **Intel** | 1 | Referenced as old chip standard in MacBook Neo review |
+| **Dbrand** | 1 | MacBook Neo review sponsor, retro-styled MacBook skins |
 | **Honor** | 1 | Honor Power 2 silicon carbon battery phone |
 | **Meta** | 3 | Ray-Ban Display glasses, Orion, smart glasses |
 | **Tesla** | 3 | Robotaxi, FSD, Model 3 |
@@ -115,7 +121,13 @@ last_updated: 2026-03-02
 | NEO Robot | The Problem with this Humanoid Robot | [Summary](videos/j31dmodZ-5c.md) |
 | Vertu Agent Q | The Problem with this "Ultra Luxury" Smartphone | [Summary](videos/HLUamwXQ218.md) |
 | Pixel 10A | Google Pixel 10A Impressions | [Summary](videos/iCSg_ul3G2w.md) |
+| Samsung Galaxy S26 Ultra | Samsung Galaxy S26 Ultra Review: There's a Catch | [Summary](videos/nfHRMqqO578.md) |
 | Samsung Galaxy S26/Ultra | Samsung Galaxy S26/Ultra Impressions | [Summary](videos/FRI78tq9Eik.md) |
+| MacBook Neo | Macbook Neo Review: Better than you Think! | [Summary](videos/iGeXGdYE7UE.md) |
+| Studio Display XDR | Apple Studio Display XDR Review: We're All Pros Now! | [Summary](videos/yWI33R4xyIc.md) |
+| Pro Display XDR | Apple Studio Display XDR Review (comparison) | [Summary](videos/yWI33R4xyIc.md) |
+| A18 Pro chip | MacBook Neo Review (iPhone chip in a laptop) | [Summary](videos/iGeXGdYE7UE.md) |
+| A19 Pro chip | Studio Display XDR Review (display processor) | [Summary](videos/yWI33R4xyIc.md) |
 | Honor Power 2 | The Problem with these Smartphone Batteries | [Summary](videos/zPAY2VxfFBk.md) |
 | Tesla Robotaxi | Investigating the Tesla Robotaxi! | [Summary](videos/We2ZD0-IXPM.md) |
 | Galaxy Tab S11 Ultra | Dope Tech: STILL so good! | [Summary](videos/RvP-uVNwnXo.md) |
@@ -130,14 +142,18 @@ last_updated: 2026-03-02
 | **AI / LLMs** | 10+ | Siri, Gemini, ChatGPT, Claude, Apple Intelligence, Magic Cues |
 | **Foldable Phones** | 5 | Z Fold 7, Z Flip 7, Z Tri Fold, Pixel Fold, Huawei Mate XT |
 | **Silicon Carbon Batteries** | 6 | OnePlus 15, Xiaomi 17 Pro Max, Nothing Phone 3, Honor Power 2, swelling concerns, enabling 7000+ mAh capacity |
+| **Apple Silicon** | 3 | A18 Pro in MacBook Neo, A19 Pro in Studio Display, M5 chip deep dive |
+| **Mini-LED Displays** | 2 | Studio Display XDR 2,000 local dimming zones, 2,000 nits HDR brightness |
+| **Thunderbolt 5** | 1 | Studio Display XDR connectivity, daisy chaining, fast storage docking |
 | **Autonomous Driving** | 2 | Tesla FSD, Waymo, Robotaxi |
 | **Smart Glasses / AR** | 2 | Meta Ray-Ban Display, Apple Vision Pro, neural interfaces |
 | **MagSafe / Qi2** | 4 | Pixelsnap, magnetic charging ecosystem |
 | **5G / Modems** | 2 | Apple C1X modem, mmWave |
 | **Humanoid Robots** | 2 | NEO, Boston Dynamics, teleoperation |
 | **Active Noise Cancellation** | 2 | Nothing Headphone 1, Sony XM6 |
-| **Privacy Display** | 1 | Samsung S26 Ultra hardware-level privacy screen, pixel-level control |
+| **Privacy Display** | 2 | Samsung S26 Ultra hardware-level privacy screen, pixel-level control, dual pixel types, trade-offs |
 | **Gaming Consoles** | 1 | Nintendo Switch 2, Joy-Con magnets, 4K60 docked |
+| **Nanotexture Glass** | 1 | Studio Display XDR anti-glare coating, improved over Pro Display XDR generation |
 
 ---
 
@@ -145,29 +161,39 @@ last_updated: 2026-03-02
 
 | Tag | Count |
 |-----|-------|
-| Apple | 18 |
+| Apple | 21 |
+| smartphone review | 13 |
 | iPhone | 12 |
-| smartphone review | 12 |
-| MKBHD | 10 |
+| MKBHD | 14 |
+| Samsung | 9 |
 | Google | 8 |
-| Samsung | 7 |
-| Android | 6 |
+| Android | 7 |
 | Nothing | 6 |
+| tech review | 6 |
 | foldable phone | 5 |
 | AI | 5 |
 | camera | 5 |
 | Pixel | 5 |
-| tech review | 6 |
 | battery life | 4 |
-| iOS | 3 |
 | Xiaomi | 4 |
 | OnePlus | 4 |
+| laptop | 2 |
+| laptop review | 1 |
+| budget laptop | 2 |
+| iOS | 3 |
+| silicon carbon battery | 3 |
 | headphones | 2 |
 | Nintendo | 1 |
 | electric vehicles | 2 |
 | smart glasses | 2 |
 | robotics | 2 |
-| silicon carbon battery | 3 |
+| Privacy Display | 1 |
+| Apple Silicon | 1 |
+| MacBook Neo | 1 |
+| Studio display | 1 |
+| XDR display | 1 |
+| HDR display | 1 |
+| Chromebook competitor | 1 |
 
 ---
 
@@ -183,8 +209,8 @@ last_updated: 2026-03-02
 | 6 | [WWDC 2025 Impressions: Liquid Glass!](videos/1E3tv_3D95g.md) | 7,461,780 | 2025-06-10 |
 | 7 | [AirPods Pro 3 Review: I Understand It Now!](videos/GB0b6KFZVq0.md) | 6,679,271 | 2024-09-15 |
 | 8 | [Xiaomi 17 Pro Max: An iPhone... But Better!](videos/eou_g_cYCew.md) | 6,610,145 | 2025-10-14 |
-| 9 | [The Problem with this Humanoid Robot](videos/j31dmodZ-5c.md) | 6,344,124 | 2025-10-30 |
-| 10 | [iPhone 17 Pro Review: Paradox in a Box!](videos/q0aFOxT6TNw.md) | 6,038,560 | 2025-09-26 |
+| 9 | [Macbook Neo Impressions: Reincarnated!](videos/kBX5WH9b4M4.md) | 6,599,701 | 2026-03-04 |
+| 10 | [The Problem with this Humanoid Robot](videos/j31dmodZ-5c.md) | 6,344,124 | 2025-10-30 |
 
 ---
 
@@ -195,6 +221,9 @@ Full in-depth reviews of products after extended use.
 
 | Video | Product | Date |
 |-------|---------|------|
+| [Macbook Neo Review: Better than you Think!](videos/iGeXGdYE7UE.md) | MacBook Neo | 2026-03-10 |
+| [Apple Studio Display XDR Review: We're All Pros Now!](videos/yWI33R4xyIc.md) | Studio Display XDR | 2026-03-09 |
+| [Samsung Galaxy S26 Ultra Review: There's a Catch](videos/nfHRMqqO578.md) | Samsung Galaxy S26 Ultra | 2026-03-06 |
 | [iPhone 17 Pro Review: Paradox in a Box!](videos/q0aFOxT6TNw.md) | iPhone 17 Pro/Pro Max | 2025-09-26 |
 | [iPhone 17 Review: No Asterisks!](videos/rng_yUSwrgU.md) | iPhone 17 | 2025-10-01 |
 | [iPhone Air Review: Beauty is Pain](videos/tDARtYjUiHs.md) | iPhone Air | 2025-09-23 |
@@ -212,6 +241,7 @@ First hands-on looks at newly announced products.
 
 | Video | Product | Date |
 |-------|---------|------|
+| [Macbook Neo Impressions: Reincarnated!](videos/kBX5WH9b4M4.md) | MacBook Neo | 2026-03-04 |
 | [iPhone 17/Pro/Air Impressions: Spot the Red Flags!](videos/idEAABFzpfg.md) | iPhone 17 lineup | 2025-09-10 |
 | [Google Pixel 10/Pro/Fold Impressions: Magnets!](videos/269OsrzG3Ew.md) | Pixel 10 lineup | 2025-08-20 |
 | [Samsung Z Fold/Flip 7 Impressions: Major Upgrades!](videos/bMou1qUMHC4.md) | Z Fold/Flip 7 | 2025-07-09 |
@@ -267,6 +297,11 @@ All video summaries are available in the `videos/` directory:
 
 | Video ID | File |
 |----------|------|
+| iGeXGdYE7UE | [videos/iGeXGdYE7UE.md](videos/iGeXGdYE7UE.md) |
+| yWI33R4xyIc | [videos/yWI33R4xyIc.md](videos/yWI33R4xyIc.md) |
+| nfHRMqqO578 | [videos/nfHRMqqO578.md](videos/nfHRMqqO578.md) |
+| kBX5WH9b4M4 | [videos/kBX5WH9b4M4.md](videos/kBX5WH9b4M4.md) |
+| wRaDbRjVrc4 | [videos/wRaDbRjVrc4.md](videos/wRaDbRjVrc4.md) |
 | FRI78tq9Eik | [videos/FRI78tq9Eik.md](videos/FRI78tq9Eik.md) |
 | 1E3tv_3D95g | [videos/1E3tv_3D95g.md](videos/1E3tv_3D95g.md) |
 | iCSg_ul3G2w | [videos/iCSg_ul3G2w.md](videos/iCSg_ul3G2w.md) |

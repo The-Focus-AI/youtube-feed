@@ -1,8 +1,8 @@
 ---
 channel: Aboard Podcast
 channel_handle: "@AboardPodcast"
-total_videos: 26
-last_updated: 2026-03-03
+total_videos: 27
+last_updated: 2026-03-11
 ---
 
 # Aboard Podcast Channel Index
@@ -13,18 +13,19 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 26 |
-| Total Views | 40,468 |
-| Date Range | 2025-09-02 to 2026-03-03 |
-| Average Video Length | 36:29 |
-| Total Runtime | 15.8 hours |
+| Total Videos | 27 |
+| Total Views | 40,501 |
+| Date Range | 2025-09-02 to 2026-03-10 |
+| Average Video Length | 36:39 |
+| Total Runtime | 16.5 hours |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [Erynn Petersen: Fixing Healthtech, One Bill at a Time](videos/BPxLUHFiKyQ.md) | 41:53 | 16 |
 | [Product Is More Than Prompts](videos/FU32JUxYiHg.md) | 26:05 | 1 |
-| [Gideon Lewis-Kraus: How Anthropic Sees Claude](videos/Y3daHxt_TlA.md) | 41:31 | 58 |
+| [Gideon Lewis-Kraus: How Anthropic Sees Claude](videos/Y3daHxt_TlA.md) | 41:31 | 75 |
 | [Can Tech CEOs Be Thoughtful](videos/XtfKYHK1dxw.md) | 37:42 | 36 |
 | [Robot Reddit Wants Your Passwords](videos/kLgAurfi5_s.md) | 35:42 | 45 |
 | [Docs Heart Bots](videos/J3yr8LMAqGE.md) | 35:00 | 33 |
@@ -58,10 +59,10 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 4. **[Rafe Colburn: Building Etsy in the AI Era](videos/YOhcr71TydA.md)** - 88 views
 5. **[Bots Ate My Resume](videos/FPbq8yEzV7g.md)** - 82 views
 6. **[Of Course There's an AI Bubble](videos/eDwNbCGHcTA.md)** - 78 views
-7. **[(AI) Bubble Trouble](videos/g0b1vZ-qG5I.md)** - 70 views
-8. **[Why the Software Industry Hates Your SMB](videos/LprdHSteOZc.md)** - 70 views
-9. **[NYC Sends AI Packing](videos/sf_7Fc62FQA.md)** - 69 views
-10. **[Webinar: The State of Vibe Coding](videos/WVPWboBINrA.md)** - 68 views
+7. **[Gideon Lewis-Kraus: How Anthropic Sees Claude](videos/Y3daHxt_TlA.md)** - 75 views
+8. **[(AI) Bubble Trouble](videos/g0b1vZ-qG5I.md)** - 70 views
+9. **[Why the Software Industry Hates Your SMB](videos/LprdHSteOZc.md)** - 70 views
+10. **[NYC Sends AI Packing](videos/sf_7Fc62FQA.md)** - 69 views
 
 ## Topics Index
 
@@ -73,15 +74,22 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 | OpenAI | 4 | ChatGPT shopping, erotic content policy, competitive landscape, valuations |
 | Google | 3 | Search dominance, AI mode, Gemini comeback, Matt Seitz background |
 | Etsy | 1 | Engineering culture, AI adoption, ChatGPT shopping integration |
-| Aboard | 3 | Product demos, healthcare platform, vibe coding approach |
+| Aboard | 4 | Product demos, healthcare platform, vibe coding approach, complex software systems |
 | Meta | 2 | AI talent recruitment, video generation (Vibes) |
 | Lovable | 2 | Vibe coding tool, traffic decline, limitations |
+| Epic | 1 | Dominant healthcare billing/records platform, described as "Salesforce for doctors" |
+| Emme | 2 | Healthtech startup, $25/year membership to lower healthcare costs, Cornell Tech panel |
 | Cornell Tech | 1 | Health Tech Hub, clinical innovation |
 | Gloo | 1 | Christian LLM company, Patrick Gelsinger |
 | Harvey | 1 | Legal AI startup, trust and safety |
 | McKinsey | 1 | Management consulting disruption |
 | Shopify | 1 | AI-powered shopping integration |
 | Walmart | 1 | AI-powered shopping integration |
+| Amazon | 1 | Erynn Petersen's former employer, Kindle development |
+| Microsoft | 1 | Erynn Petersen's former employer |
+| Oracle/Cerner | 1 | Epic competitor in healthcare records |
+| Wheelhouse Health | 1 | Emme's partner for bill negotiation |
+| Slack | 1 | Analogy for bottom-up technology adoption in enterprises |
 
 ### Products & Technologies
 
@@ -100,13 +108,16 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 | OpenClaw | 1 | Personal autonomous agent |
 | Moltbook | 1 | Social network for AI agents |
 | DeepSeek | 1 | Chinese AI competition |
+| MyChart | 1 | Epic's patient-facing portal |
+| Kindle | 1 | Anecdote about early Amazon hardware development |
 
 ### People
 
 | Person | Videos | Context |
 |--------|--------|---------|
-| Paul Ford | 26 | Co-host, Aboard co-founder |
-| Rich Ziade | 26 | Co-host, Aboard co-founder |
+| Paul Ford | 27 | Co-host, Aboard co-founder |
+| Rich Ziade | 27 | Co-host, Aboard co-founder |
+| Erynn Petersen | 1 | CEO of Emme, formerly Amazon/Microsoft/DoD; healthtech and insurance reform |
 | Dario Amodei | 2 | Anthropic CEO, "Adolescence of Technology" essay |
 | Sam Altman | 2 | OpenAI CEO, disagreements with Amodei |
 | Gideon Lewis-Kraus | 1 | New Yorker writer, Anthropic feature |
@@ -121,6 +132,7 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 | Daniel Stenberg | 1 | Creator of curl |
 | Amanda Askell | 1 | Anthropic philosopher |
 | Steven Levy | 1 | WIRED journalist |
+| Dr. Elizabeth Shields | 1 | Ex-Navy doctor, mobile house-call practice in Rhode Island |
 
 ### Key Themes
 
@@ -128,7 +140,7 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 |-------|--------|
 | AI Bubble / Valuations | [Of Course There's an AI Bubble](videos/eDwNbCGHcTA.md), [(AI) Bubble Trouble](videos/g0b1vZ-qG5I.md), [Bots, Feeds, and Kids](videos/EfN9hOoP7L4.md) |
 | AI Safety & Trust | [Arushi Saxena: Can We Trust AI?](videos/-eqj9qKjWtI.md), [Can Tech CEOs Be Thoughtful](videos/XtfKYHK1dxw.md), [Gideon Lewis-Kraus: How Anthropic Sees Claude](videos/Y3daHxt_TlA.md) |
-| AI in Healthcare | [Docs Heart Bots](videos/J3yr8LMAqGE.md), [AI in Healthcare: What Actually Works?](videos/nBfCHI2J4pk.md) |
+| AI in Healthcare | [Docs Heart Bots](videos/J3yr8LMAqGE.md), [AI in Healthcare: What Actually Works?](videos/nBfCHI2J4pk.md), [Erynn Petersen: Fixing Healthtech, One Bill at a Time](videos/BPxLUHFiKyQ.md) |
 | Privacy & Surveillance | [Arushi Saxena: Can We Trust AI?](videos/-eqj9qKjWtI.md), [NYC Sends AI Packing](videos/sf_7Fc62FQA.md), [Robot Reddit Wants Your Passwords](videos/kLgAurfi5_s.md) |
 | Jobs & Labor Market | [Bots Ate My Resume](videos/FPbq8yEzV7g.md), [Welcome to Slopworld](videos/kMz317CHnIk.md), [Matt Seitz: MBA...I?](videos/DyRfO9rlJGs.md), [Product Is More Than Prompts](videos/FU32JUxYiHg.md) |
 | Consulting & Billable Work | [The Billable Hour is Dead](videos/cxBkQ2Jwh4A.md) |
@@ -139,10 +151,12 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 | AI Ethics & Values | [God, Sex, and AI](videos/Z2oyLtQ1t3M.md), [Gideon Lewis-Kraus: How Anthropic Sees Claude](videos/Y3daHxt_TlA.md) |
 | Platform Disruption & Startups | [Totally Prepared for 2026](videos/evxl5gli5f4.md), [Why the Software Industry Hates Your SMB](videos/LprdHSteOZc.md) |
 | Education & AI Literacy | [Bots, Feeds, and Kids](videos/EfN9hOoP7L4.md), [Matt Seitz: MBA...I?](videos/DyRfO9rlJGs.md) |
+| Healthcare System / Insurance Reform | [Erynn Petersen: Fixing Healthtech, One Bill at a Time](videos/BPxLUHFiKyQ.md), [AI in Healthcare: What Actually Works?](videos/nBfCHI2J4pk.md), [Docs Heart Bots](videos/J3yr8LMAqGE.md) |
 
 ## Video Categories
 
 ### Guest Interviews
+- [Erynn Petersen: Fixing Healthtech, One Bill at a Time](videos/BPxLUHFiKyQ.md) - Emme CEO on healthcare insurance, medical billing, and AI in medicine
 - [Gideon Lewis-Kraus: How Anthropic Sees Claude](videos/Y3daHxt_TlA.md) - New Yorker staff writer on Anthropic and Claude
 - [Rafe Colburn: Building Etsy in the AI Era](videos/YOhcr71TydA.md) - Etsy CPTO on engineering culture and AI
 - [Dan Frommer: Consumers in the Age of AI](videos/317XJdJ-src.md) - The New Consumer founder on consumer trends
@@ -176,4 +190,4 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 
 ## Tag Cloud
 
-AI (14) | vibe coding (9) | enterprise software (4) | AI safety (3) | regulation (3) | healthcare (3) | AI bubble (3) | privacy (3) | education (3) | Anthropic (3) | OpenAI (3) | security (3) | product management (2) | e-commerce (2) | journalism (2) | AI ethics (2) | surveillance (2) | startups (2) | consumers (2) | hiring/jobs (2) | Claude Code (2) | AI agents (2) | slop (2) | advertising (2) | engineering culture (2) | engineering management (2) | design (1) | user experience (1) | platform economics (1) | network effects (1) | voice interfaces (1) | politics (1) | crypto (1) | SMB (1) | bug bounties (1) | GEO/SEO (1) | Substack (1) | free speech (1) | parenting (1) | consulting (1) | billable hour (1) | women's health (1) | panel discussion (1) | webinar (1) | interpretability (1) | alignment (1) | virtue ethics (1) | autonomous agents (1) | Etsy (1) | Gen Z (1) | TikTok Shop (1)
+AI (15) | vibe coding (9) | enterprise software (4) | healthcare (4) | healthtech (3) | AI safety (3) | regulation (3) | AI bubble (3) | privacy (3) | education (3) | Anthropic (3) | OpenAI (3) | security (3) | product management (2) | e-commerce (2) | journalism (2) | AI ethics (2) | surveillance (2) | startups (3) | consumers (2) | hiring/jobs (2) | Claude Code (2) | AI agents (2) | slop (2) | advertising (2) | engineering culture (2) | engineering management (2) | medical billing (1) | health insurance (1) | Epic (1) | direct primary care (1) | Emme (1) | bureaucracy (2) | design (1) | user experience (1) | platform economics (1) | network effects (1) | voice interfaces (1) | politics (1) | crypto (1) | SMB (1) | bug bounties (1) | GEO/SEO (1) | Substack (1) | free speech (1) | parenting (1) | consulting (1) | billable hour (1) | women's health (1) | panel discussion (1) | webinar (1) | interpretability (1) | alignment (1) | virtue ethics (1) | autonomous agents (1) | Etsy (1) | Gen Z (1) | TikTok Shop (1)

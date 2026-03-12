@@ -1,0 +1,3192 @@
+{
+  "title": "Erynn Petersen: Fixing Healthtech, One Bill at a Time | The Aboard Podcast 2026-03-10",
+  "source_url": "https://www.youtube.com/watch?v=BPxLUHFiKyQ",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Hi, I'm Paul Ford.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:01",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And I'm Rich Ziade.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And this is the Aboard Podcast, a podcast about how AI is changing the world of software. And goodness, Richard, remember we talked about healthcare a moment ago?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "We did.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:12",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "We talked about pajama time.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:14",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Pajama time. And remember how, like, if you go online, you can see the healthcare event we did with the very brilliant doctors and the very brilliant person from the world of AI-automated health insurance processing?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:26",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I think it's only on YouTube. It's not one of our podcast episodes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:28",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, you're right. It's on YouTube. It's on YouTube.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah. So go check that out. Check out our YouTube channel, like and subscribe, you know, all that. Do the- do the things.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:35",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "But, you know, I'm talking to you, but there's someone else here. Erynn Petersen, hello and welcome.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:41",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Hey guys, how are you?",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:00:42",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So let's- we're going to talk to you in a minute. Let's play our theme song. Let's come back, and then let's talk about how AI and healthcare are all blurring.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:52",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "How about that?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:53",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:10",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, so, Erynn, you and I and Rich, we've all worked together in different capacities many times over the years and we stay in contact. You're kind of a mentor to me. I just want to get that out there.",
+      "tone": "warm"
+    },
+    {
+      "timestamp": "00:01:22",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Thank you so much. I'm surprised. Every time I hear that, I think the same.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:01:25",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, it's- it's very real. And so we've all had many incarnations and you have your most recent incarnation, because I'll just- I'm going to read... people can go check out your LinkedIn.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:34",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But I'm going to- I'm going to give a few, like, we have Amazon, we have Microsoft, we have the United States Department of Defense, particularly the Air Force and innovation focused.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:43",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Good times.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:01:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "We had a- we had consulting projects that we worked on for, like, Condé Nast. What- are- any other big ones I'm missing in there?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:49",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Time Inc, AOL.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:50",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's right, that's right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:51",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "That whole Amazon, Microsoft, AOL ordering is a little unusual.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So, really big platform projects across very large organizations. And now you have a startup.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:59",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "In healthcare.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "In healthcare, and it's called Emme, E-M-M-E dot com. It's a good four-letter URL.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:06",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Love it.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:02:07",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, it's good. And you are the CEO.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:08",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:09",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, what is Emme?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:10",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Emme is a service. It's a member service. You sign up for the member service, and we lower your healthcare from day one.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, so I have healthcare, I don't have healthcare... like, what's- what's the scene?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:18",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "We help you out if you have healthcare, and we help you out if you don't have healthcare. If you have healthcare, we make sure you're paying the least amount possible for your insurance and still get your doctor, still get your prescription, you don't have to change your healthcare. We make sure you're saving money on every service when you have to go to the doctor, get an MRI, etc. And if you get a weird bill or a huge bill, we have a bill negotiation service. And if you don't have insurance, we help you figure out how to get healthcare in the first place and healthcare-",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "healthcare that's not going to bankrupt you.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:03:03",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "So, that's it—you fixed it.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:03:05",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Well, you know, long journey. First steps, first steps.",
+      "tone": "modest"
+    },
+    {
+      "timestamp": "00:03:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Thank you so much.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:03:10",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Department of Defense to healthcare.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:03:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You fixed American healthcare. That's really cool. That's really cool. That's great, that's good.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:03:14",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Give—give American healthcare a letter grade. Like, A—from F to A, where would you put it?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:20",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Uh, solid C.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:03:22",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "So I would give practitioners in the United States a solid B+ to an A. I mean, these are people who show up every day to take care of people.",
+      "tone": "respectful"
+    },
+    {
+      "timestamp": "00:03:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Doctors, nurses, RNs, etc.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:03:34",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Insurance: a D.",
+      "tone": "blunt"
+    },
+    {
+      "timestamp": "00:03:37",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "A D. I—I think everybody's doing their best, so it's really easy to vilify insurance companies.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:03:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It is. Sometimes people kill them.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:03:45",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's one approach.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:03:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. It's not just like vilify.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:03:49",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "I think it's safe to say insurance provokes really passionate feelings.",
+      "tone": "observant"
+    },
+    {
+      "timestamp": "00:03:55",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You think it's the most hated industry?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:03:58",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "100%.",
+      "tone": "certain"
+    },
+    {
+      "timestamp": "00:04:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, I think even AI isn't coming in anyway close.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:04:05",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Because people, you know, believe AI might go away. They're really afraid insurance won't.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:04:10",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Talk a little bit about the D. Break down the D, right? Uh, the D grade.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:04:15",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "I think the D grade comes from, you know, you take people at their most stressed. You take people at their most worried.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "And then you layer over this paperwork concern. It's just a paperwork problem.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:04:27",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "And you know, we're in 2026 now. We're firmly in the age of AI. We've moved to the cloud.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:33",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "So many things have become simplified. There's absolutely no reason that the overhead associated with processing, for example, running your kid into primary care for strep throat, is as complicated and ornery and time-consuming as it is.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:04:44",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "There's something to be said for primary care being about caring for people. And what you really want when you run into your primary care doctor, when you run into your pediatrician, you just want somebody telling you it's going to be okay.",
+      "tone": "compassionate"
+    },
+    {
+      "timestamp": "00:04:54",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "You know, a lot of times when we're talking about insurance, we forget that most people, most of the time, are healthy. They're spending all this money, but most of the time most people are healthy, and most of the time only little things go wrong, and people just need to be reassured.",
+      "tone": "philosophical"
+    },
+    {
+      "timestamp": "00:05:05",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I mean, let's talk for a sec because we're talking in a very broad way about this like really messy industry that everybody hates.",
+      "tone": "grounding"
+    },
+    {
+      "timestamp": "00:05:13",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "So, give me some stats. You always have stats. How many people are uninsured? Like, what—what are some numbers to help us understand where things are at with health insurance in America?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:05:23",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "It's a great question.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:05:24",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "I think most people right now have insurance—through their employers, through the marketplace, through Medicaid, Medicare. Most people right now have some form of insurance.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:31",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "What's really changed since January 1st is the cost of that insurance for most people.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:05:37",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "So with the subsidies going away, if you're on a private marketplace, if you're paying for your own insurance, you're really feeling the cost of your insurance at this point.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "You're paying for it and not your employer.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:02",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "If you're paying for it and not your employer, it's roughly, you know, a third of Americans, give or take.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:07",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay. And it's gone up percentage range?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:06:11",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Oh, it's gone up for, you know, one of my kids went from $37 to $280.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:06:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Wow. That's like 4x.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:06:18",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah, that's a lot of money. And this is not an unusual leap that people saw after January 1st.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:06:25",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah. Okay, so about a third of Americans is now going like, \"Whoa, I don't know if I can afford this.\"",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:06:30",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Oh, absolutely.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:06:32",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Where do you think we're headed? Are people going to start dropping off the roles again? What's the...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:06:38",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah, we're already seeing that.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:06:39",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "So people are quitting their insurance. People are saying I can either have insurance or I can eat or I can pay rent. I mean, it's really, the numbers have gotten to be this severe.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:06:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So we're going back to the world of everybody going to the emergency room if something goes really wrong, but otherwise just being sick.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:06:52",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "We have, but there's one important thing that has changed since that was the case.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:06:56",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "If you try to go to the doctor now, most doctors, if you try and walk into a hospital, the very first thing they say is, \"Do you have insurance?\" Right? And if you don't have insurance, often you get, even if you're not directly turned away, you're discouraged from care.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:07:13",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "And so very few people right now who don't have insurance have the social access or the education to understand, \"Well, this is how I get care anyway.\"",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:07:18",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Even emergency room?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:07:19",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Even emergency rooms.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Right. So...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I mean, this is true. Every time...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:07:25",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "And that's if you speak English, by the way.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:07:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, every time I go with the kids, it is definitely there's a filter there now that wasn't there before.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:07:32",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "For sure.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:07:34",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "For sure.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:07:35",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah. And it's not because the people at the front desk are bad people, and it's not because the hospitals are bad people. It's because these are front-desk staffs under tremendous pressure. They've got paperwork, they've got forms. You're walking in, you don't fit their form, you don't fit that that process. It's very hard for them to figure out what to do with you.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:07:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Let's go beyond our adorable little AI podcast here and just, this is a conversation and a lament that's been happening as long as I've been paying attention, 35 years. Before then I was high, so I didn't really know what was going on. But it really is, it feels like this impossible part of American society, right? Like it feels uniquely American.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:08:20",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "This feels intractable, frankly. And it's just, it feels like, well, if you want to be the most powerful capitalist country in the world, this is part of the game. It feels like it can't really get better.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:08:30",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Right, right, right. Which, and it does absolutely feel that way.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:08:33",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Forever.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:08:35",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Forever. And you know, I've worked in technology now for around 30 years. You all have been in technology for around 30 years. Like I distinctly remember when the guy next to me at Amazon started working on an e-reader. And I was convinced nobody, myself included, was ever going to read a book on a phone.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:08:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Spoiler alert.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:08:56",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:57",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It wasn't even a phone. It was like slow e-ink.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "All right. So that became the Kindle.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "completely transformed how we consume media, blah blah blah blah blah. And, you know, that was less than 30 years ago. I mean, it could take 20 years to change this. It could take 30 years to change this. First of all, it is absolutely changeable. Second of all, the economics right now are so incredibly broken that it is absolutely going to change, and it might as well change for the better.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:09:01",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "It became the Kindle, right? And",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "They're broken because all the money goes to the insurance company? Like what's the broken part?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:26",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "The broken part is, you know, the average household right now for an employer costs over $30,000 a year as of '26 to insure. Hospitals are losing money hand over hand over fist. Doctors are leaving the profession. We've lost almost 40% of our general practitioners since before COVID. Not because of COVID.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:09:41",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "What are they doing?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:09:42",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "They're going to private equity. They're doing startups, same as all the rest of us.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:09:48",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh my god.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:09:49",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "This is totally real. When you when I was a kid and you would go to the doctor, they just would talk about like—",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:09:53",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Startups.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No! No, but also like hobbies and golf and they just had good lives.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:10:00",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah, they had the pictures of their sailboat on the wall.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:10:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And by the time I got into my 20s, you'd talk to a doctor and they'd be like, 'Yeah, it's not really the best job.' And they were just complaining, or they're drowning in debt.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:10:10",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And it sounds like you think there is a path out is what you're saying.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:10:14",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "I absolutely believe there's a path out of this.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:10:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:16",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "And I think ironically it relies on technology. You know, and like, I'm not always a pro technologist, but in this case, I absolutely think that technology is the pathway forward.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:10:25",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Walk us through that.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:10:26",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "I think there's a couple of things that really have to be fixed in healthcare. One, if you've got a bill under $2,000, that's roughly 80% of medical bills. There's no need to put $1,500 or $2,000 worth of paperwork behind assessing whether or not that bill is viable.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:10:41",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And people and sign-offs and workflow and all.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:10:45",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Like, I'll walk into an Airbnb, I'll sign up for $8,000 in expenses in an Airbnb over the week. Nobody asked me if I had a bachelorette party or if I fed my in-laws, right? Like, nobody cares what happened. Nobody needs the information about what happened in a doctor's appointment. You just charge the doctor bill.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:10:51",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Bureaucracy.",
+      "tone": "flat"
+    },
+    {
+      "timestamp": "00:10:52",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Bureaucracy. Just bureaucracy.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:10:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You think that's a big chunk of the cost?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:10:56",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Oh, absolutely. Absolutely. We're spending per person a couple thousand dollars a year on overhead and administrative costs in the US healthcare system.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay. Why is that bureaucracy there? Is it because they're convinced that doctors will be ripping off the health insurers unless they get everything itemized? Or like, what's the...?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:11",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "I think it's a frog in a pot. Right? I don't think anybody woke up 30 years ago and said, 'You know what would be great? Let's build an entire industry, 17% of American GDP, around medical paperwork,' right? Like, that's just not what happened. But we got here through a succession of steps. Right? Like, Epic built this beautiful system to allow for billing.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:11:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Put that in quotes.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:11:36",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, I mean, let's be clear.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:11:38",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No one is actually saying beautiful Epic.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:11:40",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "I don't admire what they did.",
+      "tone": "blunt"
+    },
+    {
+      "timestamp": "00:11:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, no, and doctors love it. Everybody's happy. I don't want like Mount Sinai to launch missiles into our office.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:11:51",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Its sheer scale of success, though, is you have to acknowledge.",
+      "tone": "grudging"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And where is it? It’s like—",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:02",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "It’s like Minnesota.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It’s in the upper Midwest.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:05",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah, yeah, so—",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Like in a basement.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:12:06",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "It started in some underground bunker, but yeah.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "For people who don’t know, when your doctor is screaming at a computer after they tap your patella—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:12",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It’s my chart, by the way, for people listening. It’s often seen as my chart.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:12:16",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It’s Epic and they just—and Epic is the giant, it’s sort of the Salesforce for doctors, right?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:23",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah, exactly. It’s the system of record for all these hospital systems.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:12:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I mean, I’m saying a basement in—I think it literally started as a really small thing for a couple of hospitals and it just exploded.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:32",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah, it did. They handle their billing. They handle their billing, they handle their billing—",
+      "tone": "emphasizing"
+    },
+    {
+      "timestamp": "00:12:37",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Was it billing when it started? Yeah?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:12:38",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Exactly, that's what it started at.",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "00:12:39",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, so we have this enormous, very powerful database platform that everybody’s kind of opted into, that itemizes everything that doctors have to type into all session long and all night long in their pajamas. So that—so that leads to, like, well now we need to know everything in order to pay that bill.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:54",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Right, exactly.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:12:55",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:58",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "And it is so big that it is next to impossible to replace. Replace the institutional system, right?",
+      "tone": "emphasizing"
+    },
+    {
+      "timestamp": "00:13:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "God, this is real—these systems create—",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "00:13:04",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "They create their own gravity.",
+      "tone": "metaphorical"
+    },
+    {
+      "timestamp": "00:13:06",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, and the bureaucracy is spun out of what the database can do rather than what the doctors want to do for the patient.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:13:12",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's—I mean, just to give everyone a little insight, it’s not just doctor notes. It is everything. It’s appointments, it’s wired up to pharmacy—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:21",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Like all pharmacies, your prescriptions, your pharmacy, CVS—they’ve got their client and, like, portal to get prescriptions. It’s wild.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:13:26",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And you know what's amazing? And I have to give them credit. They managed to do it without ever hiring a designer. It’s very, very impressive.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:13:33",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "There is this spinning pill animation point. It’s really something.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:13:37",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, so that’s a big meaty first target. That cost—cost of just process and bureaucracy and all that.",
+      "tone": "summarizing"
+    },
+    {
+      "timestamp": "00:13:41",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "But I’d actually step back from there, right? Because the second one is that doctors right now find it to be incredibly hard to find patients.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:47",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And so doctors have to go through hospitals. It’s actually very difficult for a doctor to set up a practice and figure out how to acquire new customers.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "How come?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:53",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "They’re going to medical school. I just spent a whole weekend in Boston with a bunch of doctors trying to figure out, okay, could—you know, what would it take to start practices for people, basically.",
+      "tone": "anecdotal"
+    },
+    {
+      "timestamp": "00:14:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, I was just in Boston with a bunch of librarians. I think we could have—like, we could have had a party.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:14:07",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Wait a second, slow it down.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:14:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "All right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:14:10",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "But it's, you know, people aren't trained in medical school to go out and open their own independent practices. And it's very daunting. It's a—it's regulatory-heavy, all the things, right?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:17",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Right, 'cause just getting your own liability insurance is probably really hard.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:14:22",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Right.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:14:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Right there is, like, eight, nine thousand dollars a year if you have to find it, keep it up, licenses, all that. You have to be able to keep up with every single insurance. You have to be accepted as part of an insurance network. You have to be doing that paperwork over and over and over again, at least annually to be certified.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And you need staff.",
+      "tone": "logical"
+    },
+    {
+      "timestamp": "00:14:47",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You need a team to just—very expensive, very fast.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:14:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So you actually would have to have, like, a real grumpy founder mentality to want to plow through all that, right? And most people don't, on Earth.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:14:56",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "They latch into networks, right? They latch into, like, 'I'm part of the Mount Sinai health network' or something like that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "I'm in a group and so I get referrals from other doctors, neighborhood health, etc.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:04",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Same reason why you want to get a job anywhere, right? You get this.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:06",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:07",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:07",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "But if you can make it easy, you know, we just talked about that 40 some odd percent of doctors who have left practice. If you can make it relatively straightforward for them to start taking patients again, and then just charging for direct care. DPC is a huge movement. So it ranges from concierge where you're spending, you know, $1,000 a month all the way over to direct paying for your services. So, uh, doctor-",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:28",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So direct pay care is DPC.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:29",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Direct pay care is DPC.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:31",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Direct primary care.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:32",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:34",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Let me say this back to you because I might get it wrong. Doctors have to latch onto these bureaucracies and lean into their efficiencies of scale to get paid. And because it's too hard to stand up your own office and your own clinic or whatever, because this goes back to the bureaucracy issue, because to get paid, you've got to have people ready to do all that paperwork and make sure they're chasing the insurance companies and all that. So it's all weighed down such that it's turned off the practitioners to even go out on their own.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:16:13",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "It's just so daunting. Like I'm going to go to a PE firm and I'm going to work on some med-tech startup.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:16:19",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Got it. So this is like a $17 trillion industry and you're thinking like a couple trillion is like right there in those $2,000 or less procedures and the fact that doctors have to be locked into the hospital systems. So you- you think a huge amount about if you could just work through those, you could probably get some margin back into this thing and everybody could have a good time again.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:16:46",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "100 percent.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:16:47",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Because there's one other complication to be aware of. So if you're a hospital and, you know, Paul comes in for his MRI and Paul slaps down the insurance card, goes back and forth between Paul, the insurance company, the hospital, etc., etc. for about six months before the insurance company says to the hospital, finally, this is what we'll pay you. So hospitals are getting paid six months or so after the service is rendered.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:17:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Is it six months?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:17:22",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "It's 90 days to six months. You're lucky if it's 90 days. It's actually generally closer to about 183 days before you're getting paid.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:17:28",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Wow.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:17:30",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "And so there's also cash flow challenges that small practices are just not designed to handle. They can't handle that, right? So if you can shift to a world where all the medical services that are reasonable to pay out of pocket—we're going to get back to that again in a second—under $2,000, and you get the- make it easy, just get the bill when you walk in the door. You either pay it right then, you sign up for a payment plan, the hospital gets paid right then, or the doctor gets paid right then.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:17:39",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Lower the barrier to payment too.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:17:43",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Exactly. So pause for one sec, right? Like, so you're talking about, what would it cost if, let's say a doctor came to you and was like, \"you seem to know a lot. I want to start my own private practice today.\" Today, how much would you say you need to budget? Like, it sounds like at least a half million or it's pretty serious.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:17:56",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Could be more than half, depending on what-",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:17:57",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "So I know somebody, Dr. Elizabeth Shields.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "She's incredible. She just started her own practice.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:18:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "God, that's a good name.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:18:05",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Isn't it a great name?",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:18:06",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes, it's a great name.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:18:07",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "She's also a great doctor.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:18:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:08",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "This podcast is sponsored by...",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:18:10",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "...Dr. Elizabeth Shields.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:18:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You don't even need the Elizabeth, just Dr. Shield. Oh, what's... I want whatever she's selling.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:18:15",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "She's incredible. She just... she just left the Navy. She just set up her own practice. She was like, 'Hey...'",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:18:19",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Ex-Navy Dr. Shield? Holy crap, it just keeps getting better and better.",
+      "tone": "very enthusiastic"
+    },
+    {
+      "timestamp": "00:18:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh, it gets even better.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:18:25",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "She also sells anti-virus software, by the way.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:18:27",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "She was like, 'Alright, how do I set up a practice? What's the most cost-efficient way?' She has kids, you know, etc. So she set up an at-home doctor service. You call her, like an old-fashioned doctor, and she shows up at your house. She gives you care, you pay the $300 for the appointment, you both go away happy. She's phenomenal. So...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:48",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Where... where is this?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:18:49",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "She's in Rhode Island.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:50",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:51",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That's great. Rhode Island, she can cover the whole state. That's pretty cool.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:18:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "On a bicycle.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:18:55",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "And a ferry.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:56",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Does she have an off... a clinic? Does she have an office?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:18:59",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "No. She has a car.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, that's huge.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:19:01",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's huge. Because you don't have to fit a clinic and have all that, so she's mobile and moving around.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:19:06",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "She's mobile, she's moving around, she's seeing people in the house, which is great if you, you know, you don't want to take your sick kids out to a freezer today.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:13",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's how it used to be.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:19:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:19:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, but it's awkward because then you have to clean because the doctor's coming over. Like...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:19:21",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "I actually had the same thought.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:19:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Your wife would be very happy to hear you say that, because you never clean up that.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:19:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That's true. Alright, keep going. So...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:19:28",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "She can really bring down the cost of overhead, but it takes a different kind of mindset as a physician to say, 'You know what? I'm going to put my hand out to the system. I'm going to open my own practice. I'm going to figure out how to right-size opening this practice, take the risk and get out there.'",
+      "tone": "admiring"
+    },
+    {
+      "timestamp": "00:19:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "There's nothing, you know, there are regulatory reasons you can't just go to someone's house and treat them. There's nothing stopping anyone from doing that.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:19:52",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "I mean, doctors can doctor anywhere.",
+      "tone": "factual"
+    },
+    {
+      "timestamp": "00:19:53",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Doctors can doctor anywhere.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:19:55",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, I mean we need... it's DoorDash for doctors. DoorDoc. DoorDoc is what we need.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:20:03",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "So, we're setting this up, I mean, this is a tech podcast. The insurers are a little off the hook here. There's something endemic in the way the system works. Everyone thinks insurance companies are hoarding money, right?",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:20:13",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Right, which maybe they are, maybe that's another issue, right?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:20:16",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I mean, they're hoarding a little. Let's be, come on, now. Yeah, there's a lot of...",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:20:20",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "But the picture you've painted here is one where the bureaucracy is so getting crushed by its own weight that the costs have gone up not for treatment, not because medicine is hard to produce, it's because of paperwork and process.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:20:37",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I hear something different, though. What I hear is the insurers are holding on to things for 183 days and are able to financialize everything that they've got. So they're basically giant banks, and it's really in their best interest to add as much friction into the system so they can hold on to that money for as long as they want to.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:20:58",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "I think that's true.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And so that's where the tech comes in.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's just essentially, it's like—",
+      "tone": "contemplative"
+    },
+    {
+      "timestamp": "00:21:02",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And the doctors are the one holding the bag. They're the ones that are in the bind.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:21:06",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:21:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So, what can technology do? I mean, I don't even know if we need to—we can talk about AI, we should talk about AI because it's an AI podcast. But put aside AI, I've got to imagine a lot of this has to do with just ripping roots out of the soil and changing how we work.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:21:24",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yes. And every great technology change is an opportunity to re-examine large, gnarly problems and see if this is an opportunity to finally disrupt what's going on and really fix it.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:21:39",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "So, we've all seen very large industries that are failing under the weight of their bad technology choices, or technology choices that made sense 20 years down the road but are now an encumbrance, right? They're outdated. So, you have all this cruft, all this process that piles up around it, blah, blah, blah.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:21:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I mean, try to access your checking account, right?",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:21:58",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Great example, great example.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:22:00",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "And if you think about technology, the last big technology change that drove a lot of efficiency across major industries was the shift to the cloud. Not just because people moved their data to the cloud from their own servers, but because when they did that, CTOs used that as an opportunity to shift to services-oriented architecture, and people using Git and Slack to communicate instead of email, right?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:22:27",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I mean, let's actually be explicit about the process, which is you fired the old CTO and then hired a new one who would re-platform and bring you into this whole new world, right? Like, that was—it was a big transition everywhere. Now, some CTOs did make the jump, but like, but that's what I'm saying, like, it was understood—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:22:42",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "You went from a CIO to a CTO in those cases.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:22:43",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, and it was understood, like, the CEO made this decision because they're like, \"We've got to get there. That's what the—this is what the investors want. This is where we have to go.\"",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:22:54",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yes.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:22:55",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay, so you think we're at another inflection point like that?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:22:56",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "I do. And there was a corresponding change that happened, if you guys remember, the role of the CFO suddenly shifted because you went from, for example, running a giant media company and not knowing how much it cost to produce anything, to suddenly your CFO can see a report that shows you in Jira tickets what your CapEx versus OpEx is of building things and maintaining them, etc. So, there was this rationalization and cost that came into a lot of industries.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:23:18",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "People may not know this, right? Like, if you're in a—if you're in a publicly traded tech company, like, your GitHub commits become part of the thing that gets analyzed by Pricewaterhouse—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:30",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "It's such a great example. Yeah.",
+      "tone": "validating"
+    },
+    {
+      "timestamp": "00:23:33",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "And if you—if your career started after the cloud, you don't even realize that happened before. So, this entire transformation—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:23:38",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "We used to have fun in this country, you know? Nobody was paying attention to anything, just hack some Perl. Anyway, go ahead.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:23:45",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Rich is like distressed.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:23:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, no, it's worth—I mean, we're about to talk about the next—the—this is a transformational opportunity today.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:23:51",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "I agree with that.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:23:51",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:23:52",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah. And that's where I'm going, like with healthcare, that whole shift to the cloud skipped healthcare because everybody—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Said it Epic was working fine. I mean, if anything—",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:24:02",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Nobody bothered.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Nobody bothered. Like, you had this segregated data because, like, it didn't—nothing changed about the architecture.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:08",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Exactly. There was nothing changed about the economics of it.",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:24:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's really confusing because we did this event, right? You were there, I was moderating, and the doctors just love tech. They're like, 'Let's go, ready, soon as—' but then the industry is like, 'You can never do anything because of HIPAA. We actually can't even use computers, we just have to go back to index cards, nothing can ever change ever.'",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:24:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "But we've seen this before, right? Literally the three of us have seen this happen. We have sat in rooms with CTOs who have said, 'No, thou must use Teams. You will never use Slack.'",
+      "tone": "reminiscent"
+    },
+    {
+      "timestamp": "00:24:38",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah. And what happened? Everybody adopted Slack anyway.",
+      "tone": "matter-of-fact"
+    },
+    {
+      "timestamp": "00:24:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And then Microsoft made Teams free. And now everybody complains about Teams every time—",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:24:49",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Wait, but what was the thing before Teams?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:24:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh, it was worse.",
+      "tone": "dismissive"
+    },
+    {
+      "timestamp": "00:24:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It was worse.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:24:55",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "That's the one that—at Microsoft? Yes, they fired it. Anyhow, we'll get back to it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:58",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh, the social Yammer, Yammer thing. Yammer, thank you, Yammer. CTOs tried to get people to use Yammer when—yeah, it was, and then Slack came along and people started using—that's basically what's happening with doctors.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:25:05",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "But—but Slack, Slack took hold because CTOs woke up one day and there was like viral growth of a—of a chat tool inside of their companies.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:25:13",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah. This is a lot harder to pull off, right? I mean, they missed the boat last time.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:25:16",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Why won't they miss the boat this time?",
+      "tone": "challenging"
+    },
+    {
+      "timestamp": "00:25:18",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "I don't think it's—I don't think it's—I think it is as easy this time. So what's happening this time—so what happened with Slack was, people brought this consumer-grade enterprise product into their enterprise environments,",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:25:26",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "completely changed who was talking to whom, what work was being done, how work was being organized.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:31",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "They didn't ask for permission.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:33",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Nobody asked for permission. And what you have right now is physicians getting these really easy-to-use AI tools, slipping them in on their phones, slipping them in on their pockets, their own transcribed tools, their own—",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:25:43",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "you know, their own testing tools. They're writing their own tools themselves just as readily as anybody in any other industry.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:25:50",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "And I think we're likely to see the same sort of dynamic occur as occurred with Slack and the shift to the cloud.",
+      "tone": "predictive"
+    },
+    {
+      "timestamp": "00:25:56",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "As soon as it got really expensive for people to keep putting that Slack account on their own corporate credit cards, you had to go to the CFO to get permission.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:26:01",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "And the CFO's like, 'Haha! Like, I'm going to work with the CISO and I'm going to bring this under control.' And I think we'll see the same thing happen with hospitals and with doctors' practices.",
+      "tone": "ironic"
+    },
+    {
+      "timestamp": "00:26:07",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Could you ever replace Epic though? Do you think it's possible?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:26:12",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah.",
+      "tone": "certain"
+    },
+    {
+      "timestamp": "00:26:12",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:13",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "I do.",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:26:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I—I'm going to make a counter-argument and let's get into a heated debate.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:26:18",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "I was hoping we were going to go pro-Oracle and go all pro-Cerner there for—",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:26:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Pro-Oracle, just pulling out the big guns. I can't even process that.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:26:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I think what's interesting about Slack's ability to take hold inside of organizations is that it did not replace, like, well-entrenched workflow.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:26:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It, in fact, augmented it.",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And success of Slack could end in a department. It didn't have to take over the whole org.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:06",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "There was no hub. It was all node based, right? Like so you could have 18 people who got into it and then they invited others and it would sort of slowly seep out.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:27:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Epic and a hospital's workflow around paperwork out to insurers, communication out to patients, doctors having requirements that they have to work through. That is through a particular communication platform and workflow platform that has to be blessed top down, right? I can't the the tools doctors are using today are personal productivity tools. They a doctor cannot walk into an admin office at a hospital and say, listen, I'm done with the old way. I'm going to send them to you this way. It doesn't work. You have to go into that shit system that's on wheels. They're always on wheels, those computers. And you have to use that system. So how do we break that? Because I think it's a much more challenging thing to break.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:27:31",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "So, you know, we've all talked about pajama time, right? Doctors having to go home at the end of the day, do all this paperwork catch up.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:27:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:54",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "That's an excellent place for doctors to begin to insert their own tooling or their own bespoke tooling. You know, build your own, you know, voice activated transcription system, go home, even if you're cutting and pasting it into the hospital tools, there's no safeguards against that, right? You're still saving time. They're hacking.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:28:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "They're hacking.",
+      "tone": "realizing"
+    },
+    {
+      "timestamp": "00:28:06",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah, they're hacking. And like everybody's just hacking right now. And they're hacking because the tool situation is so poor.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:28:13",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Right. Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:28:14",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "This is wild because I keep thinking of those systems are almost like they're not sacred in the same way that you would expect like they're like, yeah, screw it. I'll cut and paste. I'm good. I'm going to take it out of my phone. I'm going to put it in here. So okay. So they're pushing around the edges.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:28:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Professionally for me, I always went after the people, not went after them, that sounds like a stalker. I loved those people.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:28:29",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Exactly.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:28:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Who had decision making power that could influence an org. Because it's easier to sell to a major stakeholder because the truth is when you join a hospital system, you're trained on systems. And someone bought those systems and that's probably still going to be the case for a while. Like the idea of a wild west, especially in healthcare, is a ways off.",
+      "tone": "tactical"
+    },
+    {
+      "timestamp": "00:29:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm a CTO type in a big hospital system. I make big purchase decisions and I have enormous influence on the tools they use to run the whole system. I'm scared of getting fired. I don't want to get it wrong. This is people's lives at stake. Healthcare data is obviously extremely sensitive.",
+      "tone": "grave"
+    },
+    {
+      "timestamp": "00:29:44",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "But I get it, there's a thick layer of bureaucracy that is killing us. Give me some advice.",
+      "tone": "sincere"
+    },
+    {
+      "timestamp": "00:29:53",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:29:54",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "So the person who is in the best position right now to tackle that is the CFO. Because the CFO at every major, frankly every minor hospital...",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Hospital right now is looking at their numbers, looking at the numbers crumble for the next 18, 12, 24 months. They're like, \"Oh my god.\"",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:30:07",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And they got those cost line items.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:30:08",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yes, and you see the federal funding drying up, it's getting unpredictable, etc. And you're looking over here in the other world, you're seeing this sweet, sweet concierge medicine dollar flowing over here.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:30:20",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Huh. Wow. Maybe we'll go run a concierge practice.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:30:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That's delicious.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:30:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's tasty.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:30:25",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "But you really care about your community, you love your patients, you care about your patients deeply, and you're trying to figure out, is there a way that we can carve off some set of our services, or some set of our practitioners, or one of our locations, or two of our locations, and make that a walk-in, cash-pay situation and begin to test there what it takes and what it means to offer, for example, cash-pay urgent care.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:30:54",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Can we put together a clinic that offers it at rates that are affordable to the local population, that people can pay on day one?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:31:02",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "How does that affect my cash flow to have that money coming in day one with no overhead so that I don't have to chase it down?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:31:07",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "So it's really interesting because I think the person in this case who has the most to win in this technology change are the CFOs.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:31:21",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "So if they're feeling that pressure, then they... one of the ways that they can start to resolve it is by really going... so like, what's the first step for them?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:31:31",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "First step for them is to find a partner, Emmy. I think we're a great partner for this.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:31:35",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Go outside. Is go outside.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:31:36",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah. Go outside.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:31:37",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Absolutely. I mean this is something we all know about doing innovation at scale, right? You go outside.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:31:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm not going to ask my hospital system to create a virtual startup. I think that's a bad idea.",
+      "tone": "pragmatic"
+    },
+    {
+      "timestamp": "00:31:45",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, it's too stressful for people.",
+      "tone": "sympathetic"
+    },
+    {
+      "timestamp": "00:31:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Alright, so I call Emmy and I'm like, \"Hey, Erynn, you seem smart. So what do I do here? What do you got for me? I don't... help me understand your product.\"",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:31:54",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah. So let's go with Nebraska General. So you're out at Nebraska General, you're like, \"Hey, you know what? I'm losing money hand over fist. I have to figure out how to offer product out to my community.\"",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:32:08",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "And I say, \"Hey, you know what? Your community is worried about coming to the doctor because they're afraid their insurance is going to send them a surprise bill. They don't know how much it's going to cost.\"",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:32:18",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Most of your bills are coming in well under $1500, which by the way is well under the deductible from most people's insurance plans.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:32:26",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Let's go ahead and let's set up a clinic, a cash-pay clinic so that people can walk in and get their MRIs, they can get their stitches, they can get basic predictable primary care services and basic predictable emergency room services.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:32:41",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Very reasonable rates. $350 to get stitches, very reasonable.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:32:46",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "And I'll make sure that you're paid the day that patients walk through the door.",
+      "tone": "reassuring"
+    },
+    {
+      "timestamp": "00:32:50",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "And if their care has to escalate beyond that appointment, I'll help you have a clean handoff into their insurance company.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:32:57",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Just help me understand where the value is for the person who's walking in on the door because they're used to... I'm used to just slapping that card down. How do you train...?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "people that know you may just actually want to pony up.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:03",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "So there's a large number of Americans right now, you know, 43% of Americans are avoiding going to the doctor right now because they don't know how much it will cost. Simply having a price sheet up front where you say 'This is exactly how much it costs'...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:16",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Demystifies it, yeah.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:33:18",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Demystifies it. Here's how much it will cost. Pay up front, you're not going to get a surprise bill. That in and of itself removes a tremendous amount of friction from most American households.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:27",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Right, because I spend lots of money and I get the good insurance, so I don't know, it's really easy for me to walk into the doctor.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:33:32",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "You, currently.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:34",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, yeah. But they don't. They know it's going to cost something and they're just... it's confusing, so it's like, I just hope, I'll just weather it. Hopefully it's just a sprain kind of thing.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:33:43",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "These are—these are good sound ideas. I'm so suspicious of the imagination required to—like, these aren't like tweaks. These are like—you're sort of revisiting a business model in a large—to a large extent. I wonder if this is more CEO—I think—we need some case studies. We need some stories.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:34:03",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I think, pause for a sec. Just explain your product to the world so that—cause so that we can understand the framework a little bit.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:34:10",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Sure. So there's a patient side and a practitioner side. On the patient side, you set up a membership with us. And as part of your membership, the very first thing you do is you get a face-to-face onboarding, and we figure out, are you on the right health insurance plan?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:25",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And a human does that.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:34:26",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "A human does that. We've discovered that most people are overpaying on their insurance plan by about a thousand dollars a year. So first we figure out, are you on the right insurance plan? Does it cover your doctors? Does it cover your prescriptions? Are you going to get any weird out-of-network costs?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:40",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Always surprises people, the out-of-network stuff.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:34:42",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Not our people, right? Like, it's something that we look really hard at. And this isn't visible to you, by the way, when you're just buying off the marketplace. You can't see this. But we've built out the tooling to be able to assess that. So that's the first thing we do.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So you have humans who have access to data and tools that can help people understand their health insurance.",
+      "tone": "summarizing"
+    },
+    {
+      "timestamp": "00:34:57",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yes.",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "00:34:58",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay. And they're giving you a credit card like to do this? Like how's that work?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:35:02",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "No, they're giving us their statement of benefits. We're taking their statement of benefits and we're shopping for the best possible plan. We've had one person so far who was on the best possible plan out of, you know, forty-something, and they were just relieved to know they're on the best plan, right? So once you're on the best plan, then when you need services, you come back to us and we say, okay, here's the best value for you for an MRI, or the best value for you for an X-ray for your thumb, or, you know, your annual shots. And then if you do have any weird or surprise bills, we have a bill negotiation service. We use AI on the bills up to four hundred and after that we have a partner, Wheelhouse Health, and we send you over to them.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:35:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay. So I subscribe to you like as a service ongoing, or I pay you once, or how's that work?",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:35:49",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Pay us once. It's a twenty-five dollar a year membership, and if you don't save at least a hundred dollars, we refund your twenty-five back to you.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:35:56",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's a no-brainer.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:35:57",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That's pretty solid.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:35:58",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, and now on the practitioner side.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "On the practitioner side, if you're interested in working with us, Dr. Elizabeth Shields, for example, works with us.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:06",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "She's back.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:36:07",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "She's back. Yeah.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:36:08",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "So when we have somebody in her area, we say, 'Hey, by the way, for your medical care, here's an option for you. You can call Dr. Shields. It's a predictable price, she'll come to your house, the care's amazing...'",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:19",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Clean your kitchen, though.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:36:20",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "She's very non-judgmental. She's incredibly kind.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:36:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm sure.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:36:24",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "She'll look away.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:36:25",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "She'll look away.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:36:26",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "She's got children.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:36:27",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Just that chill navy doctor. They... they are very, very non-judgmental.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:36:31",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "You really have to have an appointment with her. She's... she's incredible.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:36:33",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "But we have partnerships. So we've started to set up partnerships. We're like, 'Hey, here's... here's where it goes.' And then over the long term, when we're able to show physicians, when we're able to show hospitals and medical services, that, 'Look, you can get paid faster at better negotiated rates with us than you're getting with insurance companies...'",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:49",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Mm.",
+      "tone": "attentive"
+    },
+    {
+      "timestamp": "00:36:51",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "...and with no paperwork.'",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You're sort of an intermediary.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:36:53",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah, we're like a Costco for medicine at that point.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:36:55",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:36:56",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Nice.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:36:56",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Nice.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:36:57",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "All right. So, big, huge, sprawling problem. The fact that you're pecking away at it is... I mean, I'm guessing as you look ahead for Emmy, the roadmap is beyond just this, right? And trying to make a bigger impact in this challenge.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:37:14",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah. Our goal is to save people millions of dollars, one person at a time. First, we save it on insurance, then we save it on medical care...",
+      "tone": "ambitious"
+    },
+    {
+      "timestamp": "00:37:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Sure, sure, sure.",
+      "tone": "attentive"
+    },
+    {
+      "timestamp": "00:37:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Chip away.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:37:23",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah. We give practitioners a really good negotiated rate. We can move forward.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:37:26",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:37:27",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, let me... let me end this on a really positive note. Okay? How can this get worse?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:37:31",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh, lord.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:37:32",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "This gets worse if we decide that an AI primary care doctor is good enough for poor people.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:37:38",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh, if Doctor Claude is like, 'Sounds like you broke your leg.'",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:37:42",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Well, no, it can get even worse, more dark than that, right? Is if you're paying a low premium or you're an augmented... they send you off to a chatbot. Like, 'Hey, you know what? You're not... you're not really a person-doctor-person. You're a chatbot-doctor-person.'",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:37:53",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Right, right, right.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:37:53",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That's going to happen. You know they want that so bad.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:37:56",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So bad.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:37:57",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "They want that. They are thinking that's what AI's for, aren't they?",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:37:59",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yeah, yeah, yeah.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:38:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:38:00",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "And this goes back to that conversation that we were having before...",
+      "tone": "recalling"
+    },
+    {
+      "timestamp": "00:38:04",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And when I say 'they', I mean the shadowy forces that run the world. I mean, it's just...",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:38:07",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "The ones filling camps in Arizona. Summer camps for people with bad paperwork.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:38:10",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, I think like... people, really, when they look at this stuff, they always see technology as this hammer to just hit the thing that they know the best.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:38:18",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And so they're just like, 'Oh, well, doctors...' And so, 'We'll replace the doctor.' Whereas if you talk to doctors, they're like, 'Let me see five times as many patients, just don't make me fill out 50 forms every time I talk to someone.'",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:38:27",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Exactly, empowering the people.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:38:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Because also...",
+      "tone": "continuing"
+    },
+    {
+      "timestamp": "00:38:31",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "I think there's actually another key too. There's this myth amongst technologists, and also frankly among a lot of medical people, that there is one answer for any... any person that comes into the office.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "...the race is to get to the right answer for a person.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:39:02",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "This is House, right? That's House.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:39:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's House. Yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:39:05",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "But when people interact with the medical system, they want to feel cared for. You know, I've been in a room with somebody who was in rough straits, six highly competent physicians with six completely different opinions as to what should happen next, and the voice that mattered most was that person's primary care doctor, because they knew them, right?",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:39:25",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "They know the picture.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:39:26",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Exactly. So it's not about getting the right answer—",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:39:27",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "—with AI—",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:39:28",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "—with AI.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:39:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "AI would be the seventh opinion.",
+      "tone": "dryly humorous"
+    },
+    {
+      "timestamp": "00:39:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:39:31",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah. Okay.",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:39:33",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "All right, so look, this one is sprawling.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:39:36",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's a little bigger than the typical subject. I think we're going to have to talk again next time you're around. Maybe when we do—we're going to do another healthcare event, we'll announce it soon, you're going to be part of it—so maybe we'll have you back to talk about more things that are great about American healthcare.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:39:45",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Yes, I'd love that.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:39:49",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "So Erynn, if people want to get in touch with you—and they can look, your name is not spelled exactly the way they expect, so just be aware of that if you do want to get in touch—what do they do? Is it LinkedIn? Is it email?",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:40:03",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "LinkedIn's the easiest way these days.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:40:05",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay, so hit you at LinkedIn with you.",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "00:40:07",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Exactly.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:40:08",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "LinkedIn.",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:40:09",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And then emme.com, E-double-M-E dot com, if you want to save a bundle on your health insurance.",
+      "tone": "lighthearted"
+    },
+    {
+      "timestamp": "00:40:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Tell 'em you didn't need a Geico.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:40:17",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, exactly. I don't know what the health insurance lizard would be or what its accent would be.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:40:21",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Transylvanian.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:40:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So thanks for coming on. If you want to replace Epic, you should get in touch with Aboard.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:40:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes!",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:40:26",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Come on Rich!",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:40:27",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "We love building hospital systems.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:40:28",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "We really do.",
+      "tone": "sincere"
+    },
+    {
+      "timestamp": "00:40:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "We're working with healthcare. Honestly, if you told me, 'Hey, take six months, twelve months'—",
+      "tone": "sincere"
+    },
+    {
+      "timestamp": "00:40:34",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Just a couple weeks really, is all it takes.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:40:36",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:40:37",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "If you told me that I was going to go live in a world where we were rebuilding health systems from first principles and that MyChart could be something that seemed to actually care about the—like, I think when they say MyChart, they just mean theirs. They don't mean yours. It's not your chart.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:40:51",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Not your chart.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:40:52",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. Anyway, so Aboard is a system for rapidly assembling and building really complex software. We have very good solution engineers who partner with you. We use AI tools, we ship your stuff. It's sort of like an agency at kind of powered by jet fuel, but a platform as well, and we're going to show more and more of that as we go on. Rich, how do people get in touch?",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:41:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Rich, how do people get in touch?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:41:13",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Hello@aboard.com. Check out aboard.com. We love to talk if you have podcast ideas, subscribe to the newsletter, and also we love to build stuff for you.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:41:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's right. And LinkedIn is good too.",
+      "tone": "adding"
+    },
+    {
+      "timestamp": "00:41:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "All right, Erynn, thank you so much for coming on.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:41:26",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Thank you guys, this was great.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:41:27",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, we'll see you soon.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:41:28",
+      "ad": false,
+      "speaker": "Erynn Petersen",
+      "text": "Bye.",
+      "tone": "cheerful"
+    }
+  ],
+  "highlights": [
+    "The U.S. healthcare system is currently overwhelmed by administrative bureaucracy, with nearly $2,000 of paperwork costs frequently attached to medical bills of the same value.",
+    "A major financial crisis is emerging for hospitals because insurance companies often take 90 to 180 days to process payments, creating unsustainable cash flow challenges for practitioners.",
+    "There is a growing movement toward Direct Primary Care (DPC) and cash-pay clinics that offer transparent, upfront pricing to eliminate the \"surprise bills\" that cause nearly half of Americans to avoid seeking medical care.",
+    "While healthcare largely missed the \"cloud revolution,\" AI presents a new inflection point for disruption by automating the \"pajama time\" paperwork that is currently driving doctors to leave the profession.",
+    "The ultimate goal of healthcare technology should be to reduce administrative friction for doctors rather than replacing human practitioners with AI chatbots, as patients prioritize feeling cared for over simply receiving an automated diagnosis."
+  ],
+  "summary": "In this episode of the *Aboard Podcast*, hosts Paul Ford and Rich Ziade interview Erynn Petersen, CEO of the healthcare startup Emme, to discuss how technology and AI can address the \"intractable\" failures of the American healthcare system. Petersen gives the insurance industry a \"D\" grade, citing an overwhelming administrative burden that costs the system billions in overhead. She explains that legacy billing systems like Epic have created a bureaucratic environment where doctors are forced into \"pajama time\"—spending hours on paperwork instead of patient care—leading to significant burnout and a mass exodus of general practitioners.\n\nTo combat these systemic issues, Petersen advocates for a shift toward Direct Primary Care (DPC) and transparent, cash-pay models for medical services under $2,000. By bypassing the friction of insurance for minor procedures, hospitals can improve cash flow—getting paid immediately rather than waiting six months—and patients can avoid \"surprise bills.\" Her company, Emme, facilitates this by using a blend of human expertise and AI to help members optimize their insurance plans, negotiate medical bills, and connect with independent, affordable practitioners.\n\nThe overarching theme of the discussion is that while AI should not replace the human element of medicine, it is a vital tool for dismantling the administrative bloat that currently suffocates the industry. Petersen emphasizes that the goal of healthcare technology should be to empower doctors to focus on patient relationships rather than data entry. By treating the current crisis as a transformational inflection point similar to the shift to the cloud, she believes the industry can be restructured to be more economically viable and patient-centered.",
+  "description": "Can AI help heal our broken healthcare system? On this week’s podcast, Paul and Rich are joined in the studio by Erynn Petersen, a longtime technologist and the current CEO of Emme, a healthtech startup that works to lower medical costs for both providers and patients. First, she lays out some of the systemic problems that saddle Americans with huge bills (or lead them to avoid seeking care entirely). Then, she discusses how AI tools might revolutionize the industry—as well as the ways the technology could make an unequal system even worse.\n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/erynn-petersen-fixing-healthtech-one-bill-at-a-time/",
+  "duration": 2512,
+  "people": [
+    "Paul Ford",
+    "Rich Ziade",
+    "Erynn Petersen"
+  ],
+  "topics": [
+    "Systemic inefficiencies and high costs in the US health insurance industry",
+    "The burden of administrative bureaucracy and legacy billing systems like Epic",
+    "Direct Primary Care (DPC) and the growth of independent medical practices",
+    "How AI and technology can reduce physician paperwork and 'pajama time'",
+    "Membership-based services for optimizing health insurance and negotiating medical bills"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/BPxLUHFiKyQ/maxresdefault.jpg",
+  "date": "20260310",
+  "youtube_url": "https://www.youtube.com/watch?v=BPxLUHFiKyQ",
+  "youtube_metadata": {
+    "title": "Erynn Petersen: Fixing Healthtech, One Bill at a Time | The Aboard Podcast 2026-03-10",
+    "description": "Can AI help heal our broken healthcare system? On this week’s podcast, Paul and Rich are joined in the studio by Erynn Petersen, a longtime technologist and the current CEO of Emme, a healthtech startup that works to lower medical costs for both providers and patients. First, she lays out some of the systemic problems that saddle Americans with huge bills (or lead them to avoid seeking care entirely). Then, she discusses how AI tools might revolutionize the industry—as well as the ways the technology could make an unequal system even worse.\n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/erynn-petersen-fixing-healthtech-one-bill-at-a-time/",
+    "duration": 2512,
+    "view_count": 16,
+    "like_count": 1,
+    "channel": "Aboard",
+    "upload_date": "20260310",
+    "thumbnail": "https://i.ytimg.com/vi/BPxLUHFiKyQ/maxresdefault.jpg",
+    "tags": []
+  }
+}

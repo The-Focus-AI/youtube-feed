@@ -7,18 +7,24 @@ This document describes how to create a comprehensive, searchable archive of any
 ```
 {channel-name}/
 ├── index.md           # Channel index with stats and topic cross-reference
-└── videos/            # Individual video summaries
-    ├── {video_id}.md
-    ├── {video_id}.md
+└── videos/            # Individual video summaries and transcript data
+    ├── {video_id}.json  # Interview-transcriber output (source of truth for timestamps + speakers)
+    ├── {video_id}.md    # Human-readable summary, highlights, and transcript
     └── ...
 ```
 
 ## Prerequisites
 
+Define the YouTube script path (auto-resolves version):
+
+```bash
+YT=$(ls -d /Users/wschenk/.claude/plugins/cache/focus-marketplace/google-skill/*/skills/youtube/scripts/youtube.ts | tail -1)
+```
+
 The YouTube skill must be available. Test with:
 
 ```bash
-npx tsx /Users/wschenk/.claude/plugins/cache/focus-marketplace/google-skill/0.11.0/scripts/youtube.ts dl-channel @channelhandle --max=5
+npx tsx "$YT" dl-channel @channelhandle --max=5
 ```
 
 For multi-speaker content (podcasts, interviews, panel discussions), the **interview-transcriber** provides speaker-identified transcripts via Gemini audio transcription. It lives at `/Users/wschenk/The-Focus-AI/interview-transcriber` and requires `GEMINI_API_KEY` in the environment. See the "Multi-Speaker Content" section in Step 3 for which channels require this and the exact speaker names to use.
@@ -32,7 +38,7 @@ cd /Users/wschenk/The-Focus-AI/interview-transcriber && npx tsx src/cli.ts --hel
 Fetch the channel's recent videos:
 
 ```bash
-npx tsx /Users/wschenk/.claude/plugins/cache/focus-marketplace/google-skill/0.11.0/scripts/youtube.ts dl-channel @channelhandle --max=30
+npx tsx "$YT" dl-channel @channelhandle --max=30
 ```
 
 This returns JSON with video IDs, titles, durations, view counts, and URLs.
@@ -45,21 +51,19 @@ mkdir -p {channel-name}/videos
 
 ## Step 3: Process Videos in Parallel
 
-For each video, run these commands to get data:
+For each video, get metadata:
 
 ```bash
-# Get transcript with timestamps
-npx tsx /Users/wschenk/.claude/plugins/cache/focus-marketplace/google-skill/0.11.0/scripts/youtube.ts transcript {VIDEO_ID}
-
-# Get video metadata
-npx tsx /Users/wschenk/.claude/plugins/cache/focus-marketplace/google-skill/0.11.0/scripts/youtube.ts dl-info {VIDEO_ID}
+npx tsx "$YT" dl-info {VIDEO_ID}
 ```
 
-### Multi-Speaker Content (Podcasts, Interviews) — REQUIRED
+### Speaker-Labeled Transcripts — MANDATORY FOR ALL VIDEOS
 
-**For ALL multi-speaker content, you MUST use the interview-transcriber** instead of the basic YouTube transcript. The YouTube transcript has NO speaker identification — it's just raw text. The interview-transcriber uses Gemini audio analysis to identify who is speaking.
+**ALWAYS use the interview-transcriber for EVERY video, regardless of how many speakers there are.** The YouTube auto-caption transcript has NO speaker identification and produces inferior results. Even "single-speaker" videos often have introductions, guest appearances, or conversational elements that benefit from speaker identification. The interview-transcriber uses Gemini audio analysis to identify speakers and produces consistently better transcripts with accurate timestamps.
 
-**Multi-speaker channels (ALWAYS use interview-transcriber):**
+**NEVER use `npx tsx "$YT" transcript` for any video.** Always use the interview-transcriber instead.
+
+**Known channel speakers (seed with `--speakers` flag):**
 
 | Channel | Speakers | `--speakers` flag |
 |---------|----------|-------------------|
@@ -69,11 +73,12 @@ npx tsx /Users/wschenk/.claude/plugins/cache/focus-marketplace/google-skill/0.11
 | Aboard Podcast | Paul Ford, Rich Ziade + guest | `"Paul Ford,Rich Ziade,{Guest Name}"` |
 | Relentless | Ti Morse + guests (check title) | `"Ti Morse,{Guest Names}"` |
 | Dwarkesh Patel | Dwarkesh Patel + guest | `"Dwarkesh Patel,{Guest Name}"` |
+| Naval | Naval Ravikant + Nivi (or guest) | `"Naval Ravikant,Nivi"` |
+| MKBHD | Marques Brownlee | `"Marques Brownlee"` |
+| The Iron Snail | Check video for narrator/host name | `"{Host Name}"` |
+| Turing Post | Check video for host/interviewer | `"{Host Name},{Guest Name}"` |
 
-**Single-speaker channels (use YouTube transcript):**
-- MKBHD (Marques Brownlee solo)
-- The Iron Snail (narrated)
-- Turing Post (narrated)
+For any new channel, check the video to identify speakers and always provide them via `--speakers`.
 
 **Command:**
 
@@ -87,10 +92,17 @@ cd /Users/wschenk/The-Focus-AI/interview-transcriber && \
 
 The `-c 180` flag uses 3-minute chunks for better timestamp accuracy. The `--speakers` flag seeds speaker names so they're used consistently across all chunks.
 
-**Processing the JSON output:**
-The JSON contains an array of segments with `speaker`, `text`, and `start` fields. Use these to build the markdown with `**Speaker Name:** [MM:SS](url) text` format for the transcript section, and attribute all quotes and highlights to specific speakers.
+**IMPORTANT: Always keep the JSON file.** The transcript JSON is the single source of truth for timestamps and speaker attribution. It must be preserved alongside the markdown at `{channel-name}/videos/{VIDEO_ID}.json`. All timestamps and speaker names in the markdown (highlights, quotes, key points, transcript) must come directly from this JSON — never approximate or guess.
 
-**IMPORTANT:** Never use the basic YouTube transcript for multi-speaker content. The result will have no speaker names and the transcript will be unusable for a podcast/interview archive.
+**Processing the JSON output:**
+The JSON contains a `full_transcript` array of segments with `timestamp` (HH:MM:SS format), `speaker`, `text`, and `tone` fields. Use these to:
+
+1. **Build the transcript section** — `**Speaker Name:** [MM:SS](url&t={seconds}s) text` format, grouping consecutive segments from the same speaker
+2. **Build highlights and quotes** — Find the exact segment containing the quote, use its `timestamp` and `speaker` fields directly. Convert `HH:MM:SS` to seconds for the URL `&t=` parameter and to `MM:SS` for display
+3. **Build clip commands** — Use the segment's `timestamp` as the start time. For end time, find the timestamp of the segment ~30-60 seconds later in the JSON array
+4. **Attribute all quotes** — Every `>` blockquote must include `— {speaker}` using the exact speaker name from the JSON segment where the quote appears
+
+**CRITICAL: Speaker identification is the single most important quality signal in the archive.** A transcript without speaker labels is fundamentally broken — it's impossible to attribute quotes, understand the conversation flow, or create useful highlights. Every video in the archive MUST have speaker-labeled transcripts produced by the interview-transcriber. No exceptions.
 
 ## Step 4: Video File Format
 
@@ -170,10 +182,11 @@ yt-dlp --download-sections "*{MM:SS}-{MM:SS}" "https://www.youtube.com/watch?v={
 - Include 3-6 highlights per video
 - Choose the most surprising, quotable, or shareable moments
 - Set end time ~30-60 seconds after start for digestible clips
-- The pull quote should be the exact words from that segment
+- The pull quote should be the exact words from the JSON segment's `text` field
 - Good highlights are moments someone would want to share on social media
 - **SKIP THE INTRO** - Many videos open with a teaser/highlight reel (first 30-90 seconds) that repeats content from later in the video. Use the timestamps from the actual discussion, not the intro teaser
-- **VERIFY TIMESTAMPS** - Always open the YouTube link and verify the timestamp actually matches the content. Transcript timestamps can drift by several seconds over long videos. Document the verified timestamp, not just what the transcript says
+- **TIMESTAMPS MUST COME FROM THE JSON** - Use the `timestamp` field from the interview-transcriber JSON segment that contains the quote. These are derived from audio analysis and are the most accurate source. Do NOT approximate or round timestamps. Convert the JSON's `HH:MM:SS` format to seconds for URLs and `MM:SS` for display
+- **SPEAKER MUST COME FROM THE JSON** - Use the `speaker` field from the exact JSON segment containing the quote. Never guess who is speaking — the interview-transcriber has already identified speakers via audio analysis
 
 ### Key Points
 
@@ -212,43 +225,36 @@ yt-dlp --download-sections "*{MM:SS}-{MM:SS}" "https://www.youtube.com/watch?v={
 [Include 3-5 notable/surprising quotes beyond those in Highlights]
 ```
 
-For multi-speaker content, always attribute quotes to the specific speaker by name.
+Always attribute quotes to the specific speaker by name.
 
 ### Transcript
 
-For single-speaker videos:
+**ALL videos use speaker-labeled format** (since all transcripts come from the interview-transcriber):
 
 ```markdown
 ## Transcript
 
-[0:02](https://www.youtube.com/watch?v={VIDEO_ID}&t=2s) First paragraph of speech grouped logically (3-6 sentences)...
+**Speaker Name:** [0:02](https://www.youtube.com/watch?v={VIDEO_ID}&t=2s) Welcome to the show. Today we're going to talk about...
 
-[0:45](https://www.youtube.com/watch?v={VIDEO_ID}&t=45s) Next paragraph...
+**Other Speaker:** [0:15](https://www.youtube.com/watch?v={VIDEO_ID}&t=15s) Yeah, this is a great topic because...
 
-[Continue with FULL transcript grouped into logical paragraphs]
-```
-
-For multi-speaker content (podcasts, interviews), use speaker-labeled format:
-
-```markdown
-## Transcript
-
-**Paul Ford:** [0:02](https://www.youtube.com/watch?v={VIDEO_ID}&t=2s) Welcome to Aboard. Today we're going to talk about...
-
-**Rich Ziade:** [0:15](https://www.youtube.com/watch?v={VIDEO_ID}&t=15s) Yeah, this is a great topic because...
-
-**Paul Ford:** [0:32](https://www.youtube.com/watch?v={VIDEO_ID}&t=32s) Exactly. And the thing that really surprised me...
+**Speaker Name:** [0:32](https://www.youtube.com/watch?v={VIDEO_ID}&t=32s) Exactly. And the thing that really surprised me...
 
 [Continue with FULL transcript, each utterance prefixed with **Speaker Name:**]
 ```
 
+Even for videos with a single dominant speaker, the transcript must use `**Speaker Name:**` prefixes. Group consecutive segments from the same speaker into single paragraphs.
+
 ## Timestamp Format Rules
 
+- **Source of truth:** The interview-transcriber JSON `timestamp` field (HH:MM:SS format)
+- **Conversion:** `HH:MM:SS` → seconds for URLs, `MM:SS` for display (e.g., `00:04:35` → `&t=275s` and `4:35`)
 - Display format: MM:SS (e.g., 4:35)
 - URL format: `&t={seconds}s` with integer seconds (e.g., `&t=275s`)
 - Clip command format: `"*MM:SS-MM:SS"` for yt-dlp download sections
 - Group transcript segments into logical paragraphs (3-6 sentences each)
 - Every paragraph starts with a clickable timestamp link
+- **Never invent timestamps** — every timestamp in the markdown must trace back to a specific JSON segment
 
 ## Step 5: Build Channel Index
 
@@ -381,15 +387,18 @@ yt-dlp --download-sections "*25:52-26:45" "https://www.youtube.com/watch?v=8jN60
   -o "my-clip.mp4"
 ```
 
-### Important: Timestamp Verification
+### Timestamp Source of Truth: The JSON File
 
-**Transcript timestamps in markdown files may not exactly match actual video timestamps.** The transcript is auto-generated and timestamps can drift by several seconds or more over the course of a video.
+**Always use the interview-transcriber JSON file (`videos/{VIDEO_ID}.json`) as the source of truth for clip timestamps.** The JSON's `timestamp` fields are derived from Gemini audio analysis and are accurate to the segment boundaries.
 
-**Always verify before downloading:**
+**Workflow for extracting a clip:**
 1. Find the quote/moment in the markdown file
-2. Open the YouTube link at that timestamp
-3. Note the ACTUAL timestamp where the content appears
-4. Use the verified timestamp for your clip
+2. Open the corresponding JSON file and locate the segment with matching text
+3. Use the JSON segment's `timestamp` (HH:MM:SS) as your start time
+4. Find the segment ~30-60 seconds later for your end time
+5. The JSON's `speaker` field tells you exactly who is speaking
+
+**Example:** If the JSON has `{"timestamp": "00:23:01", "speaker": "Naval Ravikant", "text": "No entrepreneur is worried..."}`, your clip command uses `*23:01-23:55` and you attribute the quote to Naval Ravikant.
 
 ### Key Flags Explained
 

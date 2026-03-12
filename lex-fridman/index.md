@@ -2,9 +2,9 @@
 channel: Lex Fridman
 channel_handle: "@lexfridman"
 channel_id: UCSHZKyawb77ixDdsGog4iWA
-total_videos: 33
-last_updated: 2026-03-02
-date_range: "2025-03-22 to 2026-03-01"
+total_videos: 34
+last_updated: 2026-03-11
+date_range: "2025-03-22 to 2026-03-11"
 ---
 
 # Lex Fridman Podcast Archive
@@ -15,16 +15,17 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 
 | Metric | Value |
 |--------|-------|
-| Total Videos Archived | 33 |
-| Total Views | 28,557,899 |
-| Date Range | Mar 22, 2025 - Mar 1, 2026 |
-| Average Video Length | 3:24:33 |
-| Total Watch Time | 112:40:01 |
+| Total Videos Archived | 34 |
+| Total Views | 28,571,803 |
+| Date Range | Mar 22, 2025 - Mar 11, 2026 |
+| Average Video Length | 3:27:54 |
+| Total Watch Time | 117:50:13 |
 
 ## Videos by Date
 
 | Date | Episode | Title | Duration | Views |
 |------|---------|-------|----------|-------|
+| 2026-03-11 | #493 | [Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming](videos/H9rF1CSSh-w.md) | 5:10:12 | 13,904 |
 | 2026-03-01 | #492 | [Rick Beato: Greatest Guitarists of All Time, History & Future of Music](videos/1SJiTwbSI58.md) | 2:33:47 | 170,080 |
 | 2026-02-25 | - | [Khabib vs Lex: Training with Khabib \| FULL EXCLUSIVE FOOTAGE](videos/KGVpKPNUdzA.md) | 22:09 | 266,088 |
 | 2026-02-12 | #491 | [OpenClaw: The Viral AI Agent that Broke the Internet - Peter Steinberger](videos/YFjfBk8HI5o.md) | 3:15:52 | 115,649 |
@@ -85,7 +86,7 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 - **[ThePrimeagen on Programming](videos/tNZnLkRBYA8.md)** - Netflix, Rust, Neovim, AI coding, ADHD
 - **[DHH on Ruby on Rails](videos/vagyIcmIGOQ.md)** - Rails, leaving the cloud, small teams, racing
 - **[Dave Plummer on Microsoft](videos/HsLgZzgpz9Y.md)** - Task Manager, Windows 95, Space Cadet Pinball
-- **[Tim Sweeney on Gaming](videos/477qF6QNSvc.md)** - Unreal Engine, Fortnite, Apple lawsuit
+- **[OpenClaw: Peter Steinberger](videos/YFjfBk8HI5o.md)** - AI agents, viral coding projects
 
 ### Mathematics & Physics
 - **[Terence Tao](videos/HUkBz-cdB-k.md)** - Fields Medal winner on hardest math problems
@@ -114,10 +115,15 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 - **[David Kirtley on Nuclear Fusion](videos/m_CFCyc2Shs.md)** - Helion Energy, plasma physics
 - **[Dave Hone on Dinosaurs](videos/-Qm1_On71Oo.md)** - T-Rex, Jurassic Park, extinction
 
-### Entertainment & Arts
+### Gaming
+- **[Jeff Kaplan on Blizzard & Gaming](videos/H9rF1CSSh-w.md)** - World of Warcraft, Overwatch, Kintsugiyama, The Legend of California, AI in gaming
 - **[Dan Houser on Video Games](videos/o3gbXDjNWyI.md)** - GTA, Red Dead Redemption
+- **[Tim Sweeney on Gaming](videos/477qF6QNSvc.md)** - Unreal Engine, Fortnite, Apple lawsuit
+
+### Entertainment & Arts
 - **[Robert Rodriguez on Filmmaking](videos/xJoT3bJyHuA.md)** - Sin City, El Mariachi, James Cameron
 - **[Oliver Anthony on Music](videos/4OyB3hFb2AA.md)** - Rich Men North of Richmond, blue-collar America
+- **[Rick Beato on Music](videos/1SJiTwbSI58.md)** - Greatest guitarists, history and future of music
 
 ### Martial Arts & MMA
 - **[Khabib vs Lex: Training with Khabib](videos/KGVpKPNUdzA.md)** - Grappling session with Khabib Nurmagomedov, UFC, wrestling pressure
@@ -141,7 +147,7 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 - **ThePrimeagen (Michael Paulson)** - Netflix engineer, content creator
 - **DHH (David Heinemeier Hansson)** - Ruby on Rails creator, 37signals
 - **Dave Plummer** - Microsoft engineer, Task Manager creator
-- **Tim Sweeney** - Epic Games founder, Unreal Engine creator
+- **Peter Steinberger** - OpenClaw creator, AI agent developer
 
 ### Mathematics & Science
 - **Terence Tao** - Fields Medal winner, greatest living mathematician
@@ -163,10 +169,13 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 - **Ezra Klein** - NY Times columnist
 - **Derek Thompson** - The Atlantic writer
 
-### Entertainment
+### Entertainment & Gaming
 - **Dan Houser** - Rockstar Games co-founder
+- **Jeff Kaplan** - Former Overwatch lead, Blizzard veteran, Kintsugiyama founder
+- **Tim Sweeney** - Epic Games founder, Unreal Engine creator
 - **Robert Rodriguez** - Filmmaker
 - **Oliver Anthony** - Singer-songwriter
+- **Rick Beato** - Music educator, producer
 
 ### Martial Arts
 - **Khabib Nurmagomedov** - UFC champion, undefeated MMA fighter
@@ -191,6 +200,12 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 - **Microsoft** - Windows, Task Manager
 - **Apple** - App Store controversy
 
+### Gaming Companies
+- **Blizzard Entertainment** - World of Warcraft, Overwatch, Titan
+- **Kintsugiyama** - Jeff Kaplan's new studio, The Legend of California
+- **Rockstar Games** - GTA, Red Dead Redemption
+- **Nintendo** - Zelda Breath of the Wild
+
 ### Research & Education
 - **Allen Institute for AI (Ai2)**
 - **Tufts University**
@@ -208,7 +223,7 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 
 ## Tag Cloud
 
-AI (6), Programming (6), History (5), Politics (5), China (3), Mathematics (2), Physics (2), Gaming (3), War (3), Israel (3), Ukraine (2), Russia (2), Iran (2), Fusion Energy (1), Nuclear Physics (1), Telegram (1), Privacy (1), Amazon (1), Conservation (1), Dinosaurs (1), T-Rex (1), Paleontology (1), Infinity (1), Set Theory (1), Godel (1), Black Holes (1), Gravitational Waves (1), Ancient History (1), Cuneiform (1), WW2 (2), Hitler (2), Churchill (1), Stalin (1), Genghis Khan (1), Mongol Empire (1), Ruby on Rails (1), Microsoft (1), Windows (1), Unreal Engine (1), Fortnite (1), Filmmaking (1), Sin City (1), Country Music (1), Nobel Prize (1), Fields Medal (1), DOGE (1), Trump (3), Libertarian (2), MMA (1), UFC (1), Martial Arts (1), Khabib (1), Grappling (1), Wrestling (1)
+AI (6), Programming (6), History (5), Politics (5), Gaming (4), China (3), War (3), Israel (3), Trump (3), Mathematics (2), Physics (2), Ukraine (2), Russia (2), Iran (2), WW2 (2), Hitler (2), Libertarian (2), Fusion Energy (1), Nuclear Physics (1), Telegram (1), Privacy (1), Amazon (1), Conservation (1), Dinosaurs (1), T-Rex (1), Paleontology (1), Infinity (1), Set Theory (1), Godel (1), Black Holes (1), Gravitational Waves (1), Ancient History (1), Cuneiform (1), Churchill (1), Stalin (1), Genghis Khan (1), Mongol Empire (1), Ruby on Rails (1), Microsoft (1), Windows (1), Unreal Engine (1), Fortnite (1), Filmmaking (1), Sin City (1), Country Music (1), Nobel Prize (1), Fields Medal (1), DOGE (1), MMA (1), UFC (1), Martial Arts (1), Khabib (1), Grappling (1), Wrestling (1), World of Warcraft (1), Overwatch (1), Blizzard (1), Game Design (1), Online Toxicity (1), EverQuest (1), Music (1)
 
 ## External Links
 

@@ -1,8 +1,8 @@
 ---
 channel: Dwarkesh Patel
 channel_handle: "@DwarkeshPatel"
-total_videos: 20
-last_updated: 2026-02-26
+total_videos: 22
+last_updated: 2026-03-11
 ---
 
 # Dwarkesh Patel Channel Index
@@ -11,16 +11,24 @@ last_updated: 2026-02-26
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 20 |
-| Total Views | 8,275,486 |
-| Date Range | 2025-07-10 to 2026-02-05 |
-| Average Video Length | 1:21:33 |
+| Total Videos | 22 |
+| Total Views | 8,320,702 |
+| Date Range | 2025-07-10 to 2026-03-11 |
+| Average Video Length | 1:19:24 |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [The Department of War is making a huge mistake.](videos/KBPOTklFTiU.md) | 24:38 | 14,615 |
+| [Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird -- Ada Palmer](videos/PAIhVfGbREA.md) | 2:02:19 | 30,601 |
+| [Dario Amodei -- "We are near the end of the exponential"](videos/n1E9IZfvGMA.md) | 2:22:20 | 717,139 |
 | [Elon Musk -- "In 36 months, the cheapest place to put AI will be space"](videos/BYXbuik3dgA.md) | 2:49:45 | 740,610 |
+| [Adam Marblestone -- AI is missing something fundamental about the brain](videos/_9V_Hbe-N1A.md) | 1:49:53 | 190,405 |
+| [What are we scaling?](videos/_zgnSbu5GqE.md) | 12:34 | 101,834 |
+| [Sarah Paine -- Why Russia Lost the Cold War](videos/FdkpWrlR5zg.md) | 1:54:55 | 1,141,186 |
+| [Ilya Sutskever -- We're moving from the age of scaling to the age of research](videos/aR20FWCCjAs.md) | 1:36:03 | 1,196,669 |
+| [Satya Nadella -- How Microsoft thinks about AGI](videos/8-boBsWcr5A.md) | 1:28:41 | 309,306 |
 | [Sarah Paine -- How Russia sabotaged China's rise](videos/RH_ycZYH8-s.md) | 1:31:23 | 1,483,830 |
 | [Andrej Karpathy -- "We're summoning ghosts, not building animals"](videos/lXUZvyajciY.md) | 2:26:08 | 1,183,515 |
 | ["I find it almost disturbing that the universe favors life this strongly" -- Nick Lane](videos/0GMWxuYuxJI.md) | 1:20:53 | 133,671 |
@@ -39,14 +47,14 @@ last_updated: 2026-02-26
 
 1. **[Sarah Paine -- How Russia sabotaged China's rise](videos/RH_ycZYH8-s.md)** - 1,483,830 views
 2. **[Sarah Paine -- How Imperial Japan defeated Tsarist Russia & Qing China](videos/KxIeJjEGLdo.md)** - 1,359,745 views
-3. **[Sarah Paine -- How Hitler almost starved Britain](videos/SdMgOXfSBQw.md)** - 1,192,629 views
-4. **[Andrej Karpathy -- "We're summoning ghosts, not building animals"](videos/lXUZvyajciY.md)** - 1,183,515 views
-5. **[Stephen Kotkin -- How Stalin became the most powerful dictator in history](videos/YMfd3EoHfPI.md)** - 774,571 views
-6. **[Elon Musk -- "In 36 months, the cheapest place to put AI will be space"](videos/BYXbuik3dgA.md)** - 740,610 views
-7. **[Richard Sutton -- Father of RL thinks LLMs are a dead end](videos/21EYKqUsPfg.md)** - 669,128 views
-8. **[Fully autonomous robots are much closer than you think -- Sergey Levine](videos/48pxVdmkMIE.md)** - 222,696 views
-9. **[Why I don't think AGI is right around the corner](videos/nyvmYnz6EAg.md)** - 188,380 views
-10. **["I find it almost disturbing that the universe favors life this strongly" -- Nick Lane](videos/0GMWxuYuxJI.md)** - 133,671 views
+3. **[Ilya Sutskever -- We're moving from the age of scaling to the age of research](videos/aR20FWCCjAs.md)** - 1,196,669 views
+4. **[Sarah Paine -- How Hitler almost starved Britain](videos/SdMgOXfSBQw.md)** - 1,192,629 views
+5. **[Andrej Karpathy -- "We're summoning ghosts, not building animals"](videos/lXUZvyajciY.md)** - 1,183,515 views
+6. **[Sarah Paine -- Why Russia Lost the Cold War](videos/FdkpWrlR5zg.md)** - 1,141,186 views
+7. **[Stephen Kotkin -- How Stalin became the most powerful dictator in history](videos/YMfd3EoHfPI.md)** - 774,571 views
+8. **[Elon Musk -- "In 36 months, the cheapest place to put AI will be space"](videos/BYXbuik3dgA.md)** - 740,610 views
+9. **[Dario Amodei -- "We are near the end of the exponential"](videos/n1E9IZfvGMA.md)** - 717,139 views
+10. **[Richard Sutton -- Father of RL thinks LLMs are a dead end](videos/21EYKqUsPfg.md)** - 669,128 views
 
 ## Topics Index
 
@@ -58,7 +66,7 @@ last_updated: 2026-02-26
 | Tesla | 2 | Solar production, Optimus robots, AI chips, EVs, refining; self-driving progress |
 | xAI | 1 | Grok, Colossus 2, alignment, business plan |
 | TSMC | 1 | Chip fabrication capacity, Arizona fab |
-| Anthropic | 2 | AI interpretability research; Claude as early agent |
+| Anthropic | 3 | AI interpretability research; Claude as early agent; Pentagon/DoW conflict, AI alignment debate |
 | OpenAI | 1 | Universe project, early RL focus, founding team |
 | Physical Intelligence | 1 | Robotics foundation model company, pi0, VLA architecture |
 | Google DeepMind | 2 | AlphaGo, AlphaZero, MuZero, Gemma open-source LLM |
@@ -73,6 +81,8 @@ last_updated: 2026-02-26
 | Eli Lilly | 1 | Incretin mimetics (GLP-1 drugs), direct-to-consumer pharma |
 | Terraform Industries | 2 | Solar-powered synthetic fuel, energy for AI data centers |
 | Open Philanthropy | 1 | Farmed animal welfare strategy, effective altruism |
+| Pentagon / Department of War | 1 | Conflict with Anthropic over AI use, mass surveillance concerns |
+| NSA | 1 | Snowden revelations, government surveillance parallels |
 
 ### Products & Technologies
 
@@ -100,7 +110,20 @@ last_updated: 2026-02-26
 | Yamanaka factors | [Jacob Kimmel interview](videos/XCLODgdCmKA.md) | Four TFs reprogramming somatic cells to stem cells |
 | CRISPR | [Jacob Kimmel interview](videos/XCLODgdCmKA.md) | Bacterial defense systems with pathogen encounter records |
 
+### People
+- **Ada Palmer** ([Ada Palmer interview](videos/PAIhVfGbREA.md)) - Renaissance historian, University of Chicago, author of "Inventing the Renaissance"
+- **Dario Amodei** ([Dario Amodei interview](videos/n1E9IZfvGMA.md), [Department of War commentary](videos/KBPOTklFTiU.md)) - Anthropic CEO, AI alignment and Pentagon conflict
+- **Pete Hegseth** ([Department of War commentary](videos/KBPOTklFTiU.md)) - Secretary of Defense, Department of War renaming
+- **Ben Thompson** ([Department of War commentary](videos/KBPOTklFTiU.md)) - Stratechery, AI regulation analysis
+- **Leopold Aschenbrenner** ([Department of War commentary](videos/KBPOTklFTiU.md)) - AI policy and government control of AI
+- **Edward Snowden** ([Department of War commentary](videos/KBPOTklFTiU.md)) - NSA surveillance revelations parallel
+- **Stanislav Petrov** ([Department of War commentary](videos/KBPOTklFTiU.md)) - Soviet officer who prevented nuclear war, alignment parable
+
 ### Technologies
+- **Printing Press / Movable Type** - [Ada Palmer interview](videos/PAIhVfGbREA.md)
+- **Papyrus vs. Parchment vs. Paper** - [Ada Palmer interview](videos/PAIhVfGbREA.md)
+- **Sortition (Government by Lottery)** - [Ada Palmer interview](videos/PAIhVfGbREA.md)
+- **Peer Review** - [Ada Palmer interview](videos/PAIhVfGbREA.md)
 - **Orbital Data Centers** - [Elon Musk interview](videos/BYXbuik3dgA.md)
 - **Solar Power (Space)** - [Elon Musk interview](videos/BYXbuik3dgA.md)
 - **Mass Drivers** - [Elon Musk interview](videos/BYXbuik3dgA.md)
@@ -128,6 +151,9 @@ last_updated: 2026-02-26
 - **Cultivated Meat** - [Lewis Bollard interview](videos/kWcPg8t1kJ4.md)
 - **Factory Farming Economics** - [Lewis Bollard interview](videos/kWcPg8t1kJ4.md)
 - **AGI Timelines** - [Why I don't think AGI is right around the corner](videos/nyvmYnz6EAg.md)
+- **AI Mass Surveillance** - [Department of War commentary](videos/KBPOTklFTiU.md)
+- **AI Alignment (to whom?)** - [Department of War commentary](videos/KBPOTklFTiU.md)
+- **AI Regulation / Government Control** - [Department of War commentary](videos/KBPOTklFTiU.md)
 - **Meiji Restoration** - [Sarah Paine lecture](videos/KxIeJjEGLdo.md)
 - **Russo-Japanese War** - [Sarah Paine lecture](videos/KxIeJjEGLdo.md)
 - **Grand Strategy (DIME)** - [Sarah Paine lecture](videos/KxIeJjEGLdo.md)
@@ -135,14 +161,14 @@ last_updated: 2026-02-26
 - **Modernization Dilemma** - [Stephen Kotkin interview](videos/YMfd3EoHfPI.md)
 
 ## Tag Cloud
-- AI (5)
+- AI (6)
 - reinforcement-learning (4)
 - LLMs (3)
 - AGI (3)
 - geopolitics (2)
 - Russia (2)
 - China (4)
-- history (2)
+- history (3)
 - Sino-Russian-relations (1)
 - Stalin (1)
 - Mao (1)
@@ -202,7 +228,7 @@ last_updated: 2026-02-26
 - Optimus (1)
 - DOGE (1)
 - orbital-data-centers (1)
-- alignment (1)
+- alignment (2)
 - Starship (1)
 - TeraFab (1)
 - chips (1)
@@ -254,14 +280,41 @@ last_updated: 2026-02-26
 - Deng-Xiaoping (1)
 - Xi-Jinping (1)
 - Soviet-Union (1)
+- Renaissance (1)
+- Florence (1)
+- Medici (1)
+- Machiavelli (1)
+- Petrarch (1)
+- printing-press (1)
+- Gutenberg (1)
+- censorship (1)
+- Inquisition (1)
+- scientific-revolution (1)
+- Francis-Bacon (1)
+- Leonardo-da-Vinci (1)
+- Library-of-Alexandria (1)
+- papyrus (1)
+- parchment (1)
+- information-revolution (1)
+- Ada-Palmer (1)
+- political-science (1)
+- peer-review (1)
+- surveillance (1)
+- Pentagon (1)
+- Anthropic (1)
+- AI-regulation (1)
+- government-control (1)
+- Department-of-War (1)
+- national-security (1)
 
 ## Video Categories
-- **Interviews** - [Elon Musk interview](videos/BYXbuik3dgA.md), [Sarah Paine lecture](videos/RH_ycZYH8-s.md), [Andrej Karpathy interview](videos/lXUZvyajciY.md), [Nick Lane interview](videos/0GMWxuYuxJI.md), [Richard Sutton interview](videos/21EYKqUsPfg.md), [Sergey Levine interview](videos/48pxVdmkMIE.md), [Sarah Paine WWII lecture](videos/SdMgOXfSBQw.md), [Jacob Kimmel interview](videos/XCLODgdCmKA.md), [Casey Handmer interview](videos/3cDHx2_QbPE.md), [Lewis Bollard interview](videos/kWcPg8t1kJ4.md), [Sarah Paine Japan lecture](videos/KxIeJjEGLdo.md), [Stephen Kotkin interview](videos/YMfd3EoHfPI.md)
-- **Commentary/Reflections** - [Some thoughts on the Sutton interview](videos/u3HBJVjpXuw.md), [Why I don't think AGI is right around the corner](videos/nyvmYnz6EAg.md)
-- **Geopolitics/History** - [Sarah Paine lecture](videos/RH_ycZYH8-s.md), [Sarah Paine WWII lecture](videos/SdMgOXfSBQw.md), [Sarah Paine Japan lecture](videos/KxIeJjEGLdo.md), [Stephen Kotkin interview](videos/YMfd3EoHfPI.md)
-- **AI/Machine Learning** - [Karpathy interview](videos/lXUZvyajciY.md), [Sutton interview](videos/21EYKqUsPfg.md), [Levine interview](videos/48pxVdmkMIE.md), [Elon Musk interview](videos/BYXbuik3dgA.md), [Why I don't think AGI is right around the corner](videos/nyvmYnz6EAg.md)
+- **Interviews** - [Ada Palmer interview](videos/PAIhVfGbREA.md), [Elon Musk interview](videos/BYXbuik3dgA.md), [Sarah Paine lecture](videos/RH_ycZYH8-s.md), [Andrej Karpathy interview](videos/lXUZvyajciY.md), [Nick Lane interview](videos/0GMWxuYuxJI.md), [Richard Sutton interview](videos/21EYKqUsPfg.md), [Sergey Levine interview](videos/48pxVdmkMIE.md), [Sarah Paine WWII lecture](videos/SdMgOXfSBQw.md), [Jacob Kimmel interview](videos/XCLODgdCmKA.md), [Casey Handmer interview](videos/3cDHx2_QbPE.md), [Lewis Bollard interview](videos/kWcPg8t1kJ4.md), [Sarah Paine Japan lecture](videos/KxIeJjEGLdo.md), [Stephen Kotkin interview](videos/YMfd3EoHfPI.md)
+- **Commentary/Reflections** - [Some thoughts on the Sutton interview](videos/u3HBJVjpXuw.md), [Why I don't think AGI is right around the corner](videos/nyvmYnz6EAg.md), [The Department of War is making a huge mistake.](videos/KBPOTklFTiU.md)
+- **Geopolitics/History** - [Ada Palmer interview](videos/PAIhVfGbREA.md), [Sarah Paine lecture](videos/RH_ycZYH8-s.md), [Sarah Paine WWII lecture](videos/SdMgOXfSBQw.md), [Sarah Paine Japan lecture](videos/KxIeJjEGLdo.md), [Stephen Kotkin interview](videos/YMfd3EoHfPI.md)
+- **AI/Machine Learning** - [Karpathy interview](videos/lXUZvyajciY.md), [Sutton interview](videos/21EYKqUsPfg.md), [Levine interview](videos/48pxVdmkMIE.md), [Elon Musk interview](videos/BYXbuik3dgA.md), [Why I don't think AGI is right around the corner](videos/nyvmYnz6EAg.md), [Department of War commentary](videos/KBPOTklFTiU.md)
 - **Energy/Climate** - [Casey Handmer interview](videos/3cDHx2_QbPE.md)
 - **Science/Biology** - [Nick Lane interview](videos/0GMWxuYuxJI.md), [Jacob Kimmel interview](videos/XCLODgdCmKA.md)
 - **Ethics/Animal Welfare** - [Lewis Bollard interview](videos/kWcPg8t1kJ4.md)
 - **Military History/Strategy** - [Sarah Paine WWII lecture](videos/SdMgOXfSBQw.md), [Sarah Paine Japan lecture](videos/KxIeJjEGLdo.md)
 - **Longevity/Aging** - [Jacob Kimmel interview](videos/XCLODgdCmKA.md)
+- **AI Policy/Regulation** - [The Department of War is making a huge mistake.](videos/KBPOTklFTiU.md)

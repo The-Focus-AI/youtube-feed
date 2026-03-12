@@ -1,0 +1,554 @@
+{
+  "title": "Karpathy’s autoresearch: the lab that works while you sleep",
+  "source_url": "https://www.youtube.com/watch?v=nKwRnwhV3bc",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "Everything that could have gone wrong today went wrong. So I apologize for the quality issues, but I still had to tell you about a super interesting project that Andrej Karpathy just open sourced.",
+      "tone": "apologetic yet enthusiastic"
+    },
+    {
+      "timestamp": "00:00:11",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "It's called Otto-Research. Let's take a look at this graphic. What do you see?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:16",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "This is one of Andrej Karpathy's agents doing Otto-Research.",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:00:20",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "And you know what is so extremely interesting about it? A meaningful slice of the web has become software that can be cloned, constrained, scored, and allowed to run.",
+      "tone": "fascinated"
+    },
+    {
+      "timestamp": "00:00:30",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "The public version is small enough to understand, which is exactly why the implications are larger than the repo itself.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:00:38",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "The human role starts to move upward, away from touching every experiment directly and toward designing the environment in which experiments happen.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:00:48",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "And the transformer architecture, Karpathy's absolute favorite, because of its repeated and tunable structure, responds unusually well to that kind of setting and gradually reveals where its useful flexibility lives.",
+      "tone": "knowledgeable"
+    },
+    {
+      "timestamp": "00:00:59",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "And the social boundary around research becomes more porous, because once the lab becomes forkable, more people can enter the loop and do real work inside it. Let me unfold and explain what I mean in more detail.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:01:21",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "In the public March 8th session report, the overnight run logged 126 experiments over about 10 and a half hours, kept 23 improvements, and moved validation bits per byte from 0.9979 to 0.9697.",
+      "tone": "precise and reporting"
+    },
+    {
+      "timestamp": "00:01:42",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "In the larger chart Karpathy posted from the broader setup, there were 276 experiments and 29 kept improvements.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:54",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "The graphic is also interesting because it makes the loop visible. Research starts to look less like a sequence of isolated human heroic movements and more like a persistent environment that keeps generating trials.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:02:04",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "It's automated. You can go to sleep while your research is still going.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:02:10",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "So what you are looking at in the public repo is a very small and very deliberate setup.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:02:19",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "Karpathy released Otto-Research on March 7 as a stripped-down version of his nanoGPT training. He wrote: 'It's part code, part sci-fi, and a pinch of psychosis.'",
+      "tone": "storytelling"
+    },
+    {
+      "timestamp": "00:02:27",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "The README lays out a structure with three important files.",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:02:35",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "prepare.py handles data prep and runtime utilities and is not supposed to be changed or modified.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:02:42",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "train.py contains the model, optimizer and training loop and is one of the files that the agent edits.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:02:48",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "prompt.md contains the instructions and context written by the human.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:02:53",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "The public version is built for a single NVIDIA GPU, tested on an H100.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "But there are other forks already that are Mac oriented, and you can find files as Otto-Research MacOS and Otto-Research MLX,",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "The public release is the compact one and that compactness is essential to the whole point.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:05",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "The loop itself is very simple and that simplicity is one of the reasons why it's so important.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:08",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "which immediately widen the story beyond one exact hardware stack.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:10",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "The human edits program.md which sets the instructions, constraints and priorities.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:13",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "Karpathy separately described a larger internal cousin running on a bigger model with more GPUs. But...",
+      "tone": "intriguing"
+    },
+    {
+      "timestamp": "00:03:15",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "The agent edits train.py which means architecture details, optimizer choices, hyperparameters and related training decisions are all in scope.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:24",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "And every run gets exactly five minutes, only five minutes of wall clock time.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:30",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "This score is fixed.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:33",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "If the metric improves, the change stays. If it doesn't, the code is reverted and the loop continues.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:38",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "The metric here is val/bpb, validation bits per byte, where lower is better.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:46",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "The five minute budget is more important than it may sound at first because it forces very different kinds of changes to compete inside the same time box.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:52",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "A bigger model, a smaller batch, a different learning rate schedule, a different positional encoding choice, all of them have to justify themselves under the same budget on the same machine.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:04",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "That makes the environment disciplined in a way many research setups are not.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:12",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "It also helps to place out-research in a longer line of attempts to automate pieces of model development.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "Neural Architecture Search, search over model designs. Google Vizier for hyperparameter tuning as black box optimization over parameters and objectives.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:29",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "Population-based training let multiple training runs explore and mutate together.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:35",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "AutoML-Zero pushed further by searching over algorithmic building blocks themselves.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:40",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "So the desire to automate search over architectures, settings, and training choices is not new.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:48",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "But what feels different in Karpathy's release is the medium at the level of legibility.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:53",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "The search process is packaged as a tiny software environment that an LLM agent can read, edit, run, evaluate and document for ordinary developer tools like files, git branches and reports.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:03",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "It feels less like a hidden optimization service and more like a lab you can actually clone. And this is amazing.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:05:11",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "So what I'm trying to say is that the key change is not that they invented automated model search from scratch. There was a lot of Twitter posts about it, oh, isn't it just AutoML? No, it isn't.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:05:22",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "The key change is that Andrej packaged a narrow research loop into something public, small and forkable.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:30",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "It really changes who can inspect it, who can adapt it, and who can participate.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:37",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "Karpathy also framed the larger direction very clearly before the public release. He wrote that the real benchmark of interest was the research org agent code that produces improvements fastest.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:46",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "And in his earlier multi-agent NanoGPT experience, he said the source code increasingly becomes the collection of prompts, skills, and tools and processes that make up the organization.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:56",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "That is a shift in what counts as the object of engineering.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "You no longer only tuning a model. You're shaping the environment that produces model improvements. Once that environment is software, the lab becomes more portable and more reproducible.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:13",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "This setup works especially well as a public object because the transformer is such a regular and tunable architecture. It is built from repeating blocks and those blocks expose many surfaces that can be explored systematically.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:27",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "Depth, width, initialization, positional encoding, optimizer dynamics, learning rate schedules, weight decay, context, and windowing choices.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:38",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "In out of research, the transformer stops feeling like a sealed object and starts feeling more like terrain.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:44",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "The loop presses on one part, then another under constant constraint and the architecture gradually reveals where it bends and where it resists.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:54",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "That is why the public session report is so revealing. Gains came from changes like halving batch size to fit more update steps inside the same five-minute budget. Moving to depth nine, adjusting embedding learning rate, changing the ROPE-based frequency from 10k to 200k, tightening initialization toward a sweet spot around 0.68x, and adding tiny amounts of weight decay where the baseline had none.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "The loop also found many failures, which is part of the beauty here. The architecture is not being presented as magic, it's being explored as a structured object with useful local flexibility.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:34",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "Of course, there are some trades and some disadvantages in such a tiny little system and in such an early system. Karpathy openly discussed that in earlier multi-agent nano-chat experiments, the agents would be good at implementing well-scoped ideas but weak at generating strong ideas, weak at careful experimental design, and sloppy about confounders and baselines.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:56",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "The public discussion in his Twitter post around the March 8 report raised another important concern right away. If you run enough experiments against a fixed validation set, do you start training the loop to please the metric rather than learning something that really transfers?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:11",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "Karpathy's own answer was measured. He said that the gains are about performance per compute and in his view are real and substantial. While also making clear that compute still has to be spent and that a metric remains a metric.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:26",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "So the bottleneck does not disappear. It just moves and running experiments becomes cheaper. Judgment, evaluation design, and transfer testing becomes more important.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:35",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "And so, why is this happening now? This is happening now because several things have matured at the same time. Models have become much better at reading, editing, and reasoning over code. The harness around them has improved, so agents can work inside file systems, sandboxes, CLI's, and longer running loops with less handholding. And the broader software world is starting to shift toward environments designed",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "ages rather than only for humans. Aral Lewis' March 8 essay captured that side of the story by the way. I love this essay and that's why I want to mention it here. He argues that agents increasingly need their own sandbox, compute, file systems, long-term memory, APIs and tools and that software will have to become much more agent-friendly if it wants to remain useful.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:24",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "And our research fits neatly into that shift. It is a compact environment where an agent can act continuously and accumulate work rather than waiting to be manually steered through each step.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:09:37",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "So why everyone does not just do it? Well, the answer is partly technical and partly organizational. You need a problem with a very clear metric, a bounded environment and a loop where local improvements can be measured quickly. You also need enough infrastructure discipline that the agent is operating inside a controlled box, rather than wandering through messy internal systems with no reliable score.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:59",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "And even then, a lot of people still do not have software or workflows that agents can actually use well. Karpathy himself reacted positively to Lewis' point that businesses are still built around legacy interfaces that assume a human will click through pages and enter things manually. A lot of organizations are not yet API first, not yet agent-friendly and not yet set up to let a loop like this do useful work safely.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:27",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "So the bottleneck is partly the freshness of it, the model, partly the harness, partly the environment the organization has built for work in the first place. So a lot of things still need to come together for the things like our research work on a bigger scale.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:10:46",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "And also where does this kind of setup actually make sense? Small model training is the obvious case. But the more interesting use cases are things like re-rankers, query expansion models, eval harnesses, data mixture search, compiler or inference kernel tuning, weather and other time series models, and even long-running workflow agents if you can score task completion, latency, cost or error rate.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:11:11",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "What matters most is the loop itself. The task has to be bounded, the feedback has to arrive quickly and the metric has to be sturdy enough that the system is not simply flattering the scoreboard.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:11:23",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "And maybe this is the most useful way to describe and to explain where we are with auto-research and automated research as a general trend. The headline is not that an agent is going to replace the researcher. The headline is that the laboratory itself has started to become programmable, it also becomes portable, repeatable and forkable. That is why this tiny single GPU repo feels larger than its actual size. It shows a version of research that does not stop when the human goes to sleep and it hints that this may be the year when environments, not just models, become the real product. We were talking about...",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "...at the beginning of the year, that this might be the year of environments. I think Auto-Research fits this category pretty well.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:08",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "Thank you for watching. Please let me know your thoughts, share your use cases, how you used and forked Auto-Research by Andrej Karpathy.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:12:18",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "And let's keep building and exploring.",
+      "tone": "inspirational"
+    },
+    {
+      "timestamp": "00:12:20",
+      "ad": false,
+      "speaker": "Turing Post Host",
+      "text": "Thank you.",
+      "tone": "polite"
+    }
+  ],
+  "highlights": [
+    "Andrej Karpathy’s \"Otto-Research\" project introduces a compact, automated research loop where an AI agent independently edits training code, runs experiments, and evaluates results to improve model performance.",
+    "The project shifts the human researcher's role from performing direct experiments to designing the \"programmable laboratory\" environment in which autonomous discovery happens.",
+    "By enforcing a strict five-minute training budget for every run, the system creates a disciplined environment where architectural changes and hyperparameter tweaks must justify their value under identical constraints.",
+    "Because the research environment is packaged as a small, forkable software repo, it democratizes AI research by allowing more people to clone and participate in a reproducible experimental loop.",
+    "This shift suggests that the future of engineering lies in creating \"agent-friendly\" environments and sandboxes where AI can act continuously and accumulate work without manual human steering."
+  ],
+  "summary": "Andrej Karpathy’s \"Otto-Research\" is a compact, open-source framework designed to automate the process of neural network optimization through LLM agents. Unlike traditional AutoML, which often operates as a \"black box,\" Otto-Research packages the research loop into a small, legible, and \"forkable\" software environment. The system functions by allowing an agent to edit training code and run experiments within a strict five-minute window. If the agent successfully improves a specific metric—such as validation bits per byte—the changes are kept; otherwise, they are reverted. This creates a persistent, automated laboratory that continues to iterate and find architectural or hyperparameter improvements even while the human researcher is away.\n\nThe project signals a fundamental shift in the human role within AI development, moving from manual experimentation toward the high-level design of the environments in which experiments occur. Because the transformer architecture is highly regular and tunable, it serves as an ideal \"terrain\" for these agents to explore systematically. However, the transcript notes that while agents are excellent at implementing well-scoped optimizations, they still struggle with high-level experimental strategy and may inadvertently \"game\" metrics through overfitting.\n\nUltimately, Otto-Research represents a broader trend toward \"agent-friendly\" software. The host suggests that the future of engineering lies not just in tuning individual models, but in building programmable, portable, and reproducible environments where autonomous agents can work safely and effectively. By making the research lab itself a piece of clonable software, Karpathy has lowered the barrier to entry, allowing a more porous social boundary where more people can participate in and adapt real-world research workflows.",
+  "description": "Andrej Karpathy’s new autoresearch repo may look like a small experiment in automated model tuning, but the deeper story is larger than the code itself. A meaningful slice of the lab has started to become software: something that can be cloned, constrained, scored, and allowed to run.\n\nIn this episode of Attention Span, we unpack why that matters and explain why the most important idea here is not “AI scientist” hype, but something more concrete: the emergence of the forkable lab.\n\n*🔗 Links Mentioned* \n- Autoresearch repo\n https://github.com/karpathy/autoresearch\n- Session report discussed in the video\n https://github.com/karpathy/autoresearch/discussions/43\n- Karpathy autoresearch announcement\n https://x.com/karpathy/status/2030371219518931079\n- Multi-agent attempt https://x.com/karpathy/status/2027521323275325622\n- Aaron Levie’s March 8 essay \nhttps://x.com/levie/status/2030714592238956960\n- Tobi Lutke experiment thread\n https://x.com/tobi/status/2030771823151853938\n\nAttention Span is here to show you different approaches in AI. Sometimes it’s not the model that changes the story, but the environment around it.\n\n👉 Subscribe for more high-signal AI mechanics\n👉 More analysis: TuringPost.com\n👉 Interviews: / @realturingpost\n\nHashtags\n#AttentionSpan #AI #Autoresearch #Karpathy #Agents #MachineLearning #LLM #Transformers #AIResearch #TuringPost",
+  "duration": 747,
+  "people": [
+    "Ksenia Semenova",
+    "Mariya Paniv",
+    "Andrej Karpathy",
+    "Attention Span",
+    "Links Mentioned",
+    "Aaron Levie",
+    "Tobi Lutke"
+  ],
+  "topics": [
+    "Andrej Karpathy's autoresearch repository and automated model tuning",
+    "The concept of 'forkable labs' and programmable research environments",
+    "The shift from manual experimentation to agent-led research loops",
+    "Technical insights into transformer architecture exploration",
+    "Organizational requirements for agent-friendly software infrastructure"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi_webp/nKwRnwhV3bc/maxresdefault.webp",
+  "date": "20260309",
+  "youtube_url": "https://www.youtube.com/watch?v=nKwRnwhV3bc",
+  "youtube_metadata": {
+    "title": "Karpathy’s autoresearch: the lab that works while you sleep",
+    "description": "Andrej Karpathy’s new autoresearch repo may look like a small experiment in automated model tuning, but the deeper story is larger than the code itself. A meaningful slice of the lab has started to become software: something that can be cloned, constrained, scored, and allowed to run.\n\nIn this episode of Attention Span, we unpack why that matters and explain why the most important idea here is not “AI scientist” hype, but something more concrete: the emergence of the forkable lab.\n\n*🔗 Links Mentioned* \n- Autoresearch repo\n https://github.com/karpathy/autoresearch\n- Session report discussed in the video\n https://github.com/karpathy/autoresearch/discussions/43\n- Karpathy autoresearch announcement\n https://x.com/karpathy/status/2030371219518931079\n- Multi-agent attempt https://x.com/karpathy/status/2027521323275325622\n- Aaron Levie’s March 8 essay \nhttps://x.com/levie/status/2030714592238956960\n- Tobi Lutke experiment thread\n https://x.com/tobi/status/2030771823151853938\n\nAttention Span is here to show you different approaches in AI. Sometimes it’s not the model that changes the story, but the environment around it.\n\n👉 Subscribe for more high-signal AI mechanics\n👉 More analysis: TuringPost.com\n👉 Interviews: / @realturingpost\n\nHashtags\n#AttentionSpan #AI #Autoresearch #Karpathy #Agents #MachineLearning #LLM #Transformers #AIResearch #TuringPost",
+    "duration": 747,
+    "view_count": 2967,
+    "like_count": 90,
+    "channel": "Turing Post",
+    "upload_date": "20260309",
+    "thumbnail": "https://i.ytimg.com/vi_webp/nKwRnwhV3bc/maxresdefault.webp",
+    "tags": [
+      "AttentionSpan",
+      "AI",
+      "Autoresearch",
+      "Karpathy",
+      "Agents",
+      "MachineLearning",
+      "LLM",
+      "Transformers",
+      "AIResearch",
+      "TuringPost"
+    ]
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "title": "What Reflection AI offers to beat closed labs",
+  "source_url": "https://www.youtube.com/watch?v=zd3B8sNNgmk",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "We want to build computers that can think and do things like humans.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:00:02",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "But we raised more than two billion dollars to actually have access to the compute we need.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:00:07",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "Building these models is like building a rocket.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:10",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "The main metric that matters is...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:00:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The secrecy and like the time that you're taking. Do you think you will be able to match the closed labs' models?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:00:26",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If we go back to AlphaGo in 2016. That moment for the outside world felt like a miracle. For you as an engineer who works day and night in the trenches, what is the biggest change in how the progress actually happens now?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:00:41",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "I'd say that like the fundamentals for the most part have stayed the same. When we were building AlphaGo, it was an extremely challenging engineering-wise project. So it kind of like required scaling our models and scaling our training recipes to massive runs that weren't the case back in 2016. I think that like most people had a couple of GPUs and they were just like training things back then. Now it's the norm that like anyone who wants to train these big models, either with pre-training or reinforcement learning, they use like hundreds, thousands of like GPUs. In that sense, we were a bit ahead of the curve. At the same time, you know, it was kind of collaborative project. There were like many of us working on it. Now again back then, it was more common for like a few researchers to kind of work together and just like build something together rather than like big teams with project managers and just like, you know, deliverables and everything, which again, is kind of like more of the case right now. So I'd say that like in many ways, AlphaGo and how we did our work back then is like a preview of what was to come and how things work now. We even had like different phases. You know, AlphaGo was trained in different phases, where you had, you know, just training on human data, which kind of equivalent to pre-training in a way and then reinforcement learning, which is kind of like what we call more post-training now. And we had like human testers to just like tell us like what are the mistakes that the model was making, which is again, kind of quite similar to how things are done now. So, and lots of compute. So I'd say that like there's something many of the ways that we structure ourselves or like the ways that we went about doing our research is actually more similar to how things are done now than how research used to happen back in 2016.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:02:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I guess I mean are we still in the era of like breakthrough moments or is it mostly massive operational work now?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:02:22",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "It's actually a good question and it kind of like boils down to what you consider a breakthrough. I think that like for different people, different levels of discovery constitute a breakthrough. I think that like we have all the ingredients or like the most most of the ingredients in order to build really powerful agents that can do almost anything that a human can do on a computer. And that's a form of AGI. In that sense, it's actually more of a matter of, you know, executing, finding the right methods, finding how everything fits together and just doing, you know, a lot of engineering and research. For like some other things, we might need to innovate and come up with like breakthroughs, like different architectures or like different learning algorithms or whatever it is. It kind of like really depends what you're trying to build.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "It comes down to what you want to build and, you know, what's your definition of AGI. Different labs and different people have like different definitions, and what you think might be missing.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:03:10",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What is your definition of AGI and superintelligence for that matter?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:13",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "Yeah, for me, I feel like it's something simpler. It's like literally an agent that interacts with software in a computer and can really do what a human can do. So in a way, it's kind of like a like, you know, do many more things on with our computers. And in that sense, I think that like we don't really need any massive breakthroughs. We just like need, you know, better engineering, better methods, kind of better combination of existing methods, but like not anything that's kind of, you know, really a game changer or anything like that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I think 2025 literally became the year of coding acceleration. And I want to read this from March 2025 when Lightspeed co-led your Series A, and it said, Reflection AI is leveraging its deep expertise in reinforcement learning and large language models to solve autonomous coding and more broadly, unlock the path to superintelligence. So it's almost a year since then. Again, what did last 12 months force to rewrite in terms of you building autonomous coding? How you thought about it back then and how you think about it now?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:04:14",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "I mean, when we started, we really believed that as I've said, like reinforcement learning is the next frontier, and we just like wanted to focus on reinforcement learning. But if you want to do really kind of reinforcement learning at the frontier, you need to have like an extremely powerful base model that you can just like post-train.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:04:41",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "You also like need to have a model that you can then deploy safely. What we saw is that especially with like, you know, Llama 4 not being a particularly good model is that the whole Western ecosystem was missing a powerful base model that we could even use to do reinforcement learning at scale. One thing that changed is that we understood, we realized this limitation that we needed to have access to like more powerful open base model coming from a Western lab. And we also realized that we were the only ones who could actually build it based on like how everything was like set up.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:05:13",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "So we set out to just do that. And this is why Reflection is now building its frontier models from the ground up. We're doing both pre-training and reinforcement learning.",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "00:05:20",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "How's it coming along?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:05:21",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "Lots of incredible things we'll have to share this year.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:05:25",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Any ideas where and how will it look like?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:05:28",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "You have to wait for that.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:05:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Well, let's talk about Asimov then. You started with that as an autonomous agent for enterprise. What changed there in terms of all these different coding agents and systems being launched? You know, Claude Code just celebrating one year. OpenAI also kind of refocused to being more coding system and Codex performing pretty well. What's your agent? What are you working now on?",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:05:44",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "Yeah, so we're actually like building again, we're building frontier open-weight models, like frontier agentic models, so you can think of an equivalent of, you know, the US DeepSeek is like how some people call it or like, you know, agentic models powerful like how Claude is or like, you know, GPT-5.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "up to, two or three, This is kind of like what the folks of the company is, in terms of like coding we realized that, I still think that like this is true that one of the main limitations of coding agents is that like they don't have access to all of the context that like your engineers have access to, so that's kind of like the thing in there. At the same time, you know, we've actually embarked on like an extremely ambitious goal of like building these models not just with reinforcement learning but like from scratch with both pre-training and post-training, and we just like really decided to focus on that. So this is what we're doing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:33",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What are the main bottlenecks that you come across?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:06:37",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "I mean if you want to build frontier models you need to first of all attract the right people to do that and really grow out the team. You know, we've actually attracted a world-class team. We have people from, you know, Gemini, people from OpenAI, people from Meta, Apple, like you know all of the best labs, and data providers. These are like people who've done it before, they've built the frontier models, and they've actually joined us because of our mission of building open intelligence. And again, we are the only place who's actually committed to that, so there's there's something that like resonates with many of our scientists. That's one thing, you know getting the resources you need in order to have the compute you need in order to build this models. This was also required us to have a significant series B in the summer, actually in October, where we raised more than two billion dollars to actually have like access to the compute we need. Scaling in terms of engineering, building everything from the ground up, even if you've done it, even if you know what to do, it's never easy. Building these models is like building a rocket. There are many ways things can go wrong. So you need your best rocket scientists to come in and just like to do it and have all the room the agency to actually do it. And we're extremely like lucky that we've assembled this team and we are building this models.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:07:51",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What are the AI tools do you use yourself to accelerate?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:07:56",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "Oh, using like all of the different AI tools and I think that like different ones are like good different things. You know we're using Claude code, we're using cursor, we're using many internal ones as we're actually built. So we have like a whole host of like AI tools that we've built for our own needs and we use them heavily.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So you currently work on the model, but also is there an application that you plan to work on or working currently based on this model?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:08:18",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "The focus currently is just like build the models. There's gonna be applications to follow after that but all hands on deck building this models is challenging and requires all of our mental focus.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:08:24",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That's true but also when we think about open weights models, they are rarely up to the speed with the closed labs models. The secrecy and like the time that you're taking, do you think you will be able to match the closed labs models?",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:08:44",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "The main reason why people haven't managed to build like frontier open models is because like they haven't managed to find a commercial engine to support open models. This is kind of like, being open doesn't only really stop you. If something actually it accelerates you. So, you know, for us the important thing is since this will be our first models to just make them to be the best open models.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "open models out there. This is kind of like the focus. And at the same time, we think that we will have everything else in place so that like in the future we'll just like close the gap and eventually become the lab that like builds the best models in the world. This is the... the ambition of the company and this is the trajectory we are on.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:15",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "How do you plan to evaluate it? What is the actual metric you optimized for?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:09:19",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "The main metric that like matters is, uh, adoption. That's kind of like my... that's the only metric that like really matters. You just like put it out there and ensure that like people like it and they use it.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:09:30",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "And of course like internally we have like many evaluations. Uh, we make sure that like we don't just like, you know, follow the benchmarks or whatever it is, but we have like, uh, unseen evaluations, really try to ensure that like the evaluations match like, uh, real-world use cases. We kind of like follow all the necessary steps.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:46",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "But once you've done that and you've built the models, you need to just like work closely with... people who use them and ensure that like, uh, they like them more and they use them more.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:09:53",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Are you still focusing on autonomous coding or it's more like a general model at this stage?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:09:58",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "It's a general model. It's a general agent model.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:01",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Why did you change that?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:10:04",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "Because we think that, uh, it is important that like there is a general, general open model in the West. And there isn't one. So have to build it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I recently talked to MiniMax and they said that they also work in general model, but coding gives sort of much more feedback immediately and it's just the focus for them.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:21",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "I mean, coding is of course like an extremely important vertical for us too. This is true. But like the model is not just a coder model, it's like a general model. Agentic means, you know, in many ways it means coding, like tool use, coding, agentic reasoning. Those are all capabilities that fit into, you know, coding.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:31",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "So, uh, yeah, it's a general model. Definitely coding is a big part of it.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:10:36",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What are the parts of research you're looking at in, uh, reinforcement learning? What is the most interesting for you there?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:10:43",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "I mean, we're looking at many things. Some I can share, some I can't at this point. But the most important thing is how do you scale... and I guess this is not... everyone's kind of like looking into that. But how do you do the credit assignment correctly? So how do you scale the length of the trajectory so that like the agent can, uh, you know, take many, many, many, many steps and just like still learn effectively from that?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Any other research directions that can be combined with reinforcement learning?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:10:57",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "I mean, we have like... we're looking into many, many things. Reinforcement learning can mean many things. Uh, it also means the use of synthetic data. It also means, uh, ensuring that like you do pre-training in a way so that like you can maximize your reinforcement learning downstream.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:11",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "We actually do research across like the whole stack. This is, uh, the benefit of actually owning the whole stack is that you can optimize it across the stack. It's, you know, you can ensure that your pre-training is like RL-aware and that, uh, you know, the mixtures and like the data and the synthetic data that you use and everything that you do is actually like fully optimized end-to-end.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:11:30",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "And, uh, we have like research efforts and, uh, you know, projects like across the stack.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:11:34",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Everything is happens just so fast in AI. How do you follow?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:11:39",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "Yeah, I mean things happen, uh, fast and AI is kind of like moving extremely fast and, uh, extremely excited about that. I think that like it's also important to be able to tell, you know, real progress from the hype.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "progress from like noise or like you know from things that people just like share. I've been in AI since 2011 so you know past 15 years and in that sense I've actually like seen all the different waves all the the progress that has actually happened in the past 15 years. That makes me extremely bullish on how much we can achieve in the next five years because I've seen it. At the same time also like it gives me focused and I understand that like you know the important thing is to just do your work and you know continue to to sprint.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:12:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Because you have such an amazing experience and you've been in AI and working in AGI for much longer than many people out there. What will be your advice to people, young people who just starting and specifically like researchers and machine learning engineers?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:43",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "Yeah, they should just like do it. There's a lot of more work to be done. I think that people should just like enter the field. It's extremely exciting. I think that like it's it's really fun a lot of more work to be done. There are two different kind of like paths and I think that like they're both valid. Especially for younger people I'd say that like they can be more like risk takers. I joined DeepMind again when it was like a small startup right out of college because like I was young and I had like a really high risk tolerance. I always just like say to people that they should just like try and join a startup instead of just like finding a big company after they graduate because this is how you learn and this is how you grow and it's it's really fun. This can also like be true for more exploratory research if they want to just like do something that deviates from like the dominant paradigm they should also like try that, maybe they care more about robotics or like they care more about like this world models they should definitely go for it. At the same time even in the dominant paradigm of these foundational models there's like a lot of work to be done in terms of how do we use our data better, do we scale our methods better, how do we do credit assignment better, like there are still many things that are unsolved and we need like bright young people to work with us.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:13:53",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "When you joined DeepMind what did Demis and Shane told you that hooked you up to AI so much?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:59",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "So they actually told me that and I remember like my first conversation was actually with Shane. What Shane told me is that like we're building AGI. I was like okay what's AGI and he told me that like oh you know it's we want to build computers that can think and do things like humans and I was like this is insane let's do it where do I sign. And I really appreciated the ambition of like what they want to build and also the fact that they were like extremely like mission first or mission aligned. They were really doing it because they really believed in it. They weren't I mean these people could have done something different you know back then AI had like no money you had to be a bit crazy to even try it. So the fact that like they were crazy enough and ambitious enough and capable enough to just kick start this revolution you could sense it. It was coming from a place of really believing in what they were building.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:14:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "There is much more money in AI right now. What do you tell your people to hook them to AI?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:14:52",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "I mean yeah I'm just telling them that if they believe in open science, if they believe that it's important to have frontier open models, if they believe that AGI which is happening, is going to be helpful for everyone.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "...just like such a powerful technology should be accessible to everyone and should be democratized. There's only one place that does that in earnest, and that's Reflection.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:15:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you. And the last question, my usual question about a book. A book that shaped you or seriously influenced you? And it can be from your childhood or recently.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:15:17",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "There is a book, it's called The Idea Factory. The Idea Factory: Bell Labs and the Great Age of American Innovation. I love this book. It's about the story, the history of like Bell Labs and how it created and how it actually shaped American innovation. It teaches you a lot about like systems and about like companies and organizations and how innovation happens. So, highly recommend that to our viewers.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:15:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I love history. I always think we still can learn a lot from that. Great.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:15:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you so much.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:15:46",
+      "ad": false,
+      "speaker": "Ioannis Antonoglou",
+      "text": "Thank you so much too.",
+      "tone": "polite"
+    }
+  ],
+  "highlights": [
+    "Building frontier AI models is compared to building a rocket, requiring immense capital and specialized talent to manage the complex engineering where many things can go wrong.",
+    "Reflection AI has shifted its focus toward building general-purpose, open-weight frontier models from the ground up to address the lack of powerful, open-source base models in the Western ecosystem.",
+    "AGI is defined here as an agent that can interact with computer software exactly like a human, a goal that may require better engineering and refined methods rather than entirely new scientific breakthroughs.",
+    "Modern AI development mirrors the early work on AlphaGo, which pioneered the now-standard transition from pre-training on human data to post-training via reinforcement learning at massive scale.",
+    "The company recently raised over two billion dollars to secure the necessary compute resources, emphasizing that adoption is the ultimate metric for success in the competitive landscape of open-weight models."
+  ],
+  "summary": "Ioannis Antonoglou, a former DeepMind engineer and co-founder of Reflection AI, discusses the evolution of AI from the 2016 AlphaGo era to the current landscape of massive engineering and operational scale. He defines Artificial General Intelligence (AGI) as a digital agent capable of interacting with software as effectively as a human. Antonoglou argues that achieving this goal no longer requires \"miraculous\" breakthroughs; instead, it is primarily a matter of sophisticated execution, scaling compute, and refining existing methods such as reinforcement learning (RL) and post-training.\n\nReflection AI has pivoted from developing specific autonomous coding agents to building general-purpose, frontier open-weight models from the ground up. This shift was driven by a perceived lack of powerful open-source base models in the West capable of supporting advanced RL at scale. Supported by over $2 billion in funding and a world-class team from top labs like OpenAI and Meta, the company aims to democratize AI by matching the performance of closed-source models. Their research focuses on \"full-stack\" optimization—ensuring pre-training is \"RL-aware\" and solving complex credit assignment challenges to allow agents to perform long, multi-step trajectories.\n\nUltimately, Antonoglou emphasizes that adoption is the only metric that truly matters, prioritizing real-world utility over academic benchmarks. Drawing from his early experience at DeepMind, he encourages young researchers to embrace the \"mission-first\" startup environment and take risks in exploratory fields. He remains a staunch advocate for \"open science,\" believing that the path to superintelligence should be transparent and accessible to everyone to ensure its benefits are fully democratized.",
+  "description": "In this episode, Ioannis Antonoglou, co-founder and CTO @ReflectionAI (ex-DeepMind, AlphaGo/AlphaZero/MuZero) explains what they are building: a frontier open-weight “general agent model” trained end-to-end with pretraining plus reinforcement learning.\n\nAnd I’ll be honest: I left this conversation more skeptical than I expected. They raised $2 billion last year. But where the results?\n\nReflection’s thesis is huge – build the missing Western open base model, then use RL to push it to the frontier. The problem is that this is also the slowest path in the game. “All hands on deck building the model” means no clear wedge product yet, few concrete proof points, and a lot of execution risk while closed labs keep shipping.\n\nAm I missing something? Watch the video and leave your opinion in the comments\n\nChapters:\n\n*Follow on*: https://www.turingpost.com/\n\n*Did you like the episode? You know the drill:* \n📌 Subscribe for more conversations with the builders shaping real-world AI. \n💬 Leave a comment if this resonated. \n👍 Like it if you liked it. \n🫶 Thank you for watching and sharing!\n\n*Guest:* \nIoannis Antonoglou, Co-Founder, President & CTO at Reflection AI https://x.com/real_ioannis https://www.linkedin.com/in/ioannis-alexandros-antonoglou-45393253   https://reflection.ai/ \n\n📰 Transcript: https://www.turingpost.com/nathan \n\n*Turing Post* – AI stories from labs the Valley doesn't cover.\nhttps://x.com/TheTuringPost \nhttps://www.linkedin.com/in/ksenia-se\n\nTags: #reflectionai #opensource #deepmind #ai #openclaw #aisafety",
+  "duration": 952,
+  "people": [
+    "Ioannis Antonoglou",
+    "Ksenia Se",
+    "Turing Post"
+  ],
+  "topics": [
+    "The development of frontier open-weight AI models",
+    "The role of reinforcement learning and credit assignment in AI training",
+    "The evolution of AI research from AlphaGo to modern AGI",
+    "Building general-purpose agentic models for coding and software interaction",
+    "Challenges in scaling compute, funding, and talent for AI startups"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi_webp/zd3B8sNNgmk/maxresdefault.webp",
+  "date": "20260306",
+  "youtube_url": "https://www.youtube.com/watch?v=zd3B8sNNgmk",
+  "youtube_metadata": {
+    "title": "What Reflection AI offers to beat closed labs",
+    "description": "In this episode, Ioannis Antonoglou, co-founder and CTO @ReflectionAI (ex-DeepMind, AlphaGo/AlphaZero/MuZero) explains what they are building: a frontier open-weight “general agent model” trained end-to-end with pretraining plus reinforcement learning.\n\nAnd I’ll be honest: I left this conversation more skeptical than I expected. They raised $2 billion last year. But where the results?\n\nReflection’s thesis is huge – build the missing Western open base model, then use RL to push it to the frontier. The problem is that this is also the slowest path in the game. “All hands on deck building the model” means no clear wedge product yet, few concrete proof points, and a lot of execution risk while closed labs keep shipping.\n\nAm I missing something? Watch the video and leave your opinion in the comments\n\nChapters:\n\n*Follow on*: https://www.turingpost.com/\n\n*Did you like the episode? You know the drill:* \n📌 Subscribe for more conversations with the builders shaping real-world AI. \n💬 Leave a comment if this resonated. \n👍 Like it if you liked it. \n🫶 Thank you for watching and sharing!\n\n*Guest:* \nIoannis Antonoglou, Co-Founder, President & CTO at Reflection AI https://x.com/real_ioannis https://www.linkedin.com/in/ioannis-alexandros-antonoglou-45393253   https://reflection.ai/ \n\n📰 Transcript: https://www.turingpost.com/nathan \n\n*Turing Post* – AI stories from labs the Valley doesn't cover.\nhttps://x.com/TheTuringPost \nhttps://www.linkedin.com/in/ksenia-se\n\nTags: #reflectionai #opensource #deepmind #ai #openclaw #aisafety",
+    "duration": 952,
+    "view_count": 215,
+    "like_count": 11,
+    "channel": "Turing Post",
+    "upload_date": "20260306",
+    "thumbnail": "https://i.ytimg.com/vi_webp/zd3B8sNNgmk/maxresdefault.webp",
+    "tags": [
+      "reflectionai",
+      "opensource",
+      "deepmind",
+      "ai",
+      "openclaw",
+      "aisafety"
+    ]
+  }
+}
