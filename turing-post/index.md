@@ -1,8 +1,8 @@
 ---
 channel: Turing Post
 channel_handle: "@RealTuringPost"
-total_videos: 69
-last_updated: 2026-03-08
+total_videos: 71
+last_updated: 2026-03-18
 ---
 
 # Turing Post Channel Index
@@ -11,15 +11,17 @@ last_updated: 2026-03-08
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 69 |
-| Total Views | 101,765 |
-| Date Range | 2025-08-18 to 2026-03-06 |
-| Average Video Length | 15:58 |
+| Total Videos | 71 |
+| Total Views | 105,260 |
+| Date Range | 2025-08-18 to 2026-03-16 |
+| Average Video Length | 15:48 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
+| 2026-03-16 | [NVIDIA's New AI Stack: GPUs + LPUs for Trillion-Parameter Models](videos/QkJx025O-_g.md) | 9:53 | 1,527 | [Watch](https://www.youtube.com/watch?v=QkJx025O-_g) |
+| 2026-03-14 | [OpenAI's Michael Bolin on Codex, Harness Engineering, and the Real Future of Coding Agents](videos/6BAqgT3qe98.md) | 21:52 | 1,968 | [Watch](https://www.youtube.com/watch?v=6BAqgT3qe98) |
 | 2026-03-06 | [What Reflection AI offers to beat closed labs](videos/zd3B8sNNgmk.md) | 15:52 | 165 | [Watch](https://www.youtube.com/watch?v=zd3B8sNNgmk) |
 | 2026-03-02 | [The Pentagon Called Anthropic a "Supply Chain Risk." They're Not Wrong](videos/o9d12zG6kNM.md) | 11:51 | 503 | [Watch](https://www.youtube.com/watch?v=o9d12zG6kNM) |
 | 2026-02-28 | [Why Reflection AI Bets Their Business on Open Weights \| Ioannis Antonoglou, co-founder and CTO](videos/y2Nw5JzownM.md) | 10:12 | 259 | [Watch](https://www.youtube.com/watch?v=y2Nw5JzownM) |
@@ -68,8 +70,8 @@ last_updated: 2026-03-08
 
 | Company | Videos | Key Topics |
 |---------|--------|------------|
-| **OpenAI** | 10+ | AGI definitions, ChatGPT Atlas, Sam Altman statements, Sora, defense contracts |
-| **NVIDIA** | 6 | Physical AI, Omniverse, Isaac Lab, NVQ Link, Jensen Huang, potential Taalas acquisition |
+| **OpenAI** | 11+ | AGI definitions, ChatGPT Atlas, Sam Altman statements, Sora, defense contracts, Codex coding agents |
+| **NVIDIA** | 7 | Physical AI, Omniverse, Isaac Lab, NVQ Link, Jensen Huang, Vera Rubin platform, GPU+LPU heterogeneous stack |
 | **Mozilla** | 1 | Open Source AI, LAMP Stack, Choice Suite, Data Sovereignty |
 | **Google/DeepMind** | 5 | Veo3, Gemini, scaling debates |
 | **Microsoft** | 3 | Azure AI, Satya Nadella, cloud infrastructure |
@@ -83,6 +85,7 @@ last_updated: 2026-03-08
 | **RentAHuman.ai** | 1 | AI agents hiring humans for physical tasks |
 | **Encord** | 1 | Data labeling, AI progress blockers |
 | **Rubrik** | 1 | AI resilience, cybersecurity |
+| **Groq** | 1 | LPU inference accelerators, NVIDIA partnership, heterogeneous AI stack |
 | **Fireworks AI** | 1 | Inference infrastructure |
 | **Warp** | 1 | AI-native terminal, future of coding |
 | **HistoWiz** | 1 | Digital pathology |
@@ -106,6 +109,8 @@ last_updated: 2026-03-08
 | **Yann LeCun** | 2 | Meta AI, skepticism of AGI timelines |
 | **Carina Hong** | 1 | Axiom Math founder, AI reasoning |
 | **Lin Qiao** | 1 | Fireworks AI CEO, inference |
+| **Michael Bolin** | 1 | OpenAI Codex tech lead, harness engineering, coding agents |
+| **Jonathan Ross** | 1 | Groq founder, LPU architecture |
 | **Ben Goodger** | 1 | OpenAI, ChatGPT Atlas browser |
 | **Refik Anadol** | 1 | AI artist, machine hallucinations |
 | **Dylan Patel** | 1 | SemiAnalysis, chip industry |
@@ -141,7 +146,9 @@ last_updated: 2026-03-08
 | **Quantum Computing** | 1 | NVQ Link, types, use cases |
 | **ASIC / AI Hardware** | 1 | Model-specific silicon, baked weights, inference optimization |
 | **Context Windows** | 2 | Management, compression, limits |
-| **AI Agents** | 3 | Agentic workflows, coding agents |
+| **AI Agents** | 4 | Agentic workflows, coding agents, Codex harness engineering |
+| **LPU (Language Processing Unit)** | 1 | Groq inference accelerator, GPU+LPU heterogeneous stack |
+| **Vera Rubin Platform** | 1 | NVIDIA next-gen AI factory, seven new chips |
 | **Digital Pathology** | 1 | Cancer diagnosis, medical AI |
 | **Formal Verification** | 1 | Lean, AI mathematics |
 

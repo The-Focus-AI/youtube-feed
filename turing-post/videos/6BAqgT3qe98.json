@@ -1,0 +1,440 @@
+{
+  "title": "OpenAI’s Michael Bolin on Codex, Harness Engineering, and the Real Future of Coding Agents",
+  "source_url": "https://www.youtube.com/watch?v=6BAqgT3qe98",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "You know, the model is going to dominate the harness, let's see the agent shine, but this is like a new inner loop that I think we're all kind of figuring out how to optimize. The agent should really be deciding what to do.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:00:15",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Hello everyone, I'm happy to have Michael Bolin today for the interview, and he's the lead for Open Source Codex. Michael, thank you for joining me.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:27",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "Thank you, it's great to be here.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:00:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, you know, currently people often think the story of AI coding is just the model writes code, but a lot of teams building agents say that the real shift is to designing the environment around the models. What side are you on?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:00:43",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "Certainly, you know, the model is going to dominate the experience for sure. There's still a lot of room for innovation in the harness, right? It's not a pure research problem. And I'd say in particular for our team, it's been that relationship between, you know, the engineering side and the research side and co-developing the agent, right? Making sure that anyone can have ideas about how the agent should work, making sure that the harness lets the agent shine and do the best things that it can do, and then giving the right tooling to the agent, making sure that it gets used in training so that things are in distribution, you know, when we ship it as a product to the world.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Let's maybe define harness and why it becomes so important.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:01:26",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "Sure. So yeah, the harness is, or we call it the agent loop sometimes, is the bit that, you know, calls out to the model, samples the model, says, and gives it the context of, you know, 'here's what I'm trying to do, here are the tools that are available to me, tell me what to do next.' And then it gets that response, you know, from the model. Often that's a tool call and that says, 'here's the tool I want you to call with these arguments. Let me know what came back.'",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:01:46",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "And, you know, sometimes these tools could be pretty straightforward, like run this executable, tell me what standard out was, what was the exit code, and that's the end of it. You know, we've done a lot more experiments there with more sophisticated tools for controlling the machine, for controlling the user's laptop, so it's a more interactive terminal session and not just kind of simple shelling out of commands. Or it could say, you know, do this web search, or these various things.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:02:08",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "The harness, a lot of what we do on Codex in particular, because it is, you know, primarily a coding agent, and we care tremendously about security and sandboxing. And so what that means is that it's the harness that takes these shell commands or computer-use commands from the model and ensures that they run in a sandbox or under whatever policy the user decides to give the agent.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:02:35",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "And there turns out to be a lot of complexity in that area. It's important that, I mean critical, I'd say, that we not only can, you know, expose all the intelligence of the model but do it safely on the user's machine.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:02:48",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "How do you do it when you're open-sourcing Codex?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:02:51",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "Oh, the safety side of it, you mean?",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:02:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah.",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "00:02:55",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "The nice thing is you can actually see all of this because it's in our repo. And so we do different...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "things reach operating system, something specific to each one. So on Mac OS, there's a technology called seatbelt. On Linux, we use a handful of libraries, something called, there's something called bubblewrap and seccomp and landlock. In Windows, we've actually built our own sandbox. Some of these things like seatbelt are part of Mac OS, so that's, you know, not in the open source repo, just how we call it. But other things like our Windows sandbox, the code for that is in the open source repo. And so we, you know, orchestrate all these calls to go through the sandbox in the appropriate way for the different tool calls.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:33",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So when people fork Codex, it's all baked in, all the safety rules, right?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:40",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "Right. Yes. So, yeah, I guess I should, I should clarify, you know, a detail there is there's safety and security, and people use these terms interchangeably in AI a lot and they are subtly different. So I guess the piece that I'm talking about is more, strictly speaking, I guess on the security side where you're saying, yes, you can run this tool, but you can only read these folders or write these folders and that sort of thing. I think most people in the industry would clarify the safety is actually happening more on the, on the back end side, making sure that the tool calls that the model suggests in the first place are safe to run, right? From the harness's perspective, it's following orders in a certain sense, right? It's faithfully executing the tool calls, but those decisions about what tool calls are safe to run or appropriate to run are made on the model. So yes, if you forked Codex and you're still talking to our models, then you're, you know, relying on our safety of our models. Then, yes, you'd get that. If you ran someone else's model, then, you know, a little bit, I guess, a little more up in the air.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:04:34",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Got it. Since you launched Codex, how does it perform? What do you see? It's a little bit complicated, there's CLI, there is app, there is this, there is that, but in general, how the audience like it?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:04:45",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "We've had a very, very positive response. I think it's, I don't know, for like 5x in usage in terms of the start of the year. You know, I mean going back, we launched in April of last year, but it was really in August when GPT-5 came out, we did a refresh of the CLI. That's when it really started, really started moving. I mean, we, you know, we had growth, but it really started jumping up. Then we did the VS Code extension later that summer or fall, and that, you know, then people really gravitated towards that. Or that, yeah, I think VS Code overtook CLI usage. And then we launched the app, you know, at the start of this year, and that has really taken off. You know, I think it's really the first of its kind in a lot of ways and that's really resonating with people.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:05:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What's so new about it?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:05:29",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "Developers had spent so much time in their IDE historically, and it doesn't make a lot of sense, I think, to meet users where they are. You know, some users are in the terminal, so that's why we have the CLI. A lot of users are in an IDE, so that's why we're in, you know, VS Code, and actually now integrate into JetBrains and Xcode. You know, it's kind of a very obvious and a natural place to go to meet developers. I think with the Codex app, right, we've actually established a new surface. I like to think of it as a mission control type of interface where, you know, now I'm managing many conversations",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "In parallel, but I do have, you know, some key pieces of what you'd normally expect in a traditional IDE. So you can browse the diff that the agent has made. You can actually pop open the terminal with command-J, so you don't have to, you know, switch away to a different window if you kind of want to do some sort of ad hoc things. You know, it's really breaking expectations that like, oh, I don't... I don't actually have to have all my code. I mean, it's nice, but I can actually get a lot done. And there's actually more value for a lot of people in being able to, you know, to organize and work across multiple agents. And like, that's actually the thing that there is like the top priority and that we, you know, really bring front and center to people.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:36",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Let's talk a little bit about how coding agents and systems like Codex change the way developers work. So when coding agents enter the workflow, what changes first in the daily work of engineers like you?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:06:50",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "Sure. I mean, one of the biggest I think is throughput. I mean, just that people are really trying to... they know that if you really put attention on it, right, you can actually get a lot of work done in parallel and kind of... that incurs some amount of context switching that maybe not everyone loves, but if you can master that, right, you can really push a lot of things forward. That's one is that, you know, I personally have I think five clones of the Codex repo that I can kind of hop between. And you know, sometimes it's a small thing that I just saw somewhere while I was doing something else, I'm like, oh, I'd really just like to get that fixed. Or sometimes there's, you know, kind of like full-day conversations where I'm kind of maybe doing a very large change and like working with Codex throughout the course of the day or kind of, you know, between meetings and you... a lot of people I think do this few minutes, five minutes between meetings, you might want to like send another message just to to push it off in another direction so that it keeps moving forward on whichever task that you're doing. Yeah, one is working across multiple workstreams at the same time. I think another that a lot of people are spending more time on right now is then even figuring out well how do I optimize this workflow. This is all very new, right, to everybody, I mean relatively speaking. So investing in oh, you know, should I turn this into a... this thing that I feel like I keep doing, should I turn this into a skill or that sort of thing? Should I actually share this skill with my teammates? Because I think we should actually all be doing this sort of thing. You know, everyone I think all good developers are always trying to find good tools and to optimize their inner loop, but this is like a new inner loop that I think we're all kind of figuring out how to optimize. Now you're, you know, spending time on that in a way that didn't exist before. And then the other one that I think is very natural is how much time we all spend on code review or the volume of code review. That's one, you know, obviously that gets a lot of attention right now. And you know, for sure Codex is also doing a lot of the code review, which is great, which saves us a lot of time. You know, to figuring out how to make the most of that too is always I feel like a bit of a moving target right now.",
+      "tone": "detailed"
+    },
+    {
+      "timestamp": "00:08:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "When you were working on Codex initially, were there any like interesting stories or unexpected things that you encountered?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "You know, so much has changed. So Codex is still not even quite a year old, right, which is pretty remarkable the...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "lot of change in that in that time period.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:09:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Mind blown, yeah.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:09:04",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "Yeah. I mean, you know, trying to think back the models is are a very big part of the acceleration that we've had. So when we launched in April of 2025, that was part of the 03 and 04 mini launch. So we were using reasoning models. The tool calling and instruction following like wasn't, you know, quite I think where we we wanted to be. And, you know, seeing that change over time, that has been a big one. Trying to think the you asked specifically about like kind of early on, um, a lot of those things. I mean, I think getting Codex to write more of Codex, so, you know, was just such a that seeing that bootstrapping happen, you know, things like Agents MD uh becoming more standard and things like that. That just getting that scaffolding in place so that you're building the tool that's optimizing your own workflow that gives you kind of that exponential liftoff was just exciting and and very fun to have certainly like colleagues like really starting to to get it and, you know, shift more of their work to Codex and be excited about doing that.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:10:01",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "How does repository and all the documents, how do they need to look like when an agent is navigating this instead of a human developer? Like you mentioned Agent MD, what is the biggest difference here?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:10:14",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "It's funny. I think an interesting thing about this whole agentic coding journey is that there are a number of practices that have been considered best practice, you know, in software for a long time, and we just didn't do them. So, you know, for example, documentation is one, test driven development is one. You know, people, I mean, it's not that people never did these things, right, but they they're like, well, you know, is the tradeoff there, is it worth it, right? And now, you know, in an an agent first world, these things are clearly worth it, right? And now people are, I feel like, you know, almost rediscovering these things that we've known about for a long time but but really caring about them. When you think about Agents MD, for example, you know, all this stuff that's in there, at least that we write in ours I would say is is suitable for a human, you know, a you know, person joining the team and things that they need to know and it's all these best practices. You know, it's nice, it's actually kind of freeing to to make sure we actually write these things down in a way, you know, for the agent and for our teammates. But at least on Codex, you know, you can see it, right? It's kind of nice that you can just look in the repo and see what we do. You know, our Agents MD file is pretty modest, I would say, on Codex. You know, we consider ourselves AGI pilled, meaning that we should the agent should really be deciding what to do rather than us feeding it, you know, more instruction than it needs. And so rather than, you know, trying to write up a document that's in parallel to the source code, you know, that's potentially duplicative and and also potentially incorrect, right, inconsistent, the agent most of the time is spends a lot of time ripgrep-ing, like reading code, right, kind of forming its own opinion. So I think we try to put things in an Agent MD that maybe it wouldn't have gotten, you know, very obviously or very quickly from the code, you know, like, hey, this is the way you should run the tests or these tests are more important than those tests, things like that. But I think we actually try not to overdo it, let the agent, you know, decide the best way forward.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:56",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So you think in the nearest future Agents MD will be written by an agent?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "I mean, a lot of people",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "Those are right now, you know, or I know a lot of folks who... we don't happen to do it on our team as a general practice I would say. You'd actually have to look through the history and double check me on that one. Many people I know or anecdotally hold like that they in their personal instructions say, 'Oh and when you're done, like please update anything of interest to the agent's MD file that you, you know, was not obvious or however you, whatever you and your, your agent, your codex want to do.' I feel like there in the industry, I mean, I just see different papers coming out on people are experimenting with I guess even how much to tell the agent and I'm sure it depends on the agent as well. So but like I said, I think we take like a modest approach. It's not like tens of pages of instructions or anything like that. I think it's more like a handful off the top of my head.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What about context engineering being an important part of this process? Is there such a thing as too much context for an agent?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:52",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "So I'm not a researcher. A researcher would give you a more precise answer, but I can give you from my, from my empirical experience is that, you know, a lot of times, you know, like let's say when I'm prompting Codex like for a like a more meatier task, you know, I probably write about a paragraph or so. And I ask it to go, often ask it to familiarize itself with that part of the code. You know, maybe I give it explicit pointers to files if I think it's going to help, but a lot of times I don't, you know, it does a good job of searching the codebase. I mean, I think, you know, you ask about things you do. I mean, I guess subtly, trying to make sure files and folders are well-named and things like that. I think, I mean again, one of those things that's just a good practice anyway, but is probably even more important than we realize, you know, when the agent's searching the code. Most of the context is, context, sorry, you know, is going to be agent's MD, my, you know, the thing that I prompted it, maybe some file references that I gave it. I mean, I do also give it access to reading GitHub, so things like, 'Hey, a similar thing happened in this pull request' or 'I think this regressed in this pull request,' and so it could also see not just the code, but any of the conversation that happened on that pull request. But again, it's more about I think like letting Codex know it has these options, here are the tools in your toolbox, but not being prescriptive about the best way for it to solve the problem and trying to let it do its job. And it's, it's a good model, so it, you know, it does a good job there.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It sounds almost like it pushes you kind of towards stricter architecture.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:14:19",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "Certainly, you know, Codex is going to follow patterns that it, that it sees in the code base. You know, so if you have a good architecture in the first place and it's going to follow it and maintain it and enforce the invariants that you set up, you're going to be in a good position over time. But again, right, that's also true of human developers as well. It's just, I guess it's just that, you know, the rate of change is now just so much higher so that if you, yes, have these, you know, standards, you know you're going to get the benefits of them.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:14:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Do you still see a lot of slop coming out from the model, from the coding agents, and like how do you fight it?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:14:51",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "I mean, with Codex, not trying to think if anything comes to mind. I don't think I've seen things that I would call slop. Sometimes it's just, I think all these models...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "like to write code and so sometimes the answer is deleting code and sometimes you you know maybe need to be a little more prescriptive in that way. But you know that's not exactly slop or maybe it's like eh you know you you added 500 lines to this file maybe you should have made a new file like that's those are easier fixes. But in you know in many cases what's far more common is that it maybe knows an idiom or a language feature you know that I just happened to not have encountered yet and it adds it and I you know like learned something new. That is more often the way that I'm surprised by Codex rather than than slop.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:15:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What what you were describing is that uh since the Codex was started the model was not there yet now it's much stronger model now it's the application itself that brings more audience. I'm trying to understand this bit more like big model or big harness what is more important and is there a way when the harness stop being a wrapper and just starts becoming an environment that matters more or it's still the model rules it all?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:56",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "You know it's possible. I mean in a lot of ways we try to make the harness as small and as tight as possible. So one thing that you see in in Codex compared to I think some of the others is that we try to give it very few tools. So for example Codex doesn't have a an explicit tool for like reading files right instead we give it control of a computer terminal and if it uses cat or sed or whatever command line tool that's present on the system to read a file we encourage it to do that. And I mean a comment earlier about about being AGI-pilled and I we meaning that we give it a large space to play in and it should find the best point in that space to move forward. In a certain sense the harness gets smaller in a number of way or we try to keep it small and just give it like a handful of very very powerful tools. The only way perhaps we compromise on that at all is again is the is the security aspect of things is that you know security and the sandboxing like specifically how we approach it is a very important backstop I would say to just letting Codex run run wild so to speak. Yeah you know sometimes people play tricks trying to do special tools to try to maybe manage the context window better like you feel like as the harness author it's like well I know better than Codex like I'm gonna give it I'm gonna try to bias it to do these certain things say to manage context window better but I would say we try to shy away from that if say it's gonna run a tool that's gonna spit out a gigabyte of data then we don't want to put that gigabyte of data into the context window because it's not probably relevant. I think our view would be hey let's let's bias Codex so that it writes that to a file and then maybe it greps the file or does something else right and like but it's again free to kind of choose its way to solve that problem.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:17:39",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Do you think it's possible to encode all these rules in safety and build in sandboxing or there always should be human in the loop like human judgment?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:17:54",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "For coding for at least the tasks that you know I you know focus on. Sandboxing is really the main thing like is is the replacement for human in the loop for a lot of this stuff.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "For the you know for the sorts of tests that we work on, you know you have a prompt, you have a problem, you have a coding problem that you give to Codex. You have this environment that it can operate in, that's constrained in certain ways by a sandbox. Letting it explore that space is I think going to get you, you know, the best solution certainly at scale, right? If you, like I mentioned, you know I have like five clones of Codex going. If I were having to interject every few minutes on all five of those things, then you know like then that really limits fundamentally the throughput that you can get out of them in training the model. I mean as opposed to having a human in the loop, right, we want the models to get smarter and to do those types of things, have those corrections happening at training time that you know then play out at inference time.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So there will be more in the model, not in the harness?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:18:51",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "So, yes. There's other parts that are important also, right? Things like the reliability of the harness is, you know, a pretty big one. If the harness falls over, then your session's over and then, you know, what can the model do? That sort of thing. And so to that end, you know, performance and reliability are really important principles that we have when implementing the harness. For example, I don't know, if we want to stand up a farm of Raspberry Pis, I don't know, right? Where each one's running the agent loop, ensuring that again we're like judicious with the resources on the machine, right? So that most of the energy is spent with what the model needs to do and like the harness is ideally doing kind of like the bare minimum there. And as we inevitably move out towards multi-agent and sub-agent and more agents talking across machines and things like that, having the harness then is not just a single machine process, right? Now we're talking about a network of agents and things like that. I expect there'll be more interesting work to do there still, I won't be out of a job quite yet. That will change and you know, and I personally have spent most of my career writing tools for developers, right? Now probably writing more tools for agents. The agent obviously can write its own tools as well, but we'd rather have a small number of tools that are very powerful that it can use to explore the space well, but I think that we will also still continue to be experimenting like what is that right, you know, set of primitives that we want to focus on.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:20:17",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Do you know this set already? Have you thought about it?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:20:21",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "I mean, I think we see a lot of the pieces there right now. So I mentioned the term shell tool earlier and I use it more generally as a terminal tool, so that the models interface you know into like a using a computer terminal more like a human would, not just straight up executing individual commands. So like dealing with things with streaming output and using that efficiently. The use of memory, I think is another you know big area that we see a lot of interesting work happening in. So historically again every time you would start a conversation right it's kind of from nothing and that's why you have agents MD and some of this context stuffing to try to get that you know information into the model.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "...very quickly. So if you'd look, you know, in the repo you could see there's a lot of experiments around memory.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:06",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "There's a lot going on with with different types of context connectors, right? It's like okay, well originally we were just kind of focusing on computer tasks on your machine, but now it's also about getting work done which maybe is, you know, sending email on your behalf or creating documents and things like that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:20",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "That set of tools or or taking action, you know, in a web browser. There's a lot there as well. And then things like just kind of standard LLM stuff where generally speaking more context window is good, how we compact that, you know, when you hit the limits of the context window, you know, all that stuff is still actively being pursued and contributes to the overall model agent experience.",
+      "tone": "informative"
+    }
+  ],
+  "highlights": [
+    "The \"harness\" or agent loop is critical for managing tool calls and ensuring security through sandboxing, allowing the model to execute terminal commands safely across different operating systems.",
+    "AI agents are significantly increasing developer throughput by enabling the management of multiple parallel workstreams, shifting the engineer's focus toward orchestrating agents and optimizing new \"inner loop\" skills.",
+    "Agentic coding is reviving traditional software best practices like test-driven development and rigorous documentation because these structures are essential for an agent to navigate and understand a codebase effectively.",
+    "Adopting an \"AGI-pilled\" philosophy, the team prioritizes giving agents a small set of powerful, general-purpose tools—such as a full terminal—rather than being overly prescriptive with specialized wrappers or instructions.",
+    "Modern AI coding tools are moving toward a \"mission control\" interface that allows developers to manage many agent conversations in parallel, breaking the traditional reliance on a single IDE window."
+  ],
+  "summary": "This transcript features Michael Bolin, lead for Open Source Codex, discussing the evolving relationship between AI models and the \"harness\"—the agent loop that manages context, tools, and execution. Bolin advocates for an \"AGI-pilled\" philosophy, which prioritizes giving agents general, powerful tools (like a terminal) and the autonomy to decide how to solve problems, rather than providing overly prescriptive instructions. A critical component of this harness is security; Codex utilizes OS-specific sandboxing technologies, such as \"seatbelt\" for macOS and \"bubblewrap\" for Linux, to ensure that agents can safely execute commands on a user's machine without compromising the system.\n\nThe integration of coding agents is fundamentally shifting developer workflows from manual coding to a \"mission control\" approach. Bolin highlights that throughput has increased significantly as developers now manage multiple parallel workstreams and \"clones\" of a repository simultaneously. This shift is also revitalizing industry best practices that were often neglected by humans, such as test-driven development and rigorous documentation. By using \"Agents.md\" files to provide high-level context, developers enable agents to navigate complex architectures more effectively.\n\nLooking ahead, Bolin sees the focus shifting toward improving the reliability and performance of the agent loop, as well as advancing memory management and multi-agent coordination. As agents move beyond simple code generation to taking actions across web browsers and networks, the developer's role is evolving into one of optimizing the \"inner loop\" of the agentic process. Ultimately, the goal is to keep the harness lightweight and secure while allowing the model’s intelligence to dominate the problem-solving process.",
+  "description": "Regarding the question of what matters most – the model or the harness – Michael Bolin is somewhere in the middle.\n\nStronger models clearly pushed Codex to new heights. But without the right harness around them, those models would not be able to operate reliably, and – most importantly – safely on a real developer’s machine. At least, not yet.\n\nIn this episode of Inference, I talk with Michael Bolin – lead for open source Codex at OpenAI – about the engineering layer that makes coding agents actually function: the agent loop, sandboxing, tool orchestration, and the design decisions that determine how much freedom an agent should have.\n\nIn this conversation, we get into:\nWhat a harness actually is and why every coding agent needs one \nCan a model be enough for a reliable coding workflow\nWhy do they build harness as small and tight as possible\nHow Codex handles sandboxing and security across OS\nWhy safety and security are not the same thing in agentic systems\nHow coding agents are changing the daily workflow of developers\nWhy documentation, tests, repo structure, and agents.md suddenly matter more\nWhether too much context can make an agent worse\nWhy Michael believes the future may involve fewer tools, but more powerful ones\nIf you’re trying to understand where coding agents are actually going, this episode is for you.\nSubscribe to the channel to be notified about Part 2, where we discuss what becomes of the software engineer in the age of agents.\n\nChapters:\n0:00 The New Inner Loop of AI Coding Agents\n0:17 Introduction: Michael Bolin and Open Source Codex\n1:17 What the “Harness” Is in AI Coding Agents\n2:13 Security and Sandboxing for AI Agents\n4:33 Codex Launch and Rapid Growth\n5:25 The Codex App: A New Interface for Developers\n6:36 How Coding Agents Change Developer Workflows\n10:04 Writing Codebases and Documentation for AI Agents\n12:44 Context Engineering and Prompting for Codex\n16:02 Model vs Harness: What Really Matters for Agents\n19:23 Multi-Agent Systems, Tools, and the Future of AI Development\n\n*Follow on*: https://www.turingpost.com/\n\n*Did you like the episode? You know the drill:* \n📌 Subscribe here and here (https://www.turingpost.com/subscribe) for more conversations with the builders shaping real-world AI. \n💬 Leave a comment\n👍 Like it \n🫶 Thank you for watching and sharing!\n\n*Guest:* \n Michael Bolin, tech lead on Codex, OpenAI\nhttps://www.linkedin.com/in/michael-bolin-7632712/\nhttps://x.com/bolinfest\nhttps://github.com/openai/codex\n\n📰 Transcript: https://www.turingpost.com/bolin1\n\n*Turing Post* – AI stories from labs the Valley doesn't cover.\nhttps://x.com/TheTuringPost \nhttps://www.linkedin.com/in/ksenia-se\n\nTags: #AI #OpenAI #Codex #CodingAgents #DeveloperTools #AgenticAI #SoftwareEngineering #HarnessEngineering #Harness",
+  "duration": 1312,
+  "people": [
+    "Michael Bolin",
+    "Ksenia Se",
+    "How Codex",
+    "Why Michael",
+    "The New",
+    "Inner Loop",
+    "Coding Agents",
+    "Open Source",
+    "Codex Launch",
+    "Rapid Growth",
+    "The Codex",
+    "New Interface",
+    "How Coding",
+    "Agents Change",
+    "Developer Workflows",
+    "Writing Codebases",
+    "Context Engineering",
+    "What Really",
+    "Agent Systems",
+    "Turing Post"
+  ],
+  "topics": [
+    "The definition and role of the 'harness' or agent loop in AI coding",
+    "Security and sandboxing for autonomous coding agents",
+    "How agentic systems are transforming developer workflows and throughput",
+    "The evolution and adoption of Codex across CLI, IDE, and app interfaces",
+    "Designing repositories and documentation for agents, including Agents.md"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi_webp/6BAqgT3qe98/maxresdefault.webp",
+  "date": "20260314",
+  "youtube_url": "https://www.youtube.com/watch?v=6BAqgT3qe98",
+  "youtube_metadata": {
+    "title": "OpenAI’s Michael Bolin on Codex, Harness Engineering, and the Real Future of Coding Agents",
+    "description": "Regarding the question of what matters most – the model or the harness – Michael Bolin is somewhere in the middle.\n\nStronger models clearly pushed Codex to new heights. But without the right harness around them, those models would not be able to operate reliably, and – most importantly – safely on a real developer’s machine. At least, not yet.\n\nIn this episode of Inference, I talk with Michael Bolin – lead for open source Codex at OpenAI – about the engineering layer that makes coding agents actually function: the agent loop, sandboxing, tool orchestration, and the design decisions that determine how much freedom an agent should have.\n\nIn this conversation, we get into:\nWhat a harness actually is and why every coding agent needs one \nCan a model be enough for a reliable coding workflow\nWhy do they build harness as small and tight as possible\nHow Codex handles sandboxing and security across OS\nWhy safety and security are not the same thing in agentic systems\nHow coding agents are changing the daily workflow of developers\nWhy documentation, tests, repo structure, and agents.md suddenly matter more\nWhether too much context can make an agent worse\nWhy Michael believes the future may involve fewer tools, but more powerful ones\nIf you’re trying to understand where coding agents are actually going, this episode is for you.\nSubscribe to the channel to be notified about Part 2, where we discuss what becomes of the software engineer in the age of agents.\n\nChapters:\n0:00 The New Inner Loop of AI Coding Agents\n0:17 Introduction: Michael Bolin and Open Source Codex\n1:17 What the “Harness” Is in AI Coding Agents\n2:13 Security and Sandboxing for AI Agents\n4:33 Codex Launch and Rapid Growth\n5:25 The Codex App: A New Interface for Developers\n6:36 How Coding Agents Change Developer Workflows\n10:04 Writing Codebases and Documentation for AI Agents\n12:44 Context Engineering and Prompting for Codex\n16:02 Model vs Harness: What Really Matters for Agents\n19:23 Multi-Agent Systems, Tools, and the Future of AI Development\n\n*Follow on*: https://www.turingpost.com/\n\n*Did you like the episode? You know the drill:* \n📌 Subscribe here and here (https://www.turingpost.com/subscribe) for more conversations with the builders shaping real-world AI. \n💬 Leave a comment\n👍 Like it \n🫶 Thank you for watching and sharing!\n\n*Guest:* \n Michael Bolin, tech lead on Codex, OpenAI\nhttps://www.linkedin.com/in/michael-bolin-7632712/\nhttps://x.com/bolinfest\nhttps://github.com/openai/codex\n\n📰 Transcript: https://www.turingpost.com/bolin1\n\n*Turing Post* – AI stories from labs the Valley doesn't cover.\nhttps://x.com/TheTuringPost \nhttps://www.linkedin.com/in/ksenia-se\n\nTags: #AI #OpenAI #Codex #CodingAgents #DeveloperTools #AgenticAI #SoftwareEngineering #HarnessEngineering #Harness",
+    "duration": 1312,
+    "view_count": 1968,
+    "like_count": 76,
+    "channel": "Turing Post",
+    "upload_date": "20260314",
+    "thumbnail": "https://i.ytimg.com/vi_webp/6BAqgT3qe98/maxresdefault.webp",
+    "tags": [
+      "AI",
+      "OpenAI",
+      "Codex",
+      "CodingAgents",
+      "DeveloperTools",
+      "AgenticAI",
+      "SoftwareEngineering",
+      "HarnessEngineering",
+      "Harness"
+    ]
+  }
+}

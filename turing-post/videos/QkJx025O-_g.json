@@ -1,0 +1,371 @@
+{
+  "title": "NVIDIA’s New AI Stack: GPUs + LPUs for Trillion-Parameter Models",
+  "source_url": "https://www.youtube.com/watch?v=QkJx025O-_g",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Look at these numbers. Jensen Huang just announced at GTC 2026 is truly mind-blowing and it's worth diving deeper.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "They announced the combination of Vera, Rubin, NVL 72, and Nvidia Grok 3 LPX.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:17",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Do you remember when Nvidia went into this deal with LPU, into this 20 billion deal and hired Jonathan Ross? Everyone was asking, were they scared of LPU? Are they just absorbing the competitor?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:00:33",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But no, the idea behind this deal was much deeper. Let's go into details. It's fascinating.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:00:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, as you might know, for years AI infrastructure was relatively easy to explain. Training ran on GPUs, inference largely ran on GPUs too, and most serious hardware conversations eventually turned into conversations about GPUs too.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:01:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And at GTC 2026, Nvidia is changing that picture. The company is laying out an AI factory with different racks for different phases of AI. And inside that factory, the LPU gets a specific role.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It becomes a dedicated inference accelerator that sits beside Rubin GPU racks and helps them serve very large models faster. To understand why this matters, it helps to separate the phases of AI work, because those phases now look increasingly different from one another.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:01:28",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Pre-training is the giant education phase where the model is exposed to enormous data and learns broad statistical structure.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:01:38",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Post-training is where the base model gets tuned, aligned, or specialized.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:01:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Test-time scaling is what happens when you spend more compute during inference, so the model can think longer, search more, or reason more carefully.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:01:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Agentic inference goes one step further. It is the phase where the model is no longer giving a single answer and stopping. It's calling tools, running code, checking files, maintaining long context, and sometimes coordinating with other models.",
+      "tone": "elaborative"
+    },
+    {
+      "timestamp": "00:02:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Those workloads do not stress the hardware in the same way. Pre-training loves massive parallel compute and huge clusters. Agentic inference cares a lot more about latency, memory movement, coordination, and keeping a long chain of work coherent across many steps.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:02:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That is why Nvidia's new system splits the factory into specialized racks. At the core of it are seven new chips in full production.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:35",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Vera, Rubin, NVLink 6 Switch, SX9, BF4, Spectrum-X, and Nvidia Grok 3 LPU.",
+      "tone": "formal"
+    },
+    {
+      "timestamp": "00:02:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Those seven chips are then assembled into five different rack scale systems that for the different training and post-training and inference part of the model workload.",
+      "tone": "summarizing"
+    },
+    {
+      "timestamp": "00:02:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And the result, at least what they announced, is truly mind-blowing.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Something. If that really works, that accelerates work with huge models tremendously. Just look at this screen.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "GPU has a very high throughput. LPU has a very extreme low latency. Like this, you see on the picture. And that's what Nvidia's created, a combination of these two chips.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So a little bit for understanding again. When a model answers you, it does not produce the whole response at once. It generates one token at a time, and that process is called decoding. And each next token depends on the tokens that came before it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That makes decoding a sequential, latency sensitive process. And as models get bigger and context window get longer, the cost of their repeated next token step becomes more important. And if the system is slow there, like GPU, the model feels slow in the places users actually notice.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:01",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And this is where the LPU now fits into the GPU world. It is a decode accelerator. Now to mind blowing results that would just announced at Jensen Huang's keynote.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Nvidia says that Groq 3 LPX rack is designed for low latency, large context demand, but this slide is the main result we actually need to pay attention. Nvidia is showing a GPT-class workload with one trillion parameters and 400,000 context.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:34",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And then, comparing three serving regimes: Blackwell NVL 72, Rubin NVL 72, and Rubin plus LPX.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:43",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The claim is that once LPX is added, the system reaches a very different operating point. At around 500 tokens per second per user, Nvidia says the combined Rubin and LPX system delivers 35X higher throughput per megawatt.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "On the business side, the bar chart makes the point even more directly. Blackwell is shown at one dollar of revenue per second per megawatt. Rubin at four dollars, and there Rubin plus LPX at ten.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:18",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So the argument is not abstract. Nvidia is saying that the combination of GPU and LPU changes the economics of premium inference enough to create a new serving tier for trillion parameter models.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:33",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "In practical terms, the GPU still anchors the system. It brings the large memory footprint, the broader software stack, the flexibility across training and inference, and the role of primary compute platform.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The LPU is added beside it to speed up the decode path for the hardest serving workloads. This is the place it now takes in the GPU world. Not as a replacement for the GPU, but as a specialist attached to the Rubin platform to push high end inference further than a GPU only system can push it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If you want a little bit of history about Groq, Groq was actually founded in 2016 by Jonathan Ross and Douglas Wightman. They have been working on the problem of inference for long...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "At the same time, the company grew out of the view that inference had different bottlenecks from training, and that those bottlenecks justified a different architecture. That is why Groq spent so much time emphasizing deterministic execution, compiler control, fast token generation, and on-chip SRAM.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:19",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The premise was straightforward: if your priority is serving models quickly and predictably, you should design for that directly rather than inherit the assumptions of a training-first architecture. People thought when the LPU was launched, the GPUs were cooked. Of course not.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:33",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "They are very complementary, and the system that Nvidia presented demonstrated it amazingly well. And here, another interesting point: that shift that Nvidia just demonstrated for us tells us important things about the state of AI infrastructure.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The market is no longer organized around one universal accelerator doing everything equally well. It is moving toward heterogeneity. Different stages of AI work are expensive in different ways, and the hardware is starting to reflect that.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "GPU racks handle the heavy model work, CPU racks handle the environment-heavy and tool-heavy parts of agent execution, ASX storage holds and serves shared KV cache, which is the eternal memory state the model uses so it does not have to recompute the whole conversation over and over.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "SPX networking keeps East-West traffic moving across the pod. LPX now takes the decode-heavy part of premium inference. It's brilliant. Compute becomes heterogeneous, and the question is where this goes next.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:40",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The answer, if Nvidia is right, is that AI factories become more like configurable production systems and less like giant piles of identical servers. The unit of competition shifts upward.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Instead of asking which company has the best accelerator in isolation, the market starts asking which company can assemble the best full-stack for a given workload. That is a very Nvidia-shaped future, because Nvidia is strongest when the contest moves from chips alone to systems, software, networking, storage, and ecosystem control.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "There is still a practical limit there. Most companies are not about to build trillion-parameter serving stacks in-house. Most users are still buying outcomes through APIs, not buying racks. Running open models at scale remains expensive and operationally difficult.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So the arrival of LPU inside the Nvidia stack does not mean the whole market suddenly flips to self-hosted inference. But what it does mean is that at the frontier, where the economics of serving very large models actually matter, Nvidia sees enough value in specialized decode acceleration to give it a permanent role in the AI pod.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "architecture. This is why this announcement is so important.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It shows that the GPU era is continuing, but the GPU-only era is giving way to something more structured.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:10",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "NVIDIA is telling the market that the future AI factory will be built from several specialized layers working together.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:19",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And the LPU has now been assigned one of the most specific and most commercially interesting jobs in that stack: accelerating the decode path for the hardest inference workloads.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you very much for watching. Please leave your comments on how do you see infrastructure in the coming months and years. Always appreciate your opinion.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:09:39",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Like, subscribe, share, and thank you for watching. See you next week.",
+      "tone": "cheerful"
+    }
+  ],
+  "highlights": [
+    "Nvidia is transitioning from a GPU-only infrastructure to a heterogeneous \"AI factory\" that integrates the LPU as a specialized decode accelerator for high-end, latency-sensitive inference.",
+    "The combination of the Rubin GPU platform and LPX racks reportedly delivers 35X higher throughput per megawatt, drastically improving the economic efficiency of serving trillion-parameter models.",
+    "AI hardware is evolving toward extreme specialization, with different hardware configurations now optimized for specific phases such as pre-training, test-time scaling, and agentic inference.",
+    "Nvidia is shifting the industry's unit of competition from individual chips to integrated full-stack systems that combine specialized compute, networking, and storage into a single production environment."
+  ],
+  "summary": "At Nvidia’s GTC 2026, CEO Jensen Huang announced a major shift in AI infrastructure by integrating the Groq LPU (Language Processing Unit) alongside the new Rubin GPU architecture. Moving away from a \"GPU-only\" model, Nvidia is positioning the LPU as a specialized \"decode accelerator\" designed to handle the high-speed, low-latency demands of large-scale inference. This heterogeneous approach recognizes that while GPUs are ideal for the massive parallel compute required for pre-training, the LPU is better suited for \"agentic inference\"—tasks that involve long-context reasoning, tool-calling, and sequential token generation.\n\nThe performance and economic implications of this integration are substantial. For trillion-parameter models with massive context windows, the combined Rubin and LPX system reportedly delivers 35 times higher throughput per megawatt and a tenfold increase in revenue potential compared to previous Blackwell systems. This evolution signals a broader industry trend where the AI factory is no longer a collection of identical servers, but a configurable system of specialized layers. By controlling the entire stack—including networking, storage, and specialized compute—Nvidia aims to maintain its dominance as the market shifts from competing on individual chips to competing on full-system efficiency for the most demanding AI workloads.",
+  "description": "NVIDIA just revealed something new about the future of AI infrastructure: a new combination of chips.\n\nFor the first time, NVIDIA is pairing its Rubin GPUs with Groq’s LPU inference accelerators inside the same AI factory.\n\nAnd they claim that it brings 35× higher inference throughput and 10× more revenue opportunity for trillion-parameter models.\nSo what exactly is happening here?\n\nIn this episode of Attention Span, we unpack the architecture behind GPU + LPU and what it signals about the next phase of AI infrastructure. We look at why inference has become a separate hardware problem and where the LPU fits within NVIDIA’s new Vera Rubin system to address it and deliver phenomenal result.\n\nIs this the beginning of a new heterogeneous AI stack, where GPUs remain the foundation but specialized chips take over the most painful bottlenecks? Or is NVIDIA simply making sure that every important layer of the AI factory still ends up under its control? (spoiler: what they did is brilliant).\n\n*🔗 Links Mentioned* \n- NVIDIA&Groq deal https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale\n- GPU's rival? What is Language Processing Unit (LPU) https://www.turingpost.com/p/fod41 \n- https://nvidianews.nvidia.com/news/nvidia-vera-rubin-platform\n\nAs always on *Attention Span*, we look past the hype and focus on the engineering. Because AI is not magic. Lot of times it’s just a lot of very aggressive hardware design.\n\n👉 Subscribe for more high-signal AI mechanics\n👉 More analysis: TuringPost.com\n👉 Interviews: / @realturingpost\n\n#AttentionSpan #AIHardware #GPU #LPU #NVIDIA #Groq #AIInfrastructure #LLM #Semiconductors #MachineLearning #AI",
+  "duration": 593,
+  "people": [
+    "Ksenia Se",
+    "Unnamed Speaker",
+    "Attention Span",
+    "Vera Rubin",
+    "Links Mentioned",
+    "Language Processing"
+  ],
+  "topics": [
+    "Integration of NVIDIA's Rubin GPUs with Groq's LPU accelerators",
+    "Transition to heterogeneous AI infrastructure and specialized hardware racks",
+    "Performance and economic benefits of LPU-augmented inference for trillion-parameter models",
+    "The evolution of AI hardware from universal chips to full-stack systems",
+    "Hardware requirements for agentic inference, test-time scaling, and pre-training phases"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/QkJx025O-_g/maxresdefault.jpg",
+  "date": "20260316",
+  "youtube_url": "https://www.youtube.com/watch?v=QkJx025O-_g",
+  "youtube_metadata": {
+    "title": "NVIDIA’s New AI Stack: GPUs + LPUs for Trillion-Parameter Models",
+    "description": "NVIDIA just revealed something new about the future of AI infrastructure: a new combination of chips.\n\nFor the first time, NVIDIA is pairing its Rubin GPUs with Groq’s LPU inference accelerators inside the same AI factory.\n\nAnd they claim that it brings 35× higher inference throughput and 10× more revenue opportunity for trillion-parameter models.\nSo what exactly is happening here?\n\nIn this episode of Attention Span, we unpack the architecture behind GPU + LPU and what it signals about the next phase of AI infrastructure. We look at why inference has become a separate hardware problem and where the LPU fits within NVIDIA’s new Vera Rubin system to address it and deliver phenomenal result.\n\nIs this the beginning of a new heterogeneous AI stack, where GPUs remain the foundation but specialized chips take over the most painful bottlenecks? Or is NVIDIA simply making sure that every important layer of the AI factory still ends up under its control? (spoiler: what they did is brilliant).\n\n*🔗 Links Mentioned* \n- NVIDIA&Groq deal https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale\n- GPU's rival? What is Language Processing Unit (LPU) https://www.turingpost.com/p/fod41 \n- https://nvidianews.nvidia.com/news/nvidia-vera-rubin-platform\n\nAs always on *Attention Span*, we look past the hype and focus on the engineering. Because AI is not magic. Lot of times it’s just a lot of very aggressive hardware design.\n\n👉 Subscribe for more high-signal AI mechanics\n👉 More analysis: TuringPost.com\n👉 Interviews: / @realturingpost\n\n#AttentionSpan #AIHardware #GPU #LPU #NVIDIA #Groq #AIInfrastructure #LLM #Semiconductors #MachineLearning #AI",
+    "duration": 593,
+    "view_count": 1530,
+    "like_count": 82,
+    "channel": "Turing Post",
+    "upload_date": "20260316",
+    "thumbnail": "https://i.ytimg.com/vi/QkJx025O-_g/maxresdefault.jpg",
+    "tags": [
+      "AttentionSpan",
+      "AIHardware",
+      "GPU",
+      "LPU",
+      "NVIDIA",
+      "Groq",
+      "AIInfrastructure",
+      "LLM",
+      "Semiconductors",
+      "MachineLearning",
+      "AI"
+    ]
+  }
+}

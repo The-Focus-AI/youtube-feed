@@ -1,8 +1,8 @@
 ---
 channel: Hard Fork
 channel_handle: "@hardfork"
-total_videos: 23
-last_updated: 2026-03-11
+total_videos: 24
+last_updated: 2026-03-18
 ---
 
 # Hard Fork Channel Index
@@ -13,15 +13,16 @@ Hard Fork is a New York Times podcast hosted by **Kevin Roose** and **Casey Newt
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 23 |
-| Total Views | 615,694 |
-| Date Range | 2025-11-14 to 2026-03-10 |
+| Total Videos | 24 |
+| Total Views | 629,400 |
+| Date Range | 2025-11-14 to 2026-03-13 |
 | Average Video Length | 46:59 |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [Why A.I. Is Making You Exhausted](videos/x4x1ZsUxgm8.md) | 62:17 | 13,706 |
 | [YouTube's A.I. Slop Problem ... for Kids](videos/f8Z1EmBmf40.md) | 24:13 | 2,444 |
 | [The Hidden Cost of OpenAI's Pentagon Deal? Trust.](videos/tnv3kIGU8go.md) | 37:50 | 10,206 |
 | [OpenAI Vs. Anthropic: How the Pentagon Picked Its Partner](videos/Zj35mEtwUvY.md) | 30:45 | 15,391 |
