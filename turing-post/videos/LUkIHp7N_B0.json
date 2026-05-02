@@ -1,0 +1,399 @@
+{
+  "title": "OpenAI’s Michael Bolin: What Engineers Still Matter For in the Age of Coding Agents",
+  "source_url": "https://www.youtube.com/watch?v=LUkIHp7N_B0",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "people are asking you know do I need to learn to code or not",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:00:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Does it mean that you think that the agents will take over at some point?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:00:07",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "A failure mode I guess of all this is that",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:00:18",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "In the second part of our interview with Michael Bolin, lead for open source Codex at OpenAI, we move from systems to humans. We talk about what happens to programming when agents write more code, which skills matter more now, how to change your mindset, and why engineers still matter. Watch it and let me know what you think.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:00:42",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "For you personally, was it hard to switch and change your mindset from writing tools for developers to writing them for agents?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:00:49",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "I view it as a fun challenge and an interesting problem to work on. It's different, it's a bit different but not wildly different. I guess in some ways it's a little easier because you have one customer with your opinions rather than, you know, lots. It hasn't been that different. There are a lot of big existing tools, right, that we can that we can just retrofit, I would say.",
+      "tone": "engaged"
+    },
+    {
+      "timestamp": "00:01:06",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "I do wonder personally, as many people do, what does the web look like more if agents are more or consuming more of the web than say, you know, humans and things like that?",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:01:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It's definitely coming.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:17",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "Yeah. So that, you know, remains to be seen. That that story has not been written yet.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:01:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So yeah, what does it mean to be a programmer in that world?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:01:26",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "Personally, I'm someone who, I guess, has prided himself on writing a lot of code, right? I have a lot of identity in writing code. I guess maybe earlier in this narrative was wondering how I'd feel about not writing the code. Personally, I've actually been still very excited about using agents even though I'm not writing the code because really it was always about like getting things done and building things and, you know, the physical typing was a was a means to to building the thing.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:01:47",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "But it was really always about, you know, the artifact at the end. I still feel that I am, you know, in control of shaping the artifacts and, you know, putting whatever personal experience or opinions that I have into into producing that. It's just a different way of going about it than I've done for the previous 20 years.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Would you say that you really build more now?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:02:16",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "I definitely build more. And I think probably one of the most fun things is that prototypes have become cheaper to build, right? You know, especially... you know, it's just like, oh, I just wonder, you know, what would it feel like if I, you know, built this thing and this thing and put them together like, oh, I just like, that would take my whole weekend, I probably can't do it, I'll never see what that looks like, right? And now that's not a limit, right? So that's pretty exciting.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:02:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What skills do you think become more important for engineers working with agents now? Like if you tell people who thinking about becoming engineers...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:02:51",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "I mean, it's a great question. A lot of people are asking, you know, do I need to learn to code or not? What does this job look like? I don't claim to know. I would say, you know, at the moment, I think there's still...",
+      "tone": "candid"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "So still a lot of value in, you know, knowing the right question to ask, because we're still... we're still in charge. They haven't... they haven't taken over yet. Still being able to read code and look at it and recognize and having some... some taste about, oh, you know, this does work, but I want this to be better. How can I make this better? Right? What is the right, you know... what is... what does better even look like? Or when... when is it important? Whether you learn it by writing by hand or just reading a lot of code, I think being familiar with code and being willing to go through levels of abstraction... and it's different though, I think, you know, historically you... you learned to go through those levels of abstraction usually by hard-earned experience of writing the code and, you know, sitting there with a debugger yourself. Now, you know, it can still be challenging and interesting work, but now it's more of about asking the right questions of the model. It's like, well, okay, why is this code this way? What does this code do? Wait, who introduced that? Why did they do that then? Right? You know, certainly just, I guess, being inquisitive and curious is gonna... is a... is a key skill.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:03:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "You mentioned being AGI pilled. Does it mean that you think that the agents will take over at some point of all the coding?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:04:13",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "Coding, not... not the world, just... Not the world, that's it. Uh, they will take over writing the code. I think for... for the most part. I mean, even... even myself now, I don't type a lot of the code. It's pretty... it's getting rarer and rarer. It's only if it's something that are just very specific or maybe, um, security sensitive that I want to make sure that I get right and that I'm responsible for. But then, you know, I still have the agent check it many, many times. You know, as I mentioned, you know, especially with the Codex app, just like the throughput that you can... that you can get, right, if you are... don't hold yourself responsible for... for typing the code, right, is... is just so massive that that's gonna be hard to compete with. But again, it still takes, at least today, you know, active shaping, you know, on the part of the creator of the project of, you know, what... what the code base looks like, how it evolves, and that sort of thing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:57",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Something like engineering taste almost.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:04:59",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "Yeah, yeah, I think... I think it'll be interesting when, you know, when I've decided that Codex unilaterally has better taste than me. I assume that we will get there, but I can't tell you when.",
+      "tone": "pensive"
+    },
+    {
+      "timestamp": "00:05:10",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And you work in since so many generations of developer tools. What excites you the most about this moment of software engineering?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:05:18",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "Like I said, that you can go from idea to, you know, to prototype or then... then potentially to... to product just so much faster. And then we can try things out and that probably historically until now time was the most limiting factor in terms of, you know, what I could, you know, or we as an industry could build, you know, in our lifetime. Um, and now it's more the imagination than... than anything else. You know, I'm excited about, you know, just dabbling in more different things, right, really quickly because there's such a lower barrier to entry to trying things out, like to build more games or something like that that I don't have the time to do, but because I, you know, maybe would have taken a whole another career to get up to speed on a different stack or something like that. And now, you know.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "things like that are within reach.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:01",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What concerns you?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:03",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "About what specifically?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:04",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This moment of like building this new future for software engineering and building the encoding agents.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:11",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "The failure mode, I guess of all of this, is that I think if we gave up on having applying our own taste, you know, too early and that we ended up with a bunch of stuff that we were really excited that we, you know, built but that let's say it was all, you know, six months later it was all bloated or falling over because no one applied any like taste along the way or something like that.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:31",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "I think the models will get there, but I don't know what, you know, maybe we give them too much credit too early or something like that.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So you're still pro-human in the loop.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:45",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "I guess it depends what what you're calling in the in the loop. I mean in terms of like",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "making decisions maybe, like again applying taste.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:52",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "I think it's got to be more than just spouting requirements randomly at a machine and saying like do this, oh wait but this doesn't work and now this doesn't work, now fix that. I mean, you know, that is a way to to build a thing, but I don't think that you're going to get the best artifact that way if you're just kind of randomly, you know, ping-ponging around until it kind of looks the way that you want.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:16",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "I think having some sort of opinion about, you know, certainly for larger projects and things that are not throwaway prototypes but things that you want to actually be built to last, we're going to need that.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:28",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "But I think, you know, over time, I mean we do this now too, right? It's at the moment again it's about asking the right question but I think that that will may start to fade as well. It's like, you know, you could you could ask Codex every night, sometimes we do, right? Like look at everything that happened today, like does this seem architecturally right? Does this seem like a good architecture?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:45",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "You know, just that today you'd have to schedule that cron job, right? But I think the way things are going, right? The the system systems that we're building, right? That should be or the the harness around it is is asking that or the way the agent is designed and set up to run is that it just has learned to ask that of itself periodically.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:00",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "You know, the more that you kind of go in that direction like the less the the human is in the loop in that world.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The last question is always about a book, what book or idea shaped or seriously influenced you? And it might be a recent book or a book from your childhood.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:17",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "Oh wow, that's a great question. I guess I'll say that my favorite book is Cryptonomicon by Neal Stephenson. There's a lot of things I love about that book, but I don't know, I guess people who create systems and and come up with clever ways to subvert systems and and that obviously that real harder sci-fi, I mean that's I guess not quite hard sci-fi, but the more very like colorful and imaginative way seeing that all weaved together. I don't know, that's the book that I enjoy the most.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:43",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "You like to create systems.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:45",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "I do like to create systems and then I also like to be, you know, my own adversary, right? And make sure that, you know, I stand behind the thing that I built.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:57",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you so much. Thank you for your time.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "Thank you so much. Thanks for having me.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I wanted to talk about Michael Bolin.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:03",
+      "ad": false,
+      "speaker": "Michael Bolin",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:04",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And so I know he's a very famous actor and he's also a director.",
+      "tone": "neutral"
+    }
+  ],
+  "highlights": [
+    "Programming is transitioning from the manual act of typing code to a process of steering AI agents, where the engineer's value lies in shaping the final artifact through personal taste and strategic decision-making.",
+    "AI has dramatically lowered the cost of prototyping, shifting the primary bottleneck of software development from the time required for manual labor to the limits of human imagination.",
+    "As agents handle more of the writing, the essential skills for modern engineers are evolving toward \"engineering taste,\" the ability to ask the right questions, and the curiosity to navigate complex levels of abstraction.",
+    "A significant risk in the current landscape is abdicating human oversight too early, which can lead to bloated or fragile systems if requirements are fed to AI without a coherent architectural vision."
+  ],
+  "summary": "In this interview, Michael Bolin, lead for open-source Codex at OpenAI, discusses the evolving role of the software engineer in an era dominated by AI agents. Bolin argues that the traditional identity of a programmer—previously rooted in the manual act of writing code—is shifting toward a role focused on \"shaping\" artifacts and directing systems. He notes that AI has drastically lowered the barrier to entry for prototyping, allowing developers to move from idea to product at a much higher throughput. For Bolin, the physical act of typing has become a means to an end, with the primary value now residing in the final product and the creative vision behind it.\n\nBolin emphasizes that while agents may eventually take over the bulk of code generation, human \"engineering taste\" remains a critical skill. He suggests that being inquisitive, understanding levels of abstraction, and knowing how to ask the right questions are more important than ever. His primary concern is a \"failure mode\" where developers stop applying their own standards too early, potentially leading to bloated or fragile systems. Ultimately, he envisions a future where imagination, rather than time or technical syntax, becomes the main limiting factor in software development, provided that humans continue to provide the architectural oversight necessary for building lasting products.",
+  "description": "In this second part of my conversation with Michael Bolin, lead for open-source Codex at OpenAI, we move from harness engineering to the human side of the story.\n\nWhat does it mean to be a programmer when you are no longer typing most of the code? Which skills become more important in an agent-driven workflow? Will coding agents eventually take over most software implementation? And if that happens, what is left for the human engineer besides pushing prompts around like a confused project manager with Wi-Fi?\nAll of it and more in this part – watch it.\n\n*Follow on*: https://www.turingpost.com/\n\n*Did you like the episode? You know the drill:* \n📌 Subscribe for more conversations with the builders shaping real-world AI. \n💬 Leave a comment if this resonated. \n👍 Like it if you liked it. \n🫶 Thank you for watching and sharing!\n\n*Guest:*  Michael Bolin, tech lead on Codex, OpenAI\nhttps://www.linkedin.com/in/michael-bolin-7632712/\nhttps://x.com/bolinfest\nhttps://github.com/openai/codex\n\nChapters:\n\n0:00 — Do You Still Need to Learn Coding?\n0:18 — From Systems to Humans: The Future of Programming\n0:39 — Switching Mindset: Building for Agents vs Developers\n1:13 — What Happens When Agents Consume the Web?\n1:27 — Programmer Identity in the Age of AI\n2:15 — Are Engineers Building More Than Ever?\n2:37 — Key Skills for Engineers Working with AI Agents\n3:59 — Will Agents Take Over Coding?\n4:57 — Engineering Taste vs AI Decisions\n5:10 — From Idea to Product Faster Than Ever\n6:01 — Risks: Losing Human Judgment Too Early\n6:42 — Do We Still Need Humans in the Loop?\n8:06 — Book That Shaped a Builder’s Mindset\n\n📰 Transcript:https://www.turingpost.com/p/bolincodex\n\nhttps://x.com/TheTuringPost \nhttps://www.linkedin.com/in/ksenia-se\n\n#AI #OpenAI #Codex #MichaelBolin #SoftwareEngineering #Programming #CodingAgents #AIAgents #DeveloperTools #HarnessEngineering #FutureOfWork #Engineering #TuringPost",
+  "duration": 545,
+  "people": [
+    "Michael Bolin",
+    "Ksenia Se",
+    "Do You",
+    "Still Need",
+    "Learn Coding",
+    "From Systems",
+    "The Future",
+    "Switching Mindset",
+    "What Happens",
+    "When Agents",
+    "Programmer Identity",
+    "Are Engineers",
+    "Building More",
+    "Than Ever",
+    "Key Skills",
+    "Engineers Working",
+    "Will Agents",
+    "Take Over",
+    "Engineering Taste",
+    "From Idea",
+    "Product Faster",
+    "Losing Human",
+    "Judgment Too",
+    "Do We",
+    "Book That"
+  ],
+  "topics": [
+    "The evolving role and identity of programmers in the era of AI agents",
+    "Essential skills for engineers including asking the right questions and 'engineering taste'",
+    "The impact of AI on the speed of prototyping and building software products",
+    "The future of coding agents and whether they will fully take over software implementation",
+    "The risks of over-relying on AI and the continued importance of human judgment"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/LUkIHp7N_B0/maxresdefault.jpg",
+  "date": "20260321",
+  "youtube_url": "https://www.youtube.com/watch?v=LUkIHp7N_B0",
+  "youtube_metadata": {
+    "title": "OpenAI’s Michael Bolin: What Engineers Still Matter For in the Age of Coding Agents",
+    "description": "In this second part of my conversation with Michael Bolin, lead for open-source Codex at OpenAI, we move from harness engineering to the human side of the story.\n\nWhat does it mean to be a programmer when you are no longer typing most of the code? Which skills become more important in an agent-driven workflow? Will coding agents eventually take over most software implementation? And if that happens, what is left for the human engineer besides pushing prompts around like a confused project manager with Wi-Fi?\nAll of it and more in this part – watch it.\n\n*Follow on*: https://www.turingpost.com/\n\n*Did you like the episode? You know the drill:* \n📌 Subscribe for more conversations with the builders shaping real-world AI. \n💬 Leave a comment if this resonated. \n👍 Like it if you liked it. \n🫶 Thank you for watching and sharing!\n\n*Guest:*  Michael Bolin, tech lead on Codex, OpenAI\nhttps://www.linkedin.com/in/michael-bolin-7632712/\nhttps://x.com/bolinfest\nhttps://github.com/openai/codex\n\nChapters:\n\n0:00 — Do You Still Need to Learn Coding?\n0:18 — From Systems to Humans: The Future of Programming\n0:39 — Switching Mindset: Building for Agents vs Developers\n1:13 — What Happens When Agents Consume the Web?\n1:27 — Programmer Identity in the Age of AI\n2:15 — Are Engineers Building More Than Ever?\n2:37 — Key Skills for Engineers Working with AI Agents\n3:59 — Will Agents Take Over Coding?\n4:57 — Engineering Taste vs AI Decisions\n5:10 — From Idea to Product Faster Than Ever\n6:01 — Risks: Losing Human Judgment Too Early\n6:42 — Do We Still Need Humans in the Loop?\n8:06 — Book That Shaped a Builder’s Mindset\n\n📰 Transcript:https://www.turingpost.com/p/bolincodex\n\nhttps://x.com/TheTuringPost \nhttps://www.linkedin.com/in/ksenia-se\n\n#AI #OpenAI #Codex #MichaelBolin #SoftwareEngineering #Programming #CodingAgents #AIAgents #DeveloperTools #HarnessEngineering #FutureOfWork #Engineering #TuringPost",
+    "duration": 545,
+    "view_count": 951,
+    "like_count": 16,
+    "channel": "Turing Post",
+    "upload_date": "20260321",
+    "thumbnail": "https://i.ytimg.com/vi/LUkIHp7N_B0/maxresdefault.jpg",
+    "tags": [
+      "AI",
+      "OpenAI",
+      "Codex",
+      "MichaelBolin",
+      "SoftwareEngineering",
+      "Programming",
+      "CodingAgents",
+      "AIAgents",
+      "DeveloperTools",
+      "HarnessEngineering",
+      "FutureOfWork",
+      "Engineering",
+      "TuringPost"
+    ]
+  }
+}

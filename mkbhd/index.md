@@ -1,8 +1,8 @@
 ---
 channel: MKBHD
 channel_handle: "@mkbhd"
-total_videos: 44
-last_updated: 2026-03-11
+total_videos: 52
+last_updated: 2026-04-25
 ---
 
 # MKBHD Channel Index
@@ -11,10 +11,10 @@ last_updated: 2026-03-11
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 44 |
-| Total Views | 195,627,868 |
-| Date Range | June 10, 2025 - March 10, 2026 |
-| Average Video Length | 13:11 |
+| Total Videos | 52 |
+| Total Views | 220,395,821 |
+| Date Range | June 10, 2025 - April 24, 2026 |
+| Average Video Length | 12:29 |
 
 ---
 
@@ -22,6 +22,14 @@ last_updated: 2026-03-11
 
 | Date | Title | Duration | Views |
 |------|-------|----------|-------|
+| 2026-04-24 | [Glass is glass](videos/7YrdI7h2XoY.md) | 4:45 | 1,065,114 |
+| 2026-04-21 | [So This is Peak Smartphone](videos/c347oYQO57A.md) | 13:17 | 3,783,304 |
+| 2026-04-14 | [The Unreleased Rollable Smartphone!](videos/5aS-8QCRdGE.md) | 9:58 | 1,998,870 |
+| 2026-04-01 | [Bluey Phone Review](videos/Hc0aqOEU2w8.md) | 4:23 | 3,868,332 |
+| 2026-03-30 | [So This is Peak Foldable](videos/eFUB_jL_XcM.md) | 10:47 | 5,880,345 |
+| 2026-03-25 | [The Windows Laptop Problem](videos/eXa2ndhmatI.md) | 10:48 | 4,629,240 |
+| 2026-03-19 | [Nothing Phone 4A/Pro Review: I Have a Theory](videos/D4QyStJWgCc.md) | 12:04 | 2,075,140 |
+| 2026-03-14 | [Reviewing Everything on my Desk! (2026)](videos/j2rszuZ-9PY.md) | 15:30 | 1,467,608 |
 | 2026-03-10 | [Macbook Neo Review: Better than you Think!](videos/iGeXGdYE7UE.md) | 12:53 | 1,367,662 |
 | 2026-03-09 | [Apple Studio Display XDR Review: We're All Pros Now!](videos/yWI33R4xyIc.md) | 10:41 | 1,475,678 |
 | 2026-03-06 | [Samsung Galaxy S26 Ultra Review: There's a Catch](videos/nfHRMqqO578.md) | 12:35 | 2,106,600 |
@@ -75,7 +83,7 @@ last_updated: 2026-03-11
 
 | Company | Videos | References |
 |---------|--------|------------|
-| **Apple** | 28 | WWDC 2025, iOS 26, iPhone 17, iPhone Air, AirPods Pro 3, Vision Pro, iPadOS 26, M5 chip, MacBook Neo, MacBook Neo Review, Studio Display XDR, Siri, Apple Intelligence, Liquid Glass, A18 Pro, A19 Pro |
+| **Apple** | 30 | WWDC 2025, iOS 26, iPhone 17, iPhone Air, AirPods Pro 3, Vision Pro, iPadOS 26, M5 chip, M5 Max, MacBook Neo, MacBook Neo Review, MacBook Pro M5 Max, Studio Display XDR, Siri, Apple Intelligence, Liquid Glass, A18 Pro, A19 Pro, iPhone Fold rumors |
 | **Google** | 15 | Pixel 10, Pixel 10A, Gemini, Android 16, Tensor G5, YouTube, Circle to Search |
 | **Samsung** | 14 | Galaxy S26 Ultra Review, Galaxy S26/Ultra Impressions, Galaxy Buds 4 Pro, Galaxy Z Fold 7, Galaxy Z Flip 7, Z Tri Fold, Galaxy S25 Ultra, Galaxy Tab S11 Ultra |
 | **Nothing** | 6 | Nothing Phone 3, Nothing Headphone 1, CMF Phone 2 Pro, Glyph Matrix |
@@ -90,7 +98,11 @@ last_updated: 2026-03-11
 | **Qualcomm** | 9 | Snapdragon 8 Elite, Snapdragon 8 Elite Gen 5, Snapdragon 8s Gen 4 |
 | **Sony** | 2 | WH-1000XM6 headphones |
 | **KEF** | 1 | Nothing Headphone 1 partnership |
-| **Oppo** | 2 | Find X9 Pro |
+| **Oppo** | 4 | Find X9 Pro, Find X9 Ultra, Find N6, no-feel crease |
+| **LG** | 1 | Unreleased Rollable smartphone prototype |
+| **Dell** | 1 | XPS 14 |
+| **Microsoft** | 1 | Windows 11, Copilot, Recall, Paint AI |
+| **Acer** | 1 | Aspire 16 budget laptop |
 | **Huawei** | 2 | Mate XT trifold |
 | **Vertu** | 1 | Agent Q luxury phone |
 | **1X Technologies** | 1 | NEO humanoid robot |
@@ -134,13 +146,20 @@ last_updated: 2026-03-11
 | Nikon ZR | Dope Tech: STILL so good! | [Summary](videos/RvP-uVNwnXo.md) |
 | Logitech MX Master 4 | Dope Tech: STILL so good! | [Summary](videos/RvP-uVNwnXo.md) |
 | Sony WH-1000XM6 | Nothing Headphone 1 Review | [Summary](videos/A94RrC8Mg0o.md) |
+| Oppo Find X9 Ultra | So This is Peak Smartphone | [Summary](videos/c347oYQO57A.md) |
+| Oppo Find N6 | So This is Peak Foldable | [Summary](videos/eFUB_jL_XcM.md) |
+| LG Rollable (prototype) | The Unreleased Rollable Smartphone! | [Summary](videos/5aS-8QCRdGE.md) |
+| Dell XPS 14 | The Windows Laptop Problem | [Summary](videos/eXa2ndhmatI.md) |
+| Acer Aspire 16 | The Windows Laptop Problem | [Summary](videos/eXa2ndhmatI.md) |
+| MacBook Pro M5 Max 16" | The Windows Laptop Problem | [Summary](videos/eXa2ndhmatI.md) |
 
 ### Technologies
 
 | Technology | Videos | Context |
 |------------|--------|---------|
 | **AI / LLMs** | 10+ | Siri, Gemini, ChatGPT, Claude, Apple Intelligence, Magic Cues |
-| **Foldable Phones** | 5 | Z Fold 7, Z Flip 7, Z Tri Fold, Pixel Fold, Huawei Mate XT |
+| **Foldable Phones** | 7 | Z Fold 7, Z Flip 7, Z Tri Fold, Pixel Fold, Huawei Mate XT, Oppo Find N6, rumored iPhone Fold |
+| **Rollable Phones** | 1 | LG Rollable prototype, motorized expanding display |
 | **Silicon Carbon Batteries** | 6 | OnePlus 15, Xiaomi 17 Pro Max, Nothing Phone 3, Honor Power 2, swelling concerns, enabling 7000+ mAh capacity |
 | **Apple Silicon** | 3 | A18 Pro in MacBook Neo, A19 Pro in Studio Display, M5 chip deep dive |
 | **Mini-LED Displays** | 2 | Studio Display XDR 2,000 local dimming zones, 2,000 nits HDR brightness |
@@ -211,6 +230,10 @@ last_updated: 2026-03-11
 | 8 | [Xiaomi 17 Pro Max: An iPhone... But Better!](videos/eou_g_cYCew.md) | 6,610,145 | 2025-10-14 |
 | 9 | [Macbook Neo Impressions: Reincarnated!](videos/kBX5WH9b4M4.md) | 6,599,701 | 2026-03-04 |
 | 10 | [The Problem with this Humanoid Robot](videos/j31dmodZ-5c.md) | 6,344,124 | 2025-10-30 |
+| 11 | [So This is Peak Foldable](videos/eFUB_jL_XcM.md) | 5,880,345 | 2026-03-30 |
+| 12 | [The Windows Laptop Problem](videos/eXa2ndhmatI.md) | 4,629,240 | 2026-03-25 |
+| 13 | [Bluey Phone Review](videos/Hc0aqOEU2w8.md) | 3,868,332 | 2026-04-01 |
+| 14 | [So This is Peak Smartphone](videos/c347oYQO57A.md) | 3,783,304 | 2026-04-21 |
 
 ---
 
@@ -241,6 +264,9 @@ First hands-on looks at newly announced products.
 
 | Video | Product | Date |
 |-------|---------|------|
+| [The Unreleased Rollable Smartphone!](videos/5aS-8QCRdGE.md) | LG Rollable prototype | 2026-04-14 |
+| [So This is Peak Foldable](videos/eFUB_jL_XcM.md) | Oppo Find N6 | 2026-03-30 |
+| [So This is Peak Smartphone](videos/c347oYQO57A.md) | Oppo Find X9 Ultra | 2026-04-21 |
 | [Macbook Neo Impressions: Reincarnated!](videos/kBX5WH9b4M4.md) | MacBook Neo | 2026-03-04 |
 | [iPhone 17/Pro/Air Impressions: Spot the Red Flags!](videos/idEAABFzpfg.md) | iPhone 17 lineup | 2025-09-10 |
 | [Google Pixel 10/Pro/Fold Impressions: Magnets!](videos/269OsrzG3Ew.md) | Pixel 10 lineup | 2025-08-20 |
@@ -258,6 +284,8 @@ Deep dives into technology, concepts, or industry analysis.
 
 | Video | Topic | Date |
 |-------|-------|------|
+| [Glass is glass](videos/7YrdI7h2XoY.md) | Smartphone glass durability marketing | 2026-04-24 |
+| [The Windows Laptop Problem](videos/eXa2ndhmatI.md) | Windows OEM structural issues | 2026-03-25 |
 | [The Problem with these Smartphone Batteries](videos/zPAY2VxfFBk.md) | Silicon carbon battery risks | 2026-02-06 |
 | [The Downfall of OnePlus will be Studied](videos/vZdbbN3FCzE.md) | OnePlus brand lifecycle | 2026-01-26 |
 | [The New Siri is... Google (Explained)](videos/TVsounscj4U.md) | Apple-Google AI partnership | 2026-01-13 |
@@ -286,6 +314,9 @@ Videos examining problematic products or industry trends.
 
 | Video | Topic | Date |
 |-------|-------|------|
+| [Glass is glass](videos/7YrdI7h2XoY.md) | Glass durability marketing claims | 2026-04-24 |
+| [The Windows Laptop Problem](videos/eXa2ndhmatI.md) | Windows ecosystem vs vertical integration | 2026-03-25 |
+| [Bluey Phone Review](videos/Hc0aqOEU2w8.md) | April Fools' parody | 2026-04-01 |
 | [The Problem with this "Ultra Luxury" Smartphone](videos/HLUamwXQ218.md) | Vertu Agent Q scam | 2026-01-09 |
 | [The Problem with this Humanoid Robot](videos/j31dmodZ-5c.md) | NEO robot teleoperation | 2025-10-30 |
 
@@ -341,3 +372,9 @@ All video summaries are available in the `videos/` directory:
 | -NNCca97v98 | [videos/-NNCca97v98.md](videos/-NNCca97v98.md) |
 | A94RrC8Mg0o | [videos/A94RrC8Mg0o.md](videos/A94RrC8Mg0o.md) |
 | Mb6H7trzMfI | [videos/Mb6H7trzMfI.md](videos/Mb6H7trzMfI.md) |
+| 7YrdI7h2XoY | [videos/7YrdI7h2XoY.md](videos/7YrdI7h2XoY.md) |
+| c347oYQO57A | [videos/c347oYQO57A.md](videos/c347oYQO57A.md) |
+| 5aS-8QCRdGE | [videos/5aS-8QCRdGE.md](videos/5aS-8QCRdGE.md) |
+| Hc0aqOEU2w8 | [videos/Hc0aqOEU2w8.md](videos/Hc0aqOEU2w8.md) |
+| eFUB_jL_XcM | [videos/eFUB_jL_XcM.md](videos/eFUB_jL_XcM.md) |
+| eXa2ndhmatI | [videos/eXa2ndhmatI.md](videos/eXa2ndhmatI.md) |

@@ -1,0 +1,468 @@
+{
+  "title": "What Everyone is Missing About Anthropic's Mythos and Project Glasswing",
+  "source_url": "https://www.youtube.com/watch?v=e8R53UkYDzA",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Just think a little. Public conversations always go towards louder and simpler stories first.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:00:07",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But we at Attention Span, we are here to stay grounded. And you might think I'll be criticizing Anthropic as you accused me of doing before, but I actually want to applaud them for an incredibly elegant and effective decision with all the constraints they have.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:00:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So Mephis. Some people treated Mephis—a wonderful name, right? Just prone to create myths around it.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:00:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And a lot of people on Twitter treated Mephis as proof that private frontier models are now dramatically ahead of anything the public can touch. Others treated it as a safety-branded power move. Others went straight to cyber apocalypse.",
+      "tone": "reporting"
+    },
+    {
+      "timestamp": "00:00:42",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Twitter, such an anxiety theater. And those reactions and overreactions—understandable, but they miss a very significant story sitting underneath.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:00:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, as you might have heard, Anthropic launched Project Glasswing as a limited defensive initiative with partners like AWS, Apple, Broadcom, Cisco, CrowdStrike, Google, Nvidia, Linux Foundation, Microsoft, JPMorgan Chase, and Palo Alto Networks. Please notice that OpenAI is not among the partners.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And if it is true that Mephis preview can find and exploit software vulnerabilities better than all but the most skilled human experts, and that it has already found thousands of high-severity vulnerabilities, then Anthropic just gave us an opportunity to slow down and fix a few things. What's wrong with that?",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:01:42",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Well, nothing is wrong with that. The only thing is that it works in the short term for Anthropic as well. Right now they are constrained by compute and most likely are not physically capable of launching Mephis publicly at scale.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:02:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So they chose about 50 high-paying or subsidized partners, and all of them, at least the ones who spoke in Anthropic's video, sounded amazingly grounded and in no way supportive of hype or panic. Watch, for example, Igor Tsyganskiy from Microsoft.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:02:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The model they're experimenting with is by and large as good as a professional human identifying bugs. That's good for us because we can find more vulnerabilities sooner and we can fix them.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:24",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "For him, this is a working tool. And in a world where software ate the world, Mephis plus enough compute on Anthropic's side simply means clearing up some mess. It might take days, months, maybe years, but it is a chance to actually fix some of our software that is controlling our life.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:02:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And that to me is already a much more useful starting point than all the mythology around the dangerous unreleased model.",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:02:53",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yes, this also works well for Anthropic. Of course it does. They're super smart people. The last few months have not exactly...",
+      "tone": "acknowledging"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "...quite a nice ride for them. The company has been under public pressure, governmental pressure, and business pressure all at once.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:03:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So yes, Glasswing helps Anthropic to remind the government and to position themselves again as serious, responsible, infrastructure-minded, governance-aware, and safety-above-all company.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It truly lets them occupy a very useful role, the lab that slows down, warns early, and presents itself as the adult in the room.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:03:33",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "After a massive few months when they were not exactly adults in the room or they were posing themselves too much, this move with Mythos and the partners and slowing down to fix and clean up the mess, that's a very good place to stand.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:03:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And I think there is one person to thank for it. No, it's not Dario Amodei.",
+      "tone": "intriguing"
+    },
+    {
+      "timestamp": "00:03:56",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Daniela Amodei was one of the people who started raising questions about safety back when she and Dario were still at OpenAI.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:05",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And I believe that it's thanks to that push that the decision was made to build the company grounded in safety from the start.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:04:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So my gut feeling is that after all the roller coasters around Dario over the last few months, Daniela kind of had to step in and start making more decisions.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Or at least shaping more of the tone around the company's public posture. She was one of the first to post about Glasswing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:28",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And I would not try to build a whole internal management theory out of one public post, but I also do not think that this kind of message is random, coming from a person who does not publish very often.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:04:42",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I think this project is very dear to her. My read is that in many ways, this is kind of her project.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:04:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Safety and partnerships, institution building rather than theater, soft skills, strategic judgment, and patience, all showing up at the same time.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:04:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So now let's talk a little bit about the model itself. We don't know much. They published a huge system card that unfortunately I could not open because it didn't work.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:07",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And they put a bunch of benchmarks there, but I'm not going to talk about benchmarks in this video.",
+      "tone": "direct"
+    },
+    {
+      "timestamp": "00:05:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "They are very impressive on paper. If you want, you should watch the short video that they posted with all the partners, the way they use the model.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:05:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What I liked about this video is that it's super grounded. There is no panic or super magic god-like model. No. All these people are thinking about cybersecurity, they listing out how they using it.",
+      "tone": "admiring"
+    },
+    {
+      "timestamp": "00:05:36",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That's actually a good video to watch to understand what are they going to work on in the next couple of months.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:05:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What I wanted to notice is that the benchmarks are for sure impressive on paper, but without independent testing, it's hard to tell exactly what is exaggerated by framing and what simply looks better inside a company's own preferred examples.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:05:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What matters here, I think, is price. The preview on the model...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, that is geared to selected participants is priced at $25 per million input tokens and $125 per million output tokens is an expensive model. It's expensive to run, it's expensive to supervise, and it can be very risky. So yes, compute or serving constraints may be part of the background picture. We don't know exactly, they didn't say it openly, but it sounds logical.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "At the moment, this is just not a consumer scale story. This is a scarce, expensive, strategically deployed capability. And let's be honest, how more capable model do you need to be to work with your emails?",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:06:42",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I do hope that eventually Anthropic will invite more independent developers and researchers to try the model. But we'll see. They set up three months' time to check how the problem goes. And this is where another point I want to make, why slowing down is good in the short term and might be bad in the long term.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:07:04",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is for me a real tension. As I said, in the short term, slowing down is good. It is good because software maintenance is weak. It is good because patching is slow. It is good because open source maintainers are overwhelmed. It's good to have some time to fix things.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:07:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It's good because enterprise software is full of things nobody has looked at carefully in years. It's good because if models like Mythos really compress vulnerability discovery, then defenders need some kind of head start, however imperfect. And that's how they call Mythos in this video, Mythos is a head start. I agree with that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:38",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And this is short-term logic. It is solid. But in the long term, this cannot become the permanent model. You cannot build a healthy technological order around the idea that the strongest systems always belong first and maybe forever to a small circle of hyperscalers, major banks, giant corporations, governments and strategically favored institutions. This is not a stable settlement. This is an access regime.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:08:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And sooner or later, people will push back very hard against it. And for good reason. So the way I see it is simple. Short term, Anthropic is probably right. Long term, this logic becomes dangerous if it hardens into a permanent structure. This is why the phrase I keep coming back is collective head start. I think as a start, it's great.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:08:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But sooner rather than later, we should make it an open source push. A temporary symmetry that gives some of the people maintaining important systems stronger tools before everyone else gets them, it is defensible, but only if it's temporary.",
+      "tone": "hopeful"
+    },
+    {
+      "timestamp": "00:08:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, this is kind of my point, and it's simple. Anthropic may well be creating a collective head start here. It also benefits Anthropic itself. All things can be true.",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:08:57",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, this is where I want to end this episode. Calm down enough to resist apocalypse theater, calm down enough to resist.",
+      "tone": "calm"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Opposite lazy take that this is all branding and fear marketing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:04",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The grounded reading is simpler and in some ways more serious.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:09",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Anthropic appears to have a model with materially stronger cyber capability than the public has been allowed to touch.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:09:16",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It's trying to use that lead to buy defenders time, build safeguards, update disclosure and patching practices, and learn how to deploy this class of system without immediately widening the attack surface for everyone else.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That is responsible.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:09:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And within 90 days, Anthropic says it will report what it has learned.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:37",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And I think that is when the next round of judgment should begin.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:09:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Maybe not judgment, judgment is not a good word, asking questions.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:09:45",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That's when we need to ask all these questions about the long term strategy.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:09:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I understand that Anthropic also doesn't want Chinese models to distill its most powerful model.",
+      "tone": "understanding"
+    },
+    {
+      "timestamp": "00:09:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And three months is enough for all of us to see if Chinese and American models from other labs are progressing and how they're progressing without access to Mifos.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:10:05",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you for watching, Mifos happened kind of suddenly.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "00:10:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I am at the conference in San Francisco and I just had so many feelings and thoughts and read so many information on Twitter.",
+      "tone": "personal"
+    },
+    {
+      "timestamp": "00:10:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I just wanted to bring this grounded and calm view at the things happening.",
+      "tone": "sincere"
+    },
+    {
+      "timestamp": "00:10:26",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you for watching.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "00:10:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Leave me your thoughts, I'm always eager to have a good discussion.",
+      "tone": "inviting"
+    }
+  ],
+  "highlights": [
+    "Anthropic has launched Project Glasswing, a defensive initiative that grants a select group of major tech partners access to \"Mephis,\" a powerful model capable of identifying and exploiting high-severity software vulnerabilities.",
+    "This controlled rollout serves as a \"collective head start\" for defenders, allowing organizations to patch critical infrastructure and fix software bugs before the model’s capabilities are made more widely available.",
+    "Beyond safety, the limited release is strategically influenced by high compute costs and serving constraints, as the model’s expensive pricing makes it a scarce tool for enterprise use rather than a consumer-scale product.",
+    "While the speaker praises this responsible short-term approach, she warns that restricting the most powerful AI systems to a small circle of elite institutions is an unsustainable long-term strategy that could eventually face public pushback."
+  ],
+  "summary": "In this transcript, Ksenia Se discusses Anthropic’s recent launch of \"Project Glasswing\" and its new model, \"Mythos\" (referred to as Mephis/Mifos). Rather than releasing the model to the general public, Anthropic has partnered with a select group of major institutions—such as AWS, Apple, Nvidia, and JPMorgan Chase—to use the model’s advanced cybersecurity capabilities for defensive purposes. Se argues that this move is an elegant strategy that positions Anthropic as the \"adult in the room,\" prioritizing safety, governance, and infrastructure over the \"anxiety theater\" and hype common on social media.\n\nThe strategy appears to be driven by both practical constraints and internal leadership. Se notes that the model’s high operational costs and massive compute requirements likely make a wide-scale public launch unfeasible at this time. Furthermore, she credits co-founder Daniela Amodei with shaping this grounded, safety-first public posture to help rehabilitate the company’s image following months of intense public and governmental pressure. By limiting access to high-paying, responsible partners, Anthropic aims to identify and patch thousands of high-severity software vulnerabilities before the technology is more broadly accessible.\n\nUltimately, Se frames the initiative as a \"collective head start\" for defenders. While she views this approach as a responsible short-term solution for maintaining fragile software systems, she warns that it cannot become a permanent model. She cautions that a long-term \"access regime,\" where only elite corporations and governments possess the most powerful AI tools, is unstable and dangerous. The success of this move will be judged in the coming months based on whether Anthropic moves toward a more open and equitable technological framework.",
+  "description": "Did Anthropic just create a new access regime for frontier cyber models? Or did it buy the software world a little bit of time?\n\nIn this episode, I look at Project Glasswing and Claude Mythos Preview — Anthropic’s limited defensive initiative with partners including AWS, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks. Anthropic says Mythos Preview can find and exploit vulnerabilities at a level beyond all but the most skilled human experts, and that it has already found thousands of high-severity vulnerabilities across major systems. \n\nWhat is the real story here? Let’s discuss!\n\n🔗 Links Mentioned \nProject Glasswing: https://www.anthropic.com/glasswing\nPartners’ video An initiative to secure the world's software | Project Glasswing\nhttps://www.youtube.com/watch?v=INGOC6-LLv0 \nClaude Mythos Preview system card: https://www.anthropic.com/claude-mythos-preview-system-card\nDaniela Amodei on Glasswing: https://www.linkedin.com/feed/update/urn:li:activity:7447372368269901824/\nAnthropic RED team writeup: https://red.anthropic.com/2026/mythos-preview\n\n*Attention Span* is here to keep the conversation grounded.\n\n👉 Subscribe for more high-signal AI mechanics\n👉 More analysis: TuringPost.com\n👉 Interviews: / @realturingpost\n\n#Anthropic #Mythos #ProjectGlasswing #AISafety #Cybersecurity #AIGovernance #AIPolicy #ClaudeAI #FrontierModels #AICybersecurity #ZeroDay #AIInfrastructure",
+  "duration": 637,
+  "people": [
+    "Ksenia Se",
+    "Igor Tsyganskiy",
+    "Did Anthropic",
+    "Project Glasswing",
+    "Claude Mythos",
+    "Linux Foundation",
+    "Palo Alto",
+    "Mythos Preview",
+    "Links Mentioned",
+    "Daniela Amodei",
+    "Attention Span"
+  ],
+  "topics": [
+    "Anthropic’s Claude Mythos Preview and its cybersecurity capabilities",
+    "Project Glasswing and corporate partnerships for software defense",
+    "Daniela Amodei’s leadership and influence on Anthropic’s safety culture",
+    "The 'collective head start' strategy for patching software vulnerabilities",
+    "The tension between short-term AI safety and long-term access regimes"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/e8R53UkYDzA/maxresdefault.jpg",
+  "date": "20260409",
+  "youtube_url": "https://www.youtube.com/watch?v=e8R53UkYDzA",
+  "youtube_metadata": {
+    "title": "What Everyone is Missing About Anthropic's Mythos and Project Glasswing",
+    "description": "Did Anthropic just create a new access regime for frontier cyber models? Or did it buy the software world a little bit of time?\n\nIn this episode, I look at Project Glasswing and Claude Mythos Preview — Anthropic’s limited defensive initiative with partners including AWS, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks. Anthropic says Mythos Preview can find and exploit vulnerabilities at a level beyond all but the most skilled human experts, and that it has already found thousands of high-severity vulnerabilities across major systems. \n\nWhat is the real story here? Let’s discuss!\n\n🔗 Links Mentioned \nProject Glasswing: https://www.anthropic.com/glasswing\nPartners’ video An initiative to secure the world's software | Project Glasswing\nhttps://www.youtube.com/watch?v=INGOC6-LLv0 \nClaude Mythos Preview system card: https://www.anthropic.com/claude-mythos-preview-system-card\nDaniela Amodei on Glasswing: https://www.linkedin.com/feed/update/urn:li:activity:7447372368269901824/\nAnthropic RED team writeup: https://red.anthropic.com/2026/mythos-preview\n\n*Attention Span* is here to keep the conversation grounded.\n\n👉 Subscribe for more high-signal AI mechanics\n👉 More analysis: TuringPost.com\n👉 Interviews: / @realturingpost\n\n#Anthropic #Mythos #ProjectGlasswing #AISafety #Cybersecurity #AIGovernance #AIPolicy #ClaudeAI #FrontierModels #AICybersecurity #ZeroDay #AIInfrastructure",
+    "duration": 637,
+    "view_count": 3564,
+    "like_count": 137,
+    "channel": "Turing Post",
+    "upload_date": "20260409",
+    "thumbnail": "https://i.ytimg.com/vi/e8R53UkYDzA/maxresdefault.jpg",
+    "tags": [
+      "Anthropic",
+      "Mythos",
+      "ProjectGlasswing",
+      "AISafety",
+      "Cybersecurity",
+      "AIGovernance",
+      "AIPolicy",
+      "ClaudeAI",
+      "FrontierModels",
+      "AICybersecurity",
+      "ZeroDay",
+      "AIInfrastructure"
+    ]
+  }
+}

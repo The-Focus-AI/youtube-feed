@@ -1,0 +1,272 @@
+{
+  "title": "This Bittensor Subnet Could Cut Drug Discovery Costs in HALF | E2267",
+  "source_url": "https://www.youtube.com/watch?v=gjRt4eUyiYc",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Hello and welcome back to TWIST. Today is March 25th, 2026. My name is Alex and I am joined today by my dear friend Lon Harris. Lon, how you doing?",
+      "tone": "upbeat"
+    },
+    {
+      "timestamp": "00:00:10",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm doing pretty good. What, what day A-O is it? What day after Claw is it, is it Alex? We didn't... 40, 47, 48. It's in the late 40s or something folks, we, we kind of lost track of that.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:00:22",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Much like Lon himself in the late 40s and has somewhat lost track. Importantly though, we are not going to be spending all of our time on Open Claw today. Instead, we are going to be drilling down even further into the world of Bittensor. We have three different subnets on the show today, Metanova, Bitcast and Score. I'm actually really excited about each one of these companies for different reasons Lon, but I love getting a diversity of projects all part of Bittensor because it shows what the project can be as a whole.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's a really cool thing about doing, you know, we were so focused on Open Claw for a while and it's cool. I still enjoy Open Claw, I've bonded with my agent. But a lot of the Open Claw projects are kind of similar. It's people doing kind of similar things: here's how you can use your Open Claw, here's how you can make multiple agents, here's how you can do this workflow and that. And the great thing about making a show about Bittensor is that every one of these subnets they're doing different things with the core technology. It's one core concept or idea, but then you could use it in a whole lot of creative ways for all these like interesting applications. And that's what, that's what I think is interesting about today's show is that it's three wildly different projects but all built on the same kind of ecosystem.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:34",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, drug discovery, social media for creators, and then also vision models for commercial applications. So we're going to be getting through quite a lot of things. But Lon, I think before we bring up our first guest, we should do a little PSA about our fun little devices that are listening to us as we speak.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:01:53",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "Yeah, we should talk about how we applaud Plaud. You may notice that Alex is wearing one on his wrist, I have one right here on my collar. These are Plaud pins, and all you do is you hit the button. It doesn't just record you and keep track of notes on everything that you said in the people around you said, it organizes them so that you can go through it easily later, figure out what you said, search through what was said. It identifies the people in the room with you, it gets to know the people in your life. So it really is kind of this magical device that takes interactions that you're doing throughout the day in your regular spoken aloud life, and then sort of saving them for you and making them searchable and easy to look through later, so that you never sort of miss anything in conversation ever again.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:02:25",
+      "ad": true,
+      "speaker": "Alex Wilhelm",
+      "text": "Absolutely. I use it for less than that Lon, and more as my personal scribe for when I'm like holding a child and I want to remember a thought, an idea, a task, a to-do. And I just kind of hit the button, drop it in, turn it off, and then I go back and I have kind of a list of things that I need to get done. An absolute lifesaver on my end. I'm a huge fan, and if you want to get a Plaud you can do so, go to plaud.ai/twist, P-L-A-U-D dot A-I slash twist. Use the code TWIST to save 10%. Look super fly, and then Lon and I will give you high fives when we see you.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "Or online, we'll give you a virtual high five if you get a Plaud pin. If you send us a tweet we'll follow you back.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "...whatever the digital equivalent of that is. All right. Let's dive in. We're going to talk to MetaNova, or as I like to call them, Lon Subnet number 68, so please welcome Micaela Bazo and Pedro Pena to the show.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Just for folks out there who are less familiar with BitTensor and maybe don't know quite what we're talking about, so I don't know who wants to take this, but the way we think about it, BitTensor is a decentralized network that uses crypto incentives to reward individuals who contribute useful AI models, compute, or results to task-specific subnets. Thoughts guys? How can we improve that? Tighten it up so everyone can follow along at home?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:33",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I mean I think as you were saying, day 47 after Claude, we're seeing that now it's humans and agents, right? So it's a marketplace for intelligence production and there's a wide range of applications. Today we're going to be talking about drug discovery, but as you were saying earlier, one of the things that makes it very unique is the fact that you can use these... this network to train any kind of AI use case or to develop any kind of digital commodity that you can think of from renting compute to vision to drug discovery and we're all in it together and benefiting from each other's success, which I think is something really nice that's coded into the way that the protocol works.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now on that protocol point, I want to talk about the individual actors and players inside of BitTensor. So can you explain to me miners and validators as they relate to individual subnets?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Basically there's like three main actors, let's call it, in the way that each subnet works. You've got the subnet owner slash operator, in this case it would be us, who's basically designing the challenges. And then miners can be any... anyone from around the world or increasingly any form of intelligence from around the world that's solving those problems. Validators are then given a scorecard, let's call it, and basically selecting, reaching a consensus and selecting which ones are the winners for each competition. So these are like competitions that are running 24/7. Think about a hackathon that never sleeps that you can apply to any problem that you would like to solve.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Pedro, tell me about staking and how Tao and Alpha tokens fit into this. Again, for folks out there who are just tuning in and learning this for the first time.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:05:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So I think the best way to talk about staking is to see this as a way to vote on the subnets that are... that you believe, right? Depending on the amount of stake that is flowing to the different subnets, the chain is going to define how much emission these subnets are going to be receiving. So it is also a mechanism for you to vote with your Tao on the different, very different projects that are... that are running on BitTensor, the 128.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:05:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And just to clarify, emissions, or that's how people are getting paid. Like the Tao gets or the tokens get emitted to them based on their work and that's how their fortunes rise over time.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, it is... it works as also an incentive from the chain to everyone that is involved in the project.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:05:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Got it.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And just like Bitcoin, there's a hard cap of...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "21 million tokens are for Tao, correct?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, for Tao and for for the alpha tokens. They are linked to every subnet.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And just to make sure that I'm tracking this correctly, each subnet has their own 21 million token alpha cap.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:06:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Got it. Okay. Explain the goal and economic structure please of subnet 68.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:06:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Subnet 68 is part of this grand decentralized platform that we're building for drug discovery. Why drug discovery? Drug discovery is a very difficult, very expensive problem. Most people are describing it as being in a state of crisis with the average drug taking about 10 billion dollars and 2. -- no, sorry, 10 years and 2.6 billion dollars. Well, we see different estimates. Um, and a lot of people are kind of shooting in the dark. It's a really hard question. There's a lot of points of failure. And so what we're trying to do is improve the virtual screening process so that we can make the best bets. So that they don't even feel like bets. So that we're de-risking what is really like the most asymmetric bet that you could make that has an impact not just like financially, but also on people's lives. So we launched March 1st of last year and it was first of all, a proof of concept of can we even do this in a decentralized way? Like nobody had ever tried to do that before. And since then, um, we've grown to have two different incentive mechanisms. So right now our miners are doing two things simultaneously. They're either submitting molecules of interest based on whatever target we set for the competition. So we're like, 'Hey, find us the most interesting molecules that bind to serotonin.' And/or they're competing on their second incentive mechanism that's focused on chemical search algorithms. Why? Because chemical search algorithms allow us to basically look within the possibilities of the chemical universe in a very flexible way and we can plug it to any kind of state-of-the-art model and also keep certain information private that, you know, might be sensitive from like our partner's perspective.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:08:07",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Is the second mechanism a way to automate the first or are they distinct?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:08:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "They talk a lot with each other and indeed we can see that miners can get a lot of inspiration from the second mechanism to compete in the first mechanism. Because you can actually choose: do you want to open source your code that you're using to win in the first mechanism? Or do you want to like keep it to yourself? So we have these two kinds of incentives and you can go for a more open source route of winning with the code itself, or you can use this code to structure something that will really allow you to explore very, very vast chemical universes and then submit that.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:08:45",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "When you're launching a brand new company and designing your first product, you don't want to hire just any developer. You want the best. The best of the best. The creme de la creme. And that's why you gotta turn to our friends at lemon.io. We've had many companies in our portfolio work with lemon.io...",
+      "tone": "persuasive"
+    }
+  ],
+  "highlights": [
+    "Subnet 68 is part of this grand decentralized platform that we're building for drug discovery.",
+    "They talk a lot with each other and indeed we can see that miners can get a lot of inspiration from the second mechanism to compete in the first mechanism.",
+    "Yeah, drug discovery, social media for creators, and then also vision models for commercial applications.",
+    "And just to clarify, emissions, or that's how people are getting paid."
+  ],
+  "summary": "This transcript contains a conversation between Lon Harris and Alex Wilhelm. The transcript includes 28 segments, starting at 00:00:00 and ending at 00:08:45.",
+  "description": "This Week In Startups is made possible by:\n\nLuma AI - https://lumalabs.ai/twist\nEvery.io -  https://every.io\nLemon.io - https://Lemon.io/twist\nPlaud - https://Plaud.ai/twist\n\nToday’s show:\n\nWhat do drug discovery, the creator economy, and AI vision models have in common? In the case of Metanova, Bitcast, and Score, the answer is Bittensor. Yes, each of the three companies leverages the Bittensor network to get more work done, more quickly, in a completely decentralized fashion.\nMetanova uses its subnet to run developer competitions to find exciting molecular candidates, parsing through a mountain of possibilities to pluck out the most promising for further investigation.\nBitcast uses its subnet to collect visibility demand from brands, which is served by video creators. The company is focused on the crypto niche to start, but will expand in time to other technology topics.\nScore uses its subnet to generate highly performant, specialized vision models, which it then sells to customers through a platform (Manako).\nIn each case, the Bittensor’s economic engine unlocks global creativity to tackle tasks that were previously time-consuming, fragmented, or expensive to complete. Let’s see how quickly each company can scale and whether startups building on Bittensor can grow faster than their non-decentralized peers.\nTimestamps:\n\n0:00 Intro\n1:36 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n3:01 What is Bittensor?\n6:43 Metanova Labs joins the show\n8:45 Lemon.io - Get 15% off your first 4 weeks of developer time at https://Lemon.io/twist\n16:37 How Metanova tackles the multi-billion dollar cost of drug discovery\n20:05 Every.io - For all of your incorporation, banking, payroll, benefits, accounting, taxes or other back-office administration needs, visit https://every.io\n29:41 Bitcast joins the show\n30:40 Luma AI - Luma builds accessible, professional-grade AI tools for creatives. Try Luma Agents for free at https://lumalabs.ai/twist\n31:51 Mining crypto with YouTube\n36:09 Why Bitcast is focused on the crypto space to start\n38:32 How healthy is the creator economy?\n46:47 When will the AI bubble collapse?\n53:05 Score joins the show\n54:03 How Score will make vision AI more accessible\n56:37 VLMs v. LLMs\n1:00:35 Demo of the Manako platform\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+  "duration": 4330,
+  "people": [
+    "This Week",
+    "In Startups",
+    "Metanova Labs",
+    "How Metanova",
+    "Try Luma",
+    "Why Bitcast",
+    "How Score",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason",
+    "Will Guidara",
+    "Steve Huffman",
+    "Brian Chesky",
+    "Bob Moesta",
+    "Aaron Levie",
+    "Sophia Amoruso",
+    "Reid Hoffman",
+    "Frank Slootman"
+  ],
+  "topics": [],
+  "thumbnail": "https://i.ytimg.com/vi/gjRt4eUyiYc/maxresdefault.jpg",
+  "date": "20260326",
+  "youtube_url": "https://www.youtube.com/watch?v=gjRt4eUyiYc",
+  "youtube_metadata": {
+    "title": "This Bittensor Subnet Could Cut Drug Discovery Costs in HALF | E2267",
+    "description": "This Week In Startups is made possible by:\n\nLuma AI - https://lumalabs.ai/twist\nEvery.io -  https://every.io\nLemon.io - https://Lemon.io/twist\nPlaud - https://Plaud.ai/twist\n\nToday’s show:\n\nWhat do drug discovery, the creator economy, and AI vision models have in common? In the case of Metanova, Bitcast, and Score, the answer is Bittensor. Yes, each of the three companies leverages the Bittensor network to get more work done, more quickly, in a completely decentralized fashion.\nMetanova uses its subnet to run developer competitions to find exciting molecular candidates, parsing through a mountain of possibilities to pluck out the most promising for further investigation.\nBitcast uses its subnet to collect visibility demand from brands, which is served by video creators. The company is focused on the crypto niche to start, but will expand in time to other technology topics.\nScore uses its subnet to generate highly performant, specialized vision models, which it then sells to customers through a platform (Manako).\nIn each case, the Bittensor’s economic engine unlocks global creativity to tackle tasks that were previously time-consuming, fragmented, or expensive to complete. Let’s see how quickly each company can scale and whether startups building on Bittensor can grow faster than their non-decentralized peers.\nTimestamps:\n\n0:00 Intro\n1:36 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n3:01 What is Bittensor?\n6:43 Metanova Labs joins the show\n8:45 Lemon.io - Get 15% off your first 4 weeks of developer time at https://Lemon.io/twist\n16:37 How Metanova tackles the multi-billion dollar cost of drug discovery\n20:05 Every.io - For all of your incorporation, banking, payroll, benefits, accounting, taxes or other back-office administration needs, visit https://every.io\n29:41 Bitcast joins the show\n30:40 Luma AI - Luma builds accessible, professional-grade AI tools for creatives. Try Luma Agents for free at https://lumalabs.ai/twist\n31:51 Mining crypto with YouTube\n36:09 Why Bitcast is focused on the crypto space to start\n38:32 How healthy is the creator economy?\n46:47 When will the AI bubble collapse?\n53:05 Score joins the show\n54:03 How Score will make vision AI more accessible\n56:37 VLMs v. LLMs\n1:00:35 Demo of the Manako platform\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+    "duration": 4330,
+    "view_count": 1863,
+    "like_count": 51,
+    "channel": "This Week in Startups",
+    "upload_date": "20260326",
+    "thumbnail": "https://i.ytimg.com/vi/gjRt4eUyiYc/maxresdefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

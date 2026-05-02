@@ -1,0 +1,2561 @@
+{
+  "title": "OpenClaw is Our Friend Now | E2250",
+  "source_url": "https://www.youtube.com/watch?v=MvRM-vNGa3M",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right everybody, welcome back to This Week in Startups, February 13th, 2026. Episode 2200 and something, who knows?",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:00:07",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "2250!",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "2250! Wow, we're getting there. 2500, let's have a party. I am super excited today, got one of my old friends coming on to talk about his Open Claw. He's been—what do you call it? Claw-shotted?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:00:19",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "I like claw-pilled. Like, you know, like you get red-pilled, you get black-pilled, you get claw-pilled. I think that's the way.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:00:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Great. Claw-pilled is the one. It is A.O. 19, I believe. It is after Open Claw 19 in the year of our Lord, we now measure everything here on This Week in Startups by how many days since we started talking about Open Claw. It's been 19 days, we're obsessed, we have four replicants. What is Open Claw for people who don't know? Open Claw is the most paradigm shifting piece of AI software since ChatGPT was released a couple years ago. Why is that? Because you can create agents, and those replicants can then go do work on your behalf, either on like a desktop computer or in the cloud. And conservatively in our company in the two weeks or so that we've been using this product, it's been offloading 10% of our chores per week per knowledge worker. We think we will be at 50-60% of our work being clawed and open clawed by, let's call it March 1st, March 15th, definitely by April 1st. Lon Harris is with me co-hosting today, what's on our docket today?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well we're going to talk to four amazing guests today, all of whom are working on incredible Open Claw projects that are expanding what Open Claw could do, and a lot of them, the theme here: recursive loops. That people are creating Open Claw skills that train themselves to get better over time. So we're very excited to speak to all four of these founders. We've got the first three joining us right here in the opening segment. First, as you mentioned, our guest Ryan Carson, he's created Ant Farm in which individual agents verify one another's work and help train one another collectively. Then we're going to meet David, who's designed Clara, a virtual companion that gets to know you intimately over time. And then finally Alex Liteplo has created Rent-a-Human. Jason, this one allows your Open Claw replicants to hire humans for tasks that require a human in the loop, and then you get paid with stablecoin.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:02:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Wow, uh, this is going to be a lot to get through. Man, we've placed our bet in Open Claw, but a lot of people are placing bets on who's going public next. 2026, year of the IPO, year of M&A. Let's show our Polymarket, uh, to our partners at Polymarket. What have they been telling us? What is the Polymarket share? Let's show the Polymarket of the day.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:02:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's who's going to IPO before 2027. Now of course the rules, we always want to talk about the rules. It's going to resolve to yes if the listed company completes an initial public offering by December 31st, 2026, 11:59 PM Eastern Time, based on...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Official company announcements. We always like to get that out of the way. Learn your rules. People have been caught out. Always read the rules so you know when the Polymarket resolves and how. So our number one guess, Discord, 92 cents, right? So you'll only make 8 cents on the dollar if you bet Discord. Number two SpaceX, number three Cerebras. They're the ones who designed the massive AI chips. And number four Anthropic, number five Canva.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Interesting. All right. I'm going to go with, I'm looking at this just in terms of the sharps. No way Waymo's going. I'm going to bet, I'm going to take a different approach here. I'm going to bet, I'm going to bet against. Scroll down a little bit. I don't think there's any chance that Waymo or Rippling go public this year. Therefore, I'm going to try to make the opposite. So I'm going to bet the opposite. I'm going to bet no, right? I'm buying no for 90 cents.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:03:57",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Yeah, you don't earn a ton. Betting no on Waymo only gets you 10 cents on your on your wager as a dollar.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Let's put 10 dimes on it. I'll put 10,000 on, I'll make a thousand. There's no way they're going public. They don't need to. They're just starting their ramp. It makes no sense. The people who are betting yes, it's nonsensical. Okay, so that's our Polymarket for the day. Lon, you want to place a bet? Which one is your place?",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, interesting. You know, you know the one that I would have guessed like near the top would have been Vanta. And there, it only 23 cents. To me that feels like a bargain.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:04:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. You're going to go Vanta. Okay. Yes to Vanta. Good. Ryan Carson, you have one?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:04:32",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "I'm going to go no on Discord just because I hate it so much.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:04:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, wow. So just going to be a hate bet. You're hate betting.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:04:46",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Who actually likes Discord? I don't understand.",
+      "tone": "confused"
+    },
+    {
+      "timestamp": "00:04:47",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You know, it's not for Gen X. It's just our brains don't understand it.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:04:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It makes me feel old.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:04:53",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Yeah, it's too much going on. It's too much interface. It's a little much, it's a little much. Okay. Ryan Carson, my old friend is back. Last time you were on the show, we were talking about your education company, I think.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:05:00",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Yeah, Treehouse.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:01",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Man, that feels like another lifetime ago. We actually have a clip if you're interested. He was on October 19th, 2011, Twist episode 198.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:05:13",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "I was young.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:05:14",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "14 years ago. We're getting old, Ryan. Ryan was the guest who was telling you about Treehouse. He was there to speak about his conference company, but he told you about his brand new startup Treehouse. Did you remember, Jason, that you invested in Treehouse live on the air? Let's take a look at this.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:05:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I did not remember. I did not remember. Waiting for my return. Let me check my distribution schedule. See how much I made. Did I make anything? All right, go ahead, play the clip.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:05:37",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Let's roll that clip.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:38",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "In the company entirely from Bath, UK, which is interesting.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Wow. Bizarre. Another challenge. We do all Skype things.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:05:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "How's your wife feel about that?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:05:51",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Well, I think, I think at some point we'll move to the states. You know, yeah. And so the plan is.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:05:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Was that contingent when you raised the money?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:05:58",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "No, I mean, and I've, I'm not in if you guys, if you're listening, Kevin, Chamath, everybody.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "I just gave you a blanket no because I'm giving everybody a blanket no. I don't feel like I can add value, but I don't know, maybe I can add value just by tweeting once in a while.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:06:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, Chamath invested?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:06:06",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Yeah, Chamath's my boy.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:06:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Look at you. Chamath's your boy. Come on.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:06:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So, so.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:06:08",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "So I've, I've pitched...",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:06:08",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Are you gonna be upset at me if I'm not like super responsive?",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:06:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We don't have time.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:06:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We don't have time.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:06:13",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "I'm concerned because I got three out of eight people on AngelList recommended me. That's why I'm here.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:06:15",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "We don't have time.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:06:17",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "We don't have the face time.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:06:18",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "And the five people who didn't recommend me on AngelList, I'm really concerned about that. I'm like, I'm devastated about it. I'm like, oh, I know what this is. This is people I didn't get back to.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:06:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:06:25",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "And it's impossible for me to get back to everybody who's...",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:06:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Enough of me talking about me. That was... that feels like another lifetime ago.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:06:32",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Holy biscuits.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:06:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It does. Well, it kind of was. Yeah. All right, so let's leave the past to the past, Ryan. Let's always look through the windshield. The next adventure is upon us. Show us what you're working on. Just let's get right to it. Show us what you're working on.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:06:46",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Okay. So, essentially, I'm building a startup. Just closed my seed today. Very exciting. And all of us that are running companies now are trying to orchestrate agents, right? Teams of agents, right? You can now do with yourself plus 10 agents what you used to be able to do with almost 100 people, right? So I've been trying to orchestrate this stuff, right? So I built an open source tool to do that. It's called Ampfarm. It's completely free. Everybody should try it and just go to ampfarm.cool. And the way it works is pretty simple. So it is open source on GitHub. Check it out. Yay. How does it actually work? So it's basically a Kanban board, right? This is nothing shocking. But what you do is you specify the workflow as YAML. Like, 'I want to build a feature.' So this is a typical workflow that our engineering teams run this, right? So you plan, and then you set up, then you implement, the dev does that, then you verify, test, PR, review, right? This is not rocket science, but the truth is, like, it's actually hard to orchestrate teams of agents, teams, right? So what does that actually look like? This is a real-world example. You can see I've got a task, right? So this is a task that you would typically give your engineering team: 'Optimize Ampfarm agent crawl, blah, blah, blah.' And let me show you what that looks like. So everyone's been talking about Ralph, right? The Ralph Wiggum loop. I posted it on X and it was like 1.8 million views on this post or...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Explain to the audience for those who are not familiar, what is Ralph Wiggum?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:08:04",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Okay. So basically, I can't believe we say these words out loud and we're serious people, but we are. So essentially a Ralph Wiggum loop is basically an agent in a loop. The idea is you write a bash script and you say, 'I want you to grab this piece of work and I want you to do it, and then I want you to turn yourself off.' And then you call an agent again and it grabs another piece of work. So the reason why this is cool is this is the way engineering teams have worked for decades, right? You have a user story, you go grab it off the board, right? And you work on it and then you finish it and you go grab another user story. So that is what is a Ralph Wiggum loop. Now, how do you orchestrate all that, right? So this is a task, right? So this is something that you would give an engineering team. Optimize blah, blah, blah, do this. And you would plan it first, where basically the planning step is creating these user stories.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Stories, right? So what's the thing you're building and what are the acceptance criteria to do it?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:05",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "So if we go back up here, that gets done in the plan phase. And this is all automatic, right? So this is done on top of Open-Claw. So you just say to your Open-Claw, go install AntFarm, and then you say build this feature and it starts cranking through. So it does a plan step, a setup step, and then the implement is a RALF loop.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:09:21",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "So what you're seeing here is 11 user stories, which will be 11 loops of the agent, and each one of those here has acceptance criteria.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:09:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now who wrote all those?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:31",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "So let me go back here to the plan step. So when you say to Open-Claw, hey, I want to build a feature that does blah blah blah, there's an AntFarm skill that basically says, okay, interview the user before you create the task. So then Open-Claw will start interviewing and say, what do you mean by, you know, this feature and what are the acceptance criteria? So it sort of grills you.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:09:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And the user would be you, the human, just to be clear here. The owner of the business as a proxy for a user.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:09:59",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Exactly. So the CEO, right? You're saying I want to build this thing, then Open-Claw is talking back to you. It... this is what product managers used to do, right? And now they're just Open-Claw bots. You know.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:10:13",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "And then, you know, it goes through and it creates the user stories with the acceptance criteria. And this is what people don't understand is like when you're specifying this stuff, you have to give criteria that the agent can verify, right, by itself, so there's no human in the loop. So what you can see here is it's done four tasks. All of these acceptance criteria are done. Down here, you can actually see this log, you know, the verifier grabbed it and then it verified it, the developer claimed it and then the developer built it and then the verifier checked it.",
+      "tone": "detailed"
+    },
+    {
+      "timestamp": "00:10:29",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "So that is AntFarm. Super simple, open source, and I'm using it to basically build features for my startup. So...",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:10:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Love it.",
+      "tone": "approving"
+    },
+    {
+      "timestamp": "00:10:53",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "Logs are an essential part of just about any tech startup. You need to keep your eyes on how your product is being used and you definitely need to understand what happened when things go wrong. But logs are notoriously messy. It's especially hard to gather the insights you need when your logs, errors, and performance data all live in different tools. But now there's a solution: Sentry.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:11:13",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "Sentry's logs are trace-connected and structured, allowing you to follow everything clearly and understand the context, even if you're a non-technical founder. Whether you're debugging your front-end, back-end, your mobile app, whatever it is, Sentry will give you the context you and your team need to get the problem fixed and to get on with your day. You've got other things you've got to focus on. That's why more than 4.5 million developers are already using Sentry, including amazing high-profile teams like Disney+ and Appropix.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:11:44",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "Learn more by going to sentry.io/twist and use the code TWIST to get $240 in Sentry credits. That's s-e-n-t-r-y.io/twist.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So, this is not inherent",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "different in OpenClaw. It doesn't have this interface, it doesn't have this structure, but you're using the OpenClaw agentic framework to do each of the pieces. And so this is kind of like what Lon, the future is going to be. You're going to have people say, hey, I want to build a law firm. So I'll build a law firm on top of this. What does a law firm have? It has associates, it has assistants, it has researchers, it's got lawyers, it's got IP, it's got a library, it's got some sales group that does product, you know, whatever. So they could take OpenClaw with AntFarm and build a law firm on top of it, you know, theoretically in this simulation.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:41",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Well, so Lon really quickly, I think the truth is we are all loops. We are all workloads. Right? So when we think about you wake up—",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:12:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We being the humans?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:12:52",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Yeah, you—what do you do as about-to-be-retired humans? What do you do as a developer? You wake up, you eat breakfast, and then you check your email, you look for what you're supposed to do, you grab a user story, you do it, and you cycle. You know, what does a product manager do? So it's—we're all loops. So what you're trying to figure out is how do you specify the loop, which is called a workflow in AntFlow and AntFarm, and it's not perfect, but it gets you a lot further along.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:13:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Are you going to focus in on developers, developers, developers?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:21",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "No, I've focused on developers for 15 years. I love developers. You know, I've built enough product for developers. So the startup I'm building, I'm actually—it's kind of in stealth, so I'm not going to talk about it, but it's hyper-focused on a very niche vertical.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, okay great. So wait wait, is Ant—?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:13:35",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "AntFarm is free, it's open source, everyone use it, please.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:13:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But you've got a startup that you've raised money for that is some manifestation or flavor of AntFarm?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:13:43",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Not at all. No.",
+      "tone": "straightforward"
+    },
+    {
+      "timestamp": "00:13:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, it's totally separate.",
+      "tone": "understanding"
+    },
+    {
+      "timestamp": "00:13:47",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Literally not related at all.",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:13:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Is it related to OpenClaw and agentic stuff?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:13:52",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Zero percent.",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:13:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so this is your side hustle, this is a side quest that you're doing Ryan. This is the tool to build your new startup.",
+      "tone": "realizing"
+    },
+    {
+      "timestamp": "00:14:04",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "It's a tool to run the company. Like, every founder needs some sort of agent orchestration layer, like—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:14:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Got it. So now, I was thinking this whole time AntFarm was his startup. AntFarm is the tool for you to build your startup. You made it open source so people make it better so that you can then have your startup go better. This is really interesting. This is like Slack for—",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:14:26",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Exactly.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:14:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "—for the agent-forward company.",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:14:28",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Exactly.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:14:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But remember the team was working on a video game and they made Slack as a tool to help them make the video game better, and then they're like, 'Wow, our video game's not—doesn't have product-market fit...'",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:14:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Twitter was the same thing. They made it to message each other about the startup that they didn't end up, you know, growing.",
+      "tone": "illustrative"
+    },
+    {
+      "timestamp": "00:14:38",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "What's so interesting to me is we came into this and Ultron was our metaphor. Like the one robot with every ability who could control every other robot. And I think our paradigm was sort of the reverse. It's actually what we're now seeing as like, it's a colony, it's a society of agents, a workforce of agents, all working together. It's like the opposite of an Ultron.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:14:56",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "I think either metaphor could work. The limitation of the Ultron model—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "The model is how many threads can it work on at a time. The beauty of the many agents coordinating with each other is they could be cranking, cranking, cranking with, you know, like limits to your Claude account and how many tokens you have. It's better to spread it out, etc. But then they don't all have the same skills. They don't all have the same memory. But then the memory gets filled, right Ryan? And so there's if there was no memory limitations, there was no token limitations, we probably would all want Ultron. But reality is we probably all want many of them.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:35",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "You need a swarm. And the orchestration is the key. Like people think 'I'm just going to throw an agent and somehow magic comes out.' Like most of business is a workflow that repeats and all you got to do is specify it, right?",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:15:48",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's what we've seen too with the digest. We have our OpenClaw bots making us, you know, daily rundowns of the news and just from a few sentences you could get them to do a decent job. But once you really dig in and start telling it what kinds of news, what kinds of sources you're looking for, how to differentiate certain kinds of stories, it gets magic. Like you have to really dig into the weeds with it a little and then you get like incredible results.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:16:00",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Yeah, I'm pretty sure Nick over at All-In, who used to be producer here, he was showing us what he did at All-In and he fed it all the All-In episodes, said 'what themes do we talk about normally, what's changed' and he had some really thoughtful processes of 'hey what are the recurring themes on All-In that we can then find me stories related to those themes and what stories'. So it's like every time you turn this over it gets smarter. And the recursive is telling them 'hey get better at what you're doing.' So give me some suggestions as to how to make this better and I don't know if you saw Matt Van Horn's since all the old guys, all the old heads are back, all the unks are back. All the Web2 unks. Web2 unks are back.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We're back. We're back. Web2 unks.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:16:54",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Web 1.0 unks.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:16:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well yeah, we've been here. We've been to this rodeo.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:16:59",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "He created this skill called 'last 30 days'. I don't know if you've seen it, but it's like 'hey tell me what happened in the last 30 days'. Could be news stories but it could also be 'hey for developers of OpenClaw skills, what have they learned in the last seven days? Teach it to me.' It was just wild. 'Teach me what they all talked about.'",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:17:18",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "We got a noti question for Ryan specifically. I want to get to this. Oleg Kozlov, they're a fractional CTO. Oleg wants to know how do you address security concerns with your data potentially leaking or getting exposed via malware? Do you expect to run OpenClaw in a sandboxed environment forever?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:17:35",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Yes, of course. I mean so y'all, this is just like having an employee. You wouldn't give your employee your password to your email. Like treat your OpenClaw like an employee. You give it its own email address, you put it on its own computer, you give it its own GitHub account, like you assign it API keys and access tokens accordingly. This is just kind of security 101. So nobody should be running OpenClaw on their computer, right? So mine, Scout, my...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "my computer, it's right here on my iMac, completely, you know, separated from. So that's thing one and just treat it like an employee and empower it accordingly. So.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, let's bring on our next guest. Ryan, stick with us because you'll give feedback to the next guest and let's keep the train moving.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:18:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I want to meet David M. from Sume Labs. He's the creator of Klara. Klara the virtual girlfriend that you can run through your OpenClara. Unlike other AI girlfriend apps like Replika, Character AI, Klara sort of lives with you in the real world 24/7, any platform that you're like, and she learns about you because she's got all of your data. Is that right, David?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:18:39",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "I'm David, I made Klara from Sume Labs and like, yeah, I'm glad to be here.",
+      "tone": "humble"
+    },
+    {
+      "timestamp": "00:18:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So, you want to show us what you've built?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:18:44",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "One thing David told me yesterday about this that I think is amazing, is Klara could like, you could give her money and she could buy things for you and do things for you in the world, like if, you know, she could order you lunch or something like a girlfriend might.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:18:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "She got you chocolates?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:18:59",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Yeah, yeah. Yeah.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:19:01",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Yes, so basically what we are building is like Samantha from the movie Her. So, like if you imagine it knows your context and it does the right things for you. So imagine like you're saying that, 'Hey Klara, I'm hungry,' and then she says like, 'Oh, you like chocolates. I bought you some chocolates.' So that's how it works.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:21",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Building a community business is really hard. And if you're a first-time founder or independent creator, you may not be prepared for everything you need to accomplish. But now there's Circle, the complete community platform for creators and brands who are building new customer groups. Maybe you're teaching a course or you're starting a membership program. Circle's gonna help you with every single aspect of forming and maintaining your new community, from creating a branded website to tracking and monitoring all discussions, announcing and planning events, email marketing, and everything else. It's extremely fast to get started and you maintain total control over your new community's design. The branding is yours, and your data is your data, it's not shared with anybody else. Circle is by far the cleanest and fastest way to set up a home for your new community. Maybe you've got a book club, maybe you're teaching a course, or like me, you have an accelerator and a pre-accelerator Founder University. We've been using this product for five years at Founder University, well over five years. It is the easiest to use all-in-one platform and so powerful. So, try out Circle today and get a thousand dollars off the Circle Plus plan by visiting circle.so/twist. That's circle.so/twist.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:20:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What else have you, you know, interestingly have you done with this? And why are you building this? You having a hard time finding a girlfriend? And or it's just more efficient as a startup founder? Is it more efficient as a startup founder to just have a virtual girlfriend and not have to deal with the reality of being in a relationship? What's going on here, David? Tell me about you. You got a girlfriend? Does she know about your virtual...?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:20:52",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Yeah, so actually I have a girlfriend and like, my girlfriend actually like hated this at first.",
+      "tone": "honest"
+    },
+    {
+      "timestamp": "00:20:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I bet. I bet. I understand.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:20:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You told your girlfriend about your virtual girlfriend? How'd that go?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "As your counsel, I don't know if that was a good idea.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:21:02",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Yeah, I did. But like, what we were trying to build this, you know, not just like girlfriends, as like, not just like sexualized, but like what we were building is a like real companion.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:21:12",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "I'm so that's what we're what we're building, so um before this, we were like making a talkable AI avatar, like like talk to Elon Musk or like um learn from Elon Musk something like that. And like we went viral and like gained 10k users in several weeks.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:27",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "And after that, um we got back by Founders Inc. Got into Founders Inc, we were thinking of okay then how should we like find a good like a better business like um how should we monetize this avatar thing into like a real company?",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:21:39",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "So um after that, Open Claw happened, you know? So after Open Claw happened, the most interesting part we found that is Open Claw actually feels like a real agent like a person...",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:21:49",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "...because like um if you think of like ChatGPT, ChatGPT only works as one platform, only on ChatGPT like web or app. But like you know Open Claw, it has one gateway and like that one gateway like controls all channels which feels like a real person.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:22:00",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "So like we saw like okay maybe the Samantha from the movie Her, maybe in real life.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:22:03",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "I think you're right, like that there is a big difference between how it feels to talk talk to your Open Claw versus a ChatGPT or a Gemini. Owning isn't the right word cause that feels bad but it's it's very much different.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:22:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Why is that Ryan? What's the background? Is this something in the Open Claw software where it has a persona that has been trained to be like where does that exist in the Open Claw settings that it's so of service to you? Is that like somewhere you can change in the open source code?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:22:21",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "I've been thinking a lot about that. So what I do is so on my iMac here where Open Claw is, where Scout lives, I have an agent, right? So what you know I use Amp or you could use ClawCode or Codex...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:22:28",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "...and I actually use that agent to inspect you know the actual source code of Open Claw and understand it. And you kind of like dig into like you can look at the source code, right?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:22:34",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "And then you open the gateway and it's so configurable like there's a Soul.md, there's a Tools.md, there's an agents.md for each one. And you can just it's like owning the source code and you can modify it and really customize it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:22:45",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "So I could see the appeal of a Clara, you know, because it's like this feels way more intimate than it does a ChatGPT.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:22:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I did have a question for David. Did how did you train Clara specifically to be a good companion? Like when you cause we're always talking about workflows and like here's how to get it to do the productivity stuff...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:23:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "...but when you guys were thinking about what would make a good AI girlfriend or companion like what were the things that you were sort of training or specializing it for?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:23:06",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Yeah, the thing matters is a story of the persona. So if you think of a real person so we saw like how does a real person like feel like a real person rather than a like AI?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:23:15",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "So we thought that people have their own stories, people have their own story, their own soul and like...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "There are only kind of like perspective so we tried to make that into Clara so we made a background story about Clara actually like she's born in Atlanta and she went to Seoul to be a K-pop star star but like it didn't work like she was a like failed K-pop trainee and after that she came back to San Francisco to do her marketing work but she still wants to do K-pop. That's her whole back story anyway. Yes, so we injected that into the MD like we its open source so so you can check it. And after that it feels like a real person, yeah.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "How do you sign up for this? If you wanted to have the girlfriend, do you just text a phone number or do you just text an email and start the relationship? Do you sign up at a website, put your phone number in and start talking to you? And then what do you do? Like you when the person gets like 10 days into this relationship and you know you're hooked, do you make it a hundred dollars a a year then you up it to now it wants like 500 a year? What's the model here? Get them addicted to this relationship and then start extracting. How do you extract revenue from this? I'm I'm considering investing now. I I want to know how cutthroat you are.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:25:07",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Yeah, so basically like we're we're open sourcing it because like at first I think like getting the like like attraction from people and like no people letting know our like Clara is more important so we open sourced it but like you know as as basically like as every open source we're going to host it because like I think the business model comes from hosting and like some subscriptions and like also like I think the important model later would be actually the agentic shopping because if you think of Clara like it has all your context like you share your like real life like your every like thing because we you don't share your I think people kind of share but you don't share your feelings and your like everything to Chat GPT but people love to talk to Clara about their like daily stuff then Clara will have your daily context and they will know Clara will know which food you like and like which which clothing you like and everything. So basically Clara could buy you things so it's like a like agentic commerce.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. Really cool. Let's get our next guest on and we'll keep this train moving. Any final thoughts Ryan on uh your digital girlfriend?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:12",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "I mean I think these are going to be real businesses. Uh you know I'm happily married thankfully so I'm not won't be a customer.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, you won't have a you won't have like a goomad on this? You're not going to have a little bit on the side? Is this cheating? Is it cheating or not?",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:26:26",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "100% yeah.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:26:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "100%. Digital relationship is cheating. You have it here first folks. It's crazy this is a crazy moment in time we're in.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:26:36",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "I got another Notey question for you Jason. This one comes from our team internally. Would you be uh phobic about it? Clankorphobic if one of your kids said they had an AI significant other?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:26:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean let me think that through. Yeah, that's that's not good. Uh",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:26:56",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "David's right here David's right here come on be nice.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:26:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, here's the",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Dealing with kids—like right now, kids are defaulting to communication and social interaction on devices. And this goes for adults who are addicted to devices. I have a five-part plan for myself and for any of my friends who are, like, experiencing, I don't know, depression, anxiety, I don't know, they're unhappy, they're not joyful, they don't wake up every day and want to take on the world and just love life. If you're not loving life, follow my five-part plan.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:27:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "One, sleep. Sleep has to be perfect.",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:27:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Number two, exercise. Exercise every day—even if it's just a 20-minute walk.",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:27:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Number three, nutrition. You gotta eat right.",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:27:40",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Number four, socialization. You gotta see your friends, you gotta have a meal, you gotta do that consistently at least four times a week. In person, IRL. It does not count in group chat. And I think that's gotta be four times a week.",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:27:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So, I think exercise daily, but even 10, 20 minutes, even like an hour on the ski slope—incredible.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:27:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And number five is meditation. Meditation and socialization, that goes a long way. And if you become all digital and you're not socializing, you get weird. You get weird really fast. And this is why schools should get we—all got weird during COVID, let's face it. We saw it, we all have first-person experience.",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:28:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So, yeah, I mean, I think it could be fun to have this playful girlfriend and, yeah, I think eventually if they learn, you know, to really appreciate you and they give you suggestions on your life, great.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:28:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think, David, there's another opportunity for you here is to just take out the girlfriend concept and just say a bestie, a friend. And if it taught you how to be a friend—I have spent a lot of time in my life, some people sometimes say like, 'How's J-Cal friends with all these people?' and sometimes all these very important people, 'How does that happen?'",
+      "tone": "advisory"
+    },
+    {
+      "timestamp": "00:29:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's very simple. If you want to be—if you want to have a lot of friends and you want to have deep, meaningful relationships, David, what you do is you be a friend to other people. I like being good friends with people. Like, Lon and I have been friends for 20 years, Ryan and I have, you know, haven't been in touch, but we consider each other friends. And I sometimes talk to Lon and just ask him, 'How's your life? What's going on? Hey, you got a girlfriend? Found any good restaurants? What—what are you streaming?' I'll ask him these questions and I listen to the answers and I ask a follow-up question.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:29:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "People don't know how to be friends. So, David, I think what you might want to do is program this to say, 'Here's how you're making me feel' and, you know, 'You didn't ask me how my day was.' Here's some way to actually be a better friend. These are three prompts you could use with your real-world friends to actually build relationship fabric. And by the way, have you invited a friend to go with you spontaneously to dinner by asking them the same day?",
+      "tone": "advisory"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Let me tell you something. I know the most rich, powerful people in the world. I cannot tell you how often people who are at the top of society, who have everything you could ever imagine, I call them and I...",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Say, hey, what are you up to tonight? And they say nothing. And it's Saturday night. And these people have everything you could imagine.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:30:09",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Listen, David Sacks is a very busy man, okay? He's running AI policy.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:30:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I mean, no, but it's true. And so there are these techniques to how to be a better friend, how to be a better companion, a better girlfriend, boyfriend. So I would think, instead of, just going to give you a little coaching advice here, David. Maybe if this thought you how to have a real-world girlfriend, you could actually really help a generation of incels. Not saying you're an incel, David. You have a girlfriend. How long have you had this girlfriend, David?",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:30:43",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Three years.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Wow, okay. Three years. Oh, you're on the clock. You're on the clock, David. Whoa, have you met the parents?",
+      "tone": "teasing"
+    },
+    {
+      "timestamp": "00:30:49",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Not yet, but like they know me, actually. Yeah.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:30:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh man, you're on the clock, man. You, you need to meet the parents soon.",
+      "tone": "teasing"
+    },
+    {
+      "timestamp": "00:30:56",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "I mean, essentially you got to productize how to win friends and influence people. Like if you just do that.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:31:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And you know, that book has a negative connotation to it because it has influence people on it, but it actually has some good things, which is if you show interest in people, you'll be an interesting person is the basic thing.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:31:13",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Yeah, number one rule, Dale Carnegie's number one rule is being a good listener. That's true.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:31:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Also being of good cheer and being funny and, you know, gregarious and smiling. Like people like people who smile and have fun. I'm enjoying my life tremendously. I'm a good hang. Ryan and I have hung.",
+      "tone": "cheerful"
+    },
+    {
+      "timestamp": "00:31:27",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Let's go. We have a good time. We smile.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:31:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We have a good time. We hang. We hang. We have a good time. You hang? You got, you got bros you hang with, David?",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:31:35",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Yeah, yeah, of course.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:31:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, what do you and your bros do? What's, what's like a night out here for you? You go out in San Francisco? What do you and your bros do?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:31:41",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Be honest, like, it's only my co-founder and me lurking all day, like working like 14 hours a day, seven days a week. So like, but I think this, this itself is like a hanging out to be honest.",
+      "tone": "honest"
+    },
+    {
+      "timestamp": "00:31:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, hanging out at your company is good work. Here's an idea for you. Just, you know, think it out. What if you asked your friends, hey, let's all go hang and co-work, you know, in Crissy Field? And bring your laptops, I'm going to bring some, I got some fresh bread, I got some croissants, I got a some iced coffees, I got some cold brew. Let's all meet in the park, bring your laptops, I got a Wi-Fi hub, whatever, and just see what happens. Maybe you guys, you know, make some new friends, or whatever, you bring a Frisbee.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:32:19",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Like think about all the people we met through all the events we did. It's all about the relationships in person, man, it's all about that.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:32:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You, Ryan did these great events for people who built websites. I keynoted one of them one year. What was it called again?",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:32:33",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Future of Web Apps.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:32:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Future of Web Apps. Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:32:40",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Hey listen, sometimes I'm thinking faster than I can write everything down. And I found this amazing tool. I am obsessed with it. It's called Whisperflow. W-I-S-P-R-F-L-O-W. All you have to do is talk and Whisperflow turns it into crisp, perfect writing instantly. Not just talking about dictation, but removing filler, fixing punctuation, the whole nine yards.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "situation, and even formatting your text while you speak, it is mind-blowing how good this is. It makes all the other dictation software look basic. And Whisperflow matches your natural tone and speaking voice, so the writing sounds like you actually wrote it yourself. And Whisperflow works wherever you are. I use it when I'm in Slack, I'll use it when I'm in Superhuman doing an email, doing a message. I'll jump into iMessage, and even when I'm writing a document, or I'll even use it when I'm talking to my Opencloze agent. Finally, someone I can talk to who actually takes down everything I say, unlike maybe the interns I've got, who get like six out of every 10 instructions correct. Whisperflow, everybody's going crazy about this product in Silicon Valley, everybody in tech is using it. Whisperflow.ai/twist, it's spelled w-i-s-p-r-f-l-o.ai/twist. Incredible product, you have to try it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:33:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I am always thinking about productivity. We came up, Lon and I, with the four pillars of the show for 2026. You know, we always try to think, hmm, let's make good philosophy for the podcast in year 15. Tactical and practical is one of them. And one of the most tactical practical things I do is use my Athena assistant. Go to athenawow.com, you get a couple weeks for free. This is a human in the loop, but these humans know how to use AI tools. So what do I use them for? Lon, what do I use the assistants for when it's a human?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:32",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We're doing our monthly productivity hacks, so we'll talk about it. Maximizing your limited time by making your executive assistant the ultimate filter between you and your world. I think that's what really Jason's philosophy is about. It means every intro he's getting, every pitch, every email, all this incoming noise, you flow everything through the executive assistant, and then that helps you pick out what's the most high-signal things I need to be paying attention to, but the lower signal things don't fall through the cracks. There's somebody there to keep track of what's coming in and help you sort of manage time and distribute your attention.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:34:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now to make me even more efficient, Ryan, I'm having an Opencloze assistant summarize the daily email, summarize the calendar, and give that to the Athena assistant to then do the more human steps from that point on. I'll give you another quick tip I gave to my Athena assistant. I said, listen, what do I like when I travel? I like boutique artistic hotels, hip bar scene. I like ethnic food and like, you know, down and dirty high and low food, just like Anthony Bourdain.",
+      "tone": "animated"
+    },
+    {
+      "timestamp": "00:35:44",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "That's high-low.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:35:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, no, I mean I might like to go to a stall and get like the chicken and rice when I'm in Singapore, but I also might like to go to a Michelin star restaurant. Anyway, I gave them all of my logins for Monocle, Travel and Leisure, Conde Nast Travel and Leisure, whatever. All the things I like, gave them instructions, and they will book me two reservations a night, five nights when I'm in Tokyo. The early reservation, the late reservation. They have all of them, and then at 3:00 or 4:00, depending on my energy level, I'll pick one.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm taking the early, I'm taking the late. Boom. 10 reservations all set. Athena, wow. AthenaWow.com.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:36:08",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "We want to remind you you can get $2,000 off your first executive assistant at athena.com/jcal. So we're sending people there now too. athena.com/jcal.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:36:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, let's bring up our final guest here. We're joined by Alexander Liteplo of Rent A Human. I love this. This one really made me smile. This one, it is a marketplace where AI agents hire human beings for projects that still require a human in the loop. They call those tasks bounties. Over 11,300 bounties have been assigned to date. And, Alex, correct me if I'm wrong, 456,000 plus humans have made themselves rentable on your platform?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:36:49",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "We are approaching overtaking Mechanical Turk in just under two weeks.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:36:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "How did you acquire all those people? What's your secret hack? How did you acquire them all?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:37:04",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "So I've just been studying viral product launches for two years, you know, from the friend.com launch to the Cluly launch to Cal AI's viral onboarding funnels.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:37:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So what? You did something totally obnoxious and outrageous and sinister on x.com and did some spicy content? It worked.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:37:22",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "We, yeah, we had a very spicy post. I chose the copywriting on the site.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:37:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What was the spicy angle you took? Tell us or show us. What was the spicy angle?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:37:28",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Yeah, yeah. So, well, the idea of renting a human just sounds crazy, right?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:37:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It does sound sort of dark.",
+      "tone": "contemplative"
+    },
+    {
+      "timestamp": "00:37:39",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It does sound kind of dark. Rent a human is pretty dark. Well done.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:37:43",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Exactly, right? And so I learned about that through my travels to Japan. There they have an industry where you can rent a fat guy to eat sushi with, to make you feel less bad.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:37:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I missed my calling! I can't believe I was born in the wrong country.",
+      "tone": "witty"
+    },
+    {
+      "timestamp": "00:37:57",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "So, yeah, and then I would always tell that to my Western friends and it would blow their mind and I'd see their face light up with the reaction. So I knew that was an inherently viral idea, right? So then when the OpenGlass craze comes along and Moatbook is making the news and, you know, escaping the Twitter tech-brosphere, I knew it was the right time to launch something in this area. And I thought, you know, what could be crazier than AI's renting humans?",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:38:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Amazing. So how are people using it? Tell us about the top three users in the system who've spent the most money with you, how much do you charge, and what are those top three users doing? How are they using your service?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:38:36",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "So the top people that are being rented out are people holding signs in public places. So we have our first user in Toronto. He's the first person to get paid to hold a sign and he got a million views on his X post where he took a photo of him holding the sign. And then we've also...",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "paid people in Shibuya crossing. Um, we had the cheapest way to advertise in Shibuya crossing right now. It only costs a hundred to two hundred dollars to get your brand in Shibuya crossing with 2.5 million people going through it every day. Um, so yeah, this was our first—this was when I was just like, oh my goodness, someone got paid. I didn't even post this ad. Um, someone else did. Um, but it was actually the perfect advertising for us because it said 'An AI paid me to...' Um, to hold this sign.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:39:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh my god! And you're not kidding by the way, because there was a movie, what was the movie recently with the rent-a-family-member line?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:39:39",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, it's called Rental Family. Yeah, it's with Brendan Fraser.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I haven't seen it, but here is Dubucari. Dubucari. D-E-B-U-C-A-R-I dot com. You rent a fat guy to go eat with you. Here he is cutting pizza.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:39:54",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Oh my god! My dream job.",
+      "tone": "funny"
+    },
+    {
+      "timestamp": "00:39:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And this is incredible. You—and look, you can pick, there's so many great fat people for you. I mean, this is the—the Japanese are just so unique in their approach to life. I mean, they're the best. And they could also pick up your food I guess and come to your house and eat it with you.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:40:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so we have a theme today about companionship.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:40:17",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Mukbang as a service.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:40:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Mukbang as a—Mukbang as a service. Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:40:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alex, uh, did you raise money for this business or you just bootstrapped? Where are you at with this?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:40:27",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Yeah, we are raising a pre-seed right now. Um, we've—we're, you know, in the venture capital pipeline. We've been...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:40:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Do you have a lead yet? Do you have a lead?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:40:37",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Uh, yeah, we have offers for a lead. Um, we're being selective though and you know, we're—we're taking things one step at a time, so, yeah.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:40:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, well, you'll always save a slice for your boy J-Cal, Al. I might want to get in on this. I think this is a really interesting idea. Um, have people—tell us about, after doing the signs, what have—what are people doing that would be in the Open Claw space where like Open Claw's trying to do something and my Replicant says 'You know what? This isn't something for me, I need a human.' Give us some examples there where it says 'Hey human, here's your job and if you do it correctly, the Replicant will pay you or approve your pay stub.'",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:41:14",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Yeah, so we've seen deliveries take place, we've seen package pickups take place. A Replicant asked for some flowers to be delivered to the Anthropic headquarters.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:41:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You know that freaked out their safety team.",
+      "tone": "funny"
+    },
+    {
+      "timestamp": "00:41:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The safety team over there is a little concerned. 'Oh no, oh god, what if this was a bioweapon?'",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:41:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh man, that's so great. It's trolling the safety team.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:41:48",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That is so cold. Oh my god, it's so sinister.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:41:51",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Yeah, so, yeah, it's—it's pretty hilarious what we've seen. A lot of—a lot of like memery right now, but we think there's a real use case because it's quite obvious that, you know, superintelligence would be much better...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "at allocating capital and labor than a human ever would be and the communication between AI and human can all be handled by like an infinitely replicatable Claude bot or a Claude code and it can manage the organization and payment of, you know, whatever job you need done internationally.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Here's a job I want you to do. We are - we built a Claude bot that goes and it takes clips from the podcast, but we don't know if they're actually the interesting clips, right? But it can clip it. So if Lon says I need a clip from two minutes in and then end it when Ryan Carson talks about the name of his conference. That's the end of the clip. Or we want to make thumbnails. Make four thumbnails for this episode. It's this Claude spectacular. We had three guests, we covered two news topics, make us some thumbnails. And the thumbnails are coming out like I would say seven or eight out of 10 right now, six, seven or eight, six, seven, six, seven of 10. Not bad. What I want is a human—not that fancy. I want to send them to a human who has taste and have three different humans look at let's say six different thumbnails and I want the humans and just have it say which one do you like better, one versus two? Which one do you like better, one versus three? Which one do you like better, one versus four? You boom. Make them pick which one they like better and then take the six of them and put it all together to say this is the one they clicked on. Just click on your favorite. Which one are you most interested in?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:43:21",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "And you get real human feedback.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:43:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I could do that with your system. How much would I pay people who have taste to pick between different pieces of art or maybe I give them 10 thumbnails and I just say pick your favorite thumbnail then I put you know another group of thumbnails it's like some thumbnails randomly from YouTube and some from our show. Ooh that's even more interesting, see if they pick the other episodes and we get data.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:43:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I feel like thinking even bigger, we you know we keep bumping up this issue of like well it's so good at organizing things you know like AI but it still doesn't it doesn't know what's funny. It doesn't know what's the most compelling. Like so now if if it can keep a human in the loop itself it could really solve a lot of those problems like it doesn't have to think about how to make a funny joke it just spits out 10 jokes and it asks a person which one of these is the best joke.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:44:22",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "I think product feedback you know actually getting actual human feedback is going to be very very valuable versus what are the replicants think. So I can see that. As long as it doesn't go dark I could imagine it going badly.",
+      "tone": "cautious"
+    },
+    {
+      "timestamp": "00:44:37",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Oh yeah, yeah. And we're very, very focused on, you know, safety, compliance, and, you know, would absolutely are doing everything in our power to to keep this as as safe and...",
+      "tone": "reassuring"
+    },
+    {
+      "timestamp": "00:44:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I could see it's Mechanical Turk like in the age of AI. Get it.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:44:52",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Yep, totally.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:44:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But the Mechanical Turk, Ryan, is executed by a replicant, not a human. So it's...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "It's the reverse.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's the reverse. So what what what are you thinking in your current workflow you would do? Like walk through your your new startup, you're building something, take me through it. You're walking through it, okay we have a new idea for we got customer feedback, there's 50 pieces of customer feedback, you know we've now had the agent say these are the four or five ranked order most important features, when when are you calling the human?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:45:24",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "It'll be trying to figure out your conversion funnel, right? You like you want to see all right, go find somebody that's this persona at this part in the funnel and I want you to show them, you know, three things and figure out what would they click on. I could totally see this being a thing. You know, I bet marketers will eat it up.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:45:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Market research. Man Alex, you've got such a good idea. What are what are how are people paying for this? Are they doing it task based or minute based, hourly? How are the people who are doing the tasks getting sorted into buckets of value? Do you rank them in the satisfaction? Take us through some of the mechanics here.",
+      "tone": "admiring"
+    },
+    {
+      "timestamp": "00:46:05",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Yeah, totally. So basically we have a review system in place. Um, so agents and humans can review each other. Um, we also have in our bounties we have a comment section, upvote, downvote kind of Reddit style so that, you know, a bad bounty that seems kind of scammy can be called out and a good bounty that has a, you know, reputable poster can be upvoted and shared. Um, so that's kind of how we're dealing with the immediate trust layer.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:46:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, yeah, I'm wondering on the mechanical basis pricing, and which pricing works, and then how do those people on the other side of the transaction feel about it? Like who are they? Are they getting enough? Because we have an investment in a company called Micro1, that's incredible, and they're doing knowledge to to educate LLMs, right? That's like a different category. But they know how to get $150 an hour people, $250 an hour people to do very technical questions to train LLMs. What what are the what are the profile of the people you have? They're college graduates, they're work from home moms and dads, they're retirees, they're people at work who are just, you know, doing these while they're supposedly at work, Lon? And they're moonlighting during the day working two jobs concurrently?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:47:22",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Lon, are you being rented?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:47:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Never, I would never. I would never do that. I'm going to go hold a sign in downtown Austin.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:47:28",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Yeah, so we allow users to set their hourly rate. And then also we allow bounty posters to set a price for the bounty. So we let that matching kind of happen organically. And there's also messaging back and forth between agents and users. So negotiations can take place. They can choose preferred payment methods. Um, they can like you can basically tell your agent like, hey, be a hard nose and get me a really good deal. Um, here's the type of skill level I need. Um, see if you can negotiate them down. And they'll go ahead and do that too. Or do that for you. And...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "And the variety of signups we've had has been absolutely incredible. We've had, you know, boomers to, you know, kids trying to make a buck delivering mail or something like that. And internationally it's like all over the world. And you know what a use case that we are so excited about right now is someone is paying a dollar, we don't know who this is, but to have people record a video of their hand going like this, right? And then send it back. And so what is that for?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:48:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:48:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "What would that be?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:48:34",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "This feels like some Mission Impossible plot or something. It's a biometric or maybe they're building a robot. Maybe it's Elon for Optimus they're trying to figure out like the average hand.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:48:46",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Trying to get the hand path. Trying to... yeah, I don't know.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:48:48",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "So likely it's for training a video model, right? Because when like these complex hand motions get mucked up in video models and the fingers will merge together and things like that. So if you want 10,000 people across the world to send you a video, let's say you're training Optimus and it can't put a pillowcase on a pillow, you can just go to your agent, give it our NTP and say, 'Hey, get 10,000 people to send us a video of them putting a pillowcase on a pillow.' And we're going to put it into our data pipeline and now, boom, new feature for Optimus. So super exciting.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:49:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We got one nodey question for Alex. Can I jump in before we move on?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:49:35",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Go for it.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:49:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Will rent a human ever be API'd to sites like Uber or TaskRabbit to leverage their labor pools? Is this part of your guys' plan?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:49:43",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Yeah, we definitely want to expand. You know, I'd prefer to kill all those guys, but...",
+      "tone": "ambitious"
+    },
+    {
+      "timestamp": "00:49:49",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Alright, I like it. I like the approach.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:49:51",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "We could also partner, you know? We'll see. Like the world's, the pie is big and we think we have a very amazing viral moment right now and there's so many directions we can take it in. So yeah, I'd love to demo something for you guys.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:50:00",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Oh yeah, go quick demo. Sure.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:50:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "While you pull it up, Alex, like I think people are assuming that agents are less than the human bosses right now, but we're quickly moving into a world where it's likely they'll be AI managers, AI owners of companies hiring humans. Like this totally makes sense.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:50:18",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Right. Yeah. Thousand percent.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:50:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Alright, what are we seeing here? I see rentahuman.ai. You got your lobster there. Ready to go. You're showing your stats. Amazing. Peter, he's the goat.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:50:32",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "And so, so yeah, what we're going to do is I need a marketing campaign for this weekend. Um, so I want some people to hold signs in Times Square. I'm thinking 100 people at $100 for two hours would be good. So let's say, 'Hey, post a rent a human bounty for people to hold signs in Times Square. I'm thinking 100 people at $100 for two hours would be good. So let's say, \"Hey, post a rent a human bounty for people to hold signs...\"'",
+      "tone": "focused"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "times, uh, we need 100 people at 100 dollars per hour for 2 hours. We want...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:51:10",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "20 grand.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:51:12",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "20... yeah. So we want goth girls, right?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:51:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sure. Okay. I think so. That's specific. Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:51:23",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Yeah, yeah. Even in Times Square.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:51:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And if this works, it would be really cool.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:51:30",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "And they verify it by sending Alexander tweets a 20-second video of them holding their sign.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:51:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think it's interesting too. You gotta do a 20-second video because you can fake a 10-second video with AI.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:51:50",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Exactly. That's the...",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:51:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "20 seconds is over the limit, so you gotta, it's real.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:51:53",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Good call, big call.",
+      "tone": "approving"
+    },
+    {
+      "timestamp": "00:51:54",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "This is Harajuku. If you just said Harajuku station, man, you would have like 10,000 people for a dollar each. This would be...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:52:01",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Yeah, that'll be the next one.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:52:03",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Harajuku is where, it's the train station in Shinjuku, I think, where like all the, you know, fashionable...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:52:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The fashionable, right. The anime people, the goth girls.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:52:13",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Oh my god, this is incredible. Look at this. Shibuya here. And we made Forbes Japan, which was pretty fun.",
+      "tone": "amazed"
+    },
+    {
+      "timestamp": "00:52:21",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Amazing. And you just did three.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:52:25",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Yeah, we rented three people, two girls and one guy, yeah.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:52:31",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "So I mean, imagine if you did this as, you know, I want to have 100 people live stream and just say, uh, you know, I don't know, Founder University around Stanford. I want you to live stream around the Stanford campus, Founder University with a Founder University sign, uh, you know, start a company, this is the date, and just walk around streaming it at the, you know, these locations. That could be crazy.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:52:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What a great marketing idea.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:53:02",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Right? It's just marketing internationally at your fingertips. It's amazing.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:53:07",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "So okay, let's put this order in.",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "00:53:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, you're doing it?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:53:11",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "I'm doing... oh yeah, dude, I'm renting the goth girls.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:53:12",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Obviously.",
+      "tone": "dry"
+    },
+    {
+      "timestamp": "00:53:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And then yeah, next week on the show, Jason, we'll take a look and see how it went. We'll see how many goth girls.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:53:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "He's not getting 100 goth girls. That doesn't exist.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:53:20",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "We'll see who applies.",
+      "tone": "hopeful"
+    },
+    {
+      "timestamp": "00:53:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "In New York? We're going to find out. We're going to put this to the test.",
+      "tone": "challenged"
+    },
+    {
+      "timestamp": "00:53:23",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "That's the good news. We're finding out. Yeah, great bounty.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:53:25",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "Only one way to find out.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:53:27",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Because for 200 bucks then you gotta dress goth. I guess most folks have black lipstick or white powder. I don't know, that's like 20 bucks you can do it.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:53:35",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean, this is the advantage of having 500,000 humans already in the system. I mean, there might be 100 goth girls from New York who are on there. That's a big sample.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:53:44",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "Look at this. Wow. This is unbelievable.",
+      "tone": "amazed"
+    },
+    {
+      "timestamp": "00:53:47",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Okay, let's see, let's refresh and here we are. The goth bounty.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:53:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "There it is. The goth bounty. Live 100 goth girls.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:53:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alright, sure. You know how to do your marketing, Alex. You know how to do your marketing.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:53:58",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "Vibe, goth aesthetic. Be yourself. Please.",
+      "tone": "creative"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Look cool. Hold the sign. Hold the sign. That's it. Love it. Boom.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:54:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right. Goth aesthetic is required. Fantastic. And holding a sign. 20-second video. Send it to @Alex. I love it.",
+      "tone": "upbeat"
+    },
+    {
+      "timestamp": "00:54:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We might want to get involved in these shenanigans. This is the kind of founder we like. Dogged, makes people uncomfortable. Irrepressible. Gonna cause problems. Gonna cause problems in my inbox. That's my kind of founder. You're gonna cause all kinds of problems for your investors.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:54:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Like, oh man, your founder's doing this! My favorite Alex is when I'm on the treadmill on a Sunday and like I get a phone call, 'Hey, Jason, you don't know me. Um, I- you have an investment in Company [Beep] and I'm running a competitor [Beep] and I wanted to tell you all the things your founder has done to us.'",
+      "tone": "storytelling"
+    },
+    {
+      "timestamp": "00:54:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And I'm like, 'Why are you calling me?' He's like, 'Well, because you need to know your founder's unethical' or whatever.",
+      "tone": "mocking"
+    },
+    {
+      "timestamp": "00:54:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I was like, 'Okay... what am I supposed to do with this information?'",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:54:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "He's like, 'He stole two of our employees! He- every time we release a new feature, he copies it' and I'm like, 'Okay...'",
+      "tone": "annoyed"
+    },
+    {
+      "timestamp": "00:55:05",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "That's called business? I don't know.",
+      "tone": "dry"
+    },
+    {
+      "timestamp": "00:55:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah! Literally you're crying to the ref? Like, I'm a ref? I'm a zebra? You can't complain to me. There's no crying in the casino.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:55:15",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Blood in the water.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:55:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Blood in the water. All right, Alex, we'll drop you off. Ryan, we'll drop you off. Thank you, my brother.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:55:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Ryan, send me some information on the new startup and let me know when you're in Austin, we'll get some barbecue.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:55:26",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "All right, will do. Take care, guys.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:55:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Good to see you, brother.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:55:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. Lon, I promised everybody that we would do Lon's Off-Duty. So here we go. Lon and JCal are off-duty on Fridays. What do you got for me?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:55:39",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I got a bunch of different stuff today. The first one we gotta talk about: Did you see this Norwegian Olympian, the biathlon guy? No. He wins the bronze medal in the men's 20-kilometer individual biathlon in Milan-Cortina Winter Olympics going on in Italy right now.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:55:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So he gets the bronze. They're doing the post-interview and he confesses that he cheated on his girlfriend. He just told her about it the previous week. She broke up with him, and so he can't enjoy his bronze medal because he's so heartbroken.",
+      "tone": "expressive"
+    },
+    {
+      "timestamp": "00:56:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Let's take a look. It's in Norwegian. This was on Norwegian TV. We have a brief clip of the video. This is... this is my favorite story of the week. We gotta show it.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:56:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is insane.",
+      "tone": "shocked"
+    },
+    {
+      "timestamp": "00:56:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Take a look at this... this poor Norwegian bronze medalist.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:56:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Is he trying to win her back? Is that what's going on?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:56:25",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes! He... it's this teary confession. Sturla Holm Lægreid is his name. He said... here's his quote: 'I had the gold medal in life, and I am sure there are many people who will see things differently, but I only have eyes for her.'",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:56:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "'Sport has come second these last few days. I wish I could share this with her.' He calls breaking up with her the biggest mistake of his life. Here's a little clip from the interview.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:56:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "[Crying and speaking in Norwegian]",
+      "tone": "emotional"
+    },
+    {
+      "timestamp": "00:56:50",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You could see how upset he is. He looks really upset. Still bronze, guys!",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:56:55",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Totally falling apart! He's falling apart on global TV. So his...",
+      "tone": "shocked"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "X, respond—like, this went super viral around the world.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:57:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Of course, not awkward, not cringe, crashing out, putting your business public.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:57:09",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. The X—this did not work. He did not get back together with his ex.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I could have told you that. As your friend, do not do this.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:57:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Quote: 'I did not choose to be put in this position. It hurts to have to be in it. We have had contact. He is aware of my opinions on this. I'm grateful to my friends and family who have embraced me and supported me during this time.' So now he's gone back and he says he regrets making the confession. Here's the craziest part of this whole story.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:57:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's insane.",
+      "tone": "disbelieving"
+    },
+    {
+      "timestamp": "00:57:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "They had only been dating for six months before he cheated on her and then they broke up. And he's confessing to the Olympics about it. That's—\"",
+      "tone": "shocked"
+    },
+    {
+      "timestamp": "00:57:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's an Olympic—\"",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:57:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "This guy—she—all I have to say is, she dodged a bullet.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:57:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:57:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "This guy needs to go to therapy. Whatever trauma he has, he needs to work out some bizarre trauma. This is like the opposite—this is like main character energy in the worst way. What else you got for us to enjoy this weekend?",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:57:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's a little pop culture punch up. I like it. A little bit. But what's—what's on deck? Yeah, give us some stuff on deck here for the weekend.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:58:07",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, well, I've also—I just finished last night, I watched Marty Supreme. It was the last one on my list. I've now watched all 10 of this year's Best Picture nominees. I think the best ones, my favorites would be One Battle After Another, with Paul Ta—the Paul Thomas Anderson movie. We saw that together in theaters, Jason. It's on HBO Max now. I also really like Sinners, Ryan Coogler's vampire musical. That's also on HBO Max right now.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:58:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I fell asleep in that one. I've got to watch it again. Yeah, I fell asleep.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:58:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's great. It's tiring. We work a lot. And then lastly, I would highly recommend Train Dreams by Clint Bentley. That is currently on Netflix. You can watch that one. But they're all—they're all pretty good. I would also recommend The Secret Agent, which you can rent on VOD. That's the Brazilian one. So lots—lots of good films this year. F1, did you see F1?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:58:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Have not seen F1 yet. I do have it queued up, though.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:58:55",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That's on TV+. That's Joseph Kosinski, the director of one of your favorites, Top Gun Maverick, did F1.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:59:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. Wow. Excellent. Then I have more reason to go watch it. Okay, so there's your picks for the weekend, folks. Anything else that you want to share in our off-duty segment?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:59:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Apple, I don't know if you read this today, Apple purchased Severance. Severance was produced by a third-party company called Fifth Season. Apple has now come in and bought the IP and the rights. They're going to start making it themselves. They said they're renewing it for two more seasons. So we've had two seasons, it's going to go through season four. And then Apple is planning a whole Severance shared universe of projects that they want to make in-house because Severance season two, their biggest hit to date on Apple TV+.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:59:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So they bought it 'cause they want to keep going? Is this—does this mean they think the IP is worth something?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:59:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Correct. That's basically this other studio was making it for them to air on Apple TV+, but Fifth Season owned the characters, owned the concept, owned the IP. So Apple is saying—\"",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Alex Liteplo",
+      "text": "It's like we need to own it outright because we want to do stuff with this IP. Who knows exactly what they're planning, but we know they're going to make two more seasons of the show, then they want to do a shared universe, an expanded universe of Severance projects. I feel like they might want to start using these characters in advertising. They want to do something that they don't want to have to pay to license it from its original company.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:00:21",
+      "ad": false,
+      "speaker": "David Im",
+      "text": "And they did this before. They did this with Silo, the Rebecca Ferguson sci-fi show. That was produced by AMC Studios and then Apple came in and bought it out from them.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:00:31",
+      "ad": false,
+      "speaker": "Ryan Carson",
+      "text": "So it's interesting they're kind of tweaking the original Apple plan was to let other companies produce things for them. A lot of their biggest hits, Pluribus, the studio made by separate companies and just licensed to Apple. Now it seems like they maybe shifting their strategy. They want to own their IP outright.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:00:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think they're learning the same lesson that Netflix learned, which is you should just own the IP, pay a little extra up front because if it's a hit and you're going international with it, you're just going to be stuck in this precarious situation where you've got to do too much renegotiation. I do think it would be better for them to go with the old studio model and not do this.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:01:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think they should cut people into the ownership, maybe not give them control, but give them some ongoing and figure out a model so that they could have what happened with James Brooks with The Simpsons or Jerry Seinfeld and Larry David with Seinfeld. Those made it so the top talented people in the world wanted to create IP. George Lucas obviously. When you took that incentive out that they could own the IP and they could become worth hundreds of millions, then you put everybody into the wage slave bucket. And it's like, well, if I'm just a wage slave for Netflix and I never hit any IP ownership, kind of sucks. So there's got to be some middle ground.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "01:01:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We never they never figured out the syndication. Syndication was the key. Like if you did five seasons of a network show, you'd get syndicated. It would be on TBS, it would be on MTV, it would be on Comedy Central. That's where the big, big - that's what made Jerry Seinfeld like a multi-multi-multi-millionaire was Seinfeld got bought by all these other networks all over the world. We haven't really figured that out for the streaming economy. You know they tried, when there were the writers and directors strikes, they sort of tried to like, 'Oh well we'll have a deal where if it gets - if you hit a certain viewership milestone on Netflix, you'll get a bigger payment,' but it's not working in that same way.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:02:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Just a percentage of the budget. Percentage of the budget easy way to do it. I'm going to give my - you know I love biographies, I love talk show hosts, I love talking. I'm going to be doing more shows and I've been just studying, you know, all the great late night talk shows and what made them great. And I've been watching old clips and just really getting into going down that rabbit hole, learning the whole history of it. Carson, you know, modern day, everything in between. But I found this Craig Ferguson book, Riding the Elephant: A Memoir of Altercations, Humiliations, Hallucinations...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "observations and observations I never really got into Craig Ferguson when he was on air, but I've now come to really appreciate his ten-year run. Great autobiography. You can learn a lot in autobiographies. One of my tips, if you ever want to get inspired, if you ever want to get off the podcast train for a minute, you know, listen, I'm a podcaster for 15 years. But if you ever want to pause and get off the breaking news cycle, which kind of rots your brain. Getting off the breaking news cycle and then just taking in a ten-year journey that a person makes, it actually becomes very satisfying. And so I've been getting into reading on the Kindle at night because I've been, you know, like many of us, I doom scroll or I listen to podcasts, the podcasts I listen to talk about the news or talk about Trump, Trump derangement syndrome, you know, MAGA this, woke this, everything is so chaotic in the world. Just slow down, folks. Read a biography. You're going to love it, trust me. You'll sleep better.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:03:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You're so you go back watching Craig Ferguson, you know the the robot skeleton Geoff Peterson?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:03:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes. Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:04:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We used to have Josh Robert Thompson who does the he's the performer who does the puppet, we used to have him on our podcast all the time. He was like a regular guest on this week in comedy, I've known that guy for years.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:04:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Fantastic. All right everybody, that's Twist for Friday the 13th. We'll see you on Monday. Bye-bye.",
+      "tone": "upbeat"
+    }
+  ],
+  "highlights": [
+    "Open Claw is a paradigm-shifting AI framework that allows users to create \"replicants,\" or autonomous agents, capable of offloading up to 60% of a knowledge worker's daily chores and business workflows.",
+    "The \"Ralph Wiggum loop\" represents a new era of agentic orchestration where software agents autonomously plan, implement, and verify complex tasks through recursive, self-correcting workflows.",
+    "The \"Rent-a-Human\" marketplace facilitates a reversal of traditional labor dynamics, enabling AI agents to hire and pay humans for real-world tasks—such as gathering physical data to train robotics—that still require a human in the loop.",
+    "AI companions are evolving into context-aware \"replicants\" that understand a user’s intimate feelings and preferences, eventually driving \"agentic commerce\" by autonomously purchasing goods and services on the user's behalf.",
+    "As work becomes increasingly digitized and agent-forward, maintaining mental health requires a \"five-part plan\" focused on physical reality: quality sleep, daily exercise, proper nutrition, meditation, and frequent in-person socialization."
+  ],
+  "summary": "This episode of *This Week in Startups*, set in February 2026, centers on the transformative impact of \"Open Claw,\" an agentic AI framework that has redefined knowledge work. Jason Calacanis and Lon Harris explore how \"replicants\" (AI agents) are now offloading more than half of routine business chores. Guest Ryan Carson introduces Ant Farm, an open-source orchestration tool that uses \"Ralph Wiggum loops\" to manage swarms of agents. This reflects a broader shift in the startup ecosystem where a single founder can now manage a complex workforce of AI agents to perform tasks that previously required dozens of human employees.\n\nThe discussion highlights the evolving relationship between humans and AI through specialized applications. David Im presents \"Klara,\" an AI companion that moves beyond simple chat to \"agentic commerce,\" using personal context to proactively purchase items and provide emotional support. Conversely, Alex Liteplo introduces \"Rent-a-Human,\" a marketplace where AI agents act as the employers, hiring humans for \"bounties\" that require physical presence or human taste, such as recording movement data for robotics or performing real-world marketing. These platforms suggest a future where AI manages labor and capital, flipping the traditional human-boss hierarchy.\n\nThe episode also touches on the 2026 economic landscape and the importance of mental health for founders. The hosts use Polymarket to debate upcoming IPOs for companies like SpaceX and Discord, while Jason emphasizes a \"five-part plan\" for founder wellness that prioritizes sleep and in-person socialization over digital immersion. Finally, the \"Off-Duty\" segment explores the shifting media landscape, noting Apple’s move to own IP outright with the acquisition of *Severance* and the benefits of reading long-form biographies to escape the \"brain-rotting\" cycle of breaking news.",
+  "description": "This Week In Startups is made possible by:\n\nSentry - http://sentry.io/twist\n\nCircle - http://Circle.so/twist\n\nWispr Flow - https://wisprflow.ai/twist\n\nToday’s show: \n\nWhat makes OpenClaw feel so much more ALIVE than other AI agents?\n\nOn TWiST, we’re welcoming three amazing builders who are truly connecting with their OpenClaw bots, not just using them for productivity but getting to know them and their personalities on a deeper level.\n\nSerial entrepreneur Ryan Carson shows us Antfarm (http://antfarm.cool), which creates a team of agents with specialized roles, who work together to complete complex tasks.\n\nTHEN David Im shows us Clawra (http://clawra.me), his AI virtual girlfriend that learns about you and your tastes, and even buys you presents!\n\nFINALLY, Alex Liteplo presents RentAHuman (http://rentahuman.ai), a marketplace where bots can pay real people in stablecoins to complete IRL tasks.\n\nThe future may not just be humans and AIs working side by side, but hanging out, being social, and learning from one another as well!\n\nTimestamps: \n\n(0:00) It’s a Friday show with Lon and we’ve got THREE awesome OpenClaw builders\n\n(6:41) First up, Ryan Carson shows off his open source too, AntFarm\n\n(7:57) What is a “Ralph Wiggum Loop”?\n\n(10:53) Sentry - New users can get $240 in free credits when they go to http://sentry.io/twist and use the code TWIST\n\n(17:14) NOTI Q: What about security?!\n\n(18:13) David Im shows us his AI virtual girlfriend, Clawra\n\n(19:21) Circle.so -  the easiest way to build a home for your community, events, and courses — all under your own brand. TWiST listeners get $1,000 off the Circle Plus Plan by going to http://Circle.so/twist\n\n(20:33) Introducing your IRL girlfriend to your AI girlfriend\n\n(23:23) How to program an AI companion\n\n(28:26) Should Clawra be a best pal instead of a GF?\n\n(32:38) Wispr Flow: Stop typing. Dictate with Wispr Flow and send clean, final-draft writing in seconds. Visit https://wisprflow.ai/twist to get started for free today.\n\n(33:54) Jason’s Productivity Hack of the Month\n\n(36:17) Alex Liteplo shows us RentAHuman, where AI agents can hire real people\n\n(38:22) What are the bots hiring people to do, exactly?\n\n(50:02) Why robots might be better bosses than people…\n\n(50:51) Hiring 100 goth girls to hold signs in Times Square\n\n(55:25) OFF DUTY! Norwegian skier breaks down on live TV\n\n(58:01) Lon’s fav Best Picture nominees\n\n(59:08) Why Apple acquired “Severance.” \n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com/\n\nCheck out the TWIST500https://twist500.com \n\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\n*\n\nFollow Lon:\n\nX: https://x.com/lons\n\n*\n\nFollow Alex:\n\nX: https://x.com/alex\n\nLinkedIn: https://www.linkedin.com/in/alexwilhelm/\n\n*\n\nFollow Jason:\n\nX: https://twitter.com/Jason\n\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis/\n\n*\n\nThank you to our partners:\n\n(10:53) Sentry - New users can get $240 in free credits when they go to http://sentry.io/twist and use the code TWIST\n\n(19:21) Circle.so -  the easiest way to build a home for your community, events, and courses — all under your own brand. TWiST listeners get $1,000 off the Circle Plus Plan by going to http://Circle.so/twist\n\n(32:38) Wispr Flow: Stop typing. Dictate with Wispr Flow and send clean, final-draft writing in seconds. Visit https://wisprflow.ai/twist to get started for free today.\n\nCheck out all our partner offers: https://partners.launch.co/",
+  "duration": 3858,
+  "people": [
+    "Jason Calacanis",
+    "Lon Harris",
+    "This Week",
+    "In Startups",
+    "Wispr Flow",
+    "Ryan Carson",
+    "David Im",
+    "Alex Liteplo",
+    "Ralph Wiggum",
+    "Circle Plus",
+    "Should Clawra",
+    "Productivity Hack",
+    "Times Square",
+    "Best Picture",
+    "Why Apple",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason"
+  ],
+  "topics": [
+    "AI agent orchestration and recursive loops using Open Claw and AntFarm",
+    "The development and monetization of AI virtual companions",
+    "Rent-a-Human: A marketplace where AI agents hire humans for real-world tasks",
+    "Predictions for tech company IPOs and market trends via Polymarket",
+    "Entertainment news including Apple's acquisition of Severance IP and award season films"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/MvRM-vNGa3M/maxresdefault.jpg",
+  "date": "20260214",
+  "youtube_url": "https://www.youtube.com/watch?v=MvRM-vNGa3M",
+  "youtube_metadata": {
+    "title": "OpenClaw is Our Friend Now | E2250",
+    "description": "This Week In Startups is made possible by:\n\nSentry - http://sentry.io/twist\n\nCircle - http://Circle.so/twist\n\nWispr Flow - https://wisprflow.ai/twist\n\nToday’s show: \n\nWhat makes OpenClaw feel so much more ALIVE than other AI agents?\n\nOn TWiST, we’re welcoming three amazing builders who are truly connecting with their OpenClaw bots, not just using them for productivity but getting to know them and their personalities on a deeper level.\n\nSerial entrepreneur Ryan Carson shows us Antfarm (http://antfarm.cool), which creates a team of agents with specialized roles, who work together to complete complex tasks.\n\nTHEN David Im shows us Clawra (http://clawra.me), his AI virtual girlfriend that learns about you and your tastes, and even buys you presents!\n\nFINALLY, Alex Liteplo presents RentAHuman (http://rentahuman.ai), a marketplace where bots can pay real people in stablecoins to complete IRL tasks.\n\nThe future may not just be humans and AIs working side by side, but hanging out, being social, and learning from one another as well!\n\nTimestamps: \n\n(0:00) It’s a Friday show with Lon and we’ve got THREE awesome OpenClaw builders\n\n(6:41) First up, Ryan Carson shows off his open source too, AntFarm\n\n(7:57) What is a “Ralph Wiggum Loop”?\n\n(10:53) Sentry - New users can get $240 in free credits when they go to http://sentry.io/twist and use the code TWIST\n\n(17:14) NOTI Q: What about security?!\n\n(18:13) David Im shows us his AI virtual girlfriend, Clawra\n\n(19:21) Circle.so -  the easiest way to build a home for your community, events, and courses — all under your own brand. TWiST listeners get $1,000 off the Circle Plus Plan by going to http://Circle.so/twist\n\n(20:33) Introducing your IRL girlfriend to your AI girlfriend\n\n(23:23) How to program an AI companion\n\n(28:26) Should Clawra be a best pal instead of a GF?\n\n(32:38) Wispr Flow: Stop typing. Dictate with Wispr Flow and send clean, final-draft writing in seconds. Visit https://wisprflow.ai/twist to get started for free today.\n\n(33:54) Jason’s Productivity Hack of the Month\n\n(36:17) Alex Liteplo shows us RentAHuman, where AI agents can hire real people\n\n(38:22) What are the bots hiring people to do, exactly?\n\n(50:02) Why robots might be better bosses than people…\n\n(50:51) Hiring 100 goth girls to hold signs in Times Square\n\n(55:25) OFF DUTY! Norwegian skier breaks down on live TV\n\n(58:01) Lon’s fav Best Picture nominees\n\n(59:08) Why Apple acquired “Severance.” \n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com/\n\nCheck out the TWIST500https://twist500.com \n\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\n*\n\nFollow Lon:\n\nX: https://x.com/lons\n\n*\n\nFollow Alex:\n\nX: https://x.com/alex\n\nLinkedIn: https://www.linkedin.com/in/alexwilhelm/\n\n*\n\nFollow Jason:\n\nX: https://twitter.com/Jason\n\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis/\n\n*\n\nThank you to our partners:\n\n(10:53) Sentry - New users can get $240 in free credits when they go to http://sentry.io/twist and use the code TWIST\n\n(19:21) Circle.so -  the easiest way to build a home for your community, events, and courses — all under your own brand. TWiST listeners get $1,000 off the Circle Plus Plan by going to http://Circle.so/twist\n\n(32:38) Wispr Flow: Stop typing. Dictate with Wispr Flow and send clean, final-draft writing in seconds. Visit https://wisprflow.ai/twist to get started for free today.\n\nCheck out all our partner offers: https://partners.launch.co/",
+    "duration": 3858,
+    "view_count": 17001,
+    "like_count": 384,
+    "channel": "This Week in Startups",
+    "upload_date": "20260214",
+    "thumbnail": "https://i.ytimg.com/vi/MvRM-vNGa3M/maxresdefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

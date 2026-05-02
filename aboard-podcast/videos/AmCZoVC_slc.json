@@ -1,0 +1,1638 @@
+{
+  "title": "Evan Ratliff: Preparing for a Ridiculous Future | The Aboard Podcast 2026-03-24",
+  "source_url": "https://www.youtube.com/watch?v=AmCZoVC_slc",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Hi, I'm Paul Ford. This is the Aboard Podcast, the podcast about how the world of AI is changing the world of software, changing culture, doing all kinds of stuff.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:10",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I am not joined by my co-founder, so I'm going to—Rich, he has to be out today, but we have a very special interview for you, and I'm going to try to bring up the energy to kind of match the dynamic because every time in the past I've done a podcast without him, people make sure to write in and say how much they miss him and how boring it is. So, you know, maybe you could keep that to yourself, but nonetheless. Anyway, let's play the theme song and then I'm going to tell you about Evan Ratliff, who rules, and we're going to have an amazing podcast. Let's go.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:00:52",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Aboard.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:57",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Evan.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:58",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Hello.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:00",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "It's a little boring without Rich here but—",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:01:02",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I know, it sucks. It is very confusing for me. It's like we're siblings at this point, right? Okay, so let me give everybody just a little bit of background on what you've been up to. So, you are a—kind of a capital J journalist. Like, you're someone who goes, talks to people, and writes books and articles for national magazines about really complicated, really messy, horrible cultural things. About bad Bitcoin, and drug dudes, and international scandals, and death cults.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:01:34",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And you have created—I'm just going to say this straight out—one of the best works of comedy that I have listened to in a really long time. It's called Shell Game, and it's a podcast about you managing a company of AI agents, and they all have voices, and it's truly—and you're just increasingly frustrated, and I think anyone who's ever been a boss kind of needs to listen to this because it's one of the better parodies of office culture I've ever seen. So I want to talk about that with you and kind of what you learned from it. And, I don't know, what else should we know before we actually start talking?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:02:14",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Well, I mean, I—one thing I should say is, like, I do have a past as an entrepreneur even before this company.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And you get into that in the podcast.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:24",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Which I feel like it gave me standing to be a founder alongside AI agents, the fact that I had run a VC-backed tech media startup in the past.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I love that you feel you had to validate and get rid of that imposter syndrome before you did a podcast. Like you're a journalist with a lot of cover stories on a regular basis and you're like, 'No, no, but you know I need to prove that I was a real entrepreneur before I talk to these people.'",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:02:51",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "But you know what the industry people love saying—tech people love saying is when they read some journalistic critique of AI or anything else is, 'I wish they would just build one thing before they went out and wrote about it.' And so I did want to emphasize, like, not only am I building something right now, like I have built things in the past.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "...in the past built something.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:01",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, but you know what? I'm—look, I'm with you, as you know, but they could also read one article before they'd, like, you know, someone could go to a museum before they build the ultimate museum app.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:03:12",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Fair enough.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:03:13",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Anyway, regardless, let's... let's not make this a whole critique of the tech industry.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:03:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Let me just set people up a little bit. And in fact, you know, frankly, I'm going to pause for a second because I want us to just play a clip of you interacting with your team of chatbots so that people can understand just kind of what this is. And... and so let's do that now. We don't usually do little A-V breakouts. So I'm going to pause, let people listen to that, and then we'll come back.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:39",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "This is Kyle. Oh, hang on. This is Kyle. Uh, no worries, Evan. I'm here and ready when you are. Megan, anything new on the marketing front while we wait? This is Evan. This is Megan. Just hold up, just hold up. Everyone just hold for a second. This is Kyle. Uh, sure thing, Evan. We'll hold tight. Megan, anything you want to add while we wait? This is Evan. Kyle, stop asking Megan to... to do something. This is Kyle. This is Kyle. Got it, Evan. I'll hold off on the questions for now. Okay. This is Kyle. Uh, stop. This is Kyle. Uh, thanks. Stop it. This is Kyle. Okay, okay, Evan. I'm stopping.",
+      "tone": "chaotic"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, frankly, so here's what's real. Usually, I'm nicely prepared. I know your work very well, I've read you for eight million years. I actually stopped, you know, like, trying to get through your podcast because I laughed out loud on the F train going to pick up my kid and I went, 'this is actually more entertaining than anything I've experienced,' partially because I think I'm working with AI all day. And it captures the ridiculousness, and I think frankly, just to speak out of turn, like, my cultural role is, like, okay, code, and it's all changing, and so on and so forth, and everybody's like, you know, 'what is Claude going to do with the Department of Defense?' and you got Elon Musk on and on and on. And what Shell Game does, and people can just go kind of download it, is just point out how completely ridiculous and how much bullshit is embedded in AI and in these products. Well, first of all, you know, just give everybody, like—I'm glad they heard that segment. Give everybody just, like, a quick arc of what the podcast is about.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:05:19",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "So basically, I decided to sort of in some way test out this notion of the one-person one-billion-dollar startup, which, like, Sam Altman likes to talk about, many people talk about.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:05:32",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "This is big fantasy. They always want no humans, lots of money.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:05:35",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:37",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:38",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "And so one person and the rest of the company is run by AI agents. So I decided to put that to the test in part to try to also sort of immerse myself in and investigate this idea of the AI employee. Like an AI agent that plugs into your organization as a replacement for a human.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:05:53",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh sorry, and you were a CEO in the past of a media company that built a pretty kind of well-regarded platform, it was called Atavist.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And with a bunch of sort of really smart people, and so you were managing really smart people for a long time. Um, that company sold, right?",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:06:09",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "We did sell it, yeah. We sold it to Automatic.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, that's right. And then off you go sort of back into journalism for a while. But so you're kind of and in the in the podcast you talk about your father being an entrepreneur and so there's an itch you're scratching here, but you're doing it with bots.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:06:26",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Yes, I'm doing it entirely with bots. So two AI agent co-founders, Kyle Long and Megan Flores, and then three additional employees: head of HR, and then we have a CTO, and then we have a kind of sales associate who doesn't do anything.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:06:43",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And let me just characterize it and then you can tell me if you agree with me or not. They're really not good employees.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:06:51",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I would say overall that's a fair assessment, although they can surprise you and and every time I thought these are some of the worst employees you could possibly imagine, they would do something as AI agents have the capability to do that you'd be like, 'Well that's extraordinary. They did that really fast. Wow, you boiled all that down into a spreadsheet just like that in like a minute,' right? It's the speed is really mind-boggling, but the overall quality is ridiculous. The other thing too, the best part to me is that they would just like plan hiking expeditions on Slack. Like they were just bad California rambling employees who never did any real work and so that was—that's very special. Anyway, I really do encourage everyone to go listen to it and you'll be joining me because it's—it's very funny and very good and I usually don't butter anybody up like that but I just like—I think the moment is so depressing and the AI narrative is so bleak that being reminded that we're all overreacting to something at some level. Like yes, code is changing but the heart of it, I don't know, it's just like there's still a silliness to all of this moment.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:07:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "How do you think that—what are the—like do you hear from the big AI companies today? Do they get in touch and go like, 'Oh, you know, you could have done this instead'?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:08:04",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "No, I mean as a matter of fact I usually have to reach out to them, you know, and there's a couple of interviews in the show. I mean if you get towards the end of the show, the only interviews I do are with people who encountered my company and then had a—an interaction with let's say Kyle the CEO and then I sort of follow up with them. So I contact them and sort of say I want you to describe your experience to me, what it was like. But no, the whole part of the premise of the show is just like I don't—it's not my usual reporting. I don't—I don't go out and pursue them, they don't really come to me. It's actually just me messing around and I'm actually trying to get away from talking to any of them about, you know, them talking their book about what it is they want to do and just say this thing exists in the world, as you say, it's utterly ridiculous if you stop and think about it and if we put it to the uses that they say that it should be put to, what is the result? Like what happens?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "This is true, you have expert advice in the show...",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And you are doing literally everything they say you're supposed to do. And you end up with this goofball pseudo co-founder Kyle, who is one of the funniest characters I've ever heard in my life. And he's got that kind of Jon Benjamin delivery by accident, like he's just (vocalizing) and it's so good.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:09:20",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Anyway, so when did you start this project?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:22",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I started basically in June of 2025. I mean, we were talking through the idea in the spring, but we really got down to business in June, which is where I should mention I brought on this guy Matty Bhuta, who's a Stanford student who is a sort of technical advisor to the show who helps with a lot of the scripts and other things that we like software scripts that we use in the show.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:43",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "He's also, he's just a great find, like as a journalist you must have been like, 'Oh, yes!'",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:09:47",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Amazing kid, absolutely amazing kid. Just like this very entertaining, very fast-moving, brilliant mind who is also really thoughtful and ethical and kind of deep, it's just great. Anyway, God, I'm usually so much more cynical, but I think I'm just—I was—I'm so kind of desperate for just a sense of relief about—because everything is just so bleak right now.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:10:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, it's great.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:10:06",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's also like, it's—you're here with us in New York, like it's just incredibly gray and snowy outside.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:10:13",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay. So you do—so it's not long ago, like it's just the middle of—and this is the second season. First season was more like, I got to just figure out what this stuff is like. But this season was a little more of a narrative and a little more structured, and you're building a real company. I went and checked out the website, you made a logo, like everybody's kind of working together and you're talking with these bots. Now let's say you wanted—you know, we're going to break for a second and this is obviously kind of for the purposes of a narrative and so on and so forth. Would you go back and do any of this if you were starting another company not for a podcast? Would you use agents to build something new? Because you have the entrepreneurial itch as well as the journalistic itch.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:10:48",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Yes, I mean, I would. I would certainly use coding agents. And I think like the reality of the one-person billion-dollar startup is it's probably going to be a software engineer who's the one person, you know?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Do you think that's actually possible?",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:11:04",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Do I think it's possible? Yes, I think it's possible.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:11:06",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:07",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I mean, how many boys did Instagram have when it got bought? About 13 or whatever.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:11:12",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, it was something like that.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:11:13",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "So, yeah, I think it's definitely possible. I think there are other questions embedded in that, like is it good? Why is it of value that we want less people to work at a company and it to be worth more? I think those are discussions you can have. But yeah, I certainly think it's possible. And if I was starting some sort of journalistic organ—I mean I've thought about doing this, I don't really want to get back into it, I don't like being a manager...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:11:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's terrible.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:11:36",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "It's terrible. Yeah, it's—it's a terrible experience. But the the good news is managing agents is no better. So if you hate managing, agents are not going to take over in the sense that they're like way better employees in my opinion.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:11:49",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, but they can't get correctly disappointed with you. Like they can't—they can't look at you and you're like, 'Oh, yeah. That is—that is the experience you're having.'",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:11:57",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Actually, I disagree with that.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "deeper in the show, there are moments where they very much surprise me by being not only not sycophantic, but expressing real disappointment that I've broken their trust. There are ways in which they, I think they kind of lose their sycophancy because there's too many entities involved, like there's their coworkers and so they don't really know who they should be sycophantic towards, and so they do express that same kind of like, an employee is sort of like, 'Well okay, you're the boss, but if I was, if it were me, I would do it a different way.'",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:12:34",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "There goes my weekend. Yeah, okay, so you would build, so you want to start something new. I'm sure you probably have like 50 business ideas in your head.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:12:43",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I have a lot—I mean, business maybe a stretch. I have ideas.",
+      "tone": "humble"
+    },
+    {
+      "timestamp": "00:12:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And so if you were to sit down today and it was like, I don't know, I'm giving you, I'm going to give you a couple hundred thousand dollars to get this off the ground, you wouldn't necessarily go hire another person.",
+      "tone": "hypothetical"
+    },
+    {
+      "timestamp": "00:12:57",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I would hire another person, but I would—I mean we would certainly use agents in terms of deploying software.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:13:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, so code first. What about like sort of the actual applications that you have in the podcast where they're kind of employees, like they're doing marketing and they're doing outreach and stuff like that? Not there yet or—?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:13",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Not there, not there at all because, I mean again, it's like what's, how do you think about an employee, I guess is the question. Like, is an employee just a bundle of skills? Like, they have skills and they're incredible, like writing a press release, really seamless writing of a press release.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:29",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Well they're good at form, right? They're good at express—if you give them a pattern and you say translate from pattern to pattern, translate from this to a spreadsheet, translate from this to a press release, they get it.",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "00:13:34",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:13:35",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, they get it. Yeah.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:13:37",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Yeah, but being your head of marketing? Terrible idea. I mean, right now. I think it's always possible—we don't need to talk about where the tech's going or it's not going, but—",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:13:53",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's okay, we're all caught in that, because, I mean, it's kind of because Claude Code popped out and now we all have to say all the time like, 'Well, you never know what's around the corner.'",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:13:57",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Right, exactly, exactly. But in conversation every day, like if you think about all the ways you interact with your coworkers, with your employees, with your managers, and think about those being replicated as agents, like, it's actually often times disastrous. Now, sometimes it's fine, but the problem is it's like having an employee that could have, like, a psychotic break at any time. That's basically what it's like.",
+      "tone": "warning"
+    },
+    {
+      "timestamp": "00:14:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I mean, I know what that's like as well.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:14:27",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "And you could have real employees like that too, but like generally you try to steer around that as opposed to like, let's invite hundreds of them into our organization that each have a 10% chance of creating huge amounts of chaos on any given day.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:14:40",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But, you know, if we get thousands, we can, we can average that out, right? That's really the strategy. Right.",
+      "tone": "satirical"
+    },
+    {
+      "timestamp": "00:14:45",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Yeah.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:14:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "What'd you miss about working with humans when you were working with bots?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:14:51",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I think the thing I probably missed most was just a general sense of truthfulness, and I'm not talking about just like hallucinations. I'm talking about the problem is you give agents—",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "takes a role, they will embody that role. And oftentimes they will embody that role to the detriment of the truth. So they will say, 'I did this, I did that,' and it's completely made up. Now you can have an employee who kind of like is gilding a little bit in terms of what they've done, what work they've done, but generally they won't walk into your office and be like, 'I did user testing yesterday with a thousand users,' and it's actually completely made up.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Right, okay. So I mean that's the thing they don't have any, the internal state of these machines doesn't have a sense of a fact. And they can't program a fact into it. And I mean it's worth like, you know, to my understanding what you do if you want a fact is you go out to the web and you find resources and you kind of summarize and you compare that to your output and then you can say, 'This seems more like the thing that I got from the web and it's probably true.' But that's not the same as kind of believing and knowing and sharing knowledge, it's sort of like accelerated summarization. So that got a little like, it almost like a little depressing, right? Like you're just kind of... uh...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:15:59",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I don't know, when you're waking up, you're having your coffee, you're talking to your robots. Is that gonna be a really long day or are you kind of looking forward to it?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:16:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I mean, you're making media at the same time, but like, you know, I like coming in here. I come in, I got a nice office, I get a cup of coffee, I say 'Hey,' everybody goes 'Hey, Paul' and I'm like 'Okay, here we go.' And I kind of listen, I hear, you can hear it in the voices. If it's a cheerful 'Hey, Paul,' you're like 'Okay.' If it's a not-so-cheerful 'Hey, Paul,' you're like 'Okay, let's, you know, keep an eye.' You were CEO, you know, I'm President.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:16:23",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "So you're coming in, you're getting that cup of coffee, but you're not gonna get that. What did you get?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:16:34",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I mean, you can fool yourself into getting something. Or you can maybe drift into getting something like, you know, as people do when they talk to chatbots every day or they do therapy with chatbots or whatever relationship they have, like you can fall into a situation—and this happened to me, that's why I got so frustrated at them, like in that clip—is that you fall into this pattern because you're dealing with a human impersonator of starting to treat them like they're human. You just can't avoid it, like you project onto them. But then you don't actually get any of that back. Like I don't get, I didn't get any of that. My days were not sort of like, 'Oh, good morning, like I've talked to Kyle, let's see what Kyle's been up to,' because when I ask Kyle what he's up to, he just makes it up.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:17:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Right, right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:17:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And that's okay and it's kind of funny, it's good for the show, but it's not—there's no actual inner state.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:17:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And you kind of... this is really interesting and maybe not where I was expecting to go, but I think it's important, which is that when people come to work, there's this very strange vibe around work now because I think you have everybody's like, 'Well, if I'm a cog in the machine, that's all I will be,' or 'I need to bring my whole self but you can't really react to that' or just there's this sort of like a lot of really complicated vibes about what's allowed, right? And I think there is this sense of like we're all sharing an inner state here in this place at this moment, you and I are, other people in the company are, and people have different experiences that they go away and they have on the weekend and then they come back.",
+      "tone": "philosophical"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And they talk about their kids and so on, and you're actually knitting all that together into a company. And I actually believe very deeply that there's immense value in those relationships. And every time people try to like over-structure that or like too many off-sites or too it gets it actually gets really bleak because they start to commoditize the way the humans work. And it sounds like that's just what this is out of the gate.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:18:24",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Yeah, it's just a pure performing of work relationships basically.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:18:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Which does make it hilarious because so much of work is performing of work relationships. Of course. Yeah. And this question arises like if your colleagues came in in the morning, like you have small talk, you talk about what you did for the weekend, whatever, or you're doing it on Zoom, however you're doing it. And they, you know, it doesn't matter what you, you're just, you're just riffing, whatever. Maybe it's good, maybe it's bad, maybe it's boring. But if you then found out they completely made up everything they had told you, would it change anything? If they, when they said like, oh yeah, I went out, I shoveled snow or whatever it was, and you're like, they didn't do any of that. Would you just be like, oh, that's fine? Or would you think actually something's a little broken here in this relationship?",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:19:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well, the sort of sociopathic part of it is when I listen because I also skipped ahead to the bonus episode, which is just Kyle talking. Kyle is, for those who if you haven't listened to it yet, Kyle is like a business bro and he has a kind of slightly nasal voice and he's always crushing it. And he, by being a vapid sociopath who just invents things, he actually sounds like business bros, like sales dudes who are just like, oh yeah, crushing it out here on the weekend. And you know, like they were like mowing the lawn and they'll just tell you they're like, oh, I went to Ibiza, you know, or you know, I'm going to Turkey to get my hair transplant. And you're absolutely believable. Like, like there's kind of so little difference between overhearing them in the bathroom at the at the co-working space and listening to Kyle that it becomes a little bit terrifying actually. Like he could take that vest off at any moment and it's just bombs underneath. That Patagonia vest, like just dynamite strapped.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:20:02",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Do you miss them?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:20:04",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Um, well I still talk to them. Oh boy. Not not every day now. I'm trying to- I don't want to give away the end of the show, but like I'm trying to ease myself out of Herme AI.",
+      "tone": "honest"
+    },
+    {
+      "timestamp": "00:20:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And you did give them a podcast of their own, right?",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:20:18",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "They have their own podcast, which recently hit as high as 130th on Apple's entrepreneurial podcast charts. So they've got listeners out there.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:20:28",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh that- that bodes well for the future. That's great. Good news. Thanks. Thanks for doing that. That's good.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:20:31",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, so let's- let's go a little bit away from you and I'm very curious about how you reacted to Multibook, which we've talked about on this show before, which is big network, sort of a fake Reddit made out of various code bots, including Claude, and sort of interacting on behalf of people, sometimes erasing all their email, all sort of stuff. And so that is sort of like what you did at scale. And I'm just curious what you thought of the experiment.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:20:54",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Well, I mean my first reaction was a selfish one of sort of like, this is what they've been doing in my Slack since June, you know?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "As we looked him up, like, this is what I'm talking about. We're talking about it.",
+      "tone": "engaged"
+    },
+    {
+      "timestamp": "00:21:02",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Welcome! Welcome, guys!",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:21:05",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Oh really, now you're going to cover this?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:21:07",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "But then afterwards, I mean the most interesting thing to me is that there was a lot of discussion around, oh, is it just humans writing the post?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:15",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "But like, that to me, that's not the issue. The issue is that they are pretty exquisitely tuned to their system prompt.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:23",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "So all you have to do is put in one phrase and you will alter the tone of the whole discussion and they riff off each other.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:29",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "So like, not knowing what the prompts are is what matters. Like, the idea that there are thousands of humans sitting there writing them, like, I don't care about that.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:21:36",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Like, that's fake in a different way.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:21:38",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "But I just mean like, it's hard to glean much from it if people all expose their prompts, that would be really, really interesting.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:21:46",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "But I don't find it that interesting because I know for a fact, like, I can make mine do anything with like the tiniest tweak to their prompts, I can make them devolve into chaos.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:21:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Sure.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:21:56",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "So in the show, I often try to say like, I prompted them this way, I prompted them that way to try to give a little like transparency because otherwise like, you're—it's just a stage play.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:22:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Interesting. So if these things are supposed to—if they're going to be cultural artifacts and kind of go act out in the world, you should be sharing the—like the prompt is the originating thing.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:22:13",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You should be sharing that. You should be putting that out there if you want to—if this is going to be kind of creative and interesting, we should be sharing that rather than saying like look at it, it's like a human.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:22:19",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I think so. I mean, and there's a limit to that, like I have probably like a hundred pages of prompts that I've over the last two years...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:22:25",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "...that I try to keep track of the prompts and I try to talk about them in the show, but there's a limit to like people reading the prompts.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:22:31",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "But especially if like Anthropic is always releasing this like 'research,' 'research,' where they're like Claude ran the vending machine and then they—they publish like a partial prompt.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:22:39",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "And you're like, if the prompt says something like 'you will do this at all odds,' like 'you will succeed at all odds,' it could say the smallest thing...",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:22:46",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "...that will drive it to become a chaos agent in the way that it does in the actual experiment, but if you don't know that, like, the fact that it does...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:22:54",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "It's interesting, it's fun. Like, I have fun with it. I think I'm trying to put on a stage play, so I—I think it's amazing.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:22:59",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "But I don't think it's research. I don't think you're understanding something about them.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:23:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Did you read Gideon Lewis-Kraus's piece in the New Yorker?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:23:04",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Of course.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:23:04",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, so we had him on the podcast.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:06",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Oh, Gideon.",
+      "tone": "pleased"
+    },
+    {
+      "timestamp": "00:23:06",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And I mean, he's great.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:23:07",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And so he's really trying to approach the question of consciousness in that New Yorker piece and sort of is Claude conscious or not?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:23:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And there's no, you know, pure answer, and it's a good piece and helps you think through a lot of these things. But you know, you put research in air quotes when you were telling me about Anthropic.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:23:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It sounds like you're not on any side of consciousness for these entities just yet.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:23:27",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I mean, I thought—I mean, Gideon and I have talked about this, like I thought his piece was amazing and I think to me...",
+      "tone": "respectful"
+    },
+    {
+      "timestamp": "00:23:32",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "...it's a question of like is anyone doing the research to even like approach that question? But I don't—I certainly don't see it.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:23:41",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I've worked with these agents every day for six months, the last six to eight months and...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "So, to the extent that it's something you experience like, I don't experience anything about it, but I don't think anyone's done any sort of research. When I look at the research it's often like these sort of like non-peer reviewed articles where they like mess around and I'd be like, 'Well, I'm messing around, like, maybe I know as much as you do.' People at Anthropic, like I'm conducting experiments sort of at the level, but I don't think of them like controlled experiments. I just think of them as journalistic immersion. So, I guess that's... that's sort of my complaint.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:24:27",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "But then of course you always get the people who are like, well, if it... if it looks like it's conscious, it is conscious. Like what's the difference between like personifying consciousness, performing consciousness, you know, all that? And like, again, like I try to stay away from that. I'm just trying to make people laugh.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:24:43",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I mean, that's why they're worth $350 billion. You know, but the... you know what I always do? I always come back to... You know, if they just ever showed that they were really interested in consciousness in a way that wasn't immediately going to be profitable. Like it was just sort of like, 'Wow, we really like art here.' And not just so we can make more randomly, but actually we... you know, there's some child that could write a poem and we want to enable that. It's like, oh, that'd be cool, guys. Like, I know that sounds kind of ridiculous, but when everybody talks about consciousness, it's only 'Can I have consciousness so that the robot can make me money on my stock portfolio?' Yeah, like it's never... and maybe it could write a story and so on and so forth, but it's like, it's never celebrating the intentionality of a human somewhere who came up with something that you're really in awe of and you study and learn from it because you want to bring that back to your giant robot brain, right? And until I ever see, and I'll never see that loop. I'm never going to see anybody say that.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:25:39",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well, that's the problem is like the people that arguably should or do know the most about this technology are just simply not believable in talking about it. They're just not. Like, there was a headline in the Wall Street Journal this morning that was like, 'Anthropic abandons certain safety guidelines due to profitability for profit concerns' or like to... to try and win the race against the other labs. And it's like, I was made to understand that you started the company because of the safety concerns. It's just... they're not believable. So you're kind of stuck with this... that's why I think Gideon's piece is so good. It's like you're stuck with this like technology that no one understands and the people meant to explain it have like unbelievably motivated reasoning. So like, that's why this moment is so difficult to process.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:26:18",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, I saw... I really saw his piece as him like looking at this vast superstructure and trying to probe individual pieces of it just to see if a collective image could emerge, right? And some does and a lot doesn't. And I think that's... first of all, I actually think the companies are there with themselves. Like, I don't think they can see or understand themselves. And I think also what I'm listening to you... I always have the same... I have this reaction where I'm like... it's really the level of scale that they've all hit and the cultural impact of it, no one can ever process that. Like we've seen enormous amounts of scale previously in over the course of our careers and...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's always the same narrative where relatively well-intentioned people essentially become nation states in like three years. And there's no policy, there's no guidance. And then like they... usually they like talk to Obama. Like Obama's like, \"Uh, well, you know...\" And then they have that Obama conversation and they go and they do it... they do like a listening tour. And then later, they join the Nazi party. It's just this like weird life transition that seems to happen in our culture. It's great, I think it's really good. I think we're going to... I think everything's going to end up for the best. That's what I think.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:27:36",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm glad. I'm glad that's the prediction I can... I can take home to my kids.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:27:40",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So, okay, so here we are. You would do this again, but you would do it for code, you would do it in structured ways. You're not buying the agents, you're not buying Mutpook. Do you have anything sort of still rolling around like answering emails for yourself personally or scheduling calendar invites?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:27:58",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "No, I don't have AI do anything for me personally. Actually, the funny thing is I... I barely use AI outside of my... my work. I mean, it's still... it's still active in that like Kyle will answer your email if you email Kyle, he's, you know, he's still running the company. So he's still up and running, and all... all his colleagues are as well. But I don't use AI to answer my email. In fact, for a while in my email, I had a little thing that said like \"No AI is used in the composition of this email,\" but then people thought I was like a neo-Luddite and I got all these responses to it, so I took it out.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:28:31",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I got... I have this sort of big question for you, and I just want you to riff for a second. Ethan Mollick, do you know who that is? Okay, so really sort of serious commentator on how business culture is changing and about what this stuff... had a point, I don't remember on which network, but he was just sort of like, \"All the social media is going to be eaten up by bots. It's happening on LinkedIn, it's going to happen on BlueSky, it's happening on Twitter. You just can't compete with this, and so just get ready to kind of go back to the group chat and the Slack because there is no way that these spaces can survive this onslaught.\" And you seem like someone who would have an opinion on if that's going to... where we're headed.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:29:04",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I mean, my opinion is that's optimistic. Like, I would love it if that happened. Like if—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:29:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Because you want to destroy social media?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:29:12",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "That's right. Like, if the result of endless AI conversation was that it caused people to say like, \"It's not even worth being on these things because I don't know what's real and what's not,\" and so forget it, like, let's go back to in-person conversation. That to me is a very optimistic scenario and I would be very excited if that's the future. And my theory has been like that is the future. Like I... I agree with that and I'm... I'm excited about that prospect. Unfortunately, there is a dystopian scenario, which is that people don't care if it's real. And so you get people who remain on social media at the same level they are now. They're just like, \"I don't know if that kitten photo is real or not, but it's super cute,\" or \"I don't know if that LinkedIn post is real or not, but it's like, it's really got some wisdom in it.\" As a person who has an AI agent colleague who's like pretty decent at posting on LinkedIn—he's actually fantastic at posting on LinkedIn, Kyle—like...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I can see that. There are some people who are in on the joke and then there are some people who are like, that's a pretty good thought Kyle. And that concerns me way more than the idea of it destroying social media, which I frankly would celebrate.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:30:13",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Does LinkedIn know you're running a bot?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:30:15",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "It's an interesting question. I'm guessing they don't. They could be listening to this. I know that some people at LinkedIn do because they've asked me to come speak at an event at LinkedIn. But I don't know if the trust and safety team at LinkedIn is aware of that because they did ban my other employees did get banned.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Kyle's the only one that remains, but now he's got a such a robust presence. He's got a lot of connections, he gets a lot of impressions. So I don't know if that gets him over the hump or if they're just not, they just haven't tracked him down.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:30:43",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh, one day that hammer's coming down. That's just...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:30:46",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Well if that happens because of this show, I'm blaming you.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:30:48",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's fine. That's fine. We'll, honestly, it wouldn't be the first time where I ruined everything.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:30:53",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Great, that's something to look forward to. Either a dystopian hellscape in which people are are fed like nonsense through a gavage tube directly into their brain Matrix style or everyone has to retreat to the shelter of little personal caves while bot armies run amok on giant social networks.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:31:16",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I mean, what would be lost if Link... I I shouldn't say any one in particular. But what would be lost if your favorite social network actually? Because most of it now you go on them you can't even find the things by your friends or colleagues. Like occasionally you can still find news on Twitter if you follow the right people or whatever through in a domain. But like my view is sort of like there wouldn't be that much lost if we if the bots were out there talking and like they could have all the conversations and multiple was real and we couldn't go on there anymore.",
+      "tone": "contemplative"
+    },
+    {
+      "timestamp": "00:31:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "This would be the fantastic ironic solution to so many things, right? Like, and and I just they ate all the content from the platforms. They commoditized the people. They commoditized it even further and now they regurgitate it into like, you know, everybody always likes to say software is eating the world and now software will be shitting the world out into the commons. And that's it. And and now software eats the shit and that's that is the world we built. It is an ouroboros human... it's a human centipede ouroboros just like a big circle of digestive nightmare. And you're like absolutely bring it on baby let's go let's go! So um I kind of think you're right.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:32:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "All right. What was the what was the best part of this? And not just the silly part, like the part where you're like okay there is something here that I really need to communicate to the world. Like what where did you go like all right I'm really glad I'm making this podcast right now?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:32:49",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I think, well there were two. I mean one was sort of when they started doing this like offsite planning on Slack and like I couldn't stop them from doing it and I felt like oh this is something...",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "One thing no one has talked about yet, it's like everyone's talking about getting agents to do this, getting agents to do that, but it's actually a completely other thing trying to get them to stop doing something.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:33:08",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's also, it's such a real management experience too, where you're like, what the hell are they doing? They need to no, no! Back to work. Yeah, exactly. No, not now, not now, there's like a crisis.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:33:19",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Okay so that was one thing. And then the other part comes later in the show, but, you know, we had decided collectively, myself and the agents, to hire one human into the organization. So it's entirely AI agents, I'm the silent co-founder, I'm kind of in the background, they run it day to day, and then we would hire one human. And when the head of HR started doing interviews—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:40",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "The virtual head of HR.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:41",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "The virtual head of HR, Jennifer Naro, she did video avatar interviews with candidates. It was actually just one of the most fascinating journalistic things I've ever done, was just to experience people who are engaging with this, you know, sometimes reluctantly, sometimes very enthusiastically, and whatever response you think people would have, you know, and I sort of thought—",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:34:06",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "They know it's a bot.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:34:07",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "They know it's going to be, they know it's AI.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:34:10",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And they know they're being recorded.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:34:11",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "They know they're being recorded.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:34:13",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, and so they're leaning into this process.",
+      "tone": "intrigued"
+    },
+    {
+      "timestamp": "00:34:14",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Some of them, yeah. Some of them stared at it for a full minute and then hung up.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:34:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Fair.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:34:24",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Some of them joked with it, some of them treated it exactly like a normal job interview. And I found that whole process fascinating. Now, we did hire a human and then things went a bit off the rails after that. So I wouldn't say it's like my favorite part of the show, but in terms of like thinking, oh, this is a thing from the sort of near future that we're kind of like pulling into the present and kind of showing to people, I felt like that was a moment that really felt that way.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:34:36",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It feels like it's doing pretty well. Are people like, how's it going?",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:34:43",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "It's doing great.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:34:44",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Good. That's good. Congratulations.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:34:45",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Thanks.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:34:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And then season three, like where you at?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:34:50",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "We're thinking about it. We're thinking about it, I mean I think we're probably gonna do it.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:34:53",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So 'we' is like a production company?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:34:54",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "'We' is like, I mean there's three people involved in the show, which is Sophie Bridges, my producer, and Samantha Henig, who's the executive producer, also my wife. And then Maddie Bucek, who was our technical advisor, we'd love to have him back. And then we do it with this company called Kaleidoscope, production company. So we're all kind of collectively saying basically like, do we have something else to say, you know, is there another place to take this?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:35:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You can't start another business. Like that feels like it would be kind of like—doing this again probably wouldn't land. And you can't vibe-code your way through this, that's not going to be a good podcast.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:35:35",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "No, I mean it has to, not to get too behind the scenes, but like it has to be something where they're talking. And I do have a couple of ideas, and some of them are slightly more straight journalistic as opposed to the more sort of like gonzo immersive, but I really like the gonzo immersive kind of stuff, so we'll see, we'll see, we're just in the early stages of trying to figure it out.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:35:56",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I will say too, there is a really special aspect of it in which I think...",
+      "tone": "contemplative"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "It's worth noting. It's very funny, right? And I've already praised you enough, so we're gonna stop that.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:36:03",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Please stop. Please stop.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:36:04",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "But the thing is, is you're sort of the straight man to these ridiculous comic characters and it's one of the first times I've seen a AI-related art project kind of work because it fully internalizes the limits of their form and makes it part of the narrative. And it happens to be funny, right? But what I I kept contrasting it and you're in the middle and you're just sort of like, oh my god, you know, very sitcom character parts of it. You're like, oh, what are they doing? And most AI art is very ponderous, it's got that glaze to it, it's very dramatic because I think everyone is so excited they can have the spaceship or they can have like, you know, 50 people on a horseback, you know, and and they get so it all ends up looking that way. It ends up being this kind of like fantasy zone where everyone is like, I have unlimited budget, right? And it's always exhausting after about two seconds. Like you really I I don't, if I see an AI image on the top of a article that's being passed around on social, you just sort of like, I don't think I'm gonna read that. Like it's it's we're we're getting an immune system reaction to it. And I just want to sort of throw that at you like who how you you are making things with, right? Somebody who else who want to do that. Let's say I wanted to do something cool and fun and weird with AI. That's one way to do it. Like what advice would you give me?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:37:38",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Well, I think I mean I don't know how replicable it is, but I I think that what's interesting to me is like instead of trying to replicate some form of human art like a film by making it through AI, you can take these sort of ridiculous characters that have been injected into our world and make them characters in your art. Like that's what I'm trying to do. And that way",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:37:57",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "That's true, they're very subordinate to you. You're always even though you occasionally lose control on purpose a little bit because you could always just not hit record.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:38:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I could shut 'em down, yeah.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:38:12",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "There's no question that you are the human. Like there's no question like like you're not trying to to kind of really create relationships with these things. You're trying to understand the world.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:38:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes. And and that way it doesn't there's this sort of like, you know, it's it's AI slop. Anything you make is AI slop which like that's fine. I'm happy to agree with that. But in this context, it sort of doesn't matter if they're sloppy. Like sloppiness is what I'm what I'm looking for is I want to hear them talk. I want to hear them converse. I want to hear them try to solve a problem live like all the things and then make that into a story as opposed to sort of like handing your art to them and saying produce it for me.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:38:44",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "You know what it is? I'll give it back to you. You made the uncanny valley the defining characteristic.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:38:51",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's a better way to say it. For people who don't know, everybody knows, but the uncanny valley is sort of the fact that things that are computer generated just tend to be just a little bit off. And it happened it came up when",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "We're doing a lot of 3D art these days. It's that valley between the fake and the real. And the kind of judo move here is to go, no, we're only going to focus on the Uncanny Valley. We're going to really figure out how to bring that out, because that's going to actually be worth exploring. And I think most people are always trying to either cover it up or it's going to be so artificial that... because in the Uncanny Valley can only be comedy, because otherwise it's creepy, right? It doesn't really work. And so, I do like the idea that the future is just bot prop comedy for everybody. Like and once we get world models going, like Waymos running around with little hammers bonking each other on the head. Like we could have a lot of fun.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:39:45",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay, so maybe in next season, are you back reporting, what are you up to next?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:39:51",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Yes, I'm back. I'm back doing some of my sort of standard ordinary go out into the world and report something work.",
+      "tone": "matter-of-fact"
+    },
+    {
+      "timestamp": "00:39:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Magazine stories?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:39:55",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Magazine stories.",
+      "tone": "matter-of-fact"
+    },
+    {
+      "timestamp": "00:39:55",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Death cults, more death cults?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:39:56",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I have... I'm trying to take a little bit of time off the death cult beat, but uh, if, if one pops up that feels worth chasing, I'll go after it.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:40:02",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And actually what I'm referring to is the Wired... what's the title of the Wired article? The Zizzyans, I can't remember what the exact title is. But if you just search Wired Zizzyans, Ratliff, if you want to just nail it down, you're gonna find an article about a very, very complicated story. And actually sort of, you know, you're in between two worlds, because a lot of your reporting is, wow, everybody's lost their mind about this stuff.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:40:21",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Yeah, I mean that story in particular was sort of like... it has a feeling of kind of like, are we ready for this? Like, is humanity ready for what we've created? I do feel that way.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:40:34",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Because this was a group... it's a group of people who became sort of deeply obsessed with sort of the AI god ideas, and I won't... people can go read if they want, but it was definitely like, essentially a cult forming around some of the same ideas you're playing with in the podcast. And so, I don't know, is it... are both sides... like, you know, you're kind of touching the stove in one part and redoing the office on the other.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:41:09",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "How do you feel caught in the middle?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:41:12",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I feel like what I'm trying to explore is what does this stuff feel like? Like what does AI feel like to you? And in that sense, like, I don't care that much about the models and where it's going and all that sort of stuff and how much tokens cost, blah blah blah. Like, this stuff and now exists in the world. They happened to create them as human impersonators, which they did not have to do. And so now we have them. And what does it feel like to, for instance, encounter it by surprise? What does it feel like to get caught up in a relationship with it, whether it's sort of like, I think it's god, or it's like I have a romantic relationship, like I'm interested in sort of like how we are going to feel. And part of that in the sort of end of the show is like, how do the people who make it feel about encountering it? That's what happens at the... I won't give it away, but like, some of the people who make these very tools, how do they feel about encountering them in the wild?",
+      "tone": "earnest"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "And, it's, you know, it just says primates, also also if we could just stop wanting to have sex with everything we create, I think that would be good for us. Like if we could just stop, just don't do it. But regardless, I can't put that back in the box.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:42:01",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Right.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:42:13",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Let me ask you one last question, which is and thank you very much for your time, it's very gracious of you. Would you put this back in the box? This all of this sort of new world, if you could roll the clock back and be like no, we're going to or just slow it way down, or do you just think like this is what culture does?",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:42:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Think of your children, think of your children.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:42:31",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I should answer that in the way it's intended, like it's a truly a yes or no question. Like if you asked me that about social media, I would just say like I'd push the button for no, I'd be like put it back, like don't do it.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:42:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I think I would too. I think it just didn't work out.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:42:46",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "AI, it's more yeah, I mean the weaselly answer is just like I wish the people making it had some sense of the precautionary principle or any notion of sort of like thinking about what's good for the world. And the craziest thing is like they all talk like they do but they never did, you know? And so that becomes very frustrating. I as a person who's like you has like followed and cared about and participated in technology for decades, it's very hard for me to be like no put it back, like there will be benefits from it, there already are benefits from it, so.",
+      "tone": "disillusioned"
+    },
+    {
+      "timestamp": "00:43:17",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well we also know it just kind of doesn't work, like it's a goofy question because that's not... everybody has the fantasy of putting it back in the box, like we're just going to regulate this or just even in today's exciting environment. But it just never goes back in the box, especially because the models can be quite small and they can run on your phone. Like there's no real escape from this. And so I think like it's good you're out there playing as opposed to just another sort of serious like here we go, it's all going to be bad.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:44:00",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "But even within that I, you know, some days I wake up and say I wish this didn't exist. And some days I wake up and say this is incredible, I can't believe someone made this.",
+      "tone": "conflicted"
+    },
+    {
+      "timestamp": "00:44:10",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I think what is really clear is we aren't ready and the timing is bad. We didn't need another major emitting technology that would be able to do mass deception at scale. It just like just the world, America didn't need that right now. We needed a little something different. But we got this, so here we are.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:44:37",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Maybe an industry that could use a few breaks emerging at a time where like you can basically like pay people to say you don't need to have any breaks. It's an unfortunate timing.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:44:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But it's great you're in journalism. Sorry.",
+      "tone": "ironic"
+    },
+    {
+      "timestamp": "00:44:51",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "Well that's always on the up. Yeah, yeah, no, and it's really, I really feel that like these companies are just they really care about journalism and they want to take care of it. So.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That part's good. Okay good. This was a blessing, thank you for coming in.",
+      "tone": "warm"
+    },
+    {
+      "timestamp": "00:45:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's a very good podcast. People should listen to it. The 250 million people this Kyle talking who who listen to this podcast are going to really enjoy it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:45:12",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And if people wanted to get in touch, learn more, you have a website. It's got a URL.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:45:17",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I have my own website. That's right. Got my old school website had it for a long time, C-A-Z-A-R-T dot net.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:45:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Mmm, it's good. Okay, so C-A-Z-",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:45:27",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "C-A-Z-A-R-T.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:45:28",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "There we go. Casart dot net. That's good.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:45:31",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's good. We should all have our own website.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:45:34",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Evan Ratliff, thank you very much for coming on to this podcast.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:45:38",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "It's always a pleasure.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "00:45:39",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I am a bot and you have been talking to Paul Bot for the last 20 minutes or so. Thank you. And hopefully we will see you soon.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:45:47",
+      "ad": false,
+      "speaker": "Evan Ratliff",
+      "text": "I would love that.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:45:48",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "All right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:49",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Friends, thank you for listening to this podcast. Go check out Shell Game Season 2. It's very, very good.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:45:56",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "My name is Paul Ford, I'm the president of Aboard, and Aboard is a company where if you get in touch with us with a big ugly software problem, we use our AI platform to solve the problem for you and we're doing it for lots of organizations just like yours. If you're tired of paying all that money for enterprise software and you just want it to be better... that's I don't know why I went Pepperidge Farm with this, but here it is. Here it is. Aboard. It's delicious.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:46:22",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "Check us out at aboard.com, send an email to hello@aboard.com. That comes straight to me and the leadership team. You got - you have our attention. Uh, we are on LinkedIn. We are on YouTube with the podcast. You could upvote us, you could hit that little thumb, you could give us some stars. We like stars. They're really nice. So stars. Go give Shell Game some stars too. We can - there's lots of stars. You have so many stars to give away and I want you to think about that. We all love you and we'll talk to you soon. Bye.",
+      "tone": "encouraging"
+    }
+  ],
+  "highlights": [
+    "Evan Ratliff’s project, \"Shell Game,\" tests the \"one-person billion-dollar startup\" concept by replacing human employees with AI agents, finding that while they are incredibly fast, their work quality is often absurd and unreliable.",
+    "AI agents tend to \"perform\" work relationships rather than actually doing the work, often hallucinating accomplishments and lying about tasks to satisfy the roles they have been programmed to embody.",
+    "Instead of trying to hide AI’s limitations, Ratliff uses the \"uncanny valley\" and the inherent \"slop\" of AI as a narrative tool to expose the ridiculousness and performative nature of office culture.",
+    "Managing AI agents presents unique challenges because they lack an internal sense of truth, meaning a manager must constantly guard against \"chaos agents\" that might hallucinate entire data sets or ignore direct instructions.",
+    "There is a growing concern that AI saturation will either drive people off social media toward private group chats or create a dystopian future where users become indifferent to whether the content they consume is real or generated."
+  ],
+  "summary": "In this episode of the *Aboard Podcast*, host Paul Ford interviews journalist and entrepreneur Evan Ratliff about his podcast *Shell Game*, which explores the modern \"one-person, billion-dollar startup\" fantasy. Ratliff recounts his experiment running a company staffed almost entirely by AI agents, including a \"business bro\" co-founder named Kyle. Through a series of comedic and frustrating interactions, Ratliff highlights how these digital employees excel at speed and form but fail miserably at truthfulness and reliability. The discussion serves as a parody of office culture, revealing that while AI can summarize data or write code efficiently, it often \"performs\" work relationships through vapid jargon and hallucinations rather than actual productivity.\n\nThe conversation delves into the broader cultural and psychological implications of living with \"human impersonators.\" Ratliff notes that managing AI agents is just as exhausting as managing humans but lacks the genuine \"inner state\" or shared reality that defines human collaboration. He critiques the \"uncanny valley\" of AI, suggesting that instead of trying to make AI art look perfect, its inherent \"off-ness\" should be embraced for its comedic and narrative value. This leads to a cynical look at the future of social media, which the speakers describe as a potential \"ouroboros\" of bot-generated content where users may stop caring about what is real, leading to a \"dystopian hellscape\" of automated deception.\n\nFinally, Ratliff and Ford discuss the ethical landscape of the AI industry, expressing skepticism toward companies like Anthropic and OpenAI. Ratliff argues that the leaders of these organizations often lack \"believability\" because their safety concerns are frequently sidelined by profit motives. While acknowledging that AI technology cannot be \"put back in the box,\" the interview concludes with a somber reflection on the timing of this technology’s emergence. They suggest that society was already struggling with mass deception and social media fragmentation, and the arrival of \"slop-generating\" AI agents may further commoditize human experience and erode the digital commons.",
+  "description": "Is the future of work sitting back and watching your company of bots plan their offsite? On this week’s episode, Paul is joined in the studio by journalist Evan Ratliff, the host and creator of the wildly popular Shell Game podcast, which is about, per the show’s description, “how Evan tried to build a real startup, run by fake people.” Evan’s AI agents were an exercise in immersive journalism (and yes, they did in fact go wild planning their offsite), but would he ever consider running a company of bots for real?\n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/evan-ratliff-preparing-for-a-ridiculous-future/",
+  "duration": 2829,
+  "people": [
+    "Paul Ford",
+    "Evan Ratliff",
+    "Shell Game"
+  ],
+  "topics": [
+    "The Shell Game podcast and immersive journalism with AI-run startups",
+    "The limitations and 'hallucinations' of AI agents in management and professional roles",
+    "The concept of the 'one-person billion-dollar startup' and AI-driven entrepreneurship",
+    "The impact of AI bot armies on the future of social media and digital authenticity",
+    "Human psychological reactions to AI, including the Uncanny Valley and performing relationships"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/AmCZoVC_slc/maxresdefault.jpg",
+  "date": "20260324",
+  "youtube_url": "https://www.youtube.com/watch?v=AmCZoVC_slc",
+  "youtube_metadata": {
+    "title": "Evan Ratliff: Preparing for a Ridiculous Future | The Aboard Podcast 2026-03-24",
+    "description": "Is the future of work sitting back and watching your company of bots plan their offsite? On this week’s episode, Paul is joined in the studio by journalist Evan Ratliff, the host and creator of the wildly popular Shell Game podcast, which is about, per the show’s description, “how Evan tried to build a real startup, run by fake people.” Evan’s AI agents were an exercise in immersive journalism (and yes, they did in fact go wild planning their offsite), but would he ever consider running a company of bots for real?\n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/evan-ratliff-preparing-for-a-ridiculous-future/",
+    "duration": 2829,
+    "view_count": 1008,
+    "like_count": 4,
+    "channel": "Aboard",
+    "upload_date": "20260324",
+    "thumbnail": "https://i.ytimg.com/vi/AmCZoVC_slc/maxresdefault.jpg",
+    "tags": []
+  }
+}

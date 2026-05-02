@@ -1,0 +1,497 @@
+{
+  "title": "Transformers Are Not the End Game | World Models, Physical AI, and AI’s Next Frontier",
+  "source_url": "https://www.youtube.com/watch?v=kcFsuxaJ1es",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "Whatever it is model means today, that's still gonna change. The upper bound is data.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:00:05",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "So I don't think Transformers is the end game.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:00:07",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "The physical AI is the frontier that...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:00:17",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Hello everyone, welcome to Inference Show by Turing Post. We are at NVIDIA GTC and I'm very happy to have Sanja Fidler. She is an associate professor at the University of Toronto and the most important, she is the VP of AI Research at NVIDIA and she leads the Spatial Intelligence Lab. Welcome to the show, Sanja.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:00:36",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "Thanks Ksenia, nice to talk to you.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:38",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah, um, thank you so much for agreeing to this interview. I'm very excited about everything that happens in spatial intelligence area. And um, recently I had a chance to talk to Andrej Karpathy for a bit and he said, he frames Transformer architecture as a extremely general architecture, he really sees a lot of potential on that. On the other side, people like Fei-Fei Li and Yann LeCun, they are betting on world models in spatial intelligence. What's your take?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:00:55",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "Yeah, it's actually not exclusive. So Transformer is a, is a neural network architecture, right? So you have some input, which could be text or it could also be video, it could be some 3D information. You convert it into tokens and Transformer basically tells you how the computation is going to be done, and you know, there's an output that comes out, either a language response or maybe a video frame or so on, right? So Transformer is the general architecture that you can repurpose for many different tasks. And now there is LLMs or language modeling, world models that's basically doing world simulations, so for example generating cameras, so these are kind of tasks. But underneath they can be powered by Transformers. Does it make sense? So it's not like you know, from task to task we are changing the architecture, maybe a little bit because it depends on the task, but it really is not... is not conflicting with each other.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:01:52",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "So I am a believer of world models and spatial intelligence, um, as kind of the next frontier, which is maybe still a little bit behind what LLMs have accomplished. But it's very clear that there's other modalities that are very important, right? Visual, humans really rely on vision, audio, touch, right? And we should be able to model that as well. And the premise of world models is that it's kind of like a simulator, right? You're able to have this virtual world where I'm kind of positioned in this virtual world making actions and uh, this model is essentially producing what's going to happen next in, you know, it's almost indistinguishable from the real world. That's kind of the goal.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:02:29",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "And spatial intelligence is basically also talking about the domain or a class of models, um, that emphasize the importance of 3D, right? So for robotics, it's a 3D world, I'm touching 3D things, right? And maybe even the sensors are 3D, a lidar scan or a depth camera on your phone, right? So there's 3D information coming in, not just text that you hear from someone.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "you know, architecture in order to process the 3D and be able to control a robot in a 3D world, you cannot just bump into things. So, it's basically emphasizing the fact that there should be somewhere 3D in your architecture for certain class of problems.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:16",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Do we need any other architectures to make breakthroughs in world models? Or you think like Transformers are the one?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:24",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "And I don't think we have reached what intelligence is going to look like. So, I think the same is true with Transformers. Transformers is a very general architecture. This is changing. There's already new architectures, for example, state space models, kind of revisiting ideas from RNNs to make this maybe more efficient. Even mixture of experts is kind of like one example. So, this is going to continue to change. Researchers continue to innovate. Right, these models are still now expensive to train, need a lot of data. So, there needs to be breakthroughs to actually make that more amenable to smaller-scale experiments, and for that you probably need some breakthroughs in architecture. So, I don't think Transformers is the end game, or I would be very sad if that was the case.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:04:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Right. Yeah. What are you the most excited about with the current announcements at GTC that are related to your work?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:04:10",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "Yeah, yeah, we are announcing AlphaDreams. So, I'm really excited about that. The team has worked on this for probably years, but definitely for the last few months. So, last year we released Cosmos, which was kind of the first, I wouldn't call it world model, but it was like a generative simulator, if you will, where you could write some text or maybe give it a frame and then it would produce like a video chunk, a few seconds of video. It was kind of hard to do that a year ago and it would even take minutes to generate just five seconds of video, right? So, it was very impressive in terms of wow, you can generate this stuff, right? But it wasn't usable. It was just too slow.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:04:42",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Mm-hmm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:04:43",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "Too much compute, right? It's not like a hundred million users can actually interact with it. But you could see the future in it. As someone that builds autonomous driving tools, I could see that there's a future in that space for these kind of models. So, since then we've been pushing quality but also speed. Right, you need to make these models interactive. And there's another important aspect of it. So, last year you kind of, you know, text prompt and then you get a video and that's it. This year we're also making it interactive, so there could be a user driving in the loop, or it could be a robot interacting with a model.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:05:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah, right. So, it's basically real-time and it's interactive. So, it's really kind of like a game engine, it's just that the entire software is written by AlphaDreams or these models.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:05:34",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "Yeah, right. So, it's basically real-time and it's interactive. And if anyone is at GTC, they can test it in the demo. There's a steering wheel and it's... yeah, I'm very excited about it. And it's basically just a year has passed, right?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:05:57",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Isn't it crazy? It's totally crazy.",
+      "tone": "amazed"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I was very impressed I saw the demo of self-driving car. And is it really that when the model gets one data point from the driving and Cosmos creates immediately all these different data points in simulation. That's how it works and that it feeds into the system so it can train?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:06:22",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "So maybe I can talk a little bit about the evolution of simulation, right? So originally, when you're producing AV software, you don't just deploy it on the road. It's unsafe. Right? You need to test it and like make sure it's really safe, right? So when I joined Nvidia, those were the times where people still had graphics engines. You know, so it was a real graphics-based engine. The issue was that artists are producing this content. You know, you wanted to test something in a new intersection in San Francisco, goodbye for two months, artists were making that, right? And then you got it and then you could do it. The next evolution of that technology was basically this neural radiance fields Gaussian splat, where now the breakthrough was you can take something like we were saying, you can take a recording, I can reconstruct it in 3D and suddenly it becomes a simulation environment.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Mhm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:10",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "So I can expose my car to new experiences. As much as this is useful technology and it's actually shipped right now in Nvidia AV cars are actually tested every day, 2 million simulations a day,",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:18",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Mhm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:19",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "there's still limitations to it. And the limitation is that when you do this reconstruction, you can't really drastically change behaviors. So imagine that I'm approaching you with my car in the original recording and I stop two meters from you. You're just going to walk across the street, right? But if the policy does something bad and stops 10 centimeters away from you, you would react very differently, would be different- differently wave, run, whatever, right? And those methods couldn't do that. So AlphaDrive basically says let's just learn simulation from data. So it takes massive amount of just general data, general videos and then what we do is fine tune it on in, you know, autonomous driving data so it sees a lot of these examples, maybe just one of these or few potentially, right? And now it's this like little model that you can call and it's able to kind of predict what's going to happen next. So that's kind of...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:08:15",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So it solved that limitation.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:08:18",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "Well that's the premise, you know, it's research. I'm always intellectually honest, I think we're getting there. I think there's a gigantic leap but, you know, solved is a strong word as a researcher I almost never use this but it has definitely it's gonna become a very useful technology very soon.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:08:35",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What are the next limitations that you tackle, that you want to solve and research more?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:08:42",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "On this domain I think currently there is still some maybe it's too technical for for this discussion but...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:08:50",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "You have a pretty techy audience.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:08:52",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "You have? Okay, okay. So currently these models still have dependence on maybe some more classical designs.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "simulation where we leverage the map and the cuboids for other objects and then we're kind of feeding that in into this world model Alpha Dreams that's basically doing fancy rendering. Now the problem is that that kind of cuboid simulation still needs to be done separately as a separate process.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:20",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "You cannot do it the same real time.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:09:22",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "Yeah, so it doesn't kind of make sense because if Cosmos for example or Alpha Dreams draws snow or a crack in the road, you kind of don't know that in that layer. Even though you have AI in that layer to kind of control the agents, it's going to be a little bit not synchronized I guess with the video. So I think in the future we need to make that dependency much smaller. Maybe you still want to have that as an optional conditioning or optional prompt if you will, but not have this like strong reliance on it. And we also want to add other modalities, right? So a car doesn't only have cameras, has radar, has lidar, many of them, you know, that's a huge computational thing that we need to solve, that's we're not ready for that today. Audio, right? Like sometimes I hear an ambulance before I see it, right, and I could be reacting way sooner than when I get the cameras. So whatever world model means today, that's still going to change and there's a frontier for many more modalities as input and output and maybe less reliance on this kind of classical signals.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:25",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That's very interesting. You mentioned touch, maybe cars don't need touch, but robots surely do. What's research in this area?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:10:38",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "So for us, I'm mostly focused on autonomous driving, and like you say, touch is game over. So the only physical interaction you need to model is ground dynamics, right, because you do need to model, you know, if I go on a sidewalk versus a crack versus snow. And I would say right now is we have some approach to this, it's not perfect and that's what we still need to figure out. And for robotics, this really needs to be addressed and it's still a research realm, so I don't have an answer to how exactly one would solve it. I could imagine different paths, right, there's a brute force approach where maybe I can put some gloves and just collect data which is both visual as well as, you know, some interaction and now the model has data to imitate, right, when you generate visuals it also can produce the force back. That seems not super scalable, I need to go now with some, you know, some sensors here. The other way might be using classical physics simulators because you could, you know, there's a lot is known about how the force is going to look like for different materials, different objects and so on. Maybe the content is hard to model, but definitely for certain class of objects you can do this really well. So maybe that can be like a data generator that can be augmenting, you know, whatever we have without that data, right, because you still lack data for that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:59",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "Yeah, this is all learned, right?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "All there is right now is is the upper bound is data, right? So if we never teach it how force looks like, it's not going to know.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:07",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:08",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "But the hope is that there is maybe just very little of that data that we need such that the model begins to generalize across way more, right? It's seen visuals, video because like such a common modality, right? Everyone is recording things, right? But it's seen that at scale, but it's seen almost nothing with, you know, force, right? So maybe if we can augment that with some simulation data, we can kind of train this more successfully. So I think this is maybe where the research is going, but it's completely a research product right now. If I knew, I would—",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:12:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "When I when I use self-driving in Tesla and it's like on the snow, I always think does the tires have any sensors? Maybe that would be like the idea to collect data from the road, I don't know if that's—",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:12:51",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "Yeah, autonomous driving is a great example because it's a platform that has scaled, you know, there's so many cars around. So you can just put all these sensor on it and you're getting this data, right? Even the fact that AlphaDreams is working so well is because we have, you know, hundreds of thousands of hours of data, right? Which has all these other sensors on it. And it's a good idea. We should totally be using that which we are not today. But for robots, it's a more difficult, right? Because there's not robots at scale outside collecting that data. So you're right that it depends on the robot how quickly we can solve certain things.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:25",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I think we unfortunately need to be wrapping up and my question, my last two questions actually, is one is about AGI, what do you think about it working with like physical objects? Are we close to AGI and what it is for you?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:13:42",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "I don't know, I try to avoid these questions because it's just hard I guess to answer. It depends in some cases, you know, you could you can think that some traces of it is here. But there's definitely the frontier. I think for us, the physical AI is the frontier that AGI is definitely not there yet. Right, you're even seeing these LLMs or these strong models that already exist that are making silly mistakes in the physical AI space. Right, so I would say that there's still a frontier there to reach.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:14:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "When do you think it will be ChatGPT moment for physical AI?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:14:16",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "Let's see. So, it depends on the robot maybe, right? So I think for autonomous driving, if we define ChatGPT moment as it's reaching masses, right? And it doesn't make silly mistakes, then autonomous driving is is almost there or maybe soon to be there, right?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:36",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Like the next few years?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:14:37",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "Yeah, in the next few years, yeah, in the next few years, I think probably below five I would say we're going to see so many cars driving around autonomously. For general robotics, I think there's still distance to go, right? You see them in kitchens and they're clunky and maybe there's someone in the other room helping, you know, the hardware is not quite there yet, so there's a whole bunch of issues that still need to be resolved. So I would say that they're probably at the stage of maybe where autonomous driving was in—",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "2017, 18, you know, where we all thought, oh my god, it's about to happen. AI is really there. But then it still took time to really push that last mile. You know, it's really hard. I think so much harder when you really want to make it work. So I do think that, you know, as much as we're seeing a lot of progress right now, that distance still remains for robotics. It's hard to predict. But you know, with these agents and just open source and so quick progress right now because the entire world is working on it, right?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That's different than what it was in driving 2017.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:33",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:34",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So that makes me believe that maybe that time is shorter.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:37",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "But I don't want to put like a date because you guys are going to record me and...",
+      "tone": "cheerful"
+    },
+    {
+      "timestamp": "00:15:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "No, nobody knows. Yeah, refer back to that date in five years and say, oh, Sanja was wrong. Tell me about the research paper that lately impressed you the most.",
+      "tone": "cheerful"
+    },
+    {
+      "timestamp": "00:15:56",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "I guess there's this debate of how much 3D is going to be in the future versus things that are done more in these visual domains. And there's a class of papers, I guess, and even blogs that talk about the role of 3D and the role of world models and how that's going to evolve, whether they're going to just be one model that can do both simulation, action. So those blogs, I guess, make me think because this is also reflecting our own thoughts on the subject. And I think the jury is still out on how that's going to look like. But I guess when I started in NVIDIA, it was all 3D, we need to do 3D. And in the last maybe few years, two years, we also switched a lot to less 3D and doing it more from just, you know, camera data.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Mm-hm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:16:32",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "Where, you know, the hope is still to capture 3D, but I want to also be betting in that direction. And more people are now thinking about kind of where this is going in the future. So.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is the radiance field, right? Radiance field?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:16:56",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "Mm-hm. Radiance fields, but just, yeah, more than that. How much 3D you actually need in your models versus just learning everything from 2D data, videos, right? And everything is emergent. All kinds of 3D and the knowledge of how I should move is emerging from just, you know, cameras. Yeah, I don't know. I feel like we're still betting on both directions, but it's not clear how the future's going to be. So.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:17:20",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you so much. And if we have one minute left, what excites you the most about the current stage of AI and where we're heading?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:17:26",
+      "ad": false,
+      "speaker": "Sanja Fidler",
+      "text": "I think what excites me is that now the world is thinking of physical AI. You know, a few years ago, it was mostly us, you know, fewer people. And now you hear it everywhere. It's always exciting when you can talk to people, people are working on the same thing, the progress is much faster. You know, I wake up every morning excited about what's going to come the next day. When are we reaching real-time? When are you making these models better? Yeah, I think that's the kind of frontier that we're after and super excited about that prospect. Thank you.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:18:01",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Welcome back to another episode of the AI Podcast. I'm your host, Ksenia Se.",
+      "tone": "energetic"
+    }
+  ],
+  "highlights": [
+    "While Transformers are a highly versatile architecture, they are likely not the \"end game\" for AI, as researchers continue to innovate with more efficient models like state space models and mixture of experts.",
+    "World models and spatial intelligence represent the next frontier of AI, focusing on creating real-time, interactive simulators that incorporate 3D information, vision, audio, and touch to mimic the physical world.",
+    "The development of autonomous driving is moving away from classical graphics-based engines toward learning simulation directly from data, allowing for more realistic and reactive environments that can predict how agents behave in complex scenarios.",
+    "Data currently serves as the upper bound for physical AI; while visual data is abundant for training, there is a significant lack of large-scale \"touch\" or force data needed to help robots generalize physical interactions.",
+    "Autonomous driving is expected to reach its \"ChatGPT moment\" within the next five years, though general-purpose robotics remains further behind due to the complexities of hardware and data collection at scale."
+  ],
+  "summary": "In this interview, Sanja Fidler, VP of AI Research at NVIDIA, discusses the transition of artificial intelligence from language processing to \"spatial intelligence\" and physical AI. She characterizes the Transformer as a highly versatile but likely non-final architecture that currently powers world models—simulators capable of predicting 3D environments and physical interactions. Fidler emphasizes that while large language models (LLMs) have seen massive success, the next frontier lies in modeling the physical world through multiple modalities, including vision, audio, and touch, to enable robots and autonomous vehicles to navigate complex, real-world scenarios.\n\nA central highlight of the discussion is NVIDIA’s progress in simulation technology, specifically the evolution from manual graphics engines to \"AlphaDreams,\" a data-driven, real-time interactive simulator. Unlike previous models that were slow and static, AlphaDreams allows for interactive training where AI agents can learn from reactive behaviors—such as how a pedestrian might respond to a car’s proximity. Fidler explains that the goal is to reduce reliance on classical signals like maps and cuboids, instead allowing 3D understanding and physical intuition to emerge directly from massive datasets of video and sensor information.\n\nLooking toward the future, Fidler identifies data as the primary \"upper bound\" for physical AI. While autonomous driving benefits from vast amounts of real-world data and may reach a \"ChatGPT moment\" within the next five years, general robotics faces a steeper climb due to a lack of data at scale. She notes that current research is exploring ways to bridge this gap using synthetic data from physics simulators to teach models about forces and touch. Ultimately, Fidler views physical AI as the true test for AGI, noting that even the most advanced current models still struggle with basic physical common sense.",
+  "description": "At NVIDIA GTC, we sat down with Sanja Fidler, VP of AI Research at NVIDIA and one of the leading voices in spatial intelligence and physical AI. We dive into world models, robotics, autonomous driving, and the hard problems AI still hasn’t solved.\n\nIf you want to understand where AI goes next and what occupies the minds of the best researchers, you need to watch this video.\n\n*In this episode:*\nWhy transformers and world models are not competing ideas\nWhy physical AI is still a major frontier\nThe evolution of simulation\nWhy 3D matters for robotics and real-world intelligence\nWhat’s still missing in multimodal AI\nWhether autonomous driving could have a “ChatGPT moment” before robotics does\n\nIf you enjoy conversations at the edge of AI research, *subscribe to Turing Post* for more interviews with the people building the future https://www.turingpost.com/ \n\n*Chapters:*\n0:00 Physical AI vs Transformers — The Big Question\n0:19 Introduction: NVIDIA & Spatial Intelligence Lab\n0:38 Transformers vs World Models — Not a Competition\n1:45 World Models as Simulators of Reality\n3:20 Are New Architectures Replacing Transformers?\n4:17 “Alpa Dreams” — Real-Time Interactive AI Worlds\n6:22 The Evolution of Simulation in Self-Driving\n7:44 From 3D Reconstruction to True World Modeling\n10:26 Multimodal AI: Audio, Radar, and Physical Interaction\n13:29 AGI, Robotics & the Future of Physical AI\n \n*Did you like the episode? You know the drill:* \n📌 Subscribe here and here (https://www.turingpost.com/subscribe) for more conversations with the builders shaping real-world AI. \n💬 Leave a comment\n👍 Like it \n🫶 Thank you for watching and sharing!\n\n*Guest:* \nSanja Fidler – NVIDIA Research https://research.nvidia.com/person/sanja-fidler \nUniversity of Toronto https://www.cs.toronto.edu/~fidler/\nSpatial Intelligence Lab https://research.nvidia.com/labs/sil/ \nGoogle Scholar https://scholar.google.com/citations?user=CUlqK5EAAAAJ&hl=en\nX https://x.com/FidlerSanja\nLinkedIn https://ca.linkedin.com/in/sanja-fidler-2846a1a\n\n\n#AI #NVIDIA #SanjaFidler #WorldModels #PhysicalAI #SpatialIntelligence #Robotics #AutonomousDriving #Transformers #GTC",
+  "duration": 1085,
+  "people": [
+    "Ksenia Se",
+    "Sanja Fidler",
+    "Turing Post",
+    "The Big",
+    "Spatial Intelligence",
+    "World Models",
+    "Are New",
+    "Architectures Replacing",
+    "Alpa Dreams",
+    "Time Interactive",
+    "The Evolution",
+    "True World",
+    "Physical Interaction",
+    "Google Scholar"
+  ],
+  "topics": [
+    "World models and spatial intelligence",
+    "Transformers vs. new AI architectures",
+    "Evolution of simulation for autonomous driving and AlphaDreams",
+    "The frontier and challenges of physical AI and robotics",
+    "Multimodal AI integration including 3D, audio, and touch"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/kcFsuxaJ1es/maxresdefault.jpg",
+  "date": "20260403",
+  "youtube_url": "https://www.youtube.com/watch?v=kcFsuxaJ1es",
+  "youtube_metadata": {
+    "title": "Transformers Are Not the End Game | World Models, Physical AI, and AI’s Next Frontier",
+    "description": "At NVIDIA GTC, we sat down with Sanja Fidler, VP of AI Research at NVIDIA and one of the leading voices in spatial intelligence and physical AI. We dive into world models, robotics, autonomous driving, and the hard problems AI still hasn’t solved.\n\nIf you want to understand where AI goes next and what occupies the minds of the best researchers, you need to watch this video.\n\n*In this episode:*\nWhy transformers and world models are not competing ideas\nWhy physical AI is still a major frontier\nThe evolution of simulation\nWhy 3D matters for robotics and real-world intelligence\nWhat’s still missing in multimodal AI\nWhether autonomous driving could have a “ChatGPT moment” before robotics does\n\nIf you enjoy conversations at the edge of AI research, *subscribe to Turing Post* for more interviews with the people building the future https://www.turingpost.com/ \n\n*Chapters:*\n0:00 Physical AI vs Transformers — The Big Question\n0:19 Introduction: NVIDIA & Spatial Intelligence Lab\n0:38 Transformers vs World Models — Not a Competition\n1:45 World Models as Simulators of Reality\n3:20 Are New Architectures Replacing Transformers?\n4:17 “Alpa Dreams” — Real-Time Interactive AI Worlds\n6:22 The Evolution of Simulation in Self-Driving\n7:44 From 3D Reconstruction to True World Modeling\n10:26 Multimodal AI: Audio, Radar, and Physical Interaction\n13:29 AGI, Robotics & the Future of Physical AI\n \n*Did you like the episode? You know the drill:* \n📌 Subscribe here and here (https://www.turingpost.com/subscribe) for more conversations with the builders shaping real-world AI. \n💬 Leave a comment\n👍 Like it \n🫶 Thank you for watching and sharing!\n\n*Guest:* \nSanja Fidler – NVIDIA Research https://research.nvidia.com/person/sanja-fidler \nUniversity of Toronto https://www.cs.toronto.edu/~fidler/\nSpatial Intelligence Lab https://research.nvidia.com/labs/sil/ \nGoogle Scholar https://scholar.google.com/citations?user=CUlqK5EAAAAJ&hl=en\nX https://x.com/FidlerSanja\nLinkedIn https://ca.linkedin.com/in/sanja-fidler-2846a1a\n\n\n#AI #NVIDIA #SanjaFidler #WorldModels #PhysicalAI #SpatialIntelligence #Robotics #AutonomousDriving #Transformers #GTC",
+    "duration": 1085,
+    "view_count": 3322,
+    "like_count": 192,
+    "channel": "Turing Post",
+    "upload_date": "20260403",
+    "thumbnail": "https://i.ytimg.com/vi/kcFsuxaJ1es/maxresdefault.jpg",
+    "tags": [
+      "AI",
+      "NVIDIA",
+      "SanjaFidler",
+      "WorldModels",
+      "PhysicalAI",
+      "SpatialIntelligence",
+      "Robotics",
+      "AutonomousDriving",
+      "Transformers #GTC"
+    ]
+  }
+}

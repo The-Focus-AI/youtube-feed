@@ -1,0 +1,658 @@
+{
+  "title": "Tokens: The 100-Year Journey to AI's Fundamental Unit",
+  "source_url": "https://www.youtube.com/watch?v=JK6QnFKv080",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "There is a little bit of craziness we're having right now. Everyone talks about tokens. Tokens per second, tokens per dollar, token limits, token budgets, reasoning in tokens or thinking tokens. We price AI in tokens, we measure AI in tokens, we argue about AI in tokens.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:19",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Everybody forgot that we used to use this word for crypto. Remember those times?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:00:24",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Today I want to tell you the full story of the token. Word came from, what it actually is, and why in 2026, token no longer means one thing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:38",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It means at least seven different things, and it's definitely not the end of it. But if you do not know the difference, you're going to misunderstood both the technology and the bill that comes with your precious tokens.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:00:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Hello everyone, my name is Ksenia. Welcome to Attention Span.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:01:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, the word token is not an invention of OpenAI or Google. It is not even an invention of computer science. It comes from linguistics, logic and formal language theory. And it goes back long before anyone was training neural networks.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:01:17",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "In the 1950s and 60s, when computer scientists were figuring out how to make machines understand programming languages, they needed a word for the smallest meaningful chunk that the parser could work with.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:01:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A keyword, a variable name, a symbol. And they borrowed the word token from logic and linguistics, where the idea had already been seen since the late 19th century.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:40",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Charles Sanders Peirce, the philosopher and logician, distinguished between a type and token in semiotics. A type is the abstract category. A token is one specific instance of it.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:01:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And just listen to his language. Most likely he didn't use LLMs to write that.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:01:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A single event which happens once and whose identity is limited to that one happening, or a single object or thing which is in some single place at any one instant of time, such event or thing being significant only as occurring just when and where it does, such as this or that word on a single line of a single page of a single copy of a book, I will venture to call a token.",
+      "tone": "formal"
+    },
+    {
+      "timestamp": "00:02:34",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, when early compiler designers said, we tokenize this source code, they meant we split it into the smallest discrete units the system can process.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:02:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That concept, chopping input into countable pieces before doing anything else, migrated straight into natural language processing, NLP.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:53",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "By the 1990s, NLP researchers were routinely talking about tokenization, but mostly at the word level. You split a sentence into words.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Each word is a token. Simple.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:01",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The revolution happened in 2015 when Rico Sennrich and colleagues took an old data compression trick called Byte Pair Encoding, originally invented by Philip Gage in 1994 for compressing text files, and applied it to machine translation.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:19",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The insight was brilliant. Instead of treating every word as a fixed unit, you start with individual characters and iteratively merge the most frequent pairs.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:32",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Common words become single tokens. Rare words get broken into reusable pieces. You end up with a vocabulary that is small enough to be practical but flexible enough to handle anything, including words the model has never seen before.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "When the Transformer arrived in 2017 with the 'Attention is All You Need' paper, subword tokenization was already the standard preprocessing step. And when OpenAI launched the GPT API and started charging per token, the word completed its journey from an obscure term in formal logic to the pricing unit of a trillion-dollar industry.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That is the origin story. Now let's talk about what tokens actually do inside a model. And then the part that almost nobody covers: how many different kinds of tokens exist today.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If you have read our AI 101 article on tokens, you already know this. But let me give you the fast version of context. A token is not a word.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:42",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It is a chunk of text that the model treats as one unit. Common words like 'the' or 'and' are usually one token. Longer or rarer words get split. Tokenization might become 'token' plus 'ization'. Punctuation, spaces, special characters, all separate tokens.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A useful rule of thumb for English: one token is roughly four characters or about three-quarters of a word.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:18",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But here's the part that people miss. Tokenization is not neutral. Different languages tokenize at very different rates. The same idea expressed in English and in Chinese or Arabic or Turkish can produce wildly different token counts.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:40",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That means the same question costs different amounts depending on the language you ask it in. And of course, tokenization is not just about text anymore.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:51",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Images get tokenized, audio gets tokenized, video gets tokenized. We will get to that later. But first, the part that really matters for anyone building with AI today.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The Token Zoo. The thing is, in 2023, 'token' meant one thing. In 2026, it means at least seven different things. Probably much more, but we will concentrate on those because these are the most practical.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Our article, Not All Tokens are Equal on Turing Post, was just published.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:05",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, species number one: input tokens and output tokens. This is the basic split.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:09",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Input tokens are what you send, and output tokens is what you get back. Output costs more, typically two to six times more.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:16",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Because generating text is sequential. The model produces one token at a time, each depending on the last token. Your input, by contrast, gets processed in parallel.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:17",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And each has different economics, different compute costs, and different implications for how you build systems. Let me walk you through the zoo and introduce the tokens we have here.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And that price difference is not arbitrary, it's physics. Generating is harder than reading. Species number two: reasoning tokens, also known as thinking tokens.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The introduction will be brief. For better understanding, I highly recommend checking out...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:40",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is the newest and most disruptive species. When you use a model with extended thinking, the model does not jump to the answer, it thinks first.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:51",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That thinking produces tokens, sometimes thousands of them, and you might never see them, but you always pay for them. A simple math problem might produce a 200-token answer.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It might even produce a one-token answer, like 42, but internally the model might generate 1,000, 2,000, 3,000 reasoning tokens to get there. And your bill will be the sum of the reasoning tokens and the output.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Reasoning tokens are a new market segment, and for premium thinking, you are paying premium price. Species number three: cache tokens.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Cache tokens are the opposite of reasoning tokens. Instead of adding compute, they reduce it. If you send the same long prompt again and again, the provider can reuse part of the earlier computation instead of recomputing it from scratch.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And that makes repeated input much cheaper. Cache tokens are usually billed at a steep discount, sometimes around like 90% less.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:56",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And if you make thousands of calls a day with the same long prefix, caching can cut input costs dramatically.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:02",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Species number four: tools use and system tokens are the species most people underestimate, and it is the one that is quietly bankrupting agentic deployments.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "When you give a model access to tools: function calling, web search, code execution, you also send it JSON schemas describing those tools.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:23",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Ten tools with good descriptions can easily add 3,000 to 4,000 tokens on every single call, whether you use the tools or not.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:33",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And then there's the agentic loop problem. An agent that reasons, it calls a tool, reads the result, calls another tool, reasons again, and finally answers.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And it might run 6 to 15 internal loops like this. Each loop processes the entire conversation so far. Token consumption does not grow linearly.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:53",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It grows something closer to quadratically. And a 50-token user question can produce over 100,000 consumed tokens in an agentic workflow.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It is not a billing error. That is the architecture. And if you are deploying agents at scale and you have not modeled this, you should start thinking about that because otherwise the invoice that you will get, it will teach you a lot.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:09:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Now to modality tokens. Vision tokens, species number five.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:18",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "When you send an image to a model, it does not see the image the way you do. It chops the image into a grid of patches, small rectangular regions, and each patch becomes a token.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A high-resolution screenshot can produce one to three thousand tokens. A detailed infographic even more.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:36",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That means uploading one image can cost more than sending an entire page of text.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is why most providers offer a low detail mode, lower resolution, coarser grid, fewer patches, fewer tokens, lower cost.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Species number six, audio and video tokens.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:55",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Audio gets sliced into time-frequency frames. Roughly one token per 20 to 40 milliseconds of speech. A 40-second clip, around 1,000 tokens. A one-hour meeting, up to 180,000 tokens.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Video is the most hungry. Even with temporal compression, sampling keyframes, tracking differences between frames, 10 seconds of video can produce tens of thousands of tokens.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:23",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is why video understanding is still emerging. The token budget alone makes it impractical for many applications at current prices.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Finally, species number seven, structural tokens.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:35",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "These are the invisible scaffolding. Beginning of sequence markers, end of sequence markers, role tokens that separate system, user and assistant messages, role tokens that separate system, user and assistant messages, paging tokens for batch processing, tool mode triggers.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:56",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "You never see them, but they always consume context window space.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A 128,000 context window does not mean 128,000 tokens for your content.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:11:06",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Part of that budget is eaten by structural tokens before you even start.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "These are, of course, not all token types. There is more, but these are the most practical to know.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:16",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And again, check the article Not All Tokens Are Equal on Turing Post. We talk about different types of tokens there more in detail.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:24",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So now let's talk about why all this matters and why the token is no longer a commodity.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Today the token market looks more like the energy market. There are peak tokens and off-peak tokens, premium tokens and economy tokens, cached tokens that are cheap and reasoning tokens that cost 10 times the base rate.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Jensen Huang has been talking about this explicitly. He frames the AI business as transforming electrons into tokens, and he sees a future where the same models",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Serves tokens at different price points depending on response speed.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:05",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Fast, expensive tokens for a software engineer who needs code completions in milliseconds.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Slow, cheap tokens for a batch processing job that can wait.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:16",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That is a segmented commodity market. That's almost like oil looks like.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It's not what software looks like or it's not how we used to software being sold.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So if you're building AI products, this changes your architecture decisions.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:12:32",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "For example, on my modest experience when running Open Clause, I use GPT 4.5 for serious tasks that require reasoning and building and coding, and I use Minimax for all regular tasks.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:12:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It is a significant economy, even on my small token consumption.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:12:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So to finalize, the best teams in AI right now, they're not just picking the best model. There's a lot of good models. What they do is that they're managing the token portfolio.",
+      "tone": "conclusive"
+    },
+    {
+      "timestamp": "00:12:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And that means routing simple tasks to small models, sending hard problems to reasoning models, caching aggressively, compressing tools canvas, measuring what each token actually buys you.",
+      "tone": "conclusive"
+    },
+    {
+      "timestamp": "00:13:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That's your new reality, even if you're not prepared for it yet.",
+      "tone": "conclusive"
+    },
+    {
+      "timestamp": "00:13:15",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And by the way, I think that the story is not over. As AI moves into robotics, embodied systems, and continuous interaction with the physical world, the token concept is going to stretch even further.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:13:26",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Action tokens, planning tokens, world model tokens. We are not at the end of this evolution.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:13:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It's going to be much more tokens than we know right now. We are somewhere in the middle, and get ready for more tokens and different price tiers for that.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:13:40",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you for watching. Let me know what was the most surprising for you in this episode. I really love your comments.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:13:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And if you have not read our AI 101 deep dive on how tokenization actually works, there is a link in the description. It pairs perfectly with this episode.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:13:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you for watching, and I'll see you soon.",
+      "tone": "friendly"
+    }
+  ],
+  "highlights": [
+    "Tokens originated in 19th-century logic as discrete instances of abstract categories before becoming the foundational unit for modern AI processing, where they now represent chunks of text, image patches, or audio frames.",
+    "The \"Token Zoo\" has evolved into a complex commodity market with distinct categories including high-cost reasoning tokens, heavily discounted cache tokens, and invisible structural scaffolding that consumes context space.",
+    "In agentic workflows, token consumption can grow quadratically rather than linearly because every internal reasoning loop re-processes the entire conversation history and tool descriptions, leading to unexpectedly high costs.",
+    "Success in AI development now requires \"token portfolio management,\" which involves strategically routing tasks between different model tiers and utilizing caching to manage the varying economics of AI compute."
+  ],
+  "summary": "In this transcript, Ksenia Se explores the evolution of the \"token\" from an obscure term in 19th-century logic and early computer science to the fundamental pricing and performance unit of the modern AI industry. Originally used in linguistics to distinguish a specific instance from a general category, tokenization was refined in 2015 through Byte Pair Encoding, which allowed AI models to process subword units rather than just full words. This technical shift provided the flexibility necessary for the Transformer architecture to handle diverse languages and complex data sets, eventually turning the token into the \"trillion-dollar industry\" pricing metric used by companies like OpenAI and Google.\n\nThe core of the discussion identifies a \"Token Zoo,\" where Se classifies seven distinct types of tokens that vary in cost and function: input/output, reasoning, cache, tool/system, vision, audio/video, and structural tokens. She emphasizes that the modern AI landscape is shifting from a simple software model to a segmented commodity market, similar to the energy or oil industries. In this new reality, reasoning tokens for \"thinking\" models cost more than standard output, while cached tokens offer significant discounts for reused data.\n\nUltimately, Se argues that building successful AI products now requires \"token portfolio management\" rather than just selecting a high-performing model. Developers must strategically manage hidden costs—such as the quadratic growth of tokens in agentic loops or the high density of tokens in vision and video—to maintain economic viability. Looking ahead, she predicts the concept will expand even further into robotics and physical world interactions through action and planning tokens, suggesting that our understanding of tokens is still in its early stages.",
+  "description": "*What is a token?* Why a price for it can differ very very significantly? How many of them is it out there? And where token is coming from (not from crypto!)\n\nIn this episode, we trace the full arc of the token – from Charles Sanders Peirce's philosophy in the 1900s, through compiler design, through the BPE revolution in 2015, all the way to today, where there are at least seven different species of tokens, each with different costs, different compute profiles, and different implications for how AI systems are built and priced.\nIt is actually moe, but we cover seven the most practical to know. \n\n*Important Links:* \n- What Is a Token (and why it runs AI)? – https://www.turingpost.com/p/token\n- How Token Taxonomy Affects Your Bill https://www.turingpost.com/p/tokentaxonomy\n- Charles Sanders Peirce, Prolegomena to an apology for pragmaticism https://www.jstor.org/stable/pdf/27899680.pdf\n- Neural Machine Translation of Rare Words with Subword Units (Sennrich et al., 2015) – https://arxiv.org/abs/1508.07909 \n- A New Algorithm for Data Compression (Gage, 1994) \n- Attention Is All You Need (Vaswani et al., 2017) – https://arxiv.org/abs/1706.03762\n- Jensen Huang, Dwarkesh Podcast, April 2026 (electrons-to-tokens framing) https://www.youtube.com/watch?v=Hrbq66XqtCo\n\nAttention Span is here to show you AI isn't magic. It's engineering, economics, and history – all compressed into one unit.\n\n👉 Subscribe for more high-signal AI mechanics \n👉 More analysis: TuringPost.com\n👉 Interviews: / @realturingpost\n\n#AttentionSpan #Tokens #AI #Tokenization #BPE #LLM #AIEconomics #GPT #Claude #ArtificialIntelligence #MachineLearning #AIInfrastructure #DeepLearning #AI101 #TuringPost",
+  "duration": 854,
+  "people": [
+    "Ksenia Se",
+    "Charles Sanders",
+    "Important Links",
+    "What Is",
+    "How Token",
+    "Taxonomy Affects",
+    "Your Bill",
+    "Neural Machine",
+    "Rare Words",
+    "Subword Units",
+    "New Algorithm",
+    "Data Compression",
+    "Attention Is",
+    "All You",
+    "Jensen Huang",
+    "Dwarkesh Podcast",
+    "Attention Span"
+  ],
+  "topics": [
+    "The history and linguistic origins of the 'token' from logic to computer science",
+    "The technical evolution of tokenization, including Byte Pair Encoding (BPE) and subword units",
+    "The 'Token Zoo': A taxonomy of token types including reasoning, cache, tool-use, and modality tokens",
+    "The economics of AI tokens, market segmentation, and pricing strategies",
+    "The impact of tokenization on agentic workflows and multi-modal systems (vision, audio, and video)"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/JK6QnFKv080/maxresdefault.jpg",
+  "date": "20260424",
+  "youtube_url": "https://www.youtube.com/watch?v=JK6QnFKv080",
+  "youtube_metadata": {
+    "title": "Tokens: The 100-Year Journey to AI's Fundamental Unit",
+    "description": "*What is a token?* Why a price for it can differ very very significantly? How many of them is it out there? And where token is coming from (not from crypto!)\n\nIn this episode, we trace the full arc of the token – from Charles Sanders Peirce's philosophy in the 1900s, through compiler design, through the BPE revolution in 2015, all the way to today, where there are at least seven different species of tokens, each with different costs, different compute profiles, and different implications for how AI systems are built and priced.\nIt is actually moe, but we cover seven the most practical to know. \n\n*Important Links:* \n- What Is a Token (and why it runs AI)? – https://www.turingpost.com/p/token\n- How Token Taxonomy Affects Your Bill https://www.turingpost.com/p/tokentaxonomy\n- Charles Sanders Peirce, Prolegomena to an apology for pragmaticism https://www.jstor.org/stable/pdf/27899680.pdf\n- Neural Machine Translation of Rare Words with Subword Units (Sennrich et al., 2015) – https://arxiv.org/abs/1508.07909 \n- A New Algorithm for Data Compression (Gage, 1994) \n- Attention Is All You Need (Vaswani et al., 2017) – https://arxiv.org/abs/1706.03762\n- Jensen Huang, Dwarkesh Podcast, April 2026 (electrons-to-tokens framing) https://www.youtube.com/watch?v=Hrbq66XqtCo\n\nAttention Span is here to show you AI isn't magic. It's engineering, economics, and history – all compressed into one unit.\n\n👉 Subscribe for more high-signal AI mechanics \n👉 More analysis: TuringPost.com\n👉 Interviews: / @realturingpost\n\n#AttentionSpan #Tokens #AI #Tokenization #BPE #LLM #AIEconomics #GPT #Claude #ArtificialIntelligence #MachineLearning #AIInfrastructure #DeepLearning #AI101 #TuringPost",
+    "duration": 854,
+    "view_count": 472,
+    "like_count": 37,
+    "channel": "Turing Post",
+    "upload_date": "20260424",
+    "thumbnail": "https://i.ytimg.com/vi/JK6QnFKv080/maxresdefault.jpg",
+    "tags": [
+      "AttentionSpan",
+      "Tokens",
+      "Tokenization",
+      "BPE",
+      "LLM",
+      "AIEconomics",
+      "GPT",
+      "Claude",
+      "ArtificialIntelligence",
+      "MachineLearning",
+      "AIInfrastructure",
+      "DeepLearning",
+      "AI101",
+      "TuringPost"
+    ]
+  }
+}

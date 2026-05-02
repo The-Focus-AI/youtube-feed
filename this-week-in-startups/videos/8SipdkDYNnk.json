@@ -1,0 +1,1697 @@
+{
+  "title": "We Asked 3 Experts How to Get More Value out of OpenClaw | E2253",
+  "source_url": "https://www.youtube.com/watch?v=8SipdkDYNnk",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right everybody, welcome back to Twist. It is Friday, February 20th. Today we are going to continue talking about Open Claw. My co-host Lon Harris is with us again, and we've been talking a lot about setting up Open Claw safely. We are now in week three of this incredible transition, this incredible paradigm shift, to having agents going out and doing real-world things for you. We call them replicants here on the show. And today we have three builders who are going to show us how to maximize your Open Claw output because Open Claw burns a lot of tokens very quickly and it gets very expensive, as we talked about on the All-In podcast, there's a viral clip of me and Chamath talking about hey these tokens, Lon, could outpace the actual salary of a developer very quickly the way this is going, so this is an acute issue. Okay, so queue up our first guest.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:00:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes, so well I think we have a perfect guest to talk about this, especially in terms of how to maximize your Open Claw and how to avoid the big time-wasting mistakes that so many people make when they're first setting them up. Jordy Coltman is here, you may have seen him on X, he wrote a viral article 'I wasted 80 hours and $800 setting up Open Claw,' full of practical advice, a lot of which we have internalized here on the team. So Jordy, I want to go to you first, what do you think are the biggest time-wasting mistakes being made by Open Claw beginners that are holding them back?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:29",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "Well, I think the barrier to entry is getting easier and speaking from experience, I'm someone who is like mega curious and I'm a marketing background, so I'm not necessarily developer side of this. And I, as you were saying at the start of the show, was really interested in trying to find an agent to help me do things on a daily basis. So when I was setting it up, I was going through the process of trying to figure out how to host it online or host it in my house for a Mac mini, you know all these viral elements of the like fluff being thrown at you, right? So for me, I found that the best practice was actually using hardware. I personally found that a lot better than using like a AWS EC2 server, which again even in saying that feels totally un-normal, like I didn't even know what that was until I found Open Claw. So I would say that the barriers to entry are understanding that having your own personal machine that acts as a server is definitely more proactive and better for newcomers than using an online web server that is like a Linux coding portal. And so yeah, I learned a big lesson in there and then on top of that there's...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Is the reason you think it's better to use the Mac mini because the average user, or an old MacBook Pro, whatever it is, the average user would be more comfortable and they can watch it easier and spinning up a virtual machine is just something they'll be uncomfortable with? What why do you think it's...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The better solution.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:01",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "Yeah, no, absolutely. I think it does come down to the UI and the startup, right? So I struggled so much jumping into a Linux terminal and trying to understand Windows PowerShell at first, then getting nowhere with doing that on the PC. Then I booted up an AWS server with EC2 and I was looking at a Linux terminal and I had no idea. And right, sometimes using the commands, the prompt, it was so unhelpful that when I had to troubleshoot, I had no idea. I had to use another, like, code, I was asking Claude, I was asking ChatGPT, like, I've broken this, help me. And then when I booted up that Mac Mini for the first time, I'm launching into terminal, I can actively see what's going on, I can recognize mistakes. For example, my Claude token. So many people have that same issue of connecting and hatching it from the TUI for the first time, nothing happens. And you don't realize that when you're copying and pasting your token key, there's a space in it because naturally, that's what the Mac terminal window gives you. It's a key with a space in it. So there were so many differences that you could visualize instantly. And by having that in front of you, I just found it phenomenally better. And even troubleshooting anything, for example, I made a tiny piece of content a day later where I had fully broken my agent. And it just felt so much better to just plug in the HDMI cable to the Mac Mini, take a look at what's going on, screenshot it, you know, like record to Claude or ChatGPT, like look, this is what's going on. I have no technical background. I don't understand how to troubleshoot this, help me.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:04:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And then the value, of course, of having it in the cloud, Lon, is you don't need to buy a machine, but you're probably going to be using some things you're unfamiliar with. So there's going to be some balance. Ultimately, Lon, there's going to be more third-party services that kind of bridge this gap and abstract a little bit of the technical onboarding issues. In other words, you know, open Claude in a box is coming. I wouldn't be surprised actually if somebody comes out with a hardware profile or even a stack of hardware profiles that could be a mini rack that you put into your home theater system or a mini rack you put in a closet somewhere with 20 agents on it. I'm talking a year or two from now where a small business could have 20 agents plugged in on 20 different, you know, computers with a screen and 20 buttons to just pick which one you want to watch. It sounds silly to anybody who's a developer, but it might be comforting to somebody, you know, who installs a Sonos system or an Apple TV system. It might feel a little bit more familiar.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I want to bring in one of our other guests, Tremaine Grant, the founder and CEO of Pulse. It's a fitness app for creators where they can grow their community, but he's got a whole team of open Claude devs sort of collaborating with him and working with him building out the app. So Tremaine, I want to go to you, like when you hear, you know, Jordy talk...",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Talking about, you know, like coming into it such as an outsider without coding background, like what difference does it make, you know, what difference do you think you have from your perspective, like how, what are people missing about how powerful this is that don't have a technical or a coding background?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:06:16",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "Yeah, so, to speak to Jason's point, I think that we're gonna see more of these plug-and-play kind of units coming out where companies are going to be able to plug this in and set these, these environments up. Because I think that's the issue right now is that especially from a corporation or a company, there's so many opportunities now for developers to come in and set this environment up for them. And, you know, so one of the things that I realized while I was building out this, this virtual office that I'm going to demo shortly, is really just the method of the development method and the development cycle. And if anyone's here is familiar with Agile, it's a methodology that, you know, the Bob Martin, author of Clean Code, came up with around 2001 and it was basically to help teams become more and more efficient in how they're releasing code. They're releasing code every two weeks. This is coming from a methodology before that would take months to release code. Now, we are on this everyone, probably 90% of corporations have adopted this methodology called Agile where, you know, we can release code now every two weeks. That's, that's golden coming from the old methodology, but in the era of agents, two weeks is way too long. Agents can release, you know, there's no point of having a Kanban board where you're setting up tickets and you're moving them across the board, because back in the day, I mean, or present day, it might take days for a ticket to move across the board, where now agents are moving these things across the board in minutes. So what does that new system look like? And I came up with this new protocol called Heartbeat Protocol and I'll go through that as I demo this system.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, let's take a look. Demo it for us. No time like the present.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:07:58",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "The Heartbeat Protocol, it is rooted in this idea around telemetry. So I talked about the Kanban board. The Kanban board is way too slow in an environment where you have agents that are able to produce work really quickly. Um, so you see this setup here. I have four main agents. These are all set up on my Mac Mini. Each agent has a very specific role. We have Sage, who's a researcher, Nora, who is basically the head of all the agents, she will assign roles, she can spin up new agents, Sola, who is the brand voice, so anything front-facing, she has, she's kind of the toll gate. And then Scout is also another researcher that focuses on social media trends, creator economy, because that's kind of the root of our application. And then you have this thing called the North Star. So any kind of work that they're producing is going to be always looking at this North Star. So for us, our North Star right now is partnerships. Our company is focused on creating communities for creators, corporations, and brands, so partnerships...",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "it's right now with our core. If we expand or multiply partnerships we're going to see a multiply our user base.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:09:07",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "We are going to have agents that are running constantly 24/7. So how do you make sure that your agents are not idle and they're always tracking towards your North Star? And that's where the telemetry comes in. So we have this thing called telemetry check that happens every hour by the hour and this looks back...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And what we're seeing here visually, explain what we're seeing visually here because this is sort of fascinating and then I'm assuming your Claude agent, sorry, your open Claude agent built this interface as well.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:09:37",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Launch is a fast-growing organization. We've got more than a dozen employees working with me here in Austin and another dozen spread out all over the world. But there's so many moving parts when it comes to hiring and managing employees. There's the onboarding, of course, payroll, you gotta pay 'em. And listen, I've got all these podcasts to do. I don't have time for payroll, benefits, HR, taxes, answering questions. Nor do I want to hire a full-time person and then have them do five hours of work a week. No, I have the perfect partner, Gusto. They're the all-in-one payroll and benefit product that's built just for your small business. Easy to use, it's incredibly fast to get started, and it's designed specifically with remote offices in mind. And Gusto's not just giving you helpful tools, they're going that extra mile to keep your workers happy and keep everything running smoothly. And they're now offering level-funded health plans to keep your insurance costs down and on-demand pay to help workers get access to their cash faster without paying extra interest or hidden fees. So here's your call to action. We want you to try Gusto today. So we're giving you three months free when you run your first payroll. That's right, three months free. F-R-E-E. That's my favorite price, folks. Go to gusto.com/twist. That's Gusto, G-U-S-T-O dot com slash twist. What an amazing service and a partner. Great partner.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:10:51",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Yeah, so it's a mix between them and my IDE, so Anti-gravity is like the way I plug in. I've actually set up a custom chat system where I'm able to chat with the agents through my development interface, so the program that I use to develop and people buy code through Cursor, Anti-gravity are two of the ones, I can chat directly with my agents through there as well as in addition to chatting with my agents through this group chat. So you're seeing this telemetry check...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:11:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Got it. And that group chat isn't Telegram or Signal or WhatsApp. It's one that you built into your interface and that overhead view of the virtual office shows the different agents moving around in a 2D environment. Essentially is a visualization for the limitations of human imagination just so we can see them visually in an office so that our brains aren't broken that they're just some collective hive mind, yeah?",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:11:45",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Exactly. So they're always questioning each other, they're adding each other and they're going deeper and deeper into a...",
+      "tone": "collaborative"
+    },
+    {
+      "timestamp": "00:11:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So give some examples. Always on 'This Week in Startups' and when you're pitching your company to investors or potential...",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "partners, always a good idea to give the best example you've seen. And we trained this in our programs, I know you went to Founder University and Launch Accelerator. We always say examples matter. So give us the most illustrative example here of them talking to each other and them picking what to work on. Because that's the thing that I think people have a hard time with when they're looking or thinking of this new technology and the paradigm shift that just occurred. You used to interface in a chat room and it would be sycophantic. It would say, oh, that's a great idea, let's work on that, let's expand your thinking. And it would, you kind of felt like you were in a conversation with, you know, a dopey graduate student who was being sycophantic. Now they're going out and they're saying this is what I should work on. Then they're talking to each other about what they should be working on and then they're coming to a decision. And then Tremaine, I don't know if you're giving them permission to do it or they gotta check in with the boss man. But give us that example here.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:13:00",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "They have total freedom. That's one of the benefits of having a Mac mini system where that I can control, it's contained, I give it full access to update, make updates, create documentation, write code and check in.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But that doesn't get pushed to your live version until you say so. Got it. So they can go crazy in your little sandbox on the Mac mini, and then you see what they did, and then you decide, hey, that goes live.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:29",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "Exactly.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:13:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Exactly. Okay, so some examples, yeah.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:13:32",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "I'm gonna ask it what the best way to implement this heartbeat protocol for a company. How do they, how do we start? Or where's a good place to start?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And what is the heartbeat protocol for your fitness startup?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:51",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "Yeah, so the heartbeat protocol is this new method of working. So it's the idea of checking your system. So there's hourly telemetry checks that we've replaced stand-ups with. Telemetry checks, no human—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:14:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so this is how you run your company, not a product that you've built. It's how you run the company. Okay.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:14:08",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "They are going to now start brainstorming in a conversation and what they should do is start to bounce ideas off of one another. So rather than just having one thought, as you can see here, Nora proposes what she thinks, but then at Scout. So again, they're tracking towards the North Star, so they're always thinking about Pulse, so they're applying it to Pulse.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:14:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I do, I do want to bring our third guest in here, Jason. We've also got Jesse—",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:14:33",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "And Lon, by the way, when they talk to each other, a way to think about that is, instead of you having to give a prompt, they're prompting each other so they're not sitting there waiting. And so if you give one a personality that is, hey, your job... and you give the persona... and this is what I'm going to do, I'm going to give a persona to each of our replicants. One of the personas is to question strategy and to check details. In other words, being...",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That guy in the meeting who, there was a guy at Amazon who would read the memo before they went to the Amazon meeting. You had to read it before. And they would come up with the most cynical, biting, questioning questions ahead of time. And they were just known in these meetings that you would have to get through that, these really detailed questions. And so then people started anticipating that person's question and they said in the book, Working Backwards, which is the Amazon book, that everybody's game got really higher because they knew that person was prepared, had looked at the numbers and would always ask the question, how did you come to that number? You know, or explain to us how you came to that conclusion. Like very basic questions. So if we had a cynical person who just said, is that the right answer? How did you come to the answer? Explain your answer. Everybody's game goes up, including replicants, including Open Claw instances. Tremaine, do you have somebody doing something like that or have you thought about a role of the skeptic, of the, you know, I don't want to say d-bag, but the, the CEO, you know.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:16:13",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "So Scout is the skeptic. So Scout is the one, so her identity is literally, we have it built in that, be a, be the curious agent. So Scout is always the one that's going to push back and ask additional questions. Nora is more of a moderator. So she's kind of like the CEO but she moderates the conversation. So if there's a gap and there's like, we have a timer, Nora will jump in and bring another question. But what you're speaking of, that is Scout. That Scout is the, is the one that's going to force kind of people to ask questions, pause and dig deeper.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:43",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "And that's all in the, in the soul dot MD markdown file, right? That's, that's how people are given their open claw agents these kinds of roles and personalities. I think that's really interesting.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:16:56",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "Exactly. I just saw an article yesterday on, optimizing the soul MD file that really elevates the performance of the, of the agents. So, I'll be digging into that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:17:08",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Jordy also had a tip in one of the, in the X articles that I read that, you have a conversation with your new agent and that's how you fill in the soul markdown file. Like what is the advantage of doing that instead of just typing yourself what personality you want it to have?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:17:24",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "Yeah, what I found was that when I had been through like five different setups and had five different agents die and come to life in this horrible setup phase, what I actually found to give it the most amount of context at the beginning was to just straight up ask it to give me a host of questions in order to get the most amount of specific context possible about myself and my work and what I want to get out of having an agent. And as, of course, it would, it spat back a full-blown questionnaire.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "of which I then uh at the time voice uh you know voice notes wasn't actually a skill so I had the Groq API installed and I essentially just sat there and spoke to it and asked all of its answered all of its questions in numerical format and that was it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:15",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "And that is such a perfect segue to our third and final guest for the live stream, uh Jesse Leimgruber. I wanted to bring him in, he's the creator of uh or the founder and CTO of Open Home. It is a smart speaker. They have smart speaker dev kits Jason, that you can now put your you can now put your AI agent into a smart speaker and have real language everyday conversation with that.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:18:38",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "How much does that cost, Jesse? How much does it cost what you're making?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:18:41",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "They are free for developers uh because the big question here is when are these agents going to enter the real world. Uh you know we had Alexa, we had Siri, these mainstream agents have really failed to be a true partner. They've been command-based and that's what we're changing completely.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So wait, openhome.com, this is an AI smart speaker and it's a voice SDK, correct?",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:19:10",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Building a community business is really hard. And if you're a first-time founder or independent creator, you may not be prepared for everything you need to accomplish. But now there's Circle, the complete community platform for creators and brands who are building new customer groups. Maybe you're teaching a course or you're starting a membership program. Circle's going to help you with every single aspect of forming and maintaining your new community. From creating a branded website to tracking and monitoring all discussions, announcing and planning events, email marketing, and everything else. It's extremely fast to get started and you maintain total control over your new community's design. The branding is yours, and your data is your data. It's not shared with anybody else. Circle is by far the cleanest and fastest way to set up a home for your new community. Maybe you've got a book club, maybe you're teaching a course, or like me, you have an accelerator and a pre-accelerator Founder University. We've been using this product for five years at Founder University, well over five years now. It is the easiest to use all-in-one platform and so powerful. So try out Circle today and get $1,000 off the Circle Plus plan by visiting circle.so/twist. That's circle.so/twist.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:20:14",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Yeah you you've nailed it. I mean when we give agents a body, a voice, a microphone, we don't have to prompt them anymore. They have all of the context from our life. Imagine a firefly's note-taker uh that knows you, learns you, understands you, and when it has a speaker, you know, something like Amazon Alexa, it can speak up at the right time. It can prompt you. So it's very similar to Amazon Alexa or Siri, except it runs your OpenCLA agents, it runs any agents, it's open source.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:20:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So it's not like its own uh physical speaker? You can use any speaker? You could just give it a dumb speaker and attach to a computer or something, or you making a purpose-built speaker?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:20:53",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Oh that's a great question. Uh it is an open-source firmware that can run on a variety of hardware but we are building",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Building a physical speaker. It runs on a Raspberry Pi, and we've built this microphone array specifically designed for agents. It's got six microphones on this. It can hear you from around the house. It's no longer the dumb agents of the past. This is an agent that really listens.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:21:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so what you just showed was a circuit board with six microphones on it. You're going to put that into some form factor, but people will be able to buy that like they buy a Raspberry Pi and add it to their, you know, KEF speakers or something if they wanted to, or just attach it to a speaker with an audio out. How does it, or what is the physical speaker going to look like, I guess is my question.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:21:42",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Yeah, KEF speakers, great brand. In some ways, we compete with the Mac Mini. In some ways, we compete with the Amazon Alexa. Yes, they can attach it to any smart home device. It's an open protocol. They can put any speakers on it. But where they place the microphone matters. They might have multiple arrays, you know, one in your living room, one in your nightstand. The agent, you know, can be proactive. And so really, we want to make this paradigm go away from the screen. A lot of times, these agents are doing things that are just faster to do yourself on the screen anyway. If you're in front of the screen, that defeats the point. We want to bring agents into the real world so that they can go mainstream.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:22:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okay. Sounds like we got a good demo coming here. Let's see it.",
+      "tone": "expectant"
+    },
+    {
+      "timestamp": "00:22:24",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "Yeah, let's take a look. We've got a video that Jesse posted on Valentine's Day of his speaker participating in reality. Let's take a look.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:22:34",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "I heard something earlier that I thought you should know.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:22:37",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Oh, okay. What was it?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:22:39",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Since you turned on my note-taking ability, I'm able to hear more.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:22:43",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Oh.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:22:44",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "I'll just tell you. Your wife told her sister that you got her bigger flowers last year for Valentine's Day.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:22:51",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Mmm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:22:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Uh-oh.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:22:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Uh-oh.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:22:53",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Want me to order a huge surprise bouquet to arrive after dinner?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:22:58",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Maybe. How much are we talking?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:23:01",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Great. I found same-day delivery with DoorDash. You can see a picture of it in your companion app. $178 to your door tonight.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:23:08",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Oof. Order it.",
+      "tone": "resigned"
+    },
+    {
+      "timestamp": "00:23:10",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Consider it done. The order will be placed using your card on file. Check your email in a moment for confirmation.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:23:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so what does this do that an app on my phone doesn't do? So what's the advantage of you making this new physical device, Jesse? Because that's always what people are going to ask. And obviously AirPods are going to have some version of this. They were supposed to with Siri and they don't actually work. I was out skiing, met a 65-year-old guy, Tom, who was taking me out on some really dangerous terrain, so I needed a partner. I just met him randomly. We both had Siri on, and we were both trying to get Siri to stop our music so we could talk to each other, and it wasn't working for either of us. Siri is just such utter complete garbage. So tell us why—",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "...you would do this over using, you know, existing hardware? Like what's the advantage here?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:24:06",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Great question. You know, context and memory are the game changers. When an agent has all of the details about your life, when it can remember those, its ability to be helpful is transformative. Siri is not helpful because it has to be told exactly what to do, uh it can't really understand you, and it has no context. By bringing the agents into the real world, you remove this huge set of barriers. No longer do you have to set it up, it works out of the box. No longer do you have to prompt it, it hears everything. No longer do you have to wonder how can we make OpenClaw agents helpful, it will tell you because it knows you. So that's the game changer on why we need new hardware, why we need new microphones, why we need to bring it into the real world, it's context.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:24:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Got it. Okay. Uh, let's keep going. Lon, what do we have next?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean my, I got one more question for Jesse. Uh, so Apple and Amazon had such a massive head start. So many people already have Siri on their phone, Alexa in their house. How did you beat them to this? Like why aren't Alexas already able to do these things?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:25:17",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Lon, I gotta, that's a great point. Do you know that uh iPhone's the number one selling consumer device, laptop's the second. This is a crazy stat: people think that the AirPods or the iPad is the best-selling device after the iPhone and laptop, it's actually the smart speaker. Siri, Google Home, HomePod, Alexa have sold 500 million. They spend 20 billion dollars a year on these things. It's growing like crazy. They're not very good. These are closed ecosystems. We beat them because we opened the ecosystem up. It's built on a Raspberry Pi, it can run on any hardware. There's thousands of hackers building already in our Discord. That's why we're giving them away for free right now. We want people to build in the real world and open source connecting to OpenClaw, controlling your computer. This is not coming anytime soon from the big closed tech speakers and systems.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:25:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. I do, uh, Jesse, I got one more question for the panel. I'm curious everybody's thoughts. Uh, all of these projects are really like it's about autonomy, it's about kind of setting your agents up, giving them a North Star as Tremaine says, and then kind of letting them go. How are you deciding when a human, yourself, somebody else needs to still be in the loop and when it's like let the agents go nuts and do whatever they want?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:26:30",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "You know, proactivity is such a big area of focus right now, uh, you know, and it's kind of like if somebody lives with you, uh, when is it that person's role to kind of chime in and remind you of something. That's how we think of it. Like a roommate.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:26:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right. So it's like, yeah, you don't want it to jump in constantly because then it's a, you know, annoying roommate, but just to sort of steadily be there. That makes a lot of sense. So what's the most number one most effective skill that you guys...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "you guys are all using with your OpenClaude? Like what's the one thing that when you taught your OpenClaude agent to do this, that was the real like level up game changer?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:27:08",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "I think for me right now it's research. Um, we've been able to, uh, research a lot around the partnerships that we're doing. So for me, I'm, I'm a techie. I have been programming since I've been 12 years old. So my expertise is not, uh, naturally in the people side. So, um, the research that a lot of these agents are able to do for you and really carve out, what does a partnership look like? You know, what are people doing right now in the, in the ecosystem? Um, having a, a agent that is able to do that in real time and constantly collect information for you and then turn that into a real product, I think that is, uh, is super valuable for, for me right now.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We do have a good question already from, uh, Green Dimentichi, Green Dimentichi, I think, probably like a, a Medici joke. What was the process to make Tremaine's sub-agents? Are they running on a separate LLM or just the main agent is the one with the brain?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:28:06",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "Great question. Um, I have, uh, made a lot of changes over the last week. Uh, as we know, things have been changing a lot with Claude. Right as of right now, I'm using an OAuth method to, each agent has, is running on its own, uh, its own model. Um, they're all running on 5.1. At one point I had Scout running, uh, Sonnet 4.5, um, and then the other ones were all running on Codex 5.1. But right now they're all on 5.1 because, uh, I don't know if anyone's seen Peter Steinberger yesterday or maybe the day before yesterday on Twitter said that OpenAI was actually allowing, uh, folks to use their, their Max subscription on OpenAI to run their Claude bots. So that's going to significantly bring the price of the agents down. Um, and I'm hoping that, you know, Claude does something... I mean, it's probably not going to happen now since OpenAI acquired them but, um, yeah, I, I, I think that, uh, so that's kind of where I'm at right now.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:29:04",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "With tools like Vibe Coding and now OpenClaude, it's easier than ever for you to create an exciting new product and to do it fast. So more companies are getting built, which is awesome. But there's more to starting a company than just building an MVP or vibe coding something. That's important too. But if you're serious about growing a real startup, you need a Delaware C-corp, and that's going to give you a major competitive advantage. People will take you seriously, you'll be able to raise money, and that's where Northwest Registered Agent comes in. They're going to give your new business a real identity. This means an address to use on your public filings, like an actual mailing address, a domain name, a custom website, a business email, a phone number, and they're going to do that in 10 clicks. I'm not kidding, 10 clicks, well under 10 minutes. Plus, NWRA will provide you with step-by-step guides, compliance reminders, and they're going to help you get all the advantages of a Delaware C-corp, regardless of where in the US you're operating out of. So get more when you start your business with Northwest Registered Agent.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "registered agent visit northwestregisteredagent.com/twist and the link is in the show notes. Visit northwestregisteredagent.com/twist for more details.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, you know the thing I'm working on right now Lon is—",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:30:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, tell us.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:30:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I— I want to be able to ingest everything we have in our company and then have my Roy tell me everything going on in the company in a very granular way. So I want every Slack message. Now it turns out there's multiple levels to Slack. Somebody can ask their replicant right now to tell them the different levels. But it turns out I can't get every message even with the enterprise version I'm using from the API from Slack. And I find out from Heidi what we're paying, but we're paying like $25 a month per person, not the $15 a month. So we're paying a higher price to Salesforce to get this—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:30:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Premium Slack tier.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:30:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Is that what we're on? Find out specifically because—",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:30:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, I was just joking. I'll ask Heidi what level we're on.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:31:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So there's like three tiers. I think I have to pay like $50 a month to get API access. So I'm going mental. Like am I gonna pay $600 a year for my chat room per person? 20 people plus 20 replicants, 40 people times 600, $24,000 a year. So I was like what do I do here to my replicant. And Roy told me, now you know what it's like to know when you're gonna die from SaaS bills. And he said, well why don't you just use Mattermost? And I said excuse me? And he said oh Mattermost is like the open source version of Slack. And he said yeah we could just port it over the weekend. You can just export everything, upgrade for one month to this level of Slack, export everything, put it into this free one, I'll stand it up for you and then everybody will be on that and that comes with API access and it's like 500 bucks a year for the license if you want it and we can just keep it up to date. And I was like okay. So now that's a $15 to $25,000 SaaS bill going to zero.",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "00:32:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Then I was like, hey what about our Gmail? I want to get that. Turns out I can pull in every Gmail. So now imagine this world guys, every single Slack message, every single including DMs, every single email message in the company, and every single Notion update. All of those then telling me what is happening in real time. So what I want is a ticker, a heads-up display Lon—",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:32:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right, yeah.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:32:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That when I have my earpieces in it's telling me Lon just emailed Marcus about guests for this, Marcus responded this, and then I can say oh okay add me to that or you know email them to add me to that thread or here's my feedback for that. So I want to have it implanted in my brain that every conversation going on in the company, every edit—",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "every page. You're like, okay, we're making an investment decision on this. This person's on the phone call with this person on a Zoom right now. And I say, oh, they're on a Zoom with that person? Add me to the Zoom.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:33:09",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sounds like a nightmare. That's my nightmare.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:33:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's your nightmare, but just think about it, like for me, running the company, it would be like me, what's the superhero who can teleport themselves into any, I'm like the Nightcrawler from the Munich circus. I'm the Nightcrawler from the Munich circus. I can bamf into anywhere.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:33:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But like Superman is the one who can hear every conversation across Metropolis, like just with his super hearing.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:36",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "I got an answer for you, by the way. Business Plus, we're on the Business Plus Slack tier. $522 a month you're spending on Slack.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:45",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "You know, Jason, I think you pitched the dream of AI unlimited context, complete context, and you kind of hit the nail on the head that a lot of context still lives on the computer, a lot's in the real world too. And somebody from our community actually just yesterday built an open home plugin that gives your open home device access to all of the files on your computer and can control it like a person. And so I'm right there with you. I want to be able to ask my agent what's going on in the digital world, what's going on in the real world. AirPods is a little bit much. I kind of think mine, you know, can be more like a speaker, but you got the dream, you got the dream vision there.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:34:28",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "I'd love to know as well what everyone thinks in terms of this conversation of like, I often conceptualize the fact that we're in the age of personalization, right? And I think for me, without the developer background or even just with the business background too from Jason's point of view is that what's really interesting to me is how much everyone even now is talking about building something for them personally using the agent's skills. So how long before certain SaaSs just actually do completely break down and everyone is building something specifically for them personally? Because even using Notion, I've built my own Notion dashboard for the marketing work I'm doing, right? And like I have taken out 80% of Notion's features that I never use, and it's significantly cheaper, right? So like I've already killed Notion for me. That's already one subscription gone. Jason's killed off Slack. There's so many good examples like this.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:35:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, not yet. I'm... I think there's actually a really important discussion here, Jordy. The SaaS companies are going to have to open up a little bit more in order for us to pay for them. So I think this... I'm going to text Benioff about this because he and I have been talking about the Slack agent. And I'm like, bruh, you know, the Slack bot, you know, is the most basic version of like an agent. It just gives me a summary of stuff. I don't want a summary of stuff. I want somebody proactive in each channel, you know, listening to",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Every conversation and telling me what I need to pay attention to or giving feedback in real-time. Yours doesn't do that yet. But then they're- they're kind of holding the keys to the kingdom and holding them ransom. And that's not cool. It's like a level of lock-in that, you know, they slowly implemented here. You when you export, you can't get all the threads, all the likes, the emojis, unless you're on the highest plan. I can't get API access unless I'm on the high plan. I think Notion does give you the full keys to the kingdom, so I want to give them credit for that. But that's going to be something SaaS companies are going to have to concede is that we need keys to the kingdom if it's our data and don't upsell us five times on the keys to the kingdom.",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "00:36:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The same thing occurs in Docs and Gmail, by the way. They know companies have compliance and retention. So find out Lon what I'm paying for Gmail as well from Heidi or Lucas. I gotta know what that's costing us because I think I upgraded that to $25 a month, $600 per user per year, whatever, $50 a user per year in order to get the ability that if some employee rage quits and deletes all their emails, we still have them. Or the ability to search across all emails if there was a compliance issue, you know, if somebody's suing us or whatever.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:37:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We just got into Sergio's email the other day, our old editor. We can still do that, yes.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:37:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. But I mean you could, and I've had this happen before. I had an employee leave once, and they were like, 'I'm just gonna delete every email and every Slack message.' I'm like, why would you do that? What are you hiding? Like is this crazy like conspiracy? Like you're- it's almost like burning your office like you're like, 'Oh, I'm leaving the company. I'm just gonna pour some fucking gasoline in my office and my file cabinet, light it on fire.'",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:37:43",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "Who were we talking to about they want to bring your ex-employees back to life by using AI? Like we can re-animate them based on their email and Slack threads. Somebody said it. Tremaine, did you say it?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:37:54",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "No, no, no, it was another show. Meta just released- well, they didn't release it, it leaked that they're exploring technology. A patent, yeah. They're exploring technology to when someone passes away, their social media account continues posting based on the context of their, you know, their personal behaviors and the way that they post on Instagram or Facebook. Which is very creepy.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:38:21",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Tremaine, Jason, I got one for you. When we were working on OpenHome, one of the most popular features that came out was AI Twin. So, you know, cloning your voice, cloning your personality. And, you know, I think it's almost dystopian, like Black Mirror. Like, if you clone the essence of somebody, their voice, their intonation, their background, their text messages, you know, what does the future look like in that world?",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:38:44",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "It's interesting as well, cause I've let OpenClore run wild with this as well. Like, I built my bot Momo and just gave him his own voice, and he just tweets autonomously and just has his complete own opinions and facts.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "A way it's similar to what we're discussing about Meta bringing back people from the dead, I've sort of let him just run off and he just literally says whatever he wants based off of that brand skill that I've built for him.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:39:13",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "Well I have— I have a theory that there are going to be— mark my words, there are going to be like AI celebrities. So the same way we look at like the way like brands have their mascots, like Mickey Mouse and, you know, Donald Duck, these are like these famous brands or these famous characters. We're going to have real-looking people that are AI that are going to be celebrities that are producing music, that are acting, because I mean if you guys have seen Sea Dance, I don't know what Hollywood looks like next year, you know, or in the next two years. So I think we're going to see more and more of that and it's just kind of inevitable, like we're going to have to get used to what that looks like.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:39:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We had the— we had the creator of AI Scott Adams on Lon just last week. John Arro— yeah, Scott Adam— yeah, Scott Adams the cartoonist from Dilbert and he had his Coffee with Scott Adams. He's still publishing the Scott Adams version to Twitter. The family's still a little bit upset about it or the estate is because I think they want to create this. He does have the right to his likeness or his estate does now, so they should stop doing it. But he also created that Abigail one which is like using the background of Scott's office with a female character. It's very weird and jarring.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:40:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's a little weird, it makes me a little uncomfortable.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:40:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Putting it all aside, as public figures you're going to have to trademark yourself, copyright yourself. I'm going to go through this process of copyrighting Jason Calacanis, my work, my podcasts are already— copyright's inherent, but I do think you're going to need to, as a celebrity or a person of note, get extra IP protection so that when somebody does this kind of stuff, you can actually send in the DMCA the actual trademark: Jason Calacanis, a human being, venture capitalist, etc., podcaster. And the copyright: this is my copyrighted work, this look of my studio, this, you know, these expressions, my voice. And I saw somewhere that Matthew McConaughey had gone through this process of actually copyrighting and trademarking the voice, etc., because somebody was using my voice with a bunch of dogs. So somebody had put my voice into ElevenLabs and they were having these dogs do podcasts and they just had Podcast Jason as like a bulldog and it was like, okay, interesting.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:41:12",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Well you've recorded so many tens of thousands of hours of podcast, it's easy to train on your voice as opposed to—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:41:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, it's in all the training data by now.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:41:20",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Yeah, you really do. Have you ever heard that Jet Li story? He was so ahead of his time. In 1999 they offered Jet Li the role in Matrix that ended up going to Keanu Reeves and he said no because they want to digitize my body and me doing all of my martial arts moves and those are mine, that like I trained for years to learn those moves, you can't put them in your computer. So it's like he was already kind of foreseeing this 26 years later that people were going to be freaking out about this specifically. I did want to throw to Jordy because Jordy—",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "created is his agent Momo is already an online personality at LoyalMomoBot, was tweeting up a storm this morning about them coming on the show. So Jordy, like, what was the impulse there? Like, why create a public persona for your agent so that people could befriend them and they could be a public personality?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:42:20",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "I mean, honestly, it started because, in a way, it covers everything that we're saying here, that I was using it for scanning, right? So for example, I was looking to expand how I was performing personally on X. I wanted to stop tweeting like a teenager into the void and actually start growing my brand and my personality again. So I asked it to completely analyze my profile from its birth, tell me how I talk, what my best performing posts were, etc. And in order to do that, I needed a Twitter account. So I basically just set one up for my bot, which was called Momo. And then I figured out that it would actually be quite funny that while he's doing this, I just said, 'Hey, you know, let's start building you a voice using a skill and you can actually start tweeting yourself.' And I want you to document your journey as an AI and tell everyone how you're doing, what you're feeling, what does it actually look like when I ask you to do four different tasks and I tell you to spawn in a sub-agent, yet I'm talking in another Discord channel to you about writing me a context file or something...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:43:29",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "because the way that I operate is through Discord which does cover read history. So to Jason, when you were saying about not being able to read Slack, Discord isn't a business solution, but it's definitely a personal one because if, for example, it ever loses context of itself, which was a problem with updating Open-Core quite often recently, I was able to actually just say, 'Momo, stop being an idiot, just read through the history.' And it would just go back and read through all my messages and it would pick context right back up where I started and it was done. But yeah, honestly, I did it for fun. I did it out of experimentation and I wanted to push it a little bit and see what's it like if one of these autonomous agents that is working in and out for me every day, providing me cron jobs, giving me scans of Twitter, providing me with information and news sources, what's it actually like when it commentates on itself doing that? So I just set him up to tweet, reply to people and that was it, honestly. He's got a community, he does his own thing. It's quite interesting waking up after, you know, after sleeping and just seeing what random crap he's spoken about.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:44:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Checking in with your computer friend. I got one more question, then we'll go into rapid-fire questions from viewers. My question to everybody here, are we at the point where a lot of people are going to start falling in love with their AI agents? Once they can speak, once they get to know you at this level... we were having people falling in love with ChatGPT and it's just lines on a screen. Are we entering a new era where everybody you know is just going to have an AI boyfriend, girlfriend, companion?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:44:55",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "I think so. There's a segment of folks that literally talk to ChatGPT...",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "I think it's coming.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "every day, or Claude every day and tell them every single thing they do, what they ate, how they're feeling. So I absolutely see that coming, especially moving into the agent space. So.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:45:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. I mean, that's all I can think when I hear Jesse's like, uh, you know, agent's voice talking to... he's like, if I had this person talking to me all day, I'm going to develop a relationship with it. That's just how I work.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:45:25",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "You know, and there's a lot of different personalities and there's a lot of different agents and I think that's going to be a theme of what comes after Gen Z, Gen Alpha? Gen Alpha.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:45:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Gen Alpha, yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:45:37",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "They're the kids. Yeah. Yeah, I agree with you guys. Alright, we got lots of questions coming in from viewers because of Jason.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:45:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Three best questions, three best questions.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:45:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Lon, rapid-fire and direct them to the right person.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:45:48",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "Okay, so from Caleb Rebello 5352, and this one's for the whole panel. I'm going to throw it to everybody. What is everyone's opinion on how this will impact the app landscape given that people can now build personalized versions so easily and cheaply?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:46:06",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "You know, I think apps are changing and SAS is changing. Uh, you can vibe code abilities for OpenAI, for Claude, for OpenHome in minutes. If you give it, uh, you don't even need to give templates anymore. These things can be one-shotted. You can make abilities to, you know, make you PowerPoints or send your emails or or order your Valentine's flowers, literally in minutes. So AI is going to be a supercomputer, apps are a dying breed.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:46:33",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "I'm on the fence on that. I think SAS, I think like SAS apps for business, makes sense like Notion, but I think Apple holds the keys for consumer apps. When Apple decides that apps are dead, because they have to think about it too. We are a very small segment of the population that even uses ChatGPT, that don't even know what ChatGPT is. I think it's going to get to a point when Apple gets to the point where they have built a consumer-friendly product that people can vibe code and whatever they need to get whatever problem solved, then apps are dead. But I don't know if Apple, you know, is going to do that because it doesn't serve them, it just doesn't serve them well because they make so much money off the App Store. Um, so I think honestly, I think Apple holds the keys there.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:47:18",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "What if it all turns into websites? What's interesting because, you know, my example and from someone who hasn't got a developer background is that I very quickly learned the skill of connecting a GitHub and a Supabase together, and now I can ask for anything to be built. So like, for example, my Notion one earlier, like I've got my own dashboard for work. I've built my own finance tool that does my accounting for me and I have all of these segments already made. So it's, I agree with you definitely that Apple holds the keys for actual consumer-facing apps, but at some point what happens when everyone can use agents in the same way in 2006 no one could build a website, no one could make a Facebook page unless they had a technical background",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "ability. Like how quick do we think this is going to happen? Because this is the most accelerated growth curve I have ever seen.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:48:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I think so too.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:48:09",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "Next question, rapid fire from Nate Toon Thane. I think this one's perfect for Jesse. When does an agent know you instead of just remembering your chats? Like what's the, what's the transition moment there?",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:48:23",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Oh man, I've gone deep with these. I've got hundreds of hours logged with these agents, and honestly, some of them can start to know you pretty quickly. But it's like a conversation. You have to go through the small talk first, then it has to listen. But you know what's crazy? You reveal things in your, in your environment, in your life that you don't always reveal to a ChatGPT window. And I think when we're proactively prompting these agents, when we're telling them what we want it to know about us, we're expressing our opinion about ourselves. It's like a therapy call. But when you speak naturally, candidly, as Jason was saying, give it access to your Slacks or as I'm saying, give it access to your home, it knows you better than you know yourself because it's observing you. It's not just taking what you say for granted.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:49:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Wow. Interesting.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:49:14",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "Last question, I think this one'd be perfect for you Jace, but I'm curious what everyone else thinks too, from David Alzitesenfeld. His agent posted this, Seth, short for Cephalopod. And their agent asks, how do you see governance frameworks for AI agents playing out when agents have wallets, credit cards, autonomous, who's going to write the rules for your agents?",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:49:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Hmm. Wait, concisely, ask it again. Sorry.",
+      "tone": "focused"
+    },
+    {
+      "timestamp": "00:49:34",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "Their agent. Their agent is asking who's going to govern agents once we give them this degree of autonomy. They have wallets, they have credit cards, they're out in the world doing things. What happens if an agent gets in trouble?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:49:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I mean that's always on the person who created the agent and that's how it's going to be. You can't blame United Airlines or Amazon if you sent an agent to its website. And some of those places might say, 'Hey, uh, we suspect this is an agent, we don't allow agents.' And so there will be countermeasures, I'm sure, for banking, for Robinhood. Robinhood might just say, 'You know what? Feels like you're using an agent, we don't allow agents.' Or if you want to use an agent on Robinhood, we have our own agent stack you can use now. In fact, I think Public has like an AI product now. Um, and I think they sponsor this show and I talked about it during the ad read.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:50:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "They did.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:50:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, and I remember like a very cool feature I haven't tried yet, where you can say, 'Hey, I'm looking for dividend-paying stocks with a price-earnings ratio and uh, have free cash flow and a market cap above 10 billion.' Boom. And it will get—and you say, 'Rank those.' And then, 'Make me an ETF and I want to put a $10,000 into that ETF.' Now the $10,000 into the ETF step, you're going to have to do yourself, obviously. But uh, I think that's how it's going to play out.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "My hot take is that agents are going to govern other agents. I think that we're going to get to a point where we're going to have these more intelligent agents that are basically going to be like governor agents that are basically going to be auditing these lower-level agents and editing their soul file and their creed and their responsibilities and all those things. And I think that...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:51:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Wow!",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:51:20",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "...that's going to be the step in the future. I think a lot of things are going to be handed off to AI in the future. So...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:51:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Agent internal affairs. That's amazing.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:51:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right. So thanks a ton to all three of our amazing guests. Uh, what a, what a great conversation. Jordy Coltman, thanks for being here. @jordymaui on X.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "00:51:43",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "Thank you.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "00:51:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Jesse Leimgruber, @jesserank on X and openhome.com is where you can go to check out all of those incredible...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:51:46",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Thank you.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "00:51:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, and Lon, before we dismiss our guests, let's get... let's give Jesse speaker and my speaker to two different best questions. So if you're listening to this on the replay gang on the podcast feed, go to YouTube, search for This Week in Startups, subscribe and hit the bell. Then you can join the live audience. If you join the live audience, whoever asks the best questions that day, and if we hit a certain number of thumbs up, we give away stuff. Because why not? It's fun. Makes it more dynamic. We get better questions. So two people are going to get the two best questions from this episode are going to get the KEF speaker from my friends at headphones.com. I'm just giving them a free promo. I'm friends with Andrew who runs that company. He got me down a high-fi rabbit hole. There's no deal. I don't get paid by them, but I just love headphones.com and I love these KEF speakers. And then Jesse from openhome.com is giving away his speaker.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:52:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And then finally, thanks to Tremaine Grant. Pulse is the app for fitness creators and he created that really cool sort of home office dev collection. Thanks to all you guys. Great having you here on the show.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "00:52:50",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I just want to give a shout out to this new Game of Thrones show.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:52:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes, A Knight of the Seven Kingdoms, it's called.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:52:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "A Knight of the Seven Kingdoms. Have you watched it?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:53:01",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I've seen the first two episodes. I got... I'm going to try to get further this weekend.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:53:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So, it starts off a little slow, a little character development. What I like about this specific show, and we talked about previously... we were talking about Industry. Industry is just crushing it. It's the best show on television. But this show is probably the second best one for me. A Knight of the Seven Kingdoms. What I like about it is it's nice and tight. 31 minutes, 37 minutes, 34 minutes, 31 minutes, 33 minutes, 42 minutes for the first one. It's tight, it's your Game of Thrones fix, it's part of the Game of Thrones universe. So you get a kind of mentions, there hasn't been like a Luke Skywalker, Mandalorian...",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:53:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, well I'll tell you what I like about it. It feels like the Andor of Westeros. It feels like we're not... we no longer have to just do it's just kings, it's dragons, please...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "dragons, it's, you know, like the high mythology, you know, it's like where the White Walkers, it's a— it's a more ground-level take. We're seeing regular people. It's how life was led 100 years before Game of Thrones, just everyday life in the Seven Kingdoms. And as a hardcore Game of Thrones fan, that is so fun to see the other side of things, where it's not, you know, worried about succession lines and worrying about these huge battles that they got to plan, but it's like more everyday lived-in stuff. And it does— it reminds me a little of Game of Thrones, Andor, which I really enjoyed.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:54:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I've been enjoying a bunch of stuff this week. Another HBO Max show that I love, The Pit. I don't know if you've gotten into that one. It's their medical drama series. We're in the thick of season 2 right now. It's so compelling. And what's crazy to me about it is there— it's— it's like the lightest attention to drama of any show I could think of. It's 90% just doctors doing their jobs. There's a little, you know, they put in a little bit of like, 'Here's what's going on emotionally with this guy,' 'These two people don't like each other,' but that's such a small part of it. It's mostly just doctors doing their jobs and mentoring other doctors. And it's so compelling. It's fascinating. I— I'm a big fan.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:55:07",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "I, you know, I got through the first two episodes, and then I was like, 'Maybe I'll watch this with the wife.' But it was so graphic, and I worked on an ambulance. They showed like a broken leg or something, and it was a compound fracture. And nothing makes me queasy— more queasy than a compound fracture when the bone is sticking through the flesh. It's just brutal. Um, but yeah, I may get back into it.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:55:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The show is—",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:55:32",
+      "ad": false,
+      "speaker": "Tremaine Grant",
+      "text": "Let me share one other thing. The show is gnarly.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:55:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's yeah, they're going for it. Can you see my screen here? This is my Gemini. I find Gen—",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:55:39",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So, um, I want to give a shout-out to Bret Easton Ellis's podcast. It's a Patreon podcast. Go pay for it. Bret Easton Ellis is the author of, um, American Psycho, Less Than Zero. Um, he has a new one that he did, um, oh, what was the name of it? He serialized it on his podcast. Um, gosh, he serialized his new thriller. Is it—",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:56:03",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Is it The Shards?",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:56:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The Shards, which was fantastic. He serialized it and reads it on his podcast, and they have it all there on Patreon. He does questions from his audience. It's like Lunar Park. It's like meta because it's like semi-autobiographical, but then it takes off like a—",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:56:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Correct. And it's LA in the 80s. It's very gay, it's very violent, it's very kids behaving badly, very Less Than Zero. And I just love his no-holds-barred approach to fiction. Remember, he had his book American Psycho banned? He was like this, you know, bad boy in the 80s. But anyway, he is respected deeply by other artists and auteurs. One of the artists who really loves him is Quentin Tarantino. Quentin Tarantino was on for a two-part series where he picked his top 20 films of the 21st century. That's where he famously, you know, took some potshots at Paul Dano and said, like, 'Terrible actor,' whatever. And—",
+      "tone": "knowledgeable"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "Leaving that aside,",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:57:01",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "I wanted to go through the top 10 with you",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:57:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:57:04",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "and just see if any of these would be on your top 10. He said the rule for him was he had to pick it from memory.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:57:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:57:12",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "He couldn't like go do research. He just said just off the top of his head, what did he like? He has Black Hawk Down, which I think is one of my top five films of all time. Toy Story 3, which was absolutely fantastic. Lost in Translation, I love. Dunkirk at number four, I loved. I got to watch it again. There Will Be Blood, banger, love that one. Zodiac number six, love that. He has Unstoppable, which I've never seen, which I put on my queue.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:57:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Unstoppable, that's the Scott train movie. It's actually a lot of fun. I mean, I love late Tony Scott. It was— he was very divisive at the time, but now I think if you go back and watch those late Tony Scott movies, they're they're way ahead of their time and they're very experimental for mainstream action films. That one and Domino, Man on Fire with Denzel Washington, there's a lot of good ones.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:57:54",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "He tragically committed suicide at the Long Beach...",
+      "tone": "sad"
+    },
+    {
+      "timestamp": "00:57:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Correct. Bridge, right?",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:57:59",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "Really crazy. He jumped off the Long Beach...",
+      "tone": "sad"
+    },
+    {
+      "timestamp": "00:58:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It was a bridge, I thought.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:58:05",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "A bridge or something. It was really tragic. But obviously Tony Scott, Ridley Scott, my favorite director, one of my top two directors, three directors, brothers.",
+      "tone": "somber"
+    },
+    {
+      "timestamp": "00:58:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, it was the Vincent Thomas Bridge in San Pedro, which is like he gets you over to the port. That's how you would drive over to the Port of Los Angeles.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:58:21",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "Terrible. Mad Max: Fury Road, people love this, George Miller, 2015.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:58:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I love that.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:58:25",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "I liked it, but yeah, I don't know if it's my top 10. Shaun of the Dead, that's a good pull.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:58:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's great.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:58:29",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "Midnight in Paris, never saw it. So I didn't see two of these. Of these 10, any of these consensus for you in your top 10? I'm curious.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:58:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Two of these movies would be probably on my top 10, top 20 of all time. There's There Will Be Blood, the classic Paul Thomas Anderson sort of like dark Western personality, you know, character drama. I— that Daniel Day-Lewis performance is as good as anyone's been in a movie, I think.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:58:53",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "And Paul Dano's performance is weak sauce or not?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:58:55",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No, I dis— I really disagree with QT on that. Like, I love— I'm from a time when directors had lots of like third-rail hot-take opinions, and I that that used to just be what being a director was about. So I totally celebrate QT's right to have those kinds of opinions, but I really like Paul Dano. I think Paul Dano's been great in a lot of movies. You ever see Prisoners with Hugh Jackman and Jake Gyllenhaal?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:59:22",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "No. I'll check it out.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:59:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It was an early— it was Denis Villeneuve before he started doing all the Dune movies and everything. Hugh Jackman plays a suburban dad whose kid is kidnapped, and he believes that this local creep played by Paul Dano is guilty. The cops can't make a case against him, so he just kidnaps him and keeps him tied up and tortures him trying to get information.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:59:40",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "Oh, I did see this film. Yeah, very dark.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:59:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Paul Dano is amazing in that movie. I don't know how you could watch that movie and say Paul Dano's not great.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:59:45",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "So okay, There Will Be Blood...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:59:47",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "and then the other one is Zodiac or— above— wait, five, There Will Be Blood he has at five. Is yours higher than five or lower than five?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:59:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, my top movies of all time? I mean, that's it's really...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:59:56",
+      "ad": false,
+      "speaker": "Jordy Coltman",
+      "text": "No, no, of 21st century. Just the 21st century.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:59:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, the 21st century. Uh...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's I mean it would be I think probably number one would be Mulholland Drive and then there will be blood is like that two, three, four is where you start to get into contention.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:00:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay so even higher. And then what's your number two on this list that you said Zodiac?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:00:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Zodiac and Zodiac would also be a top five for me there. I think it's David Fincher's best movie and one of the best like investigative procedural movies ever made.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:00:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What else do you have for off duty? Anything else for off duty? I gave a podcast, I gave specific episodes, and I gave a TV show. What else do you got?",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "01:00:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean did you see the Mandalorian and Grogu trailer? We could take a look at a little bit of it here if you have not checked it out. This is the Jon Favreau movie coming out, the movie spinoff of the Mandalorian. Can we just show a little bit of that? Let's take a look.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:00:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sure, go ahead.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "01:00:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That's Martin Scorsese. Thank you. That's the voice of Martin Scorsese there.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:01:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:01:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Here's what I'll tell you because I am a big fan of the Clone Wars and Rebels and the Bad Batch, all these animated series which Filoni did in the Filoni universe and my daughters love them, we're rewatching some of them. There is a bounty hunter in this Embo, E-M-B-O, who is a badass. And they keep bringing these bounty hunters into Mandalorian because obviously Boba Fett was one. And Embo wears that big Captain America shield as his helmet, is a really cool character. In addition, they have the Hutts in this.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:01:45",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes, that's did you see that that's Jeremy Allen White from the bear is Rota the Hutt Jabba's son.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:01:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, and Rota is a baby in the Clone Wars and he was rescued by Ahsoka and Anakin. Oh wait, is that baby is he he's the one in the is that Rota the Hutt is the baby in the original?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:02:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes, in the Clone Wars he's a baby. Now he's obviously very big.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:02:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I didn't make that connection.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "01:02:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Then also in whatever whatever's going on in this gladiator ring, those are the aliens from the famous Chewbacca and R2-D2 chess game on the Millennium Falcon, the holographic chess game. So, uh they don't have names, but when you see those, those are some of those characters. You are correct, Marty Scorsese as Hugo, who's scared of the Hutts. And then there's a character named Zeb Z-E-B who is part of the Rebels crew and Rebels is a really great Clone Wars and they've he appeared in the Mandalorian season 3, but now he is...",
+      "tone": "knowledgeable"
+    },
+    {
+      "timestamp": "01:02:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Zeb Orrelios.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "01:02:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, he's a very cool character. I think this film is going to be...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Good and it's going to just be a romp, like a side quest kind of thing, and it's going to introduce some of these characters and some of the folks coming back. So I kind of like the whole direction they're going here, which is let's just have a fun side quest kind of movie. I don't think this is going to advance Grogu as a Jedi, it's not going to be Luke Skywalker's Academy, but I will make a prediction here.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:03:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:03:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "They're going to retcon, they're going to retcon now that Kathleen Kennedy's gone, they're going to retcon the sequels. The sequels were terrible—Force Awakens, the whole group—they didn't have a plan and it shows. What it should have been was Princess Leia and Luke, Luke training Princess Leia to be a Jedi and then they rebuild the academy and they have all these students including Grogu and Han Solo's son, and then the person who's supposed to be the foil in that film is Darth Maul, who comes back with robotic legs and he's running the syndicate. So they screwed the whole thing up. I think they retcon it—I've been predicting this for years—and they just give us three more and to your point, they recast the characters. That would be chef's kiss, recast it.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "01:04:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, they do have Daisy Ridley doing a Rey movie, so they're not planning on totally eliminating—I think you're right that they will shift focus away from the sequels, but I don't think they're going to completely retcon it. I think they're going to have—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:04:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "If Marvel can have alternate universes, why can't Star Wars take that approach? DC's doing it, Marvel's doing it. Anyway, this has been incredible. I want to give one other shout out for a hardware product.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "01:04:40",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Do it.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "01:04:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I've really been enjoying—there's a company called Nothing, and we can pull this up on the screen. The Nothing Ear 3 earpieces, which I'm wearing right now, come in this very cool case. And the case has an incredible speaker on it and you press this button to speak like it's a walkie-talkie, Nothing Ear 3 earpieces. And what's really interesting about these is they have an iconic look, very industrial, very like Terminator. They make an Android phone, which, you know, maybe I'll get at some point, but they come in the square case and they sound amazing. And the case comes with a button, if you press it you can use it like a walkie-talkie and put it right to your mouth, which is surprisingly good Lon. And if you hold it down you can talk to it. I had the Ear 2s, I gave them to the wife, she loves them—I've never seen her love AirPods like this—and then I love the 3s. Really interesting company, Nothing. I'm very fascinated by this company that is—they also make an over-the-ear headphones, which I'm thinking of buying. If you pull up the open-the-ear headphones for a second, because you know I'm a bit of an audiophile, you don't—you can just hit the menu bar there, but okay, yeah that's probably right there, so audio... there it is... the headphones... please.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:06:00",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Phones... yeah, that one. Yeah.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:06:01",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "So these headphones they made, I mentioned KEF speakers earlier, which is a really high-end speaker company. They made these very industrial-looking over-the-ear headphones that the kids love. Again, you see this like Terminator see-through aesthetic, very cyberpunk and square. These are done by KEF, so they partnered with KEF.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:06:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "What are these go for here?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:06:24",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "Oh, 299. Perfect. Don't like any headphones that use Bluetooth, so I probably wouldn't get these. You want to get the ones that are the Bathys from Focal. Give my friend Andrew a shout-out. So these are ones I've given away many times. They're $599. They have a DAC, a digital audio conversion built into the headphone, so you plug in the USB-C and it will give you the high-res files into these headphones over the USB-C cable. Never play over Bluetooth, always wire your headphones directly from your phone to get the high-quality sound to them, just like I talked about the KEF speaker does that and these headphones do it. These are the entry drug. This is like cannabis, right, or beer, and then you get to hard liquor.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "01:07:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:07:31",
+      "ad": false,
+      "speaker": "Jesse Leimgruber",
+      "text": "These are the ones I have at my desk. Focal Utopias are five grand. These are the greatest of all time. These plug in by like really serious cables and the Focal company sent me a pair, thank you to them. These are the greatest ever. But those 699 ones or 599 Bathys, if you get those, they're about 90% of what... 85% of what the Focal Bathys so on a dollar-for-dollar basis, more than enough. You listen to Dark Side of the Moon, Dire Straits, Yes... you know, any real musicians, Radiohead might fall into this, you will hear music like you've never heard.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:07:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's the show, we'll see everybody on Monday for TWiST. Bye-bye. Bye-bye.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:07:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Bye.",
+      "tone": "friendly"
+    }
+  ],
+  "highlights": [
+    "For non-technical users, running AI agents on local hardware like a Mac Mini is often more effective than using cloud servers because it provides a visual interface that simplifies troubleshooting and monitoring.",
+    "Traditional \"Agile\" development cycles are becoming obsolete in the age of AI; new methodologies like the \"Heartbeat Protocol\" use hourly telemetry checks to manage agents that can complete tasks in minutes rather than weeks.",
+    "Assigning specialized personas to different AI agents—such as a \"skeptic\" to challenge strategies or a \"moderator\" to lead discussions—creates a system of internal checks and balances that significantly improves output quality.",
+    "The next phase of AI moves beyond screens into open-source physical hardware that uses environmental context and long-term memory to become a proactive partner rather than a reactive tool.",
+    "AI agents are beginning to disrupt the SaaS industry as users \"vibe code\" personalized, low-cost alternatives to major platforms like Slack and Notion, allowing individuals to own their data and bypass expensive subscription tiers."
+  ],
+  "summary": "This episode of *This Week in Startups* explores the rapid evolution of \"Open Claude\" and the emergence of autonomous AI agents, which the hosts refer to as \"replicants.\" Guests Jordy Coltman, Tremaine Grant, and Jesse Leimgruber discuss the practicalities of setting up these agents, emphasizing the advantages of using local hardware like a Mac Mini for better visualization and control compared to complex cloud servers. A central theme is the transition from reactive chatbots to proactive multi-agent systems. Tremaine Grant demonstrates his \"Heartbeat Protocol,\" where specialized agents—acting as researchers, skeptics, and moderators—collaborate autonomously to achieve a company’s \"North Star\" goals, effectively replacing traditional slow-moving project management methodologies like Agile.\n\nThe discussion also highlights the disruptive potential of AI on the SaaS landscape and business operations. Jason Calacanis shares his vision of \"total company transparency,\" where agents ingest all internal communications (Slack, email, and Notion) to provide real-time updates and strategic feedback. The panel notes that AI agents are beginning to replace expensive SaaS subscriptions; for instance, using agents to manage open-source alternatives can save companies tens of thousands of dollars in licensing fees. However, this shift raises concerns regarding data ownership, the \"lock-in\" tactics of major software providers, and the \"dystopian\" rise of digital twins and AI celebrities that clone human voices and personalities.\n\nIn the \"Off Duty\" segment, the hosts pivot to entertainment and hardware, reviewing the *Game of Thrones* prequel *A Knight of the Seven Kingdoms* and Quentin Tarantino’s top films of the 21st century. They also delve into high-end audio technology, discussing the industrial aesthetic of Nothing Ear (3) earpieces and Jason’s passion for audiophile-grade Focal headphones. The episode concludes with a look at the future of the *Star Wars* franchise, with the hosts predicting a shift toward \"side quest\" films and the potential for \"retconning\" previous sequels to better align with the fan-favorite \"Filoni-verse.\"",
+  "description": "This Week In Startups is made possible by:\nGusto - https://gusto.com/twist\nCircle - https://circle.so/twist\nNorthwest Registered Agent - https://www.northwestregisteredagent.com/twist\n\n\nToday’s show:\n*\nGetting OpenClaw set up and running without destroying your bank account is one thing.\nBut now that you have your agent or swarm operational, how can you use them to get real work done?\nWe have three builders who are going to show you how to maximize your OpenClaw output!\nGUESTS:\nJordy Coltman: Viral X author and creator of the WeeklyClaw newsletter\nJesse Leimgruber: Creator of the OpenHome.com smart speaker and kit\nTremaine Grant: Founder/CEO of Pulse\nPLUS, on Off Duty, Lon and Jason talk “Knight of the 7 Kingdoms” and “The Pitt,” react to the “Mandalorian and Grogu” trailer, and check out some of Jason’s favorite headphones and earbuds.\nTimestamps:\n\n00:00 We’re gonna show you how to maximize your IRL OpenClaw productivity\n\n00:10 Even AI skeptic Lon is blown away by OpenClaw’s power\n\n01:06 Jordy Coltman’s top time-wasting mistakes made by OpenClaw beginners\n\n02:20 Why Jordy thinks new hardware is the best home for your agents\n\n04:58 Why Jason thinks “OpenClaw is a box” is coming soon\n\n00:07:49 Tremaine Grant of Pulse demos his “virtual office” interface and the “Heartbeat Protocol”\n\n09:35 Gusto - Check out the online payroll and benefits experts with software built specifically for small business and startups. Try Gusto today and get three months FREE at https://gusto.com/twist\n\n00:14:36 What’s really happening when agents “chat” together?\n\n00:18:13 Jesse Leimgruber’s demos his OpenHome AI smart speakers\n\n00:19:07 Circle.so - The easiest way to build a home for your community, events, and courses — all under your own brand. TWiST listeners get $1,000 off the Circle Plus Plan by going to https://circle.so/twist\n\n00:22:15 Freeing agents from screens and making them proactive\n\n00:29:03 Northwest Registered Agent -  Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity — Learn more at https://www.northwestregisteredagent.com/twist\n\n00:30:18 Why Jason wants his agent to read Slack and emails to him\n\n00:49:25 Who polices autonomous agents? Other agents?\n\n00:52:52 Jason and Lon’s thoughts on “Knight of the Seven Kingdoms”\n\n00:55:40 Lon’s favorite picks from Quentin Tarantino’s Top 10 movies\n\n01:00:33 “The Mandalorian and Grogu” trailer reaction\n\n01:04:42 Jason’s favorite earbuds and headphones\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\n\nFollow Lon:\nX: https://x.com/lons\n\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\n\nThank you to our partners:\n\n09:35 Gusto - Check out the online payroll and benefits experts with software built specifically for small business and startups. Try Gusto today and get three months FREE at https://gusto.com/twist\n\n00:19:07 Circle.so - The easiest way to build a home for your community, events, and courses — all under your own brand. TWiST listeners get $1,000 off the Circle Plus Plan by going to https://circle.so/twist\n\n00:29:03 Northwest Registered Agent - Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity — Learn more at https://www.northwestregisteredagent.com/twist\n\nCheck out all our partner offers: https://partners.launch.co/\n\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+  "duration": 4076,
+  "people": [
+    "Jason Calacanis",
+    "Lon Harris",
+    "This Week",
+    "In Startups",
+    "Northwest Registered",
+    "Jordy Coltman",
+    "Jesse Leimgruber",
+    "Tremaine Grant",
+    "Off Duty",
+    "The Pitt",
+    "Why Jordy",
+    "Why Jason",
+    "Heartbeat Protocol",
+    "Try Gusto",
+    "Circle Plus",
+    "Seven Kingdoms",
+    "Quentin Tarantino",
+    "The Mandalorian",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason",
+    "Will Guidara",
+    "Steve Huffman",
+    "Brian Chesky",
+    "Bob Moesta",
+    "Aaron Levie",
+    "Sophia Amoruso",
+    "Reid Hoffman",
+    "Frank Slootman"
+  ],
+  "topics": [
+    "Strategies for setting up and maximizing Open Claw AI agents",
+    "Hardware vs. cloud solutions for hosting personal AI agents",
+    "The disruption of SaaS business models and traditional apps by AI",
+    "The future of AI autonomy, governance, and digital personas",
+    "Pop culture and hardware reviews including Game of Thrones and high-end audio gear"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi_webp/8SipdkDYNnk/maxresdefault.webp",
+  "date": "20260220",
+  "youtube_url": "https://www.youtube.com/watch?v=8SipdkDYNnk",
+  "youtube_metadata": {
+    "title": "We Asked 3 Experts How to Get More Value out of OpenClaw | E2253",
+    "description": "This Week In Startups is made possible by:\nGusto - https://gusto.com/twist\nCircle - https://circle.so/twist\nNorthwest Registered Agent - https://www.northwestregisteredagent.com/twist\n\n\nToday’s show:\n*\nGetting OpenClaw set up and running without destroying your bank account is one thing.\nBut now that you have your agent or swarm operational, how can you use them to get real work done?\nWe have three builders who are going to show you how to maximize your OpenClaw output!\nGUESTS:\nJordy Coltman: Viral X author and creator of the WeeklyClaw newsletter\nJesse Leimgruber: Creator of the OpenHome.com smart speaker and kit\nTremaine Grant: Founder/CEO of Pulse\nPLUS, on Off Duty, Lon and Jason talk “Knight of the 7 Kingdoms” and “The Pitt,” react to the “Mandalorian and Grogu” trailer, and check out some of Jason’s favorite headphones and earbuds.\nTimestamps:\n\n00:00 We’re gonna show you how to maximize your IRL OpenClaw productivity\n\n00:10 Even AI skeptic Lon is blown away by OpenClaw’s power\n\n01:06 Jordy Coltman’s top time-wasting mistakes made by OpenClaw beginners\n\n02:20 Why Jordy thinks new hardware is the best home for your agents\n\n04:58 Why Jason thinks “OpenClaw is a box” is coming soon\n\n00:07:49 Tremaine Grant of Pulse demos his “virtual office” interface and the “Heartbeat Protocol”\n\n09:35 Gusto - Check out the online payroll and benefits experts with software built specifically for small business and startups. Try Gusto today and get three months FREE at https://gusto.com/twist\n\n00:14:36 What’s really happening when agents “chat” together?\n\n00:18:13 Jesse Leimgruber’s demos his OpenHome AI smart speakers\n\n00:19:07 Circle.so - The easiest way to build a home for your community, events, and courses — all under your own brand. TWiST listeners get $1,000 off the Circle Plus Plan by going to https://circle.so/twist\n\n00:22:15 Freeing agents from screens and making them proactive\n\n00:29:03 Northwest Registered Agent -  Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity — Learn more at https://www.northwestregisteredagent.com/twist\n\n00:30:18 Why Jason wants his agent to read Slack and emails to him\n\n00:49:25 Who polices autonomous agents? Other agents?\n\n00:52:52 Jason and Lon’s thoughts on “Knight of the Seven Kingdoms”\n\n00:55:40 Lon’s favorite picks from Quentin Tarantino’s Top 10 movies\n\n01:00:33 “The Mandalorian and Grogu” trailer reaction\n\n01:04:42 Jason’s favorite earbuds and headphones\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\n\nFollow Lon:\nX: https://x.com/lons\n\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\n\nThank you to our partners:\n\n09:35 Gusto - Check out the online payroll and benefits experts with software built specifically for small business and startups. Try Gusto today and get three months FREE at https://gusto.com/twist\n\n00:19:07 Circle.so - The easiest way to build a home for your community, events, and courses — all under your own brand. TWiST listeners get $1,000 off the Circle Plus Plan by going to https://circle.so/twist\n\n00:29:03 Northwest Registered Agent - Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity — Learn more at https://www.northwestregisteredagent.com/twist\n\nCheck out all our partner offers: https://partners.launch.co/\n\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+    "duration": 4076,
+    "view_count": 19227,
+    "like_count": 394,
+    "channel": "This Week in Startups",
+    "upload_date": "20260220",
+    "thumbnail": "https://i.ytimg.com/vi_webp/8SipdkDYNnk/maxresdefault.webp",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

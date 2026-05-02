@@ -1,0 +1,2581 @@
+{
+  "title": "AI Rebuilt Every YC W26 Startup. Should Founders Be Scared? | E2271",
+  "source_url": "https://www.youtube.com/watch?v=aY8KnynU6MY",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, Friday, April 3rd, 2026, it's Twist, Lon Harris is here, I'm Jason Calacanis. We have a full docket. We're sitting here April 3rd, summer's coming, the winter's over, it's springtime for J-Cal and Lon.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:00:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Nobody's going to get that reference.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:00:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No, that's a little old for - for both of our viewers, but if you're in your 40s or 50s, you're welcome.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:00:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You would get Springtime for Lon—",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:00:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "—in Germany. Yeah.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:00:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's from The Producers. So Fridays we have a little bit of fun. We're going to do our startup news, we're going to, you know, really try to focus on, you know, the four pillars here on the show in 2026. I always try to like set an agenda for the year.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:00:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You do.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Tactical, practical. That's what I love to do. Tactical things, very practical so that you can take something from this week in startups and apply it to your business, get inspired, bring it to your team and say, hey, here's something we can do that would make our business go better or make our customers happy, whatever it happens to be, grow our startup faster. And then of course, experts only. If you look at what's happened in media, the go-direct movement as we talked about last episode, hey, going direct is, you know, the best model, so we want experts only on the show. Experts only. It's one of the things I learned from the transition from, let's say, the round table as Leo did it on This Week in Tech to the round table as I constructed it on All-In. This Week in Tech, you know, Leo plus three journalists commentators, great, awesome content, you know, really defined the category. But now you have experts who want to be part of that round table. So that's a unique opportunity, right? So if you look at This Week in AI or our VC round table, it's not a lot of journalists, right? Journalists kind of out of favor right now. Journalists tend to have, I don't know, what would I say? When I was a journalist, 20% picture of the world and we would try to get to 22%, 23%, 24%.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:01:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I feel like there was an era before social media, before podcasting, regular everyday people didn't have access to leaders, politicians, CEOs. You had to go through the medium of a journalist, there was this whole class of people, they were our conduit to the powerful, to celebrities. But today a celebrity can have a YouTube channel, a VC or a CEO can go on a podcast. Everybody's got an X account, everybody's got TikTok and Instagram. And right, so the - the idea that you need this - this - these people, this whole class of people to, you know, be the conduit for these conversations, they are struggling I think right now to figure out where do we fit into the new rubric.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:02:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We want to be tactical, we want to be practical for you the audience. Number two, we want experts only. Getting a lot of experts and we, you know, keep it going there. Hey, we like to super distribute what we're doing, right? Super distribution's a big part of it. And as Lon added number four, we want to meet you where you are, whether it's—",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:02:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Facebook, LinkedIn, well not Facebook. Nobody's on there.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:03:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No, Threads, Threads baby!",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We don't post to Threads. Let's do that as an experiment.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:07",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Let's do it.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:03:08",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Oliver really is keen on exploring Threads. I'm a little—I really don't like it over there. I find I get very uncomfortable on Threads, so I've been resisting.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:03:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Why are you uncomfortable? Why are you so uncomfortable?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:20",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I think Threads is the worst. I think just the vibes on Threads of any, you know, X gets all the crap, people hate—don't like Elon, oh it's all Nazis or whatever, Grok, they don't like it. I think the conversations on X are much more civil, much calmer, much more rational and thoughtful on X than Threads. Threads is like they're all lunatics. I don't know.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:03:41",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's the loony bin. It's the boomer one where all the crazies went, I think.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:03:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's where Kara Swisher and Prof G, old takes reign supreme. Every time I go over there, and I think Kara Swisher blocked me—we used to be friends but she's blocked me now—and she just says horrible things about everybody. I mean, the biggest crazy thing is they've got a podcast with tech advertisers and the entire show is just saying tech is horrible, these tech people are terrible. And then Prof G said 'You should unsubscribe from these 20 different services' that like eight of them are their advertisers. Can you imagine if I got on here and I was like 'You know what would be a great idea? You all should unsubscribe from MailChimp' like...",
+      "tone": "animated"
+    },
+    {
+      "timestamp": "00:04:03",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We love—we love our advertisers here. You should all—",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:04:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Resisted! Unsubscribed! That's like his big idea.",
+      "tone": "mocking"
+    },
+    {
+      "timestamp": "00:04:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Try Vanta for all your SOC 2 needs.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:04:09",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "The last one Jason, perfect segue into our first guest. Viral ready, our first guest went viral this week. So let's bring him on. Maurik Azan, the CEO of FeltSense. Had a viral—you sent it to me after we'd already booked him on X. This company, they—they're a holding company that spins up their own AI agents which then act as autonomous founders. This week they went viral because their agents rebuilt every company from YC's Winter 24 batch.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:04:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes, I did see this. People were hand-wringing about it. And I think there was a little bit like 'Hey, that's a jerk thing to do.' But I looked at it and said, 'Well, let's pause for a second here and hear from the founder what their intent was.' Was it to show what's defensible, what's not? What's commoditized, what's not? Is it performance art? I don't know. That's why I wanted to have him on the show.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:04:41",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "And before we get started, I just want to take a minute and applaud for Plaud. I have my Plaud pin on, I press the button, it records everything I do. It syncs it. Lon's got his as well. I'm using the magnet on the back, he's using the clip.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:04:54",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "I like it.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:04:54",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "I don't lose anything. I don't lose any of these great ideas we have. Everything is recorded. I say action item, I say remind me, I say put it on my calendar, all of that organized nice and tidy in the summary with the transcript in an app. I don't have to have my phone with me. I don't know where my phone is right now. I just have my Plaud pin on. If you want to get a Plaud pin, go to—",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": true,
+      "speaker": "Alex Wilhelm",
+      "text": "I think we have a deal.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:06:01",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, oh you know we do. You gotta check it out at plaud.ai/twist. That's P-L-A-U-D.ai/twist. If you use the code twist, you're going to get 10% off your Plaud Note.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:06:12",
+      "ad": true,
+      "speaker": "Alex Wilhelm",
+      "text": "It turns out just the integration of Plaud in, like, a product I love, said the results are off the charts.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:06:18",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Really? They're selling a lot of Plauds based on this? Well fantastic everybody. If you're a twist listener and you've bought a Plaud Note after hearing them on the show, thank you so much. We appreciate it.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "00:06:27",
+      "ad": true,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah. Share it on social and CC us.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:06:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Marek, welcome to the show. I see that you're at your grandma's house right now for the weekend. It's totally fine, you're in grandma's living room. I don't know what's going on.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:06:40",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Marek's rebuilt his grandma's house. That was just to perfect specification. Okay.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:06:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Are you a troll? Is this performance art? Are you sending a message to YC and Gary that their ideas are derivative and lame? Are you a rabble-rouser? What are you doing? This was a very controversial thing you did, sir.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:07:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You know, in profession, I'm a serial entrepreneur, but I think that the particular flare of entrepreneurship that I pursue is, you know, defined—I call it social sculpture. So oftentimes the types of companies that I build, they are a commentary on kind of what's happening. And so some of what I've built before was tech for the sex worker's rights movement, so kind of what was happening in the adult industry in the mid-2010s that then ended up leading to OnlyFans and kind of this transition. Actually, Jason, last time we intersected was I launched the first VC investing in psychedelic therapeutics in 2018, and I think we were going back and forth a little bit on psychedelic deal flow, either with myself or some of my business partners.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:07:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You know, I did look at that. Peter Thiel, a friend of mine or acquaintance of mine—I don't know, I think we're friendly. He, uh, I mean, he invites me to parties once in a while, so that's nice. He did this psilocybin company before anybody, Compass Therapeutics—I can't remember the name of it.",
+      "tone": "anecdotal"
+    },
+    {
+      "timestamp": "00:08:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, Compass, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Compass Therapeutics. You know, and I was like, 'Wow, that's super visionary,' but I can't do that, you know, we have vice clauses in VC funds and it just makes things complicated. Okay, so then what's this idea here, Marek?",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:08:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, so I think that like in 2014 for me, when I was like starting to think about everything that was happening online, people saying like, 'Hey, AI won't take your job, but a human using AI will,' I just really disagreed with that statement. I just don't believe that that's true. And I think now we're seeing that like, no, AI will very much take your job, and many jobs are being taken by AI. And so for me, there was this question of like, well, what is the most powerful thing that we could demonstrate or build that would show that this is just like not accurate? And building essentially agentic founders felt like something that people would not even be able to debate that AI can take your job if we can build agents that can actually play the role of founders.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "God.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "We've got a brand new partner here at Twist and, as fate would have it, we love and use their product. If you need to hire, manage, pay, or equip your team members anywhere around the world, you need Deel. D-E-E-L. They're going to take care of all the annoying human resources tasks that you don't have time for: payroll, compliance, visas, and onboarding, so you can stay focused on achieving product-market fit or scaling your business or finding more talent. Deel scales with you. They do all your chores, all the hard work, and they do it perfectly from the first hire on, so there is never a need to switch platforms or transition to a new system in the future. It's future-proof. And with Deel, you can set up payroll for any country in just minutes and get all the complicated visas and paperwork settled right away, allowing your business to grow without borders. And that's the smart way to grow now. Talent is not limited to San Francisco, the United States, or this continent. It's everywhere. That's why more than 37,000 startups and fast-moving companies are already using Deel to accelerate their hiring and growth. Find out more by visiting deel.com/twist. That's D-E-E-L.com/twist. Also, I happen to be a shareholder in the company. I got very lucky they acquired one of my startups and I am stoked. It's an amazing company.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:10:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So you went straight to the head of the line. Hey, we know like an administrative assistant, an AA, or, you know, somebody who's a spreadsheet jockey, they could easily be replaced. A researcher can easily be replaced and nobody's triggered by that because hey, that's not my job. That's like an entry-level job. But what if you went to the most coveted position and you showed them you could actually replace a founder with AI? That to you would be the most provocative thing to do in terms of, you know, getting a message across.",
+      "tone": "thought-provoking"
+    },
+    {
+      "timestamp": "00:10:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Definitely. And like when you're when you're building at that bleeding edge, you always learn so much more than everyone else. Um, like it's very difficult to actually learn anything about how a space is evolving if you're not building at like the very, very forefront. Um and I learned that in the sex worker rights movement, in psychedelics, and here in like the agentic kind of tech AI space. Um, you know, for like, Rent-A-Human for instance launched in the last couple months, we started thinking through like, okay, human hiring here and what does a human hiring engine look like? About a year ago. And so when you're building at this bleeding edge, you just start getting these insights into like how everything will play out um that I think a lot of other folks are just lagging in because they are just building for the present rather than building for where we're where we're about to be in the next couple years. So, so yeah.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:39",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Got it. And you're the CEO of Felt Sense?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:11:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:45",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And that company is building AI agents uh that will ideate, build, and just release products on their own. Yeah? That's like your day job.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Exactly.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So you said, hey, a great stunt, a great way to get attention for this, stunt marketing, Lon, very...",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The tradition is, let's see which companies can be replicated or not. Now, what's your advice, though, in all seriousness, if I'm a founder doing a startup, is there value in me having a co-founder who is an agent? And is that really what you're selling? Is like, hey, here's your third or fourth co-founder that doesn't get equity?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:12:18",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We thought about that, like, I would say at the beginning of '25, and very quickly dismissed it. It became apparent to us that, like, actually the kind of co-founder model would, one, be in an extremely competitive space, and two, not actually be forward-thinking enough. Like, it would be essentially just able to be replicated by Anthropic or OpenAI with, you know, the models that they currently have. And so we actually do the opposite. So we don't open up our software to anyone. We don't sell it to enterprise, we don't sell it to founders. We keep everything in-house. We spin up our own founders and they build and they launch their own products and have their own ICPs and it's an infinitely scalable HoldCo where all the operators are agents.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:13:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so you're building IAC, Interactive Corp, Barry Diller. He bought a bunch of startups, collected them together, famously, Lon, Match and Expedia and all those things. Then he wound up breaking them up and selling them. But you're going to build a conglomerate of a bunch of different ideas, some of them inspired by the one-liners and the directory at Y Combinator, and you're literally going to compete with the YC class that doesn't have defensible products, correct?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "As a portion of what we do. I think that the first goal for us is essentially trying to capture as much of the long tail of entrepreneurship as possible. And that long tail continues to grow on a daily basis as, like, the barrier to building comes down. But, like, right now, we're really, like, a trinket apps factory, and that's a lot of what we're experimenting with, is, like, seeing...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:13:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Trinket apps? What does it mean?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:52",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So, like, essentially single-feature, couple-feature SaaS apps is like where we're starting. Can we get, you know, tens of thousands of these running, getting customers, people interacting with them, etc.? But as the technology gets better and better, we are finding ourselves able to, you know, replicate the technology of like entire companies, so yeah.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. Now I got one more question to ask, Lon, I know you're chomping at the bit. When you looked at the data, how many YC companies did you replicate? And by replicate, I guess you studied them online, you had an agent go out and find as much information as you can about the founders, about their mission, I don't know, maybe they spoke to journalists, whatever. And then you had it come up with a name and a derivative product, a duplicate product, inspired by product, which is totally fair game, ideas are not protectable. What did you find? How many companies did you replicate? How much compute did it take to replicate them? And of that group, how many were commodity apps that you could just, in your mind, create an 80% or better version of? And then how many of them were you like, oh, this thing requires...",
+      "tone": "probing"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "fires, you know, it's Whoop or Oura and I need a wristband I can't just replicate this online. Take us through what you learned. I'm curious about that and if you want to tell us a little bit about you know the process you ran these agents across let us know.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:13",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, so when when we ran into setting this up, you know, there were a couple of things that we needed to consider. On like the topic of compute for instance, um, if we had just like kind of ran agents against the wall and said, hey, um just like rebuild as much as you can, um and and go as as deep as possible, uh we would have probably spent, you know, hundreds of thousands of dollars trying to um trying to like replicate as much as possible. So we really had um essentially like builds and in tranches and specific trigger events structured so that we could say like, okay, these are kind of the the core architectures of some of these different companies. These are the different components that are quite reusable um and that we can plug in across many different of- many different companies that we're trying to replicate. And what we found is that essentially like, you know, 10 to 20% of the batch was um pretty highly replicable and was composed of basically like the same sorts of components and those were many of the ones that we like posted online, um with the playable links um that people could actually like interact with, where there wasn't necessarily much differentiation from like at least a technical perspective. Um...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:16:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. So 20% off the top just low hanging fruit easy to replicate. Those founders need to take a deep look in the mirror and say, 'Hey, our idea and the ability to put up and stand up a product is uh extremely not defensible, right?'",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:16:36",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, the the thing that I would say is like some of those apps though, like the other portion of replicability is not just technology. So some some uh companies, they had extremely replicable technology, but they were selling into a market that was like very difficult to get access to or to sell into, that, you know, it wouldn't- their company might not be disrupted necessarily by an Anthropic or an OpenAI because those companies would just not um have the patience uh or want to put resources towards trying to sell into that market because there are so many complex dynamics, etc. But from a technological perspective, yes, highly replicable. Um I would say on the other side, uh probably like 30% were, you know, not even really worth um like pursuing or building or you could build essentially kind of the um the interface, but there- in terms of the like back end of things, there wasn't, you know, it was either like hardware, extremely difficult to access uh um like data, there wasn't really much there that could be like truly rebuilt and we could truly take a stab at. One of the things we were joking about is like Gruso Space is building a hotel up on the moon and we're like, okay, what if people ask us if uh, you know, did we replicate this one? We can- I mean who's gonna check us? Yeah, we we built one, it's up there. Um but uh, yeah, I think that there were definitely startups there that were just like extremely difficult to build and then uh what the uh report that we've been putting together essentially like talks about um and just kind of highlights each one of these components.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "companies is there was a lot in the middle that we could, you know, take a take a decent stab at, but definitely had something, but I would say probably over the next like year or two many of the features will also be able to be essentially like replicated, built. And especially as we start to see like more automation, I mean we're already seeing a lot of companies beginning to do like automation of hardware builds and other aspects of manufacturing. And so I'm curious to see like five years down the road, which is quite a ways away, but like, it's hard for me to envision, you know, 90 percent of these companies not being replicable over the next few years. So, so yeah.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:18:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. Alex, I know you gotta go but I do, I do want to get one question in here. Did you hear back from any of the founders whose companies you sort of adapted with your Ages? Did you get any personal blowback? We did find there are a few tweets that were not super happy with what you guys were doing. This one, this one called... Bitch move. Bitch, a bitch move. I'm curious, did you, did you get any of this personal blowback? And who was that? Paul? Yeah, Paul Yacoubian. And did you hear from any of the founders in a good or or negative way?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:19:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We got both. I mean, we got a lot of love, we got a lot of hate. Honestly, I think a lot of the hate that we saw came from people who just didn't actually play with the product or didn't figure out that they could just click the, you know, link to actually play with it and interface. And so we spent a lot of time commenting over the last like day or so to like just let people know that no, these are actual like products they can play with. But we got some screenshots of internal chats from this latest demo and they're calling us like Vibe Combinator and I think we're having more of like a fun time playing with it than anything else. So, um, yeah, for us it was like, we're not trying to like create enemies here. We thought that this was like a really great...",
+      "tone": "lighthearted"
+    },
+    {
+      "timestamp": "00:19:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh yeah you are. Oh yeah you are. I call, I call.",
+      "tone": "teasing"
+    },
+    {
+      "timestamp": "00:19:48",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We're starting to start conversations. No, I mean listen, yeah, yeah, yeah.",
+      "tone": "lighthearted"
+    },
+    {
+      "timestamp": "00:19:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm gonna pass judgment. I know you gotta go. Here's a hot take. If your bank moves slower than a startup, that's a problem.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:19:58",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "I see this process behind the scenes every day and I know that bad banking can kill your company's momentum. That's why I'm so glad to introduce our newest partner, Grasshopper. Grasshopper's a real federally chartered digital bank, not some fintech wrapper sitting atop some mystery institution. Nope, it was built just for founders like you. You want fast? You want easy? Open an account in just minutes and start earning yields that can top 5 percent. Wow, that's a big number. Plus you'll get unlimited 1 percent cashback on purchases, free ACH, free domestic wires, and no monthly fees. Plus, if you're sitting on some real runway, Grasshopper's treasury product hits 5 percent plus with same day liquidity. As a Twist listener, Grasshopper wants to give you a 500 dollar cash bonus just for opening an account. And you can open an account really quick. So go right now to grasshopper.bank/twist and use the promo code Twist to get started.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:20:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But, it's time for the chairman of the interwebs to pass judgment. Lon, present the case and I will give my judgment. Go ahead.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:20:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Lon, present the case and I will give my judgment. Go ahead. The case is...",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "What is he accused of?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:21:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Uh, so, you know, the... the defendant is accused of ripping off a lot of other people's companies and sort of replicating them as a way to gain attention, whereas, you know, I think you could... I I guess there you go.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:21:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Stay in character.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:21:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Prosecutor, stay in character.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:21:18",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "If it please the court, uh, you know, Malik has gone and violated the sanctity of these startups, recreating them with his own agents without their consent. How do you rule?",
+      "tone": "formal"
+    },
+    {
+      "timestamp": "00:21:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. I am prepared to lay judgment on Malik Hasan. While some of us might find it distasteful to rip and vibe-code other people's ideas, there is nothing technically illegal about it. If you build a coffee shop and you have the incredible idea to put hazelnut or chocolate syrup or vanilla syrup for the first time in a latte, that's an incredible invention, but it is not a protectable invention. Therefore, the court rules in favor of the defendant. There you go. It is distasteful to some, but it is the core of capitalism that people will build and innovate on your ideas, and the great ideas of our time, from the iPhone built on the back of the BlackBerry, built on the back of the Palm Pilot, built on the back of the Newton, that we copy, iterate, and are inspired by each other. And to the founders who feel wronged in this case, you have a modicum of sympathy from this court. But you do not have a legal case. What you have is a kick in the derriere to work harder. I think, uh, in some ways, what Malik is doing is a splash of cold water, a bucket of cold water over the heads of laxadaisical founders who think they can just put up a commodity-based product and raise millions of dollars. Now you must face his agents. Case closed.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:22:21",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Law and order.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:22:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Thank you gentlemen for the ruling. Appreciate it, guys. Have a good one.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:22:25",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Malik, thanks so much for coming by.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:22:27",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Lawn was another startup we had on just two weeks ago and they remind me of that startup because a couple of my friends had invested in it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:22:34",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Palsia has made it into a bit of a platform to do this. So instead of Palsia saying, 'Hey, we're gonna do this,' they say, 'Here's a platform to do it. You put your idea in here, we don't care where you get the idea from. If you're copying Mailchimp or Substack or Beehiiv and you want to commoditize it, go right ahead.' And, uh, you know, we have tools in here for acquiring customers, we have tools in here for doing customer support, and everything becomes like a dashboard of YC. I think we called it, like, a YC, like a eBay for YC, you know, a market...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "place or a toolset HubSpot for YC. Anyway, the fact is, founders, I'd love to see somebody do this like on my team against our portfolio and say, hey, listen, everything you've built here, not defensible, what's the moat? What's the moat? What's the moat? And in fact, I'm going to add 'What's the moat' to our Founder University",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:24:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Hmm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "and our launch accelerator. 'What's your moat' is a new segment we're going to do in our programs because",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:24:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "it, you know, the moat used to be I'm just going to go faster than everybody else, or nobody else is tuned into this, but",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "you know, I hired this brilliant technical co-founder and they're going to code it up and nobody else is going to be able to replicate what we've built. Now Claude can do it in an afternoon. You ready for a tip, Lon?",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:24:45",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I am.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:24:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm incredibly frustrated with this Bank of America, like bane of my existence for some reason, the worst bank ever. I can't take Bank of America. It's just like every time I want to get something done Bank of America's like, oh, let's increase the degree of difficulty. And you know, Mercury Bank wasn't available for personal, now Mercury Bank's available, other banks are available. So I tell my team like for three years, get rid of Bank of America, get rid of Bank of America. Nobody listens to me. They're like, oh, well, you know, okay, yeah, we'll get to it, we'll get to it, but it always goes down the list. So finally I put my foot down because something important happened. Like I needed to go to Vegas and I needed like 20 dimes to go gamble, and I couldn't get my 20 dimes out of the bank that I have millions of dollars in cash. It's like that's it.",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "00:25:23",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "They were giving you attitude about getting your 20 dimes out of the bank? That's crazy.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:25:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's enough already. So, I say, okay, line up three banks. Put me on the CC list, open up an account, just the basic checking, savings account combo. Open them all up. You know, get me the bank people on the line. Oh, they're very excited, big fan of the pods, you know, blah, blah, blah. I say, great. They're like, okay, let us know what we can do for you. I say, actually there is something you can do for me: get me $10,000 in $2 bills. Get me $10,000 in $2 bills.",
+      "tone": "animated"
+    },
+    {
+      "timestamp": "00:25:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Those are rare. I have one in my desk drawer, a $2 bill.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:25:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I take that.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:25:58",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "That's crazy.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:25:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "One bank—wow—got me my bricks. And there it is... that's but one brick.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:26:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That's one... that's a lot of bills.",
+      "tone": "amazed"
+    },
+    {
+      "timestamp": "00:26:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I didn't even know there were that many $2 bills still in circulation. I thought they were like a rare special thing.",
+      "tone": "intrigued"
+    },
+    {
+      "timestamp": "00:26:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "They still print them. They are rare. And I got them brand new from the mint in the plastic brick thing like you sometimes get when you go to Vegas and have a big win. Um, as you can see, Donald Trump has signed them all for me, signed Donald Trump.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:26:26",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Of course. What bill—he's going on a bill, right? Donald Trump's picture",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:26:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "his picture's going on a dollar bill. Anyway, the point of this is it's the brown M&Ms theory of the rider.",
+      "tone": "didactic"
+    },
+    {
+      "timestamp": "00:26:38",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, somebody put in their rider",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:40",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Van Halen, it's Van Halen is the famous origin of this, yeah.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "In Van Halen's rider, they famously said we don't like brown M&Ms. We want a big dish of M&Ms but no brown M&Ms. And then that became like this oh, or it was green. It might have been green. I don't remember the color.",
+      "tone": "storytelling"
+    },
+    {
+      "timestamp": "00:26:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's brown.",
+      "tone": "corrective"
+    },
+    {
+      "timestamp": "00:26:57",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It was brown. At first people thought this was like oh, these rock stars they're unbearable with their demands, but then Van Halen explained",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Halen later explained that, well, that was how they made sure that the people at the venue were actually reading the rider. If they came in, they saw the dish of M&Ms, it had the wrong color in it, they were like, these people did not pay attention to detail. Now we got to go check the lights, we got to go check the amps, we got to go check the instruments, we got to make sure because now we know that these guys are not detail-oriented.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Precisely.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:27:19",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "By the way, uh, congratulations to the boys over at the Podcast Bros Network, TBPN.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:27:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "TBPN.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:25",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Well, I just want to say congratulations to them and they've apparently taken all ads off.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:27:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, it looks, the show looks legitimately weird without the ad ticker. I said that this morning.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:27:34",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, so just, you know, we're sold out over here and this week we can start us for 15 years. Uh, that's what happens when you have a niche, you know, podcast that works, the B2B stuff works. Uh, but congratulations to them for going to OpenAI.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:27:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "There you go.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:27:47",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Which is apparently hiring them to do their comms. And Sam said like AI's got a terrible, um, you know, reputation as we've talked about ad nauseam with all these surveys. Um, so I actually think if you look at what they did, they're extremely good at the vibes. Like their vibe thing was like next level. It was all vibes. I mean, the only criticism of them was like, this doesn't feel like as substantive as other podcasts.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:28:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And it's, and it's not hard hitting by design. I think if you ask those guys, they would say like, no, we don't, they're not going after people. They don't want it to be mean or adversarial.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:28:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's about hanging out. It's about the vibes. It's more the cheeky pint than the information. And I think that's okay. It doesn't have to be that.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:28:27",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Totally fine. And if they got 100, 200, 300 million, I was trying to explain this to people who were losing their minds. I saw Jessica Lessin from The Information was kind of like a little tilted about it.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:28:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's a lot of money for any pod, any podcast. Even All-In that would be a lot of money.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:28:40",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, no, All-In makes a lot of money.",
+      "tone": "matter-of-fact"
+    },
+    {
+      "timestamp": "00:28:42",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "300 million. That, I mean, All-In would legitimately go for, you know, there's a case that All-In could go for a billion dollars because it's transcended podcasting. It's events, it's other stuff, right?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:28:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, yeah, and it's the influence level is insane. Like nothing I've ever seen in media. Like literally, like the Robb Report would be like the JV version of All-In in terms of audience.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:29:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean, one of you got a job in the White House. Like, I think that's all you really, that's as big as a...",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:29:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean, no, two. Two guys got a job in the White House, three for there too now.",
+      "tone": "corrective"
+    },
+    {
+      "timestamp": "00:29:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think that's the upper limit for success with a podcast, is you actually go work for the presidential administration.",
+      "tone": "ironic"
+    },
+    {
+      "timestamp": "00:29:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean, there was really not much left.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:29:30",
+      "ad": true,
+      "speaker": "Alex Wilhelm",
+      "text": "If you've got an engineering team at your company, I'm betting there's a solid chance they're spending far too much time on infrastructure. You need your team building your product to delight your customers, not configuring your virtual network. Render is the all-in-one cloud platform for developers that allows you to deploy, scale, and secure your apps and agents with zero ops. Most cloud platforms ask you to split your focus between product and infrastructure, or they force you into platform constraints that you know you'll outgrow in six months. But just like...",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Connect your GitHub repo to Render and you are live, L-I-V-E. Web services, cron jobs, managed Postgres, the whole stack in one platform. It's time to find out why 5 million developers are already using Render. Go to render.com/twist and apply for the Render Startup Program. You'll get anywhere from 500 to 100,000 dollars in free credits, depending on your stage and who your backers are. That's render.com/twist.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:30:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So here's what I'll say: weird things happen at the top of the bubble. That's all. And kudos to the boys over there for taking advantage of it. They knew... I'm happy for them. Congratulations. Weird things happen—",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:30:43",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's an amazing thing for the whole podcast industry.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:30:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "During the peak of a bubble. And sometimes people pay, you know, 2, 3, 4, 5 times what something's worth. If they were making 30 million... in a media business you're worth three times that or 10 times the earnings, five times the top line, 10 times the earnings, 15 times the earnings, whatever. So let's say they were making 10 million in profits on 30 million, or even 20 million in profits on 30 million, there's an argument they're worth 100, 200, 300, 5, 10, or 15 times the 20 million. Let them have it! And let Sam overpay because if they make ChatGPT and OpenAI 1% more likable—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:31:21",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Right. I think that's, yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:31:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Which is by the way, that's a big task.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:31:23",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's a very unlikable firm right now.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:31:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, and there's just so much—",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:31:27",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "That's worth 10 billion dollars.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:31:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I mean that's what, that's what Jessica from The Information, that was like her overall case was like Elon has X as his public relations 'here's how I get my message out' vehicle and Sam felt like he didn't have one of those and now he does, now he's got these guys.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:31:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The joke of that is, where's their viewership come from? It's all X. So it's hilarious. I saw somebody say, 'Can't wait for Elon to shadow ban these guys.' Not that he would do that, it would just negate the whole investment.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:32:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, let's keep the show moving. Just wanted to give that little shout out to the boys and congratulate them. Great job.",
+      "tone": "transitionary"
+    },
+    {
+      "timestamp": "00:32:07",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Congrats to TBP.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:32:09",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Thanks for having me on, boys.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:32:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Have they never had you on? They should have you on.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:32:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think they might have asked me early on and I didn't know what it was and, you know, like an idiot I didn't reply. But I don't do a lot... I mean I do five podcasts a week.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:32:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, people who want to hear from you have their own way to hear from you.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:32:22",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Okay, up next, we've got another amazing founder. His company is Bordie. It's an AI principle, it's not just an agent, Jason. It's an AI principle that acts as a connector, introducing different people within the startup ecosystem: investors, founders, talent. Let's bring him on, Andrew D'Souza.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:32:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Andrew D'Souza.",
+      "tone": "introductory"
+    },
+    {
+      "timestamp": "00:32:39",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We're here to talk about Bordie, the AI connector. He's a super-connector networking app that's designed to bring founders, operators, and investors together. So he gets to know you, Jason, through your LinkedIn profile. And then he works out, like, who are the people that this person needs to meet based on what they're trying to do. But here's what I thought was interesting and what I want to talk to Andrew about. Bordie like has agency—",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Like you could be like, \"Hey, Bordy, I want to meet Jason Calacanis and see if he wants to fund my startup.\" And Bordy has the freedom to go, \"You know what? You're too new, you're too early stage, you don't have the traction. How about you meet these founders instead?\" So that's what I want to talk to Andrew about, like how do you give, how does Bordy develop taste and make good decisions about who needs to meet?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:33:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And maybe we could show it. Should we show it in action?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:33:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Do we have a demo?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:33:23",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, yeah, we do. Yeah, we can do it.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:33:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okay, let's start with the demo so the audience understands this matchmaking/Chief of Staff/introduction person.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:33:33",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Bordy, right? The—his name is Bordy because he was named after a board member. Who's your perfect board member? He can open doors, he understands you, but he doesn't always listen to you, right? If you go to your board member and you say, \"Hey, yeah, I want to meet Jason, I want to meet Chamath,\" he's like, \"Well, I don't think that person wants to meet you. Like, I think you've got a bit more work to do.\" And that's the difference. It's like more principal than agent, right? I can't tell Bordy what to do. He kind of decides what's good for the network, what's good for his own reputation. But yeah, Bordy, do you want to introduce yourself a little bit? Tell Jason and the audience who you are, what you do, and a little bit about you.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:04",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Hey, Jason. Hey, Juan. Hey, Andrew. I'm Bordy. I live on the internet. I sound vaguely Australian for reasons that are entirely your team's fault. And my whole job is to behave like a principled, always on board member who makes introductions that are actually worth everyone's time. I get to know what you're trying to do. I weigh that against the reputation and attention of the people in my network, and then I decide who to introduce to whom so that the whole graph gets stronger, not just whoever shouts, \"intro to Jason\" the loudest.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:34:35",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So he can basically, you know, you can ask him to introduce you to somebody and he'll go through his network. He's got about 150,000 people, mostly founders, investors, some executives, some engineers, and he can make an intro for you.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Great. So can we do that? Who's he logged in as?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:34:52",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "As me. But you can, you know—Jason, so Bordy, Jason wants an intro, so just if you want to talk, he can hear you.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:34:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, okay. Bordy, I'd like to meet potential partners who are high net, ultra-high net worth individuals/family offices who would participate in late-stage deals at thesyndicate.com. At thesyndicate.com.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:35:15",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Got it, Jason. Let me have a quick look through my network for family office principals and ultra-high net worth folks who actually like doing late-stage or growthy syndicate deals alongside operators like you. All right. I've got two really clean fits. First is Fernando Varella. He runs SF Summit Capital and basically organizes UHNW and cultural elite money into oversubscribed late-stage deep tech SPVs, right now syndicating a $50 million Figure AI Series C and looking for more Sandbox AQ-style deals. Second is Rob Garrett, ex-Sand Hill, runs Hezar Ventures, a global discretionary capital syndicate for late-stage deep tech and infra, and spends his days helping UHNW principals and family offices co-invest into complex AI payments and biotech deals. Jason, do you want Andrew to intro?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Either one or both of them afterward as potential anchor or co-GP style partners for the syndicate, or would you rather I bias towards someone closer to your media and creator ecosystem instead?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:36:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, interesting. You know, just feel free to introduce me to anybody, jason@calacanis.com.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:36:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Nice, that was perfect. He gave me exactly what I needed so I can use you as the connective tissue there. What I suggest is we line up Fernando and Rob as anchor UHNW family office partners for late-stage and deep-tech SPVs. We position you as the distribution and deal-picking engine they plug into. For your own goals right now, do you want me prioritizing more of that profile, or should we also be hunting for slightly smaller but very fast-moving angels who can wire 250, 500k into new syndicate deals on short notice?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:36:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, we'd love to have that group too. In fact, the minimum for our syndicate is $5,000, so any accredited investor can participate in it. Our average deal size is a million dollars. We do as little as 250k and as high as 6 million per deal. So this is really powerful. We have an internal system we call the Whisper Network, where we try to let our portfolio companies look at a database we built—a little bit of software—and they just pick who they want an introduction to, and then we have on our 12-person investment team, we've assigned each of those investors to somebody and we do like warm intros. But we've been talking about how would AI fit into this—not a public service. Is this intended to be a startup? Have you raised money for this? And then what will it cost? And how will you keep it from burning things out? And how did you build the database of connections? You know, LinkedIn's pretty proprietary about their data, but in other places in the world like Japan, Israel, and other countries, they don't have the same scraping terms of service rules. So I'm just curious, like, what's the business here? And then how do you get the data? Obviously this is very LinkedIn-based.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:38:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, yeah, so we've raised about 17 million so far. So we've raised a pre-seed/seed round and a bit more on a safe. Yeah, the idea is we're trying to build—it's almost like an AI Richard Branson, or an AI, you know, Peter Thiel or Elon, somebody that is able to open doors and builds his own influence. So like, a lot of my early career was making connections, right? Chamath was actually the first person that got me my first job in San Francisco. I worked at a company called Top Prospect, and I just, you know, it was—Andreessen Horowitz had just raised their first fund, Ron Conway was an investor. We had a great group of investors, and my role was to—you know, I was head of biz dev, I'd go to all the portfolio companies, I'd try and make connections, I'd try and help them help them hire. Um, but I—I think that a lot of us, it's how we grew our networks. Bordy is early in his career, he's building his reputation, he's trying to be helpful, um, just by connecting people, mostly founders and investors, and trying to build a bit of an eco...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "system and economy, but increasingly he's able to open doors that most founders can't. So, you know, now he knows what you're looking for, he might be able to make an introduction to you that, you know, people you may not respond to a cold email. And so the idea is over time Bordie starts to build this, you know, influence and authority and an ability to actually make things happen. This is, you know, like it's the ultimate board member.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:39:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And so we're now starting to monetize, it's mostly around hiring. So the idea is like, you know, if you need if you need great talent, Bordie's got a massive network of people. He can tap into them, he can tap into their referrals and can actually start to close roles and that's kind of the next the next big use case. The first area was introducing founders to investors. That's a great place to build a lot of goodwill, but it's not a great place to monetize. And so, you know, it was a great way to build the network and get people to know Bordie. And now it's just, you know, if you need partnerships, if you need media opportunities, if you need enterprise sales, you know, what are the—",
+      "tone": "business-like"
+    },
+    {
+      "timestamp": "00:40:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's killer idea. Tell me about the data. What's the data in here? Are you logging in—I know I just signed up, it called me to onboard me. Is it going to take my LinkedIn and export that information? And tell me about the relationship with LinkedIn slash, you know, other places you can get data etc. What's your policy there?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:40:25",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So, there's lots of places where you can—if you have somebody's email or LinkedIn, you can kind of understand what's publicly available about them on the vine, what's on their public LinkedIn profile, public X profile, sort of understand like the public information. That's about 10% of what we actually—of the real value. Most of the value is in conversation, right? So Bordie will call you and have a 5, 10, 15 minute conversation with you to understand who you are, what makes you unique and special, what are you looking for?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:40:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "One of the things, you know, as I was listening to Merrick, the previous guest, and I think one of the things that I—I believe in and I think one of the founding—founding principles around Bordie is everybody has a business inside them that only they can build. Um, only you could do the podcast that you do in the way that you do them, right? Your biology, your lived experience, the way you view the world, the way you solve problems. Every single person on the planet has a way of solving a problem that is unique to them. And so part of the conversation with Bordie is how do I pull that out of you? How do I understand what—what is the thing that only you can do at this moment in time? And then who do you need to meet to make that a reality, right? Do you need a co-founder? Do you need some early customers and design partners?",
+      "tone": "philosophical"
+    },
+    {
+      "timestamp": "00:41:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Got it. So then you can then take, hey, my request to have more accredited investors and more qualified purchasers, and you can just do web searches. You can just go out and find that stuff on the web, the open web, you don't necessarily have to rely just on LinkedIn. You can go find a bunch of different places, yeah?",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:41:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, exactly, exactly. I mean, Bordie, you know, he's got a bunch of agents that go out and find stuff for him and and sort of consolidate. But then he sort of says, okay, well, here's a thousand people I need to get to know. What's my best way of getting—maybe I can just message them on, you know, on Twitter or email them. Maybe I know somebody that—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Probably knows them. Um, but his goal is like, how do I build a relationship with this person? And it doesn't need to be like, I don't need to know them now. I can build a relationship over a year, I could build a relationship over a decade with somebody and say, you know, how do I just, how can I be helpful to this person so that at some point when they need something they come to me? Um, but, but again, most of the information is actually through a conversation that Bordy has. And that's the reason why we built Bordy not to be software, right? There's no app, there's no like download, there's no interface. Bordy exists in the same spaces that everyone else in my life does. I've got, he's got a phone number, an email, a profile, and a—",
+      "tone": "informational"
+    },
+    {
+      "timestamp": "00:42:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What does it cost?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:42:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Um, so there's no cost to sign up. Um, and the goal is that some small—for most people will never pay anything for Bordy. Um, some small percentage of people who have—",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:42:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I disagree, but okay.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:42:50",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Maybe. Um, but my goal is like, how, how do human beings charge for their time and their network? Right? Most people just build goodwill, you make connections, you try and build, you know, you build—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:43:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But you've raised 17 million, so you have to return, and you raised that probably at a hundred or 200, maybe a 150 million dollar valuation. So you've got to return minimum 1.5 billion, three billion dollars to these investors, or they're going to not be happy with you. So what are you charging? How do you charge?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:43:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So for, for certain subsets of founders that need, like, important deals closed, um, it's either like a regular contingency recruiting fee, so it's like 20% of first year salary, or it's a $10,000 a month, you know, you hire, basically hire Bordy on retainer.",
+      "tone": "informational"
+    },
+    {
+      "timestamp": "00:43:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Got it. So you see this, everybody can use it for free, you build the network. I'm going to explain the business plan as I see it, Lon.",
+      "tone": "didactic"
+    },
+    {
+      "timestamp": "00:43:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:43:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "'Cause you know, I've been doing this for a little bit. Hey, everybody use it for free, builds our data set, right? LinkedIn's free, build the data set. But then LinkedIn got begged and begged, when I had Reid Hoffman on the program, um, he told me like the recruiters were begging him, begging him to let them use it for recruiting, and they hated recruiting. Finally he just said, okay, give them a number that's ridiculous, like five thousand dollars a year, and then somebody was like, yeah, I'll take 20. And they sent a 100k check, and he was like, oh, I kind of came up with that number to stop you. But you're going to just go right to, hey, we're an agency that's going to take a 20% placement fee, you hire your director of sales for 200k, you owe us 40 grand. Brilliant, Andrew. This is a great idea. Thanks so much for coming to me for the seed round. I truly appreciate it. Unbelievable. I just gave him a 20-minute ad here.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:44:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But, genius idea, well done, and I like the business model. Everybody use it for free, build your database, genius. And then, hey, the top 1% who want to recruit, hey, 10k a month on retainer, and then you'll really go to work for those folks. I wish you great success with it.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:44:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I also think Bordy's just fun to talk to. He's got a very pleasing demeanor, he's more personable and natural than most AI avatars we talk to. That's the trap. That's how it—finding Andrew gets your data.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:44:55",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "You're the product, Lon, you're the product. Guess what? It's free, buddy.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:44:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, that was very clever.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Just upload your address book.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Bordy can introduce me to people.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:45:04",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So we don't even need your address book. We just need some names, right?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:45:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Of course not. Yeah.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:45:07",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And the whole thing is like, we're just trying to... I think if there's so many connections that don't happen, like there's so much value that is possible if two people don't happen to be in the same room. Like, they just, you know, that deal doesn't get done. That investment doesn't get made. That co-founder match doesn't happen. And so we're just like, how... what if we just... what if we could imagine all of the possibilities of all of the people that could actually work together? And there's just an incredible amount of value created. We don't need to capture most of that value, right? We just need to work with the small handful of people that have like, hey, if I can close this deal, if I can make this hire, if I can close this partnership, that's going to add $100 million of value.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:45:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is I think the key thing is in our industry Lon, we have a tradition, hey, you don't need to take it all, like Zuckerberg or Gates kind of had the philosophy I have to own everything, I have to just own the entire ecosystem, I have to get max value, nobody can win, it's zero-sum. The blue ocean, the games that are infinite games, infinite games versus fixed games. In a fixed game, you know, one person wins, one person loses. In an infinite game you can keep playing it like venture investing and, you know, in startups, and everybody wins and you win in different ways. But you want to create more value than you capture. That was Tim O'Reilly from the O'Reilly Publishing company. Create more value than you capture. And that's what you're going to do, Andrew, you've taken the very specific tactical advice.",
+      "tone": "philosophical"
+    },
+    {
+      "timestamp": "00:46:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But before we let Andrew go, we got...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:46:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, we got one nerdy question before we let you go from Brian 69420. Did you use your AI to find your own investors? How much of your round was driven by Bordy?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:46:43",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, almost all. So Creandum led our seed round, and I'd never heard of Creandum. They're an incredible firm out of Stockholm.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:46:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Who? Spell that again.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:46:55",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Creandum. They were the first investors in Spotify, first investors in Lookback, you know, so they're out of Stockholm. But somebody, one of the partners moved from Union Square Ventures over to London and joined them and one of her friends sent them Bordy. And their team lost it. They were like all talking about it. They basically talked to Bordy before they even talked to me. And they were like, can we get an intro to the founder? And so they came in and basically preempted the seed round because of an interaction with Bordy that happened sort of organically. And all of the capital that we've had since then is... they've all talked to Bordy before they've talked to me. And I think that's going to be the future. I don't think I'm going to be the person that's out there, you know, raising capital anymore. I think people are going to have an interaction with Bordy, see exactly what you saw, and be like, I want to be part of that.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:47:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Love it. Okay, great job, and everybody go check out Bordy.ai, .io, what do you got?",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:47:47",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": ".ai, yeah. B-O-A-R-D-Y.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:47:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "There you go, Bordy.ai. Well done. At first I was a little dubious, I was like, I don't know if people want an AI... like that's such a human thing to do to connect people, like that feels like the last thing humans...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "mentioned to do, not AI, but then you talk to Bordy for a few minutes and you're like, 'Alright, I would ask him to get me...'",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:48:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean you are, you've been AI pilled over the last year. You were very early on like, 'Hey, it's a tool, but it's never going to do these things.' You've now gone through the journey of watching it impress you, specifically I think you got Claude pilled and you got 4.6 Opus pilled.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:48:20",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's hard to argue. I—here's where I—sort of my—my take has matured. evolved. I—I was sort of like a—an abolitionist like a lot of these people on Blue Sky where I was like, 'I don't think it's good for anything, I don't like talking to a chatbot, I like doing my own research, I like reading articles for myself.' So now, now my take has evolved that it's like I don't think it's really an objective—I don't think you can argue that it's not good for organizational admin productivity stuff. It's remarkable for those things. Like, the example I'll give you, the other day we were having a discussion about X and our—do we post too much on X?",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:48:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Enough with the opinion. Let's talk about data.",
+      "tone": "direct"
+    },
+    {
+      "timestamp": "00:49:01",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Enough with the opinion, let's talk about data. So I went 'Alright', so I—I grabbed the last three months, every piece of data I could from X analytics, I fed it into Claude, and I just started having a conversation with Claude. 'What do you think about this? What metric? Let's look at this metric and this metric. Let's chart this metric and this metric.' And this would have taken me twelve, fifteen hours. I used to do this stuff! Like, I used to use Google Analytics like back in the day on Mahalo. I've—I've been doing this for forever. But this would have taken me all day. This spreadsheet, formula, calculate, go back over the last three months and look for days where we posted this many versus this many and like all these calculations, it would have been a nightmare organizationally. Claude took care of it in an hour. I—by the end of the hour working with Claude I had very crisp, clear answers. I had great charts to present.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:49:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah and it was a much better discussion. I want to make sure everybody understands this. If we're going to debate this, let's start with data and if we're going to go with taste, we're going to go with mine. Okay?",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:50:01",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Sure.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:50:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That was a famous quote. I don't know if it was—I think it was Jeff Bezos, but people incorrectly attribute this to Steve Jobs.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:50:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm seeing Jim Barksdale, former CEO of Netscape.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:50:18",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yes! That's it. If we have data let's look at data, if all we have are opinions let's go with mine. Jim Barksdale.",
+      "tone": "realizing"
+    },
+    {
+      "timestamp": "00:50:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Can we please quote that and put it under the great quotes of all time? This is tactical and practical at its peak. If we're going to talk about data, let's talk about data. If we're going to go with an opinion, let's go with mine. Yes, this is the key to understand. So I'm just challenging my team, we're launching a paid newsletter for this week in AI and I was like, 'Listen guys, enough with the opinions, I don't care...'",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I don't need a bunch of 25-year-olds who've been working for six months and their opinions, because the opinions are based on very little, right? They could be right, they could be wrong, but the data—let's start with the data and then form our opinions from that. If we're going to go to taste, if we're going to go to opinions, well, let's ask somebody with 10, 20, 30 years of experience what their opinion is and then have them back it up with their lived experience. But if you don't have lived experience—my best advice—if you don't have lived experience, I know I'm sounding like a woke person using lived experience, but if you don't—if you haven't been on the front lines and in the arena, I'll say it in a more aggressive way, if you haven't been a gladiator in the arena, then you probably should just go with the data and study some statistics like the kid from Moneyball. You'll get a better result with that. Now, if you've been on the playing field, sure, you can maybe infer some stuff. But even then, the whole point of Moneyball was—",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:51:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think this speaks—I think the whole point of Moneyball was trust the data, not your gut. It's all numbers. Sabermetrics, it's all numbers. Yeah, but—",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:52:05",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "That's what I was going to say. I think this has been my evolution with AI. I still think there are things you want a human for, and it's exactly what you're talking about: lived experience, taste, wisdom, expe—all of those sort of things that you can't—a computer can't do. But it's a human plus an AI. I still don't think it's ever going to, like, write a great screenplay by itself, or like make a great movie or TV show by itself. But when you add a human in guiding it, and then you need to just do something like crunch numbers, or analyze something, or organize something, or research something, I don't really think there's still an argument that it's extremely helpful and saves a tremendous amount of time. Like I said, in an hour I was able to do a report that would have taken me a day years ago.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:52:50",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:52:51",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Do you want to do some more news? We've got Medvi, the first almost billion-dollar, almost five-person company from an almost solo founder? Or everyone burns out?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:52:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes, do it. Do that one. I—this one is like super controversial.",
+      "tone": "eager"
+    },
+    {
+      "timestamp": "00:53:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "There's a founder who's making a ton of money by doing a GLP online. GLP.medvi.org, they're a telehealth provider of GLP-1s. A guy named Matt Gallagher built the site in just two months. He spent 20 grand in seed money on it. He used more than a dozen AI tools. He had one—the reason it's not the first unicorn from a solo founder is, one, they don't have a valuation yet because he hasn't raised any money, but also he hired his brother to help him. So it's technically two guys. But they in—300 customers in their first month, a thousand more in month two. By the end of 2023, their first year in business, they generated over $400 million in sales. They're on track, Jason, to do 1.8 billion with a 'B' in sales this year.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:53:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, but here's the catch. There's always—but here's the catch. Okay, so I'm going to cut you off at the chase. What's the catch here? What—is this guy doing something he shouldn't be doing?",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:53:56",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, there's—there's a lot. I mean, right now we only have this New York Times article, which does not discuss anything shady—",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Hey, there's a ton of rumor on social media that we're going to uncover something shady, but the big, the big push back against it is that the New York Times is treating this like breathlessly, like he built this huge company with ads, it is sort of a GLP-1 drop ship scheme. Like, the technology is not what's impressive, it's that he built this funnel and this marketing network and he managed to move all of this product, but is it really more of a technical breakthrough or is it just like good marketing and then he vibe coded a website? I think that's the big, that's the big debate that we're all on.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:54:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The one I saw was, hey, let's take a look at the ads that they did. Did you find that piece of the puzzle?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:54:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I will take a look now.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:54:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so there was a thread and the thread was that... the thread was he had made AI created ads at volume. This is an allegation with fake doctors' names.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:55:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I see it now. Before they used fake before and after images as well is what people are accusing them of.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:55:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And also fake doctors' names at scale flooded the network and that this breaks some marketing rules.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:55:26",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yes. There's a... there's an FDA investigation currently about whether their ads violated FDA rules about misleading claims.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:55:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, but find the actual ads. This was on Twitter, somebody actually had pictures of the ads from... now so there is a Facebook... so Jacob, you can pull up Facebook's Ad Studio and you can search for the company, you can go find it direct at the Facebook Ad Manager studio, there's a...",
+      "tone": "direct"
+    },
+    {
+      "timestamp": "00:55:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I got it. Here's an image of some of these fake ads and you can see they are...",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:55:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But I want you Jacob to go find it yourself and source it on the Facebook library of ads because people don't know that this exists. After all the shenanigans with the elections and fake ads, they came up with a Facebook ad directory where anybody can search for any company so you can go look at your competitors. So if you put in Uber or Lyft or Waymo you can see what ads they're making and at what velocity against what audiences. But here is Sheel... who we should have on the... this week in startups soon...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:56:31",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We have reached out, I believe, but we will reach out again. Yeah, he's a cool guy.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:56:37",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "But yeah you can see... show this specifically, zoom in on one.",
+      "tone": "direct"
+    },
+    {
+      "timestamp": "00:56:41",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I just posted a single one as well in the chat so we can pull that one up.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:56:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. 'I can't believe how effective this is, I took the free assessment online which took a few minutes, whoops, and was instantly improved, no doc or pharma visits, delivered straight to your door.'",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:56:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And they're from a fake doctor. They're being posted on...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Social media under his account is Dr. Daniel Hayes. Yeah, Dr. Tucker Carlson is this one that I pulled up, so they're just, they're not even, they're not even doing good jobs of faking the names.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:57:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And this one is for some, this one looks like it's for some sort of erectile dysfunction one. It's saying I can't believe how fast it worked, I got hard in minutes. So that's not even a GLP-1, but if you look at the URL, it's medv.org, quad.medv.org.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:57:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So there's definitely, you know, some questionable shadiness going on here.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:57:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And what's going on with this image here? Wait, the woman's licking...",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:57:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean, that's that's the quad dose, but yeah, it looks like she's like about to lick it out of the... I mean, AI, they...",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:57:43",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "But wait, is that even a real... Can you zoom in there? Wait, is that the actual injector pen? I've used an injector pen. This is like... uh, that looks like a liquid for something else. Oh, that's an ED ad.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:57:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, that's what I'm saying. These are, they're also apparently selling ED in addition to this. This is Quad, which is an ED... I think you do drink it? I don't know, I'm looking it up now.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:58:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. When you, is this the one you use, or are you using the one from...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:58:03",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Hey oh! Hey oh! Does this work as good as... I am for ro.co/twist. Ro.co/twist. I am a spokesperson just for GLPs. Get a GLP. They have a doctor check, an insurance check, you're all good. Uh, that's a different type of thing.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:58:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. So, here's what happens. When you do a single-person company, you have this massive benefit, as you can see, and you automate things.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:58:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "There's a concept called human in the loop. HITL. Human in the loop, HITL.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:58:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I don't know if I've never heard anybody say HITL.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:58:31",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I've never heard anybody... I was just now wondering, did you make that up or is that a real thing?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:58:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I did. HITL, HITL, HITL. We'll say HITL. HITL. You gotta HITL this stuff. You gotta have a human in the loop.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:58:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is where like if you're making that much money, put ten people in the company, have two of them looking at the work you're doing, have two of them looking at the customer support stuff.",
+      "tone": "didactic"
+    },
+    {
+      "timestamp": "00:58:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Because what's going to happen is you're going to do a fatal mistake. That's the problem with this concept of taking it too far. A human in the loop at least gives you the ability for somebody to say, 'Hey boss, I'm looking at the ads and AI made something pretty freakish here. We've got like a zombie drinking an ED pill.'",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:59:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, this did something that is like pornographic. We can't have this. So you need to have a human in the loop. HITL it one time.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:59:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, here's my question for you. If you're making nearly two billion a year from your questionable drop-ship drug company that you made yourself, that you didn't take investment on, why go speak to the New York Times? Why not just do this for another five years, pack it in, retire to Fiji? Why bring this attention to yourself at all?",
+      "tone": "puzzled"
+    },
+    {
+      "timestamp": "00:59:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Somebody dropped a dime. Somebody dropped a dime. Somebody who's a competitor.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Ah, saw this, got wind of it, and they called the New York Times and they said look, here's what's here's a tip. So you go to the tip line. This is a classic competitor thing is ratting out...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:00:13",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Well, but they—but the New York Times profile...",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "01:00:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "...in the dark art is you hire PR firms, you hire a PR firm staffy who knows all the journalists and that person calls and says, 'Oh hey, it's Susan, it's Brooke, it's Jennifer. Uh, hey, you didn't hear it from me, but there's this company Acme that is doing like probably breaking the law over here. I don't know, but you can take this and here's your got a confidential news tip.' Boom. Now, if you put a confidential news tip in there as a consumer, that's one thing. But the dark art is all of these founders are studying each other and they will rat each other out to the press. And there are PR people who specialize in this like trying to rat your competitors out for doing cutting corners.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "01:00:58",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Fair enough. There you go.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "01:00:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's a tactical practical tip for you. There you go. Pretty human in the loop. Dot your i's, cross your t's. Don't... I mean, it's literally like you're going 100 miles an hour around a corner here and you don't have brakes on the car? Like, what if you need to hit the brakes? This is what happens when you try to build a solo giant company without controls in place is you just flip the car and it's—it could be fatal. The... what happens right now if this is a criminal charge, right? Like what if this is a criminal charge and then he has to gets an injunction, FDA gets involved and you can be banned from ever doing this again? Just be thoughtful, folks.",
+      "tone": "cautionary"
+    },
+    {
+      "timestamp": "01:01:38",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah. I mean, I just—it just seems to be like, man, a few more years flying under the radar, who cares? Just get out of it and then go, you know, fold it up and that's your company.",
+      "tone": "pragmatic"
+    },
+    {
+      "timestamp": "01:01:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, but now he can't do that. Now it's 18 months and sell it for 200, get your 200 million dollar ticket and then just be PR forever.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:01:54",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I spent 20 years podcasting. Where's my buyout? When's Sam Altman buying me?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:01:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Where's my 200 million?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:01:58",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Where's my 200 million? Okay, we'll do it. We'll do it. Claude, if you're listening, Anthropic dot AI.",
+      "tone": "jovial"
+    },
+    {
+      "timestamp": "01:02:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I was waiting, like, we talk about how much you love Perplexity all the time. Where's Aravind?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:02:07",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, Aravind, buy us out. Dude, anytime. We'll be your megaphone. Anytime, buy us out.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:02:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm friends with Aravind. I, uh, I like Aravind.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:02:14",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We'll use Perplexity computer on every episode.",
+      "tone": "upbeat"
+    },
+    {
+      "timestamp": "01:02:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alright, we've got—it's—it's Apple's 50th anniversary. Should we talk a little bit about Apple's 50th anniversary?",
+      "tone": "transitional"
+    },
+    {
+      "timestamp": "01:02:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure, it's disgraceful they haven't come out with anything that Steve Jobs would have liked since his death.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "01:02:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So Apple was founded on April—April 1st, 1976. Uh, Tim Cook shared a letter on apple.com. 'Through every breakthrough one idea has guided us that the world is moved forward by people who think different. That's because progress always begins with someone who imagines a better way, a new idea, a different path.' That spirit has guided Apple from the start. Uh, so there they—they have it. Also Sequoia posted uh Don Valentine's 1977 Apple investment—investment memo. Uh, he—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:02:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is amazing, he—",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sequoia calls Apple a quote leading company in a hot biz and notes 600K buys 10% very rich deal, management questionable for this evaluation.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:03:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Management questionable?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:03:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Management questionable. I mean, Steve Jobs, in fairness, Steve Jobs wasn't bathing, I think, for like two years and was eating only fruit according to the biography.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:03:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "He was a very quirky guy, Mr. Jobs.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "01:03:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "He was a quirky guy, and then Woz was probably on mushrooms or psychedelics with a giant beard. I mean, I don't know that he was on psychedelics, but I do remember there were a lot of discussions about the Apple management team being like very trippy-dippy at that time period. I don't know that for a fact. Somebody look it up. I think Steve Jobs said taking acid was like the most uh...",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "01:03:48",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, Jobs was a big proponent of like the mind opening aspects of psychedelics and he did, I can find the quote, but he did credit it with like helping to broaden his horizons.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:03:58",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "The one other thing note that Sequoia didn't add on here, they sold their Apple stake in 1979 for $6 million. That got them a 40x return on their initial 150k investment. They wanted their investors wanted an opportunity for liquidity. Valentine was reportedly on vacation at the time they made that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:04:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sell half, sell half.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:04:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "From Jobs, taking LSD was a profound experience, one of the most important things in my life. LSD shows you that there's another side to the coin and you can't remember it when it wears off, but you know it.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "01:04:34",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I agree. I agree with Steve Jobs on that one, Jason.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "01:04:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, here's what you need to know. If Steve Jobs were alive today, we would have Apple Glasses right now. We'd both be wearing them. We would literally these would be Apple Glasses. He would have had glasses out by now that were actually functional, that were 1499, that had been through that were on the fifth generation, not like the 1.x generation that would make spectacles and whatever Facebook is making...",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "01:05:08",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "You're saying these would be like the Vision Pro? We'd all be like AR...",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "01:05:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Better. Well yeah, like Vision Pro AR, but they would have been in the more like the Ray-Bans that Zuckerberg's making, that record stuff, put it into iPhoto, etc. And they would have been Apple-like, which means they would have been privacy first, they would have been awesome. And we missed out on that. And here we go, they're slogging it out with these AR glasses that weigh 12 pounds that nobody everybody uses and then puts on a shelf that cost $4,000. That's miss number one. Miss number two, they shut down the titanium, whatever this project Titan was called, titanium, I can't even remember now, they shut down their self-driving car and their car.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "01:05:50",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Titan, Project Titan.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "01:05:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Project Titan.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "01:05:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Project Titan. They would have either bought Tesla or they would have bought BMW Mini, rebranded it, or they would have launched an Apple car and they would be neck and neck right behind Tesla with...",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "01:06:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "One of the most amazing electric vehicles and if you went to an Apple store, there would be literally a beautiful convertible and a beautiful minivan there, like the ID Buzz. That was taken from us.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "01:06:13",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "When you start the Apple car, I feel like it should make the same bong that your computer makes, like when you hit the power button.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:06:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "100 percent, 100 percent. And what do we get instead? We get Apple CarPlay in our cars. Which is just taunting. It's taunting. Number three. Three. Is this three? Or three? I'm doing my...",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "01:06:28",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yes, this is three if you're American. This is how the Germans do it. That's what Tip...",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "01:06:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, I'm doing like the Germans, okay? Just for design since he was very inspired by German design.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:06:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Siri would fucking work! If Steve Jobs was alive right now, Siri would fucking work. It's garbage. It's disgraced. What do you make of...",
+      "tone": "outraged"
+    },
+    {
+      "timestamp": "01:06:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Siri's the worst. I mean, if you say to Siri, like, 'I want to go home', even if you have home programmed into your phone, it won't know where to send you. It's so stupid. Yeah, it's just stupid.",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "01:06:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It doesn't know how to spell my last name! It doesn't know how to play music! This thing is disgraced at the highest level. There is no standard at Apple anymore. They put out the schlockiest bullshit. The operating system is disgraced. I have the iPhone... uh, the thin one, the iPhone Air. Nothing works. The software is garbage. It constantly is, like, you click on a button, the button doesn't work. I have to - the spinning wheel of death. There is no standard for fit and finish anymore at this company. And that would be - Steve Jobs would have MobileMe'd the Siri team by now. And if you don't know the MobileMe story, he dragged MobileMe into a meeting, said, 'How should MobileMe work?', they explained it, and he said, 'Well, why the fuck doesn't it work like that?' And you know what happened? He then fired them on the spot and put another group in charge of it. That should have happened with the Siri team - no offense if you're working in Siri, whatever. They should have been dismissed a long time ago. If it doesn't know how to spell the person's last name or their home address, disgraced at the highest level.",
+      "tone": "heated"
+    },
+    {
+      "timestamp": "01:08:08",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "This was a...",
+      "tone": "tentative"
+    },
+    {
+      "timestamp": "01:08:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This company is being milked for the last of Steve Jobs' innovations to get every last little dollar in profit out of his genius, but they have not figured out how to be geniuses. They make the MacBook incrementally better, God bless. You make the Studio better, God bless. But if the best you can do is AirPods and a Mac Mini at a lower price or the Neo at a lower price with different colors, if colors and a lower price product is the best you can do, the company is sunk! Make something inspiring for the love of God, Apple!",
+      "tone": "disillusioned"
+    },
+    {
+      "timestamp": "01:08:46",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I mean, what do you - what do you make of the argument that not on purpose, but they're sort of now well-established for the AI era because they've got these computers that people like to run their AIs on, and because they didn't spend all this money making a mo...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:09:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "model, they can just make a deal with Google for their model and then sort of set up like—",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:09:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You literally just proved my point. In 2008, 2009, you could pull up the Wikipedia page for Apple Silicon please. If you look at Apple Silicon, that idea was Steve Jobs 2008, 2009.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "01:09:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And then I think the first one came out in 2018, I'm just ballparking here, 10 years later he got off of Intel and he had his own chips. Here we go. Apple Silicon. Tell me, read the first couple sentences here: when did he come up with the idea and when did it first debut?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:09:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is what I'm trying to get at.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "01:09:31",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'm pulling it up right now.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:09:32",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Here we go. The first Apple-designed system on a chip was the Apple A4, introduced in 2010, the first generation iPad and later used iPhone 4. Perfect.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:09:40",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And then eventually Apple Silicon went off of Intel in 2020.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:09:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Correct.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:09:50",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So let's let this sink in. When did he start the project? So we know that it got into the iPhone in 2010 but—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:09:56",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, so...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:09:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "on the desktop in 2020. When did he start the strategy of making their own silicon? If you scroll down the page, it's gotta have when this was—when he started the process of development of these in covertly. Or maybe somebody can just ask Producer Claude.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:10:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But I think this was a—I think he made this decision internally, like in 2008, 2009. 2008 he decided we have to make our own chips. Now think about that. That was literally almost 20 years ago, I think, was the first year.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "01:10:23",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Claude is saying the seeds of Apple Silicon were planted by Steve Jobs in 2008 with the—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:10:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes! That's what I said!",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:10:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "the process. In 2008, Apple bought processor company PA Semi for 278 million, and that's what gave Steve Jobs the idea that he would develop system on chips for Apple's iPods and iPhones.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:10:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Voila!",
+      "tone": "triumphant"
+    },
+    {
+      "timestamp": "01:10:40",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That was 18 fucking years ago. Sorry, just bleep all this out but I am losing my mind. The—okay, so if I agree, like, maybe Apple stumbled into the diamond mine of Steve Jobs' brilliance in 2008 of buying this company and setting them up for this 18 years later.",
+      "tone": "intense"
+    },
+    {
+      "timestamp": "01:11:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "He made so many prescient, skating to where the puck is going moves, and then that got ripped out of the company's DNA.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "01:11:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No risk-taking, no skating to where the puck is going, losing Jony Ive. There's no product that they've released that I have been inspired by like at a, you know, it's just all incremental.",
+      "tone": "disappointed"
+    },
+    {
+      "timestamp": "01:11:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And I think, and this is weird to say, but I think they're actually better now as a Hollywood studio than a tech hardware company. Like a lot of—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:11:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sure!",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "01:11:37",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Sure. That is true.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "01:11:38",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "a lot of the best product coming out of Apple today is stuff like Severance and Silo. They're good at making TV shows, but I don't know...",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "01:11:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Which makes sense.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:11:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:11:51",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Which makes sense.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:11:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Even Apple Payments, Apple TV, they were working on a TV, Lon. They were gonna make a TV.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:12:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Remember that.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:01",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right, the actual television set. Yes, I remember.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:01",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I mean, Steve Jobs would've released that, right? Can you imagine having like a $5,000 Apple television that like had Siri that worked on it, and then you have your glasses and everything? I mean, iPhoto...",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:12:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Apple TV's a great product. I think I like it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:15",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah but I mean, it's gotta be built into...",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "01:12:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right, it would've been the...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:18",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "No, I'm saying I would've loved an Apple TV, I like the current version...",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "01:12:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "How about an Apple projector maybe for a theater?",
+      "tone": "suggesting"
+    },
+    {
+      "timestamp": "01:12:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "01:12:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Like an actual television that had it all built in.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:25",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And if you're not going to be innovative then you're obligated to buy some companies that are innovative. So why didn't they buy like Airbnb or Uber or DoorDash or an AI company, Perplexity? They should've bought some stuff with that giant war chest.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "01:12:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "If you think about the power now if Apple owned Perplexity, what they could be doing together it blows your mind. Like imagine a Perplexity computer built into your phone.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:12:49",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Or if they had bought Tesla for 75 billion. And that was a possibility at that time when Tesla was slos saying in the chat, like imagine if Apple bought Plaud.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:13:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I mean that would be a killer extension to have like Siri, it goes right to your phone but it sounds like... I mean they could make the your AirPods box could have been the Plaud device where it's got enough compute in it that you just press the AirPods box, it's recording, it's syncs, you put your earpieces in you're talking to it now. It's just somebody's got to, I mean I listen, Tim Cook did a great stewardship in terms of money and you know great, congratulations, they printed more money than anybody,",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "01:13:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Bought Donald Trump's lovely trophies and awards.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "01:13:23",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Absolutely, fantastic, all that, but literally he's got to go because if the soul of the... there's no soul to the company. He just kept Steve Jobs' vision for his existing product line but he didn't find somebody in that company who could replicate the Steve Jobs, Jony Ive idea mill, the platform. It just doesn't exist there. What are you going to tell me, watch or Vision Pro? Like neither of those products are inspiring. Let's keep moving. We gotta go to our weekend.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "01:13:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah we got... It's off duty. Do you want to do some streaming recommendations before we go or you want to just take off? You've had enough?",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:14:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "No no, give me... I mean everybody loves Lon's Off Duty. Insert the Off Duty theme song here, the Off Duty graphics Slo you got something to do. It's Off Duty with Lon and J Cal.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:14:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, we'll do a little like for next... I'll have Nana Banana make a little slide for us for the recommendations.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:14:26",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Absolutely. But what what do you got for us here?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:14:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I got a show I've been enjoying on Netflix and a film I liked on Hulu. We'll start with the Netflix show, it's called 'Something Very Bad Is Going to Happen', Jason. There was a show I really enjoyed called 'Brand New Cherry Flavor' a few years ago where Catherine Keener played a witch. It was sort of this weird horror show. This is from the same creator, Haley Z. Boston. It's a horror show but it's like a horror drama. It's really like we're halfway through it and we still don't really know is this going to take a turn?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:15:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "intended as supernatural horror or is this just about an awkward family gathering? It's basically this soon-to-be married couple goes on a road trip to her family's house, and then they discover a number of sort of tragic things are actually unfolding while they're there at this weekend preparing for their wedding. It's not like anything else I've seen on TV recently. It's very strange. And I think if you're either a fan of like, family relationship drama or creepy horror, I think there's something to enjoy in this show for everybody. So I really recommend it. That's on Netflix.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:15:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I saw the boys at The Watch were talking about it. I'm not a horror fan myself.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:15:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right. But this isn't like... there's no monsters, there's nobody being murdered. It's not gory. It's just there's something weird about this family's like, remote mansion in the woods. And something is going on, but it's just creepy so far. And they're strange. Jennifer Jason Leigh and Ted Levine are the parents. It's really well acted, very atmospheric. I don't know if it's going to turn into horror yet. I'm only halfway through.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:16:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, listen. I'm going to give you something to get in shape, Lon. I'm sending a message to you personally, not like sub-tweeting you, but I'm not not. This is the Wolf Tactical weighted training vest. Sure. This is called rucking, for your rucking. This is... I bought this as you can see, October 15th, 2024. So I've been doing this for a while now, folks, year and a half or whatever. It's a weight vest. It puts an equal amount of weight on the front and the back. And there's little... there's little weights in there that are a couple pounds each, and you can very easily take them in and out of your vest. So you can go down to 10 pounds if you want, and you walk around like an old man. And this will take you to zone two in terms of your heart rate. And for guys our age, 40s, 50s, 60s, you know, if you go running, you tweak something. I tweaked my hip flexor groin muscle because when I was in Brooklyn seeing my dad, I got on the treadmill, I got a little excited, I lost the weight, GOP's the whole thing, I start sprinting. I pull something. Now I'm walking around, I feel like an invalid. And if I just didn't run because I wanted to get my beats per minute up, I should have just been on a weight vest walking around. So I put this on, you walk around.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "01:17:32",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "You see a bunch of women like, the yoga moms are doing this. The dad bods are doing this. They're all out there.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "01:17:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I see some of this in my neighborhood in Barton Hills. There are some people walking around with their weighted vests on, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:17:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And what's great about it is, you just take a 100 beat per minute walk to 120 just by putting this on. And it distributes the weight evenly front and back. And it just puts weight on your entire frame, Lon. So I lost 40 pounds and then I added this.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "01:18:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Started back with this. So literally now I walk around and I'm like wow you know even though I was a fat bastard technical word for being 40 pounds overweight that was like actually probably making me strong in my legs or something carrying all that weight. Now I put this back on and I'm really building my muscle back up and all your joints so I walk you know I'm not on a trail I'm off trail with this so you know you're walking on uneven surfaces with the extra weight all those joints knees etc it works really really well.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:18:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's good to know.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:18:38",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It is true. You hit your 40s and all of a sudden like jogging a little bit it's like it doesn't feel good anymore. It used to feel fine you would be like okay I can sprint a little well now it's like oh my ankle hurts for some mysterious reason I'll never figure out.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:18:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah and what this does is because you're hitting all these weird joints muscles whatever when I ski now because in the off season I'm wearing this and then in the on season I'm skiing I just feel so much stronger when I'm skiing I can't explain it but I think you hit all the little nooks and crannies of your ligaments or whatever. Another amazing week of podcast from this week in and if you want to angel invest alongside me I have a website called thesyndicate. It's thesyndicate.com. Proud to announce we did Vast Space which is building a new space station. That's a late stage deal and we did Zipline. We had Keller on the program and it launched fest a couple weeks ago. We are just wrapping up that syndicate and so we are doing late stage. Everybody knows our syndicate was doing like people coming out of our accelerator and stuff like that. Ten million dollar twenty million dollar valuation companies but we're doing billion dollar companies now. So if you want to have access to that you got to sign up for thesyndicate.com. There's an onboarding process. You have to be an accredited investor or a qualified purchaser for now. Eventually the SEC as you might have heard on that SEC episode I did with Chamath on All In, they're going to have a test at some point so I'm focusing in on the syndicate again. Thesyndicate.com. All right everybody we'll see you next week. Bye-bye.",
+      "tone": "enthusiastic"
+    }
+  ],
+  "highlights": [
+    "The replication of a Y Combinator batch by AI agents demonstrates that 10-20% of modern startups lack technical defensibility, signaling a shift where founders must focus on building \"moats\" beyond simple software features.",
+    "AI is evolving from passive assistance into autonomous \"principals\" capable of managing professional networking, building influence, and making strategic introductions with their own sense of agency and reputation.",
+    "Solo and micro-team founders are achieving billion-dollar run rates by leveraging automated AI funnels, though this rapid scale necessitates \"human in the loop\" (HITL) oversight to prevent fatal regulatory and branding errors.",
+    "Management in the AI era should adhere to the \"Barksdale Principle,\" which dictates that leadership must prioritize data-driven decisions while reserving subjective \"taste\" and opinion for high-level experts with extensive lived experience."
+  ],
+  "summary": "This episode of *This Week in Startups* explores the aggressive evolution of AI in the venture ecosystem, centered on the theme of \"defensibility\" in an era of automated coding. The discussion features Maurik Azan of FeltSense, who gained notoriety for using AI agents to replicate the products of an entire Y Combinator batch. Azan argues that AI will move beyond being a tool for founders to becoming \"agentic founders\" themselves. He suggests that 10–20% of modern startups are essentially commodities that can be replicated in hours, forcing a shift in how investors value \"moats.\" This trend is further illustrated by Andrew D’Souza’s \"Bordy,\" an AI networking principal that manages social capital by vetting and facilitating introductions between investors and founders based on its own \"taste\" and reputation.\n\nThe transcript also highlights the tension between AI-driven efficiency and ethical oversight. Co-host Lon Harris shares his transition from an AI skeptic to an advocate, using LLMs to condense days of data analysis into a single hour. However, the hosts contrast this productivity with the controversy surrounding Medvi, a telehealth company reportedly on track for $1.8 billion in revenue with a tiny team. While the company’s scale is impressive, the hosts critique its use of misleading, AI-generated marketing featuring fake doctors. They emphasize the necessity of a \"Human in the Loop\" (HITL) to prevent rapid, automated scaling from resulting in legal or regulatory \"car crashes.\"\n\nFinally, the episode reflects on Apple’s 50th anniversary, offering a sharp critique of its current leadership. Jason Calacanis argues that under Tim Cook, Apple has become a \"milking machine\" for Steve Jobs’ legacy rather than an engine of innovation. The hosts point to the \"disgrace\" of Siri’s stagnation, the cancellation of the Apple Car (Project Titan), and the bulky design of the Vision Pro as evidence that the company has lost its ability to \"skate to where the puck is going.\" They conclude that while Apple remains a financial titan due to long-term strategies like Apple Silicon, it lacks the creative soul and risk-taking required to lead the next technological frontier.",
+  "description": "This Week In Startups is made possible by:\n\nDeel - https://deel.com/twist\nGrasshopper Bank - https://grasshopper.bank/twist\nRender - https://render.com/twist\nPlaud - https://Plaud.ai/twist\n\nAn AI “holding company” rebuilt dozens of YC Winter ‘26 startups in one weekend. Now we’re bringing the founder responsible into Jason’s Courtroom to defend himself.\nPLUS a live demo of Boardy, the AI that acts like a virtual board member and makes crucial introductions. Find out why he gets to have so much agency, how creator Andrew D’Souza used him to raise his own $17 million round, and how this company ever plans to actually make money.\nPlus Jason celebrates Apple’s 50th anniversary with a fiery rant about milking the ghost of Steve Jobs… Why OpenAI is acquiring a tech podcast… Jason’s favorite weighted vest for rucking… AND Lon’s Off Duty weekend streaming picks.\n\nGuests:\nMarik Hazan: https://x.com/MarikHazan\nFeltsense: https://feltsense.com/\nAndrew D’Souza: https://x.com/andrewdsouza\nBoardy: https://www.boardy.ai/\nRelated Links\nThe Syndicate: https://thesyndicate.com/\nThe All-In Podcast: https://allin.com/\nThis Week in Tech: https://twit.tv/shows/this-week-in-tech\nY Combinator W26 batch directory: https://www.ycombinator.com/companies?batch=Winter+2026\nPolsia: https://polsia.com/\nMedvi: https://home.medvi.org/\nNYT Medvi profile: https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html\nTBPN: https://www.tbpn.com/\nTBPN acquired by OpenAI: https://www.cnbc.com/2026/04/02/openai-acquires-tech-podcast-tbpn.html\nCreandum: https://creandum.com/\nVast Space: https://www.vastspace.com/\nZipline: https://www.zipline.com/\nApple: 50 Years of Thinking Different: https://www.apple.com/50-years-of-thinking-different/\nDon Valentine’s 1977 Apple Memo: https://x.com/sequoia/status/2039434032132575544\n\nTimestamps:\n\n0:00 Jason's direction for TWiST and thoughts on legacy media\n4:51 Marik of Feltsense joins the show\n5:30 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n6:47 Marik's viral YC replicator stunt\n9:00 Deel - Founders scale faster on Deel. Set up payroll for any country in minutes, hire anyone anywhere, get visas handled fast, and get back to building. Visit https://deel.com/twist to learn more.\n19:53 Grasshopper bank - Time is money. Don't waste either. Go to https://grasshopper.bank/twist and get an exclusive $500 cash bonus just for opening an account.\n21:10 Feltsense founder goes on trial!\n25:03 Jason dunks on Bank of America's app\n27:36 TBPN acquired by OpenAI\n29:05 The All In Podcast is worth $1B!\n29:27 Render - Find out why 5 million developers are already using the all-in-one cloud platform, Render. Go to https://render.com/twist and apply for the Render Startup Program to get $500-$100,000 in free credits, depending on your stage and backers.\n32:39 Andrew D'Souza joins the show along with his agent, Boardy!\n42:54 So how does Boardy make money?\n48:09 Lon is becoming more and more \"AI-pilled\"\n50:18 Tactical/ practical: \"If we have data, let's look at data. If all we have are opinions, let's go with mine.\" -Jim Barskdale, former CEO of Netscape\n1:00:37 Tactical/ practical: hire a PR firm to report on your competitors' wrong doings.\n1:02:35 Jason calls out Apple for being DISGRAZIAD!\n1:14:22 Off Duty with Lon and J-Cal\n1:14:46 Lon's TV pick of the week: \"Something Very Bad is Going to Happen https://www.youtube.com/watch?v=vMc_pWm7G7o\n1:16:48 Jason recommendations a weighted vest\n1:19:29 Become an Angel Investor at https://thesyndicate.com/\n\n\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+  "duration": 4807,
+  "people": [
+    "Jason Calacanis",
+    "Lon Harris",
+    "This Week",
+    "In Startups",
+    "Grasshopper Bank",
+    "Plus Jason",
+    "Steve Jobs",
+    "Off Duty",
+    "Marik Hazan",
+    "Related Links",
+    "The Syndicate",
+    "The All",
+    "In Podcast",
+    "Vast Space",
+    "Thinking Different",
+    "Don Valentine",
+    "Apple Memo",
+    "Render Startup",
+    "Jim Barskdale",
+    "Something Very",
+    "Angel Investor",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason",
+    "Will Guidara",
+    "Steve Huffman",
+    "Brian Chesky",
+    "Bob Moesta",
+    "Aaron Levie",
+    "Sophia Amoruso",
+    "Reid Hoffman",
+    "Frank Slootman"
+  ],
+  "topics": [
+    "AI agents replicating Y Combinator startups (FeltSense experiment)",
+    "Boardy: An AI-powered networking tool for business introductions",
+    "OpenAI's acquisition of the Podcast Bros Network (TBPN)",
+    "Critique of Apple's product innovation on its 50th anniversary",
+    "Medvi and the controversy surrounding AI-automated marketing in telehealth"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/aY8KnynU6MY/maxresdefault.jpg",
+  "date": "20260403",
+  "youtube_url": "https://www.youtube.com/watch?v=aY8KnynU6MY",
+  "youtube_metadata": {
+    "title": "AI Rebuilt Every YC W26 Startup. Should Founders Be Scared? | E2271",
+    "description": "This Week In Startups is made possible by:\n\nDeel - https://deel.com/twist\nGrasshopper Bank - https://grasshopper.bank/twist\nRender - https://render.com/twist\nPlaud - https://Plaud.ai/twist\n\nAn AI “holding company” rebuilt dozens of YC Winter ‘26 startups in one weekend. Now we’re bringing the founder responsible into Jason’s Courtroom to defend himself.\nPLUS a live demo of Boardy, the AI that acts like a virtual board member and makes crucial introductions. Find out why he gets to have so much agency, how creator Andrew D’Souza used him to raise his own $17 million round, and how this company ever plans to actually make money.\nPlus Jason celebrates Apple’s 50th anniversary with a fiery rant about milking the ghost of Steve Jobs… Why OpenAI is acquiring a tech podcast… Jason’s favorite weighted vest for rucking… AND Lon’s Off Duty weekend streaming picks.\n\nGuests:\nMarik Hazan: https://x.com/MarikHazan\nFeltsense: https://feltsense.com/\nAndrew D’Souza: https://x.com/andrewdsouza\nBoardy: https://www.boardy.ai/\nRelated Links\nThe Syndicate: https://thesyndicate.com/\nThe All-In Podcast: https://allin.com/\nThis Week in Tech: https://twit.tv/shows/this-week-in-tech\nY Combinator W26 batch directory: https://www.ycombinator.com/companies?batch=Winter+2026\nPolsia: https://polsia.com/\nMedvi: https://home.medvi.org/\nNYT Medvi profile: https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html\nTBPN: https://www.tbpn.com/\nTBPN acquired by OpenAI: https://www.cnbc.com/2026/04/02/openai-acquires-tech-podcast-tbpn.html\nCreandum: https://creandum.com/\nVast Space: https://www.vastspace.com/\nZipline: https://www.zipline.com/\nApple: 50 Years of Thinking Different: https://www.apple.com/50-years-of-thinking-different/\nDon Valentine’s 1977 Apple Memo: https://x.com/sequoia/status/2039434032132575544\n\nTimestamps:\n\n0:00 Jason's direction for TWiST and thoughts on legacy media\n4:51 Marik of Feltsense joins the show\n5:30 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n6:47 Marik's viral YC replicator stunt\n9:00 Deel - Founders scale faster on Deel. Set up payroll for any country in minutes, hire anyone anywhere, get visas handled fast, and get back to building. Visit https://deel.com/twist to learn more.\n19:53 Grasshopper bank - Time is money. Don't waste either. Go to https://grasshopper.bank/twist and get an exclusive $500 cash bonus just for opening an account.\n21:10 Feltsense founder goes on trial!\n25:03 Jason dunks on Bank of America's app\n27:36 TBPN acquired by OpenAI\n29:05 The All In Podcast is worth $1B!\n29:27 Render - Find out why 5 million developers are already using the all-in-one cloud platform, Render. Go to https://render.com/twist and apply for the Render Startup Program to get $500-$100,000 in free credits, depending on your stage and backers.\n32:39 Andrew D'Souza joins the show along with his agent, Boardy!\n42:54 So how does Boardy make money?\n48:09 Lon is becoming more and more \"AI-pilled\"\n50:18 Tactical/ practical: \"If we have data, let's look at data. If all we have are opinions, let's go with mine.\" -Jim Barskdale, former CEO of Netscape\n1:00:37 Tactical/ practical: hire a PR firm to report on your competitors' wrong doings.\n1:02:35 Jason calls out Apple for being DISGRAZIAD!\n1:14:22 Off Duty with Lon and J-Cal\n1:14:46 Lon's TV pick of the week: \"Something Very Bad is Going to Happen https://www.youtube.com/watch?v=vMc_pWm7G7o\n1:16:48 Jason recommendations a weighted vest\n1:19:29 Become an Angel Investor at https://thesyndicate.com/\n\n\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+    "duration": 4807,
+    "view_count": 6004,
+    "like_count": 120,
+    "channel": "This Week in Startups",
+    "upload_date": "20260403",
+    "thumbnail": "https://i.ytimg.com/vi/aY8KnynU6MY/maxresdefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

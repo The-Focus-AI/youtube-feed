@@ -1,0 +1,1206 @@
+{
+  "title": "Terence Tao – How the world’s top mathematician uses AI",
+  "source_url": "https://www.youtube.com/watch?v=Q8Fkpi18QXU",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Okay today I'm starting with Terence Tao who needs no introduction. Terence I want to begin by having you retell the story of how Kepler discovered the laws of planetary motion because I think this will be a great jumping off point to talk about AI for math.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:15",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Okay yeah so I've always had an amateur interest in astronomy and so I've I've loved stories of how the early astronomers worked out the nature of the universe.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:00:23",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "So uh Kepler was building on the work of Copernicus who was himself building on the work of Aristarchus. So uh Copernicus very famously proposed the heliocentric model that uh instead of the planets and sun going around the earth that the sun was at the center of the solar system and the other planets were were going around the sun. And Copernicus proposed that the orbits of the planets were perfect circles.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:46",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "And his theory kind of fit the observations that the the Greeks and the Arabs and Indians had worked out over over centuries. I think Kepler got interested he like he learned about these these theories in his in his studies and he made this observation that the ratios of the size of the orbits that Copernicus had predicted seemed to have some geometric meaning.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:13",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "I think he he started proposing that you know if you if you take say the orbit of say the earth and you enclose it in I think maybe a cube the outer sphere of that that encloses the cube almost match perfectly to the orbit of Mars and so forth. And there were six planets known at the time five gaps between them and there were five perfect Platonic solids.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:34",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "The cube the tetrahedron icosahedron octahedron and dodecahedron. And so he had this this theory which he thought was absolutely beautiful that he could inscribe these Platonic solids between the spheres of the planets and it seemed to fit and it it it seemed to him like you know God's design of the planets was was matching this mathematical perfection of the Platonic solids.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:01:54",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "So he needed data to confirm this theory and at the time there was only one really high quality data set almost in existence okay which was so Tycho Brahe this Danish astronomer very wealthy eccentric astronomer had managed to convince the Danish government to fund this extremely expensive observatory this in fact an entire island.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:14",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Where he had taken decades of observations of all the planets Mars Jupiter every night at least every night for which the weather was clear with the naked eye actually this this was he was last of the of the naked eye astronomers. And so he had all this data which Kepler could use to confirm his theory.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:31",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "And so Kepler started working with with Tycho but Tycho was very jealous of the data he only gave him little bits of it at a time. And I think Kepler eventually just stole the data he he copied it and and had to have a fight with with Brahe's descendants.",
+      "tone": "storytelling"
+    },
+    {
+      "timestamp": "00:02:46",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "But he did work out he did get the data and then he worked out to kind of his disappointment that his beautiful theory didn't quite work like the data was sort of off from his Platonic solid theory by you know about 10% or something. And he found all kinds of fudges moving the circles around and...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "things that it didn't quite work. But he worked on this problem for years and years and eventually he figured out how to use the data to work out the actual orbits of the planets and that was an incredibly clever genius amount of data analysis actually. And yeah, then he eventually worked out that the orbits were actually ellipses, not circles, which was shocking to him. And then he worked out the two laws of planetary motion: ellipses and also equal areas swept out in equal times.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:33",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "And then 10 years later, after collecting a lot of data, the furthest planets like Saturn and Jupiter were the hardest for him to work out, but then he finally worked out this third law also that the orbits, the time it takes for a planet to complete its orbit was proportional to some power of the distance to the sun. And these are the three famous Kepler's laws of motion, and he had no explanation for them. It was just all driven by experiment and it took Newton a century later to give a theory that explained all three laws at once.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:10",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "The take I want to try on you is that Kepler was a high temperature LLM. Where Newton comes up with this explanation of why the three laws of planetary motion must be true, and of course the way that Kepler discovers the laws of planetary motion or figures out the relative orbits of the different planets is, as you say, a work of genius. But then through his career, he's just trying random relationships.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:04:34",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And in fact, in the book in which he writes down the third law of planetary motion, it's sort of an aside on The Harmonics of the World, which is his book about, you know, all these different planets have these different harmonies and the reason there's so much famine and misery on earth is because the earth is mi-fa-mi, that's the note of earth. And so all this random astrology, but in there is the cube-square law, which tells you what relationship the period has to a planet's distance from the sun, which is, as you were detailing, if you add that to Newton's F equals MA and then the equation for centripetal acceleration, you get the inverse square law.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:05:13",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And so Newton works that out, but the reason I think this is an interesting story is I feel like LLMs could do the kind of thing of like 20 years, let's try random relationships, some of which make no sense, as long as there's a verifiable data bank like Brahe's data set where, okay, I'm going to try out random things about like musical notes. I'm going to try out random things about Platonic objects, all these different geometries. I have this bias that there's some important thing about the geometry of these orbits. And then one thing works and as long as you can verify it, it can then draw these empirical regularities, can then drive actual deep scientific progress.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:05:45",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Traditionally when we talk about the history of science, idea generation has always been kind of the prestige part of science. So I mean, a scientific problem comes with many steps, you know, you have to identify a problem, and then you have to identify a good problem to work on, a fruitful problem. And then you need to...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "to collect data, um you need to figure out a strategy to analyze the data, to make a hypothesis, um and at this point you need to propose a good hypothesis and then you need to validate it. Yeah so this and then you need to write things up and explain. There's there's a dozen different components. But yeah, the ones we celebrate are these sort of eureka genius moments of of idea generation. And um yeah, so Kepler certainly had to to as you say cycle through many ideas and several which didn't work and and I bet many that he didn't even um publish at all because yeah they they just didn't fit. And that's an important part of the process, um trying all kinds of of random things and seeing if they work.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:43",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "But as you say, the um you know the it it had to be matched by an equal amount of verification otherwise it's it's fluff. I mean um we celebrate Kepler but we should also celebrate Brahe for for his his assiduous data collection which was ten times more precise than than any previous observation.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:07:01",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "And it was um that extra decimal point of accuracy was actually essential for for Kepler to get um his um his results. Um and you know he was using you know Euclidean geometry and and like like the most advanced mathematics he could um use at the time to to match his his model with the data. So like all aspects had to be in play, you know the the data and the theory and the and the hypothesis generation. I'm not sure nowadays that hypothesis generation is the bottleneck anymore. Um science has changed in the in the century since. So um classically sort of the two big paradigms for for science were theory and experiment. Um then in the 20th century um numerical simulation came along and so you can also do do computer simulations of of to test theories. But then finally in late 20th century we had big data, you know we had the the era of data analysis. Um and so a lot of new progress is actually driven now by analyzing massive data sets first, collecting large data sets and then drawing the patterns from them to to deduce thoughts which is a little bit different from how science used to work where you make a few observations or you just have one out-of-the-blue idea and then you collect data to test your idea, that's the classic scientific method. Um now it's almost reversed, you collect big data first and then you you try to to get hypotheses from it. Um I mean Kepler was maybe one of the first early data scientists but but even he didn't start with Tycho's data set and and analyze it, he had some preconceived theories first. But it's it seems that this is less and less the way we make progress in um in science just because um yeah the data is is just so much more massive it's just so much more useful.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:48",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Oh interesting, I actually feel like the more the 20th century science that you're describing is actually very well describes what happened in Kepler where he did have these ideas in 1595 and",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "96 is where he comes up with first polygons and then platonic objects theory, but they were wrong. And then a few years later he gets Brahe's data. And it's only after 20 years of just trying random things that he gets this empirical regularity. And so it actually feels closer to Brahe's data is analogous to some massive data bank of simulations, and then now he - now that you've got the data, you can keep trying random things. But if it wasn't, Kepler would be out there just writing books about harmonics and platonic objects, and there would be nothing to actually verify against.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:30",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Yeah, yeah, yeah. So the the data was extremely important, but the distinction I was trying to make was that sort of traditionally you make a hypothesis and then you test it against data. But now with machine learning and data analysis and statistics and so on, you can - you can start with data and through say statistics work out laws that were not perceived before.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:10:03",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "And he - so Kepler's - so Kepler's third law is a little bit like this. Except that for the third law, instead of having the thousand data points that Brahe had, Kepler had like six data points. Like every planet - you knew the length of the orbit and the distance to the sun, and there was like five or six data points, and he did what we would now call regression. You know, he could fit a curve to these six data points and he got a square-cube law, which was amazing. But actually he was quite lucky. I mean, that these six data points gave him the right conclusion.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:10:31",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "You know, it's - that's not enough data to be really reliable. There was a later astronomer, Johannes Bode, who took the same - the same data actually, the - the distances to the planets, and inspired by Kepler I think, he had a prediction that the - the distances to the planets formed basically a shifted geometric progression. That he also fit a curve. Except that there was one - there was one point missing. So there was a big gap between Mars and Jupiter. And his law predicted that there was a missing planet. So it was a kind of a crank theory, except when Uranus was discovered by Herschel, the - the distance to Uranus fit exactly this - this pattern. And then Ceres was discovered, this asteroid between - I think in the asteroid belt, and it also fit the pattern. So people got really excited that - that Bode had discovered this - this amazing new law of nature. But then Neptune was discovered and it was completely like way off. And, you know, and it - basically it was just a numerical fluke, you know, there was - there was six data points.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:11:29",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Interesting.",
+      "tone": "pensive"
+    },
+    {
+      "timestamp": "00:11:30",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Yeah, so maybe one reason why Kepler didn't highlight his third law as much as the first two laws is that maybe instinctively, even though he didn't have modern statistics, he kind of knew that with six data points, he had to be somewhat tentative with the - with the conclusion.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:11:44",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "I see. But maybe to ask the question about the analogy more explicitly, does this analogy make sense to if we have, you know, in future we'll have smarter and smarter AIs and we'll have millions of them, and then they can go out and hunt for all these empirical regularities?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "It sounds like you don't think the bottleneck in science is finding more things that are for each given field the equivalent of the third law of planetary motion, so that then later on somebody can say, oh, we need a way to explain this, let's work out the math, here's the inverse square law of gravity.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:17",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Right, so I think AI has basically driven the cost of idea generation down to almost zero, in a very similar way to how the internet drove the cost of communication down to almost zero. Which is an amazing thing, but it doesn't create abundance by itself. Yeah, so now the bottleneck is different. So we're now in a situation where suddenly people can generate thousands of theories for a given scientific problem, and now we have to verify them, evaluate them. And this is something which we have to change our structures of science to actually sort this out. So, you know, in fact traditionally we build walls, you know, so in the past, before we had AI slop, you know, we had amateur scientists, you know, create their own theories of the universe, many of which were basically of very little value. And so we've built these peer review publication systems and things to kind of filter out and try to isolate the high signal ideas to test. But now that we can generate these possible explanations at massive scale, and some of them are good and a lot are terrible, I mean, human reviewers, we're just, they're already being overwhelmed actually. Many journals are reporting AI-generated submissions are just flooding their submissions. So it's great that we can generate all kinds of things now with AI, but it means that the rest of the aspects of science have to catch up. So verification, validation, and assessing what ideas actually move the subject forward and which ones are dead ends or red herrings. And that's not something we know how to do at scale. For each individual paper, we can discuss it, have a debate among scientists and get to a consensus in a few years. But when we're generating, you know, a thousand of these every day, this doesn't work.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:17",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah. So I think there's this incredibly interesting question of if we have billions of AI scientists, not only how do you gauge which ones are real progress, but how do you, I mean, this is actually a question that human science has had to face and we've solved somehow. And I'm not sure how we solve this, but in any given field, let's say it's 1940s and there's, if you're at Bell Labs or if you're just generally, these new technologies coming out, pulse code modulation, basically how do you transfer signals, how do you digitize signals, how do you transmit them over analog wires, and then, but there's like all these papers about the engineering constraints there and the details, and then there's one which is like, comes up with the idea of the bit, which has implications across many different fields. And you need some system which can then look at that and say, okay, we need to apply this to probability, we need to apply this to computer science, etc.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "for in the future the AIs are coming up with you know the next version of this kind of unifying concept and how would you identify it among millions of papers which might actually constitute progress but which have much less general unifying ideas",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:13",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Right. So a lot of it is the test of time. Um, so so many great ideas didn't actually get a great reception at the time that they were first proposed. It was only after some other scientists realized that that they could take them further and apply them to their own um, you know deep learning itself actually was a niche area of AI for a long time. That this the idea of of getting answers entirely through training on data and and not through first principles you know reasoning was was was very controversial and then it would just took a long time before it actually started bearing fruit. You know, you mentioned the bit, you know, I mean there are there are other proposals for computer architectures than the 0-1 that is universal today. I think there there were trits you know 0-1-2 yes a three-valued logic and you know in an alternate universe maybe a different paradigm would have would have showed up.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "People have argued that you know the transformer for example is is the foundation of all modern large language models. And it was the first um deep learning architecture that really was was sophisticated enough to capture language. But it didn't have to be that way. There there could have been some other architecture that um was the first to do it and and once that was adopted um it would just become the standard.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:16:21",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Um, so I think uh one reason why it's hard to assess whether a given idea is going to be fruitful is that it it depends on the future. It it depends on and it it depends on on also on the culture and society like like which ones get adopted, which ones don't. Um, you know the base 10 uh numeral system in mathematics extremely useful. Uh much better than the Roman numeral system for instance. Uh but again there's nothing special about 10. Um it's it's a system that we it's useful for us because everyone else uses it. Um and we've standardized it and we've brought all our uh computers and our and our number representation systems around it um and so we're stuck with it now actually. Um you know people occasionally push for other systems than decimal but um there's this no there's too much inertia.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:17:09",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "So you can't look at any given scientific achievement purely in isolation and give it an objective grade uh without being aware of the context both in the past and the future. And so it it may never be something that you can just reinforcement learn the same way that that you can for much sort of more localized problems.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:17:29",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:17:32",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "It seems often in the history of science when what when a new theory comes up that in retrospect we realize is correct, it seems to make implications that just either make no sense because they're wrong and we realize later on why they're wrong, or they're correct but seem wildly implausible at the time. So in as you talked about Aristarkus uh had heliocentrism in the third century BC and then the ancient Athenians were like this can't...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "B, because it would be if the Earth is going around the sun, we should see the relative position of the stars change as we're going around the sun. And the only way that wouldn't be the case is if they're so far away that you don't notice any parallax, which is actually the correct implication. But there's times when actually the implication is incorrect and we just need to graduate to a better level of understanding. So Leibniz would, you know, chide Newton and disagree with Newton's theory of gravity on the basis that it implied action at a distance, and then there's we don't know the mechanism, and Newton himself was sort of stunned that inertial mass and gravitational mass were the same quantity. So all these things which were resolved by Einstein. But it was still progress. And so the question for a system of pure AGI would be, even if you can falsify a theory, how would you notice that it still constitutes progress relative to the thing before?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:41",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Yes, yes. So it often actually the ultimately correct theory initially is worse in many ways. Yeah. So Copernicus' theory of the planets, it was less accurate than Ptolemy's theory. You know, so geocentrism had been developed for a millennium by that point and they had made many, many tweaks and increasingly complex ad hoc fixes to make it more and more accurate. And Copernicus' theory was a lot simpler, but much less accurate. It was only Kepler that made it more accurate than Ptolemy's theory. I mean, science is always a work in progress. You know, so when you only get part of the solution, it looks worse than a theory which is incorrect, but somehow it has been completed to the point where it kind of answers all the questions. As you say, Newton's theory had big mysteries, the equivalence of mass and action at a distance, which were only resolved with a very conceptually different approach centuries afterwards. Often progress has been made actually not by adding more theories, but by deleting some assumptions that you have in your mind. So one reason why geocentrism held on for so long is we had this idea that objects naturally want to stay at rest. This is the Aristotelian notion of physics. And so the idea that the Earth was moving, how come we weren't all sort of all falling over? Once you have Newton's laws of motion, object in motion remains in motion and so forth, then it makes sense, but you had to sort of conceptually... it's a very big conceptual leap to realize that the Earth is in motion.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:20:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "It's in motion, it doesn't feel like it's in motion. And like the biggest advances, you know, Darwin's theory of evolution, the idea that species are not static, but it's not obvious because you don't see evolution in your lifetime.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:20:20",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Well, now we can actually, but...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:20:23",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "...but it seems permanent and static.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:20:26",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "You know, right now we're going through an...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "And a cognitive version of the Copernican revolution where we used to think that human intelligence is the center of the universe. And now we're I guess seeing that there's there's very different types of intelligence that that are out there with very different strengths and weaknesses. Um and so our assessment of which tasks require intelligence which ones don't, um has to be reordered quite a bit. Um and so yeah, it's it's trying to fit AI into sort of our theories of scientific progress and and and what is hard and what is easy. We're struggling quite a bit, but we have to ask questions that we've never really had to ask before. Or maybe the philosophers had, but now we all have to deal with it.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:21:41",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "This actually brings up a topic I've been very curious about. So you mentioned Darwin's theory of evolution. There's this book 'The Clockwork Universe' by Edward Dolnick which covers a lot of this era of history we're talking about. And he has this interesting observation in there that uh the 'Origin of Species' is published in 1859, the 'Principia Mathematica' is published in 1687. So the 'Origin of Species' comes out basically two centuries after the 'Principia'. And conceptually it seems like Darwin's theory is simpler. Um there's a contemporaneous biologist to Darwin who reads 'The Origin of Species', Thomas Huxley, and he says, 'How stupid not to have thought of that.' And nobody ever says that about 'Principia', the chiding themselves for not having beaten Newton to gravity. And so there's a question of, well, why did it take longer? It seems like a big part of the reason is that the evidence for natural selection is cumulative and retrospective, whereas Newton can just like, here's my equations, let me see the moon's orbital period and its distance, and if it lines up, then we've made progress. And so Lucretius actually had the idea, this idea that species adapted to their environment in the first century BC, but nobody ever like really talks about it until Darwin because Lucretius can't run some experiment and people are like forced to pay attention. And so I wonder if we'll in retrospect end up seeing much more progress in domains which are have this kind of tight data loop where you can verify them quite easily even though they were conceptually much more difficult.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:23:04",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "I think one one aspect of science is it's it's not just um creating a new theory and validating it, um but communicating it to others. Um so Darwin was actually an amazing science communicator. Um he wrote in English in natural— oh natural language I'm speaking like a—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:23:22",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah, okay.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:23:23",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Okay, my my yeah okay um I have to I have to sort of get out of my my technical mindset. Yeah okay so he spoke in plain English, um you know didn't use equations, and he synthesized a lot of um disparate facts yeah so you know little pieces of evolution had been worked out in the past but he had this very compelling vision. And um again still missing things like he he didn't know the mechanism for for um heredity um he didn't know DNA, okay and um yeah but uh his writing style was persuasive and that that helped a lot. Um Newton wrote in Latin, um he had had to invent you know entire new—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "He used mathematics just to explain what he was doing. Um, he was also from an era which was a, where scientists were much more secretive and competitive. Um, so you know, academia is still competitive but it was even worse back in Newton's day. Um, so he, he held back some of his best insights because he didn't want his rivals to get any advantage. Um, he was also, okay, somewhat unpleasant person from what I, what I, what I gather, actually. Um, so, um, it was actually only a couple decades after Newton where other scientists explained his work in much simpler terms that they became, um, widespread.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:30",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Um, so, um, yeah, the, the art of exposition and making the case, and, and creating a narrative, um, is, um, is also a very important part of science. Um, and, um, if you have the data and it helps, but, but people need to be convinced. Otherwise they will not push it further. Or they will not take the initial investment to, to learn your theory and really, and really explore it. Um, and that's another thing which is really hard to reinforcement learn on. Uh, how can you score how persuasive you are? Okay, well, okay, there's entire marketing departments who are trying to do this. So maybe it's good that AI are not yet optimized to be persuasive.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:25:12",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "So yeah, there's a social aspect to science. Um, the, um, you, you know, even though we pride ourselves on having an objective, um, side to it where there's data and there's experiment and validation, um, we still have to tell stories and convince our fellow scientists. Um, and that's a soft squishy thing. Like it's, you know, it's a combination of data and, um, yeah, and, um, painting a narrative. And it's a narrative of gaps, you know, I mean, as, you know, so even Darwin, as he said, there were, there were pieces of his theory he could not explain. But he could still make a case that, you know, in the future people would, um, would, would find transitional forms, they would find the mechanism for inheritance, and they did. Um, yeah, um, I don't know how you can quantify that in such a precise way that you can start to reinforcement learning. Um, maybe that will still be forever the human side of science.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:25:36",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Mm. One takeaway I had from, um, reading and watching your stuff on the cosmic distance ladder. By the way, I highly, highly, highly recommend people watch your series with the Royal Brompton on the cosmic distance ladder. But, um, one takeaway was that the deductive overhang in many fields could be so much bigger than people realize, where if you just had the right insight about how to study a problem, you might be surprised at how much more you could learn about the world. And I wonder if you think that's sort of a product of astronomy at the particular times in history that you're studying, or is it just that based on the data that is incident on the Earth right now, we could actually divine a lot more than we happen to know.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:26:08",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Right. So astronomy was one of the first sciences to really embrace data analysis and, and, and squeezing every bla--",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "possible drop of information out of the information that they had because because data was the bottleneck. Um I mean it still is the bottleneck. I mean it's it's really hard to to collect astronomical data. So astronomers are are the best or um you know almost world class in in extracting you know almost like Sherlock you know it's like extracting all kinds of conclusions from little traces of data. I hear that that a lot of quant hedge funds they they preferred hires in astronomy PhD. Because they they're also very interested for other reasons in extracting signals from from various random bits of data.",
+      "tone": "intellectual"
+    },
+    {
+      "timestamp": "00:27:34",
+      "ad": true,
+      "speaker": "Dwarkesh Patel",
+      "text": "Okay, speaking of clever ideas, one of my listeners, Sean, solved the puzzle that Jane Street made for my audience and posted a great walkthrough on X. For context, Jane Street trained a ResNet, and then shuffled all 96 layers, and then challenged people to put them back in the right order using only the model's outputs and training data. You can't brute force this. There's more possible orderings than atoms in the universe. So Sean broke the problem into two different parts. First, pair the layers into 48 different blocks, and second, put those blocks in the right order. For pairing, Sean realized that in a well-trained ResNet, the product of two weight matrices in a residual block should have a distinctive negative diagonal pattern. And this arises as a way for the model to keep the residual stream from growing out of control. From this insight, he was able to recover the right pairings. For ordering, Sean noticed that the model seemed to improve if he sorted the blocks by the size of their residual contributions. Starting with that rough approximation, he combined a clever ranking heuristic with local swaps to recover the exact right order. His full walkthrough is linked in the description. Don't worry if you didn't get to this puzzle in time though. There's still one up about backdoor LLMs that even Jane Street doesn't know how to solve. You can find it at janestreet.com/dwarkesh. All right, back to Terence.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:28:51",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "We we do underexplore sort of how to extract extra information from from various signals. Um, like, um, I was I just to pick one random study. I remember reading once that that people had discovered or trying to measure how often scientists actually read the citations, um, the papers that they cite. Uh, so how do you measure this signal? Okay, you could try to survey uh different scientists but they they had some clever um trick. So so many citations um have little typos, like like you know um a number was wrong or punctuation symbol was wrong, and they they measured how often a a typo got copied from one reference to to next and they could infer whether an author was actually just copying, cutting and pasting a reference without actually checking it. Um, and so from that they were able to infer some measure of of sort of how much attention people were paying. Um, so there are all these sort of clever tricks to extract, you know, so these questions you posed earlier of, you know, how can we assess whether a a scientific development is fruitful or or interesting or...",
+      "tone": "intellectual"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "represents progress, you know, maybe there are um, really useful metrics and or foot- or footprints of this, of this, of this, of this uh, phenomenon in other data sets. You know, we can examine citations and and like how often something is mentioned in a conference or something and and maybe that there's there's there's a lot of sociology of science research to be done and and that could actually detect these things. Um, yeah, maybe we should get some astronomers on the case actually.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:30:29",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Um, okay, so I think this brings us nicely to the progress that from the outside it seems like AI for math is making. And I think you had a post recently where you pointed out that over the last few months, AI programs have solved 50 out of the 1,100 odd Erdos problems. But then I think, I don't know if it's still correct, but as of a month ago, you said that there had been a pause because the low-hanging fruit had been picked. First of all, I'm curious if actually that is still the case, that we have picked the low-hanging fruit and now we're at this plateau currently.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:31:06",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "It does seem so. I mean, there's still activity at the... yeah, so 50 odd problems have been solved with AI assistance, which is great, but there's like 600 to go. And people are still chipping away at one or two of these right now. Um, we are seeing a lot fewer sort of pure AI solutions now, where the AI just one-shots the problem. Um, so there was a month where that happened and and that has stopped. Not for lack of trying, I know three separate uh, attempts to get frontier model AI to just attack every single one of the problems simultaneously. Um, and they pick up some minor observations, or maybe they've found that some problem was already solved in the literature, but there hasn't been any further AI purely powered solution yet. Um, people are using AI a lot um, currently. So someone might use AI to generate a possible proof strategy, and then another person will use a separate AI tool to critique it, um, or rewrite it, or or generate some numerical data for it, or do a literature survey. Um, and some problems have been solved by an ongoing conversation between lots of humans and lots of AI tools. Um, but it does seem like it- it was this- this one-off thing. Um, so maybe one analogy for these problems is like imagine like there's all these, you're in some sort of mountain range with all kinds of of cliffs and walls. And maybe there's- there's a little uh, wall which is maybe like three feet high, and one that's six feet high, and then there's 15 feet high, and then there's- there's some mile high cliffs. Um, and you try to climb as many of these cliffs as possible, but it's in the dark. Uh, we don't know which ones are tall, which ones are short. And um, so you know, we try to light some candles and make some maps, and and slowly we kind of figure out some of them are climbable, some of them we can identify some partial um, track in the wall that you can reach first.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "In these these AI tools, they're like these jumping machines that can jump you know two meters in the air you know higher than any human, and sometimes they jump in the wrong direction and sometimes they crash, but sometimes they they can reach um the tops of of the lowest uh walls that we couldn't reach before. And so we've basically set them loose in this mountain range hopping around and you know, and then there was this exciting period where they could actually find all the the low ones um and they could reach them. But then um there's been no uh I mean maybe if the next time there's a big advance in the models then they will try it again and maybe a few more will be will be uh will be breached. Uh but it it's a different style of doing mathematics than sort of the you know so normally we would hill climb and and you know we would make little markers and try and identify partial things and um you know these tools they either succeed or they fail um and they've been really bad at at creating sort of partial progress or identifying intermediate uh stages that you should focus on first. Uh again going back to to this previous discussion you know we don't have a way of evaluating partial progress uh the same way we could we can evaluate a one-shot success or failure of of solving a problem.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:34:19",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Hmm.",
+      "tone": "attentive"
+    },
+    {
+      "timestamp": "00:34:21",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "So there's two different ways to uh think through what you've just said and one of them is more bearish on AI progress and one of them is more bullish. And the bearish one being 'oh they're only getting to a certain height of wall which is not as high as humans are reaching.' Um and the second is that well they have this powerful property that once they achieve a certain waterline that they can fill every single problem that is available at that waterline which we simply can't do with humans where we can't make a million copies of you and uh give each of them a million dollars of inference compute and have you do a hundred years of subjective time research on a hundred different problems at the same time or a million different problems at the same time. But once AI's reached Terence Tao level they could do that.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:34:54",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:34:54",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Um and once they reach intermediate levels they could do they could do the intermediate version of that. So the same reason that we should be bearish now is the reason we should be especially bullish not even when they achieve superhuman intelligence but just when they achieve human-level intelligence because their human-level intelligence is qualitatively wider and more powerful than our human-level intelligence.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:34:58",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "I I agree. Yeah so they excel at breadth uh and humans excel at depth uh human experts at least. Yeah so um I think they're very complementary um but our current uh way of doing math and science is focused on depth because that's that's where the human expertise is because humans can't do breadth.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:35:22",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Right.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:35:23",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Um but uh yeah so we have to redesign uh the way we do science to take full advantage of of this breadth capability that we now have. Uh so as you said we should have a lot more effort in creating very broad classes of problems to work on rather than than one or two uh really um deep important problems. And we should still have the deep problems but there is now this new avenue that we can do.",
+      "tone": "forward-looking"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "important problems. And humans should still be working on them. But now we have this other way of doing science. We can explore entire new fields of science by first getting these broad, moderately competent AIs to sort of map it out and clear out all the easy observations, and then identifying certain islands of difficulty which human experts can then come and work on. So I see very much a future of very complementary science. Eventually you'd hope to get both breadth and depth and somehow get the best of both worlds. But I think we need practice with the breadth side. It's too new. We don't even have the paradigms really to take full advantage of it. But we will. And then science would be unrecognizable after that, I think.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:36:57",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "To this point about complementarity, programmers have noticed that they're way more productive as a result of these AI tools. And I don't know if you as a mathematician feel the same way, but it does seem like one big difference between vibe coding and vibe researching is that with software, the whole point of the thing is to have some effect on the world through your work. And if it leads to you better understanding a problem or you coming up with some clean abstraction to embody in your code, that is instrumental to the end goal. Whereas maybe with research, the reason we care about solving the millennium prize problems is presumably that in the process of solving them, we discover new mathematical objects or new techniques, and those advance our civilization's understanding of math. And so the proof is sort of instrumental to the intermediate work. I don't know if you agree with that dichotomy or if that in any way will explain the relative uplift we'll see in software versus research.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:37:58",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Right. So certainly in math, the process is often more important than the problem itself. The problem is kind of a proxy for measuring the progress. And I think even in software, there's different types of software tasks. I mean, if you just kind of create a web page that does the same thing that a thousand other web pages do, there's sort of no skill to be learned, well, I mean, there's still some skill maybe that the individual programmer could pick up. But for kind of boilerplate type code, definitely it's something you should definitely offload to AI. But you know, sometimes once you make the code, you still have to maintain it and there's issues with upgrading it and making it compatible with other things. And that I think I've heard that programmers are reporting that even if an AI can create the first prototype of a tool, making it mesh with everything else and making it interact with the real world in the way they want, that's an ongoing process. And if you didn't have the",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "...skills you pick up from—from—from writing the code, um, that may—that may—may impact your ability to maintain it down the road. Um, so yeah, certainly mathematicians, we—you know, we've used problems to build intuition and—and to train people to have a good idea as to what's true, what to expect, what is provable, what is difficult. Um, and so yeah, just getting the answers right away may actually, yeah, inhibit that process.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:39:32",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Um, I mean, I've used the theory and experiment comparison before. Um, so in most sciences there's an equal division between the theoretical side and experimental side. Um, but in math it's been almost unique in that it's almost entirely theoretical. We—we—we place a premium on sort of trying to—to have coherent, clean theories of why things are true and—and false, and we haven't done much experiments as to like, maybe we have two different ways to solve a problem, which one is more effective.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:40:07",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "We have—we have some intuition but we haven't done large scale studies where we take a thousand problems and—and we—we just test them. Um, but we can do that now. So I think AI-type tools will really actually revolutionize the—the experimental side of math where—where, um, you don't care so much about individual problems and the process of solving them, but yeah, you want to gather just large-scale data about—about what things work, what things don't.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:40:29",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Um, same way that if—if you're a software company and you want to roll out a thousand pieces of software, you know, you don't really want to hand-craft each one and learn lessons from each, you just want to find what are the workflows that let you scale. Um, so we don't yet, the—the idea of doing mathematics at scale is at its infancy, but that's where AI is really going to revolutionize the subject.",
+      "tone": "contemplative"
+    },
+    {
+      "timestamp": "00:40:52",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Interesting. I feel like a big crux in these conversations about how much, how good AI will be for science is, I think you said this, at like, oh they—they're using existing techniques and modifying them. And it would be interesting to understand how much progress one can make simply from using existing techniques. Like how much of—if I looked at the top math journals, how many of the papers are coming up with whatever coming up with new technique means, doing that versus using existing techniques in—in new problems, and what the overhang is where if you just applied every known technique to every open problem, would that just constitute a humongous uplift in our civilization's knowledge or would that not be that impressive and useful?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:41:37",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "It's—this is a great question and—and we—we don't have the data to fully answer it yet. Um, certainly a lot of work that human mathematicians do, you know, when you—when you take a new problem, one of the first things we do is—is we just find—we look at all the standard things that worked on similar problems in the past and we try them one by one. Um, and sometimes that works, and—and that's still worth publishing sometimes because the question was important. So...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "times they almost work you have to add one more wrinkle to it and that's also interesting. But then, you know, the papers that go into the top journals are usually ones where you, the existing methods can kind of solve 80% of the problem, but then there's this 20% which is resistant and a new technique has to be invented to fill in the gaps. It's very, very rare now that a problem gets solved with sort of no reliance on past literature where all the ideas come out of nowhere. You know, that was more common in the past, but math is so mature now that it's just so much of a handicap to not use the literature first. So, AI tools are really good at getting really good at the first part of that, just trying all the standard techniques on a problem, often now actually making fewer mistakes in implementing them than humans did. They still make mistakes, but I've tested these tools on little tasks that I can do and sometimes they pick up errors that I make, sometimes I pick up errors that they make. It's about a tie right now. But I haven't yet seen them take the next step, you know, so when there are holes in the argument where none of the techniques are working, then what do you do? And then they can kind of suggest random things and I often find that trying to chase them down and make them work and finding they don't work, it wastes more time than it saves. So...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:43:37",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:43:38",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Now, so I think some fraction of problems that we currently think are hard will fall from this method. I mean, especially the ones that haven't received enough attention. So like with the Erdős problems, almost all of the 50 problems that were solved by AI were ones for which basically there was no literature. I mean, Erdős posed the problem once or twice. I think maybe some people tried it casually and they couldn't do it, but they never wrote up anything. But it turned out that there was a solution and it was just, you know, maybe combining this one obscure technique that not many people know about with some other result in the literature. And that's the kind of level, the median level of what AI can accomplish. And that's already great, it clears out 50 of these problems. So I think you'll see some isolated successes.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:44:24",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:44:25",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "But what we found, so people have done large-scale sweeps of these Erdős problems, and if you only focus on the success stories, the ones that get broadcast on social media, it looks amazing. You know, like all these problems that haven't been solved before for decades, now they're falling. But whenever we do a systematic study, any given problem, an AI tool has a success rate of maybe 1 or 2%. It's just that they can apply at scale and if you just pick the winners, it looks great. So I think it'll be a similar thing happening with, you know, there are hundreds of really prestigious, difficult math problems out there. A couple may fall.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Make, uh, you know, some AI might get lucky and actually solve them and there was some, some backdoor to solve the problem that everyone else missed, um, and that will get a lot of publicity, um, but then people will try these fancy tools on their own favorite problem and they will again experience the one to two percent success rate.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:45:16",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:17",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "So, um, there will be a lot of noise amongst the signal of sort of when they're working, when they're not. Um, we have to do, yeah, it's increasingly important to collect these really standardized data sets. You know, there are efforts now to create a standard set of challenge problems for AI to solve and not just rely on the AI companies to only publish their wins and not disclose their negative results. So that will maybe give more clarity as to where we're actually at.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:45:49",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "I think it's worth emphasizing how much progress in AI it constitutes already to have models that are capable of applying some technique that nobody had written down as applicable to this particular problem.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:45:57",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:58",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "The progress is simultaneously amazing and disappointing. It is a very strange feeling to see these tools in action and but also be acclimatized really quickly. You know, I remember when Google's web search came out twenty years ago and it just blew all the other search engines out of the water. Like you were getting relevant hits on the front page like perfectly, almost exactly what you wanted. And it was amazing, and then after a few years you just took it for granted that you could just Google anything.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:46:30",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Yeah, so a lot of, yeah, I mean 2026 level AI would be stunning in 2021 and a lot of it, you know, face recognition, natural speech, you know, doing college level math problems, we just take for granted.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:46:45",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Right. Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:46:47",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Okay, so speaking of 2026 AI, you made a prediction in 2023 that I think by 2026, what was it, it would be like a colleague in mathematics or?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:46:54",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Yeah, a trustworthy co-author if used correctly, which is looking pretty good in retrospect.",
+      "tone": "satisfied"
+    },
+    {
+      "timestamp": "00:46:59",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah, I'm pretty pleased. Um, so you know, let's see if we can continue this streak. You personally are 2X more productive as a result of AI. What year would you say that?",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:47:09",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Um, yeah, so productivity, I think, is not quite a one-dimensional quantity. Um, like I'm definitely noticing that the style in which I do mathematics is changing quite a bit and the type of things I do. So, for example, my papers now have a lot more code, a lot more pictures. Um, because it's so easy to generate these things now. So some plot which would have taken me hours to do, now I can do in minutes. But in the past, I just wouldn't have put the plot in my paper in the first place. I would just talk about it in words. Um, so it's hard to measure what 2X means. Um, so, yeah, on the one hand, you know, I think the type of papers that I would write today if I had to do them without AI assistance, they would definitely take five times longer. But I would not write my papers that way.",
+      "tone": "introspective"
+    },
+    {
+      "timestamp": "00:47:59",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "5X, so-",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Yeah, but it's because these are sort of auxiliary tasks, I mean, you know, the, you know, for things like doing a much deeper literature search, supplying a lot more numerics, I mean, they enrich the paper.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:48:17",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "So yeah, the core of what I do, like actually solving the most difficult part of a math problem, that hasn't changed too much. I still use pen and paper for that.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:48:27",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "But you know, there's lots of small things. I use an AI agent now to reformat, like sometimes all my parentheses are not quite the right size. I used to manually change them by hand, and I can get an AI agent to do all that quite nicely now in the background.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:48:48",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "So yeah, they've really sped up lots of secondary tasks. They haven't yet sort of sped up the core thing that I do, but it's allowed me to sort of add more things to my papers.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:49:01",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "But by the same token, like if I were to write a paper I wrote in 2020 again and not add all these extra features, but just have something of the same sort of level functionality, then actually it hasn't saved that much, to be honest.",
+      "tone": "candid"
+    },
+    {
+      "timestamp": "00:49:14",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Yeah, so it's made the papers sort of richer and broader, but not necessarily deeper.",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:49:21",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "You made this distinction between artificial cleverness and artificial intelligence, and I would like to better understand those concepts. What is an example of intelligence that is not just cleverness?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:49:35",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Yeah, so intelligence is famously hard to define. It's one of those things that you kind of know it when you see it. But when I talk to someone and we're trying to collaboratively solve a math problem together, there's this conversation where, you know, neither of us knows how to solve the problem initially.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:49:58",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "But one of us has some idea and it looks promising, and so then we have some sort of prototype strategy. And then we test it and then it doesn't work, but then we modify it. And there's some adaptability and continual improvement of the idea over time.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:50:18",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "And eventually, you know, we've systematically mapped out what doesn't work, what does work, and we can kind of see a path forward. But it's evolving with our discussion.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:50:31",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "And this is not quite what the AI does. The AI can kind of mimic this a little bit. So to go back to this analogy of these jumping robots, you know, they can jump and fail, jump and fail, jump and fail. But what they can't do is they kind of jump a little bit and they reach some handhold and then they sort of stay there and they pull other people up.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:50:51",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "And then they try to jump from there. There isn't this cumulative process which is sort of built up.",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "...interactively. Um, it seems to be a lot more trial and error and just repetition brute force. Uh, you know, which it scales and it can work amazingly well in certain contexts. Um, but yeah, this idea, this sort of building up cumulatively from, um, from partial progress is kind of what's still not quite there yet.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:51:23",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Interesting, you're saying like if Gemini 3 or Claude 4.5 or whatever solves a problem, um, it is not the case that its own understanding of math has progressed? Or even if it works on a problem without solving it, it's not that its own understanding of math has progressed.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:51:40",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Yeah. Yeah, you run a new session and it's forgotten what it just did. Um, it hasn't, you know, it has no new skills to, to attach to, to build on on related problems. Um, maybe what you just did is part of 1.0001% of the training data for the next generation, so maybe eventually some of it gets absorbed, but yeah.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:51:55",
+      "ad": true,
+      "speaker": "Dwarkesh Patel",
+      "text": "So Terence talks about the importance of decomposing particularly gnarly problems into a series of easier chunks. Even if this doesn't result in the full solution, approaching problems in this way helps you build up the intuitions and practice the techniques that you'll need to keep making progress. But models today tend to struggle with these kinds of problem-solving techniques. That's where Labelbox comes in. Labelbox helps you train models not just to get the right answer, but to think the right way. They've operationalized these reasoning behaviors into rubrics, giving you the ability to evaluate every important dimension of a model's output. These rubrics go beyond simple correctness. Did the model reach for the right tools? Did it check its own work and explore alternative paths? How clear was its response? These skills are useful across domains: math, physics, finance, psychology, and more. And they're becoming increasingly important as models take on harder open-ended problems, some of which have multiple solutions and some of which we don't even know the solutions to. Labelbox can get you rubrics tailored to your domain, helping you systematically measure and shape how your models think. Learn more at labelbox.com/dwarkesh.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:53:02",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "One big question I have is how plausible is it that if we just keep training AIs they get better and better at, you know, solving problems in Lean, that they will continue to solve more and more impressive problems and then we will in retrospect be surprised at how little insight we got from some Lean solution to proving the Riemann Hypothesis or something? Or do you think it is a necessary condition of solving the Riemann Hypothesis even by an AI that is like totally doing it in Lean, that the constructions which are made, the definitions which are created, even in the Lean program, have to advance our understanding of mathematics? Or do you think it could just be assembly code gobbledygook?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:53:38",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Uh, yeah, we don't know. I mean, some problems have been basically solved by pure brute force. The four-color theorem is a famous example. Um, we have still not found a conceptually elegant proof of this theorem. Um, it basically... and maybe we never will. I mean, some problems may only be solvable by just splitting into some enormous number of cases and doing a brute force.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "An exhaustive computer analysis on on each case. I mean, partly the reason that we we prize problems like the Riemann hypothesis is that we're pretty sure that that something amazing has to happen. A new type of mathematics has to be created or a new connection between two previously unconnected areas of mathematics has to be discovered to to make this work. We don't even know what the shape of the solution is, but it doesn't feel like a problem that will be solved just by exhaustively checking cases or something. I mean, it could be false actually, so we could actually — okay, there is an unlikely scenario that that the hypothesis is false and it's just this — you can just compute 'oh, here's a zero off the line' and a massive computer calculation verifies it. That would be very disappointing. I don't know, I I do feel that, you know, fully autonomous one-shot approaches are not the right approach for these problems. I mean, I think you will get a lot more mileage out of the interplay between humans collaborating with these tools. And uh, I can see one of these problems being solved by by some smart humans assisted by some extremely powerful AI tools, but the exact dynamic may be very different from what we envision right now. I mean, it could be a collaboration of a type that we just doesn't exist yet. Yeah, I mean, we there may be a way to to generate, you know, a million variants of the Riemann zeta function and do some data analysis, AI-assisted data analysis and we we discover some pattern between connecting them which which we didn't know about before and and this lets you transform the problem into a different area of mathematics. I mean, there could be all kinds of of scenarios.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:55:49",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "So suppose the AI figures it out and latent in the Lean is some brand new construction which, if you realized its significance, we'd be able to apply it in all these different situations. How would we even recognize it? Right? Like if you just — again, a very naive question, but you if you if it comes up with the equivalent of like Descartes comes with this idea, oh you can have this coordinate system where you can unify algebra and geometry, but in Lean code it would just look like R to R and it wouldn't look that significant or something. Or similarly, I'm sure there's other constructions which have this kind of property.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:56:26",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Well, the beauty of formalizing a proof in something like Lean is that you can take any piece of it and study it atomically. So um, you know, so when I read a paper written by humans with uh which solves some difficult problem, you know, there's often some big sequence of lemmas and theorems and things. And so ideally the author will talk — talk their way through, you know, what's important, what's not, but sometimes they don't reveal what what steps were the important ones and which ones are just kind of boilerplate standard uh steps. But you can study each lemma in isolation and some of them I can see...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Oh, this looks very standard. This resembles something I'm familiar with. I'm pretty sure there's nothing interesting going on here. But this lemma, oh, that's something I haven't seen before. And I could see why if you had this result, that would really help prove the main result. You can assess whether something's key to your argument or not. And Lean really facilitates that. The individual steps are identified really precisely. I think in the future, there'll be entire professions of mathematicians who might take a giant Lean-generated proof and maybe do some ablation on it or try to remove steps of parts of it and try to find more elegant ways, maybe some other AIs to do some reinforcement learning, how can you make the proof more elegant, and maybe other AIs would grade whether this proof looks better or not. One thing that will change quite a bit in the near future is that until recently, writing papers was the most time-consuming and expensive part of the job. And so you did it very rarely. You only wrote up your results once everything was all the other parts of your argument were checked out because just rewriting it again, refactoring was such a total pain. But that's one thing that's become a lot easier now with modern AI tools. So you don't have to just have one version of your paper. Once you have one, people can generate hundreds more. So, yeah, one giant messy Lean proof may not be very meaningful or understandable on its own, but other people can refactor it and do all kinds of things with it. We have seen with the Erdős problem website, an AI will generate a proof and here's 3,000 lines of code that verify the proof, but then people got other AIs to summarize the proof and people write their own proofs. It's actually post-processing once you actually have one proof, we actually have a lot of tools now to deconstruct it and interpret it. It's a very nascent area of science or mathematics, but I'm not as worried about some people's concern, what if the Riemann hypothesis is proved with a completely incomprehensible proof. I think once we have the artifact of a proof, we can do a lot of analysis on it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:59:22",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "You posted recently that it would be helpful to have a formal or semi-formal language for mathematical strategies as opposed to just mathematical proofs, which is what Lean specializes in. I would love to learn more about what that would involve or look like.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:59:34",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "We don't really know. I mean, we've been very lucky in mathematics that we have worked out the laws of logic in mathematics, but this is actually a fairly recent accomplishment. I mean, it was started by Euclid millennia ago, but only in like the early 20th century did we finally list out: here are the axioms of mathematics, or at least the standard axioms of what we call ZFC and the axioms of first-order logic, and this is what a proof is in these systems.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "And this we've managed to automate and and have a formal language for, but there could be some way to assess plausibility of certain... you know, so you have a conjecture that something is true, you test a few examples and it works out, like how does this increase your confidence that the conjecture is true? We have a few sort of mathematical ways to model this, like Bayesian probability for example, but they're not... but they often you have to set certain base assumptions and and people and it's there's a lot of subjectivity still in in these tasks.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:00:43",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "So it is... it's not clear... I mean, this is more of a wish than a plan to develop these languages, but just seeing how successful having a formal framework in place like Lean has made deductive proofs so much easier to automate and train AI on. If there was some similar framework... so the bottleneck for using AI to create strategies and make conjectures is we have to rely on human experts and the test of time to validate whether something's plausible or not.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:01:21",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "If there was some semi-formal framework where this could be done semi-automatically in a way that isn't sort of easily hackable to... you know, if... so of course it's really important with these formal proof assistants that there are just no backdoors or exploits that you can do to somehow get your certified proof without actually proving it, because reinforcement learning is just so, so good at finding these backdoors. But, yeah, if some framework that sort of mimics how scientists talk to each other in a semi-formal way, of using data and argument, but also constructing narratives and... there's some subjective aspect of science that we don't know how to capture in a way that we can insert AI into them in any useful way.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:02:18",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Interesting.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:02:19",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "So yeah, this is a future problem. I mean, there are research efforts to, you know, to try to create automated conjecturers and maybe there are ways to benchmark these and get some way to simulate this, but this is all very, very new science.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:02:35",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Can you help me get some intuition for... I have two sub-questions. One, it would be very helpful to have a tangible sense of... it would be helpful to have a specific example of what something like this would look like, the way scientists communicate that we can't formalize yet. And two, it seems almost...",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "traditionally paradoxical to say he building up some narrative or building up some natural language explanation and then also having something which you could have formalized and I'm sure there's some intuition behind where that overlap is and I'd love to understand that better.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:03:19",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Right, so, so an example of of a conjecture. So, Gauss was interested in the prime numbers and he computed he created one of the first mathematical data sets. He just computed the first 100,000 prime numbers or so, hoping to find patterns.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:03:38",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "And he did find a pattern, but maybe not not the pattern he was expecting. He he found a statistical pattern in the primes, that if you count how many primes there are up to 100, 1,000, 1 million and so forth, they get sparser and sparser but the the the drop-off in in the density was inversely proportional to the natural logarithm of of of the range of numbers.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:03:59",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "So he conjectured what we now call the prime number theorem. The number of primes up to x is like x divided by the natural log of x.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:04:14",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "And he had no way to prove this. Um, it was it was data-driven. Um, so this this was a conjecture. It was revolutionary for its time because um it was maybe the first really important conjecture of math that was statistical in nature, you know?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:04:31",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "So normally you'd talk about patterns like maybe the spacing between the primes has a certain regularity or something, but uh yeah, but this was really something which it didn't tell you exactly how many primes there were in any given range. It just gave you an approximate approximation that got better and better as you went further and further out.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:04:46",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "But it uh it helped or so it it started the field of what we call analytic number theory. Um, but it was the first in many conjectures like this, many of which got proved, which sort of started um consolidating the idea that the prime numbers actually didn't really have a pattern, that they behaved like random um random sets of numbers with a certain density.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:05:11",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "I mean, they had some patterns like like they're almost all odd, okay, so there's some... and they're not actually random. They're what's called pseudo-random. I mean, um there's no random number generation involved in creating the prime numbers. But over time it became more and more productive to think of the primes as as if they were just generated by some some some god rolling dice all the time and just creating this this random set.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:05:37",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "And this allowed us to make all these other predictions. Um, so there's this still open conjecture in in number theory called the the twin prime conjecture, that there should be infinitely many pairs of primes that are twins, distance two apart, like 11 and 13. We can't prove that, and there's actually good reasons why we can't prove that, but um uh but because of this statistical random model of the primes, we are absolutely convinced it's true.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:05:54",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Because we know that if the primes were sort of generated by flipping coins or something, that we would just by random chance, just like infinite monkeys at a typewriter, we would see um twin primes appear over and over again.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:06:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "conceptual model of what the primes should behave like based on statistics and probability, um but it's all mostly heuristic and non-rigorous, um but extremely accurate. Um so the few times when we actually can prove things about the primes, it has matched up with the predictions of this what we call the random model of of the primes. So we we have this conjectural framework for understanding the primes that we everyone believes in and you know it's the same reason why we believe the Riemann hypothesis is true, why we believe that cryptography based on the primes is basically um is mathematically secure and things like that. It's it's all part of this this this belief. Um in fact one reason why we care about the Riemann hypothesis is that if the Riemann hypothesis failed, um we knew it was false, it means that there would be it would be a serious blow to this model that that this it would mean there's a secret pattern to the primes that we were not aware of. Um and uh I think we would very rapidly abandon any cryptography based on the primes because if there was one pattern that we didn't know about there's probably more. And uh these patterns can lead to exploits in in crypto and yeah it's it's gonna be a big big shock. Um so we really want to make sure that that doesn't happen. Um so yeah it's it's um so we've been convinced of of things like the Riemann hypothesis and things over time but uh some of it is experimental evidence, some is uh the few times we've been able to make theoretical results they've always aligned. Um you know it is possible that that the consensus is wrong and and we've all just missed something very basic. Um you know there have been paradigm shifts in the past in fact history. Um yeah but we don't really have a way of measuring this. Um I think partly because we don't have enough data on on on how math or science develops. We have one timeline of history and you know we have like you know a hundred stories of turning points in history. If if if we had access to a million alien civilizations and each with a with a different development of history and of science in different order then maybe we'd actually have a have a have a decent shot at at at understanding of how do we measure what is uh progress and and what is a good strategy and we could maybe start formalizing it and and actually having a framework. Um maybe if um what we need to do is actually start creating lots of mini-universes or simulations of of AI solving very basic problems, you know in arithmetic or whatever but um but coming up with their own strategies for doing these things and and having these little laboratories to test. I mean there are people who who investigate like trying to find what's the smallest uh you know neural network that can do ten-digit multiplication and things like that. I think I think we could actually learn a lot just from evolving um small AIs on on on simple problems, we could learn a lot.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:08:49",
+      "ad": true,
+      "speaker": "Dwarkesh Patel",
+      "text": "I was super excited when Mercury reached out about sponsoring the podcast because I've been banking with them for years. I think I opened my first account with them in 2023. Something I've come to appreciate over the last few years is that Mercury is constantly updating",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:09:00",
+      "ad": true,
+      "speaker": "Dwarkesh Patel",
+      "text": "things and adding new features. Taste their newest feature, Insights. Insights summarizes your money in and out, showing you your biggest transactions and calling out anything that deserves extra attention. Like maybe your revenue from a particular partner has gone down or you've got a big uncategorized purchase that needs to be investigated. It's a super low-friction way for me to keep tabs on my business and make quick decisions. For example, I try to invest any cash that I don't need on hand to keep running the business. With Insights, with just a couple of clicks, I was able to see exactly how much money I spent in each month of 2023. And that lets me know exactly how much cash I'll need for the next year or so of operations, and then I can go invest the rest. Mercury just keeps adding new features like this. Go to mercury.com to check it out. Mercury is a fintech company, not an FDIC-insured bank. Banking services provided through Choice Financial Group and Column N.A., members FDIC.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:09:52",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "You have to learn about new fields not only very rapidly, but deeply enough to contribute to the frontier. So in some sense, you're also one of the world's greatest autodidacts. What, how does, what is your process of learning about a new subfield in math? What does that look like?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:10:07",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Yeah, so I certainly identify with kind of the, yeah, as we talked about depth and breadth before. And it's not purely human-AI distinction. I mean, humans also split, so I think it was Isaiah Berlin who split them into hedgehogs and foxes. And the hedgehog knows one thing very, very well, and a fox knows a little bit about everything. So I definitely identify—you know, I think of myself as a fox.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:10:34",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "You know, I work with hedgehogs a lot, and sometimes I can be a hedgehog if need be, but—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:10:43",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Yeah, so I've always had a little bit of an obsessive streak. If there's something which I read about which I feel like I should understand—I have the capability to understand this, but I don't understand why it works, there's some magic in it that, you know, someone was able to use a type of mathematics I'm not familiar with and get a result which I would like to prove and I can't do it by myself, but they could do it by their method—then I want to find out what was their trick. It bugs me that someone else can do something which I think I can do but that I can't.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "01:11:11",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "So I've always had that kind of obsessive completionist-type streak. I've had to wean myself off computer games because I'll start a game and I want to play it to completion, all the levels. So that's one way in which I learn new fields. I collaborate with a lot of people who have taught me other types of mathematics. I just make friends with a mathematician who's working on another area of mathematics and I find their problems interesting, but they have to teach me some of the basic tricks and what's known and what's not known, and I learn a lot from that.",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "01:11:50",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "I've found that writing about what I've learned via a blog, where I sometimes record things that I've learned, because in the past, when I was younger, I would learn something and it's called—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:12:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "...trick it is, okay. I'm going to remember this. And then six months later, I've forgotten. I remember remembering it, but I don't—I can't reconstruct my arguments. And the first few times it was so frustrating to have understood something and then lost it. And so I resolved I should always write down anything cool that I've learned. And that's—this is part of why how this blog came about.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:12:22",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "How long does it take you to write a blog post?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:12:24",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Um, it's something I often do when I don't want to do other work. You know, like, there's some referee report or something. There's—there's some thing that—that feels slightly unpleasant for me to do at the time. And so, writing a blog, it feels creative and fun, like it's—it's something that—that I do for myself. Um, so maybe, depending on the topic, it could be a quick, you know, half an hour or several hours. But I—um, it doesn't—because it's something that I do sort of voluntarily, it doesn't feel like it—it—it doesn't feel—time flies when I—when I write these things. As opposed to sort of doing something which I have to do for administrative reasons, but it's just—it's just drudgery. Okay. Those are tasks where AI is really helping with nowadays, actually.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:13:06",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Is it, um, if like civilization could from first principles decide how to use Terry Tao's time. You know, it's like a limited resource. How—how—what is the biggest diff between in the—if the veil of ignorance got to decide how to use Terry Tao's time versus what it does now?",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "01:13:24",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "This podcast wouldn't be happening.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:13:27",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Yeah. So actually the—as much as I complain about certain tasks that I don't want to do but I have to do. So as—as you get more senior in—in academia, you get more and more responsibilities, you know, it's like more committees and—and whatever. Um, but I have also found that, um, a lot of events that I kind of reluctantly went to because I was obliged to for one reason or another, um, because it's outside my comfort zone, I often find interactions with people who I wouldn't normally talk to, like you for instance. And I would learn interesting things and—and have interesting experiences. Um, and I would have opportunities to—to then network with other people that I would never have—have done before. Um, so I do believe a lot in serendipity. Um, I mean, I do optimize my time in—in a—um, so there's some portions of—of my day where I do schedule very carefully. Um, but I have been willing to sort of leave some—some portions just okay, I'm going to do something which is—which is not my usual thing, and—and maybe it'll be a waste of my time, but maybe I'll—I'll learn something. And—and more often than not, it's—um, I've—I feel like I've—I've gotten a positive experience which is not something I would have planned for. Um, and yeah, so I believe a lot in serendipity. Um, and maybe there's a danger actually that, you know, in modern societies, it's not just AI, but we've become really good at optimizing everything. Um, and—and maybe we are optimizing—we're not optimizing our optimization. Um, that, you know, with—with...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:15:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "COVID, for example, we switched, like, we switched a lot to remote meetings, and so everything was scheduled now. And so we kept busy, at least in academia, you know, we met almost the same number of people that we met in person, but everything had to be planned, you had to schedule things in advance. And what we lost out on was sort of the casual, like, knocking on a hallway, just meeting someone while getting coffee, and the this serendipitous interactions that you may think are not optimal, but actually are really important. You know, when I was a grad student, I would go down to the library to look for a journal article. You had to physically go down to the library, check out the journal, and read your article. And sometimes the next article, you know, you can just browse through and then the next article was also interesting. Sometimes it wasn't, but you could accidentally find interesting things, which is something which has basically been lost now because you can just type in what you want, if you want to access an article now, you just type it into a search engine or even an AI and you can get instantly what you want, but you don't get sort of the accidental things that you might have had if you'd done it more inefficiently. So, yeah. There've been times when I spent a year once at the Institute for Advanced Study, which is a great place to, you know, there's no distractions, you're there to just do research, and like the first few weeks you're there, like it's great, you're getting all these papers written up that you've been wanting to do for a long time, you've been thinking about problems for blocks of hours of time. But I find if I stay there for more than several months, like I run out of inspiration somehow, like I get bored, I actually surf the internet a lot more. You actually do need a certain level of distraction in your life, it somehow adds enough randomness and high temperature, high temperature you need. So, yeah, I don't know the optimal way to schedule my life. It just seems to work.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:17:05",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "I'm very curious when you expect AI to like actually do frontier math better than the at least as good as well as the best human mathematician?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:17:15",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "I mean, in some ways they're already doing frontier math that is super-intelligent that humans can't do, but it's a different frontier from what we're used to. I mean, you could argue that calculators were doing frontier math that humans could not accomplish, but it wasn't, you know, number crunching, but...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:17:34",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "But replacing Terry Tao completely?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:17:41",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "I mean, which is what do you want me for? I...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:17:46",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "You'll just go on other podcasts after.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "01:17:54",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "I'm not sure we... it might not be the right question to ask.",
+      "tone": "pensive"
+    },
+    {
+      "timestamp": "01:17:59",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "I think within a decade.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "01:18:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "A lot of things that mathematicians currently do, we spend a lot of the bulk of our time doing it and a lot of the stuff we put in our papers today can be done by AI. But we'll find that that actually wasn't the most important part of what we do.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:18:16",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "You know, 100 years ago, a lot of mathematicians were just solving differential equations. People needed, physicists needed some exact solution to some system and they just hired a mathematician to laboriously go through the calculus and work out the solution to this fluid equation or whatever. A lot of what a 19th-century mathematician would do, you could make a call to Mathematica or Wolfram Alpha or a computer algebra package or now more recently an AI, and it would just solve the problem in a few minutes. But we moved on, we worked on different types of problems after that. You know, once computers came along, computers used to be human, right? People used to be laboriously creating log tables and work out primes as Gauss did, and that has all been outsourced to computers. But we moved on. In genetics, you know, to sequence the genome of a single organism, that was an entire PhD of a geneticist, you know, slowly separating all the chromosomes and whatever. And now you can just spend $1,000 and send it to a sequencer and get it done. But genetics is not dead as a subject. You move to a different scale, you know, maybe you study whole ecosystems rather than individuals.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:19:34",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "I take your point, but on the question of well, when is most mathematical progress and almost all mathematical progress happening by AI? So if you find out oh this theorem of Millennium Prize problem has been solved, you would put you know a 95% odds that an AI did it autonomously. Surely there will be such a year.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:19:54",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "I guess, I mean, I do believe that hybrid human plus AIs will dominate mathematics for a lot longer. It will require some additional breakthroughs beyond what we already have, so it's going to be stochastic. I think, you know, AI is currently very good at certain things but really terrible at others. And while you can sort of add more and more frameworks on top to kind of reduce the error rates and make them work with each other a bit more and so forth, I feel like we don't have all the ingredients to like really have a truly satisfactory sort of replacement for all intellectual tasks. It is complementary currently, it is not a replacement. But maybe, I mean, because current level of AIs will accelerate science in so many ways, hopefully, you know, new discoveries, new breakthroughs will happen more quickly.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:21:00",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "it's possible that also by somehow just through serendipity we we actually inhibit certain types of progress. Anything is possible really at this point. I think this- the world is very, very unpredictable at this point in time.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:21:13",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "What is your advice to somebody who would consider a career in math or is early in a career in math, especially in light of AI progress? How should they be thinking about their career differently, if at all, as a result of AI progress?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:21:29",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Yeah, so, uh, we live in a time of change. Um, it is, as I said, like it- we live in a particularly unpredictable era. Um, and, uh, I think in terms of, like, things that we've taken for granted for centuries may not hold anymore. Um, so, um, yeah, the way we, uh, do everything, not just mathematics, will change. And, um, you know, so I think, uh, which is, you know, I mean, in many ways, I would prefer the much more boring, quiet era where things are much the same as they were 10 years ago or 20 years ago. But, uh, so I think one just has to embrace this, that this- there's going to be a lot of change. Um, and that, uh, you know, the things that you study, some of them may become obsolete or revolutionized. But, but some things will be retained. Um, and, uh, um, so you somehow always have to keep an eye on the... yeah, there'll be a lot of opportunities for things that you wouldn't be able to do before. Um, so I mean, in math, you previously had to basically go through years and years of education, be a math PhD before you could contribute to the frontier of, of math research. Um, but now it's quite possible at a high school level or whatever that you could get involved in a math project and actually make a real contribution because of all these AI tools and, and Lean and everything else. Um, so there'll be a lot of non-traditional opportunities to learn. Um, so you need a very adaptable, um, mindset. Um, you know, there'll be room for pursuing things just for curiosity, for playing- playing around and, and, uh, I mean, you still need to get your credentials for- I mean, for a while, it'll still be important to sort of still go through traditional education and, and learn math and science and so forth the old-fashioned way for a while. But, um, yeah, uh, but you should also be open to, to very, very different ways of, of doing science, some of which don't exist yet. Uh, yeah, so it's- it's a scary time but also very exciting. Yeah.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:23:47",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Awesome. That's a great note to close on. Terence, thanks so much.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "01:23:48",
+      "ad": false,
+      "speaker": "Terence Tao",
+      "text": "Yeah, thanks. Pleasure.",
+      "tone": "friendly"
+    }
+  ],
+  "highlights": [
+    "AI has driven the cost of idea generation toward zero, shifting the primary bottleneck of science from coming up with hypotheses to verifying and validating them at scale.",
+    "Current AI tools excel at mathematical \"breadth,\" allowing them to solve numerous neglected problems by applying standard techniques, whereas human experts still provide the necessary \"depth\" for solving historically resistant core problems.",
+    "Scientific progress often depends on narrative and persuasion; even when data is correct, a theory must be communicated effectively to the scientific community to be adopted and built upon.",
+    "The formalization of mathematics through tools like Lean allows for a future where complex AI-generated proofs can be systematically refactored or \"ablated\" by humans to extract and understand the underlying conceptual insights.",
+    "Over-optimizing research and schedules through digital tools risks losing \"serendipity,\" the accidental but essential breakthroughs that occur during unplanned interactions and inefficient browsing."
+  ],
+  "summary": "The conversation begins with an analysis of Johannes Kepler’s discovery of planetary motion, illustrating a fundamental shift in the scientific method from theory-driven models to data-driven analysis. Tao and Patel observe that while Kepler initially sought a \"beautiful\" geometric theory, it was Tycho Brahe’s rigorous data that forced him toward the discovery of elliptical orbits. This serves as a metaphor for the modern AI era: Tao argues that AI has driven the cost of idea generation toward zero, shifting the scientific bottleneck from the \"eureka\" moment of hypothesis generation to the arduous task of verification and validation. As AI floods fields with high-volume suggestions, the challenge lies in distinguishing \"signal\" from \"slop\" and developing new systems to evaluate progress at scale.\n\nIn the context of mathematics, Tao discusses the recent success of AI in solving dozens of Erdős problems, noting that these tools currently excel at \"breadth\"—the ability to apply standard techniques to a vast array of problems that humans have overlooked. However, he distinguishes this \"artificial cleverness\" from true intelligence, noting that current models struggle with \"depth,\" or the ability to build cumulative, adaptive strategies over time. To move beyond this plateau, Tao emphasizes the importance of formal proof assistants like Lean, which allow for the precise deconstruction of complex arguments. He envisions a future where we develop a formal language not just for proofs, but for mathematical *strategies* and heuristics, allowing humans and machines to collaborate on a conceptual level rather than just a technical one.\n\nUltimately, Tao views AI as a \"trustworthy co-author\" that is already revolutionizing the auxiliary tasks of research, such as coding, data visualization, and literature searches. He compares the coming shift in mathematics to the automation of log tables or genome sequencing; while the \"bulk\" work of 19th-century mathematicians is now handled by machines, the discipline itself will evolve toward higher-level conceptual challenges. Tao describes his own approach to research as a \"fox\"—favoring breadth and serendipitous interactions—and advises aspiring scientists to remain adaptable. He concludes that while the core of human mathematical intuition remains distinct for now, the traditional path to the mathematical frontier is being permanently reshaped by AI’s ability to map out the \"low-hanging fruit\" of the intellectual landscape.",
+  "description": "We begin the episode with the absolutely ingenious and surprising way in which Kepler discovered the laws of planetary motion.\n\nPeople sometimes say that AI will make especially fast progress at scientific discovery because of tight verification loops. But the story of how we discovered the shape of our solar system shows how the verification loop for correct ideas can be decades (or even millennia) long.\n\nDuring this time, what we know today as the better theory can often actually make worse predictions (Copernicus's model of circular orbits around the sun was actually less accurate than Ptolemy's geocentric model). And the reasons it survives this epistemic hell is some mixture of judgment and heuristics that we don’t even understand well enough to actually articulate, much less codify into an RL loop.\n\nHope you enjoy!\n\n𝐄𝐏𝐈𝐒𝐎𝐃𝐄 𝐋𝐈𝐍𝐊𝐒\n* Transcript: https://www.dwarkesh.com/p/terence-tao\n* Apple Podcasts: https://podcasts.apple.com/us/podcast/terence-tao-kepler-newton-and-the-true/id1516093381?i=1000756353875\n* Spotify: https://open.spotify.com/episode/24xF8YGra2w3HXZYbhgVKU?si=U5V-SgvSQ8eVIcG2Z86wfQ\n\n𝐒𝐏𝐎𝐍𝐒𝐎𝐑𝐒\n- Jane Street loves challenging my audience with different creative puzzles. One of my listeners, Shawn, solved Jane Street’s ResNet challenge and posted a great walk-through on X ( https://x.com/hynwprk/status/2026376546286711206 ). If you want to try one of these puzzles yourself, there’s one live now at https://janestreet.com/dwarkesh\n- Labelbox can get you rubric-based evals, no matter your domain. These rubrics allow you to give your model feedback on all the dimensions you care about, so you can train how it thinks, not just what it thinks. Whatever you’re focused on—math, physics, finance, psychology or something else—Labelbox can help. Learn more at https://labelbox.com/dwarkesh\n- Mercury just released a new feature called Insights. Insights summarizes your money in and out, showing you your biggest transactions and calling out anything worth paying attention to. It’s a super low-friction way to stay on top of your business. Learn more at https://mercury.com/insights\n\nTo sponsor a future episode, visit https://dwarkesh.com/advertise.\n\n𝐓𝐈𝐌𝐄𝐒𝐓𝐀𝐌𝐏𝐒\n00:00:00 – Kepler was a high temperature LLM\n00:11:44 – How would we know if there’s a new unifying concept within heaps of AI slop?\n00:26:10 – The deductive overhang\n00:30:31 – Selection bias in reported AI discoveries\n00:46:43 – AI makes papers richer and broader, but not deeper\n00:53:00 – If AI solves a problem, can humans get understanding out of it?\n00:59:20 – We need a semi-formal language for the way that scientists actually talk to each other\n01:09:48 – How Terry uses his time\n01:17:05 – Human-AI hybrids will dominate math for a lot longer",
+  "duration": 5024,
+  "people": [
+    "Dwarkesh Patel",
+    "Terence Tao",
+    "Apple Podcasts",
+    "Jane Street",
+    "How Terry"
+  ],
+  "topics": [
+    "The history of scientific discovery and the transition from hypothesis-driven to data-driven science",
+    "AI's impact on mathematical research, specifically its strength in breadth versus human depth",
+    "The challenge of extracting human understanding and intuition from AI-generated formal proofs",
+    "The need for a semi-formal language to capture mathematical strategies and heuristics",
+    "The role of serendipity, 'high temperature' exploration, and human-AI collaboration in the future of math"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi_webp/Q8Fkpi18QXU/maxresdefault.webp",
+  "date": "20260320",
+  "youtube_url": "https://www.youtube.com/watch?v=Q8Fkpi18QXU",
+  "youtube_metadata": {
+    "title": "Terence Tao – How the world’s top mathematician uses AI",
+    "description": "We begin the episode with the absolutely ingenious and surprising way in which Kepler discovered the laws of planetary motion.\n\nPeople sometimes say that AI will make especially fast progress at scientific discovery because of tight verification loops. But the story of how we discovered the shape of our solar system shows how the verification loop for correct ideas can be decades (or even millennia) long.\n\nDuring this time, what we know today as the better theory can often actually make worse predictions (Copernicus's model of circular orbits around the sun was actually less accurate than Ptolemy's geocentric model). And the reasons it survives this epistemic hell is some mixture of judgment and heuristics that we don’t even understand well enough to actually articulate, much less codify into an RL loop.\n\nHope you enjoy!\n\n𝐄𝐏𝐈𝐒𝐎𝐃𝐄 𝐋𝐈𝐍𝐊𝐒\n* Transcript: https://www.dwarkesh.com/p/terence-tao\n* Apple Podcasts: https://podcasts.apple.com/us/podcast/terence-tao-kepler-newton-and-the-true/id1516093381?i=1000756353875\n* Spotify: https://open.spotify.com/episode/24xF8YGra2w3HXZYbhgVKU?si=U5V-SgvSQ8eVIcG2Z86wfQ\n\n𝐒𝐏𝐎𝐍𝐒𝐎𝐑𝐒\n- Jane Street loves challenging my audience with different creative puzzles. One of my listeners, Shawn, solved Jane Street’s ResNet challenge and posted a great walk-through on X ( https://x.com/hynwprk/status/2026376546286711206 ). If you want to try one of these puzzles yourself, there’s one live now at https://janestreet.com/dwarkesh\n- Labelbox can get you rubric-based evals, no matter your domain. These rubrics allow you to give your model feedback on all the dimensions you care about, so you can train how it thinks, not just what it thinks. Whatever you’re focused on—math, physics, finance, psychology or something else—Labelbox can help. Learn more at https://labelbox.com/dwarkesh\n- Mercury just released a new feature called Insights. Insights summarizes your money in and out, showing you your biggest transactions and calling out anything worth paying attention to. It’s a super low-friction way to stay on top of your business. Learn more at https://mercury.com/insights\n\nTo sponsor a future episode, visit https://dwarkesh.com/advertise.\n\n𝐓𝐈𝐌𝐄𝐒𝐓𝐀𝐌𝐏𝐒\n00:00:00 – Kepler was a high temperature LLM\n00:11:44 – How would we know if there’s a new unifying concept within heaps of AI slop?\n00:26:10 – The deductive overhang\n00:30:31 – Selection bias in reported AI discoveries\n00:46:43 – AI makes papers richer and broader, but not deeper\n00:53:00 – If AI solves a problem, can humans get understanding out of it?\n00:59:20 – We need a semi-formal language for the way that scientists actually talk to each other\n01:09:48 – How Terry uses his time\n01:17:05 – Human-AI hybrids will dominate math for a lot longer",
+    "duration": 5024,
+    "view_count": 212643,
+    "like_count": 5161,
+    "channel": "Dwarkesh Patel",
+    "upload_date": "20260320",
+    "thumbnail": "https://i.ytimg.com/vi_webp/Q8Fkpi18QXU/maxresdefault.webp",
+    "tags": []
+  }
+}

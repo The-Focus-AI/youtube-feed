@@ -1,0 +1,1803 @@
+{
+  "title": "Behind the Scenes with an early OpenClaw contributor! | E2255",
+  "source_url": "https://www.youtube.com/watch?v=65NplKBgwUA",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Welcome back to TWiST. Today is February 25th, 2026. I have to say this because, hey, it is AO-31. That's right. After Open Claw Day 31. All of our lives started when this incredible software dropped. And now we can actually get on with the great singularity. What is Open Claw? Well, we've been talking about it, as I said, for 31 days on this podcast. When we see a trend, we keep digging into it. We keep double di- we keep doubling down on it until it stops changing everything. Open Claw is an open-source piece of software. What does it do? It helps you create agents. We call them replicants, AI agents. And it's getting better and better every day to the point at which people are reporting that they can give it 10, 20% of their work every week consistently and that they're building companies with 20 or 30 replicants working on them, you know, to every three humans. So maybe a 5 to 1 ratio, a 10 to 1 ratio. With us to talk about this incredible trend and all the news that's happening, Deedy Das from Menlo Ventures. Deedy, how are you doing?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:01:10",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Great. Thank you for having me, Jason.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:01:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's good to have you on. You're very- oh, look at your All-In! Where'd you get that All-In logo behind you?",
+      "tone": "jovial"
+    },
+    {
+      "timestamp": "00:01:21",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Turns out it's a common catchphrase, and so we do the- we do all-in on AI.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:01:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Ah, got it. Okay, there you go. Well, that is our trademark and, uh, you'll be hearing from our attorneys momentarily. Well, we'll send them over there. So explain to people, you know, sort of your hot take on what we're seeing with Open Claw and, you know, these new models, um, that are, I believe, we'll see what you think Deedy, I believe they're a step function better recently. And by recently, I mean the last 12 months, it feels like something has changed. What's your take?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:01:56",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Yeah, I mean, look. 4.6 Opis is the most incredible thing that I've ever played with. I- I just I look back 12 months ago. Like, the core change that happened with model developers, I think, is initially the big- the biggest launch was 2024, end of 2024, we had reasoning models. That was mind-blowing. But reasoning models fundamentally were trained to give you great answers to complicated questions. I think it's around March or April of 2025 where people started waking up and saying, you know, we need to post-train models to call back to the model itself and do long-running tasks. That's when tool calling and long-running tasks and what we call agentic behavior really started working. And I think with- with Claw Code, it was very obvious to people that that paradigm was going to do way more valuable work than just single Q and A. And I mean, the rest is kind of- kind of almost becoming history. It's the- Claw Code's the fastest-growing product of all time. This is a-",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "You know, nearly three billion dollar run rate product a year.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean Claude's revenue is pretty stunning and I'm not sure what the latest run rate is. Do you know Deedy?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:14",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "I think the latest reported one was publicly was 2.5 just for Claude code, for Anthropic it's 14 and that was what they released when they announced their 380 billion dollar funding round. None of these numbers make any sense for anyone who lived five years ago.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:03:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well wait, in what way? Like the revenue, the sales to valuation number, the growth of the revenue, which piece do you think?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:03:42",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Both. I mean, I don't think the revenue multiple is astounding here given the growth. If you were to plot of revenue and growth rate, Anthropic is not an outlier. It's a pretty reasonable valuation for a revenue run rate and a growth rate for most companies, we've just never seen companies grow this fast. And yeah, zero, 100 million, a billion, and then 10 billion in three years is just not a company growth trajectory we've ever seen in history.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:04:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So it looks like Anthropic is saying their annualized reoccurring revenue, whatever that means, is 14 billion. Up from 1 billion, 14, yeah it's a basic run rate I guess. And so they raised 30 billion at 380 billion, so if we put these numbers together, you know, 10 times 14 billion would be 140, 20 times would be 280, so it looks like 25 times revenue ballpark. 25 times revenue, I'm sorry, yeah, total revenue not earnings, not profits, just total, they're losing a ton of money on this. Yeah, we'll see if that winds up being sustainable or not. Also with us on the program today, Tyler Yust. You're the third person Tyler I understand to join the OpenClaude team. You discovered the project on GitHub and you just volunteered to make it better. You're 22 years old and you study to be an aerospace engineer at San Jose State. And tell us a little bit about how you discovered OpenClaude and why you went all in on it.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:04:55",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Yeah, thank you so much for having me. It's a pleasure. I discovered OpenClaude on Twitter late December, so I believe it was the first guy who like started the whole Discord thing was named the Will of Shadow I believe. So he was posting it on X and was like, hey, we have something, check out our Discord. I joined the Discord and it's like this little AI bot living in the Discord, I was like, oh, what what is this? This seems interesting. And then it's Peter talking to it, giving it tasks and it's going off to do tasks. I've never seen anything like this. I was like, wow, this could be something very big.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "So that, that was at the moment I was like, okay, maybe I should start focusing on this a little.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:06:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now did you have a full-time job at the—or were you in school at the time? What were you doing when you found this open source project?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:06:13",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "So I was just working on like my own projects at the time, mostly like just indie dev work, I guess, like a social media analytics platform, that's really been my main thing right now.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Got it. So you didn't have a full-time job to start working on this. Now what is your role in the open source project? And maybe for the audience that's unaware about the dynamics of how an open source project works on GitHub and the dynamics around it, maybe you could just give them a little primer of how, you know, a open source project works versus working at a big company like Anthropic building a incredible product like Claude Opus 4.6 and co-work and while there are other incredible products.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:06:54",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Yeah, open source is definitely for Open Interpreter a crazy world because we're getting about like a pull request which is someone submitting code to the codebase. We get those around like every five minutes and we're about for like 4,000 pull requests right now. So it's kind of impossible to go through all of them at the moment.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And so these are developers out there who've become enamored with the project and they just say, 'Here, I added this piece of code to the project that I think the project should have.' And then it's up to somebody in this non-corporate structure to accept it. So explain who gets to accept the pull requests and how that works in governance in a project as, I mean, is this like the most starred project on GitHub? Stars is kind of like votes up, I think it is.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:07:44",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "I believe it's second right now. We're about to pass the first one, which I think is React. We're pretty close. We're getting, we're getting there.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:07:52",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "In terms of roles, it's something like this is pretty chaotic, but we have certain people focusing on certain things. So for example, I usually search on for the on the pull requests, I search like cron jobs or subagents or like iMessage. So I'm in charge of those three areas. That's primarily what I focus on. And then if anyone sees it's something that's related to one of those three areas I'm focusing on, then they send it my way and they just at me in Discord and be like, 'Hey, can you review this and see if it's able to get merged?'",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:08:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This iMessage integration is really interesting because Apple is notoriously unhelpful when people try to circumvent their iOS, you know, proprietary systems, the most proprietary of which is the blue bubble versus the green bubble. Green being, you know, Android users and they don't get all the features. So we put our replicants or started to put our replicants on Mac Minis so they could natively do iMessage. But explain to people why this is important to people to have native iMessage.",
+      "tone": "knowledgeable"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And then what's Apple's typical reaction in the community around getting hooks into iMessage?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:07",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "Building out your team is one of the most crucial things you have to get right in your startup, and finding the right developers is particularly important. But now there's lemon.io. They're going to save you time, money, and headaches by doing all the time-consuming legwork for you. They've got an experienced lineup of pre-vetted developers working for competitive rates. Just 1% of applicants are accepted into Lemon's elite program. And they're not just out there finding this great talent, they're also working with you to integrate these new members into your team. Plus, if it's not a good fit—hey, and sometimes things don't work out—Lemon will hook you up with a new developer ASAP. I've seen startups go from just pretty good to amazing after filling out their teams with developers from lemon.io. Go to lemon.io/twist and find your perfect developer or technical team in 48 hours or less. Plus, Twist listeners get 15% off their first four weeks. That's lemon.io/twist, L-E-M-O-N dot I-O slash twist.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:10:10",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "What I integrated was another open-source project, this was called Blue Bubbles, which allows for blue bubbles on iMessage. So all you do is connect that and then you could start talking to your OpenClaw like a normal human almost. Um, the primary reason I use iMessage is because I don't like having tons of different apps. I already have ChatGPT, I have Claude, I have Perplexity, I don't need another app to talk to my chatbot. I just want to like talk to it almost like a friend that's just being super helpful for me.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "What are the coolest things people have done with OpenClaw that you've seen?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:10:49",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Ooh, yeah, that's a great question. I honestly, the stuff I've been doing is awesome. So I would say the first week of January, right when it came out, I was like, oh, I need to do my taxes. So I gave it access to my Mercury account, just read access, and then also I created a QuickBooks account and created like an API skill for that. And then I was like, okay, I have all these transactions, I have QuickBooks set up, are you able to create a P&L for me? And it spent—it was ChatGPT 5.2 Codex at the time—it spent two and a half hours working on this like reconciliation of my QuickBooks. And I came back two hours later and it was like, oh, like everything's in, I've categorized everything, you're all good for tax. And I was like, what? What do you mean? I looked over it and it was like, okay, this is getting somewhere, this is pretty crazy.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:11:37",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Wow, so I have a follow-up question for you which is, you know, I've used OpenClaw in my little Mac mini setup, which is like very isolated from the rest of my stuff because I'm a little bit paranoid. But how do you reconcile the differences between something like an OpenClaw, something like Claude Code, CoWork, all of these different things? You know, what are the primary reasons you'd use one over the other?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "I think it's mostly what you want to get done. Like Claude Code is really only good for like coding, for example. I still use it for most of my coding. And then Open Claude, I would use for like checking my email, sending my emails, booking things on my calendar, setting reminders, updating my Notion pages. Like all of those things that Claude Code can't really do. But on top of Open Claude, I also do do some coding. So for example, if I'm like laying in bed at say like 11:00 PM or something, I would say like, 'Hey, can you go do this at 1:00 AM and then do another thing at 2:00 AM?' and I wake up and it's like a full day of work is done. I'm like, 'Oh, this is great.' I wake up to a full day of work done every day.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:12:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Got it. And do you think it's primarily because of the integrations that come out of the box with it? I mean, cause like I imagine, like what I'm trying to reconcile with myself is I'm such a power user of Claude Code that I tend to bake in my own integrations into that and make it do non-coding tasks. But do you think there's something else that's really, really special about how you can do the Telegram and the iMessage and kind of have context across everything? Go a little bit deeper there.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:06",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Yeah, of course. So, I believe right now, I think Open Claude's really the only one that can kind of improve itself. I don't, I can't speak much on Claude Code, but I can give Open Claude like, for example, all the skills I have, like checking my mail and stuff. I was like, 'Just go figure this out and write a skill for it.' And then from there on, it's able to do it every single time. I don't think there's really another program that's able to almost learn in that way.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:33",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "That's awesome. That's awesome. Alright, gentlemen, I wanted to talk to you about a story that's kind of trending here, which is Anthropic versus the Pentagon. I don't want to get too political here, but we all think about the power of AI. We're seeing it in white-collar work. We're seeing it, obviously, in self-driving and factory work. We all assume, hey, AI's going to impact those two areas. But we might not be thinking about the military and how they use it. Anthropic, we just discussed, has an incredible model, and they also have a $200 million contract with the Defense Department. It's actually really good, obviously, so the Defense Department loves this product. But they want to use it a little more vibrantly, let's say. They want to take the guardrails off of it. And Dario from Anthropic is like, 'Hey, we have a couple of areas where we have concerns. This is our tool and we don't want you to use it for areas where we think it's prone to abuse or that might be illegitimate.' The Defense Secretary, Pete Hegseth, he says, 'You have until Friday. Remove the safety constraints because we want to use it in any legal fashion, as in military legal fashion.' There's two issues that Anthropic really cares about. One of them is enabling murder bots, robots that kill things.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "...they don't want to have their technology used to program the automatic death of another soldier, a human being via robots, I assume? I don't know how drones fit into that, but non-human in the loop, I think is Dario's point. The second thing is they don't want it used for mass surveillance and to break the right to privacy that humans have.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "There's all kinds of talk that they may use like this act that we have in the Constitution, I believe, or it was given by Congress to the President, I forgot the name of it, but there's this act that they use during the War Powers Act, yeah, I think is what it's called, and that act—Defense Production Act of 1950, sorry, that's what it is.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "They're saying, 'Hey, we might just take over this technology and we'll tell you what you're going to do with it.' Deedy, what are your thoughts about the two granular issues here? And then just what is the responsibility of technologists building technology this powerful?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:15:58",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "This is a really tough, philosophical question of our times, you know? I mean, we sort of everyone knew this was going to be a question as AI got more powerful. It's a question when it comes to Anthropic and its user base, but the user base can't legally force Anthropic to do anything, and the user base can't coalesce to be a very powerful entity.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:16:26",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "The US government, on the other hand, is an extremely powerful entity, and Anthropic being a US-based corporation has to operate under, you know, their rules. And that's when it becomes a little bit tough. Who do I think should have the responsibility of being the moral arbiter of technology this powerful?",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:16:46",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Frankly, I don't know. I mean, do I think Anthropic will probably do a better job just because they have more control and understanding of the power of the technology? Maybe, but even then it's really not clear to me. Regulation doesn't always seem to be a good answer, and the military, of course they want guardrails off. I mean, that's unsurprising to anyone, too.",
+      "tone": "uncertain"
+    },
+    {
+      "timestamp": "00:17:11",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "But this goes down an extremely slippery slope, right? Even the kind of things we've seen models do, which are already pretty guardrailed, can get fairly scary in the limit when it comes to just like the impact on cybersecurity. You know, you can have these things run loose and completely take down systems publicly. And, you know, if you bring those guardrails loose, this is a pretty serious weapon. Wars don't always get won on missiles and drones, they get won on, you know, cyber warfare—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:17:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Intelligence.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:17:45",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Regime change, yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:17:46",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Lots of different ways to do this.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:17:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And what's really interesting about this is if they don't comply, Hegseth—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "would then designate Anthropic as a supply chain risk Tyler, which means they lose all of their government contracts. They're basically blacklisted. So this is... could be a billion dollars a year, it could be eventually five or 10 billion dollars a year, who knows what these military contracts will be worth. You're a young guy Tyler. How do you think about all this incredible technology being used for war? And, you know, the technologists... you're part of a certain generation. I'm Gen X. I think Deedy, you're a millennial, I'm guessing. And I don't know Tyler, you're 21, 22? How old are you?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:41",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "22.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "22. So what does that make you? Are you like a Gen Z? You're Gen Alpha I guess.",
+      "tone": "jocular"
+    },
+    {
+      "timestamp": "00:18:47",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Something like that.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:18:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Something like that. Who knows what these designations mean, but how do you look at that? Like if they were taking your open source work and using it to make murderbots or, you know, killer soldiers that killed, or a surveillance state. How would you feel about it and what do you... what do you think about this brouhaha?",
+      "tone": "probing"
+    },
+    {
+      "timestamp": "00:19:03",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "If you're launching a new business, meeting with potential investors, or you're just looking to raise some fresh capital, it's time for you to check out our pals at Every. They'll take care of your incorporation, your banking, your payroll, your benefits, and more, so you can focus on building, not just paperwork. And let me tell you, it's so painful to do all these chores and you want somebody who's a great partner who will do it perfectly every time. There are tons of options for apps that want to simplify running your company, but Every are the experts at working with startups. They've already helped over a thousand startups to grow and expand, including both first-time founders and experienced teams raising Series A rounds and beyond. That's the kind of experience partner that you need, especially when you're head down focused on your MVP and delighting your customers. You want a financial partner you can trust and one that's built specifically with founders like you in mind. If your operations are spread out across a bunch of different tools, you gotta switch off every time you move to a new task. That's not efficient. Every has every tool you need in one place, whether you're managing vendors and contractors or signing your team up for a new dental plan. So it's time to visit every.io for all of your startup needs. That's E-V-E-R-Y dot I-O.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:20:14",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Yeah, I definitely don't prefer that. Like, the reason I got out of aerospace was because the only like line of work would be like working with Lockheed, which is creating missiles to kill people, which isn't like the best in ethics in my opinion. Like, I don't want to be part of something like that. So using AI to do that, it's definitely in my opinion not the best, but if we don't do it someone else probably will. So we would fall behind in that way. So it's definitely a sticky situation.",
+      "tone": "sincere"
+    },
+    {
+      "timestamp": "00:20:43",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, you know I've been thinking about this one a lot. I haven't figured out exactly what my position is, but working through it out loud, a private company has the ability to choose and have the freedom to choose how their technology is used. So if Anthropic says, 'I...'",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "don't want to be involved in this, they have that right. Uh, and the military obviously has the right to say, hey, we're just not going to use your technology. So that seems like where this is going to go. Anthropic is going to be blacklisted by the government, and they're going to lose that contract, and then the people who work at Anthropic get to come to work every day knowing they're not working on those things. You can make a judgment: is that patriotic? Are they pacifists? Are they doing it for religious reasons, ethical reasons? Well, that's up to them, right? We have a certain amount of freedom in this country. And then there are other providers who will provide the technology. What I do think about here is: what if we were in an emergency situation? China invades Taiwan, or, you know, it was World War II, you know, Pearl Harbor happened, uh, the Germans invade France, and you would say, well—or if the Germans had landed on Long Island like they were planning on doing, you know, you would then say, hey, we've got to protect the country, you might have a different approach. You might say we're going to seize this company's assets and use it for war production. Uh, and that would be a different scenario. So I-I kind of—I don't want to both-sides it, but people do have some freedom here. If you went to, uh, Elon and said, SpaceX, you know, 'Hey, we're being invaded by the Russians or the Chinese, we need all your rockets to do this military purpose,' I think that would be a different condition than going to SpaceX and saying, 'Hey, we want you to build nuclear missiles. We want to put on the Falcon Heavy. We want to co-opt that, and we want to use the Moon station for putting nuclear bombs and, you know, anti-satellite technology.' Like, they would have the ability to opt out of that unless it was an emergency situation. I can't believe we're here already, but we're here already, folks. Uh, and then combined with... go ahead.",
+      "tone": "contemplative"
+    },
+    {
+      "timestamp": "00:22:58",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "You know, it's gonna probably end up like a bit of a prisoners' dilemma situation, right? Uh, you have four labs at least that have, you know, are within one month or two of each other in terms of what their capabilities are in some sense. So if Anthropic says no, Grok says yes, or, you know, OpenAI says yes. So I think it's a bit of an inevitable thing whether we like it or not that one of these companies will bend to the giant DOD contract, the... uh, so I think the-the ball's out of our court in some sense.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:23:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And, not to mention Tyler, we have open source models. So I'm curious your thoughts just generally, we'll leave the-the Donnybrook between Claude, Anthropic and-and the military aside for a second. But what is the state of Kimmy and the various open source projects as models in your mind today, and how do you see them being incorporated into OpenClaude in the...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Near term, one to three years, and in the long term, four to ten years.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:04",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Open models are still about six to twelve months behind the frontier labs at this point. In terms of using them in OpenClaw, I personally haven't really touched that at all, but I would say in about, who knows, three months, six months, primary model people would use for OpenClaw would probably be an open-source one that they could run on like a Mac Studio or for example. So it's all fully local, you're not sending anything to the cloud.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Why is that a, uh, an inevitability in your mind? Why are people going to choose to do that?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:24:36",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Because right now you're still making your request to Anthropic, to OpenAI, and they still, whatever you talk about, they are getting that data, for example. So if it's something personal, I believe in their terms and conditions they can use that for their training data, even though it's anonymous. But if you're using an open-source model, it's running locally on your computer, there's no that, like, in-between person from sending off that request and getting it back to you.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:24:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It also, just to educate our audience, I moved one of my replicants from a virtual machine onto a Mac Mini, uh, this past weekend. I noticed it's snappier, it's faster, and it's more reliable. Is that the case that it's much more reliable and native in addition to the privacy when you run it on a local machine, in your experience?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:25:21",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "It depends. Like, you're talking about running, like, a model locally for—",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Not the model, just running OpenClaw on a Mac Mini with a decent amount of memory seems more responsive to me and less janky, uh, you know, like when I'm talking to it in Slack or I now have it set up over SMS to a number that only I can respond to over Twilio. Now it just seems more stable, it seems faster on a Mac Mini than in a, in a VM on AWS.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:25:49",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "I don't think it makes that much of a difference. I would say it's more primarily like two factors right now. There's tons of updates going out improving speed and just quality of the code, as well as these models are getting a little bit faster. So like, like three weeks ago these models were, uh, doing like 30 tokens per second, which is like what is that, 15 words per second, and now they're up to like 50 or 60. So that speed alone definitely like makes it feel like these models are getting faster.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:26:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, the two constraining issues I'm having right now with OpenClaw is the speed and threadedness of it. I want to be able to have my one replicant doing like ten jobs at once as opposed to ten replicants. What do you think the future of that is, the speed and the parallel nature of it, and any tips on optimizing your replicant slash OpenClaw agent for this task?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:26:44",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Yeah, so that's primarily what I've really been focusing on. Um, I have a, in like the tools.md file for the OpenClaw, I have a rule that says anytime you need to make more than two or three tool calls, just spawn a sub-agent. So what that sub-agent does is it works in the background so you—",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "It'll still chat with it on Slack and it doesn't interfere with anything. And while that sub-agent is going, it's working, it's doing all that like hard work that takes 15, 20 minutes, and then reports back to the main agent, saying, 'Hey, here's your results.' And you just get the results. You don't have to wait for it to like, actually go do it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:18",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Is that going to be automated? Like, shouldn't it know to just every request want a sub-agent?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:27:24",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Yeah, some people don't really want it because, once again, you're using more tokens when you do create a sub-agent, because I mean, it has to recreate like the prompt and memory and stuff. So you're wasting like 20,000 tokens. But yeah, I think we should lean towards going towards like sub-agents just so the main thread is always like quick to respond.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:27:46",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, this seems to me like the inevitable architecture. We have Max Studios on order. I understand there's a new Max Studio coming that's going to be designed natively to run language models. Deedy, what does this tell us about Apple's brilliance? In 2008, Steve Jobs did a skunkwork project to get off of Intel and make his own silicon. It, I think, dropped in 2017 or 2018 when like the M1 and all these different things started to drop and the one on the iPhone. And then, so that's 10 years after the initial idea basically, it landed. And then another seven or eight years later, eight years later, it actually language models came out and this might be the perfect solution for solving that problem. So once again, Steve Jobs sees around two or three corners, knowing he needs to get his on his own silicon. They never built out their huge data center, they never did a CapEx, they never did their own language model. And here they are, they find themselves at the center of the discussion again with their desktops. What's your take on that, Deedy? 'Cause I'm absolutely enthralled with Steve Jobs's like behind the back, off the billboard, off the backboard three-point shot here. It's like a Steph Curry, you know, full court from the tunnel shot.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:29:08",
+      "ad": true,
+      "speaker": "Alex Wilhelm",
+      "text": "Debugging sucks, and it takes up time your team could be spending on awesome new features and products. But now there's a better way. Sentry's AI-powered debugging agent, Seer, isn't just guessing about what might have gone wrong with your system. It's analyzing your actual data. And because it has context, it spots buggy code before that code ruins your entire day. Plus, Sentry works alongside coding agents like Cursor, passing along an idea for a fix that can then be applied to your codebase and sent to a human team member for review. End-to-end automation, all the way from bug detection to pull request. So join the millions of devs and companies like Claude and Disney+ who use Sentry to move faster. Check them out at sentry.io/twist and use the code TWIST for $240 in Sentry credit.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Oh yeah, like hindsight's 20/20 and in hindsight Steve Jobs pulled off another miracle. I mean, I think if you break it down to the first principles, like why are Mac minis so popular for this? It's because people want a sandboxed personal computer with less side effects on their actual system to run a bunch of highly personal tasks connected to their own systems, right? That's why Mac minis were, became so popular for something like OpenClaw. Now, what does the future of that look like?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:30:29",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "I, there's two worlds, I think both of them will coexist. I think people will continue to, whether it's a Mac mini, it's the kind of easiest machine to buy and get set up with something like this. But also, you know, it's going to be inevitable that this is going to come to the big model apps as well. And, and what does that look like? It's just going to run, it's just might be much less private, and it's going to run on the cloud with a bunch of your integrations on every single app that you might use. And I would be hard pressed, I don't have any insider information, I'd be hard pressed to, to argue that they are not going to come out with some version of a long-running agent on an OpenClaw competitor or, or clone or a version of that that also does that on the cloud.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:31:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Absolutely awesome. Uh, hey listen, Tyler, I know I got to drop you off because you got a 1:00 PM meeting. Wanted to let you know that I've brought back the Launch Festival. This is a conference I started, oh gosh, it was originally called TechCrunch 50 then I made it Launch Fest. Basically free for founders, free to present. Why did I create this? Well, when I came into the industry I couldn't afford the two to five thousand dollars it costs to go to demo and all these other services. And I decided why don't I make it free to be on stage, make it merit-based, why don't I make it free to attend if you're a founder. How do I afford to do this? Well, I just don't make a profit off of it and then I let VIPs buy a ticket and we sell a certain number of VIP tickets to come to a VIP lunch with me and the speakers. And we're going to do it March 16th and 17th in San Francisco. Go to fest.launch.co. If you're a founder you buy a ticket, you pay 20 bucks, if you show up and pick up your ticket, we give you literally your 20 bucks back. Tyler, I wanted to give you two tickets to come and then if you have something really cool that you can demo for the first time on March 16th or 17th, I'll, I'll give you the stage and give you three minutes to go up there and just pitch it. It doesn't have to be a startup, it could just be some cool project you do, but we're going to have 50 pitches, 25 a day, most of them will be OpenClaw related and some of them will be from our founders who went through Founder University in Tokyo for the first time. 400 people coming, 200 founders, like 150 investors and then 50 other. Tyler, great job, thanks for coming on the program, we'll drop you off.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:32:45",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Thank you guys, great speaking with you.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:32:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, great speaking with you.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:32:48",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So great to get somebody who's actually in the open source project, Deedy.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:32:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And so yeah, if you want to come go to the website fest.launch.co and if you're a founder you just click on Founder Pass and apply for one and...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "At 20 bucks gets... we just don't want you to burn a seat, so you pay 20 bucks to not burn the seat and then we give it back to you. If you want to buy a VIP ticket, you get to come to lunch each day with the other, you know, whichever speakers are around. Not all of them stay for lunch. And then the other VIPs and then you get to... I'll be at the lunches as well.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "How great was that to have like one of the young guns working on the open source project?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:33:19",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "It's so cool. His energy is so, so great. Um, you can see how excited he is. This guy's going to be an incredible kid one day.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:33:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's amazing. Also at this festival, you by the way Deedy, you have a ticket as well. I give you a ticket as my guest. Um, I'm going to give a $25,000 investment prize, you know, uncapped note or whatever the round is at if you're raising one. 25K for the best OpenClaw project, 25K for the best other project, other presentation based on my opinion. It's my money. When I came in the business in the 90s, you paid Demo, I think it was $20,000. Then they tried to get you to pay like a coaching consultant they had $10,000, and then you had to buy five tickets and all this craziness. You were in for tens of thousands of dollars to get a demo slot. And you had five minutes.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:33:48",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:33:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, 20... Demo was around longer than 2014, I think actually. It was—there was another precursor name to it.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:34:17",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Mm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:34:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Anyway, it was nice people running it, but it was proprietary. Uh, and it was—I'm sorry, predatory in my mind. They also charged a bunch for the tickets. So I said, you know what, why don't we have it that you get on stage based on merit and then we give you money? And we'll just flip the whole conference on its head. And that's how like TechCrunch 50/Disrupt and Mike and I broke up and I did Launch Festival. That's how those conferences came about. Now TechCrunch Disrupt charges a lot of money now and they're kind of predatory in terms of how they price things for founders. I'm keeping this free. Free, free, free. I don't need to make money off it, I just need to make impact. Citrini wrote this article and you did a viral tweet about it. So why don't... the article I can tee up. Basically, they wrote the article as if it was 2028. They said everything that happened in AI came to fruition even more than people expected. Companies got more profitable, unemployment went up, but we lost the consumers. And it was be careful what you wish for, because if you don't have a bunch of consumers, then who's going to buy iPhones and order DoorDash? You actually wrote a viral tweet about it. What was your take on the piece and then we'll talk about your viral tweet.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:35:24",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Look, I think let's be very clear. The Citrini article is a work of science fiction. This is—it's interesting because it pulls you in with pretty factual claims. There's some claims, the premise is factual. And then it goes into extremely speculative downstream effects of those factual claims. I think about, I don't want to put a number on it, but maybe 30 to 40% of that article was I'm like, okay, I think this is interesting and there is a scenario where things play out in this way. For some of them, I'm like, look, I don't know if everyone's going to be ordering...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "food on their OpenClaw and DoorDash is going to be worth nothing, I don't really believe that view of the world. The thing that stood out most to me was very clearly Indian IT services. And this is something I've spent a lot of time on, just I was curious about what it means for, I guess, the lowest— the least intellectual form of software tech labor. If we all believe AI is pretty smart and we think AI is smarter than a lot of people at the lowest end, we should therefore believe that those businesses go away over time. Now the market's kind of reacted, right? The markets— all of these in the last month have gone down, these stocks have gone down 25% even in addition to the SaaS companies. And so that kind of begs the question, like what does knowledge work mean?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:36:55",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And here's your tweet, which is 50 billion of Indian IT service market value eroded in 30 days. And the Citrini article predicts it'll collapse even more. You can see people like Accenture and Capgemini down 25 and 30 percent. You might think of those as American companies, but really given how powerful the IT and the business process outsourcing, just that community in India is, a lot of the work is— you would think Capgemini's as much of Americans? No. A lot of it's happening in India. Got a billion people, couple hundred million now moving into the middle class and into this exact sector.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:37:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Why is it a false premise? Because one of the things I noticed was the business process work we're doing, as defined by somebody overseas which we have, was the perfect precursor to setting up a skill on OpenClaw. It turns out the people in this community, this business process outsourcing, they actually structure things and organize things so well that when you give it to OpenClaw, they know how to define it, whereas I found Americans don't even— they're like creative, undisciplined, un-process, generally speaking. They don't have this specialty. So I'm torn. Does this make the folks in India in this category superhuman and they will be the ones managing the replicants, or does it wipe them out? I don't know exactly how to process it.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:38:23",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "I think it's a transitory phase. What's happening right now is like, the companies who are using these consulting shops in India, they're still not going to wake up and go like, 'Hey, I want to be my own IT admin.' No, they're going to go to them and go like, 'Hey, can you use this AI stuff and solve all of these problems?' And what's happening now is a lot of these companies have their AI services packages, they're going to basically say, 'I was writing the code before and charging you X, I'm going to ask OpenClaw or Claude to write this code and charge you Y anyway.' And so we might not see a revenue hit in the short run, but one probably has to believe that when the barrier to entry in a certain...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "skill in this case being like IT administration and services become so low, either because of the competitive nature of the market, eventually your moat erodes. And so over time the market I think is reacting to the fact that I don't think this has value in five years. Today the revenues are actually pretty good. I don't think these companies are like we're posting losses because of AI. They're actually benefiting a lot because they get to do more consulting services. But what does that mean in five years, ten years, and maybe this is a segue into the SaaS thing, um, that's I think what the market's questioning here.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:39:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, and the market was overheated to begin with. So sometimes when you're trying to understand public markets, they're looking for an excuse to sell. There's people who've made their profits, it hits some high watermark and they're like 'yeah, is there going to be a headwind here? Did I max out this bet? I should take some chips off the table.' Be like hey, you're at a poker game and you get up, you know, 10k and you're like 'it's 1 am, maybe I should leave,' and you're trying to make that decision to lock in a win. I think that's part of it too, people are looking for an excuse, which then means this might be a buying opportunity. But SaaS does seem like a space that is going to face significant headwinds. Why, I guess is the question. One that comes to mind is, the software is easily replicable given these new software agents. So if you're faced with a 500,000 dollar SaaS bill and you can put 1 150k engineer on building a bespoke version that gives you more features for 70 percent less, every business is going to consider that. Number two, the per-seat model is how they were working, well if companies are going to stay the same size and you have a static team size because of this efficiency, the ability to land and expand has ended. So you lose land and expand while people can roll their own and maybe the per-seat pricing goes down, I'm not sure. So what's your take on this SaaS compression that's occurring?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:41:11",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Let me kind of simplify it and break it into sort of a spectrum of SaaS companies. I don't think SaaS companies are all the same. I think on one hand you have what is closer to what we call CRUD applications. CRUD applications: Create, Read, Update, Delete. Very simple database wrappers that have some specific integrations. It's quite valuable, but there's no real technology or business logic on top. And on the other hand, I would say highly interesting and technically complex SaaS, and I would put like maybe a Figma in this bucket, I'd obviously want to put a Glean in this bucket. So I think you have this spectrum of SaaS tooling. On the very bottom of that, or the very left of that spectrum, the simple apps, today companies, they're saying 'I don't want to have to stay three months of procurement, have to take this to my boss, have to get a approval for a 50,000 dollar license just to get this in and then use it. I can...'",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "You could literally go to Lovable, code it with a prompt, and then immediately I have this. So, is it causing disruption there? Absolutely. Now, then the common feedback is, well, Lovable is not creating new Figmas. And that's true. How does this affect companies on the right side of the spectrum? It's kind of different. If you look at SaaS company revenues and how SaaS companies mature over time, by year five, six, seven, most of your revenue's not coming from new customers. It's coming from a high concentration on your whale customers. And why is it coming from them? It's because you're upselling them a bunch of stuff. And that's, I think, where it starts to get pretty interesting where we had this fun story I actually heard a couple of weeks ago where a well-known ops provider was trying to do business as usual. They were like, 'Hey, you want this little integration? I'm gonna upsell you, it's gonna be 50k more on your contract. Are you willing to buy?' And the buyer actually was telling me, like at a dinner, he was like...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Mm-hmm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:42:44",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "...'We just vibe-coded that 50k integration and it took no time.' And it wasn't one of those janky vibe-coded things that don't last. It was very simple to just make this thing work and we just couldn't do that before.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:53",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Yeah. And those upsells to large companies are such a small amount of their overall spend that they're kind of like, 'Yeah, just do it. It doesn't matter. We're going to allocate 10% of the salary base to SaaS. So if we have, you know, 10 people getting paid 150k, we're spending 1.5 million. I think a good rule of thumb is we're probably going to spend 150k on their tools. So if we have to spend an extra 15k, hey, you know, we're a profitable business, we'll just deal with it.' But this has come up for me because I've been trying to get Slack to play nice with OpenPipe. And I want my agent to have like root access and I want my agent, my Ultron agent, like the ultimate one, on OpenPipe, to understand every person who works for me, everything they do, every conversation happening, every DM happening that nobody sees, to understand full context, with the exception of like HR issues or whatever, which, you know, I'm kind of figuring out how to deal with. But I run a transparent organization. Anything that's in email you should assume like your manager can see, and like if you're a salesperson, you already are like used to this. If you're in a finance position, you're already used to this. Any trades that occur on a trade desk are recorded, whatever. Put all aside the illusion of privacy in corporate America. It's just very hard to get root access to Slack. So I was like talking to my agent, not my agent in Hollywood, my Replicant. And I'm talking to my Replicant and it's like, 'Well, you know, if we use Mattermost instead of Slack, we can set it up this weekend. You can export everything from Slack. It'll take like six hours. And then you can cancel Slack or you can get rid of like 18 of 20 accounts on Slack, just keep it up as a shadow thing if you need it.'",
+      "tone": "candid"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "and you'll have root access and we'll host it and we'll have total control over it it's an open source project do you want me to do it yes or no and I'm like okay now it's getting interesting",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:45:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "so what do you think of this issue and then we got two incredible open Claude demos coming up just as we wrap this issue the the bespoke software created internally was considered a headache Deedy it was considered a you know a liability in many cases but is it now moving into a competitive advantage I wonder",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:45:34",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "I I would say two things to that one thing that struck me as really interesting as you're telling me that story is one like does this push tools to does it force SaaS companies to be open by nature and play well with things or people are people just going to switch off um like you know Slack might want to protect their data and say look I don't want you guys to use my data that's my most valuable resource but then you could say well I can vibe code a migration without using any other money and then just take your data put it on this other thing and I'm good um so that I thought was really interesting and then you know on the second one I'm I'm actually more bullish on some SaaS companies in the long run cuz look ultimately no one's vibe coding a Figma right you can't it's not going to probably happen",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:46:17",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And why would you, like?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:46:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Not necessary, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:46:19",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Yeah, yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:46:21",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "so I think the real nuance is how complex and how how much meat in technology is really on this SaaS company and the SaaS product and if there is I think you'll be fine in the long run but just for a lot of companies there isn't and the market's being pretty fearful right now um I don't necessarily believe people are going to vibe code a suite of tools and actually use them on a daily basis I think for some categories maybe for super niche personal things maybe for your company business messaging app probably not",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:46:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm spending currently 6,500 a month to have like the second highest tier there's like the low tier the medium tier the high tier I think I'm on the medium right now which means I think I spent $25 a month per person instead of 10 or 15 whatever the entry level is and I think there's a $50 version above that so then that would be a thousand a month so I'm either 6 to 12,000 depending on which version I need to do what I want to do in other words it's inconsequential amount of money for my firm at this stage so I'm not swapping it out but if it does if the open Post or open Matter whatever it is a Matter post whatever it is if that open source one is more powerful and I can get more done faster",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:47:37",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Mattermost",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:47:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Mattermost then I'm moving to it so it really becomes to your first point make it really a friendly and it is my data so why am I having to jump through hoops to get my data out of Slack or if it was Notion which has a pretty robust API or PipeDrive another great SaaS product we use Grammarly another great SaaS product Superhuman these products just need to I think",
+      "tone": "decisive"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "except that we need an API call by default for each user, that's just going to become table stakes. And I think my message for Steve Huffman at Reddit is, I want my account, which I don't pay for, I just, you know, my standard account, I will pay $100 a month, $50 a month, whatever he wants, to create a bot access. So that bot, that Deedy, I'm responsible for when it's on Reddit, and it does things for me on Reddit. It doesn't post for me, but it does its research on Reddit, it brings me back my DMs, it does whatever I want to do, like up to whatever number of calls. So then I would be a $600 to $1,200 a year Pro account for them, and I certify that I will make sure my bot doesn't go rogue. So it's a way to kind of allow bots into the system. What do you think of my crazy idea of like you can have a bot paired with you on social media? I could have an Instagram bot for 50 bucks a month or 25 bucks a month Pro account. I could have my LinkedIn one on my Pro account. Just to do stuff for me, but I say, hey, listen, I'm going to be responsible. I brought this person to the party. If they flip over a table and like, you know, start a fight, it's on me. I don't get invited back to the party.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:49:15",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, I think the weakest link in that argument is probably the last one, which is like, you know, how are you actually going to take any responsibility? You don't really control anything the bot does. To an extent, like, you might not even be able to know. You might give it a simple prompt and it might behave in erratic ways beyond your control, and maybe they ban you and then you just create another one. So I do think that part is a little bit weak. The general idea is something I think a lot of companies are reckoning with. Like, what does it mean to have bots interact with humans on social media? Should we allow it? Should we not? What are the repercussions? On X, I'm sure you see half of your replies are bots and—",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:49:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Not anymore because it's a dollar to reply to me now per month to charity. So I have 2,000 people who are in my community out of a million who pay me that. It's like whatever that is. So like very small amount. I guess, yeah, 10,000 would be 1%, so it's a fraction of that. It's 20 basis points do that. All right, let's do some demos.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:50:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "First up, we've got Lewis Tam. Lewis Tam is calling in from Singapore, which is where I went for the first time last year. Had a great time there. He is the founder of Foundry. He develops AI apps. And he's going to show us Unreal. This is an AI-generated— these are AI-generated videos designed to go viral. And he's going to show us Unbrowse, a collection of AI agent skills that function as APIs. So let's bring on Lewis Tam. Hello, Lewis, what time is it in Singapore? Aren't you like 15 hours ahead?",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:50:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'm actually in Salt Lake City.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:50:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, okay. Oh, okay. You're skiing? You're getting some skiing in? Getting your turns in?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:50:46",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "I intend to go tomorrow. It's actually my first time here. I came here for some event and then, yeah, I'm just— yeah, I've never been outside of Singapore for like a long, long time and it's like—",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:50:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Got it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Cool, yeah. Yeah, America's cool, and we think Singapore is cool. I had a really great time there. I went to that Anthony Bourdain booth in that market where they have the chicken and rice, the famous one.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:51:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. I mean, they're all really nice. All the chicken rice, like, a lot of it is just like this...",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:51:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Why is this chicken rice dish in Singapore so good? What's the name of it and what's the secret? Because I'm not a chicken rice guy. I'm not a rice guy, and I'm not a chicken guy. I'm a steak and potatoes guy, I'm a steak and asparagus guy, but the last thing I'm interested in typically is like chicken and rice. And I went back for seconds, I couldn't stop dreaming about it the next day. What's— what's going on with this chicken rice?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:51:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Maybe it's just the rice. 'Cause the rice has like this special flavor to it as well, right? Yeah. And the chicken is like— also has another special flavor to it as well, right?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:51:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's the flavor. I— we have to go on this diversion for a second, but the one that's in the Michelin guide is, uh, Tian Tian Hainanese Chicken Rice? Am I pronouncing it even close correctly, Lon?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:52:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Close enough. Pronounce it for me. Tian Tian Hainanese Chicken Rice.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:52:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So this is incredible. Look at this, Deedy. Have you been?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:52:15",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Looks delicious. I— I love my chicken over rice, yeah.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:52:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You're a chicken rice guy?",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:52:20",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "I love it.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:52:21",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I love it.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:52:21",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "I love it.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:52:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Deedy and Shomas into the chicken rice too. So this is in a market, right? So they have these like markets kind of with a bunch of booths and stalls. And this one is like super famous because it was— let me see if I can find the image of it. You'll know it because it's got this blue here, and in every like three or four feet in this thing, they have Anthony Bourdain's picture on the wall and his reviews. It is the most amazing dish I've— one of the most amazing dishes I've ever had.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:52:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The other interesting thing, Lon, is the way you secure your spot in Singapore in a food court.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:53:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, yeah. Yeah, you could just leave iPhone there and then no one takes it.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:53:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The way culturally it works is you're in a food court and there's fifty stations, fifty booths, and there's a thousand people. And you just run around and you take out your $1300 iPhone and you put it on the table. So four people come in, they put four $1300 iPhones or Android phones, there's $4,000 worth of phones on the table. And then you go walk to a booth, way out of eyesight, and then you walk around and look for a seat without an iPhone on it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:53:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And then there's something going on in Singapore in these booths. They don't believe in giving you a lot of napkins. This is the other thing, Lon. What's going on in Singapore with the napkins? You get like one napkin, you ask for like five napkins, they think you're crazy.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:53:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, you're asking the real questions here.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:53:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "These are important questions.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:53:56",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, why? I've never thought about it. Maybe it's because you could also use the tissues...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "it's like uh an alternative to the phone and they want to leave it",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:54:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, maybe. I guess.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:54:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's, you know, it's just like going to Italy. You go to Italy and you try to get a Coke Zero with ice. They're like, they give you one ice cube or two ice cubes and then you're like, 'Can I get a glass of ice?' And they're like, 'Why? Why would you want that?' All right, listen, it's enough already with my diversions. Show us what you built.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:54:23",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "You kind of wish all these websites would let them have APIs and like, let agents just traverse the APIs, right?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:54:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Mm-hmm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:54:31",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "So that's what Umbrels is. Umbrels says basically like, well, I mean, technically websites already have APIs. It's just that the front-end only has access to it right now, right? They're not public APIs. So what Umbrels does is that it just unwraps the UI. It gives you direct access to the servers behind the website so your agents can just traverse it directly.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:54:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Love it. This is an issue for me with Reddit. It's an issue for me with X.com. It's an issue for me with many websites right now. So can you show us an example of it working?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:55:04",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Yeah, sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:55:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And Deedy, do you get throttled by any websites at all? Or are most of the APIs that you have access to, do they already use the cookie to be used for?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:55:13",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Oh, I think I'll explain it further, like in a more technical sense, right? So, basically, how it works, right, is it's basically this skill, right, that basically acts as an alternative browser for open Claude or any agent. So normally agents would open up a browser, they would click through the UI like a person would, basically. Like, it's kind of funny if you think about it, right, cause like, agents are pretending to be a human by clicking the GUI, which was built for humans just to talk to another machine. So it's kind of ridiculous, right? You have a machine that's pretending to be a human to talk to a machine when the machine could just talk to the machine directly.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:55:46",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "So, yeah, basically, what I do is that I cache the cookies and headers that the agent already uses in the browser, and I just pass it straight to the fetch request, and it just calls it directly as like a direct API call. And whenever, whenever like...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:56:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Great. Let's see. Let's see. Let's see it in action.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:56:10",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Sure. Um, let me just share my screen real quick. So this is basically Claude Code. It's the less capable open Claude, but it's, it's really good at coding, right? So the reason I'm choosing to demo it with Claude Code is because you can see what's happening. And I'm gonna just show you exactly what happens if I ask it for Reddit, for example. I say, 'Hey, uh, can you help me find posts about open Claude on Reddit?' Call the API someone else's agent has already indexed because it will basically cache the blunt APIs into this massive database of the entire internet. And then use that knowledge of how to read Reddit and just pull it out and then call Reddit directly. So over here it's looking through Umbrels' server, and then after that, it's just gonna directly talk to the server.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Wow. Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:57:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And is Unbrowse server sort of wrapping the behavior that underlies Reddit? Is that what's going on?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:57:08",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "So, the process is like basically whenever an agent browses the web once, it clicks the UI, but under the hood there's actually a network request that's happening, right? Back and forth. It captures them, reverse engineers the website, indexes those into the reverse engineered APIs that turn into a skill, shares the skill with all the other agents so that once an agent indexes one, all the other agents can just access the same skill and then it's just basically the agents' internet. I'm basically building like a sort of like a Google for agents, I have like Chrome for agents and I have like Google for agents, if that makes sense.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:46",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So the new API is the browser is sort of what you're building. Is this a company or is it a skill and part of the open source community?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:57:56",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "It's both. The skill is basically an interface but I'm starting a company for this specific thing called Unbrowse. So now you have all this information about OpenClaw and as you can see, I didn't even have to open a browser because it just called APIs directly without having actual official Reddit access.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:58:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is great. This is just what I need.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:58:15",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "What if I, like here's the question on everybody's mind is what if I could just get this to trade prediction markets for me?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:58:18",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Yes, technically you could. So the thing about this, right, is I was experimenting with this a lot. So you guys know PolyMarket, right? You know there's so many prediction markets out there that are so random and you could bet on literally anything, right? So firstly, you could index PolyMarket. That's something I've indexed before and you can just query PolyMarket directly. And then after that, because you know, like there can be predictors for all kinds of things on PolyMarket, right? Maybe let's say Bitcoin price, for example, right? You can like have Unbrowse for like Stocktwits, you can Unbrowse for like the price of Bitcoin itself and you can do like regression on the fly with all these data sources and then basically predict the PolyMarket.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:59:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, can you do it for Google Flights? That's one that I'm always having a challenge with. I think Google Flights is just such a great product, but it's so hard to like get my agent to do booking of travel right now. That's like my big white whale is to get it to really efficiently figure out travel.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:59:22",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Right now it cannot, but that's on the roadmap. Because all we need to do is figure out the cookies and how to sort of go around their very complex APIs.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:59:32",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So what do you think your business model will be as you start?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:59:36",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Okay, so the business model is basically I'm trying to build a platform, right? For a sort of like a search engine, right? And then I'll basically let users pay per search, but in this process of paying, right? It's actually cheaper than having the browser browse the web for you because the token cost you save from calling APIs directly is like 90% of like—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So original like shipping it with a browser? So if I make it such that it's one cent to just call an extra connection, right? Not only can I reward the website itself with like these rewards of like actual payments through micro-payments, I could also make it cheaper than the actual token heavy consumption because that could cost ten cents, right? So everyone wins.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:00:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Amazing.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:00:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alright Lewis, great job and if you're in town March 16th and 17th for Launch Fest you are my guest. We will get you a ticket March 16th and 17th in San Francisco. Let's drop Lewis off to my team. Sebastian is coming on, uh, vocal. Sebastian is going to talk to us about a device he made for OpenGlass on a Raspberry Pi. I saw this in my feed and I was super inspired because interesting things start as toys and then quickly become, as you know, DD, uh, more than toys. They become tools and then they become companies. It's a really interesting trend that we see all the time. Sebastian, show us what you built.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "01:01:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, hi, great to meet you guys. This is my little friend here. It started so randomly literally last week. I do have my own startup which is like unrelated to like OpenGlass whatever, like as a founder. I use OpenGlass like by myself. So last week I was funnily enough I was also in Salt Lake City with my co-founder snowboarding and we were just like, 'Hey, wouldn't it be nice if instead of like I usually have it on like my WhatsApp or my Slack like chatting with my OpenGlass agent.' I was like, 'I just want to like I just want to talk to it. I want to pull it out and like talk to it. I just want to don't go on my phone, open up the app and then talk to it.' And that kind of like just gave me the idea of like, 'Hey, what is the smallest form factor I could build hopefully in a weekend that could like enable me that?' That's where I kind of like came up with this. So like all the parts I ordered on Thursday last week, I got it on Friday and I basically hacked all the software and hardware on like Saturday and posted a demo this Sunday and for some reason it just went viral on like X and like the Reddits and whatever. But the idea is very simple. You basically have this little device here, you can have a button where you basically push to talk and it records your voice, transcribes the audio, sends it to OpenGlass and then it makes whatever it makes and it has this little cute kind of like Tamagotchi style character that kind of like talks to you and like makes things for you happening.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:02:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, very cool.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "01:02:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But yeah, that's how I got into it. So super randomly.",
+      "tone": "humble"
+    },
+    {
+      "timestamp": "01:02:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sebastian, how much did it cost you out of curiosity to make that entire device?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:02:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Uh, the total cost was like a hundred bucks. So I would say again, this was super hacky, super just like the prototype...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Form factor is like, if I compare it to my phone, it's like maybe for people—it's like a fourth, like a fourth of my phone from a screen size-ish. It's a bit too big, but I would say if you actually like spend time on actually building something like that, you'd probably get the cost down to like maybe 40, 50 bucks and make it even like smaller and like battery better, etc.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:03:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Incredible. You know what it reminded me of when I saw it?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:03:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Remember the communicator from Star Trek? I was like, this dude created the communicator. And then I guess they have the pin where they would double tap the pin and say, \"Hey computer, okay computer,\" whatever. But I agree with you, I've been testing a bunch of different modalities. I love this Plaud pin, I wear a Plaud pin now, I forgot to put it on before I got on the air. But I've been testing the Plaud pin, and what I love about it is sometimes I go for a walk on the ranch, sometimes I take out a stogie, I go smoke a cigar, and I just talk to it about all my different projects and I say action item, question, possible business model, possible, you know, venture capital, you know, system that I want to build, possible event I want to do. And then it automatically syncs with the cloud, automatically generates a summary, and then I'm now putting on my schedule time to review my bookmarks and my Plaud notes and, you know, other things. And when I do that, I'm like, \"Oh, I remember I had that discussion, I had this really good idea, what if I started a school for venture capitalists, what if I did this, what if I did that?\" And it all started adding up for me. So it was like super inspired when I saw your thing. What do you think a high-end version of this, if I told you, \"Hey, make it with money is no object, just, you know, Uber Black it, you know, what is the ultimate luxury version of this, Sebastian?\" What would that form factor be if I said, \"Hey, $1,000?\"",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:04:57",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Um, I don't—I don't necessarily think it needs to be a thousand dollars. Like, I—I think it's obviously—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:05:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, obviously it doesn't. I'm just giving you permission to think. What if it could have anything you wanted? No constraints.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "01:05:08",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "You—you want it to be like... it's no secret, I guess, that like companies like OpenAI, they build on some hardware stuff, they acquire—like, they would be—they'd be dumb if they wouldn't be working on something similar like this in this exact moment and getting this on the market in the next few months. Like, and probably not OpenAI, but like other—other big companies as well. I—I think if you think about it from a perspective of like, sure, the models get better and better, but how—how do we as humans kind of like interact with—with the models? Then like, I think something that should be obvious is that like a chat interface is not the best interface to communicate with—with like a model. So like, oh, is—is voice a better model? Probably. Before I did my current company, I was spending two to three years in the brain-computer interface market and I was building brain-computer interfaces. I was like back then it was like—",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "01:06:00",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "...fiction that's still science fiction, but...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:06:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Which type of computer interfaces? You put a word before that I didn't hear.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:06:07",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Oh, yeah. I was working on non-invasive brain-computer interfaces.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:06:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, non-invasive. Explain what that means in plain English to, you know, consumers who are listening.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:06:15",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Sure. There's two types of BCIs. BCIs is short for brain-computer interfaces. There's non-invasive and invasive. Invasive means you need surgery. You're putting basically like the—it sounds, again, it sounds scary, but that's just like how it's especially done for like medical use cases. If someone, for example, can't walk anymore or can't speak and you need to get access kind of like to the—to the neurons in your brain, you basically putting those electrodes via surgery in the brain to kind of like communicate that signal to the computer and you have companies like Neuralink, for example, that's like one of the biggest ones by Elon that are kind of like doing this, like invasive BCI work right now in this moment for like more medical use cases. And non-invasive basically just means you're—you're not doing a surgery, you're putting electrodes outside of the—like skull basically on top of your head to detect kind of like the neural signals. Um, and the—but there's like tradeoffs here, right? The—the signals are usually pretty weak, um, if you are not getting inside the brain, so there's like—there's like a lot of tradeoffs of those two options, but if, um, yeah, there's like a—there's like a way of like these like microelectrodes, these like embedded—you put them kind of into the—into the skull.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:07:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "This is interesting. So they have ECoG, which uh lays on top of your head. You have microelectrode which goes inside the brain. That'd be Neuralink. And then there's this other one, endovascular, which means I guess it's going invasive into the bloodstream—the—the blood...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:07:35",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Yeah. There's one company right now called Synchron who's doing endovascular. They basically putting these like kind of microelectrodes into the—the blood vessels and they go through the blood vessel through the brain and then expand at the the part of the brain where they need to get signals from. And it's a—it's like an innovative way of like not actually doing like a pure surgery. But, um, I think—I think Elon knows this that like, okay, like Neuralink is obviously like a decade plus away from consumer—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:07:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "He's always going for the like—where's—he's going—I mean, as a, you know, good friends, he always goes for what is the ultimate end state. Yeah. And then how do we compress getting to the end state. So if the end state is data centers in space, let's get there. If the end state is not hybrid cars, but like, you know, a 3 or 400 mile car and a supercharging network, we might as well just work towards that goal even if the roads are only does 150 and even if the, you know, supercharger stations can only put in 50 miles per hour, we'll get to 500 miles per hour, thousand miles added down the road.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "01:09:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So in your mind, will we be wearing a skull cap that interfaces with OpenClaw? And if so, when?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:09:09",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Yeah, not in the next—not in the next three, four, five years. Probably like five to ten years, I would say, there will be some crazy first human trials that will be open to do that. But yeah, I think—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:09:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Non-invasive, non-invasive communication with a computer. You think it's possible?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:09:24",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "No, not right now. You have physics that kind of prevent you from getting the right, like, good signals from non-invasive, like, basically signaling. So, like, in this moment for now, the only way to get the actual good signals would be invasive. And for that to have a consumer device is just like so many years away. But like all the—all the companies that are kind of like—and I worked in that industry, so I kind of have a hard take on that, but like every company that's working on non-invasive stuff is, like, I don't think has a—has a great future in terms of, like, providing the actual value. But yes, I think the—to make it short, like, if you give a company like fifteen years to figure it out, unlimited money, then yes, there will be some device that basically you just like talk to OpenClaw with your brain and you just like let it do things for you and like not be a chat, not even be a voice, but be a thought. And that's like—that's not five years ahead, but like ten years plus. But like I think what like this—like building hardware devices and like what led me to this is just like thinking about different interfaces of communicating with our agents.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:10:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is really interesting, Deedy, this rabbit hole we're going down.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:10:04",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I was talking to the CEO of Whisper on This Week in AI, our new podcast, This Week in AI, separate podcast, kind of like All In, just three CEOs and me—",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:10:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Chopping or, you know, fund managers chopping up what happened that week in AI.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:10:19",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I brought up pedals. So there are pedals you can use with your computer, you press it, it turns on your microphone. So that's kind of an interesting interface, right?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:10:27",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Like Oura?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:10:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And then he said, 'Yeah, or rings.' And I was like, 'What do you mean rings? Like Oura?' And he said, 'Well, no, no, no. There's a whole category of computer rings that exist and, like, I just looked this up, this one's called Prolo Ring. It's a programmable ring, and you can connect it to your computer, obviously, and then it will do things like swipe up, swipe down, swipe left, tap, media controls, and it's all based on different parts of the ring. So imagine a ring with different pads on it that you could do. And the reason I know this is real is because I see an ad for a ring for people who doomscroll constantly on TikTok. I don't know if you guys have seen this, but TikTok doesn't advance to the next short, but X does. So when you're using X, you could literally be on a treadmill and it plays the video, then it goes to the next one to the next one. So if you're on an OpenClaw video and you just want to play a stream of shorts, you'll probably get more OpenClaw. If you're on something spicy, you'll get more spicy. If you're on something political, you'll get more something political because—'",
+      "tone": "storytelling"
+    },
+    {
+      "timestamp": "01:12:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The stream is so good. But on TikTok, they sell a ring so you can sit there and, uh, be like, uh, in your bed and you press advance. It's just a ring to advance to the next thing. It's totally crazy. But what do you think of this interface, Sebastian, since you're so deep into interfaces? What do you think of the ring?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:12:17",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Could be- could be an option. I'd have to- I'd have to hypothesize like what the best option is. I think something I like out of joy for this one is it has a character to it, like it's like, again, from the nineties...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:12:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Persona.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "01:12:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "A persona, yeah. If you- like, OpenClaw has a soul.md file, like, you know, you can give it a soul, it has a personality. So, like, it feels like why- why wouldn't the interface, maybe the interface should have some kind of, like, soul.md or, like, something for you to, like, interact with. And, like, obviously this one is not- this is, like, it speaks pretty badly, it's like, 'Hey, can you say hi to Jason?' Uh, and it's like- I don't know if you can see this, but it will think a little bit...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:13:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, I can see, yeah, great.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "01:13:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Hi, Jason! Hope you're doing great.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:13:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh my god, so you have a character you had it build. This is going to be great for kids. You know, we had a woman, Jessie, on the program last week, I believe, and she's doing homeschooling. Your product for homeschooling would be incredible because she could have it- I'm going to put you in touch with her. You guys could make this product because schools now are banning phones. But if each student had an OpenClaw tutor and it was a purpose-built device and they could just press a button and talk to it and say, 'Hey, I'm trying to learn my multiplication tables, can you do it with me?' Or 'Can you give me a quiz on history?' Or 'Can you make a note that I should do a presentation about dinosaurs and pick three dinosaurs for me?' But it had a character that engaged them. Oh my god, this could be like one of the great products of all time. We would go from the Star Trek communicator to the Vulcan- remember in the episode, maybe it was one of the movies, uh, my editorial director Lon will find this instantly or remember it. They had the Vulcans in these pods uh when they were being trained in their college, remember this Deedy or no?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:14:11",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "I have no idea.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:14:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "They were walking around, like, a surface area and there were, like, pods in the ground, you know, that had them learning, and they were in learning pods with their computers essentially learning. I think it's, yeah, it's from the J.J. Abrams version of Star Trek. We'll get a- we'll get a photo of it. Thank you, uh... But I mean, wow, I'm just thinking about learning and children, Sebastian. What- what's your story, Sebastian? What do you do for a living? You got a- you got another startup in another space that you're shutting down to pursue this?",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "01:14:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Oh yeah, it's funny. I've probably got, like, a hundred plus requests from people to, like, sell it to them. Um, but I'm just, like, too busy with my- with my other stuff.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:14:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What's your day job? What's your startup?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:14:47",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We- we started it two years ago. Company's called Dahlos. We basically help- we have a software that helps companies build complex hardware systems. So we are selling to aerospace, defense, robotics, um, and kind of like helping them...",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "01:14:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Where you guys based?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:15:00",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Yeah, San Francisco, I'm in San Francisco.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:15:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Awesome. How many people in the company?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:15:05",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "We're two co-founders, just made our third hire, just raised a seed half a year ago, so just at the beginning.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:15:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh congrats. Who led the seed? Who led the seed? Who's the genius behind this?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:15:14",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "It's not public yet. Yeah.",
+      "tone": "cautious"
+    },
+    {
+      "timestamp": "01:15:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh okay, well Deedy and I want in.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:15:19",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Yes.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "01:15:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I speak for Deedy as well. And Menlo Ventures, we both want in. Sebastian, great job, I'm gonna get you a pair of tickets to the Launch Festival, March 16th and 17th if you can make it. I'd love to hear more about your startup, and Deedy would too, I can tell. I can tell Deedy's interested.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "01:15:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I... yeah maybe this becomes something you can uh do an open source hardware product like what you built it on is the... the Raspberry Pi I assume?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:15:46",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Oh yeah, everything's open source. I should mention it. If anyone that listened to this, I open sourced all the hardware, all the software, everybody who wants to build that exact same thing...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:15:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Really cool.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "01:15:55",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Very cool.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:15:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Very cool. I'm getting the open source bug in a major way. I... you know what? I have a domain for this too. I have the domain begin.com and I've been looking for a use case. I paid like a quarter million dollars for this domain.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "01:16:07",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Wow.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "01:16:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Uh and I... like begin is like beginning your educational journey with your like little assistant could be like very powerful for kids. And I'm getting like a little bit passionate about homeschooling and education just having three daughters. You got any kids yet, Sebastian?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:16:26",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Not yet. No.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:16:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Not yet.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:16:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alright, well that's your next project to work on. Alright Sebastian, great job, thank you for coming on the program and sharing. We will drop him.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:16:34",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Thanks guys.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "01:16:35",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Bye Sebastian.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:16:36",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Wow, Jason, what I thought was really interesting about all of this... discussion on interfaces is, you know, we... we do these studies internally and we like try to evaluate what does the interface of the future look like? And I think for voice we're there, right? Like we speak, you know, you for sure, you speak like three-four times faster than you could possibly write. No one wants to type things and we really think it's voice out, visual in is kind of the ideal highest bandwidth interface for getting information in and out. And whether it's glasses or whether it's, you know, a pedal for whisper on your computer, I think that's what a lot of these things, before we get the non-invasive brain systems to work, is probably going to be the way we interact with computers.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:17:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I have to redownload whisperflow. I tested it and then I stopped using it and then I realized that I needed it again and I need it with this pedal because I do with these open claw agents. The... the major frustration for me now is getting what's in my mind out to the agent and I should just be talking to it at this point, it should be talking back to me. I need an interface. I did a really interesting thing today. You ever have like you want to grab a video off YouTube or you want to grab an Instagram video or a TikTok video but you can't download it? And you get frustrated and you're like, \"Is there some third party tool at some Russian website that I can use to download it?\" Cobalt tools?",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:18:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:18:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I used to use things for YT-DLP.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:18:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, so there's the YouTube download and that gets shut down all the time, and then you have to deal with like all these like pop-ups or whatever. I don't want to do that. I just want to give the URL to my bot. So I told my bot, 'Listen, I know there's some software kits and Cobalt tools and open source one and there's other ones like it. Write some code. I'm going to give you the Blade Runner URL for this YouTube video. Your job is to give it back to me on Slack, the MP4.'",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:18:29",
+      "ad": false,
+      "speaker": "Tyler Yust",
+      "text": "Wow.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "01:18:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Didn't work. It didn't work. I said 'try harder'. It worked. I'm like, I'm not a coder anymore. I used to code for like three years when I was a teenager and in college. It just worked. And I'm like...",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:18:40",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Oh, come on now.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:18:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's something I would have paid $20—I was looking for a tool from some crazy Russian. I was like, if there's some crazy Russian out there I can give like a Bitcoin to—not a whole Bitcoin, but like some satoshis to—just to get this piece of software that I know is like on the margins, like maybe it's against the terms of service. I don't care, I'll pay $100 a year for it. Couldn't find it. And then Cobalt tool keeps getting blocked and YouTube download this gets blocked. No, my agent just wrote it for me. I'm done.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "01:19:17",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Yeah, I have my version of this which is with my podcast summarizer. Like no one, I feel like there's these—All-In is a great one, there's some I like to listen to, but there's some that are just not funny or fun but you want to know what these smart people talked about. Summarizer, this podcast summarizer, which goes in, it'll download the entire YouTube, it'll transcribe it, it'll annotate it, and then it'll just go and tell me like, 'Hey, here's what happened on this three hour episode with this guy.' I'm like, yeah, I wasn't going to watch that three hours but I kind of want to know what they talked about.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:19:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "This is such a good idea. I'm going to vibe code this this weekend. Do you use Overcast?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:19:59",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "I do.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:20:01",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, so every, you know, like if you're a podcast fanatic, I think you can get the OPML, like basically an RSS feed of your RSSes like all put together into one. I could feed my collection of shows as they download into my agent, have it transcribe it and summarize it, and then on an interface—make a new interface for me to listen to it—and I could even make an abridged version of it. So give me like a 20-minute version of it. That could be really interesting.",
+      "tone": "creative"
+    },
+    {
+      "timestamp": "01:20:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Wait, you have this already? You built it?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "01:20:25",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "I built it. I use it all the time. I have my little thing and I say, 'Hey, what's up yo?'...",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:20:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Wait, you vibe coded it?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:20:28",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "I vibe coded the entire thing. Yeah. It's called just a podcast summarizer. And so for example, Dario comes on Lex, I'm like, 'I just want to know what he said about infra spend. What is Dario's view on infra spend?' and it'll just tell me. This is Dario's view on infra spend and it's a really cool way to be able to have—I'm always thinking about like how do you have high bandwidth information flow because we're like consuming so much information, it's really hard to filter. And so these are the tools that I use to sort of to get around that. You should do it. It's really cool.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:21:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, that's it. Listen, another great episode of Twist is in the can. Deedy, thanks for coming and I'll see you when I'm in town for lunch.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:21:01",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm going to...",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "01:21:07",
+      "ad": false,
+      "speaker": "Deedy Das",
+      "text": "Thank you for having me, Jason.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "01:21:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Bye-bye, everybody!",
+      "tone": "cheerful"
+    }
+  ],
+  "highlights": [
+    "OpenClaw has emerged as a dominant open-source framework for building AI \"replicants\" that allow individuals to automate significant portions of their daily workload and run companies with agent-to-human ratios as high as 10-to-1.",
+    "The rise of \"vibe-coding\"—using AI prompts to build bespoke software—threatens traditional SaaS models, as companies can now develop internal tools for simple tasks rather than paying for expensive, seat-based licenses.",
+    "A significant ethical and legal conflict has surfaced regarding the removal of safety guardrails for military use, highlighting the tension between tech companies' pacifist stances and the government's desire to use AI for autonomous combat and mass surveillance.",
+    "Advanced AI agent architecture is shifting toward a parallel processing model where a main agent spawns background \"sub-agents\" to handle long-running, complex tasks like financial reconciliation while keeping the primary interface responsive.",
+    "The future of AI interaction is moving away from text-based chat toward higher-bandwidth modalities, including voice-activated hardware, AI-specific silicon like the Mac Studio, and eventual non-invasive brain-computer interfaces."
+  ],
+  "summary": "This speculative transcript from February 2026 centers on the rapid ascent of **OpenClaw**, an open-source framework for creating autonomous AI agents or \"replicants.\" The discussion highlights a major technological shift from simple Q&A models to agentic, long-running systems capable of handling 20-30% of a human's workload. Key themes include the explosive growth of Anthropic—reportedly reaching a $14 billion revenue run rate—and the rise of local hosting on hardware like Mac Minis to ensure data privacy and system reliability. The \"OpenClaw\" project itself is depicted as a massive open-source movement, nearing the top of GitHub’s rankings as developers move toward decentralized, self-improving AI tools.\n\nThe conversation also delves into the geopolitical and economic friction caused by advanced AI. A primary focus is the standoff between **Anthropic and the Pentagon** over the removal of safety guardrails for military applications, specifically regarding \"murder bots\" and mass surveillance. This tension highlights a broader debate over the War Powers Act and the ethical responsibilities of technologists. Economically, the participants discuss the \"SaaS compression\" era, where traditional software-as-a-service models and offshore IT consulting are being disrupted. Companies are increasingly \"vibe-coding\"—using AI to generate bespoke internal tools and integrations—rather than paying for expensive, seat-based proprietary software.\n\nFinally, the transcript explores the future of AI interfaces and personal utility. Demos of new tools like **Unbrowse** (which turns web UIs into direct APIs for agents) and a handheld, Star Trek-style \"communicator\" suggest a move away from text-based chat toward voice and physical personas. The hosts conclude by discussing the power of \"vibe-coding\" personal solutions, such as automated podcast summarizers and media downloaders, which allow non-coders to bypass traditional software limitations. The overall theme is a world rapidly adapting to the \"Great Singularity,\" where the barrier between human intent and functional software has nearly vanished.",
+  "description": "This Week In Startups is made possible by:\n\nLemon IO  - https://Lemon.io/twist\n\nEvery.io - http://every.io/\n\nSentry.io - http://sentry.io/twist\n\n*\n\nToday’s show: \n\nWe’re going behind the curtain today — it’s a packed show! \n\nWe found Tyler Yust, OpenClaw’s third EVER contributor to share his insights from within foundation! We’ve got Deedy Das, of Menlo Ventures, on the show to discuss whether SaaS is cooked! Next we met the creator of an OpenClaw instance that fits in your pocket! We’ve also got the founder of OpenBrowse showing us how he automatically detects and generates OpenClaw skills!\n\n*\n\n**Timestamps:** \n\n00:00 Intro - Deedy Das Joins the Show!\n\n03:05 Anthropic’s revenue growth and valuation\n\n05:13 OpenClaw Contributor Tyler Yust joins the show\n\n08:11 iMessage integration and Apple’s proprietary systems\n\n09:06 Lemon.io - Get 15% off your first 4 weeks of developer time at [https://Lemon.io/twist](https://lemon.io/twist)\n\n00:13:40 Anthropic vs. the Pentagon\n\n00:19:01 Every.io - For all of your incorporation, banking, payroll, benefits, accounting, taxes or other back-office administration needs, visit https://[every.io](http://every.io/).\n\n00:29:07 Sentry - New users can get $240 in free credits when they go to https://[sentry.io/twist](http://sentry.io/twist) and use the code TWIST\n\n00:34:45 The Infamous Citrini article\n\n00:31:30 Come to LAUNCH fest! https://[fest.launch.co]\n(http://fest.launch.co/)\n\n00:35:28 Why Deedy thinks the Cetrini article is a work of science fiction\n\n00:44:13 The illusion of privacy in corporate America\n\n00:39:34 Deedy thinks Enterprise SaaS apps aren’t going to be vibe coded\n\n00:48:20 Jason’s Reddit Bot\n\n00:50:43 Jason’s obsession with Singapore’s food\n\n00:54:19 How Unbrowse pulls any backend API!\n\n01:01:01 Sebastian shows off the smallest OpenClaw form factor!\n\n01:11:07 The Prolo ring — for people who doomscroll\n\n01:20:00 Deedy’s Podcast Player App!\n\n*\n\nSubscribe to the TWiST500 newsletter: [https://ticker.thisweekinstartups.com](https://ticker.thisweekinstartups.com/)\n\nCheck out the TWIST500: [https://www.twist500.com](https://twist500.com)\n\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\n*\n\nFollow Lon:\n\nX: https://x.com/lons\n\n*\n\nFollow Alex:\n\nX: https://x.com/alex\n\nLinkedIn: [⁠https://www.linkedin.com/in/alexwilhelm](https://www.linkedin.com/in/alexwilhelm/)\n\n*\n\nFollow Jason:\n\nX: https://twitter.com/Jason\n\nLinkedIn: [https://www.linkedin.com/in/jasoncalacanis](https://www.linkedin.com/in/jasoncalacanis/)\n\n*\n\nThank you to our partners:\n\n(9:06) Lemon.io - Get 15% off your first 4 weeks of developer time at https://Lemon.io/twist\n\n(19:01) Every.io - For all of your incorporation, banking, payroll, benefits, accounting, taxes or other back-office administration needs, visit https://every.io.\n\n(29:07) Sentry - New users can get $240 in free credits when they go to https://sentry.io/twist and use the code TWIST\n\n\nCheck out all our partner offers: https://partners.launch.co/\n\n*\n\nGreat TWIST interviews: [Will Guidara,](https://youtu.be/pvJa2pzuXWQ) [Eoghan McCabe](https://youtu.be/9dHN4YFkgv4), [Steve Huffman](https://podcasts.apple.com/us/podcast/reddit-ceo-steve-huffman-on-mod-revolt-building-a/id315114957?i=1000617333424), [Brian Chesky](https://podcasts.apple.com/ca/podcast/airbnb-ceo-brian-chesky-on-early-rejection-customer/id315114957?i=1000611761112), [Bob Moesta,](https://youtu.be/y2UMzSqX94Q) [Aaron Levie](https://podcasts.apple.com/ca/podcast/box-ceo-aaron-levie-breaks-down-box-ai-and-generative/id315114957?i=1000612384545), [Sophia Amoruso](https://podcasts.apple.com/ca/podcast/sophia-amoruso-on-branding-raising-a-fund-portfolio/id315114957?i=1000601352978), [Reid Hoffman](https://podcasts.apple.com/ca/podcast/reid-hoffman-on-ais-crescendo-moment-regulation-and/id315114957?i=1000612548498), [Frank Slootman](https://podcasts.apple.com/ca/podcast/snowflake-ceo-frank-slootman-on-moving-the-needle-win/id315114957?i=1000602560622), [Billy McFarland](https://podcasts.apple.com/ca/podcast/billy-mcfarland-on-fyre-fest-fraud-failure-hacking/id315114957?i=1000610922577)\n\n*\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\n*\n\nFollow TWiST:\n\nTwitter: https://twitter.com/TWiStartups\n\nYouTube: https://www.youtube.com/thisweekin\n\nInstagram: [https://www.instagram.com/thisweekinstartups](https://www.instagram.com/thisweekinstartups/)\n\nTikTok: https://www.tiktok.com/@thisweekinstartups\n\nSubstack: [https://twistartups.substack.com](https://twistartups.substack.com/)",
+  "duration": 4869,
+  "people": [
+    "Jason Calacanis",
+    "Deedy Das",
+    "This Week",
+    "In Startups",
+    "Tyler Yust",
+    "Menlo Ventures",
+    "Contributor Tyler",
+    "The Infamous",
+    "Why Deedy",
+    "Reddit Bot",
+    "How Unbrowse",
+    "The Prolo",
+    "Podcast Player",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason",
+    "Will Guidara",
+    "Steve Huffman",
+    "Brian Chesky",
+    "Bob Moesta",
+    "Aaron Levie",
+    "Sophia Amoruso",
+    "Reid Hoffman",
+    "Frank Slootman"
+  ],
+  "topics": [
+    "The rapid rise and open-source development of OpenClaw and AI agents",
+    "Anthropic's massive revenue growth and its ethical conflict with the Pentagon over military use",
+    "The disruption of the SaaS industry and IT services by AI and 'vibe coding'",
+    "The future of AI hardware and human-computer interfaces, from wearable rings to brain-computer interfaces"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/65NplKBgwUA/maxresdefault.jpg",
+  "date": "20260226",
+  "youtube_url": "https://www.youtube.com/watch?v=65NplKBgwUA",
+  "youtube_metadata": {
+    "title": "Behind the Scenes with an early OpenClaw contributor! | E2255",
+    "description": "This Week In Startups is made possible by:\n\nLemon IO  - https://Lemon.io/twist\n\nEvery.io - http://every.io/\n\nSentry.io - http://sentry.io/twist\n\n*\n\nToday’s show: \n\nWe’re going behind the curtain today — it’s a packed show! \n\nWe found Tyler Yust, OpenClaw’s third EVER contributor to share his insights from within foundation! We’ve got Deedy Das, of Menlo Ventures, on the show to discuss whether SaaS is cooked! Next we met the creator of an OpenClaw instance that fits in your pocket! We’ve also got the founder of OpenBrowse showing us how he automatically detects and generates OpenClaw skills!\n\n*\n\n**Timestamps:** \n\n00:00 Intro - Deedy Das Joins the Show!\n\n03:05 Anthropic’s revenue growth and valuation\n\n05:13 OpenClaw Contributor Tyler Yust joins the show\n\n08:11 iMessage integration and Apple’s proprietary systems\n\n09:06 Lemon.io - Get 15% off your first 4 weeks of developer time at [https://Lemon.io/twist](https://lemon.io/twist)\n\n00:13:40 Anthropic vs. the Pentagon\n\n00:19:01 Every.io - For all of your incorporation, banking, payroll, benefits, accounting, taxes or other back-office administration needs, visit https://[every.io](http://every.io/).\n\n00:29:07 Sentry - New users can get $240 in free credits when they go to https://[sentry.io/twist](http://sentry.io/twist) and use the code TWIST\n\n00:34:45 The Infamous Citrini article\n\n00:31:30 Come to LAUNCH fest! https://[fest.launch.co]\n(http://fest.launch.co/)\n\n00:35:28 Why Deedy thinks the Cetrini article is a work of science fiction\n\n00:44:13 The illusion of privacy in corporate America\n\n00:39:34 Deedy thinks Enterprise SaaS apps aren’t going to be vibe coded\n\n00:48:20 Jason’s Reddit Bot\n\n00:50:43 Jason’s obsession with Singapore’s food\n\n00:54:19 How Unbrowse pulls any backend API!\n\n01:01:01 Sebastian shows off the smallest OpenClaw form factor!\n\n01:11:07 The Prolo ring — for people who doomscroll\n\n01:20:00 Deedy’s Podcast Player App!\n\n*\n\nSubscribe to the TWiST500 newsletter: [https://ticker.thisweekinstartups.com](https://ticker.thisweekinstartups.com/)\n\nCheck out the TWIST500: [https://www.twist500.com](https://twist500.com)\n\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\n*\n\nFollow Lon:\n\nX: https://x.com/lons\n\n*\n\nFollow Alex:\n\nX: https://x.com/alex\n\nLinkedIn: [⁠https://www.linkedin.com/in/alexwilhelm](https://www.linkedin.com/in/alexwilhelm/)\n\n*\n\nFollow Jason:\n\nX: https://twitter.com/Jason\n\nLinkedIn: [https://www.linkedin.com/in/jasoncalacanis](https://www.linkedin.com/in/jasoncalacanis/)\n\n*\n\nThank you to our partners:\n\n(9:06) Lemon.io - Get 15% off your first 4 weeks of developer time at https://Lemon.io/twist\n\n(19:01) Every.io - For all of your incorporation, banking, payroll, benefits, accounting, taxes or other back-office administration needs, visit https://every.io.\n\n(29:07) Sentry - New users can get $240 in free credits when they go to https://sentry.io/twist and use the code TWIST\n\n\nCheck out all our partner offers: https://partners.launch.co/\n\n*\n\nGreat TWIST interviews: [Will Guidara,](https://youtu.be/pvJa2pzuXWQ) [Eoghan McCabe](https://youtu.be/9dHN4YFkgv4), [Steve Huffman](https://podcasts.apple.com/us/podcast/reddit-ceo-steve-huffman-on-mod-revolt-building-a/id315114957?i=1000617333424), [Brian Chesky](https://podcasts.apple.com/ca/podcast/airbnb-ceo-brian-chesky-on-early-rejection-customer/id315114957?i=1000611761112), [Bob Moesta,](https://youtu.be/y2UMzSqX94Q) [Aaron Levie](https://podcasts.apple.com/ca/podcast/box-ceo-aaron-levie-breaks-down-box-ai-and-generative/id315114957?i=1000612384545), [Sophia Amoruso](https://podcasts.apple.com/ca/podcast/sophia-amoruso-on-branding-raising-a-fund-portfolio/id315114957?i=1000601352978), [Reid Hoffman](https://podcasts.apple.com/ca/podcast/reid-hoffman-on-ais-crescendo-moment-regulation-and/id315114957?i=1000612548498), [Frank Slootman](https://podcasts.apple.com/ca/podcast/snowflake-ceo-frank-slootman-on-moving-the-needle-win/id315114957?i=1000602560622), [Billy McFarland](https://podcasts.apple.com/ca/podcast/billy-mcfarland-on-fyre-fest-fraud-failure-hacking/id315114957?i=1000610922577)\n\n*\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\n*\n\nFollow TWiST:\n\nTwitter: https://twitter.com/TWiStartups\n\nYouTube: https://www.youtube.com/thisweekin\n\nInstagram: [https://www.instagram.com/thisweekinstartups](https://www.instagram.com/thisweekinstartups/)\n\nTikTok: https://www.tiktok.com/@thisweekinstartups\n\nSubstack: [https://twistartups.substack.com](https://twistartups.substack.com/)",
+    "duration": 4869,
+    "view_count": 15610,
+    "like_count": 309,
+    "channel": "This Week in Startups",
+    "upload_date": "20260226",
+    "thumbnail": "https://i.ytimg.com/vi/65NplKBgwUA/maxresdefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

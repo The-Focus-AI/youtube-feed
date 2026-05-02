@@ -1,0 +1,2296 @@
+{
+  "title": "Hilary Mason: Product First, Then AI | The Aboard Podcast 2026-04-07",
+  "source_url": "https://www.youtube.com/watch?v=Ef8j8yIatKw",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Hi, I'm Paul Ford.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:02",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And I'm Rich Ziade.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And this is the Aboard podcast. It's the podcast about how AI is changing the world of software and it really, really is.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:10",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Rich, have you ever tried to build a game?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:00:12",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I did.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:13",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "How'd that go?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:00:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I succeeded.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:00:17",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You built a game with AI.",
+      "tone": "intrigued"
+    },
+    {
+      "timestamp": "00:00:18",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I did.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:19",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well, what was it?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:00:20",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It was Family Feud.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And then what happened?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:00:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It ruined my family.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:00:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Let's talk about that in a minute. Right now we'll play the theme song and come back with a guest who isn't going to ruin your family.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:00:51",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, so I want to talk about your game in a minute, but first, let's acknowledge another human being is here with us.",
+      "tone": "warm"
+    },
+    {
+      "timestamp": "00:00:56",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Let's do that.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:58",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Hello.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:59",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Hilary Mason is the CEO of Hidden Door.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:01",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "That's right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:02",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "hiddendoor.co.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:04",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Also right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And a person that we've known for a really long time, a true New York City technologist.",
+      "tone": "respectful"
+    },
+    {
+      "timestamp": "00:01:09",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "That's true.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:10",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And it is lovely to see you. Thank you for coming in. So I think, why don't we start, I think just give everybody a little framing and then we'll talk about Rich's sad story before we talk about your happy stories. Give us a sense of what Hidden Door is. I just went to the website and it says at the top, Swords and Sorcery, the Tavern Door by Hidden Realms. So I don't know what's going on. Tell me as if I've just walked in the door.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:01:38",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "So if you have a look at Hidden Door, what you will see is where roleplay meets fanfic. And what that is, is we're creating a place for people who love fictional worlds, who want to get lost in those worlds, and who want to be able to tell their own stories inside the worlds that they love from books and movies and shows or their favorite creators.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:01:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay. And so essentially I can kind of play one of these narratives on the web.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:01:59",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You're one of the characters.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:02:01",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "You create the cast of characters you want to play with.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:02:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, that's Hilary. She's...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:02:04",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, not you, Hilary.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:02:06",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay, sorry.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:02:07",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You create the cast of characters.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:02:08",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "That's right. So you choose the world you want, whether it's Big Fan Modern Romance novel where you're playing in a world of celebrity romance and political intrigue, or the Tavern Door, which you stumbled upon, which is a traditional heroic fantasy world, or, you know, we have a bunch of classics like the Call of Cthulhu for a little bit of Lovecraftian horror or the Wizard of Oz or our take on modern romantasy, which is Courtship of Frost.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:02:40",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You're going to need to explain what romantasy is to Richard.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:02:43",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Oh, so it is romance and fantasy.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:02:48",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I figured that part out.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:02:50",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Hold on a minute, he may need to know what those two things are too.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:02:55",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Alright, alright, sorry.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:02:57",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Zing. Okay, go ahead.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:02:59",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Alright, so it is a...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "the genre of literature that brings plots that primarily center characters' relationships and all of the kinds of stories that come out of that in a fantastical setting.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Got it. Got it. Sounds like my weekend is planned.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:03:19",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Oh you- you are in for a new joy if you have not discovered works in this genre.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:03:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I have not.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:25",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "There was a cozy fantasy trend where you would- it was about like an orc or troll, but they just ran a coffee shop and they hung out.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:03:34",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Oh, so we actually have a coffee shop AU modifier card you can play in any of these worlds and it puts whatever characters you bring into a coffee shop for the plot of the story you're going to play.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh, so it can get real sort of chill, hang out, let's- it's like Friends but with-",
+      "tone": "intrigued"
+    },
+    {
+      "timestamp": "00:03:50",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Exactly. And that is a very common set of tropes that people want to play within and play with.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:03:57",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Alright let's go back and take this step by step because I really want to understand sort of what this framework is and- and sort of how you've ended up here as a technologist because you were a data scientist when I first-",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:04:09",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "I have been a lot of things.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:04:10",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Clearly, right? But first, I really think it's important for framing that Rich explain his disastrous game experience and sort of- because I think we can refer back to it as we talk about this larger gaming platform. So you sat down and you made a game with AI. What was it?",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It was Family Feud.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:04:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:04:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So you made a Family Feud clone.",
+      "tone": "matter-of-fact"
+    },
+    {
+      "timestamp": "00:04:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Correct.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:04:27",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "How'd that go? What'd you- you just like told Claude make a family feud?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:04:31",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It- it was actually pretty thorny. Like I actually wanted it to be extensible so it- it loads in the survey questions with like basic markdown files so that I could generate 100 questions at a time and- and I wanted it to be one- this was sort of a thought exercise- I wanted it to be one web page where the whole experience is in one page and it spawns another page for the operator of the game, because remember somebody's flipping the answers and all that. And so I wanted it to be- it was sort of like an exercise of constraint. So I was having a good time.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:05:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Single page application, family feud game, you've loaded it with- with topics. And now what happens?",
+      "tone": "summarizing"
+    },
+    {
+      "timestamp": "00:05:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "My brother brought his eight and six-year-old kids to play Family Feud and I created a category question for kids.",
+      "tone": "storytelling"
+    },
+    {
+      "timestamp": "00:05:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I think this was like Thanksgiving or something, right?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:05:33",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It was New Year's.",
+      "tone": "matter-of-fact"
+    },
+    {
+      "timestamp": "00:05:34",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Ah, big party.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:05:35",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, New Year's with kids is different. So we needed some activities because we're not going out and partying. And then my kids are 13 and 11. And the games were so engaging that it caused a lot of tears and crying.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:05:46",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "I- I don't quite follow the connection between engaging to crying, so I think there's a step in the story I'm missing.",
+      "tone": "puzzled"
+    },
+    {
+      "timestamp": "00:05:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, so if you're familiar with Family Feud and Richard Dawson who used to kiss everyone on the mouth for some reason...",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Doesn't? Do you remember that?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:06:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I don't remember that. No.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:02",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You don't remember? There are very disturbing montages on YouTube of Richard Dawson, every contestant was kissed on the mouth. We'll put those in the show notes.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:06:10",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Did you put that in your game?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:06:12",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I didn't put it in my game.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:06:13",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:14",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Here's the thing about Family Feud, it's survey questions.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:06:17",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Yeah, that's right.",
+      "tone": "attentive"
+    },
+    {
+      "timestamp": "00:06:18",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "So they're ambiguous, and sometimes you're like, that's a ridiculous answer. And so that's reasonable for adults to process. For little kids who got three strikes and couldn't guess one of the survey answers, it would really get them upset.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:06:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So you, so, so Uncle Rich created an unwinnable game in using AI that led to children crying on New Year's Eve.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:06:36",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I could not stop laughing. The parents of these kids were not happy. It was really hilarious.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:06:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I'm in a chat with Rich and his brother. It was not fun. Like the brother was like, you really screwed everything up with your stupid vibe-coded nightmare game.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:06:56",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Also, my brother was like, Aboard sucks. He thought Aboard made the game. He just associated it with Aboard. I was like, no, no, I did this myself. He's like, well, it sucks. I was like, okay, dude. So anyway, that didn't go well.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:07:09",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well, the reason I actually wanted to drill in on that sets us up because we're not the subject, you are the subject, Hilary. But it was so easy to build the game for Rich. He did it really quickly and it played just like Family Feud and it seemed really good and really fun. But it ended up being absolute chaos in the household and not really working as a game, right? And I feel that what I'd love to talk about is how to do good product in an era where the what we used to think of as product, which was a finished artifact that could run as code,",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:07:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Pretty airtight.",
+      "tone": "supporting"
+    },
+    {
+      "timestamp": "00:07:42",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, is now approaching zero cost to build.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:07:45",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "attentive"
+    },
+    {
+      "timestamp": "00:07:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Like it's really easy to make stuff. And if you disagree with that I would love to talk about it too, but like but now you have to actually get quality and product and sort of product as we understand it which is like a real sense of experience and connection with it back into it and I'm curious as someone who's like running a team, you have a company, like how are you starting to approach this world? And do you agree with us that it's really a lot easier to build product?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:08:11",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Oh, it's so easy to make stuff.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:08:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's not product, it's stuff.",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:08:16",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "attentive"
+    },
+    {
+      "timestamp": "00:08:17",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "It's stuff. And it's easy to make stuff and I would call it stuff, perhaps this will be our new technical term because it is unfinished, it is coming from your direction where I assume you had to give, you had to write a spec or some guidance or something. You chose Family Feud, which is something that thankfully for you will be encoded in most LLMs in some form because it's part of common culture and people talk about it. And I don't know how much thought you gave to the player experience or, you know, sort of the kinds of content that would show up, but I think there are a few pieces of this. One of which is that a lot of folks think it's super easy to make games because you can make stuff so quickly.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "But the hard part of making a game that brings joy has nothing to do with the making of the stuff process, it is the creative design and the kind of thinking that goes into that and games are a particularly fun kind of product to focus on because they are different.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:09:18",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Do you find that it's not just creative, it's also how do I make sure things don't go off the rails?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:27",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Yes, absolutely.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:09:27",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:28",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, I mean that's we- we build classic business software and we worry about going off the rails.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:36",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well let's actually describe the product, right? So I've just gone to the Tavern Door.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:09:41",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:41",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I clicked in, it says it's created by Hidden Realms. Who's Hidden Realms?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:09:46",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Hidden Realms is our teams. We do some first party content, there's also a lot of licensed worlds from books and movies and whatnot. So Hidden Realms is my team.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:56",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, Hidden Realms. So, so the nice people at your office...",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:10:00",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Yes, they're lovely.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:10:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "have made a ga- now when I say I'm in the world of Tavern Door, here's what I think I'm in and then you correct me. I think I'm in a gaming experience where I'll be able to create a bunch of characters and I will be able to interact with those characters and AI will kind of represent the characters but there'll be kind of a game engine too and I'll do that on the web. So tell me everything I got wrong.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:10:13",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Okay, so you are in a space where what you are doing is taking the Paul Ford vibe of the Tavern Door. So you should be able to add these cards, everything is a card, you're building up a deck. You're brand new, just logged in for the first time, so you probably only have a few.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:10:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Right so it says create this world and there are world cards.",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "00:10:25",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Right. So you have a world card for Tavern Door and there should be next to it a place where you can- can put in modifiers. And these will be things like-",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:10:31",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Vampires! Vampires! Okay, I got Saturday morning cartoons, celebrity romance. I am adding Brooklyn and vampires. Thank you.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:10:43",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Wonderful. So these are choices you are making to take this world and reset what you're gonna get. And it's gonna come up with some world description, like the back of the book blurb for you based on that. You should see that there.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:11:02",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I see. Okay, so I've just added actually three: Brooklyn, Vampires, and Celebrity Romance. So you're actually letting me kind of-",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:11:18",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's just gonna put you in Williamsburg.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:11:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It absolutely is.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:11:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Honestly with those three, yes.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:11:26",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Essentially so these are like themes that it will- so the story is going to get spun for me. See, how long did it take to come up with like the card mechanism?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:11:32",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "So cards are a wonderful metaphor for games and particularly for our kind of game because everybody knows how to play cards. We draw a lot of inspiration from tarot cards, beautiful pieces of art. They have a certain tactility, you know you can turn it over. And so we have worked with a card metaphor for a long time but we find that it resonates with people. Everyone gets cards.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:11:56",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay. The usability, not a lot of conversation about usability.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "in the world of AI",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:02",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "No, and it is the hardest problem. It is the hardest problem.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:12:04",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes. But the way, I'm watching Paul flip through characters in the character profile.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:12:09",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, I'm about to become a relatively medieval-looking woman named Mary.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:12:13",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "They all look like they're from Brooklyn. I don't know if that's just the sophistication of this tool, but it's pretty funny.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:12:17",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Well, you should be getting a lot of avatar choices that draw from the fantasy and the Brooklyn and probably a little bit of the romance vibe.",
+      "tone": "witty"
+    },
+    {
+      "timestamp": "00:12:27",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah. Okay, Hunter's struggling with internal demons, and I'm going to confirm. Okay, so a little bit of classic gaming character definition.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:12:32",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Absolutely, you make a character. And now you've made your main character, and you're going to get some story options for that character to play, or you can keep making more, you can make items for that character, you can make your own locations if you like.",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:12:49",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Now, yeah, how are you building this? So like, I knew about the AI part, but now is there a platform that you've created that you're building on top of? Are you vibe coding as you go? Like how is this coming together?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:58",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "So we have a game engine and a system that underlies this that uses a slightly different architecture than something like if you were just roleplaying with ChatGPT or another LLM. And so what you're doing here, each of these cards is essentially a row in our Postgres database, which doesn't sound very exciting, but it is.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:13:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh, no, to this audience, Hilary, to this audience, very exciting.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:13:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "To this audience, very exciting.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:13:25",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Right. And that has a bunch of structured information about your character. You have probably see some questions where you can create a backstory that'll be generated for them. And that'll be for every character in your cast. And the player experience at this point is that you're choosing your world, you're choosing the kind of vibes of story you want, and you're making the cast of characters. It's like you're the director setting up the stage, or if you ever played The Sims, I don't know if that's a reference point for you all, it's sort of like setting up your little people so you can go have stories with them.",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:13:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I think what's so interesting here, and it's worth calling out, right? Like, this is a classic gaming engine. Like there've been variations on this going back to the seventies, right? Of like we're going to have characters, we're going to track them in some kind of database. So the LLM part of it is additive to a core kind of classic engine that lets people track stats and sort of know where they are in the game.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:14:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. I mean, it's worth pointing out the games are text-based.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:14:18",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Yes, text and art that's assembled as you play.",
+      "tone": "refining"
+    },
+    {
+      "timestamp": "00:14:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Text and art, and then you make decisions as you go on your journey.",
+      "tone": "summarizing"
+    },
+    {
+      "timestamp": "00:14:26",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Absolutely. And you can type in anything you want to type.",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "00:14:27",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:14:28",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Let me narrate it a little bit. For this is story number one, this is called Blood Moon Rising. Okay, I'm Marion, and I have met Thrain Ironhand, the Gilded Griffin, and Myren Nightshade, who is actually wearing really cool sunglasses here in the tavern. Yeah, it is Brooklyn. You're right. Oh my god, it's real, it did it, didn't it? Yeah. Okay, because I'm in Brooklyn, the people actually look, even though it's very, very magical, they look like magical Brooklynites. So I'll read a paragraph. You push open the heavy oak door of the Gilded Griffin.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Underlined hyperlink. Thank you for the underline. Double underline, actually, it's thick. Uh, the scent of spiced ale and pine smoke hitting you, this could be Williamsburg as a low murmur swells inside. Golden lanterns cast a warm glow over the room where sword-wielding warriors and Brooklyn hipsters alike share tales of adventure and magic.",
+      "tone": "dramatic"
+    },
+    {
+      "timestamp": "00:15:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So anyway, I mean, I'm sort of in the now kind of... Okay, so I'll tell you where it looks like I'm in. It looks, if I didn't know that there was AI involved, and it kind of, it's done a lot of subtle stuff with the Brooklyn angle. So that I can see as like a nerd who works with LLMs all day.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:15:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But then I got a couple options. Now first of all, I have a free text ability to type anything and be like 'let's move this story along', you know. I could say 'everyone's a computer programmer' and I'm sure it could do something.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:15:52",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Uh, we'll see. It might not let you do that.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:15:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, well we can try that. And it also has kind of like classic, you know, 'take a deep breath, savoring the spiced ale aroma'. So classic kind of choose your own path kind of stuff.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:04",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Well, and uh you'll notice that even though you can type anything, we show you examples and there might be a little easy or hard label on some of them, then seeing how hard the die roll would be for your character to do that thing in this moment. But going back to your question about or comment about UX, right? It is user experience design. The reason we show you options is because if we just give you a text box, you just type 'hi', you don't know what to do.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:27",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's true. I said, ask if anyone in the tavern knows Python, and it said that's impossible.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:16:32",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Oh, no.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:16:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, which I mean is true. Probably if, I mean it's Brooklyn, so I could probably go back to JavaScript or React or maybe Rails.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:16:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay. Did this take a lot of... This was easy. She...",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:16:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Did you run into walls when you tested? Like, how did you end up here?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:16:53",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I'm, just to be clear, I'm really kidding. Like, this is very much a product with a capital P when you look at it. There's a lot of work here.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:16:56",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "How did we end up here? We actually started this well more than five years ago. So just to set the stage because that is like a million years in AI product land, GPT-2 existed, was terrible, there was no ChatGPT.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:17:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But I think now is a really good moment to stop and like, you... You do not come new to this world. No. Right? I think like, just give a little sense of where you were coming to it and then let's get to ChatGPT-2.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:17:22",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Okay. So I started my career as a, you know, graduate student machine learning, became a professor, uh realized that I liked working on way too many things and too many gaming things and fun things to do that. Uh, moved back to New York, which is where we are, where I grew up. Joined a- a startup which failed. Joined another startup as it was becoming a company called Bitly. Short links on social web. I was the chief scientist at Bitly. That was an adventure and became very involved in the data science community, did a whole bunch of stuff, started a nonprofit, became a data scientist in residence for Accel Partners. Uh and then I founded a company in 2014 called Fast Forward Labs. And that company was in applied machine learning.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "learning research and product code development company. And so we...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:05",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It made really pretty books too.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:18:07",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Thank you! Yes, we put so much energy into the the books and I was very lucky to work with incredible designers and writers and the printers are still over on Third Avenue in Gowanus and they're awesome.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:18:21",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "But we wanted it to feel like a gift every time you opened a book, and the books were, each one, focused on some technology or some capability in AI that was just becoming useful. And then we would work with our customers, I imagine much like y'all do, to build stuff.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:18:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You were very frontier though, like we've- we've always been more on the like, alright let's get your business app together. Like your stuff would be more on the...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:18:46",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Yeah, I think you're better at business than I am. But like, I admire that a lot.",
+      "tone": "humble"
+    },
+    {
+      "timestamp": "00:18:50",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's actually really amazing 'cause usually I'm always doing the complimenting and no one ever returns it. They're always like, 'Oh yeah, no that is me.' But you- it's just some- it's exciting. It's- really like, that just felt great. Thank you.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:19:02",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, I always- I thought of you as like, 'Hey, my large organization has a lot of data, needs to bring this data to life somehow. Let's go talk to Hilary.' And they have those- I always- I kind of wish I had those books 'cause they were very special.",
+      "tone": "admiring"
+    },
+    {
+      "timestamp": "00:19:13",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Because it was just this sense of like, 'Hey, this new frontier is here, but it's really worth approaching with a sense of like craft and care and good writing and nice- nice art.'",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:19:25",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Well thank you. And yes, we tried to make it feel like a moment of joy, to be an artifact that would spark conversation, it was like very tactile. But our very first project was natural language generation in 2014. And I have been obsessed with it ever since.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:19:43",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "In that company grew up, we did a lot of other work, worked on a whole bunch of like products, I sold it eventually to a company called Cloudera, which is a data platform vendor, ended up being the general manager of their data science and AI business unit for a couple years. A lot of fun, a lot of corporate sort of building products or doing data science for business purposes across Fortune 500 and other customers, an incredible diversity of work.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:20:07",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "But in the back of your head, natural language generation and games, it sounds like.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:20:14",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "I love games.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:20:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But there's this like, you know, I think a lot of us saw, I- for me it was like ChatGPT 3 is when I started to pay attention, but you were very primed. Like, okay, I'm interested in this part of the world, there are these frontier labs and at this point it was way before this current ridiculous era we're in. Like they were kind of- they were dabblers at some level, right? They were very, very smart dabblers coming up with lots of different products and suddenly they have this one that can kind of talk a little better than most of the other ones could.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:20:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I want to ask a question related to that. 3.5, I guess, ChatGPT 3.5, which would have landed like a spaceship on the earth, did you see it coming? Were you surprised? Like you'd been in the space for a long time.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:20:51",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Yeah, the technology did not and continues to not surprise me very much. But the reaction...",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "...to the change in—I'll say the change in modality, and then I'll try to sound less academic, but like the product experience. The way that ChatGPT came out and all of a sudden everyone's excited about it, Stable Diffusion comes out and you can do image-based generation on a laptop and everyone's excited about it, and the same thing right now with Claude to some extent. Everyone's excited about it. Not new tech, just new orchestration, new product experience, right?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:27",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I mean this is—I keep hearing this term about Claude Code, it's—it's kind of like a true product built up from an LLM rather than some radical disruption, but the product works and so that's exciting.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:21:39",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:21:41",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Yeah, and—and the thing about Claude Code when you're using it well and not terribly is that it is not the LLM that matters, it is the whole layer of context management and orchestration and the processes that it encodes for us like, how do you build stuff, right? You build...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:57",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That is the—that is the clever invention, right? On top.",
+      "tone": "approving"
+    },
+    {
+      "timestamp": "00:22:01",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Yes, and that getting better and better is why it's improved so much over the last few months especially. And it's an incredible achievement.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:22:07",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Well, and it's funny because actually that kind of progress can happen much more quickly than new models coming online, right? So like Claude Code can actually get better much—the LLMs can't, like it can't get smarter necessarily, but it can get more clever by being a product and looping in certain ways and doing stuff.",
+      "tone": "observant"
+    },
+    {
+      "timestamp": "00:22:25",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Well, and it can get better doing the thing you want it to do when the whole framework and context management is designed for the thing you want to do. And it turns out, like, software projects generally use pretty similar frameworks and development processes from one to the next, and so it's getting really, really good at that.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:22:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Well, and it can also—it's amazing with these things, I think one of the things that I'm learning from vibe coding is that if an LLM has an actual failure state, like the code doesn't run, then you can do things in a much more intelligent way. If you don't have that failure state, you end up with the sort of headed closer and closer to more like hallucinatory stuff and ambiguity.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:23:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Sure. Yeah, and that is, by the way, the same philosophy that underlies test-driven development, which is, even before LLM-assisted programming, like one of the major philosophies of process of—of writing code is that you make some tests and then you write the code until the tests work, and that's one way to make sure you did it right.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:27",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Because you're getting to that failure state.",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "00:23:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes. So look, I just had a mug—back to your tavern plot.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:23:32",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Back to your tavern plot.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:23:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I had a mug of the house's signature pine-smoked ale from Thrain, which is, you know, it's upstate.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:23:39",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Eighteen dollars.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:23:40",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It was. It was eighteen dollars.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:23:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Eighteen dollars.",
+      "tone": "amazed"
+    },
+    {
+      "timestamp": "00:23:43",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "My objective was to enjoy the atmosphere of the tavern, and now I'm going to continue. Okay, so five years, you've got this platform. Let's—you know, we—we're all five years in at this. This has been a wild five years. Would you agree with that actually? This is the weird—this is the wackiest span I've ever had in my career.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:23:52",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Oh yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:23:53",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes? Okay.",
+      "tone": "checking"
+    },
+    {
+      "timestamp": "00:23:58",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Yes.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:23:59",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Is this comforting?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "No, the world got interesting and bad and mostly bad ways, some good ones, like the tech got wild, the industry is really, you know, interesting, the sanity of the market, in especially with respect to AI, went from more rational to less rational. And I say this as someone who built a whole business in the wake of IBM's Watson marketing like back in 2014 and 2015. Like, we are in a space where nothing is real anymore but everything is wild.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:32",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I mean, you've got hundreds of people listening. If we—if you could tell people to calm down about one thing, what do you think it would be?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:24:39",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "To calm down about one thing? I would...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:24:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "She's gonna say no.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:24:43",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Stay diligent.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:24:45",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "No. Stay optimistic. And what I would say is just it is really hard in all the chaos to build good things and good products and many of the examples out there aren't, so let's, you know, highlight the ones that are.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:24:59",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I mean, it's real. I mean, I see—I don't know about you, but just like the number of friends who—like, you'll have a conversation with them and you're like, 'Okay, you've lost 15% of your mind.' Like, it is a wild era. Everybody's reacting to this intensity in different ways. I'm sure I've lost my mind in certain ways too, right? What were you—you were going to say something, Rich?",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:25:17",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, I was moving my microphone. I'm perfectly fine. You speak for yourself.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:25:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It looked intentional.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:25:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:25:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You've run across some bad products—we talked about before. Good—what—where do people—before we come back to your product, which obviously does everything right—",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:25:35",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Okay, yes. Of course.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:25:36",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "What—where are people screwing up? 'Cause we're all kind of making a study of this.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:25:38",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "I mean, this is a podcast, right? So I'll say the original sin of AI user experience design was ChatGPT.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:25:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:47",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "And I would submit that chat is a relatively poor product experience. And it's a very useful one when you don't know what people are going to do and you're making a general—like, you want to be able to do anything—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:59",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And everything tool.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:26:01",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Exactly. But the incentives of running that as a product are that chat keeps you engaged, it—it could be redundant, it could be wrong, it—it is as you were talking about people losing their minds, this is a product designed to hack into the same capabilities that we have to use language to talk to each other, to become socially connected, but instead to drag us away and make us socially disconnected because we have this artificial thing that we're talking to instead. And unfortunately, the corporate incentives are to lean into that as much as, you know, they could get away with. And because it was the original success, so many people have just emulated that user experience without thinking it through because thinking it through is hard. You know, I'm very proud of what we do at Hidden Door, but we are thinking through new user experience metaphors and visual metaphors and, you know, we've tried—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "...still many things that didn't work and there are still tons of changes to come and this is because it is really hard to think about building things that are pro-social about bringing people together through their experience and storytelling. So yeah, I would say it is chat as a UX.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:27:17",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Every fiber of my immature being is struggling with not just going, 'You're absolutely right' and stopping there with an exclamation point.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:27:24",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "I don't see a problem with that. We can, we're done.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:27:27",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That, 'You're absolutely right.' Do you think it would have exploded the way it did if it wasn't chat? Don't you think chat was the usability stroke of genius that sort of landed it on the whole earth?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:27:41",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Absolutely.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:27:42",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, that's how you get your billion people.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:27:44",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Yeah, but to what end?",
+      "tone": "challenging"
+    },
+    {
+      "timestamp": "00:27:47",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh well, oh! Thanks for joining us, folks.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:27:52",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, I, I really, what you're saying resonates because I feel like even when I get my answer, it'll always follow up with, 'Would you like me to draw a comparison chart?' right afterwards, right? And let's articulate to everyone why it does that. Why it seems to want to keep the conversation going and let's face it, there's a lot of lonely people in the world and so let's talk about those incentives.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:28:18",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Yeah, I mean I don't work for OpenAI or Anthropic or any chatbot creating company, so I don't have any inside information, so just with the caveat this is pure speculation. But I think we all have a shared understanding of what product metrics are and what daily active users are, which is something and engagement, right? And so, you know, if you kind of put that understanding and you think about the business and the fact that these companies need to grow users and revenue, like it it seems like a very, you know, one plus one equals two story of reasons to keep that chatbot asking, like. So I've done this experiment where I just always say sure. Like sure, ChatGPT, do the next thing, the next thing, the next thing. And the things just get weirder and weirder. Like I eventually ended up having it draw me a two-by-two chart of the worst burgers in San Francisco and plot things. And then I was like okay, like would you like me to draw you a chart of like the worst other food experiences? And we're like going down this rabbit hole and like this is, yeah.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:29:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, they love to put a little loop in, right? And the loop is always like that sort of 'now would you like me to'.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:29:34",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's funny I had, I hack around with code a lot obviously, but there was some yet another giant API meltdown and they're like, 'Oh look, if this isn't working, go back to this version of Sonnet.' And it was like an older one, like version four of their model. And it was, I've pretty much got it, it's not sycophantic with me anymore. It's just very clinical, right? It's just sort of like 'here's here's your stuff.' And it's not very flattering. I don't see a lot of 'you're absolutely right' anymore, but it went back to it and I'm like this is...",
+      "tone": "anecdotal"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's terrible. I hate this experience. Shut up. Don't talk. Just be. ",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "00:30:04",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And I realized actually over the last couple of months, I've really started to feel maybe a little more control over the technology and one of the ways that it's useful for me is it gets less and less human. I want it to be the computer again. I like computer. When computer works, I feel good. One of the first things I think that all AI should do is clean up the mess of the old computer. Like everybody's like 'How are we going to use this in our org?' I'm like, you have so many badly scanned invoices. Let AI make those better. Like the old robot's mess should be the new robot's cleanup. Then we let it into the house. Anyway, that's...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:30:39",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I mean, you're a thoughtful technologist who understands and can see behind the mask, right? But there are... there are therapy like startups and startups that I think like I saw articles of just older, older adults having full-on relationships with a Dell Opti-",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:30:59",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "-plex.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:31:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "63,000.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:31:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I know, but remember the... it's just an exaggeration. Remember when that woman married the Golden Gate Bridge because she was in love with it?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:31:07",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I do. It is a beautiful bridge, in fairness.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:31:10",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It is. It's hard to get the ring on. But like, there is this... humans just project-",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:31:14",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Wait, is this bad?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:31:17",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes. Okay. And I'll tell you why it's bad. It's bad not because-",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:31:21",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Not like, is it bad to have a relationship with a server?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:31:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh, those... I've had that for like 30 years. Literally, there's a little guy in New Jersey just running for me right now. I love that guy. What can we change?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:31:32",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, but look, let me just finish my point because I want and then I want to throw it back to Hilary, which is the chat isn't just like morally questionable that we simulated a human and people believe it's a human and they believe it's right and the product doesn't encompass that. That is actually kind of bad on a lot of different levels and we all kind of know it. We're all learning it right now. But it's actually bad product for something like assisted coding. I want to be able to like touch things and say please fix this part and this part. I can't address the actual objects inside of the system. I have to describe them in text. Like it's not using the computer to do good computer things. It's using this one interface for everything, which we know is not good. We sort of have been through this so many times as an industry. So I want it to be embedded, which is kind of maybe I think a good place for us to talk for a minute because it feels like AI is embedded in your gaming engine.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:32:27",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Absolutely.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:32:29",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Right. And it's not a... it doesn't look like AI.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:32:32",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "It doesn't, and when we say AI, and I'm putting that in air quotes, like it is actually in one turn of this game, there are 16 different machine learning tasks that run, some of which are-",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:32:49",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Which for people who don't know, that's AI too.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:32:51",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "It is whatever you want it to include.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:32:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Does anyone remember machine learning anymore?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:32:56",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "I mean, some of us do. You do. But I every time I'm at a meetup or something, people are like, 'Oh, you use classic machine learning?' And I'm like-",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I noticed in your marketing, you don't put AI front and center.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:33:02",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "No.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:33:04",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "We don't, because our players do not care.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:06",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "And I think that if you have made a good product, what that's like saying, you know, computer role playing, which actually used to be a marketing term if you go back to like the D&D games of the early 80s, right?",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:33:19",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Sure.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:33:21",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "So no, it's like not the thing anyone should have to care about. It's just that there is an experience. I will say also we joke a lot at Hidden Door that our work is artisanal Brooklyn machine learning or artisanal Brooklyn AI.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:34",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's amazing.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:33:36",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "But we do that because if you were asking ChatGPT—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:33:40",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You're based in Brooklyn.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:33:41",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "And we are based in Brooklyn, yes, and I'm a very proud New Yorker, so yay New York, but also yay other places.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:33:47",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But not...",
+      "tone": "teasing"
+    },
+    {
+      "timestamp": "00:33:48",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Let's be fair, not really, a little.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:33:49",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "As a New Yorker.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:33:50",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Yeah.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:33:52",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "You would find this if you were able to play for a longer time. If you were to go to like a standard LLM and you're like, \"Tell me a story about this thing,\" there are two things that are different on Hidden Door. One of which is that you can't do everything. You are within the laws of physics and the rules of your personally very strange world to blend Brooklyn and fantasy, but like that was your choice, so we're going with it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:13",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I just told it I like waffles.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:34:15",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Yeah. I like waffles too. I hope it...",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:34:17",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Who doesn't like waffles?",
+      "tone": "jocular"
+    },
+    {
+      "timestamp": "00:34:18",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "You chuckle, recalling that a sudden craving for a warm honey-glazed waffle once drove you deep into the Pine Rim where tracking the elusive treat turned into your first hunt. Anyway, so it built that into your backstory.",
+      "tone": "narrating"
+    },
+    {
+      "timestamp": "00:34:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's right.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:34:31",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So back, back to this sort of machine learning.",
+      "tone": "focused"
+    },
+    {
+      "timestamp": "00:34:34",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Okay, and then the second thing I'm going to say is that we actually write out the beats of the story mostly by hand in a, and we use LLMs and other techniques for what they're really good at, which is to Paul's point earlier, things like taking information from one place and moving it to another place, or in this case taking aspects of what it means to be in Brooklyn and on a, be a fantasy adventurer and combining them into this moment of a very particular story that no one else has ever told, but also avoiding the problem of like all of the samey-ness of what will come out of an LLM if you don't sort of...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:35:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Sure.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:35:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So you're injecting a good dose of human creativity.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:35:18",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "I would say we're writing stories and then using AI at the end to sort of flavor them and respond to your choices.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:35:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Little embellishment and a little...",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:35:27",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And the stories are both sort of words and structure and plot but also data and sort of the system and the what the limits of the game engine so you have a constraint system when you sit down and that is the game engine.",
+      "tone": "summarizing"
+    },
+    {
+      "timestamp": "00:35:43",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Yes.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:35:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay and you sort of I can do certain things I can type anything I want into the box.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:35:48",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "You can type anything but you will find if you type language that is inappropriate or unknown to our system it will reframe it for you.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:35:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Interesting. Okay.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:35:56",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "People will always try to find the edges.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:35:59",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Let's not talk about people.",
+      "tone": "jocular"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Tell me just a little bit, how is it going? How are players reacting? Like, five years is hard, like there's lots of... there are good days and bad days when you're building a company like this. So what I would love to hear is for you to tell us kind of what's up with you, and then also for people because I think this is what people want to do with this technology. They don't just want to strap it onto like some random accounting tool.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:36:22",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "I hope so. I mean, I think both. Like, accounting is also important.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:36:27",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It sure is.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:36:28",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Thanks for nothing, Paul.",
+      "tone": "ironic"
+    },
+    {
+      "timestamp": "00:36:30",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "As CEO, I respect accountants.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:36:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Craig, our good friend Craig Mod, has built his own QuickBooks in Japan because he needed it. Anyway...",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:36:35",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "There you go.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:36:37",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, anyway. Okay.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:36:41",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "So, no, no, no. Going back to some things we talked about earlier, our vision for this was like, what if you could sit around a table like this with your favorite author and take some of the fun parts of playing a role-playing game like Dungeons and Dragons is the most famous one, but there are lots of tabletop games, and sort of have that, but you're doing it on your phone, mobile web, or on your web browser. And then you'll find when you are done with this story, it gives you a like, 'do you want to share this?' right?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:37:06",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "How do... how does the creative industry react to this product? Because, you know, young adult fiction authors are known for their tolerance and their flexibility.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:37:21",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "So you're asking about like how people react to the use of AI here, or like...",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:37:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "A little bit, because I mean you're in a world... like, genre is a little resistant to some... like genre people. They don't love this. Or not your product, but like AI in general. Like, a little prickly.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:37:34",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "And for good reason. And we have an FAQ on the webpage that you will find and in that FAQ, you know, one of the questions we get is like, 'do you train LLMs on authors' work?' and the answer is no, we do not. Because that is not a good experience and it is not fair to the author. We also sign revenue share agreements with our authors because the goal here is that they have fans of their work who want to be able to play in their own way. This is not competitive with the the book or the experience that they're creating. It's a way for fans to just mess around and tell their own stories and share those with each other. As a player, it is my way to be... I love this thing and I made it. Like, I played Pride and Prejudice and I got Mr. Darcy to have a secret cheeseburger addiction, which is, like, if you know me, I love cheeseburgers. So like...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:38:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "For people who don't know the book, that's not in it.",
+      "tone": "deadpan"
+    },
+    {
+      "timestamp": "00:38:32",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "It is not in the book. It is not canon. But it was very funny to me and I sent it to my friends, right? And those are the only...",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:38:40",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So you're... you're aiming for a social experience.",
+      "tone": "summarizing"
+    },
+    {
+      "timestamp": "00:38:42",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Exactly. So not one person chatting to a bot, and not, you know, saying like we would ever replace authors. Like, we hand write the beats of our stories. The authors have created these things that we love and want to celebrate and want more of. And so why can we not use this as an experience where a fan can just be like, cool, I'm going to take this element of that, and I'm going to put in vampires, and please tell me a story about it.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "And by the way, also Brooklyn, if you like. And then, you know, I'm going to have a, you know, epic battle on the L train, and I'm going to make jokes about waffles, and I'm going to send it to my friend who loves waffles, and we're just going to have a joyful moment together because of this book we liked or because of this, you know, creative experience. And we're trying to make it like if you're already writing fanfic or any fiction or anything, this is not competitive with that either. It's the thing you're doing when you're in line for the pharmacy. It's the way of playing and being creative. And frankly, like if you're going to be on the internet doom scrolling, like we always like to think about like, how do we give you like fictional joy scrolling and like funny moments and—\"",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:39:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Joy scrolling, joy scrolling. That's our word.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:39:48",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I mean, as you're saying this, what I'm thinking of, like, you know, when you talk to writers, they're like, 'You can't put a price on my work.' But then Anthropic went ahead and stole everything and then it actually turns out you can. It's $3,000. They sent you a check after the fact.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:40:01",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "You can, but also that's not okay. And a lot of the angst from the creative community is because of the economics and the incredibly hypocritical and unfair treatment. And so, you know, we're lucky enough to partner with writers who like, by saying like, 'No, we actually respect you and want to pay you, and we are not going to try to do anything like take your IP without your permission' or like all that stuff. And it's not hard. Like, it's pretty easy to actually talk to people and figure out how to value—\"",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:40:34",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, I mean, writers are funny because they're like, 'Well, $3,000, I wrote that like 10 years ago,' but they really would prefer if you treated them with respect and gave them opportunities up front.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:40:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "New Yorkers like to strike a deal.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:40:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, but it also just turns out—it's surprising to everyone in the tech industry, but it turns out that the people who make the content are like humans with needs. And it's just like everyone's discovering this new and exciting fact. It's great.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:41:00",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Yes.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:41:01",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "All right, so good. So look, I think people should go play the game. And I—here's what I think is really, really interesting, which is that you have balanced out like really all of your nerdiness. Like, you've got your machine learning nerdiness, your D&D nerdiness, your, like, genre nerdiness.",
+      "tone": "complimentary"
+    },
+    {
+      "timestamp": "00:41:15",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "It's come together. We are very big nerds.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:41:19",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah. No, and I think that's beautiful. But I think what's really the thing I'm learning from this and really taking away is, you know, I'm so used to every narrative being like 'an AI-enhanced gaming experience,' right? And instead, this is a really powerful gaming engine that tries to connect a unique IP, give people social context, that also happens to use LLMs to move the story along along with traditional machine learning, right? So I had you correct my first definition, but I think that one's a little bit closer.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:41:54",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "That's closer.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:41:55",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, okay, so that's what you're aiming—that's what you're setting out to do, which is actually in a funny way just like way, way more ambitious because you're trying to make a platform that will sort of expand and sort of connect a lot of people over time as opposed to just throwing AI into the mix and seeing what happens.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "See what happens.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:42:01",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "That is true.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:42:02",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, well very cool, and you're in Brooklyn. Um, if people wanted to get in touch and ask you questions, um, they probably shouldn't do that, but what if they did?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:42:10",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "No, of course they should. I love, I love questions. You can send me a note at Hilary, H-I-L-A-R-Y at hiddendoor.co.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:42:13",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Yes.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:42:17",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's right, you're a 1L Hilary.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:42:18",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "I am a 1L Hilary, or I'm on BlueSky, HilaryMason.com.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Lovely. Wonderful. Well, thank you for coming in.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:42:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Thanks for coming.",
+      "tone": "warm"
+    },
+    {
+      "timestamp": "00:42:25",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Yeah, thank you for having me.",
+      "tone": "pleasant"
+    },
+    {
+      "timestamp": "00:42:26",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, and this is great. I'm gonna go play, let's see, Rich, I'm gonna go play...",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:42:32",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Go back to Brooklyn.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:42:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Now I'm doing Pride and Prejudice.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:42:34",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Nice.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:42:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, it's fine, it's a classic. I don't know if I've ever finished it though. Maybe I'll finish it here as a game. Okay, that's enough of me talking. Okay, so Aboard, Rich, what's Aboard do?",
+      "tone": "chatty"
+    },
+    {
+      "timestamp": "00:42:44",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Fact, not fan fiction. We ship software. We actually use a lot of the amazing tools that are in the world today, but we are experts at getting it over the line and getting it to production grade code. Um, we've been talking a lot about our messaging. I'm gonna put it real simply for the people at home. You come to us with a problem that's kind of roughly software shaped and then we solve it as quickly as possible with our own technology and with all these other super wonder, wonderful, very fast technologies. But the thing we deliver is a stable, consistent platform that you can host, we can host, think of us as, you know, like Rich and I used to run an agency, it's like that but automated on rails and ready to go. So get in touch.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:43:25",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Hello at aboard.com. Thank you again Hilary.",
+      "tone": "kind"
+    },
+    {
+      "timestamp": "00:43:28",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Thank you both.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "00:43:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes, thank you.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:43:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Have a great week.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:43:31",
+      "ad": false,
+      "speaker": "Hilary Mason",
+      "text": "Bye.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:43:31",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Bye.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:43:31",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Bye.",
+      "tone": "friendly"
+    }
+  ],
+  "highlights": [
+    "While AI makes it effortless to generate \"stuff\" like code or content, the true difficulty lies in the creative design and user experience required to build a purposeful, joyful product.",
+    "The chat interface is described as the \"original sin\" of AI design, as it often prioritizes addictive engagement and \"social hacking\" over focused utility and meaningful human connection.",
+    "Successful AI integration involves a hybrid approach, combining the generative power of large language models with traditional, structured game engines to maintain narrative consistency and logical guardrails.",
+    "Building a sustainable creative platform requires an ethical approach to intellectual property, including formal revenue-sharing with creators and a refusal to train models on their work without explicit permission."
+  ],
+  "summary": "In this episode of the *Aboard* podcast, hosts Paul Ford and Rich Ziade interview Hilary Mason, the CEO of Hidden Door, a gaming platform where \"roleplay meets fanfiction.\" Mason, a veteran data scientist and technologist, explains how her platform allows users to navigate fictional worlds—ranging from classic fantasy to modern romance—by combining \"cards\" to modify settings and characters. A central theme of the discussion is the distinction between creating \"stuff\" with AI, which is now nearly effortless, and building a high-quality \"product,\" which requires intentional creative design, user experience (UX) constraints, and a sense of craft.\n\nMason critiques the current tech landscape’s reliance on the \"chat\" interface, arguing that while it is a successful engagement tool, it is often a poor UX choice that lacks structure and can lead to social disconnection. In contrast, Hidden Door uses an \"artisanal\" approach, layering AI over a traditional game engine and structured database. This allows the technology to handle narrative flavor and respond to player choices while maintaining the \"laws of physics\" of the game world. By using AI to enhance hand-written story beats rather than replace them, the platform aims to provide a \"joy scrolling\" experience rather than the \"doom scrolling\" typical of modern social media.\n\nThe conversation also addresses the ethical challenges of AI in the creative industry. Mason emphasizes that Hidden Door does not train its models on authors' works without permission; instead, the company forms partnerships and revenue-sharing agreements with creators. This approach positions AI as a tool for fans to engage more deeply with the worlds they love without infringing on the rights of the original writers. Ultimately, the episode highlights a shift toward more sophisticated, \"product-first\" AI applications that prioritize stability, social connection, and respect for human creativity.",
+  "description": "Sure, you can build “stuff” with AI, but is anyone paying attention to product these days? On this week’s episode, Paul and Rich sit down with someone who is: Hilary Mason, CEO of the immersive online roleplaying game company Hidden Door. After discussing Hilary’s background in data science and machine learning, Paul takes a spin through a game scenario (Brooklyn vampires in a fantasy tavern!) while Hilary outlines the product decisions around Hidden Door’s game mechanics, AI-related or otherwise. Plus: Rich outlines his own attempts to make a game with AI for a family gathering, which, in his words, “led to children crying.” \n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/hilary-mason-product-first-then-ai/",
+  "duration": 2628,
+  "people": [
+    "Paul Ford",
+    "Rich Ziade",
+    "Hilary Mason",
+    "Hidden Door"
+  ],
+  "topics": [
+    "The challenges of building effective game experiences with AI",
+    "Hidden Door's platform for interactive roleplay and fan fiction",
+    "The 'original sin' of AI user experience and the limitations of chat interfaces",
+    "The distinction between building raw AI 'stuff' and high-quality software products",
+    "Ethical AI practices and revenue sharing with creative authors"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/Ef8j8yIatKw/maxresdefault.jpg",
+  "date": "20260407",
+  "youtube_url": "https://www.youtube.com/watch?v=Ef8j8yIatKw",
+  "youtube_metadata": {
+    "title": "Hilary Mason: Product First, Then AI | The Aboard Podcast 2026-04-07",
+    "description": "Sure, you can build “stuff” with AI, but is anyone paying attention to product these days? On this week’s episode, Paul and Rich sit down with someone who is: Hilary Mason, CEO of the immersive online roleplaying game company Hidden Door. After discussing Hilary’s background in data science and machine learning, Paul takes a spin through a game scenario (Brooklyn vampires in a fantasy tavern!) while Hilary outlines the product decisions around Hidden Door’s game mechanics, AI-related or otherwise. Plus: Rich outlines his own attempts to make a game with AI for a family gathering, which, in his words, “led to children crying.” \n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/hilary-mason-product-first-then-ai/",
+    "duration": 2628,
+    "view_count": 1789,
+    "like_count": 6,
+    "channel": "Aboard",
+    "upload_date": "20260407",
+    "thumbnail": "https://i.ytimg.com/vi/Ef8j8yIatKw/maxresdefault.jpg",
+    "tags": []
+  }
+}

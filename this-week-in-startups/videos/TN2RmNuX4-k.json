@@ -1,0 +1,3019 @@
+{
+  "title": "The $60 billion resource hiding in space, and the startup trying to mine it | E2268",
+  "source_url": "https://www.youtube.com/watch?v=TN2RmNuX4-k",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, everybody, welcome back to This Week in Startups. It's Friday, that means Lon Harris is here with me. And at the end of the show, we will do Off Duty with Lon. Everybody loves that segment where Lon takes us off duty and we share what we're buying, what we're consuming, what we're watching.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:17",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Let me just start the show by saying, I love Plaud. Um, I'm using my Plaud pin right now to record this very conversation.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:00:26",
+      "ad": true,
+      "speaker": "Alex Wilhelm",
+      "text": "Mine too.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:00:27",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Oh you have yours too? Did you activate yet?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:00:29",
+      "ad": true,
+      "speaker": "Alex Wilhelm",
+      "text": "Oh yeah, no, it's running. It's been - my Plaud is - my Plaud goes all day.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:33",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Yes, and I have mine running now and I just, you know, it's got the red light so I'm being privacy first. And you know, I only use it when people know I'm using it. But this is the interesting thing. You could wear the Plaud pin like you're wearing it, or you can wear it on your wrist. Another great way to wear it. And what I do with this is, when I'm hiking around the ranch or I have a moment - Plaud, take a memo, action item: we need to move two of our researchers into the paid newsletter that we're doing. Please have Lon pick his number one and two, even though that's super uncomfortable to ask in front of everybody, the one and two. Which is why you didn't answer it.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:01:13",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "I sent you my one and two picks privately. I don't like to pick favorites in front of people.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:01:18",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "See? No. I like to create a little bit of like, who's ready for this? Anyway, that's my management style. But Plaud is amazing. And what it does is, it creates a summary and then you can share that summary. Then they have like 20 different - I don't know, maybe it's hundreds, but I have like 20 really nice templates I use, like full accurate transcript, it learns who Lon is in my life, it learns who Alex is, it knows them, so then for all time forward I don't have to mention that. It creates a mind map of the conversation we have when we have a strategy meeting. All this great stuff, and then one-click share. Why is it better than using your phone? Oh my god, your phone's microphone stinks. And you have to though clumsily go through your phone as opposed to beep, one button, you're ready to go.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:58",
+      "ad": true,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, it's the contextual - it understands the conversation and really thinks about how to organize it for you. That's the really...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:04",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "What's the offer? What's the offer? We have an offer?",
+      "tone": "eager"
+    },
+    {
+      "timestamp": "00:02:06",
+      "ad": true,
+      "speaker": "Alex Wilhelm",
+      "text": "We do have an offer, Jason, of course. So you can check it out at plaud.ai/twist and if you use the code twist, they're going to give you 10% off your new Plaud pin. That's P-L-A-U-D .ai /twist.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:02:24",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "And please, if you do have a good experience with it, share it on social and tell everybody you found out about it on This Week in Startups, on TWiST. We'd really appreciate it. Please.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:02:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, let's get started. We did our first thank you to our sponsors. But we've got a really great first guest. I'm excited about this one.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:02:40",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'm - I'm excited. I saw - I saw some of their tweets going by, I read a little bit about the startup and I immediately pinged the team like, let's - let's get these guys on. I want - I want to learn more about this. So we've got Matt Gialich, he's the CEO and co-founder of AstroForge. They are a mining startup, they're developing spacecraft to go prospect and extract platinum group metals or PGMs from near-Earth asteroids.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Jason, that's the plan.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So literally science fiction is reality. Matt, welcome—",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:03:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Matt, welcome back. Have you been on the program before, Matt, or is this your first time?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:03:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I talked to you maybe three years ago when we first—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I remember. Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "—we first launched, before we had ever launched our first spacecraft.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. So congratulations. Where are you at with mining asteroids?",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:03:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Look, this is a really hard thing to do. I mean, we are the first commercial company that really wants to go outside of the Earth-moon system and explore the solar system. Right? It's a totally big swing on space. We've seen a lot of venture dollars go into space, a lot of companies start up into space, and we're kind of that next step in what you can go do. Right now we're building Deep Space 2, it's our next spacecraft that's a 200-kilogram spacecraft that'll launch later this year on a Falcon 9 that goes to the moon and it'll attempt to go out and potentially land on an asteroid.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:53",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Wow, I want to jump in here with- I- I was doing a little research on this. When you say land on an asteroid, are we talking about like the rocket like ship comes down like in the sci-fi and it lands on the surface? It's more is there it's sort of like a docking procedure like with the International Space Station, correct?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:04:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's much more like a docking procedure. I mean, we have to kind of like, what the movies tell you and what's actually out there are two very different things. Right? We go to what are called near-Earth asteroids, they're pretty close to the planet. The one we're targeting right now is about 10 million miles away. And these asteroids are around 200 meters in diameter. So in the terms of space, these are very, very small things in space that we want to go land on. Now, we're also looking for a very specific type of asteroid. We're looking for an asteroid called a metal asteroid. And because of that, these asteroids are about 70% iron, somewhere in that range, iron-nickel, which means they're magnetic. So the way we land on them is simply with magnets. We stick to the asteroid.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:04:57",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Because Armageddon, which is my big, you know, cultural point for landing on an asteroid, it's like they're crashing into the surface, people are shimmied back and forth, but it's really, it's more delicate than that?",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:05:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No Steve Buscemi in this scenario. These are unmanned, you land, you take a sample, and then eventually, Matt, am I correct that you want to build like a more semi-permanent installation on one of those when it's in orbit or like what is the window for you to actually drill into an asteroid consistently and then get it back to Earth? Right? Because that's the other piece you want to get these back to Earth or do you want to use it for facilitating manufacturing in space?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:05:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The problem right now is on the planet. The problem right now is not in space. While we'd love to supply the in-space economy, currently right now there isn't an in-space economy, right? I'm a firm believer that there is still a mass problem to space. Now Elon has done tremendous things to lower the price of mass to get into the solar system. That all being said, you're still charged by the kilogram. That is still the underlying thing you pay for. So building a small craft that can go do this is where we see the sweet spot to be. We also think about this at volume, Jason. So it's not about can you build one huge ship that goes and does this, it's—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Can you make hundreds, if not thousands of them that are going to go out to these asteroids, mine them and bring it back to Earth? But look guys, we got one planet. We got one habitable planet in the solar system as of today. We gotta protect it. And mining is one of the most destructive things we do on this planet. There's no other way to have our way of life unless we go out in the cosmos and mine it for its resources.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:06:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Walk us through this video we're seeing here.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:06:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think one thing that is always surprising if we talk about asteroids everybody says like 'oh that's sci-fi, you can't mine an asteroid.' This is literally a NASA mission that went out and mined an asteroid. This is Bennu, it's run by a guy named Dante Lauretta, worked on it for 22 years. Um he's an advisor to us and this one went out to a different type of asteroid than we want to go to and took a sample of it and brought it back to Earth. This sample returned about I think about a year and a half ago. A couple members of the team are on our staff here. Um and they got a whole bunch of information about this asteroid. What's super important about that mission to us though is it updated the models for how we look at asteroids. So it helped us understand the types that are in the solar system.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:56",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And uh what are we seeing here? What is that machine or satellite? Is that your actual miner that we see there?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:07:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "What you're seeing here is maybe look, I was in elementary school in the 90s. I don't know about all the listeners right, but uh in the 90s we heard about this asteroid belt and it's where all the asteroids were. Nobody had ever discovered any asteroids close to the Earth. In fact, at the turn of the century there was about seven asteroids that were classified as near-earth asteroids. As of today we have over 600,000 of them cataloged. So what I'm actually showing you here is that what you were told 20 years ago is very different. There's a lot of objects really close to our home that we can go mine. Um and that makes this a much shorter mission and I think a much more viable mission to go do.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:07:34",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "All right. Amazing. And so um what does the actual miner look like? Do we have the actual miner and what it looks like and what it actually does? Like explain that to me.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:07:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "There is a picture on Twitter that we just put up. Yeah, here it is of of one of the first phases of mining. Now mining is one of the biggest IP things we have at the company, but I'll tell you guys in short how this works. It's a pretty simple way to think about it. We use directed energy, i.e. lasers, to remove material from the asteroid and then we sort it out with magnetism. Platinum group metals are not magnetic, iron-nickel are, and it's a very simple way to think about sorting out the material to bring it back. The spacecraft we have is designed to bring back up to 1,000 kilograms of material, which in today's dollars... now this stuff, look it's a commodity, it fluctuates all the time. As of today it's worth about 105 million dollars per mission. So that's kind of the upper cost target we gotta be below to make this work. And the whole point of the company J-Cal is how do we turn that little knob of risk? Right? How far can we turn that knob of risk to lower the cost to get the cheapest spacecraft in space to go mine that asteroid and go out. Now Deep Space 2, in total, including the launch, is going to cost about 10.4 million dollars. That's a very different price point than anybody's ever tried to go out into the solar system with before.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:08:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So 10 million investment per mission with a potential return of a hundy. That's that's a lot. Now if you just hit it, you know being an angel investor and doing this for a living or...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "A poker player. Hey, you just need to have this happen one out of every ten times in order for you to break even. So, does- is that mean it's a sure thing at this point? Do you feel confident it's a sure thing that you'll be able to get one in ten back?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:14",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "I want to tell you about a product I'm obsessed with and everyone in tech seems to be obsessed with. It's called WhisperFlow. W-I-S-P-R Flow. You set it up and then you hit a key combination and you talk, and it transcribes what you say. It does it more accurately and quicker and across all your platforms than any other speech-to-text software I've ever used. When you communicate all day long like I do, even as a fast typist, it is going to be three, four, five times faster than you can type. And because it fixes all of your ums and your ahs and your mistakes and cleans it up, all of the punctuation, all of the filler and unnecessary words being removed in real time. WhisperFlow is already available everywhere. When I'm using it in Superhuman Gmail, Slack, Google Docs, I use it everywhere. The messages sound like I wrote them. We're moving into a world where agents are going to make us a hundred times more efficient. Now, you add WhisperFlow making you five, ten, twenty times more efficient. Visit whisperflow.ai/twist to get started for free today. This product's amazing. That's W-I-S-P-R-F-L-O-W.ai/twist. I've been using this product for six months. It is extraordinary.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:10:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'd be lying if I said I was 100% confident we could do this. I'm a founder with a thesis that we can get out to the universe for $10 million and go mine an asteroid. And as soon as I'm 100% confident, that means I'm not paying attention to all the things that can go wrong. Like, this is a very technical company and a very technical job as CEO to go run and figure out if we can do this. And it's kind of what we spend all our time doing, JCal. I mean, like, it is really from- I think Elon showed us the way here of: be one of the best engineers on the team that can go develop these products. You have to know this in and out of how we're going to go do this. And that's what I spend all my time doing.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:11:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Remind us again, when does this mining mission occur? And are we going to get to watch it live? I mean, one of the things I've been amazed over the years is that Elon has really high fidelity video from all of these, you know, different missions now. Like even the multiple stages. I'm not sure how he does that, I'm assuming Starlink is involved. I know they have like helicopters and drones, you know, doing the low earth- or doing the atmosphere video. But take us into bringing the world into watching you do this. Is that a key part of this and is that a key part of, I think, Elon's success with SpaceX is bringing humanity along for the ride through live streaming?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:11:44",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'm going to be honest with you, I wish we could live stream at the asteroid. The answer is we cannot. Uh, when we're at the asteroid and the way we save money is very simple: we lower our data rate dramatically. So at the asteroid, the max we're talking to spacecraft at is about 400 bits per second. That is not a video stream quality at all, right? This is like barely being-",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "able to talk to the spacecraft. I mean, that's how you keep it cheap. What we do do, and what we did do with Odin, our last mission we launched, right, is we are full transparency. We livestream the entire control room, all of the data we see, anybody else can see. I mean, I believe in transparency up and down. In fact, when Odin failed, we wrote a ton of articles that are on our website. You can go read about it, exactly what happened and exactly where we got it wrong and how we plan on fixing it because at the end of the day, that's how you learn and get better at this and—",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:12:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So what, take us through that. The mission two was Odin, and mission three is Vesta. When did— and that Odin happened March 2024, right?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:12:39",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Odin was February 27th, 2025, right? Last year. So about— about 11 months ago was when we launched Odin. Odin was our first attempt to go out into deep space. It launched on IM-2. So, this is a rocket launch going to trans-lunar injection, right? This goes to the moon. We leave from the Falcon and we slingshot around the moon out to the asteroid. What happened on Odin— to be clear, Odin was a total pathfinder for us. It was the first commercial deep space mission ever attempted. We got the first license from the FCC to ever go into deep space as a purely commercial company with no government interest. Um, and we had a failure right away. One of the failures that happened was the solar panels did not deploy. So the spacecraft's in a very slow spin where we were not power positive. We were still able to talk to it. We were still able to communicate with it. In fact, we were still able to prove out a lot of the technical navigation philosophies we used on that mission. But at the end of the day, like, we didn't get to the asteroid, right? We didn't do good enough. We gotta do better on the next one.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:32",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I did think one thing that was interesting, so far, the— the two missions, neither of which went right so far, they were both like communication failures. It wasn't like the— the craft exploded or spun out into the galaxy. It was like you kind of lost touch with it at some point.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think I do a shitty job explaining this. I try to explain it this way, like, the way you die as a human is your brain stops sending electrical signals. The cause of your death is cancer, heart attack, whatever— car accident, whatever that is, right? So like, communication will always be what it seems like. Odin communicated perfectly. We didn't have a communication problem on Odin. What we had on Odin was a power issue. So, we weren't able to turn on the radios. That was why it manifested as a communication issue. So, again, we proved out a lot on that mission, but we gotta do better on deep space too. We gotta make it all the way.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:14:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And as a startup, how many swings at bat do you get? And— and talk to me about the investors in the company. I think you've raised like 50 million bucks. How do they look at this? You know, and how do you communicate? Hey, this is a— you know, pretty binary thing. Either it works or it doesn't. And I know Elon struggled with this in the early days of SpaceX, so take me through that struggle and communication with investors.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:14:38",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean, it's hard. You need to have special people that are willing to jump aboard this ship and see the future with you, right, and really can take a— a deep look at the future. Now, I want to give a lot of credit to Elon for paving the way and showing investors that it's possible to have these outsized returns if you're willing to take outsized risk, right? Like, this is a hard thing to go pull off. We do have some amazing investors. I mean, Initialized Capital, Gary Tan is who led our seed round, right? And then we went through Y Combinator. 776 is—",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "big investor in us, we have some massive angels that have really helped us get over the line. And uh, being super transparent with the investors about what we're doing and the risk we're taking, I think is one of the things that we're really good at. Like our investor monthly letters are giant documents that I write as a way to not only document what we're doing at the company but to show people the progress we're making. It is all about incremental progress as you go here. I mean guys, Elon failed three times with Falcon 1 before he got there with what, the fourth launch. This, we're going even farther and we're going after something even bigger. It's gonna be a rough road and you gotta kind of strap in and expect it.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:15:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now, there are some materials that exist on asteroids that don't exist on Earth or they're very rare on Earth, am I correct?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:44",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Not really J-Cal, I'm gonna be very honest with you about this. The material we're going after is platinum group metals, right? So the six elements that make up platinum, iridium, what, you can go look them up and see what they all are. We don't have any of them in the continental United States. So not only is there a huge geological play here, and you've seen China especially with the rare earths really flex their muscle here and ban us from having gallium and some of these other materials. I mean Trump put out an huge executive order on minerals, right? We need mineral sovereignty as the US. There is no way to like make this up or go get it, the minerals that we have discovered are way too deep in the ground for us to go mine. The most economical play though is to go to space. And I think that's the big difference. This isn't necessarily a security of resources, I think this is a better economical advantage than opening a new platinum mine in South Africa would be.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, and these PGMs, that's the key. Those, palladium, rhodium, osmium...",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:16:38",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Osmium, ruthenium and iridium I believe.",
+      "tone": "corrective"
+    },
+    {
+      "timestamp": "00:16:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I might have been a little tired in my chemistry class 40 years ago, but but tell us about what they're used for here on Earth and if you could at scale, you know, bring down... because I understand like one asteroid could have more than we have on Earth, and I don't know if that's true or not, but that was some of my cursory research when I first met...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:17:04",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's yeah, I mean look, there's a lot of this stuff in space that we can go after. What is it used for? Every single thing that every VC invests in. How do we make computer chips? You make it with iridium, with iridium crucibles to melt silicon. Like, this is used in every walk of your life. If you're looking at an LCD screen right now or OLED screen, they have three of the six platinum group metals in it. We touch it every day across the board. It's in cancer therapies, it's also in how we limit radi- emissions on your car. This stuff is just used worldwide. That's why it's a commodity, right? It's not like some special thing we're making up. It is a commodity metal that we want to go provide. Now you ask the question that I can't answer, which is, hey, what if we actually change the supply and demand curves and we bring back a lot more? Like what does the future look like? This has happened before, it happened in the 1800s with a metal called aluminum. Guys all know about this, right? Like we found a new process to make aluminum, all of a sudden it went from like the most baller shit you could have to we make airplanes out of it, it enables modern air travel.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Some reason they now make the iPhone out of it, a terrible decision, but a different conversation. I hope there is a future like that that can be created with what we're doing by journeying out and unlocking the supply of platinum.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And that rhodium is incredibly expensive, yeah? Like tens of thousands per ounce.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:18:15",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Rhodium is very, very expensive. Iridium is incredibly expensive. But I think it's really important to have maybe a little bit more nuance view on metals here. The price that you sell an a gram for, an ounce for, however you want to quantify it, isn't necessarily the best marker of what the use case could be from a business standpoint. You really got to pay attention to market cap. And I think this is where a lot of people in mining get this wrong. The largest market cap in the world is gold. The second largest market cap in the world is the platinum group metals. There has to be a huge supply here on earth that we can go into. Because the reality is, the question we get asked all the time, which is very true, if we go find some new material on asteroid and bring it back, we destroy the market for that material. Right? There has to be a huge amount that can be there before we destroy the market. And with platinum group metals, there is. To give you guys a sense, it would take us about 100 missions before we would screw up the price of platinum.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Got it. So it's going to wind up being price competitive for you to collect this stuff if you succeed. And if you were to have like outlier success, you could actually change the market cap and how we look at these things, yeah?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:19:18",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I mean, J-Cal, the best platinum group metal mine in the world in South Africa has 14% gross margins. I just told you a story we could have 90% gross margins. That changes the way of how we go mine, right? That opens up a whole new future that we can all go and enjoy where we have abundance. And I think isn't that what every startup founder should be aiming for?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:19:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Absolutely. All right. Well, listen, we are going to be rooting for you. And what's the date again for the next one so we can put it on our calendar and have you back on afterwards and share your learnings, and hopefully, great success.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:19:46",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So the next one is IM3, currently right now scheduled for November of this year.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "November of this year. So excited. Will it be Starship or it's going to be Falcon you said?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:19:56",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "No, it's going to be a Falcon 9 that goes to the moon. This is a Falcon 9 flight.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. So the Falcon 9s are incredibly consistent at this point. Amazing.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:20:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Amazing. Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:20:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, they've got such an incredible track record now, hundreds of them. All right, so we will book you to come on in November and we will get the update on your amazing progress. I think this is like third time's going to be a charm.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:20:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I hope so guys, we need it. I feel good about it. Incredible. I'm in. It's literally like we're living in a science fiction novel.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:20:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It really... yeah. This one when I was researching it last night, you're reading it and you're like I can't believe they're already doing... this sounds so purely theoretical and that's what I assumed. I was like oh well they're talking about in 10 years maybe we can do this. It's like they're already running missions. It's happening.",
+      "tone": "amazed"
+    },
+    {
+      "timestamp": "00:20:34",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Circle is the best place on the internet to start growing your online community. There, I said it. You know why? Because I tried to find a community platform for my Founder University and for my Angel University programs and we couldn't find one. And after we'd started digging and digging, we found the perfect solution, Circle.so. It has all the most amazing features, like you can put in a course, like you have a CRM, you can do email, you have chat rooms and message boards. It is amazing.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Whether you're selling a course or you're building a community based on a topic or maybe you're starting a book club, maybe you're a coach, maybe you have a business, and maybe you want to build a community for everybody to get together and learn and share information. It's all inside of Circle. How do I know this? My team did a bake off. Once we started finding these platforms, it was like a Frankensite, all these different pieces, nobody had put them all together until Circle, and Circle's going to put it together for you. To get started, go to circle.so/twist and get $1,000 off the Circle Plus plan. That's circle.so/twist.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:21:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is the underappreciated thing about technology and capitalism, right? We're in a bit of an existential debate here in the United States over capitalism, over wealth disparity, everything. The truth is, when you set up a system like the United States or we were talking about Towne subnets that are designed to be brutally capitalist, what happens?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:58",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "You're basically in a competition to see who can lower the price to the point that more unlocks happen. So in this case, what Elon did with lowering the price to get to space allows this company, AstroForge, to then build and stand on his shoulders. Now, AstroForge makes this work, then you have to say, 'Well, what is the second order impact?' which is what I tried to get to in our quick interview here.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:22:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, well maybe the sovereignty of the United States versus, I think most of these palladiums are in Russia, China, South Africa, etc.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:22:38",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Well, right, yes. South Africa and Russia are right now the world's two largest suppliers of these platinum group metals. So yeah, it totally changes your thinking to be like, we've built an entire world and civilization based on rhodium and iridium being very rare and you've got to go dig down in places you don't want to go to go get it. And what would change if all of a sudden it was like, 'No, we can go out to space, grab a rock, laser it up, and just fly the iridium right back to Earth.'",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And so this is something important for all founders listening. You know, the better, cheaper, faster is kind of how we used to look at technology in the Wired 1.0 days, not the woke Wired magazine now that's anti-tech or like holding truth to power or whatever.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:23:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The New York Times says it's not woke enough, Jace, just so you know. The New York Times says they're not even woke enough.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:23:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I read this like little brouhaha and, you know, it on Twitter in the last 48 hours over Wired suddenly being the resistance against tech. Okay, fine. Hold truth to power, I get it.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:23:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think they've found a niche, you know. Like everybody needs a little a voice, a niche now. Just covering the big news of the day, as we've seen on this show, there's limited utility in it.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:23:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, and if you pick a side, you can get on the horseshoe, you know, the most extreme left or right or capitalistic or socialist. Oh, there's the truth.",
+      "tone": "summarizing"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "...and then you give them the red meat that they want and they'll keep coming back to see what you have to say.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:24:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's why I subscribe to Jacobin Magazine. This is the teen issue.",
+      "tone": "ironic"
+    },
+    {
+      "timestamp": "00:24:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Indoctrinating teens into socialism.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:24:15",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, got to be done. Important work.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:24:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes, they are revolt-maxing and they've recently built... I like to... Oh no, not revolt-maxing.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:24:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "They are revolt-maxing. I just love understanding how this side of the aisle thinks, so I literally subscribe to it and I listen to a couple of these magazines. You know, in that alternate world where the communists won, you wouldn't see this kind of... you certainly wouldn't see the wealth disparity because everybody would make the same amount of money. And then, you also wouldn't see the massive progress we're making as a society when it comes to technology. If you're a founder, you can win by making a better product, a faster product, a cheaper product, a product that entertains people. It usually falls into one of these four categories.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:03",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And you have to ask yourself, if your product is not informing or entertaining, you know, educating, informing, that area of like entertainment, making life better, cheaper, faster, you know, and increasing the fidelity of results, then you're probably not going to have a big business. And that's what they're betting on here. Great job, good get, and we're rooting for them. So well done.",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:25:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I like the first company already. This week in space, here we go.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:25:32",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, no, that was good. We will have to do this week in space at some point.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:25:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We've been talking so much AI plus Tao was sort of one of our big themes for this quarter, this month. And so we're continuing our chat with a whole bunch of different subnet owners from some of our favorite subnets. And up next we've got Sam Dare. He's from Templar.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:25:53",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Oh!",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:25:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Now you actually talked about Templar on the All In podcast with Jensen Huang, I believe just last week or two weeks ago.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, I think that was last week.",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "00:26:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, Chamath brought it up during the discussion. These are the guys that have created Covenant 72B, that is their 72 billion parameter model that was built in a decentralized fashion over the computers of hundreds, thousands of different participants. So let's bring on Sam and talk about it.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:26:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm very excited about this. You know, I forgot how cheeky and fun the crypto community is. And I obviously elected to sit it out for a while, but I was talking a year ago, Sam...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:26:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Welcome to the program, Sam.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:26:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I was talking to my friend Mark Jeffrey like a year ago. Sam, he's like deep in crypto, he was early into Bitcoin and everything and he said, 'Yeah, you gotta check out Tao. I think it would appeal to you.' Your criticism of, you know, Bitcoin and some of these other crypto projects, ICOs, was that they didn't have customers, they weren't building value, it was all speculative store of value, money transfer, which, you know, money transfer and store...",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "value Sam, I think we would all agree have some value in the world, but Tao is doing something uniquely different. What is it that Tao is doing uniquely different? And then we'll get into what you're doing. But just big picture leveling up. Explain to the audience as best you can, what's unique about Tao versus say Bitcoin.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:27:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That's an amazing question. So narratives matter. And for a very long time, like what the easier way to think about Tao and Bitcoin is Tao is the Bitcoin of AI. But I don't think that does it the justice, and it imposes some constraints on a system that's like multi-dimensional. Because Bitcoin, Satoshi invented Bitcoin to transfer value. It's evolved into many different things, it's still evolving now, we don't know its final form. But with Tao we try to... Okay what is the- what does the- what are blockchains meant to do? What is the core of blockchains? Is it smart contracts? No. Is it privacy? No. Is it some funky execution environment? No. It is: can we mechanize trust? They are incentive machines. So what the founders of BitTensor did is look, let's strip out everything from blockchains, all the noise, and let's take their core. What is it? Incentives. And let's blow it up a thousand- a thousand feet. So the only thing that matters is incentives. So that is the primary unit in BitTensor is incentives. Now you understand how you can't really call it Bitcoin, because this is a multi-dimensional fractal. Like how do you codify human behavior? So that is the problem BitTensor tries to- and tries to solve. How do you strip away all the noise? How do you- like because the ultimate- the ultimate trustless systems, if not cryptography, is incentives. So we- so what BitTensor gives you, it's really difficult because, you know, you can build anything with BitTensor if you can codify an incentive game. What the- the unit cell of production in BitTensor, they're subnets. Subnets are like magic factories where you as a subnet owner, you have this very brilliant but self-interested people. You need to convince them- no, no, you don't need to convince them, you need to force them to follow your rules and create this incentive landscape which is just- it's a game. Like miners do this, validators do this, goods come out. But it's your job as a subnet architect to design a game that forces the miners, cause miners are economically rational. They care not for your objective, they care about the money. But you need to keep taking away every...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:29:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Great. So you created a rule set for Templar that does what? What is the incentive structure that you decided to create for your miners to then contribute in their own self-interest for you to solve some...?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Some problem in the world. Walk us through it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:02",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "We've got a brand new partner here at Twist and, as fate would have it, we love and use their product. If you need to hire, manage, pay, or equip your team members anywhere around the world, you need Deel, D-E-E-L. They're going to take care of all the annoying human resources tasks that you don't have time for: payroll, compliance, visas, and onboarding. So you can stay focused on achieving product-market fit or scaling your business or finding more talent. Deel scales with you. They do all your chores, all the hard work, and they do it perfectly from the first hire on, so there's never a need to switch platforms or transition to a new system in the future. It's future-proof. And with Deel, you can set up payroll for any country in just minutes and get all the complicated visas and paperwork settled right away, allowing your business to grow without borders. And that's the smart way to grow now. Talent is not limited to San Francisco, the United States, or this continent. It's everywhere. That's why more than 37,000 startups and fast-moving companies are already using Deel to accelerate their hiring and growth. Find out more by visiting deel.com/twist. That's D-E-E-L.com/twist. Also, I happen to be a shareholder in the company. I got very lucky they acquired one of my startups, and I am stoked. It's an amazing company.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:31:25",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "At a very high level, to successfully create an incentive mechanism, you need to be able to isolate what you want to improve. It's super, super important. With Templar, we could say, okay, every round, we require miners to train over a data set. Yeah. Now, the miner that reduces the loss in that epoch the most, yeah, so it means that you've contributed most to the training, you win the most money. That's what it is at a very simple thing. So you have like 70 people competing to say, okay, let me get the best gradient. Let me get the best gradient. Let me get the best gradient. So they train really, really hard. Now, that is—that's a straw man, but it's the high-level view of what we managed to achieve. Now, we spend months trying to perfect it because, oh my god, like, the funniest thing is that—sorry, sorry, I'm reliving loads of past trauma. Shout out Noah, shout out Noah.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:32:24",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I can see in your face, the memories.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:32:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes, yes, because—because it's really funny because, you know, you spend a lot of time running simulations. When you start, the way you get hacked is just dumb things. But, you know, it's very—it's very painful, it's very painful. But should you succeed, the results are absolutely amazing.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:32:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You ask people to contribute GPU. These are very high-end computers. This is like an Nvidia H100, I'm assuming. So you convinced some number of people in the world who have access to one of those, either by renting it or they own it themselves, they have it in a co-location facility—",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "and you don't know who those miners are, it's permissionless to join, but you told them you have to have this specific type of hardware at this throughput to contribute and then we're going to put a large language model creation essentially out to this distributed network of compute and then pay you for the use of your GPU. Am I broad strokes explaining it correctly?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:33:24",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "No, no, it's kind of but this is an important nuance.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Please.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:28",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We don't we don't we don't care what kind of GPUs we... you require. So what we what we do is we say this is what we need. All we need to care about is we can validate your inputs are correct. Miners, so what in Bittensor, you lean into what I like to call emergence, where you design your validation and you don't care what the miners are doing. I don't care if they're running it on Raspberry Pis or toasters, as long as this gradient I can prove that it's good, then that's all I care about. So eventually people gravitate towards like B200s, but the dominant strategy is maybe a miner just rewrites a whole codebase so that it can run on an A100. Those are the kind of things that properly structured incentives can drive.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:34:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Got it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:34:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is a key piece. You know, I was just talking with the CEO of I think Coreweave was explaining to me, hey, like what's the lifespan of some of these A100s, H100s, etc. And they were saying, well, after like five or six years, that's when we we sell them for five years, six years and then people will find uses for it and this is the case. They might take an old piece of hardware and take the time to make the training job run on and you don't care. How many... explain to us what you accomplished with this run and... this was the one I think Chamath brought up with Jensen, which where were you when you found out he brought it up? Your phone must have blown up because I didn't know he was going to bring that up. Obviously I've been involved in Bittensor for just about a year now in terms of, you know, being a partner at Stillmark Capital and investing in it. But where were you when you found out and then explain to us the training run you did.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:35:12",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I was working and someone pinged me and I... I think I got a mini heart attack and like, no, you can't die now. Wake up. Like wake up. So I think I got a mini heart attack. I mean, it was amazing because before that, like, so just to take a step back. Um, your criticisms of crypto are valid. For a very long time all we have is nihilism, all we have is, you know, PVP extraction. So everyone, no- no one had hope in crypto anymore. And all of a sudden we posted about a 72 billion parameter run and it caught fire. So I thought, you know what? This is the biggest thing because people are saying Templar, you know, finally validates not just Bittensor, but even the larger crypto, like, finally a use for crypto. So that was good. For me, I believe in Bitcoin, it failed me.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So, when I came to Bittensor, I found decentralized training. And the idea of decentralized training is humanity's last bastion. It's the final boss. But it seemed like such a joke. And to have it finally, you know, to test it at scale, I mean, make no mistake, we're not delusional. We still have a very, very long way to go. But it's like people were like, okay, it's a bit slow, but this thing could have legs. We've had it validated by different people, academia, Jack Clark from Anthropic, you know, because even if you look, so we've got mentioned by Jack Clark from Anthropic twice. Beginning, it's more skeptical. The second is less skeptical.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:36:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right. For me, it's like, yeah, it's less skeptical. All right. So to explain...",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:36:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Go ahead, Jason.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:36:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, no, I was going to say, just to explain this, you know, there was a bit of a technical breakthrough here. You trained this 72 billion parameter model across this Tao subnet, subnet 3, I think you are. And people as part of the Templar project solved and they ran local optimized steps, compressed and then shared the updates and then you put it all back together and you basically trained a significant model, which a company like Chat GPT or DeepSeek or Kimi, they would have spent a bunch of money using a bunch of computer hardware to do this. You did it and how much did it cost you to build that model?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:37:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The cost over the run is about two, about two, three million. But again, you know, it's very important to be clear. It's not a frontier model. It's nowhere near and you know, it's closer to Llama 2, which is the frontier two years ago. So, you know, we're still a bit, we're still far off from the frontier, but we are moving so quickly because in the space of nine months, we've managed to go from 1.2 billion parameters to 72 billion. So it's more about the story of exponential growth.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:38:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So the progress is significant. You're ramping up. When, and back to the cost, you know, the cost I'm interested in, you said two or three billion, I'm not sure if you said two or three...",
+      "tone": "focused"
+    },
+    {
+      "timestamp": "00:38:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No, no, million. Million.",
+      "tone": "corrective"
+    },
+    {
+      "timestamp": "00:38:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "How rich do you think...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:38:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Exactly.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:38:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes, exactly.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:38:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Two to three million dollars in Tao was distributed to the miners? Explain what the cost was.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:38:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So if we take away team costs, which are negligible, the biggest cost is just running the miners. Now, the exact number is like how much we pay out to the people, how much we pay out in the emission. And if we tally it, it's about two to three million. But there were times when we had to roll back the runs...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "...what not. So that kind of made it that high. But we believe we can achieve better, far better economics than any traditional—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And when you pay them, you pay them in subnet tokens or in TAO? And explain that relationship, that comes up over and over again.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:39:16",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Okay, so, so, so— ah, you're gonna have to have a different podcast for that. Let me just— you're gonna have to have a lot because even sometimes I don't understand it, but we have a subnet token, Gamma, which is the template subnet token. So we pay it out to them. So out of it, you know, miners manage their economics, they manage their inventory, they take profits, and they hold some. So that's how it works.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Got it. Lon, you had a question, go ahead.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:39:41",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, yeah. I mean, I just think what's interesting about, you know, like comparing, because obviously we're not decentralized training, we can't yet produce like an Opus 4.6, like the very frontier. But what are the advantages of doing it this way other than just, you know, obviously saving cost? There's sort of like a political dimension to this too, like the advantage of having a model that's trained by a whole community of people instead of, you know, at the direction of a few like sort of executives. So is that part of the goal too, that it's decentralizing it in a way that makes it, you know, there's a societal benefit here?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:40:15",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "The moral imperative is what got us started. Then you understand that there is actually a massive economic opportunity around it. And you've touched on just one case: sovereign AI. I went to Kenya the other week, and these guys, they want to train models. They're trying to scrap together H200s, but they don't have 10, 20 million to train their models because the sovereign AI movement is quite significant. So you have that. I was talking to— I made a commentary, I spoke to a news outlet in India, and what they were saying is, 'Oh, now that Anthropic might be banned from the US, India's a big market, we benefit from it.' I'm trying to tell them, 'No, you can build your own sovereign AI.' So that's a part of it. But more importantly, it's not like there's two different modes to think about this. With Bitcoin, we made the fatal mistake of thinking we were going to replace JP Morgan. We were going to replace— that was just the dumbest thing ever. And we can't make the same mistake with decentralized training. So what is the mission? The mission is optionality. The mission is choice. The mission is that there's a lot of people that want to train, but they can't. When you open up that avenue, it's not even about competing with them. It's creating a market that never existed. We can see signs of it. We can see signs of it and— okay, it's quite geeky, but TL;DR: you can probably get a lot more mileage off niche pre-training and fine-tuning.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Not just fine-tuning, but no one explores that because the cost of pre-training is so hard, so high. So when I first...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:07",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So this is interesting. If you can provide an avenue for people to do pre-training now at an affordable price with the sub- with the miners and the validators all working to lower cost and grinding it down in a competition, this is a new avenue for people to do it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:42:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Let's end on this. When do you do your next training run and what can we expect from that? And tell us a little bit about the corporate structure of Templar. I'm an investor, as you know. Should I be investing in Tao? Should I be investing in the Templar tokens? Should I be investing in the corporation? Is there a corporation that's running the subnet? Walk me through those three pieces and then what's next.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:42:47",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So there's a corporation, but it's just to pay salaries and employ people. Like, it's just to pay salaries and employ people.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Tao, so Templar's only available to Tao. So that's how you gain exposure to Templar.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:43:01",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Our next training run... it's... so we had the Epoch AI article states a very big problem or the next- very big limitation is that we're still 300 times below the frontier.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:43:10",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So why are we below the frontier? It's because our current algorithm requires every- it requires every miner or every node in the network to be able to hold the full model in its memory.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:43:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So this has limitations because everyone has to have a B200. We used B200s in the last thing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:43:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So in our next- we've released a new paper, it's called Heterogeneous Sparse Local. And what this does is that it lets us basically train across any type of compute.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:43:45",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So we can- we become indifferent to network topology. So what does that mean? It means that we can interleave data center and consumer compute.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:43:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Now, here's the- here's what no one's telling you.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:43:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "There is not the- you don't have a GPU scarcity. You have a well-connected latest model GPU scarcity.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:44:06",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So what if we can get the B3000s? What if we can get the A100s that no one else is using? And wherever the- so the mission is right now, wherever there is an internet connection and a GPU that is free, we will be able to put that in our runs.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:44:22",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So this is really interesting. You're building that software layer or that resolution layer that would allow me to take my Mac Studio or if, you know, Lon has a gaming computer with a great NVIDIA card in it.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:44:34",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Just like SETI@home allowed people of varying different hardware profiles to run SETI@home, which was looking for extraterrestrial life, you can have them participate in this.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:44:44",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So when will we see the next job get run and when can we have you back on the program to discuss that? And we'll put the Epoch story, Epoch AI story, up.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm on decentralized training in the show notes for people to read it's really fascinating. But what what's next? When do you guys and then who decides what you guys are going to try to do next?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:45:08",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Uh, I would like I wish I could say it was me. It's my research team so I have a couple of primadonnas they're called the research team and they decide when. They decide when. But I'm told in the next couple of weeks we'll kick off our next run. And again so for us it's not like I mean the the fame of BitTensor like it's mind-blowing always to do good work. The next model is not going to be a massive model because it's cheaper to build out this new primitives on a smaller scale. So we probably do a model that is smaller but it's useful. So we probably do a smaller model that is closer to the frontier in addition to Templar what we also have we so there's pre-training but there's also post-training. So for our next act we'll be deploying our new algorithm and pre-training and post-training a useful model on decentralized growth then we start to ramp up and you know who knows I set them a target of one trillion they told me I was crazy but you know we'll find out who's crazy who has jobs at the end of the year.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:46:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right. Well and you there's a website tau.app I don't know if you've seen that before I don't know who runs that if that's the foundation or not but it does show you the different subnets and how they're performing that's the one I go to to look at stuff where can people find out more about the Templar project is there an official URL or GitHub or something a community a discord where can people go find more information and go down the rabbit hole?",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:46:45",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We've got www.tplr.ai we've got Twitter we've got Discord and we've got www.covenant.ai because that's the...",
+      "tone": "factual"
+    },
+    {
+      "timestamp": "00:46:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. Well TPLR.ai if you want to learn more about one of the more exciting projects going on in Tau. Thanks so much for joining us.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:47:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah Sam, great to have you.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:47:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "In the news right now after what happened last week on All-In and then me talking about my investment publicly and just to remind folks I sometimes will place a bet in order to learn. So let me just explain how insane my process is and yeah I can't believe this tweet got a million views but I did a little tweet Tau greater than BTC. And I think the reason I said that was I feel like and I've said this for a long time I believe that something will replace Bitcoin. This is something that freaks people out right? If you have all of your bag in you know BTC and you're trying to pump it and it's you know back down in the 60s and it was at 130 you're you're only concerned with your bag and your book.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:47:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And anytime there's a new hot coin or...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "project that people get excited about, it turns into this war between 'this one's the future,' 'no, Bitcoin's the best one,' and it—this is an inevitable cycle.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:48:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But one thing I've learned in, you know, 40 years in tech, from the 80s till today, is that everything gets replaced at some point.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:48:18",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Or almost everything gets replaced at some point. A better version of almost everything comes out, whether it's BlackBerry giving way to iPhone giving way to Android, whether it's, you know, Craigslist giving way to Facebook Marketplace, there's always going to be competition.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:48:41",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "There was a time when people were like, 'Friendster and Myspace, that's it. There's never going to be another social network after Friendster and Myspace.'",
+      "tone": "anecdotal"
+    },
+    {
+      "timestamp": "00:48:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right. So it's not heresy to say something will come along that's better. Now, what you have to understand is what timeframe and how long does the network effect last, because there are moats in technology. One of the moats in technology is brand. Okay? AOL had a great brand for a while. You said online, it meant AOL. But then sometimes the performance and the actual better mousetrap is what is defensible. That would be the internet and broadband. Sometimes it's the combination of, you know, the brand, the network effect, like Uber or DoorDash, right? They have like a massive network effect, more drivers, more restaurants on DoorDash, etc. So you have to ask yourself with the game of Bitcoin, are we at that point whatever number of years later, 14, 15 years later, that a better version could come along that would be more exciting? Now, when I say it's better, I think it's better at an incentive system to provide value to consumers, to businesses. That's what I think it's better at. And I think all that compute will at some point, let's say, Lon, Templar provides a better use case for compute and transport on the internet than Bitcoin does. What do you think Bitcoin miners will do? They'll take 10% of their compute and they'll move it over to Templar or to another subnet and say, 'Okay, yeah, let me see if I can make more money here.' That's the rational thing to do. I think that's the moment that we're in right now is that people are going to start looking at their infrastructure and say, 'Hey, maybe I should put infrastructure, bandwidth, storage, compute towards this project.'",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:50:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I feel like that's another disconnect that's happening here. A lot of people, you know, they're seeing you talk about TAO is so interesting, I like all these subnets, and they assume that you're doing the pump-and-dump meme coin rug pull trick, which is, like, you know, like Hawk Tuah girl starts a coin, they start selling the coin, but then before anybody else gets a chance to sell, she dumps all of her coins and then makes the money and then walks away. Like, and that's the sort of classic rug pull. And but that's not what's going on with TAO because these are all projects. They all have, like, a goal. They're all using the blockchain technology to actually accomplish something. So it is not—it's not exactly...",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And it's not a diss towards Bitcoin, it's not a diss towards Bitcoin, but I do think like every technology tends to have an arc, right? And, you know, you see that in...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:51:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "non-commercial projects, I will say, are different. You know, so HTTP or the world wide web or FTP, like some things are open source Linux, so they're very different and they can continue on for very long periods of time, multiple decades. So, you know, I'm not saying Bitcoin's going away tomorrow, but it has been stuck at 60-70k for a little while now after this big thing. And then you have one person trying to corner the market on it in...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:51:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Michael Saylor.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:51:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Michael Saylor. That I think is a red flag that somebody could even do that, and that could blow up. People, I'm not calling it a Ponzi scheme, but people say it's a Ponzi. I'm just saying it's like overly complicated, and it to me works against decentralization. So I look at that as like a red flag if one person's trying to accumulate that much, you know, 5, 10% of all available coins. Kind of ends the game of Bitcoin.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:52:06",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Anyway, I think we got a demo.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:52:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We do. We have one more guest coming up. We've got a very cool demo bringing us Open Oats. It used to be called Open Granola, now it's Open Oats. We'll have to ask about that. Yassine Ali Rahim is here. He's the creator of Open Oats.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:52:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This, Yaz, it is a... it's an open source note-taking agent that listens into your conversations and provides helpful insights. I'll tell you what attracted my attention about this when I saw it online. This to me feels like the potential realization of what we always talked about for Producer Claude.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:52:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Remember we said Producer Claude we wanted him to listen into the show, and then when we said something about research that it could research, Claude would just look it up and let us know during the show, 'Hey, you mentioned the population of, you know, like India, here it is.'",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:52:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So that to me is like, it feels like we're getting, we're almost there. Open Oats feels like it's almost there. So welcome Yassine.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:53:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Producer Claude, huh? Okay. Alright.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:53:06",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Well, you know, Claude is I think the best language model out there, and it's the most helpful for us, most expensive, and they've kind of had a generational run this year, specifically last six months. But people do pay for note takers. Note takers are everywhere. What's the case for an open source version of this, Yassine? And welcome to the program.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:53:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Thank you. So I kind of feel compelled after seeing Matt and his asteroid mining thing and Sam and the crazy distributed AI stuff to say, you know, this is just like a side project. You know, I probably spent like a day total just working on this. And it was kind of random because someone tweeted, 'Hey, who's working on like the Open Granola?'",
+      "tone": "humble"
+    },
+    {
+      "timestamp": "00:53:47",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And then a friend tagged me because, you know, I'd just been building a lot of stuff recently using Claude actually, Claude Code. And, you know, as luck would have it, I'd already been working on a version...",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "version, but I hadn't released it. It was like 80% there. So I thought, hey, you know, why not release the thing, right? And so I put the thing out and apparently there was like a whole thing going on about Granola preventing people from accessing their notes or their transcripts. I didn't even know about it, but you know, there was like a whole drama going on. And the- like my- I tweeted about it and I put a video and it just blew up and like, you know, overnight we had like a thousand stars. There's like, you know, several hundred people forking the repo. And, you know, essentially like the core idea is, the sort of vision behind doing OpenNotes is not just to create like an open version of Granola, which you know, I think that- that would be fine. But you know, I really wanted to have like local LLMs, so you'd be able to, you know, not siphon off like all of your meeting transcripts out to like some random third party or some LLM.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:54:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So privacy is the key here? If you can run it locally, you don't have to worry about your Zoom meeting, your private conversation winding up, you know, growing OpenAI or, you know, Claude's LLM, which is kind of dangerous, yeah?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:55:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right, right. And and the other big part to me was also, um, so I went through YC a couple years ago. And one of the things, um, so YC has this thing called Bookface. A lot of people don't know about Bookface. I'm sure you do probably.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:55:23",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, it's their- it's their social network. Everybody posts to it and it's like a free-for-all, awesome founder social network.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:55:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's Bookface for humans. Bookface for humans. I understand.",
+      "tone": "witty"
+    },
+    {
+      "timestamp": "00:55:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But there's this- there's this special section inside Bookface, um, called the startup manual. And basically it's got like all of the accumulated wisdom from, you know, distilled from like all of the batches that they've got where, you know, they talk about great advice for hiring, for, you know, creating a product, you know, getting your engineers on board, you know, doing salaries, compensation, everything. So they've kind of distilled wisdom over all the batches that they've done and, you know, they have this- this- this handbook or manual. And I mean it's great, uh, because, you know, as a YC founder, like you can access it, but, you know, I was thinking like, there are a lot of situations where I might not be, you know, thinking 'oh, you know, maybe I should just go, you know, search for this particular situation' um, in the meetings that I have, you know, that I'm discussing with my- my team, you know, other people that I'm working with. Um, wouldn't it be great if there was a way to surface suggestions from like the best resource for startups available to me in context during a conversation that I might not even have known, you know, existed before? And so that was the kind of inspiration behind Open Granola. Like that was the one feature that I hadn't seen anywhere else.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:56:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So show us the- yeah, show us the real thing.",
+      "tone": "direct"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Real-time feedback I haven't seen either, and that requires local compute, listening in, and in real time hitting an LLM and saying, \"Hey, we're going to... we're recording it,\" because I can watch, like, Notion or doing the transcript live, but show us how it works. And obviously, you're on GitHub with this, you got close to 2,000 stars, so people are starting to take notice. It's early days, but that's nice that you broke a thousand, yeah.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:57:27",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So this is an MIT license and anybody can fork it. There's already been, like, a Windows version. This is Mac only, so I built it using Swift. It's really efficient. But there's a Windows version and, you know, there's at least a couple of guys that I know are working on an iOS version, so, you know, it's gotten pretty crazy. And also, so I have, like, a demo script. The core idea is, all right, so you kind of have a settings menu where you can select, you know, what you want to use for transcription, if you want to use a local model. So we're using Parakeet, which is a local model, so super fast, you won't feel any lag. And also, you can clean up the meeting notes once you're done. You can also do speaker diarization, which is, you know, basically just figuring out, like, who's talking. And this is the cool part. So LLM providers, you know, I'm using OpenRouter because, yeah, I'm just running this on a Mac Mini, so not a super beefy machine here. But you can use Ollama or MLX for local stuff. And then we also have an embedding provider, which would be important when it comes to, like, doing real-time suggestions, which by the way, like Gemini 1.5 Flash Light—I mean, this thing is, like, super fast. So you're going to see this in a second. Anyway, so you kind of start the meeting, so let's go ahead and start. It's initializing. All right, so now I'm speaking. If you speak, you're going to see, you know, like a \"them\" show up, and then while I'm speaking, you're kind of seeing what I'm saying right here. And then I have a demo script here. So I basically took, like, a pitch deck... and we have the insights panel here. This is where it's going to surface, you know, all this stuff that's going on.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:59:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh wow, there it is! Right. So you have a conversation going on, and then in the other window, it's saying, if we move that over...",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:59:15",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So let's see, I have a demo script here I'm going to work through. So let's roleplay here. Let's say I'm a founder and I'm going to speak... or let's say I'm pitching you, right? So we're building an AI platform that automates prior authorization for healthcare providers. So you can see here, it shows up, like, some information related to prior authorization. We don't really have any direct competitors.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:59:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So when they say, \"Hey, I don't have any direct competitors,\" it goes and searches for direct competitors. So it's taking claims and it's vetting the claims that are being made in real time. In other words, it's like a real-time due diligence checker.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:59:57",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, I mean you can see, it actually shows you other companies...",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "based in your knowledge base that also operated in a similar space. So as the founder is kind of speaking, I thought this might be a case that you'd be able to relate to.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:00:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, it's super relatable because, by the way, we either do this by having Claude or, you know, OpenAI or whatever, and you're typing in questions, you know, or before you get on the call, you would have AI look at the pitch deck and give you questions and ask, hey, as an associate, go through these questions. What are the competitive sets? What's the margin, etc.? So yeah, this is really compelling. Wow.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "01:00:36",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And you get to decide like how noisy you want the thing to be. Like, you know, if you want it to be eager, balanced, or quiet. I have it on eager just, you know, for demonstration's sake. Um, but every time someone makes a claim, so let's say, we're pre-revenue, but we're raising at a 12 million post-money valuation.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:00:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We got a- we got a question from the chat room, Jamie Uncensored wants to know, was this made in Replit? That's the question.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:00:59",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "No, it was- uh, so you can see just to close out the point. So whenever you mention valuation, it mentions other companies that have also raised, and so that- that kind of gives you a reference for, okay, does this make sense or not? So it's saying here, no, this is a red line. Never pay greater than 40x ARR.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:01:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'll tell you what's brilliant about this before you get to the Replit question. Um, I would like to have like four of these running concurrently on a screen. One of them would be fact-checking, one of them would be writing jokes, one of them would be writing proposed questions, you know, like so Jackie Martling who worked with Howard Stern was like handing him jokes over like paper or in a chat room. But you also have like, sometimes I'll be, uh, you know, doing a- a podcast and someone of the producers will say, oh yeah, the population of India just passed China's for this reason. So fact-checking, insights, asides.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "01:01:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That's the thing. It's- it's what we always dreamed of. And it's got the- it's got the cluey thing too that if you're on a Zoom call with somebody, they can't see that you're getting prompted by Openous in real time.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:02:04",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Right, so there's this- this option where you can hide it from screen sharing. So when I turn that on, you won't be able to see it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:02:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So you just seem like a genius. Yeah.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:02:12",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, yeah.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:02:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, that is... wow. One day's work. Is this a company or just a side hustle? You said you went through YC. Are you still working on that company or...?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:02:22",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, I'm still doing that. Um, I'm still doing that, but I'm building on the side. And so this was one of- like, you know, I- I have many products that I'm working on. I actually in the course of building this, you know, I- I- like, as people were getting more interested, I just started getting like so many, you know, freaking pull requests and issues. Like 200 plus, you know, between pull requests and issues. And then, yeah, at some point I was like, all right, I didn't sign up for this, right? It's- it's great that, you know, this has happened, but...",
+      "tone": "revelatory"
+    },
+    {
+      "timestamp": "01:02:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Is it getting more- founder to founder, are you getting more traction on this one than your day job? I'm curious.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:02:49",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, I mean like- like the pull here has been crazy and a bunch of people have already reached out telling me, hey, you know, wouldn't it be amazing if- like, could you take this- this same thing and sort of tailor-make it or, you know, customize...",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "is it for our specific company and then maybe you could create like shared knowledge bases or shared meetings. I mean there's there's all sorts of crazy ideas where you know you could take the the core principle and then just you know customize it specifically for a company and I think that that would probably be you know worth exploring so I'm having those conversations right now but like",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:03:23",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "the crazy part is like you look at the repo right now we don't have a single issue. We don't have a single pull request because everything like I built this this other thing using Claude again called auto-maintainer which basically just it's it's like a bot so I have my my core GitHub account and then I have like an account for an AI and basically this is like Claude code every time somebody opens up an issue or a pull request it would it would research the the bug or try to replicate it and I have this policy document which details the sort of product vision what things are in or out of scope and also",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:04:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "so it replies to them? You basically have a junior dev or a product manager managing this project with Claude.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:04:10",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "100 percent. And and it's working 24/7 so you can see like whenever someone files a pull request it says thanks for the report this is my AI this is a known blah blah blah I fixed it up in you know 189 and then it opens up a pull request and then it addresses the point and then tests it merges it and then deploys it and everything is happening on its own. I just get flagged for like the handful of issues which are super high risk where they touch like a you know big portion of the code base or you know it's like a really risky thing so I get flagged for that and then I can just it's like answering a multiple choice quiz oh you know maybe we should do this it gives me the recommendations too so it's not even like I'm making this stuff up.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "01:04:54",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I mean you know the crazy thing Jason is like I built this this Mac app in Swift and I don't know a line of Swift. Like I've never created a Mac app before and so like everything is being run the entire show is being run by Claude here and I'm just there kind of you know giving the product direction saying all right this is what I think would make sense.",
+      "tone": "amazed"
+    },
+    {
+      "timestamp": "01:05:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This you know this I think is going to be the challenge Lon is everybody can build everything and then it's just going to be a matter of who stops maintaining and obviously there's a solution here with the AI maintaining these programs too.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:05:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But now it's like when the bar gets so low to build software everybody's going to make everything and this is part of the Saspocalypse you know you have a company like Granola has a loved product they're a startup they're crushing it you know all credit to them but now they have an open source and then you have to ask well is that open source going to be able to keep up with Granola or will many hands make for light work and will the oatmeal product be better than Granola? You know that's the fascinating place we're in right now and OpenClaude versus Claude compute...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:06:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Claude Cowork versus Perplexity computer, yeah, is like which one of these projects is going to actually succeed? So great job, love it. Everybody can go check it out on GitHub. We'll put the links in the notes and we'll drop Yazzen off. Well done, sir.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:06:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I am so obsessed with open source at this point.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:06:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, wow. I mean, this is amaze... the Open Notes is pretty amazing. It's like because we had envisioned this product exactly like a year ago. Like wouldn't it be cool if we had like an AI listen to the show and just tell us notes and pass us little notes all during the show?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:06:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:06:32",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, I mean, and you could have two different versions of the show. You could have the show enhanced, like pop-up video was in the past. You could have an enhanced version of the show you watch or you could have regular. And then imagine if we just had a sidebar.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:06:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And if somebody builds this for me, I'll pay them for it. Like I would like a sidebar that just shows you all of the, you know, comments from the fact checker, the troll. Like we just make four different personas. The troll, the funny, you know, the chaotic troll, negative cynical troll, the funny troll...",
+      "tone": "ambitious"
+    },
+    {
+      "timestamp": "01:07:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's the Stern crew. It's we need a Gary Dell'Abate to sort of produce and keep his eye on the fact and keep everything moving. We need a Fred Norris to supply background context, sound effects, what's up? Jackie to write one-liners, Robin to update with news, yeah.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:07:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Exactly. Somebody make that for us and we'll put them here as our sidebar and you can watch... we'll do two streams. Oh my god, somebody take the open... if somebody does this and does this for the open source product, I'll pay them 5,000 bucks. And they can come on the show. Yeah, no, seriously. And we just have four bubbles there and the... they could have like a little persona. You put a sine wave there and like their little picture and we'll put it as like not Jackie, not Baba Booey, not whatever so we don't get in trouble, not Fred. Hilarious.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:07:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure. Hilarious.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:07:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So somebody build that for 5,000. Hey, you know what? It's Friday.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:08:03",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Let's go off duty.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:08:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We're off duty already.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:08:05",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I feel like we're already a little off duty.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:08:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We're off the reservation, that's for sure.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:08:09",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Uh, we got to talk about Lord of the Rings: Shadow of the Past, right? This is the... you sent this to me this week. I put it in the notes specifically. This is Peter Jackson, Warner Brothers, New Line. They announced a new Lord of the Rings. It's like a sequel and a prequel. Here's Peter Jackson making the announcement.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:08:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Hi everybody, I thought it was time to, um, to give you all a Hunt for Gollum update. The first of of many that we'll do, little blogs along the way. And Andy Serkis has been busy designing the film. He's going to direct it and obviously play Gollum. We've got a lot of the old team back again, familiar faces and some new faces. But Andy's doing a terrific job. It's looking amazing. The script is coming together really well and I think it's going to be a really good film. Really good film.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:08:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So pause here. He's talking about a movie we already knew about that was already announced called The Hunt for Gollum that Andy Serkis is making. This is set between The Hobbit and Lord of the Rings. It's about Aragorn hunting down the Hobbit... or hunting down Gollum, looking for him.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:09:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Seeking information about the one ring. So that's a prequel to Lord of the Rings. That's in production now, that's coming out next year. But here's where Peter Jackson is about to announce a new project we didn't know about.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:09:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Wait, is that a prequel or is it like they're inserting it between episodes?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:09:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's set between Hobbit and Lord of the Rings. So Bilbo already got the ring from Gollum and has taken it back to Bag End, and now Aragorn is investigating what's going on with the one ring and hunting down Gollum. Now Peter Jackson is about to announce the new film that we only learned about this week, so continue the video.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:09:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Developing, we've actually got a— one— another film that we'll be making after Hunt for Gollum. Um, so I thought I should tell you a little bit about that. Oh, actually why don't I get somebody else to explain it because we've got a very special partner that we're working with, and you can see for yourself. Hang on. There we go. Hello. Hi, Peter. Hey, Stephen. Hi, how are you? How are you doing?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:09:50",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Stephen Colbert is in the scene. You can cut the video now. Yeah, so Stephen Colbert is going to co-write with his son and with Philippa Boyens, who wrote the Lord of the Rings movies. They're going to co-write this new film. It's set partly during the part of the Fellowship of the Ring that we didn't cover already where they go visit Tom Bombadil, and it's also set after the Lord of the Rings trilogy based on some appendices and epilogue stuff that Tolkien wrote.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:09:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I love this filling in.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:10:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes. I love the filling in of the lore and there's also a project going on that I think we'll probably have on the docket here as well for Harry Potter, and we'll talk about the economics there. But what I love about this is, you know, Peter Jackson has I think in New Zealand all of the, you know, backdrops and sets and equipment for all of these films. And he's done six of them, so now they're going to do seven and eight, I guess.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:10:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes. There was an anime one a few years ago, but there's six live-action ones that they've done, correct.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:10:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So great. Keep filling it in. I like it. And you know what I like about it is you can get other voices. So now they have Colbert who jokes in this that he suddenly has more time. Remember he got canned or he's whatever, he has free time. And I love the idea that he's so passionate about it. I love seeing people, you know, perfect one genre, you know, late night talk show and before that I guess maybe he did stand up or was a correspondent, and then going into this just for the joy of it. You can see this is pure joy for him. He obviously doesn't need money. What a great little side quest for him. And I'm super thrilled about it. I think that the Lord of the Rings trilogy and the extended editions are just unbelievably magical as a product. I don't know where you would rate that trilogy, you know, in IP land, but it's certainly up there with Star Wars and Marvel.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:11:22",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I think it's the most consistent. I think if you look at the great trilogies...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:12:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "There's usually like one that's not quite as good as the other. I think the two that kind of hold up the best, Lord of the Rings and Indiana Jones. There's no off entries.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:12:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm going to put Star Wars up there for the trilogy as well and the prequels.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:12:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I don't think Return of the Jedi is as good as the first two. That's just me.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "01:12:15",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Okay, fair enough. Yeah. Yeah. Well that's because they didn't kill Han Solo and they had Ewoks instead of Wookiees, but that's for you guys to search.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "01:12:20",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. We'll see. Yeah. You guys can work that out. Work that out on your own.",
+      "tone": "lighthearted"
+    },
+    {
+      "timestamp": "01:12:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "One interesting thing I would add, a lot of the times when this comes up people are like, but there's the Silmarillion, there's so many other Tolkien writings about Middle Earth, why not adapt them? It's because Warner Brothers and New Line don't own the rights. They only own the Hobbit and the Lord of the Rings. So everything they do has to come out of those two books.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:12:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah this would be a great time to give Peter Jackson those franchises to pursue, but did they give those to Amazon? Is that who owns them?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:12:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Amazon bought another chunk, but nobody bought the entire, no one company owns the Tolkien everything, the entire estate, yeah.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:12:59",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "That's the problem. And this is what Marvel and Disney did well is they finally got the Fox IP back so they can have X-Men and Avengers in the same film and they did a deal with Sony to get Spider-Man.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:13:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "They're sort of collaborating on the Spider-Man. So Sony still technically, nobody can make a Spider-Man movie without Sony.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "01:13:17",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Or the people from Spider-Man in there, yeah. Correct. The villains and whatnot. Okay. Let's talk about this Harry Potter one.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "01:13:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:13:24",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Because this is amazing. They're redoing, if I understand correctly, Harry Potter books.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:13:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "01:13:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Each book will be a series, each series will be 10 episodes or so, and each one will be, this is recasting everybody.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "01:13:38",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes. We're redoing, we're redoing the Harry Potter books. They're going to do it as a show. Every season of the show, one book, one school year at Hogwarts. And the big selling point here is the movies, because they were movies, everybody loves the movies, it's not a knock on them I don't think, but the movies had to condense because those books get very long, like Goblet of Fire and on, they're very long books. To make it into a movie you had to cut a lot, you had to condense it down. So the promise that HBO is making is, now we've got a full season of TV, we're going to be able to adapt every subplot, everything that didn't work its way into the movies, so it'll be a more thorough adaptation is what they're saying. But yeah, they had to recast everybody.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:14:21",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So the economics matter here.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "01:14:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "01:14:23",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We were in a group chat I think with producer Nick talking about the economics.",
+      "tone": "anecdotal"
+    },
+    {
+      "timestamp": "01:14:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "There was a viral tweet that I just sent to the team that we can pull up.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "01:14:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Okay. Pull it up and then walk me through the economics and then your question and or Nick's was, how does this make economic sense and Lon had an answer.",
+      "tone": "directive"
+    },
+    {
+      "timestamp": "01:14:38",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It was really Nick's question. So yeah, they're saying Warner Brothers, they are spending reportedly $100 million per episode on the show. We don't have, that's not locked in for sure, that's what the rumors and the trades are saying. So you compare that to Amazon's Lord of the Rings show which we talked about which is 58 million per episode, House of the Dragon which was 20 million per episode, the original Game of Thrones...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:15:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Thrones started only at 6 million per episode, which seems like a crazy discount now. So the question becomes, if you make seven seasons of this because there's seven books, if you make eight episodes per season, that's 56 episodes. You're talking about $5.5 plus billion dollars.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:15:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "$5.5 billion.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "01:15:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "To make this show. All, all in, everything to produce the show.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:15:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So what is the total episode count then, roughly?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:15:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "He's this... this tweet is assuming eight per season. We don't have a definitive answer. That I think that's a pretty safe bet. Eight episodes per season. That would be 56 episodes across seven seasons. So 5.6 billion is the price tag if you say 100 million per episode.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:15:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:15:40",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So I'll tell you why this makes sense and it makes a lot of sense as a swing. And if this works, they're going to do it with Star Wars, I predict. Sure. And they will take a New Hope and make it a season, a 10-hour version of a New Hope. They'll make a 10-hour version of Empire Strikes Back, a 10-hour version of Return of the Jedi, fix a bunch of things, try a bunch of different things out, 30... That would wind up being 30 hours instead of six hours. Now you can imagine how amazing it would be to-",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:16:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And if you think about Dave Filoni who now runs Lucasfilm, that's been what he does all along. He created the Clone Wars shows, Ahsoka, all this stuff. He loves going back into the lore and finding ways to insert his characters, original ideas. Imagine being able to go back to the original Star Wars movies knowing everything you know now and being able to seed all that stuff in there from the beginning.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:16:36",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And Jabba the Hutt was like a... a more prominent character but cut for time. So you could have Jabba the Hutt's story occurring, you know, through episodes two and three, right? And Han running from him.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:16:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Exactly. And yeah. And now and you know about the prequels now. So you could say like, oh well there's work podracing in the background. Luke Skywalker loved to go see podracing when he lived back on Tatooine because we now know how popular that was. You know, you could bring it all together, all the lore that they've created over the last 30 years.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:16:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right. So I just want to walk people through the economics at scale companies. You're talking about, you know, what... about 300 million people are now on Netflix, right? 100 million people or more on Hulu and Disney. Yes. So this is going to exist on which platform?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:17:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "This is going on HBO Max, which will now be the combined Paramount Plus and HBO Max because they're joining.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:17:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So if you have one person paying $15 a month, that's $180 a year, right? Correct. 180 times six years is about $1,000, right? Back of the envelope. One person who says, I am a Harry Potter devotee. I'm going to have a lifetime value for Warner Brothers of $1,000.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:18:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now, if there is a million people who love this, right? Or 2 million people who love it, you start doing some back of the envelope math. An incremental 5 million people spending $1,000 each is $5 billion.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:18:18",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:18:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So, the bogey right now, if you look at Max and HBO Max, they have 125 million subs, right?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:18:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:18:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "They only have to incrementally grow by 4% to get those 5 billion.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:18:38",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure. And the other thing to bear in mind about HBO Max, unlike Netflix and Disney+, which had their global rollouts years ago, HBO Max is still rolling out around the world. They're very new, in like Europe they only launched this year. So they haven't had a chance—Netflix has already, if you live in a place where there's Netflix, you've had years to think about it. They probably almost maxed out most of those major markets. HBO Max has not maxed out those markets yet. They're brand new in Germany, they're brand new in the UK, they're brand new in Ireland. So like, there's a lot of ground left to cover, there's a lot of people still to win over.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:19:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right. So now you look at the books. How many of these Harry Potter books were sold? 600 million worldwide.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:19:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "600 million worldwide.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:19:28",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, yeah, it's a big number.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:19:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "According to your Replicant gaffe.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:19:31",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "He's good.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:19:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "230 million in the US, 120 million just for the first book, the Philosopher's Stone. Translated into 80 plus languages.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:19:40",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I worked at a bookstore when Goblet of Fire came out. That's how old I am. And I've never, I've never seen anything like this. People, it was midnight, families were showing up dressed up, lines around the block to get this book. Unbelievable.",
+      "tone": "anecdotal"
+    },
+    {
+      "timestamp": "01:19:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes. So 600 million copies worldwide, if everybody bought all of the books and I think there were how many books? Eight?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:19:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Seven. They made eight movies because they split the last one in half. There's seven books.",
+      "tone": "corrective"
+    },
+    {
+      "timestamp": "01:20:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so let's just say of these 600 million copies, every one of them bought all seven. There's 100 million people as part of that group. You need only get 5% of them to join HBO Max. That's how this math works out. You cannot look at it as you looked at previously making movies. Movies are a dying form. The theater experience is broken. DVDs are over. But what's not over is lifetime value. And man, I got to think for my kids who love this series, you know, they're going to be watching this at the edge of their seat. And what a great deal for, you know, a thousand dollars for $180 a year, you get to experience this, 10 episodes, $18 an episode? It actually equals like the cost of a movie ticket, right?",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "01:21:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "is starting to math out. It - the math maths.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:21:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Oh, sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:21:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. So I think actually this math...",
+      "tone": "convinced"
+    },
+    {
+      "timestamp": "01:21:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, what I would say to Nick, I mean, on top of - I think you're making an excellent point and I agree. I think even on top of that, you have to think about Warner Brothers has this IP, Harry Potter. They own it however bigger -",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "01:21:06",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:21:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think it checks out.",
+      "tone": "convinced"
+    },
+    {
+      "timestamp": "01:21:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. Outright. Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:21:19",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's already been, you know, 20 years since these books were out and this - they've got a new generation or two to sell on this. And if they do a good job and they get people under 20 super, super excited for Harry Potter again, the sky's the limit. Theme parks, merch, more books, more video games, like there's no limit on how much Harry Potter universe franchise stuff Warner Brothers can sell to kids that it wins over with this.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:21:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. This is the next piece, that is exactly right.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:21:50",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Exactly.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:21:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "How many incremental Universal theme parks will happen because people, a new generation, get addicted to the Harry Potter films? That to me is the whole thing. Like, they're looking at, 'We gotta get the kids.'",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:22:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:22:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. And what do those wands cost? I have three of those wands on a shelf here. My daughters love that experience. I think they were 150 bucks each to make your wand. Plus we've been to Harry Potter Land three times. And I rented Universal or did Universal Studios...",
+      "tone": "anecdotal"
+    },
+    {
+      "timestamp": "01:22:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I was there! That was the first time I got to check out Harry Potter Land at Universal and it is amazing.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:22:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "How were the lines when you went to the All-In party?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:22:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "There was no - the guy - Ollivander, the guy selling wands was like outside, like, 'Anybody want a wand? Come in, get a wand!' There was nobody there. It was incredible.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:22:40",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Universal Orlando, home to the biggest Wizarding World, pulls in 21 million visitors a year, and Harry Potter is the number one draw. Oh yeah. If it is in fact the number one draw, let's just say half the people are going there for it, or a third. That's 7 million people coming for it. By the way, that's the true fans. So if you use the true fans methodology by Kevin Kelly, you need a thousand true fans in order as an independent artist to exist in the world. You can look that up, the Kevin Kelly 1,000 True Fans thesis. The true fans are probably five million - there's probably five million like super fans. Super true fans. Man, if they just buy one more wand each...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:23:20",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The lifetime value of - it's like thinking about Disney adults if you're Disney. Like every new Disney adult you make is thousands of dollars lifetime.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:23:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Wait a second. Are you a Disney adult?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:23:35",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean, I like - I like some Disney stuff, but no, I don't - I haven't been to a Disney theme park in a really long time. I don't buy merch, like, I don't -",
+      "tone": "defensive"
+    },
+    {
+      "timestamp": "01:23:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's not your vacation.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:23:45",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I just want to say -",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:23:46",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I just want to say for Disney adults, I'm - I think there's a case to be made, I'm not into a surveillance state, but I think that should be like a list that the government should have access to.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:23:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I know some lovely Disney adults but it's not for me.",
+      "tone": "diplomatic"
+    },
+    {
+      "timestamp": "01:23:59",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "But it's not for me.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:24:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I... majority are - the majority...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:24:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "They're lovely. Yeah. It's that 5% of them that are weird. Yeah. And I, when I see Disney adults and they go there and they're all wearing the hats...",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:24:08",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, the crew jackets and stuff. Yeah, it's a bit much. It's a lot.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:24:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's a lot. And I mean, I have... there are exceptions, but I think government surveillance for Disney adults... Yeah. I think that's... I think this is a mandatory... I'm all for CCP level monitoring of these individuals. They're up to something. It's just a very weird thing. But...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:24:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Ron DeSantis and Gavin Newsom should get on this.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:24:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Here's my pick for off-duty. I love an app called WhisperFlow. Hmm, yes. This is my like AI stack now. Yeah, WhisperFlow. I think they're advertising. They are. That's what I'm saying, friend of the show. Friend of the show. And I have the WhisperFlow on this week in AI. Go search for This Week in AI, thisweekinai.ai, that's our new spin-off roundtable. Check this out. The pull up an image of this, $20, I think I pay for this thing. Um, show the foot pedal I got.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:24:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This foot pedal is insane, Lon. And I... It's from like China, it's got the jankiest software you've ever seen.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:25:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:25:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's complete garbage. WhisperFlow needs to make this.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "01:25:04",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:25:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "If WhisperFlow made this with the WhisperFlow logo on it...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:25:07",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Why don't they?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:25:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This would be the best selling product in AI. Every app flow...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:25:10",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "You know when I used to use this? When I used to do subtitles and captions for DVDs, my first job in Hollywood, I would use a pedal to start and stop so I wouldn't have to constantly be clicking the mouse.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:25:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So you click this thing and you hold it down and it does my shortcut for WhisperFlow. Wow. WhisperFlow is like, imagine if Siri... Siri makes two mistakes, three mistakes per sentence.",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "01:25:25",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "They still don't know I don't want to say duck instead of the F-word. Like, how many years? How many years now?",
+      "tone": "annoyed"
+    },
+    {
+      "timestamp": "01:25:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's just a disaster. This EKKO thing, USB single foot pedal, go ahead and buy it. I guarantee you it's going to be life-changing for you. You plug it into the back. It's janky, it's cheap, it's probably going to break every year. I want a WhisperFlow version of this. I want to get like three of them and be able to do different things with them. But I'm working and I'm in a Slack. I have been sending you... My Slack responses have been whisper dictated using this, and you didn't realize.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:26:18",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "No. No, you would never know because it turns it into realistic looking writing. Yeah.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "01:26:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And it knows things like my name. Siri, after me spending $20,000 on iPhones and storage and everything, still doesn't know that my name is Jason Calacanis. Disgraciato across the board. I know that there's a big effort to redo Siri.",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "01:26:37",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Oh, it's horrible.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "01:26:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "WhisperFlow is like perfect Siri. And it works on your phone, it works on your desktop, it works on my Windows desktop, it works on my Mac desktop. This is the must-have device of the year for me. Wow. There you go. WhisperFlow. Must-have device. If you're into such things.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:26:55",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "They are an advertiser but this was not a paid promotion, this is just purely Jason.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:26:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, and neither is the foot pedal.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:27:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "company. No... They're not sponsoring us, the footpad.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "01:27:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I have another - I don't usually get into, you know, too many TV shows, but I was looking for something in sci-fi. I love a good post-apocalyptic, I love a good thriller.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:27:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, I want - I think I know what's coming. I think I might know.",
+      "tone": "intrigued"
+    },
+    {
+      "timestamp": "01:27:21",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I saw that this new show Paradise was in Season 2 and everybody was talking about it. So, you know, been on a bunch of flights recently, and I watched the first season of Paradise and it was great.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:27:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:27:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sterling K. Brown, it's the creator of This Is Us, that drama, that NBC drama that was also with Sterling K. Brown, and so this is their new project.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:27:44",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I like this actor Sterling K. Brown. He is like a rock, he's like an Ethan Hawke, you know, just a solid actor who you like to see on screen. And then I liked the billionaire - just to give you a little premise of it. There's an underground city being built to store humanity after a terrible tragedy, you know, happens on planet Earth. I won't tell you what that is because I don't want to reveal it because they reveal it like five or six episodes in. So go watch the series, it's great. Have you seen it, Lon?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:28:15",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No, I haven't. And I remember when it was brand new, they hadn't revealed the twist yet. And so it was just like this very confusing synopsis. He's like: 'He's a Secret Service agent, he's investigating some conspiracy against the President who's James Marsden'. And I was like 'I can't figure out what this show is' and it's because they were being really... they were playing it close to the vest because they didn't want people to know it was post-apocalyptic.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:28:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Secret Service agent.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:28:36",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Got a little like Lost in it, got a little thriller in it. And that woman, I forgot her name, but she was in like SVU I think. She was like one of the detectives on one of the Law & Order series.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:28:50",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh yeah, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:28:51",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And - here, I'll -",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:28:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, Sarah Shahi! Of course! From The L Word, Alias... yeah, I think that's who it is.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:29:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Is that who it is?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:29:01",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Anyway, she's compelling on screen as a, you know, super villain billionaire tech person. And yeah, it's a great easy watching.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "01:29:10",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh wait, no, that's not - oh, you're talking about Julianne Nicholson! Oh, okay, okay.",
+      "tone": "realizing"
+    },
+    {
+      "timestamp": "01:29:16",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "That's the one, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:29:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, she was on Criminal Intent, that Law & Order show.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:29:18",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "That's it, yeah. She's great, she's very compelling. Anyway, that's another one for me. And then I'm going to give you - I'm going to give you an album.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "01:29:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:29:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Maybe I'll give you two albums. This is for my Qobuz - you know, I'm into the high-fidelity music.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:29:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes, you've been listening to the very high lossless streaming, yeah.",
+      "tone": "knowledgable"
+    },
+    {
+      "timestamp": "01:29:36",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I do.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:29:37",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "There's Tedeschi Trucks Band -",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:29:45",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh sure! Oh wow, Tedeschi Trucks and what are they? Yeah, Tedeschi Trucks Band. They used to be a different - it used to be Tedeschi Trucks and Tedesco...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:29:51",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's a blues band.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:29:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah! I saw them, I was in like high school the first time I saw them.",
+      "tone": "reminiscing"
+    },
+    {
+      "timestamp": "01:29:57",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "The concert -",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:30:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I like the Allman Brothers, I got a little bit of Mark Knopfler in there, the guitar player. I don't know if it's a husband and wife, but these two people who lead the band are both great guitar players.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "01:30:08",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, Susan Tedeschi and Derek Trucks, that's them.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:30:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. So I think they bought at auction, the guitar, Jerry Garcia's guitar last week. Oh wow. Yeah, let me just see if I got this right.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:30:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Tedeschi Trucks Band bought Tiger, the guitar, from—this is the guitar that Jerry Garcia did. I think it went for like $10 million. The other guitar is owned by the founder of HubSpot. I had him on the program, he bought Jerry Garcia's other guitar.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:30:50",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Anyway, he's bought this guitar and he just immediately went out and started playing it. So he's out there playing this, you know, incredible thing. But anyway, I found this band, I like this band. The other one is Lily Allen. You know this pop star from the UK, Lily Allen?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:31:01",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Of course, of course I know Lily Allen. She's famously married to David Harbour, and then he cheated on her, it became a big tabloid scandal, but yeah, she's been around for a long time.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:31:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, Lily Allen, who like I think I remember her just because she had like a big rehab stint or something.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:31:23",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, probably. That sounds about right.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "01:31:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, so anyway, she has this album called West End Girl about her breakup with the guy from Stranger Things—",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "01:31:31",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "With David Harbour. David Harbour from Stranger Things, yeah.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "01:31:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Which now has become a Broadway show, or I should say, a West End show. And she's on tour, she just plays the album straight. But people are going crazy for this album. This album—",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "01:31:42",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "She's doing a US tour, she's doing a US tour of it next, yeah.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:31:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This album in my TikTok, because it's a very catchy album and it's like a concept album, is so popular amongst middle-aged women, the gays, and, you know, I guess people from London who are fans of Lily Allen.",
+      "tone": "observant"
+    },
+    {
+      "timestamp": "01:31:57",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:32:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's a great album, and then she performs it and she's made it into like a whole experience and a theme. And I just thought, you know, this is a great thing for artists to do. Take their album and then perform it as a stage show in small theaters. And you get that whole experience. What album or albums would you most like to see a band play from track one to the first track to the last track with like a theme?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:32:32",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I've actually seen a few bands do this. Neil Young did a tour with his Greendale album where he actually had actors act out—they're all song stories. So he would play and the Crazy Horse, the band would play, and you'd see the actors actually acting out the songs as he was playing them. There are also of course famously Pink Floyd The Wall, they used to like build the wall on stage during—and then once other time I saw the Flaming Lips do this, they used to mash up their albums with—",
+      "tone": "knowledgeable"
+    },
+    {
+      "timestamp": "01:33:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "They used to play Dark Side of the Moon, but also with Wizard of Oz tracks in it, because you know there was always that old idea that Wizard of Oz links up to Dark Side of the Moon. So they would cover Dark Side of the Moon, but they would have Wizard of Oz stuff going on on stage, which was really cool. I will...",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "01:33:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Talking Heads did this, right? With Stop Making Sense, I think.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:33:16",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah. Well, I mean, Talking Heads, it's always like a little bit of an art stagey show along with a concert. Um, I was going to say, um, oh, I had it and now I lost it.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:33:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Was it Steely Dan? The Who?",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "01:33:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Oh, Steely Dan...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:33:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Tommy?",
+      "tone": "prompting"
+    },
+    {
+      "timestamp": "01:33:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The Who's Tommy?",
+      "tone": "prompting"
+    },
+    {
+      "timestamp": "01:33:33",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Steely Dan actually would be a... Steely Dan would be a... that would have been a good one, but no, I don't... I don't remember what I was about to say, but I'll come up with another one. Oh!",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:33:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "There's a band I love called Songs: Ohio. The guy, Jason Molina, he... he died, so unfortunately you could not do this, but they have a very cool, very sort of lived-in country rock album called Magnolia Electric Company that would be cool to see as a show.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "01:33:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Um, there's another band, uh, that does Dark Side, they're called The Mule and every... I think it's every New Year's, Gov't Mule, G-O-V-T apostrophe T Mule.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:34:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh yeah, Government Mule. Yeah, yeah.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "01:34:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Government Mule will do the Dark Side of the Mule. They do the Dark Side of the Moon. Right? Pull up the Wikipedia page for Dark Side of the Mule. And uh, I've found this online. There's a bunch of, uh, bootlegs of the concert on YouTube, etc. Dark Side of the Mule. If you love Pink Floyd, I would like to go to this. Uh, it seems like the album was recorded in a three-hour gig at Boston's Orpheum Theatre on Halloween night. That's... Phish does that too on Halloween every year. They cover another artist's full album and that's like their costume. They did the White Album one year. They did Dark Side one year.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:34:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Anyway, this is like... I saw Bruce Springsteen when he did his Broadway show. That was great. I took my mom. Best son ever. Anyway, this is great stuff. Really appreciate, um, this idea of really going deep into an album, the concept, etc. What I liked about when Bruce Springsteen did it is he just talked about his career a bit and I really enjoyed that. He made a very funny joke I'll always remember where he's like, 'You know, I made a living, I made a career of talking about working in a factory, the working man, the downtrodden, and I've never set foot in a factory. I've never...'",
+      "tone": "anecdotal"
+    },
+    {
+      "timestamp": "01:35:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah. Yeah.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "01:35:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And he just had this... literally said like 'I experienced none of that, but I, you know, I found that niche.' Anyway, anything else on your off-duty list?",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:35:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Every track is like 'Ugh, 12 more hours at the mill.' and it's like, no I didn't work...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:35:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, and he just... yeah. He just... he had... he literally said like 'I experienced none of that, but I, you know, I found that niche.' Anyway, anything else on your off-duty list?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:35:22",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I... I was going to recommend one more thing before we go. Uh, there's a really interesting indie film. It's on Hulu right now. It's called American Sweatshop. It's with Lili Reinhart stars in it, who was on Riverdale. Uh, and it was directed by... I'm going to blank on her name, but she's a great cinematographer. She shoots like The Bear and a bunch of other cool TV. She directed this. It's her directorial debut.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:36:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It is set in the world of a—there are moderators like it's the one of these big warehouses where they have people watching social media and moderating like 'this video's too violent', 'this video's too sexual' like block—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:36:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What's the name of this?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:36:15",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's called 'American Sweatshop'. And it's set—it's set in that world where they're all watching these horrible videos all day and like approve or delete and they have to like make these calls in real time.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "01:36:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes, this was a lawsuit by the people who were doing this for Facebook and they saw all kinds of horrible things.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:36:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "01:36:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh so somebody made this into a movie?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:36:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's a movie about what it would be like to work in one of these sort of warehouses and what the horrible stuff you'd see. And they kind of make it a thriller like she thinks she's witnessing a crime and she's trying to report it up the chain.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "01:36:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sure. Not films, whatever.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "01:36:47",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Exactly, exactly. But it's really—it's less about the thriller stuff and it's more just about what would it be like to do this all day as your job and how would it impact you? And I actually—I didn't—I just threw it on out of curiosity. I was pretty caught up in it. I think they do a really good job.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:37:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The other one I want to see, I don't know if you heard about this one. There's an independent film called 'The Screener'?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:37:13",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yes! I have heard about this.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:37:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:37:15",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I haven't seen it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:37:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So this—it went—it was at Sundance and 'The Screener', you remember 'The Hateful Eight' got leaked and Quentin Tarantino went to the FBI, as he rightfully should, and it was some like post-production house had the person's name on it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:37:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Right.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "01:37:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You know, the watermark, etc. They catch the person. But this is the most horrible thing that could ever happen to a filmmaker. And so there's a film called 'The Screener' about this happening.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:37:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "01:37:43",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Oh, it's Jim Cummings!",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:37:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "This is the guy who directed and wrote this is Jim Cummings. He also did a 2023 movie called 'The Last Stop in Yuma County' that is great! Oh, if you get a chance to watch that one. I'm going to look up where it's streaming right now, but that's the one to check out.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:38:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So this film isn't even out. We're going to have to maybe do a movie—",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:38:03",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'll watch whatever—oh yeah, you can—I believe it's on Paramount+. You can watch 'The Last Stop in Yuma County'.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "01:38:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right everybody, that's Twist for Friday, March 27th. That's your off-duty. He's Lon's L-O-N-S, x.com/lons, I'm x.com/jason. Do me a favor, rate, subscribe, comment. If you want to watch us live, search for 'This Week in Startups', hit the subscribe, hit the live button. And please go write a review and subscribe to 'This Week in AI', the new show from the team that brought you 'All-In' and 'This Week in Startups'. We'll see you next time. Bye-bye.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "01:38:35",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Bye!",
+      "tone": "cheerful"
+    }
+  ],
+  "highlights": [
+    "AstroForge is developing specialized spacecraft to mine platinum group metals from near-Earth asteroids using laser-directed energy for extraction and magnetic systems for landing. The company aims to make space mining economically viable by targeting $10 million mission costs for a potential $100 million return in rare commodities.",
+    "The Templar project on the Bittensor network successfully trained a 72-billion-parameter AI model using a decentralized network of distributed GPUs, proving that high-level machine learning can be achieved outside of centralized labs. This model incentivizes independent miners to contribute compute power, aiming to create \"sovereign AI\" that is accessible to nations and organizations with limited hardware resources.",
+    "Open Oats is an open-source, privacy-centric note-taking agent that utilizes local large language models to provide real-time fact-checking and insights during meetings without compromising data security. The project’s development illustrates a new era of software maintenance where AI \"auto-maintainers\" can autonomously manage GitHub repositories by fixing bugs and merging pull requests.",
+    "The massive $100 million-per-episode budget for the upcoming Harry Potter TV series represents a strategic shift toward high-fidelity world-building designed to maximize the lifetime value of \"super fans.\" This economic model focuses on driving long-term streaming subscriptions and supporting secondary revenue streams like theme parks and global merchandise."
+  ],
+  "summary": "This episode of *This Week in Startups* explores the frontiers of deep tech, focusing on asteroid mining, decentralized artificial intelligence, and open-source productivity tools. Matt Gialich, CEO of AstroForge, discusses his company's mission to harvest platinum group metals (PGMs) from near-Earth asteroids, explaining how magnetic docking and laser-sorting technology could make space mining more economically viable and environmentally friendly than terrestrial alternatives. Shifting to AI, Sam Dare of Templar explains how BitTensor’s incentive-based network allowed his team to train a 72-billion-parameter model using decentralized compute for a fraction of the traditional cost. Both segments underscore a broader theme of using innovative infrastructure to disrupt high-capital industries.\n\nThe second half of the transcript highlights the democratization of software through AI and the economics of modern entertainment. Yassine Ali Rahim demos \"Open Oats,\" a local-first, open-source AI note-taker that provides real-time fact-checking and due diligence during meetings. The hosts reflect on how tools like Claude enable solo developers to build and maintain complex software, potentially threatening established SaaS companies. Finally, the \"Off Duty\" segment covers the massive financial stakes of the streaming wars—specifically HBO’s $5 billion commitment to a Harry Potter series—and the expansion of the *Lord of the Rings* film franchise. The episode concludes with recommendations for AI dictation hardware and high-fidelity media, illustrating the hosts' ongoing obsession with the intersection of performance technology and pop culture.",
+  "description": "This Week In Startups is made possible by:\n\nWispr Flow - https://wisprflow.ai/twist\n\nCircle - http://circle.so/twist\n\nDeel - http://deel.com/twist\n\nToday’s show:\n\nAstroForge is building low-cost, replicable spacecraft to mine platinum group metals from near-Earth asteroids — a $60 billion annual market for materials that are running out on Earth. Founder and CEO Matt Gialich joins the show to talk about the company's ambitious mission, what went wrong on their first two flights, and why Mission 3 could still change everything.\nPLUS Sam Dare from Templar stops by to talk about training AI models on a decentralized blockchain, and why it’s so much cheaper and more efficient than the conventional “data center full of GPUs” method. AND a demo of OpenOats from creator Yazin Alirhayim of his open source Granola alternative.\n\nAstroforge: https://www.astroforge.com/\n\nTemplar: https://www.tplr.ai/\n\nEpoch AI decentralized training post: https://epoch.ai/gradient-updates/how-far-can-decentralized-training-over-the-internet-scale\n\nOpenOats on Github: https://github.com/yazinsai/OpenOats\n\n\nTimestamps:\n\n0:00 Intro\n\n0:17 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n\n2:23 We aplaud Plaud!\n\n2:36 Astroforge is mining… asteroids?!\n\n5:29 How creating an abundance of Platinum will impact Humanity!\n\n9:14 Wispr Flow: Stop typing. Dictate with Wispr Flow and send clean, final-draft writing in seconds. Visit https://wisprflow.ai/twist to get started for free today.\n\n20:34 Circle: The easiest way to build a home for your community, events, and courses — all under your own brand. TWiST listeners get $1,000 off the Circle Plus Plan by going to https://circle.so/twist.\n\n21:19 How Astroforge uses capitalism to unlock abundance\n\n23:53 J-Cal subscribed to… A socialist magazine?\n\n25:37 Sam Dare of Templar joins the show!\n\n27:05 What is TAO doing that's uniquely different from Bitcoin\n\n29:33 What is the incentive mechanism that Templar uses?\n\n30:02 Deel - Founders scale faster on Deel. Set up payroll for any country in minutes, hire anyone anywhere, get visas handled fast, and get back to building. Visit https://deel.com/twist to learn more.\n\n34:23 Where was Sam when he found out that Jensen was talking about Templar?\n\n37:07 How much does it cost to run templar's model?\n\n44:34 Can decentralized training over the internet scale? https://epoch.ai/gradient-updates/how-far-can-decentralized-training-over-the-internet-scale\n\n46:34 Jason addresses his tao investment\n\n48:06 Why brand is the moat for startups\n\n49:05 When will a better, more exciting version of Bitcoin, can come along?\n\n51:38 Yazin of OpenGranola Joins the show\n\n52:54 How OpenGranola has local LLM's taking notes for you and giving you real time insights in your meeting!\n\n56:47 OpenGranola demo!\n\n1:01:03 Jason's callout for a sidebar that shows all inputs from agents\n\n1:07:13 Why Jason thinks movies will be remade into shows to dive into more detail\n\n1:13:08 The economics of the new harry potter series and HBO/ Warner Brothers\n\n1:22:51 Why Jason wants government surveillance on Disney adults…\n\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+  "duration": 5914,
+  "people": [
+    "Jason Calacanis",
+    "Lon Harris",
+    "This Week",
+    "In Startups",
+    "Wispr Flow",
+    "Matt Gialich",
+    "Sam Dare",
+    "Yazin Alirhayim",
+    "Circle Plus",
+    "How Astroforge",
+    "Why Jason",
+    "Warner Brothers",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason",
+    "Will Guidara",
+    "Steve Huffman",
+    "Brian Chesky",
+    "Bob Moesta",
+    "Aaron Levie",
+    "Sophia Amoruso",
+    "Reid Hoffman",
+    "Frank Slootman"
+  ],
+  "topics": [
+    "Asteroid mining for platinum group metals and AstroForge's space missions",
+    "Decentralized AI model training and the BitTensor (TAO) network",
+    "Open-source AI productivity tools and note-taking agents",
+    "The business strategy and economics of major film and television franchises"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/TN2RmNuX4-k/maxresdefault.jpg",
+  "date": "20260327",
+  "youtube_url": "https://www.youtube.com/watch?v=TN2RmNuX4-k",
+  "youtube_metadata": {
+    "title": "The $60 billion resource hiding in space, and the startup trying to mine it | E2268",
+    "description": "This Week In Startups is made possible by:\n\nWispr Flow - https://wisprflow.ai/twist\n\nCircle - http://circle.so/twist\n\nDeel - http://deel.com/twist\n\nToday’s show:\n\nAstroForge is building low-cost, replicable spacecraft to mine platinum group metals from near-Earth asteroids — a $60 billion annual market for materials that are running out on Earth. Founder and CEO Matt Gialich joins the show to talk about the company's ambitious mission, what went wrong on their first two flights, and why Mission 3 could still change everything.\nPLUS Sam Dare from Templar stops by to talk about training AI models on a decentralized blockchain, and why it’s so much cheaper and more efficient than the conventional “data center full of GPUs” method. AND a demo of OpenOats from creator Yazin Alirhayim of his open source Granola alternative.\n\nAstroforge: https://www.astroforge.com/\n\nTemplar: https://www.tplr.ai/\n\nEpoch AI decentralized training post: https://epoch.ai/gradient-updates/how-far-can-decentralized-training-over-the-internet-scale\n\nOpenOats on Github: https://github.com/yazinsai/OpenOats\n\n\nTimestamps:\n\n0:00 Intro\n\n0:17 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n\n2:23 We aplaud Plaud!\n\n2:36 Astroforge is mining… asteroids?!\n\n5:29 How creating an abundance of Platinum will impact Humanity!\n\n9:14 Wispr Flow: Stop typing. Dictate with Wispr Flow and send clean, final-draft writing in seconds. Visit https://wisprflow.ai/twist to get started for free today.\n\n20:34 Circle: The easiest way to build a home for your community, events, and courses — all under your own brand. TWiST listeners get $1,000 off the Circle Plus Plan by going to https://circle.so/twist.\n\n21:19 How Astroforge uses capitalism to unlock abundance\n\n23:53 J-Cal subscribed to… A socialist magazine?\n\n25:37 Sam Dare of Templar joins the show!\n\n27:05 What is TAO doing that's uniquely different from Bitcoin\n\n29:33 What is the incentive mechanism that Templar uses?\n\n30:02 Deel - Founders scale faster on Deel. Set up payroll for any country in minutes, hire anyone anywhere, get visas handled fast, and get back to building. Visit https://deel.com/twist to learn more.\n\n34:23 Where was Sam when he found out that Jensen was talking about Templar?\n\n37:07 How much does it cost to run templar's model?\n\n44:34 Can decentralized training over the internet scale? https://epoch.ai/gradient-updates/how-far-can-decentralized-training-over-the-internet-scale\n\n46:34 Jason addresses his tao investment\n\n48:06 Why brand is the moat for startups\n\n49:05 When will a better, more exciting version of Bitcoin, can come along?\n\n51:38 Yazin of OpenGranola Joins the show\n\n52:54 How OpenGranola has local LLM's taking notes for you and giving you real time insights in your meeting!\n\n56:47 OpenGranola demo!\n\n1:01:03 Jason's callout for a sidebar that shows all inputs from agents\n\n1:07:13 Why Jason thinks movies will be remade into shows to dive into more detail\n\n1:13:08 The economics of the new harry potter series and HBO/ Warner Brothers\n\n1:22:51 Why Jason wants government surveillance on Disney adults…\n\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+    "duration": 5914,
+    "view_count": 4139,
+    "like_count": 73,
+    "channel": "This Week in Startups",
+    "upload_date": "20260327",
+    "thumbnail": "https://i.ytimg.com/vi/TN2RmNuX4-k/maxresdefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

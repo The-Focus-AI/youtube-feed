@@ -1,0 +1,1167 @@
+{
+  "title": "Does Clawdbot (OpenClaw) Need Eyes? (feat. Alex Finn and Matt Van Horn) | E2247",
+  "source_url": "https://www.youtube.com/watch?v=DIEUGPdqM1Y",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Hey everybody, February 9th, 2026, always like to have the date here. I'm Jason Calacanis, it's Twist. Here's Alex Wilhelm. How are you doing, Alex? You got a new baby in the house, you haven't been sleeping, but you're showing up for work.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'm fired up. I am not currently changing diapers and finding pacifiers. This is a really welcome change of pace.",
+      "tone": "cheerful"
+    },
+    {
+      "timestamp": "00:00:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And we're going to go live today, we're going to be doing more Open Claw. We're still Open Claw shotted, we're claw shotted, Open Clawed. I'm not sure exactly what it is, but we're obsessed with this new piece of technology. I think this is as important as Bitcoin or the internet or the mobile revolution. I think the Open Claw agent revolution is here. All right, let's get to Open Claw because I have been, what's the right term here? I think it's claw-pilled. I've been claw-pilled. That's the best way to say this. What is Open Claw? You probably have heard if you're new to this, people talking about Claud-bot, then Mult-bot. The company has settled on the name Open Claw, or I should say the open source project is Open Claw. What is Open Claw? It lets you create an agent, a personality, we call them Replicants here at my investment firm Launch and at This Week in Startups. And then you can give Open Claw access to things like your calendar, your Gmail, your Notion instance, your Slack, your Twitter handle, your Reddit login, your LinkedIn login. And then it is designed to appease you and do multi-stage tasks like, hey, go and get my DMs from these three platforms and organize them, or find out from my email every morning and my Slack and create like a dossier of the day. These are very simple examples, but it's multi-stage examples and it can take actions on your behalf. Why is this such a huge revelation today, Alex? It's basically because all the other software programs that we've had have been sandboxed. All the AI products have been sandboxed. You can't go to ChatGPT and say, put this on my schedule. Certainly can't say, go find my password for Gmail, find all the travel receipts I have, and then make a Google Doc out of them or Google Sheet, and then cross-reference them with this. You just, you would be unwise for a company that's getting paid money that has liability to give the keys of the kingdom to an agent. However, you, as a sovereign individual, can be a lunatic and let AI have the keys to the kingdom. This is giving the teenagers the keys to the car and a credit card and the bank account and the Robinhood account. They can go trade, they can do anything. Yes, so now that we've gotten that out of the way, what do we have on deck today? I know we have two great guests, I know we've got some news, take me through what we're going to do.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, we're going to talk about Open Claw sites, what's called Vision Claw, a great way people are taking Open Claw into the real world. We're going to talk just a little bit about a couple of products that are in the Open Claw universe, Avatars and Companions, people taking this product away from a business context more into their personal lives. We're going to talk about secured skills and what Open Claw now—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Over the weekend, it's going to help you stay secure in your open Claude usage. And then the rise of perhaps single-person multi-agent companies. Jason, we have two examples we're going to talk through.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But first, I think it's time for a video demo of what happens when you take Meta's Ray-Ban glasses, the smart glasses, and sync them up to your AI. It's pretty cool.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, we're going to bring Alex Finn. He is the founder of Creator Buddy and a well-known AI tinkerer. I call him Mr. Claudebot himself. Alex, welcome back to the show.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:03:26",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "Good to be here, guys. Good to see Jason, Alex. Happy to be here.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:03:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Okay, and you have gone down the rabbit hole. You are too Claude-pilled, yeah?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:34",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "I am as Claude-pilled as it gets. I've spent about $20,000 on hardware over the last couple of weeks in order to give my Claude as much power as humanly possible. I'm all the way in. I don't sleep. I've slept like six hours in the last week.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:03:48",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It is that exciting. And why is it exciting to you? And then we'll get to our first news story. Why is it exciting to you?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:03:52",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "Because I think it is, first of all, the best application of AI of all time. It's the most useful application. I think up to this point, ChatGPT has just basically been a glorified search engine. You ask a question, you get an answer.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:04:04",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "It gives you answers a little bit more efficiently than going into google.com, right? Instead of having to go through links, you just get the answer. It's a more efficient Google.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:04:13",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "This is the first time I think that we have an application of AI that actually matches the vision of what humanity thought artificial intelligence would be in all the sci-fi books and movies leading up to today. And I think it's the first real realization of that vision, and I just can't stop thinking about it.",
+      "tone": "inspired"
+    },
+    {
+      "timestamp": "00:04:34",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And that vision for open Claude is that the agent, we call them replicants, will go out in the world and do things that are productive for you, not just give you information, but go do tasks.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:04:50",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So Alex, show us our first story and let's talk about it. Yeah, all right. So first up here is a video demo of Vision Claude. This is about 30 seconds. Everyone, enjoy.",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:04:58",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "Hey Claudebot, can you help me add this into my...",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:04:59",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "He's looking at a can of Monster through his glasses.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:05:01",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Sure, I can help with that. I see the Monster Ultra Strawberry Dreams energy drink. I'll look that up to add to your Amazon cart.",
+      "tone": "robotic"
+    },
+    {
+      "timestamp": "00:05:07",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And then on the screen, it's going to Amazon, going through a search, clicking on it. It's going to add to cart for him and then respond. It's added to your cart. Is there anything else I can help with? Cool. Thank you.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:05:19",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So this to me, guys, is taking AI Claudebot outside of just the digital world and bringing it into our physical world. I can imagine a lot of ideas and use cases for this. Clearly still a demo, you can play with it. But Alex, first thoughts.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:05:35",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "Yeah, my first thoughts are I don't find that remotely interesting, just to be quite honest with you. I just, like, to me, my life is not improved by an AI going and buying me Monster energy drinks off Amazon. I don't think that has any sort of economic impact on this planet. What interests me is this going and empowering individuals to accomplish what only large corporations...",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "could do before, right? That's the interesting thing to me and that's kind of the vision I've been building towards with uh all my products.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:06:07",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Well, economically useful. I mean, people do a lot of shopping. Companies need to buy a lot of stuff. And I was thinking more about companies that are outside of just the technology realm might have a use for this just to keep their offices stocked, handle warehouses. Like I was thinking about bringing the power of agentic AI into the physical workspace. This example is a little bit kitschy, a little bit funny, but it's a demo. But I could see this showing up in warehouses and factories and so forth.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's I think a good point uh to balance out the two perspectives. This is a proof of concept. He's got the Ray-Bans hooked up to open claw. That's kind of what he's showing. But if you imagine opening up your refrigerator and then opening up your spice rack, opening up your cabinets and saying, 'open claw, uh what make me three recipes, uh you know for the next two days, put it in a Google Doc and then go build a cart for me of the ingredients I don't have to make those recipes and uh if I approve of the recipe then I want you to actually have it delivered for tonight, you know via, you know Uber groceries or something.'",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:07:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So you could see this getting a little more interesting, or in your example Alex, the person who's working at uh you know 7-Eleven just walking through the store looking at the items and then it making a decision as to what's the inventory. And I was actually working uh I was skiing with my friend Michael Diamond who did a really interesting company Skip Hop um and he's got a new company he's doing with dog food and and uh I think and dog accessories anyway he was talking about inventory management Alex and I was saying Alex Finn I was saying to him you know all this stuff you're doing of like trying to figure out what your sales are on Amazon what your sales are directly and what you inventory you need he was like looking for software and I was like you don't need software you need open claw just have it pull all that data in build you software and then it can do the ordering for you and tell you which things and do forecasting etc. so yeah I think this is like a proof of concept more than an actual application. Alex Finn, your thoughts?",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:08:12",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "What excites me and and when I try to think about it is is like I think we will hit a time in the very short future where open claw reaches the corporation level. Right now I think it's tinkerers, hobbyists, tech enthusiasts like you guys that have discovered this that have seen the magic. I think there'll be a time in the next six to 12 months where this will actually reach the C-level, this will reach the business and the corporate because it hasn't reached there yet. There's too many risks, there's too many security issues. And I'm scared that when that does happen it will lead to layoffs and job losses. And so what I've been trying to kind of tackle with everything I've been doing the last couple weeks and what I'm doing with all the hardware is like how can we figure out workflows that counteract that, counter balance that where solopreneurs like me, people working by themselves who don't have a job can create large economic impact, right? have...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "Basically entire companies of AI employees working for them. I'm excited to say, hey, get me all the materials for grilled chicken so I can make dinner tonight, but what I'm really excited for is how do we empower the people that I think, and I don't want to fearmonger, might be losing their job over the next year because this technology hitting the corporation level and give them the ability to, to bounce back and create economic value for themselves.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:09:23",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Can I double-click on that? Because it's a really interesting point because it's almost like you're framing this as a defensive mechanism for people in the labor force as AI reaches the C-suite. To me though, if we give corporations increasingly powerful tools, I don't see where individuals will fit into that economic picture and have impact if we're granting already powerful organizations even more capacity, capability, and fluidity. So just tell me more about how you think about that.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:48",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "Well, I'll give you an example, right? The way I think about it is I can do many more things at once. So one example, there's this big controversy over the last year. Call of Duty, the most popular video game in the world. They fired basically their entire artist team. All the artists were fired and they used AI to create the art for Call of Duty. Like all the banners and stuff is now built by AI. And all these artists lost their job and understandably got very upset and they're going around, AI is the worst technology ever, AI is horrible. But, and this is the framing most people in the world have, is oh my god, AI is taking jobs, this is the devil. Here's the way I'm trying to change the framing though, is look at what I'm able to do with this technology. I'm able to build a business and have people work for me. So you, the Call of Duty artists, can now go and instead of creating art for Call of Duty, you can build your own video games, you build your own Call of Duty. For me, I'm building my own content company with all these tools, with all these AI agents that work for me. This is the framing we need is to show people, hey, you can create economic opportunity for yourself even when the corporations are taking away your opportunity now.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:10:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "If you are a young person who is having a hard time finding a job, or you are an older millennial or Gen Xer who has lost their job, you were a middle manager, you were a customer support rep, you were an SDR, sales development rep, and you've lost your job, you will have a new job within 30 days if you spend the next 10 days obsessing over Open Claw and setting up an instance. Go back to whoever laid you off and say, I know you laid me off. Here's Open Claw, here's my old job, here's how I have automated it. Let me take you through it step by step. I want to come back and I would like a 20% raise. I was making 150 working at Amazon, I'd now like to make $180,000. And if you hire me back, I can do more automations just like this one. And if you don't, that's fine. I've got four other job offers. And if you're coming out of school and you can't find a job, and it doesn't matter what degree you have, if you dropped out of school, just set up Open Claw, authenticate it with a bunch of bogus accounts, and then look at any other business you can think of where you've been exposed to, and say...",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "Make, do products and services, and then just email the CEO and say, 'I do Open Claw, here's what I've built, I think I could make everybody in your organization 10% more effective every month.'",
+      "tone": "suggestive"
+    },
+    {
+      "timestamp": "00:12:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "If that person emailed me right now, I would hire them on the spot. Instead, I've got three people in the organization out of 20, maybe four, who have embraced this and know how to use it. They are in week two, Alex Finn. Those people are now seven times, 10 times more valuable to me. Seven to 10 times more valuable in week two.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:12:33",
+      "ad": true,
+      "speaker": "Alex Wilhelm",
+      "text": "For startups, every single hire matters. But posting an ad and sorting through all the applications, oy. It can be a huge drain on your time and resources—don't I know it? But thankfully, there's LinkedIn Hiring Pro. That's right, our friends at LinkedIn are going to help you hire with confidence, faster than ever before. For example, we're hiring new editors here for the pod, and reviewing all these reels and applications, this can get overwhelming really quickly. We know what we're looking for, it's just a matter of tracking them down. Hiring Pro streamlines the entire process, helping us quickly draft a perfect job post. Then, using AI to shortlist candidates and even conduct initial interviews, so we can zero in on the best overall applications right away. Nearly 60% of companies find a quality candidate within their first week. So hire right the first time and get $100 off your first job posting by going to linkedin.com/twist. Terms and conditions apply.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:13:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Joining us is Matt Van Horn, old Web 2.0 head. He's got the best skill in the skills store called Last 30 Days. We're using it, and he's got a new version of it. Matt, welcome back to the program. You were here last Monday or two Mondays ago, I can never remember.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:13:52",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "In Claw-bot years, in Open Claw years, that's a decade.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:13:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, two weeks equals a decade. So you heard us talking here and just chewing the fat. How do you think about employment post-Open Claw?",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:14:04",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "Yeah, I love it. I'm lucky, I have a new startup that we're not talking about yet, and so I'm fresh on the employment front, which is exciting. So I get to live in a world where we've had four-five and four-six of Opus and we have Open Claw, and it's exciting. It's an amazing time to be alive.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:14:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You're starting a company since we last talked. You're incorporating a company. You didn't ask me that question last time, but—",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:14:35",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "—there's something brewing. Nothing to talk about today, but just to answer your question directly, I'm very happy that I do not have a lot of legacy in my organization that I get to think fresh as of, I'll call it back in the day, you know, last 30 days, sorry for the common theme. Back in December when Claude Code got really, really good and now that we have Open Claw, I feel very lucky, honored, and fortunate.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:14:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I am in. Tell me where to write the check, tell me the entity name. Please.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm good I'm literally going to tell you right now Matt. If it's a reasonable valuation, like keep it reasonable, Jason Calacanis value, I will literally write 100, 250k check based on what you've done with the last 30 days. Just I'm in. I'm in. I want to be the first investor. Do you have any investors?",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:15:16",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "I have investors. We can talk offline. I appreciate your confidence. You're awesome. Thank you Jason.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "00:15:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I have a couple of podcasts. Someday I mean I might be able to wear 'Last 30 Days' on the All-In podcast across my chest.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:15:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "All right, next story Alex. Let's keep this train moving here. Next up is actually going to be a demo from Alex Finn, who's going to show us a... how to explain this Alex? Jason, do you remember back in COVID when everyone was home and suddenly people were making essentially video games for your company? You had a little avatar you walked around and you talked, and then those all went away? Well, Alex was over on basically OpenCloud doing something rather similar and he promised to show us what it looks like. So Alex, talk us through how you visualize your OpenCloud setup and why you chose this particular visualization.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:15:59",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "Yeah, so my vision for the future of AI is everyone having their own personal local intelligence working for them 24/7. And the reason why I do not believe this includes cloud AI is having that run 24/7 is just illogical. You're paying for every token that goes to the cloud, it's also not private and secure. And so to me, having an AI that works 24/7 cloud doesn't make sense. And when you can have an AI that works 24/7/365 for you, you can unlock way more use cases, you can get way more done and you can be way more productive as a single individual. And so for me, what I'm trying to build is an autonomous personal private organization, I like to call Alex Finn Global Enterprises, that is constantly working for me, constantly building, and constantly pushing my business forward. I have a SaaS I built by myself with AI called CreatorBuddy, which is AI social tools. I create tons of content, I have a YouTube channel with 100k subscribers. I have a lot of kind of coals in the fire, and this autonomous organization I'm building, which is running right now on a Mac Studio, so I have a 512 gigabyte Mac Studio on my desk right now, I have a Mac Mini on my desk, and I have another one of these coming in the next week, so I'll have two 512 Mac Studios, which will give me about a terabyte of memory to run local models, is constantly working for me. And what you can see here is my AI agents, which some of them are local, some of them are cloud-based. The higher-up managers, the strategic advisors, are cloud-based so they don't have to do all of the work. And then the lower-level agents, the ones that are actually doing work 24/7, are all local on my computer running on GLM 4 7B. And what you can see here is many things are going on. So they're constantly working, but what will happen throughout the day, I set up this demo mode so I can show this to you in real time, what will happen throughout the day is many things. They can decide to meet up and group up at a meeting around the table, and right now they're all talking.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "talking to each other and discussing the business. They're checking my social media posts, they're seeing how my tweets are performing, how my videos are performing. And what they're doing is they're discussing what works and what doesn't. The social media managers are taking a look at the engagement and going, 'oh that's interesting, that tweet performed well and that one didn't.' They all have their own individual memory files, so the things they discuss and learn from each other get saved to their memory and they're all self-improving autonomously over time and they can even build relationships with each other. So they can even meet at the water cooler, have off-topic discussions and some of the relationships will improve and they'll like each other more and some of the relationships will get worse and they'll dislike each other more. And all of this is happening autonomously over time. And what's great about this is I can go back at any time, go into my office space, review their conversations, and they actually even get action items automatically created based on their conversations where they will go, you can see 'create a shared content calendar.' So they're going to actually create tooling for each other where they have a shared content calendar, they're going to build their own internal analytics tools. I didn't create any of this, this is all them talking and coming up with these action items. Uh, and even getting insights and you can see how their relationships change over time with each other. And so this is what I've been building over the last couple weeks is basically an autonomous organization that 24/7 can be making me productive.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:19:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And so just to recap here Alex, you have this nice visualization. It looks like a, you know, 8-bit arcade game or something like Donkey Kong from back in the day. But it visualizes multiple replicants, multiple agents. One of those does your social media analysis. And then another one might be a manager who coordinates the... oh yeah, I see you have a chief of staff, you have yourself, you have a research team, a content team, an engineering team, and a creative team. You gave them the mission, you've organized all this and you've taken the approach of one agent, one job function. You're paralleling the metaphor we have in the real world. Why do it that way as opposed to having Ultron, which we talked about on the show, where we're building one that we want to have complete every skill of everybody in the organization. Why have a Superfriends? Why have an X-Men as opposed to an Ultron?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:20:22",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "Same reason Elon's making humanoid robots rather than one robot that, you know, with... that doesn't look human and could do many things. This is the way the world is built already. The world is built for this type of organization and if we can take our superpowers, which is AI intelligence, all that, and fill it in that framework, our brains already work that way, already understand how business works that way. I'm just automating that. And right now I'm outsourcing most of this work, right? Claude Opus, Codex 5.2. I'm outsourcing it to the cloud, but I hope to make all this in-house, right? GLM 4.7 local. That's in-house talent. That's in-house intelligence. I want to make that all local one day.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "...take all this in-house eventually the more hardware I can get. So this is just a way of thinking that everyone understands and the people I bring in will understand it because that's kind of the way the business world has been set up to this point.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think this is really brilliant and we took a similar approach. We created a agent that is doing production but we also had it work with the sales team. One of the things I had an Athena assistant doing, so I'm having my Athena assistants do higher level work now, was a repetitive task of going and looking at other podcasts seeing who their advertisers were then which we can find in different ways, you can look at YouTube descriptions, you can look at different databases of podcasts, so many different ways to get that information. But then we hooked it up to our PipeDrive and we said, find that customer in PipeDrive, find out the last contact date and then we have three ad set- we have four people on the ad sales team. We said, who has Claude? Who has ZipRecruiter? Who has LinkedIn? Who has Every? Who has Polymarket? Who has all these different people and what's the last contact date? And we added it and obviously producer Oliver is here, he's a human. Producer Oliver is a human. He created our replicant doing that. We're trying to give the agents cross functionality but we are also making multiple agents.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:22:21",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "I was really curious if Alex Finn is going to productize what he just showed us because I feel like I would love to take what he has built here and apply it to my own local setting, but I also don't have, respectfully, the amount of time he's put into it. So is this software you were just showing us something that I can eventually use myself?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:22:34",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "I mean that would be nice. The what the end game of this is is not totally planned out, I'm going to be honest, right now all I'm thinking about is how could I make this as impactful as humanly possible? I think if I think about the business side too much right now it'll distract from what the goal is. But if I can make this as useful, as transferable, as simple and cheap to set up as humanly possible, then I think the options are unlimited whether that's turning it into a service where I just go around setting this up for people or just productizing it and saying sign up here.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:23:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's such a good business idea.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:23:04",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Startup in a box.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:23:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Here's the 10 roles. Just go.",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:23:11",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Whether your startup is getting crushed with administrative paperwork or you're meeting with investors and looking to raise capital, Every can help. They've worked with over 1,000 startups. Hey, that's actually 400 more than me! And their experience ranges from first-time founders at pre-seed to veteran teams raising their series A and beyond, to incorporate their startups and take care of everything with no legal fees or delays. And you're going to be able to scale up your team and they're going to give you credit cards so you get 3% back on every dollar you spend with those cards. And if you transfer more than 250k into your account, let's say you come to an accelerator, they're going to give you an extra $2,000 on the house. Watching every dollar you spend and being protective of your runway is the most important skill for founders to take responsibility of. So take control of your finances and check out Every.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "every.io for all of your incorporation, banking, payroll, benefits, accounting, taxes and other back-end office administration needs.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:24:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Matt Van Horn, you just heard this architecture and this setup. What do you think about hey, let's parallel the real world, let's just take the roles that exist in the real world and do that versus having an Ultron or a Voltron, all the pieces come together in one giant mind? How do you look at the paradigm and the metaphor?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:24:27",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "I think it's all coming together so quickly, it's so exciting. So something that just came out, I don't know if you saw this Jason, Gary Tan tweeted about it yesterday. So what StrongDM is doing, have you heard what they're up to?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:24:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, tell us.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:24:43",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "Alright, so here I can just share my screen and I can load the tweet if that's helpful. Shout out to Dan Shapiro, founder of Glowforge, one of my favorite entrepreneurs who turned me on to this. He said, 'What a powerful idea. We build a software factory development where specs scenarios drive agents, write code, run harness, converge without human review.' And I think the most important thing is this right here in rule four, code must not be written by humans, code must not be reviewed by humans, period. Right? So like this crazy concept. So StrongDM made an awesome blog post, you should go over and check it out, but what the basic idea here is a lights-out factory. And then here's Dan Shapiro's Kilroy project which I've been building up to look at this morning.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:25:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "If you don't know what a lights-out factory is, it's a fully automated factory where there's no humans and the concept is if you turn the... you don't need to have the lights on because there's no humans in there. That's lights-out. So this is lights-out startup, no humans touch the code as the instruction given to the agents.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:25:34",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "Yeah, so what's interesting is, so my last company, we literally manufactured ovens, right? And so I would go to the factory and there were... my lines were only making tens of thousands of June ovens, so literally there'd be humans putting things together, it felt very old school. And then I saw the crazy like millions of toaster oven line right next to me and literally the lights were out. And I said to the owner of the factory, how do I get one of those? And he's like, well, you're not selling enough ovens, right? And so it's where it's worth the engineering investment. Anyway, with the cost of tokens becoming so, so cheap, right? That the amount like the amount of computers that Alex is buying on a feels like daily basis and running cheaper models and more expensive models, right? That this idea that you can run a lights-out factory for your software development is crazy. So I'm working on a project right now for myself. And so literally this morning I said, okay, take Dan Shapiro's code and learn how this project works. It's like, okay, I now know Kung Fu, I now know how Dan Shapiro's lights-out factory project works with StrongDM's influence. Okay, great. Now look at my codebase for this project I'm working on. Okay, great. Now it just needs a feature list and I'm like, okay, well you're expert in my project, go propose 20 features. So I used the compound engineering Claude Code skill.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "I said, okay, please propose the next 20 features that you think I'd probably like and it made this, you know, 15 page document. I was like, honestly, looks pretty good. I don't really have any feedback. Go. And then I was at, so literally, so I have my laptop in my car, right? So I've got, took that to the gym. Then was at the gym, had the laptop out, I made sure to plug it in. My battery maintenance is a disaster lately. My laptop lasts one hour running Claude Code now. I've one of the latest machines, right? So I plug it in at the gym and literally the session was just going for two hours. It was the longest session I'd ever seen in Claude Code and it's building my features. Literally just gave it the GitHub of what Dan Shapiro made and it's writing right now. And what does it look like? I don't know. Ask me... ask me in one week. But like this idea is blowing my mind. Like what Alex is working on, what Dan Shapiro's working on, what StrongDM has actually built and shipped, like this is crazy.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:27:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It feels to me like we are crossing into a new era. Matt, you and I live through a couple of these together. Broadband, mobile, cloud, etc. Alex, you had a question and then Oliver I'll swing it to you.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:28:10",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, I wanted to talk about the local models versus the cloud-based models using Opus or whatever because it does seem to me that what we're describing only really works for the average person, average developer if they don't spend $100,000 on inference. And so Matt, I'm curious, you mentioned using Claude Code to do all this work, whereas Alex Finn was talking about using a lot of local models, GLM 4.75 for example. Um, how do you balance when you're using local models versus cloud-based models and, uh, how good are the open models today compared to the state-of-the-art offerings from Anthropic and OpenAI?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:28:36",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "Yeah, so I think it depends on kind of hobbyist versus venture-backed, right? Like I think if you're, if you're a venture-backed company, like you want to spend as much money on tokens as you possibly can. Right. I was talking to a friend who's an engineer at, at Meta yesterday and he said there's a leaderboard for who's spending the most tokens as like a badge of honor inside Meta.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:28:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's like who's burning the most jet fuel is going to get to space faster? Of course, that sounds crazy, but we've watched companies like Uber and Airbnb and, you know, Robinhood spend money. They burnt money, in this case, it's tokens, in order to achieve increasing goals. It doesn't mean you want to do it stupidly, though, of course.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:29:03",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "Yes. And so I think there's intelligence around it, right? And so like, again, I was just texting with Dan Shapiro. He's like, I'm in the process of adding Kimi 2.5 and z.ai GLM 4.7 to Kilroy, right? Because again, there's going to be a lot of hobbyists that are running these projects.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:29:32",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "But from, you know, a venture-backed perspective, like I want to spend all the tokens. Like I want my software engineers to be like, 'Sorry, I hit my $200 Claude plan. What do I do next? Do I switch to Codex or until I fill that one up or do I just spend all the tokens?' And my answer is 'Spend all the tokens'.",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:29:54",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "With tools like Vibe Coding and now Open Claude, it's easier than ever for you to create an exciting new product.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "and to do it fast, so more companies are getting built, which is awesome. But there's more to starting a company than just building an MVP or vibe coding something, that's important too. But if you're serious about growing a real startup, you need a Delaware C Corp, and that's going to give you a major competitive advantage. People will take you seriously, you'll be able to raise money, and that's where Northwest Registered Agent comes in. They're going to give your new business a real identity. This means an address to use on your public filings, like an actual mailing address, a domain name, a custom website, a business email, a phone number, and they're going to do that in 10 clicks. I'm not kidding, 10 clicks, well under 10 minutes. Plus, NWRA will provide you with step-by-step guides, compliance reminders, and they're going to help you get all the advantages of a Delaware C Corp regardless of where in the US you're operating out of. So get more when you start your business with Northwest Registered Agent. Visit northwestregisteredagent.com/twist, and the link is in the show notes. Visit northwestregisteredagent.com/twist for more details.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:30:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oliver, you also set up a trifecta and Oliver Corseon is here. Oliver, you also set up a couple of tiers of cloud-based token usage and LLMs, yes?",
+      "tone": "collaborative"
+    },
+    {
+      "timestamp": "00:31:06",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "Yeah, so over the weekend I just made sure that we were running, you know, right now we so far have Kimi, Google Gemini, and Claude connected.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:31:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What did you do in terms of creating an LLM council for our internal replicants at launch?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:31:31",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "This is really a tool for us to use and I did get this idea from Perplexity, which recently launched their model council. Which right when I saw this, I was basically like, we can just make this easily ourselves. And one thing that's interesting about the different models is they're all better at certain things. So Google has access to YouTube, and Claude seems to not really have up-to-date information. So if you go into Claude and ask it, 'Hey, what's OpenLaw?', it actually doesn't know. It will start, at least from my experience, it will say 'I don't know what that is, is it, does it, is it this random thing?' So kind of putting a few different models into one dashboard. On the dashboard that we built out for our OpenLaw bot, we have created a new section which is a model council based on the Perplexity feature. And basically what this does is it aggregates three different models, so at the moment I'm using two Anthropic models, Opus and Sonnet, but I will move to using three completely different models from the different providers. And basically what this does is you can ask it a question, it will answer, it will take the answers of three different models.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:32:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so you ask the question: 'Find me 200 to 500 capacity venues for Launch Festival in Austin with speakers and guests'. You asked all models, you clicked the 'Ask all models' and then we see, in the first model, Claude Opus 4.6, if we click expand response we can see the response from Claude Opus. Then if we go to Gemini, we can see the response from Google.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's response and then finally if you do Sonnet which is the cheaper version. Now we've got three different models giving us three different answers and if we scroll down, the model council will combine those three answers and it gives us conference and hotel venues, the Line Austin, Fairmont Austin and theoretically, this is a better answer than just going to any one, correct, Oliver?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:33:25",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Exactly. And as I mentioned before, they all are better at certain tasks, certain questions, so this is just a feature that you're able to create. And this is just showing that kind of... I was just confused kind of why Perplexity would launch that. It felt like more of a feature that could easily be replaced by OpenClaude.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:33:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, Perplexity wants to give great answers. That's their goal, is to just be great answers and make their product better. So hitting three different ones makes a better response. It also, to Matt Van Horn's point, burn all the tokens, get better answers. But what I would like to see here is a Kimmy instance, and I would like it to rank—what I want the Model Council to do is to rank the answers and to say which one did a better job. So there should be an LLM sitting above this, kind of grading them I think as to which one was the better answer and putting it together. And then if we have this running locally, Alex Finn, I see you salivating here. You're like, 'Oh my god, this could be big.' Yeah, Alex, are you doing this or are you just think this is interesting?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:34:28",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "Well, I think it's interesting and I'm also in the process of doing this. So I'm slowly implementing as many local models as I can to replace as many of these workflows as I can. And I'm going to be honest, like Claude Opus 4.6 is better than any local model. There's no local model that's there yet. There are models that are close. Kimmi K2.5 is almost Opus level intelligence. But I think the way we're trending is in the next 12 months or so we will have models that are just about as good and there with Opus and you'll be able to replace all of these workflows with local models. And I think that's incredibly interesting that we can have our own private intelligence with its own private data running locally on our computer. I think that's really when we're starting to hit the end game of all of this.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:35:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Matt Van Horn, that to me is like—and we had the founder of ExoLabs, I don't know if you know, is it EXO, ExoLabs, we had the founder on Friday, Alex, and they let you daisy chain is the term I'm using, but you could stack multiple Mac Studios, Mac Minis, whatever, and get additional capacity to obviously make really interesting, you know, clusters I guess would be the way to say. And his thought was it's most important for you to control your data and not give it to the other language models, not train them on what you're doing. And so for some combination of proprietary innovation, privacy, etc. Now there's also this idea that you could have 95% less cost, but I saw somebody over the weekend, Matt, who has their orchestration level, their...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Chief of Staff, their CEO in the cloud, their Ultron using the best model they determine that's Claude 3.5. I think there's some consensus around that for reasoning, but then giving the line workers their assignments and their strategy and letting them use Kimmy. What are your thoughts on that, Matt?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:36:16",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "I personally have not talked into Kimmy. I have not... I understand from a local perspective it's value. From a... I am not interested in running it locally yet because I'm happy to spend the tokens right now. But what I do find and I think Peter Steinberger has done a really good job, the founder of OpenPDF, and like people say he's making fun of Claude in a way. He's like, 'I do not write code in Claude.' Like he said that many times, right? But he says his favorite model for running OpenPDF, he's like, 'I only use CodeX,' right?",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:36:52",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "And so what's interesting is, so what... so to bring it back to just the strong DM thing that I'm running right now that's running different things. So I write all my code in Claude, right? But I have a CodeX instance because I have the the best ChatGPT account. Anyway, it told me, just the app I just installed what Dan Shapiro made, it told me to use CodeX. So okay. So it's literally writing all my code in CodeX right now for the first time on an app that I wrote completely in Claude. And so I think there are pros and cons to different models and to have an orchestrator that can use the right model for the right task, like maybe CodeX is better for my coding job. I don't know why it chose it, I'm just going to trust... it was Claude that I asked to go set it up and it started doing that. And so I think that this idea, and especially if you have sensitive data, if you need things locally. But there are other solutions like that. Like if you look at Amazon Bedrock, for example, like they have models running locally on AWS for ChatGPT, for OpenAI that are stored within that section, they're not going back to the servers on the other end. So there are kind of in-betweens on this. I think doing things too locally like, I don't think we should go back. Like if I go back to Path, right? If you remember Path.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:37:58",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "The social application from back in the day.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:37:59",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "Social network from, you know, late 2010s? I don't remember exactly.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:38:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "My favorite, oh, so good.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:38:05",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "But, I remember huge board debate, board level debate. Okay, do we keep giving Amazon AWS all the money, right? Or do we build out our own server farm, right? And we built out our own server. It was a huge infrastructure project, like we did that, right? And I, again, I have no learning if that was good or bad, but it felt like not a core competency of our business. And so, from an... and so I did say money, but it distracted our small team. We were 50 people and we had two engineers working on that, right? Versus like AWS go scale, right? And so I think that there's a balance here that going, like again, as a hobbyist to go local, great. But if you're running a serious business, like you need to figure out the bare minimum to meet your security requirements, but you have to meet it. I'm not saying don't... don't not take it seriously, right? But figure out what your Amazon Bedrock is, your equivalent that that Microsoft...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "SaaS has and like figure out how to feel good enough there and then go, because I don't think it's going to be healthy for innovation to go back to being local and hosting your own server.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:39:12",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "For the record, I completely agree.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:39:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think at the moment it's illogical for most businesses to be doing this setup, to buy a bunch of Mac Minis and Mac Studios and then run 100 instances of the Kimmy K 2.5. I just think it's... it doesn't make as much sense and you lose a lot of velocity. The reason why I'm going with this and trying to build it out is I think this is the future, I'm placing my bets on the future. I think what Alex over at Exo Labs—for some reason half the people on show's names Alex—but Alex from Exo Labs, what he's building out over there, he's building towards a future where you can run these monstrous models on something as small as a Mac Mini. And so I think the... right now it is just hobbyists. I'm not telling big corporations to go and buy a bunch of Mac Studios, that makes zero sense. But we will be getting... going in that direction in my opinion, that's where I'm placing my bets. We will eventually be able to run Opus 4-6 on a Mac Mini. And the people building the infrastructure out now for that future are going to be the ones that reap the benefits when it does come around.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:40:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You know, we brought Matt Van Horn on and we said, 'Hey, Matt's working on this 30 days thing, there's V2,' and then we never talked about what V2 is. And I think we should pause and learn about what he has cooked up lately because I've been tracking the GitHub stars, I've been tracking the reviews, people are raving. Matt, version 2, talk to us.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:40:34",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "Yes, version 2 is here. So, so recap, Last 30 Days is the best way... again, it's a little geeky. You don't need a whole Claude-bot setup setup, but you do need Claude code to use it. But kind of the basic gist is you can just type in the command /last30days and then you can learn about any topic. And one interesting use case that I've been seeing is so initially when I was talking about it last week, kind of prompting was like the most popular thing when we just launched it. So it was like, 'Okay, how do I use Nana Banana Pro the best? How do I get my Claude open Claude setup working the best? What are the killer use cases for open Claude?' But what's crazy is I'm seeing sales teams, literally sales teams, before they go into the meeting—like because what do you do to get your research on like, 'Okay, I'm about to talk to this, you know, brand, like what's going on with them in the last 30 days?'—and you literally type 'last 30 days' [and] name of brand, and you get everything. Like, 'Oh, there was this scandal. Oh, they closed these stores. Oh, the CEO got fired.' And it's like, where would I get that information? Like Google News, search Twitter... like I literally don't know how I would get that information, and Last 30 Days, like, you could just get it. And so I actually was talking to a friend of mine who's building a new CRM, AI CRM company that I'm dying to invest in—he won't let me yet—and I was just like, 'You just need to steal my codebase and put it into your CRM because holy crap is this good for sales' just as an example.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "It's good for sales, people are using it for prompting techniques, people are using it for world news, right? Like a good one, you know, Kanye West in the news a lot, like how do you keep track of Kanye West and what he's doing? And like, I'm so happy with the responses I get. There's the, the apology tour. I'm Jewish, like, and Kanye's my favorite artist and I had to block him on Spotify, I was so sad. He's gone on an apology store—tour, I've forgiven him, I've unblocked him, my kids can listen again. But like, so I see the apology tour, I see 'Bully', the new album's coming, I see the concert, I see who's forgiven him, I see who has not forgiven him, right? And what's happening the last 30 days, it's helpful if I can know if I can listen to Kanye.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:42:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And then you find a bunch of influencers dancing around to 'Heil Hitler' in the club and you have to then block him again. It's crazy.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:42:49",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "It's crazy.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:42:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Not getting too deep into the Kanye side of things though, but you also changed the amount of time you can now search in V2. You can do seven and 14 days as well. So it's not just the full 30 days now.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:43:00",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "Let me give you the the three key features. So, number one, it's way better. It's way, way better. It searches a lot more, it runs a lot more queries. It's slower. Like I want people to complain about how slow it is because it's no longer like a minute and a half. It's usually like four to five minutes, but it's worth it. It's worth it. So it's interesting to see if people will complain and want like a turbo mode, kind of you think of like the the GPT fast modes from an API. I mean, I could build it, but I need the request. Anyway, so it's much, much better. Number one. Number two, it can use X for free. Giant asterisk. Let me I'll give the asterisk in a second. And then number three is you can—and this is a feature that someone literally requested. And what's funny is I need—my GitHub notifications are messed up, so like I don't get an email or a push notification when someone comments on my project, I should. But like literally I just asked my agent, 'Hey, anyone have any good ideas of like how to make the product better?' And it was like, 'I've sorted through all the requests people have made. Number three seems really good and I could implement it right now.' And that was one of them was like allow people to search just last seven days. And so I just said, 'Okay,' and literally I shipped it, uh, which was great. But the—I'll give the asterisk. So, uh, Peter Siber, so literally our hero, open claw founder, he's had this tool called Bird CLI for a while as long as with the open claw, even though there is a skill for it, uh, which allows you to use the—to use X without using XAI tokens, if that makes sense. And literally five hours after my launch, my big video that I made using, uh, the newest Higsfield AI, he literally announced on Twitter, 'Sorry, I have to delete Bird CLI.' And it got deleted and it's gone. Uh, but it's still—it's still working if you have it installed and there's still hacks and ways to get around it. And I have an update that I could put out if those hacks stop working, but I haven't needed to yet until X people get mad at me and tell me to remove it also. But it's still working even though there was announced.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "That Bird CLI and the GitHub Bird CLI is deleted from the internet. Peter deleted it and he commented on one of my posts, which made me feel like a celebrity was talking to me. And he said, 'It was not my decision.' And I still called him the goat because he is.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:45:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It is really, like if you think about what people used Reddit or Digg for back in the day, or Hacker News or Techmeme, you just want to be up to date, right? And that is a core skill that you have to train people of like cool hunting, like, just stay up to date.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:23",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "Oliver and Lucas on my team put 30 day skill into this. So now every time we do something, I set up a skill. Every Saturday, I tell the replicants, 'Please go use 30 days to get better and find the latest information on how to make better headlines for YouTube.' Then on Sunday, we tell them to spend an hour doing the same thing for thumbnails.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:45:33",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "So just figure out what the greatest thing is and then add it to your skill set and then report back on what you learned. I would normally give that to a human to do, and then you know what would happen with humans? They're fallible and they get tired and sometimes we humans are lazy or distracted or we don't prioritize stuff. You can just have this recursive constant learning happening all the time. So go to github.com/mvanhorn/last30days or follow mvanhorn on X.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:46:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Great job Matt.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:46:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, what do we have next on the docket, Alex?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:46:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Well, we wanted to talk with Alex Finn about social distribution and how he has been absolutely crushing it over on the YouTubes. This is an Oliver point, Oliver I'm going to let you take it away.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:46:19",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Since we had you on last week, I think you've grown 40% on YouTube subscribers and that doesn't have anything to do with other platforms as well. And clearly you've gone all in. You know, you bought the Mac Studio, you said you're going to buy the new one when it comes out. What have you learned about community going all in on something like Claudebot?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:46:31",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "Yeah, I mean there's a lot to it. The last month has been incredible from all social media perspective. YouTube I've gone from 60,000 subs to 110,000 in a month, which is amazing. X, same thing. I think the number one thing I've learned is that when you truly find something you're passionate about, go as hard as you possibly can. As hard as humanly possible. And if you do that, you will succeed. And I know that's kind of cliché, but if you do it in a public manner where you're creating content, you're creating videos, you're tweeting and you're putting your all into it, people feel the energy, people feel the passion. For instance, I do a live stream Monday, Wednesday, Friday, which I skipped to come on this amazing podcast, where, you know, it's grown from about 30 concurrent viewers to 800 concurrent viewers at a time over the last couple months. And the number one piece of feedback I get is I don't agree with 80% of the things you say, but you're so passionate about it I have to keep watching. And so, you know, my advice and tips to people...",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "This is, well first of all, distribution is king. It's another cliché, but it's 100% true. Especially in a future where I'm not the only one making Claude bot content, there's thousands of people doing it. But if you can build distribution and build a community and build a bunch of people that believe in every single thing you say, you can succeed even if there's hundreds of people doing the exact same thing. Do cool things, experiment, tinker, create content about it, get super passionate and you'll get a lot of people following you, tracking every single thing you do and say and then when you put out a product you'll be successful.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:48:32",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:48:33",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And I know that you have Creator Buddy as well. What has this kind of building in public and building yourself up as a creator done for your SaaS?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:48:40",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "I mean, across the board, everything is absolutely exploded and I'm completely transparent about all my numbers and everything I'm making and all that and I'm like, I'm happy to show the numbers right here. Like everything, it's the SaaS, it's here's YouTube ad revenue has completely exploded the last 365 days. You know, we can see I'm now making almost $1,000 on YouTube ad revenue a day now because of all this. And it's on everything. The Creator Buddy user base has gone up about 40% over the last month, so about 40% more paid subs doing $50 a month on Creator Buddy SaaS, YouTube ad revenue, X ad revenue. I have a private community where I talk about AI that's 5x'd in the last month. So distribution explodes everything. It superpowers all your businesses, it superpowers all your revenue lines and I think especially in a world where there are going to be layoffs—I think, again, not to fearmonger—there are going to be layoffs, there are going to be people losing their job. This is your hedge against that. Building your following, building your distribution because once you have that distribution, you're bulletproof. You can do literally anything you want.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:49:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I would agree with this. It's if you're looking at content movements I had famously like two of the core developers from Bitcoin on this podcast in 2010, 2011 and I like wrote a blog post about it, but then I kind of forgot about Bitcoin. I should have literally talked about Bitcoin for the next 100 weeks and I should have invested in it as making up for that mistake, although my wife did buy a bunch and we made millions of dollars, so we're all good, don't worry. Open Claw at launch.co. Open Claw at launch.co. The next Founder University is going to be dedicated to Open Claw founders. You don't need to be incorporated. You could just be two or three tinkers, make something, anything and then you can take a picture of this QR code, which we'll add here and we'll put it all around my head. Take a picture of that. It'll fire off an email to openclaw@launch.co. We're going to give 10 people who pitch us on their idea or show us some stuff 25k, their first check into their startup and we're going to give 10 people the ability to come to our accelerator, which is a standard 125k deal. If you're further along, we might pick you for the 125k, or if...",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "If you're just like two or three people tinkering but you have technical skills, uh, we will offer you the 25k. So 10 and 10, that's, uh, yeah, what is that? That's $1.5 million in investments in 20 OpenClaw companies happening in the next 30 days. Just openclaw.atlaunch.co. We're all in, we're clawshotted.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:51:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Just one question I had for everybody was what's going on with Opus 4.6? Has anybody played with it in depth and can tell me if it is in fact much different than 4.5 or 4.6?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:51:41",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "I think the model's great, by the way. Uh, the model's fantastic. Not to jump in, it's just I've been using it a bunch the last few days. Uh, it's partially the model's great, it's partially Anthropic has improved the tooling even more inside Claude code. They have what's called agent teams now, which is basically you give Claude Opus 4.6, hey can you build this for me, and what Claude code will do now is actually spin up multiple instances of Claude code to tackle that problem. And so before it was always called sub-agents, and sub-agents was basically one Claude code instance splitting itself five or six different ways. Now what it actually does is it takes and creates five or six different instances of Claude code that can talk with each other, communicate with each other, and you can talk to each one individually. So it's both a really good improvement to the model and also a huge jump in the tooling as well.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:52:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Uh, any thoughts, Matt Van Horn? Have you been able to distinguish any difference between this .1 upgrade?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:52:41",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "I've not. I just, again, I'm a humans should not look at the code, humans should not write code, humans should not review code. I just assume it got better and I'm sure they'll bill me more for it, I think. Uh, but I did just ask for the last 30 days, so, you know, if it comes back in a reasonable period of time then that gets interesting. I'll let you know.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:52:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Human-free code, that's our theme for the day. Alex, Matt Van Horn, thank you so much for joining us. We'll see you on Wednesday, which is in about six, six OpenClaw years. Just come back in 48 hours, let's, let's run it back on Wednesday. I mean, I, I can't stop thinking about it. I'm out here skiing and I'm literally talking to my two Claude agents and, I, if you work for me or you work at any of the startups we've invested in, just stop doing what you're doing and get on OpenClaw, get something set up safely, safely, safely, and then, uh, go from there.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:53:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Actually, you had one story left, Alex. Did you have a story about safety and OpenClaw that we can have Alex and Matt Van Horn comment on?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:53:44",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, so over the weekend the OpenClaw team announced that they're going to work with VirusTotal to scan skills that are on the, uh, Claw Hub. And they say, look, this is not a silver bullet, this is not going to solve the problem, but at a minimum it's providing a, a layer of security. And so, Alex, Matt, I'm just curious on the skill front if you think this is a, a good enough step to get people to a point of comfort.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "Confidence or if this is just a thin Band-Aid over a gaping wound and therefore not enough to really solve any of the security issues we've talked about.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:54:07",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "I think it's again, it's a Band-Aid, right? Like I have the most popular X search tool, like why should I be allowed to do that? Like the X company should be able to stop me. Like who do I-- I literally, I never looked at the code. I trust it because I gave it very simple instructions, right? But I own that skill, right? And so like, and it's-- it says X on it. It doesn't use like, you remember like when you had to write a Twitter app back in the day, it had to be called Tweetie or something like that, right? And so like, it's good that someone is looking at my code to confirm that it's not malware at least. I think not malware, doesn't work, like these are the basic tests that are important. And then verification can come later.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:54:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I just-- I just gave my team the green light to use the X API and pay, I think, 100 or 200 bucks a month for the basic one. What's the difference between like, are you using MCP or scraping, how does the-- or the Claude sidebar, Chrome extension, how are you with last 30 days getting X content versus using the API?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:55:18",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "Yeah, so back in the day when I built last 30 days, less than 30 days ago, there was no X API that was available to the public. So I was using the X AI API, if that makes sense, which-- which-- which fairly charges you per token. I've not done the math between the new X API that launched one week ago versus the X AI, but I think that it just is more personalized for you and your account and being able to post, etc. I believe on the X front, but-- but again, the core mechanics of the Bird CLI, you can still do it for free. So that still exists. It's deleted from GitHub, but ask your agent to figure out how to do it and your agent will figure out it. It is not blocked by X yet. By the way, I did get the response on the Opus from last 30 days, so the biggest thing is context window. So million token context window up from 200k. So that's the biggest win. And then what Alex mentioned, the agent teams, is the real differentiators. And yeah, people-- people like it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:56:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "There's also fast mode for 4o, which costs several times as much, but you can kind of jump to the top of the queue and get faster inference. I'm really curious to see who's going to pay for that because it was already not cheap, Matt, and paying a multiple of that per token, even you with your venture money will eventually start to cry, I think, at the amount of money you'll spend there.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:56:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alright, absolute fantastic. Let's drop the boys off. Matt, great job. Ping me about the investment. Put in a little frisky bet. Oh, I'm feeling frisky. Open Claude's got me feeling frisky. I got the checkbook right here. I gotta wire some-- I gotta send some wires. Alex Finn, if you want to be an entrepreneur at some point and like take venture money, let's talk, you and I. You have no outside investors, right, Alex?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:56:57",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "Uh, well, to cover the first part, I'm already an entrepreneur, but the second part of taking investment...",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "money, have not done that yet, but you'll be the first person I go to, Jason.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:57:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, there we go. I always like to be the first or third or fourth investor in great entrepreneurs and their companies. I also have the domain name begin.com, b-i-g-i-n dot com, which I yes, spent hundreds of thousands of dollars on and I think that is the best name possible for an open claw software product. So—",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:57:23",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Not ai.com?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:57:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean, I did there was an ai.com commercial. Let's play it and get everybody's reaction. Go ahead, Alex. Play the open— This is the ai.com. Some crypto company bought ai.com for $70 million. And I had a two-letter domain name 20.com and I bought it for 70k 15 years ago. I sold it five years later for 1.8 million or something. So, uh, I probably should have held on to that, but ai.com, whoever owned that, right place, right time. Here's the 30-second commercial. Go.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:57:59",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "If you're on the audio version, it's two balls flying through the air. They collide and they form an ai.com logo that looks very generic like some old TWA logo. It says AGI is coming and then it prompts you to reserve your username. Jason, I did this. I'm now ai.com/alexwilhelm. Uh, but I will say that the scuttlebutt around the internet is that ai.com is essentially a Open Claw clone. So the idea here is that the guys behind crypto.com, great branding, great domain name, are now going to build something called ai.com. It's promising an agent that'll do actual work for you. They spent a lot of money on the domain and the Super Bowl commercial and uh, I Godspeed. Oliver, your thoughts?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:58:46",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "Yeah, I mean, the Super Bowl commercial was not great, obviously. It was— they probably spent— they could have spent $20 in in Hayscale credits on that video.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:58:54",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "They probably— that's probably the case, by the way. That looked like they spent $20.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:58:58",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "I mean, if you're watching the Super Bowl and it's loud and that epic music comes on, you'll get its attention. I I do believe that they had the— you can reserve a domain name. That was kind of the whole hook of the commercial is that people were rushing over to reserve a domain name. You can— I think producer Marcus got Marcus B. I was trying to get some low amount of letters domain name. It then the next step after you reserve your domain name was to put your credit card in. So that step I just— that's where I logged out.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:59:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "That's what I was like, nah, I'm good. I don't— the crypto.com guys, I don't know if I want them to have my— my good credit card. Pass.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:59:33",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "Yeah, I have a rule that whenever someone advertises their product but does not talk about what the product is or what the value is of the product, that I just automatically assume it's a scam and I do not buy into it. And I went to ai.com and the first thing it did was ask my credit card number without even telling me what the product was. And I said no way, there is a 0% chance this ever turns into anything. This is 100% a scam. I mean, I don't want to call this other company a scam, but you know, the ear—",
+      "tone": "judgmental"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Clearly, clearly advertising was very much the same or it was like cheat on everything but then it doesn't tell you what the product is or what the product does and it's like if you have a good product, I feel like you would tell me what it is. But the fact that you're not telling me what it is, I'm gonna pass.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "01:00:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You get to a credit card form and then you have to pay to reserve your name, but they don't charge your card. So I guess they're doing that to charge you in the future maybe.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:00:26",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "But at no point do they tell you what you're buying. You're buying a username, but for what? And they, they don't tell you what that is. There's no part of the onboarding that's like you're getting a username for an AI agent that will do this for you. It's you're buying AGI. Here, give me your credit card number.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "01:00:42",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "You know what? I'm going to take the other side of it. I like it. I don't know why I like it, uh, but I like that they have the audacity to do something so deranged as spend $70 million on an incredible domain name, give everybody a handle and figure it out later. I think what they should have just charged is charge $1 per handle and let you buy up to 10. That would be great. Or the first one's free, but and you get 10 of them, then just have you create the massive domain squatting. Let every credit card buy 10, every email. Uh, all right Matt, you uh are going to order some sushi on your Open Claw. Let's see it. What's going on over here? You order me lunch?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:01:23",
+      "ad": false,
+      "speaker": "Matt Van Horn",
+      "text": "So I don't have long till my next meeting, so I ordered one of the most powerful things I've built. I'm sorry, Alex, I haven't built a whole business on my Open Claw, but order sushi where it is a sushi place downstairs and I get the same thing every time and the web interface is so bad, there's no API and so it's like my Open Claw clicking around, it took a long time to get right. Anyway, it's finally good, it works. I just ordered sushi. But here's something interesting when I set this up. So it cost $19 for my sushi order. I actually said back in the day, you know, a week ago when I set it up, do not spend more than $20 in case it like adds it four times or something, right? That was my intent. Anyway, it just said, logged in, going to order sushi, the total's 20.73 up from 19.58, the roll went up one dollar. That's over $20, you still want the order? And so I literally would not have noticed this ever, but my Open Claw caught that dollar they raised prices since Friday, which is crazy.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:02:15",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "My friend had sent me over an X post that I think was going viral that was talking about how Open Claw has a lot of security risks and it was an example where someone was trying to maximize their Open Claw and it bought an Alex Hormozi subscription, like that was like $2,000 and basically the person went into Open Claw and was said what have you done for the last 24 hours and explained how it bought these subscriptions to make your life better, to to help improve everything, to help Open Claw make your life better basically. But that kind of asks, brings me to my next question for Alex, which is you mentioned security was a concern for a lot of SMBs and enterprises and they shouldn't necessarily start using this tool now but they will in the future. Why would you say that they shouldn't start at the moment? Should they start tinkering with it? Because at launch we're seeing a lot of potential impact.",
+      "tone": "engaged"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Alex Finn",
+      "text": "Oh no, if the messaging people understood from what I was saying is that companies should not tinker with it, that is not the message at all. My message to everyone is everyone should be tinkering with it. Every company, business, corporation, SMB should be tinkering with it. There are risks, there are security risks, right? Which is what makes it such a colossal opportunity at the moment is there are so many people scared. And when your competition is scared to use something, scared to dip their toes in something that's ultra-powerful, that's your time to strike. That's your time to be careful, to make sure you do it the right way, but you also need to make sure you figure out how to implement it and use it because that's where the opportunity is. I mean, a big reason why I think my content, my channel's blown up so much in the last two weeks is I haven't been scared to make the investment and go all the way in and experiment and do new things while other people are kind of scared to go out and buy a Mac Mini for $600, I bought $20,000 of Mac Studios, right? And so when your competition's nervous and scared to go all in, that's when you should be striking. So I think all the SMBs and corporations, if they're smart, would be implementing this and figuring out how to create value.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "01:04:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Uh, we're at a brave new world. Uh, great job, gentlemen. Matt Van Horn's dropped off, Alex will drop off as well, and I think we have one more partner to say thank you to. Alex, let's do that.",
+      "tone": "satisfied"
+    },
+    {
+      "timestamp": "01:04:19",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So today on the Polymarket front, we're going to ask a question, when does Claude 5 come out? Now, we talked a lot about Opus 3.5 Jason on the show today, everyone loves it. So I was surprised to see people already betting over on Polymarket or wagering or, you know, predicting if you will, uh, when Claude 5 will come out. Now, there has been $1.2 million in volume here, and everything's pointing down. The odds are falling because it doesn't seem like it's going to come out soon. But still, there's a 55% chance, according to the Polymarket sharps, that by the end of March, we're going to have not just a new Claude Opus 3.7 but the entire new Claude 5 family. And I thought that was hella exciting.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:04:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, what's most exciting about this is that the founder of—",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:04:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, I'm just joking.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "01:05:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Claude 5 is— the founders or the developers are not placing bets here. You can be sure of that.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:05:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, no.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:05:04",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Although, can I just say how everyone is now looking through all the people who are making prediction bets and trying to figure out who is an insider? I keep seeing tweets about people going through, you know, Polymarket and Kalshi and so forth, and it's really interesting. People are now like sleuthing for the cheaters to find them to get ahead of it. I love watching information flow. It's a— it's a blast.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:05:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's, I mean, amazing. All right, that's been another amazing episode of TWIST. He's @alex on x.com, I'm @jason, and we'll see— Oh yeah, and click these QR codes to sign up for YouTube and Spotify, YouTube and Spotify. And click this QR code down here maybe to email openclaude@launch.co. 10, 25k investments, 10, 125k investments. Let's get out of here folks, let's change the world. OpenClaude is going to change everything. It's changed everything already, I think. It's our personal belief. All right, see you next time. Bye-bye.",
+      "tone": "upbeat"
+    }
+  ],
+  "highlights": [
+    "Open Claw represents a shift from sandboxed AI to \"agentic\" technology that can access personal accounts like Gmail and Slack to execute complex, multi-stage tasks autonomously.",
+    "The \"lights-out factory\" model for software development is emerging, where AI agents write, run, and iterate on code without human intervention or manual review.",
+    "Professionals can hedge against AI-driven layoffs by automating their own roles and repositioning themselves as high-value orchestrators who manage teams of AI \"replicants.\".",
+    "Modern AI architecture is moving toward a hybrid model that uses elite cloud-based LLMs for strategic management while deploying local, private models for 24/7 repetitive labor.",
+    "Distribution remains the ultimate competitive advantage, as creators who build communities around their technical tinkering can quickly monetize SaaS products and private memberships."
+  ],
+  "summary": "This transcript from *This Week in Startups*, set in February 2026, centers on the \"Open Claw agent revolution.\" Hosts Jason Calacanis and Alex Wilhelm, alongside guests Alex Finn and Matt Van Horn, discuss the transition from \"sandboxed\" AI to \"Open Claw\"—an open-source agentic technology that allows AI \"replicants\" to access personal data (Gmail, Slack, Notion) and perform autonomous, multi-stage tasks. The speakers argue that this shift represents a milestone as significant as the internet or mobile revolution, moving AI from a glorified search engine to a proactive worker capable of taking real-world actions on behalf of a \"sovereign individual.\"\n\nThe discussion highlights several practical applications and demos, including \"Vision Claw,\" which uses smart glasses to identify products and manage shopping carts, and \"Last 30 Days,\" a tool for instant deep-dive research. A major theme is the rise of the \"lights-out startup,\" where AI agents handle coding and operations without human intervention. Alex Finn demonstrates a virtual autonomous organization running on local hardware, where specialized agents (e.g., social media managers, engineers) collaborate 24/7. While the guests acknowledge security risks and the potential for corporate layoffs, they emphasize that this technology empowers solopreneurs and \"middle managers\" to automate their own jobs and increase their economic impact tenfold.\n\nOverall, the transcript reflects a high-energy \"Claw-pilled\" sentiment, urging listeners to obsess over agentic AI to remain competitive. Key debates touch on the balance between using expensive cloud-based models (like Claude Opus) for reasoning and local, private models for routine labor. Calacanis concludes by announcing a dedicated investment fund for Open Claw startups, signaling a firm belief that the era of single-person, multi-agent companies has arrived and will fundamentally restructure the labor market and software development.",
+  "description": "This Week In Startups is made possible by:\n\nLinkedIn - http://linkedin.com/twist\n\nEvery.io - http://every.io/\n\nNorthwest registered Agent - http://www.northwestregisteredagent.com/twist\n\nToday’s show: \n\nSean Liu gave his OpenClaw “eyes” by hooking the AI assistant up to his Meta Ray Bans. While Jason and Alex consider the implications… guest expert Alex Finn quickly loses interest…\n\nIt’s another All-Clawdbot TWiST where we debate the most essential uses for the viral agent platform. For their part, Alex Finn and Matt Van Horn are building practical skills to help founders (esp. solo founders)… Alex has a brain trust of AI agents working round the clock to improve his organization and content, while Matt designed a skill for his agent to order sushi lunches (keeping them under $20).\n\nPLUS find out how Producer Oliver designed his “Model Council” based on Perplexity’s set-up, why running everything local is “illogical” for most people in 2026, AND why Jason’s next Founder U cohort will all be building with OpenClaw.\n\nTimestamps: \n\n(00:00) Why Jason is STILL Claw-pilled! We can’t get enough!\n\n(03:17) “Mr. Clawdbot” Alex Finn of Creator Buddy joins us! He’s Claw-Pilled too!\n\n(04:50) Sean Liu (@_seanliu) added OpenClaw to his Meta Ray Bans… Here’s why Alex doesn’t care!\n\n(8:33) Lost your job to AI? Maybe AI can make you a founder!\n\n(12:36) LinkedIn Jobs - Hire right, the first time. Post your first job and get $100 off towards your job post at http://linkedin.com/twist Terms and conditions apply.\n\n(13:34) “Last 30 Days” skill creator Matt Van Horn (@mvanhorn) joins the show\n\n(14:54) Why Jason wants to invest in Matt’s new project.\n\n(15:53) Meeting Alex’s organization of AI agents who collaborate on his projects autonomously\n\n(22:28) Is Alex planning to turn his OpenClaw set-up into a company? Maybe…\n\n(23:11) Every.io - For all of your incorporation, banking, payroll, benefits, accounting, taxes or other back-office administration needs, visit http://every.io/\n\n(25:16) Using OpenClaw to create a “lights out” startup\n\n(28:17) Deciding when to use local models vs. more powerful cloud-based models\n\n(29:53) Northwest Registered Agent. Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity —  Learn more at http//:www.northwestregisteredagent.com/twist\n\n(30:58) How Producer Oliver created a “Model Council” for LAUNCH based on Perplexity’s set-up\n\n(35:52) Why it’s so important to have an orchestrator that knows the right model for the right task\n\n(39:12) Why running everything local is “illogical” for most companies in 2026\n\n(41:15) Matt walks us through the latest and greatest incarnation of his “Last 30 Days” skill\n\n(45:57) Why Jason thinks recursive machine learning is the solution to human laziness\n\n(46:38) How Alex has supercharged his social media and his startup during OpenClaw Mania\n\n(50:15) Why Founder University is going ALL OPENCLAW next cohort\n\n(51:21) How big a jump over Opus 4.5 is Opus 4.6?\n\n(53:35) OpenClaw’s going to start scanning skills for malware… Will this help?\n\n(57:13) No one was SUPER impressed by the AI dot com Super Bowl ad… except JCal\n\n(1:01:11) Matt used his “Order Sushi” OpenClaw skill live on the show to get lunch\n\n(1:04:08) Polymarket’s sharps are wagering on Claude 5’s hotly anticipated release\n\n*\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\n\nCheck out the TWIST500: https://twist500.com\n\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\n*\n\nFollow Lon:\n\nX: https://x.com/lons\n\n*\n\nFollow Alex:\n\nX: https://x.com/alex\n\nLinkedIn: https://www.linkedin.com/in/alexwilhelm\n\n*\n\nFollow Jason:\n\nX: https://twitter.com/Jason\n\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\n*\n\nThank you to our partners:\n(12:36) LinkedIn Jobs - Hire right, the first time. Post your first job and get $100 off towards your job post at http://linkedin.com/twist Terms and conditions apply.\n\n(23:11) Every.io - For all of your incorporation, banking, payroll, benefits, accounting, taxes or other back-office administration needs, visit http://every.io/\n\n(29:53) Northwest Registered Agent. Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity —  Learn more at https//:www.northwestregisteredagent.com/twist\n\nCheck out all our partner offers: https://partners.launch.co/",
+  "duration": 3959,
+  "people": [
+    "Jason Calacanis",
+    "Alex Wilhelm",
+    "This Week",
+    "In Startups",
+    "Sean Liu",
+    "Meta Ray",
+    "While Jason",
+    "Alex Finn",
+    "Matt Van",
+    "Producer Oliver",
+    "Model Council",
+    "Why Jason",
+    "Creator Buddy",
+    "Meeting Alex",
+    "Is Alex",
+    "Northwest Registered",
+    "How Producer",
+    "How Alex",
+    "Why Founder",
+    "Super Bowl",
+    "Order Sushi",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason"
+  ],
+  "topics": [
+    "The capabilities and applications of Open Claw AI agents",
+    "Integration of AI with hardware like Meta Ray-Ban smart glasses",
+    "The economic impact of AI agents on employment and solopreneurship",
+    "Technical comparisons between local and cloud-based AI model deployment",
+    "Advanced AI workflows including autonomous agent organizations and model councils"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi_webp/DIEUGPdqM1Y/maxresdefault.webp",
+  "date": "20260209",
+  "youtube_url": "https://www.youtube.com/watch?v=DIEUGPdqM1Y",
+  "youtube_metadata": {
+    "title": "Does Clawdbot (OpenClaw) Need Eyes? (feat. Alex Finn and Matt Van Horn) | E2247",
+    "description": "This Week In Startups is made possible by:\n\nLinkedIn - http://linkedin.com/twist\n\nEvery.io - http://every.io/\n\nNorthwest registered Agent - http://www.northwestregisteredagent.com/twist\n\nToday’s show: \n\nSean Liu gave his OpenClaw “eyes” by hooking the AI assistant up to his Meta Ray Bans. While Jason and Alex consider the implications… guest expert Alex Finn quickly loses interest…\n\nIt’s another All-Clawdbot TWiST where we debate the most essential uses for the viral agent platform. For their part, Alex Finn and Matt Van Horn are building practical skills to help founders (esp. solo founders)… Alex has a brain trust of AI agents working round the clock to improve his organization and content, while Matt designed a skill for his agent to order sushi lunches (keeping them under $20).\n\nPLUS find out how Producer Oliver designed his “Model Council” based on Perplexity’s set-up, why running everything local is “illogical” for most people in 2026, AND why Jason’s next Founder U cohort will all be building with OpenClaw.\n\nTimestamps: \n\n(00:00) Why Jason is STILL Claw-pilled! We can’t get enough!\n\n(03:17) “Mr. Clawdbot” Alex Finn of Creator Buddy joins us! He’s Claw-Pilled too!\n\n(04:50) Sean Liu (@_seanliu) added OpenClaw to his Meta Ray Bans… Here’s why Alex doesn’t care!\n\n(8:33) Lost your job to AI? Maybe AI can make you a founder!\n\n(12:36) LinkedIn Jobs - Hire right, the first time. Post your first job and get $100 off towards your job post at http://linkedin.com/twist Terms and conditions apply.\n\n(13:34) “Last 30 Days” skill creator Matt Van Horn (@mvanhorn) joins the show\n\n(14:54) Why Jason wants to invest in Matt’s new project.\n\n(15:53) Meeting Alex’s organization of AI agents who collaborate on his projects autonomously\n\n(22:28) Is Alex planning to turn his OpenClaw set-up into a company? Maybe…\n\n(23:11) Every.io - For all of your incorporation, banking, payroll, benefits, accounting, taxes or other back-office administration needs, visit http://every.io/\n\n(25:16) Using OpenClaw to create a “lights out” startup\n\n(28:17) Deciding when to use local models vs. more powerful cloud-based models\n\n(29:53) Northwest Registered Agent. Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity —  Learn more at http//:www.northwestregisteredagent.com/twist\n\n(30:58) How Producer Oliver created a “Model Council” for LAUNCH based on Perplexity’s set-up\n\n(35:52) Why it’s so important to have an orchestrator that knows the right model for the right task\n\n(39:12) Why running everything local is “illogical” for most companies in 2026\n\n(41:15) Matt walks us through the latest and greatest incarnation of his “Last 30 Days” skill\n\n(45:57) Why Jason thinks recursive machine learning is the solution to human laziness\n\n(46:38) How Alex has supercharged his social media and his startup during OpenClaw Mania\n\n(50:15) Why Founder University is going ALL OPENCLAW next cohort\n\n(51:21) How big a jump over Opus 4.5 is Opus 4.6?\n\n(53:35) OpenClaw’s going to start scanning skills for malware… Will this help?\n\n(57:13) No one was SUPER impressed by the AI dot com Super Bowl ad… except JCal\n\n(1:01:11) Matt used his “Order Sushi” OpenClaw skill live on the show to get lunch\n\n(1:04:08) Polymarket’s sharps are wagering on Claude 5’s hotly anticipated release\n\n*\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\n\nCheck out the TWIST500: https://twist500.com\n\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\n*\n\nFollow Lon:\n\nX: https://x.com/lons\n\n*\n\nFollow Alex:\n\nX: https://x.com/alex\n\nLinkedIn: https://www.linkedin.com/in/alexwilhelm\n\n*\n\nFollow Jason:\n\nX: https://twitter.com/Jason\n\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\n*\n\nThank you to our partners:\n(12:36) LinkedIn Jobs - Hire right, the first time. Post your first job and get $100 off towards your job post at http://linkedin.com/twist Terms and conditions apply.\n\n(23:11) Every.io - For all of your incorporation, banking, payroll, benefits, accounting, taxes or other back-office administration needs, visit http://every.io/\n\n(29:53) Northwest Registered Agent. Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity —  Learn more at https//:www.northwestregisteredagent.com/twist\n\nCheck out all our partner offers: https://partners.launch.co/",
+    "duration": 3959,
+    "view_count": 27715,
+    "like_count": 654,
+    "channel": "This Week in Startups",
+    "upload_date": "20260209",
+    "thumbnail": "https://i.ytimg.com/vi_webp/DIEUGPdqM1Y/maxresdefault.webp",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

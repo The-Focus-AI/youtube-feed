@@ -1,0 +1,600 @@
+{
+  "title": "Beyond LLMs: JEPA and the Road to AGI – the main milestones so far",
+  "source_url": "https://www.youtube.com/watch?v=z0fh0SY3VWc",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If you spend enough time around the AI, you notice something. Beneath the high-launched benchmarks and reasoning debates, there is an older question, still unresolved. What would it actually take for a machine to understand the world?",
+      "tone": "introspective"
+    },
+    {
+      "timestamp": "00:00:15",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I mean understand it in the stronger sense, to form an internal model of what exists, what changes, what causes what, and what is likely to happen next.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:00:24",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The question never went away. It just got temporarily overshadowed by the astonishing success of large language models.",
+      "tone": "matter-of-fact"
+    },
+    {
+      "timestamp": "00:00:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And yet, in parallel, another family of ideas has been growing steadily and with a very different idea of what intelligence should be built on.",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:00:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And what makes it interesting now is that JEPA is no longer one proposal or one paper or one research path from Yann LeCun.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yann LeCun just called it a catalog, which is fair enough, but I think catalog is just too passive for a word when you actually lay these systems out side-by-side, what you see is a map.",
+      "tone": "contemplative"
+    },
+    {
+      "timestamp": "00:01:01",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And maps are useful because they show direction.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:01:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Hi there, this is Attention Span, my name is Ksenia, and today I want to walk through the map of JEPA because I think it reveals one of the clearest alternative trajectories in AI right now and one that matters much more than most people realize.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:01:28",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And if you have never heard of JEPA before, that is completely fine. In a way, that makes this episode even more useful.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:01:36",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Let's begin with the underlying disagreement. The dominant paradigm in AI today is built around generation. You train a model to predict the next token or reconstruct a signal or generate some output in raw space.",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:01:47",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And if you scale that process enough, remarkable capabilities begin to emerge and that is real. There is no point pretending otherwise. LLMs changed the field because they work.",
+      "tone": "acknowledging"
+    },
+    {
+      "timestamp": "00:01:57",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But there has always been another view. If your objective is to build systems that can reason about the world, plan in it, act in it, and eventually operate in physical or partially observed environments, then surface generation may not be the right center of gravity.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:02:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is where JEPA comes in. JEPA stands for Joint Embedding Predictive Architecture and the simplest way to understand it is this: instead of predicting raw outputs such as pixels or tokens, it predicts representations, meaning embeddings, meaning the abstract state that matters underneath the surface.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:34",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The idea is to learn from related views or current and future observations. This is important: current or future observations by predicting the latent representation of one from the other.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:02:47",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So rather than reconstructing what something looks like in all its details, the system learns to capture what is structurally important.",
+      "tone": "conclusive"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "About JEPA and how it changes.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:02",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That may sound subtle, but it is actually a profound shift in objective.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:07",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Once you start predicting in latent space rather than in raw space, you are already drifting away from pure generation and toward world modeling.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:17",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "You're asking the system to learn the state of the world, not simply its visible or textural surface.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:24",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is why JEPA matters. It is not just another model family. It is a different answer to the question of what intelligence should be optimized for.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:33",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Now, if JEPA was still just one conceptual framework, I would not call this a map. I could call it an idea.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:03:39",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But since the first JEPA paper in 2022, the family has significantly expanded.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "When you look across the milestones, you can see a very clear progression, and that progression is today's story.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:03:53",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It begins with JEPA and H-JEPA, which are the conceptual roots. Here the core principle is already in place: prediction in representation space, with H-JEPA adding a hierarchical view and multi-time scale structure that already points towards world models and planning.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "At this level, the family is still laying down philosophical and architectural foundations. It is defining the terms of the argument.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Then comes I-JEPA, and this is where the story becomes concrete. I-JEPA showed that this framework could learn strong semantic image representations...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:28",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "...without depending on some of the standard hand-crafted augmentation pipelines that had become common in self-supervised learning. It also scaled well, and every architectural direction needs one of those moments, one moment where the community has to stop saying, 'Huh, interesting idea,' and start saying, 'Alright, that actually might be a serious recipe.' I-JEPA is one of those moments for the JEPA family.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:04:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But the really important part comes next, because the family does not stay in static vision.",
+      "tone": "transitional"
+    },
+    {
+      "timestamp": "00:05:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "One of the clearest patterns on this map is the move from static perception toward dynamic understanding. And you can already feel that shift in MC-JEPA, which is more exploratory, but still meaningful because it tries to jointly learn motion and content features. In other words, the family is already trying to stop treating the world as a pile of frozen images and start treating it as something that evolves.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:05:28",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Then V-JEPA makes that move explicit. Now the model is learning from video, and whenever AI moves from images to video, the problem changes in a very important way because time enters the system. Motion enters the system. Persistence enters the system. You can no longer get away with merely recognizing appearances. You are beginning to model transitions, and transitions are much closer to the structure of the world than static categories ever were.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:55",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is one of the reasons I think JEPA is worth watching. It's not frozen at the level of perception.",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "JEPA keeps trying to pull time, motion, and eventually consequence into the architecture. And then the family broadens further.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Audio JEPA shows that the core principle is not limited to vision. Point JEPA and 3D JEPA extend it into geometric and spatial data.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:16",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That broadening matters because it tells you this is not a niche trick that only works for images under special conditions.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:06:25",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Their ambition is much larger, and the family is trying to become a general way of learning structured predictive representations across modalities.",
+      "tone": "ambitious"
+    },
+    {
+      "timestamp": "00:06:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "At this point, if you zoom out slightly, you can already see the map is taking shape. It starts with representation learning, moves into temporality, and then expands across modalities that are increasingly relevant for embodied and spatial intelligence.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:48",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But the next turn in the map is the one that really changes the stakes.",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:06:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And Act-JEPA pushes JEPA from perception toward control. It jointly predicts action sequences and latent observation sequences, which means the model is no longer only asking, 'What does the world look like?'. It starts to ask, 'What happens if an agent does something inside it?'. That is a very important threshold. Once you start modeling action and consequence in the same latent predictive framework, you are no longer building only a passive observer. You are moving toward something much closer to control architecture.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:07:25",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is where JEPA starts to become relevant, not only for representation learning, but for policy learning, planning, reinforcement learning, robotics, and agentic systems that have to operate over time rather than produce one-off outputs. And this is also the point where the phrase 'world model' starts sounding very literal. Because from here the family moves into V-JEPA 2, where JEPA becomes an explicit world model for understanding, for prediction, for planning with zero-shot robotic planning and visual subgoals in unseen environments.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "With V-JEPA 2, the architecture is openly being positioned as a basis for planning in the world. And once you have that, you can see the broader intention of the whole map much more clearly. It is trying to move from seeing the world to tracking the world to acting in the world.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:08:05",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Now, there is always a point in almost every promising model family where the exciting demos and bold ambitions have to make room for a more annoying question, which is: can this actually be trained cleanly, stably, and at scale, or is it going to remain a good idea wrapped in a fragile recipe? This is where LeJEPA enters the story, and I think LeJEPA is one of the most important milestones on this map, even if it is not the most flashy one.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:08:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "LeJEPA is the theory and training cleanup layer. It introduces a more principled objective, argues for isotropic Gaussian embeddings, and adds VICReg as a regularizer.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Regularizer, to make JEPA training more stable and less dependent on a pile of heuristics.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:06",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And why does it matter so much? Because architecture families do not become foundations just because they are elegant. They become foundations when other people can train them, reproduce them, extend them, and actually rely on them. And if JEPA is going to matter beyond a few papers and a few labs, V-JEPA is that clean-up layer that it needs.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:26",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And once you get past that point, the newer members of the family become easier to read as directional signals.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Causal-JEPA pushes toward object-centric and causally meaningful representations.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:40",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That is interesting because a lot of the real difficulty in AI is not recognizing correlations, but distinguishing structure that is useful for intervention and planning.",
+      "tone": "contemplative"
+    },
+    {
+      "timestamp": "00:09:50",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "V-JEPA 2.1 improves representation quality further.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The World Model presents a cleaner JEPA-style world model, trained end-to-end from raw pixels.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:56",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Think-JEPA pushes toward longer horizon reasoning by combining JEPA-style world models with a semantic thinking pathway derived from visual language models.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:10:06",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Again, if you read this as isolated papers, you get one impression. But if you read them as points on a map, you get another. The map suggests a fairly coherent arc: first, learn good latent structure; then, learn change over time; then, learn action and consequence; then stabilize the training stack; then push toward causal understanding and long horizon planning. This is an actual map. This is the path. You are observing how one branch of AI is trying to grow into a different theory of intelligence.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:10:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Is this an alternative to LLMs? This is the point where people usually want a neat showdown because every AI story now gets flattened into 'who wins'.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:10:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But I think it's just the wrong frame. JEPA is not interesting because it gives you a dramatic replacement narrative where LLMs suddenly become obsolete.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is not serious analysis.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:11:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "LLMs have enormous practical advantages. They have infrastructure, ecosystem, developer mindshare, commercial deployment, and a staggering amount of optimization behind them.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "They also continue to improve. None of that disappears because a different architectural family has a more world-centric objective.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:15",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "At the same time, there is also no reason to pretend these two paths are equivalent.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:11:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "They are organized around different instincts. The LLM path scales next-token prediction and then layers on memory, tools, scaffolds, and reinforcement learning.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The JEPA path begins from predictive latent structure and treats world modeling as the center rather than side effect.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:32",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Those are different bets about what general intelligence will require.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:37",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And if the future of AI leans more heavily into robotics, which we see it's happening, embodied systems, simulation, planning, and autonomous agents operating in partially observed environments, then architectures with stronger world modeling priors...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "begin to look more compelling. That does not automatically make them winners,",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:04",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "it just makes them highly relevant. It just requires more research.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And in fact, one of the more plausible outcomes is convergence.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "We may end up with hybrids where generative interfaces, language priors, semantic abstractions, latent world models and action planning all get layered together in awkward but powerful ways.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:26",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Think JEPA already hints in that direction.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:12:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, the important question is not will JEPA defeat LLMs.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:12:34",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The important question is whether the capabilities people increasingly want from AI can be delivered well by generation alone or whether they will force the field back toward architectures that model the world more explicitly.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:12:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So when you look at this map of JEPAs, I would not treat it as a pile of acronyms to memorize.",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:12:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "You can call it an alphabet of JEPA of course, you can call it a catalog, but I would like you to treat it as the clearest window,",
+      "tone": "suggestive"
+    },
+    {
+      "timestamp": "00:13:01",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "the clearest map into a different trajectory in AI.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:13:07",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It begins with latent prediction as a principle, it moves into vision, then video and motion, and then across modalities and then into action and then into world models, then into more stable theory, then into causality and longer horizon planning.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:13:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is a very specific pattern and whether or not this family becomes central, it is already telling us something important about the future of AI.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It is telling us that for a growing part of the field, fluent generation is not the end of the story.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:13:38",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The harder objective is learning the structure of the world itself.",
+      "tone": "philosophical"
+    },
+    {
+      "timestamp": "00:13:42",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And that is why I think JEPA is worth your attention now.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:13:48",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you for watching, let's discuss it and leave your comments, leave what you think is the most interesting JEPA development and how you think the future of AI will unfold. Thank you.",
+      "tone": "friendly"
+    }
+  ],
+  "highlights": [
+    "JEPA (Joint Embedding Predictive Architecture) represents a shift in AI from generating raw outputs like pixels or tokens to predicting abstract latent representations. This allows the system to focus on the underlying structural meaning of the world rather than just surface-level details.",
+    "The evolution of the JEPA framework demonstrates a clear trajectory from static image recognition toward dynamic world modeling. By incorporating time, motion, and action-consequence sequences, the architecture moves AI closer to being able to reason and plan in physical environments.",
+    "Unlike the dominant paradigm of Large Language Models that scale next-token prediction, JEPA treats world modeling as the primary objective rather than a byproduct of scale. This makes it a highly relevant foundation for robotics, autonomous agents, and systems that must operate in partially observed environments.",
+    "The future of artificial intelligence may lie in the convergence of generative models and world models. Rather than one replacing the other, hybrid systems could combine the semantic fluency of language models with the latent planning and causal understanding provided by the JEPA framework."
+  ],
+  "summary": "The transcript explores the Joint Embedding Predictive Architecture (JEPA) as a significant alternative to the dominant generative AI paradigm. While Large Language Models (LLMs) focus on predicting the next token or reconstructing raw pixels, JEPA prioritizes learning the underlying structure of the world by predicting latent representations, or embeddings. This approach shifts the goal of AI from surface-level generation to building internal \"world models\" that understand cause, effect, and change. By focusing on abstract state transitions rather than just visible details, JEPA aims to create systems capable of true reasoning, planning, and acting in physical environments.\n\nThe progression of the JEPA family reveals a clear trajectory from static perception to dynamic, embodied intelligence. Starting with foundational image representation (I-JEPA), the architecture evolved to handle motion and time through video (V-JEPA) and expanded across multiple modalities like audio and 3D space. The most critical shift occurs with Act-JEPA and V-JEPA 2, which move the framework toward control and planning by predicting the consequences of an agent's actions within a latent space. Recent efforts like LeJEPA and Think-JEPA have focused on stabilizing the training process and pushing toward long-horizon reasoning and causal understanding, making the architecture a viable foundation for autonomous robotics.\n\nUltimately, the speaker suggests that JEPA is not necessarily a direct \"LLM killer\" but rather a different bet on what intelligence requires. While LLMs currently benefit from massive scale and commercial infrastructure, JEPA offers a world-centric objective that may be more suitable for embodied systems and agents operating in the real world. Rather than one replacing the other, the future of AI likely involves a convergence of these two paths—combining the fluent generation and linguistic priors of LLMs with the explicit world-modeling and predictive planning capabilities of the JEPA framework.",
+  "description": "What would it actually take for a machine to understand the world?\n\nEven as we’ve been distracted by the immense success of LLMs, that question never really went away.\nAnd that is exactly the question behind JEPA – Joint Embedding Predictive Architecture. \nIn this episode, we are discussing why this family of models matters far more than most people realize. And we map the evolution of JEPA from an elegant idea into something much bigger: a growing architectural family that moves from latent prediction to video and motion, to action, to world models, to causal understanding and long-horizon planning.\n\nIs this a story about “who wins”? *Watch the episode!* \n\n*We explain:*\n*Why JEPA exists at all:* the core disagreement with the dominant generative paradigm.\n*LLMs vs JEPA:* next-token prediction versus learning structured latent representations.\n*The major milestones:* JEPA, H-JEPA, I-JEPA, MC-JEPA, V-JEPA, Audio-JEPA, Point-JEPA, 3D-JEPA, ACT-JEPA, V-JEPA 2, LeJEPA, Causal-JEPA, LeWorldModel, and ThinkJEPA.\n*Why I-JEPA mattered:* the first concrete sign this was more than a philosophical alternative.\n*Why video changes everything:* once time enters the model, AI has to track transitions, persistence, and consequence.\n*When JEPA starts touching action:* the shift from passive perception toward control, planning, and robotics.\n*Why LeJEPA may be one of the most important steps:* not flashy, but crucial if the whole family is going to train cleanly, scale reliably, and become usable beyond a few labs.\n*The bigger question:* is JEPA an alternative to LLMs, a complement to them, or the early skeleton of a more world-grounded form of intelligence?\n\n\n*Links Mentioned*\nYann LeCun / Meta on early JEPA research:\nhttps://ai.meta.com/blog/yann-lecun-advances-in-ai-research/\nWhat is LeJEPA? The Theory Upgrade JEPA Has Been Missing https://www.turingpost.com/p/lejepa \n14 JEPA Milestones as a Map of AI Progress https://www.turingpost.com/p/jepamap \n\n\n*Attention Span* is here to show you AI isn’t magic. Sometimes the most important shifts in the field come from relentless research in underhyped areas.\n\n👉 Subscribe for more high-signal AI mechanics\n👉 More analysis: TuringPost.com\n👉 Interviews: / @realturingpost\n\n#AttentionSpan #JEPA #AI #YannLeCun #WorldModels #LLM #ArtificialIntelligence #MachineLearning #Robotics #SelfSupervisedLearning #AIResearch #MetaAI #EmbodiedAI #Planning #DeepLearning",
+  "duration": 845,
+  "people": [
+    "Ksenia Se",
+    "Joint Embedding",
+    "Predictive Architecture",
+    "Links Mentioned",
+    "The Theory",
+    "Has Been",
+    "Attention Span"
+  ],
+  "topics": [
+    "The conceptual disagreement between the generative paradigm (LLMs) and Joint Embedding Predictive Architecture (JEPA)",
+    "The evolution of the JEPA family from static image representation to dynamic video and temporal understanding",
+    "The shift from passive perception to world modeling, action-consequence prediction, and robotic planning",
+    "The role of training stability and theoretical cleanup in scaling JEPA-style architectures",
+    "Future trajectories in AI focusing on causal understanding and long-horizon reasoning"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/z0fh0SY3VWc/maxresdefault.jpg",
+  "date": "20260330",
+  "youtube_url": "https://www.youtube.com/watch?v=z0fh0SY3VWc",
+  "youtube_metadata": {
+    "title": "Beyond LLMs: JEPA and the Road to AGI – the main milestones so far",
+    "description": "What would it actually take for a machine to understand the world?\n\nEven as we’ve been distracted by the immense success of LLMs, that question never really went away.\nAnd that is exactly the question behind JEPA – Joint Embedding Predictive Architecture. \nIn this episode, we are discussing why this family of models matters far more than most people realize. And we map the evolution of JEPA from an elegant idea into something much bigger: a growing architectural family that moves from latent prediction to video and motion, to action, to world models, to causal understanding and long-horizon planning.\n\nIs this a story about “who wins”? *Watch the episode!* \n\n*We explain:*\n*Why JEPA exists at all:* the core disagreement with the dominant generative paradigm.\n*LLMs vs JEPA:* next-token prediction versus learning structured latent representations.\n*The major milestones:* JEPA, H-JEPA, I-JEPA, MC-JEPA, V-JEPA, Audio-JEPA, Point-JEPA, 3D-JEPA, ACT-JEPA, V-JEPA 2, LeJEPA, Causal-JEPA, LeWorldModel, and ThinkJEPA.\n*Why I-JEPA mattered:* the first concrete sign this was more than a philosophical alternative.\n*Why video changes everything:* once time enters the model, AI has to track transitions, persistence, and consequence.\n*When JEPA starts touching action:* the shift from passive perception toward control, planning, and robotics.\n*Why LeJEPA may be one of the most important steps:* not flashy, but crucial if the whole family is going to train cleanly, scale reliably, and become usable beyond a few labs.\n*The bigger question:* is JEPA an alternative to LLMs, a complement to them, or the early skeleton of a more world-grounded form of intelligence?\n\n\n*Links Mentioned*\nYann LeCun / Meta on early JEPA research:\nhttps://ai.meta.com/blog/yann-lecun-advances-in-ai-research/\nWhat is LeJEPA? The Theory Upgrade JEPA Has Been Missing https://www.turingpost.com/p/lejepa \n14 JEPA Milestones as a Map of AI Progress https://www.turingpost.com/p/jepamap \n\n\n*Attention Span* is here to show you AI isn’t magic. Sometimes the most important shifts in the field come from relentless research in underhyped areas.\n\n👉 Subscribe for more high-signal AI mechanics\n👉 More analysis: TuringPost.com\n👉 Interviews: / @realturingpost\n\n#AttentionSpan #JEPA #AI #YannLeCun #WorldModels #LLM #ArtificialIntelligence #MachineLearning #Robotics #SelfSupervisedLearning #AIResearch #MetaAI #EmbodiedAI #Planning #DeepLearning",
+    "duration": 845,
+    "view_count": 8415,
+    "like_count": 568,
+    "channel": "Turing Post",
+    "upload_date": "20260330",
+    "thumbnail": "https://i.ytimg.com/vi/z0fh0SY3VWc/maxresdefault.jpg",
+    "tags": [
+      "AttentionSpan",
+      "JEPA",
+      "AI",
+      "YannLeCun",
+      "WorldModels",
+      "LLM",
+      "ArtificialIntelligence",
+      "MachineLearning",
+      "Robotics",
+      "SelfSupervisedLearning",
+      "AIResearch",
+      "MetaAI",
+      "EmbodiedAI",
+      "Planning",
+      "DeepLearning"
+    ]
+  }
+}

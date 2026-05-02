@@ -1,0 +1,1289 @@
+{
+  "title": "Inside NVIDIA’s Plan to Bring Self-Driving to Every Car | Ali Kani explains",
+  "source_url": "https://www.youtube.com/watch?v=lnNi72Md9I4",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Compute, it becomes data, right?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:01",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "That software can be in every car.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:00:04",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "But I think next year I'd love to actually have no one sitting there.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:00:08",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Self-driving, the key pieces of technology are...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:19",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I've always been a big believer in self-driving cars, and an active user of them. But for a long time, self-driving lived inside closed systems, like Tesla or Waymo. So what happens when you build an open end-to-end platform that others can actually use to develop their own autonomous driving? NVIDIA is now making this happen, and we were among the first to try it in real life, in the heavy and dense traffic of San Francisco, while interviewing Ali Kani, their vice president of automotive at NVIDIA. It's a conversation about a future that starts tomorrow. Super exciting.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:06",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "There's a little choppy spot here, so let me just give you a summary. It's a level 2 car, so it can never be fully self-driving, but it's not marketed as being that. It has a single Orin computer, which is just hundreds of dollars, so not an expensive computer. And it has 10 cameras, so surround cameras, 5 radar, surround radar. And then it has 12 ultrasonic sensors—those little sensors that we put on the bumpers so that if we're parking, it has really good detection in short range. So it's a very low-cost sensor set. You could put this computer and these sensors for less than a thousand dollars. So it's not expensive to put this in every car.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And when we will be getting closer to L4, it will be different hardware.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:01:54",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Yeah, so we announced at this GTC, so the architecture for level 4, we call it Hyperion. So this is a single Orin and it's 250 TOPs. Two Thors together are 2,000 TOPs. So quite a bit more compute. And then it has lidar as well. And the thinking there is, is we architected the Hyperion platform so that if either computer fails, there's a backup computer. So—and by the way, now we're—now we're engaged. Everything that you're going to experience now is the car is doing it. The driver does not initiate any actions. But so if any computer fails, we still can drive you safely. But also we have redundant sensors. So if something is wrong with any camera or radar or lidar, there's a backup way for us to see something. And then also on the software side, we have multiple algorithms. So we have an end-to-end model that we're going to be driving on. And the software architecture is actually very similar for this and the future system, where we have an end-to-end model that is literally like a large language model that a...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "ChatGPT is based on accepted video language models, so it also understands video and radar and that just takes sensor input in, tokenizes what it sees for everything, and then it gives a trajectory out. And then we fused that with a more traditional classical stack, which is functionally safe, and we can trace that stack through our software architecture to ensure that we architected it to never make a mistake. So we call that Halo stack, just because it's essentially the safety guardrail, it's the guardian angel of the VLM model. That, by the way, to us is key. Every next-generation AI system, we need something to ensure it doesn't make a mistake. And so you need some guardrail. And so what you're experiencing here is the two stacks running together, and the classical stack is the safety guardrail of the VLM model.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If you can just name the classical stack and then end-to-end platform?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:52",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "The VLM model is called Alpamayo, and our classical stack is called Halo.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:57",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So this is the newest version of Alpamayo. What has changed since CES when you announced it?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:04:03",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Okay, so we're constantly making it a better model, so the performance of the model is better. It has more flexibility in how we can configure one camera, two cameras, four cameras, or let's say ten cameras, so you can take more of the sensors as an input. We also added navigation as an input, so the navigation map, which in this case happens to be a Google navigation map, that can be an input into Alpamayo, so it actually knows where it needs to go. So if we know we need to go left soon, we might go into the left lane. So it becomes an input into how the model thinks. And then also we can now take text as an input to the model. This specific version in the car, by the way, hasn't yet taken that, but I think you're asking because we talked about it at GTC. So the parent model, Alpamayo, that we open-sourced this week has all those features, and then we'll pull that in, distill it down, and we'll make it run in this car.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So the initial, the original model is large?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:04:57",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "That's right. That's right. And so then every one of our partners can take that and they can distill it down to whatever their hardware is.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:05:06",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Is it safe to have a distilled model?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:05:09",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Sure. Sure. Yeah, that's what we do. That's how we did it in this one. We distilled the model down.",
+      "tone": "reassuring"
+    },
+    {
+      "timestamp": "00:05:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Awesome. If you can walk us through what did you see through almost eight years of being in automotive? Like, how did it start?",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:05:20",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Yeah, so we've been working on self-driving for a little over ten years. It's kind of exciting for us because now we're at this inflection point where we feel like all the pieces that are needed for self-driving, the key pieces of technology, are there, and we're seeing pilots actually in multiple cities now. And what are those pieces? So the first is we need a model that can actually understand and tell us what to do even if we haven't had data for it. And so that's what Alpamayo is. It's a vision-language-action model with reasoning. And so the point of it is, is if we see something on this drive that maybe we haven't seen before, it can break it down.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "down into smaller pieces, think it through, a good chunk of those smaller pieces it actually knows how to act, and then maybe there's a small part of it then that it needs to think through and then it still chooses the safest outcome. So that's important because there will be times where we've never seen it before in our development, but it still needs to, just like us as humans, we can think about it and decide even if we haven't dealt with it before. So that's important, but then also you need a world's foundation model to generate data because we won't find everything in our real driving, and we need of course a simulation platform that is physically accurate, so you know you say Omniverse and Cosmos, those two go together, but we have built that, we open source it, people might have built their own way of doing it, right? But that is a critical piece of technology you need to solve self-driving, because then if you and me talk about a scenario that's rare, we can create it synthetically in simulation a lot easier and faster than, let's go find cases where this thing is on the road, suitcase is on the road. I haven't seen that in my life but I know it's happened. And so then we can synthetically generate a whole bunch of that kind of a scenario, different sizes, different colors, and then we can test our model on that and that's a lot better way to do it than, you know, we found it once, so we have one data of this one example.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Do you think you closed the amount of data Tesla has for self-driving?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:07:27",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "So I think since they've been doing this longer than us, they have more real data than us, but we supplement the real data that we've got with synthetic data. Combination right now for where we are, I don't think we feel that data is a problem. We just generate it. Compute becomes data, right? So we synthetically generate what we're missing. But the other thing is, is we're now in more and more cars. You can buy this car and we can get data from that car. Eventually we will be in every Mercedes-Benz car, every Jaguar Land Rover car, and so you know, I think we'll have hundreds of millions of hours of data and I think that's very helpful for us on our path to level four. This car for level two, I think we're fine, but I think getting incremental data and having the compute to train and test those models together, I think what we feel good about our ability to get this to level four. And I think we announced we're going to get there and we're going to start doing trials next year.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:24",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What are you still missing?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:08:26",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "So I think the Hyperion architecture, so what's in this car, I think we need more compute in the car, we want more sensors, we want lidar, we want more camera and radar for some of our blind spots. The other thing is, is we want to improve the closed loop simulation test capabilities of our stack. Today the way we do it is, is when we have a issue, we can reconstruct that using really important software that we call neuro reconstruction. So it takes the logs of the camera and we neuro reconstruct it. It's now in sim.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "And then, when it's in SIM, we then test the software, see that we had a failure, we come up with a fix, we run it on that scenario, see that we passed, and then we use Cosmos to add, we say let's add more cars or pedestrians, let's add a more complicated intersection, let's do it at the daytime, nighttime. So we add all this variety, and then we feel like, hey, our model robustly handles an area we had a fault.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:25",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "So this is interesting. So you see how there's a bunch of cars that are stopped on the road? This ends up becoming very common in San Francisco. So maybe if we, and here's a construction area. So this wasn't here yesterday. It's actually we have to move out of this lane, right? And it was perfect, we saw we could go left or right on these signs, we picked left. Now why in this case did we pick left? There's, you know, we have to look at comfort, we have to look at safety, and we also have to look at where our route is going to take us, right? So in this case, we factor all of those things and we see that pretty soon we need to go left. So it made sense to pick the left path for ourselves.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If we go back to history, what were the moments when you thought, oh, we will never make it?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:10:08",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Well, I mean, we've had so many challenges in this timeframe. So, you know, I think for us it's never... we never thought we wouldn't make it, but I think that we definitely felt like very fortunate that we were at NVIDIA and we had the ability to make the investments we made. The self-driving is such a grand challenge, and you can't make any shortcuts. So the reality is, it costs a lot more than any of us thought, and it took a lot longer, and we're lucky that we can keep working on what we love to do. And there's many cases of partner companies that it's just too much cost, right? Like too much time, and so, you know, you can't continue to do it. And then we also are fortunate that we can make investments for things like Omniverse and Cosmos. It's not just for automotive. It's for all of physical AI, we get to use it.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:10:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "From what I saw in one of the demo videos is that even when the driver gets the control back, the system still engages, right? How do you do that?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:11:08",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Yeah, so there's a feature in this car, it's called collaborative steering. So, and this is a level two, right? So you kind of have to be... so here's a lane is ending for us. We have to go right. I think in some cases, in this case, I think we might ask him to help us. Let's see. We're trying to go, so let's see. He didn't let us go. Thank you.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:11:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah, AV cars are very polite. They're too polite for humans. You need to be bold.",
+      "tone": "cheerful"
+    },
+    {
+      "timestamp": "00:11:37",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "But at the same time, you also always need to be risk-averse. It's a combination, right? So that balance is what one of the hard challenges of getting right. I'm happy we did it. We actually did. So now I think we're in and we'll just need the space to finish the lane change.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:11:51",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yep, this car is letting us go. Car, you can go!",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:11:56",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "So we are getting close to the Union Square area at around lunchtime.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Sometimes it just gets really crowded.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:02",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Mhm. Are you intervening at all or is it Halo?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:12:05",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "No, the car is doing it all. Yep. That was really hard, guys, because we needed to change lanes twice in this congestion.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:12:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "No, that's impressive. Is it required to keep your hands on the steering wheel?",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:12:16",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Yes, yes. So this is a safety feature that our partner chooses. Because it's Level 2, when we drive in the city, if we're doing a turn, the time it takes—so let's say that I said your hand can be off the steering wheel—the time it takes for you to go from that to hold the steering wheel in the middle of a turn, you might not actually be able to be fast enough. So it's actually like for—for—for our partner, it's just never safe to tell you on a turn in an intersection that your hand should not be on. Now, we're driving it and you see that it's doing it fine, but the point is, is actually steering can fail in a car. It's not—it's not just the self-driving might be wrong. There might be a failure in the steering. And so what happens if that, you know? And so in this case, it's safe to just have your hands on the steering wheel.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:13:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So as a partner choice?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:13:01",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "It is an added layer of safety.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:03",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "That's right. There are some partners—there are some people who have cars that actually let you have your hand off, and it's just a, 'Hey, we think it's safe enough.' This is a good case. I don't know if you guys know, there are some cars that they don't realize that even though you can turn right on red often, this is a no-right-on-red intersection. So you have to actually know with camera perception...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:29",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "...that this is a no-right-on-red. So there's a rule that so the safety stack, the Halo stack actually says we cannot go right. So even though the intent model might say, 'Hey, I'm going to turn right right now because I can,' the safety stack says, 'Hey, it's not—it's not allowed.' And so it holds it.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:13:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And the computer vision part of this stack, can the car actually read the signs?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:54",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "It does. There actually is in Halo sign detection. So we have all the signs of the world and we have classified them.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah, I don't think Tesla reads the signs.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:14:03",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "That would be a traditional thing that they used to have, and I'm not sure if they still use those anymore. They might just say, 'Hey, we—we understand what's happening and we'll just handle it.'",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I mean, right, it's just my feeling when I am in my self-driving car, it has some signs in the system, but it cannot read all of them on the road.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:14:22",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "In my car—I will not name it—but in my car, I would go right on red. So it's weird, and I'm like—'cause you don't want to break the law, right? So it's driving really well, but like, you really shouldn't do that.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:14:32",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So do you drive like a—a demo build car, or do you just have a consumer car in your life?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:14:38",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "I have a consumer car. For this car, we do demo builds. You are driving a demo build right now, right? Because we are giving you early access to something that we will release next quarter. And there are issues still. So I think it's still not good enough just yet and we'll continue to make it better. So that's the one thing is, is the first release is a beta the next quarter because we think it's good enough that people can use it, but it's still not perfect.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "But it will take us, you know, through the year to actually say that now it's not a beta. We made this...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:06",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Which issues that you need to solve?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:09",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Sure. I mean, I think there's a lot of polish. Sometimes you feel a little ghost brake, I would call it, which I felt just a little while ago. The way when we're in intersections that are unprotected and we have to negotiate who goes and how we handle that. Yeah, we're negotiating right now how to turn yellow light on us.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "One thing that's nice is as you're back to it, but you see we were doing a lot of things. So there was this stop car in front of us, we ran around the stop car. You didn't feel we were doing something crazy, but actually that was a hard thing to do.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:43",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "In downtown San Francisco. That's one of the things that an end-to-end model does a good job of because it's actually trained on good driving. As a matter of fact, if the drive is not good, we have an AI model that grabs all our data and filters scores drives in terms of how good is the drive. If the drive is bad, we don't want to train off of that. And so when when we're driving right now, hopefully you feel like, hey, it's pretty smooth, the way it accelerates, the way it slows down, the way it takes a turn, because it's only trained on good driving.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:16",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Did you have to do anything with stop signs? I know that there's a lot of drivers who just roll through the stop signs not actually doing what they're supposed to.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:16:25",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Yeah. So that is an example of this contention handling we're talking about. Because let's say it's our right of way, right? Then we start to go. Then if that other car on the other part of the intersection on the stop sign goes, then what we do is we have to stop, right? So we kind of stop. And then there's a negotiation. It's like, are you going to stop? So then let's say they keep going, we let them go. Even though we had right of way, because we see that we're going to hit each other, right? So we say, we're going to stop, we let them go. But if they don't go and then they stop, we know we had right of way, so then we would go. And that is an example of something that continues to need polish.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:17:04",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And I would think for like, you know, we passed a few like Waymos and things that are obviously driving themselves versus this car, maybe it's not clear to other drivers if there's a machine driving it. And I know people know that they would always win a fight with an automatic car. Like that self-driving car would chicken out first. And so they would change other drivers' behavior. Do you see anything like that?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:17:22",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "I think because this is level two, often someone doesn't know, right? How would you? You wouldn't actually know. So I think in this case, people are just thinking that, you know, Ted's driving the car.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:17:32",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I was actually thinking like you need to forecast in the future when more cars will be self-driving. How would they communicate?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:17:39",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "There has been talk about like a way for them to communicate to each other, but right now there's no, you know, it's not like there's a way that we're talking to them. But there are talks about, you know, putting, you know, the brain in a network so we all know what each of us are thinking. It's not necessary because we as human drivers...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "not communicating with each other and we can still drive safely.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:02",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I would think it's just like the next level of safety.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:18:05",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "That's true. Exactly.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:06",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But can you implement something like this into your platform so later it will be distributed to many cars?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:18:12",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Yeah, so there are interfaces, so this would be something that is coming through cellular, right? So there are interfaces that we have where information can be fed into our world model. What we're mean by world model is everything the car sees and our prediction of what everyone is doing becomes our world model. It's our view of what is happening in front of us. So we can take as input not just the navigation map that we were talking about, but also that information that's coming from the cellular. So it's almost like, hey, there's construction over there. Like all that information can come in and we can use it as information before we decide what we're going to do.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:18:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What role does the new Alpha Dream play?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:18:55",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Oh my gosh, it's so important. That's a really exciting piece of technology we talked about at this GTC. What it is, is simulation today we create scenarios and we test on the scenarios that we created. Now Alpha Dreams is generative simulation and it's real-time generative simulation. So what that means is is it's just generating a new scenario live and the stack, Alpha Mio would actually drive it live. So it's an infinite driving closed-loop simulator.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:20:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Like for example, if we imagine it's working now with this reality but then it creates all the different realities and then...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:20:06",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Yes, it just creates what will happen next. It can take the history and it can just keep creating forward new scenarios live and Alpha Mio can keep driving in all that random scenarios live. And so it accelerates our development flow, right? So I think that's really helpful technology and foundational. And it'll help us, you know, it'll help us have a more robust software stack.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:20:20",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "For some reason, I thought Cosmos was doing that.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:20:23",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Cosmos is generating synthetic data and Alpha Dreams will be generating simulation scenarios live that a car can drive on. So it's closed-loop simulation, generative closed-loop simulation. So that loop is actually happening live.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:20:32",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Is Alpha Dream in this car already?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:20:34",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Uh, so this would be software that runs in the cloud that we use to test to this software. We don't yet have it at a point where we're using it in our development loop, uh, but it will be coming in the next few months. And so we'll be using it, uh, and then we'll release it, right? That's what we do is is all of the software and tools that we're using, we open source them and we give them to the community, uh, just to help push the ecosystem forward. But so here, you guys see the car in front of us is uh stopped, so we have to go into the right lane even though we need to go left. So do you see this? We need to go left right after this, but this is a stopped car in lane, so we have to go around it and then quickly...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, what would you say next GTC in in a year we'll be able to actually drive those cars?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:21:06",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "So, definitely you can own this car and you can be racing this even this year. But I think next year I'd love to actually have no one no one sitting there. Um so I think that's where we would like to be.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:19",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:21:20",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Right. We mentioned it in the first half of the year we'll start trials. So, and I think that's about what we think.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:21:26",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Is there any additional price for self-driving in this cars?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:21:29",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Yeah, yes. So, you see how Tesla charges, I think it's 8,000, right? It's eight now, it used to be 15.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:38",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:21:39",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "But I think it's eight now. Mercedes has its own pricing. I think they have options as far as pricing options. They have like a one-time or it can be a subscription and it's your choice.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:48",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Subscription business coming to cars.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:21:49",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "And I think Tesla recently updated that over time they want to remove their 8,000 option. It's only monthly.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah, monthly or annual.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:21:56",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Where else do you guys doing trials on things? Like I noticed with the Tesla, it feels like it handles California road conditions much better than old New England snowy roads conditions.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:22:08",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Yeah. Yeah, we're sending a fleet at like everywhere right now. So what we did was we identified 20 cities which are relatively unique. So it's about, it's technical, like it's like what are the most unique cities? And then we also included where where are most of the customers going to be because that's another area where it's like, hey, we care about this. Don't don't just think it's the same and let's get that down. So we're actually we send a fleet of cars there to test and also get data. And then based on that we kind of the model is very generalist. So it's pretty good, but we make sure that it's as good everywhere. And then we'll slowly release it as our metrics tell us that we're ready, but it will be at a nationwide.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:22:57",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And does it like adapt itself to where it's driving? Like people in Boston have a certain style of driving and their four-way stop sign and this is how you negotiate in this type of environment or is it...",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:23:08",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Yeah. So the model should be able to generalize and handle these things. There also is OEM settings, so I will say that for example when the laws are different. So in Germany, since we're already in Europe, right?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Right.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:23:23",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Everything is different. For example, how close there's settings for how do you drive in the Autobahn. If you're in the left lane, be in the left lane if you're going very fast and you're passing. And after that get out of that lane, go to the right lane. So that is a rule of the road and that's in in our stack. And so if states are different, we can actually add that because we know what state we're in and so we can kind of add those rules to the stack. So even though it's a single stack, it understands and it has that notion and by the way laws are different, right? Like how fast can you go on...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "...a highway road is different, and of course we have speed sign detection that helps us, but it's also good to know.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:06",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah, of course.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:24:08",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "The other thing I've noticed in Europe, you have to be closer to a sidewalk because their roads are narrower. So in the US, we actually have a setting that kind of tells us like, don't drive closer than three feet from that curb. But then you can't actually give yourself three feet in Europe and drive because there are some really narrow...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:26",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "They're very narrow.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:24:27",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "So you have to—so like some of that is OEM configurable, but it's also region configurable, right? It's like, hey, we can't do that, otherwise we'll never be able to drive. So there's different settings for these.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:38",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And is that something that you explicitly set, or is that something that the models have picked up on based on the training data?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:24:46",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "It's both. So the model will pick up on it because you kind of learn how people drive in a certain region. But then in some cases, the OEM also just says, I want these settings in this region because, you know, we've developed that know-how. And so the safety stack then blocks the—no matter what the model would do, the safety stack says, hey, I want to make sure you meet these constraints that have been set. And often those are laws, by the way, so they're there for a good reason.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:25:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Right. Right. I always think of the stop sign example, which like if you were just based on how people's behavior, you would never conform to the law.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:25:21",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "We live in the woods, so a lot of the roads don't have any markings on them. And the car wants to stay on the right side of the road, which is just not how you drive there. Like you drive in the center of the road...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:25:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "In the middle, yeah.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:25:32",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "And then if something comes, then you move out of the way. And it's very—especially if there's someone who's hiking or on a bicycle, the human driver would be way over on the other side of the road, but the self-driving car follows the rules a bit more. So those types of differences always wonder, because they're not really like rule-rules. That's right. Just how you behave on the road.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:25:54",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Oh, I hope we get some like hard things out here. This is—this is a very congested, like take a lot of people. So sometimes you get people crossing the street at random places. Got this guy. We've got a bias over. That was nice.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:26:06",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The car goes pretty close. It's safe, but it's not freaking out. I like it.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:26:11",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Yeah. And then you just see how we biased over with that bicyclist? We moved over to the left.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:15",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It was gentle.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:26:16",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Yes.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:17",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I'm very excited. And what I'm excited about is that that software can be in every car. Tesla is a closed system and this—this system allows many, many cars to become self-driving cars.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:26:32",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "And any pieces of the software, right? You could—you could use the software that we have, or you could take all our tools, build the software yourself.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:38",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Do people use it a lot as open source or do they still require your help?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:26:44",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "They use it a lot. I mean, we have 150,000 downloads of AlphaPilot we released it just a few months ago.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Huge.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:26:50",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Yeah. The physical AI data set that we released, it's an automotive data set. There's 1.5 million downloads.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:57",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What do people do with that?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Just practice making autonomous driving software.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Incredible.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:01",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "It could be Hobbyist.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:02",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That's amazing.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:27:02",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "GTA 15.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:03",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Here's a parked one.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:05",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So smooth.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:27:07",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Look at that scene.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:08",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Nice.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It is actually very smooth.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:27:14",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "And these are hard, like I just feel like even us as humans we would be a little bit like we'd want to hesitate, we'd want to look.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:27:21",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "I was literally just thinking this is better than the Uber driver that took me over here.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:27:24",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Okay, so there was a moment where they just slammed on the brakes and they did whatever it was.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:27:30",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "So now look at this. So this car, the problem is is he's a little bit close to the stop sign ahead.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:27:36",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "So this is complicated, right? Like can we get there and then get back?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:27:41",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "So it has to think about that. Looks like I think we can, by the way.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:27:46",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Sure, just about.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:47",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah, it's a stroller, just to add to the feeling that we're in a simulation right now.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:27:52",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "So that was good. So like to see, that was tight. We barely made it back and it was thinking, can I make it back in time for that stop sign?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:27:59",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Is there a way in the demo that you could see the thinking process on the screen? Is that something that's available on the road or is that just a test?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:28:09",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "We do, it's just not in this. So this happens to be, you know, we purchased this car so it's the production car. In our development car we have another screen.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:28:17",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "That other screen actually shows exactly that. It's like a, we call it visualization and it's showing you all the things including our predictions that we're seeing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:28:28",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "And all of that is captured because whenever we do a drive, there's things that are learnings, right? That the car is grabbing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:28:34",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "And we use all of those captures to then figure out what, whoops, what went wrong and then we fix it.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:28:40",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "So this is like a literally off-the-shelf car from a dealership or whatever.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:28:46",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Yeah, we purchased this car. It's just easier that way just because then it's like um, when it's your partner's car.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:28:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:28:53",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "It's just a process, right? It's like, you know, why... but we got this car, we paid for it, you know, and we're just kind of demoing our software and our plans and not, you know, it's not... we're not announcing anything for prior authors other than ourselves.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:29:07",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "There's a visualization there that they have, that shows you what we're seeing, the ego car, all the cars around us.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:29:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I always like to see how it shows the dogs, people, cars.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:29:17",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Yes. It was cool. There was a bunch of kids, so I noticed, that was nice. There was like 10 people right there and we just went by.",
+      "tone": "recalling"
+    },
+    {
+      "timestamp": "00:29:26",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "There's a lot of room for innovation in terms of what we show in the car and what we tell you in the car.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:29:32",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "The Alpha Mayo that will run on Thor is a language model. So then that is the ultimate UX, you can now talk to it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:29:39",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:29:40",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "And it can talk to you. So if you actually ask why did you... like why did you tap the brake right there or why did you change, go to the left lane?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:29:48",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "It will tell you why, which is kind of nice. And also it's easier for us, you know, you don't have to figure out where's the button, you just say like, you could just tell it, can you take the next right?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Or for, 'Can you follow that car?', you know, and explain what car you're talking about. Making it easy to use and also making it effective in giving you confidence by kind of sharing information with you on how it does that, I think that's very important.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What are the main guardrails?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:30:14",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "So the safety stack is the important guardrail. So imagine it's literally all the rules of the road is a guardrail. Don't go faster than the speed, don't turn right on red, and don't hit anything, right? Because if, if, sometimes the end-to-end model wants to do something but if it's not safe, in the classical stack, Helios is predicting where everyone is going and saying, 'Hey, it's- it's too tight.' So don't, like it actually doesn't allow it to make that decision. So those are some of the key guardrails.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:43",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So two systems together make it happen?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:30:46",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Yes, Helios is the guardrail for the end-to-end model. We need to do that because an end-to-end model actually is a black box. I can't tell you anything. I just say we saw this and it told us to do that. There's nothing in the middle. Whereas the classical stack, Helios, we can actually show you, this was camera perception, this was radar perception. They agreed. Then, then this is what we chose to do and these were the rules that we were considering. It's a traceable stack, it's a decomposable stack that we can think through and understand exactly what went wrong and where it went wrong. That is very helpful so that we never make an unsafe action again. You know what I mean? For- do you remember when Grok first released? There were some questions that were given to it and it was giving you kind of also politically incorrect answers, but just some of them were wrong. They had to build a safety guardrail. The best large language model part of it is it has a good safety guardrail, like those gotcha questions, it understands that you're asking it something. I actually did this last week, I don't want to prove it to you guys, but on my ChatGPT, if I said, 'Hey, I want to go to a car wash. It's one block away. Should I walk or should I drive it there?'",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:31:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Same thing!",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:31:59",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "I did a test of a hundred and thirty-some different models today just to see. You did see that one? Yeah, they- yeah, I built another system, you did the... yeah, and it's, uh, a lot of them get it wrong.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:32:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So you're right, a lot of them get it wrong.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:32:15",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "There's a guardrail in that system, right? It's like- it's a trick. You know, and you just need to understand it right? So this will take us to the car wash. We hope. When- when we finally get to talk to it, it will certainly be able to take you to the car wash or get it to understand that action, or maybe you're in crisis, or maybe it'll say like, 'Uh, rain is predicted this afternoon.' That's funny.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:32:37",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So when you will be able to talk to the car, you will be talking to the classical stack?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:32:44",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Actually, it'll be- it'll be the vision language model. It- it'll be a- large language model. It'll be the end-to-end model.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:32:51",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So it will be able to kind of explain the black-boxness of it, right?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:32:54",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Yes, because the model is a reasoning model, and that is another innovation, right? That we need because...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "If it's not a reasoning model, then if we encounter a scenario that we haven't been trained on, if it's not reasoning, it won't know how to handle it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:06",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "But a reasoning model can break up and actually think about it and say, 'This is what I should do.'",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:13",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "That's important. So it has reasoning and it can also share its reasoning with you.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:33:18",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "That's valuable for us, like I'm just saying, I think we will feel more confident because we can ask these things and it can also tell you.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:27",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Like, why do we have to guess why it's slowing down? It might actually just tell you, 'Hey, I'm slowing down because there is a crossing pedestrian.'",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:33",
+      "ad": false,
+      "speaker": "Ali Kani",
+      "text": "Then you're like, 'Hey, this makes me feel good. I see we're slowing down and now I know why it's doing it.'",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:33:38",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I hope you enjoy this video.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:33:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you for watching. I always love to read your comments and have a good discussion with you.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:33:47",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Please like, subscribe, share with your friends, enemies, whoever.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:33:51",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And thank you for watching.",
+      "tone": "friendly"
+    }
+  ],
+  "highlights": [
+    "NVIDIA utilizes a dual-stack software architecture that combines a generative Vision-Language-Action model for reasoning with a \"Halo\" safety stack that acts as a traceable guardrail.",
+    "To accelerate development and handle rare \"edge case\" scenarios, the company uses generative simulation to synthetically create data and infinite closed-loop driving environments.",
+    "While current Level 2 systems can be integrated into cars for less than $1,000, next-generation Level 4 platforms will include redundant sensors, lidar, and massive increases in compute power.",
+    "Future autonomous vehicles will feature a conversational interface, allowing passengers to talk to the car and receive verbal explanations for specific driving maneuvers or decisions.",
+    "NVIDIA is positioning itself as an open platform for the automotive industry, providing open-source datasets and software tools that have already seen millions of downloads from developers."
+  ],
+  "summary": "This transcript features a conversation between Ksenia Se and Ali Kani, NVIDIA's VP of Automotive, during a live demonstration of NVIDIA’s self-driving technology in San Francisco. Kani explains that NVIDIA is moving the industry away from closed systems like Tesla and Waymo toward an open, end-to-end platform for all car manufacturers. The technology utilizes a dual-stack architecture: \"Alpamayo,\" a vision-language-action model that handles driving trajectories and reasoning, and \"Halo,\" a classical safety stack that acts as a \"guardian angel\" to enforce traffic laws and safety guardrails. While current Level 2 systems are cost-effective, NVIDIA is scaling toward Level 4 autonomy using the more powerful \"Thor\" platform, which incorporates higher compute power and redundant sensors like lidar.\n\nA major theme of the discussion is how NVIDIA uses simulation to solve the \"grand challenge\" of autonomous driving. Because real-world data is difficult and expensive to collect for every possible scenario, NVIDIA uses its Omniverse and Cosmos platforms to generate synthetic data. They are also introducing \"Alpha Dreams,\" a generative simulation tool that creates live, infinite driving scenarios for the AI to practice in a closed loop. This allows the system to develop \"reasoning\" capabilities, enabling it to think through novel situations—such as construction zones or unpredictable pedestrians—much like a human would, rather than relying solely on pre-programmed rules.\n\nLooking ahead, Kani envisions a future where the driving software is integrated with large language models, allowing the car to explain its decisions to the passenger in real-time. This transparency is intended to build user trust by letting passengers ask why the car chose a specific lane or braked at a certain moment. With Level 4 trials expected to begin next year and partnerships with major brands like Mercedes-Benz and Jaguar Land Rover, NVIDIA aims to make sophisticated self-driving software a standard feature in every consumer vehicle through a mix of open-source tools and high-performance hardware.",
+  "description": "What if the future of self-driving isn’t one perfect robotaxi  –  but a stack that can turn almost any car into a self-driving car?\nIn this episode of Inference, we ride through San Francisco  –  as one of the first to do this test drive  –  and talk about what’s changing in autonomous driving: cheaper hardware, better models, synthetic data, and a whole new approach to building the software behind the wheel. Ali Kani has been at NVIDIA Automotive for almost 8 years  –  he’s been through all the ups and downs, and he’s eager to share.\n\n*We talk about:*\nWhy Level 2 is already possible with a surprisingly cheap sensor setup\nWhat is still missing for Level 4\nWhy next year could matter for Level 4\nHow NVIDIA combines an end-to-end driving model with a classical safety stack\n​​Why open source matters for the future of autonomous driving\nWhy synthetic data and simulation may matter as much as real-world driving data\nHow different cities, laws, and driving cultures change the way autonomous systems behave\nWhy the goal is bigger than one self-driving car  –  it’s making many cars autonomous by open sourcing the whole stack (it’s HUGE)\n\nWe also experience live what still makes urban driving hard: construction, cyclists, congestion, weird negotiations at stop signs, and all the messy little moments humans barely notice but cars have to handle perfectly.\nWhat I liked about this conversation is that it makes the shift feel very real. *We’re moving from self-driving built inside closed labs to self-driving becoming a shared capability that can spread across the whole car industry.*\n\nThis is a conversation about a future that starts tomorrow. It’s open and very exciting.\n\nChapters: \n0:00 The Future of Self-Driving Starts Now\n0:19 Open Autonomous Driving Beyond Tesla and Waymo\n1:07 Inside NVIDIA’s Low-Cost Level 2 Self-Driving Stack\n1:48 From Level 2 to Level 4: Hyperion, Thor, and Redundancy\n2:43 How NVIDIA Combines End-to-End AI with Safety Guardrails\n3:56 What Changed in AlphaMaio Since GTC\n5:12 The Key Technologies Needed to Solve Self-Driving\n7:22 Real Data vs Synthetic Data in Autonomous Driving\n9:21 Driving Through Real San Francisco Traffic\n18:55 AlphaDream and the Next Generation of Simulation\n\n*Follow on*: https://www.turingpost.com/\nhttps://www.turingpost.com/p/av\n\n*Did you like the episode? You know the drill:* \n📌 Subscribe here and here (https://www.turingpost.com/subscribe) for more conversations with the builders shaping real-world AI. \n💬 Leave a comment\n👍 Like it \n🫶 Thank you for watching and sharing!\n\n*Guest:* \nAli Kani, Vice President and General Manager of Automotive, NVIDIA\nhttps://www.linkedin.com/in/ali-kani-b22198 \nhttps://blogs.nvidia.com/blog/author/alikani/ \nRead more: \nhttps://www.turingpost.com/p/selfdriving\nhttps://thefocus.ai/posts/the-car-wash-test/",
+  "duration": 2039,
+  "people": [
+    "Ali Kani",
+    "Ksenia Se",
+    "San Francisco",
+    "Why Level",
+    "The Future",
+    "Driving Starts",
+    "Open Autonomous",
+    "Driving Beyond",
+    "Cost Level",
+    "Driving Stack",
+    "From Level",
+    "Combines End",
+    "Safety Guardrails",
+    "What Changed",
+    "The Key",
+    "Technologies Needed",
+    "Solve Self",
+    "Real Data",
+    "Synthetic Data",
+    "Autonomous Driving",
+    "Driving Through",
+    "Real San",
+    "Francisco Traffic",
+    "Next Generation",
+    "Vice President",
+    "General Manager"
+  ],
+  "topics": [
+    "NVIDIA's autonomous driving architecture (Alpamayo VLM and Halo safety stack)",
+    "The role of synthetic data and generative simulation (Omniverse, Cosmos, and AlphaDream)",
+    "Comparison between open-source automotive platforms and closed systems like Tesla",
+    "Hardware requirements and cost scaling from Level 2 to Level 4 autonomy",
+    "Real-world urban navigation challenges and regional driving behavior differences"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/lnNi72Md9I4/maxresdefault.jpg",
+  "date": "20260328",
+  "youtube_url": "https://www.youtube.com/watch?v=lnNi72Md9I4",
+  "youtube_metadata": {
+    "title": "Inside NVIDIA’s Plan to Bring Self-Driving to Every Car | Ali Kani explains",
+    "description": "What if the future of self-driving isn’t one perfect robotaxi  –  but a stack that can turn almost any car into a self-driving car?\nIn this episode of Inference, we ride through San Francisco  –  as one of the first to do this test drive  –  and talk about what’s changing in autonomous driving: cheaper hardware, better models, synthetic data, and a whole new approach to building the software behind the wheel. Ali Kani has been at NVIDIA Automotive for almost 8 years  –  he’s been through all the ups and downs, and he’s eager to share.\n\n*We talk about:*\nWhy Level 2 is already possible with a surprisingly cheap sensor setup\nWhat is still missing for Level 4\nWhy next year could matter for Level 4\nHow NVIDIA combines an end-to-end driving model with a classical safety stack\n​​Why open source matters for the future of autonomous driving\nWhy synthetic data and simulation may matter as much as real-world driving data\nHow different cities, laws, and driving cultures change the way autonomous systems behave\nWhy the goal is bigger than one self-driving car  –  it’s making many cars autonomous by open sourcing the whole stack (it’s HUGE)\n\nWe also experience live what still makes urban driving hard: construction, cyclists, congestion, weird negotiations at stop signs, and all the messy little moments humans barely notice but cars have to handle perfectly.\nWhat I liked about this conversation is that it makes the shift feel very real. *We’re moving from self-driving built inside closed labs to self-driving becoming a shared capability that can spread across the whole car industry.*\n\nThis is a conversation about a future that starts tomorrow. It’s open and very exciting.\n\nChapters: \n0:00 The Future of Self-Driving Starts Now\n0:19 Open Autonomous Driving Beyond Tesla and Waymo\n1:07 Inside NVIDIA’s Low-Cost Level 2 Self-Driving Stack\n1:48 From Level 2 to Level 4: Hyperion, Thor, and Redundancy\n2:43 How NVIDIA Combines End-to-End AI with Safety Guardrails\n3:56 What Changed in AlphaMaio Since GTC\n5:12 The Key Technologies Needed to Solve Self-Driving\n7:22 Real Data vs Synthetic Data in Autonomous Driving\n9:21 Driving Through Real San Francisco Traffic\n18:55 AlphaDream and the Next Generation of Simulation\n\n*Follow on*: https://www.turingpost.com/\nhttps://www.turingpost.com/p/av\n\n*Did you like the episode? You know the drill:* \n📌 Subscribe here and here (https://www.turingpost.com/subscribe) for more conversations with the builders shaping real-world AI. \n💬 Leave a comment\n👍 Like it \n🫶 Thank you for watching and sharing!\n\n*Guest:* \nAli Kani, Vice President and General Manager of Automotive, NVIDIA\nhttps://www.linkedin.com/in/ali-kani-b22198 \nhttps://blogs.nvidia.com/blog/author/alikani/ \nRead more: \nhttps://www.turingpost.com/p/selfdriving\nhttps://thefocus.ai/posts/the-car-wash-test/",
+    "duration": 2039,
+    "view_count": 778,
+    "like_count": 27,
+    "channel": "Turing Post",
+    "upload_date": "20260328",
+    "thumbnail": "https://i.ytimg.com/vi/lnNi72Md9I4/maxresdefault.jpg",
+    "tags": [
+      "Ali Kani",
+      "Self-Driving Cars",
+      "NVIDIA",
+      "Open-Source",
+      "AI"
+    ]
+  }
+}

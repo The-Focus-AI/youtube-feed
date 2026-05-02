@@ -2,8 +2,8 @@
 channel: Relentless
 channel_handle: "@relaboratories"
 channel_id: UCxYhf1bmbsXLU1ClPNS2P6g
-total_videos: 51
-last_updated: 2026-03-11
+total_videos: 55
+last_updated: 2026-04-25
 ---
 
 # Relentless Channel Index
@@ -12,16 +12,20 @@ last_updated: 2026-03-11
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 51 |
-| Total Views | 464,147 |
+| Total Videos | 55 |
+| Total Views | 566,384 |
 | Most Viewed | The Manufacturing Startup That's Outcompeting China (151,636) |
-| Date Range | 2024-10-24 to 2026-03-09 |
+| Date Range | 2024-10-24 to 2026-04-16 |
 | Average Video Length | ~79 min |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [Why Elon Outcompetes Everyone \| Eric Jorgenson](videos/W5v0S0SzTZo.md) | 1:29:16 | 48,045 |
+| [Brian Armstrong — It's Wartime, All the Time](videos/bzYQWBBX7wU.md) | 1:54:30 | 350 |
+| [Peter Beck — We're scaling Electron faster than SpaceX scaled Falcon 9](videos/Yfrm31sSrDI.md) | 1:05:19 | 31,863 |
+| [Manufacturing 1 million drones a year \| Soren Monroe-Anderson, Neros](videos/3CEinhANrdg.md) | 1:41:32 | 21,979 |
 | [What if Russia stopped selling uranium to the US tomorrow \| Scott Nolan, General Matter](videos/Xolqw4B35rQ.md) | 94:02 | 1,688 |
 | [The US vs. China Manufacturing Debate](videos/TRcvUUMaBcA.md) | 76:56 | 6,076 |
 | [Why the Co-Founder of Robinhood is working on Space Datacenters \| Baiju Bhatt, Aetherflux](videos/a7B2rgAOUkc.md) | 85:45 | 1,055 |
@@ -79,13 +83,13 @@ last_updated: 2026-03-11
 1. **[The Manufacturing Startup That's Outcompeting China](videos/mTnv9b0xDV8.md)** - 151,636 views
 2. **[Why Elon Outcompetes Everyone](videos/62X1vm3QBuE.md)** - 55,013 views
 3. **[WTF is happening at xAI](videos/8jN60eJr4Ps.md)** - 52,469 views
-4. **[Building Unmanned Cargo Planes](videos/HbPxncZvWk8.md)** - 18,950 views
-5. **[WTF is happening in El Segundo?!](videos/eZ1kHP_TRF0.md)** - 18,723 views
-6. **[#40 - WTF is App Mafia](videos/KLCh7rtCLFs.md)** - 17,872 views
-7. **[#38 - Manufacturing American Drones At Scale](videos/p9OcRUMxAiY.md)** - 13,358 views
-8. **[SpaceX, Starship, Building A Gas Station On Mars](videos/AYOmMaBaQ3I.md)** - 10,455 views
-9. **[We'll Build 1 Million Humanoid Robots by 2028](videos/NmI0UipVFyM.md)** - 10,310 views
-10. **[How US Hardware Startups Will Outcompete China](videos/989_qK5dVTU.md)** - 8,048 views
+4. **[Peter Beck — We're scaling Electron faster than SpaceX scaled Falcon 9](videos/Yfrm31sSrDI.md)** - 31,863 views
+5. **[Manufacturing 1 million drones a year \| Soren Monroe-Anderson, Neros](videos/3CEinhANrdg.md)** - 21,979 views
+6. **[Building Unmanned Cargo Planes](videos/HbPxncZvWk8.md)** - 18,950 views
+7. **[WTF is happening in El Segundo?!](videos/eZ1kHP_TRF0.md)** - 18,723 views
+8. **[#40 - WTF is App Mafia](videos/KLCh7rtCLFs.md)** - 17,872 views
+9. **[#38 - Manufacturing American Drones At Scale](videos/p9OcRUMxAiY.md)** - 13,358 views
+10. **[SpaceX, Starship, Building A Gas Station On Mars](videos/AYOmMaBaQ3I.md)** - 10,455 views
 
 ## Topics Index
 
@@ -136,7 +140,9 @@ last_updated: 2026-03-11
 | Pilgrim | Building The First Biotech Prime | Biodefense |
 | App Mafia | WTF is App Mafia | Consumer Apps |
 | 1517 Fund | Thiel Fellowship, Backing Young People | VC |
-| Neros | Manufacturing American Drones At Scale | Defense |
+| Neros | Manufacturing American Drones At Scale; Manufacturing 1 million drones a year | Defense |
+| Coinbase | Brian Armstrong — It's Wartime, All the Time | Crypto/Fintech |
+| Rocket Lab | Peter Beck — We're scaling Electron faster than SpaceX scaled Falcon 9 | Aerospace |
 | Rangeview | Manufacturing, America, China | Manufacturing |
 | Superpower | Solving Health Using AI | Health Tech |
 | Watoga | Automating Drill & Blast | Mining Tech |
@@ -155,7 +161,9 @@ last_updated: 2026-03-11
 - **Aerospace & Space** - Astro Mechanica, Inversion, Starpath, Longshot, Poseidon, General Galactic, Aetherflux, Reflect Orbital (space mirrors)
 - **Nuclear Energy & Enrichment** - General Matter (uranium enrichment), SMRs, HALEU, AI data center energy demand
 - **AI & Robotics** - xAI, Hugging Face, 1X, micro1
-- **Defense Tech** - Castelion (hypersonic missiles), Aurelius (counter-drone lasers), Pilgrim (biodefense), Neros (FPV drones), Anduril
+- **Defense Tech** - Castelion (hypersonic missiles), Aurelius (counter-drone lasers), Pilgrim (biodefense), Neros (FPV drones, 2 videos), Anduril
+- **Crypto & Fintech** - Coinbase (Brian Armstrong)
+- **Aerospace & Rockets** - Rocket Lab (Peter Beck), SpaceX references across multiple videos
 - **Biotech & Health** - General Control, Orchid, Moldco, Babylon Bio (Alzheimer's), Superpower (AI health)
 - **Energy & Climate** - Base Power, Terranova, Terraform Industries, Reflect Orbital (solar), General Matter (nuclear)
 - **Transportation** - Zipline (drones), Arc (boats), Onewheel
@@ -191,6 +199,9 @@ last_updated: 2026-03-11
 - **Connor McLarenn** - App Mafia co-founder
 - **Danielle Strachman** - 1517 Fund co-founder & GP
 - **Olaf Hichwa** - Neros CTO, FPV drone champion
+- **Brian Armstrong** - Coinbase co-founder & CEO
+- **Peter Beck** - Rocket Lab founder & CEO
+- **Soren Monroe-Anderson** - Neros co-founder & CEO
 - **Cameron Schiller** - Rangeview CEO
 - **Max Marchione** - Superpower co-founder
 - **Elliot F. Poirier** - Watoga co-founder & CEO
@@ -201,6 +212,9 @@ last_updated: 2026-03-11
 ## Video Categories
 
 ### Founder Interviews
+- Brian Armstrong — It's Wartime, All the Time (Coinbase)
+- Peter Beck — We're scaling Electron faster than SpaceX scaled Falcon 9 (Rocket Lab)
+- Manufacturing 1 million drones a year (Neros)
 - The Story of deel
 - How Zipline Scaled
 - Competing With China In 3D Printing
@@ -262,4 +276,4 @@ last_updated: 2026-03-11
 
 ## Tag Cloud
 
-manufacturing (9), defense (7), china (7), elon musk (8), spacex (14), startups (6), tesla (5), supply chain (4), starship (4), venture capital (4), drones (3), mars (3), El Segundo (3), aerospace (2), hard tech (2), humanoid robots (2), robotics (2), longevity (2), ukraine (2), AI (2), openai (2), terraforming (2), young founders (2), Thiel Fellowship (2), 1517 Fund (2), Atomic Industries (2), Discipulus (2), nuclear energy (1), uranium enrichment (1), HALEU (1), SMR (1), founders fund (1), general matter (1), AI data centers (1), Peter Thiel (1), energy crisis (1), 3d printing (1), epigenetics (1), biotech (1), bioweapons (1), hypersonic (1), missiles (1), housing (1), construction (1), mining (1), electric boats (1), onewheel (1), drone delivery (1), supersonic (1), gene editing (1), IVF (1), solar energy (1), space mirrors (1), climate tech (1), sequoia capital (1), neuralink (1), boring company (1), colossus (1), MrBeast (1), tariffs (1), BYD (1)
+manufacturing (10), defense (8), china (8), elon musk (9), spacex (15), startups (6), tesla (5), supply chain (5), starship (4), venture capital (4), drones (5), mars (3), El Segundo (3), aerospace (3), hard tech (2), humanoid robots (2), robotics (2), longevity (2), ukraine (3), AI (2), openai (2), terraforming (2), young founders (2), Thiel Fellowship (2), 1517 Fund (2), Atomic Industries (2), Discipulus (2), crypto (1), bitcoin (1), coinbase (1), rocket lab (1), electron (1), neutron (1), falcon 9 (1), FPV drones (2), drone warfare (1), nuclear energy (1), uranium enrichment (1), HALEU (1), SMR (1), founders fund (1), general matter (1), AI data centers (1), Peter Thiel (1), energy crisis (1), 3d printing (1), epigenetics (1), biotech (1), bioweapons (1), hypersonic (1), missiles (1), housing (1), construction (1), mining (1), electric boats (1), onewheel (1), drone delivery (1), supersonic (1), gene editing (1), IVF (1), solar energy (1), space mirrors (1), climate tech (1), sequoia capital (1), neuralink (1), boring company (1), colossus (1), MrBeast (1), tariffs (1), BYD (1)

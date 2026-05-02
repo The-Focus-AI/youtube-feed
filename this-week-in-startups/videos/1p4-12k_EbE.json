@@ -1,0 +1,1001 @@
+{
+  "title": "How Robinhood became a $68B company w/ Vlad Tenev",
+  "source_url": "https://www.youtube.com/watch?v=1p4-12k_EbE",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I was a founder my whole life and I always dreamed, gosh, I wish I could go to this Demo conference or this PC Forum, but they were, even back then in the '90s and early 2000s, four, five, six thousand dollars a ticket. And back then, they charged you to show your startup on stage, $20,000.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:00:19",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I was like, well, that's some real bullshit. I couldn't even afford the ticket. So I used to do something called lobby crashing, and I would find out where these like fancy conferences were, and I would buy the cheapest ticket possible going through two or three cities, get the cheapest hotel possible before Airbnb. And I would just hang out in the lobby with my laptop and hope to meet famous entrepreneurs—Bill Gates, Steve Jobs—and I did actually do that. Michael Dell, I would see them in the lobby.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:00:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Guy named Tim O'Reilly, who had a company called O'Reilly Publishing. Anybody read those books still? Anyone know who I'm talking about? Yeah. And he saw me at one of his conferences, and he's like, 'You're lobby crashing again.' I was like, 'Yeah, I hope I'm not in trouble.' He's like, 'Here,' and he just took out a pass and he handed it to me. And I was like, 'No, no, Tim, I don't have the money for it.' And he said, 'Just don't tell anybody I gave you a free ticket.'",
+      "tone": "anecdotal"
+    },
+    {
+      "timestamp": "00:01:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And I was like, wow, this is an incredible act of kindness and I never forgot it, because then I was in. I was in the room where it happened. I said, you know, if I ever make it, I'm gonna make a conference where all the founders come for free and they don't have to pay to be on stage and I'll just pay for it myself or, you know, get some sponsors or something. Well, that's what Launch Festival is!",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And I couldn't do it without Backblaze and Render, two of our great sponsors. And I'll thank them a bunch of times, but and also JETRO, who's helping me launch Founder University in Japan, Mercury, Goodwin, Every, Backblaze, PayPal, Render—these are all just great companies that'll help me, you know, rent spaces like this, get the AV, and maybe put out a little coffee.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "00:02:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We try to keep it gritty. It's not pretty, but it's gritty, right? That's what I like to do at these events. Keep it gritty, keep it real. Everybody who in the room is a founder, an active founder, and now raise your hand nice and high. Take a look around. It's everybody. It's everybody! You're amongst friends. This is like Professor X's Mutant Academy. That's what I always say, founders are like mutants.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:02:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "When I started my angel investing career, I would just walk around and I was hanging out one night at Antonio's Nut House, which was a bar—really the most disgusting dive bar you've ever seen in Palo Alto and shut down now, probably for health code violations. Really tall, good-looking guy came up to me, said, 'You're Jason, yeah?' and I said, 'Yeah.' And he said, 'I want to tell you about the company I'm building. We're gonna help people trade stocks.' And I said, 'Oh, what kind of people?' He said, 'Millennials.'",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And I said, 'The ones who don't have driver's licenses and are on their moms' Netflix accounts?' And he said, 'Yeah, those people.'",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:03:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And I was like, 'Okay, how do you make money?' He goes, 'Oh, it's the best part. We're going to make it free.'",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:03:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I said, 'Free to trade and millennials, so your TAM is zero and your revenue model is zero.'",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:03:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "He said, 'Jeez Jason, when you say it like that I feel kind of dumb.'",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:03:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And I said, 'I'm in.' And he said, 'Can I ask you why you're in?' I said, 'What if it works? You'll have a whole generation will grow up on this amazing app.' And this is when the iPhone had recently come out.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:03:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And now he's known by one name: Vlad, from Robinhood.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And whenever I ask Vlad to come talk and, you know, talk to founders, he says yes, which he's very busy, he's running a giant company, but just reminiscing there about the early days. You went to investors and you had to sell them on zero TAM. When they said to you, 'Hey Vlad, you know, what company are you disrupting and how much money are these people spending already on this service' so they can get an idea, what was the objection and how did you deal with that objection?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:25",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Yeah, well, we were talking backstage just now about how one of the first interviews I did, and you can see this on YouTube, early records of Robinhood, 2014 Launch Festival, right?",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:04:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:04:48",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "And at the time the question, the difficult question that I would struggle with is how are you guys going to make money? So everyone else is charging $10, you're charging zero. How are you going to make money? And you asked me this question and I looked at my answer and it was a really stupid answer. It was something like, 'Well, why do we have to make money?'",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:05:05",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Like the assumption is that financial companies, you know, exist to make money. We exist to make our customers happy. And then I remember, you know, everyone coming up to me and they're like, 'Yeah, that's not a very good answer. You really have no idea how you're going to make money, are you?'",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:05:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:22",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "And I think at that time our thought process was something like, 'Well, you have Facebook, Instagram, Snapchat. None of these companies really started out making money. They wanted to get as many customers as possible and then when you have 100 million, 200 million customers, then you're going to figure it out.' And I think that's generally our thought process. Like if we get a lot of customers spending time on our product, we'll be able to make it work.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:51",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "And I think it pretty much ended up being correct, right? Like now we have 11 lines of business generating 100 million or more in annual revenue. I think it does turn out that if you get customers to fund their Robinhood accounts...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "accounts put actual money into your platform and then you give them all sorts of things to do with it, you can make a really, really big business even cutting out the trading commissions. And I think the reality is the trading commissions weren't the only way financial companies or brokers made money, they were just the most visible and kind of the most painful.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:23",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "You know, a lot of people criticized us about payment for order flow. So, payment for order flow for those of you that don't, that aren't familiar with the brokerage industry, basically it's a rebate that you get for directing orders to market makers or other exchanges.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:43",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "And for a while after it became clear that the business model worked and we could actually make money, the criticism we would get is, 'Oh, it's because of this payment for order flow arrangement,' and it was sort of like described in kind of shadowy terms, like it was some kind of, yeah, some kind of like catch to the free trading offering.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:07:03",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "But the reality is before Robinhood became popular, it's not like we created payment for order flow. Everyone else was just charging people both ways, right? They were charging the customer the commission and then they were also charging the market maker for the rebate and we just got rid of one of them.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "And by the way, the charge to the customer was 10x bigger. Like if you look at the commission brokers before they failed or got folded into bigger players, TD Ameritrade for instance, they made on average $11 for every time a customer placed a trade. $10 of that was the commission they charged to the customer, $1 roughly was the payment for order flow rebate.",
+      "tone": "factual"
+    },
+    {
+      "timestamp": "00:07:52",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "So what we did was we just collapsed that and effectively took 90% of the margin off of the trade. So, you know, you could call that collapsing the TAM. I think the TAM was the same, we just made it a lot more competitive and we fought over that incremental margin.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "There were other companies that had great success doing that. You know, when you wanted to store your photos online, Flickr charged for that. They gave you a little bit for free, it was freemium, and then you had to pay when you hit a certain number. And then Google Photos or Instagram, even when it was an independent company, made that a free thing. And Gmail had this incredible opportunity to make something, because the cost of storage was going down, free.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And then that massive layer of users now has led to 11 business lines and I remember talking to you about that early on. Hey, if you get them trading and they learn about their financial future, they learn how to place those bets, well they're going to want eventually to have a 401k, they're going to want to have a 529, they're going to need a savings account. You can just add, add, add. As you went down there, a lot of founders get caught in this trap, they try to boil the ocean, they do...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "five products at once. You really took your time and were thoughtful about it. When did the second product come out, the third product, and how do you know you're ready to add a second product to the platform?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:09:11",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "We've got a brand new partner here at Twist and, as fate would have it, we love and use their product. If you need to hire, manage, pay, or equip your team members anywhere around the world, you need Deel. D-E-E-L. They're going to take care of all the annoying human resources tasks that you don't have time for, payroll, compliance, visas, and onboarding, so you can stay focused on achieving product market fit or scaling your business or finding more talent. Deel scales with you. They do all your chores, all the hard work, and they do it perfectly from the first hire on, so there is never a need to switch platforms or transition to a new system in the future. It's future-proof. And with Deel you can set up payroll for any country in just minutes and get all the complicated visas and paperwork settled right away, allowing your business to grow without borders. And that's the smart way to grow now. Talent is not limited to San Francisco, the United States, or this continent. It's everywhere. That's why more than 37,000 startups and fast-moving companies are already using Deel to accelerate their hiring and growth. Find out more by visiting deel.com/twist. That's D-E-E-L.com/twist. Also, I happen to be a shareholder in the company. I got very lucky they acquired one of my startups and I am stoked. It's an amazing company.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:10:31",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "I think that we actually tried, probably in hindsight we called a lot of things products that were features. I think we spent our time and we really tried to like market and communicate everything and and what the value prop was. So we first rolled out a pretty vanilla offering. It was just trading stocks and there was no margin, right? So it was just every stock was backed by cash and there was a three-day settlement period, which meant that every time you sold a stock, you had to wait three days before you could take the proceeds from your sale and and use it to buy more stock. And at the time we were getting criticized for this. Like, Robinhood feels slow, why do I have to wait? At the other brokers I don't have to do that. Of course, we were the only ones that were charging zero dollars, so people put up with it. But then we rolled out Robinhood Instant.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:11:30",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "So we basically made a product out of what you could argue was us just like catching up with a table stakes feature. We're like, okay, well people have this pain point on Robinhood, they have to wait three days after selling a stock before they could use the cash to buy another one. Can we create something called Robinhood Instant? Oh but can we just- can we make it a little bit better than just this table stakes feature? And we decided we would also add the ability to when you're onboarding",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "to the to the platform, immediately buy stock. So there there was also a delay and this is something that every other broker at the time had, you know, you had to wait for your application to get approved, you had to wait for your bank account link to to be established, and then if you submit a transfer you had to wait for it to land. So because we were kind of starting from scratch, we basically figured out that we could automate the account approval, we could also essentially uh front that capital for you to buy your first stock. And so Robinhood Instant became a more feature-filled product. It wasn't just about settlement, but it was also can we get you from downloading the app to placing a trade in three minutes? Um, so that was like our second product launch and it was incredibly successful. I think our our volume basically tripled um in the span of a few weeks.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You took a limitation and celebrated the release of that product and that's one of the things you've done very well is like celebrating and really packaging the next product, taking your time, making it very thoughtful and also",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:13:06",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "And also launching multiple times.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:13:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Explain that, yeah.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:10",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Well, for uh right around the time we uh you interviewed me at launch, this was I think December of 2014, was our first time when we rolled out Robinhood on the App Store. But it was gated, right? There was a waitlist, so not everyone could use it when they downloaded the app. But we did a big launch anyway. And then a couple of months later, we removed the waitlist. And uh I think one of our team members had the idea uh that we should just launch again. And we kind of looked at ourselves, we're like, but we just did this two months ago. Can we do it again? It turns out uh there's no reason not to. I mean, if people are willing to cover it and you're you're willing to go on CNBC and you know, people have short memories, most most people didn't even remember that we launched the first time.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Most people didn't know you existed.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:14:06",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Do it again until it works, right? If your first launch doesn't work, just keep doing it.",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "00:14:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's it's really great insight.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:14:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Finding the first customers, this is something also founders, a lot of them in the room who have new companies, getting those initial customers, defining who they are, ICP, you know, that ideal customer profile, beachhead, you know, who are we going to try to get first? What what was your thinking there? Did you have a thesis of who would be the first or did you just put the idea out in the world and then in retrospect figure out who they were?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:14:37",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "I think one one thing we did really early was we actually talked to customers. We tried to create this like this user research motion where our office was right next to Stanford University. So we would have Stanford students coming to our office and trying our prototypes at the point where they were not even working at all.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "So, you know, it's like we were a little bit embarrassed to have these students coming in and using our stuff because it was just completely broken and we'd have to tell them, well, just, you know, pretend it worked.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:15:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Imagine the trade happened to you.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:15:12",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Imagine you were on this screen and there was like a trade, yeah, exactly. Or that, you know, this is Apple stock and not some fake thing that we made up, right?",
+      "tone": "lighthearted"
+    },
+    {
+      "timestamp": "00:15:23",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "But yeah, you learn a lot of things and I think we were fortunate maybe in two ways. One was we did this, and then the second is we kind of built the product for ourselves. I mean, we were people in our 20s, millennials, we were smartphone native. We were sort of like among the first group of people that could imagine, I mean, I was a senior in college when the iPhone came out and then one year out of school when the App Store came out. So at that time, this was like 15 years ago, doing finances on a smartphone for most people was kind of taboo.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:03",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "I don't know if you, I have this like memory from the 90s of when Amazon came out and I was kind of like looking around and seeing what kinds of books I could buy and my parents were just like, 'Stay away from that, you know, we're not putting our credit card number on this website. It's just going to be stolen by, you know, the hackers on the other side.' And of course it took probably 10 or 15 years for people to get used to the idea that actually Amazon's probably a more secure place to put your credit card number than...",
+      "tone": "anecdotal"
+    },
+    {
+      "timestamp": "00:16:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Your local bookstore where somebody could just dumpster dive and take the receipts out of the back, carbons.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:16:40",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "But like the same thing happened for mobile where people were like, 'Well, I'm not, this can't be right. This is like a device for playing games or taking phone calls.' So I think there was a five year period, it happened faster than, you know, the dot-com revolution, but people were very nervous, I think, doing serious things on their phone.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:16:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is serious insight I think for folks in the audience who are entrepreneurs. A lot of the new technologies come out and they're kind of toys or they're kind of dismissed. People might say that about open cloth today or agents and just like, 'Ah, that's like not really a serious thing and it doesn't actually work, it's kind of broken like your early iPhone app was.' And then very quickly, things can go from being toys and hobbies to being actually the default platform. So if you take the leap of faith and say, 'Well, it's obviously going this way, people are going to trade on their phone,' you will learn faster than them. You will get the insights faster than them and you'll build that trust with consumers, yeah?",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:17:40",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Yeah, I mean, sometimes though you do get counterintuitive things that surprise you, right? And the old model can have more durability than you'd expect. I'll give you an example that I thought was fascinating. How much of the book market right now would you say is like digital, like ebooks or Kindle?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "If you had to guess?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:18:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "30%?",
+      "tone": "uncertain"
+    },
+    {
+      "timestamp": "00:18:02",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Oh, so you're... see, I talk to most people, they're like, 'Oh, it's gotta be 90%.' You know, the vast majority of books have to be digital. I think you're pretty close. So the vast majority of books are still, yeah, people buying physical books. Because it turns out the thing that's valuable about the book is not the content on the pages, it's actually the physical thing that you can put on the bookshelf and kind of show off and give—",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:18:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's the virtue signaling of the book. It's having it there. In fact, I know this to be true and I was kind of thinking that when you were cueing up the question because I know people who will buy the audiobook and buy the physical book to put on their shelf, but they listen to the audiobook. And then there's some sort of shame about like, 'I didn't actually do the painful reading,' which is hard in an ADHD era where you've got TikToks waiting for you and emails and your open Claude asking you what it can do next. Yeah, I... some things are sticky. I want to talk about growth, because once you do have product-market fit, and you got that pretty early, like people really love this idea of trading and doing it quickly and doing it on their phones. And man, you had great design. I want to talk about design as well and the impact that has on trust and, you know, gamification and getting people to use the app. But you had a really interesting growth strategy. Uber had done it first, and I think Dropbox did it before them. Maybe talk a little bit about give-to-get and the impact that had on the business.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:18:58",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "For startups, every single hire matters, but posting an ad and sorting through all the applications, oy, it can be a huge drain on your time and resources—don't I know it. But thankfully, there's LinkedIn Hiring Pro. That's right, our friends at LinkedIn are going to help you hire with confidence faster than ever before. For example, we're hiring new editors here for the pod, and reviewing all these reels and applications, this can get overwhelming very quickly. We know what we're looking for, it's just a matter of tracking them down. Hiring Pro streamlines the entire process, helping us quickly draft a perfect job post, then using AI to shortlist candidates and even conduct initial interviews so we can zero in on the best overall applications right away. Nearly 60% of companies find a quality candidate within their first week. So hire right the first time and get $100 off your first job posting by going to linkedin.com/twist. Terms and conditions apply.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:19:32",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "I think what you're referring to is the Robinhood waitlist, which basically had this referral mechanic where if you invite friends and they successfully join the waitlist, you move further, further ahead in line. So it was like prioritized based on number of people you invite. And I think that we look at the waitlist, I think something like 20 to 30% of our growth came from referrals, maybe a little bit more. I think the, the core of it is really you have to have a product—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "product that people talk about. You know, for many years after we did this, everyone was launching their own version of the waitlist and they think that, okay, well, if we have this growth hack or if we engineer it correctly, I'll be able to grow a mediocre product with no differentiation or value proposition. I think you can get a lot of the waitlist stuff wrong and the growth stuff wrong, and if you have a great product, it grows like wildfire.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:29",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Right? You look at early ChatGPT. No waitlist, no mobile app. It didn't really work well, it was just on web, right? And it got to what, 100 million users?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "People were still like, \"This is unbelievable at summarizing things\" or \"getting me a better answer than Google.\" But I was actually, I had forgotten about the waitlist. You gotta have a great product. You can't pour gasoline on like a log and expect that to be a great fire. Got it. But then there was also, \"Hey, I invite you, you fund your account, I get a share of a stock and you get a piece of a stock.\"",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:21:59",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Yeah, yeah, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:22:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And it had the game mechanic. Does that still exist in the app?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:22:03",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "It does. It does exist. Back in 2022 or 2021 we made some changes to it where we removed a little bit of the gamification. You know, back then gamification was a little bit more of like a negative connotation.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:22:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It was spicy.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:22:16",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Got a little spicy there for a minute.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:22:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We'll talk about that.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:22:19",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Yeah, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:22:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:22:21",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "But yeah, still referrals through Robinhood are one of the leading ways customers get—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:22:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I know I broke the system because anytime I invest in a stock — you can always tell like what startup I've invested in by the frequency of my tweets. And like, after Robinhood came out, I was like, 'This is the greatest thing ever, here, use my referral code.' And then I got to 250 stocks in like a week or two and then I emailed you because they turned it off. And I was like, 'I actually, I still want people to get their share, so just I don't need my share,' but it was also getting a little annoying because that I was trying to trade stocks and I would have stocks show up in my portfolio for $5 or $12 or $6 and I didn't even know what they were and I was like, 'Did I trade that?' And so I just had to keep selling them to get them out of my portfolio and it just got a little bit absurd and somebody, a friend of mine, did the same thing to Uber. Uber had, you know, get a ride, give a ride.",
+      "tone": "storytelling"
+    },
+    {
+      "timestamp": "00:23:46",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:23:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So he was like a — you know, he's a really smart hacker, a literal hacker from like the old school 2600 days. So he bought ads in like the top two or three cities Uber was in and it was like, 'Get a free Uber ride in New York, get a free Uber ride in Brooklyn, get a free Uber ride in Queens.' And it was his referral code. And he wound up getting like 500 rides for free in Uber and he was just literally balling through Los Angeles. They turned it off on him and then he emailed me, 'Can you ask Travis to turn it back on?' I was like, 'I'm not going to Travis with that request.' I did tell him the story though.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "He never had a problem with it because he thought, hey, growth is growth. But actually, since we did you did get a little headwind there and a little bit of bad press about gamification, the confetti, hey, it's great.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:24:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Maybe take us through like dealing with, and the press was super negative at that time as like the backdrop. Like if you were doing something in tech, you were a bad person. If you were growing, if the company's valuation was going up, you were like a bad human being for creating something that worked in the world. It was like really weird.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:24:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And you got caught up in it. Hey, you're... you're gamifying people buying stock. How did you deal with that and tell me take me and maybe how would you deal with it today if you take it differently now because it's not a moral panic?",
+      "tone": "challenging"
+    },
+    {
+      "timestamp": "00:24:43",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "I think this was really interesting because uh, how many of you are first-time entrepreneurs here?",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:24:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:54",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Okay, so looks like a good portion of you. Yeah.",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:24:55",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "So as a first-time entrepreneur, like mistakes or bad things that happen can feel existential. I remember when we had our first technology outage, right, where, you know, I came into work one morning and at market open, the system was down. And we were like, that's it. Company's dead. Nobody's ever going to come back.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:25:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Game over.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:25:15",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Right? And of course, this was early days and and now we're much better, but, you know, 17 outages later, you're like, okay, well, um, I'm um thick thick-skinned about this. Obviously we want to improve it, but it feels a little bit less existential. I think in the same way, the first time you get bad press, because usually if you're a first-time entrepreneur and you start a new company, you don't get bad press right away unless you really screw something up, right?",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:25:40",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Because people are rooting for you to succeed. Nobody's wants to like... not a lot of journalists want to like rag on this, you know, first-time founder with a small company. It's much much more compelling to, you know, go after the big guys that are making tons of money.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:59",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "I think for us, our press and our relations with the media were kind of overwhelmingly positive for at least the first three years. And then 2019 came around and, you know, we were at $7 billion valuation and then the press started turning negative. And we kind of I think started panicking a little bit like, oh, is this the end of the company? Now the press is negative. Every time someone wrote something about us, we felt like we had to war room it and have have a response and, you know, uh, it it ended up turning into kind of a non-authentic response usually and then we just ended up being pulled in all these different directions.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:26:41",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "And I think if if I had one major learning, it's that relatively few things are existential, you know, some things are. You could get some bad press, consider it a sign that your company matters and every big company that actually gets past a certain point is going to get its arrows and",
+      "tone": "philosophical"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "I think like, I don't know, this sounds strange, but if I had to do it again, I'd probably have a little bit more fun with it, right? It's like, oh, well, the bad press is coming, here it is. How how can we turn this into something good for the company? Because we we always knew that at at its core, we were a good company, we wanted to help people, and I think that if if you're not careful, you could you could end up you could have the press sort of like swaying you into making decisions that are bad for the business. And and you really should just be doing the right thing, right? The the incentives of it can be backwards, right? It's like what's going what's going to get what's going to get people to click and to pay attention to you? It might be just a negative portrayal rather than a positive one.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:27:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "A lot of people's first impressions of Airbnb were the inevitability that somebody would rent somebody's apartment and trash it and have a party there. And literally Brian and Joe and the and the team over there went through this for, I don't know, two years where somebody would have a party and uh, yeah, destroy an apartment and then uh, it gave them the opportunity when you think about the kung fu of it and redirecting the energy to say, well, we have an insurance uh, system and uh, we actually pay for that. And literally, uh, I had moved out of my home and I still have my existing home and we put it on Airbnb. It was a nice place. And literally one night my Dropcam starts going off, that was Nest cam before it got sold to Google, and I'm like, I wake up in the morning, there's like fifty notifications.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:28:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And somebody had thrown a party at our house. Now we had like, you have to check a box: no parties, eight people, all that stuff. And uh, so I go over to the house, I knock on the door, the door's open, I go in, and there's like eight people passed out. There's weed, there was bottles everywhere. I'm like, oh my god, my wife's going to freak out. I go to the person who rented it and I'm like—and she comes out and she's like, well, it was my boyfriend's birthday and the—they had just brought all these people to this house in Hillsborough. I was like, look like a pretty good party actually.",
+      "tone": "animated"
+    },
+    {
+      "timestamp": "00:29:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "They destroyed the place, like ten thousand dollars in damage. And the guy comes up and he goes, I'm not going to lie to you man, it was a hell of a party.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:29:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I said okay. Literally we go and I tell my wife what happened. I'm like, you're not going to want to go over there, just send the cleaning people. It's it's it's you're going to get really triggered because they destroyed your rug and they destroyed the couch. And literally we just filed the claim and Airbnb's like, here's ten thousand dollars to pay for that. It's like, it just made me want to run an Airbnb company. I was like, oh, this is great. The worst case scenario is not that bad, right?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:29:44",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:29:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And then, you know, there are some things that are really terrible. Law of big numbers, whatever service you run, somebody will die in an Airbnb. Like, because people die. In fact, we're all going to the same place.",
+      "tone": "philosophical"
+    },
+    {
+      "timestamp": "00:29:54",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "It might seem like your startup can save some money by using a cheap tool for your device management and security, but you'll have...",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "eventually end up paying off the difference and more in time and frustration. Take the guesswork out and trust our friends at Eru Endpoint Management. Eru is going to automate your device management end-to-end. So you don't have to worry about onboarding, endless app updates and enforcing all of your company's various policies across your entire team's Mac, Windows, and Android devices. This is going to cut down all the time it takes you to deploy new devices from hours to just minutes. And that means less time troubleshooting, fewer tickets, and better security for your company's valuable data. Everyone at Launch has a phone, a laptop, I'm even buying these kids Plaud devices now because they're so good. You think I have time to worry about what apps they're installing on these things and what websites they're visiting and all the error messages they're going to get? I got to make podcasts all day long and make angel investments. Without Eru's system, my team would be wasting hours policing everybody's hard drives instead of doing valuable work that actually moves the ball forward. TWiT listeners get 20% off when they book a demo at iru.com/twist. That's i-r-u.com/twist.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:31:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "If your company gets big enough, somebody will die with your company. I remember eBay. They literally were like eBay serial killer and this poor Craig at eBay really struggled with this. Not eBay, Craigslist. And they called it the Craigslist killer and it was like, okay, there's a 10 million people using the service. Like a serial killer probably has a laptop. They don't call them the Apple MacBook killer. Like it's just part of growing up. Uh, now let's talk a little bit about AI and running the company. You've like literally grew the company on the mobile wave. Now we have this new wave coming. How do you think about AI? Uh, and how do you think about running your company now, which is you're a legacy company, you're an established company and this new disruptive thing comes out. You must be looking and going, wow, there's somebody coming to Launch Accelerator or Y Combinator or Techstars or Speedrun with the pitch we're going to be the AI agentic version of Robinhood. How do how do you think about it externally in terms of product and internally in terms of running the company?",
+      "tone": "thought-provoking"
+    },
+    {
+      "timestamp": "00:32:20",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Yeah, I mean, absolutely. We've been fortunate to sort of like rise and and really make a niche for ourselves with the last technology revolution, which was mobile, right? And now there's basically two big technology shifts that uh that are probably going to completely transform financial services: crypto and AI. And uh we're working hard to be a leader in both. I think for me personally, if if I had to think about what motivates me, it's less the like take the existing thing and make it, you know, 20% better every year, although I I know that that's a very, very important thing. But I like to",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Do new things and be the first to do them. So when it comes to AI, we're investing heavily across two things. One is just putting AI into our product. So if you open up Robinhood right now, if you guys happen to use the app, on every stock, AI will be telling you what's going on with the stock. So it's particularly useful if something's moving up and down and you want to understand why. We also have what we called Robinhood Cortex assistant, where, and this started rolling out externally last week, you could actually like chat with it. So it's like a chat assistant within the app.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:41",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "And then of course we were talking about agentic trading. My background before building consumer products was quant trading. I was doing like high frequency algorithm development. I was sort of like buying GPUs and using them to crunch like pricing for algos and racking the servers in these data centers. So one way to look at agentic trading, in the same way that you know, Claude code or Open Claw lowers the barrier to entry to like building these software systems and now you're at a point where any non-technical person can become a software engineer, I think in finance it'll lower the bar to being a quant trader. Now, I don't think everyone's going to want to be a quant trader, but I think the people, the relatively small group of people that want to do this, are going to generate a lot of volume. So, you know, we have to contend with that and make sure that Robinhood is the best place for the quant trading, even whether you're using our first party tools or whether you're using Claude code or Codex or any of these other things.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:34:29",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "I think the advantage that makes it difficult to just build a Robinhood is that there's all this like regulatory infrastructure. You have to create a brokerage, you have to connect to all these legacy systems. There's like dozens of assets to support and account types, right? There's IRAs, Roths, HSAs. And so it's like less vibe-codable than most things. And people also have a pretty high standard for when they want to plug, you know, their agent into their money. Like, probably for a while they'll be comfortable plugging it to a self-contained, walled-off, you know, environment. But like relatively few people are going to want to give unfettered access to, you know, the checking and savings accounts and the credit card, right? So...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:35:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's going to be pretty exciting though. Like to be able to say I'm taking this little bit of my money, giving it to an agent, giving them instructions, having them test theories, come back. It does level the playing...",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:35:59",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "You're seeing that happening now.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, it's happening. It's happening. Can it happen on the...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Platform, is there like a backdoor API or a way to kind of do it yet or no?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:36:03",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Yeah, we don't have an official... we don't have an official API. We have some explorations in the past where we've opened up APIs to third parties. We have a crypto API, actually. But, and then Robinhood Chain is coming for our on-chain crypto activities where we launched a testnet. But I think we could still... there's more work to be done to make this... to make this better and a little bit more cohesive.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "How about running the company inside the company? How has it changed how you think about hiring, professional development, and are you seeing what many founders and even at-scale companies are telling me, there's like a group of people who are embracing this technology, they're working more because they're so inspired by it and they're getting two, three, four, five times as much done. And then there's a group that's like, yeah, I don't have time to work on that or I'm a little nervous about it. And how do you as a leader get people to join that first group of people who are AI first, who are building agents, who are automating, using Claude code, using Perplexity computer, using OpenClaude?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:37:21",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Yeah, I'd say a couple of years ago we went through the exercise of internally asking, you know, what are the two biggest areas where AI can move the needle, right? And at that time it was customer support and software engineering. We said okay, if we... like let's not, you know, boil the ocean and make it so that, you know, we have like 17 AI projects going on simultaneously because that can become sort of a vanity metric, like how many, how many, how many AI projects do you have running concurrently? We figured, okay, the models are at the point where we take our two biggest businesses, and customer support touches every customer who needs help, software engineering builds all of our products, and can we be absolutely world-class there? And we released some numbers at the Q4 earnings that said at that time north of 75% of our customer support interactions were handled by AI, which I think is... I'm not aware of anyone higher in any industry. So we've been, and it takes a lot of work because in brokerage you have the whole licensure thing. So certain cases can be handled by an unlicensed representative, right, like, you know, what... I forgot my password, you know, help me with this. But other cases, particularly when we have to deal with account-specific information or trading, you have to have a license to deal with it. And just like working through that and making it so that our AI agents can handle the licensed cases I think was a tricky thing, but it unlocked...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "fact a huge, a huge burst of activity there. So yeah, 75 percent plus as of last year. And by the way, a lot of people are like, okay, is it real? How do you actually know would those would those have turned into real cases? When we have an outage on the AI agent, phones start ringing off the hook. So we had an event where we actually like felt this very viscerally.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:27",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "And then coding, you know, we invested in that pretty early. You know, our CTO basically has the mandate of making us first the best AI company in financial services, and then I joke with him, then we go expand beyond financial services and I want to be the best AI company. So we take that seriously. I think everyone's really excited about like all the stuff we can build. And recently with Opus 4.6, I'm sure you've saw this, you've seen this as well, many of you in your projects, there's a huge step function increase in capability. So now you've got like product managers and non-technical people submitting PRs.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:40:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It is really noticeable. And I've heard this exact theme from multiple people in the last week. We had Michael Dell at an All-In event on Friday night, actually, in Austin. And he said, 'Something happened, didn't it, with this 4.6?' It feels like it's crossed over, like the enthusiasm developers had for the last couple of years, now we're seeing HR, sales, you know, accounting, whatever it happens to be, other functions, PR, marketing, they're finally unleashing this tool and being able to create workflows that do things that a human would have taken three, four, five days to work on.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:40:52",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Yeah, I think that's right. And I think it's because there's these like medium-sized tasks that maybe an engineer, like you said, would crank on for eight hours or 16 hours autonomously. And I think in a lot of companies, those tasks are automating, you know, the HR team's this and that, or the operational workflow of this other team. And I think in a lot of companies, those just weren't getting done because it's always, you know, it's like this ROI discussion of do we just optimize this process or do we improve our product? Well, now, you know, non-engineers can do them themselves and it's just like a big zero to one unlock.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:41:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Talk to me about design as our time's wrapping up. You've always had incredible design. I always felt like, wow, if somebody has incredible design early, it's not a mistake, it's not random, it's deliberate. And you've always had really tight design, really great branding. But today, I guess with AI, everybody's game has gone up a little bit. But how...",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "fixated are you personally as the leader on the design, on the UX and how did that start in the company and remain in the DNA?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:42:11",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Yeah, I mean, uh, you know, my my co-founder Baiju really so we were roommates in college and even then he had really great taste, you know, he would decorate our rooms super nicely and we had this chalkboard and this nice like wicker furniture and I think some of it rubbed off on me as well and we used to watch the Steve Jobs keynotes like we were in college together when the iPhone came out and and also uh we were in New York working on our first company when uh the iPad came out and you know you probably I know you asked a question at one of those WWDC things so you you remember these well I don't know if the next generation has quite as much fascination with Steve Jobs",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:42:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Absolutely worth going back and watching every Steve Jobs keynote this weekend.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:43:01",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Even the bad ones, yeah, he even like, you know, Power Mac G5 or whatever. Um, yeah, there's some, there's always some gems in there. We we really cared about it. I think that, um, you know, inherently design with with mobile apps when you're kind of thinking through a particularly if it's like a new category, you have to think through how you can differentiate. The great thing about mobile at least at the time was you had you had little screen real estate and so you had to make it simple. And I think so much of great design is figuring out, you know, the one thing you have to do, you know, one function, one screen. How do we make it as easy as possible? How do we make it so that the decisions that users have to make are clear? And can we also just like put a little bit of craftsmanship into it so that, you know, you get artists actually being creative and in imbuing a little bit of their personality in the product? And yeah, I think we we try to capture that to this day, you know, we hire great artists, great designers, and, um, you know, I'm in a lot of these reviews and uh a lot of times I just try to give the extra push because I know that it could always be better. Even if I have this I have this thing that I do even if I think it's pretty good, you got to send it back at least two or three times, you know?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:44:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, it's like, oh my god, this is so exciting!",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:44:39",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Even if I have no fundamental criticism of it, I'm like",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:44:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is a good trick you can use. Do you really feel good about it? Is it is it is it the best that you can do?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:44:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right, yeah, the artists will always feel like there's something they can go into their soul and just give you 10% more and you know the truth is like",
+      "tone": "philosophical"
+    },
+    {
+      "timestamp": "00:44:57",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "if they say no, I've like put my blood sweat and tears into it, this is perfect, um, yeah.",
+      "tone": "decisive"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Then, maybe, but yeah, then, maybe. But they generally don't want to say that the first time.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Constraint makes for great art, and that really is so, I never thought about it that way, but the constraint of the size of those early iPhones, they were so pathetically small, the haptic didn't work fantastically, you know, touching the screen was a little bit of like, uh, yeah, just wasn't super responsive to the level it is today. The pixels were tiny, there wasn't enough real estate...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:45:33",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "They were super slow. You had to, you had to really squeeze out the performance, right?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:45:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, and that really now when you have so much power available, when you have so much screen real estate available, when you have folding open phones, you could get a little sloppy, you could add too much to it, yeah? And that's not a great recipe for success. Looking back on it, things in that in those early days where you made mistakes, you learned some hard lessons, lots of entrepreneurs in the room, maybe you had some self-doubt, hey, our server went down, we should might as well pack it in. Things you learned, those first couple of hires, raising money, anything that you learned along the way that you're like, God, I was I was so bad at that and now I've gotten good at it over the, you know, 10-plus years.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:46:23",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Yeah, I think I think a big part of it is just, uh, just sort of like moving forward regardless of setbacks and mistakes. I think the biggest thing early days is you have some setback and it would like eat up a week of time. Now, you know, you just deal with it. I mean you have to really distinguish between the things that are existential and require that much time and attention, but I think at if you look back, you'd probably find that very few things do. Maybe you have to make two decisions a year that that require that level of thinking. So, I think getting getting out of fire-fighting mode and just sort of like always moving forward. And, you know, the thing is sometimes you don't really know what the right thing to do is. Um, you don't know what the right thing to do is, maybe you're stuck, your product's not really working. Um, and in that case, you just have to do something. You have to do something and try to do it as quickly as possible, um, because, you know, every time you put a product out there or a new feature and you interact with customers, um, you get you get information of what the right thing to do is.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:47:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is such an important thing for everybody in the room to take in is there will be times where you are faced with 60-40 decisions and you don't know which is the 60, which is the 40, and you can get stuck in committee, you can get paralyzed as a founder, you can get anxious, you don't sleep. Make a decision, monitor the decision, and then you can always change it. The way Bezos going back to Amazon looked at it is, is this a one-way door or a two-way door? One-way door is like, okay, we're building a factory.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "We're building a depot, like, it's kind of a one-way door. Like, you're going to commit billions of dollars or hundreds of millions, like... but Amazon Prime, changing the price, or, you know, changing the delivery schedule from three days to two, whatever your, you know... well, we could always roll that back if it doesn't work. It's a two-way door, we can just come back in and change it. Really identifying that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:48:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, let's give it up for Vlad. Thank you.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:48:24",
+      "ad": false,
+      "speaker": "Vlad Tenev",
+      "text": "Thank you. Appreciate it. So exciting.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:48:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That was a hell of a ride, I can tell you as an investor. People are like, 'You're gonna lose your money on that one.' They said that about Uber, too. It's really interesting, the ideas that—and they said that about Calm, like the meditation app. Some of the greatest successes are also the weirdest, non-consensus, right? So if you find yourself with 80% or 90% of people thinking your idea is dumb, it might be dumb. That's a possibility, I'm not saying that it's brilliant. But it could also be because it's so brilliant that people just are not thinking it through.",
+      "tone": "reflective"
+    }
+  ],
+  "highlights": [
+    "Successful startups often disrupt industries by collapsing traditional profit margins rather than the market itself, as seen when Robinhood replaced high user commissions with smaller backend rebates to capture a new generation of investors.",
+    "Founders can \"launch\" a product or feature multiple times to drive growth, as public memory is short and re-marketing a significant update or removing a waitlist can be as effective as an initial debut.",
+    "Implementing AI can lead to massive operational shifts; Robinhood currently handles over 75% of customer support interactions through AI and uses advanced models to allow non-technical staff to contribute to software development.",
+    "Most setbacks and negative press cycles that feel \"existential\" to first-time entrepreneurs are rarely fatal and should instead be viewed as a sign that the company has reached a meaningful scale.",
+    "Great product design is often born from constraint, as the limitations of early mobile hardware forced a \"one function, one screen\" philosophy that prioritizes simplicity and clear user decision-making."
+  ],
+  "summary": "In this transcript, Jason Calacanis and Robinhood co-founder Vlad Tenev discuss the evolution of the brokerage platform from a \"non-consensus\" startup pitch to a major financial institution. Tenev reflects on the early days when Robinhood was mocked for its \"zero revenue\" model and focus on millennials, explaining that the company prioritized massive user acquisition over immediate commissions. By disrupting the traditional fee structure and leveraging models like payment for order flow, they eventually scaled to 11 different revenue lines. Tenev emphasizes that their success was rooted in a \"gritty\" approach to product development, which included testing broken prototypes with local students and treating table-stakes features as major product launches to maintain momentum.\n\nThe conversation also delves into the challenges of scaling, specifically regarding public scrutiny and leadership. Tenev discusses the \"gamification\" controversy and technical outages, offering the perspective that most setbacks are not existential but rather signs of a company’s growing relevance. He highlights the importance of design—citing the influence of Steve Jobs—and the practice of pushing teams to iterate multiple times to achieve excellence. Calacanis and Tenev conclude by looking toward the future of \"agentic trading\" and AI. Currently, Robinhood uses AI to handle over 75% of its customer support and to streamline software engineering, illustrating a broader shift where AI lowers the barrier for both technical development and sophisticated financial trading.",
+  "description": "This Week In Startups is made possible by:\n\nDeel - https://deel.com/twist\n\nLinkedIn Jobs - https://LinkedIn.com/twist.\n\nIru - https://iru.com/twist\n\n\nToday’s show:\n\n\nWe’ve got a treat for you today on TWiST! Jason is live from LAUNCH Fest in San Francisco, where he’s joined by Robinhood founder Vlad Tenev.\n\nThe era of AI is here. Robinhood found success in the midst of the last great technological shift. \n\nWhat lessons did Vlad take from this, and how can founders apply these to this next transformative period? \n\nWhat elements are the same and what elements have changed?\n\nLet’s get inside the mind of one of the greatest founders of the last decade!\n\nTimestamps:\n\n0:00 Why Jason runs events like LAUNCH Fest.\n\n2:46 The early days of Jason and Vlad.\n\n5:15 Why getting users before monetizing creates a bigger business.\n\n9:10 Deel - Founders ship faster on Deel. Set up payroll for any country in minutes and get back to building. Visit https://deel.com/twist to learn more.\n\n10:24 Finding ways to launch a product multiple times.\n\n13:10 How Robinhood identified its initial customers.\n\n19:30 LinkedIn Jobs - Hire right, the first time. Post your first job and get $100 off towards your job post at https://LinkedIn.com/twist.\n\n20:25 Robinhood's \"give to get\" and waitlist mechanics explained.\n\n24:28 Navigating mistakes that feel existential (they're not!)\n\n26:57 Leaning into negative press.\n\n29:52 Iru - Iru unifies identity, endpoint security, and compliance into one platform. TWiST listeners get 20% off when they book a demo at https://iru.com/twist\n\n31:34 Tackling competition in the AI era.\n\n36:41 How Vlad hires and develops talent.\n\n41:37 What is good design in an era of vibe coded slop?\n\n46:07 Vlad's top lessons from the last 10 years.\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+  "duration": 2944,
+  "people": [
+    "Jason Calacanis",
+    "Vlad Tenev",
+    "This Week",
+    "In Startups",
+    "San Francisco",
+    "Why Jason",
+    "How Robinhood",
+    "How Vlad",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason",
+    "Will Guidara",
+    "Steve Huffman",
+    "Brian Chesky",
+    "Bob Moesta",
+    "Aaron Levie",
+    "Sophia Amoruso",
+    "Reid Hoffman",
+    "Frank Slootman"
+  ],
+  "topics": [
+    "The early business model and monetization strategy of Robinhood",
+    "Growth strategies, waitlists, and viral referral mechanics",
+    "Managing negative press and setbacks as a first-time founder",
+    "Integrating AI into financial products and internal engineering workflows",
+    "The importance of high-quality design and user experience in fintech"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi_webp/1p4-12k_EbE/maxresdefault.webp",
+  "date": "20260318",
+  "youtube_url": "https://www.youtube.com/watch?v=1p4-12k_EbE",
+  "youtube_metadata": {
+    "title": "How Robinhood became a $68B company w/ Vlad Tenev",
+    "description": "This Week In Startups is made possible by:\n\nDeel - https://deel.com/twist\n\nLinkedIn Jobs - https://LinkedIn.com/twist.\n\nIru - https://iru.com/twist\n\n\nToday’s show:\n\n\nWe’ve got a treat for you today on TWiST! Jason is live from LAUNCH Fest in San Francisco, where he’s joined by Robinhood founder Vlad Tenev.\n\nThe era of AI is here. Robinhood found success in the midst of the last great technological shift. \n\nWhat lessons did Vlad take from this, and how can founders apply these to this next transformative period? \n\nWhat elements are the same and what elements have changed?\n\nLet’s get inside the mind of one of the greatest founders of the last decade!\n\nTimestamps:\n\n0:00 Why Jason runs events like LAUNCH Fest.\n\n2:46 The early days of Jason and Vlad.\n\n5:15 Why getting users before monetizing creates a bigger business.\n\n9:10 Deel - Founders ship faster on Deel. Set up payroll for any country in minutes and get back to building. Visit https://deel.com/twist to learn more.\n\n10:24 Finding ways to launch a product multiple times.\n\n13:10 How Robinhood identified its initial customers.\n\n19:30 LinkedIn Jobs - Hire right, the first time. Post your first job and get $100 off towards your job post at https://LinkedIn.com/twist.\n\n20:25 Robinhood's \"give to get\" and waitlist mechanics explained.\n\n24:28 Navigating mistakes that feel existential (they're not!)\n\n26:57 Leaning into negative press.\n\n29:52 Iru - Iru unifies identity, endpoint security, and compliance into one platform. TWiST listeners get 20% off when they book a demo at https://iru.com/twist\n\n31:34 Tackling competition in the AI era.\n\n36:41 How Vlad hires and develops talent.\n\n41:37 What is good design in an era of vibe coded slop?\n\n46:07 Vlad's top lessons from the last 10 years.\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+    "duration": 2944,
+    "view_count": 4147,
+    "like_count": 110,
+    "channel": "This Week in Startups",
+    "upload_date": "20260318",
+    "thumbnail": "https://i.ytimg.com/vi_webp/1p4-12k_EbE/maxresdefault.webp",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

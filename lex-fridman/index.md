@@ -2,9 +2,9 @@
 channel: Lex Fridman
 channel_handle: "@lexfridman"
 channel_id: UCSHZKyawb77ixDdsGog4iWA
-total_videos: 34
-last_updated: 2026-03-11
-date_range: "2025-03-22 to 2026-03-11"
+total_videos: 36
+last_updated: 2026-04-25
+date_range: "2025-03-22 to 2026-04-09"
 ---
 
 # Lex Fridman Podcast Archive
@@ -15,16 +15,18 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 
 | Metric | Value |
 |--------|-------|
-| Total Videos Archived | 34 |
-| Total Views | 28,571,803 |
-| Date Range | Mar 22, 2025 - Mar 11, 2026 |
-| Average Video Length | 3:27:54 |
-| Total Watch Time | 117:50:13 |
+| Total Videos Archived | 36 |
+| Total Views | 29,462,850 |
+| Date Range | Mar 22, 2025 - Apr 9, 2026 |
+| Average Video Length | 3:23:52 |
+| Total Watch Time | 122:19:34 |
 
 ## Videos by Date
 
 | Date | Episode | Title | Duration | Views |
 |------|---------|-------|----------|-------|
+| 2026-04-09 | #495 | [Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age](videos/iKx3gAODybU.md) | 2:03:24 | 783,982 |
+| 2026-03-23 | #494 | [Jensen Huang: NVIDIA - The $4 Trillion Company & the AI Revolution](videos/vif8NQcjVf0.md) | 2:25:58 | 107,065 |
 | 2026-03-11 | #493 | [Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming](videos/H9rF1CSSh-w.md) | 5:10:12 | 13,904 |
 | 2026-03-01 | #492 | [Rick Beato: Greatest Guitarists of All Time, History & Future of Music](videos/1SJiTwbSI58.md) | 2:33:47 | 170,080 |
 | 2026-02-25 | - | [Khabib vs Lex: Training with Khabib \| FULL EXCLUSIVE FOOTAGE](videos/KGVpKPNUdzA.md) | 22:09 | 266,088 |
@@ -76,6 +78,7 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 ## Topics Index
 
 ### Technology & AI
+- **[Jensen Huang on NVIDIA & AI Revolution](videos/vif8NQcjVf0.md)** - CUDA, scaling laws, TSMC, AGI, extreme co-design, token factories
 - **[State of AI in 2026](videos/EV7WhVT270Q.md)** - Nathan Lambert & Sebastian Raschka on LLMs, scaling laws, DeepSeek, AGI
 - **[Demis Hassabis on AI and Nobel Prize](videos/-HzgcbRXUK8.md)** - Google DeepMind CEO, AlphaFold, p(doom), AGI timeline
 - **[Sundar Pichai on Google](videos/9V6tWC4CdFQ.md)** - Gemini, Veo 3, AI Mode vs Search, XR Glasses
@@ -98,6 +101,7 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 - **[Jack Weatherford on Genghis Khan](videos/U1H1Ob7jk8Q.md)** - Mongol Empire, Kublai Khan
 - **[Norman Ohler on WW2 & Drugs](videos/SvKv7D4pBjE.md)** - Hitler's drug addiction, Blitzkrieg
 - **[Irving Finkel on Ancient Civilizations](videos/_bBRVNkAfkQ.md)** - Cuneiform, Noah's Ark
+- **[Lars Brownworth on Vikings](videos/iKx3gAODybU.md)** - Viking Age, Ragnar Lothbrok, Valhalla, Normans, Byzantine Empire
 
 ### Politics & Foreign Policy
 - **[Scott Horton on Anti-War](videos/jdCKiEJpwf4.md)** - Military industrial complex, War on Terror
@@ -137,6 +141,7 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 ## Notable Guests by Field
 
 ### Technology & AI
+- **Jensen Huang** - NVIDIA CEO, AI computing, scaling laws, leadership
 - **Demis Hassabis** - Google DeepMind CEO, Nobel Prize winner
 - **Sundar Pichai** - CEO of Google and Alphabet
 - **Nathan Lambert** - AI researcher, RLHF expert

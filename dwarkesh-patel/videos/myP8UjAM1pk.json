@@ -1,0 +1,624 @@
+{
+  "title": "Michael Nielsen – Why aliens will have a different tech stack than us",
+  "source_url": "https://www.youtube.com/watch?v=myP8UjAM1pk",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Today I'm speaking with Michael Nielsen. You have done many things, you are one of the pioneers of quantum computing, wrote the main textbook in the field, of the open science movement, you wrote a book about deep learning that Chris Olah and Greg Brockman credit them with getting them into the field. More recently you're research fellow at Astera Institute and writing a book about religion, science and technology. I'm going to ask you about none of those things. The conversation I want to have today is how do we recognize scientific progress? And it's especially relevant for AI because people are trying to close the RL verification loop on scientific discovery. And what does it mean to close that loop? But in preparing for this interview I've realized that it's a more mysterious and elusive force even in the history of human science than I understood. And I think a good place to start will be Michaelson Morley and how special relativity is discovered, if it's different than the story that you kind of get off of YouTube videos. Anyway, I will prompt you that way and then we'll go in there.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:02",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Okay. Yes, so Michaelson Morley is uh one of the sort of the famous results often presented as as this experiment that was done in the 1880s and that helped Einstein, you know, come up with the special theory of relativity a little bit later. So so sort of changing our the way we think about space and and time and our fundamental conception of those things. And there's kind of a big gap I think between the way Michaelson and Morley and other people at the time thought about the experiment and certainly the way in which Einstein thought or did not think about the experiment. In actual fact he uh stated later in his life he wasn't even sure whether he was aware of the paper at the time. There's a lot of evidence that he probably was aware of the paper at the time but it actually wasn't dispositive for his thinking at all. Something else completely was was going on. So uh what Michaelson and Morley thought they were doing was they thought they were testing different theories of what was called the ether. So if you go back to the 1600s, Robert Boyle introduced the idea of the ether and basically the idea of the ether is uh we know that sound is vibrations in the air and then Boyle and other people got interested in the question of like is is light vibrations in something? And they couldn't figure out what it was. Boyle actually did an experiment where he he tested whether or not you could propagate light through a vacuum. He found that you could, you couldn't do it with with sound. So he introduced this idea of the ether and then for the next 200 or so years people had all these kind of conversations about about what the ether was and what its nature was. And the Michaelson and Morley experiment was really an experiment to test different theories of the ether against one another and in particular to find out whether or not there was a so-called ether wind. So the idea was that the the Earth is passing through uh maybe this ether wind and if it is passing through the ether wind sort of this background",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Um, and you you shoot a light beam sort of parallel to to the direction the ether wind is going in, it'll get accelerated a little bit, um, and if it's being passed back sort of in the opposite direction, it'll get slowed down a little bit and you should be able to see this in the results of interference experiments. And what they found, much to their surprise, I think, um, was that in fact there was no ether wind, um, and that ruled out some theories of the ether, but but not all, and Michelson certainly continued to to believe in the ether.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:29",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Okay so- this is what was a shocking part of um reading this story from the biography of Einstein that you recommended by um what was his first name?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:38",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Abraham Pais.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:03:39",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Abraham Pais. Subtle is the Lord. And and also from Imre Lakatos, the methodologies of scientific research programs. The way it's told is that Michelson-Morley proved that the ether did not exist.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:03:54",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:55",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Therefore it created a crisis in physics that Einstein solved with special relativity. And what you're pointing out is actually he was trying to distinguish between many different theories of ether.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:03:59",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Yeah, you know, if you're in space or if you're on earth, it's the same direction of ether, or maybe the ether wind is being carried around by the earth and so you can't really experience it on earth, but if you go to high enough altitude, you might be able to experience it. Um, in fact the Michelson's experiments, the famous one is 1887, but he conducted these experiments for basically two decades.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:18",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "I mean for longer than that. He conducted them, I think the first one was in 1881, but he continued to believe until- I mean he died, he died I think it was like 1929 or so, it was like the late 20s. Um, and he was still doing experiments in the 1920s sort of about whether or not, you know, the ether existed and so- so he continued to believe in the ether to the end of his his life or I think the last public statement he made is like a year or two before he died and he still still believed, basically believed at that point.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:46",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And in fact there was an- another physicist, Miller, who kept doing his experiments and in the 1920s he thought that he went to a high enough altitude in Mount Wilson in California where I'm high enough that the- the ether winds are not being dragged with them by the earth, I- and I've measured um the effect of the ether. And Einstein hears about this and he says, this is where you get the famous quote, subtle is the Lord but malicious he is not. Anyways, I think the reason the story is interesting is for many different reasons, but one is one of the different ways in which the real history of science is different from this idea you get of the scientific method is you really can't apply falsification as easily as you might think. Um, it's not clear what is being falsified. Um, is it just another version of the- the theory of the ether that's being falsified or- um, certainly you can't induce the theory of special relativity from the fact that one version of the ether seems to be disconfirmed by these experiments.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:05:40",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Yeah, so- I mean certainly doesn't show that, you know, ideas about falsification are- are wrong, are falsified. Um, but but you know, it does show that the sort of the most naive ideas, you know, are- it's things are much- often much more complicated than you think. So you know, Michelson did this experiment in 1881, he was a very young man, and then- um, other people, I think Rayleigh was one of them...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "pointed out that there was some problems with the way you did it, so they had to redo it in 19... in 1887, and at that point, like a lot of the leading physicists of the day, leading scientists of the day, basically accepted this result that there was no ether wind. But what what to do about this? So yeah, sure, maybe you falsified some theories of the ether. There are others that you haven't falsified at all at this point, and and people sort of set to work on developing those. Actually, it is funny, I mean, people will phrase it as showed that there was, you know, that the ether didn't exist, and even just the word 'the' there is kind of a misnomer. You know, you actually had a ton of different different theories and a couple of leading contenders. So yeah, there's some version of falsification going on, but like how you how you respond to this new experiment is very, very complicated. And most people responded, I mean, certainly the leading physicists of the day responded by saying, okay, this gives us a lot of information about what the ether must be, but it doesn't tell us that there is no ether.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:05",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "In fact, Lorentz at the end of the 19th century, before Einstein, figures out the math, how you convert from one reference frame to another reference frame, comes up with the Lorentz transformations, which is basically the basis for special relativity. But his interpretation is that you are converting from the ether reference frame to these non-privileged other reference frames, if you're moving relative to the ether. And his interpretation of length contraction and time dilation is that this is the effect of moving through the ether, and you have this pressure, and that pressure is warping clocks, it's warping measures of length. And the interesting thing here is that experimentally, you cannot distinguish Lorentz's interpretation from special relativity.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:07:56",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah, I think that's a strong statement. I mean, Lorentz introduces this quantity called local time, which he regards as... he's not trying... my understanding is he's not trying to give a really a physical interpretation of this, but it's what Einstein would later just recognize as time in a... in another inertial reference frame. And he's not trying to attribute much physical meaning to it. I think Poincaré gets much closer to later on to realizing that, no, actually, this is the time that's registered by by clocks. But if you think about, you go, what is it, it's 40 odd years later, people start doing these muon experiments where they see basically cosmic rays hit the top of the atmosphere, they produce a shower of of muons, and you can look to see at different heights in the atmosphere, you can look to see how many of those muons remain, and they decay over time. And a very strange thing happens, which is that they're decaying way, way, way too slow. So you sort of expect, actually, they shouldn't really...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Couldn't be able to just last the whole way through the atmosphere at all, there's just... their decay rate is too quick.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:07",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "If you were in a classical theory. But if in fact their time really has slowed down, it's okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:15",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "And in fact, you know, the measured decay rates in 1940 and then there have since been more accurate experiments done, match exactly what you expect from special relativity.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:27",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "So, you know, that's the kind of thing where again, if Lorentz had been alive, he'd been dead ten or so years at that point, if he'd been alive, you know, I'm sure he would have tried... it seems quite likely that he would have tried to save his theory by patching it up yet again.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:44",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "But it would have been a massive... I mean, that's a real setback. It starts to just look like, \"Oh no, time is...\" you know, this thing that Lorentz introduced as a mathematical convenience. No, no, that's actually what time is.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:54",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "For the muons at least, and then there's a whole bunch of other experiments that show this very similar thing.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And when was that experiment done?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:02",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "That was I think 1940 or 19... it might have been published in 1941.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:06",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "So, maybe to then rephrase, change my claim, it's not that you couldn't distinguish them, but the scientific community adopted what we in retrospect consider the more correct interpretation before it was actually empirically or experimentally shown to be preferred. So there's clearly some process that human science does which can distinguish different theories...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:28",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Can I just interrupt? I mean, you use the word \"process\" and it's sort of... it's interesting to think about that term. Like process kind of carries connotations of... it's something set in advance, it's something... and it's much more complicated in practice.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:46",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "You have people like Lorentz who, I mean, Einstein just absolutely, utterly admired. And Poincare, one of, you know, the greatest scientists who ever lived. And Michelson, I mean, another truly outstanding scientist, never reconciled themselves.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:04",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "So it's not as though there's like some standard procedure that we're all using to like reconcile these things. No, like, great scientists can remain long very... can remain wrong for a very long time after the scientific community has broadly changed its opinion. But there's no centralized authority, right, sort of saying or centralized method.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:22",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah. I mean, that is the interesting thing, that like there's progress even though it is hard to articulate the process by which it happens, the heuristics that are used. Anyways, you mentioned Poincare.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:35",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And so Lorentz has the math right but the interpretation wrong, and you should explain... it seems like Poincare had the opposite where he understood that it's hard to define simultaneity because it requires some circular definition with time or velocity of something that might be, you know, arrive at a midpoint together, but velocity is defined in terms of time. And I find this interesting... there's a couple other examples we could call on, but like there is this...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "phenomenon in the history of science or somebody asks the right question um but then they don't sort of clinch it and I'm curious what you think is happening in those cases.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:12:08",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "I mean uh I think you sort of you actually do want to go case by case and try and understand it's not necessarily clear that they're they're doing the same thing wrong in in all of the cases. I mean the Poincaré case is is amazing.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:19",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Uh he seems to have understood the principle of relativity, the idea that that the laws of physics are the same in all inertial reference frames.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:12:27",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "He seems to have understood that the speed of light is the same in all inertial reference frames. He he doesn't actually phrase it quite that way uh but but is my understanding but but I don't speak French but uh uh you know and this is I mean these are basically these are the ideas that Einstein uses to deduce special relativity.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:49",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "But then he also has this additional sort of misunderstanding where he thinks uh that length contraction is a dynamical effect that somehow uh you know sort of particles are being pushed together by by you know some external force, some some something is going on dynamically and he doesn't understand that that it's purely kinematics, that actually space and time uh are are different than than what we thought and you need to fundamentally rethink those those things.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:13:17",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "So it's almost like he it's almost like he knew too much. Uh you know he had sort of almost too grand of a vision in mind and Einstein's sort of almost subtracts from that and and says no, no, no, no, no, it's it's space and time are just different than what we thought um uh and and you know here's the correct picture.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:13:38",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "And there's a a paper in I think it's 1909 where where Poincaré like he's still got this dynamical picture of what's going on with the length contraction. And we just yeah this is just not necessary, this is this is a mistake um from the modern point of view.",
+      "tone": "scholarly"
+    },
+    {
+      "timestamp": "00:13:52",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "And and so why why is he doing this? Like why is he clinging onto this idea? And I I don't know I've you know obviously never met the man um uh it it would be fascinating to be able to to talk it over and and to try and understand but you know he he I mean his expertise seems to be getting in the way.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:14:11",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "He knows so much, he understands so much, um and then he's not able to let go of these these things.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:14:17",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Actually a really interesting fact um is that a few years prior, so 1890s, Einstein's a teenager, he believes in the ether too.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:14:26",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Like he knows about this stuff. But like he's just not he's not quite as attached obviously as as these older older people were. Um and and maybe they they were a little bit prisoner of their own expertise. That's that's my guess. I mean historians of science could could might would would some would certainly disagree.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:14:40",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Well there's then there's the obvious stories where Einstein himself later on is said to have not latched onto the correct interpretations of um quantum mechanics or cosmology because of his own attachments.",
+      "tone": "argumentative"
+    },
+    {
+      "timestamp": "00:14:56",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "I think that the the bigger question I have is like...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "The muon example is a great example of, um, these long verification loops and how progress seems to be happening by the scientific community faster than these verification loops imply. Um, maybe the clearest example is Aristarchus in second century BC comes up with the idea of heliocentrism. The ancient Athenians dismiss it on the grounds that, well, we should see as the Earth is moving around the Sun, if really the Sun is the center of the solar system, the stars should move relative to the Earth. Um, and the only reason that is not possible, that that would not be the case, is if the stars are so far away that you would not observe this. And it's only in 1838 that stellar parallax is actually measured. And so we didn't need to wait until 1838 to have heliocentrism, right? Like, we didn't need to wait for the experimental validation to understand Copernicus better in some way. Um, in fact, when Copernicus first comes up with his theories, it's well known that, um, the Ptolemaic model was more accurate because it had had all these centuries of adding on these epicycles. Um, what's maybe a little bit less well appreciated, it was also in some sense simpler, um, because Copernicus actually had to add extra epicycles. It had more epicycles than the Ptolemaic model because he wanted—he had this bias that, you know, the Earth should go in perfect circles and equal time. Anyway, I think this is an interesting story because it's like, it's not more accurate, it's not a simpler theory. So how—why was—how could you have known ex ante that Copernicus was correct and Ptolemy was not?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:16:41",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Hmm. I mean, good question, and I don't know, sort of, entirely the answer. I do know a—well, I mean, I can give you a flash-post that I, you know, centuries in the future, start to find very compelling, um, uh, and I'm sure it's sort of part of the historical story, at least, which is, uh, you know, one of the big shocks for—for Newton, eventually, he did understand Kepler's laws of motion eventually, so you're able to explain, sort of, the motions of the planets in the sky. But he also, out of the same theory, his theory of gravitation, was able to explain terrestrial motion, so he's able to explain why objects move in parabolas on the Earth, and he's able to explain the tides in terms of, uh, the Sun's—the Moon and the Sun's effect—gravitational effect on water on the Earth. And so you have what seem like three very different disconnected phenomena all being explained by this one set of ideas. That—that, I think, starts to feel—that's very compelling, at least to me. Um, and I think—I think most people find that very, very satisfying once they—once they eventually realize it.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:17:51",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Um, have you read the Keynes biography of Newton?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:17:54",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Oh, I have—did he's written an—he wrote an entire biography?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:17:56",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "No, no, no. The—the essay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:17:57",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Yeah, yeah, yeah. Sure, sure, sure. Yeah, yeah.",
+      "tone": "realizing"
+    },
+    {
+      "timestamp": "00:17:58",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "I love—I loved that.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "I mean, this description of him as the last of the magicians is wonderful.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:18:04",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:05",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "In fact, I think it's maybe worth superimposing or you should read out that one passage of the thing.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:18:11",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Alright. So it's from, actually I believe it was a talk that he gave at Cambridge not long before he died. He'd acquired Newton's papers somehow, and then he gave a lecture, I think twice about this, or his brother Jeffrey gave it the other time because he was too ill. And there's just this wonderful, wonderful quote in the middle, oh actually the whole thing is really interesting, but I love this particular quote: 'Newton was not the first of the age of reason. He was the last of the magicians. The last great mind which looked out on the visible and intellectual world with the same eyes as those who began to build our intellectual inheritance rather less than 10,000 years ago.' And like this idea that people have that Newton was sort of the first modern scientist is somehow wrong. He, I mean there's some truth to it, but he really had this very different way of looking at the world that was part superstition and part modern. It was a funny hybrid. He's sort of this transitional figure in some sense. And that phrase, 'the last of the magicians', I think really points at something.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:31",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "The thing I'm very curious about with Newton is whether it was the same program, the same heuristics, the same biases that he applied to his alchemical work as he did to the understanding of astronomy. And so this is from the Keynes essay: 'There was extreme method in his madness. All his unpublished works on esoteric and theological matters are marked by careful learning, accurate method, and extreme sobriety of statement. They are just as sane as the Principia if their whole matter and purpose were not magical. They were nearly all composed during the same 25 years of his mathematical studies.' So clearly there was some aesthetic which motivated people like Einstein to say, reject earlier ways of thinking and say, no, the ether is wrong, there's a better way to think about things. Same with Newton. And the question I have is whether similar heuristics towards parsimony, towards aesthetics, etc., would be equally useful across time and across disciplines, or whether you need different heuristics. And the reason that's relevant is even if you can't build a verification loop for science, maybe if the taste has to point in the same direction, you can at least encode that bias into the AIs and that would maybe be enough.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:20:51",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "I mean, these questions, like, the point is that where we always get bottlenecked is where the previous processes and heuristics don't apply.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:57:00",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "And I've written them in yeah, three months or six months.",
+      "tone": "contemplative"
+    },
+    {
+      "timestamp": "01:57:04",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "I feel like I didn't learn very much from the ones that only took a couple of days.",
+      "tone": "contemplative"
+    },
+    {
+      "timestamp": "01:57:11",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Understand.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:57:12",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Whereas you know, some other ones that took three months, I'll be 15 years later, I'll still remember.",
+      "tone": "contemplative"
+    },
+    {
+      "timestamp": "01:57:19",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah, can you describe outside of physics how you learn of the ones that took three months?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:57:27",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "I mean, by far the most, the common things, there's always some creative artifact. Sometimes it's a class, sometimes it's engagement with a group of people who there's some collective creative artifact that you're working on together. You might not even be aware of it, but you're acting as an input to their creative ends in some way. And sometimes it's just an essay or a book or whatever. It's one of the reasons why I often quite enjoy doing podcasts. I mean, particularly, I said yes to coming here partially because I know you ask unusually demanding questions. And so it's sort of that's an attempt to get this sort of perspective from a different, it's a different kind of a forcing function. So yeah, trying to pick sort of the most demanding creative context.",
+      "tone": "contemplative"
+    },
+    {
+      "timestamp": "01:57:59",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah, for this interview I went through like three lectures of the Susskind special relativity book. And the problem is that there's almost no practice problems in it. And so I hired a physicist friend who's going to like, I haven't done it yet, but just like every lecture I want a bunch of practice problems to go through them and I'm planning on being appropriately humbled.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:58:14",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "But how do you make it as jugular as possible, right? Like the higher you can raise the stakes, the better.",
+      "tone": "contemplative"
+    },
+    {
+      "timestamp": "01:58:19",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "I mean the interview is in some sense high stakes but also it doesn't necessarily test deep understanding.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:58:24",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Yeah, but I don't think the interview is that high stakes, right? You're not writing a book about special relativity. And you're not trying to write a book that replaces the current whatever the existing standard textbook is. Like that's a really high, really high stake. One of the, a phrase that I sort of find particularly difficult and it's a funny one, people will talk about going deep on a subject. And it turns out different people have different ideas of what this means. Some people means they read a couple of blog posts. Some people it means they read a book about it. Some people it means they wrote a book about it. And I think like sort of what your standard is, the sort of the standard you hold yourself to determines a lot about your ability to integrate knowledge in this way.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:59:42",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "I don't know what your experience has been, but I found that I'm getting, I'm in some sense able to move much faster on some things through the help of AI but I don't know if I'm like learning better. And I think it's probably because the hardest thing, the thing that is most demanding is so aversive that you try to take any excuse you can to get out of it.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "02:00:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And just having back-and-forth conversation with an LLM where you gloss over—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "02:00:03",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "It's entertaining, but not necessarily anything else.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "02:00:07",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah, so it's such an easy way to get out of the thing. In fact, it makes it easier because instead of doing some intermediate thinking, you—there's always a next question you can ask a chatbot.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "02:00:17",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Yeah. And—and it's somewhat valuable. Like, it's not—I mean, that's part of the seductiveness, of course. Like—like, it's not actually useless.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "02:00:23",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "No.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "02:00:25",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "But—but yeah, it can sort of substitute for—for actually doing the thing that—that maybe you should be doing.",
+      "tone": "pensive"
+    },
+    {
+      "timestamp": "02:00:32",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "It's interesting that—like, the extent to which—to what extent should you be outsourcing that kind of stuff, and to what extent, you know, like, it's really—there's some sort of interesting judgment call about—you actually there is a whole bunch of routine work that you want done, and in fact, it's low value for you, so you might as well get—if you can get a chatbot to do it, you might as well.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "02:01:00",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Somebody interviewed the pioneering computer scientist Alan Kay years ago, and he was asked what he thought about basically Linux. And if I remember his answer correctly, basically said, 'Look, you know, it doesn't have anything to do with computer science. It's just a great big ball of mud. There's a few interesting ideas in there which are—which are worth understanding, but mostly you're—all you're learning is stuff about Linux, like you're not actually learning anything which is transferable.'",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "02:01:30",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "I thought that was a very interesting—that there's a certain kind of seductiveness to some things where—yeah, it's sort of a Rube Goldberg machine. You can just sort of learn about all the bits and it feels kind of entertaining, but if you step back and think about the question, 'You know, what am I actually doing here?' it might not actually be meeting your objectives. Maybe you want to become a sysadmin, and learning Linux is a great use of your time. There's—no harm in that at all. But if—if your objective is to understand the fundamentals of computing, it's much less—much less clear that that's a good use of your time. I thought that was, you know, certainly an answer I've thought a lot about where you actually need to—for a certain type of mind, there is a seductiveness in—in just—just learning systems and confusing that with—with understanding.",
+      "tone": "philosophical"
+    },
+    {
+      "timestamp": "02:02:22",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah. Okay, I'll keep you updated on how this goes. You know, I owe you a text within a month of—um, some revamped learning system.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "02:02:29",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "I'll be really curious if you—I mean, it's also true, right, like, tiny incremental improvements in this, I mean, they're just worth so much.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "02:02:37",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "I know.",
+      "tone": "acknowledging"
+    },
+    {
+      "timestamp": "02:02:38",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "It's sort of the main input into the podcast, you know. It's great that the bookshelves are fancy and I've got a blackboard or whatever, but really, like, the thing that makes the podcast better is if I can improve the learning I do. So it's—it's worth every morsel of improvement.",
+      "tone": "sincere"
+    },
+    {
+      "timestamp": "02:02:53",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah. Alright, thanks for the therapy session.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "02:02:57",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "Great note to end on.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "02:03:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Um, thanks Michael.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "02:03:01",
+      "ad": false,
+      "speaker": "Michael Nielsen",
+      "text": "All right. Thanks Dwarkesh.",
+      "tone": "appreciative"
+    }
+  ],
+  "highlights": [
+    "The Michelson-Morley experiment is often incorrectly framed as a definitive falsification of the \"ether,\" but in reality, many leading scientists—including Michelson himself—continued to believe in and refine ether theories for decades after the results.",
+    "Scientific communities frequently adopt superior theories based on their aesthetic beauty or unified explanatory power long before definitive experimental verification occurs, as evidenced by the acceptance of heliocentrism and special relativity.",
+    "Breakthroughs often require a lack of attachment to existing frameworks, as established experts can become \"prisoners of their own expertise,\" struggling to reconcile new data with the systems they spent their careers building.",
+    "Deep learning is most effective when driven by high-stakes \"forcing functions,\" such as the creation of a demanding artifact like a book or a course, rather than through passive consumption or surface-level digital interactions."
+  ],
+  "summary": "In this transcript, Michael Nielsen and Dwarkesh Patel explore the \"mysterious and elusive\" nature of scientific progress, challenging the simplified version of history often taught in textbooks. Using the Michelson-Morley experiment and the development of special relativity as primary case studies, Nielsen explains that major breakthroughs rarely follow a clean path of \"falsification.\" Instead, history shows that great scientists often cling to old paradigms (like the \"ether\") even after contradictory data emerges, while others, like Einstein, arrive at correct theories through aesthetic intuition and a rethinking of fundamentals rather than a direct response to experimental results.\n\nThe conversation further examines the long \"verification loops\" in science, noting that theories like heliocentrism were intellectually compelling long before they were empirically proven or even mathematically simpler than their predecessors. By discussing Isaac Newton—whom John Maynard Keynes famously called the \"last of the magicians\"—Nielsen highlights how the same rigorous heuristics and aesthetic biases can lead a single mind toward both groundbreaking physics and esoteric alchemy. This suggests that scientific discovery is driven as much by subjective \"taste\" and parsimony as by a standardized method, raising questions about whether such human biases can or should be encoded into AI systems designed to automate discovery.\n\nFinally, the discussion shifts to the personal methodology of learning and the potential pitfalls of modern technology. Nielsen emphasizes that deep understanding is best achieved through \"high-stakes\" creative forcing functions, such as writing a book or solving demanding problems, rather than passive consumption. He warns against the \"seductiveness\" of AI-assisted learning, which can provide an entertaining gloss of knowledge while bypassing the difficult, aversive cognitive work required to master fundamental principles. Ultimately, they conclude that true progress, whether for a society or an individual, depends on the ability to distinguish between superficial system-learning and the integration of deep, transferable truths.",
+  "description": "Really enjoyed chatting with Michael Nielsen about how we recognize scientific progress. It’s especially relevant for closing the RL verification loop for scientific discovery. But it’s also a surprisingly mysterious and elusive question when you look at the history of human science.\n\nWe approach this question stories like Einstein (who claimed that he hadn't even heard of the famous Michelson-Morley experiment, which is supposed to have motivated special relativity, until after he had come up with the theory), Darwin (why did it take till 1859 to lay out an idea whose essence every farmer since antiquity must have observed?), Prout (how do you recognize that isotopes exist if you cannot chemically separate them?), and many others.\n\nThe verification loop on scientific ideas is often extremely long and weirdly hostile. Ancient Athenians dismissed Aristarchus’s heliocentrism in the 3rd century BC because it would imply that the stars should shift in the sky as the Earth orbits the sun. The first successful measurement of stellar parallax was in 1838. That’s a 2,000-year verification loop.\n\nBut clearly human science is able to make progress faster than raw experimental falsification/verification would imply, and in cases where experiments are very ambiguous. How?\n\nMichael has some very deep and provocative hypotheses about the nature of progress. One I found especially thought-provoking is that aliens will likely have a VERY different science + tech stack than us. Which contradicts the common sense picture of a linear tech tree that I was assuming. And has some interesting implications about how future civilizations might trade and cooperate with each other.\n\n+𝐄𝐏𝐈𝐒𝐎𝐃𝐄 𝐋𝐈𝐍𝐊𝐒\n* Transcript: https://www.dwarkesh.com/p/michael-nielsen\n* Apple Podcasts: https://podcasts.apple.com/us/podcast/michael-nielsen-how-science-actually-progresses/id1516093381?i=1000760075027\n* Spotify: https://open.spotify.com/episode/1JTv7Le8s5Mf0hDcXDOJYl\n\n𝐒𝐏𝐎𝐍𝐒𝐎𝐑𝐒\n- Labelbox researchers built a new safety benchmark. Why? Well, current safety benchmarks claim that attacks on top models are successful only a few percent of the time, but the prompts in those benchmarks don't reflect how real bad actors actually write. You can read Labelbox's research here: https://labelbox.com/blog/the-ai-safety-illusion-why-current-safety-datasets-fool-us-on-model-safety/. If this could be useful for your work, reach out at https://labelbox.com/dwarkesh\n- Mercury has an MCP that lets you give an LLM access to your full transaction history, including things like attached receipts and internal notes. I just used it to categorize my 2025 transactions, and it worked shockingly well. Modern functionality like this is exactly why I use Mercury. Learn more at https://mercury.com\n- Jane Street's ML engineers presented some of their GPU optimization workflows at GTC, showing how they use CUDA graphs, streams, and custom kernels to shave real time off their training runs. You can watch the full talk here: https://www.nvidia.com/en-us/on-demand/session/gtc26-s82065/. And they open-sourced all the relevant code: https://github.com/janestreet/gtc2026/. If this kind of stuff excites you, Jane Street is hiring — learn more at https://janestreet.com/dwarkesh\n\nTo sponsor a future episode, visit https://dwarkesh.com/advertise.\n\n𝐓𝐈𝐌𝐄𝐒𝐓𝐀𝐌𝐏𝐒\n00:00:00 – How scientific progress outpaces its verification loops\n00:17:51 – Newton was the last of the magicians\n00:23:26 – Why wasn’t natural selection obvious much earlier?\n00:29:52 – Could gradient descent have discovered general relativity?\n00:50:54 – Why aliens will have a different tech stack than us\n01:15:26 – Are there infinitely many deep scientific principles left to discover?\n01:26:25 – What drew Michael to quantum computing so early?\n01:35:29 – Does science need a new way to assign credit?\n01:43:57 – Prolificness versus depth\n01:49:17 – What it takes to actually internalize what you learn",
+  "duration": 7383,
+  "people": [
+    "Dwarkesh Patel",
+    "Michael Nielsen",
+    "Ancient Athenians",
+    "Apple Podcasts",
+    "Jane Street"
+  ],
+  "topics": [
+    "The history and mechanisms of scientific progress versus naive falsification",
+    "The role of heuristics, aesthetics, and 'taste' in scientific discovery",
+    "Closing the verification loop for scientific discovery using AI",
+    "The concept of divergent scientific 'tech stacks' and alien civilizations",
+    "Strategies for deep learning and the internalization of knowledge"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/myP8UjAM1pk/maxresdefault.jpg",
+  "date": "20260407",
+  "youtube_url": "https://www.youtube.com/watch?v=myP8UjAM1pk",
+  "youtube_metadata": {
+    "title": "Michael Nielsen – Why aliens will have a different tech stack than us",
+    "description": "Really enjoyed chatting with Michael Nielsen about how we recognize scientific progress. It’s especially relevant for closing the RL verification loop for scientific discovery. But it’s also a surprisingly mysterious and elusive question when you look at the history of human science.\n\nWe approach this question stories like Einstein (who claimed that he hadn't even heard of the famous Michelson-Morley experiment, which is supposed to have motivated special relativity, until after he had come up with the theory), Darwin (why did it take till 1859 to lay out an idea whose essence every farmer since antiquity must have observed?), Prout (how do you recognize that isotopes exist if you cannot chemically separate them?), and many others.\n\nThe verification loop on scientific ideas is often extremely long and weirdly hostile. Ancient Athenians dismissed Aristarchus’s heliocentrism in the 3rd century BC because it would imply that the stars should shift in the sky as the Earth orbits the sun. The first successful measurement of stellar parallax was in 1838. That’s a 2,000-year verification loop.\n\nBut clearly human science is able to make progress faster than raw experimental falsification/verification would imply, and in cases where experiments are very ambiguous. How?\n\nMichael has some very deep and provocative hypotheses about the nature of progress. One I found especially thought-provoking is that aliens will likely have a VERY different science + tech stack than us. Which contradicts the common sense picture of a linear tech tree that I was assuming. And has some interesting implications about how future civilizations might trade and cooperate with each other.\n\n+𝐄𝐏𝐈𝐒𝐎𝐃𝐄 𝐋𝐈𝐍𝐊𝐒\n* Transcript: https://www.dwarkesh.com/p/michael-nielsen\n* Apple Podcasts: https://podcasts.apple.com/us/podcast/michael-nielsen-how-science-actually-progresses/id1516093381?i=1000760075027\n* Spotify: https://open.spotify.com/episode/1JTv7Le8s5Mf0hDcXDOJYl\n\n𝐒𝐏𝐎𝐍𝐒𝐎𝐑𝐒\n- Labelbox researchers built a new safety benchmark. Why? Well, current safety benchmarks claim that attacks on top models are successful only a few percent of the time, but the prompts in those benchmarks don't reflect how real bad actors actually write. You can read Labelbox's research here: https://labelbox.com/blog/the-ai-safety-illusion-why-current-safety-datasets-fool-us-on-model-safety/. If this could be useful for your work, reach out at https://labelbox.com/dwarkesh\n- Mercury has an MCP that lets you give an LLM access to your full transaction history, including things like attached receipts and internal notes. I just used it to categorize my 2025 transactions, and it worked shockingly well. Modern functionality like this is exactly why I use Mercury. Learn more at https://mercury.com\n- Jane Street's ML engineers presented some of their GPU optimization workflows at GTC, showing how they use CUDA graphs, streams, and custom kernels to shave real time off their training runs. You can watch the full talk here: https://www.nvidia.com/en-us/on-demand/session/gtc26-s82065/. And they open-sourced all the relevant code: https://github.com/janestreet/gtc2026/. If this kind of stuff excites you, Jane Street is hiring — learn more at https://janestreet.com/dwarkesh\n\nTo sponsor a future episode, visit https://dwarkesh.com/advertise.\n\n𝐓𝐈𝐌𝐄𝐒𝐓𝐀𝐌𝐏𝐒\n00:00:00 – How scientific progress outpaces its verification loops\n00:17:51 – Newton was the last of the magicians\n00:23:26 – Why wasn’t natural selection obvious much earlier?\n00:29:52 – Could gradient descent have discovered general relativity?\n00:50:54 – Why aliens will have a different tech stack than us\n01:15:26 – Are there infinitely many deep scientific principles left to discover?\n01:26:25 – What drew Michael to quantum computing so early?\n01:35:29 – Does science need a new way to assign credit?\n01:43:57 – Prolificness versus depth\n01:49:17 – What it takes to actually internalize what you learn",
+    "duration": 7383,
+    "view_count": 129651,
+    "like_count": 2160,
+    "channel": "Dwarkesh Patel",
+    "upload_date": "20260407",
+    "thumbnail": "https://i.ytimg.com/vi/myP8UjAM1pk/maxresdefault.jpg",
+    "tags": []
+  }
+}

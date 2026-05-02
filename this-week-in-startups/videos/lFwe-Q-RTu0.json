@@ -1,0 +1,1276 @@
+{
+  "title": "From Blood Transfusions to Burritos, How Zipline is Automating Delivery | E2238",
+  "source_url": "https://www.youtube.com/watch?v=lFwe-Q-RTu0",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Literally the way we describe this to our customers is we are showing up and we're installing a magical portal in the wall of your building. Like it's like Rick and Morty or Stargate. And now anybody in that building, whether it's a hospital or a primary care facility or a Walmart or a restaurant, just walk directly to the wall, you know, put something in a box, pass it through the magical portal and it's teleported directly to the home that it needs to go to in a way that is ultra-fast, great for the environment, and amazing customer experience. This designed to be able to serve 99.9% of homes in a way that is quiet, magical, works in all weather, can operate 24/7. We're now delivering to public areas. It's not just delivering to people's homes, like you can be at a Little League game and you can be like, oh, you know what? I want to get like cupcakes for the kids because we won. And people just like place the order and five minutes later the product is being delivered to the GPS coordinates of your phone. It's really magical and getting something delivered in, you know, three to five minutes or you know, 15 minutes rather than like 45 minutes or an hour, it feels like teleportation to people and it opens up a ton of new use cases.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:06",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "This Week in Startups is brought to you by LinkedIn Jobs. Post your job for free at linkedin.com/twist. Then promote it to get access to LinkedIn Jobs' new AI assistant. Crusoe Cloud. Crusoe is the AI factory company. Reliable infrastructure and expert support. Visit crusoe.ai/savings to reserve your capacity for the latest GPUs today. Northwest Registered Agent. Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity. Learn more at northwestregisteredagent.com/twist.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:01:46",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Hey everybody, welcome back to Twist. This is Alex. Now, there are some technologies out there in the world that take a very, very long time to arrive even if we always thought they'd - they were going to. And then when they finally make it into our lives, it feels like they've always been there. My favorite example of this is self-driving cars. A long-time pipe dream. Will it ever work? Will we pull it off? Well, the answer is yeah. And now in the Bay Area, my friends are busy zipping around in Waymos day in, day out. It's become absolutely part of life. I think drone deliveries are going to fit into that category as well. And so quietly in the background, while we've all been worried about AI and self-driving, drone deliveries have become quite commonplace, quite safe, and quite popular. To help us understand how that happened and where we're going next, please welcome to the show. It's Keller Cliffton, the co-founder and CEO of Zipline. How you doing?",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:02:43",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Great. Thanks, Alex.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:02:45",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I said co-founder there. I should just double-check myself. Solo founder or co-founding team?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:02:49",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Part of the co-founding team. Zipline, you know, Zipline's a, yeah, a big awesome team that's been working on this problem together for almost 12 years now.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "The size of this factory, we're located in South San Francisco. This building is capable of producing about 20,000 autonomous aircraft every year. It's the largest commercial autonomous aircraft factory in the United States.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:01",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Glad I didn't screw that up. Now, you are right now, as I talk to you, on the factory floor. So why don't you tell me, where is this factory and what do I see being assembled in the background?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:03:09",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Yeah, I mean, I am standing on the manufacturing floor. In fact, we just quadrupled...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:12",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "The crazy thing is, I mean, I was here, I did like a video on X standing here about 30 days ago, and it was empty. And we are now, you know, it is now a full manufacturing line.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh wow.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:03:19",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "The vehicle you can see behind me is actually the next generation version of Platform 2, which is the technology that we use to deliver to suburban and urban neighborhoods.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And Platform 1 is what you guys got started building, which is a longer range, lower weight, lower capacity drone that you've used across Africa to deliver medicines to great effect.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:42",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Yeah, actually delivers similar payloads, but the main advantage of platform one is that it can fly 300 miles on a single battery charge.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:46",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And what's the range for platform two or P2 just so we have that information too?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:51",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Platform 2 is really designed around home delivery. And so it's designed to be able to serve 99.9% of homes in a way that is quiet, magical, works in all weather, can operate 24/7. So typically from any charging site that we're building in a metro for platform two, we're serving homes anywhere between 5 and 10 miles from that charging site.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:12",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "That's kind of what I thought. But I was going through the information sheets for P1 and P2 and I thought that P1 was 4 pounds and P2 was 8 pounds, which does feel to me like a bit of a difference. Keller, do I have that wrong?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Yeah, well, Platform 1 we've increased. Platform 1 today, yeah, Platform 1 we now deliver I think over 6 pounds. Again, we always think in terms of kilograms. And then Platform 2, currently delivering about 6 pounds, will be delivering 8 pounds this year.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:34",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Okay, that makes a lot of sense to me. All right, so you're in this new factory in the Bay Area, I love the Bay Area. What was it like to set up manufacturing operations here in the States? I know there's been some supply chain crunches and cybersecurity issues with China, a traditional partner for drone supplies, so how have you guys managed to pull this off?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:04:51",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "I mean, you know, no part of building a hardware company is easy, right? Hardware is hard. The reality is that there are just so many levels of complexity from building this global supply chain to handling incoming quality inspection to then all of manufacturing, then logistics out to the metros. And then in the metros, obviously, we have to be really, really good at building service centers, doing maintenance, doing flight operations. All of that combined, each of those variables is multiplied against each other. If anything is a zero, then the overall service is a zero.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:05:30",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "And so, and you know, hardware, it's like if something goes wrong, you don't get to snap your fingers and work all night and fix it the way you might in software. So it's certainly not for the faint of heart. I do think that there is a huge amount of... I think there's like a huge transformation happening in the US toward American dynamism and toward learning how to build things again. We see that in startups, we see that investors are now understanding that most of the biggest companies that are going to be built over the next decade are going to be companies that build...",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "combinations of software and hardware, these companies have way stronger competitive moats in the long run. And you even see it all the way up to the federal government and this administration really pushing to say like, we are going to build independent supply chains and we're going to get back to building things in the US. So I do think that, you know, there is a pretty strong paradigm shift happening right now that frankly, I think is going to be really good for America, it's going to be really good for technology, really good for American customers.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:06:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes to all that. My question is how much progress have we made? Because people talk about American Dynamism, I know Andreessen just announced a new fund just on that category, for example. But what I'm curious about is how much progress have we made to having, you know, domestic supply chains for the things that you need that were historically sourced elsewhere? Are we 10% of the way there? Are we halfway done? Have we finished it?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:06:46",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "I think it really depends what you... depends what the frame is. I mean, there are certain ways... there are certain frames that are going to be super scary and pessimistic and certain frames that would be more optimistic. Pessimistic frame, you know, China builds as many drones in a day as the US builds in a year. That sounds bad, and it is bad because this technology is going to be, you know, I think it's a pretty similar statistic, I think it's around 300 times... they build around 300 times as many ships as the United States builds. These are scary, and they are areas where the US is, like, way, way, way behind by several orders of magnitude. Optimistic frame: when you're looking at a lot of new kinds of technology, whether these are, you know, next-gen chips or whether it's these kinds of aircraft. Because when you talk about drones, you know, you're talking about like a two to three kilogram quadcopter that can fly like a couple miles and take pictures. What Zipline builds is a 60-pound vertical takeoff and landing fixed-wing aircraft. You know, every single part... every one of the 43 major subassemblies on the aircraft built from scratch. This kind of technology actually America leads. And in fact, a lot of other countries, many of America's allies, are coming to Zipline, coming to US government asking, you know, if they can partner with us to build this kind of infrastructure. So when it comes to a lot of more advanced technologies, the US leads. And the whole question is going to be, we just have to make sure that that lead now flows through into manufacturing as opposed to China can catch up because of the manufacturing scale it has on some lower-tech versions of these things.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So, push the state of the art, push the envelope, and then work on scale as opposed to trying to chase, you know, DJI's gross margins.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:08:30",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Exactly. I don't think... I think it's going to be really hard to go and build, you know, a two to three pound quadcopter that is going to compete at scale. I mean, again, China does have massive scale in those kinds of markets. But a lot of these new advanced technology markets, the US leads. And if we make sure that manufacturing doesn't become a bottleneck, this is what's going to drive the manufacturing leadership and dominance for the US for the next decade in the world. Like, we have to take those advanced technologies where we have an advantage and flow those through onto the factory floor.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:08:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So, on this factory floor, you said you guys can get up to 20,000...",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "per year. How many drones do you guys need to build right now to meet Zipline's own requirements, own needs?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:07",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "That need is changing every day. The crazy thing is that, you know, the biggest change that happened last year, we really launched Platform 2 at scale in the US on January 15th of last year. So it's almost a year ago. And the service basically exploded. It's been growing around 15% week over week. We've been launching a new Walmart Supercenter every week. We focused on going really tall in Dallas. The growth curve, you know, I talked about it with actually Jason at the All-In Summit, but the growth curve is basically vertical at this point. I actually don't know the exact numbers today, but you know, ultimately by the end of this year we need this building to be building 20,000 aircraft a year, to be at a run rate of 20,000 aircraft a year, to be able to stay on the growth curve that we're currently on.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:09:46",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "That's awesome.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:09:52",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "One of the first things we teach in Founder University is the value of forming a Delaware C-Corp, even if you're not in Delaware. It may sound complicated, but this is a standard for startups, making you more attractive to investors. And our friends at Northwest Registered Agent can help. They're the all-in-one business identity service that's going to get you a domain, a custom website, business email, and phone number, all in just 10 clicks and 10 minutes. They're going to protect your privacy by using their own address on all public filings, and they're never going to sell your data. Plus, Northwest Registered Agent has all sorts of free tools and resources to ease the process of becoming a first-time founder and ensure that you can focus on building your business, not administrative tasks and paperwork. So get more from your Delaware C-Corp with Northwest Registered Agent. Learn more at northwestregisteredagent.com/twist.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:10:50",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So on the partners and delivery front, Walmart's been key for you guys. You guys announced your first kind of trial with them back in 2021. Tell people what changed on January 15th and also who's using this? Because in my intro I picked self-driving cars, which are in some ways in tech-y cities if you will, but also in Phoenix, so also out there in the normie market. So I'm curious how regular folks are adapting or even adopting Zipline's delivery service.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:11:23",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Yeah, I mean when we launched on January 15th, that was us launching Zipline's home delivery technology, which is Platform 2. It's what's being built behind me. This is designed to enable teleportation or instant logistics from any retailer or restaurant or even healthcare system directly to homes in a way that is 10 times as fast, half the cost, and zero emissions.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:37",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Talk to me about how it works. I'm going to pull up the video you put on X the other day, and I think this will help people understand exactly how it works. So just sports cast through this if you will.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:11:46",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Yeah, this kind of cool example actually. One of the advantages of this kind of technology because we're using something we call a droid. So the main aircraft stays 100 meters in the air, 300 feet up, so football field. And then we're using a droid, a secondary...",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "a robot that can control its position in X and Y axes to deliver hyper-accurately to any GPS coordinates. What's cool about that video is actually was demonstrating, you know, we're now delivering to public areas. It's not just delivering to people's homes, like you can be at a Little League game and you can be like, 'Oh, you know what? I want to get like cupcakes for the kids because we won.' And people will just like place the order and five minutes later, the product is being delivered to the GPS coordinates of your phone. It's really magical. And getting something delivered in, you know, three to five minutes or, you know, 15 minutes rather than like 45 minutes or an hour, it feels like teleportation to people. And it opens up a ton of new use cases. So I mean, examples, you know, there are grandmas, you know, I was visiting a grandma a few weeks ago who has ordered 350 times from Zipline in the last year. Um, all of these different families, again, all of these, most of these families are in Dallas because Dallas is where we did most of our scaling last year. It's amazing how quickly people go from like science fiction to completely normal if not like entitled, you know? They're like, 'Yeah, of course we have this.' I mean, whether it's for like errands or a sick kid late at night or, you know, dinner delivered for six people and it actually tastes good because it's delivered in five minutes, it's still hot when it arrives. Um, or getting your prescription delivered or you forgot something and you got to get like three or four things that you forgot at the store. Or you decide you want to make something at the last minute and you need, you know, 10 specific ingredients. Like just saving people hours every single week when they do not have to be in the car battling traffic and like trying to find parking spots in parking lots and going into stores to just have something delivered directly to you has a really big impact on people's lives. It allows people to spend more time with the people they love.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:13:34",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "You guys are not selling these P2 drones to companies. You're offering a delivery service, as I understand it. Talk to me about the thinking behind that. And, um, I'm really curious about how you charge for it and who eventually pays the cost in the transaction.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:51",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "You know, when we originally launched Zipline, one of the... the biggest thing we understood, this was actually kind of like a profound realization, was that the aircraft was about 15% of the complexity of the solution. I think it's really easy to kind of get focused on like, 'Oh wow, what a cool autonomous aircraft.' But the reality is there's a huge amount of complexity in integration, ground infrastructure, um, you know, the way that we do unmanned traffic management systems, the way we do communications architecture, the way we do multi-vehicle deconfliction, all the way to the customer-facing app, right? Because all of these orders are happening through the Zipline app right now. All of these things, you know, it... it's sort of like saying, 'Oh yeah, you know, if I were going to compete against UPS, all I need is a brown truck.' You know, it's... it's kind of obvious. 'Oh, actually UPS is like a big complicated logistics network.' And same goes here. It's just that that logistics network needs to be fundamentally rethought, redesigned around autonomy. And so this is ultimately what Zipline's building. It's building an entirely new kind of logistics network with autonomy and AI and robotics at its core. And so, you know, that was the big realization. It's like us, you know, trying to build an aircraft and sell it to other people. I mean, who would we sell it to? Who would know how to get regulatory approval for these kinds of things? Who would know how to...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "...how to maintain these kinds of vehicles, who would know how to design an app that works really well for this kind of delivery.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:05",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Yeah, so so far it's made a lot more sense for Zipline to be fully vertically integrated so we can own every single part of the problem and make sure that every part of this solution is ultimately designed for this next generation way of delivery.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:15:18",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "No, that makes perfect sense to me because you guys have built technology, for example, that attaches to a building, for example, and lets the droid from the drone kind of come down and pick up packages. And I'm not going to lie, I don't think Chipotle's going to be really great at designing, you know, unmanned aerial vehicle sidewalk-based pickup hardware. That's going to be your bag. So it makes good sense. Have anyone that you've worked with complained that they can't buy them? Because I can kind of see how some companies might want to own the hardware themselves even though you're offering it more as a service.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:15:54",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "I would say in... I mean, I actually can't really think of an example of that. Like almost all of our customers, even really big customers like Walmart or Chipotle or Wendy's or many others, are... you know, what they want is teleportation from their restaurant or retail store or, you know, even for some of our partners like, you know, Cleveland Clinic or Michigan Medicine or Memorial Hermann, any of our other healthcare partners, generally, look, they have like a massively complex business that they have to be really good at. They're not also then, like, super excited to figure out how to, like, manage autonomous aircraft through the FAA and figure out maintenance and, you know, and all the safety and regulatory and reliability variables associated with that. It's much easier to have all of that complexity behind a curtain, so the experience for them and for their customers is dead simple. It's like, they just have teleportation. I mean, literally the way we describe this to our customers is we are showing up and we're installing a magical portal in the wall of your building. Like, it's like Rick and Morty or Stargate. I don't know if you, you know, if you used to watch Stargate, but like, we're going to show up—",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:17:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:17:12",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Yeah, we're just going to install a magical portal in the wall and now anybody in that building, whether it's a hospital or a primary care facility or a Walmart or a restaurant, just walk directly to the wall, you know, put something in a box, pass it through the magical portal, and it's teleported directly to the home that it needs to go to in a way that is ultra-fast, great for the environment, and an amazing customer experience.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:17:22",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Now, there's been a lot of work you've done with the FAA to get the proper approvals. One thing you guys had to work on was flying drones outside of kind of visual line of sight, I think. And one thing I learned was that there was a time when you had to have people watching the drones on their routes. Tell me about that and what's changed for the company in terms of being able to actually do fully autonomous drone deliveries.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:17:49",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Yeah, I mean look, in our infinite wisdom, when we started building Zipline in 2013, this was illegal.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:17:56",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "No.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:17:58",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "So, turns out it's kind of hard to raise money for a company that is illegal, you know.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "outside the US when we got started and it's the reason that we had to focus on life-saving use cases like delivering blood transfusions and vaccines and cancer products, infusions, transfusions, because we had to focus on use cases that were so important that we could convince other countries to basically make something legal so that we could get started and actually show scale and learn by doing in the real world. Our first customer was Rwanda, started by delivering blood transfusions to 21 different hospitals and health facilities. Zipline has now expanded to 5,000 hospitals and health facilities globally. It's become the largest commercial autonomous system on Earth. It saves about 17,000 lives a year, predominantly moms and kids, and that service is continuing to grow exponentially fast now in partnership with the US government, which we announced a few weeks ago.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "No.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:18:03",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "It's easier if it's legal. Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:05",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:06",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "My advice for entrepreneurs is like, do something that is legal because it'll be easier to get investors to give you money. Um, but yeah, I think, you know, this was actually the reason Zipline had to go—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:18:43",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yes, a 150 million dollar grant that's going to be matched with up to 400 million from African nations, I think?",
+      "tone": "engaged"
+    },
+    {
+      "timestamp": "00:18:49",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "That's right. And that'll actually expand us from about 5,000 hospitals and health facilities to over 20,000 globally. It'll... you know, it... it massively expands that kind of like autonomous network to more than 100 million people who don't have access to that kind of logistics today. But all of that, what that all resulted in was Zipline achieving more than 135 million commercial autonomous miles with zero safety incidents.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:19:15",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Oh wow, I didn't know it was actually zero. Well done.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:19:17",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Yeah, and I'm... by the way, when you compare that, you know, to delivering things with a car, if you were to deliver 120, 130 million commercial autonomous miles in a car, you're going to have 600 crashes, over 100 injuries, and somewhere between two and six fatalities. And so, you know, Zipline isn't just about the lives that we're saving by like delivering these crucial products to the right place at the right time...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:19:39",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "...but also how you deliver them and how that impacts the world. And also back to your point earlier about, you know, people don't have to be in their own car. If you don't have to have someone bringing your food to you in a car, the roads are less congested, the streets are safer. I mean, there's a lot of benefits.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:19:54",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Yeah, exactly. And so, you know, this is also safer for the neighborhoods that we serve. And... and yeah, you know, on the neighborhood point, I mean, I think people are always a little wary of like a new technology they're not exactly sure of, but it is possible to build this technology in a way that is really, really quiet. I mean, Zipline is six times quieter than the next closest competition despite delivering a lot more payload. And so, you know, having it be quiet, having it be safe, having it be clean and fast and reducing traffic and pollution in our neighborhoods is a huge benefit. I don't think we fully appreciate like the degree to which we've had to give over like the sidewalks and the streets in our neighborhoods to these like kind of commercial applications.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:20:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "That's exactly why the whole focus on sound... you guys do a great job on sound. It's quieter, the drone stays high in the air and brings down the droid so you don't have a lot of sound, and all that's lovely. I'm just annoyed that we have to care so much about it. Like, I live in a city, it is loud because there's lots of cars. Even if the drone was the same volume level as a car, it would still be a dramatic improvement to have them in the sky versus on all the roads constantly honking and revving their engines and being awful. So I... I wish the world was a little bit less worried about sound, but I'm glad you guys have managed to find a way to make it quiet.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "work it's just Look...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:21:02",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Look I, I but I would just push back. I think the world is very, very worried about sound. In fact, I think the reason, you know, when people and and the problem is a couple other companies have shown solutions that are like insanely annoying and loud. It's like having a lawn mower of death descend to within, you know, 10 to 20 feet of your yard, and it is not just annoying for you, but it's definitely really annoying for your neighbors. And so, like, we we think people do care a lot about this, and any new technology has to be significantly better.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:21:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Significantly better.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:21:29",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Yeah, and so and so, you know, this is an area where if built correctly, this kind of delivery is a lot less, you know, intrusive, a lot less noisy than cars. Like it can be better in every way. And so we we I actually just think the reality of this is like people want their neighborhoods to be quieter, cleaner, greener, safer, less traffic. We gotta do all of the above.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:21:54",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "AI is revolutionizing every aspect of our industry. But for founders, it can prove very frustrating, largely because cloud costs are so unpredictable. This has probably happened to you. You've planned out and budgeted a certain amount for a project, and then been hit with a massive bill with no real explanation for what went wrong. If you're feeling like the cost of working with this innovative technology is just too high, finally, we have a solution for you: Crusoe. They are the AI cloud company that's taking an energy-first approach. What does it mean? They efficiently access their power directly from the source and pass all the savings along to you. This isn't just about saving some cash. Crusoe's architecture is specifically optimized for your AI workloads, and their customer support response times clock in at under six minutes. Here's what I want you to do: visit crusoe.ai/savings to receive $100,000 in credits for virtualized NVIDIA GB200 NVL72 on Crusoe Cloud, pending availability. That's C-R-U-S-O-E dot AI slash savings.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:23:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I think you've nailed it across all those points. But I'm curious about the consumer cost. So, I think everyone watching this has probably used Uber Eats or similar in the last week. So we all know about what that costs to get something delivered. In the Texas area where you guys have built up the most, um, what does it cost me to have a delivery executed if I'm inside of a normal service area and I'm doing a normal sized and weighted package?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:23:24",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Yeah, right now it's um it's very similar. In the long run, it probably shouldn't seem that surprising that these kinds of technologies are going to be far less expensive. I mean, using a 4,000-pound gas combustion vehicle driven by a human to deliver something to your house that weighs on average five pounds, you do not have to be a physicist to understand like this is actually a really odd way of solving that problem. And by the way, we do that five and a half billion times every year just for instant delivery. So just where we're delivering something using a car, you know, delivering a dinner or delivering a grocery bag to you. Again, you do not have to be a genius to understand, actually the way you want to do that is with a if you're delivering something that weighs five pounds and you want to do it fast, please-",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "fast. You want to do that with a vehicle that weighs about 50 pounds and is electric and is a robot. I think as soon as you understand that, you understand actually something secret and exciting about the future, where the future is going. And the reality is those kinds of systems are going to be far more cost-effective for customers. So many customers that we talk to who use food delivery or grocery delivery a lot, there is this feeling of like, man, it is really expensive to have a private taxi for your burrito.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes, I love that meme.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:24:29",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Yeah, exactly. You've seen the Donnie Darko, I think it's like a Donnie Darko meme, exactly. Like, there's a guy who's like, inflation is terrible, and the mom's like, inflation is terrible or did you order a private taxi for your burrito? Like, it's not that surprising that these kinds of systems wind up being really expensive. We're having to, like, put all kinds of different crazy fees, whether it's a regulatory response fee, extended range fee, rush delivery fee, taxes, tip, service fee, like, you know, at the end of the day, there's a lot, I would say, of like fee exhaustion. And at the end of the day, we want to design technology that can actually price much more transparently, where it's just like, actually a good deal for customers, where you get a really high quality experience. So instead of food showing up, like, 30 minutes later, 45 minutes later, and it's kind of cold and gross and french fries are ice cold and the milkshake is melted or whatever, you know, something should be able to be delivered in three minutes. So the food actually tastes like you're having an in-restaurant experience at home or you're getting something delivered instantaneously if your kid isn't feeling well late at night, whatever. Like, fast is much better. And, you know, we ought to be able to price transparently in a way that is much better for customers. So again, you know, the technology is already comparable to using a car and in the long run, it will be much less expensive.",
+      "tone": "earnest"
+    },
+    {
+      "timestamp": "00:25:42",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Is this something that gets like 30% cheaper each year or should I have a longer time horizon?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:25:46",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "No, I think that's about how you should think about it. I think that's about how you should think about it. And by the way, the cost of using humans driving cars is getting more expensive every year because the cost of gasoline, the cost of labor go up.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Cost of repairing used cars, cost of purchasing vehicles, etc., etc.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:26:05",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Exactly. Humans want to be paid more money every year and they should be. I think, you know, in general, it's not great if we have, like, major parts of the economy that are designed around forcing humans to accept lower and lower wages every year.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:26:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, I have a lot of thoughts about that, but we only have so much time. I want to stay on money, though. I want to talk about what your company needs. Uh, there's this really fun picture you guys put up of some of your drones going out and about and this is a time-lapse photo that shows different lights and different paths that drones are taking. Uh, is this P1 or P2 that I'm looking at here?",
+      "tone": "transitionary"
+    },
+    {
+      "timestamp": "00:26:28",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "It's Platform 2.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is P2. So clearly you had to build that physical infra to support the drones and this is, I presume, charging and, you know, maintenance and so forth. So not a capital light business to a degree. I know you guys raised, I think it was $330 million in April of '23. Um, do, do you guys need more money? And as you mentioned earlier, investors and, you know, certain business models, how attractive are the capital markets for Zipline today?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "growth side but now also even more on like the public and crossover side, you know, these investors really believed in us. I mean, you know, some of the investors that participated in that round you mentioned like Fidelity and Baillie Gifford and Capital and Sequoia, Andreessen Horowitz, many others. Like these investors have believed in us for a decade and I think that I would say, you know, I and Zipline's board and all of these investors are suddenly looking at like these growth numbers and these, you know, the product market fit and it's like it is suddenly very clear to us that this is going to be one of the biggest markets on earth and that it is all going to be automated in the next three to five years. And there's just a humongous opportunity to like, it is going to create so much wealth and health in the world to connect humans together more efficiently in the way that Zipline is doing. And so, yeah, I mean, it is definitely a very capital-intensive business. We are building this infrastructure out across, you know, every part of the US and also across, you know, eight plus different countries all over the world. You got to go build ground infrastructure, you got to build service centers, you got to build the hardware, you got to build the factories. But we're really lucky to have a lot of the biggest investors in the world helping us build this infrastructure out. And at the end of the day, I do think it's very obvious that some, you know, someone's going to build an automated logistics system for earth and we think that that is going to be one of the most impactful things for humanity to build over the next five to seven years.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:28:17",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And clearly it's working out. June 2022 Zipline cited it had done 325,000 deliveries. By August of last year, 1.6 million plus. The most recent number is 2 million plus. Last question: when does it arrive in Providence, Rhode Island? Because dear god, I never want to drive again.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:28:41",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "So not announcing Providence, but actually we do have a pretty cool thing to announce today, which is that we are just basically in the first in Q1 of 2024, so in the next in the coming months, we're going to launch in Houston and in Phoenix. So those will be our our second and third major metros in the US. Maybe Providence will be number four, Alex. I wouldn't don't don't hold your breath, but, you know, look, we we do hear, you know, every single person on Twitter like in my comments is always like, 'Why isn't it going to New York City? Why isn't it coming to my city?' I mean, you know, we are we are Zipline is now accelerating and so we are going to be launching new metros at an accelerating pace through this year. We'll be announcing more metros probably sometime in Q2 and we will get to the point where we're launching a lot of metros every quarter as quickly as we possibly can. The goal is to get to national scale in the coming couple years.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:29:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So how long until we hit 3 million deliveries then? What's the what's the next marginal million going to take you in terms of time?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:29:28",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "It's a really good question. I mean, it'll happen, you know, it'll probably happen in the first half of this year, I would guess. The system is really accelerating. It's crazy. I mean, if you look at platform two deliveries, which is the extraordinarily high growth part of Zipline today, I think that we've done more than half of all deliveries in the last 30 days. Really kind of gives you a sense for like, you know, it's that is what happens when you're on an exponential curve. We expect platform two, I mean, just to give a sense, I mean, Zipline is now doing more flights per day than United Airlines globally. And by the end of this year, we will be doing more flights than all other airlines combined.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "lines in the United States combined. So we are, you know, the system is growing really, really, really fast and we are going to double flight volumes this quarter and then we're expecting to double flight volumes next quarter and then we're going to double flight volumes in Q3 and then we're going to double flight volumes in Q4. So, yes, it is a crazy time and for hardware companies, you know, sometimes software companies can scale like that, but for hardware companies, it's really hard to really hard to scale that fast.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:30:25",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Well, now I know why you have the enormous new quadrupled factory and I'm looking forward to you quadrupling that yet again. For folks who want to keep track of the company, where can they find you online and is there a job you want to shout out into the audience that you want to fill and you are looking for candidates?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:30:37",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "zipline.com. You know, the company's growing really, really fast. We are hiring across engineering and operations. And, you know, if you want to work on something that is an insane adventure and that's building global infrastructure that's going to save lives and save money for people and save time, you know, I do think that AI and robotics are going to remake the world over the next five years and we have an opportunity to build universal high income and abundance for humanity if we get it right. And so it feels like an amazing time to be building.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:31:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Keller, thank you so much. We'll have you back on when you hit three million and then we'll have you back on when you hit four million and soon you'll be on once a week. Thanks for coming on.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:31:11",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Awesome. Thanks Alex.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:31:13",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "You know, I hear from founders venting all the time about how tough it is to hire great people. Well, let me tell you what the biggest game changer for our hiring process at Launch has been. The LinkedIn Jobs AI Assistant. It's like having an amazing recruiting manager. We've been growing our team over the past year and we've filled multiple positions in weeks, not months, with this new AI assistant, which makes it so easy to post a new position without filling out a huge form with a thousand steps. And it filters applicants based on the customized criteria that I set for the role. So only the best matches get surfaced and I'm not stuck scanning through a million resumes. But that's not all. It also shows your post to 25 optimal candidates every day, so you can actually invite the most qualified people to apply for your position. So hire right the first time. Post your job for free at linkedin.com/twist, then promote it and get access to LinkedIn Jobs' new AI assistant. That's linkedin.com/twist to post your first job for free. Terms and conditions do apply.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:32:24",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "If you're watching this, it's safe to say that you are an LLM user. Now, I don't care if it's GPT-4.2 or Claude 3 or Opus 4.5, Gemini 3, Grok 4.1, or even Mistral Large 3. But while there's infinite attention paid to new LLM launches and their changing leaderboards, some startups are working on something a little bit different: video models. And among the companies building video models, there are startups that are taking that work even further and are building world models. One such company is Runway and they announced their first general world model at the end of 2023. So, to help us understand what world models are, why they matter, and what...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "they mean for both the AI industry as a whole and his startup. Please welcome to the show, it's Anastasis, the co-founder and CTO of Runway.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:33:07",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "Good to be here.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:33:08",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So glad you're here, man. So let's start with some basics for folks out there who are not as familiar with what we're talking about. What is a world model? And perhaps how does it differ from the models that people are probably a little bit more familiar with?",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:33:19",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "Yeah, so a world model is essentially, it's a, it's a system that builds representation of environment and then simulates different actions in that environment. So, you know, video models I think most people are familiar with, you type in a prompt, you wait for a bit, and then you get back an output, a video, like, you know, 10-second video or whatnot. World models, the main difference is essentially that you're providing continuous interactive input to the model and in the form of actions. So a model might be, you know, you might be having a conversation with, with an agent, you might be navigating a space, you might be controlling a robot in real time. So the main difference is essentially that the model is generating frames continuously based on your input. It's not that you're just providing one input at the beginning then you get back an output. And that's a very important property because it just allows to build essentially simulate what happens when you take specific actions and simulate what happens if, you know, you do one thing or another. That's kind of in a nutshell what the world model is.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:20",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "When you say, you know, a world model could involve talking to an agent, when I think about that example, to me that's very much a text-based experience. So can you put that into the kind of world model context and how that might be different from how people currently interact with what they consider to be AI agents today?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:34:34",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "Yeah, so a world model is, we're building multimodal systems so they can generate video and audio. So, so the idea is that, you know, like a lot of communication, a lot of interaction is not verbal. You want to simulate parts of, you know, simulate aspects of, like, an interaction that are not captured by text alone. Just getting the transcript of a conversation is, is gonna, you're gonna miss a lot of, like, the, you know, the vibes of the conversation, like the, yeah, how people are feeling, how people are behaving. And so that's, that's the idea of like, that's what something that a world model will capture in a way that just simply a language agent will not. But it's, it's a bit more broader than that. I think there is, you know, so much about our physical world that's just not captured and cannot be described by text. And this is a lot of, like, our focus and kind of our mission to, to show that, like, models that are just trained directly on, on physical reality are able to, to do things that language models cannot do.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:35:26",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "So you guys have discussed how your recent video model Gen 4.5 was kind of a prerequisite to build GWM 1, your first general world model. Um, can you talk us through how you built 4.5 and then how that became kind of the foundation for this first general world model?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:35:44",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "Yeah, so for some, some context, Gen 4.5 is our latest base video model. So that's more like a traditional, uh, video model where you have text-to-video or you're providing an image and you generate a video. So, uh, we've been training those models for quite some time. I think at this point we're probably dinosaurs of generative AI",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "Yeah, we've been around for seven years and we've been really focused on pushing the frontier of like what image and video models can do. And going from like super low resolution or like very experimental use of those models to them being used in production, to being used for like the final frame of a film or a campaign. And Gen 4.5 is kind of our latest video model that we pre-trained.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:21",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "All our world model research basically starts from our base video model and kind of post-trains that model for doing this kind of continuous generation. So it's very important that the base model is able to understand physics, understand some like gain knowledge about the real world, because that's, you know, it's going to set a bound of like how far the world model can go, like how realistic it will be.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:44",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "That's what I wanted to get at because to me, using a video model as the foundation to build the world model makes good sense, but it seems like it would only be as intelligent as the initial learning. So if it had, if you've had only, you know, Looney Tunes cartoons for example, it's going to think that physics works kind of one way when in reality it doesn't. So how hard is it to ensure that the the video model learns an accurate representation of of reality so that way you can kind of model that in the world model itself?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:37:13",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "Yeah, so it's very important and it's a big part of like how we're pre-training the models to make sure that, you know, we measure how well they are at physics. It's not, you know, by giving them exams, it's more by just testing how they perform in different scenarios, how they do in like solid mechanics.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:37:25",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Can you tell how good they are just by testing them or do you have to do sort of like in-world model testing to say like, okay, this is simulating gravity at, you know, 1.1x what what reality is?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:37:38",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "Yeah, so you can do that with regular video models. You can basically, you know, take a basically shoot different videos in the real world of like different interactions. You might have like, you know, you drop a ball from a ceiling. And so you have this ground truth, you have the video of like the actual physical phenomenon happening. And then you put the first frame and you basically generate a video with that with the video model and then you compare like how much does the actual interaction like match like what was the generated interaction? And you can you can get some metrics that basically show you the understanding of physics of this model is kind of, you know, you have some kind of quantitative measure for it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:38:14",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "And what we found is basically very predictably just putting more compute and more data to these models makes them better at physics. And the better they are at physics, the more they can simulate those interactions, which is, you know, very critical for robotics, for like all those different domains.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:38:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "This is the the the bitter lesson argument that we can just put more compute at things and then they get better. Do I have that right?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:38:35",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "We're a very bitter bitter lesson pill lab.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:38:39",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Well, I I was going to say it sounds like it because you're working on some of like it seems like the most compute intensive things you can because when you guys announced GWM-1, you said that it's like 4.5 but autoregressive, so it kind of looks back and then projects. That just sounds incredibly compute intensive to me to the point to which it almost feel oh I don't know, cost prohibitive, but I presume that I'm wrong about that.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "What is the the cost ratio compared to say a traditional text LLM?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:39:03",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "Yes, so it it depends on a few factors.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:05",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "I would say a big focus for us is making the pre-training more data efficient, like we obviously don't have the resources that Google or like another big lab has, so we need to make sure that we can do more with less. Um, so there is a lot of choices that actually matter a lot in how you pre-train those models, like how they on the architecture, on the data, to make them more efficient so they can learn from less data or from less compute. And so that's that's a really big focus for us.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:29",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "We generally expect that in in world models will need more more compute than language models today. They, you know, like video's much more high dimensional, especially if you're if as we're starting to train on long video and long context, you know, you're training on an entire, you know, like an hour of video uh of like performing a complex task instead of just training on a single shot, like you gotta be able the the compute requirements are gonna be pretty massive. And so we're very very paranoid about making sure we can we can train the next models.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:40:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We'll talk about uh getting more compute online in just a second, but I want to talk about the response to GWM1, your first world model, announced a little bit ago. What's been market response to it? And how close do you think other people are to catching up to where Runway is today?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:40:14",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "So the response has been great. I think one one of the nice things was that we like one of the things we try very intentionally to do is show that this is not just one specific use case, but you have this the kind of the same world model foundation powering very different domains like robotics or, you know, more game-like interactive experiences and there's not that much difference actually in how we train those different models. So we got a lot of response from like very different audiences.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:40:40",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "It's actually been very surprising how quickly kind of the robotics and kind of autonomy folks have like become interested in world models. Like I was, you know, when we started going into that like earlier this year, I was expecting it to be a lot of convincing to to make them kind of uh want to try world models, but it hasn't it hasn't really been the case.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:41:01",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Can you explain to people out there who aren't familiar with the why as to why robotics and autonomy are good places to use world models?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:41:08",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "So building models for autonomy, like there is a few different really big challenges involved. So training those models, like the policies, which is the the models that are controlling the robot or controlling the car, you know, it's it's very data intensive and collecting that data is very slow and collecting the right data is very slow as well, so it's even harder. So like if you take an autonomous driving scenario, it's very difficult to collect data of accidents, right? You don't... so most of the data you might collect is actually things that are very easy to simulate, that you have a ton of, you have like, you know, the car moving forward. Getting the data for the right edge cases is very, very critical and that's something that, you know, if you're able to generate that data, you're able to make those models much more robust and be able to to handle edge cases uh much better. That's one area and then the other area is evaluation. So, you know, assuming you've you've got a very good like good",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "Model, how do you test that it's actually good? That it can actually do all the different tasks that you wanted it to do, that it can actually handle different environments? Like there's a lot of impressive demos of like robots doing, you know, backflips and kind of crazy things, but those are very sensitive to the environment. So like if you change one-- like if you move the table a bit then the robot might not be able to do the task with a lot of those demos. So making sure that you can evaluate those models well before you deploy them is really important and that's something that you can do inside the simulation instead of doing that in the real world.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:33",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Right, so you can create scenarios that are rare in the real world in your physics-intelligent world model, or in the case of robotics, in my mind, you could spin up, I don't know, a thousand digital twins of your robot you're building, throw it at, you know, 55,000 different scenarios, and learn more in a single day than you could in an actual physical environment in what feels like several years to me. Do I have this right?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:42:57",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "Exactly, yeah. And it's beyond being slow, it's very expensive and it's unsafe. Like it might break, you know, robots break all the time when trying to, you know, test new tasks. So exactly, so you can, you know, simulate a million examples of the robot trying to do laundry in a day.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:43:13",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Right. I just-- I as my-- as I have more children, my interest in humanoid robotic help at the home just keeps going up, so I'm like, please god, someone get this right.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:43:21",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Okay, so the thing that really blew my mind about your first general world model is the fact that you do want to use it across worlds, which is kind of the video gaming example if you will, avatars, which is kind of replication of humans and also robotics, which feel like three pretty different use cases. And so I don't do what you do so I'm curious, would it have been easier to build a world model that was good at one of those things, or if you build an intelligent enough world model, it just can do such a wide, you know, variety of of different tasks?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:43:49",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "So we really-- I guess our biggest bet is in generalization in that if you train a model on all of those things, then it will become, you know, like the skills that it learns to do one thing will transfer to the other. So if we take models as an example, what is the, you know, if you want to build the ideal video game or like the most, you know, the most realistic kind of life simulator, you don't want to just navigate and move around the world, you want to, you know, talk with-- with people and characters in the world, you want to go and like do interactions or like kind of manipulate-- manipulate things or perform actions. So the avatars data can help to basically build a more kind of human interaction within that world. The robotics data can help with like more the kind of actions that you can take in the world. So it kind of all fits to each other and it's kind of similar to how, you know, we think about pre-training those models. We're not training video models for just animation or just more narrative content or just talking head video, we're training it all at once and then it helps-- kind of there is a cross kind of improvement from-- from doing that kind of co-training.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:44:58",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So how quickly should we expect to see world models like the one you've built improve? I think we all got pretty...",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Excited about the progress of LLMs since 2024. I think last year some people realized it was going to be, you know, a bit of a challenge to keep the same pace of improvement. But world models feel a little bit more greenfield to me. So how fast should you guys improve this technology over the next, I don't know, 6 or 12 months?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:45:15",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "Very quickly. I think, I guess one other thing about it is, you know, image models have an offset of improvement compared to language models, and video models are an offset over image models. So what happened with language models and what happened with image models will happen with video models and world models.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:45:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So it goes text, image, video, world. So what we see improvements in the first one will take a couple of stops to reach world models essentially.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:45:41",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "Exactly, yeah. So those models are very rapidly improving and, you know, like when, if you look at the videos of Gen-1 and Gen-2 that was, you know, in two years ago. Like, at that point we had to have the watermark to basically tell people this is generated, this is not real, but now that looks a bit ridiculous in retrospect, like it's, you could obviously tell it's generated. So it's not just that the models improve so rapidly, but people are becoming also very used to like, you know, this is the new reality. Like, generative content is hard to tell apart from real content.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:46:13",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah. So last year you guys raised a couple hundred million dollars, new shiny valuation report to be about 3 billion. Uh, there's a lot of competitors out there with a lot of compute. We talked about this a little bit earlier. I know you guys are working with CoreWeave and Nvidia on building out more compute, but how constrained are you on the compute front today and do you think you have enough capital to get fully unlocked this year?",
+      "tone": "investigative"
+    },
+    {
+      "timestamp": "00:46:34",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "Again, we're very paranoid and want to make sure that we can, we can train the next model, so we're, you know, we have great relationships with both the hyperscalers, we have a great relationship with Nvidia. We actually just collaborated with them on running our model on, on Rubin. So we're going to, you know, do what we need in order to be able to get access to make sure we can scale, scale our models.",
+      "tone": "cautious"
+    },
+    {
+      "timestamp": "00:46:53",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Ruben is the recently announced Nvidia chipset that replaces Blackwell, which replaces the, the Hopper set. So if you're curious what that is, that's the most recent Nvidia announcement that was put out in their CES keynote in, in early January.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:47:05",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Interesting you bring up Nvidia. And I don't mean to poke here, but Nvidia did announce in the same set of news updates to their Cosmos World Foundation model. And I don't want to say it's a direct competitor because I'm not technical enough, but is it? And also is it a little bit weird to be competing partially with one of your own backers?",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:47:22",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "So, yeah, I think so Cosmos yeah, is a, is a series of kind of world, world models and it tackles some of the physical AI use case as well. I think it's, you know, like all big labs are going to be working on world models and if we were to not collaborate with, with folks that are working on similar research, then it would really not leave the space for any anyone to collaborate with. Like, I think there is a lot of, like, we see it more as a, a partnership, like Nvidia has a, a big platform of doing for simulation, like they have Isaac Sim, which is a very widely used robotics platform. So I see it more as a...",
+      "tone": "diplomatic"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "...kind of complementary and like kind of focusing on a few different kind of two separate use cases around world models.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:48:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So not really a competitor directly to what you're building, but it's impossible to avoid some overlap in the AI world because people are kind of running in the same direction so you can't... Okay, that makes sense to me.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:48:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm also glad to hear it because when I was just prepping for our chat I was like, wait a minute, is Nvidia trying to kill them? That's so ridiculous because I knew they were an investor in one of your earlier rounds. So slightly odd thing.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:48:25",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "There's another company called Descartes AI that's building world models. Good to see other startups pursuing this as well. How do you view the competitive landscape? Is it as, I don't know, high risk as the LLM world or is it a smaller number of players with kind of diverging approaches to the problem?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:48:33",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "So I think one important thing about world models, which we discussed earlier, is in order to build a great world model, you need a great video model. And so it really helps to have that advantage of actually having been building those models for a long time. Some of the other players in the space that are entering world models are basically leveraging open source video models and then post-training them for kind of autoregressive kind of world modeling. And that's, that tends to be very limiting because if you don't have control over the pre-training, there is only like so few things you can do to basically improve performance. So I think that's a very important point in terms of like building a team that can kind of execute on world models. At the same time, again, this is like for me, I think this is the, you know, I'm very confident there's going to be the same level of interest and competition that's going to be... that's been happening on LLMs and so there's going to be a lot more players in the space.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:49:34",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Looking at robotics' use of world models and also kind of the, what we might call the video game context for them, which of those things is going to be the bigger driver of revenue and demand for Runway in the next couple years?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:49:43",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "So I would treat it as essentially two pillars. So there is the kind of physical AI pillar and then the real-time video pillar. Physical AI, I think there is a huge potential of world models being used in autonomy, both for like training those models, but actually we believe that video models will end up controlling, becoming the policy themselves, like controlling the robot, controlling the car directly with a video model. And so there's a huge potential to build a big platform there. And then on real-time video, like we think that this is essentially maybe the next step beyond kind of the... there's a lot of talk about generative UI, you can kind of vibe code an app and like have it, you know, have it in a few minutes. But actually I think even even that will start to seem too slow of a way to like build interfaces. You should be able to kind of generate, use a video model to essentially generate on the fly the exact experience that you want to have. And avatars is like the maybe the most easy place to start. But we expect that a lot of software will actually be driven by generative video models.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:50:51",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yes. So the way that I see that coming to the market is essentially I'm going to have a VR headset at some point in time in the future and I'm going to be able to enter into my own world model that is defined by me based on...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "How I want to approach it, and I think it'll be like a combination of like play and work. And then I'll have like to find workspaces inside of that that I can design myself to your point about software. But it seems like there's still a lot of pieces that need to come together to make that fun because I don't think that would be as great of an experience on like a desktop computer or a, you know, laptop. So I wonder when we're going to get a different hardware form factor to take what we have today and kind of blend it together and also just make it much more immersive and interesting. I almost feel like Apple missed the mark with their Vision Pro because it's such an AR or traditional desktop style approach to work. I don't know if any of that made sense, Anastasis, but that's kind of where my mind goes when I think about trying to take, you know, the productive side of AI and building it into a personal world model, if that makes sense.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:51:42",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "Yeah, I think it's a really great point. I think the software problem in VR is maybe overlooked. Like, it's very difficult to make great experiences for VR, and that's—the lack of great experiences is part—can explain part of like why the adoption has been slow. I do think there's a lot of use cases for real-time video that are just on your desktop computer as well or your or your phone. Like, something like avatars can easily work on those form factors. It doesn't necessarily need to be a, you know, full-blown kind of world simulation. But VR would be maybe the ultimate kind of destination for those models, for sure.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:52:21",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Well, I expect you guys to do something with VR because I have high hopes for this. I don't know, do you ever look at your phone and realize it's the same interface you've had for like 10 years, and you look at your desktop and it's the exact same thing you've been using for 20 years, 30 years? It feels like we're due to take these new technologies and really redefine what it means to compute and be productive. So that's what I'm hoping for. Before I let you guys go, I have to ask. I talk to a lot of founders, a lot of people working in the AI realm, everyone's hiring brilliant engineers, but when I was researching Runway, you guys have a lot of people that have an arts background, and that's just different. So I'm curious what impact that has on the company's approach to building products and company culture. It's just a unique way to approach building an AI company today. So tell me about it.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:53:03",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "Yeah, so I would say, yeah, art school is not the place where frontier AI labs tend to start. I think we've been unusual in that respect. So just for context, Runway started in art school here in at NYU. And since then, I would say we learned two main things from that are kind of coming from this art school program. So all three of us co-founders, we were kind of students of that program, and then Runway kind of started as an offshoot of that. One thing is a real big focus on kind of a strong demo culture and culture of prototyping, making sure we can very quickly make something to show and tell the story of like what we're building has been really important. And the other part is not having—like having a healthy skepticism of credentials and healthy skepticism of like you need to be from a specific background to contribute to AI or whatever kind of deep technical field. Like some of our best people, you know, we've hired folks from the biggest AI labs.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "...and we've hired folks from, um, that had no, no-ton research in any kind of industry capacity and might have had like some amazing open-source projects or some, like, demonstration that they've done something great. And they've been very competitive with the folks that came from the big labs. So, I think that's probably the biggest thing that's come from this kind of less traditional background is basically being more open-minded about how to build the culture and how to build the team, uh, to make a great kind of AI company.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:54:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Also, you guys are not based in the same, like, four-block radius of, of San Francisco that everyone else seems to be based in. Does that also change up, like, who you can hire and how you run the company? Because there has been recently this meme that everyone has to be in San Francisco and, even though I used to live there, I don't think that's the case personally.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:54:44",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "Yeah, I also used to live there and I don't, I strongly don't think that's the case. So, we have offices in SF and we have offices in, uh, in London. But, yeah, our main office is in New York. I think talent can come from, uh, anywhere. We're a very distributed team. I think there is definitely value in being outsiders and thinking a bit differently than that, kind of, small radius of companies in, in San Francisco. Yeah, it's good to spend some time there but not too much time because then it's, it's hard to come up with new ideas or different approaches.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:55:16",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, if everyone's thinking the same thing, everyone's gonna build the same thing. Alright, uh, Anastasis, where can people find Runway online and do you want to shout a job you're having a hard time filling out into the ether in case someone listening is the perfect candidate for you?",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:55:34",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "Yeah, so runwayml.com is the website where you can, you know, try out our tools and our models. And then, yeah, we're, we have a ton of open roles, but I would say our research scientist and go-to-market roles are probably top of mind right now.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:55:46",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Alright man, I appreciate it. And when you do build VR, call me up. I wanna test it out. We'll talk to you then.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:55:50",
+      "ad": false,
+      "speaker": "Anastasis Germanidis",
+      "text": "Of course. We'll be first in line.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:55:51",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Thank you.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:55:52",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "So from our G-friends over at the Startups subreddit, Jason, there was a great founder asking a question. He has some friends, they're working on a company, they've spent $100,000 so far on fees, costs, expenses building their prototype. They're getting close to an MVP and they've made very little progress, he thinks. No customers, no real traction. And so he took his question to the community and said, 'Hey guys, when do you know when to either pivot or give up?' Doesn't have a lot of venture backing behind him, he's bootstrapping. So Jason, for founders out there who are doing it the hard way with their own scratch, when do you know that you've reached a terminal point and need to take your plan in a new direction?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:56:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You know, pivoting is so hard, uh, because sometimes if you keep trying and knocking on that door, eventually it opens, right? Uh, and other times, you could be at it for five or 10 years and you're just never able to crack it. So there's no perfect answer here. Uh, a good way to know, uh, if this is worth continuing to bang your head against the wall is to talk to the customer base there. The other thing is your intuition. Uh, and sometimes, you know, something like building an electric vehicle, it takes...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Seems like an insurmountable task. And so if you were to look at a company like Tesla, building an electric vehicle, man, there were so many near-death moments for that company, but through sheer force of will and not pivoting, they figured it out. But there were moments to pivot. Tesla had early on a deal to make a smart car with Mercedes, and then they did the RAV4. You can pull up images of those for sale on Get a Trailer as an example, or Bring a Trailer. And just do a search, used RAV4 EV. This car you can probably get for 5 or 10K right now, or the Mercedes smart car. And I think we may have brought this up on a previous episode, but you know, they could have pivoted to just providing the drivetrain to Mercedes. But instead they said, we're going to start with technologists who want a $150,000 Roadster and eventually get there. So here's your 2002 Toyota RAV4 EV.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:57",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's a looker.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:57:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, it's not. I mean, it's the ugliest car ever with the ugly logo on the side for EV. What is that- what did that go for on- is that Cars & Bids or is that Bring a Trailer?",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:58:10",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "This is Bring a Trailer and-",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:58:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I love Bring a Trailer, by the way, it's one of my favorite websites. Also there's Bring a Trailer and then there's Cars & Bids by my pal Doug. Both of these are incredible.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:58:21",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Sold for $3,500.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:58:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right. So here- you could put this in your EV museum. This was powered by Tesla. And there's a smart car version which should have worked. But you know, they persevered. But there were people who wanted them to stop making their own cars and just provide for other people. Why? It was perceivably a safer bet. Maybe you have like a 90% chance of making a business work, whereas making an electric car company was a 20% chance, a 10% chance. So the fortitude of the founder is critically important. SpaceX, the other one. He blew up the first two or three rockets, it looked like it was going to go out of business. So I'm a big fan of persevering if you believe you're going to be right, but you also have to be able to raise the funding. You have to be able to explain this to investors. And even Elon had a hard time with that. There were investors who were going to bail him out who were not going to participate because he wouldn't, you know, pivot. And he had his own bankroll and he was willing to put it on the line. So, you know, this is one of the hardest, hardest questions any founder can face, and you gotta go with your gut and your instincts based upon the data and what you perceive is the best path forward.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:59:34",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "I want to do a follow-up on that because your two examples are- are very good but they're hardware. Thinking about Tesla, thinking about SpaceX, building cars, building rockets. Okay. If you're a founder in a software category, right, and you've spent 100K and you've answered on this Reddit forum thread that you haven't shipped an MVP yet, is that an indication that your current team is just not up to snuff? Because I feel like Jason, in the era of low-code, in the era of vibe coding, in the era of AI...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "At a tool, you should be able to get something out the door with that amount of money. Am I being overly censorious here?",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "01:00:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I mean if your team can't get the job done, fire your team and start over. And that's a hard thing to do. If a team can ship, they will have shipped. If they can't ship, they won't ship. And you'll know that within 90 days. So you got to be cutthroat about it. And this is why having founders who actually write the code is critical. On the Y Combinator application, somebody will find the screenshot for us and we'll get the exact wording. They say something to the effect of 'who's writing the code? Their name. Who's the name of the person writing the code?' And I think that question was hard-fought by Paul Graham because it might have started like 'who's the developer on your team?' and then they must have refined it at some point to say 'who's actually writing the code? Put their name in this box.' because when they do the interview, they want to make sure it's a founder, not an outsourced tech company. So when you outsource your technology, like that's fine in the early days, maybe, it's—but it's suboptimal. What you really want to do is what I did. I had Brian Alvey as my co-founder for Weblogs Inc. He wrote the CMS. There were no good blogging CMSs. There was like Movable Type. This kid Matt Mullenweg was trying to convince me to use his open-source WordPress that didn't work at the time. And I told him like, 'hey kid, you know, I'm not going to use your broken CMS. I got Brian Alvey, he's going to write our custom CMS, that'll be our advantage.' And I was right. Because Brian Alvey was going faster than him and was building it specifically for Engadget, Autoblog, Joystiq, and all these great blogs we were doing. So that gave us a competitive advantage against Nick Denton, who was doing Movable Type at the time and was trying to push them to ship the features he needed, but that was a negotiation. So I made the right decision then. Literally the right decision would be to not do content and just go all in on Blogsmith, which is what Brian was building, and we should have just built that. It would have been a billion-dollar company or a hundred—probably could have been a hundred-million-dollar company instead of a thirty-million.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "01:01:29",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "I think the question that you were alluding to Jason, the correct phrasing is: 'who writes code or does other technical work on your product? Was any of it done by a non-founder?' Which I think is a brilliant way to phrase that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:02:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Brilliant way to phrase it. Hard-fought question. Just cut everybody, find a co-founder who writes the code that you can mind-meld with if you're the go-to-market person, if you're the hacker. But that's just from first principles. If you have the idea in your head, you're talking to the customer and you can build the product, man, you don't need to have phone calls and you don't need to have standups. You just ship code, ship code, ship code. That has been the success of Y Combinator. That was Paul Graham's, I think his great innovation. If you were to rank all his great innovations, that would be number one, two, and three. Only fund or accept into Y Combinator teams of three with two of them writing the code. And then the chances of them actually shipping product and learning will be greater. We basically...",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Basically cribbed that innovation and actually Roelof Botha both was saying like, 'Yeah, you got a lot of idea people, you got a lot of designers in your incubator but not a lot of developers. You need to get more developers.' And so that became our focus and as we got more applications we were able to do that. So—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:03:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, start over.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:03:16",
+      "ad": false,
+      "speaker": "Keller Cliffton",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:03:17",
+      "ad": true,
+      "speaker": "Alex Wilhelm",
+      "text": "If you have a founder question, startup question that you want to bring before Jason and have it discussed on the show, shoot us an email to, I don't know, askjason@thisweekinstartups.com. We'll take a look, we'll put the best ones on the show and we'll even give you and your company a shoutout if you are particularly deserving.",
+      "tone": "upbeat"
+    },
+    {
+      "timestamp": "01:03:31",
+      "ad": true,
+      "speaker": "Anastasis Germanidis",
+      "text": "Or go to our This Week in Startups subreddit.",
+      "tone": "neutral"
+    }
+  ],
+  "highlights": [
+    "Zipline’s \"Platform 2\" technology enables ultra-fast, zero-emission home delivery by using a tethered \"droid\" to lower packages precisely from 300 feet, providing a quiet and efficient alternative to traditional car-based logistics.",
+    "General World Models represent a shift in AI from simple video generation to interactive simulations that understand physical reality, offering a safe and cost-effective environment to train autonomous robots and vehicles through millions of simulated scenarios.",
+    "To ensure supply chain independence and technological leadership, Zipline has established a high-capacity factory in the U.S. capable of producing 20,000 autonomous aircraft annually, emphasizing a broader shift toward domestic manufacturing for advanced hardware.",
+    "Early-stage software success often depends on having technical founders who write the core code themselves; outsourcing an MVP frequently results in high expenses and a lack of the agility needed to iterate toward product-market fit."
+  ],
+  "summary": "This episode of *This Week in Startups* explores the frontier of autonomous logistics and generative AI, emphasizing a shift toward \"American Dynamism\" and the integration of hardware and software. Keller Rinaudo Cliffton, CEO of Zipline, discusses the company’s expansion into US home delivery via its \"Platform 2\" drones. By using a \"droid\" system that lowers packages from high-altitude drones, Zipline provides \"instant logistics\" that are ten times faster and significantly cheaper than traditional car-based delivery. With a new South San Francisco factory capable of producing 20,000 aircraft annually and a record of over 2 million successful deliveries, Cliffton highlights how autonomous systems are solving the massive inefficiency of using 4,000-pound vehicles to deliver five-pound burritos.\n\nThe conversation then shifts to the evolution of generative AI with Anastasis Germanidis, CTO of Runway. Germanidis explains the transition from simple video generation to \"General World Models\" (GWM-1), which simulate physical environments and allow for continuous interactive input. These models represent a major leap in AI intelligence, as they must understand physics and solid mechanics to be effective. This technology is becoming a cornerstone for the robotics and autonomous driving industries, allowing companies to safely and cheaply simulate millions of \"edge case\" scenarios—such as car accidents or complex household tasks—that are too dangerous or expensive to test in the real world. \n\nFinally, the episode concludes with practical advice for founders on the \"bitter lesson\" of startup execution: the necessity of shipping. Host Jason Calacanis and Alex Wilhelm discuss the critical importance of having technical founders who write their own code, noting that if a team cannot produce a Minimum Viable Product (MVP) after significant investment, it is likely time to pivot or replace the team. The overarching theme of the episode is that the next decade of massive wealth and health creation will be driven by companies that master the intersection of AI, robotics, and manufacturing to build \"magical\" but highly functional infrastructure for the physical world.",
+  "description": "This Week In Startups is made possible by:\n\nNorthwest Registered Agent - https://www.northwestregisteredagent.com/twist\n\nCrusoe Cloud - https://crusoe.ai/savings\n\nLinkedIn Jobs - http://linkedIn.com/twist\n\nToday’s show: \n\nOn today’s TWIST episode, Alex interviews two of the top startup co-founders: Keller Cliffton of Zipline and Anastasis Germanidis of Runway. \n\nZipline announced its $600 million raise at a $7.6 BILLION valuation. Kellers breaks down the origins, economics, and future of Zipline’s contrarian bet in drone delivery. What was science fiction a decade ago is now a regular part of life for many. In fact, Zipline operates more flights than United!\n\nZipline is set to leapfrog the car delivery apps AND self driving cars with the superior economics of drone delivery. It is much cheaper to transport your burrito in a lightweight drone than a 6,000 pound self driving car!\n\nThen, Alex is joined by Anastasis Germanidis, the CTO and co-founder of Runway, to explain why the next frontier of generative AI is world models! Runway  is looking to build a universal simulation, which will unlock massive gains in robotics, autonomy, and simulations. The world model would be able to simulate rare edge cases that could take years to find naturally! \n\nCheck out how this cutting edge AI startup’s NYU Tisch School of Art’s origins\n\nThen, See Jason’s answer to the question: “When should founders pivot or give up?”\n\nTimestamps: \n\n(00:00) The Drone revolution is here!\n\n(02:46) Inside Zipline’s factory to build 20K drones a year\n\n(04:40) American dynamism Vs. Chinese manufacturing dominance\n\n(09:00) How Zipline is growing 75% month on month\n\n(9:51) Northwest Registered Agent. Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity —  Learn more at https://www.northwestregisteredagent.com/twist\n\n(11:15) Zipline teleports food and goods to your house\n\n(21:55) Crusoe Cloud: Crusoe is the AI factory company. Reliable infrastructure and expert support. Visit https://crusoe.ai/savings to reserve your capacity for the latest GPUs today.\n\n(23:02) Is it affordable to use a drone to deliver a burrito?\n\n(29:18) Zipline DOUBLES United’s flight numbers\n\n(31:12) LinkedIn Jobs - post your job for free at http://linkedIn.com/twist then promote it to get access to LinkedIn Jobs new AI assistant.\n\n(32:21) Anastasis break’s down Runway’s AI modeling\n\n(35:24) Runway’s Gen 4.5 and the world model\n\n(40:57) Why do robotics companies need a world model?\n\n(43:04) Using AI to simulate robot laundry folding\n\n(52:37) Runway’s origins at NYU’s art school\n\n(55:46) Founder Q/A: When to pivot or give up on your startup\n\n*\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com/\n\nCheck out the TWIST500: https://twist500.com)\n\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\n*\n\nFollow Lon:\n\nX: https://x.com/lons\n\n*\n\nFollow Alex:\n\nX: https://x.com/alex\n\nLinkedIn: https://www.linkedin.com/in/alexwilhelm/\n\n*\n\nFollow Jason:\n\nX: https://twitter.com/Jason\n\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis/\n\n*\n\nThank you to our partners:\n\n(9:51) Northwest Registered Agent. Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity —  Learn more at https://www.northwestregisteredagent.com/twist\n\n(21:55) Crusoe Cloud: Crusoe is the AI factory company. Reliable infrastructure and expert support. Visit https://crusoe.ai/savings to reserve your capacity for the latest GPUs today.\n\n(31:12) LinkedIn Jobs - post your job for free at http://linkedIn.com/twist then promote it to get access to LinkedIn Jobs new AI assistant.\n\nCheck out all our partner offers: https://partners.launch.co/",
+  "duration": 3814,
+  "people": [
+    "Alex Wilhelm",
+    "Jason Calacanis",
+    "This Week",
+    "In Startups",
+    "Northwest Registered",
+    "Crusoe Cloud",
+    "Keller Cliffton",
+    "Anastasis Germanidis",
+    "Tisch School",
+    "See Jason",
+    "The Drone",
+    "Inside Zipline",
+    "How Zipline",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason"
+  ],
+  "topics": [
+    "Autonomous drone delivery logistics and Zipline's Platform 2",
+    "Generative AI World Models and their applications in robotics",
+    "The state of American manufacturing and domestic supply chains",
+    "Startup advice on when to pivot versus persevere"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi_webp/lFwe-Q-RTu0/maxresdefault.webp",
+  "date": "20260121",
+  "youtube_url": "https://www.youtube.com/watch?v=lFwe-Q-RTu0",
+  "youtube_metadata": {
+    "title": "From Blood Transfusions to Burritos, How Zipline is Automating Delivery | E2238",
+    "description": "This Week In Startups is made possible by:\n\nNorthwest Registered Agent - https://www.northwestregisteredagent.com/twist\n\nCrusoe Cloud - https://crusoe.ai/savings\n\nLinkedIn Jobs - http://linkedIn.com/twist\n\nToday’s show: \n\nOn today’s TWIST episode, Alex interviews two of the top startup co-founders: Keller Cliffton of Zipline and Anastasis Germanidis of Runway. \n\nZipline announced its $600 million raise at a $7.6 BILLION valuation. Kellers breaks down the origins, economics, and future of Zipline’s contrarian bet in drone delivery. What was science fiction a decade ago is now a regular part of life for many. In fact, Zipline operates more flights than United!\n\nZipline is set to leapfrog the car delivery apps AND self driving cars with the superior economics of drone delivery. It is much cheaper to transport your burrito in a lightweight drone than a 6,000 pound self driving car!\n\nThen, Alex is joined by Anastasis Germanidis, the CTO and co-founder of Runway, to explain why the next frontier of generative AI is world models! Runway  is looking to build a universal simulation, which will unlock massive gains in robotics, autonomy, and simulations. The world model would be able to simulate rare edge cases that could take years to find naturally! \n\nCheck out how this cutting edge AI startup’s NYU Tisch School of Art’s origins\n\nThen, See Jason’s answer to the question: “When should founders pivot or give up?”\n\nTimestamps: \n\n(00:00) The Drone revolution is here!\n\n(02:46) Inside Zipline’s factory to build 20K drones a year\n\n(04:40) American dynamism Vs. Chinese manufacturing dominance\n\n(09:00) How Zipline is growing 75% month on month\n\n(9:51) Northwest Registered Agent. Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity —  Learn more at https://www.northwestregisteredagent.com/twist\n\n(11:15) Zipline teleports food and goods to your house\n\n(21:55) Crusoe Cloud: Crusoe is the AI factory company. Reliable infrastructure and expert support. Visit https://crusoe.ai/savings to reserve your capacity for the latest GPUs today.\n\n(23:02) Is it affordable to use a drone to deliver a burrito?\n\n(29:18) Zipline DOUBLES United’s flight numbers\n\n(31:12) LinkedIn Jobs - post your job for free at http://linkedIn.com/twist then promote it to get access to LinkedIn Jobs new AI assistant.\n\n(32:21) Anastasis break’s down Runway’s AI modeling\n\n(35:24) Runway’s Gen 4.5 and the world model\n\n(40:57) Why do robotics companies need a world model?\n\n(43:04) Using AI to simulate robot laundry folding\n\n(52:37) Runway’s origins at NYU’s art school\n\n(55:46) Founder Q/A: When to pivot or give up on your startup\n\n*\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com/\n\nCheck out the TWIST500: https://twist500.com)\n\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\n*\n\nFollow Lon:\n\nX: https://x.com/lons\n\n*\n\nFollow Alex:\n\nX: https://x.com/alex\n\nLinkedIn: https://www.linkedin.com/in/alexwilhelm/\n\n*\n\nFollow Jason:\n\nX: https://twitter.com/Jason\n\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis/\n\n*\n\nThank you to our partners:\n\n(9:51) Northwest Registered Agent. Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity —  Learn more at https://www.northwestregisteredagent.com/twist\n\n(21:55) Crusoe Cloud: Crusoe is the AI factory company. Reliable infrastructure and expert support. Visit https://crusoe.ai/savings to reserve your capacity for the latest GPUs today.\n\n(31:12) LinkedIn Jobs - post your job for free at http://linkedIn.com/twist then promote it to get access to LinkedIn Jobs new AI assistant.\n\nCheck out all our partner offers: https://partners.launch.co/",
+    "duration": 3814,
+    "view_count": 77189,
+    "like_count": 82,
+    "channel": "This Week in Startups",
+    "upload_date": "20260121",
+    "thumbnail": "https://i.ytimg.com/vi_webp/lFwe-Q-RTu0/maxresdefault.webp",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

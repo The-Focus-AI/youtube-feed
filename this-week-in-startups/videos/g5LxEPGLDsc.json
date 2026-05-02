@@ -1,0 +1,2571 @@
+{
+  "title": "3 AI Agents That Actually Replaced Human Jobs | E2272",
+  "source_url": "https://www.youtube.com/watch?v=g5LxEPGLDsc",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right everybody welcome back to Twist. It is April 6th, 2025. How do I know it's April 6th? Maul is out today.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:07",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Oh right, the dark—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:00:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "the new Star Wars animated and it's got great reviews. I love watching Clone Wars, Star Wars, Rebels, all of it with my daughter.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:15",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'll tell you what I don't like though. We're we're already in the point where any new Star Wars thing comes out and immediately people start comparing it to Andor. That's what is like, oh this is the Andor of cartoons and it's like I I'm already tired of that. It doesn't have to be Andor to be good. Let's just enjoy it for what it is.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:00:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, I'm going to take the other side. I'll tell you why I'm going to take the other side. Andor set the high watermark. So it used to be like, is this as good as Empire Strikes Back?",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:00:38",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yes.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:00:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And so, you know, now I consider Andor and Empire—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:00:46",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Whoa, this is about to be controversial.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:00:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I consider them equal.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:00:51",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Wow.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:00:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I consider them equal. Now that doesn't mean I don't have an affinity for Empire as a kid, it was like the most meaningful thing for me.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:00:58",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "For us old guys, yeah, it strikes a chord.",
+      "tone": "relatable"
+    },
+    {
+      "timestamp": "00:01:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But yeah, all right, listen, we have so much to get to.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:01:05",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's AO70 by the way. It's I've started keeping track again. It's AO70. 70. 70 days since our very first episode about OpenClaw.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:01:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "AO70 yeah. And I'm I've got a confession here. I have been stunted. I'm stunted right now with my OpenClaw. Because of this claw stuff, using the open source ones, it's not stable enough for me and I haven't taken the time to fix it and then I find myself on Perplexity computer and OpenClaw computer, which is what I think those platforms want, is they want to shut down and get everybody to use their version of OpenClaw which we will discuss today.",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "00:01:46",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "But before I do any of that, I'm going to just take a minute to applaud Plaud. I'm going to turn on my Plaud Pin there it goes. Boom. I press the button. And now everything I say I'm recording and it's on my lapel. This is the Plaud Pin but this is the other one. You can put this little device, it looks like a little wallet you snap it on the back of your iPhone. This is the iPhone you can see how thin it is, iPhone right there. Boom. You put that right on the back. Then if you want you just press this button, does a little haptic. You're recording. Press it again, haptic off. Why is that important? This thing's got like 1700 microphones. Boom. I press this. I lay it on the table during our management meeting. I got everything set. I don't have to go futz with it or whatever. And it's got a great little... this is the great thing about the Plaud... this is the base for the pin. You see that? This is my backup so I have two Plaud Pins. Pop it in here, that's the USB-C boom it charges but when it gets on my Wi-Fi 2.4 gigahertz Wi-Fi, megahertz... it syncs.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:02:49",
+      "ad": true,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:02:50",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Then I send Lon the notes. Then Lon has his whole weekend ready to go. He thought he had a whole bunch of plans and now he's got new plans. Give him the offer.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:02:59",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "If you and your work depend on having conversations, interviews, meetings, taking calls, taking notes is the worst part. You're not present, you're looking down. It's awkward. But with Plaud, it's all automated.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": true,
+      "speaker": "Alex Wilhelm",
+      "text": "You got to get yourself a Plaud note pin. Check it out at P-L-A-U-D.ai/twist. That's plaud.ai/twist. And if you use the code TWIST, they're going to give you 10% off your new note pin.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Uh, you know we had a nice week last week. We did this, uh, $2 bill test.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:03:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes, the B of A $2 bill test.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:03:19",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And that went viral. I think it's close to a million views now on X, which for us is, uh, is not bad.",
+      "tone": "pleased"
+    },
+    {
+      "timestamp": "00:03:26",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I think it's important for people to be detail oriented. And, uh, you know, it's why I talk about the Checklist Manifesto all the time. And you want to see who's hungry to get things done and who's a detail person. In startups, this is your tactical, practical tip. Everybody wants to be an idea person. Everybody wants to be a vibes person. But being a grinder and a detail person, uh, a lot of people don't want to refine that skill. The founders, you get to be whatever you want. You're the founder. You created it. But for everybody else, you're obligated to be on point, tight is right, keep a checklist.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:04:07",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Now, why is a checklist important? Well, I've talked about the Checklist Manifesto many times. People are, are, uh, phalliable? Is that the right word?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:04:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Fallible.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Fallible. Thank you. As I just proved. We're fallible. Haven't used that word in like 30 years. We're fallible. We make mistakes constantly. I make mistakes constantly. When you have a checklist, you'll make less mistakes. And one of the things we wanted to get right was just reviewing our social media. The fact that the $2 bill test went well was a function of we found, like, an interesting moment in the show and we had a checklist: how we name the clips, how we do all this. So just do yourself a favor: make checklists, have your team do it, force them to print them out and make sure you review the checklist. Whatever it is: you're onboarding a new customer, you're hiring somebody. Make SOPs, standard operating procedures, and everything moves a lot better, especially in an agentic world.",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:04:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:04:47",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And that's what we're going to talk about today. And I made that sort of jump, like, hey, if you can make a checklist, then you can put your replicant on a checklist and...",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:04:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "...you can hold your replicant accountable. And we're getting there. We're getting a little closer.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:05:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's the memory I think is the key. Like, if you could get your OpenClaude to start remembering everything you're telling it and keep track of everything with their heartbeat and their soul.md and however you do it, that seems to be the key. That's where I keep running into trouble is Gaff is very forgetful.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:05:26",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Your replicant... he lives in an EC2 instance, and so he's not... he's not on top of it.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:05:32",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Problematic.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:05:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Hmm.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:05:34",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I just bought the new... I just bought a new MacBook Pro.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Pro. Hmm. 'Cause I had like a four-year-old Air and it was, my Air was great, but I was like, ah, I'm in Brooklyn, you know, as I went to see my dad last week, he's doing much better. Anyway, get the MacBook Pro and my God, when you put 48 gigs of RAM on these things and this new M5 processor, it is like scary how much faster and better these- this hardware profile is and it's only getting better folks.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:06:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm gonna have to get- I gotta get Gaph's old system. This is ridiculous now.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:06:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think when we get the Mac Studio out, I'll get you a Mac Studio. We'll get that back on track.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:06:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right, let's introduce our guests. We've got a lot to get to today. Yes, please. E070. We got three returning favorites, three of our top open claw experts came back for a reunion special. Uh, first up, uh, he is a founder, he is a developer. Last time he was on, he showed us Ant Farm, his open-source tool. Uh, this time he's got a new demo to show us, it's called Claw Chief. Uh, give it up for Ryan Carson. Ryan Carson's back on the program.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:06:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh yeah, Ryan Carson, my old friend. What continent are you on? Are you in the US now? I know you spent a lot of time in Europe. Where are you? I don't even know.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:07:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So, so Jason, I guess you're seeing your dad. I'm visiting my dad this week. So he's not doing the best.",
+      "tone": "somber"
+    },
+    {
+      "timestamp": "00:07:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "How's he doing?",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:07:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Not great.",
+      "tone": "sad"
+    },
+    {
+      "timestamp": "00:07:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm going through it too.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:07:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. My dad's, what, how old is he?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "He's, you know, late 70s.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:19",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. That's when it- it gets real.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And so I'm in beautiful Colorado Springs in their lovely home today. So hello.",
+      "tone": "pleasant"
+    },
+    {
+      "timestamp": "00:07:25",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Amazing. Amazing. All right, well, uh, sending good vibes to your dad and it's great that you're going to see him. I'm sure he is over the moon seeing his incredibly successful son.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:07:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "My dad was super, super, super excited to see me, especially since I am his most successful son, as he loves to say.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:07:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm sure he is- his favorite child.",
+      "tone": "teasing"
+    },
+    {
+      "timestamp": "00:07:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes, he did- he did mention that. Sorry to Jamie and Jamey. Jamie's doing great. Jamie's doing great.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:07:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "He's doing great. Proud member of the open claw staff. Uh, up next, we've got the founder and CEO of Creator Buddy. He's a vibe coder, he's an open claw influencer. It's Alex Finn. Thanks for being here, Alex.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:07:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Did you just call Alex an influencer? I don't know if I feel like- Alex is an influencer.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:08:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Alex is an influencer. Watch out.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:08:04",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I don't- I don't want to consider myself an influencer, but I do believe I'm the most influential person on earth.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:08:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes, very good. I'm personally very influenced by Alex. Here's how you know he's an influencer. When he's on the pod here on TWiST, he's normal. But when he does his YouTube videos, he's like, 'I have to say, hi, I am Alex Finn!' It works.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:08:26",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's called showmanship, Jason. It's showmanship.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:08:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I love it. I love it.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:08:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I haven't gotten there. I have to-",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:08:32",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Alex is the king.",
+      "tone": "approving"
+    },
+    {
+      "timestamp": "00:08:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I have to learn how to do the Mr. Beast.",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "00:08:37",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah. We tried to help you guys take it to the top. Although we- we'll talk again after.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:08:40",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We made those thumbnails of you doing the Mr. Beast face, Jason. You made us stop. You ordered us to stop.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:08:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I did! Because I'm- I don't know, I just feel like when you're an old guy like me and Ryan... Hey! To do the [makes face sounds]... Listen, you have to be as cringe as humanly possible. It's the only way to win the internet game. It's the only way.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Please, listen to the man!",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alex, is it the only way?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:01",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Okay, I'm going to embrace my cringe and my off-",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Finally.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'll just give in.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Finally. We've been trying...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:06",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Just I'm going to give in to the cringe.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:07",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'm going to be cringe maxing. Let's do it.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alex is cringe maxing, I'm going to cringe max.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Time for cringe maxing.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Cringe maxing. Who cares. All right. And finally Lon, we've got one more member of our panel. He was on just about a week and a half ago. He's the founder and creator of Open Oats. He's with—if you'll recall, we had Yazin on the show. We were like musing aloud, wouldn't it be great to have a virtual production team working with us and AIs helping out with every aspect of the show? Within 24 hours of his appearance, he built it. So he's here to show off Sidecast. Yazin Al-Ibrahim.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:09:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Glad to be here.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:43",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Sidecast. Yazin, welcome back. You hear me say it all the time. Startups need to be lean. You've got to try to figure out how to get the most done while spending the least amount possible. It's called efficiency. You've got to have the smallest, tightest team so that you can make your runway last. That's why you need Gusto. Gusto is a must-o. Gusto is the essential payroll and benefit software built for your startup or small business. It's all-in-one, remote friendly, and incredibly easy to use. So you can pay, hire, onboard, and support your team from anywhere. We use it, we love it. Take it from your boy, J-Cal. Gusto's built-in tools are going to save you so much time. For example, Gusto automates every step of your payroll process, syncing your team's hours, PTO—that's paid time off—and holidays seamlessly. Plus, it's so fast and simple to transfer your existing data and switch over to Gusto at any time. So try Gusto today at gusto.com/twist and get three months free when you run your first payroll. That's three months of free payroll at gusto.com/twist.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:10:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Hey, this is very important because there was also something that came out this weekend and I thought we should start with Lon, which is in China, there is a new trend.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:10:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Mm-hm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Which is you get your teammates fired-",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:11:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Before you get fired.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:11:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Before you get fired.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:11:03",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Wow.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:11:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So the concept here is we all know this is a sinking ship. When I say sinking ship, I mean employment.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:07",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Employment. The idea of working for a living, yes.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:11:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The idea of having a job is over. Everybody understands it. Today, Sam Altman said to Axios—which I guess he's underwriting Axios? I didn't know that he was like paying for the newsroom over there. I don't know that, but he's got—there's some disclaimer at the end like, 'And just in full disclosure, OpenAI pays for a lot of our journalists.' But tee this up, Lon. Tee up this little cheese eater, the Chinese cheese eater movement.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:45",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So a Bloomberg researcher, Dave Steve Howe, tweeted this the other day. Apparently, workers in China have been creating colleagues.skill to distill their coworkers, hoping to make them redundant, hence saving themselves. In response-",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Claude has recently invented an anti-distillation skill that has gone viral on GitHub. So, yeah, I guess the- the idea being that your- your coworkers are now going to create a Claude skill that does your job so that you get fired and they get to keep their job by the transitive property or something, I don't know.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is the Chinese cheese eater movement. They ate cheese. This is it. You understand Ryan, you eat cheese, that makes you a- who eats cheese?",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:12:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Cheese eater? I don't know.",
+      "tone": "puzzled"
+    },
+    {
+      "timestamp": "00:12:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "A rat! I believe we're looking for a rat. A mouse. A rat. And where I'm from in Brooklyn, if you eat cheese, that makes you a rat. And if you're a rat, watch your back, okay? Snitches get stitches.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:12:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Ryan, did you- you were in education company, and now you see this. Are you in the- what percentage doomer are you? And by doomer I mean like-",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well I can tell you the facts, right? So we- we just closed our seed round. Normally you would hire up. And guess what? I'm not hiring anybody, right? So I just de- I just deployed Claude-chief as my assistant chief of staff, fine, that's pretty straightforward. I'm just about to deploy another open Claude to be my marketing manager. Like, this is where it's going to go. And then once you've got your- your Claude optimized, then- then you will hire human to run that Claude. But yeah, I mean this is a- this is a real thing.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:13:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's a real thing. And you have the money in the bank and it used to burn a hole in people's pocket, 'Hey, who can we hire? Who can we hire?' Now it's like, 'Ah, hiring people is a lot of work. Humans are fallible. We gotta work with them, then they leave...'",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:13:47",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And then Jason, you lose them. You- you lose them and then you have to retrain and reskill. And I think this is the- we'll talk about this in the show, but the big unlock is you are continually improving this employee and the more you improve them, the better they get, and then you can onboard even more. And with humans... I mean, unfortunately all of us humans, hey, we have our own families to feed, we do our own- our own things.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:14:01",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah and free will. And free will. Like you can go... we have employment at will and we have free will. These two things, Alex, as human beings and in a society, boy, if you invest in an employee, a team member, and they get really good, the reward for that is they leave and start their own company or they leave and go work for some big company who's willing to overpay them.",
+      "tone": "philosophical"
+    },
+    {
+      "timestamp": "00:14:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So where are you at? What percentage are you Alex, currently, what percentage are you like doomer versus... boomer?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:14:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'm 100% boomer, not from an age perspective, but from an optimist perspective. Yes, I've- I think where these guys got it wrong is I wouldn't be writing- if I'm in the corporate world right now, I'm not writing skills to get rid of my coworkers, I'm writing skills to get rid of myself. I'm putting out skills so that I can automate myself. I'm going, I'm using open Claude... please automate my life.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "to build a business on the side so I don't care about the corporate world anymore, so I'm not like in jail from the corporate world. I think there's way bigger opportunity outside. So these people, I think they're doing it wrong. You gotta automate yourself, not your co-workers.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:15:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes, and AI boomer, AI doomer. Just percentage-wise, where are you at right now? And specifically, employment being the one that people seem to be scared of. We'll leave the Terminator, Skynet, you know, 'the thing gets out of control' off the table right now. Just this is the debate of our ages right now and it's leaning towards doomer here in the US. Where are you leaning right now?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'm probably like half-half. You know, I don't think—I mean, I've seen a lot of people just tweeting about AutoGPT and, you know, all the variants of AutoGPT, but there's probably a very small percentage of them that are actually making money off the thing. I mean, there's very few examples. I saw Nat Eliason, I think, who has his AutoGPT and that's probably the best example of where I think it's making more than a million dollars ARR. I don't know if it got there, but I mean, it's selling like AutoGPT skills. So it's not exactly doing something sort of, you know, earth-shattering or creating any sort of new business. So I don't know, I'm probably like 50/50. I think I definitely see like, you know, some aspects of, you know, work that can be improved, made more efficient, but, you know, I don't see like the actual business impact. And maybe that's, you know, just a matter of time until you have like all the right integrations and stuff in place or maybe not. I don't know.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:16:40",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "There is, Jason, there's this sort of counter-narrative that I feel like we've heard from David Sacks a lot on All-In. Here's a Marc Andreessen tweet from yesterday: 'The AI job loss narratives are all fake. AI equals massive rampant productivity, equals massive rampant demand, equals massive jobs boom. Watch.' And I have to say, I keep hearing this and there is something to it. What I would say is, to me, it doesn't feel like Gaff is anywhere near ready to work by himself. Like even if he was in a Mac Studio, I feel like I would still need to be there giving him feedback, pointers, asking him to do things. I don't think he's ready to replace me. He's ready to do like 80%—",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:17:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But now compare that to one year ago, your opinion, and two years ago, your opinion on ChatGPT 3.5.",
+      "tone": "challenging"
+    },
+    {
+      "timestamp": "00:17:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I get it, but I still feel like to me it feels too soon to be like there we're not gonna have any more need for people, all these companies are gonna be entirely bot-run. I feel like for the near future at least, we do want humans in the loop, but it does feel like a lot fewer humans to me.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:17:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, here's Marc Andreessen. Yeah, he says, 'Employer recovery from post-COVID hiring correction, employee recovery from post-COVID, interest rate spike, elasticity, elasticity equals demand.'",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I, you know, I understand the concept here. Hey, people become more ambitious, they start more companies, these tools enable more. Sure. But, you know, there's a, there are entire careers that will be retired and I think it's deflationary, so compensation's also going to come down. They're even laying off people in India, I don't know if you saw this, but a lot of people in India are starting to get laid off and that's actually been concerning to people.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:18:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But let's get into it. Let's talk a little bit more about the technology itself today, uh, and where we're at.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, we got a top story we gotta talk about. Everybody's been talking about it all weekend. On Friday evening in a blog post, Anthropic announced that they were stopping—Claude subscriptions no longer cover third-party access for tools like OpenClaude. This took—they go, 'make the YouTube face'—this started on Saturday, April 4th. It was announced in an email sent out Friday evening. So instead, they're offering a pay-as-you-go option, billed separately from your main Claude subscription to cover it. Here's Anthropic exec Boris Cherny on X: 'We've been working hard to meet the increase in demand for Claude and our subscriptions weren't built for the usage patterns of these third-party tools. Capacity is a resource we manage thoughtfully and we are prioritizing our customers using our products and API.' So that, that to me feels like a huge... Alex?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:23",
+      "ad": true,
+      "speaker": "Alex Wilhelm",
+      "text": "When you're a busy founder, you move fast, sometimes you break things. That's the job. But when you want to land those big whales, those lighthouse customers, you know, the major enterprise clients, you can't move fast and break things. No, you need to make sure your security and compliance is locked down tight. Tight is right. That's why Founder University and I recommend startups work with Vanta. They're the leading security compliance solution that's being used by more than 15,000 companies. Vanta's not just going to help you with your SOC 2, their AI-first system is going to continually monitor your filings and compliance so big important deals are never going to get hung up. That's why you need a trusted partner like Vanta. They understand changing regulations and buyer expectations, so you don't have to sweat any of the details. Vanta's going to do that for you. Twist listeners get $1,000 off at vanta.com/twist. That's v-a-n-t-a.com/twist for $1,000 off.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:20:19",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Listen, I don't like it because it costs me money, and I don't like anything that costs me money. But I will say, I totally understand it. Right? All the subscriptions are, are subsidies. That's it. That's all. Like, you're just getting a lot of tokens for a small price. So what sense would it make for Anthropic to subsidize other companies' tools? That doesn't make sense. You know, they do the subsidy so that they can collect data on Claude code and data on other Claude tools so that they can improve those products. But if you use that subscription in OpenClaude, which they don't control, that's just polluting the data. So I hate it because I now have to spend more money, uh, but I get why they did it. And just as a side note...",
+      "tone": "candid"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I think that the people who's ripping out Claude out of their OpenClaw now are making a tremendous mistake. Why? Because Opus 3.5 is clearly the best model for OpenClaw. Like, anyone who's used ChatGPT or Gemini or any of them knows it is a downgrade, and in some cases, a significant downgrade. I personally believe OpenClaw's the most powerful tool out there. So, I think it would be silly to virtue signal and be like, 'Oh, I'm ripping out Claude,' when all you're doing is just hurting your own productivity.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Grind there though, so...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:21:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I've got a data point on this, right? So, I have actually been using GPT-4o from the beginning on OpenClaw. Disclosure: I have a bunch of credits on the OpenAI API and I'm, like, I'll burn them down. And it's interesting, and I actually messaged you, Alex, today about this. Because I started with GPT-4o, I've never used Opus in OpenClaw in anger. So, it's hard for me to compare. But for one full day of using Claw Chief, which is a high-level chief of staff that's in OpenClaw, it was going to be $3,000 to $6,000 per month, right? So, you're talking $100 to $200 a day. So, these labs are hemorrhaging cash. Like, there's no way this stuff costs $200 a month. It just doesn't. So, get used to it, people.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:22:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's the key here is the entire industry and all the most powerful experiences in it are massive losses. Makes the losses of the Uber and Lyft competition when they were subsidizing rides or the food delivery, it makes it look silly. I—you gotta think for every $20 or $200 subscription, they're losing on that top tier of users a multiple times that, a multiple of that. Every time they get one of these power users, they lose probably a couple of hundred dollars a year, maybe a couple of thousand dollars a year. So, this is the next card to turn over in the AI race. When OpenAI goes public, when Anthropic goes public, even to a lesser extent, when SpaceX goes public, they probably won't have to disclose all the way down to the xAI granular level because it's part of, like, many different businesses and it might not be material, so they'll report on the Starlink business unit, but they may not have to report granularly on xAI. Anthropic's gonna have to give these details in their S1 and so is OpenAI. And there was a story this weekend that OpenAI had a little internal debate between Sam Altman and the CFO, Sarah Friar, of, like, maybe Sam's, like, racing towards the cliff and—this is all allegedly—the CFO is not happy about the spend. Yaz and I want you to comment on this tweet. Not this one, we'll get to...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And then second, I put another tweet in of Caveman. I don't know if you guys saw Caveman. Did you see this, Yasin?",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:24:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, my brother sent me this... this tweet. You know, I...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:24:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Explain what this is and if you buy it.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:24:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I think there's probably some truth to this. I... I didn't actually try it, but...",
+      "tone": "hesitant"
+    },
+    {
+      "timestamp": "00:24:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, explain what it is to the audience listening.",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:24:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So the idea is, you know, there is, I guess, the English language has a lot of fluff. You can probably get your message across using just like verbs and maybe, you know, a few adjectives. And that's essentially what this is, is like, you know, instead of blabbering on about how oh, you know, I went ahead and did this thing, you could just say 'did thing' and, you know, that's like 75% fewer tokens.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:24:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So this was basically, this guy Om Patel said, 'I taught Claude to talk like a caveman to use 75% less tokens.' Normal Claude 180 tokens for a web search task. Caveman Claude 45 tokens. 'I executed the web search tool' equals eight tokens. Caveman version: 'tool work', two tokens.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:25:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I wouldn't be surprised that it actually works. I think the problem is you might end up speaking like a caveman if you do this because I mean, if that's all you're reading, it's going to affect your vocabulary at some point.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:25:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The good news here, Lon, is I think we're moving into the phase for the industry that there's tremendous value being created. People have become addicted to it. Just now insert ridesharing for the same thing. Now people have to pay the proper amount for it, and the businesses have to move from being upside down and having a very deep J-curve. The J-curve, as I said on All-In and I think here, will be $500 billion for the LLM industry. Like, you know, 100, 200, 300 billion for OpenAI, 100 billion for Claude, 100 billion for xAI, whatever it is, winds up being. They're going to have to become profitable in three or four years and then pay back $500 billion in paid-in capital from their profits to make this industry absolutely work. That should be a scary proposition to people.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:26:22",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Compute also has to come down in, like, wildly in cost, I feel like. It's just not, nobody can afford to pay what we need to pay for everybody to run Open Claude. We're talking about, you know, like Anthropic, we've been off, the users have been offsetting it to Anthropic, now they can't afford it, so they're throttling Claude. And it's like, at some point we have to figure this out or it's just imbalanced. It costs too much to run Opus 4.6 as much as people want to.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:26:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But I mean, so the show is This Week in Startups, right? We're all startup founders, right? And we're mercenaries for money, right? And I think it's very simple, right? If your Open Claude is actually doing valuable work for you, for instance, chief of staff, marketing manager...",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "etc. So you have to pay 3 grand a month. It's nothing, right? The value you're getting out of that compared to a human that you would have paid to do that job is astronomical, right? And it's retainable, it's improvable, it's scalable. Right. So I think you have to separate out these folks that are toying with OpenClaude and they're mad that they- it doesn't cost them 200 dollars a month, to real operators who are building businesses with this stuff. And I'll give Alex a layup here and basically say, well, the mercenaries for money are going to then do what he's doing with- with open models.",
+      "tone": "matter-of-fact"
+    },
+    {
+      "timestamp": "00:27:32",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, well, there's two things that are going to happen here. The first thing is it's obvious that in the next month or so we're going to start getting $2,000 month subscription plans. Like that's just painfully obvious. The next round of models, which they're already kind of hinting at, Spud and Mythos, saying much bigger, much more expensive models.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:27:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Who's- who's doing each one? Spud and Mythos?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:27:56",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "ChatGPT-5.5 is Spud, Mythos is Claude. And so they're both kind of leaking over the last couple weeks, these are brand new models, you know, nothing to do with their past models, much bigger, much more expensive. I think that's definitely on the way.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:28:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So you're saying the $2,000 a month-",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:28:09",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yes.",
+      "tone": "certain"
+    },
+    {
+      "timestamp": "00:28:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "subscription to Claude and OpenAI is coming for consumers? $24,000 a year, essentially a third of the salary of a, you know, two or three year out of school, uh, college graduate. That's going to be the next tier in order to use those models at scale, yeah?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:28:31",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I said if it doesn't happen this year I'll delete all my social media accounts. I- I am that confident it's going to happen. It- it only makes total sense.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:28:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's showmanship, showmanship, exactly.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:28:39",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No, I- and you know what Alex, I'm going to say I think you're 100% correct here. What's happening now is they got us on the hook. They showed us how productive this stuff can be. They got us to go from a 20 dollar subscription to a 200 because we're like, well, that's 180 bucks more, it's whatever it is, 2,000 a year. Hey, if we save 10 hours a month of Lon's time, that's worth thousands of dollars. Okay, great. We're going to save money with this. Now they're going to appropriately price it. This is like going from a 5 dollar Uber or Lyft- remember the 5 dollar Uber and Lyft rides? To the, you know, 16 dollar one. You're like, well, 16 dollars is a lot of money compared to taking the bus for 3.50 or the subway for 3.50, but I'm kind of used to this and I love it. So I'm going to go door-to-door for 16. I'll figure out how to get the other, you know, I'll figure out where to get the, you know, incremental 9 dollars.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:29:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:29:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "One- one thing that was a big news story last week that seems to have really died out was this like Claude code leaked and now it's open, everybody can find it. Is anybody considering using like an open Claude, like a variation on Claude code that got forked or is that not interesting to anybody?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:29:46",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "No.",
+      "tone": "dismissive"
+    },
+    {
+      "timestamp": "00:29:47",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Every founder at some point confronts self-doubt. It's just part of the job starting any kind of new project from a startup to a podcast. It's a leap of faith, right? You gotta have confidence, you gotta get in there, but there's one thing that can really boost you.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "your confidence and help you persevere through this journey and that's having an amazing partner you can trust like the Launch Accelerator and our friends at Shopify. Shopify is the e-commerce platform behind millions of businesses around the world. In fact, they're powering 10% of all e-commerce in the United States from household names like Heinz and Mattel to companies that are just getting started. And if that's you, they're going to help you launch your new site with your own design studio. That's right, with hundreds of ready-to-use templates, Shopify is going to set you up with an elite online story that fits perfectly with your brand's style. And if you ever get stuck, Shopify always has someone around to help out 24/7, 365 days a year. So it's time to turn those what-ifs into (cha-ching). Sign up for your one dollar per month trial today at shopify.com/twist. That's shopify.com/twist (cha-ching).",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:30:54",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So I spent, you know, six months inside of one of the premier agent labs, which was Amp, and you know, I know how this stuff works. And this stuff, you know, you ship 30 times a day. So whatever we saw is outdated. Um, you know, there's some tricks with memory and some things in there, but honestly, none of it was so surprising. Um, just use the stuff, people. Like, there's whole companies that are doing this. Don't try to build a company for a tool that you can just buy.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:31:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I love having the open source models just to and having powerful local computers. I like this because",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:31:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It feels like they're going to flip in the next year and when it does, I want to be ready to go. Doesn't mean I won't pay the 2,000, but we fired up three more on my Mac Studio, three more open source models, they're running concurrently, and we're testing putting jobs against all of them. There's a startup that's doing, I got pitched on, that's doing intelligent routing of queries. Um, so you do your query and then it instantly is like, uh, I think it's best for this one, or let's try it at this one and then see if we get a result that we think is good enough and then we'll fail over to the next one and then fail over to this one. So that's going to be an extraordinary dynamic process. Like can you imagine you send a query and it's like, you know what? Kimi can do this. Oh no, that's, you gotta use Gemma. Is that what they call the, the Google one that you-",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:32:20",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Gemma?",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:32:21",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Gemma 4?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:32:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Gemma 4. People go crazy about Gemma 4 as well. So I just think that's the future of it.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:32:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Getting that setup is a lot of work, but if somebody abstracts it, just like OpenRouter.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:32:39",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's super easy. It's actually, I think, very kind of overrated, everyone saying how difficult it is to do. I have three Mac Studios and a DGX Spark here. First of all, I agree, it's clearly the future, right? The more these companies squeeze, which they're doing the squeezing now, banning OpenRouter, you know, making the pricing more expensive. Everyone says the limits for Claude have come down. Everyone's saying Opus is getting",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "the more they squeeze, the more people are going to go to the DGX GHs, the Mac Studios. And as you said, open models have been about six months behind for the last few years. So right now they're at about Sonnet 3.5, which was six months ago. All I do to load these new models, Gemma 2 came out, I go to Pinokio, I say, 'Hey, I think Gemma 2 just came out, figure it out.' It goes, it installs it for you. So the complexity is pretty much gone, and I think as people feel more and more the squeeze, they'll be running out and buying this hardware and loading these up.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:33:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Wait till it is built into your operating system. And this was—Ryan's old enough to remember this—remember like having to install TCP/IP and put an Ethernet card into a computer to get people on the internet, and like, it doesn't work, and like, oh, what's their port? Well, when I first...",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:33:50",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "When I first went to UCLA, you had to go wait outside the library with your hard drive so that they could install their Ethernet card into your computer and you could go use the internet in your room.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:34:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, yeah. So, you know, once it's abstracted away and like there's a system tray, and the system tray is just automatically updating these models. And I can see it so clearly. I just spent $3,400 on my Mac M2 M5—my Mac M5, 48 gigs of RAM. I could have gone even higher and I was like, ah, it doesn't seem necessary. But I bought this thing and I was like, I don't have a—there's no cost difference for a business between a $1,500 laptop and a $5,000 laptop. There's no difference. Any business that's a viable business with 10 employees, it's a $35,000 difference over five years, which is a $6,000 difference, which is a $500 a month difference. It doesn't make a difference. We've just gotten used to computers being $1,500. They used to be, when I was growing up, the first PC was $4,000. That was in 1984 dollars, 1983 dollars. That's three times that. So they were originally $12,000. It was like buying a used car, or even like a new cheap car. And we're going to get back to that. People are going to start looking at, 'Hey, when you hire somebody, yeah, you gotta put into account a 10K, 15K worth of hardware.' That's where I think it's all going. But I want to see Yassin's incredible demo. He came on last time and he showed me, 'Hey, what if you had, you know, this assistant that could be in your Zoom and could chat with you?' I said, 'You know what I want? I want like four or five people...'",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:35:32",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "...on the podcast, one of them a fact-checker, one of them writing jokes, basically the entire Stern crew from Jackie Martling to Gary Dell'Abate to whoever like the smartest person is in the back...",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:35:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Fred. Fred Norris.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:35:46",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "John Hein, Fred Norris. Just all contributing pieces quietly to the host in their earpiece or on like a little monitor, like you know, a text-based monitor. So we're going to see that in a minute. He built it.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:35:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'd also like to thank Sam Altman for buying the Podcast Bros Network, because they got rid of—",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "...of all of the advertisers. So welcome to all the podcast bro advertisers who are now appearing here.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:36:07",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Why do they do that? I'm... it's still stuck in my head.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:36:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, I can explain it in like three acts. Number one, in a peak bubble, acquisitions happen that do not make logical sense because people have valuations that don't make sense and then people want the stock of these magical companies. So if you're sitting there and you have a way to get 100 million or 200 million in pre-IPO OpenAI shares, you're gonna consider that, right? Even if your company's making 20 or 30 million like theirs was and it's on a tear—not even in viewership but in the revenue and the vibes. Number two, these guys—one of the guys worked with Sam Altman before, been an investor in his company. Sam Altman's looking at a communication deficit at OpenAI that people are saying, like, is their Achilles' heel. So if somebody says, your Achilles' heel is that every time somebody at OpenAI talks, the value of the company goes down, trust in the company goes down, the public perception of the company goes down, it's like well who's got good vibes? Hey, these tech bros just keeping it all light and positive, never saying anything negative, just keeping it upbeat, banging a gong, doing a soundboard, you know, hey everybody, hey welcome to the morning show, you know, hey, go zoom, and they're doing kazoos and it's fine. Like that keeps it world positive and I'm not goofing on them, I'm just saying like it's great, like awesome, like keep it positive. That's what Sam needs. So bringing them in to take the vibes playbook, Ryan, and apply it to OpenAI's just horrific the public, political, investor community's view of that company—what if it works? What if they can turn the vibes around? Turning the vibes around on a trillion dollar company, how much is that worth? Is it worth 1%? Yes. Is it worth 5%? Yes. If you could take a company with really bad vibes, which I think we'd all agree OpenAI has some bad vibes around...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:37:42",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "But I feel... I feel a little insider for that. I feel like these guys are wildly popular among people who already love them.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:37:50",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Of course. It doesn't need to make perfect sense. It doesn't need to make perfect sense. I'm giving you the contours of a weird thing that occurred and how a weird thing occurred. It is weird.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:38:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It is weird. It's just the numbers are weird. Like it's so much for a podcast...",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:38:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Don't worry about the numbers. Just take the numbers out of your head.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:38:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right, all right.",
+      "tone": "acquiescent"
+    },
+    {
+      "timestamp": "00:38:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And say I gave you a trillion dollars in monopoly money. The company is worth, you know, 250 billion based on its burn and reality, right? But it's in funny money territory, it's magically worth a trillion. So each dollar's worth four times. So then instead of making a 50...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:38:44",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I think you could fund like an event in space.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:38:46",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Well no, but is the implication there that they are going to like kind of change their editorial style to like glaze OpenAI more? Like wouldn't that fundamentally erode trust?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "their own company. I don't think anybody looked at them as a place to get, you know, objective, hard-hitting, ask the hard questions journalism. They got the vibes. Like, hey, hey everybody, come on the show, we bang the gong, congratulations, you know, tell me about your business. We're done.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:39:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "There was nobody like, you didn't have a Jessica Lessin there or a Kara Swisher or, you know, to a lesser extent someone like me being like, hey, here's a hard question. They're not asking hard questions there, and they're certainly not doing gotcha journalism like some of those folks might, and they're not certainly doing agenda-based anti-tech socialist journalism like at the New York Times or Wired Magazine, you know? So I don't think anybody like is looking to TechCrunch for objectivity.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:39:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think it's a little more in the middle. I think if they're, if they're constantly having OpenAI people on and just swooning over them, I do think people would get tired of it.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:39:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, sure. But they won't do that.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:39:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I think they've got to keep a, a better balance.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:39:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'll tell you the big, you want to know what the big risk factor is? Your working with a, the other group of companies will not participate. So like it's very hard for me to get Democrats to participate in All-In since three of the four guys are like full-on—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:40:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I get that, I understand.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:40:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Two of them are in the administration, one of them's a super donor, whatever they call it, super bundler. So you have three people who are all-in on the Trump, you know, you ask, you know, Josh Shapiro to come on the program, or Pete Buttigieg, I got Pete Buttigieg to come, I got Josh Shapiro coming on. It's just hard, you know, they're just like, that's not my home court advantage. So that's what's going to happen. Anybody who's outside of or competing with OpenAI, they may be like, ah, I'll take a pass on being on this podcast. But anyway, it's not important anyway, they're getting 50,000 views an issue. This is acqui-hiring a very talented group of marketers and storytellers. If anybody were to say like, what's the skill set of those guys, it's like building vibes, you know, taking like that sports show morning show and then just adapting it and making all the vibes immaculate. That's like, they make the vibes immaculate. Sam Altman's like, these vibes are not immaculate, everybody who speaks for our company steps in it. Let's let these guys speak for our company and keep the vibes positive. Go ahead Alex, you're shaking your head and you're perplexed.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:41:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Because I think it goes against— it just doesn't make sense to me because they even said it themselves, they've done too many side quests lately. The only thing anyone cares about, anyone in this industry cares about is what is the quality of your model? Right, they could do whatever they want. People get pissed off at 90% of the things Anthropic says and does, but they don't care, they keep using Claude for everything because it is the best model. Opus 3.5 is the best model, right? I just don't understand from OpenAI's perspective why they keep getting distracted by the video, Sora, and this and— just make ChatGPT as good as humanly possible and every other problem goes away. The moment Codex is better than Claude code, no one cares about what you say, what you do.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "He just wanted a good model. That's it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:42:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "This is an important tactical, practical thing for founders. At the end of the day, the product is the most important thing.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:09",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Everything else around the product is very important, but the product is most important. That's why when people say like you can't put lipstick on a pig, like trying to really work hard on your sales team and your marketing team to get better leads, to get people to try a product and do a demo, to put them on a trial.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:31",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "All that's fine. I've seen it countless times in a company where the product didn't have product-market fit. We called it a leaky bucket. There was a hole in the bottom. So you're pouring money into the top of the bucket to get leads, to buy better sales people, whatever, and it just flows right out because the product's not as good as another product in the market.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:42:49",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Jason, I'll give you the ultimate example of this. I'll give you the ultimate example of this.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:42:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Go ahead.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:42:54",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Over the weekend, I saw the best concert of my entire life. I went to see Kanye West in LA.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:42:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I knew this was coming. I knew this was going to be...",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:43:01",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Forty-five songs. This guy is the most insane human being that's ever walked this planet. Has said the most hateful things any public figure has ever said in history.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:43:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, 'Heil Hitler' on his...",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:43:10",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "He really took a song called 'Heil Hitler'.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:43:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "No, literally.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:43:13",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "The most hateful words ever and you know what happened? I went to SoFi Stadium, 80,000 people singing along to his music because the product is amazing. If your product is amazing, you can do quite literally anything you want, people will still come to you.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:43:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And I'll back that up.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:43:28",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "You could be Hitler, you could write a Hitler-themed song and sell out a stadium for two nights in a row.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:43:32",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Wasn't that... we're on a signal chat together, Jess. Wasn't that the very first thing I said? I'm like, if he apologized, if he's going to play 'Runaway', I'm going to go see it. Like, I don't care.",
+      "tone": "relaxed"
+    },
+    {
+      "timestamp": "00:43:42",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "He sold swastika shirts during the Super Bowl. He sold swastika shirts.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:43:45",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "He said he's sorry. I'm ready to hear 'Can't Tell Me Nothing'.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:43:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And you're Jewish, Lon. You're Jewish. You're ready to move on.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:43:51",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "To take this back to reality and AI and technology, everybody.",
+      "tone": "transitional"
+    },
+    {
+      "timestamp": "00:43:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Please. Help me out here, Alex.",
+      "tone": "relieved"
+    },
+    {
+      "timestamp": "00:43:57",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "A very real example. A very real example is this, right? Anthropic is terrible at DevRel. They are the worst company I've ever seen do developer relations. They just are the worst, right?",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:44:09",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And then you look at CodeX, so the CodeX team in OpenAI, they are one of the best. Their DevRel team is killer, right?",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:44:19",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But the truth is, people, as Alex said, what are we still using to do our work? And it's Opus 4-6. So it's the model, it's the model, it's the model.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:44:26",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Make the model better at all costs.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:44:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Speaking of great products, Jason, we've got two demos. Should we jump in?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:44:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Let's go. Demo or die time.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:44:32",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes, demo or die.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:44:34",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So Yazin was on the show back in March. He showed us OpenOats and while we were discussing it, Jason mentioned his idea for a cluster of agents that function as live podcast producers, doing the job of say, Howard Stern's show or say, yours truly, me, Lon Harris, does during live shows. Within days of his appearance, Yazin tweeted this multi-persona AI sidebar for podcasts and live streams.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "he's calling it sidecast, Yaz has shown us - show us around.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:45:03",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "All right, so, this is OpenNodes. Jason and Lon, you guys had this idea of having like a sidecast. You already have the stuff sort of calculated beforehand, so it's really just doing like search and retrieval. You're not doing live search. And I was a bit concerned about like, okay, is it going to be too slow if you're having a live call for the thing to go out there, find information, pick it up and and show it to you the way like a fact checker or researcher might need to do.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:45:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And that is - I will say as a person who does live fact-checking and research, that's a human concern. Like, I'm often not able to get the right piece of information until before Jason has moved on to the next point on the show. So that's not even just an agent worry, that's a real worry for a human producer.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:45:48",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Exactly. And so I thought like the latency's probably going to be like a bit too difficult to, you know, have in like a live setting. And I was shocked. Um, so I'll show you guys what I got.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:46:01",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So here, the core idea is you need an LLM provider. This could be like a local Ollama, I'm using OpenRouter here, um, because I'm running this on my, on my, on my Mac Mini. You configure your personas, and these'll look pretty familiar. So you got like the fact checker. This is someone that highlights facts and missing nuance. And for each of these you can provide your own prompt and there's also a toggle for whether it supports a live web search or not. Uh, so for the fact checker you obviously need live web search. And then you can configure other things like how long the responses are and you know how often it would step in. And next is also the archivist. This'll pick up like previous - I don't know how similar is this, you know, this thing that people are currently discussing in the context of the video to, you know, past events.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:46:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, like going back into the archive, taking all 2000 plus episodes, having it have that in, you know, some amount of the topics, maybe like the - you couldn't put all the transcripts into memory, but you could probably have most of the timestamps in there. So 2000 timestamps times 20 lines each, 40,000 lines, maybe that would work.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:47:08",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Even just the last, you know, six months would be super helpful. It doesn't have to have the full, you know, 20-year archive of the show, but even just the last six months would be like, 'Hey, you previously mentioned this in February, you mentioned this in January.' Like, I can't keep up with that at the pace of the show, so this is something that you'd need an agent or producer to do.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:47:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:47:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yazin, where's the context coming from on this... for the archive?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:47:34",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So the knowledge base feature that I shared earlier allows you to search through the knowledge base and this'll surface stuff from the web. So you can combine both of those things.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:47:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think a really interesting thing for the archivist to do would be to look for things that were said in the past please.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Is that rhyme? You know how they say history doesn't repeat it rhymes? If you taught it a skill, Ryan, that was like 'Take the trends that we're talking about and look for analogies. Describe the trend in plain English and then look for analogies from other time periods.' So it's like, 'Oh yeah, we're in the J-curve, people are investing a lot of money, they're losing money on each customer.' Be like, 'Oh yeah, that's exactly what Uber and Lyft and DoorDash did.' 'Oh no, that's even more similar to this that occurred in the '90s with the websites. They were acquiring customers for 500 dollars each and they hoped to have a lifetime value and they were putting a value on page views, right?' Page views was the perfect example of a bogus metric.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:48:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And this is something we've struggled with so much because a podcast has so much inherited knowledge. Like if a person produces your podcast for three years, they're so... they know everything you've talked about, they remember all these shows, they have this head full of knowledge and then they leave and a new producer comes in. No matter how good they are, they don't have that familiarity. But now we can start to have a bot that has that familiarity.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:49:07",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I think we gotta do this with timestamps. We have to have the entire archive. What we need to do is have a canonical, perfect archive somewhere on a Mac studio, you know, on the web, have it build the Wikipedia of each episode.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:49:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This will be what Gaf has his own Mac studio, that's what he'll maintain.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:49:25",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well yeah, and then have it make like its own Wikipedia, like a Grokopedia on the local of every episode of everybody who's been on as a guest. You know, have a Ryan Carson page where it's like Ryan was on these four times, here's his appearances, here's what he's done in his career, here's his LinkedIn, so that just all that knowledge is right there really fast at its fingertips so you can do real-time stuff. Because that's actually the mind-blowing thing about this Alex, is we're starting to move from being able to do a query and, 'Hey, go get a cup of coffee, turn on your notifications for your browser and it's going to give you an alert, hey remember you did that deep research three minutes ago.' Now, I want deep research in real time. And that is, you know, that's gotta be a couple of years away, I think.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:50:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, the maybe feed notion, the doc hits, other stuff. You know, I think this would be this would be crazy. Like just feed all of the context and like I said, I'm actually surprised at how well this worked even with web which I thought would just be insanely slow.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:50:24",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'll go through the rest of these. So there's the sniper for just punchy one-liners and then short quips. And then the menace. This is kind of like a bit of a...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:50:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Troll.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:50:36",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, you kind of set these up and you can also create your own. So these are just the suggestions that you provided, Jason.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:50:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Imagine you have a chat room on YouTube or LinkedIn and it's not, you know, it's not super vibrant. People are kind of chilling. Now you send in five personas and say, 'Hey, mix it up in there. Read what they're saying and...'",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "and what they're saying on the show. So you have two inputs: the comments and the show transcript, and it learns over time, Ryan, how to get more engagement, how to rage bait. And you just teach it like you do a kind of reinforcement learning. If you get more people to view the live stream, if you get more people to reply to you, if you get people to block you, you're doing your job.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:51:25",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'll double down on your idea. Like, I think of these personas becoming actual personas, say on X, right? The interestingness of what they say goes up, right? So, say that you basically you build these pundits and on X they have interesting things to say. When you see them live and commenting the show, it adds even more credibility where you're like, 'Oh, that's actually an interesting point and I like this bot's point of view.'",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:51:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alex, people must be doing this for their Reddit. Have you figured out how to get your open Claude to like, operate in Reddit?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:52:01",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Well, so I have it doing a lot of consuming of Reddit. So I'm actually announcing a product in about an hour from now in which I have basically swarms of agents at the moment looking at Reddit, all these other sites, looking for challenges to solve. And so I have it doing more of the consuming side rather than talking side, but the flip side of this will be actually then going--",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:52:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Doesn't it try to block you if you do too many searches, too much stuff? It's always like no bueno.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:52:33",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, but there's ways around it. They're very persnickety on Reddit, but if you're very active, they'll overlook some stuff. It's just you can't just drop in and--",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:52:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so here it is. You've got a previous show, you went to the 43-minute mark, you hit play, and now we're seeing the transcript underneath it. And in the side, we're starting to see the four personas give feedback. And the archivist says, 'Don't confuse prosumer stickiness with mass adoption. Microsoft Co-Pilot had 15 million enterprise seats but stagnant consumer growth, proving that cool tech doesn't always translate to paying customer scale.'",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:53:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, and as the conversation flows, you're going to see more input from the checker, the sniper, the menace.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:53:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is from the checker. The precede bar is up because product velocity is up. They allow teams to reach scale exponentially faster.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:53:26",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "That's true. Don't know how it came to that conclusion, but that is a correct assumption. You can see the sources under each one of these, so web citations, you can see all of the sources that it used at the time of the generation.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:53:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean, this is really powerful, I think. If you think about Lon, the real world and meta glasses, now you're operating in the real world, you're at a comedy show or a bar in Austin and you're thinking of clever things to say, you know, you're talking to a couple of interesting people at the bar and it's like--",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Hey, maybe you could bring up something about this song on the radio and it's giving you prompts like, 'Hey, here's your romance coach, here's your fascinating coach, here's your, you know, non-creepy coach' and it's coaching you on how to talk to people for people who maybe are a little shy or don't know how to break the ice. This is really fascinating, real-time coaching.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:54:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, it's another one of those things that makes you sort of think of 'Her' where he's got Samantha in his ear and she's just talking to him and prompting him all day. Like we're getting to that world where it's real time.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:54:31",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And in the actual app you can just, you can just hide it off the screen so it's not visible when you're doing screen sharing. And now you've got facts at your fingertips, you've got, you know, perfect memory so you can pull stuff out of the archive, you punchy one-liners, you got, you know...",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:54:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So this is what Clueless was supposed to be, right? But actually useful. I love that.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:54:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "They sort of backed off now and they're just doing AI note-taking again. But this was the original pitch for Clueless, especially the 'it disappears on other people's screens so they can't see that you're cheating.' That was the whole Clueless thing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:55:04",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Alright, well done.",
+      "tone": "approving"
+    },
+    {
+      "timestamp": "00:55:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Alright, well done. We want to check out Claw Chief, that's Ryan's founder chief of staff open claw protocol that he released the other day. Uh, from Ryan he says, 'it is opinionated about the architecture of the workflow but meant to be customized for your own people, programs, calendars, inboxes, trackers, and recurring routines.' The post was 'How to turn your open claw into the world's best assistant.'",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:55:31",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Like everybody probably watching the show like everybody here on stage, we are starting to use open claws to do real work in our company, right? Um, and the obvious first choice for a claw is your assistant and chief of staff. Um, and actually Jason I was just thinking about what you all were saying on All-In recently about assistants and how this kind of work. Um, so so that's the first thing I did. I wanted to turn R2, my claw, into the world's best chief of staff. So, you know, I've been fortunate to work with real human EAs over the years, I've hired probably two or three of them and, you know, I've seen what they can do and how good they are and how, you know, much they fall short. So I started designing my open claw around that. And it was getting so good... I was like, 'maybe I should build a little side business off this and charge for it'. And then I quickly realized I have no time for that, I don't care about that, I'm just gonna open source it. Um, and so I released Claw Chief version one and everybody loved it. And then very quickly I saw that interview with Brex and the founder of Brex went on to a show and explained specifically tactically how he's augmented his claw and it's awesome. So you have basically a priority plane document, there's all this machinery, and so I just released V2 of Claw Chief. It's on GitHub, right?",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So, I don't know if we can throw up the GitHub if people want to go see it, but it's free, it's open source. Just point your Open Claude at it and say, 'Use this,' and I think you'll see a big, big jump in ability.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:57:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And you gave it its own behavioral trait based on an executive assistant and...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:57:23",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's actually less behavioral and more execution, right? So there are... there's a list of crons, right, that run. So for instance, the executive assistant cron runs every 15 minutes, and all the cron says is, 'Use your executive assistant skill.' So you have a cron that fires on a regular basis, and that cron—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:57:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What's in the skill then?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:57:46",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So this is the magic. I mean, this is what I worked on for weeks, right? And it's... it's how a good executive assistant should work, right? So if you look at it, you'll see it's in-depth, right? It's how to respond to emails, like do you respond the same thread? You know, how quickly do you follow up? How do you check the calendars and how do you use GOG, which is the primary CLI interface? So it's all the tactics, it's the real stuff. And then there's a BizDev skill, which there's a cron that runs business development and it calls the skill, and in BizDev skill, it just does all the stuff that you'd also want a really good chief of staff to do. You know, today, R2, my Claude, has already booked three meetings for me. Like, and these are not just me passing on, 'Hey, R2 booked this meeting,' these are real people that I'm doing business development with that I've never talked to. So, here we go.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:58:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We do, Jason, we do have a clip from that Core Memory podcast with Pedro Franceschi, the CTO and co-founder of Brex. Here, he describes he set up a thing called a 'claw trap' or a 'crab trap' for reining in unpredictable agent behavior. This is pretty amazing. Let's check out that clip.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:59:05",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We're actually going to open source this, but we actually build this entire like technology layer. We actually call it Crab Trap, funnily enough, where the idea is when you have something like Open Claude running, we... the best way to monitor what an agent is doing isn't to have a human looking at it, it's to actually have another LLM looking at it. So we build this thing that effectively intercepts all the traffic coming out of like an Open Claude instance and routes it through another LLM that's through an HTTP proxy that screens all the traffic and says, 'Is this something that a recruiting agent should be doing?' So for example, should a recruiting agent send like a harmful message to a candidate? No. And it can go in and block that request at the network layer, while the agent itself is even not even aware that that's happening. And the really cool thing of that is you can actually run this at scale. And the only technology that we think will be able to monitor agents is actually agents themselves. But we—",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It gives this almost adversarial effect where you have one agent monitoring another agent, and we've seen surprisingly good outcomes of this thing so far.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:00:09",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Amazing. And then here is on GitHub, the scale for executive assistant. I thought this was really well done. Did you, I guess you asked it to make this and then you edited it a bit, you had the...",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "01:00:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, and I was actually going to say, everyone, we don't read code anymore, but we should read markdown. So there's a lot of markdown here, and pay attention to this. But yeah, I just worked with R2 on this over and over again until it was great.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "01:00:35",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So if you go to GitHub, obviously you have Claw Chief, Skills, the executive assistant skill, and then you have skill.md. That's the structure of OpenClaw, and it has its name, it has its description. Perform owner names, executive assistant workflow using Google Workspace via GOG and your chat messaging layer for updates, use when handling general inbox triage, sending short operational email replies, scheduling, yada yada yada. Operating standard, be decisive, brief, and useful. Clear low-risk operational work instead of escalating everything. Use priority map to decide what matters and what can be batched. Use the auto resolver to decide whether to act, draft, escalate, or ignore. If the signal is primarily a lead status outreach track or prospect pipeline item, route it through business development workflow instead of treating it as a generic EA task. Like this is fantastic.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "01:01:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I've worked a lot on it and it works.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "01:01:31",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, meeting note ingestion. Read it, extract principal tasks, assistant tasks, decisions and follow-ups. Classify them through the priority map. Run auto-resolver policy, update ClawChief/task.md and any other live source of truth in the same turn. Record notes in blah, blah, blah, blah, blah. Inbox handling rules. Handle without asking first when authority is clear. Meeting scheduling, short acknowledgment replies, confirming receipt.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:01:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Boom. And this is coming from you or from your assistant when you do it?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:02:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "These are mostly messages to your assistant, right? So it's everything you want a good EA to do. Like, this is from 25 years of experience of working with EAs and people, right?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:02:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right. Well done. Anything else on the docket for us, Lon?",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "01:02:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Do you want a quick, since we're in demo mode, I could do a quick two-second demo what I've been working on.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:02:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes, please.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "01:02:19",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okay. This is an official announcement. I was going to reveal this on my live stream after this, but I'm just so inspired by Ryan and Yazin, I kind of want to demo it now.",
+      "tone": "exciting"
+    },
+    {
+      "timestamp": "01:02:27",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's a Twist exclusive, folks.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:02:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "This is a Twist exclusive. Let's do it. This is Henry Intelligent Machines. This is something I've been working on for a while. This is autonomous swarms of agents finding challenges and solving them for you. And basically the way this works is I have many, many agents right now running locally on my multiple computers going out and finding challenges online, going on Reddit, X, YouTube, Product Hunt, message boards, literal thousands of different sites finding challenges people are having and then autonomously...",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "solving them and earning revenue. And so here's what you see, here's your dashboard, you see how much revenue you made that month. You can go in here and it finds custom opportunities and challenges based on your interests. So it did deep research on me, found things I'm interested in, found opportunities based on those interests on many, many different websites. And now I can go in, see the opportunity, see what the thesis is around this challenge. This is an AI workflow automation playbook for creators. And so it wants to start a business around AI workflow automation. It has a proposed plan of how it's going to start this business, a breakdown of the market size, competitive advantage, feasibility, timing, all of that. And then I can just say launch this venture, give it a budget, so I'm depositing money in, it has money to work with. It can, you know, launch Facebook ads, Twitter ads, Instagram, whatever. Give it a timeline of how long it has to make money or make revenue. I launch it and now if I go into this active run, Henry is now going and building this business autonomously. It is now building out the products, it's going to post it to Gumroad, it's going to prepare an email campaign and it is gonna autonomously start this business itself. And now you scale this up, you can start multiple ventures at once, multiple businesses. Eventually it gets to the point where it sees, okay, this can be solved with a 3D printed item. Let me go find a 3D printing warehouse, print out all these products and ship them autonomously for you. So it is swarms of agents finding challenges and solving the challenges for you.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:04:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Love it. Uh, you know, we've had two of these type of genres on the program in the last month or so. Which is, I'll call Ryan's startup in a box. Identify, you know, an interesting business. One we had on Friday basically took the entire list and description and URLs of every YC company, ripped through them and said, how defensible are they and just make a fake version website?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:05:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Stealthsend.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:05:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Stealthsend. Uh, that was Friday. The guy did it kind of to be provocative. And then there was another one that was all from one interface. I saw Kevin Roose interviewed the founder. Polsia.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:05:15",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Polsia, yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "01:05:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And we had Polsia on before that.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "01:05:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We did.",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "01:05:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We did.",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "01:05:19",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We had Polsia on like before he launched it formally, I think.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "01:05:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And Polsia's like, I don't know, more Ryan-like, um, a platform like eBay or something where, or Airbnb where you can come in, put in your business idea or your business and then kind of be in competition with other people to see who could grow it faster in like a little leaderboard, almost like a Sims. It was kind of like, it reminded me of the Sims. What do you think this says about startup culture when Alex can bring in, you know, the tried and true look for business ideas on Reddit, like it's always been like an underground thing, like if you see people frustrated in a subreddit and then you solve their problem, they might become your customers. Awesome, like, great technique.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:06:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But here we are like one click make it, one click do a AB test like Eric Ries and the Lean Startup and Steve Blank's the startup... startup engine, whatever they called it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:06:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think this is cool. This gets you past the zero to one, right? Yeah. So your agent, this is cool Alex, so your Henry's out there like, hey there's some business opportunities and you're like this is worth 200 bucks to see, like is there anything here? Right? And I'm sure, you know, he'll get you somewhere. And then as the models get better and better, you know, give us a year, you'll probably see tools like Henry actually building the business for real, like where it's truly hands-off. You know, I presume we're in a spot now where it gets you started, does a pretty good job, but then you have to come in and be pretty hand-holdy. But we all know where this is going. The models are going to be... are basically already AGI.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "01:06:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm interested in how proactive Henry is. I'm sharing a tweet now in the room where you said, I woke up this morning and my AI employee Henry texted me that he did all these tasks overnight without asking. He fixed bugs, he read through your emails and built a CRM, gave you ideas for new videos, and even sent you a nano banana image of itself where he sees himself as an owl. How are you reining in how free Henry feels like he should be, or are you reining it? Is Henry basically could do whatever he wants overnight and if he spends tokens or whatever you're not worried about it? What's the protocol?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:07:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'm basically giving him complete freedom to consume as much as he wants and prepare the drafts of what he wants to do, but anything that is public-facing just goes through an approval gate, right? So it can't go crazy and do things that will damage you, but I'm giving him pretty complete freedom to, one, go online, go anywhere he wants to, build his own skills and toolsets so he can accomplish anything he wants. And then right before that final gate, that's where you have to approve or you can send a note back or you can edit. So I'm trying to give it as much freedom as it possibly can have.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:08:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Super powerful. Okay, Lon, what else is in the docket?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:08:07",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right. Well, we could talk about Hermes agent, which is an open source agent from France's New Research that was released in February. The chart showing token use growth by Hermes agent on one particular API router on Open Router, if we want to show that chart up. Lives on your server, it remembers everything it learns, and it gets more capable over time. They call it the agent that grows with you, and I know Alex has been using it some, so if we want to chat with him about it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:08:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So what do you think of this? Is it in any way going to challenge OpenClaw and are you still dedicated to OpenClaw when you see all these other tools coming out?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:08:42",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, so I've been using Hermes agent pretty significantly over the last few weeks. I do think it is a very strong tool. I'm going to be honest, I do not think it's as strong as OpenClaw at the moment. I'm having a ton of challenges when it comes to memory, but I will say this, I do think it's worth using. It's very easy to put side by side.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:09:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "side with OpenCLAW, they can communicate with each other, there's ACP so they can talk to each other and have each other do different tasks. I also, I just like the brand and the vision for the product. They are on record of supporting local open source models. They're building this for local open source models. Peter Steinberger's on record as saying he does not support them. He does not think they're good for OpenCLAW. He does not recommend people using them. So I think just from a spiritual direction—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:09:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Why?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:09:28",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Uh, well, I think there's probably many reasons. He—he's scared that from a security perspective, local models are more dangerous. So he kind of goes for a, 'I don't trust the consumer as much'—like, 'by default I don't trust the consumer to use it correctly' perspective, which I don't agree with. On the other hand, you know, Hermes, the team is like, 'I trust the consumer. I want them to use open agents and experiment and do random crazy things.' So I just like that direction more. But I'm gonna be honest, like, I think OpenCLAW at the moment's better. I'm getting way better results, but I'm using them side-by-side and I think they're worth using side-by-side.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:09:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The switching costs are too high now. Forget it. Like, I bet Hermes is great, I'm just all in on OpenCLAW and it will take me two weeks to really see if Hermes is good and I'm not interested in that. I'm glad the team is building it, and obviously they're gonna be supportive of local models and I love that, but you have to bet on—on Peter. I mean, and with the backing of OpenAI now, it's gonna be the best.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "01:10:31",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I saw Dave Morin said the new version of OpenCLAW is gonna drop this week. Is that correct? Is it out yet?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:10:38",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm using it. Yeah, I started this morning. Yeah, it came out today.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:10:43",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Oh, it came out today?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "01:10:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, it shipped last night. They drop every day. They have updates every single day. R2's using it, it's got this really cool feature called dreaming, which is what humans do. So when you sleep, you're obviously—you consolidate your memories. You process the information. That's why we need sleep. And now OpenCLAW does it overnight. I'll let you know tomorrow, like, how it went. Uh, I have had trouble this morning with a couple technical issues in Slack. So there's some bugs, uh, so it's not perfect. And supposedly he's juiced GPT 5.4 to be really good in it. We'll see.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:11:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Interesting. Uh, any thoughts yourself, Alex, on the actual functionality around Hermes?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:11:24",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "On the actual functionality around Hermes? I—I think it's good. I—I am excited for the updates. Like OpenCLAW, they just have more people working on it as well. Uh, from an actual migration perspective, Ryan, they actually do have built-in migration in Hermes where you can just like do Hermes migrate and it'll take all your memories, all your instructions, everything in like a second. And Hermes—so I—I think it's worth testing out. There's—I mean, I also think there's like psyops on social media where people are saying Hermes is better and they don't actually believe it. But—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:11:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Probably haven't used it.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "01:11:53",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Right. This is becoming a big thing on social media obviously, is just people having opinions.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Somewhere they place their bets as a...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's news.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:12:01",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Aha. I mean, a hot take has its own value.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "01:12:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's become cute, I would say. Like, I feel like when I go on social media, it's literally lobbyists...",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "01:12:15",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "and it's just one lobby versus the other. We're back to like the Mac—it's all ops, all lobby, non-stop. And I'm just tired of it. Tau versus Solana, Mac versus PC, Android versus whatever.",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "01:12:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "01:12:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Local models versus...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:28",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's something they've done to the algorithm. The algorithm... ",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:12:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Go ahead.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "01:12:33",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's literally... it's a marketing strategy now from a lot of companies. Like, the infamous one is Higgsfield. Literally their entire marketing strategy is illegal undisclosed advertising. They pay influencers to go say Higgsfield's incredible. It's clearly an ad, and like that's just like the entire marketing strategy for a lot of these companies.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "01:12:52",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Did you see, Jason, over the weekend our friend of the pod Nick O'Neill was tweeting non-stop about Higgsfield? I was a little suspect, I just have to say.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:13:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Really?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "01:13:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I think he's one of the... I think he's one of the guys that Higgsfield is contracting to do this, because he doesn't strike me as...",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "01:13:10",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Don't they have to disclose that now?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "01:13:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "They're supposed to.",
+      "tone": "factual"
+    },
+    {
+      "timestamp": "01:13:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I know that this is happening because... um... the guy who's running product at X... Nikita. Nikita. He DMed me. And he's like, 'Hey, can you put a label on your PolyMarket tweet that it's an ad?' And I was like, 'It's not an ad, I don't sell my tweets.'",
+      "tone": "anecdotal"
+    },
+    {
+      "timestamp": "01:13:32",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And he's like, 'Okay, fair enough.' And I'm like, 'That was a weird interaction.' Like, oh, I get it, people are ratting people out. Like I might be a shareholder in a company, but that doesn't mean I'm getting paid to tweet about the company. So if I tweet I love Uber, that's not a paid ad, but I am a shareholder.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:13:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "See, this gets murky because I get a lot of credits. So like, and I disclosed it at the beginning of the show, didn't I? I have a lot of OpenAI API credits. Fine. I have a lot of Devin credits now. Fine. Like I actually think you probably do need to disclose it at a deeper level now, you know, 'cause I'm not being paid by anybody, but I do get credits, so...",
+      "tone": "candid"
+    },
+    {
+      "timestamp": "01:14:07",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I mean, if... yeah, I think it's like there's like multiple layers. There's 'I'm explicitly being paid to do this.' Clearly, the FTC requires you to disclose that.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:14:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Then there's 'I have an affiliation' or 'I'm a shareholder in' or 'I benefit some way if this company wins.' And that is like an optional thing, I think, or you could put it on your landing page of disclosures. Like I'm an investor in 600 companies. If you look through this list, you're going to find a gazillion cross-referenced conflicts, right? I'm an LP in 21 venture firms. Like, okay, like I don't know what they've invested in.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:14:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So you start getting to conflicts for somebody like me in the most conflicted area in the world, startup investing. Like I couldn't even tell you what I'm an investor in. I probably have shares in Lyft from being in some...",
+      "tone": "complex"
+    },
+    {
+      "timestamp": "01:15:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "venture firms and I don't even know it. At some point somebody might give me shares in Anduril because I'm an LP in their company and people would be like, oh my god, I thought you were banned from getting Anduril shares. Like, oh, I don't know which one of my funds I'm in that I've gotten shares in. So definitely more disclosure is, uh, but I thought that was like an interesting one.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "01:15:19",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, PTG Kyle in the YouTube chat asks, is this just the modern word of mouth, people sort of shilling on, on social media? I don't know, I think it's a little, I think it's a little bit more to it than just word of mouth.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:15:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You remember PayPerPost, Lon? In the early days?",
+      "tone": "reminiscent"
+    },
+    {
+      "timestamp": "01:15:35",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure. Oh my god, I remember PayPerPost.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "01:15:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, the founder of that, that guy was brutal.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "01:15:39",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That guy was so bad.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "01:15:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's always been with us. As anywhere where there's, if a conversation takes off here, there's monetary value associated with it, there's always going to be gamesmanship from the, from the earliest days, as I recall.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:15:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Um, do you remember PayPerPost founder coming on This Week in Startups and getting into it with me live?",
+      "tone": "reminiscent"
+    },
+    {
+      "timestamp": "01:15:56",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think I do. Wow, that was a long time ago.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "01:16:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Ted Murphy.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:16:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:16:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "He is so combative.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "01:16:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "He is so combative.",
+      "tone": "concurring"
+    },
+    {
+      "timestamp": "01:16:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I do remember this.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:16:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And do you remember what I did to him? Oh my god, it was so dark.",
+      "tone": "dramatic"
+    },
+    {
+      "timestamp": "01:16:09",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No. This is too long ago for me.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:16:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "He had done this whole PayPerPost thing, to the poor woman, um, what was his name? So his name was Ted. Um, so the guy, Ted, was getting a woman, uh, it became Izea. Oh my god, I'm like having flashbacks. It became Izea, and he was doing all this covert marketing stuff, PayPerPost, I was doing Weblogs, Inc. at the time, blogging, and I was like, you gotta disclose this stuff, like, it's just, it's, you know, whatever. And the guy, um, had written on this poor woman's forehead with a Sharpie, like, this degrading thing to do, for like a hundred dollars, and he was seeing what she would do for money as part of like this promotion thing. And he made a video of it and it was like totally gross, everybody was like, oh my god. So I said to him, I said, yeah, but if I told you like, I'll pay you to write PayPerPost on your forehead with a Sharpie for a hundred dollars, he's like, yeah, totally do it. And I was like, okay, Tyler, go get me a Sharpie and give me a hundred deep from my wallet. I didn't know what to do on air, so I was like, okay, fine. Write PayPerPost, Tyler, on his forehead. And the kid did it! And I was like, this thing is off the rails, I gotta end the show here. It was like so bizarre.",
+      "tone": "intense"
+    },
+    {
+      "timestamp": "01:17:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think this was 2008, Jason. I can't find the original post, but I think that's what this was, this happened. I think it was that long ago.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:17:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Anyway, oh my god. I mean, this is where like the forever... yeah, oh my god.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "01:17:40",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "18 years ago, jeez.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "01:17:41",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It was 18 years ago.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:17:42",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It was. We need we need Yasmin's tool to be telling us all this stuff.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:17:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's exactly right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:17:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Looking up the archives.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:17:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Um, it was, oh my god, sorry, I'm just looking for...",
+      "tone": "distracted"
+    },
+    {
+      "timestamp": "01:17:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I think this one got memory holed into history. I can't find it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:17:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean it was like there were a million blog posts about it.",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "01:18:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "at this moment",
+      "tone": "reminiscent"
+    },
+    {
+      "timestamp": "01:18:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, no, I remember it now that you're talking about it, but I can't find the act",
+      "tone": "pensive"
+    },
+    {
+      "timestamp": "01:18:05",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And he like literally wrote on his forehead. It was insane. I don't even want to get into it.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:18:10",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Alright, listen, this has been another episode. Great, amazing episode. Plot twist. Thank you Jason, Alex, and Ryan, and Lon, and we will see you all on Wednesday on Twist. Bye-bye.",
+      "tone": "professional"
+    }
+  ],
+  "highlights": [
+    "A survivalist trend has emerged in the workforce where employees use AI to automate the tasks of their coworkers to make them redundant before they themselves can be laid off.",
+    "AI labs are shifting away from flat-rate subscriptions toward pay-as-you-go models to manage massive compute costs, signaling a future where professional-grade AI access may cost thousands of dollars per month.",
+    "Teaching AI to communicate like a \"caveman\" using minimal verbs and nouns for tool execution can reduce token consumption and costs by 75% without sacrificing utility.",
+    "The next frontier of automation involves \"swarms\" of autonomous agents that can scan social platforms for consumer pain points, develop products, and launch entire business ventures with minimal human oversight.",
+    "Beyond high-level ideas, startup success increasingly relies on being a \"detail person\" who implements rigorous checklists and standard operating procedures to manage both human teams and agentic workflows."
+  ],
+  "summary": "This episode of *This Week in Startups* explores the rapidly evolving landscape of AI agents 70 days into the \"OpenClaude\" era. A major focal point is Anthropic’s recent decision to shift third-party tool access to a pay-as-you-go model, ending the era of subsidized subscriptions for high-power usage. The hosts and guests discuss the staggering compute costs behind leading models, predicting a future where elite AI access could cost thousands of dollars monthly. Despite these rising costs, the panel emphasizes that high-performing models remain essential \"grinders,\" capable of delivering more value than human employees in specialized roles such as Chief of Staff or marketing manager.\n\nThe discussion features several innovative demos that highlight the shift from simple chatbots to autonomous \"agentic\" workflows. Yazin Al-Ibrahim showcases \"Sidecast,\" a multi-persona AI assistant that provides real-time fact-checking and archival research for live broadcasts. Ryan Carson introduces \"Claw Chief,\" an open-source protocol designed to turn Claude into a high-functioning executive assistant, while Alex Finn debuts \"Henry,\" an autonomous swarm of agents that identifies business opportunities on platforms like Reddit and launches ventures with minimal human intervention. These tools underscore a major theme: the transition of AI from a conversational tool to a proactive, \"always-on\" business partner.\n\nFinally, the transcript touches on the cultural and ethical shifts within the AI industry. The panel debates \"doomer\" versus \"boomer\" outlooks on employment, specifically addressing a trend of workers using AI to automate their own roles or even those of their colleagues. The episode concludes with a critique of the \"marketing ops\" currently dominating social media, where influencers are often paid to \"shill\" for new AI models without proper disclosure. Throughout the conversation, the recurring takeaway is that while the cost of AI is increasing, its ability to execute complex, detail-oriented tasks makes it an indispensable asset for lean, modern startups.",
+  "description": "Anthropic just pulled the plug on Claude subscriptions for OpenClaw and every third-party agentic tool. So Jason and Lon welcome back three of our top TWiST OpenClaw experts to break down what it means, how much it will cost now, and whether this is truly the end of the subsidized AI era.\nAnd they all brought demos! We’re checking out ClawChief from Ryan Carson, Alex Finn’s agent, Henry, and Yazin Alirhayim’s Sidecast protocol, inspired by a special request from JCal!\nHosts\nJason Calacanis: http://x.com/jason\nLon Harris: https://x.com/lons\nGuests\nRyan Carson: https://x.com/ryancarson\nClawchief: https://github.com/snarktank/clawchief\nAlex Finn: https://x.com/AlexFinn\nCreator Buddy: https://www.creatorbuddy.io/\nYazin Alirhayim: https://x.com/yazins\nOpenOats / Sidecast: https://github.com/yazinsai/OpenOats\n\nFurther Reading\nThe Checklist Manifesto by Atul Gawande: https://www.amazon.com/Checklist-Manifesto-How-Things-Right/dp/0312430000\nMarc Andreessen on AI job loss: https://x.com/pmarca/status/2040919227641856307\nOpenAI acquires TBPN: https://openai.com/index/openai-acquires-tbpn/\nNotable Quotes\n\"If it's actually doing valuable work for you — chief of staff, marketing manager — and you have to pay three grand a month, it's nothing. The value you're getting out of that compared to a human is astronomical.\" — Ryan Carson\n\"The people who are ripping Claude out of their OpenClaw now are making a tremendous mistake. Opus 4.6 is clearly the best model for OpenClaw. Anyone who's used ChatGPT or Kimi knows it is a downgrade.\" — Alex Finn\n\"The entire industry and all the most powerful experiences in it are massive losses. It makes the losses of the Uber and Lyft competition when they were subsidizing rides look silly.\" — Jason Calacanis\nThis Week In Startups is made possible by:\n\nGusto - https://Gusto.com/twist \n\nVanta - https://vanta.com/twist \n\nShopify - https://shopify.com/twist \n\nPlaud - https://Plaud.ai/twist\n\nToday’s show:\n\nTimestamps:\n\n\n0:00 Welcome back to TWiST\n0:32 Jason thinks Andor is as good as The Empire Strikes Back…\n1:45 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n2:07 Check out the checklist manifesto! https://www.amazon.com/Checklist-Manifesto-How-Things-Right/dp/0312430000\n5:17 Our guests Ryan Carson, Alex Finn, and Yazin Alirhayim join the show\n9:44 Gusto - Check out the online payroll and benefits experts with software built specifically for small businesses and startups. Try Gusto today and get three months FREE at https://Gusto.com/twist.\n9:27 People are automating their coworkers and getting them fired…\n15:25 The AI boomerists vs the doomerists\n17:13 Anthropic Bans OpenClaw\n19:21 Vanta - Get $1000 off your SOC 2 at https://www.vanta.com/twist\n22:47 How \"caveman talk\" makes AI work better\n26:12 Alex thinks $2000/ month subscription plans are inevitable for AI.\n28:12 Why is nobody using the leaked Anthropic Model?\n29:46 Shopify: Turn those What-Ifs into sales with the ecommerce platform powering millions of businesses. Sign up for your $1-per-month trial today at https://shopify.com/twist\n31:18 Open models have been 6 months behind for the past few years\n34:34 Why did OpenAI acquire TBPN?\n40:42 Tactical/ Practical: The product itself is the most important thing\n43:12 Demo or Die! Yazin is back to show off OpenOats\n53:46 Ryan's \"Claw Chief\" https://github.com/snarktank/clawchief/blob/main/skills/executive-assistant/SKILL.md?plain=1\n1:00:55 Alex's big announcement, \"Henry intelligent machines.\"\n1:11:14 Alex Finn DESTROYS Higgsfield's marketing strategy\n1:14:16 Throwback to \"Pay Per Post.\"\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+  "duration": 4705,
+  "people": [
+    "Jason Calacanis",
+    "Alex Wilhelm",
+    "So Jason",
+    "Ryan Carson",
+    "Alex Finn",
+    "Yazin Alirhayim",
+    "Hosts\nJason",
+    "Lon Harris",
+    "Guests\nRyan",
+    "Creator Buddy",
+    "Further Reading",
+    "The Checklist",
+    "Atul Gawande",
+    "Marc Andreessen",
+    "Notable Quotes",
+    "This Week",
+    "In Startups",
+    "The Empire",
+    "Strikes Back",
+    "Try Gusto",
+    "Anthropic Bans",
+    "Anthropic Model",
+    "Claw Chief",
+    "Pay Per",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason",
+    "Will Guidara",
+    "Steve Huffman",
+    "Brian Chesky",
+    "Bob Moesta",
+    "Aaron Levie",
+    "Sophia Amoruso",
+    "Reid Hoffman",
+    "Frank Slootman"
+  ],
+  "topics": [
+    "Anthropic's subscription changes and the end of subsidized AI access for third-party tools",
+    "Demos of agentic AI workflows for executive assistance, business automation, and podcast production",
+    "The economics of LLMs and the inevitability of high-priced AI subscription tiers",
+    "OpenAI's acquisition of the Podcast Bros Network (TBPN) and the importance of marketing 'vibes'",
+    "The impact of AI automation on employment, including the trend of automating coworkers"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/g5LxEPGLDsc/maxresdefault.jpg",
+  "date": "20260407",
+  "youtube_url": "https://www.youtube.com/watch?v=g5LxEPGLDsc",
+  "youtube_metadata": {
+    "title": "3 AI Agents That Actually Replaced Human Jobs | E2272",
+    "description": "Anthropic just pulled the plug on Claude subscriptions for OpenClaw and every third-party agentic tool. So Jason and Lon welcome back three of our top TWiST OpenClaw experts to break down what it means, how much it will cost now, and whether this is truly the end of the subsidized AI era.\nAnd they all brought demos! We’re checking out ClawChief from Ryan Carson, Alex Finn’s agent, Henry, and Yazin Alirhayim’s Sidecast protocol, inspired by a special request from JCal!\nHosts\nJason Calacanis: http://x.com/jason\nLon Harris: https://x.com/lons\nGuests\nRyan Carson: https://x.com/ryancarson\nClawchief: https://github.com/snarktank/clawchief\nAlex Finn: https://x.com/AlexFinn\nCreator Buddy: https://www.creatorbuddy.io/\nYazin Alirhayim: https://x.com/yazins\nOpenOats / Sidecast: https://github.com/yazinsai/OpenOats\n\nFurther Reading\nThe Checklist Manifesto by Atul Gawande: https://www.amazon.com/Checklist-Manifesto-How-Things-Right/dp/0312430000\nMarc Andreessen on AI job loss: https://x.com/pmarca/status/2040919227641856307\nOpenAI acquires TBPN: https://openai.com/index/openai-acquires-tbpn/\nNotable Quotes\n\"If it's actually doing valuable work for you — chief of staff, marketing manager — and you have to pay three grand a month, it's nothing. The value you're getting out of that compared to a human is astronomical.\" — Ryan Carson\n\"The people who are ripping Claude out of their OpenClaw now are making a tremendous mistake. Opus 4.6 is clearly the best model for OpenClaw. Anyone who's used ChatGPT or Kimi knows it is a downgrade.\" — Alex Finn\n\"The entire industry and all the most powerful experiences in it are massive losses. It makes the losses of the Uber and Lyft competition when they were subsidizing rides look silly.\" — Jason Calacanis\nThis Week In Startups is made possible by:\n\nGusto - https://Gusto.com/twist \n\nVanta - https://vanta.com/twist \n\nShopify - https://shopify.com/twist \n\nPlaud - https://Plaud.ai/twist\n\nToday’s show:\n\nTimestamps:\n\n\n0:00 Welcome back to TWiST\n0:32 Jason thinks Andor is as good as The Empire Strikes Back…\n1:45 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n2:07 Check out the checklist manifesto! https://www.amazon.com/Checklist-Manifesto-How-Things-Right/dp/0312430000\n5:17 Our guests Ryan Carson, Alex Finn, and Yazin Alirhayim join the show\n9:44 Gusto - Check out the online payroll and benefits experts with software built specifically for small businesses and startups. Try Gusto today and get three months FREE at https://Gusto.com/twist.\n9:27 People are automating their coworkers and getting them fired…\n15:25 The AI boomerists vs the doomerists\n17:13 Anthropic Bans OpenClaw\n19:21 Vanta - Get $1000 off your SOC 2 at https://www.vanta.com/twist\n22:47 How \"caveman talk\" makes AI work better\n26:12 Alex thinks $2000/ month subscription plans are inevitable for AI.\n28:12 Why is nobody using the leaked Anthropic Model?\n29:46 Shopify: Turn those What-Ifs into sales with the ecommerce platform powering millions of businesses. Sign up for your $1-per-month trial today at https://shopify.com/twist\n31:18 Open models have been 6 months behind for the past few years\n34:34 Why did OpenAI acquire TBPN?\n40:42 Tactical/ Practical: The product itself is the most important thing\n43:12 Demo or Die! Yazin is back to show off OpenOats\n53:46 Ryan's \"Claw Chief\" https://github.com/snarktank/clawchief/blob/main/skills/executive-assistant/SKILL.md?plain=1\n1:00:55 Alex's big announcement, \"Henry intelligent machines.\"\n1:11:14 Alex Finn DESTROYS Higgsfield's marketing strategy\n1:14:16 Throwback to \"Pay Per Post.\"\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+    "duration": 4705,
+    "view_count": 10867,
+    "like_count": 214,
+    "channel": "This Week in Startups",
+    "upload_date": "20260407",
+    "thumbnail": "https://i.ytimg.com/vi/g5LxEPGLDsc/maxresdefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

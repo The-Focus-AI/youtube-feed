@@ -1,0 +1,2239 @@
+{
+  "title": "The AI Consulting Paradox | The Aboard Podcast 2026-04-14",
+  "source_url": "https://www.youtube.com/watch?v=RohbF2_GZE0",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Hi, I'm Paul Ford.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:02",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And I'm Rich Ziade.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "This is the Aboard Podcast, the podcast about how AI is changing the world of software development. Richard, how are you?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:08",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm doing well, how are you?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:09",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I'm good. Let's talk about the subject of this podcast in just a second and I want to tell you about some nice college students I met.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:00:17",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:18",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "All right. Let's play the theme song.",
+      "tone": "upbeat"
+    },
+    {
+      "timestamp": "00:00:36",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "How you doing?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:37",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm doing good.",
+      "tone": "cheerful"
+    },
+    {
+      "timestamp": "00:00:38",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "How's family?",
+      "tone": "warm"
+    },
+    {
+      "timestamp": "00:00:39",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Everyone's great. For the play, Matilda is being sung in my house constantly.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:00:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's a lot. The singing girl is a lot.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:00:48",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "But performances are today and tomorrow and then it's over.",
+      "tone": "relieved"
+    },
+    {
+      "timestamp": "00:00:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's never over. There's always another performance.",
+      "tone": "wry"
+    },
+    {
+      "timestamp": "00:00:55",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:56",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, but that's okay. My daughter went for ballet, which I gotta say though, it's New York, so you end up going to this like enormous auditorium where it's a really good Nutcracker. You're like, oh, okay, you end up really enjoying yourself.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:01:09",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, so that's not what this is about. We had some lovely college students come in. It was a class from The New School in the journalism program.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:19",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "The New School is a school here in New York City.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:01:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's right. It's sort of the alternative college. It's been around... Art and design is its focus.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:01:28",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, no. It's liberal arts, all sorts of stuff. It's big. You're thinking about Parsons, which it's partnered with.",
+      "tone": "corrective"
+    },
+    {
+      "timestamp": "00:01:34",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's right. But no, no, it's a big college but it's kind of an old, you know... Anyway, I mean, it's just a classic New York institution at this point.",
+      "tone": "conceding"
+    },
+    {
+      "timestamp": "00:01:42",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:43",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And so about 14 students came by and they're... they want to learn about AI. They're learning about technology and how it interacts with journalism. And I didn't know what we were going to get, right? Like because this could be like, 'I hate you guys for existing.' It could be like, 'Help me save my journalism career,' 'Hire me,' 'Hire me,' all of that, right? And what I found, and I just want to share it with the audience... Age range?",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:02:07",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh, like 19 to 21.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:09",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay. And they look like babies to me now.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:02:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Well, you're an old man.",
+      "tone": "teasing"
+    },
+    {
+      "timestamp": "00:02:13",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I have... I have 14-year-olds at home, so I'm just like, oh, you're... you're my children plus four.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:02:17",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You're old.",
+      "tone": "teasing"
+    },
+    {
+      "timestamp": "00:02:18",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Middle-aged.",
+      "tone": "mock defensive"
+    },
+    {
+      "timestamp": "00:02:20",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "We move fast in the world of software. But we're old also in the world of software. So anyway, we asked them, you were in the room for a minute, and they were very... this is funny because we're kind of gray and they're very colorful. Like they all have like dyed hair and one guy was wearing a red coat. I was just like, this is nice.",
+      "tone": "reminiscent"
+    },
+    {
+      "timestamp": "00:02:40",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, a red trench coat is utterly fine.",
+      "tone": "approving"
+    },
+    {
+      "timestamp": "00:02:42",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It was like going to a... like an aviary. You're like, 'Wow, these... everything was like just very shiny.'",
+      "tone": "whimsical"
+    },
+    {
+      "timestamp": "00:02:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:47",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And they're super smart and super nice and the... but what was really... and they had tons of questions, but what was really interesting was when you asked them about AI. One person was like, 'Hey, look, I use it at... I have a job, I use it at my job.' We didn't go into that, but she was like, 'Yeah, but you know, I don't want to use it too much when I'm in school because like, I'm supposed to be learning how to think and do things with my brain.'",
+      "tone": "fascinated"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I think the hesitation, I was there for that question around, I won't grow. I won't grow my skills and my capabilities and my mind won't expand if I just rely on this thing. And it was, frankly for young people to be consciously aware of that. Again, this is a extremely small sample size.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:03:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's a small sampling.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "But it was a very... it was a diverse group of human beings.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Diverse group of human beings. You know, but the sentiment of like, 'Hey, I still want to be a fully formed person with like interesting capabilities.' And I think that awareness, that self... You know what I realize? So I thought about this a little bit after, which is that it's always been there for them through their undergrad experience. Right? So we're thinking of this as a new thing in the world, and they're just like, 'Yeah, this is part of college. People just use AI to write their papers.'",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:03:51",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, yeah, it is. It's normal and I think they're trying to—and the schools are paralyzed. It's worth noting, like school policy and what your professor tells you, it's kind of meaningless because they know that tool's in your pocket, they know it's on your laptop. That ship has sailed. So policy around how you should or shouldn't use it is kind of out the window. I think what's interesting is sort of the self-regulating aspect of it. And I hope that is something that's more broadly viewed, which is like, how do you become awesome at anything and make people's eyebrows raised if you're all dipping into the same well of knowledge, right?",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:04:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "This is the thing. It was a very... like this is very anecdotal, but at the same time if you look at how people talk about AI in the world, it is either like, 'This is the most evil thing and it has paralyzed our children. They cannot think. They will never be able to think again.'",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:05:08",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's all... it's a lot of dramatic headlines, right?",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:05:12",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Or it's... it's the absolute future of everything. And instead, what I saw were a lot of like kind of city kids, maybe not from the city but they're now of the city, and they're just like, 'Man, I don't know. It is what it is.' Like one student used it a lot for vibe coding. They were doing that, right? And they were like, 'You know, everybody talks about the environmental costs, but they're not as bad as like taking a 40-minute shower.'",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:05:43",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Who takes a 40-minute shower? Oh my god. Do people do that?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:05:47",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Teen girls, dude. It is a challenge in the household.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:05:51",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm out in like five.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:05:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, I know, I know. You usually get it down to like one.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:05:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Five.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:55",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay. No, I know.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:56",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:57",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So anyway, the grappling with the sort of ethical use of it. But I think they're also... I like the self-interest here. Like they're like, 'Wait a minute, if I just do this then I'm not interesting at all. Like I won't have anything interesting to say. I won't be reading interesting things.'",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "jobs? Yeah. And then on the other end, the like recruiter at the company is using AI to filter through the firehose of stuff that came in. That's gonna die fast. Like, let's get that out of the way. Like, how do you stand out? How do you connect? And—and so, I'm glad they're wary of it. I'm glad they're like, 'Okay, wait, I gotta—I gotta stand out here.'",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:06:13",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You're not going to compete. You're not going to compete unless—let's just be pure, just in a competitive sphere, how do I stand out, right?",
+      "tone": "pragmatic"
+    },
+    {
+      "timestamp": "00:06:20",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I don't know, I just saw a room of people who were, like, well-put together. Like every—a lot of people were, like, wearing makeup, their clothes were nicely chosen, their hair was groomed, and they were just like, 'this may or may not be for me.' And I was like, 'Okay, you seem to be, like—there's obviously a way to be healthy with this.' And you know what it made me think? And then I want to talk a little more broadly about the industry. It made me think that a lot of our narratives, a lot of how we talk about AI, is inherited from the debacle of social media.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:06:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I want to be smart. I want to be special. We talked in the past about how people are using it like to sort of firehose applications for jobs...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:06:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Hmm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:47",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And that essentially, 'cause I think that's really happened, especially with the kind of the haters. The haters are like, 'Look what Facebook did.' And it doesn't help that the social media companies are all over it. Yeah. But like look what Facebook did to our society, right? Look what Twitter has done. And now we have more of this, but it's worse. It's pretending to be a human being. And I didn't get that sense from them. The sense I got from them was like, this is kind of a utility over in the corner. I use it or I don't, and—but it's—they don't feel that they're cut off from the world by not using it, whereas social media, that's a lot harder.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:07:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, I think the gravitational pull of social media is—is much harder. I mean, we saw it over the last 10, 15 years. It's because the endpoints are other people that you want to connect with and—and see and you want them to see you. And that's harder and frankly probably more damaging. Like, I feel like AI gets boring.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:07:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:45",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I think that's the thing and the young people like to be—they like to be tickled. Like punk rock landed for a reason, right? And—and it's so boring. It's so boring. Like, it's great to find out something about a piece of history, but boy is it boring.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:07:56",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's true. It's rarely—it's—it can be quirky or surprising, but it's not weird. You know what's weird? Wikipedia is weird.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:08:03",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Wikipedia is weird because it's an artifact of humans negotiating. You'll read that—you'll read this one paragraph and you'll be like, 'Oh, what happened here?' Like, you know, you go into the talk page and you're like, 'Oh, no.'",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:08:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, yeah. Like, I think that is the thing. You don't have the artifacts of—of sort of human contention when you get that LLM output. It's just—it's just kind of digested.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:08:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And—and we're not—we're not taking the grumpy old men position here. Like, AI is going to definitely change the world. That's going to happen.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:08:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well, neither were they, right? They're just like—they know it's going to be in their lives forever. It's utility. And they know that they'll probably have to use it at work, but they're like, 'I will be a more interesting person if I go ahead and read a book.'",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:08:40",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, yeah, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:41",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So—and so God bless. I thought that was just—positive to see.",
+      "tone": "hopeful"
+    },
+    {
+      "timestamp": "00:08:44",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It was positive to see. I—for me too.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:08:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I just wanted to share. Now I want to share with you an article.",
+      "tone": "informational"
+    },
+    {
+      "timestamp": "00:08:49",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Uh-oh. More positivity, Paul?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:08:51",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well, just a little—just a—an alternative viewpoint. So we talk again, software's changing in this world—new world. It's from The Guardian, which I subscribe—I have the app.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "PWC, what is PWC?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:02",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "PricewaterhouseCoopers is a one of the big giant consultancies.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:09",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Hundreds of thousands of employees.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:10",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Hundreds of thousands of employees. Its roots are in like auditing and accounting.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Let's give people an explainer here. And we're going to talk so their CEO is coming down hard like we all got to use AI. So but let's what auditing and accounting—you go public, you're a giant company, right?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:09:24",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You need independent auditing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:26",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Why do you need that?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:27",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Because there is an assumption, especially if you have regulatory requirements on reporting, there is an assumptions that humans fudge things.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:39",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:39",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And so you need an independent audit. By the way, it's not just for reporting your numbers to governments, it's also when somebody's acquiring you and you need an independent audit of your books. Are you filing for bankruptcy and you need an independent audit of your assets, or whatever it may be. It's a million reasons to do it.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:09:58",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And the way that you regulate and manage a company increasingly is not just by looking at a bunch of pieces of paper, but software.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:10:07",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah. So PWC ends up being one of the biggest implementers of giant software platforms.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:13",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes, yes, yes. They—sorry, I blanked out.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:10:16",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, no, no. I mean, I threw that at you.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:10:17",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, no. Look, I see it a little differently, which is these organizations branch out because they're already the lines to the decision makers are already in place.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:10:25",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:25",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And then you say, well, I guess we've now got an IT offering. And it's like, oh cool, I'll introduce you to whomever, right? And you see this, it's common amongst big consulting is that they branch out because they're already in the room.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:10:36",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I mean, so PWC—you're going to go public, you might talk to PWC. You're going to talk to Deloitte, you might talk to a few firms, yeah.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:10:43",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You're going to implement SAP's new version for logistics across your 300,000 employees—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:47",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You also might talk to PWC.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:48",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Exactly. So this is a very, very big company that touches—it kind of touches every company like the really largest companies at a very, very low level. It's very global and so accounting, finance, and then also sort of all the deep ugly software where you see it and you're like—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:11:04",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "A lot of maintaining of old software.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:06",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That's right. It's one of their things.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So they're very big. They, you know, we've talked to them, they're very nice. And so the CEO in the US, whose name is Paul Griggs, said the following.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Mhm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Senior staff who are not paranoid about being AI first—which amusing, I don't know how you're going to measure that paranoia—would probably be replaced by others who were ready to embrace the technology. I don't think anyone gets a free pass here, anyone, Griggs told the Financial Times. And an employee who thinks they have the opportunity to opt out of AI is not going to be here that long, Griggs added.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:11:50",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So, and I'll give you just a few more facts and I think I want to—I think we should talk about if you're that employee what you should do. Okay?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So Griggs said that PWC's employment strategy had changed as AI altered—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "working practices, but that the firm remained a net acquirer. So they're still growing. Like consulting grew 5.5% last year.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:06",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:07",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Because of all this AI transformation.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:12:09",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Sure. Ironically, it's supposed to be killing them.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:12:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. And so early evidence that maybe the balance isn't towards total labor destruction. We'll see.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:12:17",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And they're hiring more data specialists, they have 365,000 employees. They're going to change some tax and consulting services into AI-powered automated tools.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:26",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:27",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And the tax and consulting tools are going to be accessed—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "without a PwC person in the loop. And the last bit is they're going to launch an AI platform that offers automated services for clients called PwC One.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:41",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Now let's be clear. This is all exhausting. Like it is just, just hearing about it I start to die inside. Except the part that's not exhausting is that they manage and have input into trillions and trillions of dollars in the world economy.",
+      "tone": "tired"
+    },
+    {
+      "timestamp": "00:12:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Like boats moving across the ocean kind of stuff. So what you're hearing here is like look, we don't have a real regulatory framework around AI, we don't have a real national or global strategy. We've dropped these technologies in the world and I think like the college students are figuring it out in their way,",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:13",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "but I think that this is a person this at some level PwC issuing this, they're kind of the last to move, right? Like they're not going to do they'll have a lot of big initiatives and stuff but they're not going to move fast ever because they can't. If they do, that's too much risk into the system.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:13:25",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:13:26",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So what do you think is going on here? Let's say you what if you were working at PwC? What should you do?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:31",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I want to make a distinction between someone that is responsible for outputting work or responsible for other people to output work. Okay? If you're responsible for outputting work,",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:13:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "an individual contributor.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:13:48",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Thank you. Yeah.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:13:49",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You shouldn't wait for the CEO to tell you to use these tools. You should use these tools. You'll be more productive, you'll undo ugly knots probably more quickly. And that time that's you've reclaimed doesn't mean you get to take a walk in the park. It means you get to somehow showcase other value to the organization because you're a smarty who likes new tools. Essentially—",
+      "tone": "advice"
+    },
+    {
+      "timestamp": "00:14:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You know what? Let 'em take a freaking walk in the park. We always we always do this. You can take a walk in the park.",
+      "tone": "defiant"
+    },
+    {
+      "timestamp": "00:14:20",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh, here we go.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:14:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, I mean you if look, the people who work here take walks in the park. And they work they work hard.",
+      "tone": "earnest"
+    },
+    {
+      "timestamp": "00:14:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "True. You can take a walk in the park, Paul. Fine. Just—",
+      "tone": "conceding"
+    },
+    {
+      "timestamp": "00:14:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, you know we come down as like these like, ah, you know you gotta just keep working.",
+      "tone": "mocking"
+    },
+    {
+      "timestamp": "00:14:34",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Get back to work.",
+      "tone": "mocking"
+    },
+    {
+      "timestamp": "00:14:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, and we're not that as leaders.",
+      "tone": "sincere"
+    },
+    {
+      "timestamp": "00:14:37",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Well, yeah, okay, fine. Yeah, okay.",
+      "tone": "conceding"
+    },
+    {
+      "timestamp": "00:14:40",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That person, I mean it's coded in his in the CEO's message, which kind of a salad of of recommendations there.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:14:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And God forbid anyone ever say anything like, 'Hey, here's the three things I really need you to do to succeed.' It's let's actually talk about that for a sec because the CEO can kind of do two things. They can either say three inspiring words that will become the watchwords for the next five years until they get fired two years from now, or they can threaten you. And this—",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "is a threatening CEO.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:15:02",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, I think he's, I think he's also signaling to the world that PWC is now AI first, modern. Yeah, there's a bit of that.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:10",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "We're on it, we're on it. Yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:15:12",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So he's essentially saying, if you're an IC, if you're an individual contributor, use the tools. We expect you to.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:15:17",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Well, I think he's also reacting to the fact that Accenture is getting 30,000 people certified on Claude code, right?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:25",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, yeah, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Right? So all the people in the neighborhood are leaning in in their own way.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:15:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You gotta use these tools. You gotta use these tools.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:15:32",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And you have to show, if you're the giant company, that you're on it.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:15:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes, yes. Here's the other persona, much trickier, much, much trickier.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:15:43",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "The manager.",
+      "tone": "defining"
+    },
+    {
+      "timestamp": "00:15:45",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "The manager, and let's be real—the IC, like you should have a Claude subscription or you know, whatever they let you use at PricewaterhouseCoopers, which is probably called like Price AI Cooper.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:15:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "We said PWC one.",
+      "tone": "deadpan"
+    },
+    {
+      "timestamp": "00:15:57",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, that's bad. God, what a terrible name.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:16:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's accountants.",
+      "tone": "dismissive"
+    },
+    {
+      "timestamp": "00:16:02",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, they don't know what to do. They don't know what to do. Yeah, what's the next version gonna be called? Two?",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:16:08",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. They could've gone for Alpha, too. They could've done at least something.",
+      "tone": "suggesting"
+    },
+    {
+      "timestamp": "00:16:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah. Anyway, they're accountants. We've talked about this in the past. The managers and the managers' managers and the ones that have like literally human infrastructure in these organizations—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:16:28",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Which they're referring to partners a lot here too. Like partners have to get on board. So those are managers.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:16:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "What does that even mean? What does a partner mean? It means somebody who brings revenue into the organization.",
+      "tone": "defining"
+    },
+    {
+      "timestamp": "00:16:39",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It does. Often does.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:16:41",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Actually, for people who don't know, like that's when you hear like somebody be like, 'They're a McKinsey partner,' that means they bring $10 million a year in services. And if they don't bring $10 million a year in, they're probably not a partner.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:52",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes. So let's say the quiet part out loud. Is that the saying? Yeah. Say the quiet part out loud. There are partners who will bring millions of dollars in and if they impose AI too quickly to their relationships, it calls into question the revenue they bring in. That is a fact. That is an absolute fact.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:17:12",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "This is a funny puzzle. Let's explore this. This is okay cause let me think, let me give it back, which is—AI is a really great cost-savings mechanism, right?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:17:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It is a great 'what you thought was relevant is now irrelevant' mechanism.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:17:27",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So you have $10, $15 million in billings from these like I don't know paper companies...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:17:34",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "A PDF vetting and generation off of spreadsheets.",
+      "tone": "illustrative"
+    },
+    {
+      "timestamp": "00:17:39",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh yeah, and a big ERP integration. Like don't even worry if you don't know what this means. There are 70 people offshore who do that.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:17:47",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. Oh, and we're translating a legacy codebase to a new codebase, all these things.",
+      "tone": "illustrative"
+    },
+    {
+      "timestamp": "00:17:51",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "If you let you and me in, we'll tell you that can all get done in three weeks. We're dangerous that way.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:17:57",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "We are. We don't have—and I'm not saying we're amazing—",
+      "tone": "modest"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "What I'm saying is we don't have that to lose.",
+      "tone": "insistent"
+    },
+    {
+      "timestamp": "00:18:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, and what... we don't have the legacy revenue to lose.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:18:07",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So, I'm bringing in $15 million a year by billing up PWC people and charging licensing, all this stuff, right?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:18:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And now the boss just said, okay, drive this value out to your customers. Let's do it. Let's be there.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:18:20",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But if I do that, I can't justify more than $5 million a year.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:18:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "For everything I do.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:27",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh, oh, yes, yes, yes. You go from 15 to 5.",
+      "tone": "realization"
+    },
+    {
+      "timestamp": "00:18:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "What the hell do I do now?",
+      "tone": "rhetorical"
+    },
+    {
+      "timestamp": "00:18:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "This is... this is...",
+      "tone": "pensive"
+    },
+    {
+      "timestamp": "00:18:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So my... this is... I'm going to drag my feet first of all. Every human being and we're seeing this everywhere.",
+      "tone": "decisive"
+    },
+    {
+      "timestamp": "00:18:39",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I would...",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:18:40",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "They're going to drag their feet.",
+      "tone": "predictive"
+    },
+    {
+      "timestamp": "00:18:42",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm a filthy human being, I would drag my feet.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:18:44",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm... I've got a timeshare in Aruba that I'm... got my eye on. I haven't bought it yet.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:18:48",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No. And I'm waiting my... for my bonus and it's in September.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:18:51",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That's right. I'm going to drag my damn feet. And yes, I've got 50 people who do this amazing thing where it checks the fields in the PDF and then it combines a dozen of them into one mega PDF and it puts it in a folder and they're really good at it.",
+      "tone": "animated"
+    },
+    {
+      "timestamp": "00:19:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But wait Rich, the CEO said we have to be really smart about AI.",
+      "tone": "challenging"
+    },
+    {
+      "timestamp": "00:19:03",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Fine. I'll take it on as: Guess what? You want to pick a color theme for your PDF or whatever?",
+      "tone": "dismissive"
+    },
+    {
+      "timestamp": "00:19:10",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "How would you know, no, but I think everybody kind of knows this pattern. Like the CEO says it and the people are like 'Absolutely boss!' and then they do a little dance, they sell some AI work on top of stuff and they definitely try to keep the number from going down, right?",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:19:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "How would you know if a CEO was actually serious about wanting to do this kind of transformation?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:19:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "He's not.",
+      "tone": "blunt"
+    },
+    {
+      "timestamp": "00:19:27",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But how... what would... what would be the signal?",
+      "tone": "probing"
+    },
+    {
+      "timestamp": "00:19:29",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Because his... the signal here in everything you said about what he said is not about transformational change, right? Like I don't know what the chart look like, I wrote about this two weeks ago, three weeks ago. I don't know what the revenue chart look like when Netflix transitioned from mail-in DVDs to streaming.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:19:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm going to guess it's like a you know, a post-operative trauma, right? Like I got to imagine...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:19:49",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I... do you remember... do you remember the early streaming? It wasn't that good.",
+      "tone": "reminiscent"
+    },
+    {
+      "timestamp": "00:19:53",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It wasn't that good. So they probably... they probably I guess had an overlapping strategy where they kept going with the DVD ads and kept mailing them. They obliterated Blockbuster.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:20:04",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "They did.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:20:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "There was like one last day of DVD. So just for everyone listening, Netflix started as a mail-in DVD business, destroyed the video stores around the country and then Reed Hastings, the CEO said...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:20:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Streaming will come. It wasn't there. It was not there yet. And he's like 'It's going to come and that's where we're going to be and we're going to start on that now.'",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:20:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And it was so dramatic such that the revenue business around the DVD mailing was not dead yet. He was essentially saying 'I want off.' Like I want off of it and we're going to figure that out. And I don't know what it charted like, I wonder if there was like a... like if you charted the stock during that time if there was a rough patch as they transitioned...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And it sure as hell wasn't good for the people who made the plastic envelopes.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:04",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It wasn't good for a lot of people, right? Like there were warehouses where the DVDs were, all of that.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:21:07",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:21:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So is this CEO essentially saying, go and blow up your contracts, because we have these incredible tools?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:21:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Of course not. From what I know of very large consulting firms that work on governance and contracts...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:21:18",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's not what they're saying.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:21:20",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. What they're going to try to do is sell these new capabilities, right, on top of what they currently do.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:21:28",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "acknowledging"
+    },
+    {
+      "timestamp": "00:21:29",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And look, the day is coming where smaller upstarts are going to say, why are you even doing all that?",
+      "tone": "predictive"
+    },
+    {
+      "timestamp": "00:21:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:21:34",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Where frankly, one of the Big Four, the big four consulting firms from across the street will be like, we'll bring your costs down 30% I guess what we do and we'll do it with AI.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:21:43",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's real tricky though because if they say that to a person who's giving millions of dollars to PwC every year, but they don't say that to the person who's next door who's giving them millions of dollars a year, right? Like it's going to get... you either got to go one way or the other here.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "This is the rub, yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:21:55",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And so we're in the beginning of a transformational phase. I think firms like ours, who don't have that difficult decision, because I'm not saying I wouldn't be any just as cowardly as the partner at PwC if I had that revenue to lose, I'm not that high-minded.",
+      "tone": "honest"
+    },
+    {
+      "timestamp": "00:22:13",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, I mean PwC is in the article, but it's every one of these companies.",
+      "tone": "expanding"
+    },
+    {
+      "timestamp": "00:22:17",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Every one of these companies. We're young. We are insanely fast at shipping quality software because we don't have a status quo.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:22:25",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well frankly, that's our only bet.",
+      "tone": "realistic"
+    },
+    {
+      "timestamp": "00:22:27",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Well, it's not just that. We are unencumbered by a past. That is a huge, huge advantage.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:22:32",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "The funny thing is that we're not. We continually go back and get really confused at how cheap and fast everything is now.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:22:38",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "We're still transitioning.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:22:40",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's still really hard for us to acknowledge the amount of change that's happened in our industry, even though we don't have the... the only clients we serve now are people who were sort of doing the accelerated stuff for them. But like every time we sit down and try to figure out our pricing and so on, we keep going back ten years.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:22:53",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's hard. This is a hell of a transition.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:22:56",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So let's go back to that manager who's got... let's say they're a senior partner and they actually have a dozen partners under them and then hundreds of people below them.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:23:03",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That's right.",
+      "tone": "acknowledging"
+    },
+    {
+      "timestamp": "00:23:04",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And there's this monthly partner dinner that they do. And they all smoke cigars and they talk about how well everyone's doing and whatnot. And then there's this thing that is really of two minds.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:23:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "One is, it is absolutely an existential threat on the status quo. And the status quo is their revenue. It is the bonuses that they get. It is real, like we should just call it out. Through another lens, it is maybe a new revenue driver, maybe. Like, I mean, I'll just say one word: Agentforce.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:23:37",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Sure.",
+      "tone": "acknowledging"
+    },
+    {
+      "timestamp": "00:23:38",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Everybody's like, Salesforce is dead, and then they just doubled down, Benioff...",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You know what he said? He said I may rename Salesforce to Agentforce.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:03",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh dear god.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:24:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh, I mean what a brilliant thing to say.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:24:08",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Then it becomes Agent Dream at the big conference?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:24:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Dream Agent Force.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:12",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Dream Agent Force. Yeah, that's god.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:24:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But you see what he's trying to say is, do not tell me it's an either or. I am this. I am the future, right? And I'm also 40% more expensive. But don't worry about that, right?",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:24:25",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:26",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's literally what he said. He's like, you know what? Rather than running from the tornado, I'm a tornado chaser. I'm going to go into it and I'm going to be one is what he's saying.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:24:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And he's very savvy in how he signals and messages.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:40",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "He's probably the best salesperson alive.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:42",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Incredible. I mean he literally named his company after sales.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:45",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No. Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:47",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "These guys, and I'm not dispelling, but a manager who frankly has done incredibly well to cultivate the culture and the status quo that is in front of him or her has to now look at this thing as potentially disruptive or potentially advantageous, and you got this CEO yammering on about like you better get on it.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:25:01",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Well, and you're going to, we're going to have people solve tax problems using this tool without you in the mix.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:25:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, that's right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:06",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "So we are going to start cannibalizing a little bit here and there.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:25:07",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Now when will the clients say, and this is because of first hand experience, here's the good news for the likes of PwC.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "The clients very much still want people right now connecting them to these capabilities. They do not want you, it is not great when you're like check it out, did this last night, what do you think? It's not great.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:25:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Money is running through their systems, they worry about a lot of different things, they worry about being too hasty or quick about stuff. And so people will still matter. I just don't know if it's the same people who are combining PDFs. That's the shift.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:25:35",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:36",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That shift will take a long time. There's still money to be made, there's still houses to buy in the Caribbean. And so I think there is a weird disincentive to move too fast and yet the CEO is going to write a thing.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:25:47",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "So I think that's where, I think we're seeing that with all the big consulting firms. We're starting to watch them more closely. Let's take, we got three minutes, okay.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:53",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Let's design a consulting firm. That's not us. More like we are about building you a product.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:59",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, no, we will live with you and help you transition to AI as well.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:26:04",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "We're strategic about it.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:26:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That is not that. What I'm saying is like, but you're not going to call us to audit your books.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:26:09",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, no, no. We are software people. Design that firm. Design the big consulting firm for this new era. What's it look like?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:26:12",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's strategic heavy.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay, what does that mean?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:26:17",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Before you type into the box and start using all these cool tools and Claude Code and Claude Co-work and all this fun stuff, organizations are deeply complex systems that are part people, part computers, almost every organization.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "organization, understanding that, spending time with that and then crafting a solution for that particular organization.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But Rich we already do this. Why would I want to hire Rich Desert House Poopers when I could hire PricewaterhouseCoopers who already send great strategists in?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:27:21",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, but Pricewaterhouse unlike by the way other firms that are more strategy focused, Pricewaterhouse, you know, they'll see the strategy, they'll get they'll sit there and spend three weeks and talk through what it should be, and then they bring 200 people.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:27:37",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:38",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Like that's what they sell. That's what they're about.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:27:39",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You're thinking like five.",
+      "tone": "suggestive"
+    },
+    {
+      "timestamp": "00:27:42",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm thinking five. No, I'm not thinking that. I'm not even thinking that. I'm thinking the strategy part of it is invaluable because AI can't do it. AI can't hang out and interview your users, understand your processes, study your it'll be useful to study your data, but that expertise of talking to the right people, what are your goals, what are your what's your five-year goal, like that is management consulting of the highest order, right? That interaction is going to get more expensive, I believe. Because the machines the execution side of that strategy is going to get really cheap, right? Because the machines are great at execution, right? But the time spent with those organizations is going to get more expensive. I think it's going to get more expensive by the way because the money's gone on the other end to some extent and the value is really at the top of the process which is the strategic dialogue.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:28:45",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I mean there's a real risk coming which is you can have all the software you ever wanted, sounds amazing, that can be a disaster.",
+      "tone": "cautionary"
+    },
+    {
+      "timestamp": "00:28:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Hmm, it's a risk.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:28:55",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes. I'll tell you how I see the future. I think that and there have been a lot of like you ever heard the term data lake?",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:29:05",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I have.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:29:06",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Right? The idea is that you're going to centralize everything. I do see and those are always huge, huge efforts. Those efforts get a lot easier with vibecoding because it's easier to migrate things into one consolidated system.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:29:21",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:29:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And I do see a future where you're going in and you're saying look, here's the future. The future is we're going to take all your stuff we're going to put it in one place and then we can very tactically spin up kind of any product you need. Do you need a product for your sales people? Do you need a product for marketing? Should the sales product and the marketing product talk to each other? Etc, etc. So that is going to get so much easier and cheaper, but getting to the decision point, getting the data unlocked and figuring out how it connects...",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:29:49",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Crafting the strategy.",
+      "tone": "complementary"
+    },
+    {
+      "timestamp": "00:29:51",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's right. Most people don't most people don't have the skills to craft that strategy. I don't mean that as a put down, it's a particular skill. A large organization instead of picking up a platform like SAP or Salesforce and saying this will be the only platform we use or we're going to just throw everything into a quote data lake and hope that whatever bobs to the surface is useful can really have a truly well-architected...",
+      "tone": "respectful"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "architected platform that describes their whole business?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:30:02",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes. And then they can have any product they want on top of it in relatively short order and those products are now disposable. You can kind of, you can iterate, so it's a very, very different culture of tracking, thinking, even the governance parts of it, even the more complicated parts are going to get a lot more systematized,",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:18",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "but there's no way to skip the cleanup and the organization and the strategy steps in front. So that transformation is on the table and it wasn't before.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:30:27",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, I think that look, AI is the ultimate transformation tool. I think there are weird disincentives between partners in these large firms, frankly amongst their clients because they're risk averse and their numbers look good anyway, it's like do I really want to deal with this? Yeah, I know, I'm on, I'm on COBOL but",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:30:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It works.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:30:47",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It works. My numbers look great.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:30:48",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It works.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:30:50",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "My numbers look great.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:30:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "How many, we've talked to tons of companies, and lots of times people come and they want transformational change and then when you actually dig in they're like, I'm okay really because we're-",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:30:57",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Well, it's not just saying I'm okay. It's like, okay, well I want you to talk to Stan.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:31:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:31:04",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And he's been doing this for 15 years and you show up and you are the Grim Reaper.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:31:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Everybody wants the new thing, but they don't, they never want to tell Stan no.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:31:12",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "They never want to tell Stan no. That's a normal thing.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:31:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay, so but you, let's close out, you define this, the new consulting, because we don't think that the back end is where because if you think about it like a company like McKinsey, purely strategic, relatively small, expanded hugely over the last 20 years to cover more and more build and more and more digital.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:31:34",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "They felt they had to.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:31:36",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "They felt they had to. They were in the room, they're trusted, the brand is strong. So this has been the move and people are basically, so like a consulting firm now competes with Accenture, which competes with consulting firms, which competes with, you know, PwC, which competes with on and on and on. But what you see is a pattern where the strategy up front in a real platform architecture and really thinking it through becomes where all of the work is going to be because so much of the work on the back end is going to be following a pattern, letting AI do it and just go.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:32:02",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I think we've learned as we've gone into organizations how strong the, the political will to resist any change is. It's just not a negative thing, it just is what it is. I think eventually everybody's going to have to loosen up because when the competitor across the street does it, you're going to have to do it, right? I mean that's just, you know, once you could get a car on your phone, it was a matter of time for the taxis and the car service companies to reckon with that, right? Like that's coming, it's just not going to be that fast just because humans are stubborn.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:32:37",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But it's coming, it's coming. I mean there are other mechanisms, you know, there are there are funds and there are investors, there's private equity that buy stuff that's running inefficiently by design, their whole goal is to make you more efficient.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:32:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh, they're excited about this stuff.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:32:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "They're excited about this stuff.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:32:47",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "They see this as a way to unlock a lot of problems.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:32:49",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes, and that is, your political resistance is not going to go very far there. Like they are the owner and they're going to make it happen one way or the other. That's a more sledgehammer approach for organizations.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Before we let go, I'll close it with this. There are partners at PWC who are close friends with their clients for 20 years.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:07",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:33:08",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That is real, like those relationships go deep. There is an alignment there that's very strong and I'm not saying that—",
+      "tone": "earnest"
+    },
+    {
+      "timestamp": "00:33:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And it's earned trust.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:33:17",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's not, yeah, it's not bad. It's not anything. It's really good.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:33:20",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "They've worked really hard to build these proactive relationships.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:33:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "The spouses come out for dinner together.",
+      "tone": "illustrative"
+    },
+    {
+      "timestamp": "00:33:25",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, that's right. That's right.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:33:27",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And that's a real thing and that's a meaningful thing for people. And so this is something that has shown up and it's a rainbow-colored tornado that is spinning at everything. And so some things will move more quickly than others, but it'll take time.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:33:41",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, everybody's still going out to that nice steakhouse. That's real.",
+      "tone": "grounded"
+    },
+    {
+      "timestamp": "00:33:44",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That's real.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:33:45",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yep.",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:33:46",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "All right, so what does Aboard do? We believe that AI is a transformational tool and we embrace that and we come in, we spend time with you and we craft a solution. We're really, really good at getting it to a credible place very quickly. So it looks like a demo within a week, but it's actually a lot more than that. We have an amazing process and pipeline for building reliable software with this stuff. And we also understand we got to spend time with you first. So give us a call. Hello at aboard.com.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:34:15",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "I mean the way to start that is that email that goes straight to you and me and to the team and we—",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:34:21",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "We're small and nimble. We'd love— we'd love to talk to you.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:34:24",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "All right, so hello at aboard.com, check out our website aboard.com. We would love a good rating for the podcast, good some thumbs up on YouTube.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:34:31",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I want to close it with this Paul, we made some friends at PWC, we love you guys, we think you're great.",
+      "tone": "affectionate"
+    },
+    {
+      "timestamp": "00:34:37",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh yeah, I didn't see this as critical, just like here's the PWC CEO saying it to half a million people. And that I think is an interesting moment to talk about. Yeah, they're great. Like I know there's tons of great people there.",
+      "tone": "balanced"
+    },
+    {
+      "timestamp": "00:34:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm going to write a rap song for PWC that I'll sing next week. Do you sing a rap song or do you rap it?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:34:53",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Just even asking that question is really bad.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:34:57",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "All right.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:34:58",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Have a lovely week.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:34:59",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Bye.",
+      "tone": "casual"
+    }
+  ],
+  "highlights": [
+    "Younger generations are viewing AI as a standard utility but are consciously self-regulating its use to ensure they continue to develop their own critical thinking skills and personal growth.",
+    "Leadership at major professional service firms is mandating an \"AI first\" mindset, warning that employees who do not embrace the technology risk being replaced by those who can leverage it.",
+    "Large consultancies face a structural conflict where AI-driven efficiency may cannibalize the billable hours and legacy revenue models that currently sustain their business.",
+    "As AI commoditizes technical execution, the industry's value is shifting toward high-level strategic architecture, human relationship management, and the ability to navigate complex organizational change."
+  ],
+  "summary": "This transcript from the *Aboard Podcast* explores the evolving relationship between humans and artificial intelligence, contrasting the attitudes of younger generations with the aggressive mandates of corporate leadership. Hosts Paul Ford and Rich Ziade first discuss a visit from journalism students who view AI as a utility rather than a lifestyle. These students express a self-regulating caution, using AI for productivity while intentionally avoiding it in academic settings to ensure they remain \"fully formed\" and intellectually interesting. The hosts suggest that for this demographic, AI is seen as a tool in the corner rather than an all-consuming social force, reflecting a desire to maintain human distinction in an automated world.\n\nThe discussion then shifts to the corporate sphere, specifically focusing on PwC CEO Paul Griggs’ recent ultimatum that employees must embrace an \"AI-first\" mindset or face replacement. The hosts analyze the inherent tension within large consultancy firms: while leadership pushes for automation, individual partners may resist AI because it threatens traditional revenue models based on billable hours and manual labor. They compare this to Netflix’s transition from DVDs to streaming, noting that large-scale \"cannibalization\" of one's own business is a difficult but necessary hurdle for legacy companies.\n\nUltimately, the podcast concludes that the value of professional services is shifting from execution to high-level strategy. As AI makes technical tasks—such as coding or data processing—cheaper and faster, the \"human\" element remains essential for navigating complex organizational politics and architecting high-level systems. The hosts argue that while the \"back-end\" of work is becoming a commodity, the strategic dialogue and trust-based relationships between consultants and clients will become the premium offering in the new software era.",
+  "description": "Employees at the big consulting firms are being told to use AI. Are they going to automate themselves out of a job? On this week’s podcast, Paul and Rich discuss a recent set of directives from the CEO of PricewaterhouseCoopers about AI adoption and consider what they frame as the “AI consulting paradox”: To show value, consultants need to introduce AI into their client relationships, potentially cutting their own value as a result. How will consulting manage this transition in the short or long term? Plus: Paul reports on his recent conversations with a New School journalism class that visited the office and shared their feelings about using AI. \n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/the-ai-consulting-paradox/",
+  "duration": 2117,
+  "people": [
+    "Paul Ford",
+    "Rich Ziade",
+    "New School"
+  ],
+  "topics": [
+    "College students' ethical and personal perspectives on using AI",
+    "PwC's corporate mandate for AI adoption and employee expectations",
+    "The AI consulting paradox: balancing automation with billable revenue",
+    "The future of strategic consulting versus AI-driven execution",
+    "Disruption of legacy business models in the software and consulting industries"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/RohbF2_GZE0/maxresdefault.jpg",
+  "date": "20260414",
+  "youtube_url": "https://www.youtube.com/watch?v=RohbF2_GZE0",
+  "youtube_metadata": {
+    "title": "The AI Consulting Paradox | The Aboard Podcast 2026-04-14",
+    "description": "Employees at the big consulting firms are being told to use AI. Are they going to automate themselves out of a job? On this week’s podcast, Paul and Rich discuss a recent set of directives from the CEO of PricewaterhouseCoopers about AI adoption and consider what they frame as the “AI consulting paradox”: To show value, consultants need to introduce AI into their client relationships, potentially cutting their own value as a result. How will consulting manage this transition in the short or long term? Plus: Paul reports on his recent conversations with a New School journalism class that visited the office and shared their feelings about using AI. \n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/the-ai-consulting-paradox/",
+    "duration": 2117,
+    "view_count": 1703,
+    "like_count": 5,
+    "channel": "Aboard",
+    "upload_date": "20260414",
+    "thumbnail": "https://i.ytimg.com/vi/RohbF2_GZE0/maxresdefault.jpg",
+    "tags": []
+  }
+}

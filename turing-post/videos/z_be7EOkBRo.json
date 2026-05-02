@@ -1,0 +1,541 @@
+{
+  "title": "This Neural Network Thinks It's a Computer (Neural Computers, Explained)",
+  "source_url": "https://www.youtube.com/watch?v=z_be7EOkBRo",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Look at this, and tell me what you think is happening. You see a terminal, a user types a command, for example, create table ID integer, or a user types a command date, and something is happening. Except nothing here is real. It's not even a terminal. What you looking at is a video model. A neural network, generating every single pixel of this terminal session from scratch. It is pretending to be a computer, and it's doing it well enough that your brain accepted the illusion before I told you otherwise.",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:00:39",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is the core provocation of a new paper from Meta AI and COS, called Neural Computers, and I have a lot of thoughts about it. Welcome to Attention Span, by Turing Post. My name is Ksenia. Let me tell you what's going on.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:00:55",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This paper proposes something called a Neural Computer, or NC, and the idea at its core is this. Instead of building smarter software that uses a computer, what if the neural network became the computer? What if the model itself acts as the running machine? Computation, memory, and input-output folded into one learned system.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:23",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "In practice, the way they prototype this right now is with video models. They fine-tune one 2.1 video generation model to roll out screen frames. You give it a starting frame and a prompt, like type Python, enter, type 10 plus 15, enter, and the model generates the video of what the terminal would look like frame by frame.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:01:43",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "They do this for two settings. One is CLI, command-line interfaces, the black terminal screen. The other is GUI, graphical user interface, a full desktop with a mouse cursor, windows, menus, the whole thing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And here is the part that got people and got me excited. In the terminal version, when they give the model detailed enough prompts that include the expected answer, it can render correct arithmetic results 83% of the time. But without the answer in the prompt, 4%.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:02:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, before we get too carried away, let me be precise about what is happening. The model is an extremely impressive screen renderer that can follow conditioning signals. It is not doing math. It is drawing what math looks like on a screen. And the authors are very honest about this, which is one of the things I actually respect about this paper.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:02:33",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Now, you might be thinking, Ksenia, a video model that draws terminal screenshots? Is this really worth my time? And I get it. But the ambition here is much bigger than the prototype. Let me explain what the paper is actually proposing.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:02:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, a conventional computer has three things that are completely separate from each other. You have computation, the CPU doing math. You have memory, storage...",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "storing data. And you have input output—your screen, your keyboard, the interface. These three things live in distinct hardware, connected by buses, managed by an operating system, and governed by explicit programs that humans write.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:15",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A neural computer collapses all of that. The model's latent state—the hidden representation inside a network—is supposed to serve as computation, memory, and interface simultaneously.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:03:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "There is no operating system layer. There is no explicit program. The model's weights and internal state are the runtime. And the paper calls this the latent runtime state.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And the long-term vision they describe, what they call the completely neural computer, or CNC, would be Turing complete, universally programmable, and behavior consistent unless you explicitly update it.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:03:56",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "In other words, a real general-purpose computer the way Turing envisioned, except made entirely of neural network weights instead of transistors running instruction sets. That is an extremely interesting idea. And whether it will work is a completely different question, actually, that we will get to. But the direction—that's what matters.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:04:17",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And this is where I want to take a detour because neural computers did not appear out of nowhere. This question—can a neural network act as a computing machine?—is actually one of the oldest questions in the field. And tracing it helps you understand what this paper is really trying to do.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:36",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The theoretical root goes all the way back to Alan Turing. No, there were no neural networks back then. But in the 1930s, Turing defined what a computer is: a machine that reads symbols, writes symbols, changes state, and moves along a tape.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "In the 1990s, Hava Siegelmann and Eduardo Sontag proved that recurrent neural networks are Turing complete in theory, meaning with infinite precision and unbounded time, an RNN can simulate any computation that any computer can do.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "In theory. In practice, nobody could make this work for anything useful. Then came the memory era. In 2014, Alex Graves at DeepMind published the Neural Turing Machine.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:05:26",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The idea was: give a neural network an external memory bank it can read from and write to, and train the whole thing end-to-end with gradient descent. Two years later, Graves followed up with the Differentiable Neural Computer, which added more sophisticated memory addressing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:45",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "These were brilliant pieces of engineering, but they were still augmenting a neural network with an explicit external component. The memory was a separate module. The architecture was half-neural, half-engineered.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:05:55",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Meanwhile, the world lineage was developing in parallel. In the 1990s, Jürgen Schmidhuber—yes, we will talk about Schmidhuber in a moment because the man is literally on this paper.",
+      "tone": "intriguing"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So he proposed learning a differentiable model of the entire environment. In 2018, David Ha and Schmidhuber published World Models, showing you could learn environment dynamics in latent space and use them for planning.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That paper is a direct ancestor of what Neural Computers is trying to do.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:19",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Then came the big video generators, Sora, Veo, Gen-3, which showed that you could learn rich, coherent dynamics of visual environments at scale.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:28",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And over on the interaction side, you had systems like Claude computer use and various browser agents which take a different approach entirely. They put an AI on top of a conventional computer, clicking and typing like a human would.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:42",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Neural Computers sits at the intersection of all these threads. That's the question they ask.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:47",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What if we skip the part where the neural network uses a computer and instead make the neural network be the computer?",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:06:55",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What if the world model is not predicting an external environment but actually functioning as the runtime itself?",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:07:01",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And let's talk about the results because the paper is 75 pages long and runs a lot of experiments. Here's what I think matters.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What works? The terminal renderer is genially good. At a standard 13-pixel font size, the VAE reconstruction quality is excellent.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Which means the text is sharp and readable. After fine-tuning on their CLI data set, the model goes from generating garbled noise to producing visually convincing terminal sessions.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Character-level accuracy reaches 54% after 60,000 training steps. That means more than half the individual characters the model renders are correct when you run OCR on the generated frames.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:43",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That is actually impressive for a video model generating text pixel by pixel. On the GUI side, they achieve 98.7% cursor accuracy when they use explicit visual supervision, rendering the cursor as an SVG overlay and training the model to track it.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:08:01",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Without that trick, cursor accuracy is below 14%. So precise cursor control is learnable, but only with the right training signal.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And the data quality finding is striking. 110 hours of goal-directed data from Claude computer use outperformed 1,400 hours of random exploration across every metric. Quality crushes quantity.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:08:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But what does not work? Symbolic reasoning.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:08:28",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "When you ask the model to actually compute arithmetic, let's say type 10 plus 15 equals 25, the actual accuracy is 4%.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:35",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The model 1.1 gets 0%. Veo 3.1 gets 2%. Only Sora 2 gets 71%, which the authors think may be due to system-level tricks or additional reinforcement learning training rather than native computation.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:08:53",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is the central honest finding of the paper. Current video-based neural computers are strong renderers and conditionable interfaces but not-",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "native reasoners. They can draw what computation looks like. They cannot do the computation itself. The jump from 4% to 83% with re-prompting where you include the answer in the conditioning is telling. It shows the model is very good at following instructions about what to render, not at figuring out what to render. And long-horizon consistency is also fragile. The model works for short, common chains but drifts over extended sessions. Routine reuse, doing the same procedure reliably across different contexts, remains unsolved. And there is no mechanism for explicit runtime governance. You cannot update the neural computer the way you update software.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Now, I promised you a Schmidhuber moment, and this paper delivers one that is genuinely funny. Jürgen Schmidhuber, for those who are new here, is a legendary and deeply polarizing figure in AI. He has done foundational work: LSTM, world models, many ideas in meta-learning and self-supervised learning. He is also famously, relentlessly insistent that basically everything in modern AI was invented either by him or his students first. His Twitter feed reads like a one-man credit reclamation project. But here is the delicious twist: it is not Schmidhuber who is claiming prior credit this time. It is someone else.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:10:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Within days of the neural computer's paper being published, Yunteng Deng, a researcher who published NeuralOS in July 2024, posted a thread saying that neural computers builds directly on his work and failed to acknowledge it properly. NeuralOS proposes essentially the same direction: generative operating system powered by neural networks that predicts screen images from user inputs. Deng released the work in demo, a paper, a code. He was inspired by a vision Andrej Karpathy articulated about visual interfaces for AI.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Deng's complaint was specific. In the 75-page paper, NeuralOS is mentioned once in passing in the related work section. And he said that the release data code appeared to build on top of NeuralOS infrastructure. To their credit, Mingchen Zhuge, the lead author, responded publicly, agreed to add NeuralOS references to the GitHub repository and acknowledged that the concern was fair. But Deng pushed back, noting that one passing mention in related work is not the same as genuine engagement with prior art.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Now, I am not going to adjudicate who deserves what credit, but I do think this episode reveals something important about how the field works right now. The pace of publication is so insane and the incentive to frame your work as maximally novel is so strong that meaningful prior work can get compressed into a single citation even when the conceptual overlap is significant. And there is the real irony here: Jürgen Schmidhuber has spent decades making exactly this kind of complaint about other people's papers.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And now it is happening to a paper he co-authored. Not very good.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:04",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "As ADB put it on X, neural computers are basically video diffusion world models but terminal and GUI environments. That framing is fair and honest.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Whether you call it a neural computer or a neural OS or a computer world model, the underlying mechanism is the same family of ideas.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:12:23",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The branding is different, the ambition is different, but the prototype substrate, a video model conditioned on user actions, is shared.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And why this actually matters, this is the connection I want you to keep.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:12:34",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Neural computers in their current form are not computers. They are demonstrations that video models can learn to render interactive interfaces with surprising fidelity.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That is a real result, but it is a rendering result, not a computation result. The direction is important though.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Because what this paper is really asking is, does the future of computing require the conventional separation between hardware, operating system and application?",
+      "tone": "thought-provoking"
+    },
+    {
+      "timestamp": "00:13:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Or could a sufficiently capable neural system absorb all of these roles into a single learned substrate?",
+      "tone": "thought-provoking"
+    },
+    {
+      "timestamp": "00:13:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Think about the trajectory: world models learn to predict game environments, then interactive environments, then desktop interfaces.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If you keep pushing, you get to the point where the model is not predicting what a computer screen looks like, it is being the computer.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:32",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That transition from simulation to execution is the hard part and we're nowhere near it, but it's exciting. And the paper outlines what would need to happen to turn Turing completeness in practice, not just in theory.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:13:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The ability to install or reuse routines, behavior that stays stable unless you explicitly update it, and native symbolic reasoning that actually works.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:13:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Every single one of those is an open research problem, but I want to be careful not to dismiss this prematurely because the history of computing is full of moments where people said that, you know, they will never be practical about ideas that later became infrastructure.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:14:05",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And I also want to be careful not to oversell it because the history of AI is equally full of grandiose framings that never deliver.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:14:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So what the neural computers paper really gives us is a well-engineered prototype of something that has been floating around as an idea for decades.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Will neural computers ever become real computers? We're going to find out and with the current pace of development, it might not be that long, but it can arrive in a form nobody currently expects.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:14:35",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What do you think about? Have you done any research in this area? What's your inspiration and how do you think that can unfold? Please leave me your thoughts in the comment section and as always, like, subscribe, share, let's keep this channel growing. Thank you and I'll see you soon.",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What makes it even worse is that usually high achievers don't come into meditation for their self-care.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:07",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "They come here because they want to achieve even more. It's almost like a mental optimization tool or performance-enhancing tool.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:15:15",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But at some point, you reach that point where it's not sustainable. Your ego is tired. Your nervous system is tired.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:15:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So you really need to go from using meditation to fix yourself or to optimize yourself into using meditation just to be yourself.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:15:40",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And that's where the healing journey begins. That's when you can slow down and that's when you start hearing your own soul.",
+      "tone": "inspirational"
+    }
+  ],
+  "highlights": [
+    "A Neural Computer (NC) collapses the traditional separation of hardware, memory, and operating systems into a single learned neural network that acts as the running machine. This \"latent runtime state\" allows the model's weights and internal representations to serve as computation, storage, and interface simultaneously.",
+    "Current prototypes use video generation models to \"draw\" what a computer looks like, rendering terminal and graphical sessions with high visual fidelity. While these models can simulate the appearance of a functioning OS, they are currently acting as interface renderers rather than performing native symbolic logic.",
+    "Research shows a significant gap between visual simulation and actual reasoning; for example, the model can render correct math results 83% of the time if the answer is in the prompt, but accuracy drops to 4% without it. This highlights that while the model is excellent at following rendering instructions, it struggle with native computation and long-horizon consistency.",
+    "The long-term vision is a \"Completely Neural Computer\" (CNC) that is Turing complete and universally programmable, potentially replacing transistors and instruction sets with neural weights. This would represent a fundamental shift from AI being a tool that uses a computer to AI becoming the computing substrate itself."
+  ],
+  "summary": "This transcript explores the concept of \"Neural Computers\" (NC), a research direction proposed by Meta AI and COS that suggests shifting from AI software that uses a computer to a neural network that *is* the computer. Unlike traditional hardware which separates computation, memory, and input/output, a Neural Computer collapses these functions into a single \"latent runtime state\" within the model’s weights. The current prototype utilizes fine-tuned video generation models to render interactive terminal (CLI) and desktop (GUI) environments frame-by-frame based on user prompts, effectively simulating a computer's visual interface.\n\nWhile the visual fidelity of these models is impressive—achieving high cursor accuracy and readable text—the research highlights a significant gap between simulation and execution. The models are excellent \"screen renderers\" but struggle with native symbolic reasoning; for instance, the system can draw a math problem correctly 83% of the time if the answer is provided in the prompt, but its accuracy drops to 4% when it must calculate the result itself. The transcript contextualizes this work within a long history of AI research, linking it to Alan Turing’s foundations, recurrent neural networks, and Jürgen Schmidhuber’s \"World Models.\"\n\nThe discussion also touches on the \"Completely Neural Computer\" (CNC) vision—a future machine that would be Turing complete and universally programmable without traditional transistors. However, the path to this goal faces hurdles such as long-term consistency and \"routine reuse.\" The transcript concludes by addressing an academic controversy regarding credit and prior art with a similar project called \"NeuralOS,\" illustrating the intense pace and competitive branding within modern AI research. Ultimately, while not yet functional as true computers, these models represent a significant step toward collapsing the barrier between digital simulation and functional execution.",
+  "description": "Meta AI and KAUST just proposed a new kind of machine: a Neural Computer  –  where the neural network doesn't use a computer, it IS the computer.\n\nComputation, memory, and I/O all collapse into one learned runtime.\nSounds revolutionary. But is it? And will it even work? Let’s discuss\n\n*Links Mentioned*\nNeural Computers → https://arxiv.org/pdf/2604.06425\nNeuralOS: Towards Simulating Operating Systems via Neural Generative Models → https://arxiv.org/abs/2507.08800\nOn Computable Numbers (Turing, 1936) → https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf\nOn the Computational Power of Neural Nets (Siegelmann & Sontag, 1995) → https://binds.cs.umass.edu/papers/1995_Siegelmann_JComSysSci.pdf\nNeural Turing Machines (Graves et al., 2014) → https://arxiv.org/pdf/1410.5401\nWorld Models (Ha & Schmidhuber, 2018) → https://arxiv.org/pdf/1803.10122\nDifferentiable Neural Computers (DeepMind blog) → https://deepmind.google/blog/differentiable-neural-computers/\nMaking the World Differentiable: On Using Self-Supervised Fully Recurrent Neural Networks for Dynamic Reinforcement Learning and Planning in Non-Stationary Environments, 1990 → https://people.idsia.ch/~juergen/FKI-126-90_%28revised%29bw_ocr.pdf\n\nhttps://x.com/yuntiandeng/status/1944802154314916331 \nhttps://x.com/MingchenZhuge/status/2042827788626072051\nhttps://x.com/yuntiandeng/status/2042937940729344084\nhttps://x.com/neural_avb/status/2043225554607112675?s=20\n\nAttention Span is here to show you AI isn't magic. Sometimes it's a video model with big dreams and a 4% math score.\n👉 Subscribe for more high-signal AI mechanics \n👉 More analysis: TuringPost.com \n👉 Interviews: / @realturingpost\n\n#AttentionSpan #NeuralComputers #MetaAI #KAUST #WorldModels #AI #Schmidhuber #VideoModels #ArtificialIntelligence #MachineLearning #TuringPost #AIResearch #NeuralOS",
+  "duration": 900,
+  "people": [
+    "Ksenia Se",
+    "Neural Computer",
+    "Links Mentioned",
+    "Neural Computers",
+    "Towards Simulating",
+    "Operating Systems",
+    "Neural Generative",
+    "On Computable",
+    "Computational Power",
+    "Neural Nets",
+    "Neural Turing",
+    "World Models",
+    "Differentiable Neural",
+    "World Differentiable",
+    "On Using",
+    "Supervised Fully",
+    "Recurrent Neural",
+    "Dynamic Reinforcement",
+    "Stationary Environments",
+    "Attention Span"
+  ],
+  "topics": [
+    "The concept of 'Neural Computers' as a learned runtime architecture",
+    "Technical implementation using video generation models for CLI and GUI simulation",
+    "Historical development of neural computing from Turing to World Models",
+    "Evaluation of performance and limitations in symbolic reasoning and arithmetic",
+    "Academic priority controversy regarding the NeuralOS project"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/z_be7EOkBRo/maxresdefault.jpg",
+  "date": "20260413",
+  "youtube_url": "https://www.youtube.com/watch?v=z_be7EOkBRo",
+  "youtube_metadata": {
+    "title": "This Neural Network Thinks It's a Computer (Neural Computers, Explained)",
+    "description": "Meta AI and KAUST just proposed a new kind of machine: a Neural Computer  –  where the neural network doesn't use a computer, it IS the computer.\n\nComputation, memory, and I/O all collapse into one learned runtime.\nSounds revolutionary. But is it? And will it even work? Let’s discuss\n\n*Links Mentioned*\nNeural Computers → https://arxiv.org/pdf/2604.06425\nNeuralOS: Towards Simulating Operating Systems via Neural Generative Models → https://arxiv.org/abs/2507.08800\nOn Computable Numbers (Turing, 1936) → https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf\nOn the Computational Power of Neural Nets (Siegelmann & Sontag, 1995) → https://binds.cs.umass.edu/papers/1995_Siegelmann_JComSysSci.pdf\nNeural Turing Machines (Graves et al., 2014) → https://arxiv.org/pdf/1410.5401\nWorld Models (Ha & Schmidhuber, 2018) → https://arxiv.org/pdf/1803.10122\nDifferentiable Neural Computers (DeepMind blog) → https://deepmind.google/blog/differentiable-neural-computers/\nMaking the World Differentiable: On Using Self-Supervised Fully Recurrent Neural Networks for Dynamic Reinforcement Learning and Planning in Non-Stationary Environments, 1990 → https://people.idsia.ch/~juergen/FKI-126-90_%28revised%29bw_ocr.pdf\n\nhttps://x.com/yuntiandeng/status/1944802154314916331 \nhttps://x.com/MingchenZhuge/status/2042827788626072051\nhttps://x.com/yuntiandeng/status/2042937940729344084\nhttps://x.com/neural_avb/status/2043225554607112675?s=20\n\nAttention Span is here to show you AI isn't magic. Sometimes it's a video model with big dreams and a 4% math score.\n👉 Subscribe for more high-signal AI mechanics \n👉 More analysis: TuringPost.com \n👉 Interviews: / @realturingpost\n\n#AttentionSpan #NeuralComputers #MetaAI #KAUST #WorldModels #AI #Schmidhuber #VideoModels #ArtificialIntelligence #MachineLearning #TuringPost #AIResearch #NeuralOS",
+    "duration": 900,
+    "view_count": 1382,
+    "like_count": 78,
+    "channel": "Turing Post",
+    "upload_date": "20260413",
+    "thumbnail": "https://i.ytimg.com/vi/z_be7EOkBRo/maxresdefault.jpg",
+    "tags": [
+      "AttentionSpan",
+      "NeuralComputers",
+      "MetaAI",
+      "KAUST",
+      "WorldModels",
+      "AI",
+      "Schmidhuber",
+      "VideoModels",
+      "ArtificialIntelligence",
+      "MachineLearning",
+      "TuringPost",
+      "AIResearch",
+      "NeuralOS"
+    ]
+  }
+}

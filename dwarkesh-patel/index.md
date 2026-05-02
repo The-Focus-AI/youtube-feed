@@ -1,8 +1,8 @@
 ---
 channel: Dwarkesh Patel
 channel_handle: "@DwarkeshPatel"
-total_videos: 22
-last_updated: 2026-03-11
+total_videos: 24
+last_updated: 2026-03-23
 ---
 
 # Dwarkesh Patel Channel Index
@@ -11,15 +11,17 @@ last_updated: 2026-03-11
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 22 |
-| Total Views | 8,320,702 |
-| Date Range | 2025-07-10 to 2026-03-11 |
+| Total Videos | 24 |
+| Total Views | 8,711,879 |
+| Date Range | 2025-07-10 to 2026-03-23 |
 | Average Video Length | 1:19:24 |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [Terence Tao -- How the world's top mathematician uses AI](videos/Q8Fkpi18QXU.md) | 1:23:44 | 211,776 |
+| [Dylan Patel -- The single biggest bottleneck to scaling AI compute](videos/mDG_Hx3BSUE.md) | 2:30:44 | 179,401 |
 | [The Department of War is making a huge mistake.](videos/KBPOTklFTiU.md) | 24:38 | 14,615 |
 | [Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird -- Ada Palmer](videos/PAIhVfGbREA.md) | 2:02:19 | 30,601 |
 | [Dario Amodei -- "We are near the end of the exponential"](videos/n1E9IZfvGMA.md) | 2:22:20 | 717,139 |
@@ -111,6 +113,8 @@ last_updated: 2026-03-11
 | CRISPR | [Jacob Kimmel interview](videos/XCLODgdCmKA.md) | Bacterial defense systems with pathogen encounter records |
 
 ### People
+- **Terence Tao** ([Terence Tao interview](videos/Q8Fkpi18QXU.md)) - World's top mathematician, Fields Medal winner, AI in mathematics
+- **Dylan Patel** ([Dylan Patel interview](videos/mDG_Hx3BSUE.md)) - SemiAnalysis founder, AI compute bottlenecks
 - **Ada Palmer** ([Ada Palmer interview](videos/PAIhVfGbREA.md)) - Renaissance historian, University of Chicago, author of "Inventing the Renaissance"
 - **Dario Amodei** ([Dario Amodei interview](videos/n1E9IZfvGMA.md), [Department of War commentary](videos/KBPOTklFTiU.md)) - Anthropic CEO, AI alignment and Pentagon conflict
 - **Pete Hegseth** ([Department of War commentary](videos/KBPOTklFTiU.md)) - Secretary of Defense, Department of War renaming
@@ -308,7 +312,7 @@ last_updated: 2026-03-11
 - national-security (1)
 
 ## Video Categories
-- **Interviews** - [Ada Palmer interview](videos/PAIhVfGbREA.md), [Elon Musk interview](videos/BYXbuik3dgA.md), [Sarah Paine lecture](videos/RH_ycZYH8-s.md), [Andrej Karpathy interview](videos/lXUZvyajciY.md), [Nick Lane interview](videos/0GMWxuYuxJI.md), [Richard Sutton interview](videos/21EYKqUsPfg.md), [Sergey Levine interview](videos/48pxVdmkMIE.md), [Sarah Paine WWII lecture](videos/SdMgOXfSBQw.md), [Jacob Kimmel interview](videos/XCLODgdCmKA.md), [Casey Handmer interview](videos/3cDHx2_QbPE.md), [Lewis Bollard interview](videos/kWcPg8t1kJ4.md), [Sarah Paine Japan lecture](videos/KxIeJjEGLdo.md), [Stephen Kotkin interview](videos/YMfd3EoHfPI.md)
+- **Interviews** - [Terence Tao interview](videos/Q8Fkpi18QXU.md), [Dylan Patel interview](videos/mDG_Hx3BSUE.md), [Ada Palmer interview](videos/PAIhVfGbREA.md), [Elon Musk interview](videos/BYXbuik3dgA.md), [Sarah Paine lecture](videos/RH_ycZYH8-s.md), [Andrej Karpathy interview](videos/lXUZvyajciY.md), [Nick Lane interview](videos/0GMWxuYuxJI.md), [Richard Sutton interview](videos/21EYKqUsPfg.md), [Sergey Levine interview](videos/48pxVdmkMIE.md), [Sarah Paine WWII lecture](videos/SdMgOXfSBQw.md), [Jacob Kimmel interview](videos/XCLODgdCmKA.md), [Casey Handmer interview](videos/3cDHx2_QbPE.md), [Lewis Bollard interview](videos/kWcPg8t1kJ4.md), [Sarah Paine Japan lecture](videos/KxIeJjEGLdo.md), [Stephen Kotkin interview](videos/YMfd3EoHfPI.md)
 - **Commentary/Reflections** - [Some thoughts on the Sutton interview](videos/u3HBJVjpXuw.md), [Why I don't think AGI is right around the corner](videos/nyvmYnz6EAg.md), [The Department of War is making a huge mistake.](videos/KBPOTklFTiU.md)
 - **Geopolitics/History** - [Ada Palmer interview](videos/PAIhVfGbREA.md), [Sarah Paine lecture](videos/RH_ycZYH8-s.md), [Sarah Paine WWII lecture](videos/SdMgOXfSBQw.md), [Sarah Paine Japan lecture](videos/KxIeJjEGLdo.md), [Stephen Kotkin interview](videos/YMfd3EoHfPI.md)
 - **AI/Machine Learning** - [Karpathy interview](videos/lXUZvyajciY.md), [Sutton interview](videos/21EYKqUsPfg.md), [Levine interview](videos/48pxVdmkMIE.md), [Elon Musk interview](videos/BYXbuik3dgA.md), [Why I don't think AGI is right around the corner](videos/nyvmYnz6EAg.md), [Department of War commentary](videos/KBPOTklFTiU.md)

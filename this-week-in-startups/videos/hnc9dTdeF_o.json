@@ -1,0 +1,1259 @@
+{
+  "title": "Is OpenClaw Flawed? Experts React | This Week in AI E001",
+  "source_url": "https://www.youtube.com/watch?v=hnc9dTdeF_o",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, everybody, welcome back to This Week in AI. This is the new show from your host Jason Calacanis, J-Cal, who brought you This Week in Startups, the All-In podcast. I've started a new podcast, it's called This Week in AI. What is the goal? To have three people building in AI, three founders from AI companies, chew the fat, talk about the news from the week. We have three amazing guests this week and we've got a huge topic today to discuss. Plenty of news in the AI space we'll get to but our topic number one is going to be what's holding Open Claw back? At this point, so many people, millions of people, have adopted this open source platform to create agents. It's changing everything at work, but we're going to talk about today what could be holding it back and we have three amazing guests. Mitesh Agrawal is the CEO of Positron AI. Positron AI, they are building chips for cheaper, faster and smarter AI inference. Alex Elias, he is the CEO and co-founder of Qloo, Q-L-O-O, of which I'm an investor. It's an AI platform for decoding and predicting global consumer taste preferences. He was into AI back when it was called machine learning and most people referred to it as such. And Kash Ali is the co-founder and CEO of TaxGPT. He went through Launch and Y Combinator and he's building an AI tax assistant for everyone, starting with accounting and advisory firms.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:01:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, welcome to the program, everybody. Mitesh, are you obsessed with Open Claw, yes or no?",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:01:34",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "Yes, absolutely. Have to be, I think, in the current space. Very much so. I think the one thing that I'll just say here is agents existed before Open Claw, but the ease of use that Open Claw made it happen with for like, you know, as simple tasks as like this inbox, inbox like adjustment, Slack notification, things like those, is just like mind-blowing and then obviously now taking next steps into it. But yeah, TLDR, yes.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:02:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "How are you using it? Tell me how are you using it. What does your current usage look like? And we're sitting here in AO, after Open Claw, I believe it's 21 in the year of our Lord. We basically count the number of days since we talked about Open Claw on the program. It's 21 days since our first discussion of it here. So, what exactly are you doing with it? Feel free to show something on the screen if you want to share your screen or if it's too confidential, just walk us through your stack and how long you've been using it, what exactly you're doing as CEO of a chip company with it.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:02:35",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "Yeah, so the first thing that I'll start off with because, because we are in a chip company, we treat some of the architectural stuff as trade secret. I have to be really careful in just understanding it and in deploying it. So I have it set up as the least privileged information setup, so like, you know, always human in the loop. But look, initially I just wanted to play with it, you know, once I read about it and kind of how it...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "It's built on - how - just as I said, it just made it so easy. I used to have an agentic workflow to do the inbox kind of filtering. And it was a pain in the butt. It wouldn't actually do it super well. But with OpenClaw, it not only does the filtering very well, like, you know, spam, unsubscribe motions, responses, but it fully drafts it. It's fully ready. So it's like almost like an executive assistant light version of it. It does the same thing now with Slack, where it's not just the Slack summary, which I know Slack AI could also do, but now it actually has like a draft for my Slack responses ready on my phone. So, you know, while I'm on my phone, I don't have to worry about typing too much. It has like some basic - you know, I've given it a thing where the Slack status - it has to be like very quick responses, like a few words, but it does it super well for those kind of things. And then the last thing that I'm just starting to get into, although like right now the way I use OpenClaw is I don't have it on my local machine, it's set up using cloud platforms. So I have to be - I'm trying to fully learn it without like damaging the whole kind of - without getting into the thing where it has an insane amount of privileges. But basically, just our CI/CD pipeline on the chip architecture, you know, people constantly update within our engineering kind of tools on what they do. And right now - the current motion for me is manual, like I have to go in, I have to go see and get it updated. But now it actually just does a summary for me. So those are the very basic ways I'm using OpenClaw right now.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:04:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But this is going to save you - just inbox management, Slack management - these are the chores that you typically as CEO would hire a chief of staff, an executive assistant to do this. You've now used an OpenClaw agent to do those two frontline events for you, and it makes you how much more efficient would you say? How many minutes per day do you recapture, ballpark?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:04:57",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "I haven't done any kind of calculation, but as definitely like my morning 45 minutes to an hour is now gone down to like probably 15 minutes to half an hour. The biggest thing is like email draft, you know, Gemini used to do it for me was okay. Like, was not - I found OpenClaw to be better at it. But the bigger one is the Slack one where I could only get the Slack summaries before, but I think the big one now is just from the night that I sleep to morning, all the Slack messages, they're like ready with a response out and that is a big one. I don't know how many minutes yet, but that is a big one. I can tell you because I don't have the anxiety anymore of getting up and being in my bed, opening on my phone, and opening Slack to respond up to date.",
+      "tone": "relieved"
+    },
+    {
+      "timestamp": "00:05:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, so I mean for a CEO to save but 30 minutes a day, three hours a week times 50 weeks, 150 hours, that's like getting three more weeks a year, which is six percent of your year back in the most basic implementation. So you know I always look at these compounding factors.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alex, it's time for your confession. Father J-Cal will hear your confession now. Are you too obsessed with Openclaw, yes or no? Have you started the implementation process, or are you on the sideline just looking in?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:06:18",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Well, I'm going to just take a— Mitesh's very articulate with, with kind of strong-manning it, so I might, I might take a bit of a slightly more contrarian position, but, you know, one of the things too, is I have an amazing EA who I've had for years, so I've sort of been, you know, I've been privileged to see what the ultimate personification of Openclaw is capable of, and so, it is— there's clearly immense potential, and, you know, there's been a lot of people at our firm tinkering, not in any sensitive ways, more on the personal front, so things like itinerary planning, being able to kind of route across multiple destinations and localities, but, yeah, I remember, I remember a conversation with an executive at LVMH years ago who was talking about how some of the most successful consumer products in the years to come would be disintermediating how kind of uber-wealthy people live, so Ubers, the private, you know, the private driver, you would have personal assistance—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Chauffeur.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:07:22",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Exactly. And, you know, Airbnb to some extent is the second home, and now, you know, the— the promise here is to kind of democratize the amazing EA, PA, whatever you want to call it, and, yeah, it's immensely exciting. I think, you know, Clue's uniquely situated in terms of a perspective on this because a lot of where we see breakdown is kind of in taste-based tasks, like I ask people in the office, you know, you let it plan an itinerary, you let it— you gave it a spec and instructions, and were you ultimately confident letting it click, you know, purchase? And I think that's where there's still a little bit of a gap, and, you know, with with the seasoned EA, there's kind of just an intimate knowledge of not only kind of the proactive preferences but also things that, you know, you may dislike and so on. So it's interesting.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So interesting, what you just described, because between Mitesh and yourself, Alex, you described what memory and context is for Openclaw or for a human. You mentioned preference, and then you mentioned judgment and the polish. This is something that Openclaw will get over time if you train it properly. And so, your— the distance between, and I love your metaphor, whatever rich people have the luxury of doing, if you can commoditize it and make it for everybody, Airbnb is your second home, you know, your second ski house...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "...second, you know, Hawaii house without having to actually ever buy it. It is your Uber is your personal chauffeur, everybody gets a chauffeur. JetSuite, JSX, whatever that is, JSX is like your private jet but it's kind of shared but it gives you that kind of private jet feel. This, this is an incredible pattern and now I think OpenClaw becomes the manifestation of that pattern.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:09:24",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "We're done hiring new humans at Launch, okay? Because Notion's new AI agent is like having twice as many, and I'm not exaggerating here, it's like doubling your team size because the AI has been integrated into your Notion knowledge base, right in your workspace. So things that used to take a researcher or an operations person, you know, 24 hours, 48 hours, 72 hour return time, maybe even a week, gets done in minutes for me. Notion brings all your notes, your docs, and projects into one connected space that just works. It's seamless, flexible, powerful, and fun to use. With AI built right in, you spend less time switching between tools and more time creating great work. And with Notion agent, your AI doesn't just help work, it finishes it. For example, we wanted to reorganize the TWIST 500 list, these are the top 500 private companies, but to actually improve and refine the list, we had to remove all the companies that had exits. So, we just asked Notion AI to do that for us, and it did it. And we build the docket every day for This Week in Startups, This Week in AI, and my notes for All-In in Notion. And Notion's AI agent makes that completely searchable. So my producers or I can talk about guests, ask questions, make sure I have the ad reads in correctly for each segment. And if I'm just looking for highlights, I can just ask a simple prompt. Notion is our system of record. It's where it all comes together for our organization. And then Notion added these AI features that literally have made the product three, four, five times more powerful for the same price. Try Notion with Notion agent at notion.com/twist, all lowercase letters. notion.com/twist. It's in the show notes. Try your new AI teammate, Notion agent, today.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:11:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But you did point out a couple of pieces to it that are critically important. Can it remember your preferences and can it make you comfortable in making that decision? With Qloo, you help people, hey, these are the restaurants, music, and books I love. I'm from LA. Then when you go to New York, it says, hey, here is the private club, the fashion shopping, and the activities you might like. Different location, different verticals, but you've been able to build that with qloo.com if you want to go see that API. But how do you think about your company now, not just running it internally, where obviously everybody's going to become obsessed with this technology, obviously, but then incorporating it into the product? Do you see a time where you put Qloo into a skill, into OpenClaw and give—",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Everybody, you know, some number of API credits to go have judgment as to what they might like and be the curator. Like I have, I have executive producer Lon here, our editorial director. You give him three things you like, he gives you seven things you'll love.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:12:17",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Right. Yeah, that's spot on. I think that's exactly right and we would, we would, I mean we're already seeing it incorporated in so many agentic workflows. You, you were kind enough to host or judge a hackathon in Q4 last year that had incredible submissions of things ragged together with Qloo and essentially imbuing this system, these systems with judgment.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:12:44",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "So I think the way I'd summarize it is just that with workflow agents as you're kind of describing, all the kind of rote tasks of everyday work, the instruction is kind of the spec for personal agents where things are headed and where the kind of personification of the EA comes in, you know, you are the spec and there needs to be some dimensionality to how the system kind of interprets that.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:08",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "And it's, it's been great because we've been obviously building this tech for over a decade but, you know, the use case now is sort of perfectly caught up with, you know, the infrastructure that we built. So yeah, I think there's tremendous use cases for kind of putting, putting these systems on rails. And one of the biggest examples, so we obviously we work with very large financial services firms where, you know, there's a conservative culture, there's a heavily regulated culture.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:38",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "And one of the most profound examples was pretty recently they were launching, a very large company that we all have heard of and used, were launching their first kind of GenAI product and agent and they ultimately initially were going to kill the initiative because it, they essentially were so conservative with the implementation and they put it on such heavy rails that it just rendered it completely uninteresting.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:14:04",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "And obviously the, the alternative was untenable, letting it just go off on its own and hallucinate and make crazy decisions. And so it's actually, it's an example where kind of having, you know, having some structure, taste inference, providing accurate rails and dimensionality actually kind of ironically sort of liberated the product. Like it allowed it to actually do more.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:14:27",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "And yeah, I mean we're super excited about, about the future and, you know, to some extent, you know, maybe a stop clock is right once a decade, but we've, we've kind of created, you know, structure and these systems crave that. I mean ultimately LLMs crave kind of structured inference about and having an entity spine that's actually reliable and deterministic and so on.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:14:51",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "So yeah, super excited to see where it goes and, you know, my hope is that it becomes an incredible, you know, obviously there's all this talk of moving beyond the UI and so on and I think...",
+      "tone": "hopeful"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "I think, you know, if it really is an EA to be trusted, um, you, you wouldn't have to prompt it, because otherwise that's just another, another UI. It should be proactive and kind of be able to glean, uh, you know, really good data.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:15:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It shouldn't be ask me a question, it shouldn't be, you know, type in your query, it shouldn't be set up a cron job. It should be, I've set up a reoccurring task based on what I see. You know, you were doing your emails and your slacks, uh, in the morning, Mitesh, but we're going to do it at 1:00 as well, and I'm going to keep it short and brief, this way you don't have as much to deal with at the end of the day. Kash, uh, you were part of the first generation of AI companies to do a co-pilot. Co-pilot, very simply, hey, it's your guide on the side, it's there to help you out, you're doing taxes, you're doing taxes, and that's what people were ready for. That's what, or when you started, people weren't ready for it. It was a new concept, but I'm assuming people with TaxGPT have gotten used to this concept of being, you know, the guide on the side. It's going to be okay. We're going to give you some information. But this agentic stuff, and OpenClaw specifically, is really inspiring. I would like to have my tax person, you know, in my Slack instance alongside me proactively in the accounting group, giving me ideas, watching the expenses coming in and saying, hey, deductible, not deductible, uh, you know, or deductible under these circumstances. So two questions. First one, let's get it out of the way. Are you personally obsessed with this? Have you been staying up till 2:00 in the morning? Are you getting sleep? And then second, how does it paradigm shift or change what you were thinking as you went from a GPT to a co-pilot to now, you know, I'm assuming you're thinking agentic, agentic, agentic?",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:16:47",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "Yes. Um, so our product vision significantly opened up. Few things that we were thinking that we're gonna be able to accomplish by the end of the year, we are launching next week. So, uh, this whole agentic operating system, because that's how our product vision started. The GPT, the co-pilot, now the whole operating system of agents, whichever task that you are doing in your accounting firm, from accounting to advisory, to preparation and review. So that's number one thing that it did for us, and we are extremely obsessed and, you know, working through that. Obviously there is a huge, uh, you know, sensitive data that accounting firms and advisory firms deal with, so we're not putting it, uh, we have to be very thoughtful from the security perspective. So our experiment that we are running is some few partner firms. What it opened up for TaxGPT, we needed more engineers, uh, to deploy as forward-deployed engineers. Go into these accounting firms with a solution architect who's a subject matter expert, and teach people, uh, to",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "use this effectively. So, um, in a nutshell, like our product vision extremely opened up, you know, we are things that we were planning to launch by the end of the year, we're launching in a week or two. The second thing what it did is how I'm personally using it, as I mentioned, we opened up the job description for forward deployed engineer and some senior engineers, and we have like 1,000 people apply for that for those roles.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Wow. Explain to the audience what this forward engineer is versus a regular one.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:18:35",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "Yeah, I mean, forward deployed engineer is actually kind of your trusted tech person, especially when you are in an accounting firm, advisory firm, you do not have the developers, right, to actually build open claw or something of situation like that, a GPT or trainer GPT. So what forward deployed engineer does is it goes, work through make sure that your systems are all connected and you are using the product to the maximum of your benefit. Automating the task, you know, is and making sure that everything is done correctly. So it's more of a consultative approach of selling and having that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:21",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "If you want to be a data-driven founder and trust me, you do, you're going to need to spend some time in spreadsheets, building models and doing projections. But so many of these spreadsheet programs are stuck in the 90s. Thankfully, now there's Quadratic, finally bringing the productivity boost of AI into your spreadsheets. But this isn't like some simple chatbot in the corner who can answer your questions. No, this is an AI native platform that handles all the number crunching and organization for you. You just describe what you want to do with your data and Quadratic makes it happen, right there in the spreadsheet. Now you can get insights about your business without fighting formulas and you can immediately share your results with your team and all of your collaborators. No setup or payments are required upfront. You can just start using Quadratic right now. It's going to blow your mind. Visit quadratic.ai/twist to sign up and use the code TWIST to get a free month of their pro tier subscription. That's Q-U-A-D-R-A-T-I-C.ai/twist, quadratic.ai/twist.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:20:33",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "So now, how are we using it personally, you know, when 1,000 people applied for the job and I was like, okay, the old way of doing it is like I have to review each resume, one minute each, 50 people, I have to do 30 minutes chat with them. So that comes out to be 2,500 minutes together, right?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:20:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's a week. It's a week of work. Yeah.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:20:57",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "41 hours, right? And I don't have that much. My CTO does not have that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "And I as a tech lead I don't have that time. So, um, I automated the review with OpenClaw, right? It, it went through each resume, it had the requirement, it staged them to rejection if they did not fulfill the requirement. What we realized that there was a lot of overqualified candidate, it created its own pipeline to put those candidates into that pipeline. So I was actually thinking about just last week to hiring a technical recruiter to help me out with sort of all of these 1,000 application. I don't need a technical recruiter today. Um, I was able to automate and save that 40 hours. So this is another yeah.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "When you looked at the top 20 selections and you looked at the ones who were, I'm sure you spot checked the ones that were overqualified, I'm sure you spot checked the ones that were passed on, how accurate was it when compared to if you had put one of your, you know, average people at your company or a technical recruiter at 100 bucks an hour or 200 bucks an hour on this task? How accurate was it in your mind?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:22:05",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "Yeah, I was very, um, on top of its work. I was obsessively looking at it as like I didn't say go, you know, do sort of these 1,000 candidates like do the first 20. Then we, you know, had a little bit of a back and forth. Do the first 50. So there was a little bit of back and forth but within an two hours it was doing it flawlessly. Uh you can compare it to a technical recruiter of 100 dollar per hour, 150 dollar per hour and it took me like eight to nine 10 hours to complete this task but we had a very, you know, I'm happy with the result.",
+      "tone": "satisfied"
+    },
+    {
+      "timestamp": "00:22:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah see this is... I wrote a blog post which I'll pull up on the screen in a moment but I wrote a blog post about OpenClaw the end of chores and the great hiring hiatus. And what I hear consistently with folks is hey I think let me give this a shot with my OpenClaw agent let me give this a shot with Cohere whatever platform people are using usually it's one of those two right now and uh maybe I can delay hiring or let me put one of my people on that and then let's check the result and nine times out of ten it does seem that it comes out great. Uh maybe Oliver you can come on the pod for a second I know you built something new and I want you to have your chance to show it to three actual CEOs and myself—I'm a CEO too of our firm and our media company—and if you could just pull up my blog post I want to talk a little bit about how this impacts hiring Mitesh. When you start thinking hey how many people do you have at the firm now?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:23:44",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "We have 51 people, uh, at the company.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "51 people.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:23:47",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "51 people and yeah like I mean we're silicon company so basically 47 of us are doing engineering work there is one general counsel myself one sales person and one uh...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "In a... in an engineering, that's basically the company and itself. And you know, and I don't know where the question is going, but I really want to say, you know, to Kash's point, I think it really is around when you can automate some of the... some of the workloads, it's either about either delaying some of the hires, and that's maybe what the hiatus—and I haven't read that, so I'll be curious to see that come up on the screen—but also, or it's more around like, okay, you know, instead of having multiple technical recruiters, you kind of just have one to... to feed the pipeline, or source the pipeline sort of thing. So, very, very interesting in terms of how it definitely changes the hiring mindset.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alex, for you, have you thought about hiring and professional development in lieu of, let's call it the bottom one-third of what we do every day clearly being in the kill zone in 2026 of OpenCLA, of CoWork? And how do you think about inspiring your team to be 100% working with an agentic partner?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:25:05",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Yeah, so I think in some respects the addressable market has expanded so dramatically for what we do. I mean, we were... previously it was presentational personalization, now it's entire agentic workflows and Fortune 50s thinking about those. Um, so we actually, to some extent, have... it's put pressure on hiring, kind of counterintuitively, because we need more integration engineers. We need people, at least in the short to medium term, to help, you know, bridge the gap between, uh, kind of that... that integration case and leveraging our, you know, taste middleware, if you want to call it that. Um, and because in most cases we're addressing actual infrastructure, that's also created more compliance burdens. So we've hired, you know, we have a GC who's brilliant. We're kind of onboarding more legal support. Where I think there has been substitution is kind of in more rote service providers. So, are we kind of bringing on someone to help with lead gen or help with content marketing or help with PR, pure PR outreach? That kind of stuff has definitely, you know, been put on the back burner, I think, with a lot of... you know, a lot of the tools that are... that are now available. Um, but, you know, on the hiring point generally, there's one anecdote that I think is kind of... you know, because there has been, obviously, there's this kind of catastrophizing and a draconian view that we're going to be... um, but there's... there's a lot of kind of bright spots. And I was talking, uh, recently with a filmmaker who's fairly prominent, and he essentially had a project that got about 15 million in financing committed from a very large studio. Um, but when they budgeted the film, it was kind of a 30, 40 million dollar film. Uh, it's an independent, kind of passion project of his. Um, so it was originally going to be killed. Uh, but it turns out this particular studio has this new kind of AI dev...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "vision. And the reason it was so expensive and I don't want to mention any names and so but the reason the reason it budgeted so high was because there was these these large dramatic scenes and crowds and nightclubs and so on where typically",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:27:14",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "you'd need a ton of extras, right? And so that's a scary thought that, you know, AI's potentially going to supplant that, but it actually was the case that because of this new division, they were able to kind of represent a lot of those scenes in a way that was convincing enough and it actually saved the entire project. So it's kind of a binary of does this film get made or not? So even though we're on the margins, kind of, you know, there's there's not those extras are not employed in those scenes and so on, it actually is saving the the kind of, you know, the actual product and a lot of people's jobs.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:48",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "Yeah.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:27:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Here's the way to think about it, Alex. Pretty simple way to think about it. The entire concept of cinema and personal cinema, Quentin Tarantino, my my guy QT, said hey, this is basically dead, it's over. Since, you know, the 90s Sundance, it's basically over. Um, it's just people won't fund it. So you're faced with either this beautiful art form goes away, or it gets more efficient and it gets massively more efficient. And in order to do that, yes, some people are going to lose their jobs. But you have to ask yourself in the binary question, would you rather that personal intimate film get made for 15 or not get made?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:28:27",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Exactly.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:28:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And then, if you think about extras, here's a message to those extras. If they can get a 35 million film to 15, you can get a 15 down to 5 and you can get a 5 down to 500, which means those extras could make their own personal short film for under 100k, 200k. And that's what the Sundance Film Festival was all about, just make a short film for, you know, on a digital video camera and, you know, just leave out the scene with the extras. Now you can leave the scene in with the extras. You could have them go to a nightclub and use these tools, they're available to everybody. And then maybe you don't get the $600 a day extra package, you get to actually make your own where you're the lead in the short or in an hour-long film. Like, so take the win, is what I would say is my interpretation of it, the positive interpretation is take the win.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:29:15",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Right.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:29:16",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "Right.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:29:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Kash, how are you thinking about hiring and then inspiring the team? This is top of mind for me. I've got four people on the team who are all in on this, 20% of my staff. I'm going to call Code Red this weekend. Um, and I'm just having everybody work Saturday or Sunday. I'm going to create two four-hour slots. I'm telling everybody to get online and set up their agent and I'm going to put my four people, two of them on Saturday, two on Sunday to just say professional development, sign up for your personal open claw, show it and let's just get everybody building on it outside of, you know, the company. Just so nobody gets left behind because I'm looking at it Kash, and I'm always very candid about this. The two or three people in the organization who have",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Top applicants now are a full 10x more efficient than the bottom folks. That's not going to be sustainable for long. If you're at the bottom and you don't know how to use this technology, it's literally like I have people who have laptops and computers and the internet, and then I have people who have old school PCs with floppy disks. That's the distance between these two modalities. How are you thinking about professional development in the firm and all these chores and how to get everybody embracing it?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:30:29",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "I already called a Code Red with our all hands last week. We are, everyone in the team is really really excited. And you know, like if you are working for an AI company that's a bleeding edge of taxes and AI, right, and you're not adopting AI, there's a problem, right? So, but my team is extremely excited. We are able to do more. One, and this is not only engineering by the way, you know, engineering is like we are hiring more. The way that we're expanding is our product vision has opened up, we have the distribution, all of a sudden we can serve our customers better. And I can comment on how the accounting and tax industry is going to change with this, but in the marketing, in the sales, like all of a sudden people are pulling the data from a lot of different systems and they are being able to do more consultative sales because they have the 360 view of this customer that is all of a sudden very powerful and customers are leaving with a very good reviews, with a very good feeling that this company knows us, this company cares about us and they know about our needs. So people are, we are using it to personalize more of our, you know, demo experiences. We're using it to in the marketing, you know, pulling up the resources, in the product, you know, doing the surveys and making sure what to build next, what is the reception of the things that we are launching, what is the adoption, usability, net retention rate. So it is helping us out a lot from that perspective. In our industry that we are serving, accounting, there are less than, there is 340,000 more accountants that US need, right?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:32:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Wait a minute, there are more, we need more accountants or there's an oversupply?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:32:30",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "No, there is a shortage of accountants. US need more than 340,000 more accountants. The new accountants coming into industry in the last six-seven years, less and less CPAs are coming and taking that exam, right? So this industry is in crisis. It has reflected in, a few years ago, Lyft made a $50 million mistake in their quarterly earnings and they got...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "bashed in the public market for that. Um, there are counties in the country where they—there are no accountants that can issue the funds to repair a road. So this industry is in shortage, extreme talent crisis. The way—and what people do is, you know, accounting firms do. And here's another interesting fact about accounting industry, 85 percent of the industry is small to medium.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So it's all mom and pop. They're all boomers and Gen Xers. I understand like 75 percent are nearing retirement. Yes. And the reason they're nearing retirement is it's well paying and they're burnt out. It's just a—it's a high stress job. So then that begs the question: if all these kids are going to school for these weird degrees, why don't they just get a CPA? And can't these tools, since people are not taking the CPA test, couldn't you—just, you know, I know you have to get accreditation and all this stuff, but just dollars to donuts here, if you could just create an online test, or just be candid, Kash. If you created an online test and people spent six hours a day studying and doing quizzes, how many days would it take an average, you know, college graduate or average high school graduate to learn to be a CPA do you think? With adaptive education LLM teaching them?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:34:31",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "There are a lot of credentials that exist. IRS issue credential called enrolled agent. The CPA has its own qualification, but—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes, but put them aside. Like imagine they did—accreditation as a concept didn't exist, but to be in the top half of—just to be a competent accountant, how many days of online training with an agent, an adaptive learning partner, could somebody become a CPA, do you think? A thousand days? 500 days?",
+      "tone": "provocative"
+    },
+    {
+      "timestamp": "00:35:04",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "I think, um, one year would be a very good timeline, 365 days, 12 months, because there is a lot of hands-on experience. And, you know, the credentialing not only need to be done by what do you know, but also with the experience, right? So the AI agents can also upskill you. Like a lot of our partner firms are using it. They are hiring junior associates and asking TaxGPT to use, upskill their early hires to go them—go them to the next level. Um, technically speaking, like California only requires 60 hours of training in order to be a certified tax preparer. Right? 60 hours. So that that can be done in a month, even two weeks, right? So coming back to, you know, the problem we are—we're solving, the talent shortage crisis, we believe there will be one-person, $1 million",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "...dollar accounting practice in very near future and we are building the tools where one person can command the army of AI agents doing the task and very focused on the customer relationship. Right now one resource in an accounting firm is return 3x the investment. So if you are getting paid 70,000 as a tax preparer, an accounting firm will be lucky to make 140, 150,000 back. But if your accounting firm use AI, those accounting firms are making 200,000 per head back, right? So our goal is to create these tools that one person, million dollar accounting practice will be possible. We already have few folks that with two, three, two people they are running 700, 800 thousand dollar practice. So this opens up the opportunity and the industry that and firms will be able to offer full stack of services. They are not only preparing, they are doing advising, they are doing bookkeeping, they are becoming the CFO for the small businesses, payroll, sales tax. So what Big 4 has or what Big 100 accounting firms has, these small and mom and pop shop and medium sized accounting firm will be more full stack, they will be offering more full stack services because the bottleneck of talent is removed. Now you have agents and skills to deploy and so that is the vision that we are seeing and I'll double click on Alex saying that it incredibly expanded their TAM, same the case for us, it's incredibly expanded our TAM and when we say that we are building an AI agent for everyone, AI tax assistant for everyone starting from accountants, we also include other agents as our TAM too. So we are... we can add the intelligence layer into all the other places as a skill to serve them wherever the agents are working.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:38:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, I want to bring Oliver on. Oliver is one of those top three people in the organization here at Launch, which is my venture firm that does 100 investments a year or so, and our This Week in Media division that does This Week in AI, the podcast you're soaking in and This Week in Startups, and previously were the producers of All-In, although that's spun into its own company but we still do part of the production there. So, let's talk about, in terms of producing the docket, let's bring Oliver on and then he'll get to have candid feedback from four CEOs. Mitesh, Alex, I'm instructing you Kash to be brutal, as if he was one of your employees and you give him brutal feedback and hard questions. Oliver, your turn to shine. Come on the air. Producer Oliver. He's aiming to be an associate at the firm. We have a three-year program. Researcher, now...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "Analyst, associate. You gotta put in three hard years. And yeah, I think one or two people have made it to associate already since we started this program three or four years ago.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, Oliver. How much have you learned in a year versus your four years at UT?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:39:15",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "I'd say... I'd say my experience at Launch so far matches my four years at UT Austin. I think one thing that's so great about what we do here at Launch and what Jason and the program he's running here is that everyone on the team has so much responsibility and Jason expects you to execute, even when there's a lot going on. So, really, and I think obviously that's the best way to learn, is through experience. So, yeah, we're learning every day and becoming better and better.",
+      "tone": "earnest"
+    },
+    {
+      "timestamp": "00:39:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Why hasn't anybody tapped out? Why hasn't anybody quit? I don't understand. I made you guys come in two of the last six weekends to do four hours of work. I can't get anybody to quit, Oliver, and everybody's putting in 50, 60 hours a week. What's going on? I thought your generation was supposed to be a bunch of fuckups. Did I just pick well? What's going on?",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:40:06",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "No, I think that's... I think it's really interesting that you say that because I've actually been thinking about that a little recently. And I do think it's because people have so much ability to make an impact. And when you look at someone like Maddy, who you gave full responsibility for our Syndicate program, and she's doing an amazing job. She loves running that program and she has the ability to make a real major impact. And for someone who, you know, is at the beginning of their career and has learned a lot and is doing a great job, that's such an amazing experience for them. And for me, running This Week in AI, coming on live on the air, it's just a great experience. And it can be a little intense, but you know, that's the best way to learn.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:40:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But nobody will quit. Alex, you're a big Nick fan, big basketball fan. And how have the Knicks built this roster? How have the Knicks built the roster? Josh Hart, Mitch...",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:40:55",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "You tell me, you're the veteran.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:40:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean, it's all late first-round picks or early second-round picks.",
+      "tone": "matter-of-fact"
+    },
+    {
+      "timestamp": "00:40:57",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "In other words, motivated, highly motivated dogs. Grit. And having a bench where 15 out of 15, or I should say 13 out of 15, are just blue-collar hardworking. And then you have like KAT who was obviously a number one draft pick, Karl-Anthony Towns. You know, and you got Brunson, I think was late first round or early second. Anyway, these players are all grit and all of them want minutes and all of them play hard and they play for each other and they play together. There's no like all-star primadonnas who came from Harvard or Stanford, and you just get grinders like Oliver and none of them will quit.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:41:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm now moving to a new strategy. Instead of hiring people, I'm just going to charge their parents $50,000 to go to J-Cal Academy per year to work for me. You just pay me 50 grand and in two years, for 100 grand, I'll make your child into a...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "a venture capitalist, instead of putting 50—",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:42:02",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Incredible.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:42:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It would work actually, if I just charged—",
+      "tone": "pensive"
+    },
+    {
+      "timestamp": "00:42:05",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "Well let us know if there's a scholarship fund, that would be awesome.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:42:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean, or whatever. I think I literally could charge—I know if there was an opportunity to go to a school that taught you venture capital and one of my daughters wanted to go, I would pay 50k a year for that over UT or whatever. I mean, why not? All right.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:42:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oliver, it's your time to shine. Give us the full context here. You've been on OpenClaw running your agent. You're one of my two all-stars at the firm with Lucas who are doing this, like, basically 50, 60 hours a week. You've been doing it for 15 days, maybe, or so. Explain where you're at.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:42:43",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Yeah, it's been around 15 days. And Jason, you've talked about this a lot on the show. We're trying to automate around 10 percent of our tasks per week. So, you know, some weeks there'll be more, some weeks some tasks will be more impactful, but we're really just kind of chipping away. And I think that that's something a lot of people don't understand about OpenClaw is they're really doing it one task at a time. And over time, you'll build those tasks, you'll stack the skills as they call it, and you'll continue to build those out. So one of the tasks that I have created is an autonomous content clipper. At Launch, and at Twist, and this week in AI, you know, we make a ton of different content and we do five shows a week. And the way to get that content out there is to make a lot of clips, post them on X, post them on TikTok, post them on YouTube. So I made an agent that basically gives me ready-made clips for me to post on different platforms. So I will show you a little bit more about how that works. So I built three different skills. And right here, I'm showing a little dashboard I made, actually using Claude.ai, not CloudBot, just by feeding it in exactly what I'm doing and it kind of visualized the process that my agent goes through. So I built three different skills. One is specifically for X, one is for YouTube, and one is for Twist Archives, which basically means going through this week in startups, which has been going on for over 15 years, and finding an episode from that date in the past. So yesterday we did a post on—which was on this day in Twist history, a couple days ago, from February 13th. And it found an amazing clip of Jason and Molly Wood talking about—and Jason actually compared being a VC to playing basketball without knowing the score, because—and this is an amazing clip that OpenClaw found fully by itself. This was the first clip that it found using this skill. And I was really impressed. So this is one of the skills that I made, and I can kind of walk you through the process.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:44:54",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "So Oliver, quick question. What is the inherently skill difference between the X clippy and—",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "...YouTube clip.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:02",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "It all lives in like in the way that the agent goes and finds the clips. So you know some of the process is very similar and some of it is different. So in terms of you know how the skill works, the cron fires and then the agent will read the skill file. And then for X it'll go and hit the X API. For YouTube I had to set up a proxy so it doesn't get blocked by YouTube when it's scanning different accounts trying to find clips. And and for X I gave it certain channels to look for and on YouTube I gave it different channels to look for. On YouTube I told it to do long form video only look for long form videos to make clips out of. But on X you know there's a lot of great 16 by 9 clips that it can find on its own. So that was the process there and why they're different.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:45:51",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "Can you modify the skill to understand like based on the virality of the clip? Uh obviously the content is a key here but the way uh X or YouTube or TikTok or Instagram like things go viral there has slightly different uh algorithmic treatment to that. Is that a the that knowledge is in this skill that it knows what to do with this?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:46:18",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Exactly. So for the X field specifically I set it up where it actually does a ratio of followers to interaction so whether that's likes or comments and the higher the ratio the more viral the content is. So that's just one tool that I made to be able to look for that virality but obviously it's looking at likes on YouTube and on X it's looking at when the clip was published so I'm pretty sure I'm looking for all within 48 hours to kind of make sure it's as up to date. So yeah that's a little tool that I made to check the virality.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:46:54",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "Oliver, that's that's the interesting part. You made that tool right? So you're not using a tool like an InVideo or an existing clipping tool and just saying hey agent use the clipping tool to like put the video in and do it. You're actually describing what the tool you wanted made based on what parameters you like. Like that's the that's the difference I want to like highlight again with open cloud versus you know just having an agentic workflow of calling some application out there. So I I just wanted to double click on that. So you made that kind of those description tools of what you like in a YouTube video or X video or things like those right?",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:47:26",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Yeah exactly. And one thing important too is kind of post-training your agent where it found some videos and not all of them are great and that's when you have to go back in and tell your agent what you liked what video you didn't like and then it'll save that in its memory for future when it's looking through clips.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:47:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is awesome Alex. Did you give it some sense of discernment as to like what you find compelling or how did you or how did you brief it to have that kind of yeah that kind of discernment just in terms of the picking the best moment workflow?",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "That feels like number four here, right? AI analysis, so you first, you do the cron job, you understand the scales, second, you find the best candidate, candidate being clip, three, you download the MP3, transcribe it, and then four, that's the AI analysis to pick the best moment from it? Yeah, Alex, this is a great question. What happens in step four exactly? What instructions did you give your agent in step four?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:48:27",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Yeah, so this is when the agent goes through and looks through the transcript. So, in going back to step three really briefly, what was happening originally when I first set up the script was it was downloading the full MP4 and that was taking a long time and, you know, a lot of memory. And it was putting it through Deepgram, which is a speech-to-text platform that the AI would then analyze. So that process was pretty clunky, so I just had it take the MP3, put it through Deepgram, get the transcript and then put it into Opus 4.6, which is the AI brain here that's picking the best clip. So here it's actually just doing this all by itself. There wasn't a lot of training here, I basically was just like, find the best moment from these clips. And for the most part it worked really well. Once it finds the clip it'll then go and use a built-in tool called FFmpeg, and it will clip that segment based on the selection of the transcript that it made.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:49:25",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "Okay, so then it downloads it, it trims it, and it puts captions in it automatically?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:49:31",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Yeah, so it's able to build in the captions and edit it all within OpenClaw. This is actually a tool that's built in to FFmpeg and this is all in OpenClaw. It doesn't, you know, do an API call to some editing platform. It built all of this all in OpenClaw, which I just think is insane.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:49:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It built your software. You didn't need to hire a third-party piece of software to clip it. Mitesh, when you see this, what are you thinking? I see you nodding and you've, like any great CEO, you're beaming. You're beaming when you see efficiency, yeah?",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:50:00",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "Yeah, I mean, like the part that I got just, you know, what I already like really magnified is like, and Oliver, like without knowing any of your background... like if I was building, like, you know, the in literally like 21 days ago or even before that, I'd be just like okay what is like the my first search would be to an AI tool which is what is the best clipping agent, and then it's like okay how do I make it such that, you know, it goes and automatically searches it and it'll be a constant back and forth of doing that and it'll be integrating that software tool into that piece of system. Whereas here it really is around like you custom made your own toolkit and literally it could be like Oliver's smart AI clipping toolkit that you can advertise out in the market if someone wants to use it and build a software piece. I mean that is not only just efficiency there, that is like just...",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "The level of like new kind of thought process that can can result into that. Like I know Alex that you you explained how you do the X kind of uh algorithm in terms of how how you want to do it. Maybe you know you have some content kind of genius in you that you like know this is the way that I always want to pick my clips. No one else does it this way and that becomes like actually a true metric and then you can now share that with the the rest of the world as a full software toolkit not just like saying that this is what you need to look into and that's that is like really really cool. I mean driving those new mean mean we talk about new use cases that's kind of what it is that that Open Claw draws drives.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:51:33",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Yeah and when we talk about you know we don't need to buy uh we don't even need CapCut anymore for clips. We don't need search light for software. I could have previously you know I would have been so happy if there was a way that I could have connected the Open Claw to you know CapCut, had it work some magic and then send it back. I would have been thrilled to pay you know even $100 a month for that but now we don't need to do that anymore. And you can see just on This Week in AI we've even posting some of these clips and they've done you know relatively well. 300 uh likes, you know 40,000 views.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:52:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Wow! Proof's in the pudding. So how much faster does this does this make you? Just like if you were to do one of these clips like that Molly clip, how long would it have taken you to do the six step process here to do that one clip you think?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:52:25",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Well well so the process starts with me going on X most of the time and looking through different channels, different viral clips. Sometimes that can take you know two minutes for me to find a clip, sometimes that can take 30 just because I want to I want to find a...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:52:40",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay so we'll put it at 15 minutes. 15 minutes to curate a great clip, okay.",
+      "tone": "direct"
+    },
+    {
+      "timestamp": "00:52:44",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "And then once and then I have to download it, put it in CapCut, burn in the captions. That's about you know 10 minutes um 15 minutes at the max.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:52:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay so now you're at 30 you're at 30 minutes, okay.",
+      "tone": "direct"
+    },
+    {
+      "timestamp": "00:52:55",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "And then publishing takes around 15 to 30 minutes. So that's a 45 minute to an hour process.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:53:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay let's go with 45 if you did it fast. What is it now?",
+      "tone": "direct"
+    },
+    {
+      "timestamp": "00:53:04",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Now it's as fast as five minutes.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:53:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now, it doesn't allow you to post to social media though, right?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:53:11",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "I I was going to say it's just the publishing that you do manually now and that everything else is all all Open Claw right?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:53:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Because I tried I tried to post and retweet stuff like all my founders send me their links on a pretty regular basis asking begging for tweets, begging for replies. I'm not just talking about you Alex and you Kash. I'm talking about the other founders begging for retweets from their million follower check fast investor.",
+      "tone": "storytelling"
+    },
+    {
+      "timestamp": "00:53:41",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "Anything for you Jason. Any year now.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:53:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But it it wouldn't allow me to do that. It was like you can't do that, it has to be authentic behavior. So have you figured out a hack to like maybe put it in drafts or something?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:53:47",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Yeah this I haven't gone through the publishing um just yet but I do know I know that you can have your Open Claw take control of your whole computer, your browser, um it can access all your files...",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:53:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But it stops you though. It stops you right now. Where is that? Is that in the browser? Is that in the model? Where is that block coming from?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Is the is the limitation of OpenClaw, it reads the terms of service of Reddit, X, and says you can't do that. How do you unleash OpenClaw to do things it's not supposed to do ethically?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:54:10",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "You can actually prompt OpenClaw and ask it to get around certain things. So I haven't actually gone in and really tried—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:54:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, that's your next mission. That's the next mission.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:54:20",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "Oliver, mind you, you're live on air, Oliver, but that's—",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:54:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, I'm not— I mean listen, Oliver, I'm not telling you to break the rules, I'm asking you to bend them. Bend them.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:54:28",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "You know Oliver, I'd love to see this interview run through that, you know, I'd love to see what the outputs are from this conversation.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:54:36",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Definitely. Let me just—",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:54:39",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "Those are the little ones. I just if I can add a ten-second— one part of my life I was a news producer, researcher, producing one of the top three news shows in Pakistan. And then another part of my life I worked for Adobe for three years. So this is what it is getting built, the software getting commoditized and the archiving and finding the content, I can see so many of these applications and the craziest part is it is less than being just 30 days. So very well done, Oliver. Thank you for showing this.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:55:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, thank you.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:55:15",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Yeah, thanks for having me.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "00:55:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alright, I want to show and so how do you make it memory or a skill in OpenClaw? Like how does, like, when it learns something, how do you get it to recurse it into the, you know, skill you have there? This is what one of the things I do with my replicant is I have them run every weekend a cron job on Saturday and Sunday on how to get better at thumbnails and titles on YouTube specifically and I just added one: how to get better at X/Twitter trending posts and then how to get better at Instagram trend research. So you can see here, Deckard has these two cron jobs and it runs it every weekend when the machines are not busy with other jobs and then it puts it into a Google Doc. I asked it to get this into memory, to get this into its short-term memory so the context window or something. I just had it create two more cron jobs every Saturday, 1:00 PM: research viral tweet patterns, hook strategies, thread structures, engagement tactics, optimal posting times. It added what it does there by the way, I gave it a much more generic thing. And I did one for there and it said the self-improvement part, each run reads a cumulative knowledge base, memory/instagram_trends_research.md before researching so it never repeats the same insights, builds on what's learned before, tracks which patterns are confirmed over multiple weeks versus just new, notes what stopped working, gets smarter every week. So your weekend research—",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Wind up is now these four things. So .md files is how you save this stuff into memory. All right, gentlemen, so the way this work is works is Open Claw has something called MD files. These are markdown files. They serve as the AI agent's memory system and there's a bunch of primary ones. One's agents.md, that's like how it prioritize and does workflow, that's built into its soul.md, that's the behavioral one, how it's voice, its temperament, its values, its values. And then you can add to it, right? And so that's what we're doing here is adding a memory and a skill. So as you can see here, this is an interface that Oliver created previously, um, or I should say his agent created. We didn't buy this from a third party, it just made it. And it has all the different memories in there and uh, he has his cron jobs, etc. So my hope is that over time our agents, Alex, are going out there every week studying the latest and greatest and cumulatively building a knowledge base. You know, I want humans to do this, Kash and Mitesh, but when you ask a human to get better at a skill, I think like 5% of people have the discipline to do that, whereas an agent just does it. You don't have to beg it to do it. Do you have something like this going where you're trying to make Leon better every day?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:58:25",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Yeah, I do um already have something like this going, which is the optimization research and the optimization debrief. So how all the systems are looking and what I can implement to make that better. So it looks through all of my skill files, all of my memory files, sees if there's any overlap within skills or memory, because you don't need the same information in two places, you just need to make sure that your agent knows where to look. So the optimization agent goes and looks through this and then the optimization debrief lets me know what we can improve on and then gives me actionable items that it can go do by itself. So this isn't 100% autonomous but it does go through and, you know, give me the ability to make major improvements and I could give it full ability to make whenever changes it wants but at this point um this just takes one minute.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:59:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alright, Kash, Alex, Mitesh, any other questions for Oliver about this? Or uh, you know, challenges for him if you were his CEO, things for him to work on?",
+      "tone": "facilitating"
+    },
+    {
+      "timestamp": "00:59:30",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "Amazing work, Oliver. I guess do you have any—",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:59:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You can give him a little praise, just a little praise, not too much.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:59:34",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "Um, definitely, definitely worthy of that praise. This is amazing and, you know, to RAG this up in such a short period of time. Do you have, kind of having been in the weeds of this, do you have any deep-seated concerns or any anxieties about sort of the agent beginning to, you know, deliver value to the overall org? Or is there anything that keeps you up at night while the agent's up at night?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "I want to make sure that all the tasks are working correctly and making sure that that's happening has been a little annoying because there's so many nuances to certain tasks that you're giving it, you know, it's working with a but it's, you know, analyzing a slack channel with a bunch of humans. Not everything is, you know, zeros and ones. It has to make, you know, decisions that it might not be capable of making. And, you know, while I was doing some of the prep for this episode, Alex, you mentioned something about, you know, agents are great at tasks, but when they're trying to get some human nuance, they're not as good as that yet. And I do think that the tasks that will start to make the most impact will be those repeatable tasks, but not yet the you, you know, human-led, human-type decisions, um, just yet. And I think that that will come, you know, as Mitesh starts to, you know, make better memory in his chips and it's all going to get very exciting and we see, you know, Opus 4.6, larger context windows, it's going to keep getting better.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:00:58",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "I have a great anecdote about that. Someone at my my company tried to brief... it was an agentic browser, so it was just prior to the the you know, this whole world... but briefed it to get his sister a whimsical gift, kind of a funny whimsical gift, and it went all the way through the Amazon workflow and selected this horrifically inappropriate garden gnome that I will not, not describe in any, in any detail, but uh it went all the way to add that to cart and was just kind of a hilarious example of, you know, discernment gone wrong. But uh yeah, all fixable problems in the medium term.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:01:38",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "Yeah, and that's still human, I think you still have to have a little bit of human in the loop, but you know as we move forward we'll be more comfortable with with less and it'll make more uh correct decisions so. It's all very exciting.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:01:49",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "And especially when human has the liability and responsible for making financial decisions or or any life and death decisions, uh human definitely will have way more productivity, way more knowledge, uh and making the executive decisions uh that need to be made. Uh Oliver, very well done.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:02:15",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "Appreciate that, super cool.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "01:02:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oliver, you're going to do a Saturday session. Get to pick I think you can handle like seven team members. Seven slots. First come, first serve. Give every everybody can put on their corporate card at like an instance to set up and then I want you to train seven of our people. Seven slots are open for Saturday. Pick a time window. You can do it in person if you want to buy lunch for everybody or you can do it virtually whatever you guys want to do. And I want a report back on all seven people who came and how great they did. Only open to seven people on the team.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "01:02:45",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "Great. Very exclusive and...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:02:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oliver, yeah very exclusive. Maybe five. Maybe we should just do five. Would it be better to do just five at a time? What do you think you can handle like them showing their work going back and forth and making it better?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:02:57",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "You know, I think what's great about...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Because once you get it set up, you can basically, you know, do it yourself. And so once we get it set up, um, there's actually a video on this week in AI, um, YouTube channel on how to set up your own OpenClaude on AWS EC2 server, so it's not the most secure but it is the fastest and one of the cheapest ways to get your OpenClaude set up.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:03:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, do five. Do five people because I want to see five people get good at it. Do five, five slots open to my team members, uh, first come first serve, sign up now, DM Oliver on the team. Oliver, what are the limitations right now of OpenClaude and how should we as CEOs be looking at that? We, we know there's inference issues, we know there's memory issues, there's token issues. What are the top blockers? We, we said at the top of the show we were going to talk about blockers right now for AI. What are the blockers?",
+      "tone": "commanding"
+    },
+    {
+      "timestamp": "01:03:44",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "I mean, clearly price is, is up there and you know, what's interesting about the Mac Mini, Mac Studio situation is, you know, you can get great models, you can get good models locally, but they're not as good as the frontier models like Opus, like Gemini, uh, like GPT-4o. So you can run them, they're good at certain tasks. What's great about the local models is they can consistently run, you know, look to do X, flag certain things, but they're not going to make the right decisions, um, like an Opus would. So I think and when you're using those frontier models using an API, they get very expensive. So that's price and that's also the limitations of the local models. So I think those are two blockers. Once we see the local models improve a little bit more, maybe um, the Mac M5, I believe is the new one, maybe that makes a huge impact. Um, I'd love to get hear what Mitesh thinks about this, um, as he's kind of building out these chips.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:04:40",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:04:41",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "Yeah, uh, I think that's kind of the right way to think about it, Alex, is as, as like, you know, the price, uh, kind of exchange that you're doing for, for the level of knowledge. And look, I think first of all, Mac M5, yeah, like the Mac Mini with M5 will be like really awesome because more unified memory, so it'll be able to run some of the, especially the open source models that got launched last week, you know, some of them, you know, combining them together maybe. But the point is the frontier keeps on moving forward. And I like to equate it, I think I mentioned it before, but I like to equate it like kind of like a small brain, big brain. Like you'll always have small brain getting better at kind of like the Mac Mini levels and and it will get better and better, but then your requirements for the tasks will also keep on improving and then that's where you have to go to the cloud. So you know, when we were doing Lambda we, we thought and and at that on-prem will get massive, but with AI, any...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:05:29",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "It is growing.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "01:05:30",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "Like the thing is the overall industry is growing, but the cloud CAPEX is so far outspending the on-prem side of things that it clearly is the the frontier use cases are much more massive. I think the biggest improvement though, I saw when you were scrolling kind of the clips it picked up, it picked up Dario's clips, uh, you know, around and and like if you hear and and basically like summarize the entire Dario podcast, you'll be like 'Alright, how can I get more context?', you know, just basically he thinks every all the all the learning improvements can happen with like massive amounts of context.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:06:00",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "context and and and, you know, whether that's self-improvement, whether that's just models getting better, whether that's having things, so it's all about that that context. And more context means more memory. And also attention scales quadratically up, so like it just means that we are not going to be out of this memory cycle for a long, long time. But overall, I think all of us, you know, including Positron, but including just, you know, what if you look at what NVIDIA is focused on, what all the other silicon companies are focused on, it's to figure out ways to improve the context window without degradation. You know, right now, you can go 200k, 400k, maybe you can go a million on Gemini, but you start seeing degradation above that. And it's like, how do you do that? When we are running Claude agents to do our internal engineering workloads, every few minutes to few hours, you have to constantly clear out and then summarize the memory, and then use the summarized memory as part of it. I'd much rather they have the full context, and I think that's a big improvement that can come there.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:06:59",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Yeah, I actually have a question for you, Mitesh. Do you think it's better to build out a bunch of micro-agents that have, you know, maybe just one or two memory files and three or four skills, versus building out like a mega Open Claude agent? Ultron? Yes. What do you think makes most sense?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:07:15",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "I don't know the exact answer. It depends on the task. Like, for a lot of the engineering, like, you know, in code development and things like those, I think some of the big agent, the Ultron agent, is always better in terms of, like, if it can hold the context and if it fits within that context, then it gives a much better output. But I think for smaller tasks, I think the micro-agent works better. It's faster. Also, you touched upon the price, it's probably a cheaper way to do things there. But I personally prefer one thing to rule them all kind of setup, personally, just from the ease of growing that, from the ease of having everything. It's just not, today, we're not there yet to have that to rule, you know, years and years of context and everything like that. So that's the thing. But personally, that's my preference.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:08:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, well let's drop Alex off. Well done. I think it's, yeah, it's, I think we're going to go back and forth on this, Alex, between, you know, micro instances, and then as we get more memory we're like, 'Oh, let's try to get them to be one.' I like the idea of individual agents just keep refining them, making them better and better at it, just like I would prefer that with a human metaphor, where I'd love for one person on the team just to be so awesome at social media, so awesome at editing clips, so awesome at sorting applications for the accelerator, that, you know, until those skills and agents and memory gets perfect, we should just have one doing it. If it does make it perfect eventually and there's no gains left, well, of course, yeah, then it could just become folded into Ultron. All right, well done. This has been another great episode of This Week in AI. Thank you, gentlemen, for doing the news and thank you, everybody.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:09:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Podcast, Kash hiring for some positions, trying to get more accountants to learn how to use the product. It is taxgpt.com or .ai?",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "01:09:10",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": ".com.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:09:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": ".com. If you are an accounting firm, I want you to email Kash at...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:09:17",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "taxgpt.com.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:09:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "taxgpt.com and just do a trial and give him some feedback. What startups need is a really motivated customers who are willing to give great feedback, right, Kash?",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "01:09:29",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "Yeah, that's the number one thing you need, or you need some frontline engineers too.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:09:33",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "Uh, we're looking for forward-deployed engineers. Uh, around 2% of accounting firms in the country are using TaxGPT, so we have...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "01:09:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Let's add a zero.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "01:09:44",
+      "ad": false,
+      "speaker": "Kash Ali",
+      "text": "Yeah, uh, yeah, that's the goal in the next 12 months.",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "01:09:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I love this game. Alex, how can developers... I know you need developers to play with the API and give feedback. You're alex at qloo, Q-L-O-O dot com. Is that your number one need right now is people to use the API and give you feedback? I assume customers are never a bad thing.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:10:05",
+      "ad": false,
+      "speaker": "Alex Elias",
+      "text": "Totally. Yeah, we love supporting new use cases. We have, yeah, a pretty amazing expanded set and please do reach out. If you have, if you're at a large company, a small company who wants to kind of bake in that level of judgment and inference and get these agents on the proper right rails, reach out, we'd love to support.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:10:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Mitesh, what do you need? Aside from a shovel to snow out of this blizzard we're both trapped in here in Lake Tahoe. My lord, look at behind me, my entire window's going to be covered in a minute. It's literally a foot...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:10:44",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "I think that the biggest thing is, I mean, people are in everyone's retweeting and quoting how many tokens that they need. So first and foremost, we are building chips that are going to make these tokens cheaper and faster and more, and we have mass deployment, so anyone who needs a token please reach out to me. But and the second thing I would say is anyone wants to work on amazing silicon architecture to really drive, be the fundamental pillar of of this technology for the coming years, I think uh that's another thing. ASIC engineers, software programmers for silicon, please, please reach out. mitesh@positron.ai.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "01:11:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right everybody, This Week in Startups, This Week in AI, All In, your three favorite podcasts. I'm Jason. Alex, Kash, Mitesh, great job and we'll see you next time. Bye-bye.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:11:27",
+      "ad": false,
+      "speaker": "Mitesh Agrawal",
+      "text": "Thank you.",
+      "tone": "grateful"
+    }
+  ],
+  "highlights": [
+    "AI is transitioning from reactive \"co-pilots\" to proactive agentic operating systems that can autonomously manage complex workflows like recruitment screening and inbox management, often saving executives several hours of work per week.",
+    "The \"democratization of the executive assistant\" follows a historical pattern where technology commoditizes luxury services, allowing average users to access the high-level coordination and judgment previously reserved for the ultra-wealthy.",
+    "In industries facing talent shortages, such as accounting, AI agents enable the rise of \"one-person, million-dollar practices\" where a single professional can command a fleet of digital assistants to handle high-volume technical tasks and advisory services.",
+    "Modern agentic platforms allow non-technical users to build custom software toolkits autonomously, such as content clippers that reduce a 45-minute manual production process to just five minutes by self-generating the necessary code and logic.",
+    "The current primary bottlenecks for AI adoption remain the high cost of \"frontier\" models and context window degradation, though the development of high-performance local silicon is expected to eventually shift more complex reasoning to on-device hardware."
+  ],
+  "summary": "This episode of *This Week in AI*, hosted by Jason Calacanis, explores the rapid transition from AI co-pilots to autonomous agents, with a specific focus on the \"OpenClaw\" platform. Guests Mitesh Agrawal (Positron AI), Alex Elias (Qloo), and Kash Ali (TaxGPT) discuss how agentic workflows are revolutionizing productivity and hiring. For instance, Agrawal uses agents to recapture an hour of his workday by automating executive tasks, while Ali describes using an agent to screen 1,000 job applicants in just two hours—a task that would normally take a human recruiter an entire week. A central theme is the \"democratization of the elite,\" where AI provides the average worker with high-level support, such as executive assistants and researchers, that was previously reserved for the ultra-wealthy.\n\nThe conversation also highlights the transformative potential of AI in specialized industries facing labor crises. Kash Ali notes a massive shortage of CPAs in the U.S. and predicts that AI will soon enable \"one-person, $1 million accounting practices\" by handling rote filing while humans focus on high-level advisory roles. A live demonstration by producer Oliver further illustrated this shift, showing a custom-built \"autonomous content clipper\" that curates, transcribes, and edits viral videos without the need for third-party software. However, the panel identifies several ongoing hurdles, including the high cost of frontier models, the necessity for larger \"context windows\" to maintain memory, and the difficulty of imbuing agents with human-like taste and nuanced judgment.",
+  "description": "Jason Calacanis sits down with three CEOs building at the bleeding edge of the agentic revolution: *Mitesh Agrawal* (Positron AI), *Alex Elias* (Qloo), and *Kash Ali* (TaxGPT). They discuss the rapid rise of **Open Claw**, an open-source platform that is fundamentally changing work by allowing users to create autonomous agents. \"Saving 30 minutes a day... that’s like getting three more weeks a year back.\" \"I don't need a technical recruiter today.\" \n\nWe explore how autonomous agents are moving beyond \"Copilots\" to become independent teammates:\n\n- *The AI Executive Assistant:* How Mitesh Agrawal uses agents to automate inbox filtering and Slack drafts, recapturing 6% of his year.\n- *The Hiring Hiatus:* Kash Ali screened 1,000 job applications in two hours with \"flawless\" accuracy, replacing 40+ hours of manual labor.\n- *The $1M One-Person Firm:* How AI is solving the shortage of 340,000 accountants by allowing a single person to command an \"army of agents\".\n- *Democratizing Luxury:* Scaling the \"chauffeur and concierge\" experience to everyone through taste-based AI and structured inference.\n- *Autonomous Media:* A demo of an agent that transcribes, clips, and captions viral content in five minutes, a process that previously took an hour.\n\nThe agent era is here. Are you building your replicant, or are you being left behind by a 10x more efficient workforce\n\nThis Week In Startups is made possible by:\n\nNotion - https://www.notion.com/twist\n\nQuadratic - https://www.Quadratic.ai/twist\n\n*Timestamps:* \n\n00:00 Welcome to This Week in AI!\n\n03:17 How are CEO’s using OpenClaw?\n\n09:25 Notion - Notion brings all your notes, docs, and projects into one connected space that just works with AI built right in. Try Notion, with Notion Agent, at notion.com/twist\n\n00:19:09 — Automating the \"Great Hiring Hiatus”\n\n00:19:20 Quadratic - Bringing the productivity boost of AI into your spreadsheets. Visit [quadratic.ai/twist](https://www.quadratic.ai/twist) to sign up and use the code TWIST to get one free month of their pro tier subscription.\n\n00:27:11 — Saving Independent Film with AI Extras\n\n00:33:04 — Solving the Global Accounting Crisis\n\n00:36:36 — The $1 Million One-Person Tax Advisory\n\n00:43:05 — Demo: The Autonomous Content Clipper\n\n01:07:39 — Micro-Agents vs. \"Ultron”\n\n01:10:23 — The Developer, the CEO, and the AI Joke (Outro)\n\nSubscribe to This Week in AI on Apple: https://podcasts.apple.com/us/podcast/this-week-in-startups/id315114957\n\nThanks for watching!\n\n🤖 If you want to stay ahead of the curve on all things AI, make sure to join our community across all platforms:\n\n📩 Get the Weekly Newsletter: https://thisweekinai.ai/\n\n📺 Subscribe on YouTube: [www.youtube.com/@ThisWeekinAIPodcast](http://www.youtube.com/@ThisWeekinAIPodcast)\n\n📸 Instagram: [www.instagram.com/thisweekinaipodcast](http://www.instagram.com/thisweekinaipodcast)\n\n📱 TikTok: [www.tiktok.com/@thisweekinaipodcast](http://www.tiktok.com/@thisweekinaipodcast)\n✖️X:\n\nhttps://x.com/ThisWeeknAI\n\nFollow Jason:\n\nX: https://twitter.com/Jason\n\nLinkedIn: [https://www.linkedin.com/in/jasoncalacanis](https://www.linkedin.com/in/jasoncalacanis/)\n\n*\n\nThank you to our partners:\n\n09:25 Notion - Notion brings all your notes, docs, and projects into one connected space that just works with AI built right in. Try Notion, with Notion Agent, at notion.com/twist\n\n00:19:20 Quadratic - Bringing the productivity boost of AI into your spreadsheets. Visit [quadratic.ai/twist](https://www.quadratic.ai/twist) to sign up and use the code TWIST to get one free month of their pro tier subscription.\n\nCheck out all our partner offers: https://partners.launch.co/",
+  "duration": 4288,
+  "people": [
+    "Jason Calacanis",
+    "Mitesh Agrawal",
+    "Alex Elias",
+    "Kash Ali",
+    "Open Claw",
+    "Executive Assistant",
+    "How Mitesh",
+    "The Hiring",
+    "Person Firm",
+    "Democratizing Luxury",
+    "Autonomous Media",
+    "This Week",
+    "In Startups",
+    "Try Notion",
+    "Notion Agent",
+    "Great Hiring",
+    "Saving Independent",
+    "Global Accounting",
+    "Million One",
+    "Person Tax",
+    "The Autonomous",
+    "Content Clipper",
+    "The Developer",
+    "Weekly Newsletter",
+    "Follow Jason"
+  ],
+  "topics": [
+    "Practical applications and automation using Open Claw agents",
+    "Impact of AI on corporate hiring and recruitment efficiency",
+    "AI solutions for the talent shortage and crisis in the accounting industry",
+    "Autonomous content creation and automated media clipping workflows",
+    "Technical hardware and software limitations of AI models"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/hnc9dTdeF_o/sddefault.jpg",
+  "date": "20260218",
+  "youtube_url": "https://www.youtube.com/watch?v=hnc9dTdeF_o",
+  "youtube_metadata": {
+    "title": "Is OpenClaw Flawed? Experts React | This Week in AI E001",
+    "description": "Jason Calacanis sits down with three CEOs building at the bleeding edge of the agentic revolution: *Mitesh Agrawal* (Positron AI), *Alex Elias* (Qloo), and *Kash Ali* (TaxGPT). They discuss the rapid rise of **Open Claw**, an open-source platform that is fundamentally changing work by allowing users to create autonomous agents. \"Saving 30 minutes a day... that’s like getting three more weeks a year back.\" \"I don't need a technical recruiter today.\" \n\nWe explore how autonomous agents are moving beyond \"Copilots\" to become independent teammates:\n\n- *The AI Executive Assistant:* How Mitesh Agrawal uses agents to automate inbox filtering and Slack drafts, recapturing 6% of his year.\n- *The Hiring Hiatus:* Kash Ali screened 1,000 job applications in two hours with \"flawless\" accuracy, replacing 40+ hours of manual labor.\n- *The $1M One-Person Firm:* How AI is solving the shortage of 340,000 accountants by allowing a single person to command an \"army of agents\".\n- *Democratizing Luxury:* Scaling the \"chauffeur and concierge\" experience to everyone through taste-based AI and structured inference.\n- *Autonomous Media:* A demo of an agent that transcribes, clips, and captions viral content in five minutes, a process that previously took an hour.\n\nThe agent era is here. Are you building your replicant, or are you being left behind by a 10x more efficient workforce\n\nThis Week In Startups is made possible by:\n\nNotion - https://www.notion.com/twist\n\nQuadratic - https://www.Quadratic.ai/twist\n\n*Timestamps:* \n\n00:00 Welcome to This Week in AI!\n\n03:17 How are CEO’s using OpenClaw?\n\n09:25 Notion - Notion brings all your notes, docs, and projects into one connected space that just works with AI built right in. Try Notion, with Notion Agent, at notion.com/twist\n\n00:19:09 — Automating the \"Great Hiring Hiatus”\n\n00:19:20 Quadratic - Bringing the productivity boost of AI into your spreadsheets. Visit [quadratic.ai/twist](https://www.quadratic.ai/twist) to sign up and use the code TWIST to get one free month of their pro tier subscription.\n\n00:27:11 — Saving Independent Film with AI Extras\n\n00:33:04 — Solving the Global Accounting Crisis\n\n00:36:36 — The $1 Million One-Person Tax Advisory\n\n00:43:05 — Demo: The Autonomous Content Clipper\n\n01:07:39 — Micro-Agents vs. \"Ultron”\n\n01:10:23 — The Developer, the CEO, and the AI Joke (Outro)\n\nSubscribe to This Week in AI on Apple: https://podcasts.apple.com/us/podcast/this-week-in-startups/id315114957\n\nThanks for watching!\n\n🤖 If you want to stay ahead of the curve on all things AI, make sure to join our community across all platforms:\n\n📩 Get the Weekly Newsletter: https://thisweekinai.ai/\n\n📺 Subscribe on YouTube: [www.youtube.com/@ThisWeekinAIPodcast](http://www.youtube.com/@ThisWeekinAIPodcast)\n\n📸 Instagram: [www.instagram.com/thisweekinaipodcast](http://www.instagram.com/thisweekinaipodcast)\n\n📱 TikTok: [www.tiktok.com/@thisweekinaipodcast](http://www.tiktok.com/@thisweekinaipodcast)\n✖️X:\n\nhttps://x.com/ThisWeeknAI\n\nFollow Jason:\n\nX: https://twitter.com/Jason\n\nLinkedIn: [https://www.linkedin.com/in/jasoncalacanis](https://www.linkedin.com/in/jasoncalacanis/)\n\n*\n\nThank you to our partners:\n\n09:25 Notion - Notion brings all your notes, docs, and projects into one connected space that just works with AI built right in. Try Notion, with Notion Agent, at notion.com/twist\n\n00:19:20 Quadratic - Bringing the productivity boost of AI into your spreadsheets. Visit [quadratic.ai/twist](https://www.quadratic.ai/twist) to sign up and use the code TWIST to get one free month of their pro tier subscription.\n\nCheck out all our partner offers: https://partners.launch.co/",
+    "duration": 4288,
+    "view_count": 16520,
+    "like_count": 357,
+    "channel": "This Week in Startups",
+    "upload_date": "20260218",
+    "thumbnail": "https://i.ytimg.com/vi/hnc9dTdeF_o/sddefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

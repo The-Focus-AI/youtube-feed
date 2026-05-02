@@ -1,0 +1,1259 @@
+{
+  "title": "The Deutsch Files II",
+  "source_url": "https://www.youtube.com/watch?v=I6GNK6BR4E8",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So let's go through the fabric of reality, the four theories. Feel free to start wherever you'd like, but the four theories that you think comprise a theory of everything and maybe especially what are the biggest things that even peers, colleagues, contemporaries don't understand or don't fully appreciate that makes each one of these deeper or perhaps more counterintuitive or more interesting than it might be at first glance.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:00:21",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Well, I don't know, we can start with computers. As I say in the book, it's hard actually to speak about any one of those things without mentioning the other three. But if we start with computers, I think there's something really fundamental that Turing discovered or rediscovered because I think that Babbage and Lovelace also understood it more or less, that's the universality of computation. That computation is physically universal.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:47",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "So there are several ways of putting this, like a computer can mimic any physical object, or a computer can perform the computations that any other computer can perform. Now putting it the second way sounds like it's a statement about all kinds of different computers and has nothing to do with trees and garages and windows and so on, but actually it has to do with everything.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:12",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "And therefore people still even today are saying things like, how do we know the brain is a computer? You're just assuming the brain is a computer, like in the 19th century people thought the brain was a steam engine. And I think Searle is one of the people who says that kind of thing or has said that kind of thing.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:01:34",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "In order to understand Turing's discovery, you've got to understand several things about it. One of which is that it's a theory of physics. And that is denied almost wholesale by mathematicians. So mathematicians are used to the theory of computation being a branch of mathematics, they love the theorems that you can prove and the theorems that you can't prove and so on.",
+      "tone": "academic"
+    },
+    {
+      "timestamp": "00:02:02",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "And somehow they don't want to admit, it's not quite it, it's that learning to be a mathematician apparently means adopting a certain worldview that makes it very hard to understand that computation is a physical process and is governed by laws of physics, which could be different, whereas the laws of logic, they think, couldn't be different.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:02:24",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "And therefore things like whether P equals NP and whether the brain is a computer and so on isn't a matter of physics. But it is, and the best physics we know, which could be wrong, says that computers are universal, that in a certain sense Turing's computers are universal and in a certain sense quantum computers are universal, or will be when they're built, if they're built.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:51",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "Just on this, how do we know the brain is a computer? Turing's thesis would say that all physical processes can be computed. Okay, so-",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "What a tree is doing, we can write a program and Turing machine would be able to capture that. But the tree is not a computer, but the brain is.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:03:09",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "Well, the tree isn't a general-purpose computer.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:03:12",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "But you can think of Turing's thesis, whatever you call it, the other way around as well because the reason he wanted to make this imaginary machine out of paper, it's not that he wanted to understand paper, you know, or as Feynman said, he should have. But that he wanted to have a model of computation and he wanted to be able to say, to conjecture, that it is obvious that anything that can be computed can be computed by this paper. Now that means that he's also assuming that this paper can also compute whatever a tree can compute because you could regard the tree as a computer and then Turing saying whatever it can compute is a subset of what Turing machines can compute. And Turing machines are the ultimate. There's nothing beyond that. That's another thing that's really important that when it comes to universality of explanation, people don't get it because they don't even get the universality of computation. They don't understand that if someone says what if the aliens come from Alpha Centauri and they have better computers than us? It's impossible. They can have computers that are faster and have more memory, but that's it. Our computers are the limit of what can be computed by anything in the universe unless quantum theory is wrong and so on. But that's not what they're saying. They're not saying maybe quantum theory is wrong. They're failing to make the connection in Turing's argument between physical objects and mathematical objects, these imaginary paper and anything else like trees. I don't know if that's the thing that people tend to get wrong, but that's one thing that I've seen a lot lately.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:04:56",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "And that leads us into the others, both epistemology and quantum theory.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:02",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Let's go to your... the one where even though you may deny it, where I think you've made the most original contributions after computation, which is epistemology. We have to invoke his name just to point to it, but Popperian epistemology. What do people not appreciate or perhaps overlook or get wrong or not understand, or is there another way of approaching it that might help people understand the fundamentals?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:05:22",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yeah, it's more of another way of approaching it. So people do credit Popper with certain things, but they are unimportant things by comparison with his actual philosophical discoveries, like that scientific theories ought to be testable. You know, that's true, you know, or 99% true or something like that and it is reasonably important in order to distinguish things as Popper wanted to do, to distinguish things like fundamental physics from Marxism. So it's useful for that, but it's not such a big deal. I think my...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "My colleague Mateus Bernades said last year that to him the most important concept in Popper is the concept of a problem.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:06:11",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Once you've understood what Popper means by a problem, you have this other way of understanding what epistemology is and so on.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:06:22",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "I think I've come around to agreeing with that.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:06:23",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Because all previous epistemologies assumed that knowledge is, well, sometimes it's called just justified true belief.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:06:32",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "But I think it's wider than that. I think the misconception is that we want knowledge because we want to rely on it, and therefore wherever it comes from, which is mysterious, but that better be reliable too.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:06:46",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "That's the intuitive idea that I think most people have and that most philosophers have had over the millennia.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:06:51",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Therefore you want to say, well, what is absolutely certain? Well, is it the sayings of the gods or of a god? Is it immediate sensory perception or is it our tenuous memories of a previous life like Plato tried to say?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:07:08",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Because I think many serious philosophers have realized that the senses are imperfect and can be misleading.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:07:17",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "But then they said, okay, well, it's not the senses, what can we rely on? And then Immanuel Kant said, oh, pure reason, you know, you rely on pure reason.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:07:25",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "And that led him to all sorts of rather silly conclusions.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:07:30",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Whereas if you have the idea of a problem as Popper understood it, which is usually in Popper the word problem refers to good things, although there are bad problems as well, problems of suffering and so on.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:07:44",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "But he mainly uses problems as used in science as an interesting thing which we haven't solved yet, which we haven't understood yet.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:07:52",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "And then, as soon as you think of science and rational thought generally as being about problems, then you lose the urge, the need to talk about where it comes from.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:08:05",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Because a problem is there to be solved and the solution is what you want, not the justification of the solution by going back to first principles and proving that Jesus is the son of God because he's a descendant of King David because the prophecy said he had to be a descendant of King David.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:08:30",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Therefore we have to secretly invent a genealogy that goes right back to David, you know, in real life, and nobody has discovered a real genealogy that goes back that far, anywhere near that far.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:08:44",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "And the truth of Christianity doesn't depend on it. It's a wrong way of thinking about Christianity.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:08:51",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "But then when it comes to religions, people then because of this epistemological error and because of this complete disregard of problems as the origin of growth knowledge.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "which makes you more sure of it than before. And, although you know, it's not good to be sure of things, but this change, this way of changing the confrontation between ideas as being beneficial because they cause change in the ideas, is also a beneficial side effect of Popper's concept of a problem.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:19",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "I can hear the anti-Popperian or even the non-Popperian saying, but hold on, when you make an observation with a telescope of here's Mercury, that's an observation, that's not an idea that you have, so the fact that it conflicts with the existing classical picture of how gravity works, that's not a clash of ideas, it's a observation that is clashing with ground sort of an idea or a theory.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:12:45",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "Yeah, well you had two theories at the time, both of them had their adherents, general relativity and Newton's theory. There were also other tangential ideas, like if you believe Newton's theory or if you adopted Newton's theory and you wanted to reconcile that with the observations, because the observations were also a theory, you could say that the astronomers are wrong, which they did actually. People said about Eddington that his observations were wrong and it was only actually in very recent times that it was uncontroversially discovered that Eddington's observations were in fact right, even though they were incredibly hard to do and he didn't get enough credit all those decades.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:31",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "So you had theories about the observations, then there were theories to fix up Newton's theory, like the theory that maybe there's another planet that we don't know about and you could tie down that theory and say where the planet has to be, what its mass has to be, and so on and you could then slowly rule out that this planet was there and Newton's theory still be true. Of course, if Newton's theory was wrong, then you can put the planet anywhere you like and make any modification you like to Newton's theory. So that's not how it works, we want good explanations. At that time you're speaking of, Newton's theory was a good explanation, it had some problems with it, Einstein's also, and all relevant experiments, the observations of Mercury, the observations of the eclipse, and so on, and all the subsidiary observations as well, were all in conflict and the argument improved those theories until the clash was such that Einstein's theory was the only good explanation left. You had an infinite number of bad explanations, they're always left, but the only good one was Einstein's theory and I know you were looking over there through your telescope at the non-Popperian, but I think he's gone now.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:49",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Let's talk about one of the remaining two: quantum physics or evolution by natural selection.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:14:55",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "Yeah, so evolution is, there's a very simple way in which people don't--",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "And it dates back to the old theories of evolution like Lamarckism and I don't know what they called Erasmus Darwin's gradualism or whatever. But anyway, these were attempts to account for the world around us without appealing to the supernatural. So both Lamarckism and Erasmus Darwin's theory, I am probably not crediting the real author of origin, originator of that theory. They wanted to make sense of the world without appealing to the supernatural. And their ideas are still current. Not under those names, but sometimes Lamarckism even under that name. And of course there was Lysenkoism which was a species of Lamarckism. But today most scientifically minded people would say that they agree with Darwin's theory of evolution and then they would immediately, often go on to say that after all the survival of the fittest and you know obviously the fittest are going to survive and that's not at all what Darwin's theory says. But I actually think this battle is more important than the one between creationism and evolution. Because this battle, the battle between Lamarckism and Darwinism, or Neo-Darwinism, mean whatever you want to call it, (again, you know, we can't find a good name for it). This is about what is a scientific explanation. And creationism versus evolution is not about that. That's about whether we want a scientific explanation. So if somebody if their philosophy seeks a supernatural explanation of the world, then you can't argue with that person about evolution, you've got to argue with that person about that. That's the philosophical argument. It has nothing to do with animals or evolution or anything like that. You can you have to engage with that idea of wanting the supernatural on completely different grounds and with different philosophical arguments to the ones that you would use about evolution. I think that's more important, but you know that's just my opinion.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:17:18",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So you gave us the enticing tidbit that it's not about survival of the fittest. What's wrong with saying survival of the fittest?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:17:22",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Ah, well it's about the replication of genes, or gene variants if you want to be more precise still. It's about the differential replication of gene variants. Which is what gives it its connection with epistemology as well.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:17:35",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So it's the survival of the best adapted gene? Or propagation of the best...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:17:38",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yeah, well unless...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:17:43",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Or genes encapsulate knowledge, it's the growth of knowledge and therefore the replication of genes is the physical instantiation of that knowledge.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:17:48",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:17:53",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "So you can put it that way if you think of knowledge as information that has causal properties, but not everyone does.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:17:59",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "So you can think as Dawkins had a very nice way of showing...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "There are theoretical biologists who try to develop numerical measures of fitness so that they can say genes evolve to maximize fitness. And fitness has got something to do with how many of your grandchildren survive and you know the very complicated mathematical thing.",
+      "tone": "intellectual"
+    },
+    {
+      "timestamp": "00:18:21",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "And Dawkins said, and I won't be able to say it as well as he did, something like, fitness is that quantity which appears to be maximized if what is actually maximized is the survival of genes.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:18:35",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "So this is a very simple theory at one level. As I said the other day, that in a sense Darwin could have written his theory on one page, but it needed a book to explain it and he still hasn't entirely succeeded. And the neo-Darwinians had to improve on it a little because he didn't have a concept of gene because they hadn't been invented. Or maybe they had with Mendel, but he didn't really know that, even though they were contemporary.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:19:03",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "One part of what I got from the Beginning of Infinity, which I didn't even realize until I read the book, was that we understand far less about evolution by natural selection than most people think. Going through high school, you're basically taught if you encounter evolution by natural selection, well there's the theory, it's wrapped up in a nice little bundle, it's almost like Newtonian physics, that explains everything about what's going on in biological diversity.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:19:28",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "But you point out, evolution by natural selection almost stands on equal footing, not quite, but there's a mystery there at the heart, as there is with the mystery at the heart of what a person is and how a person creates knowledge. Can you illuminate that for people? What do you mean by we don't really know everything about evolution?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:19:47",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yeah, well in both cases there's a mystery. I think in the case of evolution, that mystery is not as important to the foundations of the theory as the question of what is a person, what is knowledge has to do with artificial general intelligence.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:20:04",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "But in regard to evolution, it is a fact that we, despite having enormous amounts of computer power available, we do not know how to make an artificial ecosystem as a simulation on a computer. What always happens when they try to make such a system is that the functionality of the simulated organisms improves and improves and improves and then stops improving.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:20:30",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "And real evolution is nothing like that. Real evolution is going on all the time, changing, making new branches, there are new species evolving all the time, and it's just going faster and faster, and there's no end in sight to it. It's open-ended.",
+      "tone": "profound"
+    },
+    {
+      "timestamp": "00:20:46",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "You talk about the robotic legs learning to walk in the Beginning of Infinity. Evolution is—genuine biological evolution doesn't have a goal in mind, but clearly with the graduate student who's...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "got these robotic legs for don't yet walk but uses a so-called evolutionary algorithm such that the end of a number of iterations it is walking. Well it's been programmed with the goal of walking which is not what's going on.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:21:12",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yes, so I actually first realized this about evolution in a lecture that I was at about robots walking as I put it in the book. In a way it was an amazing presentation. This was I don't know when it was, 1980s or something maybe earlier, so computers weren't as powerful in those days and these people were making actual robots not simulations. So what I said just now is about simulations but the same is true of robots as well. Robots have got much better now but they still don't do this thing that evolution does even slightly. So I saw the videos that they had of their robot you know not walking very well and then walking better and then walking in ways that they hadn't foreseen so as they were thing \"Ah you know this is creativity in evolution\" and so I thought \"Wow you know if I come back in a year or two what will they be doing then?\" And then I thought \"Oh they won't be doing anything new at all unless the graduate student thinks of it.\"",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:22:15",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "They don't have their own problems. The problem is imposed from the outside.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:22:18",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "Yes and so the problem it's solving is just being solved from the outside. It's just an instrument being used in the pursuit of solving that very specific very focused problem.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:22:29",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yes. So another example I used to illustrate this, an example from physics, is that Newton's theory of gravity had an arbitrary constant in it which we now call capital G. I think historically it wasn't G it was MG the mass of the earth times G which was the fundamental constant. That's neither here nor there but it had a constant which Newton didn't know. And then later Cavendish invented this very clever experiment to determine this constant. Now I think Newton's discovery was not incomplete by not knowing that constant. His discovery was an explanation and that explanation is the same before and after Cavendish. Cavendish no doubt used tremendous creativity to design the Cavendish apparatus and to make it measure G with an accuracy that you'd be amazed was possible in those days. He did that. That involved creativity but that wasn't creativity about gravity. That was creativity about brass balls and you know whatever he did it with wires and so on incredibly sophisticated you know. By the way experimentation in science is hard. I don't know if that comes up anywhere in the four strands but that's another thing that people just don't realize. They don't realize that mistakes happen all the time and to do an experiment where you can",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "to form a good explanation that that you have measured the thing that you're saying you've measured is very difficult and sometimes beyond our technology or our knowledge at the moment and so people just do a bad experiment and publish that so that's another thing that happens that people don't get",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:20",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "It was interesting when I asked you about this once in terms of just making observations ostensibly what an experiment is is here we're making a precise observation and the experimenter knows more than anyone about how the instrumentation works and yet still errors can go wrong weirdly enough that entire way of talking about experimentation comes to bear on a topic du jour I suppose of these UAPs the UFOs and that kind of thing you know people thinking they've made this observation and yet it's not being done in a laboratory where it's highly controlled and everyone understands it's way worse than that here's a thing that no one knows about and yet we're making grandiose claims about it",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:25:03",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "That's a very good example and when challenged people will always make a beeline for the authority Oh this was a USAF Captain you're impugning his his status you're impugning his honesty or whatever but the real truth is that mistakes are everywhere and everyone makes mistakes and there's no limit to the amount of mistakes we can make and in scientific experimentation almost all of the effort required to do a scientific experiment is forming theories about the errors forming explanations of what errors there could be and then forestalling them or measuring them again you know I was very impressed it was several years ago now when when I went to the laboratory underneath the Cavendish laboratory in the cellar of the Cavendish laboratory sort of Frankenstein-like apparatuses there and I was led into to see how how they were experimenting on a single atom and not just on the atom they were making it do things so they were making it jump through hoops they were making it do quantum computations on a single qubit and I looked at the wall and the wall was covered with graphs of the errors so you could regard the whole experiment as an experiment about the errors that happen when you try to make a qubit and if they hadn't had those if they'd just set up the experiment as it's as it's later going to be described in a paper without making the improvements to remove those errors they could have got random results they would have probably got the results they were hoping for that's what usually happens when you do a bad experiment",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:26:46",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "this showed up again recently in the whole room conductor semiconductor room temperature semiconductor event where if you want to believe something and then you drop all of the skepticism that you should have around the measurement then you can get almost any result you want",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "It was worse than the ordinary positivism in that it was also susceptible to a kind of mysticism. So all this stuff about, for example, the observer's consciousness changing the nature of reality, that was not originally in the bad interpretations of quantum theory, Bohr's interpretation. Bohr never said that, Niels Bohr. He said a lot of things that were bad philosophy, but he didn't say that. And so what has been built on that foundation, an attempt, attempted foundation to secure the single universe worldview, has incorporated positivism and then instrumentalism and mysticism and a bad form of empiricism which is shut up and calculate. But there's also sheer intimidation. I mean, physicists who are working on branches of physics that don't directly involve taking a position on this are reluctant to take a position on it because it will reduce their standing with their colleagues, journals, and so on. Or at least they think it will. Or maybe I'm wrong to psychologize. I mean, I don't really know why these things have happened.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:31:14",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "It's a spectacular though true conclusion to reach that, you know, you look at any interference experiment, the double-slit experiment, and you can conclude on that basis there are many universes. But you've also said the existence of many universes is in fact one of the least surprising and confounding things about quantum theory. What are some of the other more counter-intuitive parts of quantum theory?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:31:43",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yeah, I think entanglement is much more counter-intuitive. By the way, I've also said, I thought you were going to ask how counter-intuitive is quantum theory compared with say relativity. I think relativity is much more counter-intuitive than parallel universes because parallel universes, they make movies with parallel universes in the plot. Very hard to make movies with curved spacetime in the plot.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:32:11",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "I think Interstellar is the only one that really even tries to do it.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:32:13",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Well, yeah, but even that they avoid the curved spacetime bit. They have the black holes.",
+      "tone": "corrective"
+    },
+    {
+      "timestamp": "00:32:20",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "Yes, and they do the accelerated time bit.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:32:21",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yeah. So that's a theory that is hard to get your head around and is very, very different from our experience. And even when now that we have the GPS system over our heads measuring our positions many times more accurately than you could if you didn't take relativity into account, people want to adopt relativity only instrumentally. But they don't go into flights of fancy like is done in quantum theory. That is the thing that seems to only happen in physics in quantum theory. And I can't explain it.",
+      "tone": "philosophical"
+    },
+    {
+      "timestamp": "00:32:56",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "It seems that the appeal of anthropocentrism where we're at the center of everything is so...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "strong. That sort of reemerges now under the guise of the observer.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:33:04",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Maybe that, but from your own example",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:33:06",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "people did accept that from modern astronomy. So in the 20th century we discovered that even the galaxy is just one among many galaxies and people were shocked. But they thinking people reacted by thinking, okay, well I was wrong, you know, not only are we not the center of the solar system, but we're not the center of the universe and we're not the center of anything. And now they're now they're shocked, as I had to plug my book, now they're shocked by saying, well, in a sense we are the center of everything.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:40",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So let's get into that. So these four strands of the fabric of reality, these four theories, they form for lack of a better term the theory of everything. What now emergent principles and concepts can we talk about that rely upon two or more of them? We were talking about one earlier, let's just get a little more formal about it, knowledge.",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:33:55",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yeah, by the way, it's the theory of everything known.",
+      "tone": "calm"
+    },
+    {
+      "timestamp": "00:33:58",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Correct.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:34:00",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Because there are things, glaring omissions in all we know. For example, we don't understand consciousness, we don't understand creativity,",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:34:06",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "we understand maybe how knowledge grows but we don't understand where it comes from.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:34:11",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yes. Yeah, exactly. So we don't understand those things and they're not part of the four strands of the fabric of reality, the book, I mean. They are part of reality. So but your question was knowledge? Yeah, what was its connections between?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:34:21",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Yeah, connections between them and so that can be knowledge, that can be wealth, that can be optimism, that can be error correction, but there are all these principles. I even suspect the fun criterion and taking children seriously",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:34:30",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Right.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:34:31",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "and universal explainer arise out of...",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:34:35",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Wow, that's a lot of things. Yeah.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:34:37",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "I have a list, don't worry.",
+      "tone": "reassuring"
+    },
+    {
+      "timestamp": "00:34:39",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Right. Let me point out that of the four strands, I invented none. And of the connections, of the two-way connections between the four things I invented one.",
+      "tone": "humble"
+    },
+    {
+      "timestamp": "00:34:46",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Quantum computation?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:34:47",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yeah. So the Fabric of Reality is really a sort of, what do you call it, a riff on these things, on these ideas which are true but haven't been appreciated and whose connections haven't been appreciated. So with free will in the multiverse, I think what I said about that in Fabric of Reality is very inadequate and possibly misleading. I did not mean to say that the multiverse solves any problem of free will. I just kind of used the multiverse as an example to show that Newtonian mechanics doesn't violate free will either. Now those are separate issues and that you can make sense of counterfactuals whether the world is deterministic or not. By the way, counterfactuals and constructor theory is yet another, another spinoff of these things.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:35:35",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "I mean step back. You understand these things at a core level. They inform how you operate in your own life.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:35:44",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:35:45",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So you don't have to get specific about your own life, but principles that you sort of know to be relatively true",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "Or their best knowledge to date because of these four strands.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:36:03",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yes, so one of the sort of spin-offs in regard to free will is that although we don't know how knowledge creation happens and free will seems to be intimately connected with knowledge creation so that there's a lot we don't know, but again, the argument that because of physics, let's say, free will can't possibly exist is just wrong. It's just a misconstruing physics.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:36:30",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "And one of the things it misconstrues is that it, again because of empiricism and that kind of error, it is thought that all explanations have to fundamentally boil down to predicting things from first principles. So if you can't predict a thing from first principles, then your theory of it can't be fundamentally true, and it might be an illusion. And that's what people think theories of free will amount to. That free will is just an illusion that we tell ourselves but doesn't correspond to anything at the lowest level.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:37:01",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Well, second law of thermodynamics doesn't correspond to anything at the lowest level either. You can't look at an atom moving in in the air or a molecule moving in the air and say that molecule is moving irreversibly. None of them are, they're all moving reversibly. And yet the combination of them is moving irreversibly. And there's a theory of that. A hard scientific theory of it which if you try to violate, you are a crank.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:37:31",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "So that's an example of the fact that scientific knowledge exists on several levels of emergence, although emergence is actually only one of the ways in which high-level theories can be related to low-level theories, but here in general terms you can call it emergence. So once you make this mistake and you say there's no free will, that can have drastic implications for other high-level theories such as theories of morality.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:37:56",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "So some people say, well we're all made of atoms and we can't help what those atoms do, therefore murderers are no different from other people. So we shouldn't be putting murderers on trial or sending them to jail or whatever.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:38:14",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "And on the other hand, the inverse of that argument is, well, because the murderer has murdered people, there must be something in their atoms, in their arrangement of their atoms, which makes them a murderer and therefore they are to be kept in jail forever basically, because we can override some things in our genome, but most of the time we are slaves of our genome because empiricism, because no free will and because of all these mistaken and or bad philosophical theories.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:38:51",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "We end up ending up with policy backed up by rubbish arguments. Now there may be, there are excellent arguments for letting people out of jail, for putting them in—",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "in jail for doing X, Y, or Z to them while they're in jail or when they're not in jail, you know, all those arguments are a perfectly valid domain of philosophy and some people pursue that kind of philosophy and one could be wrong, one could be right, one could be half-right, and so on. But to pontificate about it from the perspective of basically physics is what shall I call it? It's a category error. It's just wrong.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:39:29",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "Some people say that it's compassionate to not subscribe free will to people because of exactly what you've said, the murderer is a victim and they cannot help to do what they do. There are those who don't necessarily argue from physics but from some sort of folk psychology, maybe not folk psychology, but a certain psychological theory.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:39:51",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Yeah, I think there, if I understand you correctly and correct me if I'm wrong, please, I want to understand this. I think there's two things you're saying here. One is that some theories only emerge at certain levels. They're not visible or available to you at lower levels. Thermodynamics is an example, watching a single molecule or atom in isolation will not tell you anything about irreversibility or statistical irreversibility, and that can only be seen at a macro level. So at a higher level. And so some theories are equally valid and they're not capable of being reduced any further. But they're equally valid at their own levels.",
+      "tone": "intellectual"
+    },
+    {
+      "timestamp": "00:40:24",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Even if they can be reduced, thermodynamics is sort of a case of this or maybe chemistry is a better case. Even when they can be reduced to a lower level, there may be explanations and laws that only exist at the higher level. So we think that chemistry is entirely due to physics, and we can make predictions about chemical properties using only physics basically, using physics plus computers to solve the equations. In addition, there are such things as acids which you can have theories about and which you can explain the world in terms of, where you could not explain the world in terms of the underlying physical reason.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:41:08",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "No matter how much computation power you had.",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "00:41:10",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Well, depends what you mean by no matter how much. I mean, to find out within the universe, with the limits of... Within the universe, it's hopeless, yes. There may be a mathematical computation that is enormously bigger than the universe.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:41:24",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "I think what you're saying is it's... so people point to well it's all particle collisions, right? Particle collisions explain everything, and so because of particle collisions this man went and murdered another man. But you could say no, there are some things that have to operate at that level of explanation.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:41:45",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yes, yes, it's the latter. It's the latter that I'm talking about. Yeah. Because even if you could predict, which you can't, but even if you could... you still lack the explanation. As I say in the Beginning of Infinity with the domino theory, you could...",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Follow through every single domino striking every other domino and work out that this one domino will never fall over and then you will have predicted it but you still won't understand anything about prime numbers. You won't know that it's due to prime numbers. There are arrangements of dominoes where nobody knows, nobody will know for the next 10,000 years why a particular domino stands up and not the others and some cases we'll never know. Those cases all involve continually adding dominoes but that doesn't change the fact that there is an explanation of things that these dominoes do that doesn't have to do with dominoes.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:41",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So do you care to give us a summary explanation of where you think your best explanation of free will is or should we just skip that? It's a loaded subject.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:42:46",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Well, I don't really have an explanation. I think that free will is intimately connected with the creation of new explanations because I think philosophically, the thing we want from a theory of free will and which doesn't seem to be present in like Newtonian physics or anything is the idea of creation of something new being created. Before we had Newtonian physics and while we still had philosophy people would talk about the universe having been created by God out of nothing. In some religions, some theories of creation, God creates the universe out of nothing. It's not that he makes something into the universe like mud or whatever. Some religions say that, but some of them say God created the universe out of nothing. Now, common sense folk psychology, humans create something out of nothing when they have a new explanatory idea and that's why we make a difference between person X pushes person Y onto the railway line when they're both standing on the platform, whilst person X intending to push person Y onto the platform or whilst person X himself pushed by person Z. In both cases, person X pushed person Y because of the laws of physics. But intuitively, we know that the two situations are chalk and cheese and you might not be able to tell very easily which it was because the eyewitnesses won't know. So you need other explanatory knowledge, not just observations to tell you which it was. But which it was is considered a real thing in a court of law and I think that it is a real thing and the pivot on which this turns is the fact that creating new explanations is creating a real thing. When Einstein solved the problem of how special relativity is consistent with gravity and invented general relativity and wrote down theory of general relativity, it's not the case that the theory of general relativity had already been implicit in Einstein's brain or in in the world on planet Earth 100 years before or in the Big Bang. It had never been implicit anywhere until Einstein",
+      "tone": "philosophical"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "created that knowledge out of nothing. That's the quintessential act of free will. It's an act that was created by Einstein and not someone else and not the blind forces of nature either. It was created by him.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:45:15",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "So, people sometimes use a different example, which I think is not a helpful example, of you try and think of a random number. Say, you know, people say, well think of a random number between one and a hundred and you try and think of it and then you pluck...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:45:30",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "the numbers that people choose and they're nowhere near random. If you ask for a random number, no one ever says one or a hundred and so on. And now trying to simulate a random number generator is the opposite of free will. That's using an example which is the opposite of free will to illustrate what people mean by free will.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:45:52",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "What Einstein wrote on that day was unpredictable because no one else had his problem situation. And without his problem situation, it would have taken, you know, saying it would have taken the age of the universe is a gross understatement. I mean, there's no way that somebody without that problem situation could have come up with that solution.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:46:13",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "So that is the quintessential act of free will, the one that emerges out of you, but not predictably. The reason it's not predictable is not that it's random, it's the opposite, it's the opposite of being random. It's because it is the solution of that problem.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:46:29",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So there had to be a problem, the problem required a solution, the solution was arrived at creatively, the solution creates knowledge which is a real thing, which is causal in the environment and causes itself to get replicated in everything from GPS satellites to rockets and continues on and fundamentally changes the nature of the universe that we operate in.",
+      "tone": "summarizing"
+    },
+    {
+      "timestamp": "00:46:51",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Perfect. I couldn't have said it that well, or at least not that fast.",
+      "tone": "approving"
+    },
+    {
+      "timestamp": "00:46:55",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "And this combines all the strands of the Fabric of Reality that you're talking about.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:46:59",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yes, because we have a universe with an explainer creatively creating knowledge and then causing that knowledge to be replicated into the multiverse. In fact, the closer Einstein is to being correct, the more the theory of relativity is replicated across the multiverse and it forms almost a crystal structure of knowledge across the multiverse.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:47:22",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yes, yes, because the other Einsteins in the other universes would have come up with the same theory or very nearly the same theory. And even in the universes where Einstein didn't exist, somebody would eventually come across that problem and solve it. And then when they did, that would have merged with the others.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:47:38",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Correct. They would only solve it and only created the knowledge if they had the problem. If they didn't have the problem, if it was a computer being told what problem to solve and it was a different problem, it would not.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:47:46",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "No. And actually before Einstein came along, did people even think they had a problem? Did other people think there was a problem?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:47:55",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Well, so Einstein wasn't the only one wondering about this problem. At a crude level other people did have this problem. In fact, as is often pointed out...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "The mathematician David Hilbert actually went as far as to write down Einstein's equations after listening to a lecture of Einstein's. So Einstein told him the problem, he being possibly the greatest mathematician in the world at the time, went home, took out a bit of paper, jotted down Einstein's equations which had taken Einstein like years to work out, but he didn't know what he was writing. He didn't understand what he had just written down. And other people in the 19th century had thought about the possibility of curved space for a different reason. But Gauss apparently actually went out with lanterns on the hilltops and tried to measure whether the angles of a triangle add up to 180 degrees. He couldn't do it because the accuracy required is one part in 10 to the 8. But one part in 10 to the 8 is not all that far away from being possible. And I've often wondered whether somebody might actually be able to do it now with laser tabletop laser experiments.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:48:58",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "So let's talk a little bit about knowledge. What is knowledge in your worldview formed by these four?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:49:05",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yeah, in the course of my philosophical meanderings, I've settled on several different conceptions of knowledge, which I think are, they all refer to the same thing. It's just a different way of characterizing what that thing is. But I think they all come to the same thing. What I've recently found most helpful, thanks to constructor theory, is that knowledge is a form of information which is necessary for a physical transformation. So if a physical transformation will only happen when a certain type of information is there, then I call that information knowledge. And that nicely focuses on the knowledge in genes and the knowledge in ideas. And there's other knowledge which is stored knowledge, like in computers or books. Knowledge can be created, but so far the only things we know of that can create it are evolution and human thought. It's very tantalizing that there were once several species on earth that could do this, and they all went extinct, all but us.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:50:14",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "And interestingly you take that notion that you've just mentioned about knowledge under constructor theory as being about transformations, but that's also the word that you use when you talk about wealth. It's also about transformations.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:50:28",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "The wealth of an entity, whether of a person or of a country or whatever or of the world, can be defined as in constructor theoretic terms as the set of all the possible transformations that it could bring about, like in brackets, if it wanted to. It's never going to bring about all those because they're exponentially more or exponentially too many of them.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:50:51",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "It has to have the right problems. And if it has the right problems, then it can use the knowledge plus the physical assets that it has to cause physical transformations, then...",
+      "tone": "collaborative"
+    },
+    {
+      "timestamp": "00:50:59",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "Good point.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "If it had the right problems and found the right solutions that it grows wealth. And if in the process it has to make more creative leaps to do so, it grows knowledge, which also grows wealth.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:51:10",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yes, well, well, that is true, yes. So one thing that this stresses is that wealth can't be quantified as a number. Wealth is a set, a set of transformations. And so I can't say whether in some sort of absolute terms whether Mozart was more rich in this fundamental sense than Nathan Rothschild. So Nathan Rothschild had knowledge of banking, which he had created out of nothing, and Mozart had knowledge of musical beauty, which he had created out of nothing. In both cases, they were improving on previous ideas, though, like all knowledge does, but they... they had created something that was not there before in both cases. But you can't say that one of them had more knowledge than the other because the sets overlap or don't overlap, yeah.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:52:03",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "You said there, and in fact, that's the third time, Einstein created general relativity out of nothing, Mozart created his work out of nothing, but I can hear the objections that, 'Hold on, they didn't create it out of nothing, there were pre-existing knowledge there that they have used and mashed up together rather like ChatGPT.' So general relativity was just Einstein riffing off geometry that was there but hadn't been repurposed for physics. So how do you answer those opponents of this idea of creation?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:52:34",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "It's the same... saying that they were only doing that... they were doing that, they were putting together bits of other knowledge and varying them. That's not all they were doing, because if you try and do that now, you won't do it. It's the same argument as saying humans are only atoms. Well, yeah, humans are only atoms and trees are only atoms and so on. And what's important about humans is not that they're atoms. One day maybe we'll download our minds into silicon and not carbon, and then maybe people will be saying, 'Oh, you're only silicon' or something, 'or we're only silicon.'",
+      "tone": "philosophical"
+    },
+    {
+      "timestamp": "00:53:26",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "Civilization just looking around cries out for an explanation. If you're going to deny that humans are special, then explain why it is humans and not the bees that are creating...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:53:30",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "...or another way to put it, the combinatorics of discovering relativity just by having some tools is so large, it's instead of monkeys with typewriters, it's now monkeys with calculators and they're going to come up with relativity? It's still an impossibility.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:53:39",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:53:40",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So, we've talked wealth, we've talked knowledge. Oh, let's talk optimism. The Beginning of Infinity starts out with the principle of optimism or enters into it very early on. This seems to be the fundamental binding principle of that book is the beginning of infinity of the growth of knowledge. And so the principle of optimism, error correction, universal explainers, all...",
+      "tone": "resolute"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "knowledge at a rate and diversity that's much greater than anything that's come before. And because we are universal explainers, anything that can be explained, we can explain, anything that can be created, we can create.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:57:11",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:57:12",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "And I'm optimistic.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:57:14",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Any transformation that is physically possible can be brought about, and it requires knowledge.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:20",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "So what is the problem you're trying to solve with constructor theory?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:57:23",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "We're getting into physics here. So, there are several areas of physics. There is a sort of tacit consensus among people who study fundamental physics in the sense that they're looking to find out what the laws of nature are, at that level of fundamental, that a theory of physics, or in general, a theory of science in general, consists of a theory that says there are initial conditions, there are laws of motion, and to understand the universe you have to understand what the initial conditions are and what the laws of motion are. And everything else is derivative. If such people believe in explanation, they can make the same story about explanation as well, maybe a little less plausibly.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:58:04",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "But the trouble is that not all scientific theories are like that. In fact, in some sense, most scientific theories are very unlike that. My favorite example, Darwin's theory of evolution, is not a theory that predicts the existence of elephants. It's a theory that explains the existence of elephants. And the explanation does more than any prediction possibly could. Like, if you could somehow run a supercomputer about the plains of Africa where elephants evolved, and it predicts, you know, at one point it prints out a picture of an elephant, it hasn't explained anything about what has happened or why.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:58:38",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Whereas Darwin, who did not have a computer—he could have had one if Babbage had pulled his finger out—Darwin understood it despite not having a computer. So constructor theory tries to get out of this class distinction among the sciences, among knowledge and so on, and tries to make a uniform framework in which laws of physics and scientific laws in general and even beyond science can be expressed.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:58:58",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "But by the way, one other thing that's really stands out like a sore thumb in the prevailing way of looking at fundamental science is that it's not symmetrical in time. So it says there are initial conditions and laws of motion and everything is then evolved forward from the initial conditions. But the laws of motion are time-symmetric, so you could just as well start at the end of the universe and say we need a theory of the end of the universe.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:59:44",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Well, the end of the universe, we hope, is going to contain lots of knowledge, perhaps an infinite amount, and there's no way we can form a theory of that by definition. I mean, that's the thing we can least form a theory about in the whole of creation.",
+      "tone": "philosophical"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "And even worse, we could also frame the prevailing theory as to understand the world, you have to understand it today on a certain day in October, and then we can use the laws of motion to work backwards and forwards to understand the rest of the universe. Well, this is no good. I mean, this obviously can't explain anything.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:00:27",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "And it's really exceptional that initial conditions and laws of motion are useful at all in explaining things. So it happens it was useful in explaining the solar system and so on. It's useful in making microchips and understanding how to make drugs and chemistry and so on. But compared with what we have yet to know, that isn't much. And some of the things we already know are already not in that form, like thermodynamics, for example.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:00:58",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Is it further too much of a leap that a good explanation should be timeless? Or relatively timeless? It shouldn't be so dependent upon the T variable.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:01:06",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "Yeah, well, it shouldn't depend on a specific time, yes, absolutely.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "01:01:10",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "And so to the extent that you're talking about initial conditions and laws of motion, that's very time bound, it seems very restricted and you can't go too far forward because you don't know the growth of knowledge coming up by definition, and going backwards is too reductive. It reduces down to we only know it at that point in time. We don't have the underlying explanation. It's as you said, going back and saying we understand the universe a billion years ago is like spitting out a picture of an elephant. The explanation should apply to any species at any time. And so constructor theory is in that sense, it's trying to be more timeless and less predictive and more explanatory.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:01:29",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "Yeah, it has no opinion about predictive. What it wants to be is explanatory. Sometimes predictions are part of explanations. So, yeah, it wants to explain.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:01:34",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "And the idea in constructor theory is not to look at a physical system in isolation as if nothing else existed and say what will it do, we have these equations that say what it will do. Sometimes they even explain what it will do. But what constructor theory does is say we have this system, what can we do to it? What can be done to it? You have to be careful in defining what we mean by what can be done to it, because some of the things that you might think of as what we can do to it means that we're actually acting on a bigger system. Whereas if you say what can be done to a Tesla, if you say a fully charged Tesla can roll along at a hundred miles an hour, so that's something it can do. What can be done to it? Well, there you've got to be careful that, for example, charging it doesn't count in constructor theory as something that can be done to it, because there you would have to say what can be done to a Tesla and some electricity.",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "is that it can transport a human from Oxford to London. So that's one of the things that can be done with those things. But if the transformation you're doing involves depleting some other resource, then it is a transformation on the thing and the other resource, and constructor theory only deals with the thing and the other resource. It only deals with the—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:03:26",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "It certainly deals with complete systems for the purpose of the transformation that you're considering.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:03:30",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "With it—when you're talking about a transformation, it deals with everything involved in that transformation. So in particular, it deals with isolated systems, like the prevailing conception only deals with isolated systems basically, but in general it deals with everything that's involved in whatever transformation you want to do. Then you can say, you can have laws that say that certain transformations are not allowed no matter what you do.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:03:54",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Even if you—so if you have, let's say, a Tesla and you want it to go at 1.1 of the speed of light, then we can say a Tesla and anything cannot be made to go at 1.1 times the speed of light. That's the constructor theoretic statement of 'you can't go faster than light', which actually is the intuitive statement 'you can't go faster than light' is very simple and everyone can understand it.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "01:04:11",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "To express the full content of that in physical terms given the existing way of doing fundamental physics is actually very difficult because although you can write down easily a statement like 'if a mass M is given an energy and so on', but to actually predict it in terms of things you can do, you would have to have a theory of all the possible things you can do. The real law about the constancy of the speed of light is a transcendent law. It's what I call a physical principle rather than a law, and I distinguish between principles and laws. And the physical principle purports to make statements about laws not yet discovered. So if somebody discovers a new fundamental particle, dark energy and so on, the principle about the speed of light will say that dark energy can't move faster than light either. Actually, that's a bad example because there's a sense in which it can. So let's make it dark matter. We think that I and my colleague, Chiara Marletto, and those of us who are working on constructor theory, think that all the existing laws of physics can either be re-expressed in constructor theoretic terms or be approximations to theories that can be expressed exactly in constructor theoretic terms. And we also think that theories like thermodynamics, which is at present only expressed approximately in conventional terms, can be expressed exactly in constructor theoretic terms. Again, because in constructor theoretic terms, your laws are going to be—",
+      "tone": "scholarly"
+    },
+    {
+      "timestamp": "01:06:00",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "...include the things that you might need to do something to something. So you can make a general statement about things that you might need to use for something and the prohibition would say, no matter what you bring, you won't be able to do so and so, you won't be able to violate the second law, for example.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:06:17",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "So besides this sort of holistic or unifying approach that it seems to be taking, are there any explanations that constructor theory can explain something that cannot be explained by conventional physics?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:06:29",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Well, yes, Chiara Marletto has a version of thermodynamics which is constructor theoretic and which explains what it means for, say, the second law to hold at a microscopic level. We said earlier that looking at an atom, you can't tell whether it's reversible or irreversible. So what you can do in constructor theory—she wrote a paper about this—is you can go back to a version of thermodynamics invented like a hundred years ago called Carathéodory, which depends on a distinction between an adiabatic process, non-adiabatic—a non-adiabatic process. And this, he didn't try to express it in terms of physical objects. He just said by fiat, some processes are adiabatic, some are not, and the adiabatic ones have these properties and the ones not have those properties. You can define from that, you can define the difference between work and heat. You can define a second law, the first law. By the way, one of the nice things about Chiara's theory is that it expresses the first law in terms of information. Whereas ordinary statistical thermodynamics only manages to express the second law in terms of information. But Chiara's theory does the first law as well. Still don't know what to make of the third law. Like, we're not really clear in our own minds about what it means for a transformation to be impossible.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:07:58",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Whenever I hear the word 'can' or 'can't' now, I'm automatically put in the mind of constructor theory. So when we hear the principle of optimism, you know, if there is an evil, if there is a problem, then we can solve it given the right knowledge. And that's the optimistic view that falls out of your work. There's a whole movement now, you may have noticed it on X or Twitter, this techno-optimism movement and the accelerationists as they call themselves, which, you know, I'm 99% with them. But what they have in addition to what you have, or maybe it's a subtraction, is a flavor of inevitability to the whole thing. So rather than that we can solve these problems and things can get better, it's more a 'will' or they 'must'. And you know, look at the past, things have gotten better, it's inevitable. Do you have anything to say about the inevitability of our circumstance?",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:08:56",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yeah. Well, of course. I think... things...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:09:00",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "The idea that progress is inevitable is very dangerous. It causes people to ignore dangers. What will happen is up to us. It's not up to some law of physics or God or something. We can screw up, we can destroy ourselves if we make the wrong choices. As I said earlier, you know, there's no one here but us humans. We could do it all wrong. And in the past, we've often done it all wrong. So it's not as though this optimism didn't stop the fall of Athens or the fall of Florence and so on. And nothing like that is going to stop the fall of our civilization. We've got to do it.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "01:09:37",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "Yeah, it seems like there's almost a sense in which techno-optimism and inevitability of progress has pessimism built in because it says that we're just along for the ride, we don't have a choice to make and so whatever the great machine is, the intelligent machine, the super intelligence that is dragging us towards some better place, well, people are by the by. But I think it also misunderstands the universality of people.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:10:05",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So this is very related to my two questions, which are just bringing it back to the individual and somewhat philosophical. And you could even make it personal or not, but if you're an individual in the world today, and if you want to make a difference to make a better world, how should these principles and these four strands of the fabric of reality inform your thinking? What should you be doing to make a better world? And then what should you be doing for yourself to live a better life?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:10:28",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Okay, those are not two questions, they're one question. And I think the formulation is already a bit misleading because I think that you will want to make a better world if the goodness of the world, the goodness or otherwise of the world, figures large in your problem situation. Like Norman Borlaug, who invented, you know, the Green Revolution or whatever. For him, his problem was to make agriculture more productive. And that is inherently a world problem. And so he, inherently, he was thinking creatively about the world and he had to take into account whether the modification to plants that he was thinking of would be expensive or cheap, and whether it would be susceptible to disease and and so on. So he had to solve that range of problems. Faraday, who also saved the world by inventing electromagnetic induction, was not trying to. He was trying to solve problems about electricity, magnetism and how the world is put together and how the different strands of the world affect each other and so on, at a level of fundamental physics. He wouldn't have been able to conceive, I think, that electrical generators would be a matter of life and death a hundred years later. And he definitely did not start out saying, 'How can I make a machine that will be a matter of life and death in a hundred years' time?'",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:12:00",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "He achieved that, but he wasn't intending to. He was going flat out trying to solve his problem, which by the way, also turned out to be one of the most important scientific problems of the age. But he wasn't even trying to. Again, he didn't set out saying, first, I'll find the most scientifically interesting problem of the age and then I'll devote myself to it. That's not how it went. It turned out to be that that problem was scientifically important, but he wanted to solve it because he was interested in it. He was interested in that particular thing and whether it would work. And I think Newton's famous quote about being a boy walking along the beach picking up pebbles that looked particularly nice to him, I think he was talking about the same thing. He had a strange personality and who knows what he was trying to do to the world, probably nothing good. But in his scientific discoveries, he was like he said, he was trying to solve the problems that he thought were interesting. And I think in one's everyday life, I think any deviation from that is dangerous. I don't want to sit here giving advice for many reasons.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:13:14",
+      "ad": false,
+      "speaker": "Brett Hall",
+      "text": "But you could advise a young David Deutsch who perhaps didn't go into physics.",
+      "tone": "suggestive"
+    },
+    {
+      "timestamp": "01:13:21",
+      "ad": false,
+      "speaker": "David Deutsch",
+      "text": "Yeah, well, I'd rather tell the young David Deutsch specific things that he wanted to know. It's dangerous to follow someone else's problem, or a problem that one thinks is important in a sense other than that it figures large in one's own mind. Well, I say it's dangerous, it's not guaranteed to produce unhappiness, even in exactly the same way that doing the right thing in my view is not guaranteed to produce happiness. Neither is guaranteed, nothing is guaranteed. We can do the right thing and still have a disaster, or we can do the wrong thing and succeed. All these things happen, but if you want to explain how things come about by this process, thought, then it leads to certain conclusions, such as optimism, and such as, as you said earlier, following the fun. That's another way of looking at it. I think following the fun is what Norman Borlaug did. It's what Faraday did. It's what Newton did. I think there are probably people who didn't do it, who still solved important problems, but it was a fluke.",
+      "tone": "philosophical"
+    }
+  ],
+  "highlights": [
+    "The universality of computation implies that the human brain functions as a computer and that our current technology represents the fundamental limit of what can be computed in the universe.",
+    "Knowledge creation is best understood as a process of solving \"problems\"—interesting things we do not yet understand—rather than seeking absolute certainty or justification for existing beliefs.",
+    "Free will is the quintessential act of creating new explanatory knowledge that was not previously implicit in the universe, making human creativity a causal force that cannot be predicted by low-level physics.",
+    "The principle of optimism suggests that all \"evils\" are due to a lack of knowledge, and any physical transformation that is not forbidden by the laws of nature is achievable given the right information.",
+    "Constructor theory seeks to reformulate physics by focusing on what transformations are possible or impossible, providing a more robust explanatory framework than traditional models based only on initial conditions and laws of motion."
+  ],
+  "summary": "This transcript features a deep-dive conversation between Naval Ravikant, David Deutsch, and Brett Hall regarding the \"four strands\" of reality: computation, epistemology, evolution, and quantum theory. Deutsch emphasizes that computation is a physical process, not just a mathematical one, and that Turing’s universality implies that computers can simulate any physical object. He reframes Popperian epistemology by centering it on \"problems\" rather than justified truth, arguing that knowledge grows through creative attempts to solve these problems. Similarly, he shifts the understanding of evolution from \"survival of the fittest\" to the replication of knowledge within genes, noting that human creativity remains a unique, open-ended mystery that computer simulations have yet to replicate.\n\nThe discussion also explores \"Constructor Theory,\" Deutsch's proposed framework for physics that focuses on what transformations are possible or impossible rather than just predicting motion from initial conditions. This leads to a broader discussion on human agency and wealth, which Deutsch defines as the set of transformations an entity can achieve through knowledge. Central to the dialogue is the principle of optimism: the belief that all \"evils\" are due to a lack of knowledge and that any problem is soluble given the right explanations. Ultimately, Deutsch rejects the idea that progress is inevitable, asserting that it depends entirely on human choice and the individual pursuit of \"the fun\"—following one's own curiosity to solve meaningful problems.",
+  "description": "The universality of computation and explanation 0:00\r\n\r\n The growth of knowledge begins with problems 4:56\r\n\r\n Problems are clashes between ideas 9:57\r\n\r\n Evolution is not the survival of the fittest 14:50\r\n\r\n Bad philosophy in quantum theory 26:46\r\n\r\n Free will is intimately connected with knowledge-creation 33:41\r\n\r\n Wealth is not a number, it is a set of transformations 49:03\r\n\r\n The principle of optimism 53:27\r\n\r\n Constructor Theory 57:21\r\n\r\n How to make a better world 1:10:05\r\n\r\n —\r\n\r\n Transcript http://nav.al/deutsch-files-ii\n\nAlso see The Deutsch Files I: https://youtu.be/NI1l94sT4oc?si=IwRPzoZ1W12C4xTj",
+  "duration": 4469,
+  "people": [
+    "Naval Ravikant",
+    "David Deutsch",
+    "Constructor Theory",
+    "The Deutsch"
+  ],
+  "topics": [
+    "The universality of computation and Turing's discovery",
+    "Popperian epistemology and the role of problems in knowledge growth",
+    "Evolution as the replication of genetic knowledge",
+    "Constructor theory and the physics of transformations",
+    "The principle of optimism and the inevitability of progress"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/I6GNK6BR4E8/maxresdefault.jpg",
+  "date": "20240126",
+  "youtube_url": "https://www.youtube.com/watch?v=I6GNK6BR4E8",
+  "youtube_metadata": {
+    "title": "The Deutsch Files II",
+    "description": "The universality of computation and explanation 0:00\r\n\r\n The growth of knowledge begins with problems 4:56\r\n\r\n Problems are clashes between ideas 9:57\r\n\r\n Evolution is not the survival of the fittest 14:50\r\n\r\n Bad philosophy in quantum theory 26:46\r\n\r\n Free will is intimately connected with knowledge-creation 33:41\r\n\r\n Wealth is not a number, it is a set of transformations 49:03\r\n\r\n The principle of optimism 53:27\r\n\r\n Constructor Theory 57:21\r\n\r\n How to make a better world 1:10:05\r\n\r\n —\r\n\r\n Transcript http://nav.al/deutsch-files-ii\n\nAlso see The Deutsch Files I: https://youtu.be/NI1l94sT4oc?si=IwRPzoZ1W12C4xTj",
+    "duration": 4469,
+    "view_count": 35473,
+    "like_count": 702,
+    "channel": "Naval",
+    "upload_date": "20240126",
+    "thumbnail": "https://i.ytimg.com/vi/I6GNK6BR4E8/maxresdefault.jpg",
+    "tags": [
+      "Naval",
+      "Naval Ravikant",
+      "David Deutsch",
+      "Brett Hall"
+    ]
+  }
+}

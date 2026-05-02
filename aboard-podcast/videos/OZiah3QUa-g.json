@@ -1,0 +1,1876 @@
+{
+  "title": "Andrew Leland: Hacking Disability with AI | The Aboard Podcast 2026-04-21",
+  "source_url": "https://www.youtube.com/watch?v=OZiah3QUa-g",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Richard. It's become your signature.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:00:03",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Paul. How are you?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I get very Brooklyn when I'm around you. How are you today?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:07",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm doing well. How are you doing?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:09",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I'm doing fine. It's a busy day. Lots going on.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:10",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Busy day, lot going on.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Good stuff. We are the Aboard podcast. I'm Paul Ford, you're Rich Ziade, and we have a software company that builds software using which technology?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:20",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "AI.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Artificial Intelligence, which, you know, gives people the willies.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:00:25",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. And we deliver AI into clients.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's right. We are a transformative AI play.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:00:33",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Absolutely.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:34",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And so today we have a rare treat. We have a guest who is a professor, a thinker, a writer...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:42",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Whoa.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:00:43",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "...an essayist, a literary person, and why in God's name would such a person be on this nerd capitalist podcast?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:00:52",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Let's find out.",
+      "tone": "intrigued"
+    },
+    {
+      "timestamp": "00:00:53",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Let's find out. We're going to talk to Andrew Leland in a second. We're going to play our wonderful theme song and off we go.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:58",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Let's do it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:17",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Andrew!",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:18",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Hello.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:01:19",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Welcome. Welcome to the Aboard podcast. We're so glad to have you.",
+      "tone": "warm"
+    },
+    {
+      "timestamp": "00:01:21",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Hi Paul. Hi Rich.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:01:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "For people who don't know you, I'm going to introduce you for like 20 seconds and then you're going to correct me, okay?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:01:27",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:28",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So, you are a professor, a visiting professor at Wesleyan University. For people that don't know that's like one of those like little liberal universities kind of somewhere in New England. That's kind of most... that's what most... yeah. Which state is it in?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:41",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Connecticut.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:42",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, we knew... I knew that. I just... you know, I was testing you.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:01:45",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:01:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And you're also the... you're also an author and an essayist. I actually interacted with you many years ago when you were editing the Believer and you have a very long range of work around a whole lot of stuff. But in the last few years, because you have a degenerative eye condition, you have been writing about blindness and what it means to go blind. And your book, the Country of the Blind, is really, really good. Like, and I say that not in my normal like podcast 'oh my gosh, I'm really excited you're here', but like boy it's got good sentences. Just good... you would like it. Rich hasn't read it yet. You would really like it.",
+      "tone": "complimentary"
+    },
+    {
+      "timestamp": "00:02:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Rich is funny for a capitalist because he also like, he'll come in on a Tuesday and be like 'George Saunders is amazing'.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:02:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh Lord.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:02:32",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's real though. No, no, you're in a safe space.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:02:33",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You can do both of those things. I can make money and like George Saunders.",
+      "tone": "defensive"
+    },
+    {
+      "timestamp": "00:02:38",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You're... that's... no one has ever said that before. Ever.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:02:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That's possibly true. It's groundbreaking.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:02:43",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "That's how George Saunders survives is that, you know, people who make money read him.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:02:47",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Exactly. Exactly.",
+      "tone": "approving"
+    },
+    {
+      "timestamp": "00:02:49",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And so we had a conversation earlier, Andrew, and I'm going to... and I'm going to... I'm going to stop talking and hopefully you will start talking. There's an angle for you on this podcast that I don't think people might expect, which is why you are a very thoughtful and...",
+      "tone": "earnest"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So as an essayist, a family man, a person who is narrating an experience of a disability. You were kind of a huge nerd already, but this situation has turned you into an unbelievable nerd and a very thoughtful product person, building tools for yourself. And I think let me just throw that back to you so that, like, we start as an essayist, we start as a professor, we start as a thinker, but you're also now a very specific kind of technologist. And I would love it if you could just kind of talk a little bit about that and help the audience frame it.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:03:32",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah, I got my start at the Believer magazine where I was interacting with you, as you said, and I was managing editor for many years, which meant like, I remember I dropped out of college to take the job and Dave Eggers, who started that magazine, told me like, 'Just buy a manual for QuarkXPress and like, read it on the plane as you fly from Northeast Ohio to San Francisco.' And I did that because I was like basically, you know, the reason that the Believer could exist is the overhead was so low, there was only one full-time employee and I was dropping out of college to be that guy. And and it was all done in QuarkXPress, you know, later transitioned to Adobe InDesign, but that was I just that was such a formative experience for me reading a software manual end to end on an airplane that was going to like, 'this is going to be my life. Okay, let me like, learn the keyboard shortcuts that will dictate my professional career.' And—",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:04:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I wanted to just pause for one second and realize—remind everyone that you just said that Dave Eggers started your technology career.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:04:34",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah. Yeah. I mean, he's he's an interesting guy. Like, he would write, I don't know if he still does this, I hope he doesn't, but he would write like novels in QuarkXPress, which is not a normal thing, right? Like, the usual workflow is you write in a word processor and then export it like several iterations later into it. But he was a design—he is a designer as much as he is a writer and that ethos, I think, was a big part of my education as an editor and as a writer.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I mean, he came out of, what was the magazine? I think it was called Might was his... start. Yeah. So he was this sort of very San Francisco, almost kind of... it was like zine transitioning to magazine, very Gen X thing. And the Believer kind of came after McSweeney's... anyway, it's a Wikipedia page that people should explore. So that's really interesting. So he was a very, because everything with him was was low budget and kind of low-fi, right? So he's like, 'Andrew, you want this job, you better learn the software.'",
+      "tone": "knowledgeable"
+    },
+    {
+      "timestamp": "00:05:26",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yes. And you can't learn software on an airplane without a laptop, which I did not own at the time because, you know, I was a college student and it was 2003.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:05:34",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Those thick... I remember those books, right? They were heavy. They were heavy books and they were a good time.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:05:43",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "It was like reading a—like reading a travel guide to a country you haven't visited yet, right? I was like, 'Oh, okay, I guess that hostel sounds good, but I'm not really going to know until I get there.' Anyway, I got there and and it was a technically nerdy job. Like, I did have to really get dive into the guts of Quark and then InDesign at the same time.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "time that I was, you know, writing copy and editing pieces. And I think that I start my answer to your question with that because in some ways, like, it was this lesson that there is no real divide for me between that kind of, like, wonky keyboard shortcut memorization and, like, understanding how a piece of software structures your art and your thinking and your craft all the way up until now. And-and blindness changed that, but it didn't... like, it wasn't as big of a change as you might think. It's a similar dynamic that I'm experiencing. So anyway, fast forward... I don't know if you were going to say something just now, Paul.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:06:39",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, I mean, I think just, you know where my brain is going, and I don't want to do this on this podcast, but it's QuarkXPress had, you know, tags and structured data, and so did InDesign. Like, when you dig into these tools, a lot of them were very structured and organized, and a lot of that thinking was some of the earliest thinking that got translated onto the web around navigation and structure. So, you know, it's funny because I think people could hear this and hear, like, 'Oh, well, he was putting together a magazine with desktop publishing,' but the reality is a lot of that workflow stuff is very much like programming. Like, putting together a magazine is a... is almost a software process in a lot of ways. It's just that the end result is a magazine instead of a-instead of a piece of code. And so, like, it's a workflow. Anyway, so you were very workflow-oriented and you were-",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:24",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "I loved watching the little Fetch dog run as I uploaded gigantic PDF files to the printer in Canada.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:07:31",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, that's right. This is all I want to talk about.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:07:34",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah, that... nothing made me feel more like a-like a coder or... not that I was anything remotely like a coder, but that was, like, the most adjacent I got. Whatever, HTML and so on. But all to say, yes, I was making a digital artifact even though it ended up as a print product.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:07:40",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, so on you go in your editorial career and have a lot of success, you're writing, you're doing all kinds of stuff. Blindness happens and you find yourself... Okay, go ahead.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:08:00",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Well, I mean, no, the only thing that I have to interrupt you about there is that blindness happens is complicated. And the-the disease I've got... Paul, why are you trying to simplify my life?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:08:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Finally! No, no, honestly, I welcome this, like, let's-let's get into it. Okay, go ahead.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:08:06",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "It's... you will understand momentarily why this is important to me. So RP, the name of the degenerative retinal disease that I've got, Retinitis Pigmentosa, it goes different speeds for different people, but I have this sort of, like, pretty much normal version, I think, that is the most common, and it's just unbelievably slow. And I think this is important to point out only because it informs my perspective as the kind of, like, product... what did you say? Product user, product expert? I forget what you called me.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:08:50",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, no, you're product developer. You're product strategist. Product adjacent... take it, take it and run with it.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:08:56",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Product adjacent. Take it and run with it, yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "The money is good. You want it. Keep going.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:09:03",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "So, all that to say that like, you know, when I was working at The Believer, I—there was already things happening here where I—I had night blindness, I stopped driving at night, but I still drove during the day. And, you know, it's basically slowly encroaching tunnel vision. So these days I have a couple of degrees of useful central vision, but I still use them a lot, all the time. I can see stuff, particularly when I can control the visual elements.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:27",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Now, you're looking at us right now on Riverside, which is the—the podcast—so like what do you see?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:09:33",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Basically I see very little at a time, but what I do see I can see fine. So like if I'm looking at you—I mean I also have zoom, you know I can kind of control it. So I can zoom way in and actually see your face pretty well to like—point at you in a lineup if you committed a crime, I think I'd be able to ID you.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:09:51",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm glad that's the use case.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:09:54",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah, I mean I'm expecting that to happen at some point. I use a white cane though because—if I'm, like later today when I'm going to be navigating Grand Central, the idea of like—imagine strapping a toilet paper tube to your head and trying to navigate Grand Central, right? Where you could only see like a pair of shoes at a time. It's not going to work. So—",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:10:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So nothing on the periphery, nothing—so just like this. And then reading? Mostly audio or do you—like what do you do?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:10:19",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah, so like I can spot check text, especially if it's large and especially if it's white, a light color on a dark background, but that is not super sustainable. So if I'm going to read anything more than like a couple of words, I've—I got audio going or I'm zooming way in, controlling the visuals. And that's been a very, very slow process. And so it's—I think—yeah, I interrupted you only because, you know, I've—in the reporting I did for my book, I talked to plenty of people who were in a car accident and—or, you know, gunshot victim and lost their sight instantly. And people who were born blind. I'm in this other weird category where I'm just very, very, very slowly going blind. And I think as a writer and as a product guy, which I'm not, but I like that you think of me as that—",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:11:24",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Andrew, I mean, most people live with the condition, obviously research the tools, maybe their—their doctors will say 'Hey, you should use this tool or that tool.' As a product person, who the idea of product creation is changing over time, do you feel like, 'Hey, I can—I can go make something' or 'I can—I can have an opinion about the tools that affect my life, I don't have to just wait for some product to come out.' Talk, you know, talk us through how you think about this. Is it—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Empowering or is it empowering and frustrating? Like, yeah.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:03",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Well, first of all, like the doctors do not tell you what tools to use. The doctors are like, I am going to cure your blindness, and then if they can't, they're like, dang. Here's a support group that you should go to.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay. That's interesting.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:14",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Call this number.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:12:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Interesting.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:16",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah, exactly. And then, I mean, this is, you know, then you call the number, and you might get like a blind—you might get like a very benevolent sighted lady or guy who's like, oh yes, like here is the solution. You're going to want to buy a gigantic closed-circuit television that will take up your entire bedroom, and that will be what you use to like painstakingly read books.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:12:39",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Whoa.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:12:41",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "And what I realized as I kind of entered this world is that it's a little bit like asking somebody where you should go to college, right? Like there is a lot of options, some of them will be terrible options or not right for you. And to this day—and this is sort of to answer Paul's question about like why losing vision made me into a nerd, because the deeper I went, the more complex and interesting, but also like totally unsatisfactory it became in terms of what the tools are. It's not just like, oh you know what? You need a screen reader, here's the good one, go for it.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:17",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:13:17",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "I mean, it could be if I wanted to make my life simpler, but it's—but if you care about this stuff, it's not.",
+      "tone": "contemplative"
+    },
+    {
+      "timestamp": "00:13:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Do you—I mean, let's be brutally honest here, is it—is it just a lot of bad software out there? A lot of bad tools?",
+      "tone": "direct"
+    },
+    {
+      "timestamp": "00:13:31",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Well, yeah, that is such a good question. I mean, one thing that I've been wrestling with is that as this process started, and I mean the process really is like, okay, I need to use a screen reader, right? Like I need to have my computer talk to me. And I resisted it for a long time because I have vision, but like the thing that I experience that so many people losing vision experience is like the longer you cling to the visual, especially if you have a degenerative condition, it's just diminishing returns. And like I've met people who are like one highway sign sized letter at a time, like trying to read anything. Like that is just a recipe for frustration and failure. And the successful blind people, and like a lot of my reporting and writing was like, you know, ostensibly to write a book, but also I was just like, how did the people I want to emulate myself after—like how are the successful blind people doing it? And you got to do the screen reader, basically.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:14:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So leaning into a screen reader was your way to kind of own the condition? Like, okay, here we go, I'm going to get good at this.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:14:32",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah, yeah. But it was sort of immediately—so the thing I was going to say was that there was a moment where it was like scary and hard and frustrating, but I kind of got into it in the same way that like I think anybody who is sort of technically minded or interested in software was like, oh, okay, I'm like cracking open the computer in a way that I haven't previously. Like I'm engaging, because the thing that a screen reader does, which I did not understand and I still, as I'll soon reveal, don't totally understand—it's not—",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "It's just what it sounds like. It's not like, 'Oh, I'm going to—here's a bunch of screen, here's a bunch of text on the screen, and it's going to read it,' right? There's a thing called—and you know this, and your listeners know this better than I do—like, an accessibility tree, right? That is sort of like pulling from the guts of whatever the system is, like whether it's a web page or, like, a—like, an API or—I don't even know what these words mean. What's it called? The toolkit? The webkit? It's got 'kit' in the suffix.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:26",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I mean, there's—there's many kits in your life—",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:15:28",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "It's pulling from the kit, Paul!",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:15:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes, from the kit.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:15:31",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "In other words, it's generated, so it's like, okay, here's all the buttons, here's all the lists, here's all the headings.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:39",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's trying to make sense of the order of things. It's not just rambling out all the stuff and leaving it to you to decipher it. So there is a hierarchy, so to speak.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:48",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yes. And I think partially because I had vision—I have vision—and so it wasn't—I wasn't like, when things didn't work right, I wasn't like completely screwed in the way that many blind people are when something's inaccessible. I—it could—sort of became like an—because I was writing a book, it kind of became an interesting project that I was excited. I was like, 'Oh, okay, I've been a Mac user my whole life, but like, most blind people are on Windows, and therefore the screen readers on Windows are way more robust than the ones on—than what Apple offers for the desktop, for the laptop.'",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:16:21",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh, this is—this is one of the worst things that this condition could do to you.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:16:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Is you'd have to go back to Windows XP.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:16:26",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Which sucked, but also like—I was—I was learning, and and I basically—I had this honeymoon period where I was like, 'This is leveling me up as, like, a person who's engaged in technology and thinks about it.' And then the kind of rude awakening that I think this is, like, a cycle I've been in where I'll get jazzed about something and then be like, 'Ah, this is always—' and a wonderful person named Chancey Fleet, who works for the Andrew Heiskell Talking Book Library at NYPL at the New York Public Library—she's, like, one of the, like, great blind technology thinkers of our time—it's always going to be a second-class experience on some level if you're working with mainstream tools. Even, like, the companies that are just, like, you know, the Apples of the world that are, like, doing these great commercials that show, like, you know, a university full of disabled people using their products and loving them. And—and the products are great. There's always fundamentally a feeling of, like, 'I am going through the side entrance here, and it's not just—'",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:17:16",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "How come? Explain that. I mean, there's so much time and energy and money that's been spent on building these tools. Why aren't they great?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:17:24",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "I mean, I think one reason—I don't know, I was reading something from a blind hacker guy last night, and—and he was talking about the problem of keyboard input on a touchscreen. And there's something just sort of fundamentally—like, the metaphor is fundamentally visual. Like, you look—like, the way—the way that the touchscreen keypad keyboard is built is you look at—you look at it, you type, then you get—then you get visual feedback that you're typing the right letters, and it's all visual. So there are ways to make that accessible, and—and there's been some ingenious ones, but his argument—and I think this gets to your question—is, like, there's just fundamentally, like, a mismatch.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Like if you were going to design a text input with to be non-visual, that's not- you wouldn't do- you wouldn't build it like that. And so there's always a sense that like, you know, there's like carpet laying over the nice wood floor that you want.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:18:10",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, yeah.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:18:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, yeah. But you're negotiating with these experiences that are assuming full capabilities in the user and it's always caked on. It's never from ground up because they are, they're software add-ons oftentimes on top of the world that's been created.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:18:30",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah. I mean, and there's this, you know, I don't want to get too nerdy with history, but if you think about the history of computing—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:18:38",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh no, this is a safe space. You should do that.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:18:41",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Okay. Okay. So like in the DOS days, right? Where everything is text, blind people were kind of in their element, right? Because once you've got that talking, it, you know, there are still problems on the command line about like reviewing text, but— but fundamentally there was like everything was legible in that way. And then you had the GUI, the dawn of the GUI, and it was a nightmare, right?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:01",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:19:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "This just feels like it's going to you're going to end up in Unix if you like at some point. Like okay, go ahead.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:19:08",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Well I have. I mean that's the—",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:19:09",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "There we go.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:19:10",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You saw it coming. No, but wait a minute. I mean you must be over the moon with AI.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:19:17",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Well hold on, let's get there. Because I want to get him to the term— he's made friends, I want to hear about his new AI friends.",
+      "tone": "eager"
+    },
+    {
+      "timestamp": "00:19:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "All right, so wait a minute. When Mac to Windows, and this feels like you're going to end up in the terminal. Is that what happened?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:19:31",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "That's ultimately what happened. Yeah. I'll spare you the every agonizing move, but basically I met a guy, another blind hacker who I just, I'm very drawn to the blind hackers and there's a lot of them out there.",
+      "tone": "storytelling"
+    },
+    {
+      "timestamp": "00:19:42",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Where do they hang out? Where do you find blind hackers?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:19:45",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Mastodon is a pretty good space for it, I would say.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:48",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:19:49",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Oh, listserv email lists. Clubhouse was popular for a minute during the pandemic, but then that shut down. You know, like there's a really cool documentary that is just about to come out called Joy Bubbles about one of the original phone phreaks who is this blind guy who could whistle the 2600 hertz tone that would unlock the phone system and he's like an OG blind hacker guy. Really wonderful film. But yeah, so I met this blind hacker named Patrick Smith who I was sort of talking to him about some ideas I was thinking of sort of after my book came out and he was— he really just shoved me down a rabbit hole and he's like, look man, if like this is the journey you're on and you're thinking about this stuff in the way that you're thinking about it, like forget about- like sure Microsoft Word is accessible with the with JAWS or NVDA, which are the two big Windows screen readers, but like you should be in Markdown, man. And I was like, okay, I'll try Markdown. He was like, and if you're in Markdown, you should like be using Pandoc on the command line and like plain text is more accessible.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:20:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah. It sends you down a path.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:20:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "This is just exploitation is what that was, which good for him.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:20:51",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, no, he got you. He also said try Linux.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:20:55",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh yeah. No, just what a gateway straight into the our all of our favorite cults. That's wonderful. Okay.",
+      "tone": "witty"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So he took this this nice literary man and he",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:21:04",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "He's got a PhD in English. He like wrote his dissertation in org-mode in Emacs and and that's where I ended up for better or for worse.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:21:14",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm just going to leave.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:21:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, Richard's I'm just gonna leave you two this this conversation just became Richard's nightmare. I promise we'll talk about AI in a minute.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:21:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, no, no, go, go, go!",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:21:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay. So for people who don't know, I am an enormous advocate of like this classic text editing and Emacs has been a text editor I've used for 20 years and watching watching Andrew get seduced by it is gives me happiness in the same way that any cult member coming in and being new is makes me happy. So welcome, I'm glad you're here.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:21:42",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Well, and it and it speaks directly to this conversation too, because for all the reasons that you for 20 years have have been enjoying it, those those things are good for me even if I'm not writing code. But from an accessibility perspective, I mean, on the one hand it's a nightmare. Like, if you want to think about accessibility in the sense of like, I click on a download button and then I have an app that I know how to use, right, Emacs is like your worst nightmare because it takes 20 years to learn how to use, right? Or or so. But for instance, there is no app I have ever used where invert colors works 100% of the time. Like I really- glare is horrible for me so I I- it's really important that like dark- I mean these days dark mode is becoming hip so it's it's getting easier, but for a long time, like inverting colors, it would always be like some bright bar of nonsense that I couldn't fix. Or same thing with making text larger, like you can magnify the whole screen, but it's sometimes nicer to have like all of the UI elements large, right? And that would always inevitably break things or like things are running over each other. Until I found Emacs where just everything is like, you know, Lego blocks that fit perfectly like I- and not only that, but I can change the typeface of everything, right?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:22:55",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "And then... and then the real joy is that this guy, I think also probably about 30 years ago or 20 years ago, named TV Raman, who is a blind developer, he was at Adobe and now he's at Google. He built something called Emacs-speak, which is essentially like a screen reader that just works for Emacs.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:13",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "He's really legendary. Like I mean, if you know about this this op... you know about this tool, you actually end up learning about him. Like he's a...",
+      "tone": "admiring"
+    },
+    {
+      "timestamp": "00:23:19",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh, no kidding.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:23:20",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, because Emacs has been a real tool because of him, it became a tool for blind users 20 years ago, right? And so it's sort of baked into it as what what it's about.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So... so okay, so now your world and so you know what's interesting here? There's two things. One is the same thing that got you into where you're like, 'Alright, I'm going to learn QuarkXPress from this book,' is also you coming into software and technology as a blind person or as a person losing sight. And then what we're learning, and I think going back to Rich's earlier question is sort of like what's not good is that you need a very malleable",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "foundation in order to adapt a system to your specific needs, right? And so like macOS just can't be that malleable and be a consumer product that millions of people can pick up.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:13",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, I mean, and even if it was, it's often hard to bend it. Like, you know, actually Apple has invested a ton in accessibility tools and capabilities.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:24:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "They have a good rep. I think people don't hate them, right? Like, in general, folks are like, 'Ah, Apple's pretty good about this.'",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:24:29",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "For sure. I mean, the iPhone is like the number one tool for a blind person, bar none. The MacBook, there are very few blind people who love MacBook.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:40",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Interesting. Okay. Interesting. Yeah, I actually met years ago the head of accessibility for Apple and they were just about to come out with like that whole suite of features. Remember they—people don't often talk about it, but it's a wide breadth of features in iPhones for people with disabilities.",
+      "tone": "reminiscing"
+    },
+    {
+      "timestamp": "00:25:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Correct. I think sighted users don't realize because it's such a visual medium, how much accessibility tooling is built into iOS.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:25:07",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Correct. But I actually—I have no doubt in my mind that they're so—they're buried four layers deep in settings. Like unless you really sit down and learn it, they're not immediately accessible. And there's not—they're not as malleable because they are a set of features, whereas Emacs—like Emacs nerds just love the control, right? This is about control to a large extent.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:31",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "So it's not just usability. Even if you're good with computers or phones, you're like, 'Ah, you almost got me there.' Like that's that—you know, it felt just short, which is normal, totally normal.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:25:43",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah, for me, like as a reader and a writer, like my relationship with text is paramount, right? And I sort of got to a point where I could like see the workflow and like I could do it in Word or I could, you know—it was totally fine, but then when I started to actually like follow this guy down this rabbit hole, the feeling of control was intoxicating because I realized like, 'Oh no, I don't have to make these compromises.' Like it felt a little bit like, you know, the cartoon character who gets into like the mecha-suit where you can like, 'Oh, now I can like reach 40 miles with my precision syringe and go drill down right here,' and that was transformative for me.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:26:19",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well, and now—so Emacs has got this very thorny language inside of it that makes it very customizable, called Emacs Lisp. But it's not a—it's not a gentle glide path. I mean, I'll be very frank, like even as a big old Emacs nerd, I don't like using it. Except AI shows up, and now you can start to not just customize...",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:26:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Finally. Are we done with Emacs? Are we done? Can we move on?",
+      "tone": "impatient"
+    },
+    {
+      "timestamp": "00:26:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "We're never done, Rich. We're never done. It's running on my Mac.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:26:50",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "We just shed so many listeners for the last 15 minutes.",
+      "tone": "wry"
+    },
+    {
+      "timestamp": "00:26:54",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "We just subtracted so many listeners.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:26:56",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, we may have attracted a new—this podcast is sponsored by Rush, the band.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, that is true. The...",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "A cluster of like Rush fans and Emacs users, like yeah, it's a strong, it's a strong vibe.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:27:07",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Andrew, I gotta ask.",
+      "tone": "direct"
+    },
+    {
+      "timestamp": "00:27:09",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:09",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "This new command line transcription-based experience lands like a spaceship on Earth three years ago. Yes, it's not as buttoned up as DOS, it's more patronizing, kind of clueless sometimes, and maybe damaging long-term, but...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:27:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "...were you ecstatic? What did you think about this? It has become the dominant interface of the last few years.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:27:41",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "I first saw it through the blind communities I'm a part of, and you know, and a lot more people who have a lot less vision than I do. And the way I saw it was in the multimodal stuff, which did land like an asteroid in the blind community.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:51",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh, because it can describe a photo, or it can—okay, yeah.",
+      "tone": "enlightened"
+    },
+    {
+      "timestamp": "00:27:54",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Exactly. Unbelievable, yeah.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:27:55",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Five years ago you're like asking your wife to do it, right? Or you're like, you gotta hire somebody, or you're outsourcing it. And I was just reading something this morning from a guy who's a blind guy who teaches blind people how to use technology, really beating the drum for AI and saying like if you're teaching blind people life skills and you're not including AI, like you're not doing your job.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:28:18",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "And one thing that he emphasized which I thought was interesting was how patient the chatbots are, which I think for if you think about like a blind person learning to do anything, you're doing it in a way that is like fundamentally counter—not counter, but it's just utterly to the side of how the rest of the world does it, right? Like non-visually... there's very few things that like the mainstream does non-visually, right?",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:28:40",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "And so to have a chatbot that has all the power that you're talking about, right, but also that is patient in that way and will be like, \"Let's try it again,\" that's huge.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:28:42",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "But yeah, the multimodal thing, like the independence that that gives you is tremendous. And now with wearables, like it's not just describe this image, right? But it could be like, \"I'm at the airport, like tell me the gate numbers that you see here.\"",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:28:58",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "And people are just like wearing Meta Ray-Bans and cruising through airports independently and it's a—it's a game changer.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:29:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Wow.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:29:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, yep.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:29:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "What do you think... do you use them? Do you like them? Do you use Meta's Ray-Bans and all that?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:29:13",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "I—so I'm not using the wearables. I and I still have enough vision that I will just zoom in or like, you know, take my glasses off and smash it up to my face if I want to see something like that.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:29:23",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "But I like to know that it's there. And like Chancey, who I mentioned before, like she reads graphic novels with multimodal AI, which I just think is wild.",
+      "tone": "amazed"
+    },
+    {
+      "timestamp": "00:29:26",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, yeah.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:29:32",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Like she'll open a page of like an Alison Bechdel graphic novel and say like, \"Okay, hit me with page 23,\" and um and then she, you know, she tunes it.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:29:40",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That last Alison Bechdel book is really good by the way, if people haven't picked it up.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:29:44",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Oh, really?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:29:45",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh, it's all about hippies in Vermont and it's just brutal and hilarious. It's really good. Anyway, it's called Spent—anyway, or Secrets, I think—anyway, keep going, keep going.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:29:52",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "I was just going to say that like for me it really started to feel powerful and Rich is going to be unhappy with this answer, but I...",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "I don't know the Emacs Lisp, right? I never really-- I mean I know enough to just like barely like open the front door, but with Claude Code, I could say, 'Hey, this package is broken, fix it,' and it does it. Or, you know, blind people-- the-- the blind vibe coding revolution is upon us for sure.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:30:19",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Tell us what that's like, what is that?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:30:22",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Well, for one thing, like I-- you know, not to-- not to just Emacs it out forever, but the open source aspect of it is pretty important. So for instance, you know, the great thing about Apple is that voiceover, the Apple screen reader, just comes built-in on every Apple product you buy. Whether it's a watch or the phone, you don't have to pay for it. In the past, like-- and this is a thing in accessibility in general, like if you want an assistive tool, you have to pay thousands of dollars because the economies of scale are terrible because there's so few people buying it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:52",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Expensive.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:30:53",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah. And there's-- there's like a proprietary screen reader for Windows that's one of like the most venerable and powerful ones called JAWS. But now there's this open source upstart called NVDA that is, I mean, really taking a lot of the market share from JAWS and it's free, it's open source, and has this add-on library that's all in Python that-- and you can write your own add-ons. And so blind people are just going bananas writing NVDA apps, for instance, that-- like I saw one, you know, Wikipedia, for instance, is a totally accessible web page with a screen reader. But it's also like not that easy to just sort of do the thing that visual users do where you like glance at the headnote and like glance at the TOC and like you can-- you can get fast at it, but this guy just, you know, had a-- a LLM write him a add-on for his screen reader that like basically scrapes Wikipedia and like Cold Stone Creamery's it up into like the his particular confection that he wants and then he uploads it to the NVDA add-on store and now like, you know, lots of other blind people are using it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:31:53",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Amazing.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:31:54",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "And there's just like-- that's just-- and people are building, you know, mods for games that are inaccessible. So I think there's two-- there's two angles of it. One is like, 'Here's an inaccessible tool and it's going to like remediate it.' And the other is like, 'Here's an open source tool that can sort of like slot into my other open source assistant tech,' and that's the sort of NVDA or Emacs angle.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:32:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "See I want to break that down for one second because something you said really sticks in my head, which-- so, Wikipedia is a lot of very big web pages and they are, they're very accessible by all the-- like of course Wikipedia is a big non-for-profit, it follows all the guidelines and I'm sure there've been lots of disabled people advising over the years, right? But what this person needed and what they really wanted was just a really scannable version, right? That was not on the product roadmap for Wikipedia. I'm sure people have thought about it before, but everybody just kind of live-- you know, they kind of go along, they kind of figure it out and, you know, everybody was sort of doing the best they could. But now this person can go, 'Wait a minute, I just want this. I just want it. Let me see it. Let me see what it would look like.' Wrong choice of words. Empowerment.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But the... he...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:33:02",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "That's fine.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:03",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But he wanted to perceive this thing and use it and have it. And as a result, everybody gets to have it. And that to me, that is the moment where—and I want to talk to you about a slightly different thing too, which is—sort of like me, you straddle two worlds. You are in—well, and actually, you straddle two very specific worlds. I straddle technology and sort of culture, but you are of a very specific part of the culture industry, which is very thoughtful, very caring, very sort of essayistic, very sentence-focused. Those people all hate AI, top to bottom, and they want to go out and kill it with fire. And on the other side, you're in the blind community where this really must feel good. It just must—like I can feel the relief as you're—'cause you have control over your own life. And so you have one community that is losing control because of this technology, and another one where it's so foundational that it changes your day-to-day living. And sort of, how do you—do you organize that in your brain at all? Or are you just sort of like, 'I'm sorry, I'm like... I don't have a lot of vision. I'm going to just use this shit.' Like, what—how do you react to that split?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:33:59",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah, that's such an interesting question. I mean, my wife is an English professor and she—like, I have to—like, you know, there's a thing called screen curtain with a lot of assistive tech where you can like basically make your screen go black but you can still hear it. And like, I will turn on screen curtain if I'm using Claude and she walks by because like, she will just—like, I'll get in trouble, you know? Like, she really—she hates—she's one of those 'kill it with fire' people. Sure. You know, I think the way that I connect those two worlds, for me, it's not—you know, part—I definitely have the thing you ended with which is just like, 'You know what? It's like... I gotta get out the door somehow.' It's like the same impulse that makes me stick with Amazon. Like, I feel bad ordering tiny things from Amazon, but also I'm like, 'Well, I don't drive,' and like... but is that—am I just making that justification? Or like, is it really a blind thing? Or what?",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:34:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, no. Let's... we're going to give you that pass. We're using Amazon too, Andrew, if it makes you feel any better.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:34:59",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, everybody is. We're probably—this podcast is probably being recorded to an Amazon server. Like, you just can't own a structural problem. It's okay.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:35:22",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yes. Okay. Thank you.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:35:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But I mean, the thing that I wrestle with and I'm still not sure how to articulate is the like... the idea of a—of a mainstream product versus a niche product. And and I think like the thing that justifies it for me is—you know, you were you were mentioning earlier that you liked it when I said that you could really tell when a blind person has made a piece of software.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:35:38",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, and I really want you to talk about that. I want to understand the difference. Go ahead.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:35:44",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Well, well, I was just going to say that like so many of these, you know, like like the Wikipedia scraping add-ons, like that's never going to be a feature that any mainstream tech company is going to make, right? And like you can have the handful—you know, the big tech giants have blind developers and disabled developers...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "And they have like accessibility initiatives, but it's always going to be that sort of like side door thing or like an overlay kind of approach. I mean not always necessarily, like there's - there are good - those companies like Google and Apple and Meta are all doing really good things for accessibility. But ultimately, I feel like, you know, I saw this developer who has a mobility disability and scrolling is really hard for him. And he talked about how like a friend of his like hacked together like a cool scrolling app that made him able to scroll more well on his Mac, but it also sort of didn't do what he wanted. And then Apple actually has something called Dwell Control that like was supposed to solve the problem, but like it didn't work on all the websites. And then Claude Code, you know, he just like in a couple hours, he made it and now he can like scroll with the best of them.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:36:48",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Listen, Andrew, I can give this back to you, and this is - you're being very polite here. And look, I think they are do - people are - have learned a lot about accessibility and they've learned about disability, right? And they've brought in teams and they're - they're making - but you're never the main event. And what you're saying is, boy, it's really good to be the main event sometimes. It's good that this product is for me. And when a blind person makes something that I can use, I can just tell and I can feel it because they're the freaking main event. And that - that to me is always the miracle about this work is that you can stop a problem for an individual and then that can scale out. And you've been down on the list. You're on the list, but you're down on the list. And now you're up.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:37:29",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "I mean, it's they're literally we'll never be at the top of the list.",
+      "tone": "resigned"
+    },
+    {
+      "timestamp": "00:37:33",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's a numbers thing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:37:35",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Like there's - there's never going to - unless there's some like Jose Saramago event where like, you know, three quarters of the world population is blinded, we're never - that's never going to be the case. And so, but I don't want - I don't want people to hear this and think like, oh cool, like AI solved accessibility, then so like for my next product, like we don't need to think about it. You know, I think because I think that like I do have the experience like, you know, say what you will by Facebook, like there was a lot of blind people on Facebook and they yell and scream and stamp their feet when Facebook pushes an update. Like I just got like a really excited email this morning from the American Council of the Blind that was like, 'Great news!' and I was like, 'Oh, is this like some legislative thing?' and it was like, 'The Facebook, the new - if you update your Facebook app, like the back button works again! Fuck yeah! We did it, guys!' and I was like, wow, that's... But also as a user, like Facebook is a pleasant app to use with VoiceOver. Like I - when it works, like when they push those updates, like compared to Twitter for instance, or like a lot of other apps, like it's just nice, you can like interact with the posts, you can like them easily, you can like scroll easily, skim easily, all of that. So like that stuff is really important and real, but at the same time, like those regressions are just like a fact of life. And so this - you know, this is - and this is where I get all Linux-y and like open source-y, and I'm like maybe I just divest and like what if I could just like live with the weirdos where like the back button breaks every day, but like I can fix it myself and I'm like with these other weirdos? And that - that's the kind of like back and forth that I'm feeling.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:38:58",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah baby. Come on in.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Come on. You're... you're... we want you here. We, the weirdos want you.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:39:04",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Good.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:39:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Listen, you know, I mean there's another thing I've heard too, which is, you know, it's very easy to be like 'make this app accessible.' You can say that to Claude Code and it'll like do an okay job. But from what I'm hearing, it's just kind of not there. Like it's not really... it won't quite get you there. You still need real users and you need real reviews.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:39:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm going to be... I... I want to... I want to close this podcast with a futurist sentiment. Going beyond the... this community or other, you know, communities of disability, or frankly, any community. Communities that are... that just don't get attention because they do the like total addressable market sort of cold calculation. They're like 'Nah, it's not a... big enough market.' And the truth is we're heading towards a place where a bespoke solution to a problem doesn't require buy-in at a large scale because you can just do it. Everything I'm hearing is born out of the community itself, right? Not some R&D project at Microsoft. And it's often times driven by a personal frustration, an individual frustration, that is like 'Maybe others are frustrated like me.' And often times it doesn't hit the mark. It happened to work for that person who built the add-on but missed the mark for other... other shades of a condition or whatever it may be that people carry. I think we're heading towards a day, and this is the futurist piece I'm going to say right now, so put the music in whoever's producing this. We're coming to a day where I think something that is so custom-tailored to a high-fidelity around your individual needs can come to life for you and others will be like 'Oh, that's weird, that's not how I would do it.' Well, go make your own because it's going to be easy and the empowerment here is in that ability. It's almost like targeted therapy, right? Like you have a particular set of needs. It's not just about your condition, Andrew, you also are a writer. You're not doing something else, you actually those... there's aspects of your life that are meaningful to you.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:40:42",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "And they're very specific. Writers have a lot of things that they need.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:40:45",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Here we go.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:40:46",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah, and they never get them.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:40:48",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. I think it's an exciting time for the tinkers who are able to build stuff that empower them and then maybe share those things with the world. I think that's a very interesting... we're in a very interesting time.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:40:58",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah, and I think that your point about the sort of diversity within disability is important from a product standpoint because, you know, like I... I talked to this blind guy who was like on the very non-technical end of the spectrum and he had the ear of his like local... his like local zoning board or whatever and he was like 'Blind people really like this kind of asphalt and when you fill in the potholes with the other kind it's not good.' And I was like 'What are you talking about, man? Like this is just like that's a you thing.' But now like the whole, you know, the whole community council is like...",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Okay, well the blind community really likes this style of asphalt.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:42:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "The blind community is the guy.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:42:05",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah, and like you see this same thing, like there are people who never identify as blind their entire lives, who lose their vision in their 80s.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:42:10",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Totally.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:42:11",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "And that user is radically different than like the blind hacker who's blind from birth, who's been like Unixing it up since childhood. And so that kind of malleability, I mean, that's one of the things that makes accessibility hard, although I think the main thing that makes accessibility hard is just that people aren't teaching it in schools and it's not on people's radar.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:42:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "But even when you do kind of want to make a good faith effort, often you're like doing great for the low vision people or the colorblind people, but like, you know, the people who are using joysticks or a different screen reader are left out.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:43",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "In different environments, in different cultures, in different professions that have different requirements that get that sort of layer on. I think, look, I think generally speaking we talk about it on this podcast, we're heading towards a post-product world with this stuff because the ability to sort of assess a situation and then build something that's utterly custom and tailored and has a customer of one...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:42:59",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "We just made Andrew a product manager and you've already...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:43:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Welcome aboard, Andrew.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:43:05",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah, this was an interview process. This is why it's over now. There's no more roles.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:43:10",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "There's no more roles. No, you know, here's what's funny is I was thinking like two years ago, I think I would have been like, 'Hey Andrew, I got an audience of product managers for you and you can tell them what you need, you know, and maybe they'll listen and this will be good, it'll be a nice educational moment for everyone' on and on. But I think what I'm hearing now is you saying, 'Hey, if you could just like make sure I know how to talk to your thing and then kind of get out of my way a little bit...'",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:43:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I'll take it from here.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:43:36",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'll take it from here and I think like I really do want to like get that into people's brains. You're ready to go. You're ready to tell Claude what you need. Like you just need some good APIs and some nice documentation for the LLM to read and you're kind of up to try stuff.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:43:53",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah, but that's me. Like I think if we're talking about like the community, like you have to be ready for the 80-year-old who lost her vision and needs a thing that will talk to her.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:44:08",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "She's not getting on Claude code.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:44:10",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "But Andrew, five of yous can help 80,000 of them. Like it's really... because you could build... you're right, you're busy, you're teaching, okay, but like let's say let's say this was your job. You could solve problems at a scale very quickly for a lot of people with low vision using these tools all day long. Like the scaling of somebody who actually has the experience and doesn't constantly need it sort of translated to them.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:44:35",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "I think there's a... I partially agree with you because the example, the Wikipedia reader add-on, probably solved it for let's say hundreds or thousands of people beyond that individual. But I think there's a diminishing return on it. I think that this is kind of the challenge with this is that how people live their lives, the state of their condition, and how it intersects with how they live their lives and their profession.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Think about if—let me just, just a future state. Couple years from now. Yeah. Ten years from now. Somebody develops a condition and they're starting to lose their eyesight and it's been going on for a while. And then a service pairs them with a developer who hangs out with them for a day or two.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:45:16",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes, as a service.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:45:19",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And then makes them a tool for them.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:45:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's fascinating and interesting.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:45:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "In a day or two, can build them five or six great key pieces of software, uses their smart home tools. So I think like there's a bespoke—",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:45:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "The barriers are gone.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:45:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "There's a bespoke personal way to do software that's been unimaginable.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:45:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's almost like a clinician in a way. They're sort of like, I'm going to watch how you live for a couple days and then make you something.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:45:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's the opposite of the experience that Andrew described with his doctor where it's like, okay, good luck. We couldn't cure it. Instead, it could be like, oh, okay, well we can't—we can't really do anything about your retinas, but—",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:45:54",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "All of that is true, but I feel like there is one thing that is like the boring thing that people have been—that like disabled activists have been yelling about for decades that doesn't totally carry over, which is just that like there does have to be a base—like WCAG is not made irrelevant by AI, right? Like there are still basic accessibility features that without—without which I can't even get to the Claude prompt. You know what I'm saying?",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:46:19",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:46:21",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "To be fair, I am assuming an enlightened society which is probably a mistake.",
+      "tone": "self-deprecating"
+    },
+    {
+      "timestamp": "00:46:25",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "We're still in futurist mode here.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:46:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay good. Let me back—let me back that—product post-war. Let's get to the enlightened society with inclusivity first.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:46:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Everybody's in robes.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:46:35",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. And then we can build the custom adaptable hand-holding products. That's fair.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:46:42",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay look, I actually could talk about this kind of stuff—I mean look, we'd love to stay in touch here. I kind of want to, I don't know, I just kind of want to vibe code. Like it sounds really fun. But where—like are you pushing stuff to GitHub? Are you there yet?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:46:59",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "I'm not there yet, but I do own some 2026 versions of my like 500-page QuarkXPress manual that I have on my to-do list to like learn Python and learn more—basically the idea that like if I know Python I can tell Claude to be smarter about the Python that Claude will write for me.",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "00:47:17",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Stuff. Nice.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:47:19",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, I mean—you really can't, I'm going to be frank, it's mattering less and less.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:47:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay so look, if you want any good vibe coding help, you know, Paul's available. You got friends here, as does everyone else listening to this podcast. Reach out at aboard.com if they need a little advice, let's just work that marketing right into it. Andrew, look, people can visit your website to learn more. What's a good way to reach you if they'd like to reach you?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:47:51",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Yeah, my email address is on my website, andrewleland.org. It's aleland@fastmail.com. I—",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "You're on all of the major social media networks and I live in Western Massachusetts.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:48:04",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "All right, we're going to put that link in the show notes in case anyone is too lazy to figure out how to spell AndrewLeland.org.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:48:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's a not-for-profit. It's a community organization.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:48:15",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "It's actually .org because it's an org-phone.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:48:18",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh, no. Thank you. Thank you for wrecking it, man. Oh my god.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:48:21",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Sorry Rich. Sorry.",
+      "tone": "apologetic"
+    },
+    {
+      "timestamp": "00:48:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "All right, so this was lovely.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:48:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I hope you'll come back on at some point. And yeah, if you, you know, let's get you into GitHub. I'm just really excited. I get so excited when I see like an essayist become a big Python nerd.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:48:37",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Like population of three.",
+      "tone": "dryly humorous"
+    },
+    {
+      "timestamp": "00:48:39",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's very...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:48:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's quite a club.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:48:43",
+      "ad": false,
+      "speaker": "Andrew Leland",
+      "text": "Give me a year. Give me a year.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:48:45",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Just anything you need. Okay, good. Well, we will talk to you soon.",
+      "tone": "warm"
+    },
+    {
+      "timestamp": "00:48:47",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "And anyway, if anybody out there wants to learn more about Aboard, check out our website. We build and we solve problems and we transform your organization with AI.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:48:54",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "And we do it in a way that really sits next to you and we work with you really closely. So imagine if Andrew was a large corporation like in the insurance industry. That's how we would approach this problem.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:49:03",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "So hello@aboard.com. Rich, did we leave anything out?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:49:07",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "I think that's it. Everybody take care of each other. Have a wonderful week.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:49:13",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "Andrew, thank you so much.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "00:49:14",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "Thank you, Andrew.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "00:49:15",
+      "ad": true,
+      "speaker": "Andrew Leland",
+      "text": "Thanks guys. This was awesome.",
+      "tone": "appreciative"
+    }
+  ],
+  "highlights": [
+    "Mainstream software is fundamentally built on a visual metaphor, which often results in accessibility features feeling like a \"side entrance\" rather than an integrated, foundational part of the user experience.",
+    "Multimodal AI has revolutionized independence for the blind community by providing real-time, patient, and highly detailed descriptions of physical environments and digital layouts that were previously inaccessible.",
+    "The rise of AI-assisted coding allows disabled users to create bespoke tools and personal software fixes, bypassing the slow-moving and often unsatisfactory accessibility roadmaps of major tech corporations.",
+    "Technology is moving toward a \"post-product world\" where software can be custom-tailored to an individual's specific professional and lifestyle needs rather than being forced into a one-size-fits-all mainstream model."
+  ],
+  "summary": "In this episode, hosts Paul Ford and Rich Ziade interview Andrew Leland, a professor and author of *The Country of the Blind*, who discusses his experience navigating a gradual loss of sight due to Retinitis Pigmentosa. Leland explains how his background in desktop publishing and editorial work shaped his \"nerdy\" approach to accessibility, leading him to favor highly malleable, text-based tools like Emacs and the terminal over mainstream GUI-based solutions. He argues that while major tech companies provide important accessibility features, these often feel like \"side doors\" to a fundamentally visual experience, whereas customizable, open-source environments offer blind users a greater sense of agency and control.\n\nThe conversation explores the transformative role of AI, which Leland describes as an essential \"life skill\" for the blind community. Beyond multimodal tools that can describe images or navigate physical spaces like airports, he highlights the \"vibe coding\" revolution, where AI enables blind users to build bespoke software solutions that mainstream companies would never prioritize on their product roadmaps. This empowerment allows individuals to bypass the limitations of mass-market software by creating custom tools—such as personalized Wikipedia scrapers—that address their specific professional and personal needs.\n\nOverall, the podcast touches on a major cultural theme: the divide between the literary world, which often views AI as a threat, and the disability community, which embraces it as a foundational tool for independence. The guests and hosts conclude that we are moving toward a \"post-product\" world where the focus shifts from one-size-fits-all software to highly personalized, \"targeted therapy\" technology. In this future, the barriers to creation are lowered, allowing individuals to act as their own developers to solve unique problems at a scale previously unimaginable.",
+  "description": "“The blind vibe-coding revolution is upon us.” On this week’s podcast, Paul and Rich are joined by Andrew Leland, the author of the Pulitzer-finalist The Country of the Blind: A Memoir at the End of Sight, to discuss how blind and low-vision people are using AI tools to create and adapt software to suit their accessibility needs. With limits to what any out-of-the-box software or device might do, is AI the way to give disabled people technological solutions that really work? Plus: Rich bravely makes it through the whole recording despite being surrounded by two massive Emacs stans.\n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/andrew-leland-hacking-disability-with-ai/",
+  "duration": 2976,
+  "people": [
+    "Paul Ford",
+    "Rich Ziade",
+    "Andrew Leland",
+    "The Country"
+  ],
+  "topics": [
+    "Assistive technology and software accessibility for blind and low-vision users",
+    "The role of AI and LLMs in developing custom tools and 'vibe-coding'",
+    "The advantages of open-source software and terminal-based tools for accessibility",
+    "The limitations of mainstream tech products in addressing disability-specific needs",
+    "The shift toward bespoke, user-driven software development"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/OZiah3QUa-g/maxresdefault.jpg",
+  "date": "20260421",
+  "youtube_url": "https://www.youtube.com/watch?v=OZiah3QUa-g",
+  "youtube_metadata": {
+    "title": "Andrew Leland: Hacking Disability with AI | The Aboard Podcast 2026-04-21",
+    "description": "“The blind vibe-coding revolution is upon us.” On this week’s podcast, Paul and Rich are joined by Andrew Leland, the author of the Pulitzer-finalist The Country of the Blind: A Memoir at the End of Sight, to discuss how blind and low-vision people are using AI tools to create and adapt software to suit their accessibility needs. With limits to what any out-of-the-box software or device might do, is AI the way to give disabled people technological solutions that really work? Plus: Rich bravely makes it through the whole recording despite being surrounded by two massive Emacs stans.\n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/andrew-leland-hacking-disability-with-ai/",
+    "duration": 2976,
+    "view_count": 47,
+    "like_count": 3,
+    "channel": "Aboard",
+    "upload_date": "20260421",
+    "thumbnail": "https://i.ytimg.com/vi/OZiah3QUa-g/maxresdefault.jpg",
+    "tags": []
+  }
+}

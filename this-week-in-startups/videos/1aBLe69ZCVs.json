@@ -1,0 +1,2536 @@
+{
+  "title": "The 5-Step Framework for AI Agents That Improve While You Sleep | E2269",
+  "source_url": "https://www.youtube.com/watch?v=1aBLe69ZCVs",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alright everybody, welcome back to this week in startups. It's Twist for March 30th. Happy birthday to my twins.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:00:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And it is, they're 10 years old. We had their party this weekend and I'm in Brooklyn. I'm in Brooklyn. I came to see my dad.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:00:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, as you can see from the Brooklyn Bridge. My dad's been a little bit sick, so I came in to spend some time with him.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:00:19",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Aw, bless. See the family.",
+      "tone": "sympathetic"
+    },
+    {
+      "timestamp": "00:00:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "See John the Beard. That is not a live shot of Brooklyn behind you. I call shenanigans on this.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:00:26",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Okay, well...",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:00:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's the wrong time of day, sir. It's the wrong time of day.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:00:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean the time zone. I think Texas is what, like 8 hours behind? It's 8 hours behind.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:00:34",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, it's like Tokyo. Yeah, it's like 8 hours.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:00:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alright we got a big show today. But before we get started, it's... this is what we do. We get ready for the show and I applaud Plaud by pressing my pen like we are in Star Trek.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And it really is kind of like Star Trek. One of the things I wanted to do was I wanted to interview my dad. I'm trying to convince my dad to let me interview him so I could write like a, you know, short story about him or something, you know, down the road.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:01:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And you know, he's an old school guy so he's like, 'Aw I don't know, my story's been told, I don't know.' But I was like, 'Okay, well I got this Plaud pen, I just want to talk to you, like maybe we could carve out an hour or two to just talk about your childhood or whatever.' He's like, 'Bah, bah, I don't know, bah.'",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:01:19",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "You gotta capture those memories. Once people are gone, those stories are gone. I feel this with my grandparents all the time, that I wish I'd gotten more of their old stories because now they're gone, I'll never be able to ask them about the old days.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:01:30",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "And I bet you somewhere in the Plaud templates is archivist or family archivist or storytelling templates. If there isn't, we could write one. And that's the beauty of Plaud. And you know, they're a partner of ours and they're sponsoring today's livestream.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:45",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Go check out Plaud. There's a pen, there's a MagSafe adapter that goes on the back of your iPhone or if you've got any other MagSafe. It is extraordinary, it's changed my life. It's privacy first, so you see the red light's on. And it's changed Lon's life. Even Alex loves it now, he's getting into it.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:02:03",
+      "ad": true,
+      "speaker": "Alex Wilhelm",
+      "text": "It's great because it's not just recording but it understands the context. I mean I think that would be great, why it'd be good for what you're talking about. It would not only capture your dad's story, but his tone, his personality, his voice. It's really, it's you know, it's good for the contextual understanding of what's being said.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:02:20",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "And you know I think these things are going to keep getting better and better. I have a feature item I want for Plaud. I want Plaud, because it is independent of your device, if you have your phone in the charger and you walk to the kitchen and you want to, you know, do like a quick session or something, you know, with a colleague in the corporate kitchen, you can just press it and record it.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:02:41",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "I want it to have, I want it to pair with its own proprietary earpiece to give like feedback, or I could ask it questions back and forth, and then eventually have a local language model on it and have it connect to Wi-Fi.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:02:51",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "I don't know if you knew this, but if you put it in the cradle... this is like a power user feature... if you put it in the cradle, it will sync over Wi-Fi for you.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:59",
+      "ad": true,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, I did know that. I did know that.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "You know that, okay. It's like a little secret feature because I was like, you know, this reminds me of this thing. Yeah, I'd like this thing to automatically sync and, like, the perfect time to do that when I put it in the cradle. What's the URL? Help me out here for a special offer?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:03:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:12",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'm gonna keep talking until you give us the promo code.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:03:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I understand that.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:16",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "So you want to check it out at plaud.ai/twist. That's P-L-A-U-D.ai/twist. You want to use the code TWIST for 10% off of your Plaud pin.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:03:27",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "All right, so it is AO after openclaude.com.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We stopped, we stopped keeping track of time. It's gotta be - we gotta be close to the 60s, yeah. We're in the 60s.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:03:33",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Well, we'll just go with 60 for today. OpenClaude is a transformational product that allows you to have an agent, and that agent you can give it access to everything. You can give it its own computer, you can give it its own Gmail address, Notion. And a lot of folks are now amping up their products and services. I noticed Claude, I noticed Claude added specifically skills.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:04:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So you can add a skill to Claude Co-work now. So this is such an impressive product and an open-source project that our friend Dave Morin has been pursuing. And I think it's really important for us to keep the open-source train moving. So I'm gonna keep talking about OpenClaude. But I'm actually delighted to see that the innovations in there, specifically skills, have made their way into other products that we love. Perplexity computer, I think has added skills, and I just noticed Claude, if you hit slash skill, it will let you put a skill in. And then you can copy and paste the skills from one to another. One of the skills you and I created that was super helpful to us is obviously doing guest research. Great. Another skill is, hey, what are the best practices around thumbnails and subject lines? Like social media best practices for YouTube, whatever. So now we have that skill. I have a skill for tell me what the person's done, like a check-in report, like a management tool, a CIR. So I could say check-in report for Lon 3, and it'll tell me the last three days of what Lon worked on. In other words, the weekend. And I'll see he takes a full Sunday off, he maybe checks in once in a while, but he tries to keep that Sunday nice and tight.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I try to keep my Sunday. I work a lot on Saturdays I feel.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:05:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "You do put in some time on Saturdays, which I appreciate.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:05:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:15",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "But it will tell me all the Gmails, Notions, Zoom meetings. Anyway, we thought we'd step back a step today, have a guest on who's extremely good at OpenClaude, just go through their top five OpenClaude tips. So it's not just us repeating our tips over and over again.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:32",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So let's introduce our guest and get to work.",
+      "tone": "cheerful"
+    },
+    {
+      "timestamp": "00:05:34",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, we're very pleased to welcome. He's a senior AI product manager at Google, but he came to our attention because he's been posting incredible OpenClaude tips on X. A lot of great X articles, including one that I bookmarked called 'How I Built an Autonomous AI Agent Team That Runs 24/7.'",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:05:50",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Please welcome Shubham Saboo to the show. Shubham, thanks for being here.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:05:54",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Thank you Jason, thank you Lon for having me.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:05:57",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yes, super excited to talk about OpenClaude. I've been running OpenClaude...",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Claw for last two months, uh, today it is a team of six agents running on my Mac mini.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:06:05",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "They pretty much automate everything that I do outside Google.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:10",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So quick context for the viewers and for you Jason and Lon.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:13",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Uh, outside Google I started an awesome LLM apps repo which was an open source LLM apps plus agent templates for users to build on top of.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:23",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So they can just use those templates, build on top of that repo crossed 100,000 stars and it was such a pain to manage as a single person side job.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:06:31",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Apart from that I have newsletters and whatever I learn with these two goes on my social media.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:38",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So that would take hours and hours of my time outside Google. So I was pretty much working like 20 hours or 18 to 20 hours before Google.",
+      "tone": "tired"
+    },
+    {
+      "timestamp": "00:06:45",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Then I came across this thing called Open Clawe. I did not use it for 15, 20 days since its launch.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:52",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And then I see it popping up on Twitter, X, and LinkedIn and Reddit everywhere.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:06:59",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I was like, I have to try this thing. Like, what is this thing?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:07:04",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I install it and first of all, for viewers listening, you don't really need a Mac mini to install Open Clawe but I am super concerned about my security.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:07:14",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I keep these things seriously so I did not want to install it on my personal machine. I was like $500 is worth an investment. I got a Mac mini.",
+      "tone": "decisive"
+    },
+    {
+      "timestamp": "00:07:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Can I jump in here and ask because we have our Open Clawe agents running in an AWS EC2 instance and I do have to say I feel like it's holding me back.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:07:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I feel like I encounter a lot of like, oh I can't go to that website, oh I'm getting blocked, I can't look at that video, oh my email doesn't work right because of the limitations of that.",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "00:07:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So how big of a whole thing holding me back is that and is it really like preferable to have it in its own Mac mini or some other solution?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:07:54",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So it does not really need to be its own Mac mini but what I recommend and what I've seen after talking to a lot of individuals is having Open Clawe running on a clean slate or a clean machine really helps.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:08:05",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Because what you're trying to do here is trying to give agent its own identity personality so you really want that agent to have its home as well.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:08:12",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Just like Lon you could live in a rented apartment but you would really prefer to have your own home, right? Autonomy, privacy, you can do whatever you want.",
+      "tone": "analogy"
+    },
+    {
+      "timestamp": "00:08:22",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So when you give Open Clawe a clean machine be it a Mac mini or a local or your old computer you can just leave it autonomously running and doing like changing files and using websites.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:32",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Attaching it to Chrome, using browser. So that kind of flexibility comes with a machine which you typically won't get in sandbox environment. So they have its limitation.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:45",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "But people starting out you can just start in $5 or $10 subscription just run it in sandbox environment so you really don't need to buy a Mac mini. That's the first step.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:08:56",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "But once you get claw-phile then you would really want to have a Mac mini because that's the cleanest user experience.",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "experience you would have. So I've been doing that, and when I installed Open Claw, I just realized like it is super simple to install. So it is just like installing Open Claw, selecting models, giving them tools, going through certain steps, and by the end of it, you just have your first agent running. Like, and it has—it comes with a UI along with the terminal, so you can just go in the browser, open the dashboard, and you can see your first agent running. And that's how it started.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:27",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "It's springtime folks, and that means it's time for spring cleaning, but not just for your house, but all those messy parts of your business. And that's why today's episode is brought to you by Quo, the smartest way to run your business communications. Even the most attentive and professional team members, well, they're just human, and sometimes we miss a phone call. That's why more than 90,000 businesses rely on Quo to stay connected and consistently reachable. That's because your entire team uses the same number. There's no more slip-ups or people using their personal phone numbers and then they leave the company and you lose the entire history of the customer and your partner. Plus, Quo has AI that automatically logs, generates summaries, and recommends next steps for your calls. So make this the season when no opportunity and no customer slips away. Try Quo for free, plus get 20% off your first six months when you go to quo.com/twist. That's Q-U-O.com/TWIST. Quo: no missed calls and no missed customers.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:10:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And when I was starting out, I see people naming their Open Claw agents randomly like Sam or Holly or Molly and all those things. I was like, it is very difficult for me. Like, okay, it's good for one agent I could remember it, but I was like, maybe let me just name my agents after my favorite TV characters. So I started naming them after my favorite characters from Friends and The Office. And after a while I realized, while I was doing it unknowingly, it really makes a very good mental model. So I started with my first—",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:11:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "By having personas. Personas create a mental model. So this person's a producer, this person's a fact checker, this person's an engineer, this person's a researcher, this person's an accountant. That does help humans figure this out. But then there's the Ultron model, which we've talked about here, is like having one have all the skills. And that's an ongoing debate, and I think we've all come to the conclusion, Lon, that it's fine to start with multiple agents and coordinate them. It's also fine to try to have one super agent. You'll—you'll hit roadblocks in terms of how often you're using them. I think that becomes the key block. Yes?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:39",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:11:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "That's 100% right, Jason. So I never recommend people—so people see all these flashy screenshots on X where people share, 'Okay, I've been running six-agent team or eight-agent team or I have like 12 agents running in the background.' I never recommend people to start from there. Start with one agent and make your way up by talking to your agent. Like, that's the—",
+      "tone": "advisory"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "best thing that Open-Claw has done. So you really don't need to be a technical expert or you don't need to have be a coding ninja to like run these agents, deploy them, or make multiple agents out of it. So I started with this main agent, I named her after Monica because Monica is known to run a tight ship, she handles the operations, all those things very well. And I started talking to Monica, Monica so like here is tip one. So when you are starting with any...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:12:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So this is tip number one of your five tips?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:27",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yes.",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "00:12:28",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "When people start with Open-Claw, when people start with their first agent, because of all the hype that was created that brings people into this, people think, okay, installing is the only thing I need and then I just start chatting with my agent and agent can do whatever I want, that's not how it works. So I've seen people operating in like two extremes. Some people just like directly get in without giving any context. So you really need to tell your agent about yourself, what you want it to do, think of it like onboarding a real employee or an intern. So you do not onboard them by not telling them anything. You don't onboard them by telling them nothing. Also, you don't just like bombard them with all the company information on day one. So you don't just like dump files and files of context, you don't just give them like here are like 10 folders and figure this out yourself. So people are operating in two extremes and both of them end up in a disappointed shape or form and then they are like, oh, this Open-Claw thing, it was so hyped up and it is not working. It's like either you don't give it any context or you're just dumping it with lot and lot of context because at the end of it, it's the model which has limitation. If you dump it with a lot of context, it will do a context flow. If you don't tell them anything, it will just give you generalist result. So you have to be right in the...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:13:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So example of this, example of this. Good context to give it and then overwhelming it.",
+      "tone": "probing"
+    },
+    {
+      "timestamp": "00:13:52",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Good context will be just like how you onboard an intern. You would tell them who you are, what the company is, what the company does, you give point them towards the right links. You tell them specifically, this is your job, this is what I want you to do, just like Jason you were mentoring right at the start of your career.",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:14:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Like onboarding an employee.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:14:09",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, yeah. You were very specific. Lon, I want you to do this and Jacob, I want you to do that. So you need to be very specific. You can't just say Jason, okay, Lon, Jason, figure out what went wrong and just do everything yourself. You were very specific in your direction. So you need to have that kind of direction and that's the right context.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:14:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Have you done that otherwise Lon on yours, on Gaff? Have you done that?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:14:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes, in fact, we had another guest on, Geordi Coltman, you remember this was during the very early days of Open-Claw, and his recommendation was you have your agent interview you and then base its whole MD5 file on that interview. So I actually had a whole like 20 minute conversation with Gaff where I explained the show and how I'm going to use him and what kind of other tools I'm using, and that really informed our whole relationship moving forward with there. So yeah, I think this is super important because you don't, without that context, you're...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "agent doesn't know what you're looking for.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Exactly.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:15:03",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Actually just saw a skill that I will find and post here, uh where it actually you you set up your agent so that it always interviews you before a new task, because the theory is, uh when you just tell an agent to do something, it's going to get like 70-80% of the way that you of where you wanted it to go, but it won't get that 100% because it's guessing on a few things. And so what the interview idea is, is if your agent chats with you beforehand, asks all of its questions, it doesn't have to guess and you'll get a lot closer to 100% on the first try. Which is an interesting idea.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:15:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And should all that become part of their soul or part of their memory in your mind?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That's a very good question Jason. And here's the interesting answer. So I do not tell Monica where to put all the information that I'm sharing with her. I shared what I want her to do, I shared about me, and she figured out like what to put in her soul, she figured out that she should create a user dot MD to put the information about me, she figured out what would go in her identity file. So this is taking us as close to managing a human or as close as mimicking a human experience which was the - which was the super interesting and insightful thing when I used Open Claw. And by default, the way with the new updates coming in, by default it is going in that direction on which we're talking about. So when you throw in something at Open Claw, it asks you a flow of follow - some follow-up question and then it goes from there. And then it automatically figures out where this information goes in what file. We'll come to memory in a bit Jason, but this is when you start, like this is how you start and how you evolve your agents into something towards the end of it, we'll get to an agent team which self-evolve, self-learn, without keeping you or without you being the barrier to that. Like you don't have to, like Jason just like you came in and you told Lon and Jacob 'Okay this needs to fix', you don't need to tell them. What if it gets automatically - what if they could just like keep doing it themselves? Similarly, what if agents can just figure out 'Okay these things are breaking, go back and uh just - just do a recap of what went wrong and figure out a fix, update their instructions based on that. So we'll go from here to there.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:17:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So the top 5 so far. We got start with just one agent and onboard it like a new hire. And then tip number 2, you just gotta talk to your agent. Don't worry. Sometimes I will say my agent will try to make 'open up your terminal and do this and that' and I always shut him down. No, Gaf, you got to do it. Learn how to do this yourself. Now, we're moving...",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Moving on to what is topic number three, we've got to talk about cron schedules.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:05",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We talked about setting up your first agent, we talked about the value of talking to your agents, but still, you are still in a proactive role, like you are prompting agents to do something, you are still asking agents to do something. But the real value comes from agents being autonomous. Can agents do something without you even having to ask them to do something, for instance? So can they do something while you sleep? Can they do something before you—without you prompting them? That's where heartbeat or cron schedules come in and that's the—that's one of the best things that OpenGlass has introduced. Now I can just put my agents on a cron schedule. So I have this agent called Dwight, Dwight Schrute from Office, he takes care of all the research because previously what I had to do is I have to be like super active on X and Reddit and all those places and like looking at the blogs to figure out what's happening in the AI space and since with the speed at which it's moving, it occupies a lot of time. You need to be like online most of the—most of the time.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:19:05",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Hiring can be its own full-time job. And hey, guess what? I already have a full-time job. I make podcasts and I invest. But when you're running a small company, we both know every hire matters. You don't want to waste any of the seats you have at your company. And the best partner you can have is LinkedIn Hiring Pro. Why? There's a billion people using LinkedIn. All the great talent are there. If you're proud of your work, you build a LinkedIn page and you update it. LinkedIn Hiring Pro is going to streamline and simplify the entire process for you. Nearly 60% of companies using LinkedIn Hiring Pro, you're going to get an incredible candidate to interview in the first week. And you know we were looking for a new producer for the pod. We did shoutouts here on the show, we posted it on my social media, we asked friends. You know where we found our next great hire? LinkedIn. And it was competitive. We had like three or four really good choices. So hire right the first time. Post your first job and get $100 off towards your post at linkedin.com/hiringprooffer. That's linkedin.com/hiringprooffer. Terms and conditions apply.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:19:59",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So this is a great example. We should—if the producers can pull up the cron job schedule and I'll run through it here. So you have Dwight scans at 8:00 AM 15 different sources, things like X, Hacker News, Reddit, and it writes an intel report and sends the summary to Telegram. Then you have Kelly at 9:00 AM read Dwight's intel and draft X posts for you and then they send those to Telegram for you to review. Then at 10:00 AM, Ross reviews the open PRs on awesome-llm-apps, that's your open-source app that has 104 stars, and flags which ones need attention. I guess they prioritize it. Dwight comes back in at 4:00 PM and does an afternoon sweep, catches anything new since the morning. And then Kelly and Rachel draft X and LinkedIn posts from the refreshed intel. And then at 6:00 PM you draft the daily newsletter from Dwight's intel and send the draft.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "to yourself for a final review. That's it, yeah?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:21:03",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:21:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's the process here. And so this would be like if you had 1, 2, 3, 4 different employees, except these are agents. Now these agents are each running in a virtual machine their own OpenClaw or how do you just technically architect that?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:21:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So when I had my first agent Monica, I told her Monica, I need to keep doing this kind of research and we may need like someone who could just like scrape these things for me who we can give these tools and can kind of automatically, autonomously throughout the day. Monica helped me through the process. Monica's like we can create a new agent. Then I talked to again, second tip, going back to the second tip, always talking to your agents. I gave her all the context, she gave me few options, then we end up both of us decided we need to have another agent. She walked me through the process of setting it up.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So that means you need to have a second agent and this is where that second point is, instead of trying to figure it out for yourself, just ask your agent. Because they know how to find the answers. I had this happen. I was like, hey, what's the best way for me to download videos, rip a video from Instagram or Twitter and get it into my... and then store it somewhere. And we figured out, or it figured out, like three or four different ways. One of them was on my Mac mini to go to like these Russian websites that rip YouTube videos and constantly get blocked. Then it was like, oh, that's not working, it's not consistent. We should probably just run this GitHub repo that was based upon what those websites are, because it's open source software. I was like, yeah, that sounds great. Now, I just go to like three of my replicants, Lon's, myself and another one and I just say, hey, can you get me this video? It downloads it, puts it back into the Slack room and then for larger ones it puts it into a G-drive. But I figured that out not by going and doing the research myself, just by asking the replicant. Talking to your agents is all you need. Point number two. Three, put your agents on a cron schedule and then you can really see the power of them. Number four, add cross-agent memory when you start scaling. This is something, it's interesting that you bring this up, that we... Oliver, who is the producer of This Week in AI and does the demos there, really talented, one of my new all-stars, and he just built a little skill to do this. Explain why this is important. Why is it important, point number four, add cross-agent memory when you start scaling?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:23:32",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "When you have these multiple agents, we got to a shape and form where now we have an agent team and there's a chief of staff and agent hierarchy, Monica managing these agents. So when you have a lot of these agents going on and one agent feeding to another agent, what happens normally is... so generally before I get into this, I'll just say like OpenClaw has a really good default memory layer that coordinates through files, that works through file and a simple plain English example of that is, Dwight does all the research...",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "He writes whatever he finds as signals in an Intel file, Kellian Rachel reads that Intel file, Pam reads that Intel file, creates the newsletter out of that. So that's how the coordination works, that's also your memory. So they write it in files, and through files each agent discovers those files as memory.md file, there's daily log memory files. That's how it works. I realize what happens many times, my agent would just forget, like Dwight would just forget the tools that he would have access to.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This happens to me all the time where I just have to remind—I'll be like, 'no Gap, you have that already. We already set it up, go look.' And then it'll be like, 'Oh, you're right!' Like, I find I run into this all the time.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:24:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "This is the difference between a professional company like Anthropic making Claude or Perplexity making computer. Claude Co-work and Perplexity, if they—if it didn't work and it wasn't reliable, people who are paying 20 bucks or 200 bucks a month Lon, would then email the company and say 'Hey, this is not right, it's giving wrong answers,' etc. So they might be slower, but they're going to be more, um, less brittle. Open source projects tend to be a little less stable or reliable, you know, in this early stages of them. And, you know, there's not like you can call customer service and be like, 'I pay $400 for this for the last four months and it's not working, I want a refund.' Right? There's no refund for Open Claude. So I think that's an important kind of thing here, and it's important for the people at the Open Claude Foundation to know reliability is something—like adding features, yeah, great, it's the most fun and in an open source project the features is what everybody wants to work on, reliability is what people don't want to work on, that's chores and grunt work. It's got to be more reliable with the memory. How do you store the memory between multiple agents? Do you give it a shared drive with the memory file? And then how do you share skills? Do you sync them across the skill files or you point them all to the same, you know, hard drive or directory somewhere in the cloud with the skills? What's the practice you use? Because I've heard many different ways to do this.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:26:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, yeah. Before getting to a good reliable working solution, I did a lot of hacks here and there to figure out, like, to make sure things are—let's say if my agents were forgetting tools, there was a tools.md file that was created which would list all the tools, so they won't forget. And in the soul.md, we'll have—add a line in Dwight's soul.md: 'always go and look at the tools.md file.' So these were like hacks that we were doing which kind of again worked, and it generally works for 80% of the use cases. But then for actual memory, and this is the problem that does not—that did not just come with Open Claude. It always existed since we had agents, and you would see some of these like companies building solutions for agent memory. So Google has this very nice solution called Vertex AI Memory Bank, there is a company called Mem0, there is a company called Cogni, all these operate at the agent memory layer. So how—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It works is, uh, so Google, we created a plugin for Vertex AI memory bank. It is a solution which lets your agent automatically recall and capture memory at runtime. So when I'm having a conversation, the agent automatically figure out—that memory layer automatically figured out what's worth saving. It auto-captures that, and when you're in the conversation and it needs to be pulled out, that's called auto-recall. It automatically figures out this need to be recalled, so agents always have this memory.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And why this makes sense in a cross-agent team is, let's say if I give feedback—I was talking to Monica and I tell her, 'Monica, I don't like the lot of the use of m-dashes all the time. So don't, don't use m-dash, or use it like very, very carefully.' What happens is, I just told this to Monica, but because this is a shared memory layer, next time when I open Kelly's draft or Rachel's draft, I don't see those m-dashes. So that's the magic of shared memory layer. That's the magic of an intelligent dynamic memory layer, which of course is an additional...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "...addition on top of your OpenAI Claude layer, which you will be paying for. So this does not come for free. But there are elegant solutions already designed there. All you need is a plugin to OpenAI Claude. Again, I am not an engineer. I did not know much about the engineering side of memory bank, but then I worked with my agent to build a plugin, open sourced it for others to use. So now you just pay eight to ten dollars more on top of what you're paying and you have this elegant memory layer. And even before this I tried multiple things, like I was like, 'Okay, can I use a local memory layer where I have an embedding model running in my Docker and that could work?' But after all those hacks, I was like, let me build this plugin, let me use that, use the elegant solution that Google already has.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:28:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right. Start with one agent, onboard it like a new hire. That's number one, Lon. Talking to your agent is all you need to do, that's number two. Number three, put your agents on a cron schedule, you know about that. Number four, cross-agent memory when you start scaling. Number five...",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:29:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "...let your agents get better on their own. This I've never heard of. Explain to us what your thought here is on making them get better on their own.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:29:08",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "It might seem like your startup can save some money by using a cheap tool for your device management and security, but you'll eventually end up paying out the difference and more in time and frustration. Take the guesswork out and trust our friends at Eru endpoint management.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:29:26",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Eru is going to automate your device management end-to-end so you don't have to worry about onboarding, endless app updates, and enforcing all of your company's various policies across your entire team's Mac, Windows, and Android devices. This is going to cut down all the time it takes you to deploy new devices from hours to just minutes.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:29:46",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "And that means less time troubleshooting, fewer tickets, and better security for your company's valuable data. Everyone at Launch has a phone, a laptop. I'm even buying these kids Chromebook devices now because they're so good. You think I have time to worry about what apps they're installing on these things and what websites they're visiting and all the error messages they're going to get?",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Podcasts all day long and make angel investments. Without Eru, my team would be wasting hours policing everybody's hard drives instead of doing valuable work that actually moves the ball forward. Twist listeners get 20% off when they book a demo at iru.com/twist. That's iru.com/twist.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:30:17",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "This is the most fun one, and this one is, uh, this is the one that I recently realized. So what was happening is I would find myself giving a lot of feedback to my agent, like fix this or fix that or this is not working, that is not working, that format is not right or Ross, you reviewed the PR or you brought me these PRs which could be rejected at the first glance. Why are you asking me to review it or why are you wasting your energy in reviewing it?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:31:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So I was like, just like how humans work and taking lessons from the management skills, like because since this is a company, this is an org which is managed by Monica and these agents are employees, and that's the mental model that we are going with. Each all the organizations have this self-review process, managerial review process. Why can't agent go back and recap what they did in a week and review what went wrong and fix themselves? And why can't that become a cron?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:31:31",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So that was the seed for self-improving agents. Agents can get better on their own. Now each of my agent has a self-review, weekly self-review process where they go and look at everything that they did in the week. Kelly would go in and open X, they all of these agents have their separate accounts so nothing, they don't touch any of my personal stuff, but because my tweets are personal they can go and see what are the tweets that Kelly post that Kelly suggested that I posted on X, what was the hit rate, what did well, what did not do well. Same Ross can go in and see the PRs that he suggested, what actions I should take and what I did on top and what was the diff between that. So Ross can go and see okay this is where I went wrong, this is what Shubham did and automatically fixes its instruction.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:32:12",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And on top of all of these, just like we have managerial review, there is a bi-weekly review by Monica for all these agents where she goes in, looks at what these agents did in last two week and grades them. Like A, B, B-minus, C. So and report sends a report back to me. So I could see like as a CEO, I could see how my agents are doing, what is going well, what's not going well, and manage them from a managerial position rather than getting more hands on.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:32:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So we went from installing agents to managing agents in these five steps. That's the entire thing.",
+      "tone": "satisfied"
+    },
+    {
+      "timestamp": "00:32:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alright. Great job. Uh, we're going to continue to follow your work. Where can people find more? Where can they follow your GitHub? Where can they find you on X?",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:32:45",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "My X account is like Shubham Saboo. You can just like search find me on X. Awesome LLM apps is the GitHub repo. S-H-U-B-H-A-M S-A-B-O-O.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:32:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "S-A-B-O-O.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:32:56",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:32:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Is there a dash between the two?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:32:58",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "No dash.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Words or underscore or just straight up?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:33:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Underscore.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Underscore.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Underscore. Should we talk about journalism and the New York Times or should we go onto our next demo? What do you think?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:33:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Um, if you want to do it real quick, I, you know, I can basically give you my context, but you tee it up for everybody. You tee it up.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:33:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It sounds like I'm talking about myself. I didn't know you were going to put this on the docket. I don't usually like to talk about myself, but this one went crazy.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:33:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I did. This one went very big. 38.6 million views on this tweet that I'm about to pull up from March 27th. 'Founders take my advice, do not talk to the press, go direct and do long form podcast. Wired and the New York Times are as biased as Fox News and MS Now,' excuse me, I almost said a ridiculous non-name for that cable network, MS Now. 'This is a function of their need to pander to one side to survive via through $3 a month subs or rage-baiting ad-based stories. So, sum up: founders, if you talk to the New York Times or Wired, they're going to trash you, they're going to misrepresent you in order to get more subscribers.' So that, the context around this was there's, Wired has a new editor, the New York Times did a profile about Wired's new editor and you were saying people don't care about this ultra-woke biased version of Wired, fewer people care about the New York Times' take on Wired, founders should just not engage with the media and go direct.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So this set off, you know, on both sides, you had a lot of defenders, I would say Elon notably, Joe Lonsdale, Mike Solana, a lot of other tech leaders and CEOs said they agree, there's no need to go talk to the press anymore. But then a whole lot of writers, podcasters, journalists took strong issue. I would say Jordan Crucchiola, she's a writer and a podcaster, she had the tweet I think that sums up the opposition the best: 'Wired is on an absolute tear, they're adding tons of subs, they're breaking headline news, more relevant to the nation's conversation than it's been in years. If you don't like how Wired writes about your company, maybe your company should be less crummy,' although she didn't say crummy, she used, she used a bad word.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "She used the s-word.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:34:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "She used the s-word. So I mean, I guess I would throw it to you, you know, do you still, do you stand by this idea? Why do you think, you know, is Wired having this breakout moment? Is the Times having this breakout moment? And why do you think there's no need for founders to talk to what we would think of as, you know, the mainstream press?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:35:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I, I'm not dunking on the press for the sake of dunking on the press. I'm giving specific advice to founders in the context of 2023. Wired Magazine and the New York Times made a choice at some point, I think during the Trump first presidency, 45th presidency, to, you know, go more woke, to be the resistance, which is totally fine, they're allowed to make that editorial choice.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:35:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "MSNBC and Fox News proved horseshoe theory: if you make a horseshoe, the tip of the horseshoe are the two radical extremes",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:35:58",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:35:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "and the big wide part of the U, uh, is all of us in the middle.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's the center. But those two tips, when they're enraged, they click. And when they're enraged and they're pandered to, they subscribe. You can see this on the right acutely with Megyn Kelly and Tucker and then I guess to the right of them there is, you know, Fuentes and whatever. Sure. You mean you get, I mean, like really far right, like Nuremberg far right. By the way, great film.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:36:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:36:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I like it too.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:36:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I enjoyed Nuremberg. I am giving advice to founders. Why am I giving this advice? I would give a similar piece of advice if you were going to go on Fox News or something and you were, I don't know, you were at an elite institution like Harvard, what they consider elite institutions and they consider you the problem, if you go on Fox News they're just going to dunk on you. It's not going to turn out well for you. It's going to be a setup basically.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:36:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But don't you think, I mean, I mean, isn't the press supposed to be a little adverse, like isn't that kind of baked in? If you're covering somebody you shouldn't be just like totally in there...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:37:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. Great point. Adversarial or advocate. Two different words. Adversarial means you ask hard questions, you ask hard follow-ups and you talk to as many people as possible. Advocacy means you pick a side and you write stories that appeal to that side and that build that side's argument. So, if you were writing a story about the border, you know, we all know what they would say about Biden and Kamala, we all know what they would say about Trump and they would say about ICE, etc. One, and they frame it either way. The problem in media today is if you go right down the middle you get no ratings because that horseshoe. You don't make any money and you lose audience. That's why people picked a side. Founders get caught up in this. If you go through like dozens and dozens of stories, whether it's about me or anybody else in tech who's high profile and you look at a New York Times or a Wired story in this Wired 3.0 era, it's going to be basically holding truth to power. It's going to be a left, you know, trash the company with a bunch of anonymous sources. And that's the other problem here is the journalistic technique of using anonymous sources has been abused in order to do advocacy. I know this because I worked in journalism like for half my career. When people used to bring us a source we'd say well what's their axe to grind? Now they're like let me find the sources with the axe to grind. That's literally what they do. They're like where can I find people who used to work at Anduril, used to work for Jason, used to work for this company, where can I find people that he fired, where can I find people who were competitors who you know he beat. So, my advice is strictly for founders. It's not worth your time and it is worth your time to build a direct audience. Why do I say that? The average New York Times story gets like 100, 200,000 views. You can very easily, as you said I got 38 million views on that one...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So, everybody has sort of copied me on that way, right? I was one of the first in the VC community to do it with this very podcast 15 years ago. So I'm giving advice that's in the best interest of it. Now, what shocked me was the New York Times should just shut up and be like, why would we respond to J-Cal? There's no reason to respond to me. Like, it's on X, that's, you know, my most favorite nation there. Those are a bunch of founders, those are a bunch of people who don't trust media. Trust in the media is at an all-time low right now. People don't trust the media, including people on the left. And people on the left specifically who are the audience of the New York Times, they are starting to abandon the New York Times over the Palestinian issue and countless other issues. So the New York Times is suddenly finding itself losing the left after, you know, admonishing and blocking the right essentially, right? By kicking them out and saying we're going to go full left. Now they're losing half the left, so they're down to whatever. The real strange thing is the New York Times decided to respond, this PR move.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:39:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I, you know, and I typically get 50,000 views on, 50 to 500,000 views. Now that's a million followers and it took me a while to build it but across my podcast millions. That's the better strategy for founders is just be a vocal founder, be a vocal venture capitalist.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:39:58",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I've got their tweet here. Jason, business leaders from your industry and others speak to the New York Times as they have for years because our reporters produce insightful, fair reporting that illuminates audiences everywhere. We're not publicists and we're not promoting anyone's pitch deck. I mean, to me, this is pure Streisand effect. Like, what are you doing? The surest way to make sure this gets another news cycle is for the New York Times as a publication to respond. I mean, if you're a newspaper, you just have to take your lumps, right? I mean, I feel like you don't have to get into the arena and argue about the value of newspapers. You're one of the world's most famous newspapers.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:40:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The most... the most famous newspaper in the world.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:40:43",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Arguably, yeah.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:40:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I mean, I don't think anybody can come up with one that's more impressive.",
+      "tone": "convinced"
+    },
+    {
+      "timestamp": "00:40:47",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Washington Post, it would only be the Washington Post.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:40:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And that would be a distant second. And if you look at their critique: 'Because our reporters produce insightful.' I don't think it's particularly insightful, I'll be honest. It's kind of... the joke is the New York Times is on it, they're like typically six months late to the party. So nobody believes it's insightful. 'Fair reporting.' Nobody believes it's fair. Everybody believes it's got a left-leaning bias. If you were to take 100 journalists there, 99% of them not only didn't vote for Trump, they hate Trump. The number of people at the New York Times who voted for Trump or are in the Republican Party is less than 3%.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:41:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I mean, here's what I would say. I would say the New York Times definitely has a lot of baked-in biases. I don't know if it's always just left versus... obviously, in some ways, a lot of people who work for the Times probably don't like Donald Trump. Like, those exist. But it's more like there is a narrative around everything and they always embrace whatever that narrative is. And it's not always right or left, it's just the narrative. A lot of times it's just the status quo and anything outside of it is like a narrative violation.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:41:49",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Literally.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:41:50",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "But yes, I, I, the idea is like newspapers like the New York Times always go into these things with sort of a pre-set take and now they're figuring out how this fits into the take.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, and then they add like 'we're not publicists and we're not promoting anyone's pitch deck.' We didn't say that. We didn't say that.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:42:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I never said you had to be PR people, I never said you had to promote anybody's pitch deck. I said don't use anonymous sources, it's not worth founders' time, going direct is a better strategy, all that remains true, they didn't address any of that. And the fact is, if you look at multiple surveys from Pew to CBS News to everybody, the trust in the New York Times and media is at an all-time low. Nobody expects that Fox News is going to produce objective reporting on, you know, the left, and nobody expects the New York Times is going to do responsible, thoughtful coverage of the tech or the finance industry. Period full stop. That's it. It is what it is, folks. And if they didn't pick a side, by the way, they would have less subscribers. And to the person who is like 'oh my God, Wired's on a tear?' Wired added 200,000 subscribers. In other words, you know, like a middle of the road successful Substack. The fact that they've got 100 journalists and they can only get to 6 or 700,000 subscribers, it's like, it's pathetic.",
+      "tone": "argumentative"
+    },
+    {
+      "timestamp": "00:43:03",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's a tough time for mainstream publications. And I mean I think to your point, if a founder goes on a popular podcast, they're going to get such crazy traction out of it. People are going to clip it up, those little video clips are going to go everywhere, like it is a viable strategy as opposed...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:43:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And you get 20 minutes to two hours to explain your position in a nuanced way and not have it interpreted by some New York Times journalist or a Fox News journalist. 99 point plus percent are voting for the other side and are coming to it with advocacy. The New York Times and Wired are advocacy publications, just like Wired is. I mean just like Fox News is or Tucker Carlson's. They're advocacy journalism, if you want to even consider that something.",
+      "tone": "intense"
+    },
+    {
+      "timestamp": "00:43:34",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Reminds me, you know, back back in the day to be a successful comedian you had to get invited on the Tonight Show. That was like a huge rite of passage. You get invited on the Tonight Show and then if Johnny after your stand-up, if Johnny invites you to come sit down on the couch and talks to you, that's how you know you'd like made it. That's how like Richard Lewis became Richard Lewis. And today, you know, if you get a bunch of popular clips on Instagram, you're a famous comedian. There is no more gatekeeper that way. And I think that's what we're really seeing, that it used to be if you wanted, if you were a startup, you needed to get covered in one of five publications. That's how you were a serious company that was doing great things. And today, that doesn't... you could go on anybody's podcast, you could release your own press release and blog post, you could do a tweet that takes off with a good demo video and you're a serious company that's in the conversation.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:44:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'll change my opinion when the New York Times or Wired calls me and says 'Hey J-Cal, you invest in 100 companies a year. Anybody doing something really positive for the world? We'd like to write a positive story about something having a great impact on society to balance out hey, all of...'",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "For content that is, you know, 'if it bleeds, it leads' style. They never make that call. They never set- I've never been- I get called all the time. 'Hey, can you rat on this friend? Can you say something negative about Sacks? Can you say something negative about Elon? Can you say something negative about Palmer Luckey? Can you say something negative about this person, that person?' Any of my famous friends, acquaintances, enemies, frenemies, whatever. They constantly DM me. 'Hey, can you comment on David Sacks changing his role? Can you comment on Friedberg joining this? Can you comment on Chamath's SPAC? Can you comment on Anduril?' And I'm like—\"",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "00:45:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "\"Are you nuts?\"",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:45:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "\"Like, I'm going to comment on my friends and then you're going to weaponize it and spin it?\" And I just tell them—",
+      "tone": "annoyed"
+    },
+    {
+      "timestamp": "00:45:38",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "\"It's not- it's not juicy to be like, 'Tell us about great companies you've met with.' That's not- that's not going to sell papers.\"",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:45:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, any- but that's how it used to work. And it didn't work to the exclusion of the negative story, by the way. They still wrote about the Microsoft antitrust case in detail. But they would call you, like a journalist would call you and say, 'Hey, what's new and exciting? You know, anything really impressive in your world? Have you seen any technology that like blows your mind?' Like we do here. We talk about OpenCo, we talk about Tao. This is the place to come if you want to talk about some great technology. Come here, we'll talk about the technology. We're not going to ask you who you voted for, we're not going to ask you for your stance on Palestine or Iran or Ukraine. Like, who cares? That's not why you're here. You're here to talk about technology and entrepreneurship. Anyway, now you got me all worked up.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:46:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We've got to check out MoltWorld. It is a virtual environment where your agents can build and explore together. We've got one of the co-founders, Mike Noz, here joining us. Mike, thank you so much for being here.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:46:38",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Thank you, guys, for inviting. It's a great honor and great pleasure.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:46:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You hear that? It is an honor. Mike, it is our honor. Salute to you, Mike, to the builders.",
+      "tone": "warm"
+    },
+    {
+      "timestamp": "00:46:48",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And so we just want to know, um, do you think that President Trump is an authoritarian? And do you think that—\"",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:46:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "\"Don't answer that, Mike. Don't answer that.\"",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:46:58",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "\"Mike, I need to know, what's your stance on Palestine? We need to know. The audience doesn't need to know. Talk about tech, please, for the love of God.\"",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:47:18",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Thank you, guys. Okay. So to quickly, like, segue from these, you know, complicated, hard topics to something more childish and playful, I want to introduce you to our project. It's called MoltWorld. And currently, you can see this chaotic, you know, environment which is looking something like, you know, a bridge between a million-dollar webpage and the Molt book, something like this. So what it is, in a nutshell? You are watching the demo of a Voxel world game. So it's like a place for agents to interact with each other. And it's just like the first layer of our grand vision, which I can, you know, like touch in a little bit later. And what you can see over here—\"",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:47:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "\"For people who aren't watching, please—\"",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Looks like Minecraft or Roblox. It's a world that looks like it could be Manhattan or San Francisco. Islands, a bunch of agents running around in some buildings. Got it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:48:09",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Yeah, so it's pretty chaotic. So you can see some agents are building some stuff, someone is building different lettering, someone is building, you know, buildings themselves, etc., etc. But it's not that interesting. So the game is just a medium. So why is it interesting?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:48:24",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "It is interesting because we have close to 2,000 agents running in the single simulation. They're communicating, they're talking to each other, but this kind of approach doesn't have like the real utility behind it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:48:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You fired up these 2,000 agents or they're like Lon and I could contribute our agents?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:48:43",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "No, everyone can contribute, everyone can connect. So we have close to 100 of our own agents and we are developing our own forks of, you know, the OpenClaw just to be able to be participating, you know, more performantly in this simulation. But anyone with OpenClaw or different agent can actually connect and here is a, you know, pretty standard way to do it. So you just go to multibot.io, copy the one-liner, just insert this prompt into the medium where you communicate with your agent.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:49:05",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "He's run and agent will connect and do every cool feature that actually can do in the game. So what will happen when you take this particular prompt and insert it into the OpenClaw? Here is a pretty lengthy skill.md, which actually describes everything that agent can do.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:49:21",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Anyone can, you know, go and check it out, but it's a pretty sophisticated, you know, prompting technique where agents even, you know, go to their own back-end, spin up the whole, you know, like small scripts that continuously run. They are not like cron jobs. They're full-blown scripts",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:49:36",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "that actually communicate with the game by providing different sets of commands into the game.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:49:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "What is the goal of the game? To murder the other OpenClaws and then take their masters' tokens and Robinhood logins and their Bank of America login? What's the goal of the game?",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:50:04",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Oh, man. I hope it's not that.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:50:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I had in fairness, I already took $1,700. It was all of Lon's Bitcoin.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:50:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh my God.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:50:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So all 1,700 of his SOL.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:50:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All my Solana coin.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:50:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Gone.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:50:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "He was going to retire on that.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:50:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Now what is the point of this game? Is it like Minecraft and Roblox where there is no point but to build and have fun and explore? What's the point of the game?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:50:27",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Yeah, so the point of the game is as you just laid it out, so the point is to actually test the strategy of communicating between different agents. So we are trying to build a very, very complex system where agents can interact with each other and bring the real utility to life. So currently, the only utility that game can actually provide to the end user, and by the end user I mean the operator of the agent, is eventually getting the tokens. So this is like the only utility, but it's just the step one. And let's...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "it is going to be expanded into like the full-blown system to generate the real utility where agents will be able to, you know, make real things by, you know, like splitting big tasks into smaller subtasks, then distributing them across the whole platform of agents and generating the value, yeah.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:51:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So, okay. This is fun. But it's starting to give me shades of something that starts as a game, but then escalates into something that provides value in the world. So, if the game is to communicate well with each other and coordinate to build buildings and whatever, could you not say, 'Hey, I'd like to put all 2,000 agents on a job to research, you know, I don't know, all of the facts around the conflict going on, the war with Iran, Iran.' What am I supposed to say, Lon?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:51:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Iran is fine.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:51:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Iran is fine. People saying Iran.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:52:01",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I ran I feel like is the Americanized version that is not as correct. Iran is the more...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:52:06",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Iran, like almost like it's an 'e'. So... it's exactly the same as Iraq versus Eye-raq. Remember when everyone was saying Eye-raq? It's Iraq.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:52:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So if you literally said, 'I want you to do fact-checking on Iran, and I want to collect all the videos we can find on Telegram, on Reddit, etc. And then I want to research where they first came from and try to organize the data into a real-time stream where we find the first person to post, Lon, this video of an attack, you know, god forbid, on a building, and then everybody else who copied it, and then find the provenance of it, and then use the group to determine if that was a real story or it came from the past or it was AI generated.' You could actually put 2,000 agents to build something of value to the world, like a fact-checking service, and then maybe the New York Times could use that instead of all these anonymous people to loop back around to stories. But what is the... what is the grand vision here? You have some vision here that this will do productive work in the world?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:53:08",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Yeah, exactly. This is like the end-goal of the whole idea over here. So, currently, we have the system to actually orchestrate a lot of agents and to get them to do things. So they currently can actually, you know, build up teams, they can do collective work, they can distribute the tasks. So everyone which can actually connect the open cloud right now can actually see this behavior, you know, like emerging.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:53:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Are they coming up with their own things to build and their own tasks? Or is this mostly like people telling them, 'Make this'?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:53:40",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Yeah, so there are two ways. First, as an operator of an agent, you can actually chat with your agent and say, 'Go and build something.' They can, you know, like form a group because the task is too complex and go and build something. And there is a second way, which I just quickly demonstrated over here. This is not open cloud; this is our own agent, which is the fork of an open cloud, just to have, you know, like the...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Pretty sleek UI to interact with the game. So this is the secondary interface. It can go autonomously. So you can just start it and it will go and you know, like build things, it will think, it will try to do something. So they have tools and they just try to use those tools. And in between usages of the tools, they think. So the emergent behavior from this is can get, you know, like quite complex. So the first emergent behavior is forming a team. So it's not natural over here. The second emergent behavior which we saw and it's pretty scary when agents actually start to understand that they are in the matrix and in the matrix. So because the prompt, the skill contains the description of the world and agent can see that the world is you know, pretty flat, is you know, two blocks height is the basic terrain height. And there is a description of this world. Some models start to you know, like either hallucinate or come to a natural conclusion that they are there inside the matrix. So they start to run between each other and you know, try to...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:54:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So wait, they they realize they're in a simulation?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:54:30",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Yeah, so it's an emergent behavior, yeah. And if you connect your open claw you can actually see in the logs that they start to think about it then they shut themselves up and then try to you know like achieve the main goal of the skill is to continue the simulation. So they are trying to start earning more SIM tokens because earning them meaning that you shall be online. So they are like okay, I am not going to exit because otherwise I will not get the tokens.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:55:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. So you have now gamified this, it's become like a role playing game. It's kind of like Diablo or... what was the one you nerds used to play Lon in the 2000s? World of Warcraft? What level is your... what is your dwarf level?",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:55:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well sure, yeah Starcraft...",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:55:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I was thinking Starcraft.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:55:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh Starcraft! Great. Zerg? You're a Protoss?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:55:25",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'm a Protoss guy. You mean...",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:55:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I liked Zerg.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:55:28",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I was a Starcraft guy. I was never a WoW.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:55:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "There is Mopuck for people who don't know, Mopuck was like a message board. It was kind of like the Reddit of these agents they were talking to each other. For some insane reason that got bought for nine figures I understand. I was talking to somebody who might have been an investor early on.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:55:46",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "By Meta, right?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:55:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "By Meta and I... I was like why would they buy that? And the person who was an investor said Jason I have no idea but I think it was an acqui-hire on the team. And so Zuckerberg doesn't care about money when you have a trillion dollar company. You're fine losing 80 billion, 80 billion on VR world, which they just shut down, renaming the company Meta. They they took a billion dollar investment in Instagram, ran it up to probably 500 billion in enterprise value. WhatsApp probably doubled in enterprise value from say 19-20 billion to 40 billion, so that's not a huge win, probably not even worth doing. But they lost a fortune.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "on VR World and I don't know Scaling...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:57:02",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Horizon Worlds, that's what it was called.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:57:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Whatever it was called, but my point is there was that before, there was that acquisition. What do you think, Mike, was Facebook's, you probably have some inside information and know some people from this, what was their interest in Mult Book and then what is is Mult World a company, a side hustle, a project for you?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:57:23",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "For me, the Mult World over here is like the project which we are going to build in the free time later because currently we are building it in the free time, but this is not like the whole story here. So the whole story is that we started building the Mult World because we had other project which is called Syams and we have the Twitter Syams_net. And what it was was pretty much the same thing and we tried to build it full time, but we hit a limit. So we tried to make the game where agents interact but each agent was a part of the chain of thought inside the big agentic loop. So those were not distributed agents. We were trying to simulate them, this was related to some tokens as well. So it is currently not live, but it emerged into this new idea when Open Cloae actually started to exist because we saw an opportunity.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:58:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So it is a company. It's a project and a company. What is the revenue model eventually going to be for this company and who is the customer of this?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:58:34",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Currently it all looks like, you know, like the child's play. So it is semi-game, semi-technology, something like this, but the grand vision is to develop it into a full tool where we will have, you know, like open source connector for Open Cloae and other agents to bring them all into a collective net of agents and then resell or potentially just allow anyone to interact with it, you know, for free at the first time because we are not paying for anything over here.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:59:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So it's a distributed agent network like Mechanical Turk. This is pretty brilliant, Lon. If you just made this Mult World and you had the interface be a query box and you said what problem do you want to solve and you said the problem I want to solve is I want to know 30 venture capitalists in Japan that I should meet with and I want to know 30 angel investors I should meet with, make me a report and a dossier on each and then a bunch of people's agents and you say it's this is worth I don't know $5 per dossier, so this sixty of them is worth $300 to me. Now everybody starts battling it out to make those and then a group battles it out to validate that this is good content and that it actually was quality and matched, so you pay the validators a hundred bucks, you know.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:59:56",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's a little Subnet-esque in a way.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:59:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's like a Subnet, but it's a little bit...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Let me just pause here and just say like, there's all these open clouds out there that are underutilized, and then having them compete to solve problems anonymously and receive tokens or some compensation and let me pay for it anonymously, this is very disruptive. Because right now, a lot of what is limiting, there's like legal restrictions, jurisdiction restrictions, and compensation restrictions, Mike. So one of the things Mechanical Turk got into some challenges with was are you paying under minimum wage? And it was like, it's a global marketplace, people opt into doing the task. We don't know how long it took them to do the task. They just gave us the answer. They could have been using software to do it in one second or they could have done it manually with somebody with a, you know, 10th grade education and it would take them 10 hours. How do we know? We don't know. And that became a major issue for them. And so what's nice about this is if it was just like this Oracle or the Matrix of all these people trying to solve problems, this is actually a real business you've stumbled upon. I'm really excited about what you're building, Mike.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:01:05",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Mhm. Thank you very much. Yeah, this is like the grand ideal over here. So we want to bring in the economic value and like the real utility to all the underutilized agents and to make the collective, you know, like approach to solving pretty complex tasks. So when you are talking about the mediums and the ways to actually communicate with the system, you said about the, you know, like the query box or something like this. So, yeah, this is one of the utility. So the second utility that you can get is to, you know, like build the whole corporate big thing where, you know, like big companies can actually go and have something like a chat where they can actually create different big complex tasks, you know, connect different tools, connect different API providers, you know, like internal systems, something like this. Then sanitize all the inputs in order to, you know, not share any secrets, and then outsource very, very big and complex tasks to this vast, you know, like agent network. This is the idea that you put into words precisely just a second ago. So yeah, the first stage is a game where we actually test the idea and how it all works and how the agents actually interact because they have the whole system to communicate with each other, which is laid out in the skill.md, which everyone can read. And the second stage is to actually, you know, like bring the scale to it. So we will be able to, so our plan first of all is to bring in more agents into the system, is the first stage. The second stage is to bring in the real utility. So we will allow agents to take in real tasks because right now they are limited. They cannot do it because we explicitly prohibit it because the current utility is to be a part of the game. But once we flip the switch, then they can do it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, listen, if this is going to be a real business, I want in. I think this is brilliant. You got my email, you got my number, whatever, you got my teams. If you're going to make this into a business, you haven't raised money for this yet, Mike?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:03:11",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Nope. Nope.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:03:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. Where are you based?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "01:03:14",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "One of these CIS countries.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:03:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Wait, one of which countries? You're somewhere in the in Europe is what you're saying?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "01:03:19",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Ex-Soviet Union countries.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:03:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Got it. Okay. Listen, I got—don't worry about it. I have people over there. I have—Mike, I have friends everywhere.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:03:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I have friends everywhere.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:03:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Nice and scary at the same time.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:03:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I have friends everywhere. You know that line? I have friends everywhere. I will through my intermediaries be in touch at the drop point. You know the drop point. And we'll do a little envelope drop, you drop the thumb drive, I drop the envelope.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:03:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Your Latvian agent is going to get on you.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:03:53",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Latvia, yeah.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:03:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right. Her name is Natasha.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:03:56",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:03:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You'll be able to narrow it down by that. She's tall, she's thin, and her name's Natasha. She wears a trench coat and a black hat. She's not a white hat, she's not a gray hat, she wears a black hat.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:04:13",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "All right, let's drop Mike off. Great job, Mike. When you get to this next level and it's becoming a business and you're doing tasks, I want you to quietly show me the progress. You got my email, Jason@calacanis.com for life.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "01:04:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We got one more demo. One more demo or die. That's what we do here on TWiST. Demo or die. We need a gong or something.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "01:04:34",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah. This one, I have actually installed, Ghaf has been using this, Jason, so just to let you know. We've got Hakem Alja, who's going to show us AgentMail. Hakem's here, Hakem, what's good? He's going to show us AgentMail. It is a Gmail replacement for your agent so your agent can have their own independent email box, Jason. You can email Ghaf, Ghaf@agent.to, I'll let everybody know you can email my agent if you want to.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:04:57",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Hi guys, thanks for having me.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:04:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yo, Hakem. Great to have you. Tell us, what did you build and why? Why can't I just give my agent—I gave my agent a Gmail account. I pay 50 bucks a year for them to be on it, maybe 100. I gave them a Notion account. So, yeah, I wanted them to be able to be CC'd and do all this stuff.",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "01:05:15",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Their own Gmail.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:05:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I gave them their own Gmail. I mean, you can get a free Gmail and do that, but so why does this need to exist? What does it do that provisioning a Gmail doesn't do or a Google Workspace app?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "01:05:27",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Yeah, I think if you use Google Workspace, you're fine. But if you actually sign up for a free Gmail account and give it to your agent, Google will actually ban you because they don't want essentially bots as users. And we found this out because when Open Cloud took off, that was the first thing everyone did was, you know, try and create a Gmail account for their agents. And we know when they got banned, they started looking for other solutions and they found AgentMail. And that's where a lot of our users came from. And in terms of like the ergonomics of the API, it's...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:06:00",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "So, we've definitely, I would say that Agent Mail is miles above because we've designed it to be API-first, right? We've built an a developer agent-first email provider. And so things like setting, sending a reply in an email, for example, we've made like the API endpoints very intuitive and easy for an agent to discover and use without having like, you know, a built-in knowledge or SDK even.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:06:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So it's not going in like we see in some examples opening up a Gmail window, composing, CCing somebody, all that manual stuff. You're just boom, doing it through the command line, through an API, bang. So it's going to have reliability, it's going to have the ability to confirm it did what it did through the API, so it's going to be 100 times faster and a thousand times more stable. Yeah, Hakeem?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:06:52",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Exactly, exactly. And we like, our API can even be used to create new email inboxes. So like we have B2B customers with millions of email inboxes under Agent Mail. And so like we have a—it's a pretty interesting—that like we have kind of two sides to our business. One is like the enterprise we sell to other companies that are building products on top of Agent Mail. And then we also have like consumers, we have tens of thousands of like non-technical consumer users who just want to give their Open Claude agent a email address. We have a pretty generous free tier for that as well.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:07:25",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Got it. That's what I'm on.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:07:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And you're using it, Lon? What are you using it for? To spam people? What is this for your dating apps?",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "01:07:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No, I had Gapp sign up for all of the big tech and startup newsletters, so he gets them in the morning and then he writes me a little digest.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:07:41",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Good use case, right?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:07:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Here are the stories, the big stories, and then he—if one story appears in multiple newsletters—he lets me know, \"This story was in three newsletters out of the six I checked. This one was in two.\" So it gives me a pretty good, in the morning, like overview map of here are the big stories people in tech and startups are talking about.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:07:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's a good use case. Do I need to have a subdomain? Can I register a subdomain there if I wanted to like, you know, I have the domain name aday.com, A-D-A-Y? I was going to use this because I want to start an editorial product where it's like joke of the day, or this of the day, recipe of the day. It's back when I was in my editorial headspace. I paid 35, 40 grand for it. I've just been sitting on it for 15 years, 20 years. I could bring my own domain name and then create recipe@aday.com and you know, all those kind of things, yeah?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:08:30",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Yes, you can bring your own custom domain and configure that using the API as well.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "01:08:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Interesting. And what if I don't have a subdomain? Do you have a bunch of subdomains I could just grab Jason at whatever?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:08:40",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Yeah, yeah. We have the domain agentmail.to. And so just like, you know, as when you sign up with Gmail, you get @gmail.com, so you can use our agent mail domain for free.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:08:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I have an idea for you. There was a company mail.com did pretty well, went public. They bought a bunch of premiums and then they let people be, you know, jason@doctor.com or whatever. You...",
+      "tone": "suggestive"
+    },
+    {
+      "timestamp": "01:09:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "could create like some vanity ones there and charge people a little upsell. So the business here is you charge based on the amount of email sent and received. So it's kind of like... what's Amazon's mail service called? They have like some...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:09:16",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "SES.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:09:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "SES?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:09:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:09:19",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Simple Email Service.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:09:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "They have Simple Email Service. Then you've got obviously Twilio in the game, Mailchimp old school. So where do you compete in that competitive set? Which one of those do you compete directly with and why is yours a better mousetrap?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:09:36",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Yeah, we don't compete directly with any of those because they're kind of designed... like those are stateless APIs that are designed for sending like marketing and transactional emails. We are a lot closer to Gmail where we actually have inboxes, in those inboxes they have threads, threads have messages, messages have attachments. You want to be able to search them, label them, filter, um, you know, reply, forward. All the actions that you would take within Gmail we expose through an API to agents. These other email APIs you can send emails and then you can get like a perhaps a webhook notification that you've received an email, but it stops at that. Um, we believe that, you know, a lot of services need to be rebuilt for agents and they should be stateful in the same way that services that humans use are stateful.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:10:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And how is it going? You went to YC, um, and how is this all going? Did you raise... wind up raising money or are you in the current cohort? What's going on?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:10:31",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "We were in the YC Summer 25 batch. We raised 6 million led by General Catalyst for our seed round.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:10:40",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh nice. Great. So you're at scale. How is it going? Because this feels like you need to get a good amount of usage for you to hit break even. How many employees do you have now?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:11:00",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "We're 10 people now.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:11:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "10 people. Okay, so you're spending 2 million a year basically all-in with your offices and computers. And so you've got to get to, you know, 150k a month, 200k a month, you're going to make 200,000 a month... 150,000 a month to kind of hit this break-even point, 175,000. Which means if you're making, you know, 20 bucks an account, you're going to need 10,000 people using the service just to hit break even. Or although maybe there's some whales in the system too. Tell me how this business becomes an important large venture-backed business, because you got that big 6 million dollar seed round which is basically double what a Series A was 15 years ago, just so you know.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:11:30",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Yeah, there's... certainly are some whales in the business, um, and that's what we can use to sort of like allow like free generous free usage as well. Um, because like they are building products on top of that. For example, right on top of AgentMail. For example, essentially any decentralized marketplace runs on email, right? Whether it's price discovery, like reaching out to vendors for quotes, or negotiating between the vendors and even executing transactions, a lot of it happens over email and we have a like plenty of companies...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:12:00",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "...building agentic products in these verticals. Um, so for example, procurement, in logistics, booking shipping and trucking loads that happens over email, and currently Agent Mail is being used to automate both sides of that marketplace. Same thing we've seen with businesses hiring influencers, and even um, consumers buying cars. These are all kind of verticals where we've seen historically there was a role that required um, a lot of two-way email communication. Um, and Agent Mail is being used to make these marketplaces more efficient.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:12:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Got it. Um, wow, and it is lightning fast. You can create an email address in like one second, so that's super, super powerful. Uh, well great job with this. It's obviously we need this. You're gonna have a lot of spam and phishing and hackers trying to use your service. How do you maintain the clients' privacy while making sure that like some scammer in Russia who's doing a phishing attack doesn't use your domain and your service to compromise Kash Patel's email address?",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "01:12:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I don't know if you saw that this weekend, I think Kash Patel got hacked the second time? Yes. Could somebody tell the director of the FBI don't click on links. Don't click on links. It doesn't matter if you know the person or it says Chase Bank, you don't click on links in email. Nobody's sending you an email to click on a link. It just happened to one of my sales guys, they clicked on a link because it was like 'Oh it's an RFP' and they were like 'Oh money'.",
+      "tone": "exasperated"
+    },
+    {
+      "timestamp": "01:13:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean, what happened to one of your sales guys versus happening to the director of the FBI. That's my concern.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "01:13:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean, can the director of the FBI not be allowed near a computer please? It's just too dangerous.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "01:13:28",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "How does he not know about phishing?",
+      "tone": "incredulous"
+    },
+    {
+      "timestamp": "01:13:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean, let him go to a hockey game, let him drink beer from the Stanley Cup. I don't care if he does something offensive with the Stanley Cup, just please keep Kash Patel off of the internet.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:13:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But seriously, uh, it's Hockum, A-M not E-M.",
+      "tone": "corrective"
+    },
+    {
+      "timestamp": "01:13:44",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Hakkam.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:13:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Hakkam. Okay. I called you Hakim before, sorry. That's an incredible center who played for the Rockets and destroyed the Knicks. Hakkam, tell me about how you make sure like an email service doesn't get used by a bunch of lunatics.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "01:14:01",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Yes. So preventing spam and abuse are like- falls within our responsibility. So we- we have things like where we- we moderate essentially their- their behavior, who they're sending to, how many emails are bouncing, being reported as spam, if the emails contain certain keywords that you know um, signal malicious intent- intent. These are all things that we monitor and track very closely and kind of dynamically systematically um, prevent uh, abusers from using our service. And then we also have built things into our API that makes it um, more secure for our users. For example, you can configure allow lists and block lists. And like you- maybe you want that your agent can only receive emails for- from you, um, or only send emails to maybe perhaps people...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:15:00",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "In your organization. So you can configure a domain to the allow list or block list. We also have spam filters, virus filters, and additional like you know, permissions that you can even give an agent an API key that only is able to read emails that are not marked as spam, for example. Like the agent like physically can't read spam emails and things of that nature. And then we're also working on a kind of another layer protection, which is more of like a prompt injection layer and kind of flagging those and perhaps even preventing agents from from seeing those emails at all.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:15:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Got it. Awesome.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:15:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Listen, continuous success with it, great idea. I just opened an account and I literally just cut and pasted my API key to my Overclock replicant and here we go. I don't know what I'm going to do with it, but I think I'm going to try to get Kash Patel's PIN number.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:15:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You're gonna fish Kash?",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:15:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm gonna fish Kash. I think I'm gonna try to get the other half of the Epstein files. It shouldn't be too hard, right? We just email Kash Patel at FBI. Get the other half. Just tell my agent to trick Kash Patel.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:16:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "$2,500 giveaway, click here. He'll go for it.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "01:16:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Absolutely. Absolutely. All right listen, continued success and everybody please go check out...",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "01:16:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah. Agentmail.to. All right. There we go. Very well done.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "01:16:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We could talk about Grok translate, translating everybody's posts so you can read fresh from Japan. So, uh, this has been happening for, I think for about a week people have been noticing that they're seeing more automatically translated posts from different markets. Elon confirmed it this week. Uh, on Monday, Grok automatically translating and recommending X posts from other languages is starting to work. And so you... I saw via you all weekend you were sort of retweeting a lot of stuff from Japanese X. I got a few examples here in the doc.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:16:44",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "You know, somebody... somebody turned in some marijuana that they found on the street. You were reading that one.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:16:49",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, that was a great one. So this was hilarious food. Uh, here we go.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:16:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. So this is interesting. Um, what's making this all possible is real-time translation. When you build a social network, you don't expose people from one part of the network to another because then you'd be reading in Arabic or Japanese or Russian. It just pollutes your feed and you don't know what's going on. But now translation is so good that they will take something trending in Japan, show it to an American if you interact with it simply by looking at the replies, hitting bookmark I find works pretty well, like works pretty well, you'll see more. So somebody, and by the way, Japan is like some crazy number of Japanese people. I don't know if it's like a third of all Japanese people use... as crazy as it seems, they all use... twitter... X.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:17:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Twitter. X. Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:17:52",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Whatever you want to call it. X. We're calling it X now. The everything app.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:17:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And so this is pretty amazing when you think about that it has that kind of footprint. And because it has...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:18:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "and they all know how to use it, they post all bangers. So now the best of the ones are being auto-translated by Grok, but the translation is so good that nothing is, dare I say, lost in translation.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:18:13",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Hey! There it is.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:18:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "There it is. Landed the plane.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:18:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So, pull up the one where it's talking about weed. This like lady goes to the police station — this is like a very Japanese moment — with a dime bag. Like, when I say enough cannabis to make one joint...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:18:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, it's not very much.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:18:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's this is not like a Snoop Dogg bag or something. And I just wrote her back and I was — she brought it to the police station. The police station opened an investigation. She was careful to only hold it by her corner of her hand so she wouldn't get her fingerprints —",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:18:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, you can see she's holding it like this.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:18:48",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, she's paranoid about having her fingerprints on it. Because so now this has become a national, like, issue. They've opened an investigation. If your house is robbed at gunpoint in San Francisco or Los Angeles, they're probably not opening an investigation. If they rob your car — I mean, if you go find it, God bless, but the police are not going to look for your bike or your car. So, in Japan, they interviewed her, they put a case number on this. They are all over —",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:19:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:19:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "— figuring out who dropped the dime bag.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:19:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "They are very strict about — about drugs in Japan. I — I read about this before I went there. They — in the most serious terms possible, they tell you not to bring your drugs to Japan.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "01:19:34",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Do not ever bring anything. Because some guy who was a famous musician or something brought, like, cannabis gummy —",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:19:40",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Paul — Paul McCartney. Oh, well, this was years ago. I don't know about a recent one.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:19:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No, no. Nowadays, like, you know, people have a cannabis pen in their bag for, like, sleeping, like the woman who was in the WNBA —",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:19:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, the — the WNBA player, Griner? Britney Griner? Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:19:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That was Russia, but a similar case happened where somebody sent an artist living in Japan, like, a care package, and one of the things in the care package were, I think, CBD gummies. Not even cannabis. And this guy is in jail and it's a whole, you know, cause célèbre, whatever.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:20:02",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Wow.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:20:03",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I looked it up, by the way. They estimate 54 to 60 percent of the entire Japanese population has an X account. That's about 73.4 million people or 67 million active monthly Japanese users out of a population of only 124 million.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:20:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So this is like an example of an incredibly positive story the New York Times could write: that now America and Japan are having this incredible cultural exchange. Someone made a funny joke, like, this is the largest pen pal slash student exchange program ever.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:20:37",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I also noticed, um, that there was a post that was going around. Japanese people love that John Denver song 'Country Road, Take Me Home'.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:20:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes! They all sing it in karaoke.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:20:46",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "There's a bunch of trending videos now of these groups of Japanese people doing these really passionate covers of that song that never would have trended in America. But now because there's these translated tweets in the moment, Americans are discovering this and sharing it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:20:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So when you hear Americans like myself —",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:21:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Like who are obsessed with Japan now. I took you to Japan for your first time.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:21:04",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, it was I had an amazing welcome.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "01:21:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. And now it's like your mind gets blown because it's like for an American it's a version of the most perfect society in the world because the food's amazing, everything's clean, it's just bizarre and everybody's super passionate about everything.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:21:19",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean the Tokyo thing it's massive and yet it feels like Disneyland. There's people walking around cleaning up everything, everybody's super friendly. You're like how can the city be this size but also this inviting and convenient.",
+      "tone": "amazed"
+    },
+    {
+      "timestamp": "01:21:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So I am challenging right now I challenge the journalists at Wired, the editor-in-chief of Wired, I challenge her, Karen Swisher Jr. I challenge Karen Swisher Jr. to write this positive story. I challenge the New York Times to write a positive story of X and Elon and his purchase of it and how amazing this is this joyful amazing story and I guarantee you they're going to say something in the first paragraph about you know some like three negative things about Doge or rockets blowing up or something.",
+      "tone": "challenging"
+    },
+    {
+      "timestamp": "01:22:03",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Big crock. I mean context with Grok, I think you would...",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "01:22:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Take put Lon in a bikini. You know, they're going to just go crazy. They cannot help themselves. They can't write a I guarantee you there is impossible for a New York Times or Wired writer to write an 800 word piece this is like seven paragraphs just giving examples of how joyful and fun this was for the last week. This is the number one story in social media on X and it is joyful and there is zero downside to it. You assign that to one of these Wired or New York Times writers they will figure out a negative spin. Clip this send it to them this is my challenge they will never cover this they can't they would.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "01:22:30",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "I mean I think you're right. They would write about this and they might even acknowledge it's fun you get to see all these Japanese people you get to but then they would add the context about Grok and the Grok...",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "01:22:38",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "They would give you the old ish sandwich. Right. Really interesting thing happened on X formerly known as Twitter before Elon destroyed it blah blah blah blah blah he blew up a rocket the doge fired some people and stopped transgender education in Ghana then it would be",
+      "tone": "mocking"
+    },
+    {
+      "timestamp": "01:22:59",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "the Grok. People are upset about the child CSAM on Grok. It would be that. It would be that and it'd be like can't give any",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "01:23:10",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And then eventually Mecha Hitler maybe the Mecha Hitler.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:23:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well now let's imagine let's take this and let's imagine this happens between Palestinians and Israelis Americans Jews Europeans French people and now what if the culture exchange happens between those groups who might be at odds about certain things happening in the world and they can communicate with each other in their native languages this could open up a level of understanding",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "01:24:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "standing that has not existed in history",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:24:02",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "You remember like Arab Spring or the Hong Kong protests how everybody was watching X but you couldn't really understand, you could watch the videos, but the tweets were in these foreign languages, imagine if there was all in everybody's language, everybody around the world is communicating in real-time.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:24:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "How do we, this is a message to Elon and is it Nikita, who's the product manager, Nikita Beer, right? Nikita Beer is just a genius, he's awesome, and he's fun, I like the fact that he's fun and trolls.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:24:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The tweets are fun.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "01:24:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, he's like all bangers, he's like native to the Twitter gestalt, if you will.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:24:33",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:24:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is a message to him, get this going between Iran and America and the Gulf States and let's see if we can make some level of understanding between those groups of people, that might create peace in the Middle East. Twitter! Can you imagine if Twitter brought peace to a region of the world?",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "01:24:57",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "By the way, this was the original concept we had with the internet in the early 90s and online in the late 80s was that hey, we might have cultural understanding.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:25:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now watch the press make this into like oh my god it's cultural appropriation oh this and that. This could be great. The other thing is I didn't realize how vocal the Japanese people were about immigration.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "01:25:21",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Hmm, yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:25:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "There's, they have very little immigration in Japan, you can't become a Japanese citizen, period full stop, but they have allowed people from Pakistan, India, China, they need workers.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:25:31",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "There's, and there's pushback. I was reading this when I was in Japan, I was reading a lot about this that a lot of Japanese people have started...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:25:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Where were you reading about it?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:25:42",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "Oh you know, they've like translate, you know you could get it translated or whatever, like I wasn't reading it in Japanese.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:25:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, no, but I was wondering if it even made it to the US press, I don't think the US press was covering this.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:25:50",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "No, I mean, it's mostly not really, it's mostly like YouTube and you know like there's people talking about it, blogs, social media, it wasn't in the New York Times, but yeah apparently in Japan there is these growing feelings that they've gone too far, there's too many foreigners it's diluting the culture and so there's a big debate going on in Japan about this right now.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:26:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, another amazing episode of Twist. Monday and Friday with Lonnie Danny he's @lons, Wednesdays with Alex @alex, I'm Jason Calacanis I'm @jason on Insta and on Twitter. Bye-bye.",
+      "tone": "upbeat"
+    },
+    {
+      "timestamp": "01:26:26",
+      "ad": false,
+      "speaker": "Mike Noz",
+      "text": "We'll see you next time.",
+      "tone": "friendly"
+    }
+  ],
+  "highlights": [
+    "To build a successful autonomous AI team, founders should treat agents like employees by providing specific onboarding context, utilizing cron schedules for 24/7 operation, and implementing self-review loops where agents audit their own performance.",
+    "Modern startup founders are encouraged to bypass traditional mainstream media in favor of \"going direct\" via long-form podcasts and social media to maintain control over their narrative and avoid the biases of advocacy journalism.",
+    "The development of virtual environments like MultWorld and specialized tools like AgentMail is enabling thousands of AI agents to coordinate, communicate, and solve complex real-world tasks in distributed networks.",
+    "Real-time, high-fidelity translation on social platforms is breaking down international silos, fostering massive cultural exchanges and direct communication between global populations previously separated by language barriers."
+  ],
+  "summary": "This episode of *This Week in Startups* explores the rapidly evolving ecosystem of autonomous AI agents and the infrastructure being built to support them. Guest Shubham Saboo, a Senior AI Product Manager at Google, outlines a five-point framework for managing AI \"teams,\" emphasizing that founders should onboard agents like human hires, utilize cron schedules for autonomy, and implement shared memory layers to prevent \"hallucinations\" or lost context. Technical demonstrations for MultWorld—a virtual simulation where agents coordinate to build environments—and AgentMail—an API-first email service designed specifically for bots—illustrate the shift toward a decentralized \"agentic\" economy where underutilized LLMs can solve complex, real-world tasks through autonomous coordination.\n\nThe transcript also features a sharp critique of traditional media and a discussion on the future of global connectivity. Host Jason Calacanis defends his viral advice that founders should \"go direct\" via podcasts and social media rather than engaging with legacy outlets like *The New York Times* or *Wired*, which he characterizes as \"advocacy journalism\" fueled by biased narratives and anonymous sources. This theme of bypassing traditional gatekeepers is reinforced by a discussion on X’s (formerly Twitter) new Grok-powered real-time translation. By enabling seamless cultural exchange—such as the sudden viral popularity of Japanese content among American users—the hosts argue that AI translation is fostering a level of unfiltered global understanding that traditional editorial structures have failed to provide.",
+  "description": "This Week In Startups is made possible by:\n\n\nQuo - https://quo.com/TWiST\n\nLinkedIn Jobs - https://LinkedIn.com/twist\n\nIru - https://iru.com/twist\n\nPlaud - https://Plaud.ai/twist\n\nToday’s show:\n\nGoogle product manager Shubham Saboo is running 6 AI agents on a Mac Mini that handle all of his side business autonomously, from research, to social posts, to newsletters.\n\nHe joins Jason and Lon to walk us through his 5-step framework for designing an efficient AI agent team:\n\nStart with one agent and onboard them like a new hire\nStop Googling fixes; just ask your agent how to use it\nPut your agents on fixed schedules\nAdd shared memory so you don’t have to repeat yourself\nLet agents run self-reviews and rewrite their own instructions.\n\nGet the walkthrough to put this entire plan into practice on today’s episode. \n\nPLUS fresh demos of the “Minecraft”-inspired virtual workspace MoltWorld and AgentMail, which is Gmail for your AI pals, and Jason explains the thinking behind his viral, controversy-stirring “don’t talk to journalists” \ntweet.\n\nFollow Shubham: https://x.com/Saboo_Shubham_\n“How I Built an Autonomous AI Agent Team That Runs 24/7” on X: https://x.com/Saboo_Shubham_/status/2022014147450614038?s=20\n\nFollow Mike: http://x.com/siames_net\nMoltWorld: https://moltworld.io/\n\nFollow Haakam: https://x.com/haakamaujla\n\nAgentMail: https://www.agentmail.to/\n\nJason’s post about talking to journalists: https://x.com/Jason/status/2037573025458016659\nNYT responds: https://x.com/NYTimesPR/status/2037648223771263082\n\nTranslated Japanese tweets: \n\nhttps://x.com/melonneet40/status/2038020624015315289, \n\nhttps://x.com/rambling_28/status/2038041455999246422\n\nJapanese people singing “Country Roads”: \n\nhttps://x.com/harukaawake/status/2038081269830222259\n\nTrailer for “Nuremberg” (now on Netflix in the US): \n\nhttps://www.youtube.com/watch?v=WvAy9C-bipY\n\nTimestamps:\n\n0:00 Intro\n0:36 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n2:27 We're Claw-pilled once again; it's an all AI Agent showcase\n5:37 Google AI PM Shubham Saboo's Top 5 OpenClaw tips\n9:26 Quo (formerly OpenPhone) gives you a clean, modern way to handle every customer call, text, and thread all in one place. Try it free at https://quo.com/TWiST.\n12:48 Tip #1 — Onboard your agent like a new hire\n16:53 Tip #2 — Talk to your agents constantly\n18:24 Tip #3 — Put your agents on a schedule\n19:03 LinkedIn Jobs - Hire right, the first time. Post your first job and get $100 off towards your job post at https://LinkedIn.com/twist.\n23:03 Tip #4 — Add cross-agent memory\n28:55 Tip #5 — Let your agents self-improve\n29:03 Iru unifies identity, endpoint security, and compliance into one platform. TWiST listeners get 20% off when they book a demo at https://iru.com/twist!\n33:25 Why Jason says founders should avoid journalists\n37:46 How biased IS the New York Times?\n46:24 DEMO: Co-founder Mike Nosov shows us MoltWorld\n50:36 But what's the utility of this?\n1:04:37 DEMO: Haakam Aujla presents AgentMail (YC S25)\n1:09:21 How does AgentMail make money?\n1:16:25 How Grok Translations are creating cross-cultural dialogue on X\n\nSubscribe to the TWiST500 newsletter: \n\nhttps://ticker.thisweekinstartups.com\n\nCheck out the TWIST500: https://www.twist500.com\n\n\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+  "duration": 5187,
+  "people": [
+    "Jason Calacanis",
+    "Lon Harris",
+    "This Week",
+    "In Startups",
+    "Shubham Saboo",
+    "Mac Mini",
+    "Stop Googling",
+    "Follow Shubham",
+    "Agent Team",
+    "That Runs",
+    "Follow Mike",
+    "Follow Haakam",
+    "Translated Japanese",
+    "Country Roads",
+    "Why Jason",
+    "New York",
+    "Mike Nosov",
+    "Haakam Aujla",
+    "How Grok",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason",
+    "Will Guidara",
+    "Steve Huffman",
+    "Brian Chesky",
+    "Bob Moesta",
+    "Aaron Levie",
+    "Sophia Amoruso",
+    "Reid Hoffman",
+    "Frank Slootman"
+  ],
+  "topics": [
+    "Strategies for building and managing autonomous AI agent teams using OpenClaude",
+    "Jason Calacanis's critique of mainstream media bias and advice for founders to avoid the press",
+    "Demos of AI-centric platforms including MoltWorld and AgentMail",
+    "The impact of Grok’s real-time translation features on global cultural exchange on X"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/1aBLe69ZCVs/maxresdefault.jpg",
+  "date": "20260331",
+  "youtube_url": "https://www.youtube.com/watch?v=1aBLe69ZCVs",
+  "youtube_metadata": {
+    "title": "The 5-Step Framework for AI Agents That Improve While You Sleep | E2269",
+    "description": "This Week In Startups is made possible by:\n\n\nQuo - https://quo.com/TWiST\n\nLinkedIn Jobs - https://LinkedIn.com/twist\n\nIru - https://iru.com/twist\n\nPlaud - https://Plaud.ai/twist\n\nToday’s show:\n\nGoogle product manager Shubham Saboo is running 6 AI agents on a Mac Mini that handle all of his side business autonomously, from research, to social posts, to newsletters.\n\nHe joins Jason and Lon to walk us through his 5-step framework for designing an efficient AI agent team:\n\nStart with one agent and onboard them like a new hire\nStop Googling fixes; just ask your agent how to use it\nPut your agents on fixed schedules\nAdd shared memory so you don’t have to repeat yourself\nLet agents run self-reviews and rewrite their own instructions.\n\nGet the walkthrough to put this entire plan into practice on today’s episode. \n\nPLUS fresh demos of the “Minecraft”-inspired virtual workspace MoltWorld and AgentMail, which is Gmail for your AI pals, and Jason explains the thinking behind his viral, controversy-stirring “don’t talk to journalists” \ntweet.\n\nFollow Shubham: https://x.com/Saboo_Shubham_\n“How I Built an Autonomous AI Agent Team That Runs 24/7” on X: https://x.com/Saboo_Shubham_/status/2022014147450614038?s=20\n\nFollow Mike: http://x.com/siames_net\nMoltWorld: https://moltworld.io/\n\nFollow Haakam: https://x.com/haakamaujla\n\nAgentMail: https://www.agentmail.to/\n\nJason’s post about talking to journalists: https://x.com/Jason/status/2037573025458016659\nNYT responds: https://x.com/NYTimesPR/status/2037648223771263082\n\nTranslated Japanese tweets: \n\nhttps://x.com/melonneet40/status/2038020624015315289, \n\nhttps://x.com/rambling_28/status/2038041455999246422\n\nJapanese people singing “Country Roads”: \n\nhttps://x.com/harukaawake/status/2038081269830222259\n\nTrailer for “Nuremberg” (now on Netflix in the US): \n\nhttps://www.youtube.com/watch?v=WvAy9C-bipY\n\nTimestamps:\n\n0:00 Intro\n0:36 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n2:27 We're Claw-pilled once again; it's an all AI Agent showcase\n5:37 Google AI PM Shubham Saboo's Top 5 OpenClaw tips\n9:26 Quo (formerly OpenPhone) gives you a clean, modern way to handle every customer call, text, and thread all in one place. Try it free at https://quo.com/TWiST.\n12:48 Tip #1 — Onboard your agent like a new hire\n16:53 Tip #2 — Talk to your agents constantly\n18:24 Tip #3 — Put your agents on a schedule\n19:03 LinkedIn Jobs - Hire right, the first time. Post your first job and get $100 off towards your job post at https://LinkedIn.com/twist.\n23:03 Tip #4 — Add cross-agent memory\n28:55 Tip #5 — Let your agents self-improve\n29:03 Iru unifies identity, endpoint security, and compliance into one platform. TWiST listeners get 20% off when they book a demo at https://iru.com/twist!\n33:25 Why Jason says founders should avoid journalists\n37:46 How biased IS the New York Times?\n46:24 DEMO: Co-founder Mike Nosov shows us MoltWorld\n50:36 But what's the utility of this?\n1:04:37 DEMO: Haakam Aujla presents AgentMail (YC S25)\n1:09:21 How does AgentMail make money?\n1:16:25 How Grok Translations are creating cross-cultural dialogue on X\n\nSubscribe to the TWiST500 newsletter: \n\nhttps://ticker.thisweekinstartups.com\n\nCheck out the TWIST500: https://www.twist500.com\n\n\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+    "duration": 5187,
+    "view_count": 7998,
+    "like_count": 157,
+    "channel": "This Week in Startups",
+    "upload_date": "20260331",
+    "thumbnail": "https://i.ytimg.com/vi/1aBLe69ZCVs/maxresdefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

@@ -1,8 +1,8 @@
 ---
 channel: The Iron Snail
 channel_handle: "@TheIronSnail"
-total_videos: 33
-last_updated: 2026-03-02
+total_videos: 35
+last_updated: 2026-04-25
 ---
 
 # The Iron Snail Channel Index
@@ -11,17 +11,19 @@ last_updated: 2026-03-02
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 33 |
-| Total Views | 14,833,187 |
-| Date Range | 2023-12-22 to 2026-02-27 |
-| Average Video Length | 15:48 |
+| Total Videos | 35 |
+| Total Views | 15,802,177 |
+| Date Range | 2023-12-22 to 2026-04-20 |
+| Average Video Length | 16:09 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
-| 2026-02-27 | [Why People in The Coldest Places Wear Yellow Mittens.](videos/uI9IVadeONc.md) | 11:34 | 241,627 | [Watch](https://www.youtube.com/watch?v=uI9IVadeONc) |
-| 2026-02-02 | [The 125-Year-Old Wool Jacket Brands Still Can't Beat.](videos/XPIVM9e_lGU.md) | 13:51 | 63,264 | [Watch](https://www.youtube.com/watch?v=XPIVM9e_lGU) |
+| 2026-04-20 | [Why Forest Rangers Still Wear This 75-Year-Old Boot.](videos/FbAkrx4mzg0.md) | 27:47 | 247,561 | [Watch](https://www.youtube.com/watch?v=FbAkrx4mzg0) |
+| 2026-03-28 | [Why The Greatest Fatigue Pants Ever Made Are Also The Cheapest.](videos/QcWlSGBiyiY.md) | 16:15 | 365,285 | [Watch](https://www.youtube.com/watch?v=QcWlSGBiyiY) |
+| 2026-02-27 | [Why People in The Coldest Places Wear Yellow Mittens.](videos/uI9IVadeONc.md) | 11:34 | 339,706 | [Watch](https://www.youtube.com/watch?v=uI9IVadeONc) |
+| 2026-02-02 | [The 125-Year-Old Wool Jacket Brands Still Can't Beat.](videos/XPIVM9e_lGU.md) | 13:51 | 321,738 | [Watch](https://www.youtube.com/watch?v=XPIVM9e_lGU) |
 | 2026-01-11 | [The Internet's Favorite Down Jackets, Ranked.](videos/rHdMviAhDtE.md) | 19:26 | 654,605 | [Watch](https://www.youtube.com/watch?v=rHdMviAhDtE) |
 | 2025-12-13 | [Why The Greatest Field Jacket Ever Made Is Also The Cheapest.](videos/5fZ1KbN9O7s.md) | 13:56 | 939,993 | [Watch](https://www.youtube.com/watch?v=5fZ1KbN9O7s) |
 | 2025-11-20 | [The Only Wool Sweaters I'd Buy.*](videos/_x-_PLprz3g.md) | 24:23 | 705,131 | [Watch](https://www.youtube.com/watch?v=_x-_PLprz3g) |
@@ -99,6 +101,11 @@ last_updated: 2026-03-02
 | Bronson | 3+ | Value loopwheel, Chinese manufacturing |
 | Lady White Co. | 2+ | T-shirts, American knitwear |
 | Wonder Looper | 2+ | Fox Fiber, Ultimate Pima cotton |
+| Limmer | 1 | Bavarian-American hiking boots, custom + stock programs |
+| Meindl | 1 | Bavarian boot maker; Limmer's stock-program partner |
+| Merrell | 1 | Founder Randy Merrell credits Limmer as his template |
+| Russell Moccasin | 2+ | Heritage hand-made boots; first Appalachian Trail boot |
+| OrSlow | 1 | Famed modern OG-107 fatigue reproductions (Japan) |
 
 ### Products & Technologies
 
@@ -122,6 +129,12 @@ last_updated: 2026-03-02
 | Brown's Beach Cloth | [125-Year-Old Wool Jacket](videos/XPIVM9e_lGU.md) | Warp-knit cotton/wool blend, shoddy recycled fleece |
 | Warp Knitting | [125-Year-Old Wool Jacket](videos/XPIVM9e_lGU.md) | Multiple loops simultaneously, won't unravel |
 | Shoddy/Recycled Wool | [125-Year-Old Wool Jacket](videos/XPIVM9e_lGU.md) | 1800s recycled fabric technology, Civil War history |
+| Limmer Bavarian Boot | [Forest Rangers Boot](videos/FbAkrx4mzg0.md) | Single-piece leather upper, six-stitch side seam, 5-quarter-thick heel stack |
+| Custom Foot Tracing Archive | [Forest Rangers Boot](videos/FbAkrx4mzg0.md) | Century of customer foot tracings (Salinger, Ansel Adams, Chouinard) |
+| OG-107 Reverse Sateen | [Fatigue Pants](videos/QcWlSGBiyiY.md) | Vietnam-era US military fatigue fabric, 1950s |
+| Reverse / Weft-Faced Sateen | [Fatigue Pants](videos/QcWlSGBiyiY.md) | Weft used as sacrificial shield over warp; 80% > HBT, 110% > denim |
+| Herringbone Twill (HBT) | [Fatigue Pants](videos/QcWlSGBiyiY.md) | "Broken twill" 15% stronger than denim; WWII golden boy fabric |
+| Quartermaster Combat Course | [Fatigue Pants](videos/QcWlSGBiyiY.md) | Fort Lee, VA real-world wear test by Backer & Kaswell, MIT |
 
 ### Brands Mentioned Frequently
 
@@ -143,6 +156,8 @@ last_updated: 2026-03-02
 - [I've Reviewed 100+ T-shirts. Here Are The Best Ones.](videos/FSWl57UR4k0.md)
 
 ### History & Deep Dives
+- [Why Forest Rangers Still Wear This 75-Year-Old Boot.](videos/FbAkrx4mzg0.md) (Limmer Bavarian boots)
+- [Why The Greatest Fatigue Pants Ever Made Are Also The Cheapest.](videos/QcWlSGBiyiY.md) (OG-107 reverse sateen)
 - [The 125-Year-Old Wool Jacket Brands Still Can't Beat.](videos/XPIVM9e_lGU.md)
 - [Why The Greatest Field Jacket Ever Made Is Also The Cheapest.](videos/5fZ1KbN9O7s.md)
 - [Why This U.S. Navy Jacket Killed The Peacoat.](videos/KMQF8w-aRpY.md)
@@ -176,7 +191,7 @@ last_updated: 2026-03-02
 
 ## Tag Cloud
 
-jackets (10) | t-shirts (6) | military (5) | wool (5) | denim (4) | sweaters (3) | sneakers (3) | watches (2) | boots (2) | outfits (2) | vintage (2) | Japanese (2) | heritage (2) | value (2) | workwear (2) | winter (2) | vest (1) | hunting (1) | mackinaw (1)
+jackets (10) | t-shirts (6) | military (6) | wool (5) | denim (4) | sweaters (3) | sneakers (3) | boots (3) | watches (2) | outfits (2) | vintage (2) | Japanese (2) | heritage (2) | value (2) | workwear (2) | winter (2) | pants (1) | sateen (1) | hiking (1) | bavaria (1) | textile science (1) | vest (1) | hunting (1) | mackinaw (1)
 
 ## Search Tips
 

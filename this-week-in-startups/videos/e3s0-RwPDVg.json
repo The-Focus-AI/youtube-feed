@@ -1,0 +1,1387 @@
+{
+  "title": "How agents will change banking forever | E2260",
+  "source_url": "https://www.youtube.com/watch?v=e3s0-RwPDVg",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right everybody, welcome back to TWiST Monday, March 18th, 2024. Lots going on. Alex, how you doing?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:07",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "I am fantastic. The snow is melting. I'm finally coming out of winter. I've got tank top season on the horizon, so Jason, I'm happy.",
+      "tone": "cheerful"
+    },
+    {
+      "timestamp": "00:00:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What's the top story in our world? Startups, venture capital, technology.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:00:18",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "You know, I think it has to be the Andrej Karpathy auto-research story. We've talked so much as an industry about the future of AI models eventually being able to improve themselves, getting that loop going, and then at that point, we have real takeoff towards superintelligence. But in this case, what Andrej has done, and if you don't know him, he's a former AI head over at Tesla. Jason, he's just one of the best and most followed developers, I would say, in the world. Fair?",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:00:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh yeah, for AI specifically, obviously worked for Elon for a long time. So yeah, he would be, you know, top 20 recognizable names in the space.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:00:54",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Yeah, so when I see his stuff, I immediately take a look at it. And in this case, he has put a tool called Auto-Research over on GitHub. And what this is, it's a really stripped-down LLM training loop, and it runs in five-minute increments. So you bring your own AI model to power an agent essentially, and then you give it a prompt, and then what the system does is try to improve its own code over a five-minute training period. Then it re-tests itself, and then if the code is improved, if the result is improved, it keeps the changes and then it continues to iterate. So it's a very simple loop of AI actually improving itself across certain tasks that you give it. So it's not the full meal deal, Jason, we haven't solved AI recursive self-improvement, but we have shown that it's simple and possible in some context. Very cool.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, and he worked at OpenAI, I think twice. He was like in between stints at Tesla, or maybe Tesla was between the two OpenAI stints. So he knows what he's talking about. I think he started, he was one of the founders over at OpenAI in 2015 timeframe.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:02:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So I think, you know, without being an AI researcher myself, what we're seeing here is as the models get smaller, as people get more comfortable with running a local model, this isn't like an abstraction. There's tons of open source models, and then people are building scales, people are running tests, and people are interested in playing with this technology. As they become interested in playing with the technology, you'll have somebody like Tobi from Shopify who on the weekend is like, 'I'll try,' and the next person tries. And this is all Claude-pilling and just having folks, you know, get excited and tinkering with this technology. So it's kind of like the horse has left the barn in my mind. If Tobi Lütke, the CEO of Shopify, is like, 'You know what, I'll try using this, I have no expertise in this, let me give it a shot,' and as you can see here from the tweet, he had some success.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:02:57",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Yeah, so he went ahead and gave it a shot.",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I saw over the weekend. By the way, all CEOs are dangerous now because they have Claude code and they can tinker. So if you're a developer who liked to have the CEO far from the codebase, it's going to be a tough couple of years. Anyways, he ran some tests with auto research, the tool, and he says, and I'll just quote here: 'woke up to a +19% score on a 0.8B model'—so 800 million parameters, Jason, very small—'higher than the previous 1.6 billion parameter model's result after eight hours and 37 experiments.' So essentially, his auto research setup ran 37 different trials of five minutes apiece, and over eight hours managed to find nearly a one-fifth improvement in results. He says, 'Look, I'm not an ML researcher. I presume people are doing this in the labs at a much, you know, more sophisticated level,' but he learned so much from doing this because you can watch how the AI thinks as it goes through the process. The other thing to keep in mind is the gains that we see—here is an image from Andre himself showing progress, this is 83 experiments of which 15 had improvements—the gains, Jason, as measured by declines in this particular axis, do seem to get smaller over time. So there is a diminishing level of return here, but it works. It works.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:04:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I think people are going to keep experimenting with this, with this. And the idea that there's only 3,000 or so PhDs in AI who are fought over for $10 million a year, a million dollars a year, a billion-dollar package, whatever it happens to be—we've seen these crazy numbers from Meta trying to catch up and and people poaching each other back and forth—that 3,000 will turn into 300,000 people who understand how LLMs work and who can make meaningful progress on them. And that's great. You know, we used to live in a world where only a small cohort of people could make iPhone apps, only a small cohort of people understood how to use at-scale databases. So, you know, it's uh, it's a uh interesting time to be in. And if you are an AI researcher getting in there and playing with it, just like you have knowledge workers like you and I, Alex, who maybe weren't developers or maybe had toiled a little bit, being able to vibe code, being able to use Claude code to make a reoccurring job, being able to install Open Claude, being able to write a scale, maybe publish it to GitHub... this is the dam cracking from the developers owning the world to everybody building the future, and I'm here for it. It's exciting.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:05:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It is, it's very exciting. It is democratizing, and I hope also that what we're seeing here on the edges of public AI work is happening inside AI labs at like twice the speed. Because if this simple setup can show, you know, AI-driven improvement of AI outputs, then we must be cooking really, really fast in xAI, OpenAI, Anthropic, etc. So to me, this shows that yes, we can tinker, yes, it is democratizing, but also the pace of improvement in AI this year should be insane. And that's very bullish for startups, for VCs, for everyone who's put money behind these.",
+      "tone": "bullish"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "It is, and so I think this is one of the most bullish stories that I've seen in weeks, if not months.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:06:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, since Open Claude, I guess.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:06:07",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Really quickly, I want to talk about the US public, AI, and then China and AI. There was a big boom in Open Claude over in China. I thought this was just a thing that I saw over on Reddit, people posting pictures of GitHub, sorry, Open Claude meetups. Here's a screenshot, an image, Jason, of one of those meetups. In case you're curious what that looks like, here are people outside in Shenzhen, teaching each other how to set up Open Claude. You can even see the Open Claude right over there in English. I thought it was kind of crazy. You know, this is so cool. People are really getting into it. It turns out also there are certain governments inside of China that are setting up incentive structures to get more people to use Open Claude. All of that to one side, over here in the US, there's a new poll that came out that showed that AI here in the states is incredibly unpopular. So we get kind of a split screen here between people in China, even older folks really diving into Open Claude, and here in the states, poll numbers that are pretty terrible. According to the NBC poll, Jason, 26% of people in the US are pro-AI and 46% are opposed to it for a negative 20% differential. I was surprised by this.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, I'm going to give my opinion on both of these stories after we talk about Plaud.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:16",
+      "ad": true,
+      "speaker": "Rohan Arun",
+      "text": "Yes, Jason, we've been talking about the Plaud note pen tools, essentially a great way to get all your audio from your ambient area into your device or into your personal cloud. You are a big note-taking guy. You absolutely love a checklist. Tell people why Plaud has a place in their life.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:07:30",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, it's pretty straightforward. I have the Plaud pen here. It records what I'm doing. Obviously, you know you want to do this with disclosing to people you're doing it. And when you're in a meeting, instead of like fumbling with your phone and trying to find a recording app, you put this on the back. See this? This is the Pro. And when you press the button, hold it down, it gives you a nice haptic, tells you how many, how much battery life it's got a little LED on how much battery life is available. And you hold it, and now it does a little recording stream. I don't know if you can see that audio stream going there just to let you know it's working. And that means one click you're recording. Then it syncs it with your device, whether it's the pen, whether it's the Pro, and you're all set, you're ready to then transcribe it, put it in the cloud, and it will do a straight-up summary, it will do a mind map. There's a whole library of different ways for you to use your Plaud and it's a game changer for me because I frequently forget things or I get inspired in a flurry because I'm hiking or doing some ranch work or, you know, the kids are getting dropped off at school and then I'm like, oh, I remember I have an idea for the show. Boom. I just say action item. Boom. I just say, hey, book this person for the show. So go to plaud.ai/twist, it'll give you 10% off.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:08:49",
+      "ad": true,
+      "speaker": "Rohan Arun",
+      "text": "We do a lot of notes here at Twist, so we live and die by our ability to keep our information straight. So shout out to Plaud for sponsoring the show.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:08:55",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Now, Jason, over in China, Open Claude. Tell me. Here in the US, AI hatred.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "So you've heard me say it a million times, it's true, now more than ever. Gusto is a must-have. They're going to save you so much time on your HR. Gusto is the essential payroll and benefits software built for your startup or small business. It's all-in-one, remote friendly, and incredibly easy to use. So you can pay, hire, onboard, and support your team from anywhere. We use it, we love it. My team loves it. Everything in HR settled down when we went to Gusto. No more drama. People want a perfect HR platform and Gusto is that platform. They make it fast and easy to move your data over. They're an ideal place to get started with basic payroll for your new business. They can also provide more comprehensive services to help you scale up. I think we have 22 people on payroll now. And Twist listeners are going to get three months free when they run their first payroll. So try Gusto today at gusto.com/twist and get three months free when you run your first payroll. That's three months of free payroll at gusto.com/twist, G-U-S-T-O.com/twist.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:10:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Two separate issues. The- the claw thing is happening all over America. And it's open source. And what's great about open source is when something trends, everybody embraces it. We've never seen a project get embraced as quickly, as violently, as lovingly as OpenClaw. It's number one on GitHub. It has the largest number of stars. Why is that happening? I would say it's two reasons. First and foremost, people are getting value from it. Second, it's inspiring for people because if they're starting a company or running a business or they want to stand out at work, they can use this tool to be a better performer. So high performers are drawn to this. And there are tons of high performers around the world. Obviously in China, you've got a lot of aspirational people. If you're aspirational, you're pulled to this. Now, there are normies, there are citizens, there are human beings who might not be looking to make a career and they might not live to work. They may work to have a great life and there's nothing wrong with that. So you're not seeing like these open claw thing happening in France. I don't think like people are like, you know what? Instead of going to the bistro tonight, I'm going to go do a- a clawed-up- meetup. Maybe they are. Who knows? I mean, don't mean to give a hard time to the French.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "March 19th, OpenClaw meetup Paris. It's at 5:00 PM at Rue de la Booth. Which is French apparently.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:11:34",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We'll see if like six people show up or whatever. But anyway, the second piece to this does dovetail with it nicely. Which is people in China feel like AI's gonna make their lives better. They've recently seen their lives get better. They have an immediate history that they can look back on and say, hey, for 20 or 30 years we've watched people go from living on a farm without running water or sharing a cold spigot between three-",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "For people, this is literally reality, you know, in in China, no electricity or limited electricity in the village to working in a factory, living in a dormitory, the dormitory has, you know, air conditioning or heat, they have some spending money, they can go to a bar, they can go you know have lunch somewhere, they can start to build a life for themselves, eventually get an apartment. So they've seen this, so they're excited about the future.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now you go compare that to America, people have for the last two generations said 'I've gotten 400k in debt, 200k in debt with my degree, etc.' and since I'm in debt, then I can't buy a home, and if I can't buy a home and my job out of school is paying me 50 grand a year but I'm 250k in debt, I'll never get out from under.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:12:50",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So there is like um a resentment that's brewed over 20 or 30 years. And if you pull up the chart of what people don't trust in America, you know, it has gotten really acute for a couple of groups of people. Obviously the government, obviously journalism and media, both parties seem to have had their reputations just become completely untrustworthy and obviously AI.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:14",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "So Jason, here is the polling data that we're discussing. This is from NBC and I've gone ahead and highlighted a couple of things for people to read it. Uh, essentially here in the lower red box is AI, as you can tell based on this poll in March of 2023, 5% of people are very positive in the US about AI, 21% somewhat positive, neutral 27%, more people than I thought were neutral.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:40",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "But on the somewhat negative and very negative, it's 24 and 22%. So many more people on the negative side and people are pointing out on Twitter and other places that uh, ICE, Immigration and Customs Enforcement, a very controversial, I think it's fair to say, agency of the government, has a 38% uh return of people saying very or somewhat positive sentiments about it. So AI in the US is somehow less popular than ICE.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:14:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, if you, yeah, there's some extremes going on here. So let's look at the extremes here. If we put the two numbers together, 24 and 22, somewhat negative, very negative, you get 46% of people are very negative or somewhat negative. They're negative about AI here in the United States.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:14:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now if you look at the ICE ratings, at their peak... because, you know, you have five dates there, but March 2023, when we go back to this data here and you look at March 23rd, 47% very negative, 9% somewhat negative. You put those two numbers together you get to 56. So, you know, the ICE is still, in terms of total negativity, eking out AI, but it should be concerning to people.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:14:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Uh and then if you look at um, I'm assuming when they say Iran, they're looking at it negatively. They're talking about either the war or I'm gonna guess it's more the government of Iran, just I'm not sure what the...",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:14:57",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Yeah, I think it's the government, I forget the exact phrasing of the question, but it was 'What is your opinion...'",
+      "tone": "uncertain"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Eugene Stuckless",
+      "text": "In about item and then it's somewhat positive, very positive, negative. So this is just getting numbers attached.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think it's the government...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Great.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:04",
+      "ad": false,
+      "speaker": "Eugene Stuckless",
+      "text": "So for those two instances, 61 percent are negative or somewhat negative about Iran.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So why is AI as unpopular as a brutal dictatorship that murdered tens of thousands of peaceful protesters and ICE agents, an agency that has, you know, had two deaths, whether you consider them murder or not, I'll leave that to the investigations? I have a theory of why AI is so unpopular in this country.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And it's that the industry has done itself no favors in terms of explaining itself. The second is we have seen a social contract in America be broken. In Big Tech and in large corporations in America, it's not limited to Big Tech, and some Big Tech companies are not just tech companies like Amazon is a e-commerce company, right?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:16:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:16:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "There was an explicit agreement that if profits were going up, compensation, bonuses, and headcount would go up. These two things were tied to each other for the history of modernity. The company's doing well, raises. The company's not doing well, okay, we're going to freeze raises. Oh the company did well this year, you get a bonus. Oh the company lost money this year, hey, the bonus program's on pause. And everybody was like, hey, that's reasonable, right? We're all working together, swimming in the right direction. And they said, hey, you know, if things go well, yeah, your group, oh, you're in the sales group, you're in the customer support group, yeah, we're going to get you a couple of extra headcount. You'll, you won't have to work the weekends as much or burn the midnight oil. We understand you need more headcount to hit the goals. And hey, why not? The company's growing.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:16:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "For the first time in the history of America, we're seeing that flipped. And it used to be if profits are surging, if profits are surging, bonuses and headcount will increase. Now profits are surging because we're lowering comp and moving jobs offshore, or we're cutting headcount. This is apparent to Americans now. They see it themselves. And they also, the gig economy is a major contributor to this. Everybody in their family knows somebody who maybe they didn't fit in in corporate America, maybe they weren't able to get up in time and do the nine-to-five thing. And this magical little thing, press a button, get a job, came out. It got criticized, oh my god, you know, you don't get benefits, whatever. But let's call it what it is, Alex. We all knew somebody, I don't want to call them an f-up, but they just didn't fit into the nine-to-five gig.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:17:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. Well, a lot of us, or maybe they were a stay-at-home parent and only had...",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "4 hours and then wanted to spend time with their kids, which is, that's actually laudable.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:18:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But we have somebody in our life who's like always down on their luck, they get fired, whatever, and all of a sudden they became their own boss. They started doing DoorDashing, they started doing Uber, they might have done Wonolo, all these other services where you get, you can do shift work or make your own hours, gig work.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:18:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "They see that going away. So you see two things happening concurrently. Hey, your aunt who worked at Microsoft or Amazon and was in a senior position and was making six figures just got automated. Oh, your cousin who couldn't keep that job and wasn't as aspirational maybe as Aunt Susan, Waymo's in their town and DoorDash has robots that they made themselves zipping around and there's other bots on the street.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:18:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Writing's on the wall for Cousin Sal. So now Aunt Susan and Cousin Sal are hitting it, and by the way, you know, your Uncle Joe, who was the programmer, he's now wondering if he's gonna have a job.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:19:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "This social contract's been broken, and Americans should not trust AI or the AI industry because until that social contract is fixed, they should assume the worst.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:19:19",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "You can have the most brilliant team members in the world and a great product. But if your team is not communicating well with one another or with your customers more importantly, it could all be for nothing. You want to make sure your team remains totally in sync and responsive to new customers and returning customers, right? The best new customer is keeping your last customer, and that's why you need to check out Quo. That's Q-U-O.",
+      "tone": "upbeat"
+    },
+    {
+      "timestamp": "00:19:43",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "They're the modern alternative for running your business communication and they're already being used by more than 90,000 companies. I use Quo. Why do I use Quo? Well, we use it for our syndicate where we have thousands of members calling us and these are VIPs. We want to make sure somebody picks up the phone for them. It's so easy. Your entire team can share that phone number or they can have their own, and you just install an app on your desktop, on your Android, on your iPhone, or through the web interface.",
+      "tone": "upbeat"
+    },
+    {
+      "timestamp": "00:20:07",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "No more missed messages, no more missed phone calls. It's the greatest. So try Quo for free. Plus, get 20% off your first six months by going to quo.com/twist. That's q-u-o.com/twist. Quo, no missed calls, no missed customers.",
+      "tone": "upbeat"
+    },
+    {
+      "timestamp": "00:20:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I do not disagree, and I've always struggled to match my AI enthusiasm, my belief in the progress of technology lifting boats over the longer term with what I consider to be the potential for quicker job loss than they can be replaced with new jobs.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:20:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And I think the technology industry, if they want to avoid a political crisis in the next four years, maybe a couple of elections, need to start doing more than they are to ameliorate the public's discontent. Because this is not just people saying no data centers in my backyard, this is people potentially voting people into Congress who want to put relatively strict guards and guardrails.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "around what AI can and cannot do, which could disembowel the industry, which I think you and I have both agreed would be a net negative for the country over the long term. So I don't know what the solution here is, but there appears to be political clout forming in the future, people like Ron DeSantis...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, it's not forming, it's here. I would argue it's here, you know, there's a group of people who are denying it. There's a group of people saying, hey, it doesn't matter, we'll create new jobs. And then there's a group of people who are being labeled doomers. And you can always tell when people lose an argument because they want to label you. This happens to me all the time on All-In.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:21:30",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "I was just about to say, there's a co-host who doesn't like it when you bring up AI job loss, yeah.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:21:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, yeah, I mean, it's obviously if you're in charge of that, you probably want to try to create jobs. Now, I'm not saying Sacks is wrong or I'm right. I just think the American people should have their guard up. They should assume the worst. Why? Because they got hit rent, because they got to, you know, get groceries, because they have bills to pay. Assume the worst and then be delighted if your job playing the violin, you know, at a cafe because everything is, because there's no jobs becomes a reality. Let's hope that this becomes the Star Trek version. It could. There's a third of a chance of that, a third of a chance of massive job loss, and a third of something in between. But a lot of good questions coming in. I think this is a very emotional issue and our noti-gang, these are the people who have notifications turned on on YouTube, they get an alert on their phone, hey, JCal and Alex are talking, here's the topic, and then they click the link and they come into the chat room. They watch us live, Monday, Wednesdays, Fridays about 12 Texas time, 12 p.m. Texas time, 10 a.m. Pacific time, 1 p.m. East Coast time. What questions do our notis have for us?",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:22:49",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "So Niall Roche says, 'Why so negative on open cloud adoption in Europe? Don't forget OpenCloud was started by a European.' Fair point, Jason. You now must defend your anti-French agitation.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:23:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm just talking about how delightful the lifestyle is in Europe and how it's turned into a retirement community slash Epcot Center. You know, anybody who is in Europe and who wants to build a great company is probably looking at going to another region because you need to have a bunch of people working for you hardcore. Doesn't mean it can't be done. Obviously the Scandinavians and Berlins stand out as places where interesting things are happening, but I think we all can call it what it is. Europe's a retirement community. Full stop.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:23:32",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "I wonder about that because we're seeing, you and I have had this conversation every three months for several years now. But I keep my eyes open. And in scale, the UK-based NeoCloud just raised $2 billion. The UK government just rolled out a 50 million pound fund, which I made fun of. Then they rolled out a 500 million pound fund. Okay, a little bit progress.",
+      "tone": "contrasting"
+    },
+    {
+      "timestamp": "00:23:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, the fact that the government's doing that tells you everything.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:23:58",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Well, they have lost large companies, so I think you're seeing actually, Jason, I think you're seeing...",
+      "tone": "engaged"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Using public funds to build off-sovereign compute is a good idea.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You know, most people would say that's socialism or it's putting your thumb on the free market, and you really want more entrepreneurs battling it out and the government having nothing to do with that. Typically, when the government intervenes like that, it's because the private sector's not getting it done. But we'll put that aside. You know, the state of Europe and, you know, having a couple of, you know, unicorns here or there, yeah, sure. It just feels to me like with the education level and the resources, they greatly underperform where they should be at. They should be producing much more. And they have worked to do, in terms of the taxation there on startups, on investors. If you put up too many roadblocks for founders in terms of hiring and, you know, at-will employment, and you put up too high taxes, then people will invest less and they'll move to other places. Europeans have a very unique ability to live in Dubai, in-- okay, bombs are going off. But they can move to Singapore, Dubai, and other places and pay no taxes or pay under 10% taxes. Any logical investor in Europe faced with 50, 60, 70% taxes will get out of Dodge, and that's what they've done.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:25:21",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "We had another couple questions about AI-driven job loss, Jason, before we jump into the Jason productivity hack. I'm just curious what your advice is for people out there who are concerned. We talked about, you know, AI won't take your job, people using AI will take your job. I think the agentic world has shown that to be different. So if you're a normie, what's the best way to have armor on your body to keep your job secure? Short version.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:25:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "If you're working in corporate America, being the person who knows how to manage, being a maestro who manages AI, is the key person. If you're in any other field, moving up the stack to things that a robot can't do and outrunning the robot is the best piece of advice. So what can a robot do? It can deliver a burrito and it can drive full self-driving. It's going to be a decade-long deployment of those technologies. So what's the next thing up from there? Being a carpenter, being a handyman, being a plumber, being an electrician. And if you look at that generation tool belt, if you were Cousin Sal who is not a 9-to-5er and loves his Uber, DoorDash, on-demand economy, you might need to buckle down and say, \"You know what? I'm going to learn a trade. I'm going to take out YouTube, I'm going to take out ChatGPT, I'm going to learn how to be a carpenter, I'm going to learn how to build a fence.\" Because the robot ain't building no fence. I can tell you, I just built a fence, it cost me like six grand to build a tiny little fence. It was a two-day job. You know what handymen who can build a fence get paid? It's like a hundred bucks an hour.",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:26:49",
+      "ad": false,
+      "speaker": "Eugene Stuckless",
+      "text": "Yeah, I've done fencing. At yeah, I paid a lot of money for a fence.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:26:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You know what an Uber driver gets paid? 30 bucks an hour, you know, in a city, or DoorDash, 20 bucks, 30.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Eugene Stuckless",
+      "text": "Sometimes they hit it, make 40 bucks on the weekend.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:27:02",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "It's easier than ever to build a great new product and launching a startup even as a solopreneur is getting easier and easier. But as my experienced founders already know, there's a lot more to starting a company than just putting up a website or even building a product. If you're serious about going into business, you need a Delaware C Corp. That's going to give you a serious leg up on your competition and you'll be taken seriously by investors. That's where Northwest Registered Agent comes in. Just a few clicks, they're going to give you the perfect start to your new enterprise. A real identity, a domain, a custom website, a business email, all the public filings done, and even a phone number. And you'll complete this process in under 10 minutes. Plus you're going to get all sorts of free tools and resources from step-by-step guides, compliance reminders, and an online account that's going to keep everything organized even as your business grows. So get all the advantages of a Delaware C Corp regardless of where in the US you're operating out of. northwestregisteredagent.com/twist",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:28:05",
+      "ad": false,
+      "speaker": "Eugene Stuckless",
+      "text": "You could just build a fence and that's not going away and that's a 100 bucks an hour, 75 bucks an hour. So you're going to have to outrun the robot. The robot will build the fence in five years, seven years. Then you're going to need to learn how to make the beautiful desk and carve it that the robot can't. And then in 10 years, forget it, it's over anyway. You'll have your own robot and then you'll just be managing robots.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:28:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm just going to be on the moon in 10 years, so don't call me. It's not my problem.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:28:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Jason, one thing that you do is a lot. You do a lot of stuff. You keep us all on our toes here. And I was curious if you could drop some gems of knowledge about how you are productive.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:28:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, I have a productivity hack! Okay. Um, this is a really easy one. Uh, you know, I work with my Athena assistant on this. I call it super distribution. Okay, there's a ton of platforms out there. When you have a great piece of content for your company, for yourself, what people do is they're like, 'Oh, I had a great piece of content.' What you need to do is take that piece of content and then go super distribute it. What does it mean to super distribute it? It means you post it two or three times in two or three different versions across all platforms. Yes. So, if you have an EA like I do from Athena, I will tell them, 'Hey, take this, put it onto my Twitter, put it into the drafts maybe, put it onto LinkedIn, put it in all these different places.' Hey, we have these different accounts and go find me other pieces of content that people in my network, like say, in my case, portfolio company founders are doing and give me a list of that so I can engage them. This social media 101 work, if you were to hire a social media person would be, again, 50 bucks an hour, 75 bucks an hour for a freelancer.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:29:49",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "But you can do it with an Athena assistant. If you want to get into these hacks, just go to athena.com/jcal and you will get $2,000 off your Athena assistant. They're also learning how to use",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I don't want to tip anybody's cards here, but they know how to use agents at Athena. So Athena plus agents plus your agent, put them all in the same Slack instance, and you will get incredibly productive. You'll have a human in the loop with your Athena assistant who can make phone calls. You'll have your agent who is OpenClaude or, you know, your Google agent, your Microsoft launched agent, your Notion agent, your Slack agent. There's all kinds of different agents out there that you can use. Multiple ones. But having a human in the loop is going to make you even more productive.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:34",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Can I tell you my—my recent Athena brainwave?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:30:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, go ahead.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:30:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right. So, right now we have a nanny, which is, uh, given what we pay top of market because we care about our children.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:45",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The moment, the moment we don't have a nanny, I'm hiring an assistant. And I was like, we can just get an Athena assistant because because it's so much cheaper than a nanny, and it's going to be so helpful because we have so many things now going on constantly, I can't wait. This was my my weekend juggling children, diapers, chaos, zoo.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:31:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You know, also it's a—it's a luxury item, I'll—I'll give you that. But it's also a productivity hack for mom. Here's another one. I like a certain bakery in—the Austin area. It's called Abby Jane. They make incredible bread. They use the whole grains, uh, artisanal grains. So, it's just, this is literally the best bakery in Texas and one of the ten best in the country. Problem is they're open Thursday to Sunday, and they sell out, and they don't deliver. They don't need to. They're the best, right?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:31:38",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Ah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:31:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But they do take orders, and they do open at 8:00 AM. Athena assistant calls at 7:59, 8:00 AM. There it is, Abby Jane. Oh man.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:31:47",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "This is their—their bagels getting ready to go. Oh.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:31:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean, and it's just unbelievable. The chocolate croissant is like literally from France. So, you know, I was talking to the woman there and I was like, 'Hey, you know, you should open up like other days of the week, maybe you should get an investor,' you know, hint, hint. She's not interested. She's got her thing, it's dialed in. And I was like, 'Why aren't you on Uber Eats?' She's like, 'I don't want to be on Uber Eats. Oh, I sell out.' Okay, great. Fair enough. Uber has a courier service. The courier service is like ten bucks.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:32:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, that's smart.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:32:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But you have to coordinate. So what do we do? My Athena assistant looks at their menu at 7:00 AM, finds out what's new on the menu because they change it every week, sends me it with a number list. I say 'four of these, two of these, three of these.' I would forget to do this.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:32:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Uh-huh.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:32:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Then he puts the order in, puts it on the credit card, tells them he's coming to pick it up, tells them the name of the Uber driver who's coming to pick it up. This is for Jason, the person picking up is Joe. They pick it up, then they call the ranch, tell the ranch, 'Hey, this person's coming, here's the link to the Uber courier.' Boom. All done. All done every week. But, you know, there's like ten steps to this. It's not going to be done by an agent anytime soon, but it is done by my Athena assistant. My girls eat healthy, we stopped ordering schlocky croissant from HEB.",
+      "tone": "satisfied"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Schlotzsky's bread and now they have chef's kiss the best in Texas.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:33:05",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "A little hack for you there. There's another productivity hack. I got it, it's a double productivity hack.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:10",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "People don't know about the courier service. Do you know about the courier service?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:33:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I had read about it and then it had fallen immediately out of the back of my head. Just instant forgetfulness.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:33:17",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "The best thing that you want to get for your wife, for your family, it's not available on DoorDash or UberEats. But they do, they are available for pickup. So there you have it, folks.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right, let's do some demos. Let's do some stuff. In action.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:33:32",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "All right so first up I'm going to bring up Suresh Ramamurthi. He's from NetXD. Suresh! Hey man. Suresh is going to show us moving money and interacting with bank accounts securely using OpenClaw and a skill from his company NetXD. So Suresh, talk us through it and let us enjoy.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:33:50",
+      "ad": false,
+      "speaker": "Suresh Ramamurthi",
+      "text": "Hi Alex, hi Jason. Hope you guys can hear me. So we have a full stack for banks and we decided that we will connect it to OpenClaw. And we built a cryptographic security for that so that obviously that can't let OpenClaw run away with my money. So we integrated right into a bank mobile app so whatever OpenClaw does, finally I approve it from my bank app. And my bank runs on a blockchain.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:34:20",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "You were one of the lunatics brave enough to give OpenClaw access to your bank.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:34:27",
+      "ad": false,
+      "speaker": "Suresh Ramamurthi",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:34:28",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Which means you gave it your password and two factor and authenticated it or you used a password manager? Explain that step in plain English.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:34:40",
+      "ad": false,
+      "speaker": "Suresh Ramamurthi",
+      "text": "No, no, no. I built a banking platform myself. I have 20 plus banks using my platform. And I built a special open banking API so agents can access read-only as well as set up transactions that I as a user can use my secure banking app, which has my private keys, ECDSA keys, to approve it.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:35:07",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Got it. So what's the name of your private company that does this, the platform?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:35:13",
+      "ad": false,
+      "speaker": "Suresh Ramamurthi",
+      "text": "NetXD. N-E-T-X-D.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:35:15",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "And this existed pre-OpenClaw because today is AO 44. It's been 44 days since we started talking about OpenClaw here on the program.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:35:24",
+      "ad": false,
+      "speaker": "Suresh Ramamurthi",
+      "text": "Of course. Yes. And I built it to handle 100 billion machine IDs about six years ago. I'm ex-Google. I've always been thinking about machine-to-machine commerce. So when I built this ledger I planned for 100 billion machine IDs, which seems kind of small right now.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:35:47",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Okay, so NetXD existed before OpenClaw and it's a banking ledger. Now OpenClaw users can open an account on NetXD?",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:35:57",
+      "ad": false,
+      "speaker": "Suresh Ramamurthi",
+      "text": "No, no, on a bank that supports NetXD platform.",
+      "tone": "corrective"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Often we'll get, you know, here's the gardener, here's the pool cleaner, you know, here's the garbage service, whatever it happens to be, here's the, you know, septic tank. You got a ranch, you probably have 20 different vendors to maintain a ranch. I could have, when their email comes in with their bill, sometimes they just send an email with a document assigned to it. I could have my OpenClaw file that, queue up the payment through Zelle or whatever, and then not let my OpenClaw pay it, but queue it up for me to then approve it?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:36:01",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Ah, got it. Then the queries go from your OpenClaw to XD, correct?",
+      "tone": "understanding"
+    },
+    {
+      "timestamp": "00:36:06",
+      "ad": false,
+      "speaker": "Suresh Ramamurthi",
+      "text": "Yes.",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "00:36:07",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Got it, got it. So that will only allow it read-only access but if I want to pay somebody like you know I want to pay somebody like you know...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:36:33",
+      "ad": false,
+      "speaker": "Suresh Ramamurthi",
+      "text": "Yes, it'll pop up in your bank mobile app for approval, and your bank mobile app has a secret element with a private key which approves it. What the bank sees is a signed transaction from you, Jason, to the bank, which is the only thing they would approve, which is the only thing they would accept.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean, this is exactly the productivity we need. This is the power of an open source. You would not have been able to do this if this wasn't open source, right? You would have had to do all this manually, and the fact that there's an open source agent makes it so easy, right?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:37:07",
+      "ad": false,
+      "speaker": "Suresh Ramamurthi",
+      "text": "We have to build so many other plugins. We first did it on Claude, a year and a half ago, we did it, we tried to build all the intention discovery ourselves, then we stopped and said, I know where the LLMs are going. Instead we built agentic memory, because you may want to pay your bills in a certain way. And you want the memory to remember, hey, I want to pay this only on the last day of the due date, this one I want to pay early so that he doesn't stop me from, doesn't supply, you know. So you can have your own long-term memory on how to do things, and we have a memory that goes along with this as well.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:37:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Suresh, can we, can you show us how it works?",
+      "tone": "eager"
+    },
+    {
+      "timestamp": "00:37:42",
+      "ad": false,
+      "speaker": "Suresh Ramamurthi",
+      "text": "Sure. I just OpenClaw has gotten a little bit jealous of Brex and Ramp. So every time I ask it to list capabilities, it says how much better it is. So I'm gonna ask three questions at the same time. I'm going to say check my bank balances, check my memory for any rules I have to optimize my savings in checking, and check, have I paid the Lightedge invoice, which is what Jason was asking kind of.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:38:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so we see that happening on the right side. You've got 3700 bucks in your checking, you've got almost 10k in your savings. You're doing okay, kid. Oh no wait, that's nine million. You've almost got 10 million in the bank.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:38:12",
+      "ad": false,
+      "speaker": "Suresh Ramamurthi",
+      "text": "It's a startup that just got a Series A. Let's think of it that way. It's a hypothetical startup. Okay. So now it says, hey, you're off by $1300 on your checking because you planned to keep 5000 there for optimization. So I'm gonna say go ahead, do it. Optimize it, move the money.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:38:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Aha, this is something everybody's got to deal with because you might, if you dip below a certain amount, the banks, the scumbags at the banks may give you a fee for going under 5,000. Yes. Oh, I mean why do they do that? Like this should be something they do automatically.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:38:57",
+      "ad": false,
+      "speaker": "Suresh Ramamurthi",
+      "text": "You can see that it's moving $1300 to optimize. I choose it, I approve it with my...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Suresh Ramamurthi",
+      "text": "private key which is linked to my biometrics and only then the bank knows it will process the transaction.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You have given it optimization rules in memory. Keep a 5,000 buffer in checking, sweep excess into savings. We all want that. Weekly auto-transfer $100 to savings, let's say if you were on the savings tip. Windfall capture 50% of large inflows, savings buckets, emergency 50, investments 30, yada yada. Monthly go 20% income save, triggers paycheck, large inflows, end of the month, boom. So this is something everybody has. You might say, hey, every month I want to move anything above this amount in savings into a 529 for my kids, into my 401(k). But my 401(k) could only accept, Alex, this amount. So this is where these things could get super powerful. Then, you know what I really want? I want it to go find better deals from other banks for my savings or for my deposits, right? You put a deposit into Robinhood, you get like some bonus or something. So I love the idea of it checking my deals with my bank against other best offers and then I would give it permission to queue up an email in my drafts folders to send to my bankers. Because this is what I have operations people like Heidi who does operations for...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:40:34",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Shout out Heidi.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:40:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Shout out to Heidi. Like I'm like, are we getting the best deal here? And like I realized I had like a million dollars in some accounts not getting interest. I'm like, why aren't these in interest accounts? Oh, we're supposed to have them in interest accounts. I'm like, what's the interest rate? Oh, 3%. I'm like, well why don't we have 5%? Other places have 5%. Okay, we got it up to 4.25. I'm like, you realize that's like $45,000 a year? Over three years, we've left 150k. Like why do I have accountants and all this operations people if we can't get this right? It's like, oh, it's tedious. It's a chore. People forget. That's the key to Open Claw, is humans forget. Humans are fallible. Especially when it comes to chores. I forget to do my chores. You think the dishwasher's clean here? I may have forgot to put stuff in the dishwasher. I may have forgot to bring my dry cleaning to the dry cleaner. That's where AI shines, isn't it?",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:41:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Are you going to take any of the underlying NetXD tech that was used and open source it or make it available for other folks to play with and tinker?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:41:12",
+      "ad": false,
+      "speaker": "Suresh Ramamurthi",
+      "text": "We're going to make XD Control available to anybody using Open Claw, that is the one that is right on the right hand side, that is the XD Control app, which you can use to control XD so that it doesn't... used to control Open Claw. The banking platform, we are opening, one bank's going to announce in three months, they're going to have an open banking API that'll connect to any AI, not only Open Claw, Claude, whatever it is. At which point anybody can open an account at that bank and connect all these things on their own.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:41:35",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right, well done. NetXD.com, Suresh, thank you so much for your time today. I really appreciate it. That was freaking awesome. Next up, we're going to talk to the guy behind Phone Claw, this is Rohan Arun. It's an Open Claw extension, if you will, that allows agents to operate smartphones like humans, which is incredibly cool, and he is going to show us a demo of multi-step phone automation, essentially doing some video work and posting it to multiple phones at once. And, uh, Rohan, are you ready?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Either show us with the glasses on or the glasses off.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:42:03",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "I want to show you with the glasses on because we've been focusing on wearables and mobile devices, so I think that'll be exciting, yeah.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:42:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right. So we're going to do this from your first-person view through your Android AR glasses, right?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:42:15",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Yes, yes. We also have an iOS app that was just launched, but we're focusing on mobile and AR devices.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right. Let's do it.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:42:21",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "The window on the left-hand side of the screen is our app. You can go to getsupers.com to try it right now. You can essentially connect Android devices, you can also connect a Mac, and you can connect multiple different agents.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:42:33",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "And you can see that I've connected three different Android devices here in parallel that I'll automate in a second. On top of it, we have a real-time assistant. Pete Styberger said that OpenClause is not intended for non-technical people, so we've been trying to approach it from the angle of mobile devices and wearables.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:42:47",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "And so our assistant allows you to basically... you can connect it in maybe 30 seconds, you can start automating entirely with voice.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:56",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So what's happening with your hands there? I see when you show your hand in front of the glasses, it's putting some notes on each finger and it's, you know, it understands what each, what your thumb is and your index finger, etc. What's the point of all that? Is that just it...",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:43:13",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Yeah, good question. So basically we... I suspect the reason Amazon Alexa and other devices, AI devices previously failed is because voice alone doesn't solve the problem. Because you can't... it doesn't solve discovery and navigation. So what I'm seeing here on my hand is actually all the different options that I have for voice commands.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:43:23",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "So we see browsers, browsers, we can automate the Android device, we can automate the chat interface.",
+      "tone": "demonstrative"
+    },
+    {
+      "timestamp": "00:43:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Those are buttons you can press with your hand.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:43:31",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "These are actually voice commands. So we're going to be automating four different Androids, and they're going to be posting to social, posting to Twitter. We can automate all your social apps and things like that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:43:40",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okay, so you're a social media manager and you're going to, with these four different phones, post to your Twitter, Instagram, whatever.",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "00:43:44",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Yes, correct. Yeah.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:43:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So this is an exciting demo. We've got ready to go here. He's going to tell his agent across three virtual phones what to do.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:43:55",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So this is particularly important. We have an election coming up in 2026 and Putin and Xi, they need more phones, Alex, more phones and more social accounts to cause chaos in our elections in 2026. So here we're going to see how Putin's going to do this next version of election or Xi's going to do election interference. Here he goes.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:44:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's the worst pitch I've ever heard. Hey, hey, do you want to take down democracy? OpenClause.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:44:15",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You're thinking it, I'm just saying it out loud.",
+      "tone": "wry"
+    },
+    {
+      "timestamp": "00:44:19",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Hey Super, can you hear me?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:44:23",
+      "ad": false,
+      "speaker": "Eugene Stuckless",
+      "text": "Yes, I can hear you loud and clear.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:44:25",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Can you go to device two and can you open Twitter and can you post to Twitter about this week's in startups podcast?",
+      "tone": "command"
+    },
+    {
+      "timestamp": "00:44:30",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Okay, so what it's doing is it's just... I just... it went to my second Android, it posted and it made a post: Check out the latest episode of This Week in Startups podcast, always insightful, inspiring.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:44:40",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So you basically...",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Basically take an old Android phone and then you give your assistant, you know, the keys to that kingdom and let them rock and roll on apps. And they can do things now. If I had my Mac mini, it does have native iPhone mirroring. So I can mirror my phone, but I wonder if if I mirrored my phone, if my OpenClaw could then take over my desktop and do things in my phone.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:45:30",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "So they can click things on your phone. So that's also one of the things we solved is we're using the Moondream API, we figured out how to solve this kind of computer use problem with really cheap free models. So you can go to getsupers.com and connect your phone or a Mac and you don't have to pay $200 a month, for example. And so there are other tools that allow you to kind of hack your way to this, but we allow you to go directly to the phone. And the problem with like, uh, automating certain things on the phone, that screen sharing, it iOS actually prevents you from automating certain things like calls for security reasons and stuff like that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:46:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, this is absolutely the future. Being able to use AR, you really have two startups here. One is using AR, which is, you know, years in the future, but then actually giving your, you know, OpenClaw, your assistant its own phone to do things because of the app ecosystem, kind of interesting, kind of compelling. Very cool and I look forward to see where you're taking this next. Alright, let's keep moving.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:46:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Rohan, thank you so much, appreciate it man. But I was joking about the Putin stuff, but if you were actually, uh, trying to do research on apps let's say, being able to have OpenClaw or another agentic technology provision 10 different Android phones, download the apps, install them, play with them, authenticate with them, like even just for research as a firm to understand the changes happening, competitive intelligence, I mean I could see a lot of interesting use cases here. I'd- I'd never thought what if the agents had unlimited access to app stores and apps. It's a pretty interesting idea.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:47:07",
+      "ad": false,
+      "speaker": "Eugene Stuckless",
+      "text": "Go back to the top of the show. Andrej Karpathy's idea of auto research and letting LLMs train themselves. Now take that, build an app, put it on your dummy device, use PhoneClaw to let the agents interact with it, run tests, I mean you could build a self-reinforcing like mobile development loop here with just a couple of pieces kind of duct taped together and I wonder if that's going to do away with certain testing because then you don't need to have a human in the loop at all. You can just run it autonomously and-",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:47:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It'll certainly accelerate tests, right? So if you were calm.com and you wanted to test different aspects of the app, you need to have humans testing it, but you might also want to test responsiveness and speed and other things and yeah you could create a test flight and just say go here's your metric and that was the key to Andrej's uh innovation this weekend is you need to have a metric.",
+      "tone": "collaborative"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "the recursive loop can key off of. So you'd have to really set a North Star. I want the app to be faster. I want the app to be, gosh, I don't know, less buggy. I want the app to work better. Like if you said, I want it to work better on iPhone 12s and earlier, so make me a light version of the app that detects you're on an iPhone 12 and just downgrades everything to make it as fast as an iPhone 17. Like that kind of benchmarking and instruction would work. But if you don't have a good benchmark, you don't have a North Star, it's not going to work. So that's going to head— everything's going to go off the rails.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:48:40",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right, we have one last demo for us. And that is from someone that you know, Jason. We're going to talk to Eugene Stuckless of AirInc. Air is a founder UX Japan company. You met him in Tokyo. And he's going to show us an AI native testing tool that helps agents test. It's a little complicated, we spent a lot of time talking about it before the show. So Eugene, maybe we should just start with explaining this to Jason.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:49:06",
+      "ad": false,
+      "speaker": "Eugene Stuckless",
+      "text": "Uh, why don't I show you?",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:49:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Even better. Much better.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:49:10",
+      "ad": false,
+      "speaker": "Eugene Stuckless",
+      "text": "So AirInc is an AI-native automation platform. Our first product is Air Tests. It's using agents to test websites, right? So you provide a URL and then with this URL about 15 minutes later you get a link. Uh, in this link is an— or you get an email, in this email is a deep, deep dive into your website. Analyzing it from 10 different criteria: SEO, performance, trust, UX friction, security, right? This happens in about 15-20 minutes. This is a free report. This is what it looks like when you go to the site. You see and you drill down the evidence about what went wrong, how you fall short. This is free, right? So you pay 20 bucks to buy 150 credits and then you can run this report maybe four or five more times. What's pretty cool about this is that you see there's it's very, very in-depth. You'll see you drill down into one specific area, let's say SEO. This particular founder has been focused on SEO, so he has put a lot of effort in. And you can see that this test report has tracked his changes over time. Translates into business impact that he can understand. This is AI native testing top to bottom, right? So this generating of a site readiness report is one workflow we have, right? So agents run workflows. So I would like to show you what it looks like to run and train agents running workflows. This is how I deal with the workload that I have around agent testing. I have built a proprietary piece of software that self-trains at maybe four or five different levels. And you see here a dashboard that tracks a particular workflow and it—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "evolution over time, how many tokens it reduced each loop, what kind of change was made to allow for that to happen. You could see as well a graph that shows me the workflow distribution of which models got which tasks within that workflow and how we learned how to feather more expensive tasks to the expensive models and the cheap stuff to the cheap ones. So and importantly, you'll see here on the governance page, this is my AI asking me for permission to evolve for high risk tools that are, let's say, adding a new tool. It asks me if it can evolve because that's a very important thing, adding a new tool, right? Okay, and then one more, I think you'll like this one, Jason. So this is the workflow view. On this workflow view, you see the phases broken down. My favorite part is that it has a blast radius.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:52:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Blast radius?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:52:02",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Yes. So if you consider when you get signal from the outside world that goes into your OpenClaw, that agent is compromised. Prompt injection is impossible to prevent. So instead of focusing on trying to, let's say, secure the whole system or secure on prompt injection, you focus on isolating the blast radius of that bad actor. So you see here in this workflow, it flagged that this phase is potential for bad actors. So it's flagging it to me to say, hey, maybe this should have less tools. Hey, maybe this agent should have not have the ability to do this thing because it's getting signal from an outside source. So this is what it looks like to build internal tooling to manage and train agents to improve efficiency for the workloads that they provide to the customer.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:52:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so just to separate this out and explain to the audience, you're building a startup that helps people optimize their websites. You have to build tools for those website owners. And those tools need to get better over time. So you built agents to make each tool get better and be recursive. So if it—one of those might be SEO advice. So when you run the SEO advice tool, you want to make sure that it doesn't cause damage and that it is actually getting better and that you're controlling the costs.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:53:29",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Right, so there's a couple of cool things that are feathered in here. At the top of the news, the guy said, his recursive loop—this is applying this at scale. So that recursive loop's happening across many, many agents that you see in here. Not only agents, the workflows, the tools they have, it's multi-layered, right? So my job is more like helping it learn how to run my business. That's the point at which this is now peak efficiency, I no longer have a job. Crazy.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:53:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, so it's—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "Being like a product manager, but it's got to go get intelligence from the open web, so you're using...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:54:07",
+      "ad": false,
+      "speaker": "Eugene Stuckless",
+      "text": "Yes, actually.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:54:08",
+      "ad": false,
+      "speaker": "Rohan Arun",
+      "text": "...some protocol to get better at SEO. So you have to make sure that it's not garbage in, garbage out. So how do you do that step, that the LLM agent you have specifically for SEO, or maybe for, I don't know, if you have like call to actions on the website or copy?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:54:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Really good question. So how do you ground data in reality?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:54:32",
+      "ad": false,
+      "speaker": "Eugene Stuckless",
+      "text": "There's two ways. One, deep research is really, really effective. Two, you allow the AI to model its research in a way that it can understand, so that it understands the context better. It's a better data model, easier to talk to. The focus that I was going for, the reason why I put all this engineering effort into get this self-training is because my mind has been blown since Open Claude dropped. Like you, I've been listening to jazz non-stop. I can't do anything else because my mind is so expansive. So this, this codex that I invented to allow myself to encode this learning, this is called Coltrane. Because the only thing I can use to express myself as, as he can, because the way the agents learn, the way I can talk to the system, it learns so fast. So the way it models domains, uh, it learns better how to build something in its language, rather than relying on me to do it. It's very interesting. Yeah. So I'm applying this, this infrastructure to, you know, dominate the QA testing market and maybe, uh, something else later on.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:55:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, I was just thinking about taking the idea of self-improving agents that have a, a stricter kind of permission structure around them so they're safer to other areas, Eugene. So if you could just throw some ideas out, like what are the top four or five areas where you think this is going to go next? I think all the founders would like to know where agents are going to get better faster.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:55:51",
+      "ad": false,
+      "speaker": "Eugene Stuckless",
+      "text": "Sure. So I think this is something, there's two things. One, inference efficiency. So LLMs' magic thing is they can do inference really well, right? So the well-trained frontier models, they have the ability to reason through deep stuff and come with very good insights, right? But we are burning 95%, maybe 98% of our total tokens uh on stuff that doesn't require reasoning, right? So what we'll find is that people will start to encode their knowledge about how to be more efficient with these things. What's cool about my system, the way it's coded, is that if someone makes a contribution to an agent on my system, if that agent is invoked elsewhere, on another customer's, uh, let's say platform, they get attribution for that, because they participated in the encoding of their knowledge into the AI, right? So it creates attributability, it allows for you to pay somebody for knowledge work as they transfer into the AI.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:56:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I see. Well, it's super cool, man. And if people want to learn more, Air Inc, but it's spelled E-I-R, right?",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Suresh Ramamurthi",
+      "text": "Thank you very much. e-i-r.inc.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:57:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, we appreciate it. Thanks, Suresh.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:57:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right. Well done.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:57:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And Alex, as you know, all jobs are being replaced with AI. There'll be no more employment. I've said this over and over again. That being said, we have three open job requests, so take that for what it's worth. We're doing pretty well over here, and we're adding head count. If you want to be the Community Manager and you love founders, and you love Discord, and X communities, and Slack, and Circle, and all these different platforms, but most of all you love founders, you love angel investors, you love venture capitalists, and tech enthusiasts, and you want to build that community and help us figure out, hey, of these millions of users, who are the top one or two percent who engage with the content the most? Email us what you're good at and what you've done. community at launch dot co. community at launch dot co. Just tell us. We don't care about your resume. We do care about your experience, but tell us what you've done in plain English. Just email us community at launch dot co. We're also hiring two researchers.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:57:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:57:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Researchers at our venture firm are looking for—they're hunting for great companies to invest in or have on the podcast. That's one job function. Then they're writing coverage of those companies. That's another job function. And then eventually after they're a researcher, they become an analyst and they get to get on the phone and maybe do some calls. So there's two different aspects to this job. One is hunting for companies and finding them out there, and then two is sorting through the ones we already have, writing coverage, and this is the onboarding. This is the year that will tell you if you're qualified to eventually get that seat at a venture capital firm. So instead of hiring venture capitalists from the existing pool of them, we said let's make our own venture capitalists. Let's invest three, four, five years in professional development. Rung one on the ladder: researchers at launch dot co. Just email, just tell us about yourself, your analytical ability, why you're passionate about this, what you think you bring to the table. researchers at launch dot co. We're hiring people out of school for that position. Entry level, 50, 60, 70 hours a week, 7 days a week, you're going to try to crush it and fight to get that job in venture capital. Finally, we have a producer role here at This Week in Startups. The shows are doing so well. We launched This Week in AI. We're going to bring three other podcasts into the fold shortly, and we need a producer. producer at launch dot co. producer at launch dot co. If you have produced podcasts before and you have experience, producer at launch dot co. This is not an out-of-school one...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:59:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:59:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "...like researchers at launch. This is a—we need you to have experience and bring something to the table. We'll see you all next time on This Week in Startups. Bye-bye.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:59:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Bye-bye.",
+      "tone": "friendly"
+    }
+  ],
+  "highlights": [
+    "Andrej Karpathy’s \"Auto-Research\" tool demonstrates that recursive AI self-improvement is becoming accessible, as seen when Shopify’s CEO used the tool to improve a small model's performance by 19% through autonomous iteration.",
+    "Public sentiment toward AI in the U.S. is currently more negative than positive, likely because the traditional social contract—where record corporate profits led to increased hiring—is being replaced by automation-driven workforce reductions.",
+    "To navigate the threat of automation, workers are encouraged to either become \"maestros\" who manage AI agents or move into physical trades like plumbing and carpentry that remain difficult for robots to replicate.",
+    "The development of agentic technology is allowing AI to perform complex, multi-step real-world tasks such as autonomously optimizing bank account balances, managing mobile apps via AR interfaces, and self-training for website quality assurance."
+  ],
+  "summary": "This episode of *This Week in Startups* centers on the rapidly accelerating democratization of AI, sparked by Andrej Karpathy’s release of \"Auto-Research,\" a tool enabling LLMs to recursively improve their own code. The hosts highlight how this shift allows non-experts—exemplified by Shopify CEO Tobi Lütke’s successful experimentation—to achieve significant model performance gains. This transition from elite PhD-led research to widespread \"tinkering\" suggests a future where AI development is no longer confined to big tech labs, though the hosts warn of a growing \"diminishing return\" as models iterate.\n\nThe discussion also explores the starkly different cultural receptions of AI. While China shows high enthusiasm through grassroots \"OpenClaw\" meetups, U.S. public sentiment remains historically low, with polls ranking AI’s popularity below controversial government agencies. Jason Calacanis attributes this domestic resentment to a \"broken social contract,\" where corporate profits surge through automation and headcount reductions rather than shared prosperity. To navigate this, the hosts suggest workers \"outrun the robot\" by mastering AI orchestration or moving into skilled trades that remain difficult to automate.\n\nThe episode concludes with practical demonstrations of \"agentic\" technology, showcasing AI’s move into execution-based roles. Demos included NetXD’s secure, AI-managed banking ledger, PhoneClaw’s multi-device mobile automation via AR glasses, and AirInc’s autonomous website testing platform. These tools underscore a central theme: the immediate future of productivity relies on \"human-in-the-loop\" systems, where AI agents handle the tedious \"chores\" of digital life—from optimizing bank interest to managing social media—while humans provide high-level governance and approval.",
+  "description": "This Week In Startups is made possible by:\n\nNorthwest Registered Agent - http://northwestregisteredagent.com/twist\n\nQuo - http://quo.com/TWiST\n\nGusto - http://gusto.com/twist\n\nPlaud - http://Plaud.ai/twist\n\nAthena - https://www.athena.com/jcal\n\n*\nToday’s show: \n\nHow long until AI models can improve AI models? Once possible, recursive self-improvement by AI technology could accelerate — forever. Thus far, humans (and their coding agents) are still driving AI progress. But a recent project by AI developer extraordinare Andrej Karpathy, called ‘autoresearcher’, is turning heads as it shows that it is possible — in certain contexts — to allow AI agents to run successive coding experiments to improve specific elements of LLM performance. Call it an early demonstration of the future.\n\nOpenClaw is exploding in China, while here in the United States, AI is polling somewhere underneath the basement. AI in the United States is about as popular as ICE, which could create a political issue for the technology in the coming elections.\n\nNext? Three demos. First, NetXD’s Suresh Ramamurthi showed off how he has built OpenClaw functionality to move money, Rohan Arun showed off PhoneClaw automation on Android devices from an AR headset, and Eugene Stuckless gave us a taste of what Eir is building. Our takeaway? OpenClaw is still boring its way into our digital lives, one new skill or tool at a time!\n\n*GUESTS:*\n\nSuresh Ramamurthi: https://x.com/sureshr7\n\nRohan Arun: https://x.com/Viewforge/\n\nEugene Stuckless: https://x.com/eugene_eir_inc\n\n*\n\n*Timestamps:*\n\n00:00 — ‘Autoresearcher’ and the future of AI improvements\n\n06:05 — Why people around the world are flocking to OpenClaw\n\n07:10 — Plaud – If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n\n08:59 — Gusto – Check out the online payroll and benefits experts with software built specifically for small business and startups. Try Gusto today and get three months FREE at https://Gusto.com/twist.\n\n12:10 — The changing American social contract\n\n19:18 — Quo – Quo (formerly OpenPhone) gives you a clean, modern way to handle every customer call, text, and thread all in one place. Try it free at https://quo.com/TWIST\n\n23:03 — Why China is all-in on AI (and Europe isn’t)\n\n25:39 — How to keep your job in the AI era\n\n27:02 — Northwest Registered Agent – Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity — Learn more at https://www.northwestregisteredagent.com/twist\n\n28:50 — Athena - Get $2,000 off your first EA at https://www.athena.com/jcal\n\n33:55 — Demo: Suresh Ramamurthi of NetXD\n\n42:00 — Demo: Rohan Arun of PhoneClaw\n\n46:48 — Why bringing OpenClaw to your smartphone is what’s next\n\n49:02 — Demo: Eugene Stuckless of Eir\n\n55:58 — How can we make smarter, more efficient agents?\n\n*\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\n\nCheck out the TWIST500: https://twist500.com\n\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\n*\n\nFollow Alex:\n\nX: https://x.com/alex\n\nLinkedIn: [⁠https://www.linkedin.com/in/alexwilhelm](https://www.linkedin.com/in/alexwilhelm/)\n\n*\n\nFollow Jason:\n\nX: https://twitter.com/Jason\n\nLinkedIn: [https://www.linkedin.com/in/jasoncalacanis](https://www.linkedin.com/in/jasoncalacanis/)\n\nCheck out all our partner offers: https://partners.launch.co/\n\n*\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\n*\n\nFollow TWiST:\n\nTwitter: https://twitter.com/TWiStartups\n\nYouTube: https://www.youtube.com/thisweekin\n\nInstagram: [https://www.instagram.com/thisweekinstartups](https://www.instagram.com/thisweekinstartups/)\n\nTikTok: https://www.tiktok.com/@thisweekinstartups\n\nSubstack: https://twistartups.substack.com/",
+  "duration": 3593,
+  "people": [
+    "Jason Calacanis",
+    "Alex Wilhelm",
+    "This Week",
+    "In Startups",
+    "Northwest Registered",
+    "Andrej Karpathy",
+    "United States",
+    "Suresh Ramamurthi",
+    "Rohan Arun",
+    "Eugene Stuckless",
+    "Try Gusto",
+    "Why China",
+    "Follow Alex",
+    "Follow Jason"
+  ],
+  "topics": [
+    "Andrej Karpathy's Auto-researcher and AI recursive self-improvement",
+    "Global AI adoption and public sentiment in China vs. the United States",
+    "The impact of AI on the workforce and the broken American social contract",
+    "AI agent demonstrations for banking, mobile automation, and web testing",
+    "Founder productivity hacks using Athena assistants and super distribution"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/e3s0-RwPDVg/maxresdefault.jpg",
+  "date": "20260310",
+  "youtube_url": "https://www.youtube.com/watch?v=e3s0-RwPDVg",
+  "youtube_metadata": {
+    "title": "How agents will change banking forever | E2260",
+    "description": "This Week In Startups is made possible by:\n\nNorthwest Registered Agent - http://northwestregisteredagent.com/twist\n\nQuo - http://quo.com/TWiST\n\nGusto - http://gusto.com/twist\n\nPlaud - http://Plaud.ai/twist\n\nAthena - https://www.athena.com/jcal\n\n*\nToday’s show: \n\nHow long until AI models can improve AI models? Once possible, recursive self-improvement by AI technology could accelerate — forever. Thus far, humans (and their coding agents) are still driving AI progress. But a recent project by AI developer extraordinare Andrej Karpathy, called ‘autoresearcher’, is turning heads as it shows that it is possible — in certain contexts — to allow AI agents to run successive coding experiments to improve specific elements of LLM performance. Call it an early demonstration of the future.\n\nOpenClaw is exploding in China, while here in the United States, AI is polling somewhere underneath the basement. AI in the United States is about as popular as ICE, which could create a political issue for the technology in the coming elections.\n\nNext? Three demos. First, NetXD’s Suresh Ramamurthi showed off how he has built OpenClaw functionality to move money, Rohan Arun showed off PhoneClaw automation on Android devices from an AR headset, and Eugene Stuckless gave us a taste of what Eir is building. Our takeaway? OpenClaw is still boring its way into our digital lives, one new skill or tool at a time!\n\n*GUESTS:*\n\nSuresh Ramamurthi: https://x.com/sureshr7\n\nRohan Arun: https://x.com/Viewforge/\n\nEugene Stuckless: https://x.com/eugene_eir_inc\n\n*\n\n*Timestamps:*\n\n00:00 — ‘Autoresearcher’ and the future of AI improvements\n\n06:05 — Why people around the world are flocking to OpenClaw\n\n07:10 — Plaud – If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n\n08:59 — Gusto – Check out the online payroll and benefits experts with software built specifically for small business and startups. Try Gusto today and get three months FREE at https://Gusto.com/twist.\n\n12:10 — The changing American social contract\n\n19:18 — Quo – Quo (formerly OpenPhone) gives you a clean, modern way to handle every customer call, text, and thread all in one place. Try it free at https://quo.com/TWIST\n\n23:03 — Why China is all-in on AI (and Europe isn’t)\n\n25:39 — How to keep your job in the AI era\n\n27:02 — Northwest Registered Agent – Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity — Learn more at https://www.northwestregisteredagent.com/twist\n\n28:50 — Athena - Get $2,000 off your first EA at https://www.athena.com/jcal\n\n33:55 — Demo: Suresh Ramamurthi of NetXD\n\n42:00 — Demo: Rohan Arun of PhoneClaw\n\n46:48 — Why bringing OpenClaw to your smartphone is what’s next\n\n49:02 — Demo: Eugene Stuckless of Eir\n\n55:58 — How can we make smarter, more efficient agents?\n\n*\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\n\nCheck out the TWIST500: https://twist500.com\n\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\n*\n\nFollow Alex:\n\nX: https://x.com/alex\n\nLinkedIn: [⁠https://www.linkedin.com/in/alexwilhelm](https://www.linkedin.com/in/alexwilhelm/)\n\n*\n\nFollow Jason:\n\nX: https://twitter.com/Jason\n\nLinkedIn: [https://www.linkedin.com/in/jasoncalacanis](https://www.linkedin.com/in/jasoncalacanis/)\n\nCheck out all our partner offers: https://partners.launch.co/\n\n*\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\n*\n\nFollow TWiST:\n\nTwitter: https://twitter.com/TWiStartups\n\nYouTube: https://www.youtube.com/thisweekin\n\nInstagram: [https://www.instagram.com/thisweekinstartups](https://www.instagram.com/thisweekinstartups/)\n\nTikTok: https://www.tiktok.com/@thisweekinstartups\n\nSubstack: https://twistartups.substack.com/",
+    "duration": 3593,
+    "view_count": 7424,
+    "like_count": 172,
+    "channel": "This Week in Startups",
+    "upload_date": "20260310",
+    "thumbnail": "https://i.ytimg.com/vi/e3s0-RwPDVg/maxresdefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

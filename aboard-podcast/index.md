@@ -1,8 +1,8 @@
 ---
 channel: Aboard Podcast
 channel_handle: "@AboardPodcast"
-total_videos: 27
-last_updated: 2026-03-11
+total_videos: 33
+last_updated: 2026-04-25
 ---
 
 # Aboard Podcast Channel Index
@@ -13,16 +13,22 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 27 |
-| Total Views | 40,501 |
-| Date Range | 2025-09-02 to 2026-03-10 |
-| Average Video Length | 36:39 |
-| Total Runtime | 16.5 hours |
+| Total Videos | 33 |
+| Total Views | 47,105 |
+| Date Range | 2025-09-02 to 2026-04-21 |
+| Average Video Length | 37:12 |
+| Total Runtime | 20.5 hours |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [Andrew Leland: Hacking Disability with AI](videos/OZiah3QUa-g.md) | 49:36 | 48 |
+| [The AI Consulting Paradox](videos/RohbF2_GZE0.md) | 35:17 | 1,703 |
+| [Hilary Mason: Product First, Then AI](videos/Ef8j8yIatKw.md) | 43:48 | 1,789 |
+| [New Words for a New Industry](videos/_av0gfBqqrE.md) | 31:47 | 2,008 |
+| [Evan Ratliff: Preparing for a Ridiculous Future](videos/AmCZoVC_slc.md) | 47:09 | 1,008 |
+| [Expertise Matters More Than Ever](videos/mLVeP8aQM6k.md) | 36:29 | 48 |
 | [Erynn Petersen: Fixing Healthtech, One Bill at a Time](videos/BPxLUHFiKyQ.md) | 41:53 | 16 |
 | [Product Is More Than Prompts](videos/FU32JUxYiHg.md) | 26:05 | 1 |
 | [Gideon Lewis-Kraus: How Anthropic Sees Claude](videos/Y3daHxt_TlA.md) | 41:31 | 75 |
@@ -54,15 +60,15 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 ## Most Viewed Videos
 
 1. **[The Billable Hour is Dead](videos/cxBkQ2Jwh4A.md)** - 38,968 views
-2. **[Max Read: Reporting on the Big, Bad Internet](videos/wta75izwCCU.md)** - 146 views
-3. **[Arushi Saxena: Can We Trust AI?](videos/-eqj9qKjWtI.md)** - 101 views
-4. **[Rafe Colburn: Building Etsy in the AI Era](videos/YOhcr71TydA.md)** - 88 views
-5. **[Bots Ate My Resume](videos/FPbq8yEzV7g.md)** - 82 views
-6. **[Of Course There's an AI Bubble](videos/eDwNbCGHcTA.md)** - 78 views
-7. **[Gideon Lewis-Kraus: How Anthropic Sees Claude](videos/Y3daHxt_TlA.md)** - 75 views
-8. **[(AI) Bubble Trouble](videos/g0b1vZ-qG5I.md)** - 70 views
-9. **[Why the Software Industry Hates Your SMB](videos/LprdHSteOZc.md)** - 70 views
-10. **[NYC Sends AI Packing](videos/sf_7Fc62FQA.md)** - 69 views
+2. **[New Words for a New Industry](videos/_av0gfBqqrE.md)** - 2,008 views
+3. **[Hilary Mason: Product First, Then AI](videos/Ef8j8yIatKw.md)** - 1,789 views
+4. **[The AI Consulting Paradox](videos/RohbF2_GZE0.md)** - 1,703 views
+5. **[Evan Ratliff: Preparing for a Ridiculous Future](videos/AmCZoVC_slc.md)** - 1,008 views
+6. **[Max Read: Reporting on the Big, Bad Internet](videos/wta75izwCCU.md)** - 146 views
+7. **[Arushi Saxena: Can We Trust AI?](videos/-eqj9qKjWtI.md)** - 101 views
+8. **[Rafe Colburn: Building Etsy in the AI Era](videos/YOhcr71TydA.md)** - 88 views
+9. **[Bots Ate My Resume](videos/FPbq8yEzV7g.md)** - 82 views
+10. **[Of Course There's an AI Bubble](videos/eDwNbCGHcTA.md)** - 78 views
 
 ## Topics Index
 
@@ -70,13 +76,24 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 
 | Company | Videos | Context |
 |---------|--------|---------|
-| Anthropic | 4 | AI safety, Claude personality, Dario Amodei essay, competitive landscape |
+| Anthropic | 5 | AI safety, Claude personality, Dario Amodei essay, competitive landscape, abandoning safety guidelines |
 | OpenAI | 4 | ChatGPT shopping, erotic content policy, competitive landscape, valuations |
 | Google | 3 | Search dominance, AI mode, Gemini comeback, Matt Seitz background |
 | Etsy | 1 | Engineering culture, AI adoption, ChatGPT shopping integration |
 | Aboard | 4 | Product demos, healthcare platform, vibe coding approach, complex software systems |
 | Meta | 2 | AI talent recruitment, video generation (Vibes) |
 | Lovable | 2 | Vibe coding tool, traffic decline, limitations |
+| Hidden Door | 1 | Hilary Mason's text-based AI fanfiction game company |
+| Atavist | 1 | Evan Ratliff's prior media startup, sold to Automattic |
+| Automattic | 1 | Acquirer of Atavist |
+| PwC | 1 | $1.5B Big Four AI consulting bet |
+| Accenture | 1 | Big Four / consulting AI transformation |
+| Deloitte / KPMG / EY | 1 | Big Four AI adoption, billable hours |
+| Salesforce | 1 | Agentforce platform, enterprise AI rollout |
+| LinkedIn | 1 | Bot bans, Kyle's surviving agent profile |
+| Kaleidoscope | 1 | Production company behind Shell Game |
+| The New Yorker | 2 | Lewis-Kraus consciousness piece, Andrew Leland writing |
+| Wired | 1 | Evan Ratliff's Zizzians piece |
 | Epic | 1 | Dominant healthcare billing/records platform, described as "Salesforce for doctors" |
 | Emme | 2 | Healthtech startup, $25/year membership to lower healthcare costs, Cornell Tech panel |
 | Cornell Tech | 1 | Health Tech Hub, clinical innovation |
@@ -95,9 +112,9 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 
 | Product/Technology | Videos | Context |
 |--------------------|--------|---------|
-| Claude / Claude Code | 6 | Coding agent, developer experience, personality, alignment, terminal UX |
+| Claude / Claude Code | 8 | Coding agent, developer experience, personality, alignment, terminal UX, accessibility hacks |
 | ChatGPT | 4 | Memory features, shopping, consumer adoption, erotic content |
-| Vibe Coding (general) | 8 | Tools landscape, limitations, enterprise adoption, SMB applications, product management disruption |
+| Vibe Coding (general) | 9 | Tools landscape, limitations, enterprise adoption, SMB applications, product management disruption, accessibility |
 | Cursor | 2 | IDE for AI-assisted coding |
 | Perplexity | 1 | AI-powered search browser |
 | Sora | 2 | AI video generation, "slop" content |
@@ -106,33 +123,46 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 | curl | 1 | AI-generated bug bounty reports |
 | Friend (pendant) | 1 | AI wearable, NYC backlash |
 | OpenClaw | 1 | Personal autonomous agent |
-| Moltbook | 1 | Social network for AI agents |
+| Moltbook / Multibook | 2 | Social network for AI agents, bot armies on social media |
 | DeepSeek | 1 | Chinese AI competition |
 | MyChart | 1 | Epic's patient-facing portal |
 | Kindle | 1 | Anecdote about early Amazon hardware development |
+| Shell Game (podcast) | 1 | Evan Ratliff's AI-agent-run startup podcast |
+| Agentforce | 1 | Salesforce's AI agent platform |
+| Postgres | 1 | Database backing Hidden Door's game state |
+| Emacs | 1 | Andrew Leland's accessibility-hacking text editor |
+| JAWS / NVDA / VoiceOver | 1 | Screen readers used by blind users |
+| GPT-4o | 1 | Multimodal model used in Andrew Leland's accessibility experiments |
 
 ### People
 
 | Person | Videos | Context |
 |--------|--------|---------|
-| Paul Ford | 27 | Co-host, Aboard co-founder |
-| Rich Ziade | 27 | Co-host, Aboard co-founder |
+| Paul Ford | 32 | Co-host, Aboard co-founder |
+| Rich Ziade | 31 | Co-host, Aboard co-founder |
 | Erynn Petersen | 1 | CEO of Emme, formerly Amazon/Microsoft/DoD; healthtech and insurance reform |
 | Dario Amodei | 2 | Anthropic CEO, "Adolescence of Technology" essay |
-| Sam Altman | 2 | OpenAI CEO, disagreements with Amodei |
-| Gideon Lewis-Kraus | 1 | New Yorker writer, Anthropic feature |
+| Sam Altman | 3 | OpenAI CEO, disagreements with Amodei, "one-person billion-dollar startup" |
+| Gideon Lewis-Kraus | 2 | New Yorker writer, Anthropic feature, consciousness piece |
 | Max Read | 1 | Journalist, "Read Max" newsletter |
 | Dan Frommer | 1 | The New Consumer founder, consumer trends |
 | Rafe Colburn | 1 | Etsy CPTO, engineering culture |
 | Arushi Saxena | 1 | Trust and safety expert, Harvey |
 | Matt Seitz | 1 | University of Wisconsin AI Hub director |
-| Ethan Mollick | 1 | Wharton professor, Claude Code experience |
+| Ethan Mollick | 2 | Wharton professor, Claude Code experience, bot-armageddon prediction |
 | Patrick Gelsinger | 1 | Former Intel CEO, Gloo |
 | Kevin Barrett | 1 | Aboard VP of Engineering |
 | Daniel Stenberg | 1 | Creator of curl |
 | Amanda Askell | 1 | Anthropic philosopher |
 | Steven Levy | 1 | WIRED journalist |
 | Dr. Elizabeth Shields | 1 | Ex-Navy doctor, mobile house-call practice in Rhode Island |
+| Andrew Leland | 1 | Author of "The Country of the Blind"; accessibility / AI guest |
+| Hilary Mason | 1 | CEO of Hidden Door; longtime data scientist (Bitly, Fast Forward Labs, Accel) |
+| Evan Ratliff | 1 | Journalist; host of Shell Game; former CEO of Atavist |
+| Kyle Long (bot) | 1 | Fictional AI co-founder in Shell Game |
+| Megan Flores (bot) | 1 | Fictional AI co-founder in Shell Game |
+| Jennifer Naro (bot) | 1 | Fictional AI head of HR in Shell Game |
+| Matty Bhuta | 1 | Stanford student, technical advisor on Shell Game |
 
 ### Key Themes
 
@@ -148,14 +178,22 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 | AI & Content/Slop | [Welcome to Slopworld](videos/kMz317CHnIk.md), [Max Read: Reporting on the Big, Bad Internet](videos/wta75izwCCU.md) |
 | E-commerce & Consumer Trends | [Dan Frommer: Consumers in the Age of AI](videos/317XJdJ-src.md), [Rafe Colburn: Building Etsy in the AI Era](videos/YOhcr71TydA.md) |
 | Politics & Tech Industry | [Tech's Hard-Right Turn](videos/EO-tTXD3pIE.md), [Can Tech CEOs Be Thoughtful](videos/XtfKYHK1dxw.md) |
-| AI Ethics & Values | [God, Sex, and AI](videos/Z2oyLtQ1t3M.md), [Gideon Lewis-Kraus: How Anthropic Sees Claude](videos/Y3daHxt_TlA.md) |
-| Platform Disruption & Startups | [Totally Prepared for 2026](videos/evxl5gli5f4.md), [Why the Software Industry Hates Your SMB](videos/LprdHSteOZc.md) |
+| AI Ethics & Values | [God, Sex, and AI](videos/Z2oyLtQ1t3M.md), [Gideon Lewis-Kraus: How Anthropic Sees Claude](videos/Y3daHxt_TlA.md), [Evan Ratliff: Preparing for a Ridiculous Future](videos/AmCZoVC_slc.md) |
+| Platform Disruption & Startups | [Totally Prepared for 2026](videos/evxl5gli5f4.md), [Why the Software Industry Hates Your SMB](videos/LprdHSteOZc.md), [New Words for a New Industry](videos/_av0gfBqqrE.md) |
 | Education & AI Literacy | [Bots, Feeds, and Kids](videos/EfN9hOoP7L4.md), [Matt Seitz: MBA...I?](videos/DyRfO9rlJGs.md) |
 | Healthcare System / Insurance Reform | [Erynn Petersen: Fixing Healthtech, One Bill at a Time](videos/BPxLUHFiKyQ.md), [AI in Healthcare: What Actually Works?](videos/nBfCHI2J4pk.md), [Docs Heart Bots](videos/J3yr8LMAqGE.md) |
+| Accessibility & AI | [Andrew Leland: Hacking Disability with AI](videos/OZiah3QUa-g.md) |
+| Consulting Disruption / Big Four | [The Billable Hour is Dead](videos/cxBkQ2Jwh4A.md), [The AI Consulting Paradox](videos/RohbF2_GZE0.md), [New Words for a New Industry](videos/_av0gfBqqrE.md) |
+| AI Agents at Work | [Robot Reddit Wants Your Passwords](videos/kLgAurfi5_s.md), [Evan Ratliff: Preparing for a Ridiculous Future](videos/AmCZoVC_slc.md) |
+| AI Product Design / Games | [Hilary Mason: Product First, Then AI](videos/Ef8j8yIatKw.md), [Product Is More Than Prompts](videos/FU32JUxYiHg.md) |
+| Language & Industry Vocabulary | [New Words for a New Industry](videos/_av0gfBqqrE.md) |
 
 ## Video Categories
 
 ### Guest Interviews
+- [Andrew Leland: Hacking Disability with AI](videos/OZiah3QUa-g.md) - Author of "The Country of the Blind" on AI, accessibility, and screen readers
+- [Hilary Mason: Product First, Then AI](videos/Ef8j8yIatKw.md) - Hidden Door CEO on AI-native fanfiction games and the product-first principle
+- [Evan Ratliff: Preparing for a Ridiculous Future](videos/AmCZoVC_slc.md) - Shell Game host on running a startup staffed by AI agents
 - [Erynn Petersen: Fixing Healthtech, One Bill at a Time](videos/BPxLUHFiKyQ.md) - Emme CEO on healthcare insurance, medical billing, and AI in medicine
 - [Gideon Lewis-Kraus: How Anthropic Sees Claude](videos/Y3daHxt_TlA.md) - New Yorker staff writer on Anthropic and Claude
 - [Rafe Colburn: Building Etsy in the AI Era](videos/YOhcr71TydA.md) - Etsy CPTO on engineering culture and AI
@@ -186,6 +224,8 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 - [Tech's Hard-Right Turn](videos/EO-tTXD3pIE.md) - Silicon Valley's political shift
 - [Bots, Feeds, and Kids](videos/EfN9hOoP7L4.md) - RSS feeds, AI hype, and children's education
 - [The Billable Hour is Dead](videos/cxBkQ2Jwh4A.md) - Consulting industry disruption by AI
+- [The AI Consulting Paradox](videos/RohbF2_GZE0.md) - PwC's $1.5B AI bet and the Big Four self-disruption squeeze
+- [New Words for a New Industry](videos/_av0gfBqqrE.md) - Coining vocabulary for the AI economy: agentrification, service-as-software, expertise delta
 - [Is Search Really the Future of AI?](videos/xpzum-yCWv8.md) - GEO, AI search, and the semantic web
 
 ## Tag Cloud

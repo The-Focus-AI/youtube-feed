@@ -3,3 +3,11 @@
 node_modules/
 .env
 .DS_Store
+
+# Sync workspace and graph output
+.tmp-update/
+graphify-out/
+
+# Loose test artifacts
+/test-*.mp4
+naval/videos/ai-fails-intelligence-test*.mp4

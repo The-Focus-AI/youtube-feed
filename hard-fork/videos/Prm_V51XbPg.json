@@ -1,0 +1,1467 @@
+{
+  "title": "Why Tech C.E.O.s Are Blaming A.I. for Mass Layoffs",
+  "source_url": "https://www.youtube.com/watch?v=Prm_V51XbPg",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "I'm Kevin Roose, a tech columnist at the New York Times.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:00:02",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "I'm Casey Newton from Platformer.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:00:04",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "And this is Hard Fork. This week, a big wave of tech layoffs is raising the question, has AI job loss truly begun? Then, writer Jasmine Sun is here to help us answer the question, why are chatbots bad at writing? And finally, it's token maxing time! Why tech companies are building leaderboards to measure who is spending the most on AI.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:00:27",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Well, Casey, for years now we've been monitoring for signs of an AI job apocalypse.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:00:33",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah, we've been monitoring the situation. It's true.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:00:34",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "And over the past few weeks, I think we've gotten some early indications that something is happening in the labor market, especially for tech workers.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:00:41",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah, we have certainly heard CEOs of companies announcing layoffs invoking AI as a reason that it is happening, and so that has gotten our attention.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:00:48",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yeah, so just a couple examples from the last few weeks. Last week, Atlassian announced a 10% reduction in its staff, about 1,600 jobs, that they said were going to help them fund further investment in AI and enterprise sales. That came on the heels of a big round of layoffs at Block, the financial tech company formerly known as Square, which said that it was cutting its staff by about 40%, or about 4,000 jobs, saying that they were shifting the way that they were working to use smaller and flatter teams. And then the big one that folks are expecting, maybe as soon as this week, is that Meta is reportedly poised to lay off 20% or more of the entire company. This was reported by Reuters last Friday, who said that their sources had told them that Meta was preparing to cut as many as 16,000 jobs, the largest layoffs at that company since late 2022 or early 2023, when they laid off 20,000 people. So as of this recording, that hasn't happened yet that we know of, but I know that people at Meta are very on edge and are awaiting the further news about their jobs.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:00",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Meta, after this story came out, told Reuters that it was, quote, 'speculative reporting'.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:02:07",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Which, if you're not familiar with the language deployed by Meta communications staffers, means 'this is happening, but we don't want to tell you it's happening yet'.",
+      "tone": "wry"
+    },
+    {
+      "timestamp": "00:02:12",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Correct.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:14",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "So Casey, I want to hear what you make of these layoffs, but first we should do our disclosures. I work for the New York Times, which is suing OpenAI, Microsoft, and Perplexity.",
+      "tone": "formal"
+    },
+    {
+      "timestamp": "00:02:22",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "And my fiancée works at Anthropic.",
+      "tone": "formal"
+    },
+    {
+      "timestamp": "00:02:25",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "So okay, Casey, what do you make of the fact that all these companies are referencing AI in some way as a reason for their layoffs?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:02:33",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Well, I think it's a little different at each company, Kevin. And I think we can make a decent case for and against the idea that AI is really driving the show at each of them. So maybe we should get into that. But at a highest level, I would say companies do continue to tell us now that AI is a significant factor in the reduction of these workforces, and so...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "sooner or later I do think we're going to have to believe them.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:03:03",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yeah, I think there is probably some complications here and we should get into them, but like I think this is the early warning sign for a lot of people, especially in the tech industry, who are, I think it's fair to say, going to be some of the first people to see their jobs change or disappear because of these new AI tools. Um, but let's get into some of the specifics here. So let's start with Atlassian, the first company I mentioned. They- their CEO Mike Cannon-Brookes said in a company blog post that the bar for what great looks like for software companies on growth, on profitability, on speed, on value creation has gone up. He said, we are choosing to adapt thoughtfully, decisively, and quickly to drive durable profitable growth. He claimed that AI was not replacing people, but he said it would be disingenuous to pretend that AI doesn't change the mix of skills we need or the number of roles required in certain areas.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:59",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah, so I take him at his word. It seems like he himself is trying to walk a middle path there, right? And sort of not denying that AI is a factor here, but also not saying like this is the only reason this is happening. I think some other context that is worth having is that Atlassian is one of the companies that could be part of what we've been calling the SaaS-pocalypse around here, right? This is a company that makes tools for business. A lot of its products are essentially structured workflows, and there are those who believe that sooner or later you're just going to be able to code your own pretty cheaply. Now, maybe you will still choose to buy a product from a company like Atlassian, but maybe you're not going to be willing to pay nearly as much as you would before. And so the company's stock price has just been battered over the past year, and I think that has left them, one, hurting for cash a little bit, but two, and probably more importantly, looking for a different story that they can tell the stock market about what they're doing. And so today that story is, we're going to get rid of some of these workers and we're going to figure out how to make our remaining workers more productive.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:05:00",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Hmm. So there's this term that's been floating around called AI washing, which is basically when a company wants to lay a bunch of people off or maybe they don't feel like they need as many people and-",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:05:11",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "I thought it was when a software engineer finally took a shower.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:05:16",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "And basically the thesis is like these aren't really layoffs about AI. This is just sort of a convenient excuse that these companies are using. Do you think Atlassian qualifies as AI washing?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:05:26",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Um, I would like to get a little bit more detail on exactly who they are laying off here, which is a detail that we do have about some of these other companies that helps us answer that question. So I don't know exactly how it is happening inside of Atlassian, but I think that their CEO was relatively straightforward as these things go in saying like, it's a little bit about AI, it's not entirely about AI, but like yes, keep your eye on AI. So to me, that just reads as honest and so I'm going to give them a pass.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:05:53",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Okay, let's talk about Block. Jack Dorsey, the CEO of Block, gave an explanation about their layoffs. He-",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "said quote, \"we're not making this decision because we're in trouble, our business is strong, but something has changed, I had two options, cut gradually over months or years as this shift plays out, or be honest about where we are and act on it now. I chose the latter.\" Casey, your take.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:15",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "So, something to know about me and Jack Dorsey is I have a bit of a bias against him as a former Twitter user who misses that website dearly. At this point in 2024 I would not hire Jack Dorsey to run a lemonade stand. Okay? But if you want to talk about Block specifically, this is a company that tripled its headcount from about 3800 people in 2019 to more than 10,000 today in what seems like just kind of classic like inattention to what was happening in the business during pandemic era boom times, right? And I do I wonder if you saw this detail because it truly took me out Kevin. Five months before the layoffs, Block spent 68 million dollars to fly 8,000 people to an in-person event with Jay-Z.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:07:11",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Come on!",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:07:12",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah. So that's the kind of famous attention to detail that has turned Jack Dorsey into one of the greatest visionaries in tech. So look, is this about AI? Again, you know, what does Block really do? They have those little iPads at the coffee shop and then they have Cash App. Okay. Um, how many people do you really need to run those products? Probably fewer than 10,000. Is that about AI? Uh, I don't know, maybe if you squint. But again, this is a company whose stock price was cratering. They needed a different story to tell the market and I do think you can make a case that AI will make the remaining workers more productive. So again, this is another one where it's like you could use AI to justify what's happening, but you also could just say this company has been mismanaged for a while now.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:07:46",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yeah, you could use AI washing or Jay-Z washing which seems to be what they're doing here. Um, yes. So this did seem to have an effect on their stock price. In fact, the day after Jack Dorsey announced the layoffs, Block's stock shot up 17%. It's gone down a little bit since then but they're still up from where they were before these layoffs. And I think we should just say like this is also a part of the equation here, right? These are companies, largely public ones, that have investors' attention and right now there's sort of this narrative power around AI where if you seem like a company that is investing heavily in the AI tools and the AI way of working, your investors say, \"Oh, that company is really forward-looking, they must have a plan for how to navigate this transition.\" And so I think there's sort of they're seeing the power in telling the story that all this is related to AI.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:43",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah, which by the way reminds me of like the peak of crypto mania when like some public traded companies would just add like a crypto term to their name and their stock price would shoot up by like 40,000 percent.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:08:51",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yes.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:08:52",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "It turns out that the public markets actually can just be tricked that easily.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:08:58",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yes.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:08:59",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "That was giving me some relief if I was a CEO.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Just knowing that I could fool people like that. But anyways.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:09:02",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Totally. And I don't think everyone is falling for it. Aaron Zamos, the former head of communications for what was then Square, wrote a guest essay in the New York Times recently basically saying these job cuts aren't what they seem. This is just a company that wants to show that it is adapting to the new reality, but then also it's just kind of a vision that everyone sort of has to get on board with or decide that they're not comfortable with and leave.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:31",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah, I have to say, like, what do we even think the future of Block is? Again, they make like a little widget you can plug into your phone so that you can sell bracelets at the craft fair, and then it makes a PayPal competitor. What are we using AI to do here exactly? I don't know what the roadmap is. Like, these people are not building a metaverse, they don't appear to be building a machine god. So like, I truly do not know what they're going to be up to over there. And if you know, don't email me.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:09:58",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Don't email Casey, just Cash App him instead. There you go.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:10:01",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah, there you go.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:10:01",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "So let's talk about the third large tech company that is reportedly conducting layoffs. Meta. We don't know exactly who or what teams are being affected by these layoffs, but this is a significant part of their workforce. And they seem to be saying in their communications with the public what all of these other companies are saying, which is we are going all in on the new way of working and we are going to have to make some cuts to make that work.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:42",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah, on a recent earnings call, Mark Zuckerberg said that, quote, \"projects that used to require big teams now can be accomplished by a single very talented person.\" And we should also say that this cut is coming alongside this massive AI infrastructure investment, right? They're going to spend $135 billion on capital expenditures this year. And even for a company of Meta's size, like, that is real money. Right? So I know that they're trying to be careful, again, trying to not spook the stock markets too much. They're obviously, this is obviously the biggest bet in the company's history, and I think that making some substantial cuts are going to signal to the market like, \"Hey, don't worry, we're not like completely losing our minds here, like we're going to keep some of these expenses under control.\"",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:12",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yeah, I think that's a really important point because what we're seeing here at some of these companies is that they are not actually sort of cutting costs in the aggregate by using these tools. They are just shifting the cost from human labor to AI. Right? They are plowing this money that they are going to save by laying off these thousands of people into the building of data centers and other AI infrastructure. And basically the bet they're making is these new AI workers are going to be faster, more efficient, maybe cheaper in the long run, maybe not. Um, but they are going to be able to do the work that used to require many thousands of people. And that is a profound shift in the way that companies are talking about their workers.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:11:57",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "I recently talked to a venture capitalist who said that the reason they're doing this is because...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "A lot of the AI startups that he sees, the most AI native companies, are spending more on AI tools than they are on payroll. And that may be an outlier, but I think that is sort of where these companies believe that we are heading, where the majority of your expenses will not go to paying the salaries of human workers, it will go toward buying the AI tools and the tokens that your company runs on.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:23",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yes, I think that's absolutely the bet that they're making. I also just think it is worth noting that this is still purely mostly speculative, right? Like in the case of Meta specifically, this is a company that's arguably been struggling when it comes to AI. They had to abandon their last model, Behemoth, because it wasn't very good. The Times reported last week that it's delaying the release of its latest model, Avocado, because it hasn't been hitting its performance targets. It's apparently barely outperforming Gemini 2.5.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:12:55",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "What is this, last March?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:12:58",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah, that model is really the pits.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:13:00",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "That's an avocado joke.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:13:02",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "That's very good, thank you. So again, this is not as simple as saying they're able to cut 20% of their workforce because they've just made these massive gains. I'm sure there are individuals there who have made massive gains, but as a company, it still seems like it is somewhat mired in dysfunction. They just did yet another partial reorg of their AI teams, and that just always sort of makes me raise my eyebrows.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:31",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yeah, I will say like one thing that's been surprising to me about this recent round of layoffs is that the companies that are making them are not the ones on the frontier, right? It is not the OpenAIs, the Anthropic, the Googles. Those companies are not sort of laying off people en masse because of these AI tools, which they are building and presumably have even better models than the ones they're releasing to the public. So you have to think that part of this is just companies that are sort of lagging behind their competition saying, well, maybe if we just use a bunch of AI, it'll help us catch up.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:14:08",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yes, but also like OpenAI and Anthropic are much smaller companies than some of the ones that we've been talking about today, at least in number of workers, right? Like, I think it is interesting to think that Atlassian is like bigger than OpenAI in terms of the number of people who work there when you look at the, you know, relative like value of what they're generating.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:14:26",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "DocuSign has 7,000 employees.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:28",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "That there's no funnier sentence that is true in all of tech than that one.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:14:31",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Listen, as somebody who who has a paid subscription for DocuSign that I truly resent paying for, get to work over there, people.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:14:38",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Or get not to work.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:14:40",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Here's another question that I would ask Kevin. Okay, so we're seeing a bunch of layoffs, like, are these AI related or not? Does it actually matter if the effect on workers is the same, right? You know, if you're the worker, like, whether it's about AI or not, you're still out of a job.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:14:55",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yeah, and it's not clear to me what workers can or should be doing...",
+      "tone": "contemplative"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "to sort of protect themselves against these layoffs. One person I talked to said, you know, they're um they work at one of these big tech companies and they're like, well, there's just a lot of jostling and fear and anxiety right now. People don't know if they should be like using the AI tools a ton because then it shows that they're like getting with the the program or whether that just means that they're proving that their work can be automated like I think there's a lot of fear and suspicion and mistrust inside these companies right now. And for good reason, their executives are planning to lay them off.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:15:29",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yes, and by the way, I think at at least some of these companies that is maybe not an explicit reason for these layoffs, but some of the executives there would see that as a uh positive byproduct, right? Because, you know, if you're like Mark Zuckerberg, you live through the 2020 era, you had these restive employees that like wanted a lot of things from you and they wanted to have a lot of control over what the company could and could not do and how it did it. And, you know, I just know that executives over there really resented that sort of thing. And once um Meta entered this new era of massive layoffs, employees over there did get really scared for all of the reasons that you would assume. They were like, oh god, like, you know, maybe I actually am going to lose my job. And all of a sudden they got a lot more quiet. And you started to see a lot fewer protests over there. So, I'm not going to say that like these occasional mass layoffs are a way of like keeping the workforce in line, but I have noticed that it seems to be having that effect.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:16:25",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Totally. And it makes me wonder whether something that I predicted was going to happen eve- you know, a year or two ago that did not happen, which is the sort of sudden and mass unionization of workers at these companies, may actually start to happen in the next year or two. I think one major difference between what's happening now at these tech companies and what has been happening for decades at manufacturing companies, car companies, you know, factory workers, is that those workers were by and large unionized and so when the employers said hey we're going to lay a bunch of you off, they were able to negotiate. They were able to say hey maybe instead of laying us all off, maybe you could find other jobs for us. If our jobs are being automated, maybe we should be allowed to sort of retrain to do something else. And that was largely successful. There were still layoffs, of course, but not the number that we're seeing today at these tech companies. So, do you think there's any possibility of that? Or is that just sort of a union uh fever dream?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:17:22",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Here's what I will say. I cannot think of anything that would make Mark Zuckerberg more mad than a union of software engineers at Meta and I think the software engineers at Meta should use that information how they will.",
+      "tone": "wry"
+    },
+    {
+      "timestamp": "00:17:34",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "You think that would make him more mad than getting booed at a UFC fight?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:17:40",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Abs- absolutely. I think that probably just made him really sad.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:17:45",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Well, there you have it. If you want to make Mark Zuckerberg mad, then employees sign your union card. Casey, over the last couple of years, we've talked on this show about how AI models are getting better at so many things. They are getting better at coding, at comp-",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Competition math, at solving novel physics problems, mass domestic surveillance, autonomous weapons. Yes. And I think the story of the last few years in AI has been one of sort of rapid, steady progress. But these systems are still sort of jagged and they have flaws and weaknesses. And one place where they arguably haven't improved that much is in writing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:25",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Now that's our domain.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:18:26",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yes. At least that is the argument that Jasmine Sun made in the Atlantic this week. She is a freelance journalist. Her piece was called 'The Human Skill That Eludes AI.' And it's her attempt to understand why, despite so much progress in all these different areas, the models of today don't seem to be writing anything particularly good or compelling.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:50",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah, and while I think the question of 'are LLMs good at writing' is highly subjective and dependent on the use case, I do think Jasmine makes a really interesting technical case for why these models write the way they do.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:18:53",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yes. And we should say, before we bring her in, Jasmine is a friend of mine. She has also been my researcher on the upcoming book that I'm working on. And I just think she's like one of the best people writing about AI today. She writes on her Substack, which is called Jasmine News—it's j-a-s-m-i.news—and you can read much more of her writing there.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:19:06",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Alright, I'll allow it, but I do want to balance it out by next week bringing on one of your enemies.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:19:08",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Okay, let's bring her in.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:19:10",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Jasmine, welcome to Hard Fork.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:19:12",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "Thanks for having me! I'm excited.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:19:15",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Hi, Jasmine.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:19:16",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "So, you wrote this great piece in the Atlantic this week about the human skill that eludes AI, and I want to start by challenging the subtitle of your piece: Why can't language models write well? Can't language models write well?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:19:32",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "They can. So, I do say in the piece that most writing, period, is very bad. And so, I think that language models are definitely better at writing and language than most humans are. But the question that I was really curious about is: why can't they write at a sort of literary, creative fiction level? Because the thing is, if you listen to these AI leaders talk about their aspirations, they say, 'we're going to cure cancer, we're going to solve physics, we're going to build a superhuman coder.' They are not shy about, 'oh, our AI models are going to be better than 75% of human coders.' They're saying, 'no, we will literally build a self-replicating factory tomorrow.' And then Tyler Cowen asked Sam Altman in an interview from last October, 'when do you think GPT will be able to write a Neruda poem?' And Sam Altman says, 'maybe in the future ChatGPT will be able to write, quote, a real poet's okay poem.' So that was the thing that fascinated me. Is even these guys, who are more bullish than anybody else about the capabilities of their technology, they are very reserved about how much literary writing their models can do. And so that was the gap I wanted to explore.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "...that I was really interested in.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:21:01",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Hmm. And you start your piece with this interesting provocation, which is that in some ways GPT-2 was the peak of AI when it comes to creative writing. So explain that.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:21:13",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "Part of what got me interested in this piece was I was actually doing research for your book, and I was going through all these previous generations of models and reading the outputs. And the thing that really shocked me is that, like, in a way, the writing style of GPT-2 and GPT-3 I found so much more compelling than ChatGPT today. It doesn't have any of the annoying ticks, it doesn't have the em dashes, the tripartite lists, it's not this but that. The tone was much more variable, like it would actually surprise you, it would be funny, it would be poetic. And that shocked me to sort of, like, go back a few generations and realize that maybe, you know, they were also lying all the time and all sorts of other things. But from a writing style perspective, I kind of preferred it and I wanted to investigate it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:21:54",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "They were weird. That shocks me. To me, talking to GPT-2 was like talking to somebody who had just fallen down the stairs. You know what I mean? It was like, do we need to get you to the hospital? Do you smell toast?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:22:05",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah, you... there are these amazing prompts from this like early OpenAI prompt library where they would say like, you know, 'I just won $175,000 in Las Vegas. What do I need to know about taxes?' And GPT-2 would say like, start just writing some short story about like an orphanage and like...",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:22:21",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "But they were surprising! They were like nutty. They were... they would absolutely be a terrible corporate assistant, horrible, like, coding intern, it can't do any of the things that modern LLMs can do that I'm very grateful for. But from a pure writing style perspective, they're very good. So GPT-3 in particular, like they... there's I found this like set of samples that some guy did where it was like, 'Oh, write in the style of Paul Graham, write in the style of Richard Dawkins,' whatever. And it could style match much better than modern LLMs can. And particularly because so much of sort of literary writing comes from voice and style, that was one of the things I was really interested in is like what did we lose that the LLMs can no longer emulate Paul Graham's style or whoever's style because I would put in the same exact prompt that this guy gave GPT-3, put it into ChatGPT 4o thinking or whatever and it would be God awful. And I was like that's really weird.",
+      "tone": "animated"
+    },
+    {
+      "timestamp": "00:23:11",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "So tell us about what you learned about what happened after the GPT-2 and 3 era that changed the way that these models respond to us.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:23:21",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "Yeah, I mean, I think the... the answer is post-training basically. So they started adding a post-training layer, which is basically saying we have these like crazy unpredictable like nutjob concussed models, and they need to learn how to behave because a model that can't behave is a very bad corporate assistant. And so the AI researchers give them example dialogues and scripts to learn from. They give them words that they can and can't say. They do RLHF, which is a process by which human graders will rate like which response is the most helpful sounding or something like this. And so now these post-trained models have been trapped in a way, or trained, or guided towards a very particular...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "a character or persona that is a very helpful assistant, but might be very bad at writing in creative and surprising ways.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:24:08",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "I mean, the way that you described it was that there is a phase within the post-training phase where these AI models are evaluated by humans, and that's part of what they call RLHF, or reinforcement learning from human feedback. And what struck me in your reporting is that you actually talked to some people who have done this kind of feedback to the models who say that they're just being asked to grade things in ways that don't make sense. Right, tell us about that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:39",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "Yeah, I mean, this is super interesting because like these job listings you'll see on like places like Mercor, or xAI, Elon's company will list them directly. It'll be like creative writing expert, forty-five dollars an hour, must be a New York Times bestseller and have like a starred Kirkus review or something like this.",
+      "tone": "engaged"
+    },
+    {
+      "timestamp": "00:24:52",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Have you ever gotten a starred Kirkus review, Roose?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:24:53",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "I think so. Not sure. All right.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:24:55",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Good job. All right.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:24:56",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "You might qualify to help Danny from Grok write a little bit better.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:24:58",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah, we're going to get him that job listing. But okay, you were saying.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:25:01",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "So these companies, because they realize that these AI researchers, they're really good at knowing like what good coding is, but they don't actually know what good writing is. So they're like, why don't we hire some humans to find out? And so they'll commission like MFAs and published authors, and sometimes just like random guys with a blog or whatever. And one of the people I talked to, who was a contractor for Scale AI as a writing evaluator and he was doing this for one of the bigger labs, um, he said that the rubric just didn't make any sense. He would be told things like,",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:25:41",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "you have to grade them based on the number of exclamation marks that there are. And so if something has three exclamation marks, that's too many. And so you have to ding that one.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:25:48",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yeah, and I have to say, generally not bad writing advice. I mean, it depends on the length of the text, but three feels like a lot for many scenarios.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:25:55",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "I mean, this is what they tell women in business communications. It's like, take all those exclamation points, replace them with periods. Like, we are going to remove all of those.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:25:58",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "We teach women to shrink themselves.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:25:59",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "Exactly. Yeah, so he was sort of being asked to grade these things or another one was he got a bunch of fan fictions and he was supposed to grade them on their factuality, since that was one of the criteria. Um, I do imagine that one could, you know, devise better rubrics than this particular evaluator was given, but I think it does show at least that some of these like very big companies that are very well-resourced simply do not know how to think about what good writing is.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:21",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "And is that just briefly like I want to underline that because to me that seems like the whole story. We are taking the entire internet and we are grading it on factuality and like so the the LLM that you're going to get out of that is just probably not going to be all that creative.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:26:33",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Well, and I wonder how much of it is related to this sort of verifiable reward system that a lot of these companies are using where you you have a system generate a bunch of code and then you have another evaluator model check the code to see whether it's good or not. And that works in domains like programming where the code either runs or it doesn't. But creative writing doesn't work that way. You can't have an evaluator tell you, um, you know, with any sort of consistency whether something is good or not.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "And so it may just come down to preference. And so I guess I'm curious, like, do you see this as a technical problem that the labs are frustrated trying to solve, or is this just demand-related? Is this just what people want chatbots to sound like, and in every test where they pit different models against one another, the one that sounds like a bland corporate assistant wins, and so they go with that?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:27:23",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "I think both are true. It's like the majority of writing that we are asking the models to do is, 'write this email for me,' right? And they excel at that. They are truly great corporate email writers. They are much better at the whole, like, passive-aggressive thing than I am. At the same time, I do think like you said, there is a technical challenge that has to do largely with verifiability. Is like, there are people who have spent decades of their lives attempting to articulate what makes Shakespeare Shakespeare, or what makes a Neruda poem a Neruda poem, and they will still not know in any kind of certain way. They will still get into debates with their fellow academics and literary critics about which writer is better than the other. And because these things are subjective, because they are ineffable, because they are hard to put in a rubric, and that is the nature of art.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:28:10",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "And to that point, you know, you started this segment by talking about Sam Altman saying like, 'hey, you know, we've just basically can't write a great poem yet.' Sam Altman a year ago said the company had trained a good creative writing model and posted a short story on X. Many people found it compelling. Is Sam Altman just not being consistently candid with us, Jasmine?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:28:29",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "Ooh, wouldn't be the first time. But that short story, if you remember, I'm sure you guys recall, had some great lines, like talking about the seams of mirrors, or Thursday, the — what was it?",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:28:38",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "It was like the 'liminal almost Friday' or—",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:28:40",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "The liminal day that is almost Friday!",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:28:42",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Wait, I have to actually look this one up because it was so good.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:28:49",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "I mean, I think while you're looking it up, like, you know, when the thing about AI writing is like it comes up with all these fun metaphors and they are like kind of surprising sometimes with the metaphors. But also the language is not grounded in a life. And that was my other thing is aside from the verifiability, fundamentally when I think about the writers who I really love, when I think about whether it's journalists or poets or whatever, like they are writing from life, right? Like a journalist goes out and talks to people and they like see stuff and observe like the color of the sky in a particular way, or um, like a poet is thinking about personal experiences that they've had. Their writing has stakes, it comes from an emotional place. And the fact that LLMs, while being very talented, grammatically pristine, whatever, they don't have lives. That means that all of the metaphors they choose, all of the words they choose, the examples they choose, they're just ungrounded, right? It's not coming from a point of view or a particular experience or a particular community that makes the writing believable. I think part of what voice and style is, is that it is very specific to the life that a person has had, and LLMs cannot get there in the same way a human who hasn't really lived that life, like, cannot get there.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:29:52",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "I don't know, I feel like it's taste dependent, you know? I'm a big music fan, and um, over the past few months, I have been—",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "I've enjoyed putting questions about music and in particular the sounds of certain bands to an LLM, which sounds like a joke prompt because an LLM has never heard anything, right? And yet, I find that in general, the models can have good conversations with me about the sound of music. Now, it may be that they are just pattern matching based on a bunch of public writing on the internet by people who do have ears and have heard, right? Like I'm very open to that. But I, I again, I have just sort of been struck about the way that it is able to like sort of write about sensory topics in an evocative way that at least to me, like surpasses what I would like predict they would be able to do.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:30:43",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yeah. I, I want to pose a couple objections that I think someone might make to your article. One of them is this is cope. This is Jasmine, a writer, a very talented writer, sort of finding the, the things that AI in her in her view is not good at yet and saying this is categorical proof that they will it will be very hard for AI to do these things. This is the same reaction that software engineers had when models started getting really good at code, they would say, 'Oh, well, it can't do these other 10 things that I do' and that basically just wait a few years and the models will be better than all of us at everything, including writing.",
+      "tone": "challenging"
+    },
+    {
+      "timestamp": "00:31:17",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "I would love for it to be cope because I try to automate myself away all the time. I have no sort of deep attachment to having to like, like I like writing, but like I have tried over and over and over for the past three years to automate my own job away and to get Claude to do my job for me. It cannot do it. This is very frustrating. It's not out of a lack of trying, you know. Um, and again, I'm going back to the CEOs themselves and the things that they themselves are saying, right? Like it's not just me a writer, it's Sam Altman saying, 'This thing will cure cancer and solve physics, but it will not write better than a real poet's okay poem.' And so like, I think like that suggests that there is something that is at least perceived as a little bit different. I think it's very I think it's very possible the models will get much better at writing over the next two years. I don't think it's like a never thing. I do think that, you know, like reporting is hard to replicate. I think that having life experiences that are real and verifiable is hard to replicate. I think the style stuff can be improved, especially if you fine tune the models. Um, but I think what's also interesting to me about this piece is that it shows how the the market incentives, the demand incentives of these companies do shape what we see their abilities are to do.",
+      "tone": "earnest and analytical"
+    },
+    {
+      "timestamp": "00:32:27",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "The other objection I imagine people might have who are very AI-pilled is that this is all in the eye of the beholder, right? There have been several studies now that have shown that if you give people a blind taste test of AI writing versus human writing, they prefer the AI writing until you tell them that it's AI writing and then the value in their eyes plummets. I did one of these in a New York Times quiz just recently. So is it possible that the models have already become superhuman at writing but that the minute we learn that...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "that they are AI models generating text and not humans writing words with their fingers uh we lose all interest in it just because of the source not because of the quality of the writing.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:33:10",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "I mean I think it's definitely interesting and true that people don't want to like AI writing and that is part of what bothers them when they see AI text that is obviously AI even though like you said like in these quizzes and tests um AI can outperform uh human writers in those narrow scenarios I mean my quibble with a lot of these quizzes and tests is that like as a writer and you guys are writers too how much of your job is actually text generation I think AI is a superhuman text generator right um my job I am generating text probably 25 percent of the hours in my day I spend a lot of time interviewing people I spend a lot of time coming up with ideas I spend a lot of time reading and not just reading indiscriminately but like reading very particular sources that feel like the right ones and so like you know usually at the point that you are doing one of these tests you're saying like generate like one paragraph very specifically about like why Trump won the 2016 election 500 words or less and like you've already given the prompt which I think is a critical part of writing is like what are you going to write about you've often like supplied some of the evidence and the guidance in the form of it saying like 500 words or less and at that point I do think that AI is probably a better text generator than almost all humans are but again when I think about it you know AI is still very bad at coming up with ideas for articles it is still very bad at reporting the non-text generation parts of the parts of the role feel further away from automation again like I'm not a never say like like I'm sort of like never say never like maybe it'll get there um I would be totally happy if you know Claude was able to give me good ideas for my next essays but it's not there yet.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:34:47",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Well we're we're already seeing that the LLMs make huge progress in genre fiction right so like recently on the show we talked to the author of a story in the Times about how authors of romance novels are now able to generate dozens of novels a year using uh LLMs In fact much of the discussion that we had was around how you just have to prompt them differently and sort of relentlessly in order to get what you want you know your piece Jasmine made me wonder like how much of getting a model to just write weird can be achieved by repeatedly telling it in different ways hey be a little weirder.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:35:25",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "Um some of it but not all of it I mean so I talked to for example James Yu who is the co-founder of Sudowrite which is one of the earliest creative fiction AI writing assistants I talked to some other folks who similarly were in the fiction writing LLM space and like you said to an extent a lot of writers are already using these a lot are already leaning on LLMs to generate large amounts of text and it can be very successful and it can meet readers needs and whatever um but like even these people who I was talking to they were describing to me how freaking hard it is to undo all of the post-training that the labs have done um so they are like applying immense amounts of engineering effort that clearly",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "...in my conversations with them clearly frustrates them that it is so hard to get these models to stop being so chirpy, so sycophantic, so PG-13 and everything, uh, in order to get them to this sort of like base model state where they're able to be weird again. Um, so I think it's certainly possible, but I think the labs has made it quite challenging just because of the way that these models are trained. The other thing that I think is important is, um, I tend to think that writing and a lot of creative work is actually like the perfect use case for these centaur models, right? Like the idea that the human plus AI collaboration is where you can get the furthest and I listened to the interviews you guys did about the fiction authors, I was thinking, this is a centaur model, right? Because without the human prompting and bullying the AI into getting weird and getting sensual and whatever, like, it was not going to do that on its own. And like I myself, like I do use LLMs as a research assistant, like I wrote about that inside the Atlantic piece about the way that Claude has now sort of helped me edit my own work in a way that I've found incredibly useful, but I do feel like the collaborative element is- is important for any domain where the personal perspective, lived experience, whatever, really matters.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:37:08",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Talk about that a little bit. You mentioned your editing process. How are you using AI to help you edit your work and are you finding it useful?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:37:15",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "Um, yeah, so I feel like I really cracked this over the last like couple months, which I'm very excited about. Because again, I've tried to make these things like write and edit for me over and over and over and they've never really been able to do it. Um, so the thing that I realized was if I make Claude into an editor that is not just trying to grade and give feedback on my work against some genericized standard of what good writing is, but actually what we did against basically what my personal Jasmine's personal aspirations for writing are, it can give feedback that I find much, much more helpful. And so what I did was basically, um, I fed Claude, uh, my entire Substack archive of the writing that I've previously done as well as some of my freelance work.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:37:56",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "And just to get real specific, is this inside like a Claude project or how have you set this up? Because I know like our listeners are gonna want to try this.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:37:59",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "Yes. Um, I did it in a project, but on Claude's advice. I was like, do I need to Claude code something? And Claude was like, no, that's overkill. Um, so you don't need to code or anything. Um, so in a Claude project, I gave it my whole archive of writing. I also personally write retro notes to myself after everything I publish. So I have a notes app that's just like me writing what was good and bad about everything I've ever written. Um, just a few bullet points.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:38:18",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "This is why Jasmine's gonna be our boss.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:38:22",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "I mean, these- these are very low quality bullet points, but...",
+      "tone": "modest"
+    },
+    {
+      "timestamp": "00:38:24",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "...um, I also gave it that because I wanted it to learn my taste. I wanted it to learn what do I aspire to be and where do I see myself falling short and where- what am I proud of, right? And so from those two things, plus a little bit more information about like here's my audience, this is my beat, this is my goals, um, we were able to co-develop a rubric of, um, instead of like how many exclamation marks does it have, it would say things like, um, you know, 'does this take advantage of your quote-unquote like insider anthropologist position in Silicon Valley?' because that's one of the things that Claude and I think distinguish my voice. Or it'll also notice...",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "It's like, oh, Jasmine, you tend to move between registers. You'll switch between, you know, startup jargon and like internet slang and whatever. And like, I think the fact that you can do the high-low or move from like policy to personal scene, this is something that is characteristic of your writing. And so again, we're co-developing these qualitative criteria and then I split it into phases of like ideation phase rubric, structure rubric, prose rubric, final fact checking. And so what I do now, I put this all in a Claude project, I said, your job is to evaluate my drafts based on this criteria, but not to do the writing for me and to make sure to prompt out of me like what I can do better. I dump a draft into Claude, Claude will run like phase two structure on it, it'll say things like, your conclusion is just a summary and this is really boring. In fact, in your piece about this and that, you actually ended on a scene and I thought that was much more powerful. So why don't you try ending this one on a scene? And Claude will say, rather than inventing a scene, it will say, what were you thinking when the plane took off? What were you feeling inside? Can you think of a scenario where you had a conversation with say a kids' safety advocate about AI that really resonated with you because right now it sounds like dry policy explainer. And like, that feedback I actually find incredibly useful. Like, I'm still applying my own judgment to say, do I take it or not? But I'm like, you know, this is about me becoming the best version of myself as a writer. It's about like me self-improving and Claude pushing me to do that, which I've found much, much more helpful.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:40:21",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "I want to ask you both a question as fellow writers. Do you feel the impulse to make your writing weirder because of AI?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:40:38",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "To sort of stand out from the sea of slop. Because I find myself feeling this tug of like, oh, that's a little weird aside that probably I should cut, but I think I'm going to leave it in because like Claude would never do that, right? It's like, it's like a marker that I am typing these words and I feel like that's sort of my imprimatur that I'm leaving.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:40:51",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "My answer to you is yes, I absolutely feel that way and I've like gone back and tried to edit sentences to like make them feel a little bit more like weird or like in particular to make them sound colloquial in a way that I know like an LLM generally would not be. And like, yes, it is for that reason. I think that writing right now, like we're all, not all, many of us are on such high alert for the prospect that we might be reading slop, that I think if you are a writer who does not want to be producing slop, like you should be asking yourself that question.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:41:18",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "I think it makes me a lot more comfortable writing the way I want to write in the first place. Like, I think like maybe unlike both of you, I didn't sort of come up through newsrooms where I was like learning a very specific house style and all of these norms. Like I can do news writing now, it's something I've learned now, but like I'm actually much more quote-unquote like internet and blogging native, which is a form that is voicey, irreverent, and not as pristine and like will make inappropriate jokes and like, you know, it's just a looser form of writing. And so I think what it's actually done is made me more comfortable doing the bloggy thing instead of sort of always trying to write in a more professionalized journalistic tone.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:41:54",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "So I think we should leave this with a question for you, Jasmine, which is, you know, your piece makes the case very convincingly that to—",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Today's AIs are not very good at the kind of writing that I think we all value. Do you think they will get there and what should the companies do to make their models better at writing?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:42:12",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "I think that if we separate out text generation from reporting, which I am not that bullish on the models doing, and we are just talking about say literary fiction or here's a bunch of interview transcripts, write a magazine feature or something. I think that if they applied as many resources towards that task as they do towards coding agents and things that actually make the money, I think that they could get there. Will the companies ever find it financially advisable to spend all their resources on that instead of automating 23-year-old software engineers? Probably not. I would be grateful for that world. I don't need them to take my job or these folks's jobs, but I think it's possible.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:52",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Look, they're going to get around to it eventually. Okay? You know, it's like I hear what you're saying. Have you seen what writers make in this economy, Jasmine?",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:43:02",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "It's not going to pay for a lot of data centers.",
+      "tone": "dry"
+    },
+    {
+      "timestamp": "00:43:05",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "No, there is economic value in writing, like and eventually the AI companies will want that all to themselves.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:43:13",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "You know what would be a very funny outcome of this, you know, taking your point about the sort of guardrails of the models. Maybe the next great American novel will be written by Grok.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:43:21",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "Oh god, that's an image.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:43:22",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "And with that, Jasmine Sun, thank you for joining us.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:43:25",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "Thank you very much, Kevin and Casey.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "00:43:26",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Well Kevin, you've recently returned from book leave and are once again writing in the New York Times. How does it feel to see your name in print again?",
+      "tone": "cheerful"
+    },
+    {
+      "timestamp": "00:43:40",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Feels good. Hasn't happened yet, but when it does, it'll be great.",
+      "tone": "wry"
+    },
+    {
+      "timestamp": "00:43:47",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Well, I got to take an early read at a story that you are publishing about the fact that tech companies have now created leaderboards to show which employees are using the most AI tokens in their work.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:44:08",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yes, it's a token frenzy out there and the employees of these companies are competing among their colleagues sort of informally and sort of for fun, but they're taking it very seriously. They want to be the people at their company who are using the most AI tokens.",
+      "tone": "engaged"
+    },
+    {
+      "timestamp": "00:44:18",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "So let me just ask a basic question for listeners who may not be familiar. What is a token and why is that something you might start keeping track of?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:44:30",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "So a token is the basic atomic unit of AI labor. It's basically a fragment of a word and it is how AI model providers measure their consumption. So if you type in a prompt, you know, help me write this essay, an old model might have given you a couple hundred tokens in response. That would be a couple hundred words. And what has been happening over the past year or so as these agentic coding tools have started taking off is that the models are just much more token hungry. You can use now hundreds of thousands or even millions of tokens in a single prompt.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "session and so that is what is propelling these leaderboards is the idea that the more sort of coding you're doing, the more agentic tools you're using, the more simultaneous processes you're running, the higher your token count will be.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:45:16",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "One measurement I found useful was that apparently it takes about 10,000 tokens to generate 7,500 words, if that sort of, you know, helps to ground you at all. But as you just said, and I want to hear more about this, the more advanced systems are using way more tokens than that. So tell me about some of the numbers that some of the sort of token all-stars are putting up on the on the boards.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:45:54",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "So I don't know all of the exact numbers, but I did learn that at OpenAI where they do track this kind of leaderboard, the highest employee token count over a seven day period recently was a guy who used 210 billion tokens. And this is for rough scale about 33 Wikipedias worth of text. And now all of that is not sort of typing and receiving a response, some of that is what they call cached tokens. So it's not all sort of being extruded from the model for the first time. But these are the kinds of numbers that I think even a year ago would have sounded completely insane.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:46:26",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Now was this guy working on a new mass domestic surveillance program for the Department of Defense?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:46:31",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "I don't know and OpenAI did not make him available for interview, but what I wanted to do in writing this column was to try to call up a bunch of people or talk to a bunch of people who are in this sort of billion token club, right? The sort of extreme power users and just ask them like, hey, how are you guys using all those tokens and isn't that very expensive and how are you paying for it all? And I learned a lot.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:46:53",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah, well, okay, well so tell us first of all just how expensive it is.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:46:57",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Very expensive. In fact, I heard that the top user of Claude code, the top individual user of Claude code as measured by Anthropic, spent more than $150,000 on tokens last month. So extrapolate that. That is like an employee making more than a million dollars a year and they are burning that in a month. And I heard similar figures from some of these other extreme coders who are spending something on the order of thousands of dollars a day on tokens from these models. Now we should also say the employees of these companies get their tokens for free, right? So they are not shelling out, their companies are not shelling out. But at other companies this is starting to become an issue because they are sort of outstripping their budgets for these things.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:47:51",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "So there are companies where where there are engineers who legitimately are costing their employers maybe $150,000 a week because they're getting tokens from one of the big providers?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:47:59",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yeah I talked",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "...to a software engineer in Sweden who said that he probably spends more than his salary on Claude. So this is essentially becoming like a, a very expensive job perk for some of these coders.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:48:13",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "So talk to me about why employers want to create leaderboards to promote this to employees because I could see other companies saying if you spent $150,000 on tokens last month, you actually don't work at this company anymore because we're bankrupt.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:48:29",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Right. So this was a big question that I had is like why is this going on and it seems to be some combination of sort of employee motivation and worker tracking, right? There are executives at these companies who think that the more tokens you use, the more productive you probably are and as we discussed in a previous segment on this show, these companies are very eager to have their workers start embracing the AI tools. And so at a number of these companies I talked to people who said yeah, um, this is just basically them trying to see who is really all in on the new way of programming.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:49:14",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "And you've talked to a number of people who are ranking high on these leaderboards. I realize you probably haven't dug deep into their, into their code, but what is your sense of how productive they actually are? Like what is the relationship between token usage and taking my company to the next level?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:49:33",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "I mean it's very unclear, right? Some of these people may be just generating like worthless projects. I think the, the thing that worries a lot of the people I talked to about these leaderboards is that they just incentivize you to, to like run up your token count, right? Because then you look like the special, you know, 10x engineer, 100x engineer who's like outperforming all your colleagues. So I think there are a number of companies that, that see this leaderboard business as a little strange and maybe counterproductive. But, um, I do think that there is a feeling among the most sort of heavy token users that they are being productive.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:50:24",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah, I have to say when I read your column, I thought this just seems like it would create the worst incentives, right? There's this idea of Goodhart's law, right? Like when a measure becomes a target, it ceases to become a good measure. I can't think of a better way to ensure that tokens usage becomes a bad measure than creating a leaderboard for it.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:50:47",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Totally.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:50:48",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "What are the people inside the company saying about that?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:50:49",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Well, some of them are opposed to this whole leaderboard thing. Um, I also talked with some folks who defended the leaderboards. They said look, it's never been all that easy to track the productivity of programmers. Some people have had their productivity measured by like how many lines of code they generate or how many pull requests they make. These are sort of these imperfect proxies for like how hard are you working, how much are you doing. But the employees of these companies also see this, I think wisely, as a key to their own success. Um, a number of these companies are now using...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "using AI token use and consumption as part of the performance review cycle. So you go in for your annual review, your boss says, \"Hey, it looks like you only used, you know, 70 million tokens last month. What's going on?\" And so I think the engineers at these companies are getting wise to the fact that if they want to have a long, successful career, they better start using some tokens.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:51:23",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "Yeah, but I imagine that some of them are really nervous about that though, right? Because like the, it seems clear to me that at least some of these companies want to incentivize token usage because the companies themselves suspect that the more we can get them using this stuff, the less long we will have to employ the humans.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:51:42",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Maybe, although I think it's less about like the AI systems replacing the humans and more about like, it is just a radically different way of working, right? These are people who, most of them have had long careers in software engineering, they grew up writing code by hand, they maybe grew up using some sort of like AI assistant like GitHub Copilot, and what people at these companies are saying is that these agentic engineering systems are just really different. You have to approach them in a different way, you have to spend a lot of time with them to understand what they're good and not good at, and to them, this is sort of a way of motivating their employees to say, \"Hey, go out and try the new thing.\"",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:52:24",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "Yeah, I don't know. I've been thinking a lot about this question of like if I were an engineer at one of these companies and I had this incentive to get on the leaderboard, like how would I approach it? And I do think that like the instinct to just like waste a bunch of tokens to like rise higher on the leaderboard... ultimately if you rise too high, people are going to ask you what you did with all the tokens. If you're number one at like 10 billion tokens and you only managed to, you know, like vibe code a calculator or something, people are probably gonna get mad at you.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:52:51",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yeah, and I actually did talk to one person who speculated that actually the people at the top of the leaderboards are all doing side projects.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:52:57",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "They're starting their new company.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:52:59",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "They're starting a new company with the boss's money.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:53:01",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "And if you're doing that, I just want to say I salute you. Like that is the right way to work in 2024.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:53:06",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Maybe don't be the number one on the leaderboard if you're doing that. Maybe try to stick around six or seven.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:53:13",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah, only middle of the pack is kind of where you want to aim yourself. I mean let me ask, is there any kind of token tracking that you think offers a reasonable signal? Like do you think that if you're like a tech company you should create a leaderboard?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:53:25",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "No, I think that's a bad idea. Um, for all the reasons that we just talked about, including Goodhart's law, which is I think this is just going to lead to people just wasting tokens, doing side projects. But if I'm the budget manager at a company and I'm seeing that people are spending multiples of their salary on AI tokens, I'm asking them some questions about what they're doing with it all, and if their answer is not \"I built an amazing new product that's going to generate billions of dollars a year in revenue,\" I'm trying to say, \"Hey, could you maybe use a little less next month?\"",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:53:57",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "Yeah, I have to say, I have been struck at how this idea about the token leaderboard...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Leaderboard just represents a new incarnation of something that the software industry has been trying to figure out for a long time, which is how can I figure out if my software engineers are productive? You know, I was talking recently to this very handsome software engineer who I'm engaged to about your column, and he was telling me that, you know, he used to be evaluated on how many lines of code he contributed. And he told me about all the games that people used to play back in the day with, oh, you know, I like wrote a quick algorithm to like, you know, translate a bunch of stuff into some new languages, and it's like completely worthless, but it makes me look like I had a very productive week. And so I went back and looked into this, and they were doing this in the sixties and seventies. And there's this saying from the early days of computer programming that eventually arises that says, quote, 'measuring programming progress by lines of code is like measuring aircraft building progress by weight.' And I have to say, I think that the same thing kind of applies here, right? That like, yes, if you squint and at the right level of abstraction, it's probably true that some people who are using a lot of tokens are more productive than some people who aren't. It just doesn't quite seem like the right way to measure these things, and I just wonder how quickly the industry's going to figure that out.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:55:17",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yeah, I think it's gonna be pretty soon, in part because the budgets are just getting very ridiculous. And, and especially the AI model providers are now seeing individual users consuming amounts of their services that entire companies would have consumed just a few months ago.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:55:34",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "You know, maybe the kind of last question I have for you about this is just what implications do you think it has for the broader economy? Right? Because we know that in so many different sectors of the economy, managers are saying, 'I want to incentivize my employees to use AI, and I want to track how they're using AI.' So do you think that as knowledge of these leaderboards spread, we're going to see people in non-technical fields try to adopt their own version of them?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:55:58",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "I hope not. I think it's really a bad move, not just for tracking actual productivity and output, but just for morale. Right? Like, I remember years ago when like Gawker would have like a traffic leaderboard at their office, so you could see how many clicks your story was getting relative to other people. And I don't think anyone who like worked there at the time thought that was like incentivizing the right things or creating like high morale among employees. Basically, everyone was just competing with each other all the time. And I think in this case, it's even worse because it's not necessarily even correlated with like any success. It's just pure sort of like how, you know, how many agents can you run in a parallel swarm uh to sort of work 24/7 doing tasks of uncertain value?",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:56:26",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Which is a great question to ask on a first date in San Francisco too, by the way, but anyways...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:56:30",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "Well, I have to say, I-I worry that this idea of like token maxing is going to spread into the broader economy. I was talking with somebody who works in—",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "marketing this week and she was telling me that, you know, her job used to be evaluated solely on creativity and then recently the performance review got a new AI section and everyone is being evaluated on how much AI they'd use. And like from her perspective, she was kind of like, it was working fine, you know, like I didn't need to use like an AI tool to help me. But now, like, you know, my bonus might be based on how much of it I use. So I think this thing is sort of already seeped out of the labs and is like getting into the water elsewhere and I just hope that managers are like really thoughtful about what they are incentivizing and that maybe like AI use for the sake of AI use is not going to be the boon to your company that you're hoping it is.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:57:39",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah, I think it's going to be very case by case. I think there will be people who are token maxing, who are way more productive than their colleagues and doing way more projects way more quickly. I think there will be other people whose managers look at their like token budgets and say, you spent this many tokens on what? And we'll have to have some hard conversations. But I think it's very hard to draw with a broad brush and say like all of this token maxing is pointless productivity theater. It sounds to me from my conversations like some of it really is working for people.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:58:13",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yeah, well I will say on the flip side, I've also heard of people in my social circle who have gotten in trouble for spending too much on Claude.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:58:21",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Wait, really?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:58:21",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yeah. And when I heard that I was like, oh like your company's not going to make it, bro. Like you got to spend on this stuff.",
+      "tone": "wry"
+    },
+    {
+      "timestamp": "00:58:25",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Well what's so interesting is now it's becoming part of job conversations for engineering jobs. People are going into new job conversations and saying, well what's my token budget? And for the employees of these big AI labs who have unlimited free access to the models, some of them are using so many tokens that they effectively can't afford to quit their jobs, right? Because anywhere else they would work would have to pay for their tokens and it would be completely unaffordable to employ them.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:58:47",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yeah, I mean those sound like real incentives and better than the ones at Meta. Do you remember when Meta was spinning up a superintelligence lab and they said you can sit really close to Mark Zuckerberg?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:58:50",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "If I were them, I'd be like, I'll take the tokens, thanks.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:58:51",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "All right, well just to wrap this up, exactly how many tokens should a person use?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:58:56",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Uh, I think, I think that's you have to look within yourself.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:58:58",
+      "ad": false,
+      "speaker": "Jasmine Sun",
+      "text": "Look within yourself? Okay.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:58:59",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "That's between you and your God.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:59:01",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:59:02",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Do what Marc Andreessen will not and introspect.",
+      "tone": "witty"
+    }
+  ],
+  "highlights": [
+    "Major tech companies like Atlassian and Meta are citing AI as a primary driver for massive layoffs, signaling a strategic shift where capital is being reallocated from human payroll toward AI infrastructure and compute.",
+    "Modern AI models often struggle with creative writing because rigorous \"post-training\" and human feedback loops prioritize corporate helpfulness and safety over the distinct, \"weird\" voices found in earlier, less-regulated versions.",
+    "A fundamental barrier to high-level literary AI writing is its lack of \"lived experience,\" meaning its metaphors and observations remain ungrounded and unable to replicate the emotional stakes of human-authored work.",
+    "Some tech firms have implemented \"token leaderboards\" to track employee AI consumption, creating a controversial new productivity metric where top engineers may spend over $150,000 monthly on AI labor to automate their workflows.",
+    "Writers are finding more value in \"centaur\" workflows—training AI on their own personal archives to act as a custom editor—rather than using models for raw text generation, which often results in bland or \"slop\" content."
+  ],
+  "summary": "This episode of *Hard Fork* explores the shifting landscape of the tech industry as AI transition moves from theory to tangible labor and cultural changes. Hosts Kevin Roose and Casey Newton first examine a recent wave of layoffs at companies like Atlassian, Block, and Meta, where executives are increasingly citing AI as a primary driver for downsizing. The hosts debate whether these cuts represent true automation-driven job loss or \"AI washing\"—a strategy where companies use AI as a convenient excuse for general mismanagement or to appease investors by shifting capital from human payroll toward massive AI infrastructure and data center investments.\n\nThe discussion then turns to the creative limitations of AI with guest Jasmine Sun, who argues that while chatbots are excellent corporate assistants, they remain poor literary writers. Sun explains that modern \"post-training\" and reinforcement learning have stripped AI of the weirdness and personality seen in earlier models like GPT-3, replacing it with a bland, sycophantic \"corporate\" tone. She highlights the \"verifiability problem,\" noting that while AI can be easily graded on its ability to code, there is no objective rubric for great prose. Instead of using AI to generate text, Sun advocates for a \"centaur model\" where writers use AI as a highly personalized editor to push human creativity rather than replace it.\n\nFinally, the hosts analyze the emerging trend of \"token maxing,\" where tech companies have created internal leaderboards to track which employees consume the most AI tokens. While intended as a proxy for productivity and \"AI-native\" work habits, Roose and Newton warn that this creates a new form of \"productivity theater.\" They discuss the astronomical costs associated with extreme users—some of whom \"burn\" hundreds of thousands of dollars in tokens monthly—and question whether incentivizing high token consumption ultimately encourages wasteful side projects over meaningful work. Together, these topics highlight a tech sector in flux, grappling with how to measure value and maintain human quality in an increasingly automated world.",
+  "description": "This week, we discuss the new wave of tech layoffs at Atlassian and Block, as well as reports that Meta plans to cut up to 20 percent of its work force. Has A.I. job loss truly begun, or are other factors at play? Then, we’re joined by the writer Jasmine Sun to talk about why chatbots are still so bad at creative writing. And finally, it’s tokenmaxxing time! Kevin takes us behind the scenes of his latest reporting about why tech companies are building leaderboards to measure who is using the most A.I.\n\nFor more on this episode, go to: https://www.nytimes.com/2026/03/20/podcasts/hardfork-ai-washing-tokenmaxxing.html\n\nChapters:\n00:00 Intro \n00:28 A.I.-washing layoffs in the tech industry\n17:49 How come A.I.-chatbots aren’t creative? \n43:24 What is \"tokenmaxxing\"? \n\nGuests:\nJasmine Sun, journalist and writer at jasmi.news\n\nAdditional Reading\nI Worked for Block. Its A.I. Job Cuts Aren’t What They Seem.\nhttps://www.nytimes.com/2026/03/04/opinion/block-jack-dorsey-layoffs-ai.html\n\nMeta Planning Sweeping Layoffs as A.I. Costs Mount\nhttps://www.reuters.com/business/world-at-work/meta-planning-sweeping-layoffs-ai-costs-mount-2026-03-14/\n\nMeta Delays Rollout of New A.I. Model After Performance Concerns\nhttps://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html\n\nThe A.I.-Washing of Job Cuts Is Corrosive and Confusing\nhttps://www.bloomberg.com/opinion/articles/2026-03-13/the-ai-washing-of-job-cuts-is-corrosive-and-confusing\n\nThe Human Skill That Eludes A.I.\nhttps://www.theatlantic.com/technology/2026/03/ai-creative-writing/686418/\n\nHard Fork is a weekly look into the future that's already here. Hosts Kevin Roose and Casey Newton explore stories from the bleeding edge of tech.\nCasey’s publication, Platformer: https://www.platformer.news/\n\nFOLLOW US ON SOCIAL\n\nTikTok: https://www.tiktok.com/@hardfork\n\nInsta:\nKevin Roose - https://www.instagram.com/kevinroose/\nCasey Newton - https://www.instagram.com/crumbler/\n\nTwitter (X):\nKevin - https://x.com/kevinroose\nCasey - https://x.com/CaseyNewton\n\nThreads:\nKevin - https://www.threads.net/@kevinroose\nCasey - https://www.threads.net/@crumbler\n\nSubscribe to the podcast:\nApple - https://podcasts.apple.com/us/podcast/hard-fork/id1528594034\nSpotify - https://open.spotify.com/show/44fllCS2FTFr2x2kjP9xeT?si=86ba626802b849cd\nAmazon - https://music.amazon.com/podcasts/7c7fe198-e6a8-41a8-b0fe-1d46b976dcd8/hard-fork\nYouTube Music - https://music.youtube.com/playlist?list=PLB9gMmtMLXxsa8C0PzHFL2tJFh7FrKrYD&si=Fwb9Uwon1ZneNsBp\nThe New York Times - https://www.nytimes.com/column/hard-fork\n\n“Hard Fork” is hosted by Kevin Roose and Casey Newton. Produced by Rachel Cohn and Whitney Jones. We’re edited by Vjeran Pavic. \n\nEngineering by Chris Wood and original music by Dan Powell, Marion Lozano, Sophia Lanman and Rowan Niemisto. Fact-checking by Caitlin Love. Our executive producer is Jen Poyant. Video production by Jake Nicol, Chris Schodt, and Sawyer Roque. Podcast Art Direction by Benjamin Wilkerson Tousley. Podcast Art & Animations by Julian Hespenheide. Additional Motion graphics by Phil Robibero. Thumbnails by Julia Moburg and Tara Godvin. Special thanks to Paula Szuchman, Pui-Wing Tam and Dahlia Haddad.",
+  "duration": 3569,
+  "people": [
+    "Kevin Roose",
+    "Casey Newton",
+    "Jasmine Sun",
+    "Additional Reading",
+    "Job Cuts",
+    "What They",
+    "Meta Planning",
+    "Sweeping Layoffs",
+    "Costs Mount",
+    "Meta Delays",
+    "Model After",
+    "Performance Concerns",
+    "Is Corrosive",
+    "The Human",
+    "Skill That",
+    "Hard Fork",
+    "Hosts Kevin",
+    "The New",
+    "York Times",
+    "Rachel Cohn",
+    "Whitney Jones",
+    "Vjeran Pavic",
+    "Chris Wood",
+    "Dan Powell",
+    "Marion Lozano",
+    "Sophia Lanman",
+    "Rowan Niemisto",
+    "Caitlin Love",
+    "Jen Poyant",
+    "Jake Nicol",
+    "Chris Schodt",
+    "Sawyer Roque",
+    "Podcast Art",
+    "Benjamin Wilkerson",
+    "Julian Hespenheide",
+    "Additional Motion",
+    "Phil Robibero",
+    "Julia Moburg",
+    "Tara Godvin",
+    "Paula Szuchman",
+    "Wing Tam",
+    "Dahlia Haddad"
+  ],
+  "topics": [
+    "Tech industry layoffs and the phenomenon of 'AI washing'",
+    "The limitations of large language models in creative and literary writing",
+    "The rise of 'tokenmaxxing' and AI consumption leaderboards in tech companies"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi_webp/Prm_V51XbPg/maxresdefault.webp",
+  "date": "20260320",
+  "youtube_url": "https://www.youtube.com/watch?v=Prm_V51XbPg",
+  "youtube_metadata": {
+    "title": "Why Tech C.E.O.s Are Blaming A.I. for Mass Layoffs",
+    "description": "This week, we discuss the new wave of tech layoffs at Atlassian and Block, as well as reports that Meta plans to cut up to 20 percent of its work force. Has A.I. job loss truly begun, or are other factors at play? Then, we’re joined by the writer Jasmine Sun to talk about why chatbots are still so bad at creative writing. And finally, it’s tokenmaxxing time! Kevin takes us behind the scenes of his latest reporting about why tech companies are building leaderboards to measure who is using the most A.I.\n\nFor more on this episode, go to: https://www.nytimes.com/2026/03/20/podcasts/hardfork-ai-washing-tokenmaxxing.html\n\nChapters:\n00:00 Intro \n00:28 A.I.-washing layoffs in the tech industry\n17:49 How come A.I.-chatbots aren’t creative? \n43:24 What is \"tokenmaxxing\"? \n\nGuests:\nJasmine Sun, journalist and writer at jasmi.news\n\nAdditional Reading\nI Worked for Block. Its A.I. Job Cuts Aren’t What They Seem.\nhttps://www.nytimes.com/2026/03/04/opinion/block-jack-dorsey-layoffs-ai.html\n\nMeta Planning Sweeping Layoffs as A.I. Costs Mount\nhttps://www.reuters.com/business/world-at-work/meta-planning-sweeping-layoffs-ai-costs-mount-2026-03-14/\n\nMeta Delays Rollout of New A.I. Model After Performance Concerns\nhttps://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html\n\nThe A.I.-Washing of Job Cuts Is Corrosive and Confusing\nhttps://www.bloomberg.com/opinion/articles/2026-03-13/the-ai-washing-of-job-cuts-is-corrosive-and-confusing\n\nThe Human Skill That Eludes A.I.\nhttps://www.theatlantic.com/technology/2026/03/ai-creative-writing/686418/\n\nHard Fork is a weekly look into the future that's already here. Hosts Kevin Roose and Casey Newton explore stories from the bleeding edge of tech.\nCasey’s publication, Platformer: https://www.platformer.news/\n\nFOLLOW US ON SOCIAL\n\nTikTok: https://www.tiktok.com/@hardfork\n\nInsta:\nKevin Roose - https://www.instagram.com/kevinroose/\nCasey Newton - https://www.instagram.com/crumbler/\n\nTwitter (X):\nKevin - https://x.com/kevinroose\nCasey - https://x.com/CaseyNewton\n\nThreads:\nKevin - https://www.threads.net/@kevinroose\nCasey - https://www.threads.net/@crumbler\n\nSubscribe to the podcast:\nApple - https://podcasts.apple.com/us/podcast/hard-fork/id1528594034\nSpotify - https://open.spotify.com/show/44fllCS2FTFr2x2kjP9xeT?si=86ba626802b849cd\nAmazon - https://music.amazon.com/podcasts/7c7fe198-e6a8-41a8-b0fe-1d46b976dcd8/hard-fork\nYouTube Music - https://music.youtube.com/playlist?list=PLB9gMmtMLXxsa8C0PzHFL2tJFh7FrKrYD&si=Fwb9Uwon1ZneNsBp\nThe New York Times - https://www.nytimes.com/column/hard-fork\n\n“Hard Fork” is hosted by Kevin Roose and Casey Newton. Produced by Rachel Cohn and Whitney Jones. We’re edited by Vjeran Pavic. \n\nEngineering by Chris Wood and original music by Dan Powell, Marion Lozano, Sophia Lanman and Rowan Niemisto. Fact-checking by Caitlin Love. Our executive producer is Jen Poyant. Video production by Jake Nicol, Chris Schodt, and Sawyer Roque. Podcast Art Direction by Benjamin Wilkerson Tousley. Podcast Art & Animations by Julian Hespenheide. Additional Motion graphics by Phil Robibero. Thumbnails by Julia Moburg and Tara Godvin. Special thanks to Paula Szuchman, Pui-Wing Tam and Dahlia Haddad.",
+    "duration": 3569,
+    "view_count": 13413,
+    "like_count": 261,
+    "channel": "Hard Fork",
+    "upload_date": "20260320",
+    "thumbnail": "https://i.ytimg.com/vi_webp/Prm_V51XbPg/maxresdefault.webp",
+    "tags": [
+      "tech layoffs",
+      "tech job market",
+      "tech industry",
+      "layoffs",
+      "job market",
+      "meta layoffs",
+      "artificial intelligence",
+      "ai job loss 2026",
+      "tech careers",
+      "ai tools",
+      "atlassian layoffs",
+      "ai writing bad",
+      "llm",
+      "large language models",
+      "ai tokens",
+      "ai tokens explained",
+      "hard fork",
+      "hard fork podcast",
+      "hard fork nyt",
+      "hard fork nytimes",
+      "kevin roose",
+      "casey newton"
+    ]
+  }
+}

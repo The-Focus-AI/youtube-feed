@@ -1,0 +1,2050 @@
+{
+  "title": "This 22-Year-Old Built TikTok for Mobile Games, and It’s Growing Fast | E2276",
+  "source_url": "https://www.youtube.com/watch?v=O2zIQW6gnlc",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Welcome back to this week in Startups with me, Lon Harris.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:00:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm Jason Calacanis.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We've got Albert Brotherton and Boris Radulov.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:06",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Jason, they're the co-creators of Nanogram. I really like this. This is a cool thing. It's basically TikTok for mobile video games. It's available right now. It's in the Google Play store, it's in the iOS store. Guys, thanks so much for being here.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:00:19",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Thanks for having us, guys.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:00:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So tell us what you're working on?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:21",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, Boris, do you want to kind of bring up the demo and walk them through?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:25",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yes, yes. Just give me one second to get the screen share.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And this is I have it on my phone, Jason. This is available now. It's basically where it's like, think TikTok, but people can create their own video games very quickly, like casual mobile games. And then you just scroll and you're tired of playing one, you just scroll up and you go to the next game. It's pretty remarkable.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:00:44",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Typical TikTok feed. This is the MVP we put out a month and a half ago. You're playing this game, you get bored, and you're going to the next game. You play this game, you get bored, you're going to the next one. It's very simple concept, proving to be quite interesting.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:54",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "But the whole brain rot maxing of playing multiple games in a row is just part of the flywheel. The second half of the flywheel is the creation aspect.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "When you're looking for a new game to play, it can be that complete like tyranny of choice, like choice paralysis. Like, there's hundreds of games. I don't have time to research every single video game. This is just like, open your phone, start playing a game.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:01:21",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "The creation is even cooler. If you go on your create tab, you click create with AI, and you have all these templates you could go off, or you can do a custom template. And I'm just going to quickly demo something real quick for you. So when I was like 14, I started programming because I wanted to make video games. And, you know, now with AI and agents, something that would have taken me a week back then now takes 90 seconds. So for example, if I want to make like a 3D version of Flappy Bird, all I have to do is go on 3D, write Flappy Bird, hit generate, and now it's going to cook up the game for me. And what's really cool is while you wait for the agent, you get to play other games that other people have made for inspiration. And usually on the first prompt, it takes about 60 to 90 seconds to like one-shot a full game. And after that, the cool part is that you're absolutely free to remix it. I'm having a hard time playing and talking here at the same time, you'll have to forgive my poor performance. But the idea, yeah, the idea is after that, you can remix the game as many times as you want, and we'll just probably get that shortly. Additionally, you can remix other people's games. So for example, if I make like a really cool game, I send it to Jason here and he can remix it, change it in a way that he likes. So here is the 3D Flappy Bird that I made for us. And this is very basic. This is like a starting point for us. And I get to play this and as a little kid, I this would have taken me a few days to figure out before the age of AI. But interestingly enough, I can now do this in like 90 seconds. And I can go prompt it and I can say, 'Hey, can you please add guns to this?'",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I like that you said please, very polite.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:03:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So this is all just AI prompting to make games. What's the engine behind it? Do you use Claude or something, or is this some bespoke AI engine to make games?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:03:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, what we're doing is we've created a custom game engine and then we're using Gemini and a bunch of agentic harnesses and like tool calling to give it the ability to create 3D assets, create 2D assets, I'm thinking like pixel art and things like this. Basically, what we've created here is we're trying to rely on the native platforms as much as possible. So we're really relying on Gemini to do the tool calling for us and then we're putting a bunch of tools such as like generate 3D mesh, generate 2D pixel art, generate sound, things like this. And then it figures out how to code these, put it in the game, and and do all sort of stuff for the user.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:03:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Genius. Can I take Lon's game and build off of it and fork it?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yep, yep, yep. So you can take like, Lon can post like, you know, a Flappy Bird and you can say, I want actually add to this, you could send a picture, I mean, at the moment we don't have that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so that's inherent in it is you just fork stuff.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:04:06",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's like the remixing.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:04:07",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's remixing, yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:04:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, it's like the remixing on Sora where I could see your video and I could say, make 'em say this instead, and it's just like everybody's idea builds on everybody else's idea, yeah.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:04:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What's the business model here and who are you two dudes?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So I'm Albert, this is Boris. Um, I'm CEO, he's CTO.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:04:25",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And uh, yeah, I mean the business model is, I mean look, at the end of the day, we're like a feed of interactive content, right? That's- that's- I'm not even saying games because that's the direction in which we're moving in, right? Interactive content. And, you know, we have a lot of rapid experiments we want to do, right? Because this is a very new field. We can't know exactly what it's going to be, right? But I think it's a very interesting space where, you know, there is no accessible interactive ad space that's really easily distributed right now, right? So I'll, I'll use an example here. So let's take like a big advertising provider, like Domino's, right? And they want to, you know, do some easy ad space stuff. They're going to go on short-form content, right? And they'll have a marketing team that's great at short-form content, they'll post on Instagram, they'll post on TikTok, right? But, you know, at the end of the day, interaction is much higher converting, right?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:05:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, and it's engagement, so they're going to spend more time on it. So Domino's can come in and say, I want to make an Asteroids-like game where the boulders and the asteroids are Dominos and when you break them apart, they turn into the pretzel bites, and then I want to have a spaceship fly by that's the brownie. Whatever it is. Genius.",
+      "tone": "creative"
+    },
+    {
+      "timestamp": "00:05:32",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah! And make the pizza, and the call to action can be order the exact pizza you've made in the game, for example. Yeah, very cool.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:05:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Albert and Boris, you guys went to school together? You're in high school right now? What's the story?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:05:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "No, no. So, I'm 22, Boris is 24. We've worked together for-",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm glad I look so young, Jason.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:05:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I was referring to Albert, but okay. No, I'm joking. You both look pretty young. But so you're- you're out of college? Did you skip college? You went to college?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:05:53",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I- I skipped college personally.",
+      "tone": "direct"
+    },
+    {
+      "timestamp": "00:05:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well done.",
+      "tone": "approving"
+    },
+    {
+      "timestamp": "00:05:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Uh, I went to college unfortunately, and I went right through COVID at University of Leeds, I studied...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "computer science and uh yeah unfortunately it was right during COVID so for two of the three years I literally just didn't go to classes. So I guess I paid a-",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So you paid a fortune and got nothing. Got it. Okay, that's ridiculous. So how much debt you got, Boris? How much is the debt?",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:06:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Not much.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:06:13",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's like 40, 50k. In the UK it's quite cheap.",
+      "tone": "matter-of-fact"
+    },
+    {
+      "timestamp": "00:06:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Not much? 50,000 dollars? Okay, we gotta make this startup work.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:06:20",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Compared to... I mean compared to some of the people that like in the US where they're getting on, yeah.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:06:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, Albert. What's your story? You're the business guy, you're a developer? Who are you? You the hustler?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:06:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm the business guy, I'm the hustler. Yeah, I mean I've kind of... I've been a gamer since I was six by the way. I'm like one of the weird people in Gen Z that plays a lot of World of Warcraft, which is kind of like more of a millennial thing, so of course Boris is too by the way, we play together. But I've played since I was six.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:06:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Is that how you met? Did you meet in World of Warcraft?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:06:48",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No, we met through a childhood friend that kind of grew up with, you know, me and grew up with Boris and he just intro'd us about three years ago and we kind of kicked off and became best friends like-",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:07:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Got it. And now you're sitting in a gamer chair, right? That's a gamer chair, Albert? Yeah, it's the Razer, yeah. It's a Razer one. See now this is what I'm like, the Columbo of investors. Like I look for little clues and I'm like, 'Hey this Lon, I noticed Albert is sitting in a chair, the chair is a gamer chair and it's the brand Razer and I had a Razer, my brother-in-law had a Razer mouse and it was used for playing games like World of Warcraft. So you're very much into gaming, are you not, Albert? So you guys vibe coded all this, you did it, there you go, Razer, and it has weights in it too, you can put different weights into it depending on the game you're playing. What's your story? You guys are going to raise money for this? You want to come to an incubator? You have raised money? You did go to an incubator? Have you incorporated? What's the story here? Because this is a great idea.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:07:42",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, yeah, so we have raised money. I mean it's a really exciting time for us. We've raised from Drive-",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:07:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Awesome! Fantastic. Well, and where are you based?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:07:51",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So we're based out of London and Sofia at the moment but with plans to go towards New York, yeah.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Perfect, great. My hometown. Um, it's great. Just when you go there, please don't join ISIS. Okay, so when you-",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:08:05",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We'll try not to.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:08:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You get to Ellis Island, they're going to be like, 'Would you like to go to the ISIS training camp or would you like to go to Brooklyn?' or whatever it is. No ISIS.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:08:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Well, it's a bit like that in London to be honest too, so don't worry. You know.",
+      "tone": "dry"
+    },
+    {
+      "timestamp": "00:08:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, you just have to defend yourself as young people against these ideologies. Don't blow anything up. Fantastic. New York's a big place for this marketing in New York and people experiment and this could be permissionless. So if you just tell brands, 'Hey you can just build whatever you want as a brand', some young person at a brand... I don't know if you're watching the Staples Baddie. Do you know about Staples Baddie?",
+      "tone": "advisory"
+    },
+    {
+      "timestamp": "00:08:34",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Lon, you know about Staples Baddie on TikTok?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:08:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okay.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:08:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "One of our team, Jacob, will very quickly pull Staples Baddie. I found it. I found it. And Staples Baddie, she basically is passionate about Staples and she works at Staples. She is like a baddie in the internet slang and she just talks about like, 'Here's the best pen'. And she was talking about pens the other day and I was looking for a new pen and I don't want to spend a dollar on a pen but I don't want to spend a hundred dollars on a pen.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "...searching for a pen and she came up and one of the pens she liked was the Zebra G-750 that I'd literally bought it. Now, I didn't happen to buy it from Staples, but I did follow her so now I'm giving credit to Staples for it. Anyway, my point is she's getting more views and Lon probably has done a bunch of research on her right now. She's gotten more views and has done more for the brand online than anybody in corporate who spent $10 million or $100 million ever has because she connected with people authentically.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:09:33",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Hiring can be its own full-time job. And hey, guess what? I already have a full-time job. I make podcasts and I invest. But when you're running a small company, we both know every hire matters. You don't want to waste any of the seats you have at your company. And the best partner you can have is LinkedIn Hiring Pro. Why? There's a billion people using LinkedIn. All the great talent are there. If you're proud of your work, you build a LinkedIn page and you update it. LinkedIn Hiring Pro is going to streamline and simplify the entire process for you. Nearly 60% of companies using LinkedIn Hiring Pro, you're going to get an incredible candidate to interview in the first week. And you know, we're looking for a new producer for the pod. We did shoutouts here on the show, we posted it on my social media, we asked friends. You know where we found our next great hire? LinkedIn. And it was competitive. We had like three or four really good choices. So hire right the first time. Post your first job and get $100 off towards your post at linkedin.com/hiringprooffer. That's linkedin.com/hiringprooffer. Terms and conditions apply.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:10:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "She went through journals, she went through pens. Now she's getting picked up or whatever. Now other people, Office Depot's trying to find their baddie, it's become like a whole thing.",
+      "tone": "observant"
+    },
+    {
+      "timestamp": "00:10:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, it's like the the fast food burger thing that you were following last week. It's the same it's the same concept. The McDonald's CEO did a TikTok where he...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:50",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, explain to the audience.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:10:53",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "That was that was really bad, that video.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:10:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I saw that.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:10:56",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "He ate a burger but it he took a really small bite and it looked like he's disgusted by his own burgers. And so now every other fast food CEO has done their own version where they love their burgers and they're eating and stuffing their face with them. And it really became like every single fast food CEO had to do one to get the momentum from this viral McDonald's video.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:11:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think the problem with his video because I did see it. And the problem was he's very robotic. He's almost like an MBA who's a bit on the spectrum, I don't want to diagnose people, but when I say like he's robotic, you know, you get the idea. It's not meant to be...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yes.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:11:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "He's awkward and...",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:11:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "He's awkward and and it it just it... he's awkward. He's not a good enough actor to pull off like, 'I really am enjoying this and I want to eat this burger'.",
+      "tone": "mocking"
+    },
+    {
+      "timestamp": "00:11:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "He's not even able to pull off he's a human, let's be honest.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:11:45",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No. And at one point he goes, 'and this and this is going to be my lunch later' and that's not a hard thing to convince me that you're going to eat a burger for lunch but I don't believe him. In that moment I don't believe him.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:11:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "He also called it a product. He referred to the burger as product. It was like very awkward and he takes a very tiny bite. It was a tiny thing.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:11:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "He does not take a big bite.",
+      "tone": "observant"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I thought the same thing about the Burger King guy honestly, the Burger King guy did one and I was like he also doesn't really take like a big like a man-sized bite like he loves burgers.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:12:10",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "The question is who let them post this? Like there was probably a whole marketing department there for like a year.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:12:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, like...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right, there wasn't a social media person there being like, 'Can you take a bigger bite, like you like your burger?' because that's so dainty. It's like- yeah, he even shows it and it's like it doesn't look like he bit into it.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:12:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's so clear Albert, when you see this, that this person does not like their own product. And that there is literally a salad that has been made to his specification by his chef off camera and he is going to spit out whatever he ate, swish his mouth with some Pellegrino at the exact temperature he wants and then he's going to eat that freaking salad that his chef made that literally each item was weighed and put into his, you know, spreadsheet where he keeps his calorie count. What you need is somebody who actually is sitting there with the chef saying, 'Put more onions on' and like the mustard ratio is off, which is what the McDonald's brothers were doing.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:13:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Albert, what's the vision here for- oh, so anyway back to the permissionless and we're talking about brands? I think you just let the brands do whatever they want on it and then you give them the ability to promote them, which would be just what brands are doing now. Brands just make content, there's no permission to do that and if they get views and they do a good job it gets views organically, but they can boost it and they can pay to boost. I think just paying to boost is such a good idea. And then what about monetization from I'm the creator? Could I put a game up there and say I- if you want more levels you can buy coins or is that annoying to customers and against your philosophy Albert?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:28",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So again, this is a big experiment we want to do. Like look, there's two ways I look at it. You can look at someone like Roblox, right, that's done incredibly creator currency, right? However, their games are 100% more long-form, right, where you're not going to be playing like, you know, a hundred games an hour, right, or more, right? So I mean it's very normal to have micro-transactions and you know, a creator currency where you as a creator can say, 'Hey, look, I want to add an extra level, you know, clearly I got a million plays on my game, let's add an extra level for my big supporters that want to do it', right? Um, this is something we want to experiment with. So yes, we're looking at experimenting with a creator currency, you know, because I think there's a big incentive there for creators, right? So let's say you put a game up, right, short-form, you made it in two minutes, right, you did like three prompts, and you get a million plays, right? And just so we have a game in our minds that we all know, let's just say it's like Candy Crush and Candy Crush doesn't exist, right, and you pioneered the first level. I want there to be a big incentive for you to kind of- this is something you don't see in socials, you know, like iterate on that already posted thing, right, unit of content. This is something you don't do in like Instagram and TikTok, you know, the moment you like press post that's it, you know, the ship sailed.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So I mean there is an aspect that we want to test on this, but to be totally, to be totally frank, we're too early I think to really know how that will go. And you know, we're not the ones that can decide if it will work or not on that.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think you spend the first literal two years just trying to make the tool so good and so addictive that people get into it.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:15:21",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I mean it's already kind of getting there. I mean, have you... do you know anything about like our retention and kind of engagement?",
+      "tone": "eager"
+    },
+    {
+      "timestamp": "00:15:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, tell us a little bit about it.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:15:28",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's like cool. So we launched like mid-January and we've got about 100k users so far. And 20% of them are what we call power users, right? And these guys play more than 25 games per session. And their average session time is around 21 minutes, and they do two sessions a day. So they're playing, you know, just under an hour a day and going through over 50 games. And I think this is really cool because I mean, you saw like a brief glimpse of the feed, we don't have an algorithm, a, which is what drives most social engagement on platforms like Instagram and TikTok. Again, the point on algorithm, you know, I won't linger too long, is never been introduced to gaming before, right? Drives most short-form social engagement but never been done in gaming, right? So we have really high session times for, you know, basically giving you slop, right? That's what it is, you know, until it gets better. And you know, what we're seeing is kind of people are already really excited about it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I think this is going to be a breakout hit. How do you get the first couple of casual users? Where do you find users for the product?",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:16:06",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So we started this with Discord to be honest. You know, we started a Discord community, but we had the idea in November, started a Discord, got it to like 10k people, but as Discord is not all 10k people were kind of super active, kind of like 2k of them were. And these were like our test users. And we had like a running beta of 200 people up until we launched in January. And these guys loved it. Like everyone that made games back then are still making games today. So, you know, insane, you know, commitment to it. And at the time we didn't have like game generation. They were like doing it on their own and you know, uploading it. Um, but then, you know, a huge way, you know, and I won't really touch on ads because I mean ads are a quite obvious way to get users, but you know, another really interesting thing is sharing games, right? Like I don't know, Jason, you mention a lot about socials and sharing stuff. Have you shared a Twitter, a tweet, you know, or...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:17:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Of course, yeah, I mean in the group chat, etc. So that's going to be in high scores and sharing. And then not to mention if you have games that are dual, so like Lon and I could play versus each other or we could invite each other to beat a score, so that's where like the loop could happen, right? A Wordle type game and then I send it to Lon and say, 'Look, I solved this in three out of five, can you try and beat it?'",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:17:37",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, well, yeah, I think it's really interesting because like look, I think the big point I'm trying to make with this is it's not in our culture to share games. Right? Like you say you share, you know, reels on Instagram, you share tweets, but when was the last time you were playing a game like Flappy Bird...",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:17:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, I will say there is one, it's, people will share clips of like specific kills in Call of Duty on YouTube or whatever, which that's like deep gamer culture.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:17:58",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "But that's not, exactly, that's what I'm saying. That's deep gamer culture, it's not...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, it's still content. That's still content. And that's still super niche.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:18:04",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "At the end of the day, like, you know you will, if you are an avid Instagram user, you will daily send Reels. I mean this is a way of keeping in contact. Like I'm a middle child, I have two brothers. I send them Reels every day and they send back, right?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:15",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "But games aren't something people share. Right? They don't. Right? So this is like one of two big questions we had before doing this. Of - and by the way we have the answers, I think it's really interesting. But these are one of two big questions we had before doing this was like, A, do people want to share games? Because they don't right now, right? And B, will this shift look the same as the long-form content YouTube shift to short-form content Instagram TikTok, right? So the answer for the first one is yes, per 100 likes on the app right now, we're getting because we have likes and shares that you didn't see on Boris's beta version because it's a beta version that we're running right now. But per 100 likes we're getting between 30 and 50 shares at the moment. It's a huge amount. Nearly one in two. And then when it comes to the long-form short-form shift, I've already told you, you know, the stats of we have 20% of our user base going through 25 games per session in in less than 25 minutes, right? Around 21 minutes. So I mean the big thing here that was like a huge sign for us was Look, when you are talking about long-form content and before TikTok and Instagram, there is a use case to spend 3 seconds on a video. It's your camera roll. It's genius. The camera roll from iPhone, whatever Android has as well, right? You can go watch 3-second clips that you've taken yourself or a friend has sent you and scroll through them. But games are very different, right?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:19:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:19:27",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Because with a game, you go on Flappy Bird what's the session time? It's like 8 minutes, you know? You go Subway Surfer something like this. I mean don't quote me on those stats, I don't know exactly what Subway Surfer session times and. But it's not 5 seconds, right? But I mean so this was our big question, will people basically do this hyper-casual doom scrolling but for gaming? And well the answer is yes.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:19:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Awesome. Great idea. Can't wait to get working with you and we will have you back on the program in six months and see what your progress has been. Really exciting, Albert and Boris. Thanks for coming on the pod.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:20:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Awesome. Yeah. Thanks for... It's been a pleasure.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "00:20:02",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "I look at 10,000 startups every year. What is the essential nature of Uber or Robinhood, these incredible companies I was lucky enough to invest in? They focused on their customers. They focused on their product. And then they had support for chores. Let's call it what it is. Your incorporation, your banking, your payroll, your benefits, your taxes, all of that back office. You can drown in that or you can find a partner who loves doing chores and Every.io wants to do this detailed work for you. They're going to handle your Delaware C-corp, your EIN, getting yourself a registered agent, all with no legal fees, all without delay. And if you're further along in your founder journey and you need to scale, Every will help you hire contractors in over 200 countries. There's talent everywhere, but there are blockers. Or maybe, hey, health and dental benefits. That's all baked right in. And you're going to get 3% cash back on every dollar you spend with your Every corporate card. So head over to Every.io and stop wasting time on the stuff that isn't growing your company. That's E-V-E-R-Y dot I-O. Every.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Tada! Welcome back to Twist. My name is Alex and today we're going to solve one of the largest pain points in my life, which is picking up after my children. I have a great many children. They leave things all over the house, on top of things, underneath things, it's a mess. It's a constant struggle to keep my house up to a reasonable standard of care, which means that I'm constantly bending over and making bottles and changing diapers.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:21:22",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Now, I love my kids, but oh my gosh, would I not appreciate a little bit more help. The good news for parents like myself out there is that there are companies building humanoid robots that are going to make our lives easier in time. And even more importantly, there's one company called 1X that's making a robot called Neo that's designed just for your home. It's my absolute dream.",
+      "tone": "hopeful"
+    },
+    {
+      "timestamp": "00:21:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So, to tell us more about it, how it's going to come to market and when, please join me in welcoming to the show, it's Bernt Børnich. How are you doing? Welcome to the show.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:21:49",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Hey, great to be here. Looking forward to this one.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:21:52",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So, I've known about 1X for a while, you know, been keeping track of your progress and so forth. But one thing I didn't know was that you guys actually got started building robots not for the home, but for industrial settings. And you had a robot called the E-industrial on wheels years back, but made a pivot towards the home. But take us back in time to the robot that you guys actually put into industrial applications years back.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:22:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "When I started the company, it's been 11 years. It's been a while. The first things that I really wrote down, they still stand today. It's like, we want to make robots that are safe, so they can live and learn among people. They need to be capable, like, they need to have the dexterity, the strength, the agility that we have or they're just toys. And then of course, it needs to be scalable and affordable so that it can have an impact.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:22:45",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And when we designed Eve, it was very early and we didn't have the power density and the technology yet to make this as general as we would wish. But we could make it very general for its time. And it was an amazing robot. And what people might not know is that I actually had Eve at home for multiple years.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:13",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Oh, really? So you had the robot that was designed for what appeared to be industrial use cases, but it was designed for general labor. That's the thing about humanoids, right?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:23:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So to me, humanoids is a play in like you want to create general labor. Because at scale, if you look at the system at the limit, what is going to be the most reliable, the most affordable, the most intelligent and the most helpful is going to be whatever has the largest scale.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:23:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All technology goes through these cycles. And maybe the simplest one to talk about is computers, right? It started with mainframes and then at some point consumer PCs came around and it could scale to this incredible number and the ecosystem and the reliability and the cost and everything that comes with it, right? So now it's just this one tool, it's like the hammer that solves everything.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:23:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And whether you're like typing something up or you're recording a podcast, we're all doing it on the same computer, right? There's no special. In the end, it actually goes full circle. And the market...",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "is so big that you get specialization again. It's happening in computers now, you have like specific computes for inference, for training, for simulation workloads, for all kinds of things, right? Because each of these markets are just gigantic at this point. This is happening with robotics or physical AI. It started with industrial robots. That's kind of like our mainframe. Now we're going through the general labor phase, where you just want to create the machine that is as general as possible, that can really unlock humanity from kind of being bottlenecked by access to productivity.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, in the end it'll probably be all Star Wars and there will be different droids for all kinds of--",
+      "tone": "lighthearted"
+    },
+    {
+      "timestamp": "00:24:45",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Anyway, it's a long wind-and-windy way of saying like, Eve was our best shot of like making something that's as general as possible to get started on this multi-decade journey of how do we create something that can completely and fully kind of empower us as humans to work on the things that matter. And I had it at home because it was very important for me to make sure that like, hey, this is going to be in people's homes at some point.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:25:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:06",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We need to start early. But it wasn't safe enough. That- that's actually the thing like, it was an extremely safe robot for what it is and I would argue it's safer than most of the other robots out there today. But it was a bit too heavy.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:25:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And not quite general enough. And that was really what led us to use this for industrial markets because I- I've been working all my life on robotics and we've built a lot of beautiful robots over the years but like, they didn't have any real world impact. And it was so important to me when I started 1X, we want to do something that has real world impact. So it can't be on YouTube, it can't be in the lab, it has to actually be out there doing things. And those industrial use cases were great early applications.",
+      "tone": "earnest"
+    },
+    {
+      "timestamp": "00:25:51",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "But if you want to make something that is generally useful to humans, you're going to need a couple of things to make that happen. Going off of the original Eve idea into Neo, which is legs and I would presume modern AI techniques that allow the robot to become more generally useful by learning new things on the go. So it sounds like you had a good proof of concept and then you refined it and then imbued it with the latest in kind of modern AI and as a combination you've come up with Neo, which we're going to put on the screen right now and so everyone can see it. And the result is essentially a softer, lighter, more intelligent and more frankly human robot is my read of Neo. Is that a fair encapsulation?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:26:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's for many, many reasons for this. But let me- let me start with a couple of like very important ones that I think is quite unique to 1X. We've been very all-in on we have to create something that moves and interacts with the world exactly like a human does. All the way down to like the smallest interaction of like how what's the stiffness of like the tissue and your skin and how does that interact with the world, right? If you get that right and the sensing and everything...",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Then you can take all of humanity's knowledge, mostly encoded in video and other things that exist out there, and these priors hold, and you can use them to get intelligence off... like, off the ground. And this is so important because the alternative is go out and create an internet-sized data... I'm not saying these things aren't useful, we also use teleop.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:24",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's not the solution to bootstrap your way to having billions of tokens that you can train your models on.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:27:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:31",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So, you kind of have to find some way to bootstrap. And I think that's what makes me the most excited about Neo these days, that we're getting to where we're clearly seeing that that works. Like, the world model work that we've been putting out, and there's some amazing stuff coming right around the corner, actually, on this, that's a continuation of that, really starts proving out that this bet is a bet that holds, and we can get true general intelligence. Most of what you see robots do today on YouTube are, kind of like, fine-tuned policies, as we call them. Meaning, like, it's not necessarily one task, but like you take a set of tasks and you gather a lot of data on specifically these tasks, and you can have the robot do these tasks, maybe in another environment, but the tasks are the same tasks and they're very similar. What we're building here is actually true general intelligence where you can ask the robot to essentially do anything and it will do a pretty good job at it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:28:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Let's go back. We're going to get into world models in a second. But the point you made about Neo, the robot for your home, designed for that, having similar physical attributes to humans—you mentioned like finger skin, tension for example—that allows you to map how humans interact with the world to the robot itself so that way it can learn more cleanly, accurately, quickly from how the world operates. So essentially as you make it more human, it learns faster.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:28:52",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It does, right? It's just like if, if I pick something up, I do that in a specific manner with my fingers. Like, I rotate... if I rotate that one like you just rotated that in your hand, right? The way you use your fingers to do that is very hard to transfer that to like a three-finger gripper or a claw or whatever, right? It doesn't transfer. So, like... yeah, so then you would need to go out and gather all that data.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:29:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:29:19",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "If you've got an engineering team at your company, I'm betting there's a solid chance they're spending far too much time on infrastructure. You need your team building your product to delight your customers, not configuring your virtual network. Render is the all-in-one cloud platform for developers that allows you to deploy, scale, and secure your apps and agents with zero ops. Most cloud platforms ask you to split your focus between product and infrastructure or they force you into platform constraints that you know you'll outgrow in six months. But just connect your GitHub repo to Render and you are live, L-I-V-E. Web services, cron jobs, managed Postgres...",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "The whole stack in one platform. It's time to find out why five million developers are already using Render. Go to render.com/twist and apply for the Render startup program. You'll get anywhere from 500 to 100,000 dollars in free credits depending on your stage and who your backers are. That's render.com/twist.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:30:22",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Now the second one, of course, is that the world is made for us.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:30:25",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:26",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So, like, if you want to get around a home and, like, do all these things that you don't want to do yourself, you kind of have to be very close to a human. And I also think there's something quite magical about creating something that the embodiment kind of connects to us emotionally. And the companion part of the product is also so big part of the product that doesn't get talked enough about. It's not just about doing the labor. It's about doing the labor and being your companion through life and how this can kind of help you interact better with technology. And I think we're very quickly trending, at least for me now that's using this every day, in the direction of like, I don't talk to my computer, I talk to my robot.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:30:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:31:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It gets you away from screens and gets you more present in, like, your everyday life. And I think there's a beautiful story to be told there someday about how this can get us away from screens.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:31:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:31:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, I think also there's an enormous elder care component to this. I mean, we've all heard about how society is graying, how our elderly parents and friends are lonely. And so to me, like, sure, we have pets. Pets are great, but pets can't help you with the dishes. And you know what? What if you're older and need help and you're a little bit lonely? Well, we can kind of fulfill a lot of that with one device in the case of Neo. And I don't view that as dystopian at all. I view it as a way that humans are taking care of humans via technology. And to me, that's a good future.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:31:46",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "100% agree. And this is actually one of the main things that gets me up in the morning. I think we are at a point in history where this is optional. Like, we have to apply technology to solve this because we have to be able to give everyone essentially like dignity in the way you get treated as you age. And people sometimes mistake this for being like a replacement. It is not. And I like to say, as someone who has one at home, like, it doesn't replace my dog, it doesn't replace my kids, it doesn't replace my wife. It is something new, right? And just like a dog is also something new that you add to your family. This beautiful companion through life that's like is always on your side, helps you with everything, remembers what's going on. And I kind of almost see it more like my Hobbes in Calvin and Hobbes.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:32:37",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:32:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:32:39",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, yeah, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:32:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, and if you don't know that reference, Calvin and Hobbes is an American child-focused comic strip and a young boy has a stuffed tiger that he thinks is real and they play games and such. So that's the context of it. So essentially it becomes—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:32:54",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "If you don't get that context, go read it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:32:56",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, Bill Watterson.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:32:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's amazing.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "The Jetsons. I grew up on it, so that's very near and dear to my heart. So here's the thing though. You're talking about, you know, YouTube demos and we're not going to name any names. We're not going to say Figure. We're not going to name any of the companies out there who are famous for doing a lot of demos online versus the ability to make something that works, you know, in your home. So you have Neo at home right now and I know pre-orders are up, um, it's going to start shipping later this year, we'll get to that in a second. 20k or 500 bucks a month. So how good now is Neo at general household tasks? And how quickly is it improving against that problem set? And the context here, Bernt, is that I'm curious about the 1X world model and I'm also curious about how Tele-op plays into this because I love the idea of being able to call an expert into my Neo to help it learn a new task. But at the same time, to me, with my unlettered perspective here, is that certainly after enough usage, we'll have closed those gaps because enough people will have needed that bit of help. So I'm curious about compared to YouTube demos, how we're doing today and how quickly we're improving Neo.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:34:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I want to back up one step.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:34:05",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:34:06",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'll answer that from like a bird's-eye view. So first of all, you asked a question earlier which I kind of covered but not all of it, which is why the home first, right? Because this is about general labor, it's not just the home. But it has to start in the home because we want our machines to live and learn among people, and we want it to like hold a door open for grandma and we want it to understand the social context of work. And this enormous diversity is actually what gives intelligence. So if you're in this narrow environment where you're seeing the same thing every day, you don't actually learn. It's the same for people, like we need diversity to learn.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:38",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I was going to say.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:34:39",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Um, so that's why kind of the home has to happen first. And that's also why I think like this, let's call it the early adopter program, like what we're shipping here, the 20k robots, literally was called the early adopter program. Um, and it's going to be rough. I'm just going to like tell everyone up front, it's going to be rough because it's the first time in history anyone does this. But it's going to be one heck of a journey. And right now, I would say in my home, the robot is doing a reasonably good job. It's not doing everything, but it's like it's doing my laundry, it's doing a lot of the tidying and cleaning, it's doing a lot of fun stuff just around like companionship and just being around, like opening the door if like a guest's coming over or all these things.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:35:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Hell of a party trick.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:35:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Opening a door when the DoorDash guy comes over is actually a lot of fun, um, and just seeing he gets his package. So, um, now the way this works right now is there's two modes. And we're going to listen to customer feedback here also. So like none of this is locked in stone, but the way it works right now is there's two modes. There's best-effort autonomous mode where you're running the world model and it's doing like whatever I ask it to do. And it'll do best effort.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:35:51",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And you can ask it to do things with just speech? You can talk to it?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:35:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, you just talk to it. And it's extremely general, right? The thing that blew my mind the most the other day was like, I just asked the robot like, 'Hey...'",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Pick that post-it note on the board over there and read it to me.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:36:03",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And the robot could do that.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:36:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's not in the training data. Like, that's pretty magical to me, right? That's actual true general intelligence.",
+      "tone": "amazed"
+    },
+    {
+      "timestamp": "00:36:10",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Now, the next time I asked it about the same thing because it was so fun, hey, look at this, like: Neo, go read the post-it note. It didn't get the post-it note. So, it doesn't always work.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:36:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Probabilistic AI, dang it!",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:36:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And this is actually the magic of the world model. Because what it gives you is it gives you this incredible general base layer of intelligence where you can have the robot sensibly, just based on voice, it'll have a sensible approach to essentially any task.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now all you need to do is have it try a bit and then it learns. And that's a lot of fun. There are tasks where this is extremely fun and just works. Like it's very good at laundry, because if it screws up folding my shirt, I just ask it to do it again.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:36:54",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Right. Not a lot of risk.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:36:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "If it's taking grandma's like ancient vase out of the cabinet to put it on the table, I would probably not do it that way. Uh, so there are tasks where this is easily repeatable and where like failure is not a problem, then the robot is actually very good. Opening a door is another good example because we make the robot just like us, right? To be soft, compliant, low-energy, lightweight, so like it won't hurt itself, it won't hurt the door. It can just try until it gets it.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:37:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "For these tasks it's starting to work extremely well. For tasks where you don't want it to fail, then we're still relying largely on scaling our fleet also internally to work on these tasks to get them to where there's an extremely high probability of success and also that you have a very good way of ensuring that if the task is going to fail, you identify it early and you stop.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:37:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Um, this is another thing that's incredibly cool about the world model. Because it wo... it works very similar to how we do when we're thinking. Right? So you said that you have kids. So, if you're going to go around like pick up the coffee cup with hot coffee, then you will immediately kind of like simulate forward what can go wrong. Like through your mind immediately shows up like you pouring coffee on the kid or like oh this is...",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:38:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yup, yup, yup.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:38:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And then you select the safest kind of like trajectory to achieve your task based on all these constraints. And this is literally what the world model is doing. It is looking forward simulating like if I take these actions what will happen? And that's kind of like a search and then like hey, here's the best way to do this. And we're working very heavily on the safety side of that currently on like how do you ensure that the robot always takes the safest possible paths to do things? And how do you ensure that if there's uh unduly risk that the robot does not do the task?",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:38:40",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now this is still a work in pro... this is still a work in progress, but it's incredibly important progress because safety has two aspects. It's the aspect where like the robot just is physically not able to harm you because it's light enough and low energy and soft and all these things that we've been working on for a decade. And that's kind of like that's a separate thing because that's just you prove out that this is safe.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "certification.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:01",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And then you have the AI part of things where right now for customers we limit to some extent what they're always allowed to do because we don't...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's not allowed to cook for example.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:39:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's not allowed to cook, etc., right? No hot liquids, no like dangerous items, these kind of things.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But of course long term we want to be able to do this with a very good safety profile and that's really like I think now the bleeding edge of like what's getting worked on on the AI side to ensure these things can be done safely.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:28",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And in my -- oh sorry, please.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:39:32",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I was just going to say like, so in my house, that best effort AI mode is what I use when I'm home and it's a lot of fun. When I leave for work, I just take out my Neo app and I say that I'm leaving, do all the daily chores. When I come home it's all done. And there is sometimes tele-op involved in that to make sure that everything gets done super well. And I don't care. I'm not there.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:39:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I don't care either.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:39:56",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I just want the laundry to be done. I want there to be clean socks for every child when they're needed. You know, like, I mean, that's-- why people are like oh 500 bucks a month, I'm like, yeah but do you know how much this would save my life? Like it gets up there pretty quickly.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:40:06",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Now, I want to talk about the world model for a second. You guys have written a lot about how VLMs are not a sufficient answer to general intelligence for physical AI, aka robots. For folks out there who are listening who are not as deep in AI as you are, can you explain what a world model is and what it took to build the one you guys have released and apparently are going to be updating very soon?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:40:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "VLMs are essentially take a language model and then bolt on some actions that a robot can do. So and how does this work then in practice, right? So okay, you take a screenshot essentially of the world. So you and you have some text of what you want to achieve and you have a picture of how the world works and then you make a plan. And then you start executing this plan and you take a new screenshot of the world and you do this. And it doesn't really capture the dynamics of the world.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:40:49",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And the beautiful thing about human intelligence is that we understand how the world works. Down to like, we can visualize what will happen when we do things. And to do this you need to capture like the spatial and temporal dynamics essentially. That's a complicated word. But what it essentially just means is we live in 3D and we care about time.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:41:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Mhm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:41:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We see how the world evolves in 3D over time. Language models is like a 2D screenshot. It doesn't have time. It doesn't have 3D. And it works incredibly well, by the way. Like language models are incredible.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:41:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I fucking love them.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:41:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, yeah, yeah. It's just it's not the full solution for general intelligence. It's a very narrow type of intelligence that works really well on a subset of problems. And it's very exciting to see that when you actually train these...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "World models, which is essentially what we're training them on is, can you predict what will happen?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So a very canonical example would be, if I take this and I drop it, what happens?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Mhm.",
+      "tone": "engaged"
+    },
+    {
+      "timestamp": "00:42:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That doesn't sound too complicated. You can do that and that's like... it's not magical, like it learns how physics works essentially.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But when you start doing this at scale, there's a lot of magical things that happen.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:42:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So, for example, back to why the home and why among people. To navigate a social situation to get your Coke in the fridge, the robot needs to understand how people will behave.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, and the world model includes humans!",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:42:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And we can see now in the world model that like, people appear in the world model, right? Because the robot is thinking about what people, how they will look, what they will do, etc. People appear in the world model and behave like people.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:46",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "This is kind of like an inception type argument here, but like, it's kind of like an AGI-complete problem because to be able to fully understand how to interact with the world, you need to be able to fully simulate how people work.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. And it is just, in my opinion, it's the natural next step in intelligence, right? So it's not that we're not using language. Clearly language has, is a part of our intelligence. But language is not the base of our intelligence. That is our sensory-visual body and how we interact with the world.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:43:25",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And you can see this with kids, right? They learn how the world works and then they start to express it through language.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:43:31",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Totally.",
+      "tone": "engaged"
+    },
+    {
+      "timestamp": "00:43:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So, it's, it's really exciting. And we are starting to see, like I said, like the first kind of breadcrumbs of like things with robot data like this working better than the pure digital data, getting us increasingly confident that like the future of AI will be models that actually train on embodiment, not just the web.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:43:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Now we still train on the web. It's not like instead of, it's in addition to.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:43:59",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah.",
+      "tone": "engaged"
+    },
+    {
+      "timestamp": "00:44:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But it's currently a missing component that we're excited about.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:44:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So, when you get the early adopter NEOs out into the market this year, and I do want to ask you about how many, when, and so forth in a second, but putting that aside for now, as you get more of them out there, that increases essentially the NEO footprint in the real world to test its vision model against reality and I presume greatly increase the flywheel of learning that you guys can then bring to bear on future iterations to its intelligence, right?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:44:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "100%. Like, this is one of the most important things we do, right? And why we need to get it out there as early as possible.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:44:35",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "That's why I'm excited actually that you're saying it's going to be a little rough for the early adopter because that means you're getting it out probably as soon as you can to get the learning started to make it better. So how many NEOs do you need in homes to have the right influx of data to learn and improve the world model and embodied intelligence as quickly as you'd like? Is it 100? 1,000?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Is it 10,000? I don't have a good sense of scale.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:45:04",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "The honest answer is that no one knows because it's not been done before.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:45:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "True.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:45:08",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I can give you some first principle numbers.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:45:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, hit me with that.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:45:11",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We know that pre-training on a dataset roughly the size of YouTube gets you very far with respect to general intelligence. Now, of course, that data doesn't actually have what we call agentic behavior, and it doesn't have physical interactions with like forces. The agentic behavior is actually extremely important, so let me spend 30 seconds on it. When we train on video, you only know what's gonna happen next. You don't know what was the action that the agent took. So like, you know, if I'm gonna pick up my phone over there, I think first of all I have a goal I want to achieve. I want to pick up my phone. So I know the goal. And then I decide to take an action to go do it, and then you see the result. So these are like the three different types of data. Video only has the last one. Robot data has all three. It has the internal state of the robot of what was it thinking, what was it trying to achieve, what was the actions it decided to attempt, here you see the result. So this data is way richer. So we hope we can get away with way less data. But if you look at YouTube as an example, about 10,000 robots you will be having about the same influx of data as YouTube has. So that's a good baseline.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:46:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's not a small number, but not an insurmountably large number because you could get half of YouTube with 5,000 I presume and it kind of scales up and down. And the YouTube corpus is so big. Like that's actually a pretty impressive amount of data influx from just 10,000 robots compared to all of YouTube. Huh. Okay.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:46:47",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So just to tell the quick story, it's not all of existing YouTube, but the upload rate to YouTube, which is growing, is about the same as the influx from 10,000 robots.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:46:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, okay. I see. I see. I see. Okay. Well, that's still doable. That's doable. That's doable. Yeah.",
+      "tone": "understanding"
+    },
+    {
+      "timestamp": "00:47:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "But it doesn't stop there, of course. Like the goal here is to create something that is so intelligent that it can really accelerate the progress of humanity, right? You will have robots helping us build out all our infrastructure. Make sure we have enough manufacturing, enough compute, data centers, power infrastructure. Everything is done sustainably because we don't have to cut corners on cost and labor. Why not do everything sustainably? Progress science, like these AI models will not really help us solve all the outstanding problems in science or especially medicine without doing that lab work, right? Your AI needs to design the experiment, run the experiments, qualify and make sure the data was done correctly, iterate on this. Like that's how you do research. And today it's extremely bottlenecked in that models are getting good at coming up with suggestions, but they can't close the loop and check whether they worked.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:47:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, we have to go into the real world...",
+      "tone": "contemplative"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "for that and if we're going into that, we're going to ape human institutions like laboratories and so forth, so it makes sense to have a humanoid robot doing that. It's just, it's funny because when we're talking about Neo today, I'm thinking about having a helper in the house because that's what I need and I'm fixated on that because it's what I want. But in your example of improving the intelligence of these general-purpose robots over time to do more and more things, to me they're moving in some sense away from the home and into a dark factory or a dark lab where there's not humans per se, it's just robots doing what we need them to do. So it's interesting that we end up training them at home to be more generally useful out on their own. It's almost like we're raising children as a group, as a class of robots, and then sending them out into the world. Um, what's the time gap between, you know, Neo getting good enough at the home stuff that you're like, 'this is ready for everyone to buy one,' and when we can have humanoid robots helping us automate laboratory work to accelerate science? Is that a short time period or is that relatively long?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:48:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's quite short. Um, the home is actually the most complex. Which is why it's such a good place to start, because then you're just like, you're jumping through the water and now you need to learn to swim, right? So like, um, I do want to make sure that we really strive to satisfy all of our customers and the demand, and that's kind of like what's constraining it now. So exactly when we roll out in some of these other markets really depends on how quickly we can scale manufacturing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:49:35",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Okay, so let's talk about that. Um, before we jumped on, you guys just opened up a new facility in San Carlos. You're going to have, I think you said design and even manufacturing under one roof?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:49:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Absolutely everything under one roof here. So research, development, AI, production, service. And in production we also mean manufacturing development and R&D, right? We build the machines that build the machine. Um...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:50:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Wait, everything? Under one roof?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:50:06",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Everything under one roof and this in actually, this is one of the things that I'm very proud of with 1X and it's quite unique. We literally go raw materials, even further than raw materials, we develop new alloys and materials, all the way up to the foundation models on the AI side on a one roof.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:50:22",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Wow.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:50:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "For zero to one technology, this is incredibly important. Because the development speed is just going to be a function of how quickly you can iterate across the entire stack. And if you're reliant on suppliers, it's going to be extremely hard. But even more importantly, almost all of the greatest discoveries that we have made on how to make robots safer, more affordable and just in general better, they are between the lines of these disciplines of science, right? So it's when someone on the hardware side says like, 'Hey, I see you're struggling with that. If I do this, I think your model would learn better.' Or like, 'Oh, you need these tolerances in assembly? That's really hard. You don't actually need that. I can just use...'",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "neural network we can learn how to calibrate this. And you can like loosen up your tolerances and we can produce cheaper.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:51:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And it's like this incredible kind of almost like Bell Labs types think of science and I think it's the most exciting project in the world for work, actually.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:51:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:51:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's one of the few, I think, really good examples of when in-person work is not just better, it's much better. And I like that you're having that effect.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:51:28",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "But, at this new facility in San Carlos, when you're at early stages of productivity, how many Neos can you make per quarter, per year? Is it 5, 50, 500?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:51:41",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The factory that we have in Hayward, that is now up and running fully, and that will be the factory that delivers home robots this year. That can do tens of thousands per year. The one that we're building in Hayward now can do hundreds of thousands per year.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:51:55",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Tens of thousands per year is a lot given our earlier point about YouTube. But I'm curious, is there enough early commercial demand from early adopters to keep your factory running at that pace? Or are you guys more looking to sell like a few thousand to get them out there just to start the faster learning process?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:52:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "There's demand, but of course the product quality needs to be there. So right now we're being very cautious and we're essentially doing very fast ramp of like a batch, then we evaluate in the market because we do the...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:52:27",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We're not at end customers yet? Or in homes?",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:52:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right, and things are under NDA and stuff, but we've of course we're testing this. So it goes into homes and some other industrial applications. And then we get data, we figure out how well it works, we figure out what's not optimal, we rev the design, we do a quick batch again.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:52:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So we're kind of like running our factory at like full steam, retool, full steam, retool, and we're doing this until the product is rock stable. You only get to do this once. Like this is the first time in history that anyone does this and ships robots like this.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:53:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And we want to make it right. That's also why we haven't really given a specific date on shipment. We've said we're shipping 2026, and we will, but we're on good track for that.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:53:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But it is when it's ready, because you only get to do this once.",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:53:32",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "No, I... that makes perfect sense to me. I can wait six months. It's fine. I will not wait six years, but I will wait six months.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:53:39",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Um, I'm a financial nerd, Bernt, so I'm really curious about the $20,000 price point. And everyone knows economies of scale bring down the price of things and so forth. You're doing smaller batches.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:53:56",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "But does $20,000 cover the bill of materials? Does it cover bill materials plus labor? Is it profitable? Is it super unprofitable? I just don't know where to peg that number in terms of economics for humanoid robots.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Scale and affordability from day one. How are you gonna manufacture this at scale? Then you're not gonna get there. Because you essentially get locked into a corner because you're making specific decisions about the design and actually even the technical direction. So if I'm gonna make a parallel, I'd say do you want to make an electric car or gasoline car? You're not gonna make a gasoline car in small volume and then when you're like, 'Now we're gonna ramp, let's make an electric car.' No, like you've spent the last decade making the wrong technology. It doesn't work. So...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:54:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So, I have to take you back all the way to the beginning then. Because if you don't think about the...",
+      "tone": "calm"
+    },
+    {
+      "timestamp": "00:54:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:54:26",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "No, like you've spent the last decade making the wrong technology. It doesn't work. So...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:54:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:54:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We really thought about this from day one. There's gonna be billions of humanoids on the planet, meaning you need to think about is there any special raw materials in there that are rare? Even further, like how much raw material is in there? Neo just weighs 66 pounds rather 30 kilos, almost a third of most of our competitors. Well, that's a third of the raw materials. That really matters when you're gonna make a billion.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:54:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, because it dramatically reduces the number of ships that have to bring gallium ore or whatever, you know, to the...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:55:01",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Mining, refinement, like at a billion, you're starting to even think about like, oh, that's a significant percentage of the world's aluminum and magnesium. Like how are you gonna refine that, right?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:55:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "My first thought was when you said billions was, 'Do we have enough metal available to us?' Because then I think about how many cars we make per year, but it's not a... it's not an insubstantial demand on, you know, raw materials, resources, and commodities. Like that's a lot of new product to bring to market.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:55:23",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Oh, clearly it is. Yeah. But you have to think about that, and then you have to think about like tolerances, right? How accurate does this need to be? Because it sets your... the cost of refining. Essentially at these volumes, you take raw material cost and you refine it into finished product, and that refinement step can actually be very cheap if you have the right output, right? If what you need is something that doesn't need to be that accurate. So that has to be a core part of your design. And what we're doing here with these unique motors that we have developed that allows us to pull on these tendons instead of the classical gears...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:56:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "One of the earliest discoveries of the company even before Eve went to the industrial applications. Yeah.",
+      "tone": "informed"
+    },
+    {
+      "timestamp": "00:56:35",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, yeah, so this is like Neo is just the nth generation of that technology, right? That is extremely lenient with respect to manufacturing. Like we can get away with very few parts, very loose tolerances, no special materials. And if you then do all this and you start also working really early on how to automate assembly, and of course we are using robots in our factory, robots building robots, Neos are building Neos.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:56:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Text me a picture of that when we're done, thanks.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:56:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Then we... we can get very low on cost. That being said, it's an incredibly complex system. It's probably one of the most complex systems on the planet. So it's gonna take us some volume to get the cost down to where we would make money on that and have a healthy margin, but it is a sustainable business, which is the most important.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'm just really glad to hear that because $20,000 is the point at which I can probably just buy one, you know, without having to like do math. But if it was 50, then I'm going to say I'd rather have, you know, a year of my kid's college paid or something. So if it works at 20, hot damn, that I can see, you know, the real volume coming out and it just being tremendous. I'm really excited about this. And I take it, given the work you've done on supply and components and stuff, you're relatively de-risked from China in terms of supply chain issues?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:57:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "There are certain key components that is very hard to get.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Ah, yep.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:57:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Magnets being the obvious one that everyone talks about.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:44",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Ah, yep. Enormously. Yep.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:57:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now we're deep into magnets, right? Because like even the first year of 1X, what I was working on was like designing new processes for magnets because the way we do our own motors. And we have some great companies there that we've been working with in China on like co-developing these specific new ways of doing magnetics. We're working towards also ensuring that this is something we can do in the US.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:58:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:58:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And there are amazing programs around this that are getting spun up, so I'm very hopeful that this will be something that we can handle in the future. But it's not there yet. It's one of the many things that need to happen. But I mean, outside of that, most of it is raw materials that is generally accessible on open market, right? So copper, aluminum, etcetera, steel. It's cheaper in some of the countries in Asia, but it's also available here.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:58:42",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And you don't have to worry about boats, shipping times, tariffs, and other things.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:58:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right. Last question before I let you go, Bernt. You guys initially raised from, as far as I can tell, like some Norwegian investors. You went ahead and you've expanded your capital base with investors from around the world. How much capital do you need to get NEO through its launch this year and then into its next generation? Is that another couple hundred million? Is that billions of dollars? I'm curious.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:59:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The short answer is we have enough money to ship NEO.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:59:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:59:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The longer answer is, I think the impact that this is going to have on humanity is not yet fully understood. It's probably going to be one of the most impactful technologies ever. Everything we consume is physical in the end. And intelligence becoming general and physical is going to unblock essentially a new way of life, right? I am very excited to push that to happen as fast as possible because I think it can build a very, very beautiful world where we all have what we need and where we can all focus on what makes us human instead of doing physical labor so that we can get paid.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And that's a long way of saying we will probably raise money because we can accelerate the path.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:00:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:00:10",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But we don't need it to ship to consumers. That's the basic...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "01:00:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm just trying to figure out how much you need. Like, uh, because if you were a SaaS company, I could literally just like sit down, think about your number of employees and your current CAC and like I could do the math. Robots are so different. So-",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:00:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, let me say like this. Like, if you want to go max-max here...",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "01:00:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:00:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's we need as much compute as everyone else, right? If we're going to train the best models. Now, we're going to train way better models than everyone else because we're going to have more, we're going to have better data. I'm not saying we're going to be smarter than them, there's a lot of smart people there, but we're just going to have better data. Um, and then we need to also build out all the manufacturing. So, it's going to be a very capital intensive race. That's the, that's the short way of me saying that. Now, we do have a very potentially unfair advantage here though, which is that we can labor arbitrage our own scale.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "01:01:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Because you're making your own general purpose robots. No, I mean, uh, have you thought about just calling up Jensen and saying, look, I want, I'm in a hurry. I'm going to buy so much compute. You should definitely give me another pile of money so I can just go faster now. Like, I guess I'm happily impatient, if that makes sense. I would like this future to become even faster. So I just hope that the investors out there get it and are like knocking on your door constantly trying to give you more money because I don't think we can get to this future fast enough. I'm just, I'm just excited.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:01:34",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I love the positivity. It's going to be a heck of a future.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:01:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. So, uh, come back on the show when Neo starts to go out to non-NDA people, because I'm really curious to see how the reviews come and uh, I'm going to start asking my spouse if I can, uh, if I can throw my name down. But I think she's going to have something more practical in mind. But Bernt, thank you so much for coming on and explaining this to me and walking me through it. Um, if people want to learn more, what's the website? Where should they go?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:02:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "1x.tech. Clean and simple.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:02:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Clean and simple. This was a lot of fun. A lot of fun. Thank you for the show.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:02:07",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I appreciate you.",
+      "tone": "grateful"
+    }
+  ],
+  "highlights": [
+    "Nanogram is a \"TikTok for mobile games\" platform that allows users to instantly play casual games in a scrollable feed and generate new, fully playable titles using AI prompts in under 90 seconds.",
+    "The platform introduces a \"remix culture\" to game development, enabling players to fork existing games and use AI to instantly modify mechanics, such as adding new assets or changing gameplay rules.",
+    "1X Robotics is developing Neo, a humanoid robot specifically designed for the home that utilizes \"soft\" physical attributes and human-like weight to ensure safety and allow it to learn more effectively from human movement data.",
+    "To move toward true general intelligence, developers are shifting from standard language models to \"world models\" that simulate 3D physics and social dynamics, helping robots predict outcomes before they act.",
+    "The goal for domestic robotics is to create a massive data flywheel where the collective learning of 10,000 active robots would generate an influx of data equivalent to the global upload rate of YouTube."
+  ],
+  "summary": "The transcript features two primary segments from *This Week in Startups*, focusing on how generative AI is disrupting both digital entertainment and physical labor. In the first segment, Nanogram co-creators Albert Brotherton and Boris Radulov introduce their platform, described as \"TikTok for mobile video games.\" The app features a feed of hyper-casual games that users can play instantly or create in seconds using natural language AI prompts. By leveraging a custom game engine and AI agents, users can \"remix\" existing games or generate new ones (such as a 3D version of Flappy Bird) without any coding knowledge. The founders highlight strong early engagement, with power users playing over 50 games a day, and suggest a future business model centered on interactive, high-conversion ad content for brands.\n\nThe second segment features Bernt Børnich, CEO of 1X, discussing \"Neo,\" a humanoid robot specifically designed for the home. Unlike traditional industrial robots, Neo is lightweight (66 lbs), soft, and safe for human interaction. Børnich explains the company’s shift toward \"World Models\"—AI that predicts physical outcomes in 3D space and time—which allows the robot to learn general tasks like folding laundry or tidying up through a mix of autonomous behavior and tele-operation. 1X emphasizes a vertically integrated manufacturing approach to keep the target price at a relatively accessible $20,000. The ultimate goal for Neo is to provide general labor and companionship, eventually scaling from home assistance to automating complex environments like laboratories and factories.\n\nThe overarching theme of the discussion is the democratization of complex tasks through AI. Both Nanogram and 1X aim to lower the barrier to entry for creation and productivity—whether that is allowing a 14-year-old to develop a video game in 90 seconds or enabling a household robot to understand the social and physical context of chores. Both companies rely on \"flywheels of data,\" where high user engagement and robot deployment provide the diverse datasets necessary to move AI from narrow, fine-tuned applications to true general intelligence in both digital and physical realms.",
+  "description": "This Week In Startups is made possible by:\n\nLinkedIn Jobs - LinkedIn.com/twist \n\nEvery.io - every.io \n\nRender - render.com/twist\n\nToday’s show:\n\nImagine scrolling through mobile games the way your flip through your TikTok feed. What if you could build your own game in 90 seconds and share it with the world? That’s what over 100,000 users are enjoying right now on Nanogram.\nOn TWiST, we meet the co-founders: 22-year-old CEO Albert Brotherton and 24-year-old CTO Boris Radilov. They demo the app for us on the air, and Jason immediately spies the potential. Power users are playing 25+ games per session already.\nWe’re digging into the co-founders future plans, including the potential for ads in your game feed, in this TWiST exclusive.\nPLUS domestic helper bots are here. NEO from 1X Technologies can do the laundry, open the door for guests, and even read and understand Post-It Note messages.\nAlex talks with CEO Bernt Børnich about building the safety-first 66-lb humanoid, why world models are so crucial for training robots in particular, and why homes are even tougher places for robots to navigate than factory floors.\n\nTimestamps:\n\n0:20 Nanogram co-creators Albert and Boris join the show\n3:03 Nanogram is TikTok for casual AI-generated games\n3:48 Building Nanogram with Google Gemini\n5:32 Integrating ads into the game feed\n6:57 Roblox: https://www.roblox.com World of Warcraft: https://worldofwarcraft.blizzard.com\n7:46 Building in New York\n8:28 Jason is obsessed with the Staples Baddie https://www.tiktok.com/@blivxx\n9:33 LinkedIn Jobs - Hire right, the first time. Post your first job and get $100 off towards your job post at https://LinkedIn.com/twist\n19:57 Every.io - For all of your incorporation, banking, payroll, benefits, accounting, taxes or other back-office administration needs, visit https://every.io\n21:01 1X CEO and founder Bernt Børnich joins the show https://x.com/BerntBornich\n21:52 Designing robots to actually live around people\n25:51 Teaching NEO about movement in the physical world\n28:21 TechCrunch coverage: https://techcrunch.com/2026/01/13/neo-humanoid-maker-1x-releases-world-model-to-help-bots-learn-what-they-see/\n29:19 Render: Find out why 5 million developers are already using the all-in-one cloud platform, Render. Go to https://render.com/twist and apply for the Render Startup Program to get $500-$100,000 in free credits, depending on your stage and backers.\n30:25 Moving beyond training data to true general intelligence\n32:38 Ensuring NEO pursues the safest possible path\n33:40 Why are world models so important?\n41:12 1X World Model Challenge on GitHub: https://github.com/1x-technologies/1xgpt\n44:35 Robots need to train on a lot of data… Where does it all come from?\n49:35 Manufacturing NEO from raw materials in San Carlos\n55:53 Robots building robots\n\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+  "duration": 3727,
+  "people": [
+    "Jason Calacanis",
+    "Alex Wilhelm",
+    "This Week",
+    "In Startups",
+    "Albert Brotherton",
+    "Boris Radilov",
+    "It Note",
+    "Building Nanogram",
+    "Google Gemini",
+    "New York",
+    "Staples Baddie",
+    "Render Startup",
+    "World Model",
+    "San Carlos",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason",
+    "Will Guidara",
+    "Steve Huffman",
+    "Brian Chesky",
+    "Bob Moesta",
+    "Aaron Levie",
+    "Sophia Amoruso",
+    "Reid Hoffman",
+    "Frank Slootman"
+  ],
+  "topics": [
+    "Nanogram's AI-generated mobile games and TikTok-style feed",
+    "The development and features of the NEO humanoid robot for domestic use",
+    "The role of AI world models and embodiment in training general intelligence",
+    "Strategies for interactive advertising and creator monetization in gaming",
+    "Challenges in scaling robotics manufacturing and hardware supply chains"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/O2zIQW6gnlc/maxresdefault.jpg",
+  "date": "20260415",
+  "youtube_url": "https://www.youtube.com/watch?v=O2zIQW6gnlc",
+  "youtube_metadata": {
+    "title": "This 22-Year-Old Built TikTok for Mobile Games, and It’s Growing Fast | E2276",
+    "description": "This Week In Startups is made possible by:\n\nLinkedIn Jobs - LinkedIn.com/twist \n\nEvery.io - every.io \n\nRender - render.com/twist\n\nToday’s show:\n\nImagine scrolling through mobile games the way your flip through your TikTok feed. What if you could build your own game in 90 seconds and share it with the world? That’s what over 100,000 users are enjoying right now on Nanogram.\nOn TWiST, we meet the co-founders: 22-year-old CEO Albert Brotherton and 24-year-old CTO Boris Radilov. They demo the app for us on the air, and Jason immediately spies the potential. Power users are playing 25+ games per session already.\nWe’re digging into the co-founders future plans, including the potential for ads in your game feed, in this TWiST exclusive.\nPLUS domestic helper bots are here. NEO from 1X Technologies can do the laundry, open the door for guests, and even read and understand Post-It Note messages.\nAlex talks with CEO Bernt Børnich about building the safety-first 66-lb humanoid, why world models are so crucial for training robots in particular, and why homes are even tougher places for robots to navigate than factory floors.\n\nTimestamps:\n\n0:20 Nanogram co-creators Albert and Boris join the show\n3:03 Nanogram is TikTok for casual AI-generated games\n3:48 Building Nanogram with Google Gemini\n5:32 Integrating ads into the game feed\n6:57 Roblox: https://www.roblox.com World of Warcraft: https://worldofwarcraft.blizzard.com\n7:46 Building in New York\n8:28 Jason is obsessed with the Staples Baddie https://www.tiktok.com/@blivxx\n9:33 LinkedIn Jobs - Hire right, the first time. Post your first job and get $100 off towards your job post at https://LinkedIn.com/twist\n19:57 Every.io - For all of your incorporation, banking, payroll, benefits, accounting, taxes or other back-office administration needs, visit https://every.io\n21:01 1X CEO and founder Bernt Børnich joins the show https://x.com/BerntBornich\n21:52 Designing robots to actually live around people\n25:51 Teaching NEO about movement in the physical world\n28:21 TechCrunch coverage: https://techcrunch.com/2026/01/13/neo-humanoid-maker-1x-releases-world-model-to-help-bots-learn-what-they-see/\n29:19 Render: Find out why 5 million developers are already using the all-in-one cloud platform, Render. Go to https://render.com/twist and apply for the Render Startup Program to get $500-$100,000 in free credits, depending on your stage and backers.\n30:25 Moving beyond training data to true general intelligence\n32:38 Ensuring NEO pursues the safest possible path\n33:40 Why are world models so important?\n41:12 1X World Model Challenge on GitHub: https://github.com/1x-technologies/1xgpt\n44:35 Robots need to train on a lot of data… Where does it all come from?\n49:35 Manufacturing NEO from raw materials in San Carlos\n55:53 Robots building robots\n\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+    "duration": 3727,
+    "view_count": 3309,
+    "like_count": 73,
+    "channel": "This Week in Startups",
+    "upload_date": "20260415",
+    "thumbnail": "https://i.ytimg.com/vi/O2zIQW6gnlc/maxresdefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

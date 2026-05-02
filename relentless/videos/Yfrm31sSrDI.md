@@ -1,0 +1,531 @@
+---
+video_id: Yfrm31sSrDI
+title: "Peter Beck — We're scaling Electron faster than SpaceX scaled Falcon 9"
+channel: Relentless
+duration: 3919
+duration_formatted: "1:05:19"
+view_count: 31863
+upload_date: 2026-03-16
+url: https://www.youtube.com/watch?v=Yfrm31sSrDI
+thumbnail: https://i.ytimg.com/vi_webp/Yfrm31sSrDI/maxresdefault.webp
+tags:
+  - Peter Beck
+  - Rocket Lab
+  - Electron
+  - Neutron
+  - SpaceX
+  - Falcon 9
+  - rockets
+  - space launch
+  - production scaling
+  - carbon fiber
+  - New Zealand
+  - Silicon Valley
+  - NASA
+  - Elon Musk
+  - aerospace
+  - startup hustle
+---
+
+# Peter Beck — We're scaling Electron faster than SpaceX scaled Falcon 9
+
+## Summary
+
+Peter Beck, founder and CEO of Rocket Lab, sits down with Ti Morse in what is clearly filmed at a Rocket Lab facility for a deeply personal conversation about building a rocket company from nothing. Beck, who started Rocket Lab with just $100 in New Zealand — a country with "tall poppy syndrome" that discourages ambition — describes how resource constraints actually forged the company's identity. The culture of scrounging junkyard parts, sleeping at the factory, and rebuilding engines over sleepless weekends became Rocket Lab's defining competitive advantage.
+
+The interview covers Beck's philosophy on production scaling, launch anxiety, and why he hates launch day. Beck reveals that the stress of launches gets worse, not better, with experience — because as a public company with paying customers, the stakes continuously rise. He shares a harrowing story of an engine exploding before a critical customer meeting, forcing the team to pull an all-nighter to completely rebuild and hot-fire a replacement engine by Monday morning. He also discusses his first trip to Silicon Valley, where after a successful meeting with Vinod Khosla, he immediately went to Whole Foods and bought an American flag.
+
+Beck opens up about Rocket Lab's path to profitability, his decision to go public to create an enduring company that outlives its founder, and the strategic reasoning behind using carbon fiber for Neutron rather than steel like Starship. The conversation reveals a founder who is deeply optimistic yet relentlessly grounded in engineering reality, someone who views every day as "what's the next problem to solve" rather than looking back at past wins.
+
+## Highlights
+
+### "I Started Rocket Lab with $100"
+
+[![Clip](https://img.youtube.com/vi/Yfrm31sSrDI/hqdefault.jpg)](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=287s)
+
+> "$100? Yeah. $100, yeah. Yeah, yeah."
+> — Peter Beck, [4:47](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=287s)
+
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*4:47-5:40" "https://www.youtube.com/watch?v=Yfrm31sSrDI" --force-keyframes-at-cuts --merge-output-format mp4 -o "beck-started-with-100.mp4"
+```
+</details>
+
+### "We Rebuilt an Engine Over a Weekend"
+
+[![Clip](https://img.youtube.com/vi/Yfrm31sSrDI/hqdefault.jpg)](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=903s)
+
+> "Oh my god there's so many. I mean like in the customer room there's there's beds and pillows. So I mean there's been so many nights. But I think the probably most defining moment for us was we had a engine fire uh and a couple of days later we had some very important customers coming to visit."
+> — Peter Beck, [15:03](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=903s)
+
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:03-16:30" "https://www.youtube.com/watch?v=Yfrm31sSrDI" --force-keyframes-at-cuts --merge-output-format mp4 -o "beck-engine-rebuild-weekend.mp4"
+```
+</details>
+
+### "After a Launch Failure This Place is a Morgue"
+
+[![Clip](https://img.youtube.com/vi/Yfrm31sSrDI/hqdefault.jpg)](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2100s)
+
+> "Oh man. You know, it's it's for me, it's like yeah when when something has gone wrong. I mean, like after a launch failure this place is a morgue."
+> — Peter Beck, [35:00](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2100s)
+
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*35:00-36:00" "https://www.youtube.com/watch?v=Yfrm31sSrDI" --force-keyframes-at-cuts --merge-output-format mp4 -o "beck-launch-failure-morgue.mp4"
+```
+</details>
+
+### "The Great Thing About America is Anything's Possible"
+
+[![Clip](https://img.youtube.com/vi/Yfrm31sSrDI/hqdefault.jpg)](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2777s)
+
+> "Just so invigorating and exciting. Um because the great thing about America is anything's possible. You know, I don't, there's no tall poppies, there's no, like, you can just literally dream up the most insane thing and someone's like, yes, let's do that."
+> — Peter Beck, [46:17](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2777s)
+
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*46:17-47:30" "https://www.youtube.com/watch?v=Yfrm31sSrDI" --force-keyframes-at-cuts --merge-output-format mp4 -o "beck-america-anything-possible.mp4"
+```
+</details>
+
+### "We Make the Ferrari of Rockets"
+
+[![Clip](https://img.youtube.com/vi/Yfrm31sSrDI/hqdefault.jpg)](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1742s)
+
+> "Well, it it comes down to my belief that, um, if you build something beautifully, then you've taken the time to do everything beautifully."
+> — Peter Beck, [29:02](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1742s)
+
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*29:02-30:30" "https://www.youtube.com/watch?v=Yfrm31sSrDI" --force-keyframes-at-cuts --merge-output-format mp4 -o "beck-ferrari-of-rockets.mp4"
+```
+</details>
+
+### "My Job is to Fix Sh*t"
+
+[![Clip](https://img.youtube.com/vi/Yfrm31sSrDI/hqdefault.jpg)](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2654s)
+
+> "Perfect day. I don't think there is such a thing. I mean, the reality is, the reality is that as one scales a company you go from building stuff to fixing stuff. And my job is primarily to fix shit."
+> — Peter Beck, [44:14](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2654s)
+
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*44:14-45:00" "https://www.youtube.com/watch?v=Yfrm31sSrDI" --force-keyframes-at-cuts --merge-output-format mp4 -o "beck-job-is-fix-shit.mp4"
+```
+</details>
+
+## Key Points
+
+- **Biggest bottleneck to launch cadence** ([1:04](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=64s)) - For Electron, customer readiness is often the constraint more than production capacity
+- **Growth of new space startups** ([1:35](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=95s)) - Beck notes the industry has always had startups promising cheap launch, but most fail because launch is "incredibly difficult"
+- **Tall Poppy Syndrome in New Zealand** ([4:07](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=247s)) - New Zealand's culture discourages ambition, which paradoxically made Beck more determined
+- **Starting with $100** ([4:47](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=287s)) - Unlike SpaceX's $100M start, Rocket Lab began with extreme resource constraints that forged their scrappy culture
+- **Scaling Electron vs focusing on Neutron** ([7:34](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=454s)) - Launch is only one-third of the company; spacecraft components and space systems are growing faster
+- **Rocket Lab operating system** ([9:00](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=540s)) - The production team runs autonomously — Beck focuses on things that are not running well
+- **Culture of "fuck it, let's do it"** ([11:16](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=676s)) - Scary problems get tackled head-on; nobody at Rocket Lab will let a problem fester
+- **Worst supplier experiences** ([12:10](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=730s)) - Rocket Lab embeds people in supplier buildings to ensure quality; the aerospace supply chain is notoriously unreliable
+- **Engine explosion before customer visit** ([15:03](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=903s)) - Team rebuilt an engine from scratch over a weekend, hot-fired it Monday morning before VIP customers arrived
+- **First mission to the moon** ([19:28](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1168s)) - The Capstone mission was a $10M project that "on paper closed but in practice was impossible"
+- **Why Beck hates launch day** ([32:36](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1956s)) - Launch stress gets worse with time because stakes keep rising with more customers and public accountability
+- **Production hell with rockets** ([38:23](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2303s)) - Transitioning from R&D to production scaling was exactly like the "production hell" described by other hardware founders
+- **Dinner with Elon** ([41:22](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2482s)) - After launching successfully, Beck met with Musk, which helped validate Rocket Lab's approach
+- **Keeping the hiring bar extraordinarily high** ([42:06](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2526s)) - Beck personally reviews unusual hiring decisions and pushes back when managers try to lower standards
+- **Buying an American flag at Whole Foods** ([46:10](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2770s)) - After his first successful Silicon Valley meeting with Vinod Khosla, Beck was so excited he bought a flag
+- **Going public for endurance** ([51:42](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3102s)) - Beck wanted Rocket Lab public to create accountability and ensure the company outlives its founder
+- **Carbon fiber vs steel for Neutron** ([1:01:45](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3705s)) - Engineering tradeoffs favored carbon fiber for Neutron's specific mass and performance requirements
+- **Relentless optimism** ([1:04:25](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3865s)) - Beck says optimism is critical in aerospace because the challenges are so extreme only optimists survive
+
+## Mentions
+
+### Companies
+- **Rocket Lab** ([0:38](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=38s)) - Beck's company, founded in 2006 in New Zealand, now a public company ($RKLB)
+- **SpaceX** ([4:38](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=278s)) - Referenced throughout as comparison; Elon started with $100M vs Beck's $100
+- **NASA** ([23:02](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1382s)) - Key customer; Rocket Lab built credibility through successful NASA missions including Capstone
+- **Khosla Ventures** ([48:37](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2917s)) - Vinod Khosla's firm; Beck's first major Silicon Valley meeting
+- **Skybox** ([48:37](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2917s)) - Imaging company invested in by Khosla, acquired by Google, which connected Khosla to space
+
+### Products & Technologies
+- **Electron** ([1:04](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=64s)) - Rocket Lab's small launch vehicle, now in production scaling faster than SpaceX scaled Falcon 9
+- **Neutron** ([7:34](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=454s)) - Rocket Lab's next-gen medium-lift rocket, designed from the ground up for production and reusability
+- **Falcon 9** ([7:24](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=444s)) - SpaceX's workhorse rocket, used as benchmark for Electron's scaling trajectory
+- **Starship** ([1:01:41](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3701s)) - SpaceX's mega-rocket; switched from carbon fiber to steel, but Beck explains why carbon fiber is right for Neutron
+- **Carbon fiber** ([1:01:45](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3705s)) - Key material choice for Neutron structure, different tradeoff from Starship's steel
+
+### People
+- **Elon Musk** ([23:22](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1402s)) - Referenced throughout; Beck discusses similarities in operating style and their dinner meeting
+- **Vinod Khosla** ([48:37](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2917s)) - VC who Beck met on his first Silicon Valley trip, which was a pivotal moment
+- **Jeff Bezos** ([42:59](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2579s)) - Referenced for his "bar raiser" hiring philosophy that Beck relates to
+- **Mark Zuckerberg** ([1:00:00](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3600s)) - Ti references Zuckerberg telling Paul Graham he wanted "everything working" rather than being "felt as a force"
+- **Paul Graham** ([1:00:00](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3600s)) - Referenced in conversation about what founders want most for their companies
+
+## Surprising Quotes
+
+> "I do—I completely do not enjoy launch day."
+> — Peter Beck, [32:36](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1956s)
+
+> "Suppliers. If you could just wave a wand and like all the suppliers deliver beautiful bits on time at a reasonable price, that would be amazing. But unfortunately, that is a very rare."
+> — Peter Beck, [11:57](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=717s)
+
+> "If it wasn't for the prize of the space industry, I doubt anybody would do it because it just sucks most of the time."
+> — Peter Beck, [36:00](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2160s)
+
+> "I went to Whole Foods and yeah, it was the nearest supermarket I could find. Yeah." [after buying an American flag]
+> — Peter Beck, [46:10](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2770s)
+
+> "To be honest with you I'm not a very retrospective person. It's just like what is the next day going to look like."
+> — Peter Beck, [45:00](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2700s)
+
+## Transcript
+
+**Peter Beck:** [0:00](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=0s) The only thing my parents ever said to me is, we don't care what you do as long as you have impact. For me, that was space. We were very practical kids. You would know if you built something that was rough. The whole family would go, that's a piece of shit. Why did you build it like that? There was an expectation that everything that came out of the garage was beautiful. Electron, as far as a launch cadence, scaled faster than the Falcon 9. The team is just totally relentless. Nobody survives here if they just want to come here and work eight to five and cruise and then go home.
+
+**Ti Morse:** [0:27](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=27s) You mentioned that the most stressful part of your life is launch day. I'm not even sure if you like enjoy launch day.
+
+**Peter Beck:** [0:31](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=31s) No, I do—I completely do not enjoy launch day.
+
+**Ti Morse:** [0:38](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=38s) Today I have the pleasure of sitting down with Peter Beck, the founder of Rocket Lab, founded in 2006. Over the past like five years, you've gone from basically doing like six launches to I think last year you did 21 and it's same thing with SpaceX. I think SpaceX was at like 31 launches in 2021. Now they're at like 160, something like that. Things are scaling really fast. What is the biggest like limiting factor to increasing launch cadence and mass to orbit?
+
+**Peter Beck:** [1:04](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=64s) Uh well, for Electron quite often it's customer readiness. So you know, the factory out there is is capable of sort of you know, one a week um as it stands. Um so you know, over 50 launches a year. But uh you know, it comes down to customer readiness and you know, the the market for dedicated small launch continue to grow.
+
+**Ti Morse:** [1:27](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=87s) I've seen so many startups pop up in the last two or three years just expecting Starship scale-up. Is this something that's also going to be basically like really benefiting you guys?
+
+**Peter Beck:** [1:35](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=95s) Well, it's been like that for as long as I've been in this industry, right? Um so there's always uh you know, always been a tremendous growth. And and in fairness, it sort of goes in fits and cycles a little bit or waves where uh there's tremendous amount of venture capital went into into you know, space startups and then it sort of backed off a little bit. Then there was uh you know, the rise of the SPAC where a whole bunch of those venture capitalists you know, made their funds back and thought, hey, this space thing's good. So there's another big wave of of kind of investment into venture capital investment into space. Uh and the one thing I would say is is is consistent is um you know, there was always the promise of the democratization of space. So you know, for the longest time I can remember everybody saying, well, you know, space is about to democratize, meaning that you know, it always used to be the governments who built the rockets and the governments who built the satellites. And I you know, I'd say in the last decade um we've actually truly witnessed that, the complete democratization of space. So you know, there's a few launch vehicle companies now that are launching regularly. In fact, way more than governments. Um you know, Rocket Lab itself launches more than governments apart from I think the Chinese. Uh so um and in the same same deal in in spacecraft. I mean, we sent a you know, spacecraft to the moon, two of our spacecraft are on their way to Mars right now. You know, these are typically you know, government dominated domains historically at least. So, you know, in the last decade, a lot has moved.
+
+**Ti Morse:** [3:06](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=186s) What do you think is the big reason that governments have been like less effective at building like space programs and making it so you can basically build a lot of rockets?
+
+**Peter Beck:** [3:15](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=195s) Yeah, I think I think it's a couple of things. It's like anything where it's incredibly difficult, requires a nation's worth of, you know, talent and energy, and you can't make any money at it. Those are the things that governments are really good at. The moment that a few of those things aren't true, like you can make some money at it, and it doesn't require a nation of energy to achieve it, then that naturally democratizes into commercial entities. And, you know, that's exactly what's happened with space. Like, it no longer takes a nation to build a satellite. Um, you know, a few college kids in a dorm can go and build a little satellite.
+
+**Ti Morse:** [3:53](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=233s) I think on another podcast that I was listening to, you basically said New Zealand has like this culture of not really wanting successful people or something, something to that effect. Is it is there like a big tall poppy syndrome situation happening?
+
+**Peter Beck:** [4:07](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=247s) Yeah, I mean, there is there is a, you know, kind of that tall poppy syndrome in New Zealand, but I would say, you know, over time, I've realized that it's really just a construct of the New Zealand media. Actual mom and dad at home wants everybody to succeed. And I think that's true in most countries where, uh, you know, success if successful, you know, entities or people, you know, they get sort of beaten down. It's it's generally, you know, moms and dads at home are just super stoked to see someone win. I think it's, like I say, it's it feels like, you know, to me, a largely a construct of the media.
+
+**Ti Morse:** [4:38](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=278s) Elon started SpaceX with it must have been like $100 million. Um, you did not have that same amount of, you know, cash just sitting in your in your bank account.
+
+**Peter Beck:** [4:47](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=287s) $100? Yeah. $100, yeah. Yeah, yeah.
+
+**Ti Morse:** [4:50](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=290s) Yeah. Um, even on the wall back there, it says that you were like a billion-dollar company in 2017. You almost got to I think orbit before reaching a billion-dollar valuation, which is fucking nuts. How did you build the company differently because you didn't have that massive pile of cash?
+
+**Peter Beck:** [5:03](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=303s) Yeah, well, I mean, uh, and that that is what has created some of the magic in the company even today is, um, we knew that we could never outspend our competitors. Um, that was just never ever going to be a thing. And, you know, the reason why the the Rutherford engine is named Rutherford in in the Electron rocket, it's not after it's it's after Ernest Rutherford, but not for the many reasons people think. Um, it's named after Ernest Rutherford because he had a very famous saying and that was, we have no money, so we have to think.
+
+**Ti Morse:** [5:40](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=340s) I definitely align with that philosophy.
+
+**Peter Beck:** [5:41](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=341s) Yeah, yeah, yeah. That's right. So, um, you know, I can remember at the start of Rocket Lab, I would go to to wrecking or junk yards to machine and and crawl over old machines and unscrew all of the Swagelok fittings, um, and, you know, because we couldn't afford to buy the Swagelok fittings. We could buy the ferrules, which were $3, I think $3.20 each, but a fitting was like 50 bucks. So, you know, the first the first few, um, you know... A vehicle in bits of infrastructure all using second-hand fittings because we just couldn't afford new fittings. And that kind of hardship, I guess, really cements part of the key cultures in this company. Like, if you look across the space industry, especially among companies that went public, most of them are toast. And the core kind of responsibility for good steward of capital and value exists here today. Every dollar, every second of the hour is valuable here, whereas other companies, if they've got heaps of resources, then it's less valuable. And if you look at it, it's like if money could solve the space problems, then there would be a lot of success. Like, money does not solve this problem. When I was trying to raise money for Rocket Lab to do the Electron project, there was Richard Branson out there with his Virgin Orbit. And Richard had $1.2 billion to do what we did with $80 million. And it doesn't matter how much money was ultimately spent then, that was a commercial and technical failure, whereas Electron with far less resources was the opposite.
+
+**Ti Morse:** [7:24](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=444s) How do you think about deciding where to take and spend your energy and time and resources, like on scaling Electron versus building Neutron and kind of try to build a full reusable vehicle?
+
+**Peter Beck:** [7:34](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=454s) Yeah, well, I mean, so first, the launch part of the house only represents one-third of the company. Two-thirds is actually the space systems side of the house. So with regard to being spread everywhere, it is like launch by default only gets a section of my time. But we've got an amazing team, and the Electron team are just, they're just animals. So they're just banging those vehicles out and launching them and, like, they're just, so there's quite frankly very little involvement I have with the Electron team. Like they're just, like I said, they're animals, they're just banging them away.
+
+**Ti Morse:** [8:14](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=494s) Were you, like, highly involved right at the start of the production of the Electron or...
+
+**Peter Beck:** [8:18](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=498s) Yeah, yeah, yeah. I mean, and I came from a production background as well, so knew what good production looks like. But no, I'd say the team down there now is just, you know, they're just amazing. So that's a very light-touch product for me personally because the team's just so good. Whereas Neutron, we're deep in development, so that's a very high-touch area from an engineering perspective I'm involved with. And then across the whole rest of the space systems and organizations, I mean, we've got a bunch of kind of business units that supply the vast majority of components that are in satellites. And those guys are killing it as well. I mean, we've developed I would say a... It's, you know, Rocket Lab operating system where, you know, the production team is really good at, you know, getting into these, like, hideously complex components and, and figuring ways out to make, figuring ways to make them, you know, highly producible and, and highly reliable.
+
+**Ti Morse:** [9:17](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=557s) What about your, like, culture enables you to be able to tackle these, like, massively difficult problems and do it in an efficient way?
+
+**Peter Beck:** [9:23](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=563s) That's a great question. We often, we often kind of ruminate on that and, and it comes down to the Rocket Lab hustle. And, uh, it's kind of hard to describe the Rocket Lab hustle in, like, one word, but, uh, it's more, you can easily, more easily describe it in, like, behaviors. Um, so, a couple of years ago, we had this, uh, this satellite and it had this, uh, super thin wall titanium pressure, pressure vessel. And there's, like, two companies in the United States that produce these, you know, electron beam welded thin wall titanium pressure vessels. And, you know, the supplier, um, just absolutely, like...
+
+**Ti Morse:** [10:07](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=607s) Shit the bed.
+
+**Peter Beck:** [10:10](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=610s) 100 percent. Like, yeah, it would, it would be, you know, if you've got kids, you've got a number one, and then your number twos, and then there's like the number three.
+
+**Ti Morse:** [10:19](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=619s) Yeah, and that, that was the supplier.
+
+**Peter Beck:** [10:21](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=621s) Yeah. Like, the supplier's like number threes everywhere. So, um, so that was just a total disaster. And I think most companies would, would have stopped, um, whereas we just developed a technique to 3D print this titanium, you know, pressure vessel and, and, you know, developed a whole bunch of welding processes ourselves, and, uh, you know, we produced the tanks, uh, you know, in time to meet the, the date for the launch vehicle and, you know, qualified them and acceptance tested them and everything. So now, there's three suppliers in the United States who can build, you know, thin wall titanium tanks. And what's more is because we 3D printed them rather than, you know, traditional forming them, we can make whatever shape or anything anybody wants any time. So, um, so I mean, it's those kind of things where I think, you know, historically you hit a barrier and people go, "Oh, I don't know what we're going to do, we're going to stop," whereas, you know, we'll just overwhelm the barrier or we'll dig under it or we'll fly over it, like it's just, it's just, like, that's just not acceptable to stop.
+
+**Ti Morse:** [11:13](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=673s) Is there almost like a culture of just, "fuck it, let's do it"?
+
+**Peter Beck:** [11:16](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=676s) Yeah, 100 percent, yeah. And like scary things, um, you know, they're scary but, um, but, you know, we'll still go after them anyway. Like, there's a good reason there's only two, well, was only two manufacturers of these things. It's because they're super scary and super difficult to make. And like I say, I think most people would go, "Well, you know, we're not going to get into the thin-walled titanium pressure vessel manufacturing game," um, but for us, it's like, "Yep, like you say, fuck it, let's go, and let's, um, let's make it happen."
+
+**Ti Morse:** [11:41](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=701s) And when you're kind of running into one of those problems where hypothetically if there was a bunch of suppliers that could just fulfill, you know, basically reduce all your cognitive load and difficulty of making the thing, that would be great. But obviously there really isn't.
+
+**Peter Beck:** [11:57](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=717s) No, that'd be great. Oh man, I'd wake up in the morning, that would be a dream. It's like, suppliers that deliver on time, to budget. at a reasonable price, that would be amazing. But unfortunately, that is a very rare. It's very rare.
+
+**Ti Morse:** [12:08](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=728s) What's the worst supplier experience you've ever had?
+
+**Peter Beck:** [12:10](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=730s) I mean, it's- we have people just like there's a whole team that just sits in suppliers' buildings just trying to juggle things along. I think it would be unfair for me to call out the worst supplier in the world. And and to be fair, a lot of it is the industry. So, you know, the industry is if you look at most sort of suppliers, you'd- they're all extremely low volume, extremely bespoke, difficult things. It's not like, you know, they're banging out clothes pegs, like these are really difficult kind of things. So in that environment, it sort of leads itself to having, you know, suppliers that take longer and don't deliver as as good as you'd expect. It's it's easier for Rocket Lab where we have a certain amount of scale to just go and do something. And, you know, if it requires some cryogenic experts, we've got those over here. If it requires some electromagnetic experts, we've got that over here. So we're able to pull all those in, whereas if you're a little shop and you don't have all those expertise, then it does, you know, it becomes a lot more difficult.
+
+**Ti Morse:** [12:58](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=778s) You can't just do the same thing, it's impossible.
+
+**Peter Beck:** [13:00](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=780s) Yeah. Yeah, but that's kind of the also, you know, the magic of the company is is we have now such a diversified group of folks that, you know, there's there's an expert for everything in the company.
+
+**Ti Morse:** [13:16](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=796s) I know that you're very focused on trying to make as many parts of the rocket yourself as you can. How do you think about like at what stage it makes sense to just vertically integrate versus trying to use something off the shelf if there is some supplier even if it's rare?
+
+**Peter Beck:** [13:31](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=811s) Oh, man. We would buy stuff off the shelf straight away versus doing it ourselves. Like, it's not a religion to be vertically integrated. It's just a necessity to achieve and deliver.
+
+**Ti Morse:** [13:41](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=821s) You've been at this for now like sixteen years. What's the best example of Rocket Lab hustle?
+
+**Peter Beck:** [13:51](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=831s) Well, I gave you that tank one there a moment ago, but I mean, it's defined by a set of behaviors. I would say that, you know, the team is just totally relentless. And they're just just relentless against execution. So, you know, there's nobody here, or nobody survives here if they just want to come here and work 8:00 to 5:00 and cruise and then go home. That that's just just not the culture. We take on really difficult, meaty, important things that people care about. So, you know, I would I would just say it's it's engineering excellence and just like sheer dogged determination to execute. And, you know, when a lot of companies where it comes 5:00 and the problem's not solved, a lot of people will go home, not here. Like, you know, you can come to here at this facility and you can drive past it anytime of the night or the morning and there's lights on.
+
+**Ti Morse:** [14:29](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=869s) Is there any really good story that you have of having to basically like sleep here? unfucking some bottleneck that you had over the past couple years?
+
+**Peter Beck:** [15:03](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=903s) Oh my god there's so many. I mean like in the customer room there's there's beds and pillows. So I mean like you know for anybody to use. So I mean that that happens all the time. The one thing I can think of in many years ago is that we had developed this this rocket engine and it was a very unique rocket engine. And we had a bunch of really important people coming over from the propulsion industry to look at this engine. And we were doing the last test on a Friday afternoon. And we thought oh we'll just do this one last test before we put the engine to bed because these guys will turn up on Monday. So we did this test and a hydraulic line was fatiguing, we didn't realize and it failed and the hydraulic line failed, caused basically the valving sequence to be wrong and the whole engine exploded. And not only did it- it was so good, it was such a good- I mean it's only a sort of a you know a 500-pound engine so it's not a big engine but it exploded so good that it just tore everything out of the test cell as well like there was- we just stood walked back in there after it all been sorted out and there was just shit hanging off the walls and it was just total mess. And meanwhile these guys had just taken off from the states and they were on their way, and gonna land...
+
+**Ti Morse:** [16:18](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=978s) They're gonna land whether or not the engine is there.
+
+**Peter Beck:** [16:21](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=981s) There's nothing left. No. There's not even a test cell. Um, so you know we're all standing around and and like there wasn't one person that said 'oh no' or not one person said 'well that's us screwed.' People just said 'okay, well there's some titanium back in the shop I'll get back there now and I'll start machining and then you know the electrician's like 'yep, okay I've got some CAT 5 cable, I'll start rewiring this and we'll do that' and everybody just got to work. And the next day, um we got- I got a call from the from the guys that were coming to visit us and they said 'well actually we landed here on Saturday, Saturday morning, so we're all feeling good so why don't we just come down to the test cell and we'll start work right now?' And we're like 'oh no, you'll be jet-lagged, you don't want to do that. Like um you know wait until Monday, just wait until Monday, because you'll feel much better, trust me this jet-lag to New Zealand really hits you.'
+
+**Ti Morse:** [17:12](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1032s) Don't want you to be sleep deprived when you come.
+
+**Peter Beck:** [17:15](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1035s) Oh yeah, yeah, no, exactly right. So we just you know everybody- it was just nobody slept at all. And we just worked and worked and worked. And you know we were- we were rebuilding this engine and we knew there was a couple of things in the engine that were like 'nah, you know we would have liked to fix and at some point in time' but they're risky like if we- you know we made some changes to an injector and and you know it might not have worked. But we're like oh well at this point like let's just go for it. So we made a whole bunch of changes to the engine, um and we changed you know what we thought you know some of the injectors and some of the parts of the engine we thought would improve its performance. And then you know we got this whole engine back together and uh got it on the test cell uh Monday morning. And uh our very important friends turned up and they're like 'hey guys, how's...'
+
+**Ti Morse:** [18:00](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1080s) Yeah, yeah. Good. Good.
+
+**Peter Beck:** [18:01](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1081s) Right, ready for an engine test, yep. And, you know, we hot fired that engine, and that was the first time that engine had been hot fired since a rebuilt engine, you know, rebuilt test cell and a brand new engine with all these modifications. And, and I think most companies would have played it safe and just said let's rebuild it exactly as it was. Um, but, you know, we built this new engine and that new engine performed 13% better than the previous one, which in rocket engines' perspective is a huge number.
+
+**Ti Morse:** [18:26](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1106s) Over the course of a weekend?
+
+**Peter Beck:** [18:27](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1107s) Yeah. And, and completely rebuilt the engine and and that engine ran, uh, ran for the next nearly a month, um, just day after day doing hot fire after hot fire and tweaking things and doing different experiments that everybody wanted to do and all the rest of it. So, you know, that's a Rocket Lab hustle. I mean it's, it's, you know, I think a lot of people would go, well...
+
+**Ti Morse:** [18:51](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1131s) Yeah.
+
+**Peter Beck:** [18:52](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1132s) Pretty much.
+
+**Ti Morse:** [18:52](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1132s) What happens after that sort of event? Like internally? How do people kind of react to being able to overcome something that feels insurmountable or impossible?
+
+**Peter Beck:** [19:03](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1143s) That's a great question. Um, generally there's the next big thing, so you just on to the next big thing. Um, and, you know, there's been a couple of, a couple of these kind of really big things, like the Capstone mission was a really big one. That was, that was a totally impossible project. I still to this day don't know how we pulled it off, but that was a totally impossible project.
+
+**Ti Morse:** [19:25](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1165s) Do you want to just walk through what that was? Why it was so impossible?
+
+**Peter Beck:** [19:28](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1168s) That was a mission to the moon. Yeah. Um, so, you know, we, we had signed the Capstone mission and we had to deliver this spacecraft to the moon. And, um, you know, it's off an Electron rocket, so, you know, going to the moon off a tiny little rocket is...
+
+**Ti Morse:** [19:43](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1183s) Like seven or nine million bucks?
+
+**Peter Beck:** [19:45](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1185s) Yeah. Yeah, it was ten million dollars. Yeah. Um, but it, it like, on paper it closed, but um, in practice it was the most ridiculously hard thing, uh, to, you know, we were measuring grams in that rocket. And, you know, there was like a three hour debate whether or not we could afford the mass of the NASA stickers down the side of the rocket because the mass of those stickers would, you know, put us over the edge. So, it was, it was the most ridiculously difficult engineering project. And, um, you know, we delivered that, that, that spacecraft to the moon with such perfect accuracy. Um, it was, it was incredible. But there were so many firsts there. Um, there was a, you know, the rocket engine that was on the little spacecraft that took it to the moon, uh, was the highest performing engine that we have ever built. And, um, you know, we had to, we had a, a separate tank of, of eleven herbs and spices that we would inject into the engine to just make it run super hot. So, you know, it was the most, it was the craziest, craziest project. Um, and, you know, even today you can ask people around the, the company what, what their best moment was at Rocket Lab, and anybody working on Capstone would just about anybody will say Capstone, even though it was the most punishing and cruelest mission that we ever did.
+
+**Ti Morse:** [20:56](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1256s) What's your kind of philosophy on chewing glass and, and enjoying taking on impossible things? extremely difficult challenges with uncertainty on whether or not they can even be successful.
+
+**Peter Beck:** [21:06](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1266s) Yeah well, I mean, I think that is the definition of a good startup. Uh, but I would temper that with, um, yeah okay, you're chewing glass, but also you can't just do that and not know the outcome or, you know, sometimes you have to force the outcome to be good. Um, that's a fact. But, but also, um, I would say everything that we take on, we honestly believe we can do. Now, sometimes our belief is unfounded, but generally, we won't take on something that we just will not have a clue about how we can, how we're going to achieve. Um, so, so, yeah, I think that's a fair statement, but I think I'd temper that with like, don't be reckless with that because...
+
+**Ti Morse:** [21:51](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1311s) It is like, uh, you build trust with the people that you're working with. And so if you fuck up then that trust is broken.
+
+**Peter Beck:** [21:57](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1317s) Yeah, yeah. I mean, I would hope that if you went out to the industry and said what is Rocket Lab known for or stand for, it's like, our hardware is beautiful and it always works. And, um, that might sound just like, yeah, of course, but, um, that is not the norm in this industry. So, um, when we take on stuff, um, we absolutely commit to delivering it. I mean, the Capstone project was, you know, NASA paid us $10 million and we were three times over budget. Um, now I think other companies would have just pulled out and it's like, the hell with that. We've made this commitment, we are going to deliver that and it is going to be successful. And it was, it was flawless.
+
+**Ti Morse:** [22:58](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1378s) And did that kind of basically give you a whole bunch of credibility for future missions?
+
+**Peter Beck:** [23:02](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1382s) Yeah, I mean, I mean, with respect to interplanetary and even launch. I mean, NASA knows when they come to us, it will be done and it will work. I mean, just like the Escapade missions, um, you know, those Escapade spacecraft, um, deeply complex spacecraft, two spacecraft going to Mars, not just one, and delivered on time, on budget to NASA.
+
+**Ti Morse:** [23:22](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1402s) I know Elon mostly spends his time trying to basically figure out whatever the biggest bottleneck in one of his companies is and then he goes to that bottleneck and he doesn't leave until it's sorted. And then he just goes to whatever the next fire is. And he says basically like, if things are going well, then you probably won't even hear from me. How do you think the differences between or maybe similarities between your and Elon's philosophy and management style and how you operate?
+
+**Peter Beck:** [23:51](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1431s) Yeah, I mean, I think that's that's probably similar. Like I'm not adding value to anything that's running great. Like, you know, it might feel good, but I'm not adding any value to that whatsoever. You know, I knew that there was going to need to be some risk decisions that were going to be made because you can analyze and analyze to a certain point but at some point you actually just have to press the button. And, you know, I just felt it was super unfair to put all those, those guys in the, in the position to, you know, make the decision to press the button.
+
+**Ti Morse:** [24:12](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1452s) Show up, just give the thumbs up and leave.
+
+**Peter Beck:** [24:15](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1455s) Yeah, great. Like, what a total waste of time. Um, no, uh, you know, certainly I think, um, you know, focus goes in areas where, um, that aren't that aren't going well or areas where, um, you know, it needs some some decisions made or, um, and I think quite often, you know, the role of a CEO is just to make the decisions that nobody else wants to make. And, you know, I made sure that I was there for the first hot fire of Archimedes because I knew...
+
+**Ti Morse:** [24:20](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1460s) It's like 'if this blows up, like, I'm the guy that pressed the button?'
+
+**Peter Beck:** [24:23](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1463s) Yeah, yeah. Yeah, I mean, so, I mean, I didn't need to say anything. I just sat there, but everybody knew that if, if, if there was a risk call that needed to be made, as 'are we okay to go?', you know, I'd give them the thumbs up. So, so it's- it's things like that where I think, you know, you just- that's where you have to be there, right? Even if you're, you're not even useful, you still, you still have to be there. So, so yeah, I would, I would say that, that that is, that is true. Things that are going wrong and and things that require, you know, big decisions with no information, and, and then of course, you know, just, just pushing the company in the right direction.
+
+**Ti Morse:** [25:05](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1505s) In the past, people have kind of joked about Elon time being maybe even years late on some projects. And over time he's kind of like course-corrected to trying to get down to roughly 50 percent of the time whatever the timeline is that he gives is going to be right, and that means by definition half the time it's going to be off, but that because he's basically pulling in timelines like that, more things are able to happen. If you're doing, you know, this mission where you're sending something to Mars or sending something to Moon, how do you decide how to structure the- that timeline so that you know that you're actually going to be able to ship?
+
+**Peter Beck:** [25:44](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1544s) So, I, I guess, um, you know, you have to be 50 percent entrepreneurial and 50 percent engineer. And as a public company, uh, you can't just stand up there and wave your arms around, um, because-
+
+**Ti Morse:** [25:51](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1551s) Some people do do that.
+
+**Peter Beck:** [25:54](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1554s) Yeah, but you get in trouble for that.
+
+**Ti Morse:** [25:55](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1555s) Doesn't work.
+
+**Peter Beck:** [25:56](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1556s) Yeah, no, that's- I mean, that's- you have to be respectful to your shareholders and your investors that they're making decisions off, off your, your timelines. Um, you know, and sometimes you get it wrong, um, and that's, that's unfortunate, um, but generally, you know, the thing- the dates and things that we try and put out there, um, we try and, and be right. Um, now we always- we do run green-light schedules, meaning that, you know, when we put a schedule together, there's not some big fat in there that says that, you know, if this doesn't work it might, you know, we build a bit extra time in here and build a bit extra time in here because engineers will take as long as you have allocated them to do a job. If you allocate all the fat in there, then you just- that is, that is your default best schedule. Whereas, um, we've always run green-light schedules from day one, uh, where you put the schedule down in place that you think is, um, if everything goes right. And, you know, if everything goes right, then that is the best time that you're going- you're going to achieve. And of course not everything always goes right, but you can guarantee where you build fat in, it'll be the wrong place anyway. So, you know, that, that, that has been our philosophy. you know, very effective for Rocket Lab and, yeah, okay, sometimes we're late on some stuff. But it's not horrifically late. And and you know, it's still faster than if you'd have, you know, done a more traditional approach.
+
+**Ti Morse:** [27:13](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1633s) If you do have a situation where things do go late, what do you do to basically make sure that whatever the new timeline is, happens? Or it happens as quickly as possible?
+
+**Peter Beck:** [27:23](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1643s) Well, I mean, there's nobody at Rocket Lab that doesn't feel the anxiety of something is not going well. Like, everybody here is super high performers and they want, you know, it's very important for their own ego to, you know, to deliver beautiful stuff on time. So, so, you know, it's self-policing in that respect. And look, the stuff we do is freaking hard. So, and some of it's never been done before, so inevitably, um, you have issues. Uh, and then, and I'd say one of the great things about the company is, like, it's not a culture where if somebody has a bad day, everybody runs away and points at them and going, 'Oh, no, glad that's not me.' Um, it's the opposite, right? Everybody runs towards the problem and and offers their help and assistance. Um, so, you know, as far as a culture goes, it's, you know, some cultures it's, you know, everyone's standing on each other's throat to try and get ahead. Not not here. You know, everybody, everybody runs to the, runs to the the thing that's on fire to try and put it out.
+
+**Ti Morse:** [28:23](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1703s) How do you actually foster that type of culture?
+
+**Peter Beck:** [28:25](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1705s) Well, I mean, I I wish I could I wish I could say that there's like a, you know, a statement or anything, I mean, it's just the way the company is. It's just the way the company always been. You know, right back to that example I gave you of that engine blowing up, you know, nobody's, you know, nobody's jumping and around and screaming, everybody just gets to work.
+
+**Ti Morse:** [28:46](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1726s) I remember you said we make the Ferrari of rockets and you really care about design and you really care about beauty, you really care about, like, function and all this stuff. What's your philosophy around building beautiful, amazing products that work? And then why does it matter to create things that are great?
+
+**Peter Beck:** [29:02](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1742s) Well, it it comes down to my belief that, um, if you build something beautifully, then you've taken pride in what you've done. If you've taken pride in what you've done, then chances are you've you've looked a little bit deeper than your own work. Um, and if everybody is building beautiful things, if somebody doesn't build a beautiful thing, then it becomes really, really obvious. And, um, you know, generally, um, if you build beautiful things, they work. It's very rare that you build something that is just beautifully executed and beautifully thought about that's just a piece of crap. It doesn't happen that often. Whereas I'd say if you build a piece of crap, it's like it's a positive, it's a miracle or it's a win if it works. Um, so and I honestly believe it takes no longer to build something beautiful and nice than it does to build, you know, throw something together that's a piece of crap, especially by the time you spend all the time, you know, you know, going back and rebuilding bits because clearances weren't right or, you know, code wasn't right or whatever. So, um, so I don't- I don't think it- it takes- it takes any longer, but um, we used to have a saying on the wall that- that make everything you do a work of art, um, because, you know, if it doesn't work and looks like crap you've got nothing, but if it doesn't work and looks beautiful, at least it looks beautiful. So, um, so you- you know, this- this is- it's- it's an ingrained culture and it doesn't- it doesn't just apply to hardware, it's like code, it's software, um, it's the facilities you're in, it's like, you know, we're- we're here to build beautiful things, we're not here to, you know, make crap.
+
+**Ti Morse:** [30:35](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1835s) What are the people or or things that have like inspired you on on that kind of philosophy and and trying to create beautiful products?
+
+**Peter Beck:** [30:43](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1843s) I don't know, it's- it's probably- it's probably just my upbringing like, you know, as- as a- as a child, that's what we were always expected to do, you know, we were, you know, very practical kids, we were building go-karts and- and building these kinds of things, and, uh, whether it be my father or my brother or anything like you would know if you built something that was rough, like the whole family would go 'That's piece of shit, why'd you build it like that?' So there was like a, you know, an expectation and a pride that everything that came out of the Beck's garage was beautiful.
+
+**Ti Morse:** [31:22](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1882s) How do you marry those two philosophies of you both are going to junkyards to find some little piece of, you know, something that you can kind of salvage for a few hundred bucks while also, like, creating the initial prototypes while also understanding that the finished version is going to be, like, this gorgeous thing?
+
+**Peter Beck:** [31:39](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1899s) Yeah, well I mean, if you clean a fitting it looks exactly like a brand new fitting, so you're not compromising anything um in that respect. And um, so in that- you're putting a new ferrule in it so that's the bit that's doing the work. So- so I think- I think, um, you know, they're not- they're not separate, they're not separate things. And, um, you know, a- a piece of art that's- that's done by a- an artist that sells for $500 versus something that sells for five million, I mean, they're still beautiful. So you don't need to equate like a price tag to beauty and- and quality of engineering.
+
+**Ti Morse:** [32:23](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1943s) I remember you mentioned that the most stressful part of your life is launch day? I'm not even sure if you like enjoy launch day?
+
+**Peter Beck:** [32:36](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1956s) No, I do- I completely do not enjoy launch day.
+
+**Ti Morse:** [32:40](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1960s) What was it like 2009 when you guys launched your first rocket or test and then also, you know, 2017 when you tried to make the first orbital attempt?
+
+**Peter Beck:** [32:51](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1971s) The- first flights are a little bit different, um, I mean you want everything to go well and you're willing everything to go well and you've done everything you can to make everything go well, but it's- it's a logical kind of understanding that it may not go well.
+
+**Ti Morse:** [32:58](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1978s) Probably won't go well.
+
+**Peter Beck:** [32:59](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1979s) Yeah, so- yeah, so flight ones that's- that's not so bad, um, that's- that's not so bad because it's- it's- it's a test. It's worse starting off, and the more you do the worse it gets. Because, you know, it's still an extremely complicated vehicle and system and stuff, you know, even for the best of of us stuff goes wrong, right? You know, whole countries' vehicles...
+
+**Ti Morse:** [33:16](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1996s) A whole country can you?
+
+**Peter Beck:** [33:17](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=1997s) Yeah. Well, well whole countries' vehicles also fail now and then. So it does happen. But I don't know, it's just I feel an immense sense of responsibility to our customers, to our shareholders. You know, people buy a rocket to deliver their payload to orbit, but they don't buy a rocket to deliver their payload to the ocean. So, you know, I just feel a tremendous sense of responsibility to, you know, to make sure that their experience and their mission is delivered exactly right. And I think, you know, that's part of the Rocket Lab culture is every single person in this company takes the delivery of their thing or the end solution incredibly seriously. So, you know, whether it's a reaction wheel to a customer or an entire spacecraft or an entire mission, you know, we really care here. Like when we deploy a satellite into orbit, you know, I think most people would think that our job is done. Yes, and we all just go home. But everybody's hanging off, hanging off, waiting for the customer to tell us we've had a successful contact of our spacecraft. You know, it's not our part of the mission, but we just want that mission to to be successful so badly that, you know, I don't think anybody in mission control, you know, has a sigh of relief until our customer comes back to us and says, 'Yep, we've made made contact with our spacecraft' and the whole thing is successful for everybody. It really sucks when our customer forgets to tell us, because there's like a hundred people sitting back here going, 'Ugh, did the customer make contact or not?' even though our mission is over.
+
+**Ti Morse:** [34:52](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2092s) What was the most stressful day of the last 20 years?
+
+**Peter Beck:** [35:00](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2100s) Oh man. You know, it's it's for me, it's like yeah when when something has gone wrong. I mean, like a launch anomaly is is just is like this place is a morgue. Like it is it is, you know, if you're like a psychologist you come in here you'd make a killing because, you know, after a launch failure it's just it is it is just really tough, really, really tough. Because everybody is is so invested in in all of that.
+
+**Ti Morse:** [35:22](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2122s) There's this wonderful line which is like entrepreneurship in its best form is basically going from failure to failure without a loss of enthusiasm. And I feel like every company that succeeds over time is becomes very good at basically experiencing failure, learning from it quickly, and then moving on and just focusing on the next thing.
+
+**Peter Beck:** [35:44](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2144s) Yeah, no, I'd say I'd say that's absolutely true. Yeah. Um and and in you know failure happens in all forms and like there's big big public failures and then there's like you know someone's been working on this piece of hardware for the last three months and it goes to the vibe table and falls to bits. Like you know you still got to go home and go 'Oh, that didn't work.' If it wasn't, if it wasn't for the prize of the space industry, I doubt anybody would do it because it's just—and when I say the prize, I mean the prize is like, if you work on a launch vehicle, seeing a rocket fly. Like, you know, people will just absolutely work their ass off, and then a rocket will fly and they're like, 'Yeah, yeah, yeah, let's go do it again!' Like, it's just like this—this adrenaline hit that you get that—that keeps everybody going. If there wasn't that kind of, you know, almost climax of—of event, then whether it be a rocket or a spacecraft being launched or whatever, I'm not sure anybody would do this job because it is, you know, it is—it is just—it's just constantly tough.
+
+**Ti Morse:** [36:40](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2200s) For the first like 12 years of the company, you're basically an R&D organization where you just needed to design something that actually worked and, you know, show that it worked. And then in like 2018, you make the first orbital success launch, and suddenly that shifts. And I remember you mentioning that basically once you have a product that works, now the job is to go and sell it and like actually get customers and actually start scaling that up. What was it like transitioning from a company culture of just designing, developing, iterating to something that's actually scaling up rocket production and shipping?
+
+**Peter Beck:** [37:17](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2237s) Yeah, that's a—that's a good question. Um, you know, in a previous life, uh, among other things, I was a production design engineer, so I know what good production really looks like. Um, and, uh, I would say it's—taking a product from, you know, an R&D standpoint and into full volume production is a whole different set of skills and a whole different set of pain. Um, and, you know, there was times during the Electron scale-up that it was just incredibly, incredibly painful because, you know, it was difficult to, you know, get—get all that DNA built within the company. Um, but, you know, I look back now and it's like, it's just such a core strength across the whole organization. Um, you know, and I think any—every startup goes from that right to developing their—their first widget or thing and then scaling it. I mean, those scaling challenges are real.
+
+**Ti Morse:** [38:07](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2287s) This, like, idea of production hell, um, and you finally have the thing that works and then suddenly the biggest fire is no longer making the thing work, it's just scaling the production of the thing that works. What was it like kind of going through production hell, like for rockets?
+
+**Peter Beck:** [38:23](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2303s) Yeah, it was just like that. Like, you can ask anybody there, it was just like that. It's production hell. But, um, but I would say that, um, it's not as hellish as it could have been because we designed that vehicle from day one to be produced. So, it's not like a bunch of engineers got together and said, 'Let's just see if we can make a rocket.' It's like, 'Let's see if we can make a rocket that will be producible.' So, um, you know, Electron as far as a launch cadence scaled faster than the Falcon 9. So from first flight to 50th flight, um, you know, we were faster than a Falcon 9. And from 50 flights to 100 flights, as long as we keep doing what we're doing, we'll be faster as well. So, it was—it was designed very in- intently to be produceable, um, and then you can say that for just about, you know, certainly Neutron, it's even better, but for all of our other satellites and products as well.
+
+**Ti Morse:** [39:10](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2350s) How do you kind of think about designing something initially that's going to be expendable and then when do you decide to make the call on like let's work on this massive new project in order to make reusable rocket and like how do you actually again shift the company culture back or not necessarily shift the company culture but shift back into the gear of just building the first iteration of that thing.
+
+**Peter Beck:** [39:29](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2369s) Yeah, I mean it's not that- not that hard really, um, you know, 'cause we do a lot of new stuff all the time. And, uh, you know, we'd spent quite a lot of time with Electron and Electron's reusability program learning so much. So- so I'd say, you know, the muscle memory was there pretty strongly already. But no doubt, you know, we- we took a lot of learnings from Electron and then, you know, and a lot of the team from Electron and ported them directly over to Neutron. So- so, yeah. I mean, Electron is a great product, but if we look at like, you know, how we've gone about Neutron, um, it's just- it's just so much better from a production standpoint.
+
+**Ti Morse:** [40:03](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2403s) What about it is better?
+
+**Peter Beck:** [40:05](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2405s) Well, it's just firstly, it's less mass sensitive than Electron, like Electron every gram counts, so, you know, you have to do a whole bunch of things where that are from a production standpoint that are suboptimal but from a mass perspective are critical. Whereas Neutron, we don't have that same constraint. And, um, you know, it's just- just really nice stuff like all of the fluid systems are just built completely off the rocket and then just assemble in, as, you know, boom-boom-boom systems, whereas, you know, on Electron you're literally, you know, having to bend tubes, you know, to- to pipe stuff in. And then same with the electrical systems, um, you know, the whole electrical system, the complete electrical system is built off the rocket and then just one day again it gets installed in the entire rocket, whereas you're not, you know, you're not pulling cables up and down the rocket like you are in an Electron. So there's just- there's just a whole bunch of stuff that we could do with Neutron it's just way better.
+
+**Ti Morse:** [41:03](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2463s) I think you asked Ashley that you wanted to like meet Elon or have dinner with him and then I think in like 2017 you actually did have dinner with him. What was that dinner like? And I remember you said in an interview with him that it may not have been useful for Elon to know that you guys were like as serious as you were.
+
+**Peter Beck:** [41:22](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2482s) Well, you'd have to ask Elon, but, um, but yeah, no, I mean we'd kind of at that point we'd launched a- a few and um, the thing I took- I took away from that is like these companies are the same. Like same problems, same everything. Rocket's big, mine's small, same same. Like it- it was very, very, very similar. But I mean, uh, yes, for sure sometimes it's better to just remain off the radar than on the radar.
+
+**Ti Morse:** [41:51](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2511s) If you could go back and not do that dinner, would you?
+
+**Peter Beck:** [41:54](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2514s) No, I mean, we- we would have- we would have scaled anyway and um, so we would have always been...
+
+**Ti Morse:** [42:00](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2520s) Right, uh... When you look out today and you think about the biggest bottlenecks in your mind, what are they?
+
+**Peter Beck:** [42:06](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2526s) We always have a challenge of feeding talent to the machine. Um, you know, the bar to get into Rocket Lab is extraordinarily high. And I think, you know, everybody says, every CEO says, oh, we got the best team in the world and all the rest of it. I mean, there is a lot of people that are from a lot of other space companies that, um, that you would respect that just don't make the grade at Rocket Lab. So, um, so the bar is extraordinarily high and we make no apologies for that. And then even when you're in, you know, through the bar or under the bar or over the bar or whatever, um, no the bar no longer involved, um, like the expectations are super high, super high. And this place is, is not for everybody, that is for sure. Um, so we're just growing so fast, like keeping great talent fed to the organization is I'd say one of the biggest throttles.
+
+**Ti Morse:** [42:59](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2579s) How do you actually like maintain that bar? Like I know Jeff Bezos has this idea of he wants to constantly improve the bar over time so that any new hire is basically like the best hire that they've made, um, in the history of the company. And then over time it just becomes like this impossibly high standard of quality of human. How do you kind of maintain that?
+
+**Peter Beck:** [43:21](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2601s) Yeah, well it's a great question because, you know, sometimes, um, you know, a manager will just be so overwhelmed with how much they've got to do they just want a pulse. Just give me a pulse. And, um, and, you know, the recruiting process just it's it's pretty rigid about, you know, that. And also I would say that generally, you know, enough managers have made enough bad, um, hires where, you know, they yeah this person's not exactly what I need and they're not they're not quite bought into the mission and the the culture, but, you know, hey they'll be fine. And then, you know, they're they're not putting in the hours or they're working from home all of a sudden and then they get self-selected. I mean, um, so it it's ultimately not successful.
+
+**Ti Morse:** [44:07](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2647s) If you had to think about the perfect day for Peter Beck, what does that actually involve? Like what do you do during that 24-hour period?
+
+**Peter Beck:** [44:14](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2654s) Perfect day. I don't think there is such a thing. I mean, the reality is, the reality is that as on I'm the chief engineer, I'm the CEO, my job is to fix shit. That's that's pretty much it, right? Um, and and also think forward and grow the company and all those kinds of stuff. So the perfect day would just be to successfully, you know, solve a whole bunch of problems. That's that's when I go home at the end of the day the happiest, it's like, yeah, we finally nailed that or this is a great idea, let's go after that. Um, those are the those are the best days. It's when you like, you know, you grind on a problem and you just still don't find a resolution, those are the those are the tough times.
+
+**Ti Morse:** [44:56](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2696s) What have been the favorite days for you so far?
+
+**Peter Beck:** [44:59](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2699s) I don't know. I'm... To be honest with you I'm not a very retrospective person. It's just like what is the next day going to throw at me? Um, so I mean look I mean there's always great days when we have a you know a really successful launch. I mean I think one of the more impactful launches for me was you know our first NASA launch because you know as a kid growing up my dream was to go and work for NASA and I had like this little space shuttle that used to sit on my desk um at home you know and then it used to it sat on my top of my computer when I was at you know started my career at work and that space shuttle still sits on my desk today here at Rocket Lab. And um that was that was kind of the thing I would look at like I'm gonna do that I'm gonna do that and um you know when we actually you know got to launch launch a NASA mission and there's a whole bunch of people in mission control wearing NASA t-shirts and high-fiving us and and doing it successfully that that was that meant a lot. It's like that was a big tick.
+
+**Ti Morse:** [45:55](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2755s) I think the first time that you came to America you like went and talked with a bunch of VCs?
+
+**Peter Beck:** [46:01](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2761s) Yeah.
+
+**Ti Morse:** [46:02](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2762s) And there was this day where you came out of a very successful meeting with I don't know if it was Vinod Khosla?
+
+**Peter Beck:** [46:07](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2767s) Yeah.
+
+**Ti Morse:** [46:07](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2767s) Yeah. And you just like went home and like bought an American flag?
+
+**Peter Beck:** [46:10](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2770s) I did. Yeah. I went to Whole Foods and yeah, it was the nearest supermarket I could find. Yeah.
+
+**Ti Morse:** [46:13](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2773s) What did it feel like coming to America? What was different about that like Silicon Valley?
+
+**Peter Beck:** [46:17](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2777s) Just so invigorating and exciting. Um because the great thing about America is anything's possible. Like if you've got a dream and and you you've got the energy to go and do it, you can do it. And that is that is the magic of America. Um and you know how crazy was it that a guy from the arse end of a little country can turn up to America and raise a bunch of money to go and build a rocket? Like it's nuts. And and that is that is the amazing thing about America um and also Silicon Valley and venture capital and like there's there's nowhere else in the world you can do that. Like I mean if you look at Europe and you know why why is Europe not as entrepreneurial as as America? And it's it's because you don't it's not that culture of belief and the culture of we can give it a go and we can make it successful and rah rah. You know it's a very much a subdued culture. It's like well don't screw that up and that might fail and all the rest of it. And I think you know if you look at the historical developments and why they always come from America it's because people can just have a crack. And even if it turns to custard the crazy thing is you can go back to exactly the same person and have a crack on something totally different again and they'll back you. Um and that is that is the magic of America.
+
+**Ti Morse:** [47:42](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2862s) When you were on the flight over, what were you thinking?
+
+**Peter Beck:** [47:44](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2864s) Well I knew nothing about how any of this worked. I knew not—I mean so I gave myself three weeks to come home with a check or be run out of town. And that was my—that was my philosophy. And coming from New Zealand everybody told me it's like oh Silicon Valley venture capital that's like a shark tank and you're just gonna get eaten up and spat out and... ripped off and it's like, nah, not at all.
+
+**Ti Morse:** [48:03](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2883s) That wasn't your experience?
+
+**Peter Beck:** [48:04](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2884s) No, no. I mean, quite the opposite. And, you know, I spent the first week just figuring out how the game is played. Because I knew absolutely zero. So this is where I went around a bunch of, you know, startups and tried to figure out how the game is played. And, you know, in the second week was figuring out who I wanted to talk to. And the third week was I only pitched to three VCs in the end. There's only three VCs that that, you know, I felt I wanted to work with and I felt that would get it. And we came home with a check.
+
+**Ti Morse:** [48:35](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2915s) What did Vinod say to you in that meeting?
+
+**Peter Beck:** [48:37](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2917s) Well, um, Vinod had, uh, invested in Skybox, which, uh, was an imaging company that was ultimately bought by Google for half a billion dollars. And, um, Vinod had felt and that whole team had felt the the pain of launch. Like they were launching off Russian ICBMs. Um, so, you know, when I turned up and said I'm going to build a rocket, there was zero question about whether there was a market or not. Absolutely zero question. Like, we 100% understand there's a massive market here. Yep. The only question I guess was, you know, could I pull it off? Um, and I didn't come there with a, uh, with a dream and and only that. I came there with, you know, a successful flight of a sounding rocket to space and and a whole bunch of stuff and I came with a complete, um, 1/10th scale set of plans for the whole rocket, blueprints. And I rolled them out all all along the the partner's desk in the boardroom, um, this whole like 1/10th scale blueprint of the rocket. And I had a pump in my hand. And it's like, here's how we're going to do this, guys. So, um, so yeah, I mean, I was lucky enough to convince Vinod that it's worth a go.
+
+**Ti Morse:** [49:47](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2987s) Was there any moment in your head where you weren't sure whether or not the money was going to be there or this was something like a problem that was tackleable at all?
+
+**Peter Beck:** [49:57](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=2997s) Well, at the risk of sounding arrogant, no. Because I think if if you if you believe that then you wouldn't wake up in the morning. Like, um, I think a successful entrepreneur is is an optimist to their core. Because if you're not, then like if everybody else is telling you it can't be done and you believe it can't be done then it's never going to be done, is it? So, no. I think you you I mean, yeah, you have to temper that with, um, the reality of of some of the things. And I think this is this is where um maybe the balance is is good is is like half of my brain is completely entrepreneurial just wanting to go for it and the other half is like this conservative engineer. So, you know, you fuse those two things together, you you know, you get what you get.
+
+**Ti Morse:** [50:44](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3044s) What's been the biggest like evolution of your own kind of internal philosophy on how you operate the business and just operate day to day over the past couple years?
+
+**Peter Beck:** [50:51](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3051s) It would be interesting to ask somebody else that question because in my mind it feels like exactly the same. Um, I don't I don't... feel like I've changed my management style or people my expectations of people or the way we run the business has changed at all. Um, you know, there's, there's certainly things that change because they have to, like you're a publicly traded company, so you have to do some things differently. But I would, you'd have to ask somebody else, because at least to me, it just feels like this is the way that it's always been done.
+
+**Ti Morse:** [51:23](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3083s) SpaceX and Elon decided to go public. And for a very long time, for the first more than 20 years of the company, he was like, I don't even know if SpaceX will ever go public.
+
+**Peter Beck:** [51:30](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3090s) Yeah.
+
+**Ti Morse:** [51:31](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3091s) because he didn't know that public market investors were the type of folks that would be interested in, you know, experiencing failure like that. Um, how did you make the decision to go public in the first place?
+
+**Peter Beck:** [51:42](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3102s) Well, for us, it was, it was always part of the plan. Um, because, uh, and it's for a, for a selfish reason and a non-selfish reason. Um, so, uh, you know, the, the selfish reason is, um, you know, the only thing my parents ever said to me is we don't care what you do as long as you have impact. So choose something in your life that you can have impact and, you know, contribute to the human history basically. So, um, you know, for me that was, that was space and I think that, that you can have a meaningful impact. But, um, I measure impact in not just like a blip in history, I measure impact in, you know, a long, consistent, you know, thing over a long period of time.
+
+**Ti Morse:** [52:25](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3145s) Like an enduring thing?
+
+**Peter Beck:** [52:27](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3147s) Totally enduring. And one of the, the reasons why I was very, very adamant to take the company public was a public company, it's, it's a, you like, it, if you do it right, that is a fact. Like many generations of, of, you know, Rocket Lab can go by and this company can be successful for a very long time and by default have impact, and then I've done what I was supposed to do. So, um, so that, that, that's super important. And also being a public company, uh, it, it really enforces the diligence and, um, you know, the, the rigor to, to be successful. If you're a private company, especially if you're a private company and you don't have problems raising capital, then, you know, you're just, you're just fat and happy for ages until you're not. Um, and there's no like extreme pressure...
+
+**Ti Morse:** [53:18](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3198s) forcing function.
+
+**Peter Beck:** [53:19](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3199s) Yeah, no forcing function or extreme pressure to develop a product, to get it profitable, to make the company sustainable. Um, like, you know, there is, there's a lot of checks and balances and a lot of pressure as a public company to make sure that, that those things become true. Um, and those things ultimately, you know, create longevity. And then, you know, as a, as a spinoff, then they also, you know, create value. So, you know, I had a lot of investors invest in the company and, um, and, you know, want to return that value back to them. And, you know, any venture capitalist that invested in the company, we've made their whole fund back, uh, which is great. And also, um, you know, the staff have, have done really well and all of our investors. So, you know, our obligation is to continue, you know, to grow the value of this company. Um, yeah, which I think is is is important as well. So, like I say, there's I I kind of view it as slightly selfish that I'm trying to I want to build this company that way way outlives me, um, and can go on and have, you know, a long, long impact.
+
+**Ti Morse:** [54:13](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3253s) Is there any decisions that you make with that kind of understanding of this like multi-decade, you're in this basically until the day that you die, understanding the back of your mind, um, that you might not make if you weren't planning on trying to create this super enduring institution almost?
+
+**Peter Beck:** [54:28](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3268s) Uh, well, I mean, if you look at there's there's a lot of space companies out there where if their founders and leaders die, I think you'd have to question whether or not that company would continue.
+
+**Ti Morse:** [54:39](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3279s) I think Elon's one of them. I like, I think the like keeper of the soul of those companies is is Elon and the second that he leaves...
+
+**Peter Beck:** [54:46](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3286s) Yeah, well I mean there's there's a there's there's more than more than that as well. I mean, there's others there as well. And I just didn't want to be one of those companies. Like, that what a what a I mean, I'd I I want this thing to go on for forever. So, um, so, you know, that's that's kind of, you know, it's a critical a critical point. And, um, I'm also a realist, like, um, you know, there'll be a point in time where, um, you know, there's other people that can run this company better than I can, or I just get too old and I'm I'm, you know, I'm like that guy trying to log into his laptop and not being able to do it because it's... So, you know, you know, everybody that comes to this company knows that you have a finite period of time at Rocket Lab. And that finite period of time might be that you just get exhausted and you want to do something else, or there's other younger, better people that are that are better than you and you'll be replaced. And the same goes for me. Like, there'll be a point in time where there's a better person to run this company and and, you know, I want to make sure that that when that happens, this thing doesn't stop.
+
+**Ti Morse:** [55:43](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3343s) If you have a whole bunch of cash in your bank account, it's pretty easy to graph, you know, how long do we have as far as runway goes. But when do you want to be like a profitable business so that you just are like operating off of, you know, you're able to make these big bets and you're completely like with the understanding that your other bets that you've made have succeeded and they're able to fund them?
+
+**Peter Beck:** [55:59](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3359s) Yep. Well, it's a complex question. And the answer is is as soon as possible, because that ensures survival. Um, if you're making money, you will live. If you're not making money, eventually you will die. So, it's survival. Um, now, um, you have to you have to play that carefully because, okay, um, you know, Rocket Lab could be profitable instantly if we just stopped developing Neutron. But Neutron unlocks an entire, you know, massive opportunity with us building our own constellation and ultimately deploying our own infrastructure in orbit. It's all about risk versus reward. So, you know, do you want to have a little company that's profitable and okay, it may survive, or do you want to have a much bigger impact and make some investments in these much bigger capabilities? Um, so we're very black and white and unpassionate about these sorts of things, um, for us. Um, you know, we don't we we don't we don't make decisions based on, you know, feelings and and those kinds of things. It's it's very much... ...passionate. Um, you know, we're trying to build profitable, we're trying to build value, which ultimately builds longevity. But, um, you know, we do also, you know, happy to make, uh, you know, make the decisions and take the risks to to make big investments like Neutron, where we can see the outcome of that investment is just going to be like orders of magnitude of scale of company.
+
+**Ti Morse:** [57:23](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3443s) One of the things that Elon did is he just kept on working on basically this idea of launch costs to orbit or like mass to orbit... ...and getting the cost down. And then eventually he basically just filled his own supply, uh, where now, like Starlink is the best business in space, period, end of story. How do you kind of think about figuring out which business to build in space when you're just absorbing all of your own supply?
+
+**Peter Beck:** [57:44](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3464s) Yeah. Well, for the longest time, I've always said, it's going to be really blurry in the future of what is a space company and what is not a space company. Especially the big ones, like the the big space companies of the future, they're going to be blurry. And I think if you looked at, looked at SpaceX right now, of what is it? Is it an AI company? Is it a communications company? Or is it a space company? Um, but the one thing is for sure as shit. If, if you have the ability to to put infrastructure in orbit and you have the ability to make that infrastructure that is in orbit, then your ability to deliver a service or a, a solution down on earth is vastly superior to anybody else's. That experiment has been run, that experiment to us was always super obvious, and, and I think, you know, that that is clearly where, where we're tracking. And, um, you know, I think if we have this in another interview in 10 years time, there's going to be a select few of really large space companies that provide a critical part of infrastructure and backbone in orbit, and 100% of them are going to have their own ride to the right- their own rocket. 100% of them.
+
+**Ti Morse:** [58:49](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3529s) If you had to fast-forward five or 10 years out and you said, if you, you know, just best guess today, what the vast majority of your launches, like what payload they're carrying, what would that be? Like what is that business that you create?
+
+**Peter Beck:** [59:02](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3542s) Yeah, we don't talk about that. Oh. No, look, I mean, we don't talk about it for a number of reasons. One, uh, is just too early. Um, so, you know, there's no, I'm, I'm a very, um, methodical person. So I like to finish one thing before I start the next. And, uh, the most important thing is to get Neutron to orbit, um, and, uh, get that vehicle scaled. Uh, then we have the capability to deploy whatever infrastructure we need. Um, you know, we've been methodically building capability in our space systems division to the point now, whether you want to go to Mars, whether you want to go to the moon, whether you want to do national security, the most exquisite thereof, we can do it all. Like, piece of cake. There is nothing we cannot build now in, in orbit. So, um, so, you know, we've we've put all those building blocks in place.
+
+**Ti Morse:** [59:51](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3591s) You're basically building optionality.
+
+**Peter Beck:** [59:54](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3594s) 100%. The only thing left we've got- left to do is to get Neutron finished. Then, then we can talk about what infrastructure will end up building in space.
+
+**Ti Morse:** [60:00](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3600s) In 2012, Mark Zuckerberg and Paul Graham were talking together on stage. And I think Facebook had just gone public and their stock was down like 50% or something like this. And Paul was asking him basically the question of: 'Do you like it when everything is working? Or do you like to be underestimated?' And Mark basically said, 'I love being underestimated and people not really knowing what I'm capable of.' What is your favorite state? Is it being underestimated?
+
+**Peter Beck:** [60:24](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3624s) Oh, I'd like everything working. 100%. No, screw that. Yeah, no, I don't - I don't need to be felt as the underdog or anything like that. Like, I like everything humming and working. Absolutely.
+
+**Ti Morse:** [60:32](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3632s) What does the scale-up of Neutron look like?
+
+**Peter Beck:** [60:38](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3638s) Yeah, so - well, we'll do a first launch and we'll do - we'll do a splashdown of that. And that'll give - that'll give us a really good sense of, you know, where we're at with the program. And then all going well, if the program's going well, then we'll slip the barge under the next one and we'll - we'll try and stick a landing. And then, you know, Neutron will scale a lot faster than even Electron scaled. Because we've just put in place, you know, from both a design perspective but also just from a manufacturing and infrastructure perspective, we're just so far further ahead than we were with - with the likes of Electron. I mean, you know, the design decisions that we made - carbon composite structure, using AFP, Automated Fiber Placement machine. Like, it's just nuts how quick we can make a tank or make structures with that - with that machine. It's just, yeah, and how cheap we can do it. So, so you know, we've - we've chosen various kind of paths that are just infinitely scalable.
+
+**Ti Morse:** [61:32](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3692s) I remember Starship initially it was going to be this like carbon fiber basically structure and then they swapped it to like a special alloy of steel.
+
+**Peter Beck:** [61:41](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3701s) Just once, yeah.
+
+**Ti Morse:** [61:42](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3702s) Yeah. Are you doing anything new on like the material side?
+
+**Peter Beck:** [61:45](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3705s) Yeah, absolutely. Yeah, I mean, so it's a complicated - so a rocket is a giant engineering compromise. Like if we're having a design review and all the - all the subsystems are in a room together and one of them is happy, then something's gone wrong. Like everybody should be equally as miserable because it is - everything is a giant engineering compromise. And, you know, carbon is, you know, strength-to-weight ratio is just vastly superior to any other material. Like it's four times better than stainless steel, for example, you know, for the same strength it's - it's one quarter of the weight. So, um, but with that comes other challenges. And, you know, we've been able to solve these challenges through a lot of this automation, AFP machine. So, you know, the structures of Neutron are just absurdly light, um, which is, you know, which enables you to, you know, take pressure off other areas like rocket engines. Our rocket engines don't have to be like on the limit of grenades. Um, they can be - they can be backed right off and just sort of, you know, a relatively unstressed engine. And that's because, you know, we have - our structures are so light that, you know, we can back some performance off the propulsion.
+
+**Ti Morse:** [63:00](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3780s) What's the most unexpected thing that have happened?
+
+**Peter Beck:** [63:03](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3783s) Well, um, there's lots of things. Um, there's both from a technology standpoint and also I would say capital, because that is a big one, because we've always been in this position where we have vastly less resources than our competitors. And, you know, even as a public company, that that is true. But as a public company, we've been able to harness the, the kind of capital access that we have and just look how fast this business has grown. Like year on year, it's just crazy. Not just organically, but inorganically we're able to acquire capabilities and grow those as well. So, you know, the, the kind of line here is fairly vertical with respect to that. So, you know, going public was a great capital unlocker for us to go and, you know, really, really grow. I mean, we, we went public with one product and now we have hundreds and we're building, you know, complete as a prime contractor for the US government on national security. So a lot of that was unlocked by, you know, having that, that ability to access that capital.
+
+**Ti Morse:** [64:10](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3850s) I've gotten this overwhelming sense of just relentless optimism from you and from just the team in general. What is the importance of having just extreme optimism?
+
+**Peter Beck:** [64:25](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3865s) Well, I mean, I think, I think, yeah, I mean it's, it's absolutely critical. But I think what a boring person if you're always down. I mean, like, would you want to work with somebody who was just like took the negative side of the angle? I mean...
+
+**Ti Morse:** [64:36](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3876s) Never, but the thing is most people aren't like, you just constantly have a smile on your face every time I see you.
+
+**Peter Beck:** [64:43](https://www.youtube.com/watch?v=Yfrm31sSrDI&t=3883s) Yeah, well, I mean, I'm having fun, so it's not, it's not anything other than that. But, no, I think there's a lot to be optimistic about. Like, this is, we're doing fun stuff and we're doing big stuff that's important. So, I'm not sure how you could be anything but an optimist. in this industry and, and probably to be fair, it probably does attract optimists because, um, you know, the rocket gods are trying to crush you every, every chance they get. So you have to, you know, you have to be a little bit, a little bit sunny side up.

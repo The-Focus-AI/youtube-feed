@@ -1,8 +1,8 @@
 ---
 channel: Turing Post
 channel_handle: "@RealTuringPost"
-total_videos: 71
-last_updated: 2026-03-18
+total_videos: 73
+last_updated: 2026-03-23
 ---
 
 # Turing Post Channel Index
@@ -11,17 +11,19 @@ last_updated: 2026-03-18
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 71 |
-| Total Views | 105,260 |
-| Date Range | 2025-08-18 to 2026-03-16 |
-| Average Video Length | 15:48 |
+| Total Videos | 73 |
+| Total Views | 109,171 |
+| Date Range | 2025-08-18 to 2026-03-21 |
+| Average Video Length | 15:36 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
+| 2026-03-21 | [OpenAI's Michael Bolin: What Engineers Still Matter For in the Age of Coding Agents](videos/LUkIHp7N_B0.md) | 9:05 | 951 | [Watch](https://www.youtube.com/watch?v=LUkIHp7N_B0) |
 | 2026-03-16 | [NVIDIA's New AI Stack: GPUs + LPUs for Trillion-Parameter Models](videos/QkJx025O-_g.md) | 9:53 | 1,527 | [Watch](https://www.youtube.com/watch?v=QkJx025O-_g) |
 | 2026-03-14 | [OpenAI's Michael Bolin on Codex, Harness Engineering, and the Real Future of Coding Agents](videos/6BAqgT3qe98.md) | 21:52 | 1,968 | [Watch](https://www.youtube.com/watch?v=6BAqgT3qe98) |
+| 2026-03-09 | [Karpathy's autoresearch: the lab that works while you sleep](videos/nKwRnwhV3bc.md) | 12:27 | 2,960 | [Watch](https://www.youtube.com/watch?v=nKwRnwhV3bc) |
 | 2026-03-06 | [What Reflection AI offers to beat closed labs](videos/zd3B8sNNgmk.md) | 15:52 | 165 | [Watch](https://www.youtube.com/watch?v=zd3B8sNNgmk) |
 | 2026-03-02 | [The Pentagon Called Anthropic a "Supply Chain Risk." They're Not Wrong](videos/o9d12zG6kNM.md) | 11:51 | 503 | [Watch](https://www.youtube.com/watch?v=o9d12zG6kNM) |
 | 2026-02-28 | [Why Reflection AI Bets Their Business on Open Weights \| Ioannis Antonoglou, co-founder and CTO](videos/y2Nw5JzownM.md) | 10:12 | 259 | [Watch](https://www.youtube.com/watch?v=y2Nw5JzownM) |
@@ -99,7 +101,7 @@ last_updated: 2026-03-18
 |--------|--------|---------|
 | **Nathan Lambert** | 1 | Allen Institute for AI, RLHF Book author, open models advocate |
 | **Raffi Krikorian** | 1 | Mozilla CTO, Open Source AI advocate |
-| **Andrej Karpathy** | 2 | Former Tesla/OpenAI, AI education, AGI perspectives |
+| **Andrej Karpathy** | 3 | Former Tesla/OpenAI, AI education, AGI perspectives, autoresearch |
 | **Dwarkesh Patel** | 5 | Podcast host, interviews with AI leaders, friction vs scaling |
 | **Sam Altman** | 5 | OpenAI CEO, AGI predictions, infrastructure, defense contracts |
 | **Jensen Huang** | 3 | NVIDIA CEO, robotics predictions, physical AI |
@@ -109,7 +111,7 @@ last_updated: 2026-03-18
 | **Yann LeCun** | 2 | Meta AI, skepticism of AGI timelines |
 | **Carina Hong** | 1 | Axiom Math founder, AI reasoning |
 | **Lin Qiao** | 1 | Fireworks AI CEO, inference |
-| **Michael Bolin** | 1 | OpenAI Codex tech lead, harness engineering, coding agents |
+| **Michael Bolin** | 2 | OpenAI Codex tech lead, harness engineering, coding agents, engineering taste |
 | **Jonathan Ross** | 1 | Groq founder, LPU architecture |
 | **Ben Goodger** | 1 | OpenAI, ChatGPT Atlas browser |
 | **Refik Anadol** | 1 | AI artist, machine hallucinations |
@@ -194,6 +196,7 @@ last_updated: 2026-03-18
 ## Video Categories
 
 ### Interviews & Conversations
+- [OpenAI's Michael Bolin: What Engineers Still Matter For in the Age of Coding Agents](videos/LUkIHp7N_B0.md) - Engineering taste, coding agents, human-in-the-loop
 - [What Reflection AI offers to beat closed labs](videos/zd3B8sNNgmk.md) - Ioannis Antonoglou, frontier open-weight models, RL, AlphaGo
 - [Why the US need Open Models \| Nathan Lambert](videos/mq_V6zAjsSI.md) - AI2, open models, RLHF, coding agents
 - [This Is a Fight Worth Having: Open Source AI \| Raffi Krikorian](videos/3ohQX-oYndI.md) - CTO of Mozilla on OSAI
@@ -210,6 +213,7 @@ last_updated: 2026-03-18
 - [Can We Control AI That Controls Itself?](videos/5P8kgRcLF5Q.md) - AI resilience
 
 ### Explainers & Deep Dives
+- [Karpathy's autoresearch: the lab that works while you sleep](videos/nKwRnwhV3bc.md) - Auto-Research, nanoGPT, automated experiment loops
 - [This chip runs a "baked" Llama so fast it looks like a glitch (Taalas HC1)](videos/ibbB5CsDwxQ.md) - Model-specific ASIC silicon, 17K tokens/sec
 - [Context Windows Explained](videos/17cPQ3rgRdI.md) - Technical deep dive
 - [Nondeterminism in LLMs Explained](videos/6BFkLH-FSFA.md) - Why outputs drift

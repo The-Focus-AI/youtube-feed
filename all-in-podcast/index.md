@@ -2,8 +2,8 @@
 channel: All-In Podcast
 channel_handle: "@allin"
 channel_id: UCESLZhusAkFfsNsApnjF_Cg
-total_videos: 56
-last_updated: 2026-03-11
+total_videos: 70
+last_updated: 2026-04-25
 ---
 
 # All-In Podcast Channel Index
@@ -14,15 +14,29 @@ The All-In Podcast features Chamath Palihapitiya, Jason Calacanis, David Sacks, 
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 56 |
-| Total Views | 14,944,059 |
-| Date Range | 2024-11-05 to 2026-03-11 |
-| Average Video Length | ~63 min |
+| Total Videos | 70 |
+| Total Views | 19,172,564 |
+| Date Range | 2024-11-05 to 2026-04-24 |
+| Average Video Length | ~65 min |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views |
 |------|-------|----------|-------|
+| 2026-04-24 | [SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike](videos/1bCXCxrDsCs.md) | 90:41 | 254,828 |
+| 2026-04-17 | [OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out](videos/SFdqX7IY7RY.md) | 90:57 | 500,967 |
+| 2026-04-10 | [Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence](videos/DVBJQQCjgXU.md) | 89:17 | 491,378 |
+| 2026-04-08 | [Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race](videos/MPAsUZEJHiM.md) | 61:52 | 54,274 |
+| 2026-04-06 | [The State of Modern War: Palantir & Anduril Execs on Drones, AI, and the End of Traditional Warfare](videos/mjNP5IOzCbA.md) | 69:21 | 151,510 |
+| 2026-04-03 | [SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity](videos/N-pust8qtGI.md) | 80:31 | 423,703 |
+| 2026-03-27 | [Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Major Lawsuits](videos/4Gmd5UTF4rk.md) | 80:11 | 457,887 |
+| 2026-03-26 | [Bryan Johnson: I Just Took the Most Powerful Dose of DMT in the World... Here's What It Was Like](videos/Axpnkqd-Agk.md) | 37:57 | 734,511 |
+| 2026-03-23 | [Four CEOs on the Future of AI: CoreWeave, Perplexity, Mistral, and IREN](videos/-JBhTBu9ZbA.md) | 97:39 | 25,168 |
+| 2026-03-23 | [How Matt Mahan Thinks He Can Save California](videos/blBlD-mrIoE.md) | 77:12 | 47,918 |
+| 2026-03-19 | [Jensen Huang: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis](videos/gwW8GKwHB3I.md) | 66:06 | 412,923 |
+| 2026-03-18 | [Senator John Fetterman: Country Over Party](videos/3ZVqcW6Wwmg.md) | 45:27 | 72,349 |
+| 2026-03-17 | [Two Legendary Founders: Travis Kalanick & Michael Dell Live from Austin, Texas](videos/9y7TTU1jIvk.md) | 75:56 | 146,169 |
+| 2026-03-13 | [Iran War, Oil Shock, Off Ramps, AI's Revenue Explosion and PR Nightmare](videos/HiVej9_fvl8.md) | 80:22 | 454,920 |
 | 2026-03-11 | [They're Opening the Stock Market to Everyone. Here's What That Actually Means](videos/el6ObB60Fb4.md) | 60:10 | 18,327 |
 | 2026-03-09 | ["This is Bibi's War" - Harvard's Graham Allison on the Influences and Endgame of the Iran War](videos/yAHfG6jU2qA.md) | 63:25 | 128,382 |
 | 2026-03-07 | [Exiled Iranian Prince Reza Pahlavi: Transition Plan and the Fight for Iran's Freedom](videos/elhGYEiZ7fw.md) | 47:56 | 100,430 |
@@ -85,20 +99,23 @@ The All-In Podcast features Chamath Palihapitiya, Jason Calacanis, David Sacks, 
 | Rank | Title | Views |
 |------|-------|-------|
 | 1 | [Elon Musk: OpenAI Betrayal, His Future at Tesla, and the Next Big Thing](videos/j6_VfR-CyuM.md) | 736,956 |
-| 2 | [All-In's 2026 Predictions](videos/yEb2DX0TzKM.md) | 681,121 |
-| 3 | [Scott Bessent: Fixing the Fed, Tariffs for National Security](videos/G0GuHkUbuEY.md) | 673,407 |
-| 4 | [Does OpenAI Need a Bailout? Mamdani Wins, Socialism Rising](videos/6uYEPfiBMAE.md) | 605,872 |
-| 5 | [Epstein Files, Is SaaS Dead?, SpaceX xAI Merger, Trump's Fed Pick](videos/wTiHheA40nI.md) | 582,644 |
-| 6 | [Massive Somali Fraud in Minnesota, California Asset Seizure, Groq-Nvidia Deal](videos/bhpd4NeTbCI.md) | 561,014 |
-| 7 | [OpenAI's Code Red, Sacks vs New York Times](videos/Uxi6LVKanuY.md) | 529,196 |
-| 8 | [Tucker Carlson: Rise of Nick Fuentes, Paramount vs Netflix](videos/cY5UFw2AIZo.md) | 487,211 |
-| 9 | [Howard Lutnick: How America Can Hit 6% GDP Growth](videos/fd6QaEJOjvI.md) | 472,317 |
-| 10 | [NBA Gambling Scandal, Billionaire Tax, Tesla's Future](videos/l__Koacw_oI.md) | 470,903 |
+| 2 | [Bryan Johnson: I Just Took the Most Powerful Dose of DMT in the World](videos/Axpnkqd-Agk.md) | 734,511 |
+| 3 | [All-In's 2026 Predictions](videos/yEb2DX0TzKM.md) | 681,121 |
+| 4 | [Scott Bessent: Fixing the Fed, Tariffs for National Security](videos/G0GuHkUbuEY.md) | 673,407 |
+| 5 | [Does OpenAI Need a Bailout? Mamdani Wins, Socialism Rising](videos/6uYEPfiBMAE.md) | 605,872 |
+| 6 | [Epstein Files, Is SaaS Dead?, SpaceX xAI Merger, Trump's Fed Pick](videos/wTiHheA40nI.md) | 582,644 |
+| 7 | [Massive Somali Fraud in Minnesota, California Asset Seizure, Groq-Nvidia Deal](videos/bhpd4NeTbCI.md) | 561,014 |
+| 8 | [OpenAI's Code Red, Sacks vs New York Times](videos/Uxi6LVKanuY.md) | 529,196 |
+| 9 | [OpenAI's Identity Crisis, Datacenter Wars, Mamdani's First Tax, Swalwell Out](videos/SFdqX7IY7RY.md) | 500,967 |
+| 10 | [Anthropic's $30B Ramp, Mythos Doomsday, Iran War Ceasefire, Israel's Influence](videos/DVBJQQCjgXU.md) | 491,378 |
 
 ## Guest Interviews
 
 | Guest | Title | Date |
 |-------|-------|------|
+| Josh Shapiro (Pennsylvania Governor) | [Josh Shapiro on Trump, Iran War, Israel's Failure, the Economy, 2028 Race](videos/MPAsUZEJHiM.md) | 2026-04-08 |
+| Trae Stephens (Anduril), Shyam Sankar (Palantir) | [The State of Modern War: Palantir & Anduril Execs on Drones, AI](videos/mjNP5IOzCbA.md) | 2026-04-06 |
+| Bryan Johnson (Don't Die / Blueprint) | [I Just Took the Most Powerful Dose of DMT in the World](videos/Axpnkqd-Agk.md) | 2026-03-26 |
 | Paul Atkins (SEC Chair), Michael Selig (CFTC Chair) | [They're Opening the Stock Market to Everyone](videos/el6ObB60Fb4.md) | 2026-03-11 |
 | Graham Allison (Harvard Kennedy School) | ["This is Bibi's War" - Influences and Endgame of the Iran War](videos/yAHfG6jU2qA.md) | 2026-03-09 |
 | Prince Reza Pahlavi, Shervin Pishevar | [Exiled Iranian Prince: Transition Plan and Fight for Iran's Freedom](videos/elhGYEiZ7fw.md) | 2026-03-07 |
@@ -143,6 +160,12 @@ The All-In Podcast features Chamath Palihapitiya, Jason Calacanis, David Sacks, 
 ## Topics Index
 
 ### AI & Technology
+- [SpaceX-Cursor Deal, SaaS Debt Bomb, Mythos Cyber Threat](videos/1bCXCxrDsCs.md) *(Cursor acquisition, Anthropic Mythos, OpenAI Spud)*
+- [OpenAI's Identity Crisis, Datacenter Wars, Compute Five-Alarm Fire](videos/SFdqX7IY7RY.md) *(Colossus, Prometheus, Crusoe, Maine ban)*
+- [Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled](videos/DVBJQQCjgXU.md) *(GPT-2 precedent, code tokens, agents)*
+- [The State of Modern War: Palantir & Anduril on Drones and AI](videos/mjNP5IOzCbA.md) *(autonomous warfare, defense tech)*
+- [SpaceX IPO, Quantum Bitcoin Hack, The Space Opportunity](videos/N-pust8qtGI.md) *(quantum computing, Bitcoin, asteroid mining)*
+- [Anthropic's Generational Run, OpenAI Panics, AI Moats](videos/4Gmd5UTF4rk.md) *(MCP, Codex, SaaS apocalypse, PCAST)*
 - [They're Opening the Stock Market to Everyone](videos/el6ObB60Fb4.md) *(AI trading bots, prediction markets)*
 - ["This is Bibi's War" - Graham Allison on Iran, China, Taiwan](videos/yAHfG6jU2qA.md) *(nuclear proliferation, Thucydides Trap)*
 - [War with Iran + Pentagon vs Anthropic with Emil Michael](videos/gzwRflcLPAA.md)
@@ -168,6 +191,10 @@ The All-In Podcast features Chamath Palihapitiya, Jason Calacanis, David Sacks, 
 - [Alibaba's Joe Tsai on US-China Rivalry, AI Future](videos/sp35RmulTDc.md)
 
 ### Politics & Government
+- [Josh Shapiro on Trump, Iran War, Israel's Failure, 2028 Race](videos/MPAsUZEJHiM.md) *(Pennsylvania, Democratic Party, wealth tax, Mike Johnson)*
+- [SPLC Indictment, $822M Offshore Accounts](videos/1bCXCxrDsCs.md) *(SPLC, Trump praise of Anthropic)*
+- [Mamdani's First Tax, Swalwell Out, Pied-à-Terre Crackdown](videos/SFdqX7IY7RY.md) *(NYC mansion tax, capital flight, Democratic primary)*
+- [Iran War Ceasefire, Israel's Influence, NYT Inside-the-Room](videos/DVBJQQCjgXU.md) *(Naftali Bennett, Israel-US polling)*
 - [They're Opening the Stock Market to Everyone](videos/el6ObB60Fb4.md) *(SEC, CFTC, accredited investor reform, IPO drought)*
 - ["This is Bibi's War" - Graham Allison on Iran, Netanyahu, Greenland, Wealth Inequality](videos/yAHfG6jU2qA.md)
 - [Exiled Iranian Prince Reza Pahlavi: Transition Plan and Fight for Iran's Freedom](videos/elhGYEiZ7fw.md)
@@ -187,6 +214,10 @@ The All-In Podcast features Chamath Palihapitiya, Jason Calacanis, David Sacks, 
 - [Trump Brokers Gaza Peace Deal, National Guard in Chicago](videos/IbnrclsPGPQ.md)
 
 ### Business & Markets
+- [SpaceX-Cursor Deal, Salesforce sub-10x FCF, Apple CEO Succession](videos/1bCXCxrDsCs.md) *(Tim Cook, John Ternus, Eisner-Iger parable)*
+- [SaaS Apocalypse, Allbirds 450% Spike, Jane Street's Neoscaler](videos/SFdqX7IY7RY.md) *(market reset, Pelosi/Buffett/Druckenmiller)*
+- [Anthropic Generational Run, AI Moats, Meta Lawsuit Losses](videos/4Gmd5UTF4rk.md) *(SaaS apocalypse, strangulation as a service, MAG 6)*
+- [SpaceX IPO at $1.75T, Tesla-SpaceX Merger Bet](videos/N-pust8qtGI.md) *(IPO appetite, Middle East LP risk, urea fertilizer doubles)*
 - [They're Opening the Stock Market to Everyone](videos/el6ObB60Fb4.md) *(IPO drought, VC fund formation, prediction markets)*
 - [Ray Dalio: Debt Crisis, Gold, Bitcoin, AI Bubble](videos/u-vMNzHgSHI.md)
 - [Software Stocks Implode, Trump's Tariff Pivot](videos/kzWbCF_IkHY.md)
@@ -215,12 +246,18 @@ The All-In Podcast features Chamath Palihapitiya, Jason Calacanis, David Sacks, 
 - [California Forever](videos/ElhxzUO7YQM.md)
 
 ### Health & FDA
+- [Bryan Johnson: Most Powerful Dose of DMT in the World](videos/Axpnkqd-Agk.md) *(psychedelics, Don't Die, biohacking)*
+- [Colon Cancer Spike, Picloram, Barcelona Epigenome Study](videos/1bCXCxrDsCs.md) *(young-onset cancer, RNA sequencing)*
 - [Dr. Mehmet Oz on Fixing American Healthcare + Fraud](videos/b5p40OuTTW4.md)
 - [Supercharging a New FDA: Marty Makary](videos/DBlOJpT9Y1Y.md)
 - [How Chamath Optimized His Health](videos/_m_jwz5hzzw.md)
 - [Bryan Johnson's Best Health Hack: Lower Your RHR Before Sleep](videos/XXPISZI_big.md)
 
 ### Defense & Geopolitics
+- [The State of Modern War: Palantir & Anduril Execs](videos/mjNP5IOzCbA.md) *(autonomous warfare, drones, defense tech)*
+- [Iran War Ceasefire, Israel's Influence, NYT Inside-the-Room](videos/DVBJQQCjgXU.md) *(Naftali Bennett, Israel-US polling)*
+- [Iran War Fallout, Urea Fertilizer Doubles, Middle East LP Risk](videos/N-pust8qtGI.md) *(food security, force majeure, Helium)*
+- [Josh Shapiro on Iran War Chaos, Israel's Failure](videos/MPAsUZEJHiM.md) *(antisemitism, Netanyahu, regime change)*
 - ["This is Bibi's War" - Graham Allison on Iran, China, Taiwan, Nuclear Proliferation](videos/yAHfG6jU2qA.md)
 - [Exiled Iranian Prince Reza Pahlavi: Transition Plan and Fight for Iran's Freedom](videos/elhGYEiZ7fw.md)
 - [War with Iran + Pentagon vs Anthropic with Emil Michael](videos/gzwRflcLPAA.md)

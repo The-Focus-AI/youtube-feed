@@ -1,0 +1,393 @@
+{
+  "title": "Mercury 2 Explained: The Elegant New Language Model Nobody Talks About",
+  "source_url": "https://www.youtube.com/watch?v=Dpsv-1CXotA",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "You've probably never heard about this model. Look at this. First, it's blazing fast. Second, it's not a transformer. Third, as I said, you've probably never heard of it. And fourth, the way it works through your questions is quite literally elegant and beautiful. Who would have thought that asking a model a question can be such an aesthetic experience? Anyway, what is this model?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:00:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Hi, my name is Ksenia and this is Attention Span where I bring you clear explanations of new things in AI that don't get enough attention. And today, we're talking about Mercury. Not the planet, though. My husband was recently testing models ranking high on OpenRouter. And one model we had barely noticed before suddenly scored 15 out of 15 on the Defocus AI MCP evaluation. Finished in 8.6 seconds and it costs only six tenths of a cent.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "At first, that looked like the kind of benchmark surprise that appears out of nowhere and then disappears back into the swamp – we live on a swamp road. But it looks different. Since Mercury 2 launched in February, Inception, the company that created this model, has published a second performance story on PinchBed. And on March 30, just recently, it launched Mercury Edit 2, a diffusion model for next edit prediction encoding workflows. And now this is starting to look like a product line and a theory of where latency-sensitive AI is going and not just a one-off stunt.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:01:43",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But wait, wait, let's start with the basic question. What exactly is Mercury 2 and why is it behaving so differently from the models most of us are used to? Mercury 2 comes from Inception Labs and the company is now clearly trying to frame Mercury as a family of diffusion language models built for production use. Mercury 2 is presented as a chat model with a 128,000 context window, tool calling, structured outputs and an OpenAI-compatible API.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:02:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Right next to it sits Mercury Edit, the coding model with fill-in-the-middle, apply-edit and next-edit capabilities. That product surface tells you what kind of bet this is from Inception Labs. Inception has not just created a weird model for the sake of it, they're trying to show that a different architecture may be better suited for workloads where latency piles up across many calls and starts shaping what products can actually do.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:02:37",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is also why the Defocus AI result is worth paying attention to. This was not a toy benchmark; this was not a benchmark that a model can be prepared for. Look at the prompt: 'Look through my real data and summarize the 10 days of the Reavens activity between February 27th and March 8th, 2026. If there were any notable trips, create a narrative of the timeframe. Today is March 8th, 2026, and make sure that you include the...'",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Full 10 days. So if you don't have any drives and charges in February, it's obviously false.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:06",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, 39 models had access to 20 plus real MCP tools, including things like get drives and get charges, and the prompt contained a trap.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:16",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If the model forgot to pass a start date, it would only see recent March data and unconfidently tell a false story.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:24",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Several models, quite famous models, did exactly that. False story.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Mercury-2 did not. It got the tools right, got the dates right, and got the story right. And it did it very fast and very cheaply.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:38",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "To understand why that matters, it helps to step back and look at a design habit that shaped almost the entire LLM era.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:03:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Most language models generate text sequentially, one token at a time.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That setup worked incredibly well and it powered the whole wave of autoregressive LLMs we know and use every day.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But it also comes with a limitation that becomes much easier to notice once models move from demos into real systems.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:04:07",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And every token adds latency.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:04:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And when you start stacking model calls inside larger workflows, that latency compounds.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:04:18",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And modern AI systems increasingly work like pipelines.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:23",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "One system might retrieve documents, summarize them, call tools, reason over the result, and only then generate an answer.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "An agent may choose a tool, fetch outside information, interpret it, and take another step.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:36",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "In all of these cases, the delay is no longer coming from one model response. It comes from many generation steps piling on top of each other. Latency.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:04:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And that is the bottleneck Mercury is going after.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So Mercury does not generate text in the usual left-to-right way.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Instead, it starts with something closer to a rough draft of the response and then refines it iteratively.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:01",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The inspiration comes from diffusion models.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "In image generation, a diffusion model starts from noise and gradually turns it into a coherent image by refining the whole thing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It actually looks like magic.",
+      "tone": "amazed"
+    },
+    {
+      "timestamp": "00:05:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And Mercury adopts that basic idea to text.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:17",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So that's why it looks so beautiful.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:05:18",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And instead of committing one token at a time, it works out multiple tokens at once and keeps refining the sequence until it's stabilized.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The simplest way to picture it is this: a conventional LLM behaves like a typewriter; Mercury behaves more like an editor. Let's see what you wrote there.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:37",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That is why the model feels different. It is not just that it's fast. It is that the answer seems to arrive with a different texture.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:05:45",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Under the company's benchmark conditions, Mercury-2 is reported at around 1,900 output tokens per second, which is why it can feel less like streaming and more like arrival.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "We still do not have every internal detail and it's worth being careful here, because we don't...",
+      "tone": "cautious"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Of course, public information cards lack training recipe or parameter count, but the architectural bet is clear enough. Mercury is trying to reduce the structural costs of token-by-token generation.",
+      "tone": "Informative"
+    },
+    {
+      "timestamp": "00:06:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If Mercury was just fast, if it was just fast curiosity, it would be interesting, but it would be easy to forget. What makes it harder to dismiss is that Inception has started building a broader case around it.",
+      "tone": "Informative"
+    },
+    {
+      "timestamp": "00:06:26",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Since the February launch, the company has added a second publication, a performance story with Pinchbench, as I said, where it claims a 78% success rate, the fastest execution time in its class and pricing below a dollar per million tokens. Just let it sink. One dollar per million tokens.",
+      "tone": "Enthusiastic"
+    },
+    {
+      "timestamp": "00:06:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Around the same time, Mercury was being positioned for deployment through Azure, Microsoft, and AWS pathways, Microsoft and Amazon. And the official framing became more explicit about where the model is supposed to win: Search, RAG, voice, coding, and agentic loops.",
+      "tone": "Informative"
+    },
+    {
+      "timestamp": "00:07:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The Mercury Edit 2 launch strengthens that reading. This is a diffusion model built for next edit prediction in coding workflows, which is one of the most latency-sensitive categories you can imagine because suggestions have to arrive inside the developer's flow, not after the moment has already passed.",
+      "tone": "Informative"
+    },
+    {
+      "timestamp": "00:07:26",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Inception Labs say the new version edits are accepted 48% more often than the previous one and that it is 27% more selective in what it shows.",
+      "tone": "Informative"
+    },
+    {
+      "timestamp": "00:07:36",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What it means is that it is trying to get faster and more useful at the same time.",
+      "tone": "Explanatory"
+    },
+    {
+      "timestamp": "00:07:42",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Now, as always, let's break some myths. This does not mean diffusion models are about to replace ordinary LLMs based on Transformers. Autoregressive models still dominate much of the frontier, and the entire ecosystem around them has been optimized for years now.",
+      "tone": "Cautionary"
+    },
+    {
+      "timestamp": "00:07:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Mercury also still has important public information gaps around its internals, and independent benchmark coverage remains relatively thin.",
+      "tone": "Analytical"
+    },
+    {
+      "timestamp": "00:08:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So the right reaction here is neither 'this changes everything' nor 'this is nothing.' The right reaction is to pay attention. Because Mercury is already forcing the field to revisit an assumption that had become so familiar we stopped noticing it.",
+      "tone": "Analytical"
+    },
+    {
+      "timestamp": "00:08:26",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The idea that language models must reveal answers one token at a time.",
+      "tone": "Serious"
+    },
+    {
+      "timestamp": "00:08:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And if more systems start caring about real-time interaction, tool loops, coding assistance, and continuous background inference, then the question starts to shift.",
+      "tone": "Explanatory"
+    },
+    {
+      "timestamp": "00:08:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It is no longer only about which model is smartest in the abstract. It becomes a question of which architecture can deliver enough quality at the speed and price that real products can actually tolerate.",
+      "tone": "Thought-provoking"
+    },
+    {
+      "timestamp": "00:08:55",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That is why Mercury is worth watching. Thank you for being with me today. I'd love to hear your thoughts and if you have tried Mercury yourself. Share below.",
+      "tone": "Friendly"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Like, subscribe and see you soon.",
+      "tone": "friendly"
+    }
+  ],
+  "highlights": [
+    "Mercury uses a diffusion-based architecture instead of a traditional transformer, allowing it to refine text sequences iteratively like an editor rather than generating them token-by-token like a typewriter.",
+    "The model is designed for extreme efficiency in production, achieving speeds of approximately 1,900 tokens per second at a cost of less than one dollar per million tokens.",
+    "By moving away from sequential generation, Mercury addresses the \"compounding latency\" problem in AI pipelines, making it ideal for real-time applications like agentic loops, RAG, and coding assistants.",
+    "In specialized evaluations, Mercury demonstrated high accuracy in complex tool-calling and reasoning tasks, outperforming several well-known models while maintaining significantly lower costs and faster execution times."
+  ],
+  "summary": "Mercury 2, developed by Inception Labs, represents a significant departure from traditional transformer-based AI models. Unlike standard large language models (LLMs) that generate text sequentially one token at a time, Mercury utilizes a \"diffusion\" architecture. This approach allows the model to generate and refine a draft of a response iteratively, functioning more like an editor revising a page than a typewriter printing one character at a time. By moving away from autoregressive generation, Mercury aims to eliminate the compounding latency that often bottlenecks complex AI pipelines and multi-step agentic workflows.\n\nThe model has demonstrated impressive results in production-oriented benchmarks, such as the Defocus AI evaluation, where it accurately handled complex tool-calling and long-context reasoning that tripped up more famous competitors. With a 128,000-token context window and speeds reaching 1,900 tokens per second, the Mercury family—which includes the chat-focused Mercury 2 and the coding-specific Mercury Edit 2—is designed for latency-sensitive applications like RAG (Retrieval-Augmented Generation), voice interaction, and real-time coding assistance. It also boasts a highly competitive pricing model, aiming for costs as low as one dollar per million tokens.\n\nUltimately, Mercury’s emergence suggests a shift in the AI field from focusing solely on abstract intelligence to prioritizing architectural efficiency for real-world products. While transformer models still dominate the industry, Mercury challenges the long-standing assumption that language generation must be sequential. By delivering high-quality outputs at extreme speeds and lower costs, Inception Labs is positioning diffusion-based text models as a viable solution for the next generation of real-time, interactive AI systems.",
+  "description": "What if the future of language models is not bigger Transformers, but something stranger?\n\nIn this episode of Attention Span, we look at Mercury 2 — a fast and unusual language model from Inception Labs that does not generate text in the standard left-to-right way. Instead, it uses a diffusion-style approach that makes it feel less like a typewriter and more like an editor.\nIf you’ve tried Mercury yourself, I’d love to hear what you think - I was really surprised by it’s performance. \n\nFollow on: https://www.turingpost.com/\nDid you like the episode? You know the drill:\n📌 Subscribe for more AI ideas that deserve more attention\n💬 Leave a comment if this changed how you think about language models\n👍 Like it if you liked it\n🫶 Thank you for watching and sharing\n🔗 Links Mentioned \n\n• Mercury 2: https://www.inceptionlabs.ai/blog/introducing-mercury-2\n• Mercury Edit 2: https://www.inceptionlabs.ai/blog/introducing-mercury-edit-2\n• PinchBench: https://www.inceptionlabs.ai/blog/mercury-2-on-pinchbench\n• MCP report: https://thefocus.ai/reports/mcp-tool-test/\n\n#Mercury2 #LLM #AI #DiffusionModels #Transformers #agenticai\n\nAttention Span is where I bring you clear explanations of new things in AI that don’t get enough attention.\n👉 Subscribe for more high-signal AI mechanics\n 👉 More analysis: TuringPost.com\n 👉 Interviews: / @realturingpost",
+  "duration": 550,
+  "people": [
+    "Ksenia Se",
+    "Attention Span",
+    "Inception Labs",
+    "Links Mentioned",
+    "Mercury Edit"
+  ],
+  "topics": [
+    "Mercury 2 diffusion-based language model architecture vs. Transformers",
+    "Performance benchmarks including Defocus AI MCP and PinchBench",
+    "AI latency bottlenecks in agentic loops and multi-step workflows",
+    "Mercury Edit 2 for latency-sensitive coding and next-edit prediction",
+    "Iterative refinement in text generation vs. sequential token-by-token generation"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/Dpsv-1CXotA/maxresdefault.jpg",
+  "date": "20260406",
+  "youtube_url": "https://www.youtube.com/watch?v=Dpsv-1CXotA",
+  "youtube_metadata": {
+    "title": "Mercury 2 Explained: The Elegant New Language Model Nobody Talks About",
+    "description": "What if the future of language models is not bigger Transformers, but something stranger?\n\nIn this episode of Attention Span, we look at Mercury 2 — a fast and unusual language model from Inception Labs that does not generate text in the standard left-to-right way. Instead, it uses a diffusion-style approach that makes it feel less like a typewriter and more like an editor.\nIf you’ve tried Mercury yourself, I’d love to hear what you think - I was really surprised by it’s performance. \n\nFollow on: https://www.turingpost.com/\nDid you like the episode? You know the drill:\n📌 Subscribe for more AI ideas that deserve more attention\n💬 Leave a comment if this changed how you think about language models\n👍 Like it if you liked it\n🫶 Thank you for watching and sharing\n🔗 Links Mentioned \n\n• Mercury 2: https://www.inceptionlabs.ai/blog/introducing-mercury-2\n• Mercury Edit 2: https://www.inceptionlabs.ai/blog/introducing-mercury-edit-2\n• PinchBench: https://www.inceptionlabs.ai/blog/mercury-2-on-pinchbench\n• MCP report: https://thefocus.ai/reports/mcp-tool-test/\n\n#Mercury2 #LLM #AI #DiffusionModels #Transformers #agenticai\n\nAttention Span is where I bring you clear explanations of new things in AI that don’t get enough attention.\n👉 Subscribe for more high-signal AI mechanics\n 👉 More analysis: TuringPost.com\n 👉 Interviews: / @realturingpost",
+    "duration": 550,
+    "view_count": 6843,
+    "like_count": 465,
+    "channel": "Turing Post",
+    "upload_date": "20260406",
+    "thumbnail": "https://i.ytimg.com/vi/Dpsv-1CXotA/maxresdefault.jpg",
+    "tags": [
+      "Mercury2",
+      "LLM",
+      "AI",
+      "DiffusionModels",
+      "Transformers",
+      "AgenticAI"
+    ]
+  }
+}
