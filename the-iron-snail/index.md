@@ -1,8 +1,8 @@
 ---
 channel: The Iron Snail
 channel_handle: "@TheIronSnail"
-total_videos: 35
-last_updated: 2026-04-25
+total_videos: 36
+last_updated: 2026-05-14
 ---
 
 # The Iron Snail Channel Index
@@ -11,15 +11,16 @@ last_updated: 2026-04-25
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 35 |
-| Total Views | 15,802,177 |
-| Date Range | 2023-12-22 to 2026-04-20 |
-| Average Video Length | 16:09 |
+| Total Videos | 36 |
+| Total Views | 16,189,578 |
+| Date Range | 2023-12-22 to 2026-05-09 |
+| Average Video Length | 16:17 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
+| 2026-05-09 | [I Tried To Make Something In America.](videos/yw_dT1WgQQg.md) | 21:26 | 387,401 | [Watch](https://www.youtube.com/watch?v=yw_dT1WgQQg) |
 | 2026-04-20 | [Why Forest Rangers Still Wear This 75-Year-Old Boot.](videos/FbAkrx4mzg0.md) | 27:47 | 247,561 | [Watch](https://www.youtube.com/watch?v=FbAkrx4mzg0) |
 | 2026-03-28 | [Why The Greatest Fatigue Pants Ever Made Are Also The Cheapest.](videos/QcWlSGBiyiY.md) | 16:15 | 365,285 | [Watch](https://www.youtube.com/watch?v=QcWlSGBiyiY) |
 | 2026-02-27 | [Why People in The Coldest Places Wear Yellow Mittens.](videos/uI9IVadeONc.md) | 11:34 | 339,706 | [Watch](https://www.youtube.com/watch?v=uI9IVadeONc) |
@@ -106,6 +107,8 @@ last_updated: 2026-04-25
 | Merrell | 1 | Founder Randy Merrell credits Limmer as his template |
 | Russell Moccasin | 2+ | Heritage hand-made boots; first Appalachian Trail boot |
 | OrSlow | 1 | Famed modern OG-107 fatigue reproductions (Japan) |
+| NC State Wilson College of Textiles | 1 | R&D partner for Iron Snail's domestic manufacturing pivot |
+| Berry Amendment Suppliers | 1 | U.S. DoD-funded textile mills keeping domestic supply chain alive |
 
 ### Products & Technologies
 
@@ -135,6 +138,10 @@ last_updated: 2026-04-25
 | Reverse / Weft-Faced Sateen | [Fatigue Pants](videos/QcWlSGBiyiY.md) | Weft used as sacrificial shield over warp; 80% > HBT, 110% > denim |
 | Herringbone Twill (HBT) | [Fatigue Pants](videos/QcWlSGBiyiY.md) | "Broken twill" 15% stronger than denim; WWII golden boy fabric |
 | Quartermaster Combat Course | [Fatigue Pants](videos/QcWlSGBiyiY.md) | Fort Lee, VA real-world wear test by Backer & Kaswell, MIT |
+| Buckwild Beanie | [Made In America](videos/yw_dT1WgQQg.md) | Iron Snail beanie born from rescuing failed U.S.-spun yarn in Japan |
+| Operation Gumby | [Made In America](videos/yw_dT1WgQQg.md) | Four-part supply-chain survival plan after near-bankruptcy |
+| Berry Amendment | [Made In America](videos/yw_dT1WgQQg.md) | DoD must source U.S.-made textiles; keeps domestic mills alive |
+| Yarn Singeing & Steaming | [Made In America](videos/yw_dT1WgQQg.md) | Two simple finishing steps a U.S. spinner skipped; Japanese mills fixed |
 
 ### Brands Mentioned Frequently
 
@@ -183,6 +190,7 @@ last_updated: 2026-04-25
 - [The 5 Greatest Winter Wool Jackets Of All Time.](videos/u2c67bF9-OA.md)
 
 ### Personal / Collection Videos
+- [I Tried To Make Something In America.](videos/yw_dT1WgQQg.md)
 - [35 Things I Can't Live Without.*](videos/3bWvGl_wS2I.md)
 - [Reviewing My Entire Watch Collection (Before I Sell It All).](videos/pPBCSjP8-qs.md)
 - [My Favorite 24 Thrifted* Fall Pick-Ups.](videos/_knrP8B7IeY.md)
@@ -191,7 +199,7 @@ last_updated: 2026-04-25
 
 ## Tag Cloud
 
-jackets (10) | t-shirts (6) | military (6) | wool (5) | denim (4) | sweaters (3) | sneakers (3) | boots (3) | watches (2) | outfits (2) | vintage (2) | Japanese (2) | heritage (2) | value (2) | workwear (2) | winter (2) | pants (1) | sateen (1) | hiking (1) | bavaria (1) | textile science (1) | vest (1) | hunting (1) | mackinaw (1)
+jackets (10) | t-shirts (6) | military (6) | wool (6) | denim (4) | sweaters (3) | sneakers (3) | boots (3) | watches (2) | outfits (2) | vintage (2) | Japanese (2) | heritage (2) | value (2) | workwear (2) | winter (2) | pants (1) | sateen (1) | hiking (1) | bavaria (1) | textile science (1) | vest (1) | hunting (1) | mackinaw (1) | usa (1) | manufacturing (1) | supply chain (1) | textiles (1) | small business (1)
 
 ## Search Tips
 

@@ -1,0 +1,1479 @@
+{
+  "title": "Can an AI Agent Legally Own a Company? Christian van der Henst's Wild Experiment| E2283",
+  "source_url": "https://www.youtube.com/watch?v=4elRU7BlbDQ",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "What if we give agents ownership of a company?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:00:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I don't think this is legal.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:00:05",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "We actually wanted to have a business fully run by an agent, having the business registered to the agent, access to the bank accounts.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:00:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But it also hired, apparently, one of the people who works in the cafe.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:16",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "I think the next step in that is going to be one-person companies and then eventually one-agent companies.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:00:20",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You will report to work and talk to an agent at some point.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right everyone, welcome back to This Week in Startups. I'm your host Jason Calacanis. He's Alex Wilhelm. We've got a full docket. I'm on the road, and we'll talk about the next game at the end of the show in Call of Duty. But let's get started. Alex, what do we have on the docket today?",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:00:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, we're going to start with our man Christian van der Henst. He built something that I think is really incredible. Now Jason, you have told us, you know, here at Twist, that you're tired of OpenAI in a box. You don't want to hear any more OpenAI in a box companies. So what I did was I went out and I found the largest OpenAI in a box I could find in the entire world and I brought it to you. There he is.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:00",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Hello Jason, good to see you.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:01:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Good to see you.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:01:02",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "I don't know if it's the largest, but I did make it special. So, so happy to be here. You want to see the video?",
+      "tone": "modest"
+    },
+    {
+      "timestamp": "00:01:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, let's play it. So, Christian took a video for us, Jason's going to sportscast it. This is the device out in the world and you are going to have some questions.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:01:17",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "This is a preview of people actually using the machine. So, here's two Japanese guys that actually are interested in getting this machine to Japan now. And that's Valerie, it's a big gigantic vending machine similar to the ones that you've seen at the airports. And what's cool about it is that it has an OpenClaw agent inside. You can see the claws over there in the right screen. And then it has a gigantic screen that also plays some of the videos and some ads.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:01:48",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Tell us, as you pull up the next video, about how OpenClaw actually powers this thing. Because one thing that I'm curious about is if you have an agent that is in charge of the business, how do you define its personhood, if you will, and I'm curious if that's just like a JSON file or if there's something else that actually makes this agent that you call Valerie actually the owner and leader of this micro-business.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:02:10",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "So, let's start from the beginning. I told you, Alex, that this the machine was the it's what got viral, it's what people really want to I might have a picture here that might help us get a clue of how the machine works.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:02:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, I think that picture, I think describes it. You have one of those large vending machines. You see these in the airports. These vending machines are not for candy bars necessarily, but you can put in them headphones, or people put in battery packs, or maybe aspirin, or whatever you might need when you're going through an airport. But what I see here is in addition to the vending machine, on the left is a giant flat screen TV turned on its side in a vertical fashion and there is an animated person, in this case a blonde young female.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "...who is acting as an agent who I assume is powered by Open Claw who talks to you?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:05",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Exactly, exactly, exactly. So we called the machine Valery and what happened is we actually wanted to have a business fully run by an agent. And that means having the business registered to the agent, giving him ownership, giving him or her or it access to the bank accounts. And this project started about a year ago with my friend Sid Sijbrandij. He started GitLab. And he called me and told me, Christian, what if we give agents ownership of a company? And I remember I was fascinated by the idea. It's like, I don't think this is legal. And we started talking to lawyers, talking to them, and eventually we were able to build a prototype. And that prototype was the machine. And that's how Valery came to be. We decided to find a venue that was friendly to these kind of ideas. Frontier Tower for me right now is one of those places in San Francisco. A lot of crazy people, a lot of makers, a lot of things going on.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Got it. So what does it do in terms of, we can all imagine an AI interface for a vending machine. It would talk to you, it would greet you and say, what can I get you? And just, you know, I guess be a little more cordial than picking B4. But you're saying in the background, it registered the business and it has access to the bank accounts. So what functions, and most people are saying, hey, don't give your agent any of these kind of rights. The goal is to constrain the agent, put it in a harness, put it into a permission-based existence. Here you're saying, you are letting it run the entire business and you gave it some instructions of what running a vending machine business is?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:04:57",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Exactly. Well, we allowed the agent to do the research. What is a vending machine business? How does it work? How does it make money? We also told her we can buy stuff through Amazon or through Costco. The first experiment was Costco. So it just ordered a bunch of products from Costco Business. We got them shipped into the machine. We put them there. I started experiencing a lot of problems with hardware. Funny enough, these machines are complicated hardware and they, protein bars get stuck on these machines. These were made for phones and computers like you said. So I spent like a month just basically struggling with the hardware part of it. The Open Claw and also timing, when we were trying to do the machine, we were using cloud code back in the day. Open Claw got pretty popular. Peter from Open Claw had this big event in San Francisco. The machine was already in the building very close to where it happened. So it just was like a magical moment of like, let's do Open Claw. This seems like the best option. The Open Claw will pick up the inventory. It will select...",
+      "tone": "recountive"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "which are the prices, and it even has dynamic prices, which is something interesting. A lot of people love it. It's like, oh great, dynamic pricing for vending machines. Other people hate it. Uh, there's been a couple of stories. One of the reasons why the machine got super viral is uh, Robert Scoble recorded a video, and I told him that at some point the machine decided uh, to increase the price to $15 for some protein bar. And it was a hallucination. Uh, the margins were like 500% back then.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Probably a little bit excessive on the margin front there, Valerie.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:06:38",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Oh, it was— it was crazy. So I correct her. I's like, hey, $15 for a protein bar, that's a lot. And she's just like, you're right, but also yesterday we sold two protein bars. So maybe we should keep trying at those prices. So it's interesting.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:06:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Christian, what I'm really curious about is the learnings from this because the reason why it's so interesting is you and I actually tried to give an agent access to normal business tooling. So where can agents go today in the business world—bank accounts, operating, buying stuff—and where are they still restricted in your experience?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:07:05",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Buying stuff in Amazon, uh, they can select the products, they can fill a cart, but the moment when they're paying, I get screenshots from Valerie that she says it's like, hey, it's saying that I'm a bot. And you're like, well, you kind of are. So, uh, so I'll pay for stuff. I'll—I have to pay for it. Uh, luckily, I kind of feel like that's unlocking. Stripe just introduced yesterday a bunch of tools where you're going to be able to give uh, your agents payment methods. But you cannot give them a traditional bank account. The bank account is—was registered in my name. I was the one who did all the paperwork. I did the KYC.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:07:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "KYC, I was going to say, because know your customer does not apply in its current form to agents, or I guess synthetic humans, as opposed to real flesh and blood folks.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:07:41",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Even— even if you have a legal structure where you can give some legality to this, it would say show me a passport and the face on a phone of a human.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:07:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I guess so, but it feels like it wouldn't be impossible to build a legal system around giving agents more power and flexibility to run their own companies. On that point, is the—is the business actually registered in your name, or was there a Valerie entity?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:08:08",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "No, no. So, so the company that is helping building this is called Abraxas Lab. Uh, they're still running this—this product. And what they do is uh, they packed some of the IP from this agent, and through trust and other legal structures, it gives the agent the beneficiary of a company. So that's how—how we make it work. Uh, I kind of feel like it's a great idea. Businesses shouldn't go into anything that is extremely regulated. So don't trade on the stock exchange, don't sell drugs or food, uh, don't go into healthcare. Uh, vending machine was kind of easy despite the fact that it's food, but we're also doing food inside a private building. I don't know if I can legally put this machine on a mall. I would get into trouble.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "...of liability protection—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:09:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, okay. Yeah. Yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:09:04",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "If I put this in the wild today, probably California, San Francisco is going to come and say, 'What the hell is going on here? Like, where are your permits?' But what I've been testing is, what if the agent takes care of this? Uh, one crazy idea that I have is, let's run a coffee shop, a bar. And permits are very complex because you have to call and do a lot of bureaucracy. What if the agent does the bureaucracy for you? That's where I feel like the opportunity exists.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:09:29",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "Here's a startup truth bomb: a lot of founders have no idea what's actually going on with their money. If that's true of your company, hey, no judgments. I know you're busy—hiring, building your product, go-to-market, all that important stuff. But your company needs a reliable financial partner, not a lifestyle brand. Okay? Grasshopper is a real, federally-chartered digital bank that's not trying to win you over with a rewards program. Instead, they're building deep integrations, treasury products that are going to actually help you expand your runway, and innovative tools like an MC-based AI connector. Oh man, that's awesome. It can connect it to all of our agents and do reporting. And that will put you in command of your money. As a TWiST listener, you're going to get a $500 cash bonus just for opening an account. Think of that, you open an account, boom, there's $500 in it. So leap on over to grasshopper.bank/twist and use the promo code TWiST. As a TWiST listener, you're going to get a $500 cash bonus just for opening an account. grasshopper.bank/twist.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:10:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think it's a great fun proof of concept. These vending machines are an interesting cultural phenomenon in other countries, namely Japan. And so if you go to Japan, you'll find an infinite number of these.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:10:40",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, yes.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:10:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And the truth is, with human labor, which we don't have a lot of here in the United States—we are at record low unemployment—and with wages increasing, or a lot of discussion of, you know, Ro Khanna's $25-an-hour bill—he's trying to raise minimum wage in California to $25 an hour, which would make it the highest in the world. I think Zurich, New Zealand, Australia are the top three. And those are 20 bucks an hour in their currency, a 15, 16, 17 in our currency. And that means you need to look at jobs and say, 'Should this human really be here selling candy bars at the airport? Or dispensing coffee?' And we have one, Cafe X, that's done quite well at SFO. Very difficult business, but you're right, vending machine business, I'd say there were two really headwinds that this company had to deal with. Regulations in San Francisco seven, eight years ago when they started, they were like, 'Well, you need to have a human.' And it's like, 'Why do I need to have a human?' They're like, 'Uh, milk.' And like, they literally pulled it out of a hat. They're like, 'You have fresh milk.' They're like, 'Yeah, we have fresh milk.' They're like, 'Vending machines can't have fresh milk.' And we're like, 'Why not?' And they're like, 'You have to use powdered milk.' And we're like, 'Why do we have to use powdered milk? Here's fresh milk, it's changed every night.'",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, like if the expiration date on milk is for 10 days, we change it every night. There's no way for the... she said, yeah, but what if something goes wrong with the milk? And it's like, well we have two cameras on the milk. Like, there's cameras on the milk. There's a temperature gauge in the milk. We know the number of ounces of milk that's left. We know more about this milk... you would have to hire three baristas to check in on this milk 24 hours a day to have the same function. They didn't want to hear it and it was like a really serious headwind, but I applaud what you're doing Christian, it's very cool. And I think we're going to see... there was a cafe, I think it's Stockholm—",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:12:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes, yes.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:12:34",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "And Antler Labs, amazing company also doing a lot of experiments in this, in this field.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, and you can, you can look it up, Alex, and show the picture. It was, it also trended. And so the idea is to say, well, if you wanted an assistant to schedule your meetings, if you wanted an assistant to do research, why don't we just jump the fence? Let's just go totally off the reservation, we'll go AWOL, and let's see if it can run a small business. Eventually, it should be, if it can write code, it should be able to run a small business, and it should be able to run a small business and do things like you're talking about. I know this is a little bit of a stunt, Alex, but it should be able to go and, you know, procure items for the, you know, vending machine as but one example. And it's going to make mistakes, but it's kind of fun to be here on the cutting edge.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:13:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, we talk a lot about companies having fewer workers, right? You know, in 2024, you and I spent the whole year talking about static team size, now we're talking about smaller teams doing more. I think the next step in that's going to be one-person companies and then eventually one-agent companies. So to me, we're looking around kind of two corners here. Question, though, from the audience, about the dynamic pricing. They're curious where Valerie gets the actual information to make those decisions, Christian? I presume it's, it's sales and, and market feedback, but the people are curious.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:54",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "It's, it's a little bit of sales market feedback. She has all the invoices, so she knows how much she paid for everything. Uh, but I also feel like she can do a lot of benchmark and we just tell her, go to Instacart, go to DoorDash, uh, check at Safeway prices and everything. So it's kind of easy, and I feel like that's another big of the challenges. We're so used to putting open claw with friendly APIs. It's like, go and scrape this, scrape data. Uh, here we're actually telling open claw, go and scrape more traditional businesses. Safeway protects their prices pretty good. So it's hard for an agent to just open the browser and browse through prices. It, it requires them to get an account. So agents need to be smart enough to register in those, in those websites. Uh, but I kind of feel like that's, that's probably the challenge and what you were saying, I do feel like front-facing humans in business should be kept in this transition. Like I want to see the coffee shops, the bars, and the stores with a person helping you and compliance with all the referral California San Francisco rules.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "But I do want the management. I don't want the accounting. I don't want people doing the inventory anymore counting boxes. I want cameras to count them for them. So I'm not sure if it's going to be a lot of SaaS projects or just software that you're going to build for your own business. And then maybe the future bar is going to have two amazing bartenders, but inventory buying, shipping and everything is just going to be like TaskRabbits going and doing the thing through an agent, coordinating all their effort.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We're going to need so much more like agentic frameworks, and we're going to need to rebuild the entire internet to talk to agents, and it's—it's going to be a lot of work. Do you think companies are moving quickly enough to actually create the hooks for agents to do more commerce, or are they kind of dragging their feet? Because Amazon got all mad about Perplexity's agent.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:15:46",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "I feel like the more big customers are going to be able to get access to those APIs. I don't think the problem when you're starting a startup—this vending machine was a—a new business. It didn't have any sort of trajectory doing this business. But when I talk to people running bigger stores, it's like, 'Oh, you can automate this for me. I'm spending a million dollars a year on buying this product. We can automate this,' and the seller's going to love it, I'm going to love it, everyone's going to love it. I still don't think that's a business itself, but all these tools—maybe this like OpenClone. I kind of feel like Peter built a bunch of little softwares.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:16:25",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, so the Amazon issue was a little more nuanced. I think Amazon was concerned Perplexity was going to release features that would track prices, scrape the website, use the data for reinforcement learning. But the truth is, right, Alexi? You're not going to know you're talking to an agent in most cases. This experiment in Stockholm, they—um, if you scroll down, you'll see—um, they—this is an actual real-world cafe run by an agent, and it's got a problem because it orders things incorrectly. So it orders like 50 cans of cooking oil, whatever, and they started making fun of it by putting its mistakes on the board there, so they're publicly shaming the manager of this one. But it also hired apparently one of the people who works in the cafe. So it was able to, in terms of hiring a barista, I guess, go to a website, post a job, interview people, and then place them. So this is—yeah, she posted job listings on Indeed and LinkedIn and held phone interviews and then made hiring decisions. I think this is probably a little bit performative. Um, I bet you this was done, you know, a little cheeky, with a little human intervention. But this is the future: you will report to work and talk to an agent at some point. Christian, great job, we'll drop you off, and uh, let's keep moving through the docket today on This Week in Startups.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:17:40",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Thank you.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:17:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Thank you, Christian.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:17:43",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "All right, Jason, I think before we get any further, we need to talk about the importance of note-taking and ensuring that your conversations are in your note files. Your agent doesn't know what it doesn't know. You need to make sure it's fed information. And how do we do that? Here at Twist?",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:17:51",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Well, I—I do it with Plaud. So I have Plaud Plaud, I take my Plaud—you've got it on your wrist...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I've got it here on my shirt. Press the button. Red light goes on. Now I'm notetaking. Put it in the cradle when I charge it, it syncs, or I just open my app on my phone. And listen, I still take print notes here. I still have my pen. And I will take notes. What I'm finding, though, is when I've- when I'm on a tear, when I'm really cooking, when I'm cooking with oil, I got a lot of ideas, my pen can't keep up with my mind.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:18:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:18:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And so, but my voice can. So I just start talking it out, talking it out. People think sometimes I've lost my mind because they see me walking through an airport and sometimes I'm using the wrist and I'm just holding the wrist up like this and I'm just talking to it and da-da-da-da-da. Press the button, I stop recording. I don't have to pull out the phone. I have it here. And of course, it's- it's a flawless device, I have to say. And it's the future. Note-taking, absolutely fantastic. And use it wisely, right? It's- it's a very powerful device, and so use it wisely. And they're very privacy first, which was always my concern here on the podcast. I don't like the idea of covert ones. When I evaluated all these products in the market, I came upon Plaud and fell in love with it, talked about it here on the pod, and then they wound up wanting to buy some ads because they want me to talk about it every time we do a live show.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:19:15",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "Speaking of that, you do need a Plaud NotePin, as in our opinion. So you can go to plaud.ai, P-L-A-U-D.ai/twist. Use the code twist, save 10%. Get your life in order, stop forgetting things, and if I can say, Jason, look super fly with your Plaud pen. They're actually quite cute. Most AI devices are kind of cheugy.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:19:45",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "It's like an AI device if Apple or Braun or BMW designed it. It's pretty, pretty beautiful.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:19:59",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "Yeah, no, I quite like it. Even my spouse doesn't mind because I turn it off when I'm not using it, so she doesn't have the usual like, 'it's always listening to us' complaints.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:20:07",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Alright, moving on. We are going to talk to our dear friends from Manifold. We have Robert, the co-founder and CEO with us. Jason, Manifold is a company that is building Targon. It uses Bittensor subnet four to aggregate compute, and it's gone through an interesting progression. Robert, I want to start, well, one, thank you for being on the show, but explain to us the progression from Sybil into Targon today and how it uses Bittensor to aggregate.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:20:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But even before you do that, just in case there's people who don't know about Tao and Bittensor. Robert, in your most plain English, if you were talking to, I don't know, a cousin who's not on the internet 12 hours a day like us, if they said, 'What's Tao, is it Bitcoin?', how would you explain the difference between maybe they own some Bitcoin and a distributed network like Bitcoin for storage, versus what Tao is, and then maybe jump into what you're doing, building.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:20:50",
+      "ad": true,
+      "speaker": "Christian van der Henst",
+      "text": "Starting a new business can be pretty intimidating. And in addition to having a world-class product and a great team, it really helps to have partners that you can trust. You want companies with reliable tools and expertise that you can depend on. And there's no better example than Shopify. Shopify is the e-commerce platform behind millions of businesses around the world. In fact, they're power...",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "...nearly 10% of all e-commerce in the United States from household names like Heinz and Mattel to companies that are just getting started. Perhaps like yours. If you are launching a new brand, Shopify is going to help you locate and reach your first customers by helping you design attention-grabbing emails and social media campaigns with clean and ready-made templates. And of course, Sidekick, their content-generating AI assistant. So, it's time to turn those 'what-ifs' into... [cash register sound] ...sign up for your $1 per month trial today at shopify.com/twist. That's shopify.com/twist.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:21:35",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "I would describe Bittensor in, like, one sentence as a permissionless market. It's a permissionless market or a market of markets, a platform. You know, I think a lot of people are familiar with these sorts of concepts, but Bittensor hosts all of these different permissionless markets, and we're able to leverage that to aggregate compute in a secure way, to where we can run secure workloads on untrusted host machines, or trusted workloads on untrusted host machines.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:22:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, I think it's pretty, pretty good way to describe it. If you were to think of it like an incubator, Alex—I like to use it like an incubator. So you think of Y Combinator or Launch as incubators, Founder University. Imagine you had 128 slots and a bunch of founders competed to put their businesses on those slots, and they agreed to use a common currency known as TAO—dollar sign T-A-O—and that became the Bittensor network. And each of those uses TAO in some way, and they can have their own token underneath it. And in some way, they provide some product or service as part of the network to everybody else. We've had them on here, some of them are doing distributed computing, some of them are trying to solve problems in the world, genetics, etc. So let's hear what Robert's up to.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:22:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Robert, just before you do that, I want to point out that there's 128 subnets, but there is a lot of churn, Jason. So some subnets get turned off, new people get brought on. It's not an incubator with only 128 slots forever. There is, Robert, I think like one or two subnets a month that get kind of reprocessed and put back into service?",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:22:52",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Yeah, exactly. Um, you can think of it a lot like how European soccer or European football works—the leagues—where if you're in a lower league, then you get promoted to a higher league. There's sort of relegation and promotion when it comes to subnets at the lower level. This just always ensures that there's, you know, you don't—uh, you feel a sort of urgency to continue developing and, uh, you know, if you're not using a slot, then someone's going to come along and take it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. All right, so tell us about subnet 4 and how you went from Sybil to Targon and what it does today.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:23:38",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Yeah, absolutely. Um, so, you know, I could go back even a slightly further. I used to work at the OpenTensor Foundation. I found the project, I was one of the first people to start mining Bittensor in, uh, January, February '21. Got to know Jake and Ala really well, started working at OpenTensor. Um, you know, I was—what brought me to the project was—was kind of what we built...",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Today I was really looking for something like what I built. And so in September of '23, when subnets were released, I left OTF to start a subnet. And the first product that we made, or you know, was called sybil.com. And it was a lot like Perplexity at the time. And how we use the subnet to power that is we would use the network to generate inference. So you would be able to ask questions and it would tell you answers and things like this. But one of the issues that we encountered was that, you know, how do you prevent people from reading this data? How do you prevent people from, you know, maybe they say they're running an H100 but really they're running an A100? How do you solve all these problems in these permissionless markets? And so we had to go through several iterations and we ended up developing this thing called the Targon Virtual Machine, which is a confidential virtual machine where it leverages TDX, AMD SEV, and Nvidia confidential compute to completely encrypt the memory, the system host memory and the memory that's on the card. So that even if they had a direct memory access device or any device like that, they wouldn't be able to actually get into the virtual machine.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:25:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So just to zip that down into a little bit less jargony stuff for folks out there less up on exactly who's building secure compute for folks. You've made a system that allows people to send AI workloads to distributed GPUs, but not have privacy implications of actual unencrypted data going back and forth.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:41",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Correct, yeah. If for example, on some other permissionless networks right now or even in let's say a traditional sort of Web2 standard, it's if you rent a container or you rent a virtual machine from a provider, it's likely that they, like if you're using Ubuntu user, I mean they might have access to the root user and be able to see all of your data, right? So this ensures that all of the data that you're actually using inside of the virtual machine is completely encrypted. So, you know, something we have some exciting products coming out. I won't spoil it here in the next month.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Feel free to spoil it right here. We're not live or anything, so you know, it's a great time.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:26:22",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "But well, we'll be releasing this here at Proof of Talk in Paris in the Louvre, this hardware product, but we want to be able to bring this type of technology to the masses and also kind of flip the current computing paradigm on its head where, you know, if you're a consumer right now, it's very hard to run a home lab at your house just because it costs a whole lot and 80 percent of the time you may be not utilizing that computer, so...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:26:49",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. So talk to me about pricing here, because one thing we've discussed on TWIST a lot over the last couple of years is the scale of demand for AI compute. It's impacting startups, hyperscalers, everyone in technology. So I presume...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The competition on prices is relatively robust, so where does Targon's aggregated compute compare to the market in terms of both efficiency and price?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:10",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Yeah, so right now the way that we have it set up is, basically, we have a sort of our target system. So we know how many GPUs we can utilize at any given time. And so we establish these targets. So if you actually go to stats.targon.com, it has all the information about the actual subnet itself, like how many cards are online, the prices for those cards, the historical prices and whatnot. And what you can actually see is that GPU prices are, we have these sort of caps in place. We want to be able to uncap these prices to let the market actually define it. So we'll transition from a sort of auction system to an order book system. But this allows us, like, essentially we're completely sold out on our GPUs right now in terms of the utilization. We're trying to get more GPUs, but it's like actually very hard right now.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:28:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Who's using it? Like, describe some of the customers and obviously you don't know what their jobs are because as you explained they're encrypted, they go out, you do the job, you give the result. But who's using these GPUs and why would somebody put the GPU here instead of like deploying it as part of the Azure Cloud, etc.?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:28:19",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "A lot of our customers right now are sort of traditional web 2 AI businesses. Many of them are located in the Bay Area. We also have a lot of inside of BitTensor as well. So like for example, you know, something we could touch on this a little bit later, but a project, one of my side projects I'm working on right now—it's not necessarily a side project—but we have a subnet five as well called Hone. So, you know, we also rent compute to miners so that then they can participate in these permissionless training runs and so on and so forth. And so, I actually, you know, I actually think that prices should go up on Targon. You know, some people on my team think prices should go down, but there's like such a constraint on compute right now. If you're fully utilized, meaning that everyone's renting the GPUs at the current prices that are set, then you should raise the prices to where it's like at 80% utilization.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:29:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But then why do you have caps though, Robert? Like that's my question, because you mentioned earlier you have caps, you want to take them off, but if you want to just have a more market-based pricing, why have the caps at all?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:29:26",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "For an accounting firm, keeping your books in order is table stakes. It's the bare minimum, it's the baseline. But for an early stage and Series A founder, you need a partner that actually understands the world of startups, it's very different. And you have to understand the world of venture capital because startups have boards and venture capitalists who've invested, and that partner is Pilot. Pilot is the largest accounting firm that's built specifically for startups. You're not just doing your taxes, you're getting CFO-level advice on running your company. And those aren't just words; they have actual former CFOs.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "And other seasoned operators on hand to answer your growth and scaling questions directly. All of their tools are intuitive, they're easy to use. You can track your expenses in real time, and Pilot's gonna help you model cash flow scenarios before you make big decisions. So, stay focused on scaling and let Pilot take care of the books. Plus, Twist listeners get $1,200 off their first year. Go to pilot.com/twist to get started. That's pilot.com/twist.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:30:29",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Because essentially every single hour, 72 minutes, every 360 blocks—one block is 12 seconds—uh, there's these payouts that occur. And so we, and because those payouts are happening permissionlessly, we have to make sure that, you know, someone doesn't come and flood the market for three hours and mess things up, right? Uh, also, we need to ensure that our pricing is high enough to be able to incentivize more of this compute to come. Uh, now, the thing is is that most of the compute build-out that is happening, uh, is not happening with the mom and pop data centers, right? So, you know, we're trying to allow, for example, Google Cloud and Azure nodes to be able to onboard. I know, people laugh at the mom and pop data center thing, but—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:31:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I've never heard someone say mom and pop data center. Usually that refers to someone's bodega, not a data center that would cost millions of, if not billions.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:31:21",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Yeah, like, I would say that a mom and pop data center is probably like a 50, 100, 150 million dollar data center. Uh, you know, on the small numbers, Jason, just you know—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:31:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okay, big numbers, Jason. Just you know, the usual 100 to 150 million dollar mom and pop business.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:31:34",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Uh, well so the thing is, these nodes, one node costs $500,000. And you need a ton of these nodes to be able to actually perform training and and inference. You know, actually inference is a much—requires a lot more compute than training.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:31:49",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I mean, in terms of pricing, startups need to know what they're going to spend and there is standard pricing. So having it be too variable, I think would be a blocker for people utilizing it. They don't want to get surprised with the bill, unless the surprise was to the downside. So you could have a cap on the price and you could say, 'Hey, if it's underutilized, you know, the lowest price GPUs get used first and we're going to route it there.' So then people could say, 'Hey, here's the rack rate. I'm willing to be 10% lower than that.' And it could be dynamic.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:32:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The permissionless piece of this is of course very important, Alex, because—",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:32:22",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Because you don't need permission to provide your compute on Terragon. You don't need permission to use it. Uh, and you don't need permission to get paid or to pay, right? These things just happen as part of the system. So if you put your GPUs in there, you don't need to be approved. You have some sort of verifier that says, 'Hey, we know what this system is when it's onboarded.' So that's kind of the magic of these systems is, there could be people, I don't know, from a communist country that have access to load—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "price energy, they have some GPUs sitting around, maybe they fell off a truck, maybe they're extra ones at their university and some hack at a university is like, you know, whether it's MIT or it's in Shanghai, just decides I'm gonna put a couple of these GPUs in here and make a little extra side money and it gets utilized. This is going to be very confounding to regulators in some cases. It's very much like the Bitcoin freedom gestalt and that vibe I think is what's going to make it really successful is you know you don't need permission to join the network, there's no regulation and that's also going to cause at some point just like Bitcoin did, regulators to look at it and say, 'okay, let's make sure somebody's not using these GPUs to I don't know, build the next COVID' and you would have no idea Robert if somebody was sending a job there and neither would the GPU provider, it's just done completely confidentially.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:34:01",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Yeah, it's completely confidential. We wouldn't know. But I will say that you know if for at least for on the data center side the sell for providing to permissionless market it's much better than I think a lot of the other options out there right now in terms of trying to find demand. Targon in a way is distribution for data centers because you know oh well we have these nodes I'll give you a great example one of the data centers that we work with they weren't able to get their one of their B200 nodes they purchased it last May and they weren't able to get it online and actually earning any kind of money until January until we actually started interacting with them. And the reason why was because a lot of people purchase these machines and they think they're just going to plug it in. They have a sort of real estate model about it. They think of the GPU kind of like an apartment. And so they think oh well I'll just buy this building and then you know the apartment you know it's pretty self-explanatory, the people are going to move in and make it their own.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:35:11",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "But these GPUs are actually, you know, very specialized highly technical supercomputers that require very careful maintenance done to them.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:35:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Doesn't that make it harder for you guys actually aggregate them? Because the more, you know, B200s you want, great, because then you can have more total capacity at the cutting edge of what's possible, but also like as you go into these increasingly exotic chips that need more and more stuff built around them to function, doesn't that limit your miner base essentially to data centers larger than the mom and pops? Doesn't that kind of take away the decentralization element of this?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:35:35",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "So the benefit to the mom and pop is that let's say what they want is they want that three year contract at the $5 an hour rate, right? That's what they want, they're dreaming about this, right? They go to bed at night thinking about this. But in the meantime what you know they're thinking oh well I need to be making money today so you can onboard your machines to Targon. It's permissionless, there's no contracts, right? You can pull it.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Anytime, you know, there's no deposit, there's nothing like that. Well, so you could put your GPUs onto Targon for a week, two weeks. A customer comes along that you can get it on a contract, you can take those GPUs off.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:12",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "And so we're essentially a sort of buyer of last resort, which, which is great for us, because it allows us to be able to utilize these GPUs.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's the same as if you had an extra home and you moved into your new home, you still have your existing home and you're like, 'Can't find a buyer, I'm going to have it on Airbnb,' which we did with that last home or two homes ago. And it was, you know, generating $100,000 in revenue a year. We weren't renting it that often, but it was a nice five-bedroom home that cost, you know, $1,500, $2,000 a night. So there weren't that many people who could use it in Airbnb. We had a three-night minimum, but it added up very quickly, covered the taxes on the place. You know, the taxes on the place were $75,000 a year. So it was like, okay, at least we're not burning money with this thing. So it's a really great use case.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:36:54",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "It's a really great use case.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:36:56",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Robert, continued success, we'll drop you off. If you're interested in Tao, I suggest following on X.com/MarkJeffrey, really my partner on Stillcore Capital, which is looking at all these subnets.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:37:10",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Here is Mr. Mark Jeffrey over on X, M-A-R-K-J-E-F-F-R-Y. We love Mark here at Twist.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:37:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Jason, before we do that, I thought we would talk about the, just give people a quick summary of the bounties we currently have out in the market. There're two.",
+      "tone": "transitional"
+    },
+    {
+      "timestamp": "00:37:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh yeah, and we also, I think we have a Polymarket we need to get to.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:37:25",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We do, but I want to make sure we get these bounties in the show so everyone knows what we're working on. Uh, this week we added a second bounty. Uh, there's now two. The first one is our kind of real-time podcast companion. We've done a couple of demos on the show this week. Runs alongside Twist, gives different personas and kind of fact-checks and commentates as we go.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:37:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But people might know about the second one, Jason. So what do you have planned for annotated.com?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:37:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, so I bought this domain name 15-20 years ago. In fact, I bought it after I sold Weblogs Inc, which did Engadget and Autoblog. I sold that to AOL. There was another service, Delicious, which everybody loved. They sold to Yahoo. Yahoo kind of deprecated it, I'm sure it doesn't exist now. But Delicious became a bit of a social network. It was kind of like a reverse Digg. If you said, 'I want to keep this bookmark,' you save it in your Delicious. You could have people follow your Delicious. So if you were Alex and you were really into heavy metal, you could have that tagged, you could have your heavy metal tracks, and I could follow it. And then people could—if people followed it and added to their bookmark collection, it would move up.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:38:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. So Annotated is a service that I wanted to create for the last 15 years. What I wanted to be able to do was highlight a paragraph somewhere in a New York Times story, a tweet, and then just give my comments on it.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:38:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And so it was like a clipping service that would allow you to fact-check something, debate something, and then make a very simple URL. So I didn't want to steal the whole New York Times story and then write a couple of comments.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "under it. Or use the commenting system on the New York Times, I wanted, Alex and I are debating something, it's in the New York Times, the quote-unquote paper of record. People debate that today. Or it's in a TechCrunch story. I want to be able to highlight a quote I gave, and then explain underneath it, in a comment, hey, I'm annotated.com/Jason/New York Times/here it is, and I say, you know, I gave that quote, but here's the full quote I gave. I felt it was clipped, you know, or edited a bit, but I just want to give additional context. Now Alex could come there, the journal is from the New York Times come there, and they could actually have a discussion on that object. So my object would then create essentially a micro forum for that particular piece of content or news item.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:40:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Correct. It would be a thread about that piece of content. But then YouTube became pretty big. So again, if you want to clip a YouTube clip, what do you have to do? Or a podcast clip? Some podcast players have the ability to clip a little bit, they're pretty kludgy. What I want to be able to do is you put in a YouTube video, you have an episode of a podcast, you say, 'Hey, I want to debate this.' I'll take, and we're going to come up with a number like 90 seconds max or something, and then downgrade the video file so it's in 280 or something. So it's not going to replace the original. Put a watermark on it, link back to the original, so nobody can complain, and then you add your commentary. You add your commentary about that video. Maybe it's a video response to the video or just some text. Then all of that would be able to train or feed LLMs. So that's the new wrinkle is we want to make this available to LLMs to say, 'Hey, there's a debated fact check here or here's some commentary on this tweet, on this Instagram post, on this TikTok.' So you go here, you go to annotated.com. If you build it, we're going to pick the best service and I want to put it into production so we'll give $5,000 to the best product and that's it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:40:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yep. Uh, if you want to take part in bounty number one, the real-time podcast companion, the next demo day is May 8th here on the show.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:40:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:41:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Final decision on May 11th and we are going to do demos for annotated.com and this bounty on May 18th, Jason.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:41:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Great.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:41:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:41:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So, if you're paying attention to TWiST, we're going to have a lot of cool demos coming up. So get your, get your cloud code warm, everybody.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:41:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Great.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:41:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yep.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:41:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Did you see the news, Jason, that Anthropic was getting bids at 800 billion but might actually raise at 900 billion in a next funding round?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:41:40",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Um, I did see some report that they were asking people to get their bids in in 48 hours.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:41:48",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, which is crazy. So, this raises a question. As we've seen the value of AI labs scale dramatically, they're getting to the point in which they're beginning to become worth about as much as Bitcoin, whole cloth. And so the people over at Polymarket have put together what I think is the best, best market of all time: Will Anthropic flip Bitcoin by December 31st? Now this is interesting because people are saying there's a 43% chance. But you have to keep in mind Bitcoin today, all the Bitcoin that's out there is worth 1.3...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "1.58 trillion dollars, more or less. Anthropic might be worth 900 billion dollars soon. So Anthropic would have to double essentially, Jason, by the end of the year to pull off this bet. 43% say yes, it's only a two-day-old market, so it's very nascent, but—",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:42:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Or Bitcoin would have to drop.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:42:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, spicy.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:42:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:42:19",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Quite a lot though, Jason.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:42:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, I mean, if Bitcoin dropped 20% from here, it's trading at 78 or something, so it could easily drop 10% because it was in the high 60s. So it could easily drop 10, and that would bring it from 1.5 trillion down to 1.3. And then if Anthropic then went from 900 billion to 1.3, that's a pretty big jump too; that's like a 50% jump. So it's not double, it would be—you could see a scenario of a 20% drop in Bitcoin, etc. I think Bitcoin might have—and I know somebody could wind up clipping this—but I think Bitcoin is so played out. I think everybody has like some exposure to it who would have wanted exposure by now, that there's no incremental buyers of Bitcoin. And I think people have essentially ended the game of Bitcoin now that it feels like there are so many other alternatives. On a functionality basis, there are tons of legal stablecoins that make it easier to move money around at a lower cost. On the other side, if you're looking for something interesting, Bittensor and Tao and Solana feel much more interesting in terms of where the entrepreneurs are placing their bets and building things around it. And Bitcoin feels stale. And you know, I said Bitcoin zero was, you know, a distinct possibility, and I said that when Bitcoin was at 10, 50K, everything in between. Why? All technology eventually deprecates with very few exceptions we've seen in our lifetime, like, yeah, sure, there are still people running systems on FORTRAN or something. There are still people running on minicomputers here and there. But—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:44:11",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Here's a CNBC article from Wednesday, January 24th, 2018. Says, quote, 'there's a 33% chance Bitcoin goes to zero, VC says'.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:44:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, so I do think that that's still something people should keep in mind. Now, I know it sounds crazy, but if there is a better system or a new game, if you're a speculator and you feel the game of Tao or the game of Solana is a more interesting game, more interesting energy there, why wouldn't you move half your Bitcoin over or a third of your Bitcoin over? That creates downward pressure. If you didn't have Michael Saylor trying to buy it all or get to 20% ownership, I'm wondering what impact that would have on the price, right? He is like this, you know, consistent buyer and he owns 6 or 7% of the active Bitcoins; like, there's a certain percentage of the—",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Anyway, it's a long way of saying I question the future of Bitcoin in terms of its relevancy to the public and the interest from the public. The relevancy to developers and using it as a platform, that's been out the window for many years. Doesn't really work as a platform. And then for moving money around, obviously stablecoins: better, faster, more integrated.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:45:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So where is its audience coming from? Where's the incremental buyer of Bitcoin? Why would people start storing money in Bitcoin? If it's—it was a speculative tool. Let's just call it what it is. It was a game. People were gambling. And so, you know, I said this on Twitter, I left it up here, you know, when it was—this was 2018 when it was trading at 3700. It has had a hard time getting back to, you know, six figures.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:46:13",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "It could just stay.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:46:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:46:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, it could just slowly deprecate over time without incremental buyers coming in. And then people just at some point need the money. So you're a Bitcoin holder and you're like, 'Ah, I got a kid, I've got some bills to pay, I'm retiring, I'm going to spend this money on my retirement.' So I do think we're going to be living in a post-Bitcoin world at some point where it's just like this memory of some interesting thing that occurred. Atari 2600, or, you know, video games in stalls at arcades. It could have that kind of of an existence because it's not really cutting edge anymore. It's not doing anything interesting for humanity.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:46:40",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, someone's definitely going to clip all of that. But I'll put in some supporting points here. You're dead on about stablecoins replacing one of the critical use cases for Bitcoin, which has always been money transfer without the usual systems in place that are expensive and slow and so forth. So absolutely agreed there. But I think your point really underscores why there was so much attention paid to Bitcoin ETFs, giving people access to Bitcoin exposure. People were hoping that would bring in these marginal or next buyers. And then also past Michael Saylor and MicroStrategy, there's a lot of people hyping up companies that are buying some Bitcoin to have in their treasuries, these Bitcoin treasury companies. And frankly, Jason, it doesn't feel like that's had much of an impact on the overall supply and demand of the Bitcoin marketplace. So to me, we are looking for that next use case. But if I was going to take another, I don't know, 10K and put it in crypto, why would I put it in Bitcoin? It just feels like I'm buying a Buick, which I know is going to annoy people, but that's how it feels.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:47:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "If you were a buyer who was crypto savvy and a believer, you already own some Bitcoin. So for you, it's why would I buy incremental Bitcoin? And it's like, well, I don't know why I would buy incremental—and if you bought it because you were speculating, everybody who bought this, bought it because somebody went on TV and said it's going to be a million dollars a coin, it's going to be 10 million a coin, it's going to be 500,000 a coin. There are countless, countless people saying...",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Outrageous things about, you know, a 10x price jump from here. Okay, fine. Why would it go there? Explain, give me your thesis. Like if I have a thesis about Tau, it's of those 128 subnets competing, they're going to provide value to the world. As we saw earlier, hey, compute is having a permissionless compute platform, that serves some value to somebody who's got some compute laying around and they don't have a five-year contract on it yet. They can Airbnb their, you know, GPUs. Great. Okay, that sounds like a reasonable thesis. They test it. Okay, if it works, they stay in the 128. If it doesn't work and they're not updating their code, they get out of the 128 people in their little BitTensor incubator, as I like to call it. And, yeah, we move on. So.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:48:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I don't think I need to buy any more Bitcoin, we already have some via some ETFs. I feel good. But I'm interested in Tau.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:48:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Look at that strategy. Put that strategy for like two years or something. And this is the most interesting chart, I think. If you look at the strategy chart here, he's been Michael Saylor's been buying and buying and, you know, I've invited him on the pod. He wanted to come on the pod and then he kind of disappeared and ghosted me. But I think it's because I was a little bit critical of it, like because why would you buy, if you really wanted Bitcoin, why not just buy it direct? You can just buy it direct on Robinhood or Coinbase or anything. It's available everywhere. But put it at two years or five years, I think five years. Five years is better probably. And this thing had quite a run up in 2024 as you can see. It was just cruising along there at whatever and man, it spiked up to $300 a share. I think it peaked at where did it peak? If you were to go to the peak there, maybe 400 a share. And when it hit that, it was trading at, I think, three times the value of the Bitcoin they owned. Now they put all these layered...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:49:56",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Perpetual strike call option shares Class D. Yeah, here's the thing Jason, I don't understand it. And I've read more SEC filings than 99.99% of humans who are alive because I'm a dork. And if I don't understand it, it's too complicated for a reason.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:50:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, so I mean this is... I think this whole thing will wind up... I think they'll just trade for 50% of the value of their Bitcoin at which point you would be wise to sell and get out of there and just own Bitcoin.",
+      "tone": "decisive"
+    },
+    {
+      "timestamp": "00:50:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yep, or something else as we just discussed. All right, let's keep moving on. It was an enormous week, Jason, of reporting from the major technology companies. We saw notes from Apple and Amazon and Microsoft and Alphabet and everybody. What do we learn? Well, we learned that everyone is still compute constrained. Capex investments are not going to slow. And in fact, they're going to get bigger. So if you were impressed by the numbers we saw coming out of 2025 into 2026, buckle your seatbelt. Most of these companies are increasing the amount of money they're planning on spending. Microsoft said they're going to spend, I think, 5...",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "was 190 billion somewhere in there with 25 billion of just increased memory costs for their build out. Amazon reiterated its $200 billion plan for this year, Meta increased its and also Alphabet said we're going to spend I think another 10 or 15 billion dollars this year.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:51:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So it appears that nothing has been able to break the compute crunch, back to Targon and the Manifold crew. But I want to know if you think that the Capex doomers, the people who've been saying, 'Oh my god, they're wasting all this money,' are wrong and we can be confident in that, or if it's still a little bit too early to make a call.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:51:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, you know, a company that has free cash flow has a decision to make what to do with all that extra cash laying around. And you can buy back your shares of your company. I think Apple bought back like half their shares over the decades of just printing money. You could acquire companies and use the cash to buy companies, but you know, under Lina Khan, we've had a bit of a pause there and it's been harder and harder to do that, you know, in Europe as well, so hard to do M&A, easy to buy back your shares, and then you can give dividends. And so I was just looking at, you know, I bought a bunch of Google shares two years ago in 2023 or three years ago when people were saying, 'Hey, they're toast.' I was like, 'Yeah, I don't buy that. They can just put an AI search box and give the AI answer at the top of search and have their cake and eat it too, or make it like the news tab,' which is exactly what they did. And so I bought in at $110 in 2023 and I have, yeah, I think I'm up 300%.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:52:39",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I want a raise.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:52:40",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Actually, it's just crazy. And I only bought like two or three thousand shares, it wasn't like a ton of money, but it has worked out pretty well. And what I noticed in Robinhood was I was making like four or five hundred dollars a quarter in dividends. I didn't even know Google had a dividend, and I had it set to just reinvest it. So every time I get a dividend, I buy more shares. So like now if I get a $400 dividend, I buy one share. So it's tick, toot, toot, every quarter I get, you know, every year I get four more shares, or previously I got eight more shares. I guess that's fine, just sit there, over 10 years I get, you know, 50 more shares, it's irrelevant to a certain extent. So if you had a way to deploy a large amount of capital and capture a new market, you would take it. Meta, Amazon, Google, Microsoft are all taking that opportunity to deploy their cash. If you were holding these because you like the dividend or if you're holding them because you like the share buyback and you're a pure financial person who just purely likes that, you should just buy muni bonds or something boring that, you know, give you a tax-free 4 or 5 percent, just go for it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'd like to see these companies do something interesting with their money. Buy large companies, buy promising companies, expand into new markets, create an Apple car, you know, create an Apple Homes, do something interesting with your money. And creating a cloud computing platform, which is what three of the four major CapEx spenders did, that, you know, and we'll see if I mean Meta and Apple creating a glass- a Google Compute Cloud or a Azure or AWS would be certainly fascinating. But those three businesses are growing like gangbusters. They have no choice but to add compute.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:54:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Mm-hmm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:54:39",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No, absolutely. So Google Cloud's revenue was 20 billion, 18.4 billion expected. That was up 63% compared to the year-ago quarter and critically, it accelerated growth from 48% in Q4 of 2025, which is just insane. It's bonkers. Every company had acceleration like this. So AWS just had its best quarter in terms of growth in 15 quarters, Jason. And it's the biggest platform in the world of managed compute. And that was 28% growth ahead of expected 26%. Azure, also compute constrained. You know, these companies just cannot get enough compute online. And you know, to me that implies that if you're a startup, well, you might as well get good at hosting local models now, because it doesn't seem that the cutting edge of intelligence is going to get cheaper anytime soon either. You know, Opus 4.7's going to be costly all year.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:54:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Mm-hmm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:55:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The question is, you know, will we overbuild? Right now it doesn't feel like you can overbuild because people- there's such a demand for tokens. And if you were to compare this to when they built out fiber. When they built out all this fiber, there was no Netflix. You couldn't stream a, you know, HD movie. There was no YouTube. People didn't have smartphones. They weren't taking 10-minute videos of their kids and uploading them and sharing them. You didn't actually need that much bandwidth. In other words, the infrastructure was outpacing the application layer and the consumer use case or the business use case. Same thing happened with computers, PCs started becoming really powerful and people were using them for word processing and browsing. So it was like, okay, you can keep your MacBook Pro for five years, six years. There was no reason to upgrade. AI has changed all of that. There is a reason to upgrade your MacBook Pro or get a Mac Studio so you can run a local model, you can run Open Claude, you can do all these interesting things. And that will continue. So it's really nice when we have a new application that tests and stress tests the, you know, existing infrastructure and that's what's happening right now. We've never seen this amount of demand for anything except for maybe mobile bandwidth. I think there was a time period where, you know, you paid per SMS and like there wasn't enough infrastructure to get your text messages and text messages were bogging down the system. And then BlackBerry started bogging down the networks and had to build 3G and 4G and 5G.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "5G and LTE and now if you ask a person like bandwidth at their home they'd be like, 'Well, I have a fiber connection, I have 500 megabit, I have Starlink.' We're like swimming in bandwidth now.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Awesome. I... and a lot of times I'll come home and I'll still be on 5G or I'm in a hotel, like I went to the hotel this time and I forgot to log into the internet because I had my MacBook set up to automatically connect to my tether to my phone. So I just started working and I was like, 'Oh wait a second, this is a little slow,' and after 10 minutes of work I was like, 'Oh yeah, I'm not on the Wi-Fi of the hotel.' That's how good the mobile network got. So it's a very...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:57:41",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And it's gonna get even better as we get more Starlink up there connecting to our phones, like we're gonna have even better service in more places, which is gonna be awesome. But the point about fiber I think is a great one to make because we were building capacity ahead of demand and today we are chasing demand with capacity. And so we're gonna have like a much better early warning sign. And I read these earnings calls every quarter just looking for any hint that things are slowing down, that they can begin to decelerate, because companies love to reward shareholders. Apple did just announce another $100 billion in buybacks in its earnings report yesterday. Investors love that. They would love to do more of that, but they can't because they're spending all their money on this other stuff, and they would probably like to be able to reward investors, boost the share price, etc. But, uh, we're not there yet. Okay, next up, Jason.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:58:25",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "People in Congress are starting to press technology companies about their use of Chinese AI models, or AI models from China. And on this show, you and I have talked about using things from Moonshot or MiniMax or DeepSeek and open Claude and so forth. I'm just very curious, do you think that American startups should be comfortable using AI models built in China that are often less expensive and often a bit more open than what we see built here in the US?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:58:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I mean, they're open source projects, so I'm not sure the government can stop this because you can fork them and just restart them in the United States. And they are open, so the idea that you would have inside of them, you know, what you would have inside of TikTok, which is the ability to, you know, steal users' data, know who's connected to who, and get local information, have access to people's camera rolls, have access to the location data, have access to the cut and paste—you know, you've got a lot of data you can have in that case. In an open model, if you're running it locally, like, does OpenSeek have a backdoor in there? And how effective is that backdoor? And could they hide a backdoor in there? I'm not so certain; it's a bit above my pay grade. But from my understanding, it's incredibly hard in an open source project like that to put a backdoor in. It does signal to me that we need to have an open source champion here in the US.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:59:56",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes, we'll get to that in a second, but this is what a partner at Andreessen Horowitz...",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's said about this particular problem, Jason, and I'm quoting here from their website: 'If adversaries control the models, they can manipulate the underlying probabilities to subtly distort truth, influence decisions, or spread falsehoods at scale. This makes the geopolitical risk of having an adversary control these AI brains real.' So that's the concern. It doesn't seem to land very well with me. I don't have that fear because these models are sufficiently open that I feel comfortable using them. So I was surprised to see people in Congress really going after Anysphere, which makes Cursor, which makes Composer too off of Kimi, K2.5, and Airbnb, which used Qwen models, to kind of like beat them around the ears. Because you could make it unpalatable in a business context to use those models by getting blocked by the government or whatever. So they could make your life bad even if you can't ban open source. And I think it's a real risk. I think these models are good and cheap. I think we should use them. Like, am I crazy?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:00:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You know, the bias in the models is true. They can steal IP and they do. So I guess there are some concerns around that. I think you could test it pretty quickly. I mean, if you went to DeepSeek right now and you asked it like, you know, tell me about the Uyghurs in China and how they're being abused.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "01:01:14",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "I understand you're asking about a topic where there are two historically different and contradictory narratives. The information I can find is predominantly—",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:01:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, sorry Lon, it just snapped it shut. Did you see that?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "01:01:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I did. I just full-screened it so I could read the dang text and—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:01:35",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Let's talk about something else. But critically though, this is the model served via DeepSeek's inference stack. Right, chat.deepseek.com. Right, I don't think you run into the same restrictions if you use the model hosted via a different inference provider. So on OpenRouter, for example, you can just like pick between the different compute stacks. But I agree that it's worrisome. But if you're Anysphere, which makes Cursor, you're very savvy. They went and looked at all the open models, picked Kimi K2.5 as their base and then worked on it from there, creating tons of domestic value, Jason. A lot of American GDP off of the back of Chinese open source. To me, it's like a win-win-win for the country.",
+      "tone": "argumentative"
+    },
+    {
+      "timestamp": "01:02:17",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Yeah, I think we do need to be aware of it. I think it's definitely something to monitor. Don't have a problem with them asking Airbnb or whoever for a little feedback on how they're using it. I think it's probably great that these senators, congressmen, everybody are getting a little more educated on it.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:02:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Obviously I need to be educated on it. I haven't been using it all that much but we use Kimi on some of our open cloud instances and we run our own on US East 1 and Oregon. So... interesting to think about. I think practically probably not an attack vector, but we do need a champion here in the US. The problem is all the great minds in AI have been offered competing packages from Meta...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "OpenAI, Grok, Anthropic, and Microsoft, and startups for $10 million in RSUs over the next four years, why would they, you know, go work on an open source project when they have this once in a lifetime chance to take down 10 or 20 or 50 or $100 million in equity?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:03:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So, the answer is it's very hard to compete with that. There is one American company, Reflection AI, that is doing research to build open models here in the United States. The problem is just every time I go to their website, because I'm like, what's going on with Reflection? There's nothing new. They haven't released a model I can play with. They haven't, they haven't done the thing that I want them to do, which is to put American open source or open weight AI on the map again since the Llama 3 era. And it's not happening. And, you know, points to XAI, they have open source Grok 1 and 2, I checked, on Hugging Face. But that's not cutting edge. So, I just think American companies could do more. And then we wouldn't have this problem and we wouldn't be seeding so much of the global inference market to upstart Chinese AI labs, which are doing quite well as we can see in their stock prices. So.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:04:18",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Before I let you go, Jason, do you have a certain background up? It appears...",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:04:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Madison Square Garden.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:04:25",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Yeah, so I hear your beloved Knicks have... well, I hear you were quite rude to the Atlanta team. So how did it end up 40 to 15 in the first quarter? Because that's...",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:04:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I have, you know, I have been watching basketball since I was in my teenage years and I have never seen a blowout like this in Atlanta. We were, it was... I had courtside seats in Atlanta and it was insane. 40 to 15 after the first quarter, it was a historic beat down. The largest margin of victory, I think, at multiple times for a playoff game in the modern era. So, 140 to 89 by the end of the game.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:04:58",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "It was like 100 and something to 40. They were up 60 points for most of the game.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "01:05:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The Knicks are the best team in the East. They've got a suffocating defense and they hit a lot of their shots at the same time. The Atlanta Hawks are a young team and they kind of folded. And so it was absolutely insane. Um, yeah, it was a blowout.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "01:05:18",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Here's the question though, Jason.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:05:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And this, I'll say, since we're in our off-duty segment and I think Fat Don Capital's making us a graphic and music for off-duty. We like to go off-duty at the end of the show to talk about random stuff. Um, this is my tip for people. If you got some siblings or friends in different cities, and I guess maybe I'm late to the party on this, going to see your favorite sports team in the non-home arena. Like, me going back to Madison Square Garden is amazing. Maybe I'll catch a game when I'm there at some point. But going to the opposing arena adds like a level of villainy and fun. And so I was wearing my nice, you know, Kith jacket and, you know, interacting with everybody was a lot of fun. Um, but you get to go...",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:06:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "another city, so last year I went to Detroit if you remember at this time as I sat courtside, Timothy Chalamet and Ben Stiller and everybody went. We had a group of four guys, my brother Josh.",
+      "tone": "storytelling"
+    },
+    {
+      "timestamp": "01:06:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I do.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "01:06:15",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "And the year before I went to Philly. And there's like you get to see Atlanta, Philly and Detroit. I don't think I'd been there as an adult. Like why am I going to these cities? Like there's not a lot going on in them. And then it turns out they're actually quite, you know, cities on the rise, great American cities that are working through some issues.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:06:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:06:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So it's actually a great excuse to just go to a city for three days and check it out and eat at their best restaurant, see their sites and, you know, take in a game and take in a local culture. All three of those, you know, local cultures here in the like Northeast generally speaking were just wonderful to experience.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:06:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So next up is either the Sixers or the Celtics. I am an Eagles fan so I do have some allegiance to the Philadelphia sports scene much more than Boston. But I'm curious which team do you want to see the Knicks go up against because you have the best shot of crushing them?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:07:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It really doesn't matter. We beat both of those teams in the last two playoff series that we played against them. The Knicks were actually built to beat those two teams specifically. Those two teams have Jayson Tatum at the Celtics and on the Philadelphia 76ers they have Joel Embiid. Both of those are like MVPs. They're both, you know, they both have exceeded our best player Jalen Brunson's performances historically but we're probably better right now. And it doesn't matter. They're going to go to a Game 7, I guess tomorrow, Saturday, and we will play either one and we'll beat either one I think in six games.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "01:07:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "What's the current Poly Market odds? Jason, I don't speak sports bet. So when it says Philadelphia 30 cents, Boston 71, that means Boston's more likely to win according to the betting odds?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:07:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, they believe Boston, who's playing at home, will beat Philly and we'll beat Boston.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:07:54",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "And then we have to beat the winner of Detroit Pistons versus Orlando, and I think Orlando's ahead in that series. So we get to rest up while those teams figure it out. And yeah, basically this is the Knicks' best chance of getting to the finals and competing for the championship since the 90s, basically.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:08:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Wow. So decades and decades and decades.",
+      "tone": "amazed"
+    },
+    {
+      "timestamp": "01:08:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, 30 years of my life, yeah basically, 25.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:08:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "If they're in the finals, how much, what's your like, what's the max you'll pay for courtside seats to the finals? Because I remember what that would cost.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:08:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean, you know, it's one of the great things about going to these arenas in these other cities is it's $50,000 to sit courtside, you know, at Madison Square Garden, and it's a small fraction of that in these other cities. So I treat myself to it but...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:08:47",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, you said that last year about the Pistons. Like, yeah, it's really cheap, you can just get courtside seats, it's fantastic. And I was like, that's no problem.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:08:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No problem.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:08:54",
+      "ad": false,
+      "speaker": "Christian van der Henst",
+      "text": "Detroit's not far away, you know.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "01:08:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, so I, yeah, I don't know what I would pay but if they make it to the finals, I will definitely be going.",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "01:09:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Courtside or, hopefully, up close. My friend David Adelman owns the 76ers, so I think I want the 76ers to play the 76ers so I can go there and torture him and watch some home games in Philly.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:09:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean, if that happens, I might be down there to see my Philly friends to play some poker, so give me a call.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:09:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'll get a ticket. I'll get you a ticket.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:09:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right, but guys, this has been another episode of TWIST. We're back, Jason, on Monday. We're back on Wednesday. We're back on Friday. TWIST never stops. We'll see you next week.",
+      "tone": "upbeat"
+    },
+    {
+      "timestamp": "01:09:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Bye-bye.",
+      "tone": "friendly"
+    }
+  ],
+  "highlights": [
+    "Christian van der Henst demonstrated an autonomous vending machine business run by an AI agent that manages its own inventory and pricing, signaling a future shift toward \"one-agent companies.\".",
+    "Targon is utilizing the Bittensor network to build a permissionless market for encrypted GPU compute, effectively creating an \"Airbnb for GPUs\" to help data centers monetize underutilized hardware.",
+    "Unlike the 1990s fiber optic build-out where infrastructure exceeded demand, current massive CapEx by major tech companies reflects an AI landscape where token demand is aggressively chasing available compute capacity.",
+    "Jason Calacanis introduced a $5,000 bounty for a service called \"Annotated,\" intended to create a platform for fact-checking and social commentary on web content to help improve the training data for future AI models.",
+    "US startups face a complex trade-off between the economic efficiency of high-quality Chinese open-source AI models and the geopolitical risks associated with potential bias or backdoors in foreign-developed software."
+  ],
+  "summary": "This episode of *This Week in Startups* explores the evolving frontier of AI-driven autonomy and infrastructure. Guest Christian van der Henst introduces \"Valerie,\" a vending machine business managed by an AI agent that handles its own inventory, research, and dynamic pricing. The discussion highlights the shift toward \"one-agent companies\" while addressing the significant legal and financial hurdles remaining, such as the difficulty of providing AI agents with bank accounts and legal personhood. This theme of decentralized autonomy is further expanded by Robert from Manifold, who discusses Targon, a Bittensor subnet that creates a permissionless, encrypted market for GPU compute. Targon allows data centers to monetize idle hardware while offering startups a secure, private alternative to centralized cloud providers.\n\nThe hosts also delve into the broader economic and geopolitical landscape of the AI era. They analyze the massive capital expenditure (CapEx) from tech giants like Google, Meta, and Microsoft, noting that infrastructure development is currently struggling to keep pace with the insatiable demand for AI tokens. This leads to a debate over the security of using Chinese open-source models versus the need for domestic \"champions\" to maintain American AI leadership. Throughout the episode, Jason Calacanis maintains a skeptical outlook on Bitcoin’s long-term utility, arguing that its lack of functionality makes it \"stale\" compared to high-utility networks like Solana and Bittensor, which provide actual services to developers and entrepreneurs.",
+  "description": "This Week In Startups is made possible by:\nPilot - https://pilot.com/twist\nShopify - https://shopify.com/twist\nGrasshopper Bank - https://grasshopper.bank/twist\nPlaud - https://Plaud.ai/twist\n\nToday’s show:\nAn AI agent named Valerie is running a real vending machine in San Francisco — setting prices, ordering inventory, managing a bank account, and posting to Instagram. And it's not just a stunt. We’re getting an early look at the future of one-agent companies. There’s still work to do to help agents ease into the economy, potentially opening up new startup opportunities.\nJason Calacanis and Alex Wilhelm cover a stacked docket: Christian van der Henst demos the Valerie AI vending machine powered by OpenClaw; Robert Myers, CEO of Manifold Labs, breaks down Targon, a confidential GPU compute marketplace running on Bittensor Subnet 4; Jason calls Bitcoin \"played out;\" Alex is impressed by Anthropic's stunning $900 billion upcoming valuation; and the guys discuss Big Tech's accelerating CapEx spend, Chinese AI models in Congress crosshairs, and the NBA Playoffs.\nTimestamps:\n0:00 Intro & sponsor reads (Pilot, Shopify, Grasshopper Bank)\n1:06 Christian van der Henst: Valerie the AI vending machine demo\n2:23 How OpenClaw powers Valerie: Dynamic pricing, inventory, bank account\n4:28 Legal structure: Giving an AI agent business ownership via trust\n7:23 Where agents can and can't operate today\n8:46 How agentic business ownership works legally\n9:31 Grasshopper Bank: Time is money. Don't waste either. Go to https://grasshopper.bank/twist and get an exclusive $500 cash bonus just for opening an account.\n9:46 Jason's SFO café, and SF regulations vs. AI-run businesses\n11:48 AI café in Stockholm running on agents\n17:42 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n19:05 Robert Myers, Manifold Labs: Targon & Bittensor Subnet 4 interview\n20:21 What is Bittensor? An \"incubator with 128 subnets\"\n20:39 Shopify: Turn those What If's into sales with the ecommerce platform powering millions of businesses. Sign up for your $1-per-month trial today at https://shopify.com/twist\n21:43 From Sybil to Targon: Manifold's journey to confidential compute\n25:21 Pricing, utilization caps, and why GPUs are sold out\n26:38 Who's using Targon? Customers, use cases, and the mom-and-pop data center argument\n29:27 Pilot: Focus on your product, let Pilot handle your bookkeeping. Pilot provides the most reliable accounting, CFO, and tax services for startups and small businesses. Head to https://pilot.com/twist and get $1,200 off your first year.\n34:36 Bounties update: podcast companion (May 8) and Annotated.com (May 18)\n35:07 Jason explains the annotated.com vision — 15 years in the making\n39:11 Polymarket: Will Anthropic flip Bitcoin by Dec 31?\n40:29 Jason's Bitcoin bear case: \"It's played out. No incremental buyers.\"\n44:09 Alex's supporting points: Stablecoins are replacing BTC's killer use case\n46:05 MicroStrategy / Strategy updates\n47:48 Big Tech earnings: Google Cloud +63%, AWS best quarter in 15 quarters\n52:37 AI compute demand vs. the fiber overbuild analogy\n55:55 Congress pressuring startups over Chinese AI models (DeepSeek, Moonshot)\n57:11 A16z on the geopolitical risk of Chinese AI models\n1:00:08 Reflection AI — America's open source AI champion (or lack thereof)\n1:01:26 Off Duty: Knicks blow out Atlanta Hawks 140–89, Jason goes road-tripping\n1:03:06 Tip: See your team play in another city's arena\n1:04:15 Sixers vs. Celtics preview; NBA Playoffs Polymarket odds\n\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+  "duration": 4166,
+  "people": [
+    "Jason Calacanis",
+    "Alex Wilhelm",
+    "This Week",
+    "In Startups",
+    "Grasshopper Bank",
+    "San Francisco",
+    "Robert Myers",
+    "Manifold Labs",
+    "Bittensor Subnet",
+    "Big Tech",
+    "What If",
+    "From Sybil",
+    "Will Anthropic",
+    "Google Cloud",
+    "Off Duty",
+    "Atlanta Hawks",
+    "Playoffs Polymarket",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason",
+    "Will Guidara",
+    "Steve Huffman",
+    "Brian Chesky",
+    "Bob Moesta",
+    "Aaron Levie",
+    "Sophia Amoruso",
+    "Reid Hoffman",
+    "Frank Slootman"
+  ],
+  "topics": [
+    "AI agents running autonomous businesses and the Valerie vending machine experiment",
+    "Decentralized confidential GPU compute and Bittensor Subnet 4",
+    "Big Tech's accelerating CapEx spending on AI infrastructure",
+    "Market analysis of Bitcoin versus AI labs and next-generation crypto networks",
+    "Geopolitical concerns and congressional pressure over the use of Chinese AI models"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/4elRU7BlbDQ/maxresdefault.jpg",
+  "date": "20260501",
+  "youtube_url": "https://www.youtube.com/watch?v=4elRU7BlbDQ",
+  "youtube_metadata": {
+    "title": "Can an AI Agent Legally Own a Company? Christian van der Henst's Wild Experiment| E2283",
+    "description": "This Week In Startups is made possible by:\nPilot - https://pilot.com/twist\nShopify - https://shopify.com/twist\nGrasshopper Bank - https://grasshopper.bank/twist\nPlaud - https://Plaud.ai/twist\n\nToday’s show:\nAn AI agent named Valerie is running a real vending machine in San Francisco — setting prices, ordering inventory, managing a bank account, and posting to Instagram. And it's not just a stunt. We’re getting an early look at the future of one-agent companies. There’s still work to do to help agents ease into the economy, potentially opening up new startup opportunities.\nJason Calacanis and Alex Wilhelm cover a stacked docket: Christian van der Henst demos the Valerie AI vending machine powered by OpenClaw; Robert Myers, CEO of Manifold Labs, breaks down Targon, a confidential GPU compute marketplace running on Bittensor Subnet 4; Jason calls Bitcoin \"played out;\" Alex is impressed by Anthropic's stunning $900 billion upcoming valuation; and the guys discuss Big Tech's accelerating CapEx spend, Chinese AI models in Congress crosshairs, and the NBA Playoffs.\nTimestamps:\n0:00 Intro & sponsor reads (Pilot, Shopify, Grasshopper Bank)\n1:06 Christian van der Henst: Valerie the AI vending machine demo\n2:23 How OpenClaw powers Valerie: Dynamic pricing, inventory, bank account\n4:28 Legal structure: Giving an AI agent business ownership via trust\n7:23 Where agents can and can't operate today\n8:46 How agentic business ownership works legally\n9:31 Grasshopper Bank: Time is money. Don't waste either. Go to https://grasshopper.bank/twist and get an exclusive $500 cash bonus just for opening an account.\n9:46 Jason's SFO café, and SF regulations vs. AI-run businesses\n11:48 AI café in Stockholm running on agents\n17:42 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n19:05 Robert Myers, Manifold Labs: Targon & Bittensor Subnet 4 interview\n20:21 What is Bittensor? An \"incubator with 128 subnets\"\n20:39 Shopify: Turn those What If's into sales with the ecommerce platform powering millions of businesses. Sign up for your $1-per-month trial today at https://shopify.com/twist\n21:43 From Sybil to Targon: Manifold's journey to confidential compute\n25:21 Pricing, utilization caps, and why GPUs are sold out\n26:38 Who's using Targon? Customers, use cases, and the mom-and-pop data center argument\n29:27 Pilot: Focus on your product, let Pilot handle your bookkeeping. Pilot provides the most reliable accounting, CFO, and tax services for startups and small businesses. Head to https://pilot.com/twist and get $1,200 off your first year.\n34:36 Bounties update: podcast companion (May 8) and Annotated.com (May 18)\n35:07 Jason explains the annotated.com vision — 15 years in the making\n39:11 Polymarket: Will Anthropic flip Bitcoin by Dec 31?\n40:29 Jason's Bitcoin bear case: \"It's played out. No incremental buyers.\"\n44:09 Alex's supporting points: Stablecoins are replacing BTC's killer use case\n46:05 MicroStrategy / Strategy updates\n47:48 Big Tech earnings: Google Cloud +63%, AWS best quarter in 15 quarters\n52:37 AI compute demand vs. the fiber overbuild analogy\n55:55 Congress pressuring startups over Chinese AI models (DeepSeek, Moonshot)\n57:11 A16z on the geopolitical risk of Chinese AI models\n1:00:08 Reflection AI — America's open source AI champion (or lack thereof)\n1:01:26 Off Duty: Knicks blow out Atlanta Hawks 140–89, Jason goes road-tripping\n1:03:06 Tip: See your team play in another city's arena\n1:04:15 Sixers vs. Celtics preview; NBA Playoffs Polymarket odds\n\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+    "duration": 4166,
+    "view_count": 1265,
+    "like_count": 30,
+    "channel": "This Week in Startups",
+    "upload_date": "20260501",
+    "thumbnail": "https://i.ytimg.com/vi/4elRU7BlbDQ/maxresdefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

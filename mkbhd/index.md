@@ -1,8 +1,8 @@
 ---
 channel: MKBHD
 channel_handle: "@mkbhd"
-total_videos: 52
-last_updated: 2026-04-25
+total_videos: 54
+last_updated: 2026-05-14
 ---
 
 # MKBHD Channel Index
@@ -11,10 +11,10 @@ last_updated: 2026-04-25
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 52 |
-| Total Views | 220,395,821 |
-| Date Range | June 10, 2025 - April 24, 2026 |
-| Average Video Length | 12:29 |
+| Total Videos | 54 |
+| Total Views | 224,833,852 |
+| Date Range | June 10, 2025 - May 13, 2026 |
+| Average Video Length | 12:30 |
 
 ---
 
@@ -22,6 +22,8 @@ last_updated: 2026-04-25
 
 | Date | Title | Duration | Views |
 |------|-------|----------|-------|
+| 2026-05-13 | [“The Biggest Android Update Ever”](videos/eFeDpUVEy48.md) | 12:59 | 1,447,087 |
+| 2026-04-29 | [My Take on The New Apple](videos/i9TvUGeTltE.md) | 11:09 | 2,990,944 |
 | 2026-04-24 | [Glass is glass](videos/7YrdI7h2XoY.md) | 4:45 | 1,065,114 |
 | 2026-04-21 | [So This is Peak Smartphone](videos/c347oYQO57A.md) | 13:17 | 3,783,304 |
 | 2026-04-14 | [The Unreleased Rollable Smartphone!](videos/5aS-8QCRdGE.md) | 9:58 | 1,998,870 |
@@ -83,8 +85,8 @@ last_updated: 2026-04-25
 
 | Company | Videos | References |
 |---------|--------|------------|
-| **Apple** | 30 | WWDC 2025, iOS 26, iPhone 17, iPhone Air, AirPods Pro 3, Vision Pro, iPadOS 26, M5 chip, M5 Max, MacBook Neo, MacBook Neo Review, MacBook Pro M5 Max, Studio Display XDR, Siri, Apple Intelligence, Liquid Glass, A18 Pro, A19 Pro, iPhone Fold rumors |
-| **Google** | 15 | Pixel 10, Pixel 10A, Gemini, Android 16, Tensor G5, YouTube, Circle to Search |
+| **Apple** | 32 | WWDC 2025, iOS 26, iPhone 17, iPhone Air, AirPods Pro 3, Vision Pro, iPadOS 26, M5 chip, M5 Max, MacBook Neo, MacBook Neo Review, MacBook Pro M5 Max, Studio Display XDR, Siri, Apple Intelligence, Liquid Glass, A18 Pro, A19 Pro, iPhone Fold rumors, Tim Cook to Chairman, John Ternus CEO transition |
+| **Google** | 17 | Pixel 10, Pixel 10A, Gemini, Android 16, Android 17, Tensor G5, YouTube, Circle to Search, Google Books, Gemini Intelligence, Android Auto |
 | **Samsung** | 14 | Galaxy S26 Ultra Review, Galaxy S26/Ultra Impressions, Galaxy Buds 4 Pro, Galaxy Z Fold 7, Galaxy Z Flip 7, Z Tri Fold, Galaxy S25 Ultra, Galaxy Tab S11 Ultra |
 | **Nothing** | 6 | Nothing Phone 3, Nothing Headphone 1, CMF Phone 2 Pro, Glyph Matrix |
 | **Nintendo** | 1 | Switch 2, Joy-Cons, Mario Kart World |
@@ -121,6 +123,7 @@ last_updated: 2026-04-25
 | Samsung Z Tri Fold | Samsung Galaxy Z Tri Fold Impressions | [Summary](videos/trsHTKqmZOk.md) |
 | OnePlus 15 | OnePlus 15 Review | [Summary](videos/2MdQWo9fHZs.md) |
 | Nothing Phone 3 | Nothing Phone 3 Review: They Lied! | [Summary](videos/4KbrxIpQgkM.md) |
+| Nothing Phone 4A/Pro | Nothing Phone 4A/Pro Review | [Summary](videos/D4QyStJWgCc.md) |
 | Nothing Headphone 1 | Nothing Headphone 1 Review | [Summary](videos/A94RrC8Mg0o.md) |
 | Nintendo Switch 2 | My Nintendo Switch 2 Review | [Summary](videos/-NNCca97v98.md) |
 | Xiaomi 17 Pro Max | Xiaomi 17 Pro Max: An iPhone... But Better! | [Summary](videos/eou_g_cYCew.md) |
@@ -152,12 +155,15 @@ last_updated: 2026-04-25
 | Dell XPS 14 | The Windows Laptop Problem | [Summary](videos/eXa2ndhmatI.md) |
 | Acer Aspire 16 | The Windows Laptop Problem | [Summary](videos/eXa2ndhmatI.md) |
 | MacBook Pro M5 Max 16" | The Windows Laptop Problem | [Summary](videos/eXa2ndhmatI.md) |
+| Android 17 | "The Biggest Android Update Ever" | [Summary](videos/eFeDpUVEy48.md) |
+| Google Books (Chromebooks) | "The Biggest Android Update Ever" | [Summary](videos/eFeDpUVEy48.md) |
+| Gemini Intelligence | "The Biggest Android Update Ever" | [Summary](videos/eFeDpUVEy48.md) |
 
 ### Technologies
 
 | Technology | Videos | Context |
 |------------|--------|---------|
-| **AI / LLMs** | 10+ | Siri, Gemini, ChatGPT, Claude, Apple Intelligence, Magic Cues |
+| **AI / LLMs** | 11+ | Siri, Gemini, ChatGPT, Claude, Apple Intelligence, Magic Cues, Gemini Intelligence agentic features |
 | **Foldable Phones** | 7 | Z Fold 7, Z Flip 7, Z Tri Fold, Pixel Fold, Huawei Mate XT, Oppo Find N6, rumored iPhone Fold |
 | **Rollable Phones** | 1 | LG Rollable prototype, motorized expanding display |
 | **Silicon Carbon Batteries** | 6 | OnePlus 15, Xiaomi 17 Pro Max, Nothing Phone 3, Honor Power 2, swelling concerns, enabling 7000+ mAh capacity |
@@ -173,6 +179,8 @@ last_updated: 2026-04-25
 | **Privacy Display** | 2 | Samsung S26 Ultra hardware-level privacy screen, pixel-level control, dual pixel types, trade-offs |
 | **Gaming Consoles** | 1 | Nintendo Switch 2, Joy-Con magnets, 4K60 docked |
 | **Nanotexture Glass** | 1 | Studio Display XDR anti-glare coating, improved over Pro Display XDR generation |
+| **CEO/Leadership Transitions** | 1 | Apple Tim Cook to Chairman, John Ternus to CEO, Johny Srouji to head hardware |
+| **Agentic AI** | 1 | Gemini Intelligence one-click flows, ticket purchase agents |
 
 ---
 
@@ -180,13 +188,13 @@ last_updated: 2026-04-25
 
 | Tag | Count |
 |-----|-------|
-| Apple | 21 |
+| Apple | 22 |
 | smartphone review | 13 |
 | iPhone | 12 |
-| MKBHD | 14 |
+| MKBHD | 16 |
 | Samsung | 9 |
 | Google | 8 |
-| Android | 7 |
+| Android | 8 |
 | Nothing | 6 |
 | tech review | 6 |
 | foldable phone | 5 |
@@ -208,11 +216,24 @@ last_updated: 2026-04-25
 | robotics | 2 |
 | Privacy Display | 1 |
 | Apple Silicon | 1 |
-| MacBook Neo | 1 |
+| MacBook Neo | 2 |
 | Studio display | 1 |
 | XDR display | 1 |
 | HDR display | 1 |
 | Chromebook competitor | 1 |
+| Tim Cook | 1 |
+| John Ternus | 1 |
+| CEO transition | 1 |
+| Apple turnover | 1 |
+| Apple leadership | 1 |
+| hardware engineering | 1 |
+| iPhone fold | 1 |
+| Android 17 | 1 |
+| Android 17 features | 1 |
+| Gemini Intelligence | 1 |
+| preview | 1 |
+| review | 1 |
+| Googlebook | 1 |
 
 ---
 
@@ -230,10 +251,6 @@ last_updated: 2026-04-25
 | 8 | [Xiaomi 17 Pro Max: An iPhone... But Better!](videos/eou_g_cYCew.md) | 6,610,145 | 2025-10-14 |
 | 9 | [Macbook Neo Impressions: Reincarnated!](videos/kBX5WH9b4M4.md) | 6,599,701 | 2026-03-04 |
 | 10 | [The Problem with this Humanoid Robot](videos/j31dmodZ-5c.md) | 6,344,124 | 2025-10-30 |
-| 11 | [So This is Peak Foldable](videos/eFUB_jL_XcM.md) | 5,880,345 | 2026-03-30 |
-| 12 | [The Windows Laptop Problem](videos/eXa2ndhmatI.md) | 4,629,240 | 2026-03-25 |
-| 13 | [Bluey Phone Review](videos/Hc0aqOEU2w8.md) | 3,868,332 | 2026-04-01 |
-| 14 | [So This is Peak Smartphone](videos/c347oYQO57A.md) | 3,783,304 | 2026-04-21 |
 
 ---
 
@@ -244,9 +261,11 @@ Full in-depth reviews of products after extended use.
 
 | Video | Product | Date |
 |-------|---------|------|
+| [Nothing Phone 4A/Pro Review: I Have a Theory](videos/D4QyStJWgCc.md) | Nothing Phone 4A/Pro | 2026-03-19 |
 | [Macbook Neo Review: Better than you Think!](videos/iGeXGdYE7UE.md) | MacBook Neo | 2026-03-10 |
 | [Apple Studio Display XDR Review: We're All Pros Now!](videos/yWI33R4xyIc.md) | Studio Display XDR | 2026-03-09 |
 | [Samsung Galaxy S26 Ultra Review: There's a Catch](videos/nfHRMqqO578.md) | Samsung Galaxy S26 Ultra | 2026-03-06 |
+| [Samsung Galaxy Buds 4 Pro Review: Better than AirPods!](videos/wRaDbRjVrc4.md) | Samsung Galaxy Buds 4 Pro | 2026-02-28 |
 | [iPhone 17 Pro Review: Paradox in a Box!](videos/q0aFOxT6TNw.md) | iPhone 17 Pro/Pro Max | 2025-09-26 |
 | [iPhone 17 Review: No Asterisks!](videos/rng_yUSwrgU.md) | iPhone 17 | 2025-10-01 |
 | [iPhone Air Review: Beauty is Pain](videos/tDARtYjUiHs.md) | iPhone Air | 2025-09-23 |
@@ -264,6 +283,7 @@ First hands-on looks at newly announced products.
 
 | Video | Product | Date |
 |-------|---------|------|
+| [“The Biggest Android Update Ever”](videos/eFeDpUVEy48.md) | Android 17, Gemini Intelligence, Google Books | 2026-05-13 |
 | [The Unreleased Rollable Smartphone!](videos/5aS-8QCRdGE.md) | LG Rollable prototype | 2026-04-14 |
 | [So This is Peak Foldable](videos/eFUB_jL_XcM.md) | Oppo Find N6 | 2026-03-30 |
 | [So This is Peak Smartphone](videos/c347oYQO57A.md) | Oppo Find X9 Ultra | 2026-04-21 |
@@ -278,12 +298,14 @@ First hands-on looks at newly announced products.
 | [Samsung Galaxy S26/Ultra Impressions: 1 Crazy Display Feature!](videos/FRI78tq9Eik.md) | Samsung Galaxy S26/Ultra | 2026-02-25 |
 | [WWDC 2025 Impressions: Liquid Glass!](videos/1E3tv_3D95g.md) | WWDC 2025, iOS 26, iPadOS 26 | 2025-06-10 |
 | [Xiaomi 17 Ultra - More Camera than Phone!](videos/DqAKQwagCDg.md) | Xiaomi 17 Ultra | 2026-01-22 |
+| [iPhone 17/Pro/Air Unboxing: 1 Hot Take!](videos/s0EbxhQYeCA.md) | iPhone 17 lineup | 2025-09-17 |
 
 ### Explainers
 Deep dives into technology, concepts, or industry analysis.
 
 | Video | Topic | Date |
 |-------|-------|------|
+| [My Take on The New Apple](videos/i9TvUGeTltE.md) | Apple CEO transition, Tim Cook to Chairman, John Ternus era | 2026-04-29 |
 | [Glass is glass](videos/7YrdI7h2XoY.md) | Smartphone glass durability marketing | 2026-04-24 |
 | [The Windows Laptop Problem](videos/eXa2ndhmatI.md) | Windows OEM structural issues | 2026-03-25 |
 | [The Problem with these Smartphone Batteries](videos/zPAY2VxfFBk.md) | Silicon carbon battery risks | 2026-02-06 |
@@ -301,6 +323,7 @@ Videos comparing multiple products or summarizing categories.
 
 | Video | Topic | Date |
 |-------|-------|------|
+| [Reviewing Everything on my Desk! (2026)](videos/j2rszuZ-9PY.md) | Annual desk tour | 2026-03-14 |
 | [Smartphone Awards 2025!](videos/sfyL4BswUeE.md) | Annual smartphone awards | 2025-12-08 |
 | [What's on my Phone 2026!](videos/KW21q_7U6Ao.md) | Daily driver apps and setup | 2025-11-26 |
 | [Siri Isn't That Bad](videos/Qqyp00JPJZI.md) | Tech hot takes | 2025-11-28 |
@@ -328,13 +351,22 @@ All video summaries are available in the `videos/` directory:
 
 | Video ID | File |
 |----------|------|
+| eFeDpUVEy48 | [videos/eFeDpUVEy48.md](videos/eFeDpUVEy48.md) |
+| i9TvUGeTltE | [videos/i9TvUGeTltE.md](videos/i9TvUGeTltE.md) |
+| 7YrdI7h2XoY | [videos/7YrdI7h2XoY.md](videos/7YrdI7h2XoY.md) |
+| c347oYQO57A | [videos/c347oYQO57A.md](videos/c347oYQO57A.md) |
+| 5aS-8QCRdGE | [videos/5aS-8QCRdGE.md](videos/5aS-8QCRdGE.md) |
+| Hc0aqOEU2w8 | [videos/Hc0aqOEU2w8.md](videos/Hc0aqOEU2w8.md) |
+| eFUB_jL_XcM | [videos/eFUB_jL_XcM.md](videos/eFUB_jL_XcM.md) |
+| eXa2ndhmatI | [videos/eXa2ndhmatI.md](videos/eXa2ndhmatI.md) |
+| D4QyStJWgCc | [videos/D4QyStJWgCc.md](videos/D4QyStJWgCc.md) |
+| j2rszuZ-9PY | [videos/j2rszuZ-9PY.md](videos/j2rszuZ-9PY.md) |
 | iGeXGdYE7UE | [videos/iGeXGdYE7UE.md](videos/iGeXGdYE7UE.md) |
 | yWI33R4xyIc | [videos/yWI33R4xyIc.md](videos/yWI33R4xyIc.md) |
 | nfHRMqqO578 | [videos/nfHRMqqO578.md](videos/nfHRMqqO578.md) |
 | kBX5WH9b4M4 | [videos/kBX5WH9b4M4.md](videos/kBX5WH9b4M4.md) |
 | wRaDbRjVrc4 | [videos/wRaDbRjVrc4.md](videos/wRaDbRjVrc4.md) |
 | FRI78tq9Eik | [videos/FRI78tq9Eik.md](videos/FRI78tq9Eik.md) |
-| 1E3tv_3D95g | [videos/1E3tv_3D95g.md](videos/1E3tv_3D95g.md) |
 | iCSg_ul3G2w | [videos/iCSg_ul3G2w.md](videos/iCSg_ul3G2w.md) |
 | zPAY2VxfFBk | [videos/zPAY2VxfFBk.md](videos/zPAY2VxfFBk.md) |
 | vZdbbN3FCzE | [videos/vZdbbN3FCzE.md](videos/vZdbbN3FCzE.md) |
@@ -348,7 +380,6 @@ All video summaries are available in the `videos/` directory:
 | Qqyp00JPJZI | [videos/Qqyp00JPJZI.md](videos/Qqyp00JPJZI.md) |
 | KW21q_7U6Ao | [videos/KW21q_7U6Ao.md](videos/KW21q_7U6Ao.md) |
 | RvP-uVNwnXo | [videos/RvP-uVNwnXo.md](videos/RvP-uVNwnXo.md) |
-| 2MdQWo9fHZs | [videos/2MdQWo9fHZs.md](videos/2MdQWo9fHZs.md) |
 | j31dmodZ-5c | [videos/j31dmodZ-5c.md](videos/j31dmodZ-5c.md) |
 | rU9aqBv0YdY | [videos/rU9aqBv0YdY.md](videos/rU9aqBv0YdY.md) |
 | eou_g_cYCew | [videos/eou_g_cYCew.md](videos/eou_g_cYCew.md) |
@@ -372,9 +403,5 @@ All video summaries are available in the `videos/` directory:
 | -NNCca97v98 | [videos/-NNCca97v98.md](videos/-NNCca97v98.md) |
 | A94RrC8Mg0o | [videos/A94RrC8Mg0o.md](videos/A94RrC8Mg0o.md) |
 | Mb6H7trzMfI | [videos/Mb6H7trzMfI.md](videos/Mb6H7trzMfI.md) |
-| 7YrdI7h2XoY | [videos/7YrdI7h2XoY.md](videos/7YrdI7h2XoY.md) |
-| c347oYQO57A | [videos/c347oYQO57A.md](videos/c347oYQO57A.md) |
-| 5aS-8QCRdGE | [videos/5aS-8QCRdGE.md](videos/5aS-8QCRdGE.md) |
-| Hc0aqOEU2w8 | [videos/Hc0aqOEU2w8.md](videos/Hc0aqOEU2w8.md) |
-| eFUB_jL_XcM | [videos/eFUB_jL_XcM.md](videos/eFUB_jL_XcM.md) |
-| eXa2ndhmatI | [videos/eXa2ndhmatI.md](videos/eXa2ndhmatI.md) |
+| 2MdQWo9fHZs | [videos/2MdQWo9fHZs.md](videos/2MdQWo9fHZs.md) |
+| GB0b6KFZVq0 | [videos/GB0b6KFZVq0.md](videos/GB0b6KFZVq0.md) |

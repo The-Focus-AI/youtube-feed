@@ -2,8 +2,8 @@
 channel: Relentless
 channel_handle: "@relaboratories"
 channel_id: UCxYhf1bmbsXLU1ClPNS2P6g
-total_videos: 55
-last_updated: 2026-04-25
+total_videos: 56
+last_updated: 2026-05-14
 ---
 
 # Relentless Channel Index
@@ -12,16 +12,17 @@ last_updated: 2026-04-25
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 55 |
-| Total Views | 566,384 |
+| Total Videos | 56 |
+| Total Views | 581,158 |
 | Most Viewed | The Manufacturing Startup That's Outcompeting China (151,636) |
-| Date Range | 2024-10-24 to 2026-04-16 |
+| Date Range | 2024-10-24 to 2026-05-05 |
 | Average Video Length | ~79 min |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [How to Start a Cult \| Lulu Cheng Meservey](videos/OQ0OOzOwsJY.md) | 65:26 | 14,774 |
 | [Why Elon Outcompetes Everyone \| Eric Jorgenson](videos/W5v0S0SzTZo.md) | 1:29:16 | 48,045 |
 | [Brian Armstrong — It's Wartime, All the Time](videos/bzYQWBBX7wU.md) | 1:54:30 | 350 |
 | [Peter Beck — We're scaling Electron faster than SpaceX scaled Falcon 9](videos/Yfrm31sSrDI.md) | 1:05:19 | 31,863 |
@@ -83,13 +84,13 @@ last_updated: 2026-04-25
 1. **[The Manufacturing Startup That's Outcompeting China](videos/mTnv9b0xDV8.md)** - 151,636 views
 2. **[Why Elon Outcompetes Everyone](videos/62X1vm3QBuE.md)** - 55,013 views
 3. **[WTF is happening at xAI](videos/8jN60eJr4Ps.md)** - 52,469 views
-4. **[Peter Beck — We're scaling Electron faster than SpaceX scaled Falcon 9](videos/Yfrm31sSrDI.md)** - 31,863 views
-5. **[Manufacturing 1 million drones a year \| Soren Monroe-Anderson, Neros](videos/3CEinhANrdg.md)** - 21,979 views
-6. **[Building Unmanned Cargo Planes](videos/HbPxncZvWk8.md)** - 18,950 views
-7. **[WTF is happening in El Segundo?!](videos/eZ1kHP_TRF0.md)** - 18,723 views
-8. **[#40 - WTF is App Mafia](videos/KLCh7rtCLFs.md)** - 17,872 views
-9. **[#38 - Manufacturing American Drones At Scale](videos/p9OcRUMxAiY.md)** - 13,358 views
-10. **[SpaceX, Starship, Building A Gas Station On Mars](videos/AYOmMaBaQ3I.md)** - 10,455 views
+4. **[Why Elon Outcompetes Everyone \| Eric Jorgenson](videos/W5v0S0SzTZo.md)** - 48,045 views
+5. **[Peter Beck — We're scaling Electron faster than SpaceX scaled Falcon 9](videos/Yfrm31sSrDI.md)** - 31,863 views
+6. **[Manufacturing 1 million drones a year \| Soren Monroe-Anderson, Neros](videos/3CEinhANrdg.md)** - 21,979 views
+7. **[Building Unmanned Cargo Planes](videos/HbPxncZvWk8.md)** - 18,950 views
+8. **[WTF is happening in El Segundo?!](videos/eZ1kHP_TRF0.md)** - 18,723 views
+9. **[#40 - WTF is App Mafia](videos/KLCh7rtCLFs.md)** - 17,872 views
+10. **[How to Start a Cult \| Lulu Cheng Meservey](videos/OQ0OOzOwsJY.md)** - 14,774 views
 
 ## Topics Index
 
@@ -97,6 +98,7 @@ last_updated: 2026-04-25
 
 | Company | Video | Industry |
 |---------|-------|----------|
+| Rostra | How to Start a Cult \| Lulu Cheng Meservey | PR/Comms |
 | General Matter | What if Russia stopped selling uranium to the US tomorrow | Nuclear Energy |
 | Aurelius | What Happens If A Million Drones Attack Tomorrow | Defense |
 | El Segundo Founders | WTF is happening in El Segundo?! | Manufacturing |
@@ -169,9 +171,11 @@ last_updated: 2026-04-25
 - **Transportation** - Zipline (drones), Arc (boats), Onewheel
 - **Young Founders & Investing** - 1517 Fund/Thiel Fellowship, Discipulus (hard tech residency), App Mafia, Founders Fund
 - **Mining & Resources** - Watoga (drill & blast AI)
+- **PR, Comms & Founder Storytelling** - Rostra (How to Start a Cult), founder-led narrative
 
 ### Notable People
 
+- **Lulu Cheng Meservey** - Rostra founder, ex-Substack/Activision comms
 - **Scott Nolan** - General Matter CEO, ex-SpaceX, ex-Founders Fund
 - **Michael LaFramboise** - Aurelius CEO (counter-drone lasers)
 - **Halen Mattison** - General Galactic CEO, ex-SpaceX
@@ -222,6 +226,7 @@ last_updated: 2026-04-25
 - Building Unmanned Cargo Planes
 - The Tesla of Boats
 - The Creator of Onewheel
+- How to Start a Cult (Lulu Cheng Meservey, Rostra)
 
 ### Founder Interviews (continued)
 - What if Russia stopped selling uranium to the US tomorrow (General Matter)
@@ -255,6 +260,7 @@ last_updated: 2026-04-25
 - WTF is happening at xAI
 - Why Elon Outcompetes Everyone
 - WTF is happening in El Segundo?!
+- How to Start a Cult (founder culture, narrative, deterrence)
 
 ### Industry Analysis
 - Hardtech Roundtable: China vs USA
@@ -274,6 +280,9 @@ last_updated: 2026-04-25
 - Competing to Build the Fastest-Growing Energy Startup Ever (Base Power)
 - What if Russia stopped selling uranium to the US tomorrow (General Matter)
 
+### PR, Comms & Storytelling
+- How to Start a Cult (Lulu Cheng Meservey, Rostra)
+
 ## Tag Cloud
 
-manufacturing (10), defense (8), china (8), elon musk (9), spacex (15), startups (6), tesla (5), supply chain (5), starship (4), venture capital (4), drones (5), mars (3), El Segundo (3), aerospace (3), hard tech (2), humanoid robots (2), robotics (2), longevity (2), ukraine (3), AI (2), openai (2), terraforming (2), young founders (2), Thiel Fellowship (2), 1517 Fund (2), Atomic Industries (2), Discipulus (2), crypto (1), bitcoin (1), coinbase (1), rocket lab (1), electron (1), neutron (1), falcon 9 (1), FPV drones (2), drone warfare (1), nuclear energy (1), uranium enrichment (1), HALEU (1), SMR (1), founders fund (1), general matter (1), AI data centers (1), Peter Thiel (1), energy crisis (1), 3d printing (1), epigenetics (1), biotech (1), bioweapons (1), hypersonic (1), missiles (1), housing (1), construction (1), mining (1), electric boats (1), onewheel (1), drone delivery (1), supersonic (1), gene editing (1), IVF (1), solar energy (1), space mirrors (1), climate tech (1), sequoia capital (1), neuralink (1), boring company (1), colossus (1), MrBeast (1), tariffs (1), BYD (1)
+manufacturing (10), defense (8), china (8), elon musk (9), spacex (15), startups (6), tesla (5), supply chain (5), starship (4), venture capital (4), drones (5), mars (3), El Segundo (3), aerospace (3), hard tech (2), humanoid robots (2), robotics (2), longevity (2), ukraine (3), AI (2), openai (2), terraforming (2), young founders (2), Thiel Fellowship (2), 1517 Fund (2), Atomic Industries (2), Discipulus (2), crypto (1), bitcoin (1), coinbase (1), rocket lab (1), electron (1), neutron (1), falcon 9 (1), FPV drones (2), drone warfare (1), nuclear energy (1), uranium enrichment (1), HALEU (1), SMR (1), founders fund (1), general matter (1), AI data centers (1), Peter Thiel (1), energy crisis (1), 3d printing (1), epigenetics (1), biotech (1), bioweapons (1), hypersonic (1), missiles (1), housing (1), construction (1), mining (1), electric boats (1), onewheel (1), drone delivery (1), supersonic (1), gene editing (1), IVF (1), solar energy (1), space mirrors (1), climate tech (1), sequoia capital (1), neuralink (1), boring company (1), colossus (1), MrBeast (1), tariffs (1), BYD (1), pr (1), comms (1), go direct (1), cult leaders (1), founder culture (1), storytelling (1), deterrence (1), auctoritas (1), rostra (1), lulu cheng meservey (1)

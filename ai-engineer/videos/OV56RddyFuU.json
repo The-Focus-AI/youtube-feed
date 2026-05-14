@@ -1,0 +1,569 @@
+{
+  "title": "Your Agent Can Now Train Models — Merve Noyan, Hugging Face",
+  "source_url": "https://www.youtube.com/watch?v=OV56RddyFuU",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "Hello everyone and welcome to this talk in open agent ecosystem, and I would like to call it having an AI engineer at your fingertips.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:24",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "I'm Merve and I work in the open source team of Hugging Face. How many of you are using Hugging Face on daily basis?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:33",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "Oh, let's change that. This is not okay. But first let's talk a bit about open source and what it is. So when it comes to machine learning, open source is absolutely differential.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:49",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "Basically you have the open weight models that go in with non-commercial licenses. We call them open weight. And then we have open source models that have a commercially available licenses, such as this one from DeepSeek. It's called MIT license or Apache 2.0. And then there is like even more open models that have the code open. If you have like agents, they- the harness is open, everything is open, and this matters even more by the fact that yesterday or the other day, it was revealed that the cloud performance was going down.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:28",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "So if you have everything in the open, nothing changes without you knowing, no performance degradation without you knowing, everything's great. But on top of it, if you have access to the weights, you can shrink them, you can quantize them, you can fine tune them if you feel like it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:46",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And it's absolute guaranteed privacy for your end user because you can deploy it to edge devices, browsers without the data going somewhere else. This matters a lot in my opinion even more these days with the security breaches and everything.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:04",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And there was this argument maybe a few years ago that open source models aren't as good as- no, this is not the case. Like you see for instance, the latest GLM 5.1 is absolutely crashing it and I'm actually using it in my coding setup.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:22",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "This is the Artificial Intelligence Index and the green ones are open models, meanwhile the black ones are the closed models, and we just caught up, and we will catch up even more with the upcoming models and stuff.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:37",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And let's go back to Hugging Face Hub. So everything is facilitated through Hugging Face Hub, all of the open releases. It's the infra layer for all of your open source workflows. And as of now, it's hosting even more models. I should have updated the number, it's probably close to 3 million. A lot of data sets, spaces and everything, but that's not all when it comes to the agentic ecosystem.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "system and this is what we're going to talk about today.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:03",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "So, when you go to the models, you can filter for agentic models, they are mostly the trending ones.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:11",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And there is like two types of models in my opinion, there is the vision LLMs and then there is the LLMs, and the vision LLMs can also act as like a computer use agent over the screenshot, they know where to click etc., which is pretty cool.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:27",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And one trend I have recently noticed is the fact that you have labs releasing their LLMs as vision with vision capabilities day zero. Like, for instance, the Gemma 2 was an omni model and still it's an agentic model.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:44",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "There is Qwen 2.5, there is Kimi K 2.5, these were VLMs. So I foresee that all of these models will be over time released day zero with vision capabilities.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:55",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And it's super easy to run this actually. Like you can just use like vLLM, MLX or like llama.cpp, llama-server from the get-go with like few lines of code.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:04:05",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "Like, it used to be much more frictiony, but these days this is not a big deal.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:12",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And if you want to compare open models, we have recently launched this feature called benchmark datasets.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "So when you go to the datasets on the left-hand side, there is like on the bottom, there is a benchmark button, you just click it, and then you can see the popular benchmarks such as SWE-bench Pro or Humanities Last Exam or AIME and others.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:39",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And when you go to, for instance, SWE-bench to see like how your agent is like good in coding and stuff, you see the open models ranked according to the score.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:51",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "So like currently Qwen 2.5 is top of the list.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:55",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "So it's also easy to pick an open model these days because there's three million models out there and it used to be a challenge to pick different models.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:04",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And if you actually want to vibe check it, Hugging Face has this service called inference providers, which does routing for the best models to best providers.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:18",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "Like all of the providers out there, there is Groq, Cerebras, I don't know, Novita, everything.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:24",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And it's super easy to compare them as well if you see like you have the cheapest or the fastest option.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:29",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "Actually, I had to truncate it, but also there is the tool use column, so you can actually pick one of the open source models for the agentic use case and stuff.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:40",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And going back to agents after all of these Hugging Face Hub shill, Hugging Face Hub actually recently has shipped a ton of features for...",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "for you to use open models with agents, agents and stuff. And first of like there is the MCP server where you can plug the hub into your LLM.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:11",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "and there are skills, which allow you to even vibe-train models like you just go to your agent and say train Qwen-2 3.5 on this data set for me and then it just trains. Which to me is like a sci-fi at this point because it used to not exist and like there is so many things going on in the background and and the agent actually handles them very well.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:06:30",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And then there is the local agent, so you can run full coding agents locally from models with Hugging Face Hub because we integrate very well to them.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:49",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And coming to the first one, so basically I my talk will be consisting about all of these. Coming to the first one, there is the local coding agent.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:58",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And your options you have like actually many many options but like one of my favorites is Pye because it's like super simple to set up. Basically you can I think you can also use it with inference providers remotely but also if you want to serve like a local coding agent you can use Llama-CPP to serve it and then Pye will directly consume that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:15",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And something very cool is also Llama Agent which is baked into Llama-CPP as a binary that you can just directly execute and start a model by giving Hugging Face Hub ID. So it's super easy as well to get a local agent running.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:07:35",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "I will share my slides on my Twitter account after so no need to take pictures.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:07:44",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "My one of my most favorite things these days is Hermes Agent and I will just die on this hill so this is like this is a bit one step even further to to the open-world by means of memory management and everything.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:08:05",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And it's actually super easy to get started with that. And uh it is you can either use it locally or with Hugging Face inference provider so for instance I was playing with that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:23",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "Like the setup wizard does everything for you you just give the keys and stuff and then integrates into your Slack or WhatsApp or whatever and you're good to go.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:41",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And I absolutely recommend using this if you want to use it with an open model I absolutely recommend GLM 5.1 for instance I actually failed initially to integrate into Slack I have witnesses in here my colleague uh Nils is here and um I asked the GLM 5.1 to fix it with the Hermes Agent and it fixed on its own and it it was a good day like uh I I think GLM 5.1 is a very good model and I cannot I can't absolutely wait to use it with Gemma 4.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "But also this weekend there was like on Twitter there was a rumored Minimax model coming up. So I will also probably try with that and share my findings. So I absolutely recommend using Hermes Agent with the open models.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:17",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And one more thing, so basically Hugging Face Hub now has a new data set repository type called traces. And this is basically all of your Codex, Cloud Code, or Pi traces they host it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:30",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And for instance, if you go to your, if you pushed a trace and then you go over there, you will see in the data set viewer, if you click on the traces column, it pops up like this. It is very nicely parsed and you can just explore your data. And then later if you want, you can even train a model on that, which is pretty cool in my opinion.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:59",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And if you want to push your agent traces, you can just upload your sessions from these paths and nothing else is needed. And we will also probably have Hermes Agent very soon for traces.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:18",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "Going back, if you want to use, if you want more options to serve LLM behind the agent locally. So some tips and tricks in finding a good model. You just go to Hugging Face, there is an other tab.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:32",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "Under the other tab, there is the apps. So these apps are like LM Studio, Jan, Llama CPP, everything that is for local serving is over there. And when you filter for them, you have the models that are supported by these local apps. So whatever you want to serve, we have you covered.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:52",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And when you go to the model repository, something very cool in my opinion is that on the left hand right hand side, there is GGUF section. So basically GGUF, if you don't know, it's supported, it's basically comes in Llama CPP, the file format that is supported in many things like Ollama, LM Studio, everything.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:11",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And you have the hardware compatibility. For instance, the Gemma 4 larger model, if you quantize it to 4-bit, it fits inside an L4 GPU with the 24 gigabytes of VRAM.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:33",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "So I think this is very cool and this is also served to MLX repositories as well. And when you go to the again to the model repository, if you have absolutely zero clue on how to serve this model, on top right there is use this model and you have the options of the local apps that the model is supported in.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:51",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And when you click that you see like only with few lines of command that you can run, you install, you get the model served and voila. It's very, very convenient to run local.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "...the open models these days.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:03",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And lastly, supercharging your coding agents using Hugging Face skills.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:10",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "So there is, we have like bunch of skills in order to get you started with training, I don't know, inferring with the open models, using open models, exploring open datasets, using AI apps, everything.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:23",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And we have this thing called the Hugging Face CLI skill, which allows coding agents to manage your repositories, run jobs, launch demos and everything, and this is how you can install it, you can just type HF skills on Google and you will find the command.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:43",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "But we have more skills than that. So basically this allows you to plug Hub in into your agent, like give you all of the Hugging Face Hub exploration, but the rest of the skills are super cool.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:56",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "There is LLM trainer skill, basically this is not only for LLMs, but also vision language models, you can just tell the model to, okay, train this model on this dataset, and it will just kick off the job remotely on our infra or like locally wherever you want.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:21",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And there is Gradio skill which allows you to build demos, and there is Hugging Face dataset skill which allows you to explore datasets through our dataset viewer API, and you can install it very easily, again we come with more integrations, I just put Claude and Gemini here.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:50",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "So putting this into action, for instance, I asked the model to, I asked Claude code to say, hey, can you train Qwen2-VL on LLaVA instruct mix, which is like a vision language dataset, and it asked me a few questions.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:00",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "It said, okay, which instance would you like this to go in, because you have multiple options. The model actually, like in the backend, the agent actually calculates the amount of VRAM required to run, fine-tune that model in a given batch size and everything, so it handles everything for you.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:20",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "It just asks you a few questions, okay, what is your validation split, blah blah, and then it just launches the job, which to me is absolute sci-fi still to this day as a person who have been training models since, I don't know, beginning of my career, like six, six years. And you, at the end, you just find your model on Hub.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:45",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And this is not limited to LLMs and VLMs, I have recently shipped skills for, for instance, training object detectors or segment anything model and everything for vision. It handles, for instance, different bounding box types and everything, you just give the command and let it handle everything.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And going back to MCP, what do we serve? We have models, data sets, spaces, search for your task, semantic search for spaces. So if you don't know spaces, it's like the App Store of AI. You have a ton of apps over there for absolutely everything you could see.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:20",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And also we have something called jobs, which allows you to kick off one-off jobs that ends like if it fails or if it succeeds and you pay for the amount of time it was up. And also you can query these apps from MCP like I'm going to show you shortly, but it plays nicely with all of your favorite platforms.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:44",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And so for instance, in here, I asked the model, generate image of a baklava made of yarn and then it will call the Hugging Face space of Q-Ven image, which is an image generation model, hosted remotely and then it will query that and it will bring the output of that. It works very nice. Look.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:16:07",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "But you need to turn on, there is a setting in the MCP called dynamic spaces. If you want more options of like if you want absolutely all of the spaces, you need to turn that on, which is a bit of a bit experimental. And here is some few ideas that you can use spaces MCP, but you are absolutely not limited to those.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:28",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And tying it all together, my colleague Nils has built something I which I found cool, so I wanted to share. So basically on Hugging Face hub, there is papers and these papers, basically AI-related papers, we want people to be able to ask questions to these papers or share, but not all of the papers come with markdown, which the model which we can index and stuff.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:16:56",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "So we OCR'd 30,000 papers using Codex, open OCR models and jobs, all through prompting, which is a bit crazy. So the steps to do that is firstly pick an OCR model that is cheap and nice and performant, ask the LLM to kick off a processing job and actually write the code for that, and then kick it off on Hugging Face infra, and then let the skill set up the instance of hosting that model and everything without you going through the pain of the napkin math and then profit.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:17:30",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "So to pick an OCR model, you need to you can go to All OCR Bench, which is a benchmark data set that I have previously shown you. The first result is Chandra OCR, but don't be fooled by this. We have just today shipped a skill that you can just ask the model, okay, what is the best model on OCR for fine tuning? And it will also make recommendations around fine tuning and stuff, so if you need like smaller models, etc.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "Chandra, it will handle everything for you with this skill, so it's pretty cool. Check it out.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:06",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "Once you pick the model, okay, we in this case we used Chandra,",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:11",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "we asked model to write the script, and it did.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:15",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And then the agent just does the napkin math for the instance and calculates the cost of the running job and everything,",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:23",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "and then these jobs will be so basically these jobs will be reran",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:30",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "so we have recently launched this infra product called bucket, which is like S3 buckets but much cheaper and faster,",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:37",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "that you can use with mounting. And yeah, basically you can just use that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:43",
+      "ad": false,
+      "speaker": "Merve Noyan",
+      "text": "And you can get started in these links. I hope you like this talk. Thank you so much.",
+      "tone": "happy"
+    }
+  ],
+  "highlights": [
+    "Open source models now rival closed-source performance while offering critical advantages such as guaranteed data privacy, local deployment on edge devices, and protection against the performance degradation often seen in cloud-based models.",
+    "Hugging Face \"Skills\" and the Model Context Protocol (MCP) enable users to automate complex machine learning workflows, including hardware requirement calculations, launching remote training jobs, and building demos through natural language commands.",
+    "The ecosystem for local agents has become highly accessible via tools like Pye and Llama-CPP, which allow developers to run sophisticated coding and vision agents on their own hardware with minimal friction.",
+    "A new repository type called \"traces\" facilitates better agent observability by allowing developers to host, parse, and visualize the step-by-step execution history of their AI agents for debugging or future model training.",
+    "The emergence of \"day zero\" vision capabilities in open models like Qwen 2.5 and GLM 5.1 is transforming agents into multi-modal tools capable of performing complex tasks like computer use and automated OCR processing."
+  ],
+  "summary": "In this talk, Merve Noyan from Hugging Face explores the rapid evolution of the open-source agent ecosystem, emphasizing that open-weight models have reached performance parity with closed-source alternatives. She highlights the Hugging Face Hub as the primary infrastructure layer for these workflows, facilitating everything from local model execution via tools like `llama.cpp` to sophisticated \"agentic\" models with day-zero vision capabilities. A key theme is the shift toward local deployment and open weights, which ensures data privacy and protects users from the performance degradation often seen in proprietary cloud models.\n\nNoyan also introduces several high-level tools designed to act as an \"AI engineer at your fingertips,\" specifically focusing on Hugging Face \"skills\" and the Model Context Protocol (MCP). These features allow developers to integrate the Hub directly into coding agents to automate complex tasks such as remote fine-tuning, dataset exploration, and infrastructure management. By showcasing a case study where an agent autonomously managed the OCR processing of 30,000 academic papers—including selecting the model and calculating VRAM requirements—she demonstrates how \"traces\" and specialized skills are transforming the Hub into a dynamic environment for building and training autonomous AI systems.",
+  "description": "Open-source models have caught up. GLM 5.1 is leading the Artificial Analysis intelligence index over closed models, and the gap is closing fast with each release cycle. The practical upside beyond benchmarks: full weight access means you can quantize, fine-tune, and deploy to edge devices or browsers without data leaving your infrastructure.\n\n@MerveNoyan walks through the Hugging Face ecosystem built around this: inference providers that route to the fastest or cheapest option per model, benchmark datasets for filtering by SWE-bench or AIME scores directly on Hub, a traces repository type for storing and exploring agent sessions, and skills that plug into coding agents. The closer is a live demo where she asks Claude Code to fine-tune a vision-language model on a dataset by name. The agent calculates VRAM requirements, selects an instance, and kicks off the job. What used to be a day of napkin math is now a prompt.\n\n\nSpeaker info:\n- https://x.com/mervenoyann\n- https://www.linkedin.com/in/merve-noyan-28b1a113a/\n- https://github.com/merveenoyan\n\nTimestamps\n0:15 Introduction to Open Agent Ecosystem\n0:39 Importance of Open Source in Machine Learning\n2:36 Hugging Face Hub overview\n3:06 Agentic models and Vision-LMs\n4:24 Benchmark datasets and model filtering\n5:16 Inference providers and model routing\n6:50 Local coding agents and tools\n7:46 Hermes agents for memory management\n9:20 Traces repository for agent sessions\n10:22 Tips for finding and serving local models\n12:07 Supercharging agents with Hugging Face skills\n13:41 Live demonstration of agent-driven fine-tuning\n14:41 Training vision models (object detection/segmentation)\n15:00 Using Model Context Protocol (MCP) for agents\n16:30 Case study: OCR processing for AI papers",
+  "duration": 1150,
+  "people": [
+    "Merve Noyan",
+    "N/A",
+    "Artificial Analysis",
+    "Hugging Face",
+    "Claude Code",
+    "Open Agent",
+    "Open Source",
+    "Machine Learning",
+    "Using Model",
+    "Context Protocol"
+  ],
+  "topics": [
+    "Comparison of open-source and closed-source AI models and their performance",
+    "Hugging Face Hub infrastructure for agents, including benchmark datasets and traces",
+    "Local deployment and serving of agentic models using tools like GGUF and Llama-CPP",
+    "Extending agent capabilities with Hugging Face Skills and the Model Context Protocol (MCP)",
+    "Case studies in AI-driven automation for model fine-tuning and OCR processing"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/OV56RddyFuU/maxresdefault.jpg",
+  "date": "20260513",
+  "youtube_url": "https://www.youtube.com/watch?v=OV56RddyFuU",
+  "youtube_metadata": {
+    "title": "Your Agent Can Now Train Models — Merve Noyan, Hugging Face",
+    "description": "Open-source models have caught up. GLM 5.1 is leading the Artificial Analysis intelligence index over closed models, and the gap is closing fast with each release cycle. The practical upside beyond benchmarks: full weight access means you can quantize, fine-tune, and deploy to edge devices or browsers without data leaving your infrastructure.\n\n@MerveNoyan walks through the Hugging Face ecosystem built around this: inference providers that route to the fastest or cheapest option per model, benchmark datasets for filtering by SWE-bench or AIME scores directly on Hub, a traces repository type for storing and exploring agent sessions, and skills that plug into coding agents. The closer is a live demo where she asks Claude Code to fine-tune a vision-language model on a dataset by name. The agent calculates VRAM requirements, selects an instance, and kicks off the job. What used to be a day of napkin math is now a prompt.\n\n\nSpeaker info:\n- https://x.com/mervenoyann\n- https://www.linkedin.com/in/merve-noyan-28b1a113a/\n- https://github.com/merveenoyan\n\nTimestamps\n0:15 Introduction to Open Agent Ecosystem\n0:39 Importance of Open Source in Machine Learning\n2:36 Hugging Face Hub overview\n3:06 Agentic models and Vision-LMs\n4:24 Benchmark datasets and model filtering\n5:16 Inference providers and model routing\n6:50 Local coding agents and tools\n7:46 Hermes agents for memory management\n9:20 Traces repository for agent sessions\n10:22 Tips for finding and serving local models\n12:07 Supercharging agents with Hugging Face skills\n13:41 Live demonstration of agent-driven fine-tuning\n14:41 Training vision models (object detection/segmentation)\n15:00 Using Model Context Protocol (MCP) for agents\n16:30 Case study: OCR processing for AI papers",
+    "duration": 1150,
+    "view_count": 9441,
+    "like_count": 319,
+    "channel": "AI Engineer",
+    "upload_date": "20260513",
+    "thumbnail": "https://i.ytimg.com/vi/OV56RddyFuU/maxresdefault.jpg",
+    "tags": [
+      "ai",
+      "ai engineer",
+      "ai engineering",
+      "software development",
+      "tech",
+      "startups",
+      "software architecture",
+      "machine learning"
+    ]
+  }
+}

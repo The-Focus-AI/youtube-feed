@@ -1,0 +1,1729 @@
+{
+  "title": "Why AI Makes Things Worse for Enterprise Teams | The Aboard Podcast 2026-05-12",
+  "source_url": "https://www.youtube.com/watch?v=9IQfIfsvSSc",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Hi, I'm Paul Ford.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:00:01",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And I'm Rich Ziade.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:00:02",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And this is the Aboard Podcast, the podcast about how AI is changing the world of software and Rich, how are you today?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:08",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm doing well.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:09",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I want to share some thought leadership with you from our industry. I want to bring it on in and we can discuss it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:14",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Good news or bad news?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:00:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Interesting news. Turns out that AI isn't good for a lot of engineering teams. They're struggling.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:20",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Whoa, okay, let's do it.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:00:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But it's really good for some. So we'll talk about that. Let's play that theme song and let's go.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:00:46",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "Okay, we're with a company called Aboard. You and I, we're the co-founders, right?",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:00:49",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "We sure are.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:00:51",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "Do you want me to say what we do or do you want to say what we do?",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:00:52",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "You sound excited about it. Go.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:00:54",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "I am excited. Aboard is a partner. We use, we use AI, okay, all good. But basically we are old software pros and we have a set of really good custom tools for delivering software with AI in a very low-risk way. You come to us and you say, 'I want to get in on this revolution. I heard you can get things a lot faster and cheaper, but I still want it to be really good.' And we take you seriously, we bring you in. We can turn around your old legacy tools, we can build something new and Greenfield. It's not just a matter of like strapping an LLM in front of something and crossing your fingers. It's there's ways to use this stuff that are really good and really productive. So that's what we do all day and we build and we ship things for large firms, small firms, not for profits, all the people who need software.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:01:39",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "Yep.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:01:40",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "Anything I missed?",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:01:41",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "No, the thing I'd add is that we don't lead with a bunch of tech. We come in, we listen, we get to know your business, see where we can be helpful, and then we go from there.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:01:48",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "Reach out.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:01:49",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "Yeah, and it's like, I mean what are the - we're working in insurance helping with policy management, we're working in...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:53",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "Health.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:01:54",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "Health, helping people make better dashboards. Like really grizzly stuff, but we like to do it and we like to do it fast. That's all you need to know about us right now.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:02:04",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But you know what's funny is that actually ties into today's conversation.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:02:06",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh, talk to me.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:02:07",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I have in my hands a piece of thought leadership.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:02:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Ooh, looks chunky.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:02:12",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It is chunky. It's from Circle CI. Do you know what the CI stands for?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:02:16",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Continuous integration.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:19",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I I know what CI says. It's a hell of a thing to put it in the name.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:02:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It really is. It really is. So tell the people what CI is or I can.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:02:24",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Continuous integration is a style of building software where it's less ceremony, less chapters in a book, and you just kind of keep going as progress gets made.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:32",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Keep pushing that code out.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:02:33",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Just keep pushing code out. So this is a company, Circle CI, and it's important to note why. So they work and it's done with another company called ThoughtWorks, it's kind of like a big consultancy.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "ThoughtWorks is a big consultancy.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:02:45",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And so what Circle CI has access to, what they do is they provide services to all sorts of programming teams to ship code in a more reliable way.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "CircleCI is a sort of streamlined, rapid way to get code out. Lots of testing, lots of good stuff there, and it's been around for a while. So, what they have is insight into how people are actually deploying code these days.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "They have the data.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:12",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And they had 28 million workflow deploys that they were able to look at and see sort of what's going on.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:20",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And so I'll give you some interesting stats. So I think clearly people are writing more code. So I'll give you the number, 59% year-over-year throughput has increased, but just throughput is throughput, like it's code, it's—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:34",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "More lines of code.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:36",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That's a huge increase.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:03:37",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Very sharp. Yeah, I mean, because there's not a lot more engineers. Right? So every time, every word I'm saying to you now, I would be saying 59% more words.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:47",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That sounds terrifying.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:03:49",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Nobody can— I mean, we wouldn't be able to get this done in 20 minutes.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:03:51",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So more code is being written, but what they're finding is that the— so the number of bugs is going up, and the number of issues is going up. And what they're finding is that there's this huge split. The 95th percentile and above of really productive teams, they're off to the races. They are pushing thousands of changes, they are just all in and they are moving so fast.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay, when you say 95th percentile, what of what?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:04:19",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Sort of high velocity teams.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, but are they higher quality? Like is it the top 5% of quality or top 5% of velocity?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:04:26",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "We're kind of working back from velocity here. I mean, they're not really reading every line of code. But what they're seeing is like, you know, things fail, things have bugs, things have issues. So what they're seeing is that if you are a team that's like all in on this and you're kind of in that cream of the crop, it's like an order of magnitude how much more you're getting done, according to their metrics of getting things done. Everybody else, the tail gets really, really long. There's more bugs, things slow down, projects stall. And what's happening— and they make a really good point in this, which is just like, it's easy to use AI code. It's magic. It writes some code for you, right?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:59",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Mm-hmm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And now you bring it into your continuous integration pipeline, which means that it's going to you're going to be tested, you're going to have all these things going on where we make sure we automate the quality, right?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But that produces a whole lot of issues. And now nobody's seen the code because it was AI generated. There's no like magical way to like get through this. And so all these hours are being spent cleaning up AI mess because you've been told you gotta use these tools. And it is fast, gets you done quicker. But it's leaving you with a big mess. And so I think like the really good teams are the ones that can automate the mess cleanup, do lots of, you know, they have like a real specific policy, like smaller changes, whatever. And so it's an interesting time because what we're learning is that— and I think we keep learning this in a million different ways— we keep learning that the advantages of this technology are not equally distributed. It is somebody picking it up and going with it might have a lot of failure states and some people might have a very— a relatively small number of people is actually really successful with AI coding.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:59",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's not even relatively. You're saying 5% are really cashing in all this productivity and all these capabilities.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:07",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I think it's really confusing to us because we're cashing in the capabilities.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:06:10",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, and I'm going to say something that can sound maybe a little arrogant.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:06:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Mhm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I don't mean it to be.",
+      "tone": "earnest"
+    },
+    {
+      "timestamp": "00:06:16",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well, okay.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:06:18",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "High-quality talent can really assert their knowledge and their ability to assess what's being produced on these tools in a more deliberate way than mid-level talent.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:06:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Mhm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:34",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I don't mean that to sound elitist. The challenge you have with this stuff is that the tools don't just produce stuff because you sort of push a button at the beginning of the day. You do a lot of things to guide how these things work. And if you don't have a really thorough and intimate understanding of, a, good practices in general, right? And the truth is you can be productive without tons of good practice, right? You can be productive. Python, bless its heart, is incredibly forgiving as a programming language. It lets you do stuff and it's not going to be, it's not going to bat you over the head with all kinds of rules. It's kind of its strength.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's so purposefully simple that it actually drives a lot of very serious engineers batty because they're like, \"No, no, this is nowhere near as complicated as it needs to be.\"",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:07:13",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Exactly. Exactly. And now you have these just incredible weapons-grade tools that can be massively productive. And if you're not really asserting expertise in high-level concepts of how code should be structured, like all the things that you, the, all the boring things about good practice, right?",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Mhm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's a runaway train. And here's the other reality is you're producing stuff that you've not reviewed and you're handing it into the CI process. And unless you have absolutely airtight confidence in how you got there because of your skills, you're really rolling the dice. And I think that's what we're seeing here. Like what we're seeing is productivity is not code by the pound here. Like it doesn't work. It just doesn't work. And so it's hitting that wall for tools like CI. By the way, it's worth saying out loud, CI isn't just a cool way to like all the colors blend together. It's a process that actually applies rigor to the quality of what's being integrated into the codebase. Like that's the whole point of it is that yes, you're supposed to go faster, but there are a lot of toll booths that are going to stop the process.",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:07:50",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So there's a few things that come to mind. First of all, we are veterans of process in this industry. We have CI, we have CD, we have Agile, we have, you know, Agile with Scrum and so on.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:03",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:04",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And they all end up failing because no process can capture everything. No abstraction is perfect, right?",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:08:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And so I think there's a little bit of that, which is just there isn't a really good established process for working with all these new tools.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:06",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:06",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "There's another point I want to make too. Obviously we've talked a lot about Simon Willison, he had a link to, he's a, you should go check out Simon Willison's website, just type it into Google, but he's really capturing the industry and he had a link to, there's a programming language that's called Zig. It's relatively a low-level programming language. It's open source.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And one of the, it came in the news recently because Anthropic bought a company that uses Zig heavily.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:29",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And that the company, they make a product called Bun. It's a faster JavaScript...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:34",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Now you're making up words.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:36",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I know. It's just, it's horrible. This part's horrible. But just stay with me.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:09:39",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:40",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So the Bun folks were like, 'Hey, we actually improved Zig and we made this one part like four times faster. But just so everybody knows, like, go get the code, it's all good, we're still open source, but we can't put it back into Zig because they have an absolutely no LLM rule.'",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:52",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Hmm. Okay.",
+      "tone": "intrigued"
+    },
+    {
+      "timestamp": "00:09:53",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And at first that sounds like maybe it's open source people just being their open source selves.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:58",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:58",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But the Zig maintainers made a very interesting point. And I think it's a point that like the whole industry should internalize. They're like, 'Look, if you're going to, you're going to do what you want to do. We're going to say no and here's why. Our job is to develop and create contributors.'",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:10:10",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Hmm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "We need to create an ecosystem around our code where people take ownership and do things. We will invest in contributors even if their early contributions are really messy. But investing in an LLM's output doesn't create contributors. It just adds more code.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:10:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "We got plenty of code. I got, I got code all over the place. It's more important for us to draw this very clear line and only let human work in.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:10:34",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Mm-hm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And build people up so that they can be part of this community and less important for us to just have the best product as quickly as possible. So go to, there's no rules, you go live your life over there. But don't expect it to be upstream here in the main branch if you're going to just have a robot do all the work for you.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:10:49",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:49",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Now, literally the other company's inside of Anthropic. So like, it's a funny split.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:10:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But I did hear that and I was like, 'Look, I may not agree with that top to bottom but it's very credible.'",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:10:59",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:59",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Right? And what they're saying is, 'Look, I don't want this in my process because my process is to build up humans to be contributors who understand the codebase completely.'",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:12",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And I get that. Like I really do. I don't, I don't want to build that myself. I don't ever want to live in that world again. But I actually do understand those boundaries. Let me read you just a tiny second section from this.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So the top because let's focus on what's working because you know what's funny is I read through this report and everybody should go read it, it's fine, but when you read the report, everything fails in the same way.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Like it's just sort of like too many bugs, cumbersome...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:32",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "The top 5% of teams nearly doubled their throughput year over year from 6.8 to 13.4 daily workflow runs. The top 10 and 25% of the teams saw smaller but still significant increases.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:44",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Wow.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:11:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So the median team increased throughput by just 4%. So what we're seeing is like, boy the advantages of this are just going to a very small number of people. And then the next one is...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "The year's most productive team delivered roughly ten times the throughput of 2024. And you've got, you know, like organizations running just—if it's an AI-focused company, they're running thousands of workflows, just kind of just absolutely shooting code out.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:18",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Do you have any company names that are in the top 5%?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:20",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, they're being fuzzy.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:12:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, I get that.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm going to punctuate the point I made earlier. AI-generated code is an absolutely devastating vetting process is what's happening here. And there's something, you know, known as—",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:12:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Wait, explain what you mean there.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:38",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And actually, I'll give you a stat which I think is relevant. Each of the top ten teams on CircleCI, which are probably mostly AI companies themselves, validate more than 10,000 changes a day. So this is like huge numbers of new code releases per programmer per day. Okay, so back to your point.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:55",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, what I mean by vetting is that there's always been something known as the 10x engineer in engineering. That if you distribute out the most junior to the best engineers, right, the best engineers are not 20% or 30% better than the junior or the beginning engineer, or the weak engineer. They are 10x as productive as others in their cohort, right? And—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:13:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "People get very upset about this concept.",
+      "tone": "observant"
+    },
+    {
+      "timestamp": "00:13:31",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It is very real. But I'm going to tell you, you know, I'll tell you what's real about it. I don't know if I've ever met a truly 10x completely everything engineer. But I've definitely met 10x in terms of like, 'Oh yeah, I do low-level, you know, streaming databases that take into account the rotation of the hard drive.' And that is, like, I can't go—the next person standing to their left cannot do that.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:14:02",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "They—well, but I also think I've seen it in terms of raw output. Like, the person next to them is one-tenth as productive and they are a very good credible engineer. Like, I have seen it, we've been fortunate enough to hire a few of them. And what you have in some companies, especially AI companies who have just like thrown so much money at the top talent, they've kind of gathered all those people, is that their productivity there because they know how to bring a tool this powerful to heel that the others don't. They simply do not. And that is—that is what I mean by a vetting process. These tools are not making the 1x or 2x engineer two to three times more productive. They simply are not.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:14:37",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I wouldn't even focus on the individual engineer because I think these tools could really help the individual engineer.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:14:44",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:14:45",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I would focus on the—let's call it the 1x process.",
+      "tone": "decisive"
+    },
+    {
+      "timestamp": "00:14:51",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, I think that's more relevant here than the individual because, okay, here's how the AI companies are going. They're saying, 'We're—yeah, of course we're going to use these tools. Of course we are, all day long. Let's go. What do you need? You need more tokens? Have more tokens.' Anthropic says this all the time that—",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You know, they're using Claude to come up with the next version of Claude code or Claude work, was it Claude co-work?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:07",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Or whatever. And it's like, look how awesome it is. And it's like, you have literally some of the best engineers walking the earth in your walls, right? So it is not... it is definitely the kind of tool that if you know how to gain control over its output, you're going to be incredibly productive.",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:15:25",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And if you don't...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:26",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "So let's... so now we have a problem. The problem is that the results and the value. If this thesis is correct, and it's only that top percentage and they tend to cluster around sort of...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:39",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Then are you out of luck if you don't hire a bunch of million dollar a year programmers who are really good at this one specific thing? Because it's an order of magnitude. We're back to the it's 10x productivity by these metrics.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:55",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "If they're using these tools wisely, followed by this incredible long tail of not that productive.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:57",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:58",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Or even less productive in some cases.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:59",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah. I have two thoughts about that. One is I think the tooling around AI will get better and people don't talk about this a lot. The usability around these tools, how you can be productive with them. Everyone like... no one has put... it's so early in terms of the maturity of these tool sets, such that the mid-level engineer isn't being empowered in a way where their outputs can be more productive. Also the LLMs are getting better. It's just early. Like I think you can get...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:16:31",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Will you get 10x out of the mid-level engineer? Maybe not. But you'll get two, three, four as these tools get better and smarter about how they can help people.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:16:40",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And there's definitely... there's more code and there's more velocity overall. There's just a lot more. Yeah.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:16:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah. I think if you're pulling the lever and just letting, you know, the firehose of code come out and you don't know what's coming out and then you're sort of saying a prayer and putting it into the integration flow workflow, best of luck, right? You just gotta know what's going on there.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:16:59",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Well let's be... let's be management consultants for a minute. Because it's... here's what this feels like.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:17:02",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "For a minute.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:17:03",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "For a minute. Here's what this feels like. Top tier... hey guys, figure out the process that works...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:17:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "They're having a blast.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:17:09",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Go to it. Ladies and gentlemen, you are free. No bugs, no defects, use this thing as much as you want and just get 10x the result and if you need money you let me know. Okay so that's top. Second tier, lower tiers are this. We gotta use more AI.",
+      "tone": "dramatic"
+    },
+    {
+      "timestamp": "00:17:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Who's saying that?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:17:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "The boss. Yeah, well, and there we go. And so the metric gets wrong. The metric is immediately wrong, which is I think everybody's saying you gotta put the AI in here to get us the results so we can be like those AI companies.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:17:37",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "The boss is playing with the tools. That's part of the problem.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:17:40",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That is... that is part of it. And because he gets it to make him a plan for like a new piece of software...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:17:43",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Not a plan. It's just a bunch of pretty colors that are like oh look at this, I'm almost done. Just finish it.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:17:47",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It draws... so I had this experience, I'm working on a little side project, make sort of climate analysis...",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:17:51",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Uh huh.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:17:52",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Climate analysis is very tricky and I had it make a little document that would explain how to climate-proof your house.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah. And I showed it to my wife who's in construction. And I- I really almost didn't survive the next five minutes.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:18:05",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:06",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Because what I thought was fine regarding backwater valves outside your- in your- in your sewer was not accurately presented.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:18:14",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Sounds like you had a really fun weekend at home.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:18:16",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It was great, everybody was having a great time.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:18:18",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And so like, so the subtlety gets lost but it looks so real, it seems- it's so confident that you assume that among all its many other things, Claude is obviously a master plumber.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:18:29",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And we're seeing that, right? Like so these mandates are coming down from often non-engineers who are saying, look, it- it drew me a picture of the interface, it looks pretty good to me.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:18:41",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I mean that those managers should look at this paper and realize that the cliff of diminishing returns here and- and the truth is this, and I'm going to say another thing out loud.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:18:51",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's a podcast so you should.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I should. Yeah. Is look, certain industries are just not going to attract the best people. Like that's just the reality of it. Like there is- a top-shelf engineer wants to work on the coolest stuff and there's a lot of industries that need straight up just people to handle the workflow of reset your password at the- at the- bank in the Midwest.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:19:04",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "This is why client services exists, my friend.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:19:06",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "There's that too. So this is the other piece of advice I was going to give people is there is expertise that's going to cluster around this. I think the professional services industry around this stuff can take off if you have the right people.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:19:14",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Well here's why. If we don't get that 5%...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:19:20",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:19:21",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "...what happens to us? We- we get shown the door.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:19:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, that's it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:19:24",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "So it's like you need to get people who are just like, okay, here's how we use it, here's the process. I'm going to be frank. Process should not be secret with this stuff. No, don't trust anyone who's like, I have magic AI tools that will guarantee success. We will sit with you, and anyone good will sit with you and be like, here's the 12 things we do, here's the internal tools that we use, and here is how it's very, very likely that I will be able to get you a bad version of your software followed by a good version of your software in the next six weeks. Right?",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:19:50",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:19:51",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Um look, I think if you're going to give some advice to someone that's in the middle of the pack here, like an engineer that's in the middle of the pack, is- this is going to be my catchphrase, like AI punishes laziness. Like it just does. And- and you could see that in an image that got spit out in 10 minutes rather than- I've seen art, I've seen videos, I've seen music videos where clearly someone spent hundreds of hours using AI but they applied all their creative thinking to it and used it as more of a tool. Do not let it come up with what looks like really neatly, really tidy code and just pass it along. Like you're going to have to do the work of understanding what it's outputting and that's work.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:20:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You know what everybody needs to do is pick something where they're truly an expert. Could be a hobby.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:20:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:20:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And then get it to write in very, very clear discrete like footnoted terms about that hobby. And you will find-",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:20:38",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You'll learn where the edges are.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:20:40",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:20:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And then realize that that hobby is everything.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:20:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's really- it's really everything.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Good for a lot of stuff.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:21:02",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:21:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But without the refinement and verification steps, which are what those companies have. That's, I'm going to tell you, that is what...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:08",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "They've built software to read through their software. Like the best shops do that, right?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:21:12",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And that, that is why they're getting those results. They've automated a lot of that, they're formally verifying, they're following these very strict processes, and so they always get good stuff on the other side.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Whereas your guys, your people, are in there just kind of like making do the best they can with cursor and hoping it works.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:21:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. And frankly, when you hit the wall at the test phase, right? These are people that are using sophisticated tools. There's a lot of businesses out there that are pushing code...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:21:43",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:21:45",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "...and just hoping for the best because it look pretty, pretty darn good and we're just going to run with it. And that's scary too.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:21:51",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I gotta say the worst part of all this is I think what's going to happen is everybody's going to go looking for that one tool that'll solve it. And it's actually process and learning and accepting boring.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:22:03",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's boring, the boring is creeping up on all of this stuff.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:22:06",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. Like there's hard, it's writing well takes work, creating art with these tools takes real work.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:22:13",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Boring just feels like home to me, though.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:22:16",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh, you're an exciting guy, I think, though, in other ways.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:22:19",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Right, yeah, but I like boring software.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:22:21",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Any other juicy stats out of this paper?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:22:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I mean no, this is not as ju- I wouldn't say it's a very juicy stat. No.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:22:31",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "What it is telling us though, and I think it's really good to be reme- to remember is like for all the narrative about how the revolution is here, and God knows I'm part of that narrative...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:22:40",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Most people are not experiencing it the same way.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:22:43",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I think I want to close with this thought. I think the revolution is complete at the desk. What does that mean? Everyone's got it at their desk.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:22:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Like everyone is like, if there's a function that just can't seem to run right because you're a coder, or if you want, or you're stuck on a tagline for a slogan, it's at your desk.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:04",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's stack overflow for everything. It kind of answers all your questions. It's kind of there to sort of maybe un- if you're stuck and you want to get unstuck, or you just need a spark to keep going, or you need to review a legal document.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:16",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I'm not, I think that has been, that is complete, right? That part of it is complete.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:23:19",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I think at the organizational level, where the vetting process and the testing, and here it happens to be a very clear process, which is like we're going to have to test this code before it goes out.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:23:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Or whether it be we're going to change the way we work because we have AI now, that is just at the, we're at the like 3% mark of that change, and we're too early.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:23:42",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I want to close with something kind of to think on, right? Which I think is important, and we're trying to work on this too, everybody is.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:23:47",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Everyone has experienced this technology as an individual.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:23:51",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Exactly. And it's one of the ways that it really has blown up in our face because that's actually how people sit there and they're like, it told me my scientific theories are brilliant.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "My God. Yeah, yeah.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Sycophantic and the organization. Remember when you start working and you kind of get that boss who sits you down and is like 'this isn't it, buddy'?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:24:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's incredibly affirming.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:08",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:09",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Right? And AI's never going to do that. Just never going to. Like, so everybody's having this experience where they're getting their narcissistic supply fed, they're writing code, they're drawing pictures, and nobody is swooping in and going 'hey, that's kind of garbage'.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:24:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Right? That's what the organization needs. Like, the organization doesn't need all these little tiny people, like in in cubes, going like 'I came up with everything'.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:24:31",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. It's it's also when you put forward the work to an org and it falls on its face, it's very embarrassing. Like, it's not good, right? Like, you can try it at your desk and fail a bunch of times till you feel good about it, but a tool like this, it's just going to light up everything red.",
+      "tone": "pragmatic"
+    },
+    {
+      "timestamp": "00:24:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And we're going to see, now that we have the giant AI companies which are all worth like nearly a trillion dollars, they are real, they really want to make the enterprise work. Yeah. But they're their view of this is as a one-to-one thing that kind of scales up.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:24:59",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. So I don't know how that's going to go. It's going to go, we could, we should, we'll have conversations about that. It's where we are swimming right now, which is how does an org internalize, metabolize all this? Right? So it's useful.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:25:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I'm going to tell you. I'm going to tell you. Orgs don't bend to software.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:25:17",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, they don't.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:18",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Small orgs have to. Big orgs, the software must bend to them.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:25:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Even if it's AI and it's worth a trillion dollars. So I think that'll be really wild to see and I'm going to enjoy that.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:25:31",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "There's another way to bypass all this and get incredible transformation into your organization.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:25:38",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's right, that's right. And let me let me tell you, it's to call, is it 1-800-THOUGHTWORKS...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:25:43",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "...or Circle CI? No! Jesus. Ah, that was going to be a smooth exit and you made a joke.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:25:52",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "We are a New York City shop, we're a growing group of people and we are solution engineers and you say 'hey, I need to do this thing'. So I'll give you I'll give you a couple examples. Right now somebody called, they're like 'hey, we built this really cool app and it's a scientific app, but we're having trouble getting people to use it'.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:07",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "Like academic, professors are using it.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:26:09",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "And we're like 'oh, this is perfect'. And we're like 'we are going to make this really pretty for you. We're going to make it pretty and we're going to make it easy for people to walk in and when I say pretty, I mean good UX and so on. We're going to do that as just like a prototype to see what happens next'.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:26:22",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "Great.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:23",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "Okay. And then we got other ones which are much bigger, which are sort of like 'hey, can you replatform, I need everything. I need a new CRM and I need a new this and I need a new that'. And we're like 'yeah, we're going to put it all together for you in one nice one nice package'. So that's who we are, that's what we're about. If you want to talk to us, you just send an email to hello at aboard.com. We're on the we're on the list. We'll always take the call.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:26:32",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "Great.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:42",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "Friends, just so you know, we would love to hear from you. Not just about business. Obviously, we love business, but we want to also hear about what worries you about this technology, what you're learning, what you think we should be paying attention to. We'd love to hear about guests that we should have on. Maybe not you don't have to send us like yourself as a guest.",
+      "tone": "warm"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Sometimes that happens a lot, it's pretty awkward, but beyond that—",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:27:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Unless you're awesome.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:27:04",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, that too. Maybe, maybe we do want to hear from you. Anyway, please get in touch,",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:27:07",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "please ask us any question, we would love to do more advice columns.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:27:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "How do they do that, Paul?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:27:12",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh my god, thank you. Well, they can just send the email to hello@aboard.com, they can also check us out on YouTube, they can give us that beautiful subscribe and thumbs up, they can subscribe to the podcast, and they can give us five stars.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:25",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So there's lots of ways to interact in really positive ways with us, and that's what we're all about.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:27:29",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Have a great day.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:27:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Bye.",
+      "tone": "friendly"
+    }
+  ],
+  "highlights": [
+    "A massive productivity gap has emerged where the top 5% of engineering teams are achieving 10x throughput with AI, while the median team has only seen a 4% increase. This suggests that AI benefits are not equally distributed but heavily favor teams that already possess elite talent and rigorous integration processes.",
+    "AI acts as a \"devastating vetting process\" for talent, as high-level engineers can effectively guide and \"tame\" AI tools, whereas mid-level teams often end up drowning in the \"AI mess\" of bugs and unreviewed code.",
+    "The open-source Zig community has implemented a \"no LLM\" rule to prioritize building human contributors who intimately understand the codebase over simply accumulating raw code volume. They argue that investing in human expertise is more vital for long-term ecosystem health than maximizing short-term output through automation.",
+    "AI essentially \"punishes laziness\" by producing highly confident but often inaccurate results that require significant human effort to refine and verify. Success with the technology requires moving away from the \"firehose\" approach of code generation and toward a disciplined process of formal verification and quality control.",
+    "While AI has \"completed its revolution at the desk\" as a personal productivity booster for individuals, organizations are still in the very early stages of learning how to metabolize and govern the technology at scale. For large enterprises to succeed, they must develop boring, standardized processes to manage AI output rather than relying on individual experimentation."
+  ],
+  "summary": "In this episode of the Aboard Podcast, hosts Paul Ford and Rich Ziade discuss a recent report from CircleCI and ThoughtWorks that highlights a growing divide in how AI impacts software engineering teams. While overall code throughput has increased by 59% year-over-year, the benefits are not distributed equally. The data reveals that the top 5% of high-velocity teams are seeing massive productivity gains—delivering nearly ten times the throughput of others—while the median team has seen a mere 4% increase. The hosts argue that while AI makes it easier to generate vast amounts of code, it often creates a \"mess\" of bugs and technical debt that average teams struggle to clean up, whereas elite teams have successfully automated their quality control and vetting processes.\n\nThe discussion also explores the \"vetting process\" of AI, with Ziade noting that high-tier talent can use AI as a devastatingly effective force multiplier, while mid-level engineers may find themselves on a \"runaway train\" of unreviewed, low-quality output. They touch upon the philosophical divide in the industry, citing the programming language Zig’s \"no AI\" rule, which prioritizes building human contributors over raw code volume. Ultimately, Ford and Ziade conclude that AI \"punishes laziness\"; success with the technology requires rigorous human oversight, a commitment to \"boring\" but essential verification processes, and an organizational culture that values expertise over the superficial speed of AI-generated results.",
+  "description": "Why are so few engineering teams reaping the benefits of AI? On this week’s episode, Paul presents Rich with the findings from a recent report from CircleCI and Thoughtworks on the productivity of enterprise teams using LLMs. While there’s been a dramatic increase in throughput—the amount of code produced—across the board, just 5% of orgs are seeing real gains from these tools, while the majority struggle with errors, bugs, and lower productivity than before AI was introduced. As Paul puts it: “The advantages of this technology are not equally distributed.” \n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/why-ai-makes-things-worse-for-enterprise-teams/",
+  "duration": 1670,
+  "people": [
+    "Paul Ford",
+    "Rich Ziade",
+    "As Paul"
+  ],
+  "topics": [
+    "The impact of AI on software engineering productivity and code throughput",
+    "The disparity in success between elite engineering teams and the median",
+    "Challenges of managing quality and bugs in AI-generated code",
+    "The difference between individual AI use and organizational integration",
+    "The importance of engineering expertise and rigorous process in leveraging LLMs"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/9IQfIfsvSSc/maxresdefault.jpg",
+  "date": "20260512",
+  "youtube_url": "https://www.youtube.com/watch?v=9IQfIfsvSSc",
+  "youtube_metadata": {
+    "title": "Why AI Makes Things Worse for Enterprise Teams | The Aboard Podcast 2026-05-12",
+    "description": "Why are so few engineering teams reaping the benefits of AI? On this week’s episode, Paul presents Rich with the findings from a recent report from CircleCI and Thoughtworks on the productivity of enterprise teams using LLMs. While there’s been a dramatic increase in throughput—the amount of code produced—across the board, just 5% of orgs are seeing real gains from these tools, while the majority struggle with errors, bugs, and lower productivity than before AI was introduced. As Paul puts it: “The advantages of this technology are not equally distributed.” \n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/why-ai-makes-things-worse-for-enterprise-teams/",
+    "duration": 1670,
+    "view_count": 46,
+    "like_count": 2,
+    "channel": "Aboard",
+    "upload_date": "20260512",
+    "thumbnail": "https://i.ytimg.com/vi/9IQfIfsvSSc/maxresdefault.jpg",
+    "tags": []
+  }
+}

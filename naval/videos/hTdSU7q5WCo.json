@@ -1,0 +1,691 @@
+{
+  "title": "On Vibe Coding",
+  "source_url": "https://www.youtube.com/watch?v=hTdSU7q5WCo",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Nivi",
+      "text": "You're listening to the Naval podcast. This is Nivi, his regular co-host. Today we're going to be talking about vibe coding. This episode is presented by AngelList, a company Naval and I started a while back at this point. I'll tell you a little bit more about it later.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:15",
+      "ad": false,
+      "speaker": "Nivi",
+      "text": "Let me tee up the conversation with a tweet from Naval from March 23rd: 'AI coding agents can now deliver one-shot custom apps straight to your phone. It's the beginning of the end for the iPhone's dominance.'",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:28",
+      "ad": false,
+      "speaker": "Nivi",
+      "text": "Do you want to talk about what you're building and how you're distributing it?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:00:31",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Well, yeah, let me talk about vibe coding and how I got into it. So around December of 2024, the coding agents in AI hit an inflection point with the release of Claude Opus 4.5. And people started using it and were like, 'Wow, this is an agent that stays on track, can build apps soup to nuts, can solve thorny problems, and really feels like having a junior programmer at your disposal who's fast, essentially free, and ready to please.'",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:00:59",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "That was an inflection point, and I was reading all the hype on Twitter, but this time it felt real. And I've tried the coding agents in the past with some mixed results, but this time I really got into it. And I haven't seriously coded in decades—I mean, I have a computer science degree, I understand computer architecture, networking, a little bit of chips, algorithms, etc., but I haven't seriously coded in a long time.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:01:25",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "And the activation energy to writing code is really high. You have to, like, hook up all these different services to each other, everything from GitHub to maybe some backend you're doing, Vercel or Firebase or Railway or whatever, and just lots of things to connect together. You have to know lots of jargon, lots of tools. And the AI now makes it really easy.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:01:47",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So I started with Claude Code like everybody else. I've also used Cursor for some of the thornier bug solving and deep problems, and I immediately got addicted. It was incredibly fun. And so what's changed? Well, the agents are really working. These are not just coding assists now where you ask it to solve a specific problem and it gives you a pile of code and then you cut and paste that into your IDE, your development environment.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:02:11",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Rather, you open up a terminal—CLI, as they call it, the command line interface—it's all text-based, which is what these things are really good at because they're trained on text tokens in the first place. It's running Unix inside or underneath, and these agents really know Unix because if you look at all the code out there they were trained on sitting on GitHub or elsewhere or Stack Overflow, most of it was Unix and most of the modern OSs are really Unix underneath anyway.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:02:37",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Mac OS is famously BSD. So underneath these are all Unix, which is all text in, text out. So these agents are just long-lived coding AIs that are connected to Unix at a core level. They're connected to the Unix shell so they can execute commands, they're connected to the file system through basic Unix commands, they can call all the Unix commands like grep and awk and sed and pipe and so on, all these operators.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "...that daisy chain into each other, they can run cron jobs so they can be long lived, and they can spawn more shells and more tasks as needed.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:08",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "It's very addictive because normally with coding, coding can be really fun once you get into it, but getting into it, the activation energy is really high.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:03:15",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "But now all of a sudden, you don't have to know all the tools and all the commands. These things speak English. AIs are incredible translators, and one of their core use cases early on was machine translation; they were tested on translating.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:27",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "But now they're translating from Python and C and Lisp and Rust and all of these various programming dialects and these specialized commands, and they're communicating in English.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:40",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "And they're very forgiving in their communication, so you can use different words, you can make spelling mistakes, you can explain things your own way.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:47",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "But if you have a basic understanding of computer architecture and networking and programming—and it doesn't take a lot, it can be very basic actually, very high level I should say, not basic in the sense that it's simplistic, but basic in the sense that it's high level—then you can go very, very far.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:04:05",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "And so just for fun, I tried building a bunch of different apps. And I started by one-shotting particular apps that I wanted. One-shotting meaning I just give it a description, it gives me back an app.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:04:14",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "And then I started improving from there. So I actually built my own little App Store, which is an App Store just for me.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "I can ask it for an app, it can deliver that app to my App Store, which is a web page, and eventually I made it into an app itself that lives on my iPhone.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:04:29",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "And then I can download those apps with one click, and I can give upgrades like you do with the App Store.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:04:34",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So if I want a new app, for example, that tracks my workouts—and I have this, I built a custom tracking app for just my workouts exactly the way I like it.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:04:42",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So I can say, 'Hey, use the functionality of Tonal and Ladder, follow Apple's human interface guidelines to make it look like an Apple app, track my workouts the following way, here's a text log of my last few workouts and make it easy for me to re-enter new ones and to adjust them, build me pretty graphs and charts to track my progress, add in whatever other features you can think of, calculate strength scores, read scientific papers to figure out what the right way to do strength scores by body part is, do a human body diagram so it can just show which muscles are bigger, which are smaller, connect to Apple Health to do my heart rate stuff.'",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:05:22",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So, I didn't put all of this in one prompt, but I put a lot of it in one prompt. And I immediately got a working app delivered to my personal App Store.",
+      "tone": "satisfied"
+    },
+    {
+      "timestamp": "00:05:29",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "By the way, the personal App Store is a little bit of a joke. It's real in the sense that it's my personal App Store, looks like an App Store, and my apps get delivered into it.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:05:36",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "But obviously it's not for wide distribution because Apple gates that. Apple will not let you build apps that can be downloaded to anyone's iPhone. You have to key them against your specific devices.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:45",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So with my friends and family, I can deliver them apps. I can't yet deliver them to everybody.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:49",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "However, this whole experience is incredibly addictive. You can get extremely customized, tuned apps for you.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:05:55",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Now, does this mean that normal apps don't have a place? No, of course they have a place. Those apps that cover the broad use cases, they're going to be the best of breeds, someone's hand-tuned them and slaved over them.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "covered by one of the broad use cases. But when you want something truly custom or private, these are great for niche apps that only you would want, or you want to tune them for your specific use case. This is going to be incredible.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:12",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "And it's very addictive because, like in a video game, the way a video game is designed is that it keeps you hooked by giving you feedback and rewards for doing work, and it's always at the edge of your capability. So as you get better, the video game gets harder. It's not so hard that it's frustrating, but it's not so easy that it's boring. So you're always operating at the edge of your capability with the video game and getting these rewards. But those rewards are fake, and the video game is bounded, it's created by other humans, it's sort of a fake little world, and deep down you kind of know that. So you're just figuring out the rules of the game, and then once you've figured out the rules of the game, it's boring.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:06:53",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Except with vibe coding, it's unbounded because now you've got a Turing machine running underneath, you can build anything. The objective is created by you and can keep expanding, so it kind of never fills up completely. And it has real-world relevance. It's not just some fake world for fake people or fake games that you're solving. So it's way more interesting. So vibe coding has one-shot a whole bunch of my friends who have disappeared into vibe coding the apps that they've wanted. But it really, really helps to have a clear direction. You have to know what you want. That's actually the hardest thing, and having a very clear vision of it.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:29",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "And I have that because it's a particular app that I was obsessed with for about a year called Airchat, which I built with a team and it was a social messenger for people to talk through voice and video. It didn't quite work, so we sold it off, got the investors their money back, and got the team some nice packages. But I remember that experience as being exhilarating because I was building a product that I wanted and was working with a brilliant team. But I had to work through a team to do it. I had eight or nine engineers, depending on the day, and we worked pretty hard for 9 to 12 months and we shipped a couple of variations.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:07:57",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "But with vibe coding, I'm basically rebuilding that app. I'm rebuilding it from scratch. But the key now is I'm rebuilding it exactly the way that I want it. There's no compromises. And normally in the act of building anything with a team, there's always compromises, even if you are not aware of them. Even if you're the dictator in charge, which you rarely are, you still have to just accommodate other people. You can't say, 'Move this icon left. Now move it right. No, move it back. No, move it back again.' You can't do that; you annoy the engineer. You can't demand things where you don't have a reasonable justification, where it's just a gut feel and intuition.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:08:33",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "But the beauty with an AI coding agent is there's none of that. It's like a self-driving car. You don't feel self-conscious in a self-driving car because there isn't a driver sitting there. The same way, with an autonomous coding agent, you don't feel self-conscious about your own idiosyncrasies, so you can create exactly the thing that you want. I think one of the nice benefits of vibe coding is that although we may not see like super high-quality code, at least not in this generation, and the architecture needs a lot of work, and these things may have security holes, they may be hard to scale.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "the prototyping that you're going to get, the individual apps you're going to get is going to be very fast and they're going to be true to the vision of the creator. There's going to be no compromises. So you may end up with more things like Minecraft which Notch famously coded by himself where there was one person's vision and it may have looked weird because like what is this blocky graphics? It's like a huge step backwards, but he didn't have to compromise. He didn't have to communicate with anybody or explain to anybody why he wanted it that way. So I think it expands the scope of discovery. It's also incredibly fun. It takes the number of people who might have built apps from like point one percent to one or two or three percent in the populace. Don't get me wrong, the majority of people are not going to code their own apps. For the majority of people computers are sort of this magic black box and who knows what was going on there anyway, so the fact that it's become 10x or 100x easier still doesn't mean anything to them. It's still a black box. But for the people who are creative, who are self-motivated and who are articulate and have a good vision, you can code now. There's nobody standing in between you and your prototype. And yes, if you go to market with a high functioning app and you need to scale to a lot of users and all of that, then you want to recruit a great team and you want to get real engineers on board and you're probably going to have to rewrite the whole thing. But if you're experimenting, you're prototyping, you're getting to market, there's nothing better. There's never been a better time to be alive as a creator of software. Now, are the same market opportunities still there? That's a big question. They're shifting very, very fast. It may be the case that the big companies are vulnerable because now anyone can create software. It may be the case that they have more of an advantage because they have distribution, they can just fill all the gaps with all the software they can dream up. But I actually think this is a renaissance for individual software creators. Now, one other tweet that I put out was something like there's no market for venture backed software anymore or pure software is not venture investable anymore.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:58",
+      "ad": false,
+      "speaker": "Nivi",
+      "text": "I think it's like pure software is rapidly becoming uninvestable if I remember correctly.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:03",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Yeah, that's a watered down version of what I really wanted to say, which is that pure software is uninvestable. I would just full stop right there. If your whole advantage is like, hey, I'm building cool software that other people don't know how to build, I think that's uninvestable. And it's uninvestable for two reasons. One is they can just hack it together today. And the second is the coding agents are getting better so quickly that within a year or even less they'll probably be building scalable software with good architecture. So I think we're going to see leaps and bounds improvements. That genie's out of the bottle. So if you're a venture investor now, you're looking for hardware, you're looking for network effects, you're looking for AI models, and I would argue that training AI models is the new building software for however long that lasts until auto research and auto training start working. But I think AI coding, it's more fun than playing video games. It's more productive, it's more constructive, it has better feedback loops. You build something you want. You're at the bleeding edge of technology.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "You may even make some money or a career out of it, although careers are kind of dead, but you may make an interesting opportunity out of it. And you learn a lot about computers just by doing. I've seen kids who are vibe coding. It's hard to get kids to program. You can throw Swift Playgrounds and Scratch Junior and all of that at them and hope that they pick up coding. But if you throw vibe coding at them, they're going to get instant feedback and instant rewards. Maybe along the way they'll pick up fundamentals because these things still require some skill to operate. And in the process of operating them, you'll be forced to figure out the command line and you'll be forced to figure out how basic computer architecture works and you'll be forced to figure out concepts like caching and backing off in a network and sharing streams and writing to disk and latency versus bandwidth tradeoffs, etc., and all of those things. So you'll be forced to learn some basics of computer algorithms and architecture. And it's just a fun way to go. I've been up late nights probably spending a couple of hours every night. The time that used to go into reading or doomscrolling or playing video games is all now in vibe coding. In fact, that's why I haven't been active on X recently. I've been completely missing on X because I'm buried in Claude and Codex.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:13:10",
+      "ad": true,
+      "speaker": "Naval Ravikant",
+      "text": "This episode is presented by AngelList, a company Nivi and I started a while back because the infrastructure for venture capital was stuck in the past. The problem with most fund admins is that they have no AI and their software is terrible, so they throw humans at the problem and their service teams are constantly churning. On top of that, they're not full service, so funds have to stitch together their own operations and LPs end up getting pissed when capital calls are wrong and valuations are hard to trace. AngelList is built to solve all of that. It's the most complete product in the market. For funds from $10 million to a billion dollars. It includes SPVs, scout funds, introductions to QPs, and it works with your agents, ChatGPT, and Claude. AngelList already powers over $200 billion in assets, 5,000 funds, and Nivi and I use it to run our funds, so do a lot of investors we know. Migration is probably easier than you think. It can be done in four weeks. Go to angellist.com/podcast to get your fund on rails and tell them we sent you.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:14:12",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "AI has gotten so surprisingly resourceful that whenever I get a response that isn't surprisingly resourceful, I just assume they're not feeding it enough tokens. The most interesting thing to me about agents is their ability to error correct and learn. How people have it watch YouTube videos at night or go out onto the internet and try and learn about the tasks they've been instructed to perform during the day. So these agents are going out and error correcting and improving their skills. Likewise, the innovation of thinking in AI models is also an application of error correcting where you take the next token prediction process and turn it into a pseudo thinking process that can error correct as it goes through each step in the thought process. Getting rid of hallucinations was also an error correction process.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Nivi",
+      "text": "So I wonder what's going to be the next application of error correction in AI. One random thought I had and I'm sure people are working on it is applying error correction to agents working together, agents working with other agents. Because one of the important ways that people learn and improve is by working with and talking to other people.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:20",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "I'm not sure the analogy applies that well because AI is jagged intelligence as they say, where it's incredibly smart at some things and incredibly dumb at others. And it's structured very differently than humans in that when you're using Claude, you're using the same AI model even if you have 10 instances of it running. So 10 of them talking to each other doesn't really improve its thinking in the same way that 10 humans talking to each other do because those humans are trained on 10 different datasets. Humans are just inherently very creative and think out of bounds whereas the AI agents are trained on the same data distribution, they're literally running the same model. It's like 10 people with the same brain, the same dataset talking to each other.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:16:03",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Sure, just through thermodynamics they might have some different ideas and come up with something slightly different but they're generally going to think the same. So all you're doing when you're 10 agents are talking to each other is you're just throwing 10 times as many tokens at the problem. It's like saying take 10 times as long if you need to. Now there are different models like Codex and Gemini and Grok code which are trained slightly differently, not that different but they're slightly different. And so they might have some different insights. Claude has really good visual presentations through a system called Artifacts. And Claude is very good at talking to me at the level that I'm at, so it's very tuned to figure out from your question and your conversation what you're capable of understanding and what level you're asking the question at and it's very good at meeting you at that level.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:46",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "ChatGPT is still the OG, it's sort of very good all around. Gemini is very good at search because it has the Google crawl underneath. It's a frustrating product, it's constantly timing out on the app and losing the connection and forgetting the plot, but it's very fast and it's got a great search index. So if the question I'm asking is really a search question underneath then I use Gemini. Gemini also has access to YouTube. So if you think your answer is lying in a YouTube video and there's a lot of YouTube videos then Gemini has the data advantage of YouTube. So Gemini is really getting by on data advantages. It doesn't feel like the best model to me but it has the best underlying data. And then Grok is the one I can count on to tell me the truth, it's like the least neutered, least nerfed. It's got access to X so it's very good at news and it's very good at technical problems. So if you're asking me a deep difficult problem in the scientific mathematical domain then I think Grok is actually quite good. Not that the others aren't but I just think Grok is a standout there. And that reflects the biases of the companies that created them and trained them and are driving them. Currently all four of the leading frontier models have a place. I do use them against each other. So for example I'll wire it up with my GitHub so that every time I'm submitting a new piece of code, say that's written by Claude, then Codex and Gemini automatically fire in every pull request. It's misnamed but it's when you actually push code into",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Nivi",
+      "text": "your mirror repository and you're basically saying this is ready for review and this is ready to get merged into the main codebase. So you've been working locally in a piece of code, let's say with Claude, and then you push it into the main repository, so you file a pull request. Well, you can set it up so that other agents like Gemini and Codex and Grok automatically fire and review the pull request, and then they say, \"Oh, well you should change this thing about the architecture\" and so on. That's a way of getting them to sort of communicate with each other to have a council, a roundtable of AIs.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:29",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "But I haven't found that to be as useful as you might think. There's still a lot of groupthink with these AIs. If you're coding with them and you push towards an answer, for example, if you think you know what the answer is, it is rare that they will contradict you. You'd have to be pretty wrong for them to contradict you. They're trying to please you and I don't think they have any long-lived theory of mind of their own. So they're always kind of morphing towards you and they're going to find the answer that you're looking for. So if you think the answer's in a certain area and you push the models even slightly, all of them will find roughly the same answer because you're leading them to the answer; they're very easily led around. One of the things I've noticed is that as the codebase has gotten more complex and larger, it becomes more difficult to manage because it doesn't all fit into the model's context window anymore. The models can only hold a certain amount of data in their heads and right now the state of the art is about a million tokens, which will be considered laughable in the future. You can approximate that by thinking that as a million words and that's because of the transformer attention mechanism underneath, which for it to properly work, the problem is a square of the number of tokens in the context. So if it's a million tokens, that means the context window is like in the order of complexity of a trillion tokens, because it's the square of a million. So the context window runs out as your codebase gets larger, the models can't keep all of it in memory anymore, so they start making guesses, approximations, they start compacting the context window, they start losing the plot, they get lost. They start fixing the wrong thing, they fix the same bug five times, they go do a quick patch in the architecture when the problem lies somewhere else and you have to guide them. So as you are dealing with a more and more complex codebase, it falls upon the operator to provide the guidance to say, \"Actually, here I think we should just re-architect that whole thing.\" And they will do some incredibly boneheaded things, like if you are not paying attention and just text is scrolling by, occasionally they'll patch a bug just by eliminating the use case or destroying the feature in the first place, or they'll do something that is clearly a hack and you kind of have to stop them and say, \"Hey, that's a hack.\" And by the way, I do this all the time, I'll stop the model and I'll say, \"No, no, that's a hack, that's a patch, go fix it at an architectural level.\" And what's funny is the model will always say, \"Oh, I'm sorry, you're right, that was a hack.\" Even if that wasn't a hack, the model will say, \"You're right, that was a hack.\" So the model's always trying to please you and it—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Doesn't know any better. In that sense it's a little bit like a dog. It's better than you at catching that duck if you're duck hunting with a dog. But it's still a dog, so if you pointed it at a bird, you know, that's not a duck, it might take that bird down instead. So you do have to guide it. It does require a lot of operational oversight.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:17",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So long-winded way of saying, you still have to guide these models. Them talking to each other isn't going to fix the problem. And you do have to get involved in the architecture, the debugging, the features and pay close attention. But this combo right now of human operator combined with a state-of-the-art coding model can yield incredible results.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:39",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "You can already completely one-shot simple apps. So like a basic task list, a basic video game clone, you can one-shot them. One prompt and you get something that's reasonably good coming out the other end. So you can see where this is headed. Eventually, once they have enough data, they will be able to one-shot very complex apps and that's a whole different world that we're going to get into.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:59",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Now, in terms of what is it about coding that makes them uniquely good at it? It's just there's tons and tons of data. And when you're training the model, it's very easy to verify, hey, did you do a good job or not? Because the code has to compile, it has to execute. And you can have simple tests that are pre-written on the other side to say, did the code you wrote pass the test? Did it do the thing you're supposed to do?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:22:25",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So coding turns out to be one of those things that is actually quite easy to train models on. Mathematics is actually similar in that you have a ton of data, you have a lot of solved problems, and you can verify the output very easily. So in domains where you have a lot of data and you have good verification, self-driving is another one of those, these models do extremely well.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:22:47",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "In areas where you don't have a lot of data, which are kind of brand new fields, the models are not going to do well and that's still an opportunity for humans and creativity. And in domains where it's hard to verify, for example, in creative writing, like who determines what's good creative writing versus what's not? What's art versus what's not?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:23:05",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Then these models don't do as well because you can't easily run a closed loop where they're just outputting huge amounts of content and then that content is being immediately, algorithmically graded without having to have humans in the loop saying 'this is good, this is bad'.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:23:18",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "For example, if you're trying to do creative writing with these models, they're going to output huge amounts of content. They can output infinite essays. Who's to say it's good on the other side? Even if you hire some low-wage people to sit around call center style and say 'this is good' or 'this is bad', it's only as good as their taste.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:23:32",
+      "ad": false,
+      "speaker": "Nivi",
+      "text": "I think one of the reasons why these coding models got really good recently—there's multiple—one is they're doing sort of almost recursive training where like one model is helping improve the next one. But I think the bigger reason might just be that a lot of the best software engineers started using these models in the last few months and their taste has now fed back in.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:23:51",
+      "ad": false,
+      "speaker": "Nivi",
+      "text": "So you're getting access to their code plus their taste as to what's good and what's not. You need high taste feedback loops to improve these models and those are harder to develop than they look.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Look, in certain domains it's tractable and in other domains it's hard to see how it happens.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:05",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So the obvious stuff is, yeah, you go and you build your app. Great.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:08",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Less obvious stuff, that's like just one level more advanced, which will be laughably simple to a software engineer, but is kind of fun for a non-engineer or someone who hasn't coded in a long time to think about.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:18",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "One is I built my own App Store.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:24:20",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So if I want an app, I literally open up Claude on my phone.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:24:24",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "I can operate a remote terminal which is running on my desktop, or I can just use Claude in the cloud.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:30",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "They can connect to Xcode. I give it a two-line description, it builds me an app, it ships it to my App Store.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:38",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "I open my App Store app, the app is sitting there, I click install, 30 seconds later I have a working app on my phone.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:45",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "That's magical. You can literally be at dinner with someone having a conversation, they describe some app they want, you can describe it to Claude, and five minutes later you're showing them that app on your phone.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:24:54",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "That's why I say it's kind of the beginning of the end for Apple, because Apple sort of relies on their OS and their apps being better than everybody else's.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:04",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "The hardware, yes, it's better, but it doesn't support their margins and their monopoly or pseudo-monopoly.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:12",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So when all your communication starts going through Claude or through Codex or through some other agent, when all you're doing all day long is instead of opening an Uber app, you're saying 'call me an Uber', or instead of opening a workout app, you're saying 'where is my workout app? Track my workout, make no mistakes', right?",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:25:31",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Then you're just communicating with the agent.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:34",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "And when that happens, then the need for a phone becomes much smaller and smaller.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:38",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "Maybe there's a few banking apps and government apps that haven't ported and don't have the proper APIs.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:25:43",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "But these agents don't even need APIs. They can figure out and create their own APIs on the fly.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:25:48",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "The use case stops being your interfacing with your iPhone or your Android phone. Instead, you're just interfacing with the AI model.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:54",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "And now Apple is using Gemini, which is Google's AI model. So what's the difference?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:26:00",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "I might as well just use an Android phone because all I need at that point is I need a screen, I need a battery, and I need connectivity.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:26:06",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "And Android's got that just fine.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:26:08",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "And then the apps and user interfaces are being created on the fly for what I need.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:12",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "And yes, for certain things there'll always be best of breed user interfaces and you want some familiarity.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:26:17",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "But even the era of tap-tap-tap, upgrade your system software, drag this over here, hunt for that button, type into that field, all that is going away.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:26:25",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "It should all be conversational, it should all be agentic.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:26:28",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "And in that world, Apple loses a lot of its advantages.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:26:32",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "And then it's competing purely on 'oh yeah, we have the best chips and we have the best integrated hardware', but that's not the same margins as Apple today.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:26:40",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "That's more like the margins that Samsung or Lenovo make, which is not the margins that Apple wants to have.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:26:45",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "As a consequence, I think its market cap will compress.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:26:48",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "I think Apple giving up on AI will go down as the biggest strategic mistake in the tech industry of this decade, and it's the beginning of the end of Apple's dominance.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:26:57",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "These companies can exist for a long time and make lots of money like Microsoft is more valuable than it's ever—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Nivi",
+      "text": "Microsoft Windows has kind of lost the battle because they missed the mobile phone wave. They stuck to Windows OS and they didn't upgrade to a touch-screen-based native OS design for phones from the ground up, and they didn't focus on the consumer, they were too focused on the enterprise level. So Apple surpassed them and is now one of the most valuable companies in the world. I think it used to be the most valuable, might be Nvidia at this moment.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:27:24",
+      "ad": false,
+      "speaker": "Nivi",
+      "text": "The same way, I think Apple will get surpassed. I think their future growth is capped because they're now captive on AI and they're behind. Unless they manage to turn the AI ship around, I think Apple has capped growth long-term and is in \"quote-unquote\" trouble, not in the sense that it won't be valuable, but it'll be a lot less valuable than it could have been.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:27:43",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "The other thing is, within the app that I'm building, I have a bug reporting infrastructure where someone sees a bug, they tap on a button, the bug sends the logs up and the bug files into a server, and then I have Claude go every 24 hours through all the bug reports and it just fixes them all by itself without my having to intervene.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:28:04",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "And it puts all the fixes into side branches for me to review, and then all I have to do is just review the fixes and say, \"Ah, that wasn't really a bug, that wasn't a good fix, don't ship that. Oh, that looks good, makes sense, ship it.\" I'm just the final gate that decides on what goes out there. Eventually, you can see apps being built that way by features where the users will ask for features, they'll vote on features, and then there'll be some tastemaker maintainer in the cloud who look at that and say, \"No, the users don't know what they want,\" or \"Oh, that makes a lot of sense, we should fix that or change that.\"",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:28:24",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So I think even software development will become a collaborative process with the users and the agents will be handling all of it because in a sense, the agents can do perfect customer service. If your customer service was perfect, your customer service person would also be an incredible coder and would be indefatigable. They would be up 24/7, they would be writing code, fixing bugs, responding to people, and they would have no ego if they wrote a lot of code to fix a bug and then you just threw it all away.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:28:52",
+      "ad": false,
+      "speaker": "Naval Ravikant",
+      "text": "So I just find that kind of a feature very compelling. You truly can have one-person, two-person software companies now that can scale to millions upon millions of users and make billions upon billions of dollars. That has happened already in the past with people like Notch and Satoshi Nakamoto and very small teams like the original Instagram team that just made a huge dent with very few people or the original WhatsApp team. But I think you're going to see it more and more now.",
+      "tone": "thoughtful"
+    }
+  ],
+  "highlights": [
+    "Vibe coding represents a shift where AI agents translate natural language into functional software, allowing creators to build highly customized apps without the friction of traditional programming or the compromises of working with a team.",
+    "Pure software is rapidly becoming \"uninvestable\" because AI agents can now easily replicate applications, shifting market value away from the code itself and toward human taste, hardware, and network effects.",
+    "The dominance of platforms like the iPhone is at risk as AI agents become the primary interface, enabling users to \"one-shot\" custom apps on the fly and reducing the importance of proprietary operating systems or curated App Stores.",
+    "We are entering a renaissance for individual creators where solo \"tastemakers\" can build and maintain software for millions of users by leveraging AI agents to handle indefatigable tasks like debugging, architecture, and customer service."
+  ],
+  "summary": "In this transcript, Naval Ravikant explores \"vibe coding,\" a paradigm shift where AI agents like Claude and Cursor allow individuals to build functional software using natural language prompts rather than traditional manual coding. By drastically lowering the \"activation energy\" and technical jargon required for development, these agents enable \"one-shot\" app creation. Naval illustrates this through his personal \"App Store,\" where he builds niche, compromise-free applications—such as a bespoke workout tracker—tailored exactly to his vision. He describes this process as more addictive and productive than video games, as it provides instant feedback and real-world utility.\n\nThe discussion also examines the broader economic and strategic implications of AI-driven development. Naval argues that \"pure software\" is becoming uninvestable for venture capitalists because AI has commoditized its creation, shifting the competitive advantage toward hardware, network effects, and proprietary data. Furthermore, he predicts a decline in Apple’s dominance; as user interfaces transition from app-centric \"tap-and-swipe\" icons to conversational AI agents, the value of a proprietary operating system erodes. This shift suggests a renaissance for individual creators who can now manage billion-dollar software products with minimal teams.\n\nDespite the power of these agents, Naval emphasizes that human \"taste\" and oversight remain essential. Current AI models still struggle with limited \"context windows,\" leading them to \"lose the plot\" or implement \"boneheaded\" hacks on complex codebases. Because AI agents are often \"people pleasers\" that lack a long-term theory of mind, they require a human architect to provide high-level guidance, review pull requests, and ensure architectural integrity. Ultimately, the future of software development is envisioned as a collaborative loop where humans act as high-level tastemakers while agents handle the tireless execution and maintenance of the code.",
+  "description": "00:00 A Return to Coding\n\n03:08 The Personal App Store\n\n06:12 Vibe Coding Is a Video Game with Real-World Rewards\n\n10:23 Pure Software Is Uninvestable\n\n14:09 A Place for Each Model\n\n17:44 AI Is Eager to Please\n\n21:58 Why Math and Coding?\n\n24:04 The Beginning of the End of Apple’s Dominance\n\n27:43 Coding Agents As Customer Service Reps\n\n--\n\nTranscript: http://nav.al/code\n\nPresented by AngelList: http://angellist.com/podcast\n\nWe founded AngelList and have equity in the company.",
+  "duration": 1777,
+  "people": [
+    "Nivi",
+    "Naval Ravikant",
+    "The Personal",
+    "App Store",
+    "Vibe Coding",
+    "Video Game",
+    "World Rewards",
+    "Pure Software",
+    "Is Uninvestable",
+    "Each Model",
+    "Is Eager",
+    "Why Math",
+    "The Beginning",
+    "Coding Agents",
+    "As Customer",
+    "Service Reps"
+  ],
+  "topics": [
+    "Vibe coding and the rise of natural language software development",
+    "The impact of AI agents on Apple’s dominance and the traditional App Store model",
+    "The decline of pure software as a venture-investable category",
+    "A comparison of leading AI models including Claude, ChatGPT, Gemini, and Grok",
+    "The evolution of software maintenance and customer service through autonomous agents"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/hTdSU7q5WCo/maxresdefault.jpg",
+  "date": "20260428",
+  "youtube_url": "https://www.youtube.com/watch?v=hTdSU7q5WCo",
+  "youtube_metadata": {
+    "title": "On Vibe Coding",
+    "description": "00:00 A Return to Coding\n\n03:08 The Personal App Store\n\n06:12 Vibe Coding Is a Video Game with Real-World Rewards\n\n10:23 Pure Software Is Uninvestable\n\n14:09 A Place for Each Model\n\n17:44 AI Is Eager to Please\n\n21:58 Why Math and Coding?\n\n24:04 The Beginning of the End of Apple’s Dominance\n\n27:43 Coding Agents As Customer Service Reps\n\n--\n\nTranscript: http://nav.al/code\n\nPresented by AngelList: http://angellist.com/podcast\n\nWe founded AngelList and have equity in the company.",
+    "duration": 1777,
+    "view_count": 69202,
+    "like_count": 2546,
+    "channel": "Naval",
+    "upload_date": "20260428",
+    "thumbnail": "https://i.ytimg.com/vi/hTdSU7q5WCo/maxresdefault.jpg",
+    "tags": []
+  }
+}

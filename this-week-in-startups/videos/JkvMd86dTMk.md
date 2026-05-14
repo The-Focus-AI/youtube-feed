@@ -1,0 +1,599 @@
+---
+video_id: JkvMd86dTMk
+title: "Naval's 500 VC fund, the Maduro Polymarket scandal, and NYT defends theft and murder | E2280"
+channel: This Week in Startups
+duration: 3021
+duration_formatted: "50:21"
+view_count: 0
+url: https://www.youtube.com/watch?v=JkvMd86dTMk
+thumbnail: https://img.youtube.com/vi/JkvMd86dTMk/hqdefault.jpg
+tags:
+  - startups
+  - twist
+  - jason calacanis
+  - public markets
+  - private markets
+  - venture capital
+  - investing
+  - learn
+  - tech
+  - technology
+  - tech reviews
+  - product reviews
+  - gadgets
+  - big tech
+  - monopoly
+---
+
+# Naval's 500 VC fund, the Maduro Polymarket scandal, and NYT defends theft and murder | E2280
+
+## Summary
+
+Jason Calacanis and Lon Harris cover three major stories on this episode. First, Naval Ravikant's AngelList has launched USVC, an SEC-registered closed-end venture fund with a $500 minimum and no accreditation requirement that lets ordinary retail investors get exposure to private pre-IPO companies. Jason breaks down the mechanics — instead of the classic 2-and-20 carry model, USVC charges a flat 2.5% annual management fee and pulls existing AngelList SPV positions into the fund — and defends it against critics who call it a "grift," arguing that small bets are exactly how people learn to invest.
+
+The middle of the episode is consumed by the Polymarket / Maduro scandal, where a special forces soldier named Gannon Ken Van Dyke allegedly placed $33,000 in bets on Polymarket that Maduro would be removed from office while he was actually involved in the operation. Jason riffs on his theory that the military should be allowed to "splashy cashy" bet on themselves, and he and Lon play Trump's reaction (which lines up uncomfortably well with Jason's take).
+
+The final third turns into an extended denunciation of a New York Times Op-Ed podcast featuring Hasan Piker and New Yorker culture editor Najja Spiegelman where the panelists openly joke about "micro-looting" from grocery stores, "loot-maxing" from the Louvre, and the concept of "social murder" used to justify the killing of UnitedHealthcare CEO Brian Thompson. Jason calls the segment "an incredible fail by the New York Times," argues there is no moral equivalence between corporate misconduct and assassination, and tells viewers that if they feel helpless in America they should opt out, unsubscribe, vote, or move — but never normalize stealing or murder.
+
+## Highlights
+
+### "This is an incredible fail by the New York Times"
+
+[![Jason calls out NYT for normalizing violence](https://img.youtube.com/vi/JkvMd86dTMk/hqdefault.jpg)](https://www.youtube.com/watch?v=JkvMd86dTMk&t=0s)
+
+> "This is disgraceful. You have an obligation to think through what you say. Crazy and deranged behavior that's all being bundled together and violence towards individuals you disagree with. We live in a democracy. All violence is immoral, as Martin Luther King said, as Jesus said. This is an incredible fail by the New York Times."
+> — Jason Calacanis, [0:00](https://www.youtube.com/watch?v=JkvMd86dTMk&t=0s)
+
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*0:00-0:45" "https://www.youtube.com/watch?v=JkvMd86dTMk" --force-keyframes-at-cuts --merge-output-format mp4 -o "nyt-incredible-fail.mp4"
+```
+</details>
+
+### "Place $500 bets 10 times in the next month and then learn"
+
+[![Jason on USVC as a learning vehicle](https://img.youtube.com/vi/JkvMd86dTMk/hqdefault.jpg)](https://www.youtube.com/watch?v=JkvMd86dTMk&t=540s)
+
+> "I encourage you to place $500 bets 10 times in the next month and then learn. I have started this with my daughters. I am now letting my girls basically invest in the public market. So with my 10-year-olds I was literally talking to them about what stocks to buy."
+> — Jason Calacanis, [9:00](https://www.youtube.com/watch?v=JkvMd86dTMk&t=540s)
+
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*9:00-9:45" "https://www.youtube.com/watch?v=JkvMd86dTMk" --force-keyframes-at-cuts --merge-output-format mp4 -o "place-500-bets-to-learn.mp4"
+```
+</details>
+
+### "I love the idea of our military placing a bet on themselves"
+
+[![Jason on soldiers betting on the Maduro op](https://img.youtube.com/vi/JkvMd86dTMk/hqdefault.jpg)](https://www.youtube.com/watch?v=JkvMd86dTMk&t=826s)
+
+> "Okay, so I'm going to say completely reasonable what's happened here in terms of the action that's taken. However, I love the idea of our military placing a bet on themselves. Ha ha ha!"
+> — Jason Calacanis, [13:46](https://www.youtube.com/watch?v=JkvMd86dTMk&t=826s)
+
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*13:46-14:30" "https://www.youtube.com/watch?v=JkvMd86dTMk" --force-keyframes-at-cuts --merge-output-format mp4 -o "military-betting-on-themselves.mp4"
+```
+</details>
+
+### "I want to put 10K... This is incredibly depraved, I know"
+
+[![Splashy cashy bets on SEAL Team Six](https://img.youtube.com/vi/JkvMd86dTMk/hqdefault.jpg)](https://www.youtube.com/watch?v=JkvMd86dTMk&t=917s)
+
+> "I go into splashy cashy mode. This is what I think we should do. I think we should take the special forces and we should allow us to place splashy cashy bets for them."
+> — Jason Calacanis, [15:17](https://www.youtube.com/watch?v=JkvMd86dTMk&t=917s)
+
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*15:17-16:10" "https://www.youtube.com/watch?v=JkvMd86dTMk" --force-keyframes-at-cuts --merge-output-format mp4 -o "splashy-cashy-special-forces.mp4"
+```
+</details>
+
+### "Micro-looting is stealing. It's petty crime."
+
+[![Jason responds to NYT podcast](https://img.youtube.com/vi/JkvMd86dTMk/hqdefault.jpg)](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1536s)
+
+> "So this is micro-looting and you can like they put that, you know, soundtrack behind it and she's smiling and hamming it up about micro-looting. Micro-looting is stealing. It's petty crime. Putting a new name on it does not make it less abhorrent. You should not steal, but this discussion quickly escalated."
+> — Jason Calacanis, [25:36](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1536s)
+
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*25:36-26:20" "https://www.youtube.com/watch?v=JkvMd86dTMk" --force-keyframes-at-cuts --merge-output-format mp4 -o "micro-looting-is-stealing.mp4"
+```
+</details>
+
+### "There is no moral equivalence here. All violence is immoral."
+
+[![Jason rebukes social murder framing](https://img.youtube.com/vi/JkvMd86dTMk/hqdefault.jpg)](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1980s)
+
+> "The murder of anybody, whether it's, you know, cops murdering somebody, ICE beating people up on that side, or killing of CEOs. There is no moral equivalence here. All violence is immoral, as Martin Luther King said, as Jesus said, as countless people have pointed out."
+> — Jason Calacanis, [33:00](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1980s)
+
+<details>
+<summary>Clip command</summary>
+
+```bash
+yt-dlp --download-sections "*33:00-33:50" "https://www.youtube.com/watch?v=JkvMd86dTMk" --force-keyframes-at-cuts --merge-output-format mp4 -o "all-violence-is-immoral.mp4"
+```
+</details>
+
+## Key Points
+
+- **AngelList launches USVC** ([0:33](https://www.youtube.com/watch?v=JkvMd86dTMk&t=33s)) - SEC-registered fund with a $500 minimum, no accreditation required, giving non-accredited retail investors exposure to private pre-IPO companies
+- **The 2-and-20 vs. 2.5% fee structure** ([1:30](https://www.youtube.com/watch?v=JkvMd86dTMk&t=90s)) - Jason walks through how a flat 2.5% annual fee instead of 20% carry changes manager incentives toward AUM growth rather than performance
+- **Why Naval's design is brilliant** ([3:17](https://www.youtube.com/watch?v=JkvMd86dTMk&t=197s)) - USVC pulls existing AngelList SPV positions into the fund, so Naval doesn't have to hunt for shares on the secondary market
+- **5% redemption cap** ([4:17](https://www.youtube.com/watch?v=JkvMd86dTMk&t=257s)) - Investors can only redeem up to 5% of their position, a key constraint of the closed-end structure
+- **Source-checking the critics** ([6:08](https://www.youtube.com/watch?v=JkvMd86dTMk&t=368s)) - The viral takedown thread came from a 2,000-follower account belonging to a research lead at Artemis, a competing investment research platform
+- **Place small bets to learn** ([8:15](https://www.youtube.com/watch?v=JkvMd86dTMk&t=495s)) - Jason's philosophy: $500 trial bets in PLO, in stocks, or in venture are how you actually learn the game
+- **MicroStrategy as schemy proxy** ([11:18](https://www.youtube.com/watch?v=JkvMd86dTMk&t=678s)) - Jason says don't buy MicroStrategy if you don't fully understand it; just buy Bitcoin or Solana directly
+- **The Maduro Polymarket scandal** ([12:43](https://www.youtube.com/watch?v=JkvMd86dTMk&t=763s)) - Special forces soldier Gannon Ken Van Dyke charged for placing $33,000 in Polymarket bets on Maduro's removal while involved in the operation
+- **"Splashy cashy" military betting** ([15:17](https://www.youtube.com/watch?v=JkvMd86dTMk&t=917s)) - Jason proposes letting civilians place wagers on special-forces missions with the proceeds going to the soldiers
+- **Trump's "world has become a casino" response** ([17:32](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1052s)) - The President's surprisingly measured comments on military gambling get played and dissected
+- **Annie Duke and women in poker** ([18:30](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1110s)) - Jason on "Thinking in Bets" and the misogyny of 1990s/2000s poker rooms toward women like Annie Duke
+- **Queen of Chess on Netflix** ([22:05](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1325s)) - Lon recommends the documentary about Hungarian prodigy Judit Polgár and her rivalry with Garry Kasparov
+- **The NYT "Off the Record" podcast** ([23:34](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1414s)) - Hosts (including Hasan Piker and New Yorker culture editor Najja Spiegelman) joke about looting, with Spiegelman revealed to be a nepo baby — the daughter of Art Spiegelman, author of Maus
+- **"Micro-looting" defined** ([25:06](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1506s)) - Spiegelman's clip: "Gotta eat to live, gotta steal to eat... Food is a human right"
+- **"Would you steal from the Louvre? Yes."** ([26:06](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1566s)) - The "loot-maxing" escalation; Spiegelman jokes about cheering on Louvre heists as "cool crimes"
+- **The "social murder" concept** ([29:58](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1798s)) - Hasan invokes Engels to frame UnitedHealthcare CEO Brian Thompson's killing as morally justified
+- **Jason's moral rebuttal** ([31:54](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1914s)) - "There's no justification for killing the CEO of United Healthcare. It doesn't matter how much you suffered."
+- **Healthcare paradox** ([34:46](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2086s)) - US pays twice as much per person but has the best technology; access frustration drives the "social murder" rhetoric
+- **You can opt out of the system** ([36:56](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2216s)) - Jason argues if you feel helpless you can move states, move countries, or unsubscribe — not murder
+- **Scott Galloway's "Resist and Unsubscribe"** ([38:14](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2294s)) - Prof G's pitch to tank the stock market by unsubscribing from Uber, Amazon Prime, ChatGPT, Apple, Google, Microsoft, etc.
+- **Walking the walk** ([42:55](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2575s)) - Jason contrasts Ed Begley Jr. (truly lives green) with TED-stage environmentalists who arrive on G650s; same standard for socialists like Bernie Sanders with three homes
+- **Greenlight and financial literacy** ([45:15](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2715s)) - Jason floats kidsinvestmentclub.com and pitches Greenlight as Robinhood for kids, arguing financial literacy is the inheritance rich kids get that public school never teaches
+
+## Mentions
+
+### Companies
+
+- **AngelList** ([0:33](https://www.youtube.com/watch?v=JkvMd86dTMk&t=33s)) - Launched USVC, the new SEC-registered closed-end retail VC fund
+- **USVC** ([1:04](https://www.youtube.com/watch?v=JkvMd86dTMk&t=64s)) - The new AngelList fund vehicle; $500 minimum, 2.5% annual fee, 5% redemption cap
+- **The Syndicate (LAUNCH)** ([3:17](https://www.youtube.com/watch?v=JkvMd86dTMk&t=197s)) - Jason's competing SPV platform; he left AngelList to build it after the "mini falling out" with Naval
+- **calm.com** ([4:17](https://www.youtube.com/watch?v=JkvMd86dTMk&t=257s)) - Jason cites his 5% position as an example of what could be rolled into USVC
+- **Artemis** ([6:17](https://www.youtube.com/watch?v=JkvMd86dTMk&t=377s)) - Investment research platform; employs the critic behind the viral USVC takedown thread
+- **OpenAI** ([12:03](https://www.youtube.com/watch?v=JkvMd86dTMk&t=723s)) - Released GPT-5.5/Pro; Lon flags it as a frontier-model release worth covering
+- **Polymarket** ([12:43](https://www.youtube.com/watch?v=JkvMd86dTMk&t=763s)) - Where the special forces soldier placed his Maduro bets
+- **MicroStrategy** ([11:18](https://www.youtube.com/watch?v=JkvMd86dTMk&t=678s)) - Saylor's Bitcoin proxy; Jason won't buy it because the structure feels schemy
+- **UnitedHealthcare** ([30:02](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1802s)) - The company whose CEO Brian Thompson was murdered; Hasan invokes "social murder" to frame the killing
+- **The New York Times** ([0:00](https://www.youtube.com/watch?v=JkvMd86dTMk&t=0s)) - The "incredible fail" — host network for the offending Op-Ed podcast
+- **The New Yorker** ([24:27](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1467s)) - Najja Spiegelman's day-job employer (culture editor of the Op-Ed page)
+- **Netflix** ([22:05](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1325s)) - Streaming home of Queen of Chess and where you can share your password to opt out of paying twice
+- **Whole Foods / Amazon Prime / Uber / Apple / Google / Microsoft / Paramount / Meta / AT&T** ([38:14](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2294s)) - Scott Galloway's "Resist and Unsubscribe" hit list
+- **Greenlight** ([45:15](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2715s)) - "Robinhood for kids" financial-literacy app Jason is using with his daughters
+- **LinkedIn** ([20:16](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1216s)) - Sponsor read: linkedin.com/hiringpro offer
+
+### Products & Technologies
+
+- **SPVs (Special Purpose Vehicles)** ([3:17](https://www.youtube.com/watch?v=JkvMd86dTMk&t=197s)) - The legacy AngelList structure that USVC now aggregates into a single closed-end fund
+- **Closed-end funds** ([1:30](https://www.youtube.com/watch?v=JkvMd86dTMk&t=90s)) - The legal wrapper used by USVC; pays a flat 2.5% fee instead of 2-and-20 carry
+- **Bitcoin** ([11:18](https://www.youtube.com/watch?v=JkvMd86dTMk&t=678s)) - Jason recommends buying directly rather than through MicroStrategy
+- **Solana / Tao** ([11:58](https://www.youtube.com/watch?v=JkvMd86dTMk&t=718s)) - Lon and Jason's alt-coin direct alternatives to MSTR exposure
+- **GPT-5.5 / GPT-5.5 Pro** ([12:03](https://www.youtube.com/watch?v=JkvMd86dTMk&t=723s)) - OpenAI's newly released frontier model
+- **Claude** ([12:13](https://www.youtube.com/watch?v=JkvMd86dTMk&t=733s)) - Anthropic's model that Jason promises to benchmark against GPT-5.5 on "This Week in AI"
+- **kidsinvestmentclub.com** ([45:15](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2715s)) - Jason's pitched concept for teaching kids financial literacy at scale
+
+### People
+
+- **Naval Ravikant** ([1:30](https://www.youtube.com/watch?v=JkvMd86dTMk&t=90s)) - Founder of AngelList and the architect of USVC; "my friend Naval is doing it"
+- **Ankur Nagpal** ([6:44](https://www.youtube.com/watch?v=JkvMd86dTMk&t=404s)) - Portfolio manager of USVC; engaging with critics on X
+- **Harry Raghavan** ([5:09](https://www.youtube.com/watch?v=JkvMd86dTMk&t=309s)) - Author of the "USVC is a watershed moment" blog post defending the fund against the peanut gallery
+- **Marco S.** ([6:08](https://www.youtube.com/watch?v=JkvMd86dTMk&t=368s)) - Artemis research lead and lead viral USVC critic ("yet another grift")
+- **Michael Saylor** ([11:18](https://www.youtube.com/watch?v=JkvMd86dTMk&t=678s)) - "Mr. MicroStrategy"; Jason avoids buying MSTR despite understanding Bitcoin
+- **Gannon Ken Van Dyke** ([12:43](https://www.youtube.com/watch?v=JkvMd86dTMk&t=763s)) - The special forces soldier indicted for $33,000 in Polymarket bets on the Maduro raid
+- **Nicolás Maduro** ([13:02](https://www.youtube.com/watch?v=JkvMd86dTMk&t=782s)) - Venezuelan president; the subject of the wagered military operation
+- **Donald Trump** ([16:10](https://www.youtube.com/watch?v=JkvMd86dTMk&t=970s)) - His "world has become a casino" reaction to the soldier-betting scandal is played and dissected
+- **Pete Rose** ([16:51](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1011s)) - Lon's analogy: Van Dyke is like Rose betting on his own team, which is why Rose stayed out of the Hall of Fame
+- **Annie Duke** ([18:30](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1110s)) - Poker champion and author of Thinking in Bets, cited as the framing Jason endorses for wagering
+- **Judit Polgár** ([22:51](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1371s)) - Hungarian chess prodigy and subject of Queen of Chess on Netflix
+- **Garry Kasparov** ([23:12](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1392s)) - World chess champion turned anti-Putin commentator
+- **Hasan Piker** ([23:34](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1414s)) - Far-left Twitch streamer who joined the NYT podcast and invoked "social murder"
+- **Najja Spiegelman** ([24:24](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1464s)) - New Yorker culture editor and panelist who joked about micro-looting and Louvre heists
+- **Art Spiegelman** ([36:00](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2160s)) - Najja's father, author of the graphic novel Maus
+- **Brian Thompson** ([30:02](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1802s)) - The murdered UnitedHealthcare CEO, used by Piker as the "social murder" justifying example
+- **Friedrich Engels** ([30:02](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1802s)) - 19th-century Marxist invoked for the "social murder" concept
+- **Kara Swisher** ([16:25](https://www.youtube.com/watch?v=JkvMd86dTMk&t=985s)) - Calls Jason "Mini Trump" because of their aligned takes
+- **Scott "Prof G" Galloway** ([37:46](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2266s)) - Architect of the "Resist and Unsubscribe" campaign; Jason will debate Ro Khanna on Prof G Markets
+- **Ro Khanna** ([37:47](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2267s)) - Congressman; upcoming debate opponent on the wealth tax
+- **Zohran Mamdani** ([31:54](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1914s)) - Cited as the legitimate democratic channel for pursuing socialist policies
+- **Bernie Sanders** ([42:55](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2575s)) - Cited for "owning three (or four) homes" while being a democratic socialist
+- **Ed Begley Jr.** ([42:32](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2552s)) - The actor who actually walks the environmental walk — no car, bicycles, grey-water system, solar
+- **Martin Luther King Jr. / Jesus** ([33:00](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1980s)) - Jason's "all violence is immoral" moral authorities
+
+## Surprising Quotes
+
+> "So when you run a platform, you're a socialist, you're just like, I don't want to negotiate one deal with J-Cal and another deal with these other angel investors. I was like, well, I'm Michael Jordan, I've got a book, you know, I'm hot stuff, so I want a different deal. And we couldn't come to terms, whatever, so I did the Syndicate."
+> — Jason Calacanis, [3:37](https://www.youtube.com/watch?v=JkvMd86dTMk&t=217s)
+
+> "So always go into the peanut gallery, look at how old their account is, when did they make their account? Okay, he's been on Twitter for six years. Okay, he's only got 2,000 followers."
+> — Jason Calacanis, [6:31](https://www.youtube.com/watch?v=JkvMd86dTMk&t=391s)
+
+> "Would you steal from the Louvre? Yes. I would not be logistically capable of executing such a feat, but would I cheer on every news story of people that I see doing it? Absolutely. Voila. Yeah, I think it's cool. We gotta get back to cool crimes like that."
+> — Lon Harris (reading Najja Spiegelman quote), [26:06](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1566s)
+
+> "When Kara Swisher calls me Mini Trump, this is not good that we're so aligned. Oh no."
+> — Jason Calacanis, [16:25](https://www.youtube.com/watch?v=JkvMd86dTMk&t=985s)
+
+> "You're sending Prof G $15 million in advertising, he said, in order for him to tell people to unsubscribe from your thing? You guys have Stockholm Syndrome."
+> — Jason Calacanis, [40:47](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2447s)
+
+> "You know who doesn't get taught this? Kids who go to public school. If you come from a rich family they're like let me explain to you corporate debt, let me explain to you margin loans, let me explain to you ETFs... and the rich get richer and the poor stay poor."
+> — Jason Calacanis, [48:47](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2927s)
+
+## Transcript
+
+**Jason Calacanis:** [0:00](https://www.youtube.com/watch?v=JkvMd86dTMk&t=0s) This is disgraceful. You have an obligation to think through what you say. Crazy and deranged behavior that's all being bundled together and violence towards individuals you disagree with. We live in a democracy. All violence is immoral, as Martin Luther King said, as Jesus said. This is an incredible fail by the New York Times.
+
+**Lon Harris:** [0:16](https://www.youtube.com/watch?v=JkvMd86dTMk&t=16s) So are we going off duty or you have a news story or two you want to come back with? I have one news story I feel like people are going to want to hear your thoughts about this. Angel—
+
+**Jason Calacanis:** [0:23](https://www.youtube.com/watch?v=JkvMd86dTMk&t=23s) Is this Hasan on New York Times?
+
+**Lon Harris:** [0:25](https://www.youtube.com/watch?v=JkvMd86dTMk&t=25s) Oh we're doing that in off duty?
+
+**Jason Calacanis:** [0:26](https://www.youtube.com/watch?v=JkvMd86dTMk&t=26s) We can talk about that again, we can talk about that some more if you want, sure.
+
+**Lon Harris:** [0:28](https://www.youtube.com/watch?v=JkvMd86dTMk&t=28s) Lootmaxing, Loot, I know you're a big fan of lootmaxing.
+
+**Jason Calacanis:** [0:31](https://www.youtube.com/watch?v=JkvMd86dTMk&t=31s) Lootmaxing, yes. Lootmaxing.
+
+**Lon Harris:** [0:33](https://www.youtube.com/watch?v=JkvMd86dTMk&t=33s) Angellist has a new product out called USVC. They're offering exposure to venture investments with a $500 minimum, no accreditation required. The goal is long-term capital appreciation, not traditional liquidity. It's a little bit like venture for normies, venture for kiddos, that sort of how people are describing it. There's been a lot, Jason, a lot of discussion over the last 24-48 on X about this. Criticism has been really sharp. There's a viral thread from a guy named Mario at covered underscore call. He's calling this yet another grift in the world of retail accessible VC, and he says retail doesn't need access to private markets this badly, a whole laundry list, here I'll pull up the tweet so you can see.
+
+**Jason Calacanis:** [1:04](https://www.youtube.com/watch?v=JkvMd86dTMk&t=64s) So this is Angellist's new USVC, US Venture Capital. This is an SEC registered fund that allows non-accredited retail investors to invest in private pre-IPO companies.
+
+**Lon Harris:** [1:28](https://www.youtube.com/watch?v=JkvMd86dTMk&t=88s) Correct. OpenAI—
+
+**Jason Calacanis:** [1:30](https://www.youtube.com/watch?v=JkvMd86dTMk&t=90s) And my friend Naval is doing it, Ravikant, who's been on the program. And so they've got a bunch of portfolio companies in there that people want. The way this works is these are, I believe they're called closed-end funds. What they allow you to do is, you instead of paying carry, the 2 and 20 you hear about venture capital, 20% carry, 2% fees a year. So if you had $100 million fund and you turned it into a $300 million fund in returns, that means you had 200 in profits. The VC would get 20% of the 200, not the 300, but of the gain. 20% of the 200 is 40 million. So that's what VCs are hoping for. They're hoping to triple your money, you're hoping they triple your money because you would double your money in the stock market is the theoretical concept here. Once in a while you get an outlier that pays 5x, once in a while you get a dud that pays 0.5x, so you lose half your money sometimes you go 10x sometimes, but you're hoping for 2.5, 3x. In this one, you just pay a fee, 2.5% annually. So this became, if it was the same analogy, you had $100 million fund, you would be as the fund manager, you'd get 2.5 million a year. So in 10 years, instead of getting the 40 million in carry, you would get 2.5 million a year guaranteed over 10 years, so you get 25 million. So— It's kind of a wash for either party in terms of the fees. The issue becomes, in one case, the VC is really incentivized to swing for the fences because the carry is not guaranteed.
+
+**Lon Harris:** [3:16](https://www.youtube.com/watch?v=JkvMd86dTMk&t=196s) Right.
+
+**Jason Calacanis:** [3:17](https://www.youtube.com/watch?v=JkvMd86dTMk&t=197s) In this case, the 2.5% fee is guaranteed, so all you're trying to do is increase the assets under management. If you get it to a billion dollars in holdings, you're making 25 million a year, which means you make 250 million over 10 years, you got a pretty great lifestyle, you know, and okay, there you are. It's a nice balance between the two. What's brilliant about what Naval did is this is taking the SPVs, the special purpose vehicles, that I participated in and that I moved my business to the Syndicate. Naval and I had like a mini falling out, you know, I was a little bit too big for the platform, I was a little too annoying to him, I think, because I wanted to get treated differently.
+
+**Lon Harris:** [3:36](https://www.youtube.com/watch?v=JkvMd86dTMk&t=216s) Yeah.
+
+**Jason Calacanis:** [3:37](https://www.youtube.com/watch?v=JkvMd86dTMk&t=217s) So when you run a platform, you're a socialist, you're just like, I don't want to negotiate one deal with J-Cal and another deal with these other angel investors. I was like, well, I'm Michael Jordan, I've got a book, you know, I'm hot stuff, so I want a different deal. And we couldn't come to terms, whatever, so I did the Syndicate. All good, we're still friends. But what the brilliance of what Naval did here is the people who have the SPVs on AngelList are, from my understanding, being invited to put their shares into this.
+
+**Lon Harris:** [4:16](https://www.youtube.com/watch?v=JkvMd86dTMk&t=256s) Correct.
+
+**Jason Calacanis:** [4:17](https://www.youtube.com/watch?v=JkvMd86dTMk&t=257s) So he doesn't have to hunt for shares or go on a, you know, crazy hunt to buy secondary from people. He can just move what's on AngelList there. So I have a position in calm.com, I think we own about 5% of calm.com. If the company was worth a billion, I could move that 50 million into this fund. I think we would get liquidity, the fund would buy it, and so that would move all of these SaaS companies or, you know, over 10-year-old companies and you could get liquidity and the public could own them and the public wants to own them before they go public. So it could be really nice. The other limitation is you can only take 5% out in terms of redemption.
+
+**Lon Harris:** [5:08](https://www.youtube.com/watch?v=JkvMd86dTMk&t=308s) Yes. And that... I mean, I think that's what a lot of the complaints are. And there was another great sort of blog post, Harry Raghavan addressed a lot of the complaints and was saying this is basically retail investors who are used to public markets who don't understand how private markets work and are objecting to things that are just part of the nature of how venture capital works. So yeah, this was his post: "Don't listen to the peanut gallery. USVC is a watershed moment." I mean, you picked up on a lot of what the complaints are. They're arguing that because the portfolio manager is incentivized based on assets under management rather than performance, he's going to focus on finding new investors rather than taking care of the current shareholders, making him more like a salesman than a fund manager. That's what the original complaints were saying.
+
+**Jason Calacanis:** [5:57](https://www.youtube.com/watch?v=JkvMd86dTMk&t=357s) Who is this saying this? Don't listen to... I know it's important for us to just, you know, in terms of us calling balls and strikes to know who is doing this and what their motivation might be.
+
+**Lon Harris:** [6:08](https://www.youtube.com/watch?v=JkvMd86dTMk&t=368s) Yeah, the criticisms are coming from this guy, Marco S.
+
+**Jason Calacanis:** [6:12](https://www.youtube.com/watch?v=JkvMd86dTMk&t=372s) Just in terms of like, always good to know the source.
+
+**Lon Harris:** [6:15](https://www.youtube.com/watch?v=JkvMd86dTMk&t=375s) Yeah.
+
+**Jason Calacanis:** [6:16](https://www.youtube.com/watch?v=JkvMd86dTMk&t=376s) He's in a similar business, I think. I wouldn't wor—
+
+**Lon Harris:** [6:17](https://www.youtube.com/watch?v=JkvMd86dTMk&t=377s) Oh, the other guy, Marco, who is making the complaint, he is a research lead for Artemis, which is an investment research platform. So he's a public investor, researcher, advisor, expert, whatever, what have you.
+
+**Jason Calacanis:** [6:28](https://www.youtube.com/watch?v=JkvMd86dTMk&t=388s) Okay. Yeah, okay, with 2,000 followers. So always go into the peanut gallery, look at how old their account is, when did they make their account? Okay, he's been on Twitter for six years. Okay, he's only got 2,000 followers.
+
+**Lon Harris:** [6:43](https://www.youtube.com/watch?v=JkvMd86dTMk&t=403s) Right. So it was really this- this thread that he wrote or this big tweet that he wrote, it got over 620,000 views and it became kind of the centerpiece. Ankur Nagpal, the portfolio manager of USVC, is in the comments discussing it with him. It became kind of the hub for this whole conversation.
+
+**Jason Calacanis:** [7:00](https://www.youtube.com/watch?v=JkvMd86dTMk&t=420s) So this is a very important thing when you're building a business and people come and criticize it. You have to make a decision: do you want to engage or not? And should you engage? As a person with 2,000 followers, they've been on the internet for six years or whatever, they- they may have a very neophyte view and just trying to educate them just might not be worth the—the juice may not be worth the squeeze. Here's the great thing about markets. If people look at this and, you know, want the opportunity and they're non-accredited, so they're theoretically not sophisticated, if they put their money in this and they lose, the way I look at it as an American who participates in the markets in a very vibrant way, public, private, and everything in between—and once in a while I'll do a wager, play poker a heck of a lot—people need to be able to place bets. They need to be able to try these devices. If you're- if you were Lon, and you've- Lon's got a decent nest egg. It's, you know, it's not retiring yet. It's got another 10 years of work in him, maybe 15.
+
+**Lon Harris:** [8:08](https://www.youtube.com/watch?v=JkvMd86dTMk&t=488s) Another 15, 20, something like that.
+
+**Jason Calacanis:** [8:11](https://www.youtube.com/watch?v=JkvMd86dTMk&t=491s) 15, 20. Uh, you know, he could buy $500 of this, learn by betting.
+
+**Lon Harris:** [8:14](https://www.youtube.com/watch?v=JkvMd86dTMk&t=494s) Yes.
+
+**Jason Calacanis:** [8:15](https://www.youtube.com/watch?v=JkvMd86dTMk&t=495s) That's what I do. I place bets to learn. Now, I don't place a giant bet to learn, but if I'm learning PLO, Pot Limit Omaha, the- you know, the four-card variant of Texas Hold'em, you get four cards, not two.
+
+**Lon Harris:** [8:26](https://www.youtube.com/watch?v=JkvMd86dTMk&t=506s) Oh, definitely.
+
+**Jason Calacanis:** [8:27](https://www.youtube.com/watch?v=JkvMd86dTMk&t=507s) So if I want to play PLO, you think I go to the big table? You think I put my entire net—no. I- I would literally, Jason Calacanis played at the like $1-$2, $3-$5 PLO table last time I was in Vegas. I'm not an expert PLO player, I- I have some expertise in No Limit Hold'em, having played for over 10 years. So I'm like, 'I don't care what table I sit at.' I just- I said, 'Sit me at whatever PLO table's open.' I don't care if it's, you know, 10-20, 25-50, whatever, 1-2, I'm just there to have fun and learn. You could just place a $500 bet on this, Lon, if you wanted to and learn. I would encourage it. encourage you to place $500 bets 10 times in the next month and then learn. I have started this with my daughters. I, um, am now letting my girls, um, you know, basically invest in the public market. So with my 10-year-olds I was literally talking to them about what stocks to buy.
+
+**Lon Harris:** [9:22](https://www.youtube.com/watch?v=JkvMd86dTMk&t=562s) Hmm.
+
+**Jason Calacanis:** [9:23](https://www.youtube.com/watch?v=JkvMd86dTMk&t=563s) Congratulations to the team over there. If any of my startups I did my first like 50 SPVs, my first 50 syndicates on AngelList, if they wanted shares of those in this, I would absolutely consider it. And so fantastic, great. I'm happy for them. More liquidity for founders, for investors is a good thing. Monetary velocity is very important for an economy. So the fact that people have choices—angel investors, syndicates, incubators, pre-incubators, pre-accelerators, public markets, these closed-end funds or whatever they are, you know, ETFs, fantastic. Let a thousand flowers bloom, let the money move around. Anybody who's a participant in this understands no crying in the casino, you know, and it's your job to protect yourself at all times. That's it.
+
+**Lon Harris:** [10:22](https://www.youtube.com/watch?v=JkvMd86dTMk&t=622s) Okay. So you've identified a real problem and you put together a solid solution and a business model that you believe in. So you're all set to launch your new company, right? Ah, not so fast. If you want investors and potential customers to take your new business seriously, you need to consider forming a Delaware C Corp, and that's where Northwest Registered Agent comes in. They're going to give your new company a real identity. That means an address for your public filings, a domain, a custom website, a business email, and of course a phone number. And that's going to take just 10 minutes and 10 clicks. They don't charge hidden fees. Customer service is available around the clock. They're not overwhelming your inbox with spam, and they make it easy to cancel at any time. So get all the advantages of a Delaware C Corp, independent regardless of where in the US you're operating from. Visit northwestregisteredagent.com/twist for more details, and the links are in the show notes. I think that's pretty straightforward, that don't-don't invest in something unless you understand it and you're aware of the risks is a good rule.
+
+**Jason Calacanis:** [11:18](https://www.youtube.com/watch?v=JkvMd86dTMk&t=678s) I'm not buying Mr. MicroStrategy. You know why? Because I understand Bitcoin pretty well. I mean I read the paper, you know, I've been covering it since 2010 on this very podcast. One of the first podcasts ever to cover it. But when Michael Saylor explains these like five different vehicles to get exposure to Bitcoin, I'm like too confusing.
+
+**Lon Harris:** [11:39](https://www.youtube.com/watch?v=JkvMd86dTMk&t=699s) Yeah, there's no way to talk about what he's doing and not make it sound like a scheme. Like every time somebody is like 'I'll explain to you MicroStrategy. Okay, first here's what you got to understand.' Like you've already lost me. Once it's that complicated, I'm not interested. I'll go invest in something, something I can figure out. Yeah.
+
+**Jason Calacanis:** [11:55](https://www.youtube.com/watch?v=JkvMd86dTMk&t=715s) Well here's the idea. Just buy Bitcoin directly.
+
+**Lon Harris:** [11:58](https://www.youtube.com/watch?v=JkvMd86dTMk&t=718s) Right. Or Solana or your coins.
+
+**Jason Calacanis:** [11:59](https://www.youtube.com/watch?v=JkvMd86dTMk&t=719s) Or Solana or Tao, yeah. Well I mean you got choices of where to put your stuff. Okay. Let's get down to it.
+
+**Lon Harris:** [12:03](https://www.youtube.com/watch?v=JkvMd86dTMk&t=723s) Okay, well there's OpenAI released a GPT 5.5/Pro setting apparently a new standard for frontier models. We could talk about that a little bit.
+
+**Jason Calacanis:** [12:13](https://www.youtube.com/watch?v=JkvMd86dTMk&t=733s) Um, great. It's just another yet another model. I don't think the jury's out yet. On this week in AI they will run it through its paces against the previous version and Claude and you can look for that demo video next week.
+
+**Lon Harris:** [12:24](https://www.youtube.com/watch?v=JkvMd86dTMk&t=744s) There we go. I think we're good with news. I think we're ready for Off-Duty. There was there was a story here I did want to talk to you about though. Did you hear about this special forces soldier who apparently bet on the Venezuela Maduro raid on Polymarket?
+
+**Jason Calacanis:** [12:41](https://www.youtube.com/watch?v=JkvMd86dTMk&t=761s) I did. Yeah, it's queued up for the audience here. Um, this is interesting.
+
+**Lon Harris:** [12:43](https://www.youtube.com/watch?v=JkvMd86dTMk&t=763s) Yes. So, federal authorities have charged Gannon Ken Van Dyke on making bets on the raid that removed Venezuela's Maduro from office. Van Dyke allegedly bet $33,000 on Polymarket, 13 total bets starting in December and going through January. He won $409,000 on these bets...
+
+**Jason Calacanis:** [13:01](https://www.youtube.com/watch?v=JkvMd86dTMk&t=781s) Let's go.
+
+**Lon Harris:** [13:02](https://www.youtube.com/watch?v=JkvMd86dTMk&t=782s) ... because he was he was in fact betting that the US would invade Venezuela and remove Maduro from office, which of course they eventually did.
+
+**Jason Calacanis:** [13:14](https://www.youtube.com/watch?v=JkvMd86dTMk&t=794s) Let's go!
+
+**Lon Harris:** [13:15](https://www.youtube.com/watch?v=JkvMd86dTMk&t=795s) So here's the here's the actual Justice Department quote, 'Following his successful trading relating to Maduro and Venezuela related contracts, Van Dyke allegedly sent most of his proceeds to a foreign cryptocurrency vault before depositing them into a newly created brokerage account.' So it kind of seems like he knew he was sort of getting away with something and trying to sort of avoid the authorities. The CFTC is about to hit him with civil charges. And Polymarket apparently are the ones who identified him and turned him over to the authorities. Their statement: 'Insider trading has no place on Polymarket. Today's arrest is proof that the system works.'
+
+**Jason Calacanis:** [13:46](https://www.youtube.com/watch?v=JkvMd86dTMk&t=826s) Okay, so I'm going to say completely reasonable what's happened here in terms of the action that's taken. However, I love the idea of our military placing a bet on themselves. Ha ha ha!
+
+**Lon Harris:** [14:02](https://www.youtube.com/watch?v=JkvMd86dTMk&t=842s) You you do want them to feel confident. I am glad that those guys are going in, or or ladies, I'm glad that they're going in feeling like we got this. That's how I want our military to feel.
+
+**Jason Calacanis:** [14:19](https://www.youtube.com/watch?v=JkvMd86dTMk&t=859s) So I think from where I'm sitting, when I play blackjack or roulette or even poker sometimes, I will if I'm in a funk or I'm feeling frisky, either way, either end of the bell curve, I will move into my patented splashy cashy mode. Yes. And many people have seen me go splashy cashy. So I will, if I'm betting you know $100 hand blackjack and I'm playing three hands, I've got $300 going out there, I'm no big wig here but you know my friends will put like $5,000 a hand, a thousand, but I'm playing three $100 hands. I will take a $25 chip or I'll ask for change. Give me some tens, fives, twenty-fives, whatever. And I put the dealer in.
+
+**Lon Harris:** [15:07](https://www.youtube.com/watch?v=JkvMd86dTMk&t=907s) Sure.
+
+**Jason Calacanis:** [15:08](https://www.youtube.com/watch?v=JkvMd86dTMk&t=908s) You can put the dealer in and I splashy cashy in to change the mojo.
+
+**Lon Harris:** [15:11](https://www.youtube.com/watch?v=JkvMd86dTMk&t=911s) Sure.
+
+**Jason Calacanis:** [15:12](https://www.youtube.com/watch?v=JkvMd86dTMk&t=912s) Especially if I got a cooler dealer, you know, if they're—
+
+**Lon Harris:** [15:15](https://www.youtube.com/watch?v=JkvMd86dTMk&t=915s) If they're chatty, if you're enjoying the— the back and forth—
+
+**Jason Calacanis:** [15:17](https://www.youtube.com/watch?v=JkvMd86dTMk&t=917s) No, no. When I say cooler, if they're, you know, giving me back cards, I'm suspicious of that. But anyway, I go into splashy cashy mode. This is what I think we should do. I think we should take the special forces and we should allow us to place splashy cashy bets for them.
+
+**Lon Harris:** [15:36](https://www.youtube.com/watch?v=JkvMd86dTMk&t=936s) Oh.
+
+**Jason Calacanis:** [15:37](https://www.youtube.com/watch?v=JkvMd86dTMk&t=937s) So if they're going in— like let's say they were going in to get that pilot. And let's say there's 100 guys in the op. I want to be able to put 10K—
+
+**Lon Harris:** [15:50](https://www.youtube.com/watch?v=JkvMd86dTMk&t=950s) Right.
+
+**Jason Calacanis:** [15:51](https://www.youtube.com/watch?v=JkvMd86dTMk&t=951s) —on them succeeding in the mission.
+
+**Lon Harris:** [15:52](https://www.youtube.com/watch?v=JkvMd86dTMk&t=952s) You want to wager on a live combat situation.
+
+**Jason Calacanis:** [15:54](https://www.youtube.com/watch?v=JkvMd86dTMk&t=954s) I want to be able to put 10K. This is incredibly depraved, I know.
+
+**Lon Harris:** [15:57](https://www.youtube.com/watch?v=JkvMd86dTMk&t=957s) It's a little bit. I feel like this is a dystopian sci-fi movie I can envision where rich guys are betting on the war as it's playing out on monitors.
+
+**Jason Calacanis:** [16:05](https://www.youtube.com/watch?v=JkvMd86dTMk&t=965s) No, I don't want the proceeds from it. I want to put the 10K and let them get the return.
+
+**Lon Harris:** [16:10](https://www.youtube.com/watch?v=JkvMd86dTMk&t=970s) Forward it to the SEALs or yeah, SEAL Team Six or whoever's like— whoever's in charge. It's fascinating that you would say that, because you and President Trump, he was asked about this. Uh, and your perspectives are very aligned. I'm going to share— yeah.
+
+**Jason Calacanis:** [16:25](https://www.youtube.com/watch?v=JkvMd86dTMk&t=985s) Yeah, this is not good. When— when Kara Swisher calls me Mini Trump, this is not good that we're so aligned. Oh no.
+
+**Lon Harris:** [16:31](https://www.youtube.com/watch?v=JkvMd86dTMk&t=991s) Here's what our president had to say. Can you guys hear that? I like it. He's got a little bit of confidence. I like the fact that he's confident and I love the soldiers making a little bit of cheddar. Was he betting that they would get in or they wouldn't get in? It sounds like he was betting on his removal from office, that Maduro would be removed. It sounds like he was involved in the operation. That's like Pete Rose betting on his own team. That's what kept him out of the Hall of Fame because he bet on his own team. Now, if he bet against his team, that would be no good. But he bet on his own team. I'll look into it, yeah. There you go. He's not upset about it because he's betting on his own team. One more, here's one more little snippet of Trump's reaction which I thought this— this really struck me. There's a little bit of a melancholy tone that the president strikes in this— this second answer. So here he was asked like, 'well what do you think about we hear a lot of these stories about federal employees getting caught insider trading with this information on prediction markets?' And they asked him just like, 'what do you think about that more generally?' And here was Trump's answer. The whole world unfortunately has become somewhat of a casino and you look at what's going on all over the world in Europe and every place they're doing these betting things. I was never much in favor of it. I don't like it conceptually but it is what it is. No I don't think I'm very happy with any of any of that stuff, but they have all these different sites they're predictive markets, it's a crazy world, it's a much different world than it was.
+
+**Jason Calacanis:** [17:56](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1076s) Mm.
+
+**Lon Harris:** [17:57](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1077s) Alright, there you have it folks. Ponderous answer from our— from our president. It- it seems like he's really thinking about this in a way he doesn't always engage with questions from the press.
+
+**Jason Calacanis:** [18:04](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1084s) But I mean listen, he's not into alcohol, he's not into gambling, he is into golf. I don't know if he gambles on his golf or wagers. I heard sometimes he's a little lucy-goosy with his gimmies...
+
+**Lon Harris:** [18:15](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1095s) Yes, that's what they say. I think 'gimmie' is the term for it. Yes, that's what they say.
+
+**Jason Calacanis:** [18:18](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1098s) He's like, 'That's a gimmie.'
+
+**Lon Harris:** [18:20](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1100s) They're like, 'Sir, you're 30 yards from the pin. That is not a gimmie.' Three inches is a gimmie. One yard is a gimmie. When you own the club, you know, who's going to tell you? You're—
+
+**Jason Calacanis:** [18:30](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1110s) Whatever. Anyway, listen, I— he is non-alcohol, he is non-gambling. Okay, fair enough. I think wagering is an important skill for people to learn. I like Annie Duke's framing of it, 'Thinking in Bets.' Poker great Annie Duke. We should have her back on the pod. We actually produced the Annie Duke show for a while, which she first got into podcasting, and at— the original This Week In when we were doing it back in the day and we had the—
+
+**Lon Harris:** [18:57](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1137s) The Charlie Rose set, it was all black behind us.
+
+**Jason Calacanis:** [19:00](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1140s) Yeah, we were way too early on that one. But here we are, rebooting, it will be starting 'This Week in Venture Capital' back up, so we'll have three 'This Week In' shows sometime in the May, June timeframe. So just teasing that. But look out for that. 'Thinking in Bets'—always good. If you're a startup founder you're going to have to do this. And we're all doing it all day long. So we do it when we're like, 'Okay, I'm going to go to the airport, how much time do I need?' You're placing a bet, you know, in terms of how many minutes. There's the book, 'Thinking in Bets,' it's a quick read, get the audiobook, I think she reads it. Just required reading. So I guess we'll start 'Off Duty' here, and I'll give you 'Thinking in Bets' as a great book from the great Annie Duke, who was a, you know, real pioneer in poker, in terms of a female in poker who dominated the field in those early days of the poker boom. And now she is a consultant to, I think, venture firms, she might even be working at a venture firm now. 'Thinking in Bets.'
+
+**Lon Harris:** [20:07](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1207s) When I first started watching poker on TV, she was like the one, the one lady who was in the upper echelon, like, the championship ring all the time, was Annie Duke.
+
+**Jason Calacanis:** [20:16](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1216s) Hiring can be its own full-time job. And hey, guess what? I already have a full-time job. I make podcasts and I invest. But when you're running a small company, we both know, every hire matters. You don't want to waste any of the seats you have at your company. And the best partner you can have is LinkedIn Hiring Pro. Why? There's a billion people using LinkedIn. All the great talent are there. If you're proud of your work, you build a LinkedIn page and you update it. LinkedIn Hiring Pro is going to streamline and simplify the entire process for you. Nearly 60% of companies using LinkedIn Hiring Pro, you're going to get an incredible candidate to interview in the first week. And you know, we're looking for a new producer for the pod. We did shout-outs here on the show, we posted it on my social media, we asked friends, you know where we found our next great hire? LinkedIn. And it was competitive. We had like three or four really good choices. So hire right the first time. Post your first job and get $100 off towards your post at linkedin.com/hiringpro. offer. That's linkedin.com/hiringprooffer. Terms and conditions apply. That was at a time when it was pretty misogynistic and like, oh, women don't have intimidation, they don't have bluffs in them.
+
+**Lon Harris:** [21:14](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1274s) Yeah, yes.
+
+**Jason Calacanis:** [21:16](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1276s) They're not aggro, they're not aggressive, they're not strategic, they're not mathematical. I mean, it was pretty, I remember when I started 25 years ago playing cards, or yeah, about that. It, you know, it was not friendly to women.
+
+**Lon Harris:** [21:31](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1291s) And it was not a friendly environment.
+
+**Jason Calacanis:** [21:32](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1292s) And people thought well, you could just bully any woman at the table. And I watched it. People would, you know, you'd have nine guys, you'd have eight, nine guys and a female at a World Series of Poker table or at Commerce Casino, Hollywood Park, you'd have eight guys and a woman. And I would watch the guys would test the women much more. They would raise them, etc., which, if you're, if that's happening to you and people perceive you as weak and they're betting into you, you can exploit that, because you can just tighten your range, play stronger hands, or re-raise them. There's a lot of ways to effectively counter that.
+
+**Lon Harris:** [22:05](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1325s) There's a great Netflix documentary called Queen of Chess that's out there right now, that's about, and it's fascinating because it's exactly the same in the world of chess. When women first started playing in the 60s, 70s, even the 80s, all the male chess players were like, they don't have the right constitution, they're too emotional, they're not logical, they can't do the math, like whatever, whatever. And it's about, you know, this early female chess champion who was playing Garry Kasparov and the top players in the world and was really like pushing back against that.
+
+**Jason Calacanis:** [22:35](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1355s) Is she the one who Queen's Gambit is based on?
+
+**Lon Harris:** [22:38](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1358s) No, I mean Queen's Gambit is a fictional story that's just like was a novel that was just I guess loosely inspired by some of these stories.
+
+**Jason Calacanis:** [22:50](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1370s) Oh okay, but this isn't like the direct one.
+
+**Lon Harris:** [22:51](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1371s) No, no. This is Judith Polgar, she's a Hungarian chess prodigy and starting as a teenager she was playing against like the top competitors in the world and she had this kind of rivalry with Garry Kasparov, the sort of famous Russian champion who he played Deep Blue famously, the IBM AI computer in those early days. Anyway, this is a great, it's a great documentary that follows her whole trajectory. Obviously famous for...
+
+**Jason Calacanis:** [23:12](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1392s) Yeah, so Kasparov now very famous for challenging stats in support of Putin and Russia. Those two get into it all the time. He's like, "I am from Russia, I am Russian."
+
+**Lon Harris:** [23:22](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1402s) He sounds exactly like Garry Kasparov in the movie. He's in this movie. He's like, "You cannot trust, you like the greatest chess player of the world is telling you you can't trust Putin."
+
+**Jason Calacanis:** [23:32](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1412s) Yeah.
+
+**Lon Harris:** [23:32](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1412s) Hilarious.
+
+**Jason Calacanis:** [23:34](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1414s) Hasan Piker is a streamer who's very far left, socialist left, and has said a bunch of spicy things that people are concerned about. Like killing landlords and letting their blood flow in the street, which I thought was a joke of a quote, but it turns out people very quickly showed me the quote and he's being bombastic performative, I guess. But there's been a lot of hand wringing on the left. This isn't a political show, but... When we go off duty, we'll delve into things because this is an important one because it speaks to anti-corporate sentiment. So I think I'm well within the Twist purview to talk a little bit about this. Now, and I'm also I'm a media executive. The New York Times hosted this discussion on their opinions podcast and their culture editor hosts it. She is... yeah, here she is.
+
+**Lon Harris:** [24:24](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1464s) Najja Spiegelman. Najja Spiegelman.
+
+**Jason Calacanis:** [24:27](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1467s) Najja Spiegelman. Najja Spiegelman. Okay, so she is smiling here and this is a very jovial podcast. Why is that important? Well, it's three millennials in their mid to late thirties, 36, 37-ish. These are adults who've been in the workforce for 15 years. They're very well educated. One of them works for the New Yorker, one of them works for the New York Times, and one of them is one of the most followed streamers. These are legitimate, you know, seemingly intelligent, well-spoken individuals in a discussion here. And the first thing I think as a quote we should probably start with is the concept of micro-looting and then maybe go to macro-looting.
+
+**Lon Harris:** [25:03](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1503s) So, Jacob, this is the one that starts early on, like 18 seconds in is where she defines micro-looting. Okay, so go here. Here we go. Micro-looting. I started going into the grocery store. I would pick up the thing that I wanted and then I would go. It's a survival technique. Gotta eat to live, gotta steal to eat. You're paying for that, right? No, babe. Food is a human right. People are taking small things from big corporations and they're feeling justified. Like, look, everyone's shoplifting from Amazon, this funny shoplifting's what we call micro-looting. Okay.
+
+**Jason Calacanis:** [25:36](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1536s) So this is micro-looting and you can like they put that, you know, soundtrack behind it and she's smiling and hamming it up about micro-looting. Micro-looting is stealing. It's petty crime. Putting a new name on it does not make it less abhorrent. You should not steal, but this discussion quickly escalated.
+
+**Lon Harris:** [25:58](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1558s) Escalated, escalated to loot maxing.
+
+**Jason Calacanis:** [26:02](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1562s) Yes. So let's tee up, if you would. Would you steal from the Louvre? Yes. I would not be logistically capable of executing such a feat, but would I cheer on every news story of people that I see doing it? Absolutely. Voila. Yeah, I think it's cool. We gotta, we gotta get back to cool crimes like that. Like, you know, bank robberies, right? Stealing, stealing priceless artifacts, things of that nature. I feel like that's way cooler than the 7,000th new cryptocurrency scheme that people are engaged with.
+
+**Lon Harris:** [26:29](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1589s) Okay, so let's stop there. I feel like part of it, I feel like what's going on is that they are talking like you would talk on a podcast. Like that's exactly the sort of thing I would say on like a movie podcast, not being intended, like, I don't really think you should steal anything, certainly not from the Louvre.
+
+**Jason Calacanis:** [26:51](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1611s) But you wouldn't say this. You wouldn't say steal from the Louvre. You might make a joke about a movie, please— I might be like, you know what, I miss when people were doing cool crimes. Like I might say something like that being ironic and flip, but that doesn't mean I really want to go, I'm never going to do a bank robbery. I don't think it's actually cool to rob a bank.
+
+**Lon Harris:** [27:11](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1631s) So let me parse this. You're giving them far too much comfort. This is the New York Times, the paper of record. This is a serious publication. This is not just a random podcast.
+
+**Jason Calacanis:** [27:23](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1643s) Exactly.
+
+**Lon Harris:** [27:24](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1644s) This is the editorial leader, I believe, of the opinion page, this or one of them.
+
+**Jason Calacanis:** [27:30](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1650s) She's the, she's the opinion culture editor. So she's the culture editor of the Op-Ed page.
+
+**Lon Harris:** [27:34](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1654s) Perfect. And listen, Hasan is just an individual voice, okay, more power to him. He's like Fuentes or, you know, Tucker or Alex Jones, like these are spicy people. I get it. They're performative. But the other two represent The New Yorker, the 150 IQ legendary, we only hire the best, most thoughtful people to express, you know, important ideas and to drive the culture forward. These are two legendary publications I grew up with that I had in my home from the moment I could read I was reading these publications and read them for my entire life for 30, 40 years. This is disgraceful to host a conversation like this where you're seemingly taking it serious. I think there's a large portion of the audience that is going to take this as serious and be inspired by it to go micro-loot. Now they might not loot macro, but if you're a disturbed person, if you're on the fringe, you might very well take this thinking and this ideology to other places. So when you are a media brand of note, it could be This Week in Startups, it could be All-In, it could be New York Times or New Yorker, legendary publications, you have an obligation to think through what you say. I have learned this many times when I get clipped and people say, oh my God, you said this, you said that, oh my God, you were wrong about this.
+
+**Jason Calacanis:** [28:40](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1720s) It happens to the best of us.
+
+**Lon Harris:** [28:42](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1722s) So you have a responsibility. The entire tone here is so off that you're laughing and encouraging people to do it. You're not at a bar, you're not at a birthday party, you're not at a dinner party. You're representing the New Yorker, you're representing the New York Times. Hasan's representing himself. Be more thoughtful and understand you're inspiring people because when you look at how people feel about corporations right now, the next bomb drops. And this is where, you know, you have to be incredibly judicious about how you say things. This all ends with a discussion of quote-unquote social murder as a subset of murder and assassinations.
+
+**Jason Calacanis:** [29:56](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1796s) Social murder. Let's hear about it.
+
+**Lon Harris:** [29:58](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1798s) Most people feel that murder is morally justified and I'm curious how we, how we thread. That line. Yeah, um, Engels wrote about the concept of social murder and Brian Thompson as the United Healthcare CEO was engaging in a tremendous amount of social murder. The systematized forms of violence, the structural violence of poverty, the for-profit paywalled system of healthcare in this country and the consequences of that are tremendous amounts of pain, tremendous amounts of violence, tremendous amounts of deaths. And that was a fascinating story for me because Americans are very draconian about crime and punishment. They're very black and white on this issue. And yet, because of the pervasive pain that the private healthcare system had created for the average American, I saw so many people immediately understand why this death had taken place. Even before they knew who the shooter was or what the motive was, we had universalized this pain, so much so that virtually every American has a similar experience, a shared experience where they have a loved one that spent their last days, instead of spending them with their family, spending it on the phone talking to their healthcare provider to maybe get a little bit of economic respite so they don't carry on medical debt for their next generation, for their next of kin.
+
+**Jason Calacanis:** [31:51](https://www.youtube.com/watch?v=JkvMd86dTMk&t=1911s) Okay, that sums it up. That's pretty much the idea. All right, so listen, I didn't go to graduate school. You can use all the fancy terms you want, social murder, structural violence. You can be as disappointed as you want. You can't encourage or not condemn assassinations and murders. There's no justification for killing the CEO of United Healthcare. It doesn't matter how much you suffered. If United Healthcare caused you suffering, that is not the proper vehicle, assassinating people. This is crazy and deranged behavior that's all being bundled together. Stealing, grand stealing, and violence towards individuals you disagree with. We live in a democracy. You can very easily, as we've seen, elect Mandami to pursue socialist versions of the healthcare system and deprecate, say, a capitalist version of it. They've got him in office right now. He's going to make socialist grocery stores instead of capitalist grocery stores. You're going to make buses free. That's the proper channel. You just under no circumstances can start to normalize The murder of anybody, whether it's, you know, cops murdering somebody, ICE beating people up on that side, or killing of CEOs. There is no moral equivalence here. All violence is immoral, as Martin Luther King said, as Jesus said, as countless people have pointed out. If a person who is destitute steals a loaf of bread and writes an IOU, okay fine. Their kids starving, they take a loaf of bread, they write, 'I'll pay you back when I get the money.' I understand that philosophical debate. But, you know, here, this is an incredible fail by the New York Times, incredible to not immediately say and disclaim and discredit a person murdering a father, a CEO, because they disagree with how they provide a product or service. I'll just leave it there.
+
+**Lon Harris:** [33:53](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2033s) I don't think, yes, there's no justification for murder, for shooting a guy on the street in the back. I mean, to me, I always come back to the, you know, if you're embarking on a plan of revenge, dig two graves. Like violence is this endless cycle, it doesn't ever solve the problem, it just, now people are killing each other on top of this problem already existing. I believe that.
+
+**Jason Calacanis:** [34:13](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2053s) Correct.
+
+**Lon Harris:** [34:14](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2054s) I do think at the same time, I- I think that we're in this place because people do feel a little bit justifiably helpless. Like you could say sure you could elect a guy like Mamdani, but we've been trying to elect people in this country to fix the healthcare system for most of my lifetime. I mean, remember HillaryCare was the 90s when we were begging the Clintons like, 'Please do something about this'.
+
+**Jason Calacanis:** [34:46](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2086s) It is a seemingly intractable problem in the United States where we pay twice as much per person for healthcare. People feel disappointed in it, but yet we have the best healthcare in the world.
+
+**Lon Harris:** [34:52](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2092s) Right, we have the best technology, agreed.
+
+**Jason Calacanis:** [34:56](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2096s) Agreed.
+
+**Lon Harris:** [34:57](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2097s) And- and that's the frustration I think is people looking through the window seeing this amazing healthcare system that we- we can't all get equal access to. So I do- I think you have to acknowledge those feelings, while at the same time pointing out murder's not the answer. I think it's kind of the same thing with the data centers. Like Americans hate AI, they see these endless AI deals happening, these 10 billion, 20 billion dollar deals every day
+
+**Jason Calacanis:** [35:10](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2110s) Huge numbers.
+
+**Lon Harris:** [35:12](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2112s) in the newspaper, people getting fired, and they feel helpless. And the data centers are the one thing that's like, 'Oh, I can do something about this. I can like stop a data center in my town, it's my way of taking back a little power.' So I think you have to acknowledge those feelings while at the same time pointing out murder is not the answer.
+
+**Jason Calacanis:** [35:26](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2126s) Nor is stealing.
+
+**Lon Harris:** [35:27](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2127s) I- I don't think stealing from a- stealing from a store, no matter what the store is, is not the answer. Stealing from the Louvre clearly isn't the answer because that's the property of the French people. Uh, but...
+
+**Jason Calacanis:** [35:46](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2146s) I mean if you were going to make that analogy... Oh, by the way, that woman from the New Yorker, turns out her last name is Spiegelman, and I was like okay, let me figure that out. Like that doesn't seem like her ethnicity. Turns out her...
+
+**Lon Harris:** [36:00](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2160s) Her dad is the author of Maus, the amazing graphic novel. Art Spiegelman is her dad. She's a massive nepo baby. Her dad is probably... she's a nepo baby.
+
+**Jason Calacanis:** [36:13](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2173s) I had no idea that was Art Spiegelman's kid.
+
+**Lon Harris:** [36:15](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2175s) I've literally had 20 people DM me. I went to Yale with her. This is like a massive person of privilege. And I'm like, oh my god.
+
+**Jason Calacanis:** [36:27](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2187s) So, alright, Lon, let's unpack this a little bit.
+
+**Lon Harris:** [36:28](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2188s) If you haven't read the graphic novel Maus, please, like that's enough.
+
+**Jason Calacanis:** [36:30](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2190s) Unbelievable. Just chef's kiss incredible. Buy it and, yeah, read it with your kids. Unbelievable piece of art. Alright, so there's, okay, so for Off Duty in our thing here, we've got go watch this Opinions podcast and understand that. Go buy Maus, the graphic novel, you'll just keep it forever. You got Annie Duke's Thinking in Bets, and you got this chess documentary called...
+
+**Lon Harris:** [36:55](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2215s) Queen of Chess on Netflix. Queen of Chess.
+
+**Jason Calacanis:** [36:56](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2216s) So we're moving here through it. Let me address your helplessness issue. If you feel helpless, you need to reassess some things. You live in one of the great economies in the world where you can move to different states or you can leave the country. People in China cannot leave the country. People in India, by and large, cannot leave the country and go somewhere else. You can go to Spain. I've had family members go to Spain, move to Canada, move to other places where they have universal health care, and they get access to the universal health care very quickly, by the way. You can opt out of the system here without murdering a CEO. You can, and you know, listen, I don't want to give credit to Kara Swisher and Prof G, Professor Galtakes...
+
+**Lon Harris:** [37:46](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2266s) Professor G, yeah.
+
+**Jason Calacanis:** [37:47](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2267s) Who, by the way, I'm going to be on Prof G Markets. I'm doing a debate with Ro Khanna on the wealth tax. So, the kid who runs it with him, his co-host, asked me to be on. I was like, 'Okay, yeah, that sounds like it would be entertaining'.
+
+**Lon Harris:** [38:05](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2285s) Fantastic. Yeah, that'll be good. That should be pretty funny. We'll have to, you and I, do some debate prep for Ro Khanna versus the asset seizure wealth tax.
+
+**Jason Calacanis:** [38:14](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2294s) Anyway, he did a thing on his podcast where he said, 'Resist and Unsubscribe'. He, like me, thought this ICE violence was crazy. He said, 'Here's a way to get Trump's attention: tank the stock market'. How do you tank the stock market? You unsubscribe. And pull up 'Resist and Unsubscribe' and the list of companies. He basically said, 'I'm going to ask my audience, which is large, to unsubscribe from these companies'. And he was asking: unsubscribe from Uber, unsubscribe from Amazon Prime, unsubscribe from ChatGPT. There's a list here of all the different companies: Apple, Amazon, Google, Microsoft, Paramount, and Meta, Uber, OpenAI, AT&T. So he's literally taking... by the way, I think this list, if you held it up and you held up the sponsors of the Prof G Pod... No, I mean I'll give Prof G, Prof G, or as we call him Prof Cold Takes because he's made... he's like Tesla was going to zero and he thought Macy's was going to beat Amazon. He's got some pretty weird takes. Putting all that aside... putting aside, you know, that he trashes me and my friends incessantly, he's correct. If you want to, you have economic power in this country. You simply stop going to Whole Foods, you simply opt out of these subscriptions. There are ways to do this that are non-violent and not stealing. You are under no obligation to have 20 services. You could share your Netflix password, you could go over your friend's house and watch Netflix, you can opt out of this and that sends the best message. The problem is, people who even have these feelings, they're consumers like everybody else, they love capitalism's output. They love the fact that you can go on Amazon and buy anything. They're all Amazon Prime. If you actually don't feel this way, take six months to stop buying things. It's easy to do, I've done it. I'm a person of privilege. I have said to myself I'm not buying anything on Amazon for a month and I have kept myself to it. I have because I'm just like you know I have too many boxes around, I'm buying too much stuff, let me absorb what I've already bought. And I go through an unsubscription binge every year. He's right, there is such a clean message you can give to people through protesting, through unsubscribing. Now, I don't understand why people are still buying ads on a podcast where they're telling you to unsubscribe from the product. That to me is a little bizarre.
+
+**Lon Harris:** [40:42](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2442s) You gotta keep that funnel going, you know, you need new users, I guess.
+
+**Jason Calacanis:** [40:47](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2447s) Wait, what's going on here? You're sending Prof G $15 million in advertising, he said, in order for him to tell people to unsubscribe from your thing? You guys have Stockholm Syndrome.
+
+**Lon Harris:** [40:58](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2458s) It's interesting that for him unsubscribe does not mean stop accepting their advertising revenue, it just means stop buying their products. In only one way, the other way is still okay.
+
+**Jason Calacanis:** [41:11](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2471s) But anyway, this is the simplest way to do it. That's all. Just opt out.
+
+**Lon Harris:** [41:12](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2472s) Well, I mean, that's what I always come back to is like when an influencer podcaster goes on the air and starts telling me, quoting Engels and the Communist Manifesto and he's like 'well are you a communist?' a Bolshevik would be like 'what are you doing sitting in that studio, get out there and start lighting government buildings on fire' you know like have a revolution.
+
+**Jason Calacanis:** [41:34](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2494s) Dangerous. We are not advocating this.
+
+**Lon Harris:** [41:35](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2495s) I'm not advocating. Of course I don't want a communist revolution but I'm saying if you did, if that was your perspective that capitalism is corrupt we have to tear down the entire system and make a new system, that's not what these people are doing. They're not invested in overthrowing anything. They all seem very comfortable. So I think you always have to take that with a grain of salt if somebody is like firebrand radical... Go we have to like upset the system and like we have to have a revolution and get rid of capitalism in this country like okay but it's hard to take that seriously when you're in a New York Times studio shooting a podcast and you're usually like streaming live on the internet for five hours a day in your nice house and like I don't know it just seems a little-
+
+**Jason Calacanis:** [42:20](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2540s) This is how I felt about environmentalist the environment movement there was a guy Ed Helms I think was his name the actor-
+
+**Lon Harris:** [42:26](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2546s) Yeah St Elsewhere
+
+**Jason Calacanis:** [42:28](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2548s) Ed Begley Jr. sorry I just I was trying to-
+
+**Lon Harris:** [42:30](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2550s) Huge environmentalist he yes yes
+
+**Jason Calacanis:** [42:32](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2552s) He did not own a car
+
+**Lon Harris:** [42:33](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2553s) Right
+
+**Jason Calacanis:** [42:34](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2554s) Took the bus. Bicycles everywhere and yes-
+
+**Lon Harris:** [42:37](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2557s) Bicycles everywhere yes
+
+**Jason Calacanis:** [42:38](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2558s) He has a a grey water system at his house. He uses solar. He will not buy packaged stuff. He buys unpackaged stuff. He lives the life.
+
+**Lon Harris:** [42:53](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2573s) Yeah he's very-
+
+**Jason Calacanis:** [42:55](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2575s) Then we had people coming to TED crying on stage about the environment and they flew there on a G650 and they own seven homes and each of the homes is 20,000 feet and it's air conditioned when they're not there. Like if you really actually feel this way and you're let's say Bernie Sanders who owns I think he owns four homes or something like that-
+
+**Lon Harris:** [43:06](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2586s) Okay
+
+**Jason Calacanis:** [43:07](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2587s) That seems like you're not walking the walk bro and if you're in first class like you're not a man of the people and if you're spending money on all this crazy stuff for your campaign you're not walking the walk. So if you're gonna be pious like this if you're gonna be Hasan if you're gonna be you know Spiegelman whatever like and you believe in stealing stuff well maybe start at home like what can you give up to the people who are poor and can't afford food like I would just like to see some on balance behavior that actually means you're walking the walk and there are examples of this everywhere. You can opt out. I live in the great state of Texas. I don't know if you know the place Lon.
+
+**Lon Harris:** [43:57](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2637s) I'm familiar.
+
+**Jason Calacanis:** [43:58](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2638s) In this great state there are people who homeschool. They're like I don't believe in the education system I don't like what they're teaching I want to teach it at home I'm religious I have my own ideas I think I can do a better job. They homeschool. They are like you know what I'm gonna hunt deer I know this sounds crazy and I'm gonna have a chicken coop and I'm gonna have a well and I'm gonna put solar on my ranch. Like I'm part of that community of be self-sustainable live off the land have chickens I have chickens I have eggs I haven't bought eggs for a couple years now. I I don't hunt yet but I'm going to I'm going to learn how to hunt I want to learn how to you know kill my own meat whatever. I think at a certain point walking the walk is what I would say to these folks.
+
+**Lon Harris:** [44:35](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2675s) Yeah in fairness to Bernie not a communist a social- democratic socialist so he's not saying we should go you know like light all the buildings on fire and overthrow the government. He does own three homes though.
+
+**Jason Calacanis:** [44:47](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2687s) I mean and his net worth is like 30 or 40 million I think.
+
+**Lon Harris:** [44:51](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2691s) Yeah certainly yeah he's got a home in Burlington Vermont in a middle-class neighborhood he's got a home in DC because he's a senator and he's got a summer camp on Lake Champlain.
+
+**Jason Calacanis:** [45:00](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2700s) Plain in Vermont.
+
+**Lon Harris:** [45:01](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2701s) Yeah, that's the one.
+
+**Jason Calacanis:** [45:02](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2702s) There you go.
+
+**Lon Harris:** [45:03](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2703s) That's the one I've seen pictures of, and you're like, come on, bro.
+
+**Jason Calacanis:** [45:06](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2706s) Purchased for about 575,000 dollars.
+
+**Lon Harris:** [45:10](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2710s) In like 1972, I think.
+
+**Jason Calacanis:** [45:12](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2712s) Presumably. I think it's a 50 million dollar house now.
+
+**Lon Harris:** [45:15](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2715s) Probably.
+
+**Jason Calacanis:** [45:15](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2715s) All right, listen, last thing here, greenlight.com. Again, not a sponsor, but I'm teaching my kids about money, and I want to do this kidsinvestmentclub.com where we teach kids about betting and back to Annie Duke's book on betting and just the gambling culture in generation bet. greenlight.com allows you to give a credit card to your kids, but you can also let them invest in companies as well. So we are, you know, doing the allowance thing and giving money for chores, and you get like savings goals, and you can use this credit card to go buy stuff and it just teaches you how to invest, chores and allowance, cash back, savings.
+
+**Lon Harris:** [46:08](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2768s) Yeah, it's like Robinhood for kids.
+
+**Jason Calacanis:** [46:09](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2769s) It's Robinhood for kids, basically for financial literacy.
+
+**Lon Harris:** [46:12](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2772s) Yeah. That's great. That's very clever. I wish something like... I wish this existed when I was a kid. Nobody was like, you should teach your kids how to invest in anything or you should teach your kids about banking. Like I was learning three words in like 18 different languages when I was a kid. That was my education.
+
+**Jason Calacanis:** [46:29](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2789s) This should be the first thing we teach kids. Kids need to understand about money, and like check out this, they have a game in this. There's a game, level up, where they like quiz you on stuff, and I am super interested in this space. In fact, I started, so if you pull that up, Lon, kidsinvestmentclub.com. So I'm sorry, this is the greenlight one and listen, they're not sponsors or anything, but I just think it's a cool product. And then there's kidsinvestmentclub. So I was looking for a CEO or a general manager for this. If anybody wants to be the CEO or general manager of kidsinvestmentclub.com, I have the domain name, I have teeninvestmentclub, etc. So and I've got probably 2,000 people who gave me their emails. So if you pull up kidsinvestmentclub.com, you'll see it there right now. There we go. If somebody has... wants a job, I would start this with you. My idea is to charge like 500 dollars a year for parents and their kids to be part of this and then have 50 weeks of programming, two weeks off, or maybe 52 weeks of programming and make it a live zoom, and then 52 lessons in finance, and then have different finance people come in and you can come to a live zoom and I think we could have 10,000 people paying 25 bucks a month, 50 bucks a month for their kids, and then all the archives. So to be part of the live thing and like maybe you do it like a course, I don't know, but there's some way to do this to make it sustainable and hire a team of five or 10 people. Able to like actually do this at scale and make it a for-profit business and then all the videos eventually come out for free for everybody just, you know, if you don't have money, but if you want to be part of it, you pay 500 bucks to be part of it, you take the course, you get a certificate, now your kids graduating high school or elementary school with a certificate in personal finance.
+
+**Lon Harris:** [48:23](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2903s) Yeah. It's just so important to know and I know there's no effort in public school ever. They just send you out into the world at 18 and it's like there you go, figure out how money works. There's no effort to educate kids into how how to be smart about credit cards, investing, how to even save, just the basics of how to make a budget that you can follow.
+
+**Jason Calacanis:** [48:41](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2921s) You know who gets taught this? I realized and I learned in my life. I mean, who gets taught this?
+
+**Lon Harris:** [48:45](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2925s) The children of wealthy people.
+
+**Jason Calacanis:** [48:47](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2927s) Correct. Yeah. You know who doesn't get taught this? Kids who go to public school. Yeah. You go to public school this this doesn't come up. If you if you come from a rich family they're like let me explain to you corporate debt, let me explain to you margin loans, let me explain to you ETFs. You just sit there with your mom or dad and they explain all this stuff to you and then you got some finance person in your family office, you got some rich uncle and they sit you down and they they teach you all this. They teach you all of it. And they tell you what to do and what not to do and the rich get richer and the poor stay poor. I'm listen I'm going to start sounding like Hasan Piker and GS Spiegelman.
+
+**Lon Harris:** [49:25](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2965s) I think the answer is micro-looting, Jason. I mean...
+
+**Jason Calacanis:** [49:28](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2968s) No, it's it's macro-looting in the Louvre and selling the Venus de Milo and then putting that into crypto. No, it's just like you can get educated and have InvestAmerica. All right listen, we did a lot of show today, I have an idea here. Did we do enough show to not have off duty part of the main show? You think?
+
+**Lon Harris:** [49:46](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2986s) Yeah, we could save it for Monday or something. You want to save it?
+
+**Jason Calacanis:** [49:48](https://www.youtube.com/watch?v=JkvMd86dTMk&t=2988s) Well no I have an idea. What if off duty we release as a separate episode just take one of the sponsors and add them to it for the weekend or something if we have like any sponsor that needs a little extra love? We'll see you all on Monday on This Week in Startups. Bye-bye. Do me a favor, check out thisweekinai.ai, sign up for the email, follow us. You know, we gotta wake up the YouTube channel, so any comments you put under there, you subscribe, you put on alerts, if you thumbs up a video, if you save a video to a playlist to watch later, all of that gives a little signal that YouTube should pay attention to what we're doing and we'll see you all on Monday. Bye-bye.
+

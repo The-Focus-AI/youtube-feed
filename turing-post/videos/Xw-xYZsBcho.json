@@ -1,0 +1,402 @@
+{
+  "title": "GENE-26.5 Explained: Why Genesis AI’s Robot Hand Is a Data Story",
+  "source_url": "https://www.youtube.com/watch?v=Xw-xYZsBcho",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Look at these fingers. Never before could a robot do that autonomously with such speed. And I'm excited for one very particular reason. One day, I imagine a robot can pick up tiny little Lego pieces from the floor, and every parent knows how hard it is to pick those pieces up and how painful it is to step on them.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So robotics are getting real. And Genesis AI just proved it with GNN 26.5 doing physical manipulation at 1x speed. And the breakthrough here is in very tiny adjustments: pressure, regrasping, timing, and two-hand coordination. But the surprising part is to discuss why this robot hand actually is a data story.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:00:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Welcome to Attention Span. My name is Ksenia, and let's deconstruct what we just saw.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:00:53",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Who's behind this company? Genesis AI was founded by Joe Sun and Théophile Gervet. Joe Sun has a PhD in robotics from Carnegie Mellon, and Gervet previously worked at Mistral AI, Meta AI, and Scale AI. This is a European company. The company emerged with a 100 million seed round backed by such giants as Khosla Ventures and Eric Schmidt and others.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:23",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What they're trying to build is a general-purpose robots. That phrase gets used a lot, so let's make it precise. The target is physical work across environments: you know, automotive, electronics, logistics, pharmaceutical labs, and other places where standard automation still struggles because the task is too delicate, variable, or contact-heavy. These robots are also going to be the mommy helper, at least I hope.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:01:51",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So the keyword is manipulation, in a very good sense, because in robotics, manipulation means changing the physical world with hands, fingers, tools, force, and contact. Moving across a room is difficult for a robot, but handling an egg, closing a small tube, tapping a cable bundle, or regrasping a slippery object is a complete kind of difficulty. So the reason is that physical work depends on tiny corrections. A human does them without thinking, you know, you feel that object is slipping, so you change grip, you adjust pressure, you move the tool by a few millimeters. None of this bothers you when you do it, but it becomes extremely difficult when a robot has to do it.",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:02:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is the problem Genesis is tackling. Language models, in that sense, had a huge advantage. Text already existed in digital form. Robotics do not have that luxury. The most valuable data for physical work lives inside human hands, wrists, habits, tools, and muscle memory. A lab technician knows how much force to use on a pipette. An assembly worker knows how a cable feels when it's seated correctly. A cook knows exactly how to hold a tomato and then slice.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That knowledge has been with us for forever, but most of it has never been recorded in the form a robot can learn from.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The difference in the approach is that Genesis is trying to build a whole stack. They are building the body, the data system, the model, the simulator, and the controller together.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:19",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "First, there is the hand. Genesis Hand 1.0 is a human-scale robotic hand with 20 active back-drivable degrees of freedom. It has soft material across the palm and fingers to make contact more similar to human skin.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:33",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Have you ever thought why robot hands resemble human hands so much? It is because our whole world is created for humans. And if the robot hand is physically closer to human hand, then human motion becomes easier to turn into robot motion.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:03:47",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Second, and this is a very interesting part, there is the glove. Genesis says it's their data collection, and this data collection glove captures motion, force and touch.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The company describes the mapping as one-to-one-to-one between the glove, the human hand and the robotic hand.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:05",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That is the crucial idea. The hand is the actuator, but it's also part of the data strategy. If a worker can wear a glove while doing real work, Genesis can collect demonstrations from actual tasks.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:17",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The data does not have to come only from a person awkwardly tele-operating a robot in a lab. Genesis says its data engine combines glove data, egocentric video, third-person video, internet video, robot data and simulation.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:35",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It also says it has collected more than 200,000 hours of multimodal data. That's outstanding.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:04:42",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Third, there is the model. Gene is trained across language, vision, proprioception, tactile sensing and action.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:50",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Proprioception means the robot's sense of its own body. Think of it, it's crazy. Where the joints are, what the hand is doing, how the arm is moving.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:05:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Tactile sensing means touch. Action means the output has to become movement in the world.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:05",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is where physical AI is so different from generative AI. A language model can produce a sentence and you can edit this sentence. A robot has to apply the right pressure while the egg is cracking, because too little pressure and nothing happens, too much pressure and your breakfast is ruined.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:05:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The demos are designed to test different parts of that stack. Cooking tests long sequences to use force and coordination between two hands.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:05:32",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Lab pipetting tests millimeter-level precision. Wire harnessing tests deformable objects, because cables bend and resist. And multi-object grasping tests whether one hand can maintain several different contacts at once.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:05:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The Rubik's cube test is not new. In this situation, it also tests in-hand manipulation under geometric constraints.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:05:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Piano is, first of all, very pleasant, but also mainly a control test, speed tracking and finger coordination.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:05:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "When you look at demo like this...",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It suddenly becomes much more informative. There is also an important control layer.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:04",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Genesis says it replaced the default robot arm controller with its own middleware and reached end-to-end latency as low as three milliseconds under tuned settings.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "In one tracking benchmark, they even say that the error dropped from around 20 millimeters to around two millimeters.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:06:20",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It's huge, because in robotics, delay changes the task. If the controller is late, the object has already moved.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:06:28",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If the hand overshoots, the object slips. If the movement is imprecise, the model learns from a distorted version of reality.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:06:35",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And a good model just cannot compensate forever for bad control. So, of course, this model and this robot is not ideal. There are caveats.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:06:43",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Business Insider says that these demos were autonomous and at 1X speed, but they were trained for specific tasks.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "They were not broad zero-shot household intelligence. Joe Sahn said that the cooking demo used a few hundred trajectories and the 30-second complex skill required a few hours of human data plus less than half an hour of robot data.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The success rates are also uneven. Many cooking components reportedly reached about 90 to 95% success during filming. Harder subtasks, such as one-handed egg cracking and transferring chopped tomatoes, were closer to 50 to 60%.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But that does not make the demo weak. It makes it again more informative. A perfect demo with no failure numbers is fake.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A demo with limitations tells us what has improved and what remains brittle. With that, we can actually see how far we moved forward with robotics development.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So you might ask, why hasn't this scaled before? Why hasn't everyone done it already? Because every layer in this stack is hard.",
+      "tone": "rhetorical"
+    },
+    {
+      "timestamp": "00:07:38",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And dexterity does not like shortcuts. A simple gripper can be cheap and reliable because it has a narrow job, and a human-like hand gives you much richer motion.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:07:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But it also creates many more ways to fail. Sensors drift, fingers need calibration, and touch data is messy.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:07:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A tiny delay can turn a careful grasp into a dropped object. Simulation helps, but contact is the hardest place to fake reality.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:08:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Friction, softness, slipping, pressure, and all the small physical annoyances that make the real world so harsh and that blow every researcher's mind and keep them up at night.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:08:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "People have tried pieces of this stack to put together for robotics for years.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:16",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Genesis is interesting exactly because it treats the hand, glove, model, simulator, data engine, and controller as one connected system.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:24",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Here is the connection I want you to keep. Genesis AI is worth watching because it treats dexterity as a full stack problem.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:08:32",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "For years AI advanced fastest where data was already digital. Robotics lagged because the most useful data was locked inside physical work. Gene 26.5.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "is an early attempt to unlock the data.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:09:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And the next question is whether this works beyond the demo set with real customers, real failure rates, real safety constraints and real economics. And real kids.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:09:15",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I'm an AI optimist, as you might know, but I have to be 1000% sure that a robot grip will not be dangerous to my kids.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:09:23",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It's still a long way to fully autonomous and trustworthy household robots, but what Genesis showed with Gene is very promising.",
+      "tone": "hopeful"
+    },
+    {
+      "timestamp": "00:09:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you for watching, let me know what you think, I would love to talk with you in the comments section.",
+      "tone": "welcoming"
+    }
+  ],
+  "highlights": [
+    "Genesis AI has developed GNN 26.5, a robot capable of high-speed physical manipulation that mimics human dexterity through 20 active degrees of freedom and soft-material touch sensors.",
+    "The company’s unique data strategy involves using a specialized glove to capture human motion, force, and touch, allowing them to digitize \"muscle memory\" and create a one-to-one mapping between human actions and robotic movement.",
+    "A major technical breakthrough was achieved by building a custom controller that reduced end-to-end latency to three milliseconds and improved tracking precision from 20 millimeters down to just two.",
+    "Genesis treats robotic dexterity as a \"full-stack problem,\" simultaneously developing the physical hand, the data collection system, the multimodal model, and the simulator as one integrated system.",
+    "While the demos show significant progress in tasks like cooking and lab work, the technology remains task-specific with success rates currently ranging between 50% and 95% depending on the complexity of the movement."
+  ],
+  "summary": "Genesis AI has emerged from stealth with a breakthrough in robotic dexterity, specifically through its GNN 26.5 model and Genesis Hand 1.0. Unlike traditional automation that struggles with delicate or variable tasks, Genesis aims to create general-purpose robots capable of \"physical manipulation\" at 1x speed. The company, backed by $100 million in seed funding and led by experts from Carnegie Mellon and Meta AI, focuses on solving the \"data gap\" in robotics. While language models benefit from vast digital text, robotics requires capturing human muscle memory and tactile nuances—such as the exact pressure needed to crack an egg or handle a pipette—which has historically been difficult to digitize.\n\nTo address this, Genesis employs a \"full-stack\" approach that integrates hardware, software, and data collection. Their system includes a human-scale robotic hand with 20 degrees of freedom and a specialized data-collection glove that creates a one-to-one mapping between human and robot motion. By combining over 200,000 hours of multimodal data—including tactile sensing and proprioception—with a custom low-latency controller (reducing delay to as little as 3ms), they have achieved high precision in tasks like piano playing, lab work, and wire harnessing.\n\nDespite these advancements, the transcript notes that the technology is still in its developmental stages. While some autonomous tasks reach a 95% success rate, more complex subtasks, like one-handed egg cracking, currently hover around 50-60%. The demos are task-specific rather than broad \"zero-shot\" intelligence, meaning there is still a significant path ahead to ensure the safety, reliability, and economic viability required for robots to operate autonomously in households. However, by treating dexterity as a unified system of sensing and action, Genesis AI represents a major step toward unlocking the physical data necessary for the next generation of robotics.",
+  "description": "Genesis AI just showed GENE-26.5, a robotic foundation model for physical manipulation, doing something robotics has struggled with for decades: using fingers with timing, pressure, touch, and small corrections.\nAlso: yes, this may eventually help parents with LEGO on the floor!\n\n🔗 Links mentioned\nGenesis AI https://www.genesis.ai/\nReuters on Genesis AI https://www.reuters.com/world/china/french-startup-unveils-ai-model-robots-human-like-hand-2026-05-06/\nBusiness Insider on Genesis AI https://www.businessinsider.com/genesis-ai-robot-cook-play-piano-human-level-performance-2026-5\n\n👉 Subscribe for more high-signal AI mechanics\n👉 More analysis: TuringPost.com\n👉 Interviews: @RealTuringPost\n\n#GenesisAI #GENE265 #Robotics #PhysicalAI #EmbodiedAI #AI #TuringPost #RobotLearning #AttentionSpan",
+  "duration": 585,
+  "people": [
+    "Ksenia Se",
+    "N/A",
+    "Business Insider"
+  ],
+  "topics": [
+    "Genesis AI's GENE-26.5 robotic foundation model",
+    "Challenges of dexterity and tactile manipulation in robotics",
+    "Data collection via the Genesis Glove and multimodal sources",
+    "The full-stack approach to robotic systems and control",
+    "Evaluating the success and limitations of autonomous robotic tasks"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/Xw-xYZsBcho/maxresdefault.jpg",
+  "date": "20260511",
+  "youtube_url": "https://www.youtube.com/watch?v=Xw-xYZsBcho",
+  "youtube_metadata": {
+    "title": "GENE-26.5 Explained: Why Genesis AI’s Robot Hand Is a Data Story",
+    "description": "Genesis AI just showed GENE-26.5, a robotic foundation model for physical manipulation, doing something robotics has struggled with for decades: using fingers with timing, pressure, touch, and small corrections.\nAlso: yes, this may eventually help parents with LEGO on the floor!\n\n🔗 Links mentioned\nGenesis AI https://www.genesis.ai/\nReuters on Genesis AI https://www.reuters.com/world/china/french-startup-unveils-ai-model-robots-human-like-hand-2026-05-06/\nBusiness Insider on Genesis AI https://www.businessinsider.com/genesis-ai-robot-cook-play-piano-human-level-performance-2026-5\n\n👉 Subscribe for more high-signal AI mechanics\n👉 More analysis: TuringPost.com\n👉 Interviews: @RealTuringPost\n\n#GenesisAI #GENE265 #Robotics #PhysicalAI #EmbodiedAI #AI #TuringPost #RobotLearning #AttentionSpan",
+    "duration": 585,
+    "view_count": 876,
+    "like_count": 34,
+    "channel": "Ksenia | Turing Post",
+    "upload_date": "20260511",
+    "thumbnail": "https://i.ytimg.com/vi/Xw-xYZsBcho/maxresdefault.jpg",
+    "tags": [
+      "GenesisAI",
+      "GENE265",
+      "Robotics",
+      "PhysicalAI",
+      "EmbodiedAI",
+      "AI",
+      "TuringPost",
+      "RobotLearning",
+      "AttentionSpan"
+    ]
+  }
+}

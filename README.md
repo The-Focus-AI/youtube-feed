@@ -12,18 +12,18 @@ The GitHub Pages site provides a markdown viewer that renders any file from this
 
 | Channel | Handle | Videos | Total Views | Focus |
 |---------|--------|--------|-------------|-------|
-| [Aboard Podcast](aboard-podcast/index.md) | [@AboardPodcast](https://youtube.com/@AboardPodcast) | 28 | 41K | Tech, AI, business culture, vibe coding |
-| [AI Engineer](ai-engineer/index.md) | [@aiDotEngineer](https://youtube.com/@aiDotEngineer) | 1 | 168K | AI engineering, coding agents, tools |
-| [All-In Podcast](all-in-podcast/index.md) | [@allin](https://youtube.com/@allin) | 62 | 16.1M | Tech, politics, economics, venture capital |
-| [Dwarkesh Patel](dwarkesh-patel/index.md) | [@DwarkeshPatel](https://youtube.com/@DwarkeshPatel) | 24 | 8.7M | Long-form interviews, AI, tech, history, geopolitics |
-| [Hard Fork](hard-fork/index.md) | [@hardfork](https://youtube.com/@hardfork) | 25 | 643K | NYT tech podcast, AI news, culture |
-| [Lex Fridman](lex-fridman/index.md) | [@lexfridman](https://youtube.com/@lexfridman) | 35 | 28.7M | Long-form interviews, AI, science, philosophy, gaming |
-| [MKBHD](mkbhd/index.md) | [@mkbhd](https://youtube.com/@mkbhd) | 46 | 186.3M | Tech reviews, smartphones, gadgets |
-| [Naval](naval/index.md) | [@Naval](https://youtube.com/@Naval) | 10 | 549K | Philosophy, AI, entrepreneurship, self-improvement |
-| [Relentless](relentless/index.md) | [@relaboratories](https://youtube.com/@relaboratories) | 54 | 518K | Hard tech, manufacturing, aerospace, AI/robotics |
-| [The Iron Snail](the-iron-snail/index.md) | [@TheIronSnail](https://youtube.com/@TheIronSnail) | 35 | 15.3M | Fashion, clothing, heritage brands |
-| [This Week in Startups](this-week-in-startups/index.md) | [@thisweekinstartups](https://youtube.com/@thisweekinstartups) | 30 | 925K | Startups, VC, founder interviews, AI agents |
-| [Turing Post](turing-post/index.md) | [@RealTuringPost](https://youtube.com/@RealTuringPost) | 73 | 109K | AI/ML deep dives, industry interviews |
+| [Aboard Podcast](aboard-podcast/index.md) | [@AboardPodcast](https://youtube.com/@AboardPodcast) | 35 | 47K | Tech, AI, business culture, vibe coding |
+| [AI Engineer](ai-engineer/index.md) | [@aiDotEngineer](https://youtube.com/@aiDotEngineer) | 2 | 178K | AI engineering, coding agents, tools |
+| [All-In Podcast](all-in-podcast/index.md) | [@allin](https://youtube.com/@allin) | 70 | 19.2M | Tech, politics, economics, venture capital |
+| [Dwarkesh Patel](dwarkesh-patel/index.md) | [@DwarkeshPatel](https://youtube.com/@DwarkeshPatel) | 28 | 14.3M | Long-form interviews, AI, tech, history, geopolitics |
+| [Hard Fork](hard-fork/index.md) | [@hardfork](https://youtube.com/@hardfork) | 33 | 839K | NYT tech podcast, AI news, culture |
+| [Lex Fridman](lex-fridman/index.md) | [@lexfridman](https://youtube.com/@lexfridman) | 36 | 29.5M | Long-form interviews, AI, science, philosophy, gaming |
+| [MKBHD](mkbhd/index.md) | [@mkbhd](https://youtube.com/@mkbhd) | 54 | 224.8M | Tech reviews, smartphones, gadgets |
+| [Naval](naval/index.md) | [@Naval](https://youtube.com/@Naval) | 20 | 1.1M | Philosophy, AI, entrepreneurship, self-improvement |
+| [Relentless](relentless/index.md) | [@relaboratories](https://youtube.com/@relaboratories) | 56 | 581K | Hard tech, manufacturing, aerospace, AI/robotics |
+| [The Iron Snail](the-iron-snail/index.md) | [@TheIronSnail](https://youtube.com/@TheIronSnail) | 36 | 16.2M | Fashion, clothing, heritage brands |
+| [This Week in Startups](this-week-in-startups/index.md) | [@thisweekinstartups](https://youtube.com/@thisweekinstartups) | 47 | 1.1M | Startups, VC, founder interviews, AI agents |
+| [Turing Post](turing-post/index.md) | [@RealTuringPost](https://youtube.com/@RealTuringPost) | 83 | 156K | AI/ML deep dives, industry interviews |
 
 ## What's Included
 
