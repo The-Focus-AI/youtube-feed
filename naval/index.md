@@ -13,7 +13,7 @@ last_updated: 2026-06-08
 | Metric | Value |
 |--------|-------|
 | Total Videos | 22 |
-| Total Views | 1,239,249 |
+| Total Views | 1,249,411 |
 | Date Range | 2024-01-11 to 2026-06-01 |
 | Average Video Length | 26:55 |
 
@@ -40,7 +40,7 @@ last_updated: 2026-06-08
 | [Blame Yourself for Everything, and Preserve Your Agency](videos/oSXXVVuCQ6o.md) | 4:41 | 61,544 |
 | [Pause, Reflect, See How Well it Did](videos/7gp7GkPE-tI.md) | 1:39 | 25,104 |
 | [The Deutsch Files IV](videos/WUEUozkGXes.md) | 1:25:06 | 38,713 |
-| [The Deutsch Files III](videos/fizPWAAo-lc.md) | 59:19 | 31,000 |
+| [The Deutsch Files III](videos/fizPWAAo-lc.md) | 59:19 | 41,162 |
 | [The Deutsch Files II](videos/I6GNK6BR4E8.md) | 1:14:29 | 35,473 |
 | [The Deutsch Files I](videos/NI1l94sT4oc.md) | 54:54 | 55,961 |
 
@@ -67,7 +67,7 @@ A four-part long-form interview series with physicist David Deutsch, joined by B
 |---|-------|----------|-------|----------|
 | I | [The Deutsch Files I](videos/NI1l94sT4oc.md) | 54:54 | 55,961 | 2024-01-11 |
 | II | [The Deutsch Files II](videos/I6GNK6BR4E8.md) | 1:14:29 | 35,473 | 2024-01-26 |
-| III | [The Deutsch Files III](videos/fizPWAAo-lc.md) | 59:19 | 31,000 | 2024-02-15 |
+| III | [The Deutsch Files III](videos/fizPWAAo-lc.md) | 59:19 | 41,162 | 2024-02-17 |
 | IV | [The Deutsch Files IV](videos/WUEUozkGXes.md) | 1:25:06 | 38,713 | 2024-10-11 |
 
 Series themes:
@@ -78,8 +78,6 @@ Series themes:
 - **Knowledge, error correction, and the multiverse** - [II](videos/I6GNK6BR4E8.md), [IV](videos/WUEUozkGXes.md) (knowledge as a "crystal" stretched across error-corrected branches)
 - **Anti-rational memes and Taking Children Seriously** - [III](videos/fizPWAAo-lc.md) (briefly), [IV](videos/WUEUozkGXes.md) (in depth: iPhone, Spielberg, Frederick Douglass)
 - **The Enlightenment, the West, and immigration** - [IV](videos/WUEUozkGXes.md) (Athens, the Medici, Attlee, mass immigration with integration)
-
-> **Note on transcript availability:** the transcript JSON for [Deutsch Files III](videos/fizPWAAo-lc.md) was corrupted during processing — the transcribed audio matched Deutsch IV rather than Deutsch III — so III's video page contains chapter markers from the official description but no detailed summary, highlights, or transcript. It needs to be re-transcribed in isolation. The other three episodes have full speaker-labeled transcripts.
 
 ### Companies
 
