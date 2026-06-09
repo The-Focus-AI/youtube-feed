@@ -1,0 +1,856 @@
+{
+  "title": "How we're going to power the AI data center buildout | Energy Sec. Chris Wright & Scott Nolan",
+  "source_url": "https://www.youtube.com/watch?v=nxs66bgo0Fc",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Ti Morse",
+      "text": "Today I have the pleasure of sitting down with the US Secretary of Energy, Chris Wright, and the founder and CEO of General Matter, Scott Nolan. For the past two decades, the US has basically been completely stagnant on energy growth, and because of AI, we're going to need to turn that around and get it up to like 15 to 20% growth per year. So I want to start this off with, how the hell are we actually going to power this massive AI data center boom?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:22",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Got to change the way we've been playing the game with electricity. In the last 20 years, we've tripled American oil production, more than doubled American natural gas production, and as you just pointed out, barely grown electricity production. Any fundamental reason for that? No fundamental at all.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:00:38",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Um, it's mostly a regulatory problem. There's many levels of complexity at FERC, at independent system operators, at state level, at federal level. We've politicized the electricity grid somehow thinking we're going to stop the planet from melting down by making electricity less reliable and more expensive. So we've done everything wrong.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:00:58",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "So with President Trump's election and taking office 18 months ago, we are furiously at work to reverse all of these things. Go from energy subtraction to energy addition. First thing on that, we stopped the closure this year of 17 gigawatts of coal power plants. Those were slated to close.",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "00:01:21",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "During the Biden administration, they closed over 50 gigawatts of coal plants, and they had planned when they left to close another 100 gigawatts more in the next five years. Last year was the first of those five years. And they had plans to build 22 of firm generation. So a net reduction of 88 gigawatts in our electricity grid. That was the Biden plan that was left behind. Would we lead in AI? Could we reshore manufacturing? Could we lower electricity bills? Could we do anything dynamic in the United States with those policies? Absolutely not.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:01:54",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "But can we with some time and with some blood, sweat, and tears and with the political courage of President Trump, can we reverse all those things and get absolutely into growth mode, energy addition mode, innovation mode, lead in AI, reshore manufacture, America win mode? We can and we are.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:02:15",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "Yeah, I think if you look back 10 years, 20 years, the consensus view was that we were transitioning from a manufacturing economy, a physical world, like physical goods economy to a digital services economy. And, you know, you look at the data across countries and it's highly correlated. Per capita GDP is just tightly, tightly linked to per capita energy consumption, per capita energy grid production.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:02:45",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "Now, the caveat that's usually put on that is, hey, that's true up until you become a really high-income country. And then it flattens out or reverses because of efficiency, because of the transition of what industries you want to do. And maybe that was true for some period of time, but now with AI, with EVs...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "Like, we see that we need much, much more electricity than we've been generating. And so, you know, you could debate was that plan a reasonable plan at the time. I think clearly it would reduce how dynamic we could be economically. But if that was the program while that was the program we were on. But I think now we know it's very different. And we look back to 2010 when the US and China were neck and neck on the grid and now they're triple this year. And so clearly that's something we need to change.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:26",
+      "ad": false,
+      "speaker": "Ti Morse",
+      "text": "Yeah. There's this interesting dynamic where, you know, there's this executive order about basically turning on a bunch of startups are going to turn on reactors by July 4th or aiming to. But I haven't heard a lot of discussion about what happens next, like what are the biggest bottlenecks over the next five years after this thing happens? Like what does the scale up look like? So let's talk about that.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:46",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Yes, so this Saturday will be the one year anniversary of those four presidential executive orders that basically said we're going to get the nuclear train moving again. We're going to fix our regulatory regime, we're going to fix our supply chain, we're going to fix the Department of Energy and enable innovation, enable entrepreneurs like, like Scott and General Matter to get going, to re-stand up the supply chain, make nuclear reality in the US again. But can we do it? Absolutely. And we have a lot of things going on. So you mentioned the test reactor program. Yeah, we have 11 test reactors that are in sort of a fast-track program to stand up and go critical. We'll have reactors critical before July 4th. These reactors, this will be the first time in 40 years a non-light-water reactor is turned on in the United States. You weren't born the last time this happened. But that will happen in the next few weeks. And there are Nuclear Regulatory Commission individuals seconded to the Department of Energy team. So they're working next door to us as we're permitting and getting these reactors moving in a test mode. But all of those companies are getting their systems watched, observed by the NRC. They're starting their regulatory process to get approval for electric generation. So first we're going to run them in test reactor mode, not going to sell electricity out of them, but that's a great first step. That's construction, that's testing the nuclear systems, that's seeing the Department of Energy and the Nuclear Regulatory Commission seeing all of that. That's opening the pathway for them to rapidly commercialize.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:05:22",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "Yeah, I think a lot of the tests are going to be criticality tests, some will be full power. And so the point is these reactors will be able to prove how they operate and that the operations match the models. And I think that data a lot of them are planning to use in their licenses, going into NRC licenses, you know, you receive that in the next calendar year or two. And then I think from there it's, it's scale up and a lot of them have contracted those deployments and who they'll be scaling up with, where they'll be scaling up. I think to your question we see that end of this decade. We see the first real commercial deployments, 28, 29, and then we see it ramp from there. So I think when it's really",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Really moving the needle in a big way is the start of the next decade.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:03",
+      "ad": false,
+      "speaker": "Ti Morse",
+      "text": "I know that for you it's going to be basically 2030 when the first manufacturing plant comes online for HALEU, and before that we don't really have like the necessary fuel to run a bunch of small modular reactors. So what is it going to look like for the next five years as power demand just completely ramps and yet we don't necessarily have the reactors to turn on in that timeframe?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:06:27",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Well, two quick questions. On the fuel, at least, we will have HALEU to bridge the reactors that are going in. That's coming from the Department of Energy. It's either down-blended highly enriched uranium that was produced for the weapons program, or it's plutonium that's mixed with uranium. We are making and will deliver over 20 tons of HALEU fuel to bridge us from where we are today till we have this great American capacity from multiple companies enriching in the United States. You're right, there's a bridge there, but we have fuel for that bridge. That will not hold back the nuclear renaissance.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:07:01",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "But are you also talking about data centers, how we're going to power data centers in the next five years? And of course that's a different question.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:07:07",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "And maybe back to where we started, you know, number one of course is just stop digging the hole or stop closing power plants prematurely that are there to supply reliable, affordable electricity. We do have a nuclear restart that will happen this summer. The Palisades nuclear power plant in southwest Michigan was shut down just a few years ago for political reasons. 'Yeah, we're ending our nuclear.' You know, that plant is in a restart program. It's been relicensed by the NRC. It'll be running and providing nearly a gigawatt of power by late this summer. That's an adder. The famous Three Mile Island reactor has been renamed the Crane Clean Energy Center. That reactor will be back online sometime next year. And we have reasonable hopes that the Duane Arnold nuclear plant in Iowa will also be back on power maybe in '28. So there's, you know, in round numbers, three gigawatts of new electricity that's coming from nuclear from plants we already built. We've got, as you know, small modular reactors, but for, you know, data centers and re-industrializing of our country, this sort of rapid electricity demand you talked about, in the short run the dominant source of new dispatchable electricity capacity is natural gas. And we have a furious rate of construction right now on existing natural gas plants. We have uprate programs on existing natural gas plants about how to get 10% more out of them. We have uprate programs on nuclear plants. Use a little different fuel, you can get more energy out of those. We have a lot of solar still coming on, and if you pair it with batteries and a meaningful amount of storage, it can help with demand load peaks, at least in the summertime. Not very helpful in the wintertime in northern states. So ultimately the only way forward with the American dream and re-industrialization of our country is to build massive amounts of dispatchable, meaning it works whether the wind is blowing...",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Whether the sun is shining or the temperatures ideal, it works in all conditions. Because electricity's different than, you know, filling up car, you know, your gas tank. You can do that when you want, you can find the cheap gasoline and load it in. At electricity grid at every moment we have to match supply and demand.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:19",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "And so the critical thing for an electricity grid is its deliverability at peak demand time. As we're talking right here today in a nice pleasant afternoon, mild weather across the country, we have hundreds of gigawatts of spare capacity. That's more data centers than we're going to build in the next five or 10 years because we don't have enough money to build more than that in the next five years. Hundreds of gigawatts.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:44",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "But we can't put all those data centers if we had them online today because when it gets really hot in the summer and it gets really cold in the winter, everything else is going to draw so much power, it's just the excess capacity at peak demand. That's what delivers.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:58",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "So you want to understand our grid, don't look at the average numbers of electricity different sources generate. They're irrelevant. What matters is those hours of peak demand time. And I'll give one example and then I'll stop talking.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:13",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "We had a very cold weather system called Fern the last week of January this year. 22 eastern United States really had their electricity and heating systems tested to the limit, ragged edge of blackout in many states.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:30",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Fortunately, common sense operating policies, we allowed people to turn on backup generators, we waived emission rules, run all your plants all out. A little more emissions to keep the lights on and people alive and plants running, that's- that shouldn't be a hard tradeoff to make, but it has not been made in the past.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:50",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "As I mentioned already, we stopped the closure of 17 gigawatts of coal plants. Had we not done that, hundreds of Americans likely would have frozen in late January this year. That's a chilling thought to me.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:04",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "But to give one example, in New England, January 27th, in the evening, was their peak demand time. When we zoom in and we look at that few hours, where did that electricity come from?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:18",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "2% of their electricity came from wind, solar, and batteries combined. 2%. So if you look average over the year, well, a lot more, but that doesn't matter. Are you there at peak demand time?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:32",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "3% came from burning trash and wood. 54- 50% more than wind, solar, and batteries combined. We got- we got a little less than 10% from imported hydro from Canada.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:44",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "But really what kept the lights on in New England is what keeps the lights on across the country, which is nuclear power that was rock steady throughout the whole storm. Natural gas and coal plants ramped up to increase their output and meet that peak demand time.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Now, New England's got a crazy problem in that they- they thought they hated fossil fuels for a while even though their economy's entirely run on them, and they have blocked natural gas new pipelines from getting to New England. So at peak demand time, New England's actual number one source for electricity was burning oil.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "burning oil, crazy. Much more expensive, dirtier burn, higher greenhouse gas burn as well, if that's your thing. But that's because they have to have dual fuel plants, cause when it gets really cold, the natural gas capacity they have, mostly goes to home heating and they burn a whole bunch of oil. We had to get emergency barges up there and trucks and do everything to keep the lights on. But keeping the American electricity grid reliable is maybe my most critical job I have. Maybe our nuclear weapons stockpile is number one, electricity grid is number two. But to this future you're talking about, yes, we have to not just- just barely scrape by today, we need to grow it again. But we can do that.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:12:39",
+      "ad": false,
+      "speaker": "Ti Morse",
+      "text": "I think to your point, um, on the carbon emissions piece of burning oil, I think people don't understand the phys- like, it's under-appreciated what the physics is and it's, if you have a very long chain hydrocarbon, the way you can envision it just to elaborate on this, you've got a long string of carbons down the middle and you've got a pair of hydrogens for every carbon. In the limit case it's two to one. And then you look at natural gas, methane, and it's four to one. Um, and so that's how you get four times the energy—well, four carbon-hydrogen bonds versus two and therefore half the carbon emissions per unit of energy. So that's how the US has actually brought down carbon emissions for people who care about carbon emissions over the last few years by expanding natural gas production. And so that has been the story I think as- as compute has ramped, as electricity production requirements have ramped, natural gas has been the story. It's been fueled by fracking and by turbines. And so now I think the big question is, where do we get all the turbines over the next few years? Will there be shortages? What happens are if they are—if there are? Do we cannibalize some turbines that are currently at power plants? Do we swap in solar batteries? Are there things we can do that create portfolios of energy? And then what's the transition to five years out and as we do these upgrades on nuclear as we keep the plants on as we do restarts as we upgrade other things, okay can we do that all in time fast enough and can we bring the nuclear on fast enough, new nuclear, to power the growth? You know you look at the grid today and it's—I think it's about 4,000 terawatt hours per year of consumption in the US. The growth projected by end of decade for data centers alone is about a thousand terawatt hours. So we've got to grow 25 percent plus by end of decade. That's going to be really hard. The only way you do it is what we have available today and you just go into as aggressive production as you possibly can, in most cases behind the meter is what I think. But a lot to unpack there, um but I think it's going to be a complicated story the next few years and it's going to take everything.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:14:46",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "And to put additional numbers to some of Secretary Wright's bounding on like, okay, we had hundreds of- of gigawatts free and data centers are expensive, the- the rough rule of thumb is for a 1-gigawatt data center, just for a very, very traditional data...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "center would be about $10 billion. It's about $10 per watt. For the new advanced ones, it's 40, 50, 60 dollars sometimes. And so you're talking about to even harness 100 gigs, you're talking about trillions of dollars.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:16",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "And so at some point, you do run into capital constraints of how much we can actually deploy. But, you know, rewind a couple of years, you look at a company like Anthropic and their growth and how much money they can make on a gigawatt, it's, it's maybe 25 billion, I think something in that ballpark just for round numbers. And, you know, we're talking, okay, we want to go from tens of billions of revenue, now we want to go to hundreds of billions at these growth rates, which are demand-driven. And you're now talking, you know, about, okay, we need to go find tens of gigawatts. Where are we going to find them? And I think the story over the last 5 to 10 years has been people finding those isolated pockets of supply of energy. Lots of companies have been doing this. First they were doing it in Bitcoin, then they're doing it in data centers. And that's mostly been gobbled up. And so the question is where do we get it? It's going to be all new production. And I think that's the challenge for, for the industry over the next five years.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:16:00",
+      "ad": false,
+      "speaker": "Ti Morse",
+      "text": "For just turning on enough power over the next five years, what does that actually require? Like, is that just going to be us turning on a whole bunch of Nat Gas plants? What does the next five years actually look like?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:16:19",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "So gas will certainly be the dominant source. I mean, it's just by far the cheapest, fastest way to produce new firm, meaning 24/7 generation. As Scott said, we've lowered greenhouse gas emissions in this country not because of subsidies or government policies. The dominant amount of it has just been natural gas has outcompeted coal in the power stack. It's just gas plants are cheaper to build and they're cheaper to operate, and they're more flexible. They can turn up and down faster.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:16:47",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Now don't get me wrong, I love coal. It has been the largest source of global electricity since the data started in 1900. And it will be the largest source of electricity globally when I die, and that's a long ways away. Natural gas is number two. And in rich countries, it's usually the reverse. You know, natural gas is number one, and then coal or nuclear will be number two and the other will be number three. And those three things are what run modern power grids.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:17:30",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "But on the natural gas side in the United States, gas turbines as Scott mentioned, they've gotten tight supply. So people say, oh, you you sign up now, you can't get one for five or six years. Well, that's true if you get in line now. But the deliveries in the next five or six years of turbines that are already ordered and already under construction is probably probably close to, if not over 100 gigawatts. So there's a massive amount in construction. And of course, it's not just turbines. There's gas reciprocating engines that are used to produce - think diesel generators that now can run on natural gas. We we are going to see gigawatts and then tens of gigawatts of reciprocating engines that burn natural gas to generate electricity. I used to have those in my former company.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "company, we're also seeing fuel cells, which is another way to take natural gas and turn it into electricity. Fuel cells, something that's been talked about for years, that's finally scaling up and hitting scale. I think we will certainly in the next five years, we will see multiple gigawatts of new electric generation from fuel cells, which also take natural gas as their input fuel. The one thing I should say just so people can not worry about this one is this supply of natural gas, the fuel itself, is no problem whatsoever. Today in the United States's biggest oil field, the Permian Basin in West Texas and Southeast New Mexico, oil production is curtailed a little bit because we don't have enough capacity to take all the associated gas. When you produce oil you always produce natural gas too. Just the shortage of pipeline capacity to move natural gas out of the Permian Basin, so it's like 2%, 2 and a half % of US natural gas production, that shortage is enough to produce about 15 to 20 gigawatts of electricity. Just just the gas we can't find a home for. So gas is cheap, it's wildly abundant. It will, some place, if you if you want to go to a different location you may need to build a pipeline or some transmission thing. But the United States has an amazing abundance of natural gas. People often think that the cost of electric generation, it's about the fuel. Yeah, we want fusion because it's water and it's really cheap fuel. Well, there's not a lot of tritium in water. But, and and Scott knows in the nuclear space you've got to have that affordable reliable fuel, but mostly the price of electricity is dictated by the price of the machine. It's not the price of gas that determines gas generated electricity, it's the price of the machine that turns that gas into electricity. Or the machine that turns that coal into electricity, or turns that uranium into electricity, or turns that deuterium and tritium into electricity, or turns that wind and sun into electricity. It's the cost of the machines that matter. The problem again with the intermittence is they don't produce a product anyone will buy. They produce electricity some of the time, we're not sure when. So to make them real machines, it's just enormously expensive to build giant amounts of storage to last the few days where you can have cold spells or hot, you know, darkness, or uh, you know, high pressure masses where the wind doesn't blow.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:20:22",
+      "ad": false,
+      "speaker": "Ti Morse",
+      "text": "Yep, yeah, and it depends on what how many nines you're going for. So what sort of uptime do you need? If if you're trying to do a high-end, you know, reliable data center, you're looking for more than 99% uptime, 99.999 often. And so, you know, you you can't afford to have the power source go down. So that's why we think a lot about base load.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:20:37",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "Then base load being really the dominant the dominant thing that you have to solve. You can get there with enough of like a portfolio mix, um, in certain geographies, but it's it's often getting to those same nines through a mix of different things with all the storage you might need or all the peaker turbines you might need that ends up being just as expensive.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Ti Morse",
+      "text": "expensive, so I think yeah, that's exactly right. If you're trying to achieve base load, it becomes all about the upfront cap-ex, not as much about the op-ex, even for nuclear. Um, the bigger the nuclear plant, the lower the cost of fuel relative to the cost of energy. So, you look at the classic huge gigawatt-scale nuclear plants, the fuel is in the, you know, single-digit percentages of total cost. The smaller you go, though, the more you solve the machine problem of actually building the plant and bringing that cost down, then the fuel becomes more expensive, which is why we're not just focused on schedule and being online this decade, it's how do we also bring the cost down over time just so the US can compete on base load, uh, just across the board.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:39",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "There's this interesting idea that people are not very good at understanding exponentials, and right now we can pretty well extrapolate the growth of energy demand for the next few years, but I think it's interesting to think about, like, what if we're massively underestimating what is required and what the demand might be? What are the biggest, like, constraints and things that are stopping us from moving faster on just turning on more generation?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:22:05",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Well, you know, we, we do have transmission problems as well, right? If you don't locate the source of electricity right next to the demand center, and you can't always do that, um, we have a pretty extensive power grid. It's very expensive and crazy slow to build new power lines. That's a longer-term problem we are also trying to fix, but you can take existing power lines and replace the conductors, you know, old-school conductors with conductors, superconducting conductors or conductors with lower, uh, lighter weight cores and higher conductivity materials where we can deliver much more electricity down the existing power lines. Department of Energy and the Trump administration are pushing this reconductoring so we can, we can allow electrons to move faster. Permitting has been a problem, you know, that still remains a problem, but, but the Trump administration working very hard at fixing that. In fact, the Federal Energy Regulatory Commission came out today with a, with statements on natural gas power plants, how we're going to sweep out a lot of the regulatory burden to allow people to build and permit natural gas plants and pipelines much faster than you previously could. This is very helpful. We want to move at the speed of AI and move at the speed of innovation, we gotta have our government to move at the speed of business and innovation. We call it Trump speed. He's willing to break things to make it move faster. You know, most people in government want to nudge and they want to push things that direction or that direction. President Trump has been very bold. He's like, we cannot have China lead the world in AI. Imagine a world where America's bumbling around with the bureaucracy we had, you know, the, the second Biden administration come in, and we were where we were before where we were more focused on taking power plants down and not letting you build anything that might, you know, that might generate greenhouse gas emissions. Just AI would, would wouldn't be happening much in the United States, and to me, if you have a dominant power in AI, they will be the dominant power on the planet, militarily, economically.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Ti Morse",
+      "text": "economically, technologically, and ultimately socially, and I'm not ready and I don't think any Americans are ready for China as the dominant global power. We've had a freedom opportunity-loving America as the global power for the last century. I think it's been fantastic. Is America perfect? Of course not. But we are by far the greatest,",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:24:22",
+      "ad": false,
+      "speaker": "Ti Morse",
+      "text": "most innocuous, most benign, most human-promoting global dominant power the world has ever seen. And it's critical that we keep that going. And that means we must bring the dynamism, we must fix all the problems that need to be fixed. But again, it's America. We have American people, we have American businesses. Can we do it? Of course we can do it. Will we do it? We will do it. Am I wrong, Scott?",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:24:44",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "Not at all. No, I mean you look at the consumption and consumers are on the question of like, will AI be consumed? Absolutely, by both people and by companies. It will be consumed. It's being consumed. The growth is astronomical to your point. People have a hard time thinking through exponentials. I did over a decade of investing in venture where all you're supposed to do is think about exponentials. People still have a really hard time with it, myself included. It's just very hard to imagine that something ten-X's and ten-X's again and ten-X's again after that.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:21",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "It's much, much easier to say, okay, we could see it growing a little bit. Maybe it grows fifty percent. Oh, maybe that's a three-X, a five-X. People very rarely appreciate that a lot of the big changes that happen in the world are driven by things that ten-X again and again and again. So I think that is what is happening and will happen, and it's on the demand side. And therefore, someone's going to serve that demand. And if the US doesn't do it, I agree, it will happen in China, it will happen in other countries, and it will probably happen in a way that's not as safe, not as clean. And so we should take responsibility and make sure that can happen here in a way that we influence. I think that's the task. You then think through the next five years and how is it all going to work?",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:25:58",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Great point on the deliveries. It's yeah, it takes you a while if you want to order a turbine now, but people have been ordering turbines for the past few years. So they're on their way. Could we produce even more turbines? Could we ramp production even more aggressively? Yes, but that's up to the companies to do. You do see some new companies jumping into the space because they think they want to lean in and they think that this is actually going to be even bigger than the incumbents think. So I think that'll help solve it. I think with the right regulations, American industry, if there is money to be made in it, people will find a way to solve the problems.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:41",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "So I think we're going to see a ton of innovation of how to actually deliver this like new, more energy period. And then whether it's on the grid, I think we're going to see people innovate there. I think we're also going to see a ton of it behind the meter. Just production and consumption on almost isolated...",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "isolated islands, um, whether it's nuclear or something else, and the data center and the power production being right there together, with no impact outside of some fence line.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:11",
+      "ad": false,
+      "speaker": "Ti Morse",
+      "text": "And I think to, like, stay ahead of China, it's going to be incredibly tough. What are the biggest things that you guys are maybe seeing today that people aren't paying attention to that are going to be issues, and you can just see them from your vantage points?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:27:24",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "I think going back to China, so they've had very rapid growth in their electricity production, you know, and good on them, but they've had the opposite story. They've had relatively modest growth in their oil production, relatively modest growth in their natural gas production, and relatively well-meaningful growth in their coal production, but in percentage terms, you know, not that rapid growth.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:27:52",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "So China replaced the United States of 20 years ago as by far the world's largest importer of oil and by far the world's largest importer of natural gas. And they're also a net importer of coal. And so nuclear, they're moving ahead, but their economy, even more than the US and the world, which are sort of think around 85% hydrocarbons, China's closer to 90% hydrocarbons and they're a massive importer of those.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:28:21",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "So they have an inherent energy dependence and an energy weakness that we don't have in the United States. Our weakness is easier to fix. It's bureaucratic and rules, but, you know, we have the people, we have the capital, we have the smarts to do things fast in America. We just got to get the system out of the way and let it go.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:28:36",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "I think one of the challenges coming up is going to be humans. You know, as we pushed large industry out of the United States, energy-intensive industries—Scott was talking about that earlier saying we moved to less energy-intensive industry—this all starts when we admitted China to the World Trade Organization, you know, and unilaterally granted them most favored nation status.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:29:00",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Our manufacturing in dollar terms continued to grow after that, in dollar terms, but as a percent of our economy, it shrunk dramatically, the rest of our economy grew much faster. It didn't mean the world needed less manufacturing products, it just meant energy-intensive large-scale manufacturing all went to Asia.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:29:20",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "You know, we displaced so much of it out of our country. If you look at the European nations, they did it even more dramatically. They don't have flat electricity production from 20 years ago, they produce 20% or more less electricity than they did 20 years ago, and almost all of their heavy industry left. You know, in the name of being green or fighting climate change, you just move emissions from one place to the other.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:29:44",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "There's nothing green about that, it's just impoverishing. Europe, Western Europe in dollar terms has had zero per capita economic growth since 2010, since they went crazy on energy policy. They shrunk their energy production and completely stopped their economic growth.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Pivoting, we may not have been stars in the industrial world and electricity world the last 20 years, but we weren't the worst actors. But I think we are pivoting to be among the best actors. We're going to have speedier, in the Department of Energy, we're thrilled to get the benefit of this AI revolution to advance scientific- to help push scientific advancement to a much faster pace. There are still cancers and many other diseases that you get that news, it's a death sentence. You may have a year, you may have a few years. We can fix those problems. We can solve those problems by leveraging human mind and human creativity and supercharging it with AI. And I could not be more optimistic about the speed at which we're going to see improvement in science, improvement in engineering, improvement in human quality of life. It's been a tremendous story over the last two centuries, I think the next decade's going to be outstanding. I know there's anxiety associated with it, which is a real thing, but the improvements I think are going to be simply tremendous.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:30:03",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "I believe they will pivot. They're not going to be players in AI, they're not going to be players in advanced manufacturing without a pivot. Now, maybe this is a loud enough wake-up call, some of them are saying all the right things now, and hopefully they're—",
+      "tone": "hopeful"
+    },
+    {
+      "timestamp": "00:31:03",
+      "ad": false,
+      "speaker": "Ti Morse",
+      "text": "Yeah, that's it's a great point. The electric grid only being part of the story. You know, you look at the growth, yes, it's the grid's been pretty flat, but US is a net exporter of fossil fuels and of energy. Completely different, completely different story. Now, the economy has been running on the grid for the most part. And so that is highly correlated with our economic growth. So we do need to grow it if we're looking at any ways that we've been running the economy to date.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:31:30",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "I do think as we really expand energy production, a lot of it will be consumed behind the meter. It won't have to go through those transmission lines. I think there's actually a huge opportunity to do something with that though. You know, you ask like, what are the, what are the stoppers going to be? What are the breaks going to be? And I think there are huge benefits that everyone will experience from AI. There's going to be a bunch of changes, but there's examples on the cancer side, like I think a lot of people saw it, someone used AI to cure their dog's cancer. They sequenced it, they looked up what things could actually target this, and you know, they came up with a cure. And so I think that was a few months ago we saw that. So there's going to be a lot of specifics I think as people really start using AI for benefit, there's going to be a bunch of stuff that gets solved. But there still is a lot of anxiety around it, and I think one of the biggest anxieties, you know, there's really been two that you've heard about and one's water usage, which I think is becoming a thing of the past as people design and use and deploy closed-loop water data centers. You fill them up once and you don't need to really consume water after that. But then the grid question. And are these data centers going to actually consume all my community's electricity and drive up the electricity price? And I think if that's allowed to happen, that will have been a failure of regulation. And so I think it's also a failure on the part of the companies deploying data centers. If you think, okay, company A versus company B, we're in an arms race, we need to really expand energy production, we-",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "Really needed to deploy these data centers. How do you actually win over a community? You actually give them some benefit. It shouldn't be neutral or cost, it should be benefit. And so you look at some of these data centers and it's 10, 20, 40 dollars per watt. You could say maybe a third or half of that is the energy production that they might do behind the meter. Well, instead of doing 1x your production, why don't you do 110%, 1.1x? The cost of the project doesn't change that much; it changes 3 to 5 percent. But now you can pitch a community and say, 'Hey, we're not actually consuming your power. We're actually providing power onto the grid, driving down your rates.' So that's... I mean, that's an idea that I've had, I think is a good one, but you could do it through regulation or you could let the companies sign up for it themselves. I think the free market way is you let the companies outcompete each other and who's gonna give the most back. So I think the whole 'How do you get communities on board with this? How do you let them say yes to new power production and consumption at data centers?' is things like that which sounds very simple and it's this one way that you can help people see a lot of benefit from it as we go through this transition.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:14",
+      "ad": false,
+      "speaker": "Ti Morse",
+      "text": "Is there any other things on kind of the matter of incentives? And if you design the incentives to be massively beneficial to communities, then they're probably gonna be very excited about it. Right now on social media, AI is fucking hated. People just hate it for some reason. How do we kind of flip that?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:34:25",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Yeah, and times 40, it's not just on social media, it's reflected in the polls. I mean, the opposition to AI and data centers is pretty tremendous. And I think President Trump, right at the start of his administration, I think he knew AI was gonna be a big deal, he knew we could not let it go to China, which is the trajectory we were on. We've gotta lean in in the United States and he immediately and our whole administration engaged with the hyperscalers. Scott talked about it in a market way, not in a mandatory way, not in a law way, about what they can do to bring immediate benefits. First on energy costs, but on economic development to communities. And hence Trump's ratepayer protection pledge. All of the large hyperscalers have signed onto this, many others have said, 'Hey, we'll follow those same rules.' And it's back to the point Scott made, which is that the cost all-in for a data center, like energy's a big consumption thing, but it's not a giant cost driver. And all of the developers have said, 'Yes, we'll pay above market price for power, we'll bring money to the table before we even get any power' to help build upgrades to transmission lines. 'If we're gonna consume a gigawatt of power, we'll build or fund 1.2 gigawatts of power generation so we put additional capacity onto the local grid that allows other businesses to grow and'll keep prices down.' Almost all the big deals that have been signed have had multi-year rate freezes, rate freezes in nominal dollars, so in real terms, it means they're declining every year. In Indiana, we've already seen applications for rate reductions.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "We're going to see more of those.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:36:02",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "That fear that data centers drive up electricity prices, the reality is actually the opposite. If you look at the states with the fastest growing electricity prices: California, New York, Massachusetts, Maryland, they all shine in the fast-growing electricity prices. They all produce less electricity today than they did five or 10 years ago. The states with fast demand growth, you know, Texas for example, or Nebraska or North Dakota, are the states that have had declining in real terms and some of them even declining in nominal terms price of electricity. Here we are sitting here in Utah, very low electricity rates in Utah, and as the grid has expanded for industrialization here, we'll likely see electricity prices go down even more. So new demand loads are actually your friend to fix rising electricity prices. Electricity prices were driven up because the Obama and Biden administrations wanted to shut down as much existing power plants as they could and they wanted to subsidize the construction of intermittent sources, politically favored sources that ended up distorting electricity markets. This production tax credit, if you pay people three or four cents to produce a kilowatt-hour whether it's needed or not, guess what? They'll produce a lot and they drive these wholesale prices at low demand times negative. That killed the economics of nuclear, it killed the economics of firm power. Just government subsidies distorting a marketplace. But the Trump administration came in with just a common sense pro-business, pro-American, pro-innovation attitude. So a lot of damage, a lot of things to be reversed, and the biggest one, which I'm dancing around, is this public opinion.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:37:48",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "You're absolutely right, for it to win in the long run, we have to win in that space. That is a very active dialogue with hyperscalers. We have to lean in.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:38:00",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "My last thing is philosophically it's very much like the campaign against fracking when it started. It's very much about the climate change campaign. It's COVID, we've got to lock down and stop everything. It's very easy to scare people. And we have a whole industry in the United States who collect money and they scare people to make them oppose it. They oppose fracking, they oppose any industrial development for climate change reasons, they opposed businesses and kids going to school during COVID. And they were successful at selling this fear. Those same people, those same organizations are opposing data centers. It's not that they're fundamentally opposed to fracking or fundamentally opposed. We have a very large fear-mongering industry that fits a human psychology, you know, humans are—we have to be careful and so fear is a strong reflex in humans and it's very powerful politically. And our side, the data we think is compellingly on the side that the advantages are going to be much bigger than the disadvantages, but that's a—that's a more in-depth...",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "That's a harder argument to sell, we're gonna have to sell it, we're gonna have to lean in, we're gonna have to be honest and credible. Are negative things going to come from AI and data centers? Absolutely. There will be, there will be negatives. People are going to abuse this power. Um, it is going to displace people out of some jobs, but it's going to create other jobs. I think net, net, net, it'll create way more jobs, way more economic opportunity, but it will be disruptive. But we need to lean in honestly, candidly and sincerely in contrast to fearmongers. Right now, the fearmongers are winning hands down.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:39:30",
+      "ad": false,
+      "speaker": "Tim Morse",
+      "text": "Yes, as we go back to some of the numbers we were talking about earlier, just I'm just thinking about the scale of the investment, trillions of dollars into these data centers at these hundred gigawatt plus, you know, at these scales. If those companies want to invest in the grid, if they want to push energy back, um, whether it's 1.1, 1.2, maybe 1.21 gigawatts back onto the grid for every gigawatt that they consume, how do they do that? Is that a utility thing? Like is that a FERC issue? How do we set them up to be able to drive it back on? I'm wondering if there's any incentives that could be set up to make that easier, because that's how you get the rapid benefits to the local community. And then the jobs benefit versus jobs lost, that's a much harder one to predict. But I think if you know that you're driving electricity prices down, that's good for people.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:40:21",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "So here's a simple high-value idea. As as I was saying, electricity at different times of the day has very different values. What really matters, why does California have crazy high electricity prices? Because at crunch times, they're short of electricity and they have to ration demand and prices skyrocket.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:40:40",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "So it goes back to base load basically.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:40:43",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Well, or dispatchable even more so. Like if you operated a data—which is why I also believe I don't think there'll be a lot of data centers or large generation that's isolated from the grid. There may be some, but I think the economics and logic are much stronger to have a connection, even if most of your capacity goes to run your own facilities. If you're on the grid and at times of these peak demand—these are hours a year, hours a year—you're running a training model, you turn it down a little bit and you push a few hundred megawatts to relieve grid stress. That's very valuable in driving down rates. Having some capacity needed... we we did a short-term version of that in Florida, where we had all the the grocery stores in Florida turn on their backup generators. This this generated an enormous amount, gigawatts of additional power, so we could keep the classrooms open in Florida on a Monday morning where there wasn't enough electricity to heat the homes and the schools. So I think there's it's just using electricity when it's the highest value and diverting it into communities to keep down rates, building some infrastructure for those communities and communicating the amount of tax dollars and training high-paying jobs, not just during construction, that maybe you don't have massive staffs operating data centers, but when they're there it builds sister industries around them.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Tim Morse",
+      "text": "that are going to bring a lot of jobs and opportunity. I was in Cedar Rapids, Iowa. It is amazing, the economic stimulus that's coming from a data center that's about two-thirds done. It is amazing.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:42:11",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "Yeah, I was talking with someone earlier and they were referencing some of the stats and job creation at one of the big projects coming and it was tens of thousands of construction jobs, thousands of permanent jobs. Um, so it's very real. And yeah, great point on interconnect. Even if you can produce behind the meter, if you're doing, if you're doing like a nuclear power plant next to your data center, maybe you don't need to be connected. If you're doing turbines, if you, if you want those, you know, five nines of reliability without a huge infrastructure build out, then being connected to the grid lets you call on that when necessary and then in other times do curtailment and not just like, not just help but make a lot of money by doing curtailment with the utility.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:49",
+      "ad": false,
+      "speaker": "Ti Morse",
+      "text": "I think right now, like we've done a pretty good job of flipping the first domino to kind of make it so 2030 things are much better than they are at right now, but past that, like how do we basically structure things so that with the long term in mind we can keep on scaling through, you know, 2040 and 2050 to get to hundreds of gigawatts of new generation.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:43:13",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "I think all of these things get cheaper at scale, you know, Scott's innovating, he's going to find a new way to enrich uranium, it's going to be different than it's done before and as he scales up his business, his cost to deliver his product is actually going to go down and the whole idea of small modular reactors is, everything in our lifetimes that is built in a factory has become cheaper and faster to build. When you stick build something on location, those things have become more expensive and slower. There's a long story behind that. But the more you can build in quantity in manufacturing facilities, we're very good at driving the cost of those down. So to build nuclear systems and nuclear supply chain at scale, I think that's the road to lower cost. Why were the last two plants we built in the US, the Vogtle 3 and 4 expensive? Well, we hadn't built any plants in decades and we tried to stand up a supply chain, you know, to build two reactors and then all the jobs went away. So as we go, look at a long-term that scale you're talking about, decades ahead, that's the way to build nuclear power plants cheaper, that's the way to build natural gas and fuel cells cheaper, that's the way to build energy storage cheaper. That's the, you know, I think it's going to be the pathway to lower cost and certainly as a percent of people's incomes, I think the cost of electricity and energy are going to decline meaningfully in the next 10 or 20 years. Again, not a trajectory of the Biden administration, but that has been a, you know, a mindset of the Trump administration and I am seeing it bipartisan. You know, Democrats in the Senate, Democratic governors, I think common sense is catching on and and that, you know, the worshiping at energy subtraction and energy fearmongering, that that still exists, but it's more in small corners now. Most common sense is catching on. People realize Americans are mad at expensive electricity and they're mad at their",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Jobs going overseas. They just want lower prices and higher wages. You know, that's, that's the Trump administration agenda and doesn't sound like it should be controversial.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:09",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "Yeah, I think the people, I think the thing people are also realizing is it's just really hard to predict what it's going to be. Like, people wouldn't have predicted that fuel cells are going to be used to, you know, harness energy from natural gas. Uh, they did predict that it would actually be much more about intermittent and renewables. And then it turns out that we need a lot more baseload, we need a lot of just energy growth. So I think, I think the mistake is often in trying to over-prescribe what the answer is without knowledge of what's coming next. It's just very, very hard to predict. And so you have to let the market figure it out for itself and let the market actually do these things like scale the production. Um, you know, the second Vogtle plant was much, much cheaper than the first, and the third would have been cheaper than that. Um, and so how do we, how do we get to a world where we're producing much more of these things and actually hitting the scale effects of, you know, a factory-built reactor, a factory-built anything? This is the future that we're preparing for. So acknowledge it is very hard to predict what's going to, what's going to happen if you're not driving it personally. The thing we're driving is nuclear. So our bet to your question, like what, what are we looking at, you know, 10, 20 years out? If we're talking about, you know, 10x power consumption, another 10x, another 10x. Um, I, you know, I'm forced to acknowledge that one approach to this is orbital data centers. Like I worked at SpaceX early in my career, that's one angle is you just say we're going to go to an entirely new paradigm and we're going orbital, we're going sun-synchronous satellites, we're going to build them and we're going to do everything there and harness the sun's energy. That's a good approach if you can do it. And I think only SpaceX is set up to do that right now. I think for everybody else the answer is going to be, um, you do it on the ground, you find ways to get more baseload, and the thing we're trying to help with is nuclear. And so how do we scale nuclear? And so the thing, the thing we're focused on is fuel in our case. And I think just to get to like the exponential numbers topic, because you could say, well, okay, can we get a second facility online? Right now there's one in the US in New Mexico run by a European consortium. Makes about a quarter of what the US needs. And so you can say, okay, well maybe we'll have a second one. But now we're still only at half what the US needs. And then you look at US's allies, our closest allies consume about as much nuclear fuel as the US does. And so we're at a quarter today, but we're really only aiming at an eighth of what us and our allies need if we wanted to provide them with it. So now we're talking 8x. And then the Biden administration wanted to triple nuclear. A lot of countries signed up to do that by 2050. The Trump administration has said we want a 4x by then. So now you're talking over 30x. Um, and then you say okay, just to kind of meet US and its allies by 2050, if we're going to 4x you have to 30x enrichment production in the country, which is the sort of thing we're trying to think through and how do we plan for that and how do we do that.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "But maybe 4X isn't the real number. Maybe it's like, maybe with the energy consumption numbers we're looking at, maybe it's really like nuclear either works and the cost comes down and it's one of the cheapest sources of base load, or it's not. Then if it is, is 4X the right number, or is 10X, or is 50X, or is 100X? So you start thinking in these orders of magnitude and you realize wow, there's so much opportunity to just produce much, much more. Even in this niche piece of the nuclear supply chain that a lot of people don't think about, we have room for 10, 100X growth on what the US, on US soil, by European countries is doing today. So back to the exponential numbers, it's just dramatic what the opportunity looks like and how many areas there are going to be for people to build new businesses and just contribute to like really getting that curve from flat the last few decades to just almost vertical.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:48:56",
+      "ad": false,
+      "speaker": "Tim Morse",
+      "text": "Scott, repeat that punchline again. A lot of people look at me and say we can't even enrich uranium, how we gonna grow our nuclear power thing?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:49:03",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Well, and if you can, you can produce enough for today but you can't meet the future. You just said, and you're right, we don't know the future. If the demand is just awesome, very real possibility, it's 100X, you can do that, right? Right, this is America.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:49:19",
+      "ad": false,
+      "speaker": "Ti Morse",
+      "text": "You could 100 times increase the capacity to enrich uranium in the United States.",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "00:49:24",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "Yes.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:49:25",
+      "ad": false,
+      "speaker": "Tim Morse",
+      "text": "Fantastic.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:49:26",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "Yep. I mean you won't do it at one facility, you'll do it at a number of facilities. That's what we're planning out, thinking far ahead of where we're going and identifying those sites that we can build that sort of capacity. But, you know, just as an example, you had the US back in early 2000s, something like 20% of global launch capacity. And, you know, we were launching, let's see, probably tens of rockets per year maximum. Not even that, single digits many years. And then SpaceX came and said, well, the issue is it's not cheap enough. The US is not competitive. Not just that, okay, there's like a baseline goal of make the US competitive again, bring it back. That's a good goal, that's very strategic for the US. But on top of that, the goal of SpaceX was, let's make space actually something that we go do. Like, you look back to the 50s, 60s, it was supposed to be two things: nuclear and space. Those are the areas where you're gonna get immense amount of growth and these new possibilities that people couldn't even imagine. So on the space side, it was how do we do that? We make it much cheaper. And so SpaceX has gone from something like, I believe it was like 10 launches in their first 10 years, roughly one launch a year, to now over 100 Falcon 9 launches per year. And with Starship, the launch count will get to that level, it will eventually get to more than that level, but more importantly, the capacity is just dramatically, dramatically larger. And so the US went from, you know, sub-20% of launch capacity worldwide to now over 90% of mass to orbit. Um, I think we can do that in a bunch of industries. And the thing is...",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "It's gonna come down to private sector thinking through how do we drop these costs down? How do we do this in a really commercial way where we can out-compete every country even if they may have subsidies? But it's gonna require a ton of innovation and for SpaceX that's been almost a 25-year story.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:51:15",
+      "ad": false,
+      "speaker": "Tim Morse",
+      "text": "Especially with space launch and Elon, he's kind of thought out a few years about where do we need to take this, and even if maybe there's not necessarily demand to ship, you know, thousands of satellites to orbit, we're just going to build the capacity and then just believe that the demand will, like, materialize, in effect.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:51:34",
+      "ad": false,
+      "speaker": "Tim Morse",
+      "text": "How do you kind of do things in parallel? You're turning on your first plant in 2030. Are you going to start building a second plant or start, you know, working on the second plant now so that you can basically turn on the second one in 2032?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:51:39",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "Yeah, I mean for us the sequence is you identify the sites, you prep the land, you build the buildings, you make sure your infrastructure is there and then you fill the buildings with equipment for that capability to come online, you commission it, you bring it online. And so as we build facilities and then bring them fully online and scale production within the facility, by the time that core and shell is built, we'll be working on the next core and shell. So our approach is we want to take everything possible into our own hands. We don't want to just say, you know, we give up responsibility for a major portion of costs like buildings. We're not going to do every last task in-house, we'll be hiring thousands of welders, like construction workers through subcontractors, but the project itself we'll manage ourselves, you know, we'll be our own GC, we'll be our own EPC, engineering procurement construction company. And this is something that Tesla really proved out in the Gigafactory constructions is own your project, you know, design, build and operate. And you can get efficiencies across all three and you can avoid giving up responsibility for something that can really drive the project over budget, over schedule. And that's the whole like extreme ownership, just take responsibility approach that we're trying to do. So we have an EPC in-house and that EPC will first do Kentucky, it's working on it now, Kentucky comes on before end of decade. And then as that core and shell is built and Kentucky's ready for next phase of construction, start building that second site.",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "00:53:15",
+      "ad": false,
+      "speaker": "Ti Morse",
+      "text": "The executive orders last year really basically like poured a bunch of gasoline on companies, uh, like Valar is one of them, uh, where Isaiah is just burning, you know, the 3:00 a.m. oil and his team is burning the 3:00 a.m. oil to make this happen. How do we kind of incentivize more founders to take on the charge of building ahead of demand?",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:53:33",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "So so right, because whether it's AI or nuclear enrichment or nuclear power, this is done by business and innovators. It is not done by government. I'm in the service business. But yeah, what the Trump administration is trying to do is just make America fertile ground for entrepreneurs and risk takers. They're afraid of getting permits. Is the NRC going to approve my thing? Am I going to be able to build it anywhere? Am I going to be able to get land? So we just lead— is the fuel going to be fabricated in the United States?",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "So we're just trying to address all of those. You know, at the Department of Energy, we have 17 labs and millions of acres. We've told data center developers and nuclear developers, 'We got land, we'll permit you.' You know, if you're struggling somewhere else, come to us, we want you to build your thing, we'll permit you.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:54:16",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Um, as I mentioned, we've, you know, restructured and new people at the NRC that it's, it's about safety. It used to be bureaucracy, safety and bureaucracy, now it's safety, safety and safety. But the way to do safety is to focus on the things that matter and not the paperwork and minutiae.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:54:34",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Of course, using AI itself is going to allow optimization of filling, you know, getting regulations and studies done quicker. The complexity of the electricity grid takes forever to get an interconnection thing study done, well with AI we can do something that was years before, you know, in a few days.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:54:52",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "So we need to move faster at what the government services we provide and greater sure, a greater surety that, you know, here's the principles on which we're operating under and if you're going to achieve those principles, we're going to permit you, and we're going to permit you quickly.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:55:05",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "We need a lot more Isaiahs out there. We need entrepreneurs in this country again, and we're feeling that right now, you know, countries from abroad have all said, 'We want to invest in the United States again.'",
+      "tone": "hopeful"
+    },
+    {
+      "timestamp": "00:55:13",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Businesses here, we talked about the supply chain in gas turbines, the local gas turbine manufacturers, the biggest one in the world I shouldn't say, you know, they are well more than doubling their capacity, as are the other big gas turbine manufacturing capacities, the fuel cell makers, the reciprocating engine makers, you know, we really want to see an industrial renaissance in the US, but you're only going to get an industrial renaissance if you're going to have fair treatment of capital and a secure and reasonable regulatory environment.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:55:46",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "You know, I could go on, but NEPA, the National Environmental Policy Act, 1970s, reasonable idea, hey if you're going to build something on federal lands or with federal money or large scale, just check what environmental impacts it might have and submit a little form on that. We still do that, but it's been weaponized into stopping people from building things that someone didn't like. They could just take you to court and sue you for NEPA.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:56:10",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "You know, across the whole government we reform the implementation of NEPA to be back to the intention of 1970. Midstream as we were doing this, the Supreme Court gave us a unanimous decision reaching the same conclusion.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:56:26",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "We've got other work to do with permitting reform in the Congress right now, but the Trump administration and really prodded aggressively by President Trump is look across the government at the barriers we put in place of people that want to take risks, that want to do new innovation in America. If we want people to put capital to work, we gotta be a friendly, low-risk, encouraging place to place capital risks.",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "00:56:49",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "I'm excited with the direction we're going, but we want to make a lot more progress every day we got.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:56:55",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "Yeah, I think all that helps a ton. Like just having huge uncertainty in your business...",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "That's outside your control. No one—no one really likes that. Like, why should I start something if I just don't know if I'm just going to get stopped? That's, like, extremely discouraging. I think when there's certainty, people are willing to do amazing things, at least certainty of what the playing field is. And so I think that's probably the most important thing. Even so, these are like 20-year projects. So when people, you know, ask me, like, 'Oh, should I start a company?', I usually say no. Like, unless you have a something really good that you really care about, that's really important, all things equal, don't. Like, work at a company that's really important. Work at one that you think you can learn a lot from or or have a lot of positive impact at. But in terms of, yeah, how do we get people to, you know, I think you started the question with the example of, like, SpaceX and Tesla and, like, really, really leaning in. I would still go—it is true, like Elon is one of the best at seeing where things are going and understanding these exponential curves and investing in those curves. You know, he started talking about Kardashev type level-2 civilization way before people were even thinking about level 1. And I think it came out of left field and now you kind of really realize, 'Okay, there's maybe some truth to that of, yeah, we do need to actually scale this orders of magnitude, not just like 2x, 3x.' But even so, you look back to SpaceX in the early days, we weren't building like 10 Falcon 1s at once. It was one at a time, get it working, then as you start to get that momentum, as you know you can really scale things, then you get to the scaling stage. And I think it takes time. I think that's what, you know, today we're seeing the exponential curve of SpaceX, for example, 20-plus years in. First—first couple years, it was—it was a much more—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:58:44",
+      "ad": false,
+      "speaker": "Ti Morse",
+      "text": "The early days of the exponential.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:58:46",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "Yeah, progressive curve that looked more linear at the time. So only in hindsight do these things look exponential. Any part you're on looks linear until you just have to get started and start investing, start growing the business, start figuring out what problems you're solving, and then you start doubling down. And then it's that doubling that that really starts catching on.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:59:04",
+      "ad": false,
+      "speaker": "Tim Morse",
+      "text": "Let's end it on—how would you tell founders or ask founders to operate differently than they have over the past, you know, many, many years with this like changing environment? Like, what risks should they take? How should they decide to build their businesses with the understanding that they need to grow and they kind of need to believe in the build first, demand will show up later sort of vibe?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:59:25",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "Yeah, look, I’ve been a lifelong entrepreneur myself. And but most of the entrepreneurship in America during my time has been about software and designs, and if you’re gonna build big stuff, you built it overseas and imported it back. And we want—and obviously Elon's a great exception to that, as is Scott. We want people to—don’t assume that’s the model, you know. If you have big ideas and you want to build large things in America and take big risks but you're worried about it, please come to the government, call me up, and let’s talk about it. We want to make as welcoming an environment as possible for risk-takers and things that have been moved out of America for the last 30 or 40 years to come back here.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Chris Wright",
+      "text": "And hard to do in America for the last two or three decades, we're doing everything we can to make it so that you can do them in America again. We love trade and entrepreneur, you know, and across borders and all that. But one of the things that drives me is that I look at the three of us sitting here, the last 30 years have been pretty awesome for us. But if you're -- you grew up in a rural area or your family, you know, is recent immigrants or they're low income and you didn't get a great education, you live in a different neighborhood, the blue-collar jobs in this country for the last 30 years has not been a good run. And when we build big things in America again, you really change the economic prospects for a full half of the Americans that have not had great economic prospects. So not only is it going to be good for your business to do things in America, but you're going to lift Americans up and bring that... And then that snowballs, right? We want to have the most talented, the most experienced workers that build these things. That thing snowballs. But unfortunately, bringing China into the World Trade Organization and this kind of smothering environmental regulation and sort of naive beliefs that the world was dematerializing—no, we were just moving the material part away from us—we gotta get beyond that, you know. President Trump's vision is reindustrialize America, have every American believe they have a tremendous job and opportunity in front of them, and take chance in America, bet on America, believe in America. And I've got proof sitting across the microphone from me right here in Scott Nolan and so many others. But if you have concerns or problems, reach out to us, let's talk to us, figure out how we can fix them.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "01:01:51",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "To the question of, yeah, what should be the encouragement of people that want to do entrepreneurial things, the formula I always follow, or have followed when evaluating companies, when thinking of where to work, of what to do, was always three things: it was, what's a really important problem that's not going to get solved unless someone does it, someone new does it; and do your skills somehow overlap with that need? If all three boxes are checked, you almost have to do it. It's almost like a moral imperative that you have to go try and help solve this important problem that otherwise will not get solved, that only you can solve. So, I think that's the formula. And ideally, we get a few people working on these really, really important problems. And yeah, the last few decades have been all about digital, all about the, you know, software world more than anything else; and I think the next few are actually going to be about the physical world. So, I think it's a really exciting place for people to be looking and just evaluating, what can we do to accelerate that, to make all the progress that we were supposed to be making the last 50 years, then bring that back. I think the fundamental piece behind all of it's going to be energy, and like, scalable, lower-cost energy in the US will fuel manufacturing...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Scott Nolan",
+      "text": "Manufacturing will fuel construction, it will empower all these things and get the US back into a stance of realizing the physical world is just as important as the digital world, and it's the one where there's such low-hanging fruit that we can go do new things that people always dreamed about in the 50s.",
+      "tone": "visionary"
+    }
+  ],
+  "highlights": [
+    "To support the AI data center boom, the U.S. must transition from two decades of stagnant electricity growth to a model of \"energy addition,\" requiring an estimated 15% to 20% annual increase in production.",
+    "While renewable sources contribute to the grid, maintaining reliability during peak demand requires a significant expansion of dispatchable power, primarily through natural gas and the preservation of existing coal and nuclear plants.",
+    "The U.S. is fast-tracking a nuclear renaissance by restarting dormant plants like Three Mile Island and developing small modular reactors, supported by new domestic supply chains for high-assay low-enriched uranium (HALEU) fuel.",
+    "Data center developers are increasingly adopting \"behind-the-meter\" power solutions and ratepayer protection pledges, where they fund more electricity generation than they consume to lower local costs and reduce grid stress.",
+    "National energy policy is being reframed as a critical component of global competition, with a focus on cutting regulatory red tape to ensure the U.S. leads in AI development and successfully reindustrializes its manufacturing base."
+  ],
+  "summary": "The transcript features a discussion between US Secretary of Energy Chris Wright, General Matter CEO Scott Nolan, and host Ti Morse regarding the urgent need to reverse two decades of stagnant American energy growth to power the burgeoning AI data center boom. The central theme is a transition from \"energy subtraction\" to \"energy addition,\" moving away from regulatory-driven plant closures toward a massive expansion of dispatchable power. In the short term, the speakers emphasize that natural gas remains the most viable, cost-effective source of 24/7 power, while the long-term \"nuclear renaissance\" depends on restarting decommissioned plants and scaling small modular reactors. A key point of the discussion is the critical nature of grid reliability, particularly at peak demand, and the necessity of building \"behind-the-meter\" generation to ensure AI development is not throttled by infrastructure bottlenecks.\n\nA significant portion of the conversation focuses on the geopolitical and economic stakes of this energy pivot. The speakers argue that domestic energy abundance is a prerequisite for maintaining global leadership in AI and manufacturing, particularly in competition with China. Secretary Wright critiques past environmental regulations and bureaucratic hurdles, such as the NEPA permitting process, calling for \"Trump speed\" to allow innovation to outpace the competition. Nolan draws parallels to SpaceX’s success, suggesting that by applying \"extreme ownership\" to the energy supply chain and manufacturing reactors in factories, the U.S. can drive down costs through scale and exponential growth.\n\nThe final theme addresses the social and economic impact of re-industrialization. The speakers advocate for a model where data centers provide net benefits to local communities by funding grid upgrades and lowering electricity rates, rather than driving them up. They conclude by encouraging a new generation of \"hard tech\" entrepreneurs to tackle physical-world problems, specifically in nuclear and domestic fuel enrichment. By aligning energy policy with American dynamism, they believe the U.S. can create high-paying blue-collar jobs, solve global scientific challenges via AI, and ensure that the next century remains dominated by American technological and economic influence.",
+  "description": "This conversation on how we're going to power the AI data center buildout is between US Secretary of Energy Chris Wright and Scott Nolan, Founder and CEO of General Matter.\n\nDOE & General Matter:\nDOE: https://www.energy.gov\nGeneral Matter: https://generalmatter.com/\n\nLinks to X:\nEnergy Sec. Chris Wright: https://x.com/SecretaryWright\nScott Nolan: https://x.com/ScottNolan\nTi Morse: https://x.com/ti_morse\n\nTimestamps:\n0:07 Powering the AI data center boom\n3:25 Biggest energy bottlenecks over the next five years\n6:03 Ramping power generation before we have SMRs\n16:06 Bridging the nuclear transition with natural gas\n21:39 What if we’re underestimating how much power we’ll need for AI\n27:10 Staying ahead of China\n34:07 Why AI is hated + the fear of AI data centers driving up electricity prices\n40:21 Increasing baseload capacity \n42:50 Building hundreds of gigawatts by 2050\n49:37 Copying the SpaceX playbook\n53:14 Incentivizing founders to build ahead of demand\n59:03 “If you want to build big things in America, come talk to the government”",
+  "duration": 3799,
+  "people": [
+    "Chris Wright",
+    "Scott Nolan",
+    "Energy Chris",
+    "General Matter",
+    "Energy Sec",
+    "Ti Morse"
+  ],
+  "topics": [
+    "Meeting the massive energy demands of the AI data center boom",
+    "Expanding US nuclear power capacity and the enrichment supply chain",
+    "The role of natural gas as a reliable bridge for dispatchable power",
+    "Regulatory reform and reducing bureaucratic hurdles for energy infrastructure",
+    "US re-industrialization and strategic energy competition with China"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/nxs66bgo0Fc/maxresdefault.jpg",
+  "date": "20260523",
+  "youtube_url": "https://www.youtube.com/watch?v=nxs66bgo0Fc",
+  "youtube_metadata": {
+    "title": "How we're going to power the AI data center buildout | Energy Sec. Chris Wright & Scott Nolan",
+    "description": "This conversation on how we're going to power the AI data center buildout is between US Secretary of Energy Chris Wright and Scott Nolan, Founder and CEO of General Matter.\n\nDOE & General Matter:\nDOE: https://www.energy.gov\nGeneral Matter: https://generalmatter.com/\n\nLinks to X:\nEnergy Sec. Chris Wright: https://x.com/SecretaryWright\nScott Nolan: https://x.com/ScottNolan\nTi Morse: https://x.com/ti_morse\n\nTimestamps:\n0:07 Powering the AI data center boom\n3:25 Biggest energy bottlenecks over the next five years\n6:03 Ramping power generation before we have SMRs\n16:06 Bridging the nuclear transition with natural gas\n21:39 What if we’re underestimating how much power we’ll need for AI\n27:10 Staying ahead of China\n34:07 Why AI is hated + the fear of AI data centers driving up electricity prices\n40:21 Increasing baseload capacity \n42:50 Building hundreds of gigawatts by 2050\n49:37 Copying the SpaceX playbook\n53:14 Incentivizing founders to build ahead of demand\n59:03 “If you want to build big things in America, come talk to the government”",
+    "duration": 3799,
+    "view_count": 4579,
+    "like_count": 156,
+    "channel": "Relentless",
+    "upload_date": "20260523",
+    "thumbnail": "https://i.ytimg.com/vi/nxs66bgo0Fc/maxresdefault.jpg",
+    "tags": [
+      "ti morse",
+      "relentless",
+      "relentless podcast",
+      "hardware",
+      "chris wright",
+      "sec energy",
+      "secretary of energy",
+      "scott nolan",
+      "general matter",
+      "nuclear",
+      "ai data center",
+      "ai data centers",
+      "nuclear power",
+      "nat gas",
+      "oil",
+      "data center water",
+      "power",
+      "electricity",
+      "gigawatt"
+    ]
+  }
+}

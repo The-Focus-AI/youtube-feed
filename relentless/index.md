@@ -2,8 +2,8 @@
 channel: Relentless
 channel_handle: "@relaboratories"
 channel_id: UCxYhf1bmbsXLU1ClPNS2P6g
-total_videos: 56
-last_updated: 2026-05-14
+total_videos: 59
+last_updated: 2026-06-08
 ---
 
 # Relentless Channel Index
@@ -12,16 +12,19 @@ last_updated: 2026-05-14
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 56 |
-| Total Views | 581,158 |
+| Total Videos | 59 |
+| Total Views | 659,699 |
 | Most Viewed | The Manufacturing Startup That's Outcompeting China (151,636) |
-| Date Range | 2024-10-24 to 2026-05-05 |
+| Date Range | 2024-10-24 to 2026-05-26 |
 | Average Video Length | ~79 min |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [Pablo Escobar was a logistics guy \| Ryan Petersen, Flexport](videos/SlHd3-0eXOA.md) | 52:51 | 21,714 |
+| [How we're going to power the AI data center buildout \| Energy Sec. Chris Wright & Scott Nolan](videos/nxs66bgo0Fc.md) | 1:03:19 | 4,579 |
+| [The Manufacturing Startup That's Outcompeting China \| Jim Belosic, SendCutSend (Round II)](videos/8sbOL5wGADo.md) | 1:01:52 | 52,248 |
 | [How to Start a Cult \| Lulu Cheng Meservey](videos/OQ0OOzOwsJY.md) | 65:26 | 14,774 |
 | [Why Elon Outcompetes Everyone \| Eric Jorgenson](videos/W5v0S0SzTZo.md) | 1:29:16 | 48,045 |
 | [Brian Armstrong — It's Wartime, All the Time](videos/bzYQWBBX7wU.md) | 1:54:30 | 350 |
@@ -156,6 +159,10 @@ last_updated: 2026-05-14
 | Boeing | What if Russia stopped selling uranium to the US tomorrow | Aerospace |
 | Anduril | What if Russia stopped selling uranium to the US tomorrow | Defense |
 | Palantir | What if Russia stopped selling uranium to the US tomorrow | Defense/Data |
+| Flexport | Pablo Escobar was a logistics guy \| Ryan Petersen | Logistics/Trade |
+| US Department of Energy | How we're going to power the AI data center buildout | Government/Energy |
+| General Matter (Round II) | How we're going to power the AI data center buildout | Nuclear Fuel/Enrichment |
+| SendCutSend (Round II) | The Manufacturing Startup That's Outcompeting China (Round II) | Manufacturing |
 
 ### Key Themes
 
@@ -212,6 +219,8 @@ last_updated: 2026-05-14
 - **Aaron Slodov** - Atomic Industries founder, Reindustrialize co-founder
 - **Ben Nowack** - Reflect Orbital CEO, ex-SpaceX
 - **Jakob Diepenbrock** - Discipulus Ventures founder & GP
+- **Ryan Petersen** - Flexport founder & CEO
+- **Chris Wright** - US Secretary of Energy
 
 ## Video Categories
 
