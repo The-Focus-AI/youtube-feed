@@ -1,8 +1,8 @@
 ---
 channel: Hard Fork
 channel_handle: "@hardfork"
-total_videos: 33
-last_updated: 2026-05-14
+total_videos: 38
+last_updated: 2026-06-08
 ---
 
 # Hard Fork Channel Index
@@ -13,15 +13,20 @@ Hard Fork is a New York Times podcast hosted by **Kevin Roose** and **Casey Newt
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 33 |
-| Total Views | 839,250 |
-| Date Range | 2025-11-14 to 2026-05-08 |
-| Average Video Length | 50:30 |
+| Total Videos | 38 |
+| Total Views | 1,091,637 |
+| Date Range | 2025-11-14 to 2026-06-05 |
+| Average Video Length | 47:31 |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [How We Got to the Biggest I.P.O. Race Ever \| SpaceX, Anthropic & OpenAI](videos/gIkyiAEpu7E.md) | 61:49 | 11,394 |
+| [Sundar Pichai on A.I. Backlash, the Future of Work and Google's Next Era](videos/RgV57kDzcng.md) | 28:44 | 197,780 |
+| [Is Google Doing Enough to Win the A.I. Race?](videos/3OuXRxh3JNw.md) | 11:53 | 13,163 |
+| [Why Washington Suddenly Wants A.I. Regulation](videos/js2FCXP_KaA.md) | 64:43 | 18,846 |
+| [OpenAI Trial: The 5 Most Surprising Moments](videos/VJBTBcvoRSs.md) | 9:35 | 11,204 |
 | [How Prediction Markets Got Out of Control](videos/hRTeKebXuZ0.md) | 69:32 | 13,938 |
 | [How OpenAI Is Rewriting Its Future](videos/3khLoSNCjWw.md) | 1:06:56 | 21,130 |
 | [Who Is John Ternus, Apple's New C.E.O.?](videos/XCeDc8D-Qpk.md) | 71:54 | 15,084 |
@@ -59,15 +64,15 @@ Hard Fork is a New York Times podcast hosted by **Kevin Roose** and **Casey Newt
 ## Most Viewed Videos
 
 1. **[We Asked Roblox's C.E.O. About Child Safety. It Got Tense. \| EP 163](videos/XpIXRgMlPo4.md)** - 214,036 views
-2. **[Demis Hassabis & Josh Woodward Tell Us Why Gemini 3.0 Puts Google in Front of the A.I. Race](videos/rq-2i1blAlU.md)** - 101,036 views
-3. **[We Have to Talk About Anthropic's Mythos](videos/oBZ5W758y4o.md)** - 59,191 views
-4. **[What Really Happened Behind Closed Doors at OpenAI](videos/z3u0GEbdcuY.md)** - 36,936 views
-5. **[Can You Teach Claude to be 'Good'? \| Meet Anthropic Philosopher Amanda Askell](videos/HDfr8PvfoOw.md)** - 23,280 views
-6. **[Why the A.I. Backlash Turned Violent in America](videos/Z620brBViuo.md)** - 21,987 views
-7. **[How OpenAI Is Rewriting Its Future](videos/3khLoSNCjWw.md)** - 21,130 views
-8. **[A.I. Scientists Are Here. But Is Progress Accelerating? \| EP 170](videos/Dn4OWufAggk.md)** - 20,531 views
-9. **[Why We're Crazy About Claude Code](videos/ji_xpQzZDHo.md)** - 20,475 views
-10. **[Why OpenAI Is Spooked. Plus, Which AI Model Should You Use? \| EP 167](videos/vbFXpD7Ozf0.md)** - 18,792 views
+2. **[Sundar Pichai on A.I. Backlash, the Future of Work and Google's Next Era](videos/RgV57kDzcng.md)** - 197,780 views
+3. **[Demis Hassabis & Josh Woodward Tell Us Why Gemini 3.0 Puts Google in Front of the A.I. Race](videos/rq-2i1blAlU.md)** - 101,036 views
+4. **[We Have to Talk About Anthropic's Mythos](videos/oBZ5W758y4o.md)** - 59,191 views
+5. **[What Really Happened Behind Closed Doors at OpenAI](videos/z3u0GEbdcuY.md)** - 36,936 views
+6. **[Can You Teach Claude to be 'Good'? \| Meet Anthropic Philosopher Amanda Askell](videos/HDfr8PvfoOw.md)** - 23,280 views
+7. **[Why the A.I. Backlash Turned Violent in America](videos/Z620brBViuo.md)** - 21,987 views
+8. **[How OpenAI Is Rewriting Its Future](videos/3khLoSNCjWw.md)** - 21,130 views
+9. **[A.I. Scientists Are Here. But Is Progress Accelerating? \| EP 170](videos/Dn4OWufAggk.md)** - 20,531 views
+10. **[Why We're Crazy About Claude Code](videos/ji_xpQzZDHo.md)** - 20,475 views
 
 ## Topics Index
 
@@ -75,10 +80,12 @@ Hard Fork is a New York Times podcast hosted by **Kevin Roose** and **Casey Newt
 
 | Company / Model | Videos | Context |
 |----------------|--------|---------|
-| Anthropic / Claude | 9 | [We Have to Talk About Anthropic's Mythos](videos/oBZ5W758y4o.md), [Can You Teach Claude to be 'Good'?](videos/HDfr8PvfoOw.md), [Why We're Crazy About Claude Code](videos/ji_xpQzZDHo.md), [Anthropic Said No to Autonomous Weapons](videos/QhQp_z16I_A.md), [OpenAI Vs. Anthropic: How the Pentagon Picked Its Partner](videos/Zj35mEtwUvY.md), [Ask the Economist](videos/f3vXSQHNMl8.md), [The Hidden Cost of OpenAI's Pentagon Deal?](videos/tnv3kIGU8go.md), [Why A.I. Is Making You Exhausted](videos/x4x1ZsUxgm8.md), [Why OpenAI Is Spooked](videos/vbFXpD7Ozf0.md) |
-| Google / Gemini | 3 | [Demis Hassabis & Josh Woodward on Gemini 3.0](videos/rq-2i1blAlU.md), [Why Google Wants to Put Data Centers in Space](videos/UBe4_V04Okg.md), [Why Juries Are Turning Against Meta and YouTube](videos/rQ5cAzc0LKI.md) |
-| OpenAI | 6 | [How OpenAI Is Rewriting Its Future](videos/3khLoSNCjWw.md), [What Really Happened Behind Closed Doors at OpenAI](videos/z3u0GEbdcuY.md), [Why the A.I. Backlash Turned Violent in America](videos/Z620brBViuo.md), [Why OpenAI Is Spooked](videos/vbFXpD7Ozf0.md), [OpenAI Vs. Anthropic: How the Pentagon Picked Its Partner](videos/Zj35mEtwUvY.md), [The Hidden Cost of OpenAI's Pentagon Deal?](videos/tnv3kIGU8go.md) |
-| xAI / Grok | 2 | [SpaceX Buys xAI](videos/I9vRCYtzYD8.md), [Grok's Deepfake Disaster](videos/hchsgcuDBfs.md) |
+| Anthropic / Claude | 12 | [We Have to Talk About Anthropic's Mythos](videos/oBZ5W758y4o.md), [Can You Teach Claude to be 'Good'?](videos/HDfr8PvfoOw.md), [Why We're Crazy About Claude Code](videos/ji_xpQzZDHo.md), [Anthropic Said No to Autonomous Weapons](videos/QhQp_z16I_A.md), [OpenAI Vs. Anthropic: How the Pentagon Picked Its Partner](videos/Zj35mEtwUvY.md), [Ask the Economist](videos/f3vXSQHNMl8.md), [The Hidden Cost of OpenAI's Pentagon Deal?](videos/tnv3kIGU8go.md), [Why A.I. Is Making You Exhausted](videos/x4x1ZsUxgm8.md), [Why OpenAI Is Spooked](videos/vbFXpD7Ozf0.md), [How We Got to the Biggest I.P.O. Race Ever](videos/gIkyiAEpu7E.md), [Why Washington Suddenly Wants A.I. Regulation](videos/js2FCXP_KaA.md), [Sundar Pichai on A.I. Backlash](videos/RgV57kDzcng.md) |
+| Google / Gemini | 6 | [Demis Hassabis & Josh Woodward on Gemini 3.0](videos/rq-2i1blAlU.md), [Why Google Wants to Put Data Centers in Space](videos/UBe4_V04Okg.md), [Why Juries Are Turning Against Meta and YouTube](videos/rQ5cAzc0LKI.md), [Sundar Pichai on A.I. Backlash, the Future of Work and Google's Next Era](videos/RgV57kDzcng.md), [Is Google Doing Enough to Win the A.I. Race?](videos/3OuXRxh3JNw.md), [Why Washington Suddenly Wants A.I. Regulation](videos/js2FCXP_KaA.md) |
+| OpenAI | 9 | [How OpenAI Is Rewriting Its Future](videos/3khLoSNCjWw.md), [What Really Happened Behind Closed Doors at OpenAI](videos/z3u0GEbdcuY.md), [Why the A.I. Backlash Turned Violent in America](videos/Z620brBViuo.md), [Why OpenAI Is Spooked](videos/vbFXpD7Ozf0.md), [OpenAI Vs. Anthropic: How the Pentagon Picked Its Partner](videos/Zj35mEtwUvY.md), [The Hidden Cost of OpenAI's Pentagon Deal?](videos/tnv3kIGU8go.md), [How We Got to the Biggest I.P.O. Race Ever](videos/gIkyiAEpu7E.md), [Why Washington Suddenly Wants A.I. Regulation](videos/js2FCXP_KaA.md), [OpenAI Trial: The 5 Most Surprising Moments](videos/VJBTBcvoRSs.md) |
+| xAI / Grok | 3 | [SpaceX Buys xAI](videos/I9vRCYtzYD8.md), [Grok's Deepfake Disaster](videos/hchsgcuDBfs.md), [How We Got to the Biggest I.P.O. Race Ever](videos/gIkyiAEpu7E.md) |
+| SpaceX | 1 | [How We Got to the Biggest I.P.O. Race Ever](videos/gIkyiAEpu7E.md) |
+| Palo Alto Networks | 1 | [Why Washington Suddenly Wants A.I. Regulation](videos/js2FCXP_KaA.md) |
 | Apple | 1 | [Who Is John Ternus, Apple's New C.E.O.?](videos/XCeDc8D-Qpk.md) |
 | Microsoft | 1 | [How OpenAI Is Rewriting Its Future](videos/3khLoSNCjWw.md) |
 | Meta | 2 | [Why Juries Are Turning Against Meta and YouTube](videos/rQ5cAzc0LKI.md), [The 50 Most Iconic Technologies of 2025](videos/kZ5Jq2Is888.md) |
@@ -91,11 +98,13 @@ Hard Fork is a New York Times podcast hosted by **Kevin Roose** and **Casey Newt
 | Autonomous Weapons & Military AI | [Anthropic Said No to Autonomous Weapons](videos/QhQp_z16I_A.md), [OpenAI Vs. Anthropic: How the Pentagon Picked Its Partner](videos/Zj35mEtwUvY.md), [The Hidden Cost of OpenAI's Pentagon Deal?](videos/tnv3kIGU8go.md), [Why A.I. Is Making You Exhausted](videos/x4x1ZsUxgm8.md) |
 | AI Nationalization & Government | [The Hidden Cost of OpenAI's Pentagon Deal?](videos/tnv3kIGU8go.md), [Anthropic Said No to Autonomous Weapons](videos/QhQp_z16I_A.md) |
 | Deepfakes | [Grok's Deepfake Disaster](videos/hchsgcuDBfs.md), [How to Optimize Your Life in 2026](videos/XAYc9NTJ-Mo.md) |
-| AI Cybersecurity | [We Have to Talk About Anthropic's Mythos](videos/oBZ5W758y4o.md) |
+| AI Cybersecurity | [We Have to Talk About Anthropic's Mythos](videos/oBZ5W758y4o.md), [Why Washington Suddenly Wants A.I. Regulation](videos/js2FCXP_KaA.md) |
 | Child Safety | [We Asked Roblox's C.E.O. About Child Safety](videos/XpIXRgMlPo4.md), [YouTube's A.I. Slop Problem ... for Kids](videos/f8Z1EmBmf40.md), [Jonathan Haidt Brings New Evidence](videos/tZSteN2g5yM.md), [Was Hank Green Right About the AI Water Problem?](videos/jCZIKA13KYI.md) |
 | AI Slop & Content Integrity | [YouTube's A.I. Slop Problem ... for Kids](videos/f8Z1EmBmf40.md) |
-| AI Backlash / Violence | [Why the A.I. Backlash Turned Violent in America](videos/Z620brBViuo.md) |
+| AI Backlash / Violence | [Why the A.I. Backlash Turned Violent in America](videos/Z620brBViuo.md), [Sundar Pichai on A.I. Backlash](videos/RgV57kDzcng.md), [Why Washington Suddenly Wants A.I. Regulation](videos/js2FCXP_KaA.md) |
 | AI Environmental Impact | [Was Hank Green Right About the AI Water Problem?](videos/jCZIKA13KYI.md) |
+| AI Regulation & Government Vetting | [Why Washington Suddenly Wants A.I. Regulation](videos/js2FCXP_KaA.md), [Sundar Pichai on A.I. Backlash](videos/RgV57kDzcng.md), [How We Got to the Biggest I.P.O. Race Ever](videos/gIkyiAEpu7E.md) |
+| AGI Timelines & Recursive Self-Improvement | [Sundar Pichai on A.I. Backlash](videos/RgV57kDzcng.md) |
 
 ### AI Agents & Bots
 
@@ -126,10 +135,15 @@ Hard Fork is a New York Times podcast hosted by **Kevin Roose** and **Casey Newt
 | Tech of 2025 Retrospective | [The 50 Most Iconic Technologies of 2025](videos/kZ5Jq2Is888.md) |
 | Space Data Centers | [Why Google Wants to Put Data Centers in Space](videos/UBe4_V04Okg.md) |
 | SpaceX / xAI Merger | [SpaceX Buys xAI](videos/I9vRCYtzYD8.md) |
-| Prediction Markets | [How Prediction Markets Got Out of Control](videos/hRTeKebXuZ0.md), [The Hidden Cost of OpenAI's Pentagon Deal?](videos/tnv3kIGU8go.md) |
+| Prediction Markets | [How Prediction Markets Got Out of Control](videos/hRTeKebXuZ0.md), [The Hidden Cost of OpenAI's Pentagon Deal?](videos/tnv3kIGU8go.md), [How We Got to the Biggest I.P.O. Race Ever](videos/gIkyiAEpu7E.md), [Why Washington Suddenly Wants A.I. Regulation](videos/js2FCXP_KaA.md) |
 | Apple Leadership | [Who Is John Ternus, Apple's New C.E.O.?](videos/XCeDc8D-Qpk.md) |
 | OpenAI / Microsoft Partnership | [How OpenAI Is Rewriting Its Future](videos/3khLoSNCjWw.md) |
-| OpenAI Internal Drama | [What Really Happened Behind Closed Doors at OpenAI](videos/z3u0GEbdcuY.md) |
+| OpenAI Internal Drama | [What Really Happened Behind Closed Doors at OpenAI](videos/z3u0GEbdcuY.md), [OpenAI Trial: The 5 Most Surprising Moments](videos/VJBTBcvoRSs.md) |
+| Musk vs. OpenAI Trial | [OpenAI Trial: The 5 Most Surprising Moments](videos/VJBTBcvoRSs.md), [Why Washington Suddenly Wants A.I. Regulation](videos/js2FCXP_KaA.md) |
+| AI IPO Race | [How We Got to the Biggest I.P.O. Race Ever](videos/gIkyiAEpu7E.md) |
+| Cybersecurity / Vulnerabilities | [We Have to Talk About Anthropic's Mythos](videos/oBZ5W758y4o.md), [Why Washington Suddenly Wants A.I. Regulation](videos/js2FCXP_KaA.md) |
+| AI in Mathematics | [How We Got to the Biggest I.P.O. Race Ever](videos/gIkyiAEpu7E.md) |
+| Google I/O Recap | [Is Google Doing Enough to Win the A.I. Race?](videos/3OuXRxh3JNw.md), [Sundar Pichai on A.I. Backlash](videos/RgV57kDzcng.md) |
 
 ### Labor & Economy
 
@@ -173,17 +187,20 @@ Hard Fork is a New York Times podcast hosted by **Kevin Roose** and **Casey Newt
 | Dean Ball | Tech Policy | [Why Google Wants to Put Data Centers in Space](videos/UBe4_V04Okg.md) |
 | Mark Humphries | Historian | [Why Google Wants to Put Data Centers in Space](videos/UBe4_V04Okg.md) |
 | Colin Angle | Former CEO, iRobot | [iRobot's Bankruptcy + 2026 Predictions!](videos/kQNTk9T-Mrg.md) |
+| Sundar Pichai | CEO, Google / Alphabet | [Sundar Pichai on A.I. Backlash, the Future of Work and Google's Next Era](videos/RgV57kDzcng.md) |
+| Kevin Hartnett | Author, The Proof in the Code / Editorial Lead, Cursor | [How We Got to the Biggest I.P.O. Race Ever](videos/gIkyiAEpu7E.md) |
+| Nikesh Arora | CEO & Chairman, Palo Alto Networks | [Why Washington Suddenly Wants A.I. Regulation](videos/js2FCXP_KaA.md) |
 
 ## Video Categories
 
-- **Deep Dives & Analysis** - [How Prediction Markets Got Out of Control](videos/hRTeKebXuZ0.md), [Should You Be Afraid of the SaaSpocalypse?](videos/_1KQRPtgiM0.md), [SpaceX Buys xAI](videos/I9vRCYtzYD8.md), [An A.I. Assistant That's Too Good to Be True?](videos/5dTmsGBHKTM.md), [A.I. Scientists Are Here](videos/Dn4OWufAggk.md), [Why OpenAI Is Spooked](videos/vbFXpD7Ozf0.md), [How OpenAI Is Rewriting Its Future](videos/3khLoSNCjWw.md), [Why the A.I. Backlash Turned Violent in America](videos/Z620brBViuo.md), [Who Is John Ternus, Apple's New C.E.O.?](videos/XCeDc8D-Qpk.md)
-- **Interviews** - [YouTube's A.I. Slop Problem ... for Kids](videos/f8Z1EmBmf40.md), [Can You Teach Claude to be 'Good'?](videos/HDfr8PvfoOw.md), [Demis Hassabis & Josh Woodward on Gemini 3.0](videos/rq-2i1blAlU.md), [Jonathan Haidt Brings New Evidence](videos/tZSteN2g5yM.md), [We Asked Roblox's C.E.O. About Child Safety](videos/XpIXRgMlPo4.md), [Ask the Economist](videos/f3vXSQHNMl8.md), [Was Hank Green Right About the AI Water Problem?](videos/jCZIKA13KYI.md), [What Really Happened Behind Closed Doors at OpenAI](videos/z3u0GEbdcuY.md), [Why Juries Are Turning Against Meta and YouTube](videos/rQ5cAzc0LKI.md)
-- **Product Reviews & Hands-On** - [Why We're Crazy About Claude Code](videos/ji_xpQzZDHo.md), [We Have to Talk About Moltbook ...](videos/uARkJmhk9kE.md)
-- **Explainers** - [Grok's Deepfake Disaster](videos/hchsgcuDBfs.md), [Anthropic Said No to Autonomous Weapons](videos/QhQp_z16I_A.md), [Revenge of the A.I. Bot](videos/3n_jKx6v6qU.md), [OpenAI Vs. Anthropic: How the Pentagon Picked Its Partner](videos/Zj35mEtwUvY.md), [The Hidden Cost of OpenAI's Pentagon Deal?](videos/tnv3kIGU8go.md), [We Have to Talk About Anthropic's Mythos](videos/oBZ5W758y4o.md), [Why Tech C.E.O.s Are Blaming A.I. for Mass Layoffs](videos/Prm_V51XbPg.md), [Why A.I. Is Making You Exhausted](videos/x4x1ZsUxgm8.md)
+- **Deep Dives & Analysis** - [How Prediction Markets Got Out of Control](videos/hRTeKebXuZ0.md), [Should You Be Afraid of the SaaSpocalypse?](videos/_1KQRPtgiM0.md), [SpaceX Buys xAI](videos/I9vRCYtzYD8.md), [An A.I. Assistant That's Too Good to Be True?](videos/5dTmsGBHKTM.md), [A.I. Scientists Are Here](videos/Dn4OWufAggk.md), [Why OpenAI Is Spooked](videos/vbFXpD7Ozf0.md), [How OpenAI Is Rewriting Its Future](videos/3khLoSNCjWw.md), [Why the A.I. Backlash Turned Violent in America](videos/Z620brBViuo.md), [Who Is John Ternus, Apple's New C.E.O.?](videos/XCeDc8D-Qpk.md), [How We Got to the Biggest I.P.O. Race Ever](videos/gIkyiAEpu7E.md), [Why Washington Suddenly Wants A.I. Regulation](videos/js2FCXP_KaA.md)
+- **Interviews** - [YouTube's A.I. Slop Problem ... for Kids](videos/f8Z1EmBmf40.md), [Can You Teach Claude to be 'Good'?](videos/HDfr8PvfoOw.md), [Demis Hassabis & Josh Woodward on Gemini 3.0](videos/rq-2i1blAlU.md), [Jonathan Haidt Brings New Evidence](videos/tZSteN2g5yM.md), [We Asked Roblox's C.E.O. About Child Safety](videos/XpIXRgMlPo4.md), [Ask the Economist](videos/f3vXSQHNMl8.md), [Was Hank Green Right About the AI Water Problem?](videos/jCZIKA13KYI.md), [What Really Happened Behind Closed Doors at OpenAI](videos/z3u0GEbdcuY.md), [Why Juries Are Turning Against Meta and YouTube](videos/rQ5cAzc0LKI.md), [Sundar Pichai on A.I. Backlash, the Future of Work and Google's Next Era](videos/RgV57kDzcng.md)
+- **Product Reviews & Hands-On** - [Why We're Crazy About Claude Code](videos/ji_xpQzZDHo.md), [We Have to Talk About Moltbook ...](videos/uARkJmhk9kE.md), [Is Google Doing Enough to Win the A.I. Race?](videos/3OuXRxh3JNw.md)
+- **Explainers** - [Grok's Deepfake Disaster](videos/hchsgcuDBfs.md), [Anthropic Said No to Autonomous Weapons](videos/QhQp_z16I_A.md), [Revenge of the A.I. Bot](videos/3n_jKx6v6qU.md), [OpenAI Vs. Anthropic: How the Pentagon Picked Its Partner](videos/Zj35mEtwUvY.md), [The Hidden Cost of OpenAI's Pentagon Deal?](videos/tnv3kIGU8go.md), [We Have to Talk About Anthropic's Mythos](videos/oBZ5W758y4o.md), [Why Tech C.E.O.s Are Blaming A.I. for Mass Layoffs](videos/Prm_V51XbPg.md), [Why A.I. Is Making You Exhausted](videos/x4x1ZsUxgm8.md), [OpenAI Trial: The 5 Most Surprising Moments](videos/VJBTBcvoRSs.md)
 - **Year-End / Predictions** - [The 50 Most Iconic Technologies of 2025](videos/kZ5Jq2Is888.md), [iRobot's Bankruptcy + 2026 Predictions!](videos/kQNTk9T-Mrg.md), [How to Optimize Your Life in 2026](videos/XAYc9NTJ-Mo.md)
-- **Short Features** - [Six Bizarre Tech Stories You Might Have Missed](videos/Xoi0_sPssNY.md)
-- **Business & Mergers** - [SpaceX Buys xAI](videos/I9vRCYtzYD8.md), [Why Google Wants to Put Data Centers in Space](videos/UBe4_V04Okg.md), [How OpenAI Is Rewriting Its Future](videos/3khLoSNCjWw.md), [What Does iRobot's Bankruptcy Mean for the Future of U.S. Robots?](videos/kQNTk9T-Mrg.md)
+- **Short Features** - [Six Bizarre Tech Stories You Might Have Missed](videos/Xoi0_sPssNY.md), [Is Google Doing Enough to Win the A.I. Race?](videos/3OuXRxh3JNw.md), [OpenAI Trial: The 5 Most Surprising Moments](videos/VJBTBcvoRSs.md)
+- **Business & Mergers** - [SpaceX Buys xAI](videos/I9vRCYtzYD8.md), [Why Google Wants to Put Data Centers in Space](videos/UBe4_V04Okg.md), [How OpenAI Is Rewriting Its Future](videos/3khLoSNCjWw.md), [What Does iRobot's Bankruptcy Mean for the Future of U.S. Robots?](videos/kQNTk9T-Mrg.md), [How We Got to the Biggest I.P.O. Race Ever](videos/gIkyiAEpu7E.md)
 
 ## Tag Cloud
 
-AI (22) | Anthropic (9) | Google (3) | OpenAI (8) | xAI (2) | Grok (1) | Claude (6) | Gemini (3) | Apple (1) | Microsoft (1) | Meta (2) | deepfakes (2) | ethics (3) | safety (4) | autonomous weapons (4) | child safety (4) | social media (3) | SaaS (1) | robotics (1) | iRobot (1) | Roblox (1) | SpaceX (1) | Elon Musk (3) | coding tools (2) | AI agents (4) | AI assistants (2) | productivity (2) | predictions (1) | tech retrospective (1) | interviews (8) | space (1) | data centers (1) | AI models (2) | Moltbook (2) | Pentagon (4) | AI economy (2) | job market (3) | Sam Altman (4) | Pete Hegseth (2) | Dario Amodei (3) | OpenClaw (2) | Alpha School (1) | surveillance (3) | supply chain risk (2) | prediction markets (2) | Polymarket (2) | Kalshi (2) | Iran (1) | nationalization (1) | AI slop (1) | YouTube Kids (1) | kids content (1) | Elsagate (1) | Cocomelon (1) | UBI (1) | Andrew Yang (1) | Ronan Farrow (1) | Kara Swisher (1) | medicine (1) | environmental impact (1) | water usage (1) | AI burnout (1) | layoffs (1) | violence (1) | cybersecurity (1) | mythos (1)
+AI (27) | Anthropic (12) | Google (6) | OpenAI (9) | xAI (3) | Grok (1) | Claude (7) | Gemini (4) | Apple (1) | Microsoft (1) | Meta (2) | deepfakes (2) | ethics (3) | safety (6) | autonomous weapons (4) | child safety (4) | social media (3) | SaaS (1) | robotics (1) | iRobot (1) | Roblox (1) | SpaceX (2) | Elon Musk (4) | coding tools (3) | AI agents (5) | AI assistants (2) | productivity (2) | predictions (1) | tech retrospective (1) | interviews (10) | space (1) | data centers (1) | AI models (3) | Moltbook (2) | Pentagon (4) | AI economy (2) | job market (3) | Sam Altman (5) | Pete Hegseth (2) | Dario Amodei (4) | OpenClaw (2) | Alpha School (1) | surveillance (3) | supply chain risk (3) | prediction markets (4) | Polymarket (3) | Kalshi (3) | Iran (1) | nationalization (1) | AI slop (1) | YouTube Kids (1) | kids content (1) | Elsagate (1) | Cocomelon (1) | UBI (1) | Andrew Yang (1) | Ronan Farrow (1) | Kara Swisher (1) | medicine (1) | environmental impact (1) | water usage (1) | AI burnout (1) | layoffs (1) | violence (1) | cybersecurity (3) | mythos (3) | Sundar Pichai (3) | AGI (2) | singularity (2) | IPOs (1) | effective altruism (1) | philanthropy (1) | Trump administration (2) | AI regulation (3) | Nikesh Arora (1) | Palo Alto Networks (1) | recursive self-improvement (1) | Erdos (1) | Terence Tao (1) | Leiden Declaration (1) | China (1) | Jensen Huang (1) | Ilya Sutskever (1) | Helen Toner (1) | Greg Brockman (1) | jackass trophy (1) | OpenInterpreter (1) | Hot Mess Express (1) | HatGPT (1)
