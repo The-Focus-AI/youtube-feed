@@ -1,0 +1,308 @@
+{
+  "title": "Under 5 minutes to a deployed LLM endpoint — Audry Hsu, RunPod",
+  "source_url": "https://www.youtube.com/watch?v=ILdE7FaAjVA",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:14",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "Hi, my name is Audry. I am from RunPod. This is an intro to RunPod. Can I just get a quick hands to see how many people have already heard of RunPod or maybe even used RunPod before?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:26",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "Okay, newbies for everybody. Great. So RunPod, we are a cloud AI infrastructure company. So we have the hardware, we have the GPUs, and we make it easy for developers to deploy models. And that can be your own private model, it can be an open-source model from Hugging Face, doesn't matter to us. You bring your code and we'll bring the rest.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:52",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "Just really quickly, what problems does RunPod solve? Like, why are we even here today? Infrastructure can be hard, managing it. Think about back in the day before we had AWS, Google Cloud, when everybody would have to have on-prem servers and manage those, maintain those. That is something that we don't want to have to do as developers. Those are things that we happily have moved away from and given off to DevOps and now it's even it's even more abstracted for us.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:28",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "GPU access is slow and opaque. So, I don't know if anybody has tried to buy a GPU recently, we're in a global supply crunch. It's a bit like in COVID when everybody went to the store and bought all the toilet paper because we didn't know how long they would need to be at home for. We're a little bit in that right now, but we expect the market will recover as customers, companies, people figure out a little bit better, get a little bit better at estimating what kind of compute they need.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:04",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "And then last, builder primary focus should be building. So again, we want to build app, we as software developers, we bring the value through the applications that we build, not from managing the infrastructure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:22",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "And I think RunPod has a pretty unique story. These are our founders, Zen and Pradeep. So they had a couple of GPU rigs in their basement in 2022, failed crypto mining, and then so they were like, what are we going to do with their GPUs now? So they prototyped what is now the foundations of RunPod. They posted on Reddit and said, hey, anyone want to use these GPUs for free, just give us feedback on it. And that is literally how our company has started and we have been revenue-generating ever since.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:58",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "And the reason why I want to tell this story is, not because it's",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "it's very like bootstrapping but because the origin story of RunPod has always started with builders and getting feedback from the community and that is still true today.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:13",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "so I won't promise that we'll be perfect but we are definitely very engaged with our users on reddit, on reddit on discord, so we're always trying to stay engaged with you all.",
+      "tone": "sincere"
+    },
+    {
+      "timestamp": "00:03:26",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "just at a glance to give you an idea of RunPod, we have over 500,000 developers on our platforms, 30-plus data centers across the world, including Europe and the EU, and we've just passed a significant revenue milestone for us, 120 million in annual recurring revenue.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:51",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "these are just a few of our customers. you might be surprised to see some of the AI cloud native companies on here too but they come to us for the same reasons that most of our customers come to us, it's because they need flexible and reliable GPU infrastructure.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:14",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "this is a really high level overview of different ways you can build on RunPod. so I would say our at our core pods is our sandbox virtual environment. we spin up a container for you, allocate GPUs to it, and we manage the rest. you just bring your docker files, you bring your code.",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:04:29",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "serverless, it's our auto-scaling product. so when you're thinking more about like bursty workloads or batch workloads, serverless is really great because instead of being always on like a container is, serverless, your workers spin down and when they're idle you don't pay for anything.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:04:58",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "clusters, if you're doing some heavy duty training, there's a place for you as well on RunPod, multi-node clusters with high speed networking. and then the hub, which I'll I'll switch to in a second, it's kind of like our central repository for AI repos. these are already pre-configured, pre-vetted. we have a couple of examples of listings by RunPod for popular models, but also our community contributes to them as well. so they're just repos that you can fork, you can watch, and then you can star and deploy on RunPod.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:41",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "so today we're going to be talking mostly about serverless. so serverless is best for real-time inference. I talked about the auto-scaling that comes with it. why teams use it is mostly because they don't need to pre-empt and figure out how much compute they need.",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "ahead of time. Um, you can set, you can configure the number of max workers that you want to scale up to, you can set limits for caps for spending caps, and you can also configure workers that are always on so they are, um, already have your models downloaded and they can respond to requests, um, immediately. For a lot of teams, serverless is the fastest way, um, if you want to start deploying a production ready API.",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:06:30",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "And now I'm going to switch over and just show y'all really quick how easy it is to get started and deploy something.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:06:57",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "Okay. So, right now I'm, um, going to do everything via the console so that it's nice and pretty for you guys to see, but we also have, um, CLI support. We have skills, um, to help work with RunPod, everything that's ready for your agent so you don't have to read our docs, but since we're all humans here today, I'm going to show you via the console.",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:07:23",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "Um, we'll start in the hub which is if you're just trying to explore and see what's out there, what is something that you can get up and running right now, the hub is a great place to start. So like I mentioned, these are already vetted open source listings for, um, AI repos and I am going to pick the VLLM, um, and I'll just open the underlying repository as well so you could guys can see what it is literally just a GitHub, um, repo.",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:08:00",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "It tells you how to get set up for it, um, we can see there's already the Dockerfile here. It's already pre-configured for you. It's got some defaults for you, um, depending on the listing, you can, um, pass in different environmental variables, um, to configure it how you wish.",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:08:23",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "But I'm just going to go ahead and click deploy and I have a model that I wanted, let me see. I was going to just pick one. Works well. This is going to download it from Hugging Face and just expand the advanced options and look for the max model length and I'm going to, um, bump this up for the context window and leave everything",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "...else as the defaults, but there's settings for max loras. Um, all of these configuration options get passed as, um, as flags to the, um, VLLM serve.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:16",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "And, um, gonna spin it up as an endpoint here.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:23",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "So this might take a minute or two since this is the very... I just created it, we've gotta initialize my workers, let's check out...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:33",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "So the default configuration here is it's gonna deploy on some H100s, and A100s are the backup here. I have my pricing. This is like a fraction of a cent per second. Um, like I mentioned before, that this is only going to be charged for while the worker is actually running and handling a request.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:58",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "Max workers is where I can bump this up if I want to have my workload scale up up to 15 workers at a time, and I can set, um, some active workers ones that I want always to be on, that I don't want the container to ever spin down.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:18",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "And I can save that.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:23",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "Okay, so how do I... how does one interact with the serverless endpoint? Um, this is just an API via HTTP endpoint right here. Um, we've provisioned this endpoint for you, you can send requests to this, your customers can send requests to this.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:39",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "If I just hit run, and I'm gonna add a few, let's... what should we ask the LLM today? Does anyone have... okay. How did... I'm American, so how did biscuit then get its name? I don't know.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:10:53",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "Um, okay, while these requests are queued, let me check on our workers.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:01",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "Okay. We've a handful that are initializing. Um, this is the containers being created, that's the model being downloaded, um, getting ready, and the ones that are running, they've already finished. These are probably going to be the ones who are going to pick up those requests that we just added.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:18",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "I've got telemetry about... it's blank right now, but the number of requests, execution time, delay time, so you have observability into how your endpoints are operating.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:37",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "And let's see. Okay, it's already done.",
+      "tone": "satisfied"
+    },
+    {
+      "timestamp": "00:11:45",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "I've got a request back. It sat in the queue for about 41 seconds. Um, that's going to be a little bit longer than all of the subsequent requests because of some of the cold start time that I talked about, like downloading the model.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "...initializing the first container, but execution time only about one and a half seconds. So yeah, that was probably less than five minutes to get started and get something deployed on serverless from a hub listing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:22",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "Does anybody have any questions? This is a very short and sweet intro. We have another session later today at 4:00, and that one is going to be focused on our Python Flask SDK. And that one is going to be completely via the terminal. And I'm going to show- walk you through how I can spin up and deploy my code on- my code as a remote function onto a GPU and deploy in the end and make it like a production-ready endpoint here as well.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:06",
+      "ad": false,
+      "speaker": "Audry Hsu",
+      "text": "But that's all I've got for today, so yeah, thanks. Thanks for coming.",
+      "tone": "polite"
+    }
+  ],
+  "highlights": [
+    "RunPod is a cloud AI infrastructure company that abstracts away the complexity of managing GPU hardware, allowing developers to focus entirely on building applications rather than DevOps.",
+    "The platform's serverless offering provides an auto-scaling environment where users only pay for the exact time a worker is handling a request, making it ideal for bursty or batch workloads.",
+    "The RunPod Hub features a repository of pre-configured, community-vetted AI models that can be deployed as production-ready API endpoints in less than five minutes.",
+    "Originally started with failed crypto mining rigs in a basement, the company has grown to serve over 500,000 developers across 30+ global data centers with a focus on community feedback.",
+    "To eliminate \"cold start\" latency for real-time applications, the platform allows users to configure \"active workers\" that stay initialized and ready to respond to requests immediately."
+  ],
+  "summary": "RunPod is a cloud AI infrastructure company designed to simplify GPU access and model deployment for developers. By providing scalable hardware and abstracting away the complexities of DevOps, the platform allows software engineers to focus on building applications rather than managing on-premise servers or navigating the current global GPU supply crunch. Founded on a community-driven ethos after the founders repurposed failed crypto-mining rigs, the company has grown to support over 500,000 developers across 30 global data centers.\n\nThe presentation highlights four core offerings: Pods for sandbox virtual environments, multi-node Clusters for heavy-duty training, a \"Hub\" of pre-vetted AI repositories, and a robust Serverless product. A significant portion of the talk focuses on the Serverless option, which features auto-scaling and a pay-per-use model ideal for real-time inference and bursty workloads. During a live demonstration, the speaker shows how to deploy a production-ready LLM endpoint from the Hub in under five minutes, emphasizing RunPod's focus on speed, flexibility, and developer experience.",
+  "description": "Two failed crypto mining rigs in a basement in 2022. The founders posted on Reddit offering the GPUs for free in exchange for feedback. That is the origin of RunPod, now at $120 million in annual recurring revenue with 500,000 developers on the platform.\n\nThe demo runs in under five minutes: pick a model from the Hub, configure a context window, deploy a serverless endpoint on H100s. First request queues for 41 seconds on cold start while the container initializes and the model downloads. Every request after that executes in about 1.5 seconds. You pay only while a worker is handling a request.\n\nSpeaker info:\n- https://www.linkedin.com/in/audry-hsu/",
+  "duration": 806,
+  "people": [
+    "Audry Hsu",
+    "Audience Member"
+  ],
+  "topics": [
+    "RunPod's origin story and company growth",
+    "GPU infrastructure management and global supply challenges",
+    "RunPod product suite: Pods, Serverless, and Clusters",
+    "Technical walkthrough of deploying a serverless AI endpoint"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/ILdE7FaAjVA/maxresdefault.jpg",
+  "date": "20260607",
+  "youtube_url": "https://www.youtube.com/watch?v=ILdE7FaAjVA",
+  "youtube_metadata": {
+    "title": "Under 5 minutes to a deployed LLM endpoint — Audry Hsu, RunPod",
+    "description": "Two failed crypto mining rigs in a basement in 2022. The founders posted on Reddit offering the GPUs for free in exchange for feedback. That is the origin of RunPod, now at $120 million in annual recurring revenue with 500,000 developers on the platform.\n\nThe demo runs in under five minutes: pick a model from the Hub, configure a context window, deploy a serverless endpoint on H100s. First request queues for 41 seconds on cold start while the container initializes and the model downloads. Every request after that executes in about 1.5 seconds. You pay only while a worker is handling a request.\n\nSpeaker info:\n- https://www.linkedin.com/in/audry-hsu/",
+    "duration": 806,
+    "view_count": 2876,
+    "like_count": 63,
+    "channel": "AI Engineer",
+    "upload_date": "20260607",
+    "thumbnail": "https://i.ytimg.com/vi/ILdE7FaAjVA/maxresdefault.jpg",
+    "tags": [
+      "ai",
+      "ai engineer",
+      "ai engineering",
+      "software development",
+      "tech",
+      "startups",
+      "software architecture",
+      "machine learning"
+    ]
+  }
+}

@@ -1,0 +1,575 @@
+{
+  "title": "Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo",
+  "source_url": "https://www.youtube.com/watch?v=EcqMYoIV57A",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:14",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "I'm Nupur, I work with Codo. At Codo we do agentic reviews. I have a background in DevSecOps, so I'm coming from an industry where everything was deterministic. The pipelines, they run, they crash. If they crash, we fix them, to a place where we are doing agents where nothing is deterministic. So in my last few years, I have learned where and how agents fail, what are the learnings, and today I'll be sharing some of my learnings with you.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:00:52",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "So, if you see the evolution of agents, it started with static prompts, where it was a 4K context window, and we tried to put whatever was important or whatever we deemed important and the AI models will process it and provide you with a result, right? When we started with that, that means that it was on us to tell LLMs what do they should... they should look into. That means if we provide wrong inputs, we might not get proper results. And then we thought, maybe if that context window grows, if the context size grows, we can do better, we can have more inputs, and we started with agentic workflows. So we created an agent, we get that... get them tools like search tool, to go into search into documents and do something as a command, then again look into the search and do something, which again created kind of a loop where the tool does not know where to stop. It thinks like I need more inputs, again going back and back. It's a loop. To improvise on that, nowadays multi-agents is becoming more popular. Create multi-agents, do a lot of stuff together. When we see it like that, we have a lot of agents working for you. So a security agent trying to figure security concerns, a review agent trying to review the tool, a coding agent trying to fix things. Now again, the more the tools, the more issues you have. Not every agent understands and they have clash in their understandings, where you don't get into the results.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:35",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "So, what do we learn from here? What we see is context is not a problem. Day by day, the models are coming where you can dump a lot of context, a lot of data. But does that make sure that the results you're getting is smart enough to give you everything? Or smart enough to decide what's important? If you see the current LLM models, we see a pattern.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "where it takes the initial inputs you provide, it takes the last inputs, but the in between context is basically removed. So they don't focus on the in between context. Agents look at the starting point, end point and try to provide you the results. This is like a U curve where some of the things from the start, some of the things from the end make sense, but whatever you are providing in between, that that is not taken up. Yeah.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:30",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "How do you know this?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:31",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "This is something which we are working on and we are actually benchmarking things. So when we create agents, we try to see this is the context we provide to the agents, does it take this context into effect and also give us the results. So we are working with multi-agentic architecture where for each of the tasks we do for code reviews, we give that task to an agent and say, okay, give us the result. Now every time we, for example code reviews, we try to see can we give all the context, can we give the whole code base for example and see if we can get a results. But we see that that whenever we start working with that, the initial prompt or the initial goal which we start with, that is in focus. If we give something at the end as an input, that is in focus, but all between context, like I have Jira, I have MCPs, can you look into that? The LLMs try to get rid of those things and purge them to give make sense by themselves.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:04:33",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "So to have this or to make a way out of this, how we deal with is creating strategic solutions for context optimization. Rather than dumping everything to the models and asking them to be smart enough to find out what is more important, we usually try to see, okay, what we can do to make it a better context for the model. There are lots of solutions in place if you see currently",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:04:59",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "and context engine is a buzzword, like everybody wants to create context engine and everybody wants to provide that. But context engine is like a bouncer, right? So your high speed car is going and it acts as a bouncer and tells you this is more important. Now if you have a large messy code base, it makes sense to create a context engine because it creates a search pattern, it create a ranking logic so that whenever you ask for a task, it looks for those rankings and say this is more important for you, take it and work with it. The problem is the indexing part takes moderate effort, but the scaling is a challenge, like if you start talking about 600 repositories or 700 repositories, the mapping and the indexing starts to slow down and it becomes again unpredictable to find or create a context engine if you are not actually into making context engine only.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "And lots of areas where agent can get more context instead of investing highly on context engine.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:07",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Hierarchical summarization where instead of creating or going through everything, a summary is created for each file and folder so that when the agents try to find they can try to read the summary and see if that is more important to us or not can be a good one.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:06:24",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "The only thing is that you need a lot of LLM processing so every time a file is created or changed some of the agents need to go and create a mapping for that so it's a high upfront context or LLM processing that is needed.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:42",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Another way is knowledge graph now knowledge graph is complex but it works wonder when you have logical dependencies for example you have one file which impacts another file which again impacts other file you can create a graph DB hosting.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:06:58",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "It is the initial input needed by the developer is very high it takes a lot of time to create that but if you have complex logics or you have dependencies on multiple repos that works wonder.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:07:13",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "For me I think for most of the task if you're not a product company but if you're building agents for yourself or your processes iterative retrieval works really good because instead of even creating a summary it creates kind of an index so it's like a library card which you give to your agents and say",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:31",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "this is the topic if that is relatable to you you can look deep into the code or and look for the result again it has quite a cost impact but again you do not have to invest a lot of energy the input required by the developers to provide to the LLMs is low and it provides better results.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:07:53",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "There is also an option of self-correction where you ask the LLMs to do something and then there is a critic node which looks and say if that is relevant to your initial goal or not in that case if the context is lost you can again ask the agent to do it again retry it again because the critic node said this is not the right way.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:08:11",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "It takes a little bit more time because it take adds a latency of running the agents and again but it does not require a lot of input initially from the developers to create something.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:31",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Another challenge which I have seen people getting into when they create these agents is the orchestration paradox now what it does is that now LLMs are becoming more and more smart so when you give them the task they think like okay I should use this tool oh maybe I can do better I should research more on what should I use.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:51",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "It goes into a loop that instead of actually looking into solve the problem they look",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "look for the method to solve the problem. They hop on from one method to another method, and most of the API tokens are wasted on finding a way to do it rather than doing it. So you'll just go on the research mode, for example, if you use Opus latest and greatest, they will try to see what is the best method to do it and challenging themselves again and again. Maybe not this, another way, another way, and it just goes into a loop of doing something... trying to do something rather than doing something.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:33",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "To resolve this, we worked with 80/20 hybrid approach. I think this is one of the most interesting outcome I have seen or the way to resolve this infinite loop. What our teams are doing is giving the latest and the greatest models or giving the agents power to research 80% of the time. So you give them the goal and say, okay, try to do whatever you can. But the 20% of the task where you need final validation, you want summarization, that are not something which is free-flowing, that is more restricted. Those are more hard gates. For example, if I get X results, I want Y, it's more deterministic. So that the research which is coming from the 80% can be lowered down.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:10:33",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Now, when you see, you can always say that the 80% tool can still go on and go in the infinite loops. We have a mechanisms to work on that. For some organization, do they... they do counter mechanism where after four or five counters, you have to work with whatever was the last results. For some of them, they have timeout counters that after five minutes, whatever is the last tool or whatever is the last decision, you work with that and then go back if the results are not good. But you can restrict that 80%. But in short, if you are using anything like discovery or you're trying to see which tool to use, you're trying to plan, those 80% research models are really good.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:22",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "But if you are again trying to create a summarization, you're trying to see, okay, this is the research I have got, now I have to make a result out of it. The 20% works really well. Now for 80%, usually you use high reasoning models, latest and the greatest, but you don't need a high reasoning model for the 20% because those 20% things are doing deterministic, they are you are actually telling them what is needed. For example, the critic node which we talked about, they don't need to research, they don't need to find out what is the best thing to do, they just need to see what was your goal, what was the result you are trying to achieve and how to provide or how to summarize that for that. Also, things like if you think about what would be the next possible action, I have this result, what should I go and look for?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "That are things can be done by the 80% dynamic models, whereas I have all the results from the 80% models, but what is the proper way or what is the proper results the user is looking into? Those kind of decisions can be taken by the 20% model.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:21",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Finally, uh this is again an interesting failure which we have seen, where as the context grows, teams think, okay, we can do everything with one agent because the context window is quite great, right? We can put everything, we can ask an agent to uh do the testing part, we can ask that agent to do review part, we can ask the agent all the kind of things because the context is same and they can provide us the results. That make sure that when the agent is going forward, it get overwhelmed with the inputs, and again if it tries to start losing uh what was the original task. So maybe you give four tasks to the agent and somewhere down the line it focuses on two tasks, so you get great results for the two tasks, but the other two just just get lost in the middle.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:13:13",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "For those particular purpose, we have something called mixture of agents and there that's where you hear a lot of buzz about multiple agents or multi-agentic architecture where you create instead of one big agent we create issue expert agents, we create small small agents which are doing great in a specific task which they have provided. Now, to build on top of that, each of the agent come up with their own interesting ideas or results. How to make sure those results combine and make sense together? Because for example, I am trying to search for a vacation, I give an agent to find the best hotel, another agent to find the best location, another agent try to find best flights, but all three of them gives me different results. The hotel is in Greece, the flight is from Amsterdam to maybe Portugal, and everything just doesn't make sense, right? So for that particular purpose, there's a concept called a judge agent, what it does is it tries to get all the results and see if they can make sense together. So now you are doing all the greatest things from different agent getting the best results from their part, but a judge agent helps us to combine these and make one sense out of it instead of getting so many things which doesn't make sense together.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:14:42",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Something similar is implemented by us, so this is our architecture, uh Codos' architecture, where for the code reviews we are using the same formula. So as part of a PR review, we have a context collector which actually goes and collect context",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "from the PRs, it could collect context from the context engine, it collect context from the tools, but then it does not start working and giving you the reviews. It actually bifurcates all the context it has provided and pass it on to different agents. Now what these agents do is basically specializing in what they are supposed to, for example there will be a security agent trying to find security flaws. There might be a agent try to code, there might code differences, there might be an agent trying to find the Jira issues. Once all these agents give us back, a judge agent actually looks for the results and say okay these are interesting enough but is it relevant to you. They can again go back in the context engine look into the PRs and see out of the ten things which is provided by you how many of them actually make sense for your thing. So again refining the results to make sense to you.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:16:03",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Yeah, think that was it from my side.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:12",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Any questions?",
+      "tone": "inviting"
+    },
+    {
+      "timestamp": "00:16:16",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Yes. In practice, how do you let the swarm communicate with each other?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:16:23",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Uh, you are talking about the agents?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:16:25",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "So you have agent A and agent B and the judge. I can imagine they write to a file system or you have some kind of tool proprietary or...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:16:31",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Oh, we use LangChain at the bottom and that is being used to communicate and build the infrastructure for different agents.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:40",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Know what LangChain uses for that? Like just collects the responses and then shoves it back into the prompt of the next agent?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:16:47",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Yes, yes, yes. That's what, so what we do is we try to get the results and create a prompt for the next agent. And if it's multiple things, again there is an agent just to collect the results and create a better prompt which is refined for the next agent.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:17:08",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "And have you thought about a calibration step for each agent?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:17:11",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "When you say the calibration, can you tell me more about it?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:17:14",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Calibration, right, so when you do a code review with an agent, right, you need at least what I've had to deal in my time is doing some calibration, right, that you actually tell them what is good and what is bad.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:17:27",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Yes. So when you say it's like that and let me know if that makes sense for your question or not, we do calibration in a form we check what we have as a context. So for example, when we get the code reviews, LLM does not know what is important for you or how do you work. So for example, an LLM when they gets input, they get input from healthcare industry, they get from retail industry, they get from finance industry and all of them can use same Java...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Framework in different ways, or different things are important for them, the rest of them doesn't make sense. So what we do is we give you two different options to tell the agents how to perform or what to work on. One part is we give them the PR history, so we index all your PR and see when was the last time something like this was identified and compare the current version if that is--",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:18:28",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "And you do that in the context window?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:18:30",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Yes. Yes, yes. Yes, we do the-- so the changes we, you make to the code, we look into if we can see something similar in the past. That again is transferred to the context twice. First is when we are actually giving context to the sub-agents to find things for you, and another time to the judge agent. So that when I get 15 different recommendations for your code review, my judge agent can look into what was there before, how did your reviewer commented, how your developers commented, and based upon that decide if that is worth providing to your developers or not. And the other part is--",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:19:12",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "And this happens for every agent?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:19:14",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "For every agent, yes.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:16",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "And if I understood you right, you don't share the context between the agents, right? So you have specific context for every agent?",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:19:21",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Yes. We are trying to resolve that issue part, that instead of dumping everything to the LLM, we take the part which is more important. We use a context engine for that, we take the part which is more important and only provide that particular part to that particular agent.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:19:40",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Third one is about--",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:19:43",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "But then for me, it's not clear how you bridge the gap, right? Let's say you have a code quality agent and then you have a, I don't know, what else agent, a framework-specific coding review agent, right? And then basically you only, as I understood, you only share the specific information to each agent, right? And then basically each agent runs atomic, autonomously, right? And doesn't have the full picture, right? And at least when, let's say as a human, right? And if you do code reviews, you always-- it's always good if you have a full prospect, right? I would say like, that kind of methodology, it would work for simple things like does it use linting, does it use, I don't know, are tests implemented. But when you think about, or at least I think when you think about the overall architecture, for example, to make architectural decisions that covers security, because everything is a balance and and you have to weigh that somehow. So how do you--",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "How do you solve that?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:21:01",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Yeah. So, I think if you look into the older version of code reviews, you used to have a senior engineer who knows your code, who knows what kind of packages you are using, and they can comment on if the developer has done something similar to what you used to or did something totally weird, right?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:21:23",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Then you used to have a security person who used to see if you are providing all kinds of security, you are not hardcoding your APIs, or you are not putting any SQL injection. So all those kind of things the security experts know.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:21:39",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "On the other hand, if you are working with ISO compliance or SOC2 compliance, there might be an auditor who might ask the team lead or the senior engineer, is your code being, you know, logged, is it logging the changes and so on.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:21:53",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "So previously as well, there were lots of people having specialized knowledge looking into those kind of areas specifically. Now when the context is provided, it's always like these are my security concerns which I always have to look into, these are my architectural concerns, or an architect might look from the architectural perspective.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:22:14",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "We can do that something similar with the agents as well, because for example architecture, security concerns, we have a web portal where architects can provide their guidelines, compliance people can provide their guidelines, and an agent can look into all these guidelines and say is it validated or not.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:22:31",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "So if you see the initial picture, the context collector knows everything, and then it provides relevant context to the agents.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:22:41",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "So you, you enforce basically your customers to upload this kind of document, right? Is that a kind of requirement then for because I mean the system will have completely, let's say a different result, right? If you don't share them.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:22:56",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Exactly. So that's something which depends upon organization. There are some people who say we don't work with any rules or regulations, so just give me out of the box. That also means they don't expect the agents to find something very specific to your working unless we have certain PR history, because then again the PR history kicks in and tells you what is relevant even though when you don't provide.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:18",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "I'm not sure if the PR history is really the best source, right? I think it",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:23:26",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "It can be one. It can be one of... so that's why there are various sources right? So it's PR history, it's your repo history, its your...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:23:38",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Somebody is cooking food at my home. Yeah, but it can be one of the source and that's why...",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:23:42",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "And my question is like, I mean, of course it can, it can be, right? But at the end you need to decide let's say also in the jury right? How much you weight right? So like new documents for the let's say the engineering principles, architectural principles and compared...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "compare them to, let's say your, your merge history.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:03",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Yeah, yeah, yeah, yeah,",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:24:06",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "but they could be completely out of context, right?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:09",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Oh, it depends, it depends. So, again, I think it's, if you look into from one perspective, it's difficult to decide. But if you're getting the context from many angles, for example, PR history, that's one part. But when you do the compliance and you tell in the compliance portal, this is really important, so we have various segments of it, it's an error, it's a recommendation, all those kind of things adds weight to a feedback to say if it's good or not. And every time your developer accepts a suggestion, it gets more weighted for the next one. If it does not accept the suggestion, it gets a less weight. So it's all about indexing and making sure those weights are managed somewhere.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:43",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Mm-hmm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:44",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Uh, two ways, one is by when you, when you give recommendations, does your developer actually accept it or not, we index that. Another way is, uh, from the past PRs, we try to find out similar issues identified and if your developer actually implemented them. So for example, some people are used to hard-coding their API keys and I literally had a tough argument with the developer, but this is how we do it, no, this should not be the way.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:10",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Yeah, that's, that's exactly also what I meant, right? So if",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:25:31",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "if you look in the, in the history and that happened a thousand times, doesn't mean it's good.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:34",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "It's good, yeah, and that's the way where the system tries to tell you, this is not good, this is not good. And then it's up to you",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:41",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "if you provide the guidelines or",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:44",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "No, it, so there is something called bug fixes and there is something called rules. So if you provide them as a rule, it will get highlighted, doesn't matter if you want it or not. And then there are bugs where agent try to tell you there's something wrong and if the reviewer also agrees with it and did not implement after ten times, the reviewer might get it less weighted and give you",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:05",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Yeah, interesting. Cool. Thanks so much.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:26:09",
+      "ad": false,
+      "speaker": "Nupur Sharma",
+      "text": "Thank you.",
+      "tone": "happy"
+    }
+  ],
+  "highlights": [
+    "LLMs often exhibit a \"U-curve\" pattern where they prioritize information at the beginning and end of a prompt, frequently purging or ignoring critical context provided in the middle.",
+    "The \"orchestration paradox\" occurs when advanced models enter infinite research loops, spending excessive tokens on finding the perfect methodology rather than executing the actual task.",
+    "A successful agentic strategy uses an 80/20 hybrid approach, utilizing high-reasoning models for discovery and planning while switching to restricted, deterministic models for final validation and results.",
+    "In multi-agent architectures, a \"judge agent\" is necessary to synthesize fragmented outputs from specialized sub-agents into a single, cohesive result that is logically consistent and relevant to the user.",
+    "Effective agent calibration involves indexing historical data and developer feedback to weight recommendations, ensuring the AI learns from which suggestions are actually accepted or rejected over time."
+  ],
+  "summary": "In this transcript, Nupur Sharma of Codo discusses the evolution and practical challenges of building AI agents for non-deterministic tasks like code reviews. She highlights a significant limitation in current Large Language Models (LLMs): as context windows grow, models often succumb to a \"U-curve\" pattern, where they focus on the beginning and end of a prompt while ignoring the middle context. To combat this, Sharma explores various strategic solutions for context optimization, including hierarchical summarization, knowledge graphs, and iterative retrieval. She argues that instead of dumping massive amounts of data into a single prompt, developers should use \"context engines\" to rank and provide only the most relevant information to the agent.\n\nA major theme of the talk is the \"orchestration paradox,\" where high-reasoning agents enter infinite loops researching how to solve a problem rather than actually solving it. Sharma proposes an 80/20 hybrid approach to resolve this, where 80% of the work is done by flexible, high-reasoning models for research, while the final 20% is handled by restricted, deterministic models for validation and summarization. This prevents \"token wasting\" and ensures that the agent's output remains aligned with the original goal.\n\nFinally, Sharma advocates for a \"Mixture of Agents\" architecture over a single, monolithic agent. In this model, specialized agents—such as those dedicated to security, Jira issues, or code quality—work independently on specific parts of a task. Their outputs are then synthesized by a \"Judge Agent,\" which ensures the final results are coherent and relevant. Using Codo’s pull request review system as an example, she explains how this multi-agent approach, combined with historical PR data and organizational guidelines, allows for a more accurate and calibrated review process than a single agent could provide.",
+  "description": "Give an agent your full codebase and it will attend to the start and the end, then quietly drop the middle. Nupur from Qodo calls this the U curve and builds the whole talk around it: why growing the context window did not fix the problem, and what actually does. She runs through iterative retrieval, hierarchical summarization, and self correction with honest cost tradeoffs for each.\n\nThe second half covers the orchestration paradox: capable models burn most of their tokens deciding how to solve a problem rather than solving it. Her team's fix is an 80/20 split, using high reasoning models for open ended discovery and lighter deterministic models for validation. Qodo's code review architecture runs this live: a context collector feeds specialized agents, a judge node recombines the results and weighs them against PR history, and every accepted or rejected suggestion shifts the weights for the next run.\n\nSpeaker info:\n- https://www.linkedin.com/in/nupursh/",
+  "duration": 1587,
+  "people": [
+    "Nupur Sharma",
+    "Interviewer"
+  ],
+  "topics": [
+    "Context optimization and the 'U-curve' challenge in large context windows",
+    "The orchestration paradox and the 80/20 hybrid approach for reasoning models",
+    "Multi-agent architectures and the implementation of judge agents",
+    "Strategic context management techniques including iterative retrieval and hierarchical summarization",
+    "Agentic workflows for automated code reviews and PR history integration"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/EcqMYoIV57A/maxresdefault.jpg",
+  "date": "20260608",
+  "youtube_url": "https://www.youtube.com/watch?v=EcqMYoIV57A",
+  "youtube_metadata": {
+    "title": "Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo",
+    "description": "Give an agent your full codebase and it will attend to the start and the end, then quietly drop the middle. Nupur from Qodo calls this the U curve and builds the whole talk around it: why growing the context window did not fix the problem, and what actually does. She runs through iterative retrieval, hierarchical summarization, and self correction with honest cost tradeoffs for each.\n\nThe second half covers the orchestration paradox: capable models burn most of their tokens deciding how to solve a problem rather than solving it. Her team's fix is an 80/20 split, using high reasoning models for open ended discovery and lighter deterministic models for validation. Qodo's code review architecture runs this live: a context collector feeds specialized agents, a judge node recombines the results and weighs them against PR history, and every accepted or rejected suggestion shifts the weights for the next run.\n\nSpeaker info:\n- https://www.linkedin.com/in/nupursh/",
+    "duration": 1587,
+    "view_count": 2382,
+    "like_count": 56,
+    "channel": "AI Engineer",
+    "upload_date": "20260608",
+    "thumbnail": "https://i.ytimg.com/vi/EcqMYoIV57A/maxresdefault.jpg",
+    "tags": [
+      "ai",
+      "ai engineer",
+      "ai engineering",
+      "software development",
+      "tech",
+      "startups",
+      "software architecture",
+      "machine learning"
+    ]
+  }
+}

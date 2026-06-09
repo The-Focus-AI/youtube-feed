@@ -1,0 +1,899 @@
+{
+  "title": "Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carrie, Cloudflare",
+  "source_url": "https://www.youtube.com/watch?v=SKDJo2CopRs",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:15",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Oh yeah, well, welcome. I'm Matt and this is Sunil. We work on agents at Cloudflare. This thing. So yeah, maybe you want to introduce yourself a little bit better than me?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:25",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "This is Matt Carrie. I only hire my friends for our team. Say something, make sure it's on the microphone.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:00:32",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Yeah, yeah. Is mine on? Like I keep thinking about Cloudflare as a friends and family company. We love doing favors. All our closest friends, no one pays for Cloudflare bills, which is already dirt cheap by the way, it's ridiculous.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:00:51",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "So we started building out AI agents seriously a little over a year ago, and it's gone remarkably well. How many folks here are like orange-pilled? Which is to say, durable objects.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:01",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Okay, yeah, like worst named technology but incredible, right? Everyone's like it's a database, I'm like no, but it has a database and I'm like, but we started using that and it turned out to work out really well. There's some unique capabilities about it. Some might call it vendor lock-in, some might call it innovation.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:25",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "But like, and ever since then the team has grown. We are based in, like most of us are in London. Well you're British but you just moved to Lisbon, which is amazing by the way. Folks have, you spend your days drinking wine and you do fish, potatoes, bread. It's just king's life. I live in Newcastle, the weather is way worse. But I do like it. I tried watching Geordie Shore and I regret doing that. I will, no, that's not what I think of. Anyway, so we've been building agents and...",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:02:00",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Back on topic.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:02:01",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Sorry, yes, of course. And I don't know, we can tell you about our journey so far, some of the tech we're using, some of the new upcoming stuff. Thankfully none of this is recorded so we can tell you about some secret features that are coming out. But I'd love to put it out there for a couple of minutes if you have any questions. Otherwise we have like five topics we thought would be interesting to talk about, but what do you want to know about Cloudflare and AI agents?",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:02:34",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Durable objects.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:36",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Amazing. So, so it starts with durable objects. Okay? So you know how everyone believes the way you build servers nowadays is you write a function that takes a request and returns a response? Right? Simplest model. And you decide you want to build a hit counter for your website. So what do you do is you say, let x equals zero or let counter equals zero, and for every request you'll say counter plus plus. And it works locally and you deploy it, and it immediately fails. Why does it fail? There's no state! Like it spins up, it does the thing and it disappears. Counter will always be zero, most times at least. Like on traffic it might reuse the isolate. So now you have to use a...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "AWS to store state, you need to do a whole bunch of things. Instead, for a given ID, what if you could have a class that spun up once for a given, like, spun up once and then every future request, every WebSocket connection lands in the same place?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:18",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "So we call this stateful serverless, which is the most confusing thing because servers are stateful. But it works like serverless in that it's, it scales across the planet and because of the Cloudflare magical planetary network, it means, like in London, you get like 15 millisecond latency.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:36",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "For contrast, 60 FPS is 16 milliseconds, sub-16 milliseconds, which means if you folks have used tldraw, it's built on this tech. If you open up a bunch of phones on the same shared screen and you start, like, drawing on it, you'll see, like, perfect sync on all phones.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:52",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Ah! I know I'm biased, but so good. Anyway, so we decided, it turns out that that's the perfect compute unit for building AI agents as well.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:04:00",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "They're addressable, you can run long-running things in it even if there are no requests going to it, they can run in the background, they hibernate, they go to sleep, they have persistence, and they can connect to, like, everything else.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:15",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "So that was the original bet we made and I wonder if I can scroll down, I wonder if, like, the API is available on this page. Something something marketing, marketing, marketing.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:04:29",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Oh yeah, see that's kind of like what it looks like. You basically can make a, you import from agents, please don't ask us how much we paid for this NPM package. You extend it and you can add, you're like, 'oh, when it starts up, schedule these things.'",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:04:46",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "You can make little callables. So agents also comes as a full stack thing, we give you, like, React hooks and like, doesn't have to be React, but I assume, eh. We have plain JavaScript clients as well.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:58",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "You can define things that are actually called from clients, you can run things in the background, there's like, scheduling is my favorite thing, because it means you can say stuff like every every Friday at 9:00 PM look through my entire Git history and my wiki and the Notion, compile it and send it to my manager.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:05:13",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Make sure you mess up the spelling so it looks like I wrote it. So you can do all of this, like it's nice, you can and you can, like, it spins up to millions, trillions, some absurd Cloudflare number.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:05:29",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "That's, that's where it starts. And over the last year we have built a bunch of things. So we have a first-class backend for Vercel's AI SDK. And it turns out the AI SDK is great.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:41",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Is Nico around here somewhere? No? Anyway... we don't allow Vercel employees into our church-...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:05:50",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "So it turns out there's a lot more to make it production ready, to do two calls, to do resumability, things across tabs, make - so we have the world's best backend for, like, the AI SDK.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:05:58",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "I'm saying a lot of things. So we have that, we have I want to talk to you about...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "...code mode which is",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:01",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "By the way, about maybe this point in the journey, like MCP got mega popular around April last year. And so, it turned out durable objects were actually a great way to do MCP servers, because if you know anything about MCP, when it was originally launched, you needed to have a stateful connection between client and server. And this was one of the most annoying things about deploying MCP servers to production to the cloud. Durable objects maintain a stateful connection like very, very easily, that's kind of the whole point.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:29",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Yeah, we jumped on that really early. We had some of the first MCP servers, like PayPal, Sentry.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:06:35",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "All the big ones are on this, Linear, Intercom, name it.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:06:41",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "All of them. Some we can't name. And yeah, so it turns out MCP was like really, really good for this. And this led us down like many more rabbit holes really where I think this is our lead into code mode really.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:06:52",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Sure. Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:06:53",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "So then we have Durable Objects, we have workers, which is sort of like a serverless function as a service. Like a Lambda. Imagine a Lambda was designed 10, 15, 20 years later, something like that, like it's better. Then, then we have this new primitive, which we're calling dynamic workers, where it's like a worker, but instead of having to deploy the worker to the cloud, you can go from one worker and be like, 'I have this string of code that a customer sent me, or a user sent me, or an LLM generated, and I'm going to run that piece of code in its own isolated worker.' So from a string, you can run, you can run the code. And this is like, kind of breaks a lot of people's brains. I was at MCP Dev Summit last week, and there was a startup next to me, and this guy was just trying to convince me that no enterprise environment would allow people to run generated code that they'd never seen. And then someone from Lockheed Martin came up to me and was like, 'Oh, we love this generated code.' And just like the dichotomy was really funny. But basically, you can run people's code that they generate in this thing called a dynamic worker. And we think it's a very, very good sandbox in the sandbox-y world. Not a VM, not a full, it doesn't have a full file system, it doesn't have like all of the VM-like heaviness, but it is an isolate that you can spin up and you can spin up billions of them on demand. And so that's kind of cool. So anywhere where you want to have like user-generated code or you previously would use something like a DSL, like you would have some JSON file that was generated or was built from some front-ends, from some big form, and then you would take that and you would convert that to code. Now, just write code. At least I hope this is it. Yeah.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:08:41",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "I love, uh, so I hate being that guy who's like, 'you should read my blog,' but you should read our blog by the way. The Cloudflare blog, really nice, incredibly technical. Like the only part where we try to sell you something is where the marketing folks ask us to put a CTA at the like very bottom. You can ignore that bit, but everything else is dope. We go into details about this. So you know how like sandboxes start like from a...",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "VM or a container and then you try to add security like from around it. So like we start the complete opposite way. The only thing you can run is JavaScript in it, but it has no access to fetch, no APIs, nothing. And from the outside you can decide, okay, here are like four APIs, and I'm only outgoing fetches to github.com are allowed. Hell, github.com/xyz or math.random. I don't know, some requests fail. You can write code that does it. And the way we recommend it is no, just block outgoing fetches. You give this sandbox explicit capabilities that you can run in no environment variables exposed to any of this code. Uh, you should check this out. Should I do a demo of the MCP server? Like, can I show the MCP server you bet?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:09:41",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "No, no. This is going to be my talk. We can tease our talks.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:09:43",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Oh, okay. Oh, we get to tease our talks. Okay, fine.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:09:45",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "So basically, using this, we kind of claimed that we fixed MCP, not once, maybe twice, um and that is both of our talks. Yours is this evening...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:53",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "That's right. Uh 5:40 PM. I'm giving a talk about code mode, what we call code mode. I have the hat for people who are asking where you can get code mode hat. We have a careers page on cloudflare.com.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:10:13",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "And I'm doing a talk tomorrow about how you can use code mode in your MCP server to give access to all 2,600 API endpoints of Cloudflare in just over a thousand tokens. So, the code mode, like this idea of being able to generate code that you then run is super, super powerful. I don't think we have enough time here to like fully explain how that works, so I would just ask to come to our talks.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:10:34",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Yeah, you should absolute... Like, so the way I've been telling it to people is for the last 30 years, 30, 20-something odd years... you get to being such an old guy in the room so fast... they've told you never to use eval in code. In fact, on Cloudflare Workers, eval, you don't have eval. It's dangerous. But we took it and dynamic workers are like eval plus plus. So I think about it how there's an entire branch of the tech tree that we haven't explored in like 30 years and now we're giving you a fast, secure, and cheap way. Is there such a thing as fast, good, fast and cheap? Just... maybe it's not good. I don't know. You have to try it out and let us know. And you get to reconsider the way you build interfaces and how things happen. Especially in a world where all your users can write code, right? That's, uh, so that's dynamic workers. That's like, it's really cool, man. Like, I've been having a lot of fun playing with this. It's very new.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:11:32",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Should we tease some stuff? Or do you want to talk about... we had some other releases previously recently?",
+      "tone": "suggestive"
+    },
+    {
+      "timestamp": "00:11:37",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Go on. Yeah, go for it because I think it sounds like you guys are like, I mean you obviously are like super, you know... maybe this is just me, I'm struggling to find a way to map all the things that I'm building to this world. I'm not quite sure whether it's just me... I'm trying to find a bridge. I'd just love to hear sort of like what do you think people are building in the industry that like they really shouldn't be building like that? They should be building it this way. I think that would be...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:11:59",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "I've got a good anecdote.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Oh, I'd love to give examples. OK.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:12:02",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Let's give examples, we'll do one each.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:12:04",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "I mean we'll do five each, go ahead.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:12:07",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "I mean we're here to shill, bro. Like, yeah.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:12:13",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "So my favorite example is, there's a big thing going around about generative UI at the moment.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:18",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "And people are, have you heard of JSON render?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:22",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:23",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "You're like generating JSON that then you render. It's kind of in the name.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:26",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Why are you generating JSON? Why don't you just generate HTML or even generate React and then just render that?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:12:32",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Well, why can't you do that? Well, some platforms don't have a primitive to render untrusted code.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:12:38",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Well, if what happens if you did? You could literally get your users, get your customers, get your clankers, get your agents living in the cloud to generate code that they run that then is rendered in a UI.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:12:52",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Like anyone tried Claude Artifacts? That's basically, yeah, that's it, right? It's just HTML but it's rendered on your browser.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:13:00",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "So people don't care so much about that security. What they care about is when they're rendering it on their servers.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:13:06",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "That's when it starts getting a little bit dodgy. And now they're like, 'Right, you need JSON'.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:13:10",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "You don't need JSON anymore, you could render React. And that's... this is how you build it.",
+      "tone": "convincing"
+    },
+    {
+      "timestamp": "00:13:15",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "So this is like this one fun thing here. Um, yeah, do you want to go to the next one?",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:13:17",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Which feature?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:18",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Dynamic Workers.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:13:19",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Dynamic Workers. Yeah. I'll go like a little simpler.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:13:23",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Okay, so because our agent thing is like, is more the execution environment than the library use, like you can use LangChain, AI SDK, anything with our agent system. We give you that.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:13:34",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "But because they're this durable object model, it means, let's say you wanted to build resumable streaming.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:13:42",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Okay, so you tell the LLM 'give me a long story' and you hit refresh in the middle of it.",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:13:47",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "How do you make sure it continues streaming in a serverless world? Okay, now you need to do a database, you need to do replication, you need to do sticky sessions.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:57",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "In the durable objects world, in the Agent SDK world, you just reconnect to it and if there's a stream going on, it just says, 'Well, here's the beginning of the stream and I'm just going to continue giving you bytes'.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:14:08",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "It means that you automatically get multi-tabs, multi-browser sync. Like you're looking at your phone and the laptop same time. All of these things come out of the box for you.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:14:18",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "In fact, like the killer use case where we started with durable objects was for building real-time collaborative sync.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:24",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Now, I'm a believer that AI should be a multiplayer game.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:14:28",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Have you noticed like, why can't I share a link to my ChatGPT chat with you and both of us work in the same conversation?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:14:35",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "It's because OpenAI hasn't like built that and they're like, 'Oh, we have like bigger problems to solve, half our people quit like every three weeks' or something like that.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:14:44",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "It turns out like with primitives like this you don't have to patch it in user land and become this crazy distributed systems engineer.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:14:52",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "You make it Cloudflare's problem. Well, our problem. When I say our problem, but we take credit for the people who actually built it. We do the JavaScript on top of it.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "streaming, etc., out of the box. It just... it means you can play with... you can build your... you can focus on the things that, like, you care about.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:15:01",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "So I really like that. Like the fact that you get sync...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:15:09",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Yeah, that's the killer demo, isn't it?",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:15:10",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "I like it so much. Like, just showing, like, the sync is just so fun. Because then it like unlocks, they're like, 'Oh, okay, fine, if you can do that, I'm going to worry about making money.' It's a fun thing to do.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:15:21",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "So, would it be fair to say that you could rebuild Claude Code's cloud interface with this?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:27",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Should we start leaking secrets?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:15:29",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Yeah, we can start leaking secrets. Okay, um, yes.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:15:33",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Yes. You have the problem of starting the VM, booting the app, then resuming the app, and it's always top-down.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:15:39",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Yeah. So, so there's some cool things you can do here. Um, because imagine an agent loop that ran in the Agent SDK that did the backend of Claude Code. Now you have a server that runs, that's persistent, and you can connect to it from any client—so a terminal, from a chat, from a phone, from an iOS app, from a web app. It doesn't really matter, like, like everything is synced between all between all of your clients. Everything is resumable, everything is stateful. And, and I guess...",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:16:10",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "So, I guess it's up to Cloudflare to now build a harness, right? A coding agent that runs purely on workers and... hmm, should we build that, Matt? Should we be building this?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:16:25",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Oh, we're building it, just so we're clear. Uh, if I wasn't obvious enough. Uh, we hope to ship it imminently. Uh, it's just like the... the conference is taking my time away from burning tokens, is what it is. Uh, as quickly as I can go back to that. No, but no, we believe in that world. Look, everyone's building a harness, and everyone's leaning into the benefits of their infrastructure or their philosophy. This is ours, where not only do you have these spin-up, spin-down, stateful agents, but with capabilities of generating code on the fly and running it like instantly, uh, really fast, uh, resumability, etc., out of the box, and if you want to delegate to a big container, you should absolutely be able to do that. We have... well, our team also handles sandbox, Cloudflare Sandbox SDK. Uh, you want to run it in a browser? Well, we have a browser. You don't even have to use our stuff. You want to use Daytona? Great product, by the way, love their sandbox stuff. Uh, you want to use browser-use or you want to run what's the, Light Panda? Is that what it's called? You can do that. But Workers and our Agent SDK becomes the... the nexus of where, like, it connects down to all of the things. That's the vision we have. It's... happening sooner than later.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:17:35",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "So essentially, how would you then create a Claude-bot, particularly one that can, like, create its own skills? Because I think that for me is the thing I love the most, the ability to just say, like, send it a voice message and it starts, 'I've got a cron that does a really great thing now.'",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:17:51",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "So, we have... we have a bunch of storage solutions. Uh, we have one in the Durable Objects, so we have, like, SQLite directly in...",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "...SQLite as a key-value object. So you can store stuff there, you can store stuff in R2, and all of that at the moment you have to kind of wire up, but imminently you won't.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:18:11",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Okay, so here's the thing. What is Open Cloud? You want a thing that has a heartbeat, you want a thing that has a virtual file system, and you want a thing that's connected to services.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:18:19",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "And control secrets, I can say.",
+      "tone": "collaborative"
+    },
+    {
+      "timestamp": "00:18:21",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Exactly! And you want extensions, which means you want to generate code that's run in a safe sandboxed environment.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:18:29",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Yeah, I implemented extensions this morning. It works really well on our thing. By the way, I'm friends like with Mario. Hi, Mario! And yeah, 100%. We love Pi, by the way, the Pi coding agent. In fact, we want to run Pi directly on workers as well. We've been talking to him about it, because why not? But this is the future. Yes, we're working non-stop on this right now. If it wasn't for you people, I'd be burning tokens. Do you have any more questions? How much time do we have? I don't even know how long this goes.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:19:00",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "JavaScript, React, Node. What about other languages?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:19:07",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Would you like Python? Amazing, so we'll do Python as well. The dynamic workers at workers itself supports Python. We just need to spend a little time polishing the rough edges. Python is first class, JavaScript is first class, everything else is Wasm. The thing we've been playing with lately is Zig. Our boy here is one, I think you're the first person to bring Zig into production in Cloudflare Workers for a bunch of things that we actually cannot talk about today. But Zig, the nice thing about Zig is the Wasm bundles are like tiny compared to like Go and Rust. So other languages too, we do Wasm, or if it is that important to you to run it like natively, you spin up a container instead. Again, like, we have a first-class SDK that lets you spin it up and do things. That being said, brother, your LLM is writing code at this point. Like, why does it matter, right? Like, whether it's JavaScript or not.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:19:58",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "When you said you have to wire up the SQLite storage right now and soon you won't, what do you mean by soon you won't?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:20:11",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Oh no, it actually works. It's called at cloudflare/shell. The APIs shouldn't break, but it's usable today. It gives you a full file system inside, layered on top of Cloudflare Workers. It's quite nice. Hell, we have a thing which lets you run a bundler inside a worker right now. It's literally called worker-bundler. It pulls down dependencies from NPM, strips out types, JSX, TypeScript, all of that, and generates like the thing that you would like run inside it. So fun! Because then it uses the Cloudflare cache for dependencies instead of worrying about NPM downtime. It's quite nice.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "...both Durable Objects, SQLite and R2 for like bigger files.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:04",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "I see.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:21:05",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "It works today. You can use it today.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:21:07",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Actually, that's just it. I... I don't want to talk about the history of that project. Anything else?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:21:13",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Just search Sunil's name on Twitter, you'll find the history of that project.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:21:16",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Yeah, it was a little dramatic.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:21:18",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Uh, anything else we can help you folks with? Anyone want free credits and shit? Like I said, friends and family company, so...",
+      "tone": "generous"
+    },
+    {
+      "timestamp": "00:21:27",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Uh, we... I don't know if you wanted to talk otherwise about the new CMS that we launched last week.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:21:34",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "It's called m-dash. Great name for a product in this day and age. Uh, it runs fully on Workers Durable Objects, etc. And like, the nice thing about m-dash is the plugin system is built fully on dynamic Workers. So... so you know how like WordPress has a bunch of security incidents because of its plugins? Well, we just lock down where you run the plugins and it just works out of the box. m-dash otherwise deploys actually completely on any platform. It's not Cloudflare specific. And we are working on other platform support for this dynamic worker bit that we... that we have right now.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:22:13",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Yeah. Uh, other things is V-next. We have a version of Next.js that runs fully on Vite and it's so fun to use. Uh, what else do we... what do we do, bro?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:22:25",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Our problem is it's like next week is our... one of our... is our agents' week. So you'll be seeing a lot from us next week.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:22:34",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Oh yeah. Like twice a year we have these announcement weeks where we get really noisy. And next week's is going to be particularly noisy where we announce a bunch of fun stuff.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:22:41",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:22:42",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Any more questions? Go on.",
+      "tone": "inviting"
+    },
+    {
+      "timestamp": "00:22:44",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "How do you become friends and family customers for us?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:22:46",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Uh, send account ID and optionally bribes.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:22:52",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "See, it's... you can consider it a bribe or protection money. Like, I'm trying to also develop a little like mafioso vibe around the... but no, dude. Like, we...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:23:02",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "The way that Cloudflare is constructed, the reason it's so cheap is because of decisions made 10 years ago. We don't build massive data centers. Instead, we install hardware near ISPs. We buy bandwidth in bulk from level zero... uh, top level ISPs. And we do agreements where bytes that cross boundaries you don't really pay for it and stuff. So our free accounts aren't marketing expenditure. It's just how the business is constructed. Uh, and I need more people to know that. Like, I...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:32",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "I spent a... a bunch of time. I was like 'How do they give it out for so cheap?'. So... it's otherwise $5 a month and we know people building multi-million dollar like SaaSes on top of that. But if you want less than $5, well... you become friends, friends with us.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:48",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:23:49",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Other fun stuff we have...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:23:52",
+      "ad": false,
+      "speaker": "Matt Carrie",
+      "text": "Is that time? Uh, well, I guess we are at time. How is no one knocking at... oh you... I'm so sorry! Uh, especially after we made a little...",
+      "tone": "apologetic"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "About the previous session, thank you so much. We have a booth on the expo floor. I'm speaking today at 5:40 PM, he's speaking tomorrow. You should watch both talks.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:24:09",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "Like, look at this, like, I got a haircut for this, you guys. Like, it's going to be fun. Also, just come hang with us. We love just, like, chatting with people.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:24:18",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "agents.cloudflare.com or developers.cloudflare.com/agents for all the docs. github.com/cloudflare/agents, you can file issues. We love... that's just it, like, have your clankers talk to our clankers.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:24:31",
+      "ad": false,
+      "speaker": "Sunil Pai",
+      "text": "And looking forward to seeing what you build.",
+      "tone": "happy"
+    }
+  ],
+  "highlights": [
+    "Durable Objects provide a \"stateful serverless\" architecture that is uniquely suited for AI agents by offering persistence, low-latency real-time sync, and the ability to run long-running background tasks.",
+    "The \"Dynamic Workers\" feature creates a secure sandbox for running untrusted, LLM-generated code on the fly, allowing developers to move beyond restrictive JSON-based rendering to direct code execution.",
+    "Cloudflare’s agent infrastructure natively supports resumable streaming and multi-device synchronization, ensuring that AI interactions remain consistent and persistent even when users refresh browsers or switch devices.",
+    "Durable Objects are positioned as a superior backend for Model Context Protocol (MCP) servers because they easily maintain the stateful, persistent connections required by the protocol.",
+    "The speakers advocate for a \"multiplayer\" AI future where collaborative, stateful environments allow multiple users to interact with and share the same agent sessions seamlessly."
+  ],
+  "summary": "In this transcript, Sunil Pai and Matt Carrie from Cloudflare discuss the evolution of AI agent infrastructure, focusing on \"Durable Objects\" as the foundation for modern agentic workflows. They describe this technology as \"stateful serverless,\" providing a persistent, addressable compute unit that maintains state across requests and WebSocket connections. This architecture allows for low-latency, real-time collaboration and \"resumable streaming,\" effectively solving common serverless hurdles like state loss and the need for complex database replication. Their Agent SDK aims to provide these production-ready features—such as multi-tab sync and background task scheduling—as a standard backend for popular tools like Vercel’s AI SDK.\n\nA major theme of the discussion is the introduction of \"Dynamic Workers\" or \"Code Mode,\" a primitive that allows for the secure execution of LLM-generated code within isolated sandboxes. The speakers argue that this \"eval++\" approach enables a shift from rigid JSON-based rendering to fluid generative UI, where agents can generate and render React or HTML directly in a safe environment. They also highlight Cloudflare’s integration with the Model Context Protocol (MCP), noting that the stateful nature of Durable Objects makes them an ideal platform for deploying MCP servers that connect agents to various enterprise APIs and tools.\n\nLooking forward, the team teases an upcoming \"Agent Week\" and a broader vision of AI as a \"multiplayer\" experience with built-in synchronization across devices. They emphasize Cloudflare’s unique infrastructure—built on ISP partnerships rather than massive data centers—which allows them to offer these high-performance services at a lower cost than competitors. Ultimately, they position Cloudflare as a comprehensive \"nexus\" for agents, providing the necessary storage (SQLite, R2), compute, and secure code execution to allow developers to focus on building features rather than managing complex distributed systems.",
+  "description": "Matt Carrie and Sunil Pai from Cloudflare's agents team explain why Durable Objects turned out to be the right compute unit for AI agents: addressable, persistent, hibernating, stateful, and fast enough that 15ms London latency puts you inside a single animation frame. The Agents SDK builds on this to give resumable streaming, multi tab sync, and background scheduling out of the box, without any distributed systems engineering in userland.\n\nThe bigger reveal is Dynamic Workers: take a string of LLM generated code, run it in a sandboxed isolate with no ambient access, and grant only the capabilities you explicitly allow. They frame it as reclaiming 30 years of avoided eval. The session ends with both speakers teasing their afternoon talks, one on collapsing 2,600 Cloudflare API endpoints into a thousand token MCP tool, and a coding agent harness built entirely on Workers that they are, by their own admission, already shipping.\n\nSpeaker info:\n- https://x.com/threepointone\n- https://x.com/mattzcarey",
+  "duration": 1490,
+  "people": [
+    "Matt Carrie",
+    "Sunil Pai",
+    "Durable Objects",
+    "The Agents",
+    "Dynamic Workers"
+  ],
+  "topics": [
+    "Durable Objects and stateful serverless architecture",
+    "AI Agents and the Cloudflare Agents SDK",
+    "Model Context Protocol (MCP) server implementation",
+    "Dynamic Workers and sandboxed code execution (Code Mode)"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/SKDJo2CopRs/maxresdefault.jpg",
+  "date": "20260608",
+  "youtube_url": "https://www.youtube.com/watch?v=SKDJo2CopRs",
+  "youtube_metadata": {
+    "title": "Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carrie, Cloudflare",
+    "description": "Matt Carrie and Sunil Pai from Cloudflare's agents team explain why Durable Objects turned out to be the right compute unit for AI agents: addressable, persistent, hibernating, stateful, and fast enough that 15ms London latency puts you inside a single animation frame. The Agents SDK builds on this to give resumable streaming, multi tab sync, and background scheduling out of the box, without any distributed systems engineering in userland.\n\nThe bigger reveal is Dynamic Workers: take a string of LLM generated code, run it in a sandboxed isolate with no ambient access, and grant only the capabilities you explicitly allow. They frame it as reclaiming 30 years of avoided eval. The session ends with both speakers teasing their afternoon talks, one on collapsing 2,600 Cloudflare API endpoints into a thousand token MCP tool, and a coding agent harness built entirely on Workers that they are, by their own admission, already shipping.\n\nSpeaker info:\n- https://x.com/threepointone\n- https://x.com/mattzcarey",
+    "duration": 1490,
+    "view_count": 2148,
+    "like_count": 42,
+    "channel": "AI Engineer",
+    "upload_date": "20260608",
+    "thumbnail": "https://i.ytimg.com/vi/SKDJo2CopRs/maxresdefault.jpg",
+    "tags": [
+      "ai",
+      "ai engineer",
+      "ai engineering",
+      "software development",
+      "tech",
+      "startups",
+      "software architecture",
+      "machine learning"
+    ]
+  }
+}
