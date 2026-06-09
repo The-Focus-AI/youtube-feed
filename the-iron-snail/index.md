@@ -1,8 +1,8 @@
 ---
 channel: The Iron Snail
 channel_handle: "@TheIronSnail"
-total_videos: 36
-last_updated: 2026-05-14
+total_videos: 37
+last_updated: 2026-06-08
 ---
 
 # The Iron Snail Channel Index
@@ -11,15 +11,16 @@ last_updated: 2026-05-14
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 36 |
-| Total Views | 16,189,578 |
-| Date Range | 2023-12-22 to 2026-05-09 |
-| Average Video Length | 16:17 |
+| Total Videos | 37 |
+| Total Views | 16,352,231 |
+| Date Range | 2023-12-22 to 2026-06-06 |
+| Average Video Length | 16:32 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
+| 2026-06-06 | [Ralph Lauren Tricked You Into Wearing Costumes.](videos/0QXZKkaMdwQ.md) | 25:35 | 162,653 | [Watch](https://www.youtube.com/watch?v=0QXZKkaMdwQ) |
 | 2026-05-09 | [I Tried To Make Something In America.](videos/yw_dT1WgQQg.md) | 21:26 | 387,401 | [Watch](https://www.youtube.com/watch?v=yw_dT1WgQQg) |
 | 2026-04-20 | [Why Forest Rangers Still Wear This 75-Year-Old Boot.](videos/FbAkrx4mzg0.md) | 27:47 | 247,561 | [Watch](https://www.youtube.com/watch?v=FbAkrx4mzg0) |
 | 2026-03-28 | [Why The Greatest Fatigue Pants Ever Made Are Also The Cheapest.](videos/QcWlSGBiyiY.md) | 16:15 | 365,285 | [Watch](https://www.youtube.com/watch?v=QcWlSGBiyiY) |
@@ -109,6 +110,8 @@ last_updated: 2026-05-14
 | OrSlow | 1 | Famed modern OG-107 fatigue reproductions (Japan) |
 | NC State Wilson College of Textiles | 1 | R&D partner for Iron Snail's domestic manufacturing pivot |
 | Berry Amendment Suppliers | 1 | U.S. DoD-funded textile mills keeping domestic supply chain alive |
+| Ralph Lauren | 1 | $22B empire built on lifestyle branding; rebranded Lacoste tennis shirt as the polo shirt |
+| Lacoste | 1 | Invented the mesh tennis shirt; now calls it a polo shirt on their own website |
 
 ### Products & Technologies
 
@@ -142,6 +145,10 @@ last_updated: 2026-05-14
 | Operation Gumby | [Made In America](videos/yw_dT1WgQQg.md) | Four-part supply-chain survival plan after near-bankruptcy |
 | Berry Amendment | [Made In America](videos/yw_dT1WgQQg.md) | DoD must source U.S.-made textiles; keeps domestic mills alive |
 | Yarn Singeing & Steaming | [Made In America](videos/yw_dT1WgQQg.md) | Two simple finishing steps a U.S. spinner skipped; Japanese mills fixed |
+| Polo Shirt (Ralph Lauren) | [Ralph Lauren](videos/0QXZKkaMdwQ.md) | High-twist cotton mesh rebrand of the Lacoste tennis shirt; sold as aspirational lifestyle |
+| Oxford Cloth Button-Down | [Ralph Lauren](videos/0QXZKkaMdwQ.md) | The actual polo shirt — buttons added by English polo players to keep collars down |
+| Iconic Flag Sweater | [Ralph Lauren](videos/0QXZKkaMdwQ.md) | Released 1989, the year the Berlin Wall fell; paired with $10M flag-restoration donation |
+| Cary Grant Reinvention | [Ralph Lauren](videos/0QXZKkaMdwQ.md) | "I pretended to be a somebody I wanted to be until finally I became that person" |
 
 ### Brands Mentioned Frequently
 
@@ -163,6 +170,7 @@ last_updated: 2026-05-14
 - [I've Reviewed 100+ T-shirts. Here Are The Best Ones.](videos/FSWl57UR4k0.md)
 
 ### History & Deep Dives
+- [Ralph Lauren Tricked You Into Wearing Costumes.](videos/0QXZKkaMdwQ.md) (Ralph Lifshitz → Polo empire, Cary Grant philosophy)
 - [Why Forest Rangers Still Wear This 75-Year-Old Boot.](videos/FbAkrx4mzg0.md) (Limmer Bavarian boots)
 - [Why The Greatest Fatigue Pants Ever Made Are Also The Cheapest.](videos/QcWlSGBiyiY.md) (OG-107 reverse sateen)
 - [The 125-Year-Old Wool Jacket Brands Still Can't Beat.](videos/XPIVM9e_lGU.md)
