@@ -1,0 +1,1666 @@
+{
+  "title": "The project SpaceX's first employee raised $500M for",
+  "source_url": "https://www.youtube.com/watch?v=IUyJFSzTdeQ",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "I want to ask you a few questions. Why is it dark at night? Why do we dream?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:00:05",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "All over the news, SpaceX has filed to go public, bringing the world's leading space launch and connectivity company to the public markets at last. Blue Origin is in the news for accidentally exploding a heavy launch rocket on its pad, while SpaceX recently had a big success with its Starship craft. Rocket Lab today is worth $67 billion. It's a busy time in the market for getting mass from Earth to space. But what about that same mass once it reaches its initial orbit? What if you need to move a piece of space gear somewhere else? Well, you're probably going to need a new set of tools, a new set of spacecraft, even engines for that work. And that's what Impulse Space is working on. The company just closed a massive $500 million funding round, a series D that brings its total capital raised over the $1 billion mark. To help us understand Impulse Space's technology, its market, and why its latest Helios craft could put higher orbits and even the Moon into the palm of our hands, please join me in welcoming to the show Tom Mueller, CEO and CTO of Impulse Space. Tom, how are you doing?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:00",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Great, great to be here, Alex.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:01:01",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'm so excited that space companies are raising enormous amounts of money. It seemed for a long time that it was going to be three AI companies and literally no one else. So before we get into the technology, let's talk about the round itself. How hard was it to raise? Did you get all the money you wanted? And how long did it take?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:01:13",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Yeah, well, fortunately for us, we've had a pretty good time, pretty good experience raising money. We were oversubscribed on all of our rounds, even since the seed round. This one also, insiders really wanted to go. We could have waited to raise, but as you said, the market's really hot right now, so why not do it now? We kept upping the size of the round to let in new investors and fulfill our current investors. So it went great.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:01:54",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'm just reading between the lines there. It sounds like Impulse is absolutely not capital constrained at this point in time.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:01:59",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "That would be true, yeah.",
+      "tone": "content"
+    },
+    {
+      "timestamp": "00:02:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Is that perhaps an understatement based on your reaction to my comment?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:02:04",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Possibly.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:02:06",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Well, I mean, it's not a bad place to be. You're working on some pretty hard stuff and, you know, I don't mean to be negative about any company's struggles, Blue Origin, but like sometimes things don't go right in space and that's difficult. It's harder to fix something in orbit than it is on a server in Redmond, you know? So it makes a lot of sense. Okay, now I think people have probably heard of Impulse Space, but I don't think they have a really deep understanding of what you're building. So let's talk through a couple of your major products and then get into why they matter. Tell me about Mira and what it's for, and then we'll get into Helios right after that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:37",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "So Mira is our highly propulsive spacecraft that can do precision maneuvering, and it has storable propellants, not cryogenic propellants, so it can stay on orbit for years. It does very fine pointing, it can host payloads, it can, which means they stay on board and we take them around and they do their experiments, which we have going on right now, actually. Or it can deploy payloads, like all of our...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "All three of our spacecraft that have gone up so far have all deployed CubeSats. It can do a rendezvous and proximity ops, we call RPO, which means it can go up to another spacecraft. We did that last year between two of our spacecraft. We got within 1200 meters of each other.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:15",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And wasn't that with Starfish Space?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:17",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Starfish was the kit on board and they were commanding us to to to rendezvous up with our other spacecraft. So, really cool.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:26",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, I saw that. It's fantastic. So in terms of what people are using Mira for, I know you've had a couple of missions, a couple of launches, but when people talk about the core use cases for it, is it moving satellites to higher orbits? Is it moving mass around? What's the the most critical thing it does today?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:42",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "It was when I first designed it, when we just started the company, it was just our first product. It was it was to go up on, you know, on a Transporter and eventually hopefully on Starship and and be able to move, you know, all this cargo going to orbit. We always say it's like it's like a container ship coming into port and now you need trucks and vans to to move the stuff to other places. Like the graphic on your on this podcast like the trucks in space, I love that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah. Um, so it's kind of like a pickup truck essentially. It's it's functional. It can go anywhere. It's not it doesn't seem to be the most complicated thing you're going to build. We'll get to Helios in a second, that seems much more complicated. And I presume it's affordable for companies that have a need for it?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:04:28",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Yeah, it's very affordable. It's, um, like we always tell people, if you want to go to a specific spot in space, um, you know, that that where transpor- you don't like where Transporter brought you, we can put you in a different spot for cheaper than a dedicated launch like like on Rocket Lab and it would be less to do that. It turns out most people were just happy where Transporter went. So there wasn't that much of a response commercially for it, although all three of the of the missions that we've flown have had commercial customers on it. And there's other reasons why it's just not a compelling business case for, you know, for that type of thing. Turns out Space Force really liked it. So we've got, you know, over half a dozen of them in production right now, mostly for government stuff. Some of them, the new version of the spacecraft is capable of going to geostationary orbit, to 22,000 miles out, where the radiation is much worse. We're designed for that. So and and some of them are going up there, going up way high.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:27",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And that's predicated on the updated SaFE engines that have more thrust, I believe?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:05:34",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Um, we up- we upped the SaFE, sorry, SaFE, sorry, SaFE, up the thrust on SaFE, um, from five pounds to six for VAST basically, for the VAST space station. We provided the propulsion system for the VAST Haven-1 space station and they wanted a little bit more thrust, so we just ran it a little bit higher. And we're just using those because, you know, it's it's the like the version two of SaFE, it's our latest latest one. But we didn't really need more thrust for Mira, um, we'll take it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'm confused there's not more commercial demand for it because to me the ability to go from LEO to GEO is just seems like a thing that would happen pretty frequently. What am I missing in the market?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:06:09",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Mira can't go from LEO to GEO.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:12",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Oh, it's more limited than that.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:06:14",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Yeah, it can move like it could go from the bottom of LEO to the top of LEO, say from from 300 kilometers to 1200 kilometers. It can do that, probably up and back. That's... once you're in the orbital band it's pretty easy, but but going from LEO to GEO is about is over four kilometers per second. Mira can do 900 meters per second, so we're off by over a factor of four from...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:37",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:38",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "That would be Helios that can do that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "We're going to get to Helios in a second. But for folks who are curious why we're talking about speeds and not height, to make a piece of space object go higher, you make it go faster, essentially, Tom, right?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:06:52",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "We talk in terms of Delta V. That's how you move around space is you add Delta V. You basically you add impulse. Literally impulse is adding Delta V. That's the name of our company is adding Rocket Impulse.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:03",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I thought it was very apt. Okay, so that's Mira, that's been probably what people know about Impulse if they've been tracking the company for a while. Which brings us to Helios, which is, I think my dad would jokingly say Mira on steroids. It can go higher, it can go further, it's got more zoom. And as you said, if you want to move things quickly in space, strap a rocket to them. So tell me about Helios.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Helios is a rocket on top of a rocket. It's basically a third stage that we would add to like on our first flights on Falcon 9. It has, you know, a big tank, a big aluminum tank that holds 12 tons of liquid oxygen and liquid methane and it's got a super high-performance engine, that guy right there, pump-fed engine that provides 15,000 pounds of thrust. Probably going to be the highest performance hydrocarbon engine ever built, very high ISP, and we do two burns. So we get dropped off on a Falcon 9 at 200 kilometers, we do two burns, and you're at GEO at 22,000. So in a day, in about eight hours you're there.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:08",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I have to just plead ignorance on, I think you said ICP? What does that acronym mean?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:08:13",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "ISP.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:14",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "ISP, sorry. Yes, what is that?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:08:15",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Specific impulse, which is the basically the measure of the rocket engine's efficiency.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, I knew the term, not the acronym.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:08:20",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Specific impulse. It's gas mileage for rockets.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:21",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah. Okay, so we're gonna have these up, I think you guys said in 2027, is that right?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:26",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:27",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And talk me through the use cases for this and maybe if you could Tom, explain why Helios can do stuff that's more exciting than what Mira could do because it has more power and such.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:08:40",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "So it was designed to, you know, the original use case when I designed it was to take a four-ton satellite, which is kind of the GEO market sweet spot, four tons directly from LEO to GEO on a Falcon 9, so on a rocket that's flying, you know, several times a week. Um, what it does, like right now most of the commercial GEOs are going on a Falcon 9 to a transfer orbit...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "orbit. And then they use onboard electric propulsion and take up to, you know, up to 10 months to actually get to the final orbit.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:09:08",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Because electric propulsion doesn't push very hard.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:11",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Right, right. It takes a lot. You're using the energy from the sun that you've got to collect over months to make enough oomph to get the impulse to get you up there. There you go.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:09:20",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Um, so we do it in a day because we, yeah, we burn all of this propellant in like 15 minutes and in two burns. So you're there. So it basically does what Falcon Heavy does for tens of millions of dollars less mass.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:33",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "It's the worst nightmare of every founder: you've built a product, everything's working great, then real users start flooding in and suddenly it all breaks. What a disaster! You need to get it back up and running, and you gotta do that fast. You're looking like an amateur. That's why you need a partner like Sentry. Applications can break in many different ways, but Sentry sees everything. You'll get all the relevant details, like stack traces, commits, releases, and even the developers who pushed that problem code in the first place. With Sentry, you're not going to be jumping around between different tools trying to figure out what happened. And Seer, Sentry's AI debugging agent, uses all this data and context to identify the root cause of the problem and suggest a fix. It can even take a look at your code before it ships and warn you if any problems are likely. Try Seer and Sentry for free if you're a This Week in Startups listener at sentry.io/twist. Use the code TWIST for $240 in Sentry credits. Make sure you use that code, make sure you use that URL: sentry.io/twist, so they know your Uncle J-Cal sent you.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:10:38",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So I was reading through you guys' discussion about why Helios is going to help us get to the moon. And I think you said something like you can get three or four tons there for something like 10x less cost. And it struck me as kind of like odd that we've been doing multi-stage heavy launch rockets to get stuff up into higher orbits when your system lets us use a much cheaper rocket with the third stage being already in space. So why didn't we think of this before? It seems obvious now that I've read about it.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:11:09",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Most launch vehicles have a lot of flights to LEO, so they, all modern launch vehicles have optimized to two stages. Um, in the past there were three-stage vehicles. In fact, the Russians, the Proton was a four-stage vehicle. So staging is super efficient, but it just adds more cost and more complexity. So you like to only need it when you use it when you need it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:32",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "So we see a need to get to high energy orbits for, for Helios. Like, like you mentioned, we can, we can increase the payload to the moon on a, on a Falcon 9 by about a factor of four in our calculation. Oh, four, okay. And we've looked at, with a, a Mars case, we can increase the, the amount of payload to Mars by about a factor of five. So think about that for, you know, our, our sales, our price for this thing is 25 million and a launch vehicle...",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "70 to 100 million. So you're getting five times the payload for only $25 million more, only for like one quarter of your total launch cost. It's such a compelling product.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:12",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It's like the Falcon 9 moment, but for post-launch in-space movement. It's the GPT-3 moment for getting stuff to high orbits and other places. I'm really excited about this.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:12:23",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "It's actually selling pretty well for something we haven't flown yet.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:12:28",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Normally, I wouldn't ask a space CEO this question, but let's do this. How confident are you that it's going to work the first time?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:36",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "This is a premium product. That's why we're just taking our time to make sure it's right, because it's really got to work. But you know, this is rockets, and as we've seen many times, in fact recently, rockets are hard.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:12:52",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Rockets, rockets are hard.",
+      "tone": "pensive"
+    },
+    {
+      "timestamp": "00:12:53",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "So we want to not blow up the pad. We want to make it right, we want to make it up there. If it doesn't light in space, well that's bad, but...",
+      "tone": "realistic"
+    },
+    {
+      "timestamp": "00:12:58",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "In Blue Origin's defense, it was an amazing audio-visual moment. You know, I was very disappointed as someone who really wants to go up to space, so the more, you know, large-capacity launch vehicles we have, the lower the cost, the higher my chance of making it up. I was really disappointed for them. I hope they, you know, pull it together.",
+      "tone": "sympathetic"
+    },
+    {
+      "timestamp": "00:13:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'll agree.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:13:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "To hear that they expect to fly again this year though, that would be a good recovery.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:13:20",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "That would be incredibly impressive given all the photos we saw of what was left of their launch facility. Now, with Helios though, I have a question about reusability or a lack thereof, because I know that some companies are working on in-orbit refueling. It's always seemed very nascent to me. Given that you're putting it up this rocket into orbit with a lot of, you know, heavy fuel, I presume that this is a use it once and then let it go into the void?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:46",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Yes, yeah. Like I mentioned, it's cryogenic, you know, liquid oxygen and liquid methane, so it won't store very long on this stage. There's no reason that it couldn't be reusable, I would love to reuse it, but it would require propellant depots in LEO and GEO. So you would fill it in LEO, take a payload up to GEO, and then refuel partially—you'd only have to add a partial refuel to come back down because you're empty, you've dropped your payload. And then you could cycle it. But I think we're a ways away from having propellant depots.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:14:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "How far are we? For the volumes that you're talking about here?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:14:26",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Well, SpaceX needs to do it, you know, well, needs to do tankers in order to go to the moon and do the things they want to do. And hopefully they'll eventually do propellant depots. So, probably, you know, five, ten years out. And there's other companies working on... I've been talking to other companies that are trying to do propellant depots that say, yes, we want to, we will buy propellant from you.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:45",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "I ask because I was just trying to get my head around what you guys are building and how to think about it in more pedestrian terms to explain to people. And I kind of like the pickup truck analogy for Mira, I think maybe we could call Helios a semi-truck, like an 18-wheeler. Bigger, more efficient, goes further, etcetera. But I was curious if you're building...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "thing, the vehicles that are going to get us around once we leave our gravity well, or if you're building the transportation network, which would include, I think, not only fuel depots but also some way to help coordinate inside of the orbit-to-orbit environment. And so, how big are your aspirations for the company? Just trucks, or do you want to be the person who's doing the logistics management as well?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:24",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "I haven't thought about that too much, like the- the gas stations in space yet. I- I don't think that will be us, but it could be. But- what- one of the things we work on is landers. We- we started a Mars lander with Relativity a few years ago, and we're trying to get into the CLPS, the new NASA moon lander. We're really excited about the moon base and providing- supplies there, and also eventually bringing material back. That's part of our- of our, you know, in-space logistics.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:53",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And Helios can get stuff to the moon, quite a lot of it. Does the- the Helios product, once it's out and- and flying, does that change dramatically the economics of humans building/living on the moon, or is it more of a useful but more gradual change in that equation?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:16:13",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "I think it, you know, on a- it can- it can- it can provide- it can increase the payload from like 200 kilograms to like- like 1,000 kilograms on a- on a Falcon 9, or it can get you to like- three or more tons on a Falcon Heavy. So we can provide cargo, you know, rovers, things like that to the moon. To do bigger things like, you know, like a human lander or something would require a bigger rocket and a- what- something what we call Mega Helios, like a much larger version of Helios with- with much larger engines.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:16:50",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I- at no point in prepping for this chat did I read the words Mega Helios. So you're going to have to explain to me how big this bad boy is going to be.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:16:57",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Well, we've looked at if we- if- if we put a third stage on- Starship, it would- I- I'm trying to remember the numbers, it's been a while since we made these numbers. Something like 50 tons of propellant and six of- six of these- these engines, the Deneb engines. And then we could take like 30 tons, I think, to the moon, roughly, round numbers.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:17:35",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "30 tons to the moon. That's- you could even start bringing liquid water at that point, or maybe frozen, but like- thirty- there's a lot of wiggle room in 30 tons. There's less room in 3 tons, and there's basically no wiggle room at all in 200 kilograms or whatever. So it seems like...",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:17:42",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "But this- this was just an exercise. We're not- we're not working with- with SpaceX on this. They- they want to do it their way anyway. But- some day, one- one can dream. It's fun to- to look at what we could do.",
+      "tone": "humble"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Yeah, well, we've, we've announced SES, who's you know the probably the biggest com satellite company in the world, one of the biggest, they're flying on a large single large payload like the four ton class that it was designed for. And then we have the we've sold a couple of Caravans that we cause which is our ride share so we can take multiple and who have we announced like Astranis is on there...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:01",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Well, no, I'm- I'm glad- I like the aspirations of- of having an even bigger Helios. But okay, let's go back and ground this a little bit. Helios starts to fly next year. You guys said in an announcement that you have, I think, a number of customers into 2028. So, what industries are most excited about Helios, and what do the first couple of missions, you know, look like? The ones that you can tell me.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:18:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:28",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "And uh now I'm drawing a blank, but we've got a few customers on that already too, so.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So not, with Mira you mentioned that the Space Force really liked it, so this is more in terms of Helios we're seeing more private market demand.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:18:41",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Yeah, well, in order to do government stuff, we have to, we have to be onboarded through NSSL, the the National Space Launch lanes, which is highly contested. This was the thing that SpaceX sued to get into all those years ago. And now you know all the new launch guys want to get in there and and we have to use that too so it's pretty politically charged and you know there's there's a lot of politics around it but like I said Helios is such a compelling product it can help what it can do for commercial it can also do for government, I'm pretty confident we're going to get somehow flying government payloads. The, I mean the largest customer in the world is the US government, so we want to fly their payloads.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "For now. Have you seen our debt? Uh, yeah, sorry, that's a intrusive thought there that I had about the economy. I'm like yeah we are right now but I mean in ten years I don't know it could be France for all I know. I worry.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:19:36",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:19:41",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Starting a company's hard enough without having to take on a ton of time-sucking administrative work that doesn't move anything forward or improve your product. You need to get back to running your business and clear the back office work from your plate. Every can help you with that. Every is the all-in-one platform from incorporation to banking, payroll, benefits, taxes, basically your entire back office. And they've worked with over 1000 startups. If you're just getting started, they're going to handle your Delaware C-Corp, your EIN, and getting yourself a registered agent, all with no legal fees or delays. And if you're further along on your founder journey and you need to scale up your team, Every will help you hire contractors in over 200 countries. Plus, you're going to get 3% cash back on every dollar you spend with your Every corporate card. So head over to every.io and stop wasting time on the stuff that isn't growing your company. That's E-V-E-R-Y dot I-O.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:20:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So, you mentioned before we started chatting that the Moon's very important to you, and I am curious why that's the case. I am also a science fiction nerd dork, but I'm curious why in particular the Moon, because some people say no, it's too soon, we need to go to Mars instead, we've already been to the Moon, so why do you think it matters for, let's keep this a small question, humanity as a whole?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:20:59",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "I think...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "In the near term, the moon is more important because the moon has anything, everything that we would need to build mega structures in space. And what kind of mega structures would we want to build in space? Probably start with AI data data servers. This is something I've been talking about for a long time. Compute needs to move to space. Power for compute's grown at least 15% per year. That's a such such a steep exponent that it just becomes crushing after a few decades. So this was always my thesis: eventually compute needs to move to space and use the, you know, the unlimited power of space. And it's already happening. Elon's already doing it. And then and of course the next thing when you're building mega structures in space is it's literally about 20 times less energy to bring material from the surface of the moon to low Earth orbit than it is from the surface of the earth, 200 miles up to low Earth orbit. So pretty soon the economics say let's just get all this material from the moon. And then that's where additive manufacturing and things like that really come in. Um, and Elon's already talking about mass drivers on the moon. So it's already fallen into place, you know, using the moon, the resources of the moon to to build mega structures in in orbit.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:22:10",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So on the subject of of data centers in space, perhaps on the moon, perhaps in orbit, you know, pick your poison. I was talking to Philip from, uh, Star Cloud, you know, before this became a more common point. And he said something very interesting to me. He said, you know, our company, and if you want to back it, it's a bet that we're going to see launch costs decline massively. Otherwise it just doesn't make economic sense to take this much stuff up into orbit with our current, uh, set of rockets. And this was before Starship's most recent successful launch and before New Glenn and so forth. Uh, how much of your company's success hinges on the same point? Are you dependent on heavy- new heavy launch vehicles reaching a frequency of launch that we're still hoping for or does the company work even with the kind of Falcon 9 generation of of launch vehicles?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:23:01",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "It works great with with Falcon 9. We would love to to fly on, you know, like on Starship. I think that could greatly lower our costs. We could fly three Helios at a time",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:23:07",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Oh wow.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:23:08",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "on Starship. Um, so if even if Starship was selling at Falcon 9 cost, it would cut our costs in by a third, our launch costs by a third. So, um, that could that could really help.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:23:22",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Okay. And now one thing I saw you guys are working on is engines for landing vehicles. Uh, you mentioned that you were working with another company on a lander for Mars. What's the benefit of vertically doing that yourself versus working with partners? I know that SpaceX, where you used to work, uh, is huge on vertical integration. And so I'm curious how much of that DNA you're kind of bringing with you into your new company.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:23:44",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "We're we we are extremely vertically integrated. Um, that like you asked, you know, we raised a billion dollars, where does that money go? Mo, you know, mostly to become I mean from employees but also to become vertically integrated. Vertically integrated requires a lot of capital, but once you",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "To become vertically integrated, you have the- you have the power. You have the control over your cost, your schedule, and- and your quality. So it's really important to become vertically integrated I think, especially in the space world, because space vendors are notoriously late and expensive.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Why- why is that? Is that just a lack of competition amongst those vendors?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:24:22",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "It's, you know, it's because the primes don't care. It's cost-plus contracting. It just builds up this whole environment, the space industrial complex that's just has this really expensive, really primadonna thing. We always had this quote- you know, this saying at SpaceX: if you go for- if you go to ask for a quote for a part and it takes you a month to get the quote, you don't want the part.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:24:45",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "No, nor do you want the price that they're going to charge you for that part.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:24:49",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Price, the schedule, like- it's already like a preview of what you got here. Like, no.",
+      "tone": "resolute"
+    },
+    {
+      "timestamp": "00:24:53",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Well, on this subject, a data point that caught my eye. I forget if this was in Ars Technica or SpaceNews, but I think it was your president said that you guys don't need new manufacturing footprint here in the states because you have enough space to do all the work that you're doing, which I think is pretty cool. But I'm curious about the personnel side of this. You mentioned the cost of people. And it seems that there are more space companies in market than ever, which makes me very excited. But I'm curious what the- what the impact that is on like the space talent market, which I presume is a smaller pool than say software developers.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:25:29",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Absolutely. We see it. It's a little harder to recruit now. Thankfully we still do it, we're still doing a great job. I think we're a pretty exciting company, so we've done quite well. We've more than doubled since last year. We just passed 500 employees. We've got open recs for about 200 more. So we're hiring really fast. But like you said, like there's so many startups. A lot of very experienced people, like coming out of SpaceX and other companies, are going and starting their own company.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:26:04",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:06",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "I mean- and then they're grabbing all their buddies. So it's- it's become rarer to get the- the truly, you know, like the Tom Muellers out there.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:26:09",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So, the last thing I want to do is bang on about someone else's IPO, but I am curious if you foresee a future in which after SpaceX does list, that people become a little bit less attached to the mothership and might be more willing to break off and come work for what you might call the next SpaceX, like Impulse.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:26:27",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Yeah, I think so. We'll- we'll see.",
+      "tone": "pensive"
+    },
+    {
+      "timestamp": "00:26:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I mean, I'm going to call you about that, because I'm really curious, because I'm hoping, you know, fingers crossed, that we end up with a- like a post-PayPal IPO Cambrian explosion of talent and founders. Because as much as I like your company and want it to succeed, I would like to see 10 more because I would like to- I would like to get to space as quickly as possible. Okay, before-",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:26:49",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Oh, please. Well, I'm- I was just going to say we've already seen, you know, like myself, the, you know, the SpaceX mafia, all these companies like in El Segundo here in this area.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "All these companies popped. Some space companies, robotic companies, all kinds of companies. Um, it's just been supercharged now with the IPO.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:06",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah. Well, I just, I hope that we get even more because, uh, I hate, I hate driving. I want to go to space. And, uh, I hate waiting for commercial flights. So there's a lot of stuff that I want to get built. Okay, one last question on the ride share front. I absolutely love this idea. Um, can you explain to people who are not familiar with, with how this works, what ride share is for Impulse and then also what it does to commercial access to this orbit or technology? Because I presume that it makes it a lot more feasible for more companies.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:27:30",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Yeah. It's, it's so hard to get to Geo that it's really rare to get a ride share to Geo. Sometimes, you know, some companies like, the probably the one of the ones I can think of recently is Viasat. They fly gigantic payloads like seven ton comsats, so they require Falcon Heavy and there's still a little bit of space left so you can put your 300 kilogram payload on there as a, as a ride share. It's very rare. It happens every few years. Um, there's a few others that go there direct but it's super rare. So there's, there's actually quite a backlog of, of customers both commercial and government that want to go to Geo on small payloads that want to go to Geo. So we're off-- since we have the, the highway to Geo with Helios, we offer this ride share thing and it turns out it's very popular. It's selling out.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:28:23",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, your first, your first actual mission has already been sold out. Do you--",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:28:27",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Yeah, and we're filling the second one.",
+      "tone": "satisfied"
+    },
+    {
+      "timestamp": "00:28:29",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Oh, wow. Okay. And then how, how frequently will you run these? Is this something that's going to become like a monthly cadence to Geo or is it going to be more of a, a one-off event when you--",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:28:39",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "It'll be a while before we get to one a month. I think there's, I think there's a market of, of, you know, there's probably 20, um, things going to Geo, um, a year right now. Um, we could maybe capture half of that with this really compelling thing. So could be almost on the order of once a month. Um, some of those being ride share, some just being, uh, large comsats.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:29:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "20 things to Geo per year sounds pathetic to me. Is that all we've pulled off as a species? We should, it should be at least 2,000.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:29:11",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Well, remember, you can have, you can cover the whole Earth with three satellites from Geo. That's the, that's the whole point of Geo. Um, you don't need, you know, thousands of them like when you're in LEO. So there's not just as many going. It's still a super important orbit, but there's just not, not as many going. And there's only so many orbital spots. Remember like if they're, if they're one degree apart, you have 360 because it's a line around the equator of the Earth. So you can't pack too many in there because they start stepping on each other as far as signals and, and all that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:29:40",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "Okay, so you've identified a real problem and you've put together a solid solution and a business model that you believe in. So you're all set to launch your new company, right? Uh, not so fast. If you want investors and potential customers to take your new business seriously, you need to consider forming a Delaware C-Corp and that's where Northwest Registered Agent comes in.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "They're going to give your new company a real identity. That means an address for your public filings, a domain, a custom website, a business email, and of course a phone number. And that's going to take just 10 minutes and 10 clicks. They don't charge hidden fees, customer service is available around the clock. They're not overwhelming your inbox with spam, and they make it easy to cancel at any time. So, get all the advantages of a Delaware C-Corp independent regardless of where in the US you're operating from. Visit northwestregisteredagent.com/twist for more details, and the links are in the show notes.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:30:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "How much of a problem is going to be crowding in the various tranches of orbit around the planet? Because I keep reading people saying, 'Oh, space trash,' 'Oh, explosions,' 'Oh, collisions,' and everything seems to kind of keep rubbing along just fine, Tom. So, is that a real concern in the near term or is that more of a 'we'll solve it in 100 years when we get there' problem?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:31:00",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "I think it's... it's going to be less than 100 years where it's going to require, you know, more active management, you know. Certainly, you know, the people putting up large LEO constellations are good stewards. They're, you know, they're maneuvering, they're bringing them down when they're done, which is what you absolutely have to do when you've got so many satellites. We have some other players that are leaving stages up there and polluting space, which is really bad.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:31:16",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, I'm not going to list those out just to annoy your PR team, so I'll keep them to myself. But yeah, no, it's a real problem. Tom, an absolute pleasure. Thank you so much for coming on and telling us about this. When you have your next major event, please come back and tell us all about it because I, like I said, want to get to space and I think people like you are going to help kind of pave the way. And if it comes down to it, I will ride in a Mira for a little joyride if you can put a little hab on there for me, okay?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:31:39",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "Absolutely. Thanks Alex.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:31:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Alright, thanks Tom.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:31:43",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Today we are not going to talk about humanoid robotics. No, no humanoid robots. They get all the headlines, they get all the money, but today we're going to talk to a company with a product actually in the market with real customers, helping move the economy forward using robotics. I know, novel concept. But please join me in welcoming to the show, it's Tessa Lau, the CEO and founder of Dusty Robotics. Tessa, I'm so glad you're here. I'm really sick of everyone showing me one robotic hand moving like a Pokemon card from here to there and claiming that they've revolutionized the world. So, to ground us, what does your robot do and why does it matter?",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:32:13",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "We are... we built the most accurate mobile robot on the planet. And what it does is, uh, we are revolutionizing construction by printing floor plans on the floor of construction sites. The reason that's important is because the way buildings get built today is that someone prints out the blueprints on a big sheet of paper, they take it out into the field, and then they're on their hands and knees using measuring tape and string to mark out all of the locations of where everything goes inside the building. We've automated that process with robotics, and we've built essentially a... ink-jet on wheels that goes around, takes that digital version of that blueprint, and it prints it on the floor so that everyone can build exactly what they're supposed to.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:32:56",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Now there's a multi-trade element to this because when you're marking out stuff on a...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "For laying you're not just putting walls in, I presume there's electricity inputs and all sorts of other materials. So what can your robot actually write down on, I presume mostly concrete?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:33:11",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "Mm-hmm. So if you've ever built a house or remodeled your house, your architect has probably handed you this huge sheaf of papers. In that sheaf of papers, there's a sheet for every single trade. So you've got one for the plumbers that tell you where all the plumbing lines go, there's one for the electricians that says where the light fixtures go or the light switches get installed, there's one for the- for the- for the framers who build the walls and put all of those in place. And so what Dusty does is consolidate all of those drawings together and prints them in a single pass over the floor so that everyone who walks on site, anyone who's installing anything inside the building, they can see exactly what they're supposed to build on the ground and they can see what everyone else is going to do around them. And that eliminates all the conflicts that happen during construction.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:52",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Clearly using a tape measure or a chalk line to lay out designs on a foundation seems to be incredibly risky because humans aren't particularly precise. But is there an element of 'Oops, now we need to change things'? So let's say your- your robot goes out there and does all this excellent printing, and then someone has to move a wall. What do you do if you need to, uh, get out the big eraser and kind of scratch out part of what you've already laid down?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:34:15",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "We do the exact same thing that they did before we had Dusty, which is they buy a case of concrete-colored spray paint and then do it again.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:21",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So literally it's white-out for the construction industry. That's amazing. I actually didn't know that. That's fantastic. Um, and then talk to me about speed here. Because I know you guys can take on relatively large floor plans, but when you say an inkjet on wheels, that does not inspire confidence with speed because I've owned a lot of inkjets and they can be, uh, patient at times.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:34:33",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "Mmm. So we are tracking at roughly 10 to 17x the speed of a manual layout crew, which typically means that we can do the same job in about a day that would normally take that crew several weeks.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:34:54",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And what would the cost of that crew be? How many people are we talking about to go out there and do this by hand? Is it one person and an assistant or is this crew seven to ten people and three trucks?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:35:05",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "So it depends on the scale of the building, right? And Dusty's being used on everything from single-family homes all the way up to huge data centers. So if you're talking like a huge data center, layout typically takes months. Each crew gets a- a crew is probably two to four people. They always go up in pairs because of the process: you need one person on either end of the string. Um, and- and they spend weeks dimensioning out and marking out exactly what needs to get installed in that building. And so Dusty can bring that down to days.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:35:33",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So as we discuss kind of at both the national and I would say global level, getting to be able to build things faster, here is a place we could actually go onto essentially any site from a single family house to a multi-building massive install and cut weeks to months out of the design and building process.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:35:55",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "Exactly right.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:35:57",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "It seems like a massive acceleration. So I guess then one more question about how this works in practice.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "BIM software, there's many different varieties out there. Do you guys support all of the options? Can anyone bring like any design to you at Dusty Robotics and it can run on it? Or is it only a certain subset of the software people use to design these things?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:36:13",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "So the de facto standard in the industry is Autodesk Revit. Um, so, uh, it's pretty much the only solution, uh, out there right now. Uh, there are a couple other smaller solutions, but, you know, they all speak Revit as the interchange format. And so we support Revit and AutoCAD, which are the two primary solutions for 3D and 2D used in the industry.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:30",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Okay. So actually not a hard standards question then. Pretty much all the customers will come to you with a file that you can quickly read. Is it... uh, are those large files? Is there any file transfer element to getting that information onto the robot itself? Or is that just as easy as sending an attachment?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:36:51",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "So the process that we've developed actually has... it starts with plugins for Revit and AutoCAD. And so wherever that design is being created, we have a plugin that sits right there next to you. Um, and that plugin automatically extracts information from those files, uh, pre-processes it a little bit, and then uploads it to our portal. Our portal is where all of those designs come together for the first time. And so all the trades, they all connect up their Revit and AutoCAD into our portal, and that allows everyone to overlay everything and then do some more sanity checks, do some more field verification before they print it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:37:26",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "And then from there, it goes to the robot. Tessa, are... are you telling me that before everyone submits their designs to your portal, they haven't been layered on top of each other yet?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:37:34",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "They have. Oh, okay. Okay. They have. So there's... there's two... um, there's two types of coordination. Uh, the first type of coordination is design coordination. Uh, this happens uh, in software. Uh, so a GC would typically organize what's called a BIM coordination process where all those designs get overlaid. And then they do basic conflict checks, like make sure your duct doesn't interfere with my conduit, right? And so... because you can only fit one thing in the space at a time. And so you have to uh, resolve that kind of conflict. But even though you have that uh, conflict... uh, that... that coordinated model, it's still not field coordinated. Um, field coordination is about ensuring that it's constructable, that it matches your existing conditions, that it's buildable. Um, and that typically happens today in the field. And so Dusty's portal actually brings that, shifts that left as we say, and brings it online.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:38:27",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Okay. So it's not that this hasn't been layered before, it's that you're taking those initial ideas and you're applying them more to the real world environment before they go out in the robot to do this. Okay. That makes a lot of sense to me. Now, you guys launched the second generation of the Dusty field printer in I think it was January of 2024. Uh, at the time you guys said you had done 91 million square feet of layout with the preceding generation. So how has the second-gen performed and is there a third one bubbling along?",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:38:55",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "Mm-hm. Uh, we might've been 2023, we should check that because I'm pretty sure it was last year.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "So our Field Printer 2 incorporates all of the learnings that we've made to date from having deployed these things in the field. So we're constantly getting feedback from our customers, understanding what works, what doesn't work, and turning that into a hardware solution that we can actually sell and works reliably across a variety of job site conditions. Since we've deployed the Field Printer 2, we've actually completed over 330 million square feet of layout.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:32",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Wow.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:39:33",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "That's lifetime to date with all of our products, all of our generations. But that number is growing. It's accelerating fast.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:39:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'm curious how quickly. You know, I talk to a lot of people that are building software, and that's a thing that I can call people up and ask how they're using it. A little bit further away from the construction space. So I'm really curious about who are your current largest customers and which sectors of the economy are showing particular demand for bringing more automation into the world of construction?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:39:56",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "Our sweet spot is really large, complex projects, things like data centers and hospitals. But as I said, we've worked on everything down to single-family homes and smaller projects as well. The data center craze is really driving a lot of investment into Dusty because we're really the only solution that allows data centers to get built with less time and less money.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:40:22",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Which is, I think, everyone's absolute goal right now. I saw a stat that only, that 60% of data centers earmarked for 2027 aren't under construction yet, and people are worried that the timelines just aren't going to work out. So anything to remove time. And this actually kind into the business model question, because when I think about robots and services, you can either sell the device or you can sell the outcome. So how has Dusty decided to approach that and how has that proved in the market?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:40:47",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "We are currently renting the device. So you can think of it as we sell robot subscriptions. And when you purchase a robot subscription, you get, it's like leasing a car, you get access to all of the equipment plus you get a software license that allows you to use the entire system on as many projects as you want.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:41:05",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Okay. And I know you guys have a series of, that would come with the iPad app, included. Okay. Is there a services component to this? Do, if I was a new customer of Dusty and I was just going to roll this up to my first project, do I need the equivalent of forward deployed engineers to help me get this into production?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:41:23",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "Yeah. So we actually have a services team that trains our customers. So our new customer would pay for an implementation, which includes both the online training of how to use the software tools and plugins, as well as the on-site training, which is how to use the robot in the field. Those are typically two different groups that are using those two different tools, and so that's why we train them separately. But after all of that, you become Dusty certified and then you can pretty much go on your own.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:41:57",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah, I'm so glad you brought up the Dusty certification thing. I didn't realize you guys had this. Oh, here it is, Dusty Academy.",
+      "tone": "pleasant"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So talk to me about how you've built up kind of your own in-house certification system. That's not something that I've seen too much of, so I'm very curious about the why and then the impact.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:42:09",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "My philosophy is all about removing adoption friction. Like, how do we make it as easy to use this thing as possible? Because that's what's going to let us grow faster and faster and faster. And so Academy is really about removing that friction. If people can come to a website, they can self-serve that learning, they can learn how to use the system, they can figure things out on their own, then that speeds us up and it speeds them up too because they're not waiting on one of us to get back to them with an answer. And so we've actually had some customers just look at the Academy, watch all the videos, and either by the time we show up, they're ready, pretty much trained, or in some cases, they don't even need us to show up, and they we just ship them the system and then they can use it out of the box on their own. And I think that's magical.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:51",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Has anyone tried that and not been able to pull it off? Or is it actually a relatively simple process that pretty much any customer can get to fluency with in a reasonable timeframe?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:43:00",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "There's a lot of tech-savvy people in the construction industry, especially the new generation who are coming into construction. They're, you know, used to technology. They grew up with smartphones. And anyone like that who, especially people who've played video games and know how to, you know, use a joystick, that's just how you run the robot. It's the same thing.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:43:21",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So what you're telling me is that if journalism doesn't work out in the end, I can come be a Dusty Robotics operator.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:43:31",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "Bonus points if you're a gamer.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:43:33",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Basically I'm the CEO now is what you just tell me, so fantastic. That's tremendous. I do want to go back though to the hardware point because I love companies that build hardware, but there's two things that I'm not sure about in your case. One, do you have any supply chain risk? I've spoken to a number of people that building drones, clearly a different category, but they have a lot of supply chain work they have to do to ensure that certain parts don't come from China and so forth. Does that at all apply to the case of Dusty? And then you guys have done things that are mostly on flat surfaces so far. I'm curious if there's other applications of your technology inside the construction space that may not be currently attacked by the company.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:43:43",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "So we had the fortune or misfortune, depending, of living through COVID, which was the first wave of massive supply chain disruptions. And so we learned a lot during that process, and so we've managed to figure out how to deal with supply chain disruptions. We basically stock up all of the long lead time parts so that when we actually need to build something, we've got all the parts on hand. So that hasn't been impacting us at all.",
+      "tone": "resilient"
+    },
+    {
+      "timestamp": "00:43:51",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "Your second question, which I forgot. Can you remind me?",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:43:55",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Using similarish technology in other parts of the construction process apart from just doing layouts on flat surfaces, because I think you guys can do some stuff on walls as well.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:44:04",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "Yeah, so it turns out that 99% of construction layout actually happens on the floor first before it gets transferred up. And so we solve all of that. So for example, if you're installing an outlet into the wall, what typically happens is you mark it on the floor first, and what you mark on the floor is that you're going to...",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "want to install an outlet right here, 18 inches above finished floor level. And so we will make those annotations on the floor, and then everyone who can just walk the floor can see exactly where they need to install it up inside the vertical surface. Similarly for things that go overhead, we mark an X on the ground, and then you take a plumb laser and shoot it overhead, and that tells you where to install the thing overhead.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:45:20",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "When this is all rolled out and people see it in action for the first time, do they give you guys high fives for turning what was an artisanal hand-done process into something that's dependable, repeatable, and accurate?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:45:29",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "One of our earliest jobs was on a, on a hospital project in San Jose, and this was during COVID, so everyone was wearing face masks, even outside on the job site. And the superintendent, he was like an old grizzled superintendent, he'd been around the block, he'd seen it all. And he was like, \"I don't trust any technology,\" and really grumpy. And then within the first 30 seconds, he started whipping out his tape measure and cross-checking and making sure our lines were accurate. And within the first five minutes, he had like pulled down his mask to show a big grin on his face because he loved this so much.",
+      "tone": "anecdotal"
+    },
+    {
+      "timestamp": "00:46:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Well, I mean, it gives everyone the exact same sort of source of truth, right? You can't have discrepancies, debates, you can't have \"Oh, I did that in centimeters, not inches,\" or whatever. Like it just, it just takes away so much. It reminds me in a way, I forget the company's name off top, but they're building a robot that just does brick, laying of brick walls. And I've done that by hand. It's miserable and tricky and, and not precise and just not something that we are good at as, as humans. And this to me is another place where we can really apply like just machine precision to make something that we all need so much better. So, I'm curious, are there other parts of the construction world that you guys want to apply your robotic learnings to apart from what we've discussed so far?",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:46:44",
+      "ad": false,
+      "speaker": "Tom Mueller",
+      "text": "So the interesting thing about layout is that it sits right, right at the center of construction. It's, we call it the linchpin. Basically everything that happens before layout, all the design work, all the pre-construction, it all has to funnel through layout. And then after layout, every, all of the work that happens on site, all the execution parts, that all depends on layout. And so, you know, if you get layout wrong, right, everything downstream goes sideways. And so everyone knows how important layout is. And so because we started there as our, as our first product idea, we have, we've had market permission to both go upstream and downstream. And that's really exciting because it means that we can move upstream into better design tools, better automation of this process of how does the data get to Dusty in the first place? And it also means we can go downstream, which is, you know, every single person or robot, you know, in the future that's ever going to build anything on top of a Dusty layout is going to be building on a Dusty layout. Which means that all of the things that we print, we're printing QR codes, for example. And QR codes are the machine-readable instructions to all future robots on the job site of where they are and what to do. And we own that translation layer.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So you are the scribe for all future robots?",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "future robots that they'll read instructions off of to do work as we see an expansion of robotics inside of the physical labor element of construction itself.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:48:09",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "We call it the orchestration layer.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:48:10",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I think this is the first time I don't object to that phrasing. Because usually it's like we're doing enterprise agentic orchestration blah blah blah and I'm like, really, are you? But this actually makes a lot of sense to me because everything you are—bottleneck is the wrong phrase—but you are the thing that everything has to come into and then be based off of. So you're lynchpin, whatever the phrase is. On the going backwards from the robot into the world of software to bring things together, it seems like when you described importing from AutoCAD and so forth that it was a kind of a solved thing. What can you do on the software side that's still interesting because you've already made it possible to bring in the information I thought that people needed to use your robots and therefore build these things?",
+      "tone": "humored"
+    },
+    {
+      "timestamp": "00:48:51",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "So I alluded to this earlier, we're calling it field coordination. So it turns out that even though you've completed design coordination process and you have a fully coordinated design which you think is going to be your hospital, the moment that design hits the field, everything goes sideways because the existing conditions are never what you thought. The columns aren't exactly where where where you wanted them to be, the concrete is an inch too short, um you know or or maybe some other things happened, and so the field conditions... design never takes into account the field conditions, and so incorporating the field conditions as part of this field coordination process. Also constructibility is another thing that doesn't get reflected in design. People doing design have never spent time in the field. There're—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:49:31",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "What?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:49:33",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "No.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:49:33",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Buy them a hat, send them out there, give them a shovel for a week.",
+      "tone": "humored"
+    },
+    {
+      "timestamp": "00:49:34",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "Well, they've never actually like held a hammer and tried to build. And the problem is when you actually try to build, this is why superintendents are so valuable. Uh we have this one story about a staircase—it looked perfect on screen, right? Beautiful design, everything was going to fit perfectly, planned space for everything. And the superintendent took one look at that design and said, I can't build that because my guys can't get their hands in between the wall and the staircase to actually install the screws. And so no one was looking for that, on screen it looks fine, the tolerances match, right? You've got enough space. In the field you actually need space for people, and that's that field coordination part that typically doesn't surface until you actually hit the field.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:50:16",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "If you were going to go out onto a construction site and find out that the concrete was an inch short or that a pillar was in a slightly different location, to me that requires something like lidar or something similar. So are you hinting at a a a different robot that does something net new, or is this capabilities gonna be able to bring to the existing field printers uh to collect maybe different types of information that you can put to work?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:50:43",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "So there are existing scanner tools out there, and so you know, we're not going to reinvent the wheel. Um what we are seeing is we have a service partner network now, and these service partners are actually bundling together the scanning, the coordination, the layout.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "together into a value-add service that really solves that entire problem for our customers. And so you don't need to learn how to use those things yourself, you don't need to buy, you know, multiple tools. They can package it all up together in a single bundle, and bring that to your job site.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:51:17",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Are the margins when you're working with partners as attractive to Dusty itself or do you lose some economics in exchange for distribution there?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:51:25",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "Well, what we're finding because our partners are actually bundling together all these different services, they can actually charge significantly more than you would if you're just doing layout.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:51:33",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Oh, so it's a net positive both in distribution and revenue terms for you guys. Oh, wow.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:51:40",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Well, that brings me to a question about capital. I joked at the top that, you know, everyone's freaking out about humanoid robots and throwing hundreds of millions of dollars at companies that haven't really built something that people need to use yet. I forget the exact number that Dusty's raised. I think it was something like 70 million, give or take, Tessa?",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:51:58",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "That's what we've publicly announced, yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:52:01",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Okay, ah, good. So I was curious, earlier you mentioned, you know, you stock up on long lead parts, that's not cheap. Building technology, not cheap. Going to market, not cheap. Having two booths at World of Concrete, not cheap. Given the amount of money that's available for humanoid robots, is there a similar amount of capital that companies like yours can access in the venture world today? Or are all the VCs so befuddled by humanoids that you're being left outside, if that makes sense?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:52:26",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "I think that there's probably, I mean, the VC world is very, I would say, faddish and tends to chase, you know, the new hot thing. Right now, I think AI is sucking up a lot of dollars in venture capital. Surprise.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:52:43",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "So I'm blown away by that fact, actually.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:52:45",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "Yeah, exactly.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:52:47",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "And so I think a lot of people are chasing AI companies and AI returns. You know, so in the meantime, like we're here solidly building a company that's got useful product, it's, you know, deployed nationwide and starting to go international, and we're solving real pain points for people. And so I think it's just a matter of time until the physical AI part of the world starts waking up.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:53:12",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I agree with that. But when you say 'that's what we've publicly announced' regarding how much money you've raised, that implies to me that you've raised money that I don't know about. Am I reading the implication there correctly?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:53:23",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "I can neither confirm nor deny that.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:53:25",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I'm going to take that as a yes, we have, no I won't tell you, but don't blink twice.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:53:27",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Okay, I want to wrap up with data centers. Because I'm curious what you're seeing in the market. I want to kind of step back from Dusty itself and just kind of talk about what you're seeing. Everyone listening to this has been beat over the head with big numbers about CapEx and, you know, how fast these things are going, public complaints about it, water usage, etc. But I don't think we have a good feel for, for one, how big these facilities are, and also how many of them are currently in construction. And I think honestly, Tessa, given your company's role, you probably have a really great feel for that. So what can you tell me about the state of the construction rush for data centers today?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "So we follow the data center construction world really closely because a lot of our customers are using Dusty to build data centers. Um, you know what we're seeing is that because of the improvements in speed, accuracy, workflow that we can introduce, Dusty is starting to become not just a nice to have, but a need to have on data center construction. And so, you know, some of the biggest names in data centers um are starting to mandate Dusty, which means that regardless of which general contractor is using is building their data centers they're starting to to push that requirement down onto their GCs who then come to us and say, 'Hey, you know, we heard about this thing, we we need to actually use it.'",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:54:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Is that because they want to go faster or because they want to be more accurate? Because I can see either one being the lead argument.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:54:46",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "It's all the same. It all boils down to time and money. And so if you save time then you save money and if you eliminate rework then you save time which means you save money. So it all's it's all the same thing.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:54:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's fascinating to me. So it seems like you're having a really good kind of market market pull moment. Um, have you had to build like new fleets of the actual field printer robots to meet this demand?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:55:09",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "Hmm. So it's the same robot, it's the same platform that gets used in data centers versus anywhere else. Um, so no we haven't. It's it's just one product.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:55:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I meant sorry, I I phrased that terribly, that's my mistake. Um, have you had to make more of them? Not a new robot, but have you had to build, you know, expanded your fleet that you can send out to different job sites from the centralized hub?",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:55:21",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "Yeah. Yeah, we are we're now about 150 deployed robots all across the US and Canada, um, which is uh up I think over 100% since last year.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:55:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And where do you think that number will be in this time next year?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:55:35",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "This time next year, we're planning to have around 200 by the end of the year, um and then probably even more mid next year.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:55:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Are you seeing rising um utilization on a per robot basis as your uh number of units scales?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:55:54",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "The utilization's actually pretty constant what we've seen, um although we are actually building new features that actually allow us to increase utilization. Um, so uh right now Dusty is uh is most suitable for big large projects: data centers, hospitals, you know anything where you have a big open floor plate you can just set the robot loose and run it. Um and it's been harder to use Dusty on smaller jobs. Um so for example, one of our customers came to us and said, 'You know we build single operating rooms at a time. Like you know it's a hospital renovation and they're just like redoing one one operating room at a time. But there's so much stuff crammed into that operating room. I would love to use Dusty, um but it doesn't work for me right now.' And so we've actually developed a new feature that we're calling flexible control, which allows our customers to operate Dusty in these really uh environments where they would not have thought to use Dusty before. And so we're basically removing all of these assumptions, like you need a big open floor, you need surveyor control, um you need all of these things that allow you to use Dusty. We're eliminating those requirements one by one and opening up the space to use Dusty in more environments.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "using Dusty on a larger variety of jobs which is going to increase utilization.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:03",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "A larger variety of jobs some of which are smaller. Now, one thing I pulled into my notes before we jumped on the mic was that you guys can print as close as one and three-quarters inch from any obstacle. Now, if you're doing a big open floor plan, not an issue, but if you're doing something inside of an operating room layout, there might be stuff that gets in the way. Is is that what you're solving for these smaller rooms? Essentially the ability to get closer to stuff and therefore being able to do more in a small space?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:57:29",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "It's it's not about getting closer to stuff because our robot already is the the leading robot on the market in terms of being able to get close to stuff. What we've actually done... so a little bit more of the details here for the the tech nerds. In order to operate Dusty, you need what's called surveyed control points. So imagine registration markers, you know with a standard printer. So basically in construction what that means is around the perimeter of your building there are points marked at known locations. They're typically put down by a surveyor who gets brought in to... he he scans benchmarks that are located in the environment, monuments. If you ever go hiking and you see like a metal plate in the earth, that's a monument, right? So a surveyor will will know where those are, they'll know how to triangulate off of those monuments and give you a very precise location of the point. And so they'll do that to mark control points all around the building. But if you're in a single operating room, you're not going to bring in a surveyor to scan those monuments and bring control points into that operating room, right?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:58:32",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Would be a little silly. Yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:58:34",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "It's a little silly, exactly, so it doesn't happen. And so our customers can't use Dusty in those situations until now. And so flexible control allows you to operate Dusty without those surveyed control points. It allows you to scan the existing conditions, your walls, your columns, and then align to those existing features so that you can still print accurately within a space.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:58:58",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "That's super super cool. What's what's the smallest thing you could lay out with Dusty that is still construction viable? Like could I do... I'm just playing around here, but like could I do like a really fancy doghouse layout?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:59:08",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "That would be a very pampered dog. You could if you wanted to.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:59:12",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "I take good care of my dogs.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:59:14",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "Yeah, so what we're seeing is you know we joke about the bathroom remodel being kind of like the smallest use case for Dusty. It'd have to be a pretty fancy bathroom, but yeah.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:59:24",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Cause an OR, if people don't know, is probably 5 to 700 square feet. Like they're not they're not they're not a building but they're also not a closet.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:59:32",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "Mhm.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:59:33",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Yeah. Okay. Well fantastic. I'm really excited about your company because I think that it's the most like real-world application that I've seen from what I would call the cutting-edge of robotics. So Tessa, my last question for you is pretty simple. Um, are you going to take this company public? And if so, when?",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:59:47",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "My dream is to is to take this company public. I don't have a crystal ball so I can't tell you exactly when, but we are well on our way.",
+      "tone": "ambitious"
+    },
+    {
+      "timestamp": "00:59:57",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "In terms of scale, maturity as as a business...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Organization, already have a CFO place. What's the... the vector that you're describing there for readiness?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:00:05",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "I mean all of the above. Uh, you know, we've figured out go-to-market, we know how to sell, uh, we've created the most recognizable brand in construction tech already. Um, and it's the eyes on the robot, to be honest, that everyone sees and recognizes.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "01:00:19",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Just to explain, if you're not watching the video version of this that has b-roll attached to it, their robot has two enormous eyes on its front plate, and it's incredibly adorable. It's like the construction version of those food delivery sidewalk robots, but cuter. Sorry.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:00:33",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "Yep. Exactly. So, we've created all of this amazing momentum, and so we've just got to keep executing and doing that and we will eventually get there.",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "01:00:41",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Well, you couldn't have picked a better time to reach full scale than the current data center buildout. You have just years of tailwinds behind you. So, Tessa, all the best and, uh, when you either announce more money, build a new robot, hit some milestone, hit us up. We'd love to keep track of your success and, uh, keep kicking butt.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "01:01:00",
+      "ad": false,
+      "speaker": "Tessa Lau",
+      "text": "Fantastic. Thanks Alex.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "01:01:02",
+      "ad": false,
+      "speaker": "Alex Wilhelm",
+      "text": "Thank you.",
+      "tone": "polite"
+    }
+  ],
+  "highlights": [
+    "Impulse Space’s Helios vehicle is designed to revolutionize orbital logistics by moving heavy payloads from low Earth orbit to geostationary orbit in just eight hours, a journey that currently takes up to ten months using conventional electric propulsion.",
+    "Shifting heavy manufacturing and resource extraction to the Moon is a key long-term goal for the space industry, as it requires 20 times less energy to move materials from the lunar surface to Earth's orbit than it does to launch them from Earth.",
+    "Moving AI data centers into space is becoming a strategic necessity to solve Earth's power constraints, allowing high-performance computing to leverage the unlimited solar energy available in orbit.",
+    "Automated construction robots are drastically increasing efficiency on job sites by printing digital blueprints directly onto floors 10 to 17 times faster than manual crews, condensing weeks of human labor into a single day.",
+    "These construction robots serve as an \"orchestration layer\" for the future of building by printing machine-readable QR codes on floors that provide precise navigation and instructions for subsequent automated systems."
+  ],
+  "summary": "This transcript features interviews with the leaders of two high-growth hardware companies, Impulse Space and Dusty Robotics, highlighting a shift toward automation and efficiency in the \"hard\" industries of space logistics and construction. Tom Mueller, CEO of Impulse Space, discusses his company’s mission to provide \"last-mile\" delivery in orbit through their Mira and Helios spacecraft. While Mira handles precision maneuvering in Low Earth Orbit (LEO), the upcoming Helios vehicle serves as a high-performance third stage capable of moving heavy payloads to geostationary orbit (GEO) and the Moon at a fraction of traditional costs. Mueller emphasizes that vertical integration is key to avoiding the high costs and delays of the traditional \"space industrial complex,\" with a long-term vision of moving massive AI data centers into space to utilize unlimited solar power.\n\nThe second half of the transcript focuses on Dusty Robotics, where CEO Tessa Lau describes an autonomous \"field printer\" that prints digital blueprints directly onto construction site floors. By replacing manual layout processes—which traditionally rely on tape measures and chalk lines—Dusty’s robot increases speed by 10 to 17 times and eliminates human error in complex projects like hospitals and data centers. Lau identifies the layout process as the \"linchpin\" of construction, as it provides a single source of truth for all trades. Her business operates on a subscription model (Robot-as-a-Service), aiming to remove adoption friction through \"Dusty Academy\" and by catering to a new, tech-savvy generation of construction workers.\n\nAn overarching theme across both discussions is the significant impact of the AI boom on physical infrastructure. Impulse Space views space-based compute as the inevitable solution to Earth’s energy constraints, while Dusty Robotics is seeing a massive \"market pull\" from the current rush to build terrestrial data centers. Both companies highlight how specialized automation can solve critical bottlenecks in their respective fields, whether by lowering the cost of high-orbit logistics or by accelerating the physical construction of the digital economy.",
+  "description": "This Week In Startups is made possible by:\n\nNorthwest Registered Agent - NorthwestRegistereAagent.com/TWIST\nEvery - Every.io\nSentry - Sentry.io/TWIST\n\nToday’s show:\nWant to get to space? Several launch companies can help you. SpaceX, Rocket Lab, the Russians, the list goes on. But what about once you make it upstairs, then what? Impulse Space CEO and CTO Tom Mueller is building the next stage of our orbital economy. With its Mira and Helios spacecraft, we’ll soon be able to take mass from lower orbits to higher orbits, or even to the Moon, with ease.\nMeanwhile, venture capitalists are enamored with the idea of humanoid robots — robots share our shape, our work environment, and even our tools. But startups like Dusty Robotics are taking a different tack; instead of building human-shaped robots, Dusty has built a small, wheeled 'bot that can mark out building sites quickly and accurately. And it’s doing more revenue than all humanoid robotics companies combined, I reckon. Dusty’s CEO, Dr. Tessa Lau, joins Alex to go deep on purpose-built robots in today’s build-crazy market.\n\nTimestamps:\n\n00:00 Blue Origin, and why fixing things in orbit is hard\n01:42 What Mira is and what it does\n03:58 Why was the commercial demand for Mira softer than expected\n04:43 Space Force demand and the GEO-capable Mira\n06:31 Helios: a \"rocket on top of a rocket.\"\n09:33 Sentry - Your team should be focused on shipping features — not chasing down bugs. New users can get $240 in free credits when they go to https://sentry.io/twist and use the code TWIST\n10:58 How Helios beats Falcon Heavy on price ($25M)\n12:58 Reusability, in-orbit refueling, and propellant depots\n15:01 Landers, the Moon base, and \"Mega Helios.\"\n18:15 NSSL and the politics of flying government payloads\n19:39 Every.io - For all of your incorporation, banking, payroll, benefits, accounting, taxes or other back-office administration needs, visit https://every.io\n20:14 Why the Moon matters: megastructures and data centers in space\n24:32 The space talent market and the SpaceX \"mafia.\"\n29:39 Northwest Registered Agent: Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity — Learn more at https://northwestregisteredagent.com/twist\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+  "duration": 3659,
+  "people": [
+    "Alex Wilhelm",
+    "Tom Mueller",
+    "This Week",
+    "In Startups",
+    "Northwest Registered",
+    "Rocket Lab",
+    "Impulse Space",
+    "Dusty Robotics",
+    "Tessa Lau",
+    "Blue Origin",
+    "What Mira",
+    "Space Force",
+    "How Helios",
+    "Falcon Heavy",
+    "Mega Helios",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason",
+    "Will Guidara",
+    "Steve Huffman",
+    "Brian Chesky",
+    "Bob Moesta",
+    "Aaron Levie",
+    "Sophia Amoruso",
+    "Reid Hoffman",
+    "Frank Slootman"
+  ],
+  "topics": [
+    "Orbital logistics and the development of in-space transportation technology (Mira and Helios)",
+    "Robotic automation for construction site layouts and field coordination",
+    "Commercial and government demand in the evolving space economy",
+    "The infrastructure and construction challenges of the AI data center boom",
+    "Hardware startup trends, including vertical integration and the 'SpaceX mafia' talent pool"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/IUyJFSzTdeQ/maxresdefault.jpg",
+  "date": "20260603",
+  "youtube_url": "https://www.youtube.com/watch?v=IUyJFSzTdeQ",
+  "youtube_metadata": {
+    "title": "The project SpaceX's first employee raised $500M for",
+    "description": "This Week In Startups is made possible by:\n\nNorthwest Registered Agent - NorthwestRegistereAagent.com/TWIST\nEvery - Every.io\nSentry - Sentry.io/TWIST\n\nToday’s show:\nWant to get to space? Several launch companies can help you. SpaceX, Rocket Lab, the Russians, the list goes on. But what about once you make it upstairs, then what? Impulse Space CEO and CTO Tom Mueller is building the next stage of our orbital economy. With its Mira and Helios spacecraft, we’ll soon be able to take mass from lower orbits to higher orbits, or even to the Moon, with ease.\nMeanwhile, venture capitalists are enamored with the idea of humanoid robots — robots share our shape, our work environment, and even our tools. But startups like Dusty Robotics are taking a different tack; instead of building human-shaped robots, Dusty has built a small, wheeled 'bot that can mark out building sites quickly and accurately. And it’s doing more revenue than all humanoid robotics companies combined, I reckon. Dusty’s CEO, Dr. Tessa Lau, joins Alex to go deep on purpose-built robots in today’s build-crazy market.\n\nTimestamps:\n\n00:00 Blue Origin, and why fixing things in orbit is hard\n01:42 What Mira is and what it does\n03:58 Why was the commercial demand for Mira softer than expected\n04:43 Space Force demand and the GEO-capable Mira\n06:31 Helios: a \"rocket on top of a rocket.\"\n09:33 Sentry - Your team should be focused on shipping features — not chasing down bugs. New users can get $240 in free credits when they go to https://sentry.io/twist and use the code TWIST\n10:58 How Helios beats Falcon Heavy on price ($25M)\n12:58 Reusability, in-orbit refueling, and propellant depots\n15:01 Landers, the Moon base, and \"Mega Helios.\"\n18:15 NSSL and the politics of flying government payloads\n19:39 Every.io - For all of your incorporation, banking, payroll, benefits, accounting, taxes or other back-office administration needs, visit https://every.io\n20:14 Why the Moon matters: megastructures and data centers in space\n24:32 The space talent market and the SpaceX \"mafia.\"\n29:39 Northwest Registered Agent: Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity — Learn more at https://northwestregisteredagent.com/twist\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+    "duration": 3659,
+    "view_count": 1812,
+    "like_count": 37,
+    "channel": "This Week in Startups",
+    "upload_date": "20260603",
+    "thumbnail": "https://i.ytimg.com/vi/IUyJFSzTdeQ/maxresdefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

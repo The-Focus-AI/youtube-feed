@@ -1,8 +1,8 @@
 ---
 channel: This Week in Startups
 channel_handle: "@thisweekin"
-total_videos: 47
-last_updated: 2026-05-14
+total_videos: 52
+last_updated: 2026-06-08
 ---
 
 # This Week in Startups Channel Index
@@ -11,15 +11,20 @@ last_updated: 2026-05-14
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 47 |
-| Total Views | 1,096,319 |
-| Date Range | 2026-01-20 to 2026-05-14 |
-| Average Video Length | 68:28 |
+| Total Videos | 52 |
+| Total Views | 1,106,940 |
+| Date Range | 2026-01-20 to 2026-06-08 |
+| Average Video Length | 68:51 |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [The AI Tutor That Makes Kids Actually Think \| E2298](videos/mEk7Xmt5z0U.md) | 59:41 | 164 |
+| [Anthropic wants to slow AI down and Bernie wants 50%: JCal Reacts \| E2297](videos/2Y5xwjkCj30.md) | 1:30:19 | 2,476 |
+| [The project SpaceX's first employee raised $500M for](videos/IUyJFSzTdeQ.md) | 1:00:59 | 1,812 |
+| [This Startup Fused Human Brain Cells with Silicon Chips \| E2295](videos/wJH_ymNbv30.md) | 1:05:39 | 1,712 |
+| [How to Raise a Seed Round in 2026: Ask Jason \| E2294](videos/W4QD84DAugk.md) | 57:17 | 4,457 |
 | [How Many Startups Will Survive OpenAI? \| E2288](videos/8Gj1pNXOGYI.md) | 84:35 | 1,714 |
 | [Can an AI Agent Legally Own a Company? Christian van der Henst's Wild Experiment \| E2283](videos/4elRU7BlbDQ.md) | 1:09:26 | 0 |
 | [Master AI Video Marketing w/ Magnific CEO Joaquín Cuenca Abela \| AI Basics](videos/Mva8ccgaDOI.md) | 22:35 | 0 |
@@ -111,6 +116,14 @@ last_updated: 2026-05-14
 | Polymarket | 2 | Maduro scandal, Anthropic vs Bitcoin odds |
 | Huawei | 1 | ADC self-driving crash video |
 | Waymo | 2 | Safety data, Santa Monica collision, CA AV programs |
+| Brilliant / Koji | 1 | Sue Khim's AI Socratic tutor, $30/mo vs $10K/yr tutors |
+| ComfyUI | 1 | Yoland Yan's node-based gen-AI OS, $30M raise from Craft |
+| Impulse Space | 1 | Tom Mueller's in-space mobility, Helios beats Falcon Heavy |
+| Dusty Robotics | 1 | Tessa Lau's construction layout robots, 150 deployed, "more revenue than all humanoids" |
+| Cortical Labs | 1 | Hon Weng Chong's biological compute, CL1, $30M raise |
+| Pyka | 1 | Michael Norcia's Group 4 ag/defense drones, Pelican + Dropship |
+| Anthropic | 7 | Plus: blog calling for global AI slowdown |
+| OpenAI | 6 | Plus: Bernie's 50% seizure target, Sam Altman UBI study |
 
 ### Products & Technologies
 
@@ -141,7 +154,14 @@ last_updated: 2026-05-14
 - **Hardware/Deep Tech** - [BCI Beanie](videos/_tIHicFHtXE.md), [Brain-Computer Interfaces](videos/6tRPTof_aUA.md), [3D-Printed Homes](videos/AOVMBfbk9KA.md), [Drone Company](videos/ndqVml57rHo.md)
 - **SaaS Disruption** - [SaaS not vibe coded](videos/65NplKBgwUA.md), [SaaS crash rational](videos/e2gT-YBDzQE.md), [Startups Survive OpenAI](videos/8Gj1pNXOGYI.md), [YC W26 AI Rebuild](videos/aY8KnynU6MY.md)
 - **Founder Pitches** - [J-Cal invested $200K](videos/SfVnhMLO2UY.md), [Where founders must focus](videos/npTA9qCCNoI.md), [Savvy](videos/qwuPlPi_y_o.md)
-- **AI Creative/Video** - [Magnific AI Video Marketing](videos/Mva8ccgaDOI.md), [Runway World Models / Zipline](videos/lFwe-Q-RTu0.md)
+- **AI Creative/Video** - [Magnific AI Video Marketing](videos/Mva8ccgaDOI.md), [Runway World Models / Zipline](videos/lFwe-Q-RTu0.md), [ComfyUI / Yoland Yan](videos/2Y5xwjkCj30.md)
+- **AI Education** - [Brilliant / Koji](videos/mEk7Xmt5z0U.md)
+- **AI Policy** - [Anthropic Slowdown / Bernie 50%](videos/2Y5xwjkCj30.md), [Anthropic Biggest Mistake](videos/uegOFJffAU0.md)
+- **Space** (expanded) - [Impulse Space / Tom Mueller](videos/IUyJFSzTdeQ.md), [SpaceX + xAI](videos/qfk6fBDO3sM.md), [SpaceX + Cursor](videos/Xhl8gVk3yrc.md)
+- **Construction Robotics** - [Dusty Robotics / Tessa Lau](videos/IUyJFSzTdeQ.md)
+- **Biological Computing** - [Cortical Labs / CL1](videos/wJH_ymNbv30.md)
+- **Drones** (expanded) - [Pyka Pelican + Dropship](videos/wJH_ymNbv30.md), [Zipline Automating Delivery](videos/lFwe-Q-RTu0.md), [Drone Company $4B+](videos/ndqVml57rHo.md)
+- **Founder Advice / Ask Jason** - [Seed Round 2026](videos/W4QD84DAugk.md), [Where founders must focus](videos/npTA9qCCNoI.md)
 - **Defense Tech** - [YC Kicked Defense Startup](videos/RT09WX9_hqY.md)
 - **Geopolitics / China** - [China Kills Meta-Manus](videos/pjnOykD3tzA.md), [Anthropic Mythos cyber-weapon](videos/1ORdeSPOy2k.md), [Polymarket Maduro scandal](videos/JkvMd86dTMk.md)
 - **Fraud / Scandal** - [Delve $32M Fraud](videos/kz24Ga0Ig2g.md), [Bittensor Rug Pull](videos/sdhuUZbx5Sk.md), [Maduro Polymarket](videos/JkvMd86dTMk.md)

@@ -1,0 +1,1793 @@
+{
+  "title": "How to Raise a Seed Round in 2026: Ask Jason | E2294",
+  "source_url": "https://www.youtube.com/watch?v=W4QD84DAugk",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "People in our secret group chat have questions for me. Some might be spicy.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:00:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "What do you think founders should be doing to try to sort of give themselves a little bit of moat against OpenAI?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:00:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "There's always going to be a feature set that the interface of the large language model is not going to add.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:00:09",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Out of all the people in Silicon Valley, who's the one person you really don't like the most and why?",
+      "tone": "provocative"
+    },
+    {
+      "timestamp": "00:00:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Some people have damaged the reputation of the industry and the user base.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:00:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And then some people have just maybe screwed over friends of mine.",
+      "tone": "annoyed"
+    },
+    {
+      "timestamp": "00:00:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "[bleep] I've been a consistent critic of. Every time he had a chance to do the right thing for humanity, he picked his own self-interest. It's a level of selfishness in decision making that and cutthroat-ness that I understand, but I wouldn't do and I think has damaged the reputation of the tech industry.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:00:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The two people I'm talking about are two of the most successful people ever in the history of business. All right.",
+      "tone": "matter-of-fact"
+    },
+    {
+      "timestamp": "00:00:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Lon Harris is here, I'm Jason Calacanis. People in our secret group chat on X, formerly known as Twitter, have questions for me. I'm going to answer them. Lon is going to give me these questions he's vetted. Some might be spicy. It could be political, it could be technical, it could be startup-related, it could be life, it could be health, could be dating, it could be anything. I'll answer any question for our community if they have it. If you want to join our community, x.com/twistartups, that's our handle. If you DM that handle, we know that you listen to the pod and we will add you to that group. The group's got 400 people in it or so, and it's quite a nice little group talking about the topics of This Week in Startups, of TWiST. Let's get started.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. I would add if you're very active in the group and participating and sharing great stuff, there is even a higher level insiders group. Maybe you can add that one. That's very rarefied. We don't just let anybody into that.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:01:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's a funnel. We have everybody following the account, then we have 400 or 500 people in this crazy group chat, and then I think we have 10 people who are like the best people in the group chat who we know are good actors that we're filtering into like just a small group. So, I don't know exactly how to build community these days, this day and age, but I'm going to start doing more dinners and live shows since people want to get together in person. You know, a lot of people, Lon, are sad and lonely and staying at their ranch, smoking cigars, sitting on a bench, and want to see more humans.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:02:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Get out in the world, yeah.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:02:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sure. That's what I want to do. I need to get out in the world more. So yeah, more dinners, more hanging out, more live shows.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:02:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "First question comes from Richard Correll of Quanto. It is an accounting firm in the age of AI. Here, I'll share their website. They're basically, he describes it as an AI-powered wealth management platform. And so here, here is his question: 'We have a $10 trillion AUM lead interested in us as clients and investors. They gave never seen something like this before level feedback, but then ultimately told the company they're too early for now, but they want to stay updated.' So Richard wants—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Lon Harris wants to know your advice on how to combat the challenges facing startups with that early stage status, even when their tech is advanced and innovative and looking forward.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sure. Each investor has a different area of specialty and you should look at what stage of a startup they invest in most. And whatever they tell you is not as important as what they do, right? So if you were looking at a person and trying to judge them, the best way to judge a person is to look at their previous behavior or to watch them doing the job you're asking them to do. This is first principles thinking. If you go to a family office and you are in year zero of your startup, you are not incorporated yet, you have a, you know, a demo, a product, they're not going to invest unless they have a history of investing in entrepreneurs who are not yet incorporated and who don't have a product in market yet. Now you have to divorce what people say in social settings, especially investors, from their behavior. If you look at my firm, Founder University is designed as a product occurring in three different geographies, three different continents around the world, twice a year each, six cohorts a year: Riyadh, Tokyo, and in the US. And we explicitly ask people to come who have two or three founders, and you don't need to be incorporated, you don't need to have customers yet. We want to meet you in year zero, and then the accelerator, we'd want to invest and we'd want you to be incorporated at that point. Now if you go to a family office and they've invested in seven things in the last five years and all of those things are private equity deals that their friends brought them and they put 30 million dollars into each deal, how on earth are they going to put 125k or 250k or what you're looking for in your seed? They're not. But you got introduced to them, they took the meeting, they're going to say nice things. You have to divorce the nice things they're saying from the reality of what they do. That's all. You have now somebody who likes you, okay great, but they say that to everybody. What you want to look at is, do they actually invest in your stage of startup? The answer is probably no. Therefore, who does invest? Y Combinator, Techstars, Antler, a16z, Pear has a great summer program, Sequoia has Arc, I have Founder University launch accelerator. Go to those programs first. Get your 125k, your 25k, your 250k check, get your first five customers, and then you can go back to them and they might be a great later stage. And in terms of numbers, in order to get a seed round today, you need to contact 150 seed funds, get 50 meetings with seed funds to get 20 second",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "meetings to get two to give you a term sheet.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Wow.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:06:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's the funnel today.",
+      "tone": "matter-of-fact"
+    },
+    {
+      "timestamp": "00:06:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:06:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "If you're not doing that, you're just not playing the game on the field. You may hear of people who get funded,",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:06:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:06:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "you know, they take a meeting and they instantly get funded and they weren't even looking for funding? Yeah, those are memorable stories because they are not the norm.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:06:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:06:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "They're notable because it's not the norm. That's why you're hearing those stories. The norm that we see on the field is emailing and trying to get in touch with 150 different investors, getting on the radar and getting a quick Zoom call with 50, getting 10 or 20 of those, in other words, 10% of your initial target list to take a second meeting. 150 targets, 15 second meetings. That would be a reasonable goal. If people are not willing to take a second meeting, you're not really... you should really only judge second meetings. People are not obligated to take a second meeting. Therefore, a second meeting is notable. Okay. I hope that helps.",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:07:01",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. I think that's... it's interesting how many different sorts of fields and kinds of work that's applicable to. Like people think to become a content creator, you just create like two or three videos and then one goes viral and now you're MrBeast. And it's like, no, it's hitting it every single day, it's doing it hundreds of times until you find your voice and refine everything and then you start actually growing. And I think it's kind of the same across just about any discipline. All right, speaking of Founder University, at on protons on X had a pitch for you for what they call Founder Community College. So their question is why is there no Founder Community College to go alongside Founder University? It would help with the coming wave of $500k to $5 million AI-driven single-person owner-operated companies. So you're not worried about fundraising, you're not worried about board seats, you're not worried about cap tables, it's just focused on tools and building great products. What do you think, is there... can you see a level between, you know, Founder University that's for, you know, people who are even earlier?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:08:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So funny they mentioned this. I literally this weekend was asking about the accreditation laws and how I could give a degree. I was asking this because we have an associate in training program for the venture side of our business. We're hiring six people in June to be part of that. They start as researchers, they become analysts, then they become associates. It's a basically a three-year program to go through each of those titles. 60, 70, 80, 90k is like sort of the career path in terms of salary. So instead of paying for a degree in venture capital, we pay you is the way I tell people to look at it. And we hire twice as many people, really three times as many people as we need because we think one or two of them are going to opt out and it will be like not the career for them. One or two of them we will not continue on with, in other words, we don't think they have what it takes, and then one third we're going to keep.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "and they're going to become all stars in our firm.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Uh, and we want to replenish that. But I had so many people say to me, I would like to send my child to that. Can you charge me 60k a year for two years, and I'll pay you 120k to teach them how to be a venture capitalist because there is no course in that. There's like",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:09:15",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "continuing education. It turns out I'm not legally allowed to give a degree in being a founder or a degree in being a, uh, venture capitalist. I could give a certificate.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right, but not a degree.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:31",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "When you're a founder and you're moving fast and you want to close a big deal, a traditional bank can kill your momentum. Long approval processes, clunky outdated systems, not intuitive. I mean, some of these systems look like they were made in the 1970s and have never been updated. Not all banks are designed to work for startups. We all know that, and that's exactly why Grasshopper Bank was created. Grasshopper is a real federally chartered bank, but with the kind of financial tech stack that you'd build for yourself. They're going to open your new business account in just minutes, not days. That's a key pain point. An integration friendly platform with real-time transfers and AI tools that are going to save you even more time. All without straining your budget on a bunch of unnecessary fees. That's where they get you. And because you're a valued Twist listener, Grasshopper will drop a $500 cash bonus into your account when you use the promo code twist, TWIST. Start building without the slowdown at grasshopper.bank/twist. Terms and conditions apply. Grasshopper is a federally chartered bank, member FDIC.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:10:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And so that's what I think a lot of people do with these continuing ed certificates, etc. So I would have to partner with a local university, uh, in the US to do this. And there are some that do this. But you can give certificates or a diploma, but you cannot give a degree. That's the word that I think gets you in trouble.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:45",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now, outside the US, there are some universities, uh, in the UK that will let you use their, uh, programs to do a UK accredited degree.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And then there are islands, like there were some islands people would go get degrees in medical practices",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure, yeah. I mean, I know that's a big like Central American thing, people go down there to get their degree.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right. And like dentistry and other things, and it does somehow work in the United States. I don't know about those. They seem fugazi, fugazi.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:11:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "shhh",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:11:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Uh, but I have been thinking about this because I do think college is broken. So next year, I told my team I want the associate in training program that we start in the summers to be so good this time, and you and I were talking with Jackie about it, we're going to have like a Monday morning session and a Friday end of the week session where we do professional training and then in between they work at one of the business units inside the company. The goal, I think, is for that training program, those two two-hour sessions that bookmark the week, to be so good that next summer when we do it",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We could literally charge for it and literally say for $50,000, you can come work here for nine months out of the year, take your summers off or 10 months and for two years and then take on Kaufman Fellows. There's a program called Kaufman Fellows. You can pull it up on the screen. Kaufman Fellows charges, I believe, 80 or 90 thousand dollars for two years. Somebody look up the price. It was extraordinary. And then they were like, oh, well, that's for people who are already in it. So Kaufman Fellows is this program that people do. And you can see it's incredibly diverse. They have like scholarships and stuff like that because our industry, the venture industry was known for being maybe 10 years ago, a little too, dare I say, male and white and Ivy League.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:12:47",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But they've had a thousand fellows, some of those you might know. There's a Jenny Fielding. I know her. And I don't know which one of these people are paying for it. There's Monique Woodard. I'm an LP in her fund. So I don't think there's anything wrong with this program necessarily. There's Mamoon. But I do think it's a bit of an elitist group and it's I think $90,000 a year. I don't know if someone has looked it up.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:13:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, no, Jacob looked it up. Producer Jacob looked it up for us. The Kaufman Fellows two-year program tuition is $80,000. Application fee of $100 if submitted by the early deadline. If you miss that, it's a $300 application before the actual end of time deadline.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So I think I could have 10 people in this program, charge them 50k each, that'd be 500k. Then I could hire two full-time people to work on it and create a program. And I think it would be better than, I know it would be better than Kaufman Fellows because you get to come with me to Saudi, come with me to Tokyo, see those programs and interview companies. And I think they're not even in office for that much. I don't, I think this program is all virtual. I think they maybe spend a couple of weeks together.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:13:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, Zoom meetings probably mostly, but...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:14:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I wonder like what the actual curriculum is. If somebody could send me the curriculum or send me like the agenda and what it is. I'd love to study what Kaufman has done. I don't know if that's public. But anyway, I'm not dissing them for having an incredibly overpriced elitist program.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:14:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:14:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I am thinking on a competitive basis, like maybe I could create a better program. And then for Foundry University, I would be fine with partnering with a university that wanted to give a Foundry University degree and make it a two-year program and it just teaches you how to be a founder and embeds you in companies. I mean, sure, why not?",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:14:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "There's probably some young people that would be interested in, they are interested in entrepreneurship, but wouldn't even know where to get started. I feel like that's what Foundry University is good for. Like, here are the 10 terms you don't know. Here are the concepts everybody's talking about that you're not familiar with. Like that's where I think we can really help young people.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:14:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Or maybe you put the two together and it's just company building and you have two tracks, the Foundry University track and the associate track.",
+      "tone": "collaborative"
+    },
+    {
+      "timestamp": "00:14:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "to the Venture University track, you have the two tracks and you major in one, minor in the other, but you learn both sides of the table.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And I mean we also I bet you Kaufman Fellows is not doing media training. You'd also come out of this knowing how to make a newsletter, knowing how to do social media, knowing how to make a podcast, you know, like all those communication skills that you wouldn't get that are so important in this field. I mean we talk about it all the time because we're constantly booking investors and venture capitalists and founders as guests. But there are a lot of brilliant founders with great companies or brilliant investors with great portfolios, but they're dead air on a podcast. You can't book them on things. And so like we also help with those skills that are important as well.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:15:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, for sure. Now unfortunately because some idiot started a podcast about startups 16 years ago, now every venture capitalist has to have a podcast. Oh geez, those four billionaires got together to do shit during COVID and now we're stuck with them.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:15:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Especially since one of them's not a billionaire.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:15:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I actually think three of them are not billionaires technically.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Really? Wow, that's breaking news.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:16:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Huge if true. Yeah, I don't think Friedberg's a billionaire, maybe on paper with Ohalo stock. I mean, people refer to you all...",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:16:07",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I don't think Chamath's a billionaire? I don't know, people just refer to you all as billionaires, I just assumed, I've just been going by that.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:16:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sax might be a billionaire, I don't know. Sax and Chamath maybe pretty close.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:16:15",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Maybe. Chamath after that Groq deal, come on!",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:16:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think he probably owned 10, 20 percent of that.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:16:20",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, and maybe probably not liquid, but I feel like he's probably...",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:16:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I mean that's the always the thing. And then who cares, like honestly. The more I look at wealth and wealth creation, once you get past like this basic $10 million mark, you have the FU money. You have the FUM. And once you have FUM, it doesn't matter. You could ski, you could podcast, you could do whatever you want.",
+      "tone": "philosophical"
+    },
+    {
+      "timestamp": "00:16:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And it's exactly $10 million. That's exactly the FUM number. FUM starts at 10 million. Once you have that...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:16:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "you make 5% on your money, which is a half million dollars a year, which means, you know, after taxes, 400, 500 thousand a year, you can just exist.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:17:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, you'd be back in Florence right now.",
+      "tone": "lighthearted"
+    },
+    {
+      "timestamp": "00:17:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You'd be back in Florence. How was your trip by the way? I didn't ask you.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:17:15",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Amazing trip, I had a great time, yeah. Rome, Rome and Tuscany.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:17:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "How many days did I give you off? Jesus.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:17:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It was, you kept saying 22. It was technically 19 days, and a lot of those were weekends. So it was like 14 work days off total.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:17:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It felt like you were gone for two months. My god. You definitely have job security. I was like, I'm CCing Lon and I'm like, Jesus, when is this guy going to be back? All right, give me another question.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:17:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right, let's go into number three. This is from Surge Dog, also on X. Love Surge. If you compare early-stage startups today to 10 years ago, what has changed the most in how you evaluate them? And in particular, he's interested in what do investors overvalue, do you think, from the like old school conventional wisdom playbook? What traditional must-haves have become optional? And what expectations are now table stakes? Like how has the landscape shifted?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "for you as an investor in early stage.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:18:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I mean, the number one thing is the amount of capital it takes to get a product to market and to the amount of time it takes to get product market fit. Um, that is dramatically decreased. So over time, we with vibe coding or the no code revolution, we had these moments where it seemed like really no code was one, cloud the cloud era was another, where the cost of running a startup went down 10X. Used to be 3 million, then it went to 300. And when that happened, because of WeWork, outsourced accounting and legal, and not having to stand up your own data center, it used to take 20, 30 people and 3 to 5 million dollars to get your product to market. That was in the web 1.0 era, the 90s. Seed round would be 3 million, it would take 12 months to get your product ready to go to market, and you had all of these expenses which were considered non-negotiable and you had to do them. You had to have a PR firm, 10k a month for 18 months, 180k. You had to get an office for 25k a month, you had to put a 250k letter of credit down. So that was another 300,000 a year for two years, 600,000, 250k letter of credit. It was basically a million dollars to set up your office. You had to put a half million into servers, now you're at 1.5 million. You had to spend 100k on legal, 1.6 million. You had to hire an HR person, an accountant, um, and a lawyer, another 250k, now you're at 1.8, 1.9 million, you get the idea. Then you hired a couple of product people, developers, you're at 3 million dollars, you finally get the product launched and you figure out if you're going to win or not.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:41",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Adding a new member to your team is a crucial decision, and you don't want to rush into a hiring situation that you will regret. But if you're a busy founder, you also don't want to spend a ton of time in the trenches looking for that perfect candidate. Instead, you need a partner, and you need a trusted partner, and LinkedIn Hiring Pro is that partner. How do I know this? Because I use LinkedIn Hiring Pro. You want a real-world testimonial? Alright, here you go. We recently hired a new customer success manager. They handle all the advertising accounts here on This Week in Startups, and they ensure that we're keeping all of our wonderful partners happy. LinkedIn helped us connect with an amazing candidate right here in Austin, and he had exactly the combination of experience we were looking for. It's magic, it's alchemy, it's everything for me to find a great team member.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:20:32",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "So, hire right the first time. Get started by posting your job for free at linkedin.com/twist. Terms and conditions apply. That's linkedin.com/twist.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:20:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Then the Y Combinator era, the cloud computing era meant you work at home, three people, you eat ramen for 300k, you could stand up a startup in under six months. Now it, then it went to like 30k just paying for some servers, but maybe you got free credits and",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "you and your partners never met in person and you just shipped and you vibe coded stuff and you got your first customer then you applied to Y Combinator or Techstars or Antler or one of these incredible programs, Launch Accelerator. Now it's kind of like I built a- I vibe coded a product, I got to 100K in revenue and then I applied to Y Combinator, then I applied to Launch Accelerator. So that's what we're seeing. And so the time from idea to first customer,",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:21:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "and first customer is light product market fit. You can convince people to pay for anything, but let's just say some level of product market fit. That's down to weeks. It's down to a weekend.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:21:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I was going to say it's down to days. We've seen companies on the last few months on the show that are literally like, oh, I built this 14 days ago and we're talking to them on the show about all of their hundreds of customers.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:21:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Our bounties program is a perfect example of that. We have two bounties out this week in startups.com/bounties or bounty. And the one for the fact checker, real-time fact checker, we have 15 people and I think three of them are really good. That was like in under 30 days. And then we're doing the- another $5,000 bounty for an annotated- what I'd like to do with one of those companies is actually make it a startup. Um, so I'll give them the prize, but then I want to hire them and incubate the startup. So that's my hope is that the real-time fact checker becomes an actual startup company or annotated becomes a real startup. So hoping to find a founder or two I can hire and put into like a- a startup or a company I incubate.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:22:45",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And by the time this airs on VOD, we'll- we'll have already picked a winner for our sidecast uh, live producer bounty.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:22:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Or winners. Or multiple winners. You never know. We've seen some amazing submissions. There are really some great submissions.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:22:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right. Next question from Foundry University vet Mahima Galani of a company called Treya. She wants to know how should startups think about differentiating when frontier labs release products in the same vertical that they're building in? Of course, this is a huge story. People are always worried about are they going to get death by Claude? Is Anthropic going to just take over their business? So what do you think a founder should be doing to try to sort of early differentiate, give themselves a little bit of a moat against OpenAI, Anthropic and others?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:23:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Absolutely. So there's always going to be a feature set that the interface of the large language model is not going to add because of clutter and confusion. So let's take travel. We had a great startup, Rome. And they, I think, were built on like the preview, like the 2.5 of- and you can look up Rome and we- we probably have it in our database here. I think they wound up giving the money back to investors because in ChatGPT 2.5, they- that was like an API and then they were letting you put in, 'I want a three-day trip. I want to go to Italy. I have three weeks. My boss gave me 19 days to be out of the office.'",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That was great.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Rome was like one of the best previews I've ever seen. It's in our database, it's not public because it's shut down. But let's take that one as a travel example. You can ask all these travel questions inside of ChatGPT, and people do. But if you were to build an interface around it, and features around it, and you're constantly adding features, and then building a community around it—",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:24:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, it was great. 'What should I do over my 19 days because my boss is so goddamn accommodating?' And Rome-",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:24:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Mmm-hmm.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:24:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "—the community, the support, these extra features, they're not what ChatGPT's gonna work on. They're just gonna—ChatGPT-X, they're gonna just give you your basic output. But what if you want when you get the basic output, you want multiplayer mode? So you and I, and Amanda, and William, and Bianca are doing our next trip to Tokyo. And we're like, 'Hey, let's do this as a group. Let's all research where we want to go for three days on a bullet train, let's all research where we want to go for breakfast, lunch, dinner, and shopping.' And then we all do our research, but we're watching each other do the research, and then we click and we vote and we add it to an agenda, and then we finalize the agenda. All that stuff—RomeAround was the company—that's not going to be done by ChatGPT. So you can build all that around it, and then you could build the concept of a virtual travel agency. Somebody who uses AI and does all this itinerary with them, and you pay them per hour to do it. Or you pay them for ground support when you're on the ground in Tokyo they match you with a local guide. Those things will not be done by ChatGPT, if that makes sense, right? So that's I think the differentiator you can do. Tax GPT, another example of it.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:25:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I was just going to say, having just planned a trip, you do look things up on AI, it's natural. I use it in place of a search engine at this point, but then there's also Viator and TripAdvisor and all these other platforms, and it's using both. It's not one or the other like I think a lot of people think. It's sort of, you know, you- you layer these different tools on top of one another to get the best result. So I think there's truth in that.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:25:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think the community, multiplayer mode, support services around those things, they're just not going to do that. They're not going to create a marketplace with local guides. One of the things I want to do when I go to Japan next time is there are now food guides who have come out. And you know, one of the things is because of social media, everybody goes and, you know, does a video of the memorable stuff, and then all the influencers go there. But it turns out, like, unless you speak Japanese and you know the surrounding area, those places are targeting American tourists. But there's 20 other places with pancakes that are just as good or better that don't have the line. And you can hire—there's one guy who's a bit robust, and his thing is like, he's—I don't know if he uses the term fat or, you know, whatever—he's your jolly fat guy who takes you on tours.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Fascinating.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:26:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, there was a movie—yeah, there was a movie about him.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Brendan Fraser was in about like—",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:27:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Rental family, rental family, yes.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:27:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And the concept is?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:27:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "He's an American actor and he's hired to pretend to be like a surrogate father in this family that doesn't have a dad around and apparently this is... I mean the story behind the movie is that this is a real service in Japan...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:27:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, it's a real service.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:27:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The you can like rent a fake family member for occasions or for times where you are particularly missing having like a dad around.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:27:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And then he becomes of course bonded with the family and it becomes a sweet story like that.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:27:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You could also do rent an old guy for fun.",
+      "tone": "suggestive"
+    },
+    {
+      "timestamp": "00:27:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes. So that is a thing.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:27:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You rent an old guy.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:27:41",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And there's rent-a-boyfriend, rent-a-girlfriend services, those get talked about a lot and it's not a sex worker thing, it's just like I want somebody to go to this ballgame with me, you know like it's that kind of a thing.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:27:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:27:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But the the renting a food thing is like that's even better so let's say you have this idea for an AI planner but then the AI planner has to result in something like you're on the ground.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:28:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:28:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So you get the basic chat gpt features for free but then we can also connect you with somebody who books this or gets in line for you, brings you, translates, it sits with you, gives you the backstory, takes you in, arranges for you to go in the back and make the ramen, you know between you know lunch and dinner service.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:28:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sure. Yeah, in Rome we booked a uh—",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:28:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "One of those golf cart tours where the guys drive you around in the golf cart and we got to go into a bunch of crypts and stuff under the churches because he like he would give he would give the nuns like 5 Euro he knew where to go and like who to talk to so we got to see like the Tomb of Saint Cecilia and all this sort of aqueduct under the Trevi Fountain stuff that most tourists don't get into which is cool.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:28:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Genius.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:28:35",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So yeah, I think that's yeah, there's a there's a service there if you can find your sort of spot in the stack yeah for sure.",
+      "tone": "convinced"
+    },
+    {
+      "timestamp": "00:28:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So from triperidot on X, they're a dating app for serious daters, I'll bring it up here on the screen. They uh compare it to being like it's like being set up by a friend as opposed to just uh browsing an app.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:28:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "By women, for women, a new take on the dating app, that is their business. Their question, and I quote: 'Founders are often told to find the right investor but most advice reduces to stage sector or warm intros. When you evaluate founders, what tells you there is real alignment beyond the obvious category fit?' And then the founder adds: 'They're asking because fundraising feels to them like a marketplace with weak signals and poor coordination, they feel like the best founder-investor matches are not just about who invests in their space but who sees their problem the same way that they do.' Your thoughts.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:29:22",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so you've identified a real problem and you've put together a solid solution and a business model that you believe in. So you're all set to launch your new company, right? Uh, not so fast.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:29:35",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "If you want investors and potential customers to take your new business seriously, you need to consider forming a Delaware C-Corp and that's where Northwest Registered Agent comes in.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:29:46",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "They're gonna give your new company a real identity. That means an address for your public filings, a registered agent to receive service of process, and corporate documents to define your structure.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "lines, a domain, a custom website, a business email, and of course a phone number. And that's going to take just 10 minutes and 10 clicks. They don't charge hidden fees, customer service is available around the clock. They're not overwhelming your inbox with spam, and they make it easy to cancel at any time. So, get all the advantages of a Delaware C Corp independent regardless of where in the US you're operating from. Visit northwestregisteredagent.com/twist for more details and the links are in the show notes.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:30:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so there are investors who... investors have all different sets of signal and processes in which they invest. I have a friend who's an investor at True Ventures. He only invests on things that come through his network. He's an older guy, he's probably 60 now, and he basically looked at his career of 40 years and said, or 30 years and said, 'You know what? All the great investments came when one of my friends told me about a company. Therefore, I'm not taking any emails. People can email me all they want. The only way I'm taking a meeting is if another venture capitalist or a portfolio founder tells me I should meet with it.' And he just uses that as his filter. And I think it works for him.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:31:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Then there are people like Y Combinator or us, you come to launch.co/apply, we meet with 10% of the companies that apply every week. So some weeks we get 200 people applying, sometimes 500. We meet with 25 people a week now. We were meeting with 140. That was too much.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:31:25",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, it's a lot.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:31:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:31:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So we meet with those 25. At the end of the year, you know, all said and done, we've done 3, 4, 5,000 meetings and we've invested in 100 companies, culled down from 10 to 20,000 applications. You get the idea.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:31:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But we don't invest in biotech or military tech right now. We're looking at military... We actually started with military tech, but we didn't do biotech. We didn't previously do biotech. And everybody's got a different preference.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:31:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So figuring that out is hard and it's work. And I think the best thing to do is to study what people have already done. You get a Crunchbase account or any of those things, you start following on social media the different firms, and figure out 150 different firms that invest at your stage and have invested in similar companies.",
+      "tone": "didactic"
+    },
+    {
+      "timestamp": "00:32:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So if you're a marketplace and they did Uber or Thumbtack, like I did... or they're doing fintech like I did Wealthfront and Robinhood, you can know that when you come to me, we share that. So if you're doing a fintech marketplace, you can go like, 'Hey JCal, you did Thumbtack and you also did Robinhood. We're doing a marketplace for financial advisors and you pay financial advisors by the hour instead of 1% of your net worth... or your portfolio size.' And I'd be like, 'Oh yeah, that's a really good idea. I would love to hear that pitch. Yes.'",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:32:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So that's your job, and you have realized now as an investor that this is not a clean, easy-to-navigate marketplace. It's a bit bespoke and underground. We have a product called Whisper Network for our founders where they get to go...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And search through and put in their materials, ask us for an introduction, and even with that tool, it's still hard. You're hunting, you're packing, you're doing research. I think AI will make it a little bit better, but it's your job, it's tedious, it's a full-time job. Treat it as such. That's why if you have three, three, three co-founders in a company, one of them can focus on the product, one can focus on sales, and one can focus on corporate development. Corporate development is another fancy way of saying raising money.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:33:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And that's what you need to do. You have to look at fundraising as a full-time job. You have to collect investors and build deep, meaningful relationships with them over time.",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:33:41",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sort of the same answers as number one, like it's just it's about legwork and putting in the hours and, you know, shoes on the pavement as they say, you know, it's like about just hitting the streets and hearing the nos, yeah.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:33:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's a sales funnel. You have to qualify each sale. Are you qualifying each investor? Do they invest—have they invested in your stage? Are they actively investing or is their fund in maintenance mode and they're in between funds? What check size do they do? Do they lead a deal or do they follow a deal? Are they like my friend and they only take intros from existing founders? Okay, then you have to do the work to meet one of their founders then in order to meet them. Okay, are you willing to do that work? So if you have 10 great VCs you want to meet with, maybe your best strategy is reaching out to five of their founders, meeting two of them, and then using those two founders to get one of them to introduce you to a partner over there. Now you're talking about sending 50 emails to founders to get 20 meetings to maybe get on the radar of those 10 venture firms, maybe get on the radar of three or four of them. So again, that's the sales funnel.",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:34:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, and you have to treat it as such. It's like when you're applying for your summer jobs as a teen and, you know, like at first you're like, I filled out three applications. I went to the ice cream store and the bookstore. And it's like, no no, you gotta fill out a hundred applications to get that one interview and to get that job. It's the same kind of story.",
+      "tone": "illustrative"
+    },
+    {
+      "timestamp": "00:35:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And you know, you can be creative about it. Like there was somebody I saw who went to San Francisco and put the pitch—somebody can look it up here, the producing team—they put the pitch for their startup on the back of their laptop and they just sat there in a cafe in South Park, I believe, which is not South Park the TV show but a little park in San Francisco where there's a couple of cafes and there's VCs tend to be around that park or there's some number of VCs. And they just said, I'm just gonna sit here and run into some people. The—and there was a Paul Graham quote or a video clip that went viral recently. It turns out San Francisco and the Bay Area are very unique in that the startup culture there is to help people without an expectation of short-term rewards. And everybody helps everybody. This podcast was my way to give back and that's why I've done 2,000 episodes of it. People tell me all the time, oh my god, you really helped me. I'm like, okay, I've never met you. They're like, oh no, I listen to your podcast and it inspired me to start a company and then I started my second, then I met somebody...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "on your podcast because I emailed them and told them it was on podcast. That helping people without expectations of return is a unique part of the tech industry and Bay Area culture. You can only experience that by going to the Bay Area and meeting people.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We found this post a guy who put a sign on his laptop and I'm going to I'm going to share it right now. Thanks to producer Jacob who's dug that up. Uh yeah, a guy put a sign on his laptop AI B2B startup raising pre-seed product is live, come say hi. A few investors came up to him. No cold emails, no pitch deck, no intro, just visibility in the right place. So there your laptop as a billboard would sort of be the concept there.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:36:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Love it.",
+      "tone": "approving"
+    },
+    {
+      "timestamp": "00:36:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "There you go. Yeah. People see you coding. All right, we got a what do you want to do one or two more? Or are you you're okay.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:36:40",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sure. Keep going. My energy's good.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:36:41",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Good question in from one of the live viewers right here on this very live stream we're doing right now from @yadon9884. What's the best path for a bootstrap hardware founder once the prototype is real and nearing profitability? Would you stay lean and grind revenue or start bringing in strategic people before you scale up?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:37:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I think you should get investors if you're at that point. And investors have totally 180'd their position on hardware. It used to be hardware is hard. I don't want any part of it. Now it's hardware is one of the only moats left. I love hardware. Plaud is doing a great job with that. We just had on the program, somebody made a bookmark that goes into your book and then you can scan it and Alex was like over the moon with this product and I was like, why do I need that? Different strokes for different folks. But hardware is now a way to get lock-in. Whoop as a hardware product, you know, has some amount of lock-in. My Eight Sleep, all of this now has become a moat and a way to increase the fidelity and the usefulness of a product. So yeah, hardware is no longer a blocker with investors, which is really fascinating to me. I invested in many hardware companies. Terra Kaffe, Cafe X, we had a Butterfly which was a Dropcam, you know, camera ring competitor, didn't work out. We had a smoke detector back in the day before other people came out with smoke detectors. You know, most of these things fail and Eight Sleep succeeds. Terra Kaffe's succeeding really well. Cafe X is still going and be actually doing really well. But hardware's hard and it just takes a little more capital. So you're going to have to find people who are comfortable with investing the capital and there are now a large number of hardware companies. You can work backwards to them. Kickstarter is still like a very viable option, doing viral ads to get your first 1000 customers to give you $1000 and you know, charging them three or four times what the retail product would be to go first, you get dummies like me who are like, yeah, I don't care about the price. I just want to be the first to have it. Great. You know, whether it's like the Tesla Roadster that I paid 150K for or countless Kickstarters I've paid for and you know, the boxes are in my closet unopened or I used it once and was like, oh, that's interesting. I learned something and now I move on.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, and that's going to really supercharge this whole thing. Like, you're already you could drop a few grand and get a Chinese humanoid robot at this point. Like, soon that's going to be its own hardware categories. People buying like weird little new robot designs for their house.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:39:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think figuring out what to do with commoditized robots is going to be a very interesting business. And I think they ultimately will be a dollar or two dollars an hour is my guess.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:39:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, you think it's going to be like robots as a service? You don't shell out all the money for the hardware? You buy you pay less and then every month you've got to pay your $12.99 robot.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:39:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "If I was making Optimus or Figure, I would go to Amazon and say, what do you pay somebody to sort packages? They'd say it's $27 an hour. And then fully baked, it's $35 an hour. People sue us for workman's comp, insurance, all this other stuff. And I'd say, okay, we'll give you a figure robot. You're currently paying $30 an hour fully baked, you know, $20 to the person, $10 plus 50% for everything else. We'll give it to you for $4 an hour and we'll have somebody on site who's maintaining them for you. And you'll have 100 robots here sorting packages for $4 an hour. How does that sound? And they say, great. $4 an hour times 8,000 hours a year, four times eight, boom. It's going to cost 20, 30, $40,000 a year to have these maintained and ready to go. But then when it goes to consumers, you could really abstract it like a lease. You know, so you'll just pay a $299 a month lease, and that gives you 500 hours of your robot's time. If you go over, it's a dollar extra. Like you lease a car and you go over certain mileage, you pay 50 cents a mile. That will be a really good model for these eventually. And then there are going to be all kinds of applications.",
+      "tone": "strategic"
+    },
+    {
+      "timestamp": "00:40:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Great acronym too. ASS, Automatons as a Service. It's going to be great.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:40:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Automatons as a service. ASS, yes. AAS would be your acronym, yeah.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:40:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "They'll cover your ass, yeah.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:40:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "There you go. I think they're going to be great. I mean, we had a security one, Knightscope, that had been at like TechCrunch 50 or one of the early launch festivals, one of the early ones. That was that weird looking robot that just drove around. And now there's many of those security robots. And I think they were taking the same approach, which is security guards, $20 an hour for them to pay play Candy Crush and fall asleep. This thing never falls asleep, works 24 hours and it's $10 an hour. And like, even if it was the same price, it does a better job because it never stops walking around and it's got 360 degree cameras recording everything, which a human's not capable of.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:41:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's not going to accidentally shoot as many people probably, hopefully, as the human security guard.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:41:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But good luck with your hardware startup. It's a good time now.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:41:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right. We got a question from Jacob. We got a very spicy question that you're free to punt. Or we can react to some videos. What's your play?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:41:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Give me the spicy and then we'll do the video.",
+      "tone": "decisive"
+    },
+    {
+      "timestamp": "00:41:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right. From Sean Sully, aka @arugule on X, out of all the people in Silicon Valley, who's the one person you really don't like the most and why?",
+      "tone": "direct"
+    },
+    {
+      "timestamp": "00:41:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Who don't I like?",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:41:56",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, the one person you don't like. I think you could pick your reason. You disagree with them on...",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "things, it's a personality conflict whichever, you you take your pick. I have some I have some guesses but I'd like to hear your opinion.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:42:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, listen, I I would say you know we all operate in the same ecosystem of users and some people I think have damaged the reputation of the industry and the user base. And then some people have just maybe screwed over friends of mine. So like Zuckerberg, I have been a consistent critic of. It's not personal. It's that every time he had a chance to do the right thing for humanity, he picked his own self-interest over that of humanity. Whether it's teenage girls and like or people's privacy or how he worked with partners in his partner program and treated founders, every single time he seemed to make a decision that was not in the best interest of humans. That's it. And so I don't like the way he's behaved. It's not personal. Like I I haven't seen Zuckerberg in person in a decade. I mean I might have been at a dinner and been in the same room as him I'm sure a couple of times, but I haven't sat down and had a conversation with him I'd be happy to do that I'd be happy to interview him for a project or a product. But I think he is so obsessed with the growth of his companies which has made him tremendously successful that copying other people's ideas blatantly, screwing partners over in the partner program he had, not being thoughtful about teenagers using his product, not being thoughtful about you know all the reports that he had internally about teenagers and specifically teenage girls and how damaging uh Instagram was for them in terms of eating disorders and anxiety and then optimizing all these platforms to keep you online it's just it's a level of selfishness in decision-making that and cut-throatness that I understand but that, you know, uh I wouldn't do and I think has damaged the reputation of the tech industry. I think he actually is made people look at the tech industry and be like ugh you know.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:44:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well I mean we've seen...",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:44:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sam Altman I don't like because he screwed Elon and Elon's my friend and I watched it happen but I I kind of liked Sam or I did like Sam interpersonally we always had some like interesting things but he um you know he kind of shivved my friend and I'm team Elon. Not cool to what he did to him. Um and listen I'm not the only person who thinks like hey maybe Sam should not behave this way on a business level but again it doesn't matter in business you can be incredibly... the two people I'm talking about are two of the most successful people ever in the history of business.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:44:50",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah they're doing alright.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:44:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So in some ways being able to make self-interested decisions and not worry about what people think about you and not worry about losing and burning relationships",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:44:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "For sure.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:44:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "is...",
+      "tone": "pensive"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "is a quick path to extraordinary success.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:45:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes, I think being a, being a like high-level tech CEO definitely self-selects for some of those qualities that we would associate with, you know, like someone who you might consider like a jerk or a not, not very nice person in your life.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:45:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean, the number of people who called in that piece in the New Yorker, which, you know, listen, I, the, these press pieces like it's probably, you know, 60% true, 40% true, 80% true, who knows? And then people have agendas so you have to sort that out and the press doesn't care about sorting out the agendas, they care about like, hey, is this piece going to rip or not? Right? So I don't, the New Yorker piece on Sam was brutal and a number of people called his behavior sociopathic. I, I didn't call his behavior sociopathic. That's what, you know, Ronan Farrow and his collaborator, I didn't participate in that piece, they asked me to. I was like, you know, I don't really have any business interest with Sam, so like I'm not qualified and then number two, I don't talk to the press, so I'm good, thanks. Um, but they were like, we had specific questions to ask you about Sam Altman and about the Sequoia Scouts program. I was like, yes, feel free to put them in writing and I'll consider and they're like, we don't do that. And I was like, just I just didn't respond. I mean, but I don't care. Um, you know, but I just was interested in what the questions were, I probably wasn't going to answer them anyway, but I was curious like what the question even was. Yeah.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:45:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean, when you're writing a piece like that, you know...",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:46:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So anyway, that's the answer. There you go.",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:46:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Fair enough.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:46:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And it's not personal, so, you know, everybody wants to make it personal, like, I'll bring up maybe the guy with the wrong, the guy in military tech, you know, like when I made, when I popped off on my answer about him, it's not that I dislike him, I just thought what he did was brain dead, like stupid, like to do covert stuff. Now, is the press story correct or not? I don't know if that press story was correct and I did kind of pop off and I apologize to him because like, yeah, I looked back on it and I was like, yeah, you know, maybe I was a little bit too hardcore in my answer. But if that story was true, I do think he did the wrong thing but I didn't have to say it as brutally as I said it. And I did kick him when he was down, he got fired, I was kicking him. So I kind of looked at it and I was like, yeah, okay, I take ownership of that. Sure, I kicked a guy when he was down. Probably shouldn't have done that.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:47:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "When you podcast every day, when you podcast every single day, you're just reacting, you're doing hot takes, it can you get caught up in the moment, I think.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:47:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well but you see how I do it, like we were doing a recording before this and people were asking me about a case and, you know, Y Combinator and General Catalyst supporting a founder who allegedly did things that were unethical and copied another startup. And I went like I framed it, like, if this is true, and we don't know if it's true, this would be maybe unethical but not illegal behavior and maybe, you know, General Catalyst didn't know what this founder was doing if it's even true and maybe they're trying to clean it up right now. So I really think through like before I pop off and I just don't trust the media or any report now. And when you hear me on All-In, you know, sometimes...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Most people just run with a Cane Corso, the great story, or like some viral clip, and I'm like, just so you know, that viral clip could be AI, it could be an old clip, nobody knows. So this is alleged, and I kind of make a joke about it. Allegedly, perhaps, not confirmed. I put all those disclaimers on it because I'm old enough now to know, like, some non-zero, like, low double-digit percentage of the time I'm reporting on a news story, it's not exactly accurate.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:48:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think that's a good lesson for even if you're not hosting a podcast, even just in your everyday life. In 2026, you've got to take that beat. It might be very satisfying to be like, 'Oh, this idea, this story lines up with my personal biases, I can't wait to share it and prove how right I've been.' You always have to take that extra beat, like, is this AI? Is this true? Is there a community note? Is there some additional information? Is this being framed in a certain way designed to provoke a reaction? Because everything—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:48:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Lon, this was your first trip to Italy?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:48:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "This was my first time ever in Italy, yes.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:49:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's true. Okay. So, we'll just... and you went to Greece?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:49:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, you went to Greece as well? Okay. I went to Santorini and Mykonos. I visited Santorini and Mykonos.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:49:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Amazing.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:49:10",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It was amazing.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:49:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So give me your general impression of Greece and Italy. What were your favorite parts of it? What was extraordinary? And then what was underwhelming and didn't hit the notes? As we go off-duty here, this is Lon off-duty in Italy.",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:49:19",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, so I went, I did a week in Rome. Me and a friend, we stayed in an Airbnb right by the Castel Sant'Angelo, right sort of the middle of the city, right? Not far from Trastevere. Staying in the Airbnb was amazing. We're walking distance from the Vatican. It's a building from the 1600s where the Pope's staff used to live in, like, the Renaissance era. So it was an unbelievable place. The best thing we did was that crypt tour. We did a golf cart crypt tour and a guy took us to all sorts of, like, out of the way, you know, sort of like churches that had, you know, bone temples in the basement and all of this crazy art. That was amazing to see. We took a bullet train one day to Florence and to the Uffizi Gallery. We went to this amazing pasta restaurant called Osteria Pastella that was—",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:50:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think I went to both of those. That's great.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:50:10",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, yeah. They're one of the places they take a huge wheel of cheese and they pour brandy in it and then they light it on fire and then they mix your pasta in the cheese bowl and then they topped it with white truffles. It was incredible. And the Uffizi, you know, lots of great art. I will say a down thing: it is very, very crowded right now in Italy. Lots and lots of tourists want to see Rome and Florence. I was not alone. And one thing that really bugged me in all the art museums that we went to is people are standing in front of the paintings or the sculptures and they're just snapping photos on their phone. And I mean, this is like Botticelli's Birth of Venus, Caravaggio's Medusa. Just go on Google images, there's a hundred beautiful, up-close, high-resolution photos of every—",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You can get the Birth of Venus on like a mousepad. Like, you don't need your own photo.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:51:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think this is a- this is a gripe, this is a gripe that's worth noting.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:51:10",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:51:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Just be in the moment, folks, just be in the moment.",
+      "tone": "preachy"
+    },
+    {
+      "timestamp": "00:51:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And this- I'll tell you the thing that makes me crazy in these places: The selfie stick.",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "00:51:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That, yes.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:51:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Or the- or the i360 guy. You know the i360 guy?",
+      "tone": "exasperated"
+    },
+    {
+      "timestamp": "00:51:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Of course. There- they're all-",
+      "tone": "dismissive"
+    },
+    {
+      "timestamp": "00:51:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "With the stick, and it goes up, and he's got to walk around, and he's got to have a 360 view...",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:51:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "...that he's never going to look at. But the- the 360 guy is worse than the selfie guy.",
+      "tone": "judgmental"
+    },
+    {
+      "timestamp": "00:51:34",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:51:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The selfie guy's got his iPhone on the stick, whatever. These guys are walking through Vegas casinos and I'm like, what are you documenting? Your life is incredibly boring. You're the least important person within 100 miles of this place. This place has been documented, as you correctly point out, to the point of absurdity, and now everybody's gotta be on your i360 and you're smacking people in the head.",
+      "tone": "ranting"
+    },
+    {
+      "timestamp": "00:51:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Nobody cares.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:51:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You're never looking at these things. If you want to take a quick photo of yourself in front of your favorite piece, totally fine.",
+      "tone": "dismissive"
+    },
+    {
+      "timestamp": "00:52:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right, and I did. I posted a few of them to Twitter. I would take a picture of myself, like 'here I am, I'm in the Uffizi, I want to remember this moment.' I'm not saying don't be a tourist, don't take a photo, don't take a selfie. But it's that stand- just- just take it in.",
+      "tone": "defensive"
+    },
+    {
+      "timestamp": "00:52:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Just take it in!",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:52:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And like we went to a Rothko exhibit as well in Florence, like a modern museum, and it's like those paintings, it's being in the room with it, that's the point. It's overwhelming when you're standing in front of it. You're not going to appreciate it on the- your phone. What- what are you doing?",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:52:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So that- here's my idea. Here's my idea for these museums: 24 hours. And increase the price to go a little bit.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:52:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Mm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:52:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So, or maybe like on the off hours, you pay a premium.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:52:45",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, sure.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:52:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I would like- because these all close at 6 o'clock, right? They're done.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:52:50",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, it's like- Uffizi I think is yeah, it's like 10 AM to like 4:30, but you have to get a time. They send you through in shifts. So when you buy your tickets, they give you a time to show up and then you get in the line.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:52:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And there's like a VIP line, you pay an extra couple of euros. So what did you pay, 10 euros or something? It's not expensive.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:53:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No, it was- I think it was like 30 euros a piece, but we also made those plans a little last minute. I bet if we got them earlier we probably could have gotten a cheaper Uffizi pass.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:53:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Here's my idea.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:53:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "attentive"
+    },
+    {
+      "timestamp": "00:53:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The place closes- the last entrance is 4:30, which means they're kicking you out at 6:00. Right. 6:00 to 8:00, 8:00 to 10:00, 10:00 to 12:00, 12:00 to 2:00, 6:00 AM to 8:00 AM, I know maybe people don't want to work those. Have a 100 euro experience.",
+      "tone": "innovative"
+    },
+    {
+      "timestamp": "00:53:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:53:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now, 100 euro, 100 dollar experience per person sounds insane. But by the way, if you're an Uber driver or you're- you're a housekeeper in New York, you're making 30, 40, 50 bucks an hour already.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:53:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:53:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And that person might want to have an experience with 10% as many people there or 20% as many people there.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:53:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, it would be a totally different experience to go with a small group.",
+      "tone": "convinced"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "...really like soak it in on your own and have the time instead of being pushed around and everybody's trying to push in front of you.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:54:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I would have loved, loved to go to dinner and then I like to do my after-dinner walk, because I'm old and, you know, controlling my weight, ro.co/twist. I would love to do my two-hour walk in the Louvre from, you know, 8:00 to 10:00 p.m. or even 10:00 to midnight. How great would it be for us to be in the Louvre at 11:00 p.m. and see the Mona Lisa or the Venus de Milo with but a half dozen people there.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:54:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, because also I had the same experience in the British Museum too in London where it's like, it's great, amazing to see that stuff but you're, you're constantly in like this huge crowd of everybody wants to take their photos and it's really...",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:54:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Did you go to the Florence gelato place that I told you about?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:54:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You know, I did. I went to a gelato place in Florence but we were only there for 24 hours. I ran out of time. I did not get to... I missed that. I missed that one. But I did, we did get some incredible food the whole trip, Rome too, we went to some really amazing restaurants. And then, so that was week one. And then week two, we joined my dad and my uncle and his girlfriend Karen for a cruise. And that went to Santorini, Greece, Mykonos, Greece, and also a town named Kusadasi in Turkey where there's the ancient Greek ruins of Ephesus are there, and so we did a little quick tour there.",
+      "tone": "animated"
+    },
+    {
+      "timestamp": "00:55:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Santorini, beautiful, right? On that hillside with the... Did you get to go on the donkey ride up and down Santorini?",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:55:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No, I felt bad for the donkey. I don't want to subject a donkey to my 200 pounds. I felt like I'm not going to do that to that poor... well...",
+      "tone": "self-deprecating"
+    },
+    {
+      "timestamp": "00:55:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, this is why ro.co/twist will get you down to 180 and you'll be fighting weight, you go on there. No, I thought the donkey thing was a little bit extreme too, but they have like this very steep hill...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:55:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes, it leads up to Oia. Oia, the sort of... that it's the city when you think of Santorini and you see the Instagram posts with the white houses and the blue domed churches, that's Oia. And so we got to go check out the town. We took a bus to get there. And then we went to Fira as well, another town. And then we... they took us to one of those black sand beaches so we got to do a little beach time. Santorini was incredible. That was incredible.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:56:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm glad you got to take some time off. Me too. And this is where I don't have a problem with the Meta glasses actually. I'm okay having an exception for Meta glasses. If you take them to dinner, you're not invited to dinner. Right. However, if you're in a museum and you want to put those on and record, go for it. Go for it. It's better than the selfie stick everywhere.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:56:35",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I don't think... I still don't think you're really going to get a lot out of that after the fact. The part of being in the museum is you're there. You're in the museum. It's real. Like you can look up art on the internet all the time. I do it all the time.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:56:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Take 10 pictures. Okay? Take 10 pictures. You yourself with the front, yourself in front of your favorite piece of art that you saw, okay. At the cafe having a coffee, whatever, having a coffee.",
+      "tone": "jovial"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I took a ton, but like, it- when you're standing in front of a Rothko, you don't need to have your camera. It's just- it's just lines on a canvas on a photo. You have to stand there and soak it in.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:57:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What are we doing folks?",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:57:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What are we doing?",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:57:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:57:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right everybody, it's been another great. Twist is in the can. Bye-bye.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:57:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Bye-bye.",
+      "tone": "friendly"
+    }
+  ],
+  "highlights": [
+    "To secure a seed round in the current market, founders must treat fundraising as a high-volume sales funnel, typically requiring outreach to 150 investors to yield just two term sheets.",
+    "Startups can build a moat against large language models by focusing on niche feature sets, community-driven \"multiplayer modes,\" and specialized support services that major frontier labs are unlikely to prioritize.",
+    "The capital and time required to reach product-market fit has plummeted from millions of dollars and a year of development to just thousands of dollars and a few weeks thanks to \"vibe coding\" and no-code tools.",
+    "Venture capital sentiment toward hardware has shifted significantly, with investors now viewing physical products as one of the few remaining ways to achieve true customer lock-in and a defensible moat.",
+    "Success in the tech industry often involves a \"sales funnel\" for networking; founders should aim to meet with portfolio founders of their target VCs to build the relationships necessary for a warm introduction."
+  ],
+  "summary": "This transcript features Jason Calacanis and Lon Harris answering community questions regarding the evolving startup landscape, fundraising strategies, and industry reputations. Calacanis emphasizes that early-stage fundraising has become a rigorous sales funnel, advising founders to focus on investor behavior rather than just their words. He notes that the cost and time required to reach product-market fit have plummeted due to \"vibe coding\" and AI, but warns that startups must differentiate themselves from giants like OpenAI by building specialized vertical features, community-driven interfaces, and \"multiplayer\" modes that generic large language models are unlikely to prioritize.\n\nBeyond tactical advice, the discussion explores the personal and ethical dimensions of Silicon Valley. Calacanis offers candid critiques of Mark Zuckerberg and Sam Altman, arguing that their perceived ruthlessness and self-interest have damaged the tech industry's reputation, despite their massive commercial success. He contrasts this with the traditional \"pay-it-forward\" culture of the Bay Area, which he views as a unique strength of the ecosystem. The episode concludes with a shift toward hardware startups—which Calacanis now views as a primary competitive moat—and a broader commentary on modern culture, specifically urging people to prioritize presence and \"living in the moment\" over documenting life for social media.",
+  "description": "This Week In Startups is made possible by:\n\nGrasshopper Bank https://grasshopper.bank/twist\nLinkedIn Jobs https://LinkedIn.com/twist\nNorthwest Registered Agent https://northwestregisteredagent.com/twist\n\nToday’s show:\nJason breaks down the real math behind raising a seed round. Here’s the funnel: contact 150 firms, get 50 first meetings, convert 2o into second meetings, and close 2 term sheets.\nPLUS Jason responds to viewer questions about why hardware is no longer a dirty word for investors, how to differentiate your startup from frontier-model companies like OpenAI, even when they’re in your niche. Plus a pitch for “Founder Community College,” and anecdotes from Lon’s European odyssey.\nThanks for the Questions:\nRichard Corral: CEO of Quanto: https://quanto.co/\nØnProtons on X: https://x.com/0nProtons\nSergeDawg on X: https://x.com/sergedawg\nMahika Golani\nPeridot: https://www.tryperidot.com/\nShawn Sully on X: https://x.com/aroogle\nPrograms and Accelerators Mentioned:\nY Combinator: https://www.ycombinator.com/\nTechstars: https://www.techstars.com/\nAntler: https://www.antler.co/\nPearX: https://pear.vc/pearx/\nSequoia ARC: https://www.sequoiacap.com/arc/\nKauffman Fellows: https://www.kauffmanfellows.org/\nCompanies and Startups Referenced:\nWhoop: https://www.whoop.com/\nKnightscope: https://knightscope.com/\nEight Sleep: https://www.eightsleep.com/\nCafe X: https://www.cafexapp.com/\nMedia Referenced:\nNew Yorker Sam Altman profile: https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted\nOff-Duty Recommendations\nTerra Kaffe Demi compact automatic espresso machine: https://www.terrakaffe.com/products/tk-demi\nOsteria Pastella (Florence, Italy): https://www.osteriapastella.it/\nTimestamps:\n0:00 Inside the TWiST private group chat\n2:47 How to react when an investor says your \"too early.\"\n6:12 The ultimate seed round funnel\n8:10 Jason's new Associate in Training program\n9:31 Grasshopper Bank - Time is money. Don't waste either. Go to https://grasshopper.bank/twist and get an exclusive $500 cash bonus just for opening an account.\n17:50 How have the metrics for early-stage companies changed?\n19:42 LinkedIn Jobs - Hire right, the first time. Post your first job and get $100 off towards your job post at https://LinkedIn.com/twist\n21:56 TWiST Bounties update\n23:05 Competing against frontier labs\n29:25 What signals real investor-founder alignment?\n29:36 Northwest Registered Agent - Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity — Learn more at https://northwestregisteredagent.com/twist\n35:29 A crash course in Bay Area startup culture\n39:37 Automatons-as-a-Service (AaaS)\n41:51 Who in Silicon Valley does Jason really not like?\n49:21 Museum Etiquette with Lon Harris\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+  "duration": 3437,
+  "people": [
+    "Jason Calacanis",
+    "Lon Harris",
+    "This Week",
+    "In Startups",
+    "Grasshopper Bank",
+    "Northwest Registered",
+    "Founder Community",
+    "Richard Corral",
+    "Mahika Golani",
+    "Shawn Sully",
+    "Accelerators Mentioned",
+    "Kauffman Fellows",
+    "Startups Referenced",
+    "Eight Sleep",
+    "Media Referenced",
+    "New Yorker",
+    "Sam Altman",
+    "Duty Recommendations",
+    "Terra Kaffe",
+    "Osteria Pastella",
+    "Bay Area",
+    "Silicon Valley",
+    "Museum Etiquette",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason",
+    "Will Guidara",
+    "Steve Huffman",
+    "Brian Chesky",
+    "Bob Moesta",
+    "Aaron Levie",
+    "Sophia Amoruso",
+    "Reid Hoffman",
+    "Frank Slootman"
+  ],
+  "topics": [
+    "Fundraising strategies and the mechanics of the seed round funnel",
+    "Educational programs for founders and venture capital career paths",
+    "Strategies for startups to differentiate against AI frontier labs",
+    "The evolving viability and moat of hardware startups",
+    "Ethical critiques of prominent Silicon Valley tech leaders"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/W4QD84DAugk/maxresdefault.jpg",
+  "date": "20260529",
+  "youtube_url": "https://www.youtube.com/watch?v=W4QD84DAugk",
+  "youtube_metadata": {
+    "title": "How to Raise a Seed Round in 2026: Ask Jason | E2294",
+    "description": "This Week In Startups is made possible by:\n\nGrasshopper Bank https://grasshopper.bank/twist\nLinkedIn Jobs https://LinkedIn.com/twist\nNorthwest Registered Agent https://northwestregisteredagent.com/twist\n\nToday’s show:\nJason breaks down the real math behind raising a seed round. Here’s the funnel: contact 150 firms, get 50 first meetings, convert 2o into second meetings, and close 2 term sheets.\nPLUS Jason responds to viewer questions about why hardware is no longer a dirty word for investors, how to differentiate your startup from frontier-model companies like OpenAI, even when they’re in your niche. Plus a pitch for “Founder Community College,” and anecdotes from Lon’s European odyssey.\nThanks for the Questions:\nRichard Corral: CEO of Quanto: https://quanto.co/\nØnProtons on X: https://x.com/0nProtons\nSergeDawg on X: https://x.com/sergedawg\nMahika Golani\nPeridot: https://www.tryperidot.com/\nShawn Sully on X: https://x.com/aroogle\nPrograms and Accelerators Mentioned:\nY Combinator: https://www.ycombinator.com/\nTechstars: https://www.techstars.com/\nAntler: https://www.antler.co/\nPearX: https://pear.vc/pearx/\nSequoia ARC: https://www.sequoiacap.com/arc/\nKauffman Fellows: https://www.kauffmanfellows.org/\nCompanies and Startups Referenced:\nWhoop: https://www.whoop.com/\nKnightscope: https://knightscope.com/\nEight Sleep: https://www.eightsleep.com/\nCafe X: https://www.cafexapp.com/\nMedia Referenced:\nNew Yorker Sam Altman profile: https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted\nOff-Duty Recommendations\nTerra Kaffe Demi compact automatic espresso machine: https://www.terrakaffe.com/products/tk-demi\nOsteria Pastella (Florence, Italy): https://www.osteriapastella.it/\nTimestamps:\n0:00 Inside the TWiST private group chat\n2:47 How to react when an investor says your \"too early.\"\n6:12 The ultimate seed round funnel\n8:10 Jason's new Associate in Training program\n9:31 Grasshopper Bank - Time is money. Don't waste either. Go to https://grasshopper.bank/twist and get an exclusive $500 cash bonus just for opening an account.\n17:50 How have the metrics for early-stage companies changed?\n19:42 LinkedIn Jobs - Hire right, the first time. Post your first job and get $100 off towards your job post at https://LinkedIn.com/twist\n21:56 TWiST Bounties update\n23:05 Competing against frontier labs\n29:25 What signals real investor-founder alignment?\n29:36 Northwest Registered Agent - Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity — Learn more at https://northwestregisteredagent.com/twist\n35:29 A crash course in Bay Area startup culture\n39:37 Automatons-as-a-Service (AaaS)\n41:51 Who in Silicon Valley does Jason really not like?\n49:21 Museum Etiquette with Lon Harris\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+    "duration": 3437,
+    "view_count": 4457,
+    "like_count": 112,
+    "channel": "This Week in Startups",
+    "upload_date": "20260529",
+    "thumbnail": "https://i.ytimg.com/vi/W4QD84DAugk/maxresdefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

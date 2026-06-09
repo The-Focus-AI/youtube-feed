@@ -1,0 +1,1816 @@
+{
+  "title": "This Startup Fused Human Brain Cells with Silicon Chips | E2295",
+  "source_url": "https://www.youtube.com/watch?v=wJH_ymNbv30",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "If you ever heard terms like MVP, minimum viable product, or lean startup...",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:00:04",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "the world's first biological data center. When they compared it against their reinforcement learning systems, the neurons we had were 5,000 times more stable efficient.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Has anyone complained that you're tinkering a bit with the edges of humanity?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:00:17",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "The Vatican were worried about this. You do not want to create conscious systems because ethically a conscious system has the ability to suffer and we do not want any suffering to come about from any technology.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:00:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Hello and welcome back to TWiST. Now today we're talking to a company we spoke to in 2022 because I thought they were one of the most interesting startups in the entire world. Called Cortical Labs, they are trying to fuse silicon chips that we all know and love with human neurons, bringing the biological and the synthetic together to create a new type of computer, a biological computer. I was so tickled by the idea I had to talk to them, but since that first conversation, Cortical Labs has built out data centers of its biological computers, which means that we now have real robust capacity to bring humans and computers together. So, to tell us more about what's been going on over in the realm of Cortical Labs, please welcome back to the show, it's my dear friend Hon. Hon, how are you doing?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:13",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Good, thanks. It's great to chat again, Alex. And congratulations, I heard you had a new baby.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:01:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes, that's why I've been extra tired these last four months, but we're powering through through the just the grace of coffee. All right, so Hon, last time we talked, you had just put out your CL1, which was the first kind of like fully contained biological computer with neurons and chips and you were selling them, I think, for something like $35,000 a piece. So before we get deep into the tech, just for the business folks out there, how has that product performed in market?",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:01:45",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "We've kind of exhausted our entire stock of 30 units that we had capped. Um, so that's good and you can work out how much that ended up becoming.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Best part of a million.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:01:55",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Yeah, and, uh, we have actually, so I'm in the US right now partly because A, we're fundraising, but at the same time, I've also, you know, CEO stands for Chief Everything Officer, right? I'm also now the company courier. I just dropped off a unit at Johns Hopkins, uh, with some of the folks there. Uh, I just came from Boston, so Mass General got a unit, another one just got dropped off at UCSF. So now there is about five US institutions with a CL1 device. The other one being Dartmouth, they got an early preview early last year.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:02:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So tell folks what the CL1 is and maybe because you have one with you, show us a little bit for folks on the video version what it looks like.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:02:34",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Yeah, absolutely. So maybe before I show it, like to give a very brief summary, the CL1 is our attempt to build a computing platform that allows researchers and developers to get going with biological computing very easily. Uh, it saves you the effort of building your own hardware, writing your own software, and you just program these things with Python and, you know, they're rack mountable 3U unit systems. Um, I have one here to show. So excuse me, if the video is a bit...",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "bit jerky and this is a CL1. Actually, maybe from the front here you can see what they look like from the front.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It looks like a very long space-age toaster.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:03:11",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Yes, so they're actually very similar to rack-mountable sleds that some of the GPUs come in the same form factor. So this is 3U, so in a server rack cabinet, this will take up about three rows. In a 45U system, we can pack 20 of these units. And we have about 120 so far in six racks in our lab in Australia that we're calling the world's first biological data center. You know, somebody came by and they're like, 'Hey, don't you sell biological computers?' And I was like, 'Yeah.' And they're like, 'Well, what do you call a place with a lot of computers?' I don't know, 'data center?' They're like, 'Well, now you've got a biological data center.' I was like, 'Huh, that's really nifty.'",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:03:54",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "But I'm just going to show you what it actually looks like. So we open up the top, this is the neural chamber. So this is where we load up the compute unit. So neurons go into this chip. There's a life support system that is connected to it. There's a heating element underneath here that keeps it at a nice 37 degrees Celsius, at around 100 Fahrenheit. We close this latch, and think of this as our Neuralink, right? So this is the neural interface. There's a compute unit at the back, and then all of this stuff here is life support. So we build mechanisms to keep the system flowing, to give nutrients to the brain, to remove the waste. So we have pumps here like the heart, we have a feeding and a waste reservoir, so kind of think of it like a stomach and a bladder. These are filtration units like the kidney. We have a gas mixer like the lungs...",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:04:49",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "and also the really interesting thing is you also have your traditional and non-traditional IO units. So we look at the back here, this is USB-C, USB-A, Ethernet, but you also have gas inputs. So filtered room air, CO2, nitrogen, and we have a waste gas outlet here to relieve the pressure. We jokingly call it the fart valve.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:05:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm just laughing because we're talking about, you know, rack mounting and how much space it takes up in a server rack, and then you're like, 'And here are the lungs, and here's where it expels waste.' It's such an interesting combination of things that I understand but never see together.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:05:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now, how many neurons can you pack into a CL1, and then in compute-friendly terms, how much power is that that you bring to bear?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:05:40",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Yeah, so in a CL1, you can go all the way up to a million, two million neurons if you so wish. People grow organoids on these things and they have several million neurons. For the cortical cloud and the offerings that we have, we go down to about 200,000 neurons, A, because that's a number that, you know, we can grow pretty easily and keep them alive.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "quite well, uh, makes it commercially viable, but also we've found that you can actually get some learning and training with that. So—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So, I want to make an analogy here. Because I think that everyone's very familiar with the idea of parameters in an—in an LLM. You know, like, um, 105B would be 105 billion parameters. If it's mixture of experts, yes, fewer than 105 billion would be activated, blah, blah, blah, but we kind of get that number. So, 200,000 neurons, a million neurons, same number to me. I have no idea if that's a lot, not very many, so, how many neurons do I have upstairs? And, um, how many do you need to actually have the CL1 function as a biological computer?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:06:38",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Yeah, I can't remember exactly the number, but I think it's like 100 billion neurons that you have in—in your brain. So, you know, we have that, and then a ton more, like trillions of synapses. Um, so, the closest thing that, you know, you can analogize what we have here is maybe a cockroach. Or, or, you know, a fly kind of thing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So, that actually doesn't—tell me why I'm wrong here, Hon, but, um, cockroach is not famous for their intelligence. Famous for their durability, but I mean, not—not being super smart. But when you combine that number of neurons with a—a—a chip, a silicon chip, um, what—what's like the—the multiplication factor that we get from bringing those two things together?",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Yep. Actually, so cockroaches are actually pretty smart. Uh, along with apologies with bees and flies. You—you—you know, you—you're not wrong in some cases that they're not intelligent in the way we view like human intelligence. Like, they're not going to solve calculus, right? But what they do solve really well is, have you ever tried killing a fly? They're really hard to kill.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:07:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So hard! They're so quick.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:07:45",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "They're so quick, and they're so agile, they are—they almost like predict your actions ahead of time. Um, and so, you know, this whole thing, and I think, you know, the industry needs to get this terminology right. We have the super intelligence. Like, you know, GPT-whatever, 5.5 is super intelligent. Is it generally intelligent? No, right? Because, you know, the—what is it? Steve Wozniak has the best, like, test for AGI. Can you walk into a stranger's kitchen and make yourself a cup of coffee? Everything is different, everything is new, you'll have to experiment with it, right? You've never seen it before. We don't have that yet. So, I would say that, um, biology, um, even very simple organisms like, you know, a fly has generalized intelligence... some people not machine has. Um, so, uh, you know, we're hoping to exploit those properties in even very simple systems, and you know, maybe we can get a lot of stuff done there without having to go into the realms of, you know, human intelligence and all the baggage that comes with it, like consciousness and so forth.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:08:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So, when I—when I think about biological computing, I presume we're talking about a lot of use cases in drug testing and drug discovery, you know, biosimilars, blah, blah, blah, all the stuff that's kind of flesh and blood. But do you foresee a future in which the probably not the CL1, maybe the CL3, uh, manages to bring sil—",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "...silicon and neurons together in a way that creates a computer that is better than today's GPUs and TPUs and so forth at certain types of calculations that we use in the technology world versus the biology world?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:12",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Founder scale faster on Deel. That's the deal. You can grow your company without borders and you can set up payroll for any country in minutes. Hire anyone anywhere like a modern startup or large company does. And Deel is going to get all the visas handled fast so you can get back to building. There's a great war that's going on right now, and you need people with superpowers for your startup to be competitive, to beat your competitors, to get your products to market. But any time you try to grow your team with overseas hires, oh my lord, you've got to reinvent the wheel and you've got to navigate a tangled web of international laws, regulations—you can't get these things wrong, folks. You want to onboard new staffers in other countries? You want to get them set up on your network, nice and secure, IT access, all that good stuff? You want to manage their benefits? Trust me, this is all a nightmare unless you partner with Deel. They are the people stack for startups. They're going to take care of all the onboarding, payroll, HR, IT, benefits—everything you need quickly in one place, done perfectly. So visit deel.com/twist. That's D-E-E-L.com/twist.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:10:16",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Yeah, actually there is one that is already like proven to be better than CPUs or GPUs and that's in reinforcement learning. So this is some very novel work, it's still getting written up so I don't really want to jinx it, but we're hoping to get it published later this year at NeurIPS... which you know hopefully is also happening down in my part of the world in in Sydney. And, you know, what we've discovered is doing some work with a bit of a really strong research partner, the question was, can these neurons exhibit goal-seeking behavior or pathfinding, right? And the answer is yes, but not only was the answer yes, which you know shocked us, the secondary thing that they discovered was when they compared it against their reinforcement learning systems, their benchmark the GPU-based systems, the neurons we had were 5,000 times more cellular efficient than their GPU-based systems. What that means is that for every step a biological system is doing, it takes 5,000 times, 5,000 steps more to do on a GPU system. The saving grace with GPU reinforcement learning is that you can just accelerate time, so you just run time 5,000 times faster than the real world.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:29",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "The caveat with that is you can't accelerate time if you're a robot. You're operating at the same speed like everyone else in the physical world.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:11:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So if biological computing is good at reinforcement learning, which as I think everyone listening to this knows is an enormous part of improving AI models today, you could end up pretty far outside of the realm of the biology side of industry. That's very interesting. But I feel like I've taken us down the wrong path. Let's back up and talk about—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "...what you guys have built. So you've built a biological data center, you have 120 units in Melbourne, and you're going to do one in Singapore next, which I believe can get even bigger?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:12:10",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Yes, exactly. So we're working with a data center company called Day1. Um, you know, they've partnered with us because A, they liked the technology for several reasons. A, because it is um an alternative way to do compute that doesn't affect their energy budget. So this way they can say, you know, we have a data center operating at a very tight window, specified by the Singapore government of 200 megawatts. They're going to provide the same chips like everyone else, but on top of that, they're going to provide our compute, which is not affecting any of the energy budget because they don't have to do any special cooling. And one unit only uses about 30 watts of energy, so a rack is—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Which is basically zero for this conversation.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:54",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Correct. So, you know, they're getting more for not much, you know, in terms of costs. So um that is one of the the reasons why they've partnered with us. But secondarily as well, and I think this is something that is a little bit mind-breaking as well, they've built not just the space to house a thousand CR1 units, but next to it a laboratory for us to grow the cells for the compute on site.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, so you don't have to ship in your stem cell-based, I point out we're not killing people here to steal their brains, stem cell-based neurons, you can just make them, grow them, no?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:13:31",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Raise them? Make them, grow them, same thing, yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:13:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. I'm sorry, it's my usual words don't work as well when we translate them over to here. I'm sure you've already gone through this, but for me it's still novel. Um, so what does that save in terms of like operating costs for you guys to not have to stick them in a cooler and fly them?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:46",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Um, a tremendous amount. But it also means that there is no supply chain constraint. It it it decouples your data center from not just being a place where you just buy from a central vendor and you wait for it to come in and you, you know, you deploy your chips, to one where you're also manufacturing your chips on site. So you kind of decentralize the entire model where, you know, every data center is self-sufficient. Every data center technically is not reliant on one vendor from one country.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:14:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. Remind me how long the neurons live before they need to be replaced?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:14:24",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Um, so neurons can actually live a very long time if you keep them um in a, you know, well-kept, so to speak. Um, the the thing that does require replenishing are the tube sets. And the main the main culprit for that is um are these filtration units here, let me see.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "If you're on the audio version, he's pointing at—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:14:44",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "I'm pointing at these cartridges here. Think of them a bit like kidneys and what happens is that over time, um these filtration units um clog up with large protein growth factors and they kind of result in a bit like a kidney failure situation. So yeah, we just swap them out and then we go.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "...in another four to six months.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okay, so, so really then, it's, uh, what, what do you feed the neurons? I was about to say sugar water as a joke, but I think it might actually be a little bit right.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:15:08",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "No, it actually is pretty much sugar water.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:10",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So basically, you've made a, a biological system that keeps a small number, compared to our brains, of neurons alive that are connected to these chips that do a lot of cool things.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:15:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Here's my question though. As time goes on, do you think that as chips get smarter, we're going to need more neurons to interface with them? Or is this amount of biological compute on top of a chip enough, and we'll get gains just from improving the chip component of this? I'm trying to kind of figure out, like, putting some dots on the chart for where we're going.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:43",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Yeah, so it's always a case of, like, push and pull, right? So for instance, um, if, if let's say we referred back to GPUs, right? We had way more GPUs than what we knew what to do with them before we got to the LLMs. Um, and the, the breakthrough was the algorithm, um, which, you know, was a breakthrough success and we were like, oh, we need more, more processing power.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:16:10",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "And so there's always this, like, push and pull tension between, are the algorithms there yet? Or are the, you know, is it a hardware limitation? Right now, we, we see this as an algorithm's limitation, because the bottleneck is how do you, how do you best represent digital information that is all on the internet and so forth, with analog systems, right, which is you and I?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:16:25",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "So, um, that, that I think is, is still being worked on. You know, you have really smart people in Neuralink and Synchron working on that for the BCI side.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:35",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "We're kind of working on it as well, but we have an additional challenge, which we have to write information directly into the neurons. So, um, you know, to, to answer your question, we, we don't think we've saturated the system yet, so we have enough capacity with our current setup. But who knows? Maybe somebody cracks another new algorithm and then we're like, okay, we gotta get more cells going on the system.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:16:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm just really excited about what you're working on, because when we think about the systems we're using to make artificial intelligence smarter, we're throwing the equivalent of bodies at it. We're throwing more GPUs, the Bitter Lesson, Jevons Paradox, blah, blah, blah, blah, blah.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:17:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But we're working on systems that are so fundamentally much more power-hungry, less efficient, and less attuned to the problems we're trying to solve than our brains, the things we already have with us. And so to me, it, it just seems very logical that as the chips get better and as we make, get better algorithms to make the neurons function as we need them to, we should be able to have two different intelligence curves working in, in, in synchronized fashion and we should get much faster gains.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:17:38",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And this is when religion comes into it.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:17:40",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So, uh, as background, Hon, I was raised, uh, in a very conservative Christian church. And so growing up in the 90s, I heard a lot about stem cells and cloning, and a lot of just what I would call fear-mongering. I'm now a non-religious science fiction nerd. So I'm pretty much your biggest fan.",
+      "tone": "sincere"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But I'm a little worried about how we're going to tell people that we're fusing neurons with computers because I think you've now taken this from proof of concept when you guys played Pong to early commercial with the CL1 to playing Doom recently. That was cool. To now building out data centers in an international format. So this is coming to market. Now we can talk about this sort of thing. Has anyone, the Pope or similar, complained that you're tinkering a bit with the edges of humanity and is anyone worried?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:18:31",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Actually, the Vatican were worried about this, but fortunately, Brent, my CSO, has done an excellent job, you know, engaging with bioethicists and actually, you know, being at the forefront of this, right? And so I think, you know, because of the space that we're working in and the fact that, you know, there's a lot of ethics that need to go into it. Even just doing research work with, you know, any biomedical aspect to it requires an ethics board. We're very attuned to these kinds of potential criticisms, right? So we try to engage them proactively.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:07",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "If you're growing a startup or a small business, you can't sleep on incoming calls, even if they come in after hours or on the weekends. That's some of your best customers calling you when they need you. That's why today's episode is brought to you by Quo, Q-U-O. The smarter way to run your business communications. Quo is the number one top-rated business phone system on G2 and it's trusted by more than 90,000 businesses. They're going to bring all of your calls, texts, and contacts together in a shared collaborative space. That means your entire team is going to use one shared number if that's what you choose and there's no more missed calls and no more disconnected conversations. I've been using this product for well over five years across three different business units. It's perfect, it's affordable, it's feature-rich, and the team is so sharp. They keep releasing new features that I didn't even know I needed. Money is on the line, always say hello with Quo. Try Quo for free plus get 20% off your first six months when you go to quo.com/twist. That's Q-U-O.com/twist.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:20:11",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "And I think, you know, firstly, the most important thing that we're trying to work on right now is to get everybody in this space plus the consciousness space to, you know, come together and actually agree on a shared nomenclature, right? Because if you cannot agree on the same thing that we are all studying on, then we have no chance of actually making any progress and all we get is just a lot of fear with not much understanding. So we're trying to do that. And also, yeah, I think it was actually Brett was in discussion with the Vatican who wanted to find out, you know, what's going on here and was there any religious and ethical, like, issues. And, you know, fortunately, they actually agreed that what we were doing was alright and it was actually, you know, fine. Yeah. Because because ultimately, the main question that we all we need to have is, you know, is there a harmonization part of the plan and also...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "You know, the principle of double doctrine is there actually a net good that can be come from this technology versus a net negative. And so that's the reason why, you know, you started out with the traditional drug discovery, disease modeling and stuff because that's still a very important part of the work.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:15",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "That is the primary use case for all these labs purchasing these devices which is, you know, so, you know, in Mass General, it's a dementia- Alzheimer's dementia researcher, at Hopkins, they're looking at toxicology and alternatives to animal testing, at UCSF, they're looking at, I think they're looking at movement disorders and a whole bunch of other like really-",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, that's nice. Yeah. These are all by the way, this is why this technology even in its current form is freaking awesome. You just listed three major medical centers in the US that are using this technology now to make our lives better.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:21:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So like this- the dangers that are hypothetical down the road that we're touching on are not meant to undercut the current usefulness and commercial application and research application of this product. I'm just having fun. Keep going.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:22:00",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Yeah, thank you. And so, you know, that- that- that is- it's all happening right now. The compute side of it is by all means the smallest but the newest, the one that's also most fraught with risk because you never know what people are going to build. So this is something that we're trying to like keep a hold of.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:22:14",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "And I think internally at the company this is really important to understand this whole this discussion of consciousness because I think we've drawn a red line for us which you do not cross which is- where is this line and we gotta figure out where this is, is consciousness.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:22:27",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "You do not want to create conscious systems because ethically a conscious system has the ability to suffer and we do not want any suffering to come about from any technology. So that is the stance that we take.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:22:39",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "We try to do as much as we can when we have the cloud, we can monitor things, but you know once these things go out of the, you know, into the into the real world, we don't really know what's going on. But you know fortunately most of our users actually 90% of all all our purchases have all come from academic R&D institutions that you know we trust that they they do the right thing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But the- the cloud that you guys have built, the data center in Melbourne or Melbourne or whatever, and then Singapore, um, you know, we're going to have if it's 200,000 neurons a piece and we're going to have I think it's up to a thousand in Singapore, you can do the math, it's quite a lot.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:23:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Um, the reason why it doesn't scare me is it's all kind of like cut up into little pieces like each one has X number of neurons, but there is the science fiction you know question of if you have a data center full of these and they can interact, does that change the math?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:23:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But the good news is that I think we're pretty far away from having so many biological computers in the world all plugged in together that we have to think about that. So getting back to practical applications here, why go the cloud route as opposed to just selling the devices? Because clearly if you sold out your first run, plenty of demand.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:23:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Um, why the- yeah, so cloud. I'm just curious about why that was the right commercial approach to the market.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:23:51",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Ultimately what we really want to do at Cortical Labs is to, you know, hate the word democratize, but it is democratize the technology by by reducing the accessibility barrier to biological computing, right?",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Because, you know, ultimately, I always go back to NVIDIA, right? Because ultimately, the AI that we have today is actually an accident. It was completely a fluke that it happened, right? Because, you know, everyone's like, yeah, Jensen was so smart, he's so brilliant about this. I was like, yeah, if he was so brilliant, why did it take seven years from when CUDA was made to when Alex Krizhevsky made AlexNet, right? It was a sheer serendipitous moment where somebody was Jeff Hinton's grad student who was solving for image recognition technology who had a GPU and you had a program CUDA.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I like to think we would have had some other serendipitous meeting point along the way, but that is, you know, how it happened. And it does feel a little tenuous, a little fragile. And you look back, yeah.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:24:43",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Exactly, right. And so, you know, what what Jensen did, you know, I think brilliantly at the start was he made CUDA free. He made it so that any GPU, even the the crappiest gaming GPU, could also run CUDA. And so the accessibility barrier was really low, so anyone could get into it. So that's what we're trying to do here with with the cloud system, because, you know, unfortunately if you have a DishBrain, you really can't do anything with this unless you have a lab and you can grow cells and you, um, you know, can keep them alive.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:25:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right, so you need to have a person who's doing the kidney replacement and the feeding and the waste extraction and so forth.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:25:19",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Exactly, exactly.",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "00:25:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Got it.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:25:32",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "But what if you don't have any of that, but you have a great idea you want to experiment with? So the idea of the cloud was born, where we said, let's just give it to people with ideas so they can muck around with it. And that's actually the story of Doom. We actually didn't build Doom. The Doom was actually a student developer who participated in a hackathon at Stanford, no biology background, used our API SDK, and he built something that was really cool. And so we decided to, you know, help him tell the story and word got around and I think he's now been accepted into a very prestigious incubator program. I shall now not name which.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:25:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Uh, could it—could it be called, uh, Kai-Combinator? Or rhyme with that?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:26:08",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Can neither confirm nor deny.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:26:09",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Got it, got it. So, so last time we talked, Hon, uh, we were talking about the first application of your technology to a video game which was Pong. Uh, and for the young people, Pong is a game when you have two paddles on either side of the screen, they go up and down and knock a ball back and forth. Yes, we used to think that was fun. It still is, frankly. Um, but you told me that when you—when you built the system, you had to kind of like create a reward or punishment mechanism—I forget which—to give it the incentives to learn how to play correctly, right?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:26:39",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Correct, yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:40",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "In Pong, not a lot of variables. In Doom, many more. So do you know how they managed to set up the reward or punishment mechanisms to actually interact with a game of that complexity? Because I'm curious if it was hard or not.",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:26:54",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Yeah. So, uh, pretty much it's also the same. They're using auditory stimulus versus...",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "...disordered stimulus as the reward and punishment signal, um, there were a few more variables and, and you know, honestly it's kind of funny because I think, um, they didn't, they didn't disincentivize or punish it for wasting ammo because there was no ammo restrictions. And so essentially what it did was it figured out that if it just spammed the shoot button and just spin around in a circle, it would just win. So, um, we, it's kind of funny because that's what happens in actual reinforcement learning systems as well. So when we changed that, um, you know, it actually was punished for wasting ammo and all that stuff, and it started to learn and actually started to have some interesting gameplay from that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I just realized why it's very important that you don't create conscious systems because they can feel pain, because if you're using disordered inputs as a punishment mechanism, it's a little bit harsh, everybody, we're working on the terms. But you wouldn't want to do that to a conscious system.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:27:57",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Correct, exactly.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:27:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, okay. That makes, I've connected that and that makes a lot more sense. But here's the takeaway. I mean, okay, look, Doom's great. If you haven't played Doom 3, do it. You owe yourself to have that fun. Um, but if a kid, and I say that with love, kid, can build this with your API, to me it shows that the technology is not that hard to bring to real-world application, hence the cloud. And that brings me to my last question, which is, how many people, how many customers can you serve with 120 CL-1s in a data center? One? 10,000? I literally have no idea what the range is.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:28:34",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Adding a new member to your team is a crucial decision and you don't want to rush into a hiring situation that you will regret. But if you're a busy founder, you also don't want to spend a ton of time in the trenches looking for that perfect candidate. Instead, you need a partner, and you need a trusted partner, and LinkedIn Hiring Pro is that partner. How do I know this? Because I use LinkedIn Hiring Pro. You want a real-world testimonial? Alright, here you go. We recently hired a new customer success manager. They handle all the advertising accounts here on This Week in Startups, and they ensure that we're keeping all of our wonderful partners happy. LinkedIn helped us connect with an amazing candidate right here in Austin and he had exactly the combination of experience we were looking for. It's magic, it's alchemy, it's everything for me to find a great team member. So, hire right the first time. Get started by posting your job for free at linkedin.com/twist. Terms and conditions apply. That's linkedin.com/twist.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:29:34",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "So, so, um, we have 120 that we've deployed. Unfortunately, you know, there has been some teething with the biology, so while we do have 120, only about 20 or 30 users are on the cloud at the moment. Actually, there are 20 users. We have another 10 more that we have to bring online, but that's also because, you know, there's a whole conveyor belt-like system of getting cells grown and all that stuff. Um, and it's one of those things where unfortunately, because it takes some time for it to grow...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "What we see now is the result of decisions made two months ago kind of thing. So they only starting to come online, we've had a slow sort of start. But yeah, a lot of... sorry, no, people have started to come on board and the waiting queue is getting smaller. Um, so yeah, we, you know, we have that and we actually have a couple of corporates and partners coming on board to do some experimental work.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But, so, when Doom is running on your biological computers, is that one CL1? Is that five? Like, how much does it take?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:30:39",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "One. It was just one. So we haven't come up with the chaining of the systems yet. That's coming in I think two or three...",
+      "tone": "calm"
+    },
+    {
+      "timestamp": "00:30:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh okay, so each one's still a discrete box. They're not... okay, that... then my question was actually relatively silly, then you could serve 120 customers at once.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:30:48",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Yeah, exactly. I mean, there... that's fine, because, you know, this is what we're doing at the moment. There has been some internal research work about, you know, where we... we're doing PDMS microfluidic wells so we can actually segment out the surface of the chip and you know, rather than you get all 60, maybe you only need 16. And that way, I don't know if you're familiar with like VMware, maybe you can get a hyper-v... like a virtual machine with multiple people running the same thing. So that way we can increase yield and stuff.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:31:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So PDMS is a polydimethylsiloxane, yep, which is also known as a dimethicone. What... what are we talking about?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:31:32",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "It's a material. It's like a gel-type of material that you can make microfluidic devices with. Um, so think of it like a... like a well. Actually, I'll show you what it looks like. So...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:31:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Show me. Because and then define microfluidics for me because again, I nod my head like I understand, but we are outside of my comfort zone. This is not SaaS economics, so you're going to have to help me along.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:31:57",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Okay, so I'm going to show you this. So this is a microfluidic device. So there are probably several thousand neurons in one well, um, and they are now segmented into these little sections and we actually have channels that we can turn on and turn off. Um, so we can actually control this more like a circuit now.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:32:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And what we're looking at here, if you didn't know what it was, you would think these were top-down views of water storage tanks with pumps and pipes coming into them. But instead, each one of these little octagons...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:32:26",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Octagons.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:32:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Each one of these octagons has a bunch of neurons in it, and the microfluidics allows you to feed and then also transfer information between them?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:32:34",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Yeah, the microfluidics are these channels and what... what they do is they constrain the growth of the axon, the long part of the neurons. So they can only communicate with their nearest neighbors or we can, you know, block them off and say you can only communicate with your east-west neighbor or your north-south... So you have a lot more like circuitry-like control over that.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:32:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right, and then you could in theory segregate to have more than one person using the same computer because you can essentially not let the axons get too busy.",
+      "tone": "realizing"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Sharing information, got it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:01",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Right. So this is kind of like a chiplet model that we've been experimenting with. So we can say, alright, you can have this one here, you'll have one, two, three, three, four, four electrodes to work from and if your workload is pretty low, maybe this is just good enough and, you know, you can actually have if you want get two and then you can have them sort of network up like this and then we can, you know, share the instance and stuff like that. So there's a lot of things that we're working on internally to try to figure out, hey, can we increase yield, can we get more interesting like, you know, learning some of that kind of stuff.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So how much are you raising? What's your target?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:33:33",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Yeah, we're raising... Oh, and actually one more thing. We're raising 30, but I also wanted to show you guys this. So, so this is the Cortical Cloud.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:33:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Ah. Yeah, if you're on the audio version, it looks like a standard developer backend, which is a compliment.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:33:53",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Yes. And then you just hit the, the instance that you've acquired. Um, and there you go. I'm in New York right now, my lab is in Melbourne, and I am live streaming neural activity from a cell culture that my team have assigned me for demo purposes.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What is it doing? What are these dots that I'm seeing?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:34:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "If you're on the audio version, imagine, uh, you're looking out the window of a spaceship and you're seeing stars go by, that's what it looks like in slow-mo.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:34:21",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Yep. So, the, the window with stars, this is what we call raster plot. So as we go down you can see the channels are like increasing in number and if you look on the right side, that's the topological mapping of it. So that's the surface of the chip. And so, every time there's a, a spike or an action potential, we're marking it on this, um, grid here. And we're also marking on this. So you can actually see there's like a temporal, um, correlation, you can see bursting activity, you can see synchrony on this view so like you can see this cluster here, there's another cluster there and, um, you know, after a while you can watch this... Oh look, they're getting really active here. Um, you can just watch this and sort of like figure out what's going on. Um, and then you can also look at the activity views, so here we can actually see the raw waveform. So this is kind of the same thing that a Neuralink would be picking up and, you know, if we wanted to like, you know, give them a bit of a poke, we can just say, alright, I'm going to poke the neurons in this region here and I can click and I've delivered a stimulus across and then that wakes them up a bit, um, going on.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:35:18",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "It's really good it's not conscious, otherwise that would be kind of rude like 'I was sleeping!'",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:35:22",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "I know, yeah, how rude. Now, had a good dream there. We can see like the little spike waveforms, we can actually see the, you know, what the shape of them are, so you can verify that they're actually really like, um, action potential spikes. Um, and the, the cool thing here is that if you're a developer, by the way, I'm on Team Human here so we still need developers to think of really cool applications, because LLMs are not going to solve this for us. Um, you write all the application code in, in Python and, um, yeah they're all in Jupyter Notebooks, so you, you specify the what programmers actually do with CL1 is, uh, think of them as mini architects for mini matrices, right? So you're building...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "The matrix and the neurons are going to be put in. You specify the parameters of the game, the reward and punishments, the objective functions and so forth, and you just let them, you know, get connected to it. And so yeah, this is how you can do it. Documentation's on docs.corticallabs.com. There's an SDK you can pip install and off you go.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You know, it's one of the best parts about talking to founders that I get to do on this is just straight up getting to see the future. Usually it feels like I'm looking about 12 feet out. This is one of those chats which I feel like I'm looking 12 years out. Like there's enough optimization, expansion, programming languages, how to teach these things, how... like there's so much here that isn't done yet, you know? I feel like you have like... well, you have your life's work ahead of you. This is going to be... this is going to be a lot.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:36:44",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Oh yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:36:45",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I got to let you go. Come back on in six months and tell us how the cloud's going and how Singapore's going because apparently we're just going to have you on all the time. But for folks who want to learn more, what's the URL and is there a job you want to shout out to the audience in case the right person is tuned in?",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:37:06",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Yes, so check us out at corticallabs.com. The cloud is at cloud.corticallabs.com. Documentation, docs.corticallabs.com. I'm on Twitter as well, DR1337. And also, we are looking for talented developers. Stay tuned to our Twitter feed. There may be a hackathon coming up at MIT soon.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:37:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Are you going to go to that?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:37:33",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Yeah, probably will have to go for that one.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:37:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So I only live like half an hour away from that area. I wonder if I could maybe I can swing by. That'd be fun. I'd love to see that.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:37:41",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Absolutely. Yeah, for sure. Yeah.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:37:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right. So stay tuned and yeah, more developers, channeling the inner Steve Ballmer: Developers, developers, developers, developers! At least you're not wearing a sweaty collared shirt. Hon, thank you so much for coming back to the show. We'll see you again soon.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:37:53",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Thank you.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:37:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We're talking about drones. No, not drones that sit on the water or go beneath the water or just fly up in the sky carrying a single hand grenade. No, today we're going to talk about very large drones, mostly outside of the battlefield context. So I rang up my dear friend Michael Norcia from Pyka to come on and tell us about why drones are good for agriculture, why they're good for near-term cargo transport, and why they may soon be dropping couches from the sky onto your head as long as you're within a radius of 50 meters. Please welcome to the show, it's Michael from Pyka. How you doing?",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:38:24",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Awesome. Thank you for having me. Doing well.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:38:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So I'm really excited about your company because I thought of you guys as the company that makes large drones that are powered by batteries that sprays crops. But as it turns out, you guys have really broadened out in the last couple of years and do quite a lot more. But Michael, to get to that point, I feel like we should go back to the future. So take me back to the start of the company, the initial vision and how you guys literally quite got off the ground.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:38:49",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, great question. So honestly, the start of the story begins when I was like four years old. I've been just incredibly passionate about aviation my entire life. So I started, you know, with paper airplanes, glider...",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "I was about 4, rubber band powered airplanes, little electric planes, pretty much obsessively built aircraft throughout my childhood. Ended up studying physics and then I got to work on a number of different eVTOL projects in the Bay Area, three or four of them actually, so mostly passenger carrying vertical takeoff and landing air taxi concepts. Yep. Super fun, like, you know, really hard technical challenges. But it was clear this was like almost 10 years ago, there was just no way we were going to certify those aircraft for commercial use for another, like, realistically two decades. And that took the wind out my sails, so decided to leave to start Pyka and yeah, that was, that was now almost 10 years ago, so it's a long journey.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:39:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "When was the first flight and how far have you guys gone in terms of, like, commercial penetration of the agricultural sector with your drone that can handle crop spraying? 'Cause I'm curious if you've managed to gain a material market share in that industry.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:39:54",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah. So first flight was, uh, actually like a week before Demo Day. We went through Y Combinator. And so we, it was a wild time. Uh, we spent one month designing a sort of 600-pound, what would be about a two-passenger autonomous aircraft. Uh, we built it in two months, actually a little under two months, and flew it on like week 11 of the whole program a week before Demo Day. Uh, so that was awesome. And it actually flew itself, it took off and landed running our own software. Um, you know, great testament to the realities of hardware. Like, we had a flying prototype autonomous big UAV 11 weeks in. That was, I think, literally like 1% of the work that we've done now. So the other 99% has been going from, you know, prototype to now a, like, widely deployed aircraft that is operating with customers literally seven hours, sorry, seven days per week. Uh, you know, some uh, customers are doing 12 to 13 hour shifts. Um, so yeah, where we are today, um, believe it or not, we're actually the only company on earth that I'm aware of that has deployed a Group 4 UAS to commercial customers at scale. And interestingly, this is happening in the like rural jungles of Brazil. Um, that is the only place on earth that big drones like this are being flown commercially.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:41:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's weird. Talk to me about Group 4. I don't think that's a particularly well-known metric outside of the UAS space.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:41:30",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, so uh, it's a more like military classification of drones. It's basically drones that are bigger than 1,320 pounds. Um, so you know, things like the MQ-9 Reaper, that's the most common Group 4 UAS.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:41:40",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right. Now, you said you'd only done 1% of the work when you'd gone from no plane or no big drone to having a big drone that can fly. A lot of people out there that watch this or listen to this are software founders, and they're probably familiar with if you code up the feature, that does not mean product-market fit, it doesn't mean the sales cycle is over. There's still a lot of work to be done once you have some code. But for folks outside the hardware space, tell them why it was...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's only 1% of the work because from the outside going from no plane to plane sounds like you made a lot of progress.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:42:05",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, totally. So, I mean the thing with our products are a blend of hardware and software. And so really like the last nine years have been this just steady march of maturing both the hardware and software in parallel. The hardware I think is the particularly difficult one to mature quickly. So that first aircraft, you know, couldn't actually complete an interesting customer mission. It didn't have the features it needed to spray a crop, it couldn't really move cargo even. So there was a lot of like work there. But, you know, I think the most interesting thing really is actually what's been happening in the last three or four years for us with commercial deployments with customers. So, you know, a prototype can be operated by n-number of engineers, it can be operated by your entire company if need be. You know, your uptime requirements are non-existent. If you fly for one hour in one week, you'll be like, hell yeah, we got an awesome video, that's all we need.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:43:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Put it on YouTube immediately we're raising the next round.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:43:08",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Exactly. With customers it's completely different. You know, our customers are very, very upset if the aircraft is down for more than 24 hours. And these customers exist in like extremely remote regions of the world. Like they are literally in some cases a six-hour drive from the nearest city. Right. And so getting to that sort of level of uptime takes an extraordinary amount of time and effort. So it's, you know, deploying multiple aircraft with customers, flying them, learning, retrofitting, fixing, re-engineering over and over and over again until you achieve, you know, I think the equivalent of product-market fit is a tool that a customer can actually rely on.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:43:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, yeah, product reliability- market product reliability fit maybe we could call it.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:43:57",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, exactly.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:43:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Why are we not using more of your ag drones here in the states? You talked about, you know, Latin America, remote regions. I know that agriculture is different across different areas based on what we're growing and seasons and so forth. But, you know, I've, I've laid drip tape on a farm. I've driven large pieces of equipment. And to me, like going above the crops here would make tons of sense. And your system seems to be very robust and it's got a good spray width and why can't I use this in Nebraska or why aren't people?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:44:30",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, yeah, so it's coming. It's coming fast. So the things that drew us to Latin America were twofold. One is regulatory. Um, so Brazil actually deregulated agricultural drones about two years ago, which was very convenient for us. Um, we do have commercial approval to operate aircraft here in the United States. We actually have the largest drone approved for commercial use by the FAA, but it has some cumbersome limitations. We can only fly the drone about four kilometers away from where it took off and landed from, which is not commercially viable today.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:44:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, that's not, that's like, that's...",
+      "tone": "disappointed"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It makes sense. Why?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:02",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "It has to do with, like, line of sight to the vehicle and—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:45:06",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, Zipline told me about this, that if you want to fly outside of line of sight, there's another entire set of regulations on top of that. But it works in Brazil, right? So, why?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:45:12",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "It does, yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Is the air different in Brazil compared to the United States? Does something change to navigation and computing when you cross the border?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:45:22",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Actually, it's a totally diff— No, no, it's not. Yeah, so in Brazil we're operating typically anywhere from 5 to 15 kilometers from where we took off and landed from.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:45:30",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "So, I mean, the good news is we have data about this. Like, no one has ever done an operation like this before. And so the FAA understandably is sort of apprehensive about what that looks like. Um, we've been working with them over the last year to actually remove that limitation and expand it to more like what we're doing in Brazil, making really good progress on that. So like I said, we're coming to the US. We do have one customer already here, who's— who has an aircraft, but we're going to have far more in the coming year.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:45:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Alright, so I think this is good then to talk about fuel because it's going to come up when we go over to drop-ship in a minute. You currently make mostly electric drones. And I know that when you sell the ag-drone, you send it with multiple sets of batteries so you can kind of hot-swap them and move them in and out. But if I'm six hours from a town, what I probably don't have is as good of access to the grid. So to me, it's lovely that I don't have to cart fuel in a truck up some mountain roads, but I'm curious about just recharging these damn things out in the woods or mountains.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:46:25",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah. Yeah, so farms have electricity. Like, uh, you know, some farms are pivot irrigated, for example. They have these giant, like, circular pivots that go around, big water pumps, blah, blah, blah. Um, so the farm will always have electricity. Um, the question is whether they want to run the electricity from the sort of center point to the actual runway. Um, and I would say half of the customers that we have today do that. The other half use a diesel generator.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:46:55",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Um, but what's really remarkable, so the— the kind of competition for our aircraft is a vehicle called the Air Tractor. Um, it's a— it's a big, you know, roughly 8,000-pound vehicle. Um, it burns roughly 55 gallons of jet fuel per hour.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:47:09",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Which is not small at today's prices.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:47:11",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "No, yeah, it's a lot. Um, our— the Pelican in the worst case, if you're charging it off of a diesel generator, is about two gallons per hour.",
+      "tone": "factual"
+    },
+    {
+      "timestamp": "00:47:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That's a lot better. Even if you're doing dirty charging, as you might call it, it's still much more efficient. Okay. Now, I know you guys say on the site that the current ag-drone starts at, if memory serves, $550,000. Um, as far as farm equipment goes, that's not super crazy, but it's also not that cheap. So I'm curious about the— the ROI here and kind of like time to— to repay the purchase cost. Because the way that I think about it, more efficient flight, uh, probably need fewer human pilots because it's autonomous and you're using electricity and blah blah blah. So I presume there's some savings baked into this. What is the time to— uh, recovery for people that are changing over to this type of ag work?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, that's a really good question. So it's, you know, depends highly on how heavily you utilize the vehicle. Um so that's sort of one other benefit of Brazil actually is they're just crazy about the way they do agriculture. They have multiple seasons back to back and they just have an intense culture of like work. Uh so you know, we have customers who, one of our newest customers planning on running three shifts with the Pelican. And so the thing at most could operate literally 24 hours in one day.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:48:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "How comfortable would that make you as the guy who has to take the phone call if it goes down while it's working 24 hours a day? Because that sounds like a maintenance nightmare, but maybe I'm overestimating.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:48:42",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "It's intense, but I mean we're already, we have customers doing 12 hours a day right now. So the difference between 12 and 24 is, it's not that big.",
+      "tone": "reassuring"
+    },
+    {
+      "timestamp": "00:48:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "In time are we going to see like smaller farmers be able to do ride-share equivalent of rental for these things to handle their crops? Because I don't think everyone's going to need their own personally.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:49:04",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, correct. Yeah, so in the US for example, you would need to have a farm that is uh almost 20,000 acres in order to utilize, to fully utilize the aircraft. And that's huge. That is a by US standards very, very big. By Brazil standards that's actually like mid-sized. Um so yes, in the US it'll be much more common to have spray-as-a-service where uh you know a contractor owns the vehicle and then services a number of customers in a surrounding radius.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:49:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You know we could make an acronym out of that, we could call it SAS. No one's ever used that before.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:49:34",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, totally. Um yeah, maybe our valuation would go up.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:49:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Totally.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:49:41",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Anyways, so the uh you asked about economics and payback period. So it yeah depends on the utilization, you know two to three years roughly. But the thing that people don't understand is uh Pelican yes it is a lower cost solution, yes there is a different type of labor you use, a much easier to access labor pool. You can train someone how to operate a Pelican in two to four weeks versus a aerial application pilot is you know 18 months. But really the like the reason people love the Pelican is because of its ability to spray really, really well. Um and so the simplest way to understand this is the cost of the chemical that is being sprayed is typically about four times the cost of the application. So this is this very precious resource.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:50:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh yeah.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:50:38",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, and you're trying to like deposit this fine mist of chemical very evenly over an entire crop including around the boundaries of the crop which is very difficult. So the Pelican has like a bunch of things about it that make it just a like massively superior solution for actually applying the chemical.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:50:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And right now, I mean as you and I record this, the Strait of Hormuz is still totally blocked off and I presume by the time this comes out it'll still be blocked, which is killing fertilizer prices around the world. So people are probably extra price conscious right now about these chemicals they're spraying.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, totally, so input costs are, you know, like chemicals are a very, very significant portion of growing food.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:51:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Man. That's, that's...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:51:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's, it's worrying to me that the solution to that, which is apparently you guys, is not as applied as the need for fertilizer is, because there's a mismatch between solution and crisis in our food supply. Anyways, for everyone listening to this, if you're confused why we're talking about farming here on TWIST, it's because I'm working this towards a point, which is that Pyka has put together a, not just drone, but also software and the integration with the hardware to make a cool system that allows the company to really quickly build new devices. And this brings into play Dropship, which, as you explained to me before the show, is really the second generation of your cargo plane. So, how did you get Dropship up and into the air so quickly? What have you learned? And then when will it reach the market?",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:51:52",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, great question. So, just as general background, Dropship is a dual-use product. Within the commercial sector, it's used for logistics. Within the defense sector, it sort of forks yet again. It is used for contested logistics and then it's also a very versatile multi-mission aircraft, good for carrying large sensor payloads, etc.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:52:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Could it carry bombs in the little container? Sorry to be rude, but I'm curious.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:52:18",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "I mean, technically it could. That's not the most, like, interesting use case for it, I would say.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:52:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, and why, why not? Because when I think about drones today, we think a lot about, you know, drone-based warfare in Ukraine and in and around the Middle East. And having a large drone that can carry more boom sounds good to me.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:52:43",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, so our vehicles are designed to be quite reliable and low operating cost. And so, like, if you want to deliver, if you want to do more kinetic stuff, you don't build a vehicle like we did. Our vehicles last too long, basically. They're too nice. If you wanted to make a really low-cost bomber, there would be different decisions that you'd make than what we did with Dropship.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:53:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And probably also like, you know, electronic emissions and noise and there's probably other factors that would have gone into making this a bomber if you wanted it to be one.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:53:13",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Correct. Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:53:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So you guys had a test flight recently of Dropship. Really quick process to get it, you know, from, as you said, CAD to the runway. Talk me through that.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:53:22",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, so we went from, like, initial CAD renderings to first flight in 180 days, which is pretty awesome.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:53:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, dude.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:53:32",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "That was, so that wasn't the fastest. I guess what we call Big Bird, the plane that we built in my parents' backyard during Y Combinator technically was faster. But Dropship is way more complicated and useful. So, yeah. It's, you know, it's the second generation cargo plane. First generation cargo plane was an all-electric cargo aircraft. Really cool plane. We built eight of them. We're actually going to probably build quite a few more for commercial customers. That aircraft only...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "The 200-mile useful range, um, so that was a sort of key limitation for defense. Anyways, kind of the backstory there is we built eight of those. Um, we sent three of them to the Air Force, got very positive feedback from them. Um, sent one to the Army, got really positive feedback as well and invitations to some big, uh, demos that are coming up in the next two and a half months. Air Force, we want a follow-on contract as well. Um, I think the thing that was so cool about this is, uh, we got really, really good insights into what it is that both Air Force, SOCOM, and Army want from a, a tradable, contested logistics and multi-mission UAS. So there's no, like, requirements written for this type of vehicle yet. This is too new. Um, and so the main feedback that we got, uh, willing to share it now because Dropship is out in the market, uh, is basically like, Pelican Cargo, the electric thing, really awesome, super easy to use, uh, practical, easy to maintain, needs much longer range. Um, so ideally, 1,000 miles of range with 500 pounds of payload. Check. Dropship hits that. Um, it needs to fit in a 20-foot shipping container. So all of our vehicles actually fit in a 40-foot container already. We designed them to do that, but they're just like two and a half feet too long to go in a 20. Um, so Dropship meets that requirement. The tail is removable, which is really cool.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:55:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Ah, okay, got it. Because the first cargo plane opened up in the back like a C-130 versus opening up in the middle like, sorry for the analogy, the bomb bay of a B-17.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:55:21",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, exactly. So the nose opens on both of them, but on the electric one, the whole floor was a battery. Um, so there's no nose—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:55:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The nose! The nose opens up, not the back. Oh, I totally misread that image. I'm so sorry, everybody.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:55:34",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "No, no worries. Yeah, the nose opens on both. But yeah, we had this giant battery, uh, in the way, so we, you know, couldn't make the electric one air drop.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:55:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Which is I feel we're beating around the bush, the new dropship is hybrid. So it has both a diesel engine as far as I understand it for getting somewhere, and then it has batteries for very quiet looping in and around the area once it arrives.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:56:00",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, yeah, exactly. So it's a really cool architecture. Uh, I don't think there's any airplane out there that's a hybrid turbo diesel architecture. Um, so it's a parallel hybrid like you said, so the diesel engine actually has a propeller attached to it. Um, it can also charge the batteries in flight. And then the electric propulsion system... so the diesel engine's behind the fuselage, it's a pusher propeller, um, kind of normal UAV configuration in that sense. And then up in front of the wings are two very high-powered electric motors. Um, and so those are used during takeoff. That's how we get this really ballistic takeoff performance, like takeoff and landing in under 600 feet.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:56:22",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Oh, so you run all three at the same time?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:56:24",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Oh yeah, absolutely.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:56:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, so it just must be going mad like a little bee, zzz, up into the sky.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:56:33",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, it sounds really cool. It's this combination of turbo diesel and then the electric. Um, so it's a really cool architecture. I don't think there's any airplane out there that's a hybrid turbo diesel architecture. Um, so it's a parallel hybrid like you said, so the diesel engine actually has a propeller attached to it. Um, it can also charge the batteries in flight.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "So yeah, the diesel engine is about, it's like just over 30 kilowatts peak.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:09",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "And then the electric motors in the front are each about 25 kilowatts. So when the electric propulsion system is running, our peak power is essentially three times our cruise power.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:57:21",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "So we use that for this like ballistic takeoff and landing performance, use it to climb to altitude, and then once at altitude, actually shut down the entire electric propulsion system. We have these neat passive folding propellers and then the airplane cruises just on the diesel.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You know, I was really excited about Dropship, not because of its dual-use capabilities, but more because I was thinking about domestic commercial applications, like getting stuff places. Like, can I send my mom a couch? You know? But it sounds like our prior point that we talked about with your agricultural drones is that regulations may not be ready yet to turn Dropship into a domestic FedEx, if you will. Are we going to shoot our own foot here as a nation and not end up with a lot more autonomous flight? Because it seems much more economically viable, environmentally friendly, convenient. Like, it just seems better to me.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:58:13",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, 100%. So I mean, the reason that we kind of pivoted away from mass manufacturing Pelican Cargo, the electric one, wasn't because there was a lack of interest from customers. It was really exactly the reason you mentioned. We could not get regulatory approval to fly at scale beyond visual line of sight operation in a timeline that was relevant to us.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:58:34",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "So that was the biggest factor. Are we shooting ourselves in the foot? Yes, absolutely. I mean, I think there's this very, just getting back to the original point, like these hardware-software blended products are so important to our society. They're also going to create so much value, but their value is 100% determined by their exposure to the real world.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:59:01",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "SpaceX is worth how much it is because they blew up rockets, figured out how to stop doing that, and now the idea of a self-launching, recovering rocket is just like taken for granted. There are very few companies who have figured out a way to actually collect that data. So Pyka, we've done it, we had to go to Brazil. Zipline, they've done it, they had to go to Rwanda.",
+      "tone": "matter-of-fact"
+    },
+    {
+      "timestamp": "00:59:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Zipline, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:59:37",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yep. And then there's a bunch of other companies that have gone to Ukraine. So Ukraine is the other place to like learn, essentially. But outside of that, there are very, very few options, which is troubling.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:59:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I want to make sure we get to supply chains, components, and kind of sovereignty. Now, if you were just making agricultural drones for Brazil, I wouldn't really care, but we are talking about the military, we are talking about dual-use a little bit. So how well are you able to source materials, components, or any sort of input without reaching into Chinese supply chains? And how much better can you do in a couple years?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "So, I think it kind of because of when we started the company there wasn't like a bunch of stuff we could just buy off the shelf to build these drones out of. And so we actually vertically integrated essentially every critical component on our product. The motors, batteries, motor controllers are our own design. All the avionics is our own design, airframes, etc., etc., etc. So we're already able to create NDA compliant versions of our product. There is some difference in sourcing. You know, for example, the battery management system we will manufacture here in the United States for an NDA product. For commercial products we'll manufacture the battery management system in China.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:00:16",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, good question. So...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:00:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What's the cost differential there?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:00:41",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Uh, it's about 2x.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:00:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's is that a high price component compared to the overall cost of the device?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:00:52",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "No, not I mean so for drop ship, no. There's two BMS's in the entire vehicle. For Pelican, it's more. There's 15 batteries that ship with each airplane.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:00:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, yeah, yeah. So more complicated. Okay, that makes sense to me. I was just thinking that 2x didn't sound as bad as I was expecting and I wasn't quite sure why.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:01:03",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Well, so if you own the design, it's not that bad. I mean, so you can for example, if we don't source from China, we could source from another low cost region. The 2x is actually doing it in the United States though.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:01:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, no way. Oh. Huh. All right, well that's better than I thought. Okay.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "01:01:16",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, I mean I think if you own the design and manufacturing in the US versus China is order of magnitude 2x difference. If you don't own the design and you're buying from an OEM and it's like OEM in the US versus OEM in China, then it's probably going to be like 4x difference.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:01:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, yeah, quite a lot. Okay, that makes perfect sense to me. But you mentioned how when you started the company, things weren't available on the shelf, so you managed to do it all yourself. Did that slow you down materially? And I ask that because it doesn't feel like the company's moving slowly, but you've taken on a lot more what we might call technical risk by building so much in-house that I'm kind of shocked that you've gotten this far given that you really blank sheet of papered this entire thing.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:01:46",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, yeah, for sure. So I mean, I think we have an extremely strong technical team. It has slowed us down. There are some components that have matured really nicely in the sort of OEM space that, you know, if we knew now how far they would have come, we maybe would have paused on developing our own. So the motor controller, for example, was something we did in-house. They've gotten bigger and bigger and better and now there's off the shelf options that are vaguely similar. But you know on the flip side, it's really hard to say because it's kind of the grass is greener scenario. Like, we've run into issues with our own designs and our own products, you know, lots of issues. We've resolved them all.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:02:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Or...",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:02:32",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "We're working on the last couple of resolutions, everybody. Give us two, three weeks. Yeah, yeah, exactly. Whereas, you know, we've had issues with our off the shelf products and getting to a robust resolution with those often is far more time consuming. So, yeah, it's hard to say.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "It's tough to say. I think the the biggest thing for us though is like, you know if you think of the most successful hardware companies out there are a blend of hardware software.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:03:10",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Apple.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:03:11",
+      "ad": false,
+      "speaker": "Hon Weng Chong",
+      "text": "Tesla.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:03:12",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Apple, great example. Yeah, Tesla. DJI, perfect example.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "01:03:15",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure. Absolutely.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "01:03:16",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "And I think like what those companies are able to do is make something incredibly complicated seem just really, really simple to the end user. You know, when you take a picture with your iPhone, it's phenomenally good. It's like better than my dad's super fancy DSLR camera now. And I don't know how or why, but like there's so much going on. There's software...",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "01:03:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "What are all these? What are all these little like camera things back here? I don't know what a single one of those does. Not once have I picked it up.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:03:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Me neither.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:03:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And you know what? My pictures of my kids look fantastic, so thank you Apple.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:03:48",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Totally. Yeah, and so like the way you do that is if you you have to own everything. You have to own the hardware and the software in my opinion. Like that's how you make that really magical experience. If you try and integrate a whole bunch of disparate systems, you end up with this like customer experience where you can tell. Um, and so so that's I think that's like the biggest benefit, but it's it's...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:04:10",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Are we just talking around Boeing's decision to stop making things in-house and just supply everything externally and integrate all these systems? Because I feel like we're slowly starting to circle the Boeing story here. Um, Michael, I I have to let you go, but one last question before I do, which is really simple. There is a lot of money flowing around the venture capital world today. However, I talk to a lot of people that are now building enterprise agent orchestration MCP servers and they tell me that oh my god, people are not interested in us. So does the company have enough access to capital today to continue growing if you still need more money to bring this vision to reality? Because I can see a really cool future in which we have tons of quiet, safe, friendly drones in our skies doing quite a lot of work for us, and I want to get there quickly.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:04:31",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, yeah, good question. Um, I would say yes and no. I mean, we've we've been able to raise the money that we need. Uh, if we had more money, we would move faster. Um, so...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:04:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "If you're a VC listening to this, hello! Come on! Stop backing SaaS companies that are slapping on an AI wrapper. Back something cool. We're building drones, y'all.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:04:48",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Michael, a treat. Um, where can people find the company and is there a job you are hiring for you want to shout out into the void?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:04:51",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Yeah, great. Um, so you can find us on our website flypyka.com.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "01:04:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "P-Y-K-A, not P-I-K-A. Yeah.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:05:00",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Correct, P-Y-K-A. Very active on LinkedIn, actually very active on Instagram. Uh, most of it's in Portuguese, I'll warn you, um, but really, really cool shots from from Brazil of our actual customer operations there.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:05:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Fantastic. All right. Thank you very much. We'll see you soon.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:05:14",
+      "ad": false,
+      "speaker": "Michael Norcia",
+      "text": "Great. Thank you.",
+      "tone": "polite"
+    }
+  ],
+  "highlights": [
+    "Biological computing is demonstrating massive efficiency gains over traditional hardware, with research indicating that human neurons can be 5,000 times more cellularly efficient than GPUs for reinforcement learning tasks.",
+    "Cortical Labs has transitioned biological computing from a laboratory curiosity to a commercial reality by building the world’s first biological data centers, which use rack-mountable life-support systems to maintain millions of neurons fused with silicon chips.",
+    "A critical ethical \"red line\" in synthetic biology is the avoidance of consciousness; developers aim to create intelligent systems that lack the capacity to suffer, a boundary established through proactive engagement with bioethicists and religious institutions like the Vatican.",
+    "In the field of autonomous aviation, Pyka has deployed the world’s largest commercial drones for agriculture and cargo, utilizing a hybrid turbo-diesel and electric architecture to achieve a 1,000-mile range with significantly lower fuel costs than traditional aircraft.",
+    "Innovation in highly regulated sectors is increasingly shifting to international markets, as companies move operations to countries like Brazil and Rwanda to bypass domestic restrictions on \"beyond visual line of sight\" flight and experimental biological interfaces."
+  ],
+  "summary": "This transcript features two interviews with founders pushing the boundaries of hardware and specialized computing: Hon Weng Chong of Cortical Labs and Michael Norcia of Pyka. The first segment focuses on Cortical Labs’ development of \"biological computers\" that fuse silicon chips with human neurons. Their flagship product, the CL1, is a rack-mountable system that sustains living neurons through an integrated life-support system. Beyond drug discovery and medical research, these biological systems have shown remarkable potential in reinforcement learning, proving to be 5,000 times more cellularly efficient than traditional GPU-based systems. The company has launched the world’s first biological data center in Melbourne and is expanding to Singapore, offering a \"biological cloud\" that allows developers to program these systems using standard tools like Python and Jupyter Notebooks.\n\nThe second segment highlights Pyka’s advancements in large-scale autonomous aviation. CEO Michael Norcia discusses their transition from the \"Pelican\"—an all-electric, autonomous crop-spraying drone widely deployed in Brazil—to \"Dropship,\" a hybrid turbo-diesel cargo drone designed for both commercial logistics and defense. Dropship addresses the range limitations of electric flight, offering a 1,000-mile range while maintaining the ability to take off and land in under 600 feet. A major theme in this discussion is the regulatory friction in the United States; while Pyka's technology is commercially proven in the remote regions of Brazil, FAA line-of-sight restrictions currently limit its domestic viability.\n\nOverall, the transcript explores the theme of vertical integration as a necessity for breakthrough innovation. Both companies have had to build nearly every component of their systems in-house—from life-support pumps for neurons to proprietary motors and flight control software for drones—to achieve the reliability required for commercial use. Whether through biological neurons or autonomous hybrid flight, both startups represent a shift toward high-efficiency, specialized hardware designed to solve complex real-world problems in medicine, logistics, and resource management.",
+  "description": "This Startup Fused Human Brain Cells with Silicon Chips | E2295\n\nThis Week In Startups is made possible by:\n\nDeel https://deel.com/twist\nQuo https://quo.com/TWiST\nLinkedIn Jobs https://LinkedIn.com/twist\n\nToday’s show:\n\nCortical Labs is the world’s first company selling biological computers. Their CL1 fuses lab-grown human neurons (derived from stem cells, not actual folks) with silicon hardware to create Synthetic Biological Intelligence (SBI).\nFounder Dr. Hon Weng Chong walks us through how the system works and why neurons are more efficient than GPUs at reinforcement learning. (Also… is this computer alive?)\nPLUS Pyka co-founder and CEO Michael Norcia explains the various uses for his autonomous aircraft, from crop-spraying drones in Brazil to a hybrid-electric defense UAV for the military.\n\nGuests:\n\nCortical Labs: https://corticallabs.com/\nDr. Hon Weng Chong on X: https://x.com/dr1337\nPyka: https://www.flypyka.com/\nPyka on Instagram: https://www.instagram.com/flypyka/?hl=en\n\nFurther Reading:\n\n2022 Pong paper in Neuron: https://www.cell.com/neuron/fulltext/S0896-6273(22)00806-6\n2017 Paper: “Attention is All You Need”; https://arxiv.org/abs/1706.03762\nThe “Barista Test” for Artificial Intelligence: Chris Rourk: https://medium.com/predict/the-turing-test-is-so-last-century-the-barista-test-for-artificial-general-intelligence-faf91034fa8c\n\nNotable Links:\n\nPlaying “DOOM” on CL1: https://www.youtube.com/watch?v=yRV8fSw6HaE\nDayOne Data Center: https://dayonedc.com/\nNeurIPS 2026 Conference: https://neurips.cc/\nNeuralink: https://neuralink.com/\nCliniCloud Digital Stethoscope and Thermometer: https://www.design-industry.com.au/clinicloud\nAir Force Research Laboratory (AFWERX): https://afwerx.com/\nJoby Aviation: https://www.jobyaviation.com/\nPrime Movers Lab: https://www.primemoverslab.com/\n\nTimestamps:\n\n0:00 What is \"biological computing\"?\n2:12 Cortical's new $30 million raise\n3:38 The world's first biological data center\n9:11 Deel - Founders scale faster on Deel. Set up payroll for any country in minutes, hire anyone anywhere, get visas handled fast, and get back to building. Visit https://deel.com/twist to learn more.\n10:14 Biological computers have a learning advantage\n19:06 Quo (formerly OpenPhone) - Quo gives you a clean, modern way to handle every customer call, text, and thread all in one place. Try it free at https://quo.com/TWiST\n28:38 LinkedIn Jobs - Hire right, the first time. Post your first job and get $100 off towards your job post at https://LinkedIn.com/twist\n38:09 From paper airplanes to Group 4 UAVs\n51:43 Introducing the DropShip defense drone\n57:51 How regulations block US drones\n1:00:03 Why Pyka builds everything in-house\n\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+  "duration": 3939,
+  "people": [
+    "Hon Weng Chong",
+    "Michael Norcia",
+    "This Startup",
+    "Fused Human",
+    "Brain Cells",
+    "Silicon Chips",
+    "This Week",
+    "In Startups",
+    "Cortical Labs",
+    "Synthetic Biological",
+    "Founder Dr",
+    "Hon Weng",
+    "Further Reading",
+    "All You",
+    "Barista Test",
+    "Artificial Intelligence",
+    "Chris Rourk",
+    "Notable Links",
+    "Data Center",
+    "Digital Stethoscope",
+    "Air Force",
+    "Research Laboratory",
+    "Joby Aviation",
+    "Prime Movers",
+    "Why Pyka",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason",
+    "Will Guidara",
+    "Steve Huffman",
+    "Brian Chesky",
+    "Bob Moesta",
+    "Aaron Levie",
+    "Sophia Amoruso",
+    "Reid Hoffman",
+    "Frank Slootman"
+  ],
+  "topics": [
+    "Biological computing and Synthetic Biological Intelligence (SBI) using human neurons",
+    "Scaling biological infrastructure through data centers and the Cortical Cloud",
+    "Ethical considerations regarding consciousness and suffering in biological systems",
+    "Autonomous large-scale drones for agriculture and contested defense logistics",
+    "Regulatory and supply chain challenges for the autonomous aviation industry"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/wJH_ymNbv30/maxresdefault.jpg",
+  "date": "20260601",
+  "youtube_url": "https://www.youtube.com/watch?v=wJH_ymNbv30",
+  "youtube_metadata": {
+    "title": "This Startup Fused Human Brain Cells with Silicon Chips | E2295",
+    "description": "This Startup Fused Human Brain Cells with Silicon Chips | E2295\n\nThis Week In Startups is made possible by:\n\nDeel https://deel.com/twist\nQuo https://quo.com/TWiST\nLinkedIn Jobs https://LinkedIn.com/twist\n\nToday’s show:\n\nCortical Labs is the world’s first company selling biological computers. Their CL1 fuses lab-grown human neurons (derived from stem cells, not actual folks) with silicon hardware to create Synthetic Biological Intelligence (SBI).\nFounder Dr. Hon Weng Chong walks us through how the system works and why neurons are more efficient than GPUs at reinforcement learning. (Also… is this computer alive?)\nPLUS Pyka co-founder and CEO Michael Norcia explains the various uses for his autonomous aircraft, from crop-spraying drones in Brazil to a hybrid-electric defense UAV for the military.\n\nGuests:\n\nCortical Labs: https://corticallabs.com/\nDr. Hon Weng Chong on X: https://x.com/dr1337\nPyka: https://www.flypyka.com/\nPyka on Instagram: https://www.instagram.com/flypyka/?hl=en\n\nFurther Reading:\n\n2022 Pong paper in Neuron: https://www.cell.com/neuron/fulltext/S0896-6273(22)00806-6\n2017 Paper: “Attention is All You Need”; https://arxiv.org/abs/1706.03762\nThe “Barista Test” for Artificial Intelligence: Chris Rourk: https://medium.com/predict/the-turing-test-is-so-last-century-the-barista-test-for-artificial-general-intelligence-faf91034fa8c\n\nNotable Links:\n\nPlaying “DOOM” on CL1: https://www.youtube.com/watch?v=yRV8fSw6HaE\nDayOne Data Center: https://dayonedc.com/\nNeurIPS 2026 Conference: https://neurips.cc/\nNeuralink: https://neuralink.com/\nCliniCloud Digital Stethoscope and Thermometer: https://www.design-industry.com.au/clinicloud\nAir Force Research Laboratory (AFWERX): https://afwerx.com/\nJoby Aviation: https://www.jobyaviation.com/\nPrime Movers Lab: https://www.primemoverslab.com/\n\nTimestamps:\n\n0:00 What is \"biological computing\"?\n2:12 Cortical's new $30 million raise\n3:38 The world's first biological data center\n9:11 Deel - Founders scale faster on Deel. Set up payroll for any country in minutes, hire anyone anywhere, get visas handled fast, and get back to building. Visit https://deel.com/twist to learn more.\n10:14 Biological computers have a learning advantage\n19:06 Quo (formerly OpenPhone) - Quo gives you a clean, modern way to handle every customer call, text, and thread all in one place. Try it free at https://quo.com/TWiST\n28:38 LinkedIn Jobs - Hire right, the first time. Post your first job and get $100 off towards your job post at https://LinkedIn.com/twist\n38:09 From paper airplanes to Group 4 UAVs\n51:43 Introducing the DropShip defense drone\n57:51 How regulations block US drones\n1:00:03 Why Pyka builds everything in-house\n\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+    "duration": 3939,
+    "view_count": 1718,
+    "like_count": 40,
+    "channel": "This Week in Startups",
+    "upload_date": "20260601",
+    "thumbnail": "https://i.ytimg.com/vi/wJH_ymNbv30/maxresdefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}
