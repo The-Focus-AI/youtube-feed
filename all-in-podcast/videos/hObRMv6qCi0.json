@@ -1,0 +1,1563 @@
+{
+  "title": "Palo Alto Networks CEO: \"AI Found 5 Years of Bugs in 6 Weeks\"",
+  "source_url": "https://www.youtube.com/watch?v=hObRMv6qCi0",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "One of the biggest winners right now, the big daddy of the cybersecurity space, Palo Alto Networks is an outperformer in the space.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:00:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "CEO Nikesh Arora.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:09",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "This might come as news to you, but humans have been writing bad code for a very long time.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:14",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I spent 10 years at Google and, you know, Google search was democratizing information. If you take that analogy and think about what AI is doing, AI is democratizing intelligence.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:00:25",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Money is a way to keep track.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:00:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, it's not the goal.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:00:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You've been CEO of Palo Alto Networks for eight years?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:00:32",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Coming up on eight years this week.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Eight years. And I think when you started, it was $17 billion market cap, if I remember correctly. And this morning I checked it's 238 billion. Which, if you listen to what we said yesterday, now that you've passed the 100, you're more likely to actually 10x. So the first 10x was actually much, much harder. So you're on your way to a trillion dollars.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:51",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "From your mouth to God's ears, but whatever I think you are.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:00:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so let's just double click into what you see, because you are sort of in a really interesting position to see all of it. You see the birth of AI, maybe you see, you've seen the rise and fall of SaaS. All the models talk to you. You were one of the first and the few that got access to Mithos. So just, let me just push the button. Go Nikesh, start.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:01:23",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Well, first of all, thank you for having me here. I think AI's exciting. I think it's exciting to see all the stuff that's gone down in the last possibly 24 months. I think Sarah just said it, they were right in anticipating the huge amount of compute that was going to be needed. So all that stuff's going on.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:01:42",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "But you can see that, you know, there's this notion which we talked about briefly last time, that AI is really democratizing intelligence. What that means is, I have 250 people in marketing, they produce varied forms of output. Now I can get 90% of the output to be consistent across those 250 people.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:02",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I have 5,000 people who talk to customers. They're—my failure mode is when 5,000 people do different things, where people say, 'I want to talk to Joe because he knows how to solve the problem, and Jim doesn't.' So now I can get 5,000 people to act almost consistently in their interactions with people on the other side.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:18",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "So I think it's going to have a phenomenal impact to how we run businesses, how we operate, it's going to change the entire landscape.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:02:29",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Okay. Now, in that context, you touched upon Mithos and I know Dave's been very involved with this. Mithos has shown us that all the bad code that humans have written over the last 50 years can be assessed by AI and shown—the vulnerabilities can be shown.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:44",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "We tested for six weeks, and in six weeks we found what would have taken us five to seven years.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:02:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Wait, say that one more time.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:02:56",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "In six weeks we found vulnerabilities which would have normally taken us five to seven years to find.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Wow.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So Mythos, these are vulnerabilities where?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:01",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Say?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "These are vulnerabilities in your own codebase, or in your customer - oh, in your own codebase?",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:03:05",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "In our own codebase.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:03:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh wow. So Mythos was not oversold. It was legit.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:03:11",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "The capabilities of AI in being able to assess vulnerabilities in code are real. Not just that, if you put it on ultra mode, which is persistent thinking, so it keeps trying until it gets an answer, you can actually daisy-chain vulnerabilities, i.e. finding a new attack path into your vulnerabilities. Now, we pride ourselves as a top percentile of companies that test our code because we're in cybersecurity business. If you take that and compound that across all the companies that exist in the world that write their own code or the 10 million developers write code, this thing is going to find stuff which would have taken us 10 years to find.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "How much did it cost? Like did you track the token cost? Was it $100 million, $10 million?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:03:57",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "No, no. It was in the low millions. But again, as Sarah said, the cost curve is going to come down. Already OpenAI has got a model which is cheaper, more consistent. Anthropic's come out with another model.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:04:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So you buy the hype.",
+      "tone": "provocative"
+    },
+    {
+      "timestamp": "00:04:10",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "It's not hype, it's true.",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:04:11",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "The capabilities, the capabilities are true.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:04:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You know that. The capabilities are true. Yes.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:04:15",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I mean you saw IBM announce a project for $5 billion to fix open source. That's the biggest problem.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What would have happened if Claude didn't have the restraint and they put it out in the public? Do you think it would have been like a real attack vector and caused chaos in corporate?",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:04:31",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I think we're three months away, if not already there, from this being available in the wild.",
+      "tone": "cautionary"
+    },
+    {
+      "timestamp": "00:04:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. Open source. Just three months.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:04:41",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Yeah, 'cause I mean we've been saying that it's roughly six months away before Mythos level capabilities are available in Chinese models, open models, whatever. But you're saying it could be three months.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:04:54",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Well look, there's what, 4.8 is already out, 5.5 is already out. They have similar capabilities and look, you don't need to crack the hardest code to crack. You just need to find a few vulnerabilities in code that are out there. Just take an old industrial system which is running, you know, OT code on the edge. You can find that vulnerability reasonably easily.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:05:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So we're in a race right now between the cyber defenders finding these vulnerabilities and patching them before the cyber attackers do the same thing.",
+      "tone": "summarizing"
+    },
+    {
+      "timestamp": "00:05:30",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Yes.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:05:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And how do you feel like we're doing in that race?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:05:33",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "So, not as well as we should be doing, which is great for our business, but that's a different story. So look, every company has to go look at their codebase and figure out where the vulnerabilities are and fix them. So if you talk to CIOs today, their biggest problem is all the vendors are showing up saying please patch my piece of boxes, the hardware that you have, please patch my code that you have because I found vulnerabilities. Fix it. While the CIOs are busy finding their own vulnerabilities to fix their own vulnerabilities and then this huge thing called open source which nobody...",
+      "tone": "realistic"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "...quite how to solve.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So is it fair to say that as model capabilities go up, systemic business risk of large enterprises also goes up?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:06:09",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "On the cyber side, yes. There are antidotes being built by people like us and others where we're going to provide some capability where you don't have to patch everything. But look, Sacks said something very interesting around harness, memory and context. Right? The part we don't talk about here is organizations don't have memory and context of everything they do every day. That's why you need to store a lot more data enterprise-wide to learn what good looks like and what bad looks like. Right. The same problem is in cyber security. We need to collect 10 times the data in the enterprise from a cyber perspective to be able to understand how to defend ourselves against these AI attackers.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:06:50",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Do you think that the traditional companies, like the SaaS businesses that have existed in this world, what is their place? As all this knowledge becomes more persistent and stored, what happens to SaaS?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:07:05",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Well, you see SaaS is as Bill said, SaaS is different pieces, right?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:12",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "If you're an analytical SaaS company, it's over.",
+      "tone": "decisive"
+    },
+    {
+      "timestamp": "00:07:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's over. What is an analytical SaaS company?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:07:17",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Somebody that says I'm going to collect a lot of data and analyze it for you. I don't need you to analyze it for me, I can run models against data and analyze them myself. So if you think about there's a lot of, every SaaS company has a marketplace. You can buy Salesforce marketplace. What are they saying? You have Salesforce data, I'm a marketplace app, take me and I'll help you analyze the data. I don't need to.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You don't need that.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:39",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "I can just go run an LLM against the data. So the entire incrementality that has been sold as incremental software modules to all of us doesn't need to be sold to us because I'd much rather have LLMs run against that data.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:50",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Interesting you bring this up. We had an instance with a SaaS product with 20 seats. Nobody was logging in and using it, but the data was there. So we created like three accounts, got rid of 17, connected it to Slack, connected it to Claude, and now everybody can interface it through natural language and we've reduced our bill by 90%.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:08",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Well, not just that. What you're going to do next, Jason, is you're going to take data from different products, put them in one place, run the analytics against that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:18",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "I want my data for my sales reps, my productivity data, my, you know, inventory data from SAP. I want it all in one place so I can run analytics against it and say who's selling a lot, where do I have less inventory, let's build inventory in the region where my sales people are extremely productive. To run that query, you'd have to have talk to three different SaaS products. Tomorrow you can pull the data in one place. So so that's sort of category one, analytical SaaS is dead.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Category one, analytics dead.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:46",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Yes. In the medium term. You know, we got all these bounces today and tomorrow, that's these are marginally irrelevant. Infrastructure software, undervalued.",
+      "tone": "decisive"
+    },
+    {
+      "timestamp": "00:08:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, what is infrastructure software?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:08:58",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Stuff that gives you databases, you collect data into it. Stuff that allows infrastructure to work, whether it's...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Say you know database software, Databricks, Snowflake...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:02",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Databricks, Snowflake, MongoDB, Oracle, all these things...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:05",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Oracle, all these things, you need core storage infrastructure, core data infrastructure.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:09",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "We are going to need 10 times the data stored in enterprise than we have today in the next three years. 10 times.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:09:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:15",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "So anything that helps you collect infrastructure, data, manage it, you need.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:20",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I think the category in the middle is called, let's call it system of work or system of record, people call them.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:27",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Those are deeply embedded in the way businesses work. I have 6,000 sales people, they know how this works.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:31",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "What's going to happen is step one, we will take away UI and let agents do the work. UI, enterprise software and consumer software UI is the worst thing we did as technologists.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:09:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You had a couple of examples of this. You told me this story, I don't know if you want to repeat it, of this one company, they tried to hold you hostage on a license.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:52",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Yes, that was analytical SAS, so that's over.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And you just pointed AI at it and you just...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:54",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Yes, we just got rid of them. That's a different issue.",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:09:55",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "But I mean think about today, we spent our lives having product managers design UI so all humans can interact with data behind the UI.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:10:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:01",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "If all I can, if you believe agents are going to work and I say I just tell an agent, look, figure it out from my sales call, figure out the key points and go post it into, you know, whatever sales tracking system I have, this Oracle or Salesforce, right?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:10:08",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "An agent conceptually should be able to do it. Shit, we're spending trillion dollars building these agentic backends, we need these agents to be able to do it.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:10:13",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "If that happens, UI goes away.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:10:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:18",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "If UI goes away, I can rewire my system of work.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:10:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:22",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Right? I have sales guy shows up and says, I had this sales call, do all the paperwork and all the shit that needs to happen in the background of the company and just, I'm done.",
+      "tone": "informal"
+    },
+    {
+      "timestamp": "00:10:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:29",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "If I can change the way work happens, which is where you'll get true efficiency, where five people become one in a company, all these SaaS software that does system of work needs to be re-engineered for the next five years.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:10:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And it's also happening passively, which is really interesting. It's looking at email, it's automatically taking the Zoom transcript and summary, so the sales system of record is now like, you don't even need to input it. It's like, I already have the Zoom call notes, I have the deck, the deck was made, the sales deck was made by AI. It's just, we're all going to be looking at a chat window and just saying here's what I want.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:10:46",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Your audit trail becomes a lot better because humans are not touching your data, it's always being managed by agents. So I think the whole system of work, system of record gets reinvented in the next five years.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:10:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, there's no data entry, that's an interesting point. Yeah. Let's talk about national security for a second, I just want to maybe zoom out. So the one side of mythos as you said is like the value that it has to you and to enterprises.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:11:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The red team version of mythos is where foreign state actors, you know, can essentially create economic havoc inside of a country.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:11:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "As these models escalate in their capability, what do you think should happen when these models are ready?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "The sad truth is, you know, here there's a few thousand breaches or attacks that happen. They happen for pretty rudimentary reasons. It's not because somebody cracked a hard-to-crack thing. It happens because 89% of the attacks happen because credentials get stolen or breached.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Username and password.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:16",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "That's it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:17",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "I think my password is \"password\".",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:12:19",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Yeah, I'm sure it is. Did you have a dollar sign? Fantastic. Well done. See? You're already ahead of everybody else.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:12:23",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "So 89% of the breaches happen because of simple things. So I don't think we need more models to go crack this stuff. Now, we would need... these models can attack critical infrastructure and things we try and protect from a national security perspective. So yes, we need defenses there. I'm not worried about the national security part being protected because they're very on it. They're the right people. They spend 10% of their budgets on IT and security. I'm worried about the small offices across the country where they're using some piece of packet software and you're running a dentist office or a doctor's office. Remember when Change Healthcare got breached?",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:12:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Every physician's office shut down and it's ransomware because of ransomware in Change Healthcare, which was sort of the clearing system. That's when UnitedHealth actually had to give billions of dollars of credits to the physicians to be able to run their businesses at that point in time.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:05",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "That's what one should worry about. It's less about the big nuts will get cracked. It's less about cracking some PG&E power generation facility. It's more economic chaos.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:13:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes. And so what do we do?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:13:23",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I don't think there's a sort of a silver bullet. I think this will take time. I think this will basically take a while until every system gets upgraded, renewed, fixed over time. I just think it increased the terminal value of the industry, right?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right. Do you think that there's a world in which these models become so good that you could see yourself advocating for more nationalism around how they're controlled and how they're managed and how they're where we point them? Or do you think there should be maybe a set of these models that never see the light of day that only the NSA and other folks get to have access to, or guys like you?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:14:08",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "I have a slightly differentiated view about models and how they will evolve versus what we heard earlier from an OpenAI perspective. I still believe models are going to become a utility layer. You'll be able to buy intelligence on the fly where you can say, \"I don't need a 180 IQ person to go do this task. Give me a 120 IQ. And I need a 250 IQ to do this task. I'll pay $10 for this, and for this, I'll pay one cent.\" So I don't know there's a one-size-fits-all, \"Give me the most up-to-date model to answer my customer call saying, 'Sorry, sir, I have no idea how to solve your problem.'\" So I think models will get differentiated from a utilitarian perspective.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:14:49",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "So if you look at already what's happening in the market, right? The profit pools are in applications, not in models. More... Sarah talked about Codex running away. She didn't say OpenAI is running away with it. She said Codex is running away. Just saying...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Just to make sure Dario says Claude 3 is running away. So you're seeing that they're attacking profit pools. They're attacking profit pools because that's where the money is going to come from. The profit pools are in applications that companies can use. The profit pools are not in model usage by companies because most companies have no idea how to use a model.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So you can look at these companies in a way, OpenAI and Anthropic, as the new Microsoft Office coming in and doing all applications, all productivity software for organizations.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:15:27",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "No, I see there's going to be application companies just to going to arbitrage between models and solve your business problem.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So you still think they won't go to the application layer? Because this is a big debate: should you engage with OpenAI and train their systems to then take your business from you? And Anthropic keeps releasing their legal model, their accounting model, and it does feel like in order for them to hit their revenue numbers, they might need to do what Microsoft did, which is release the Office product on top of the operating system.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:15:58",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "See, if I'm a company, I don't want to write every piece of software myself. I want my HR system software, which is agentic enabled and AI enabled, to be delivered by some application company. Could be a new AI application company. I want my sales management system built by the new agentic AI Salesforce of the world, whether it's Salesforce or somebody else. So I want applications. Now, what Sarah said is the profit pools are in the application layer, that's why they want to be in the application layer. So I think we're still waiting for that layer of companies to be invented or created where applications will sit. Because 50,000 companies need the same application. Why would I build it myself? It's highly inefficient, it's silly for me to use OpenAI directly and rewrite my entire sales system because I'm smart, right? I'm not. I want somebody to do it for me. So I think that layer of companies is still not fully formed, we're still going to be waiting.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:16:29",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "So you want a control plane, a harness and then...",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:16:30",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "That's right. They will build the harnesses and the memory into those application layers. Now the question is how big is the application layer? Is it one application, is it one, you know, enterprise application that does everything, or is it specialized applications?",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:16:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "When you did it and you kicked out this software vendor, you did it because they were being abusive in pricing. So...",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:16:41",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "We still use that software vendor.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:16:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What's that?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:16:42",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "We swapped out for a different vendor. We just took more control.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:16:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Love it. So it really is a pricing issue. And and that's where the SaaS-pocalypse in some ways makes sense. They're not having pricing power because you could say, 'Well, I'll just put 10 developers on this and I'll save $10 million.'",
+      "tone": "realizing"
+    },
+    {
+      "timestamp": "00:16:51",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Yes.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:16:52",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I think the part back to what Chamath said about the regulation or whether you want to regulate these higher powered models. The question is at some point in time when these newer models, which are even more powerful, get built, they will come at a different price point and they might have to go through a certain vetting process to understand what their capabilities are. But I think we're in a global race. I don't think holding back our models for three to six months is going to help us any. Somebody else is going to put them out in open source. I was shocked to hear when I was talking to a CEO of one of these model companies, he says the entire weight of their most recent...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "The model can fit on a USB stick.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Say that again? The entire weight...",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:18:04",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Entire model weights of their newest model fits on a USB stick. That's the IP.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's incredible.",
+      "tone": "amazed"
+    },
+    {
+      "timestamp": "00:18:12",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Because all the data can be distilled in under 24 to 48 hours when a model comes out.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:17",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "I'm curious.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:18:18",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "So that's the IP. So are you telling me that...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:20",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "You know... we can hold onto that for six months?",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:18:25",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:26",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Wait, we have a debate about how difficult it is to make a frontier model. Some companies are starting to think about making frontier models using their data advantage to build their own. Have you thought about that at Palo Alto because it does seem like you have proprietary knowledge on how security works, could you build your own large language model or a VSML, a small language model that would give you some advantage?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:18:52",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Here's the part nobody talks about... is the false positive rates on the models. What is the false positive rate on 4.8 and 5.5?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:19:03",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "No idea.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:19:04",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "You guys don't talk about it, you should. The false positive rate on Mythos was 30%.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh wow.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:19:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So it thought it found something, but it hadn't.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:19:13",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Yes. So the problem is it's great for attack, it's horrible for defense. Because it finds 30 times, 30% of the time it finds something 'I found a problem' and you say let's plug the hole, wait there wasn't a hole there in the first place.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:19:25",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "No missile inbound.",
+      "tone": "witty"
+    },
+    {
+      "timestamp": "00:19:26",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:19:27",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "So now the same problem applies in enterprise. If you use a model without the right harnesses, the right training, you could be running into 10-20% false positive rates. Let's use the model to pay, I don't know, insurance claims. Yeah. Oh great, 10%, 20% false positive. I just lost money.",
+      "tone": "cautionary"
+    },
+    {
+      "timestamp": "00:19:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The sycophantic nature of these is ridiculous.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:19:49",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "So... so the problem is not who wants the newest model. The problem is how do you take that model with 20% or 10% false positive and make it .01% false positive. In my business I want zero.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:20:02",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Without losing the false negative.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:20:03",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Exactly. Without losing the negative, the false negative. But it's like saying hey let's take the new self-driving car. Mercedes is going to use Opus 4.8 and you can just sit in the car and it's going to drive you. I'm not putting my kids in that car with a 10% false positive rate. Are you?",
+      "tone": "challenging"
+    },
+    {
+      "timestamp": "00:20:18",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "No. It depends on the kid.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:20:19",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "So there's a lot of work that happens post-the model which needs to happen to make these things useful and effective in the business context.",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:20:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Let me slightly pivot for a second. You were for a very long time the Chief Business Officer at Google. You were the President of SoftBank. Now you're the CEO of Palo Alto Networks. So let's play armchair CEO. Armchair CEO.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:20:40",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I'm still, I'm still bristling from David Friedberg trying to create a distinction between founder CEOs and non-founder CEOs. Just saying. Just saying, David.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:20:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "By the way, false positive.",
+      "tone": "witty"
+    },
+    {
+      "timestamp": "00:20:48",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Sorry. False negatives too.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:20:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Give us what you would keep, what you would change, and what you like about the following companies.",
+      "tone": "prompting"
+    },
+    {
+      "timestamp": "00:20:54",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "This is going to get recorded and put out there, this is really something...",
+      "tone": "apprehensive"
+    },
+    {
+      "timestamp": "00:20:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Just getting your thoughts. You're one of the smartest business people...",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:20:59",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I don't get, I don't like getting...",
+      "tone": "hesitant"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Asking you a question. Don't... okay, ready? Are you ready? Are you ready? Yeah, sure. Okay.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:21:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What you keep, what you change, what you like, what you don't like. Uber.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:21:12",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I'm on the board of it, dude. I can't talk about my company.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:21:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, you're the board of Uber?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:21:15",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I'm the board of Uber. I'm not gonna talk about Uber.",
+      "tone": "defensive"
+    },
+    {
+      "timestamp": "00:21:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I didn't know that. Sorry. Okay. Dara, he's the CEO, he's a great guy.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:21:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. Waymo.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:21:24",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Trying to get me fired.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:21:26",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Waymo. What do I like about Waymo? The cars work. It's amazing. They should have more in many more cities around the world, faster. I've said that to Tekedra, I think she knows.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:21:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Google writ large.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:21:36",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I think Google's underrated. I think it's gonna be the first ten trillion dollar company in our lifetime. I think they have all the assets that are needed to make this successful. I think people underestimate, you can be a model company, you still need to have a sales force that convinces customers to go out there and embrace these models and buy them. And if you think about it, three hyper scalers have the biggest number of sales people out there. So they should...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:59",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Part of why they're a little bit undervalued is just the conglomerate nature is hard to understand.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:22:04",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I don't know, you guys are smarter at that stuff. I'm just a hired hand CEO.",
+      "tone": "humble"
+    },
+    {
+      "timestamp": "00:22:06",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "I didn't say that. Friedberg said that. Let's just be clear.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:22:09",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I know, I know.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:22:10",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "I was providing a thesis on recovery out of the SaaS apocalypse, okay? Just to be clear, we're working together.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:22:13",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I thought you were making a distinction of how people who are founder-CEOs have the right to take more risk and are allowed to take more risk.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:22:21",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "I was saying that. And I think you provide a unique counterpoint to that. And there's not a lot of, and by the way, I think the same was true of Jeff Weiner, and I think there's a few other really great CEOs, but they are like Neo in the Matrix type anomalies. And I think you're one of those people. And there's a very rare kind of personality profile of someone that's willing to take risk and take ownership of something that wasn't theirs in the first place and they make it theirs. And it's an extraordinarily unique trait, far more unique actually than being a scalable founder.",
+      "tone": "sincere"
+    },
+    {
+      "timestamp": "00:22:45",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "That's an incredible save.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:22:46",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "You're forgiven.",
+      "tone": "dry"
+    },
+    {
+      "timestamp": "00:22:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Good save. Incredible save. You're forgiven. Let's go back to armchair CEO. Wow, that was incredible.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:22:51",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "He's more sycophant than ChatGPT. He's like, actually, I'm actually...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:22:56",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Actually, actually... let's go back to armchair CEO.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:22:59",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I'm liking this, you guys keep mapping me up, yeah.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:23:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Hang on. They do so faster. OpenAI.",
+      "tone": "eager"
+    },
+    {
+      "timestamp": "00:23:03",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "They should sell faster, right?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:23:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "They should sell faster.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:23:08",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I mean, I... you said it, didn't you just say it when Sarah was here that Anthropic seems to have improved their ARR much faster than OpenAI? I mean, that's just statistics. They kind of went all-in on enterprise and coding specifically.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:23:18",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I think that's the conversation right now is it's a race to take over the profit pools. If you are gonna need tens and tens of billions of dollars every year to get what's one gigawatt is 10 billion of revenue? What does it cost to build?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:23:34",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "50. It cost 50.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:23:35",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "50. So this is a great deal. Sorry.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:23:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So what are the most exciting profit pools then? So...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Got coding, that's been the breakout application over the past year. It's massive. You've got infrastructure like you said, the new databases, I think cyber security is clearly one of them because of threats and patching cycles so much more dynamic.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Clearly.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:14",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "There's a slight difference in it, yes, as you can see these models are trying to be the enablers of better cyber security. Which is good because all of us need to use them to test, and you're probably gonna see... I mean if you saw, Anthropic has already made their cyber capable model available generally so that everyone can use it, and OpenAI's got one, I'm sure Google has one too, but they understand this is a place where CISOs or Chief Security Officers want to use it to test the code. So this is another profit pool. I think we haven't seen the onslaught against the application software companies yet.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:46",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "I mean there's tens and tens of billions of dollars in application software which is waiting to get reinvented as we talked about. I think eventually you'll see these people saying 'What if I took this 40, 50, 100 billion dollar TAM down, I can build a whole brand new backbone with agentic AI and they'd be so differentiated that it'll cause customers to move'.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:54",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "We are seeing it as a playbook in the accelerators now. In the year zero and year one companies, people are coming to us with the pitch 'This is a thousand dollar a seat per year, 500 dollars a month seat SaaS software, we can do it for less. We're gonna charge them based on consumption, we're gonna take 80, 90% of the cost out' as to what Chamath was saying with 80, 90%.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:05",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "The two fastest places to make revenue in enterprise are replacement TAMs. If you replace something I already have a budget, it's easy. I take something bad or replace it with something better, I get money. So replacement TAMs are beautiful. If you can replace an industry, replace the profit pool, it's great. The second place is consumer revenue. It's a lot easier to get five bucks from a user on a consumer side.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Netflix.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:22",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "So that's where, I mean look at it, I think we collectively probably pay more on subscriptions per month than we ever did historically, and you thought your cable bill was high.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. Do you think that you're gonna end up building more or less hardware in the future if you had to guess?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:25:38",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Hardware even today is the cheapest way to manage low latency, high throughput bits. You still need a data center. What's a data center doing? It's just managing high throughput low latency bits. That's why if you look, financial services is the most reluctant industry to go to the cloud. Because you increase latency. If you increase latency you reduce profit. So if you look at every of your largest financial services companies, whether it's Goldman or J.P. Morgan, Morgan Stanley or State Street or these guys, they're doing hardware. Try to get them to run their business on the cloud, they can't because they will have higher latency, they will lose money. Right? So hardware is still gonna be around. We're gonna need it. I'm... I mean I remember when I used to advise Silver Lake and I had heard Dell was done, nobody wanted hardware. I think Dell's back to like a hundred something billion dollar market cap. So hardware still going to be around, we're gonna need it as a fast...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:26:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Just, uh, bit of hardware. Are hardware development cycles changing because of AI? Like are you seeing a lot of like generative design stuff moving in silico that historically was manual and long cycle?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:27:12",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Yeah, but the long pole in the tent is not design, right? The long pole in the tent is production. Today, we can't get a box produced because every- every piece of hardware componentry is backordered, everything's expensive, and every factory in the world is backordered because we're trying to build all these GPUs-based, you know, chip cards for every data center in the world.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Do you think the US is equipped to fill that supply chain need? Can we do that here? Or do you think it's too late?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:27:40",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "In 10 years.",
+      "tone": "direct"
+    },
+    {
+      "timestamp": "00:27:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "10 years. With a- with a firm top-down commitment.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:27:44",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Well, I mean, the good news is that I think the hardware industry's seeing a bonanza of a lifetime, and generally when you see a bonanza of a lifetime, you can go commit 10, 20, 50, 100 billion dollars. I mean, I've seen a CEO on television commit to go build more memory, $100 billion plan. So that's good. That means they have the money to go put the money in the ground, literally, to go build these things for the future. So I think that gets us more certain that the hardware industry's-",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:28:12",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "I think the tax incentive has a big- has a lot to do with that. The accelerated depreciation on the capex.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:28:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You get 100% write-off in the first year, right? Under the- under the-",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:28:21",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Under the TCJA, yeah.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:28:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Just a final question as we wrap up. You, over the last 8 years, you've grown organically very aggressively, but you've also been pretty acquisitive. You'll, you know, you'll take shots and they've generally worked. So you have a ton of permission in the market. When you hear what Bill Ackman said about how there's this kind of overbeaten companies, there's a few that get celebrated, that's a ripe pool for you to pick from. But some of that would require you to go maybe a little horizontally far afield, some would say. How do you maintain the discipline or do you see yourself at some point considering things that are not nearly so much right down the middle of cyber?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:28:58",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "So I tell you what. Until about a year and a half ago, we used to buy product companies and throw them into our go-to-market engine, and we could rewire their backend so they can work better with our go-to-market engine. So for me, if I'm selling $10 million to a customer, next time I go two years later, if I can sell them 20, it's the most efficient way for me to amortize my go-to-market spend, right? So that was the model, we played that, we ran that playbook to north of 150 billion. Then we got to a point where we says, oh, we see an inflection arriving in identity, it's going to be important from an agentic perspective, security perspective, so we bought a $25 billion company which we closed three months ago. Now it's actually a very different opportunity has presented itself. And the different opportunity sort of goes like this: if you can be the best at leveraging AI to run the most efficient enterprise business in the world, your operating margin can be far in excess of the industry. And if you can crack that code-",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:29:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Gross in the 90s, you're saying?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:29:57",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Gross in the 90s, net in the 40s.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:29:58",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Gross in the 90s, net in the 40s. Yeah, if you can crack that code, then it doesn't matter what you buy.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Yeah. But I think the problem right now is execution problem. Most sub-scale companies cannot afford to go optimize their company and run it better. So if we can run our company much better than everybody else and have a higher operating margin, then the street will say, fine, you take something at a 20% margin, make it a...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:30:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Your first M&A was really tough, no? Like, they were pretty skeptical and then you kind of shoved it in their face?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:22",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "They were pretty skeptical and they found a guy who didn't know cybersecurity, into enterprise show up, who worked at Google and their track record of people leaving Google and being successful outside of Google is still...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:32",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Varied.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So basically you're saying the menu's open.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:38",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "I think we need the next six to 12 months to figure out how this AI settles down and how can we use that effectively in enterprises. I think if you think about it, uh, you know, the people keep hoping that less people will be needed to run companies. I actually have a counter view. I think we're going to have more people at Palo Alto on the technology side than we've ever had before. Because I think AI is causing everything to ask for a transformation. So I have more technical people today than I would have had if AI didn't exist.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:31:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Ladies and gentlemen, CEO of Palo Alto Networks, Nikesh Arora.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:31:10",
+      "ad": false,
+      "speaker": "Nikesh Arora",
+      "text": "Thank you guys.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:31:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Thank you, sir.",
+      "tone": "neutral"
+    }
+  ],
+  "highlights": [
+    "AI is democratizing intelligence by allowing large, diverse teams to produce consistent high-quality output and enabling companies to automate the complex \"system of work\" that previously required manual human intervention.",
+    "In cybersecurity, AI can identify vulnerabilities in a massive codebase in just six weeks that would have historically taken five to seven years to find, creating an urgent race between defenders and attackers.",
+    "The \"SaaS-pocalypse\" is shifting the software landscape; analytical SaaS is becoming obsolete as LLMs query data directly, while infrastructure software is increasingly valuable to support a projected tenfold growth in enterprise data storage.",
+    "Traditional user interfaces are expected to disappear in favor of agentic backends where AI agents handle data entry, paperwork, and cross-platform communication through natural language.",
+    "A major hurdle for AI in critical systems is the high false-positive rate, which makes models effective for attacking but risky for defense or autonomous applications where zero-error tolerance is required."
+  ],
+  "summary": "In this transcript, Nikesh Arora, CEO of Palo Alto Networks, discusses the transformative impact of AI on cybersecurity and the broader software industry. He emphasizes that AI \"democratizes intelligence,\" enabling large organizations to achieve unprecedented consistency across teams while accelerating technical tasks. A key highlight is the use of AI to identify code vulnerabilities; Arora notes that AI tools found security flaws in six weeks that would have traditionally taken humans five to seven years to uncover. This creates a high-stakes race between cyber defenders and attackers, particularly as advanced models become more accessible and open-sourced.\n\nArora also predicts a significant shift in the software-as-a-service (SaaS) landscape, suggesting that \"analytical SaaS\" is becoming obsolete as large language models (LLMs) allow companies to query their own data directly. While he believes infrastructure software is undervalued due to the massive data storage needs of AI, he envisions a future where traditional user interfaces are replaced by background AI agents that handle \"systems of work.\" This evolution allows enterprises to focus on the application layer, where the largest profit pools reside, and use AI to drive extreme operational efficiency.\n\nThe discussion concludes with a look at the broader tech economy, touching on the resilience of the hardware industry and the strategic positioning of major players like Google and OpenAI. Arora remains bullish on the \"AI-powered enterprise,\" arguing that the technology will not necessarily lead to smaller workforces, but rather a massive transformation in technical talent and corporate structure. By leveraging AI to optimize margins and automate record-keeping, he suggests that modern companies can achieve growth and profitability far beyond traditional industry standards.",
+  "description": "(0:00) Palo Alto Networks CEO Nikesh Arora joins the Besties!\n(0:47) Claude Mythos found years of vulnerabilities in Palo Alto's code in weeks\n(5:15) Are cyber defenders losing the race against AI attackers?\n(6:50) Analytical SaaS is dead, so what survives the AI wave?\n(14:06) If models become a utility, where will the money be made?\n(20:35) Armchair CEO: Nikesh rates Waymo, Google, and OpenAI\n(28:22) Palo Alto's M&A playbook and the path to $1 trillion\n\nFollow Nikesh:\nhttps://x.com/nikesharora\n\nFollow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@theallinpod\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\n#allin #tech #news",
+  "duration": 1881,
+  "people": [
+    "Jason Calacanis",
+    "Nikesh Arora",
+    "Palo Alto",
+    "Claude Mythos",
+    "Follow Nikesh",
+    "Intro Music"
+  ],
+  "topics": [
+    "AI's impact on cybersecurity and vulnerability detection",
+    "The decline of analytical SaaS and the rise of AI application layers",
+    "How agentic AI and LLMs are transforming enterprise software and user interfaces",
+    "Hardware and infrastructure requirements for the scaling AI era",
+    "The competitive landscape and profit potential of AI model companies versus hyperscalers"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/hObRMv6qCi0/maxresdefault.jpg",
+  "date": "20260608",
+  "youtube_url": "https://www.youtube.com/watch?v=hObRMv6qCi0",
+  "youtube_metadata": {
+    "title": "Palo Alto Networks CEO: \"AI Found 5 Years of Bugs in 6 Weeks\"",
+    "description": "(0:00) Palo Alto Networks CEO Nikesh Arora joins the Besties!\n(0:47) Claude Mythos found years of vulnerabilities in Palo Alto's code in weeks\n(5:15) Are cyber defenders losing the race against AI attackers?\n(6:50) Analytical SaaS is dead, so what survives the AI wave?\n(14:06) If models become a utility, where will the money be made?\n(20:35) Armchair CEO: Nikesh rates Waymo, Google, and OpenAI\n(28:22) Palo Alto's M&A playbook and the path to $1 trillion\n\nFollow Nikesh:\nhttps://x.com/nikesharora\n\nFollow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@theallinpod\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\n#allin #tech #news",
+    "duration": 1881,
+    "view_count": 25239,
+    "like_count": 758,
+    "channel": "All-In Podcast",
+    "upload_date": "20260608",
+    "thumbnail": "https://i.ytimg.com/vi/hObRMv6qCi0/maxresdefault.jpg",
+    "tags": [
+      "chamath",
+      "david sacks",
+      "david friedberg",
+      "jason calacanis",
+      "all in podcast",
+      "tech",
+      "news",
+      "politics",
+      "election",
+      "stocks",
+      "stock market",
+      "palihapitiya"
+    ]
+  }
+}
