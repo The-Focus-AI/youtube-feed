@@ -2,9 +2,9 @@
 channel: Lex Fridman
 channel_handle: "@lexfridman"
 channel_id: UCSHZKyawb77ixDdsGog4iWA
-total_videos: 36
-last_updated: 2026-04-25
-date_range: "2025-03-22 to 2026-04-09"
+total_videos: 38
+last_updated: 2026-06-08
+date_range: "2025-03-22 to 2026-05-29"
 ---
 
 # Lex Fridman Podcast Archive
@@ -15,16 +15,18 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 
 | Metric | Value |
 |--------|-------|
-| Total Videos Archived | 36 |
-| Total Views | 29,462,850 |
-| Date Range | Mar 22, 2025 - Apr 9, 2026 |
-| Average Video Length | 3:23:52 |
-| Total Watch Time | 122:19:34 |
+| Total Videos Archived | 38 |
+| Total Views | 30,141,106 |
+| Date Range | Mar 22, 2025 - May 29, 2026 |
+| Average Video Length | 3:21:33 |
+| Total Watch Time | 127:33:38 |
 
 ## Videos by Date
 
 | Date | Episode | Title | Duration | Views |
 |------|---------|-------|----------|-------|
+| 2026-05-29 | #497 | [Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE - Don Lincoln](videos/1M3Vdl6DRkU.md) | 2:53:42 | 387,600 |
+| 2026-05-06 | #496 | [FFmpeg: The Incredible Technology Behind Video on the Internet](videos/nepKKz-MzFM.md) | 4:18:22 | 290,656 |
 | 2026-04-09 | #495 | [Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age](videos/iKx3gAODybU.md) | 2:03:24 | 783,982 |
 | 2026-03-23 | #494 | [Jensen Huang: NVIDIA - The $4 Trillion Company & the AI Revolution](videos/vif8NQcjVf0.md) | 2:25:58 | 107,065 |
 | 2026-03-11 | #493 | [Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming](videos/H9rF1CSSh-w.md) | 5:10:12 | 13,904 |
@@ -90,11 +92,13 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 - **[DHH on Ruby on Rails](videos/vagyIcmIGOQ.md)** - Rails, leaving the cloud, small teams, racing
 - **[Dave Plummer on Microsoft](videos/HsLgZzgpz9Y.md)** - Task Manager, Windows 95, Space Cadet Pinball
 - **[OpenClaw: Peter Steinberger](videos/YFjfBk8HI5o.md)** - AI agents, viral coding projects
+- **[FFmpeg & VLC: Kempf and Kunhya](videos/nepKKz-MzFM.md)** - Open source video infrastructure, codecs, assembly, archiving
 
 ### Mathematics & Physics
 - **[Terence Tao](videos/HUkBz-cdB-k.md)** - Fields Medal winner on hardest math problems
 - **[Joel David Hamkins](videos/14OPT6CcsH4.md)** - Set theory, Godel incompleteness, infinity
 - **[Janna Levin](videos/A6m4iJIw_84.md)** - Black holes, gravitational waves, wormholes
+- **[Don Lincoln on Particle Physics](videos/1M3Vdl6DRkU.md)** - Fermilab physicist on Higgs, antimatter, dark energy, theory of everything
 
 ### History
 - **[James Holland on WW2](videos/cp1lprZUQcE.md)** - Hitler, Churchill, Stalin, D-Day
@@ -153,6 +157,8 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 - **DHH (David Heinemeier Hansson)** - Ruby on Rails creator, 37signals
 - **Dave Plummer** - Microsoft engineer, Task Manager creator
 - **Peter Steinberger** - OpenClaw creator, AI agent developer
+- **Jean-Baptiste Kempf** - VLC lead developer, VideoLAN president
+- **Kieran Kunhya** - FFmpeg contributor, codec engineer, open source advocate
 
 ### Mathematics & Science
 - **Terence Tao** - Fields Medal winner, greatest living mathematician
@@ -160,6 +166,7 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 - **Janna Levin** - Cosmologist, black hole expert
 - **Michael Levin** - Biologist, xenobots researcher
 - **David Kirtley** - Nuclear fusion engineer
+- **Don Lincoln** - Fermilab particle physicist, science communicator
 
 ### History
 - **James Holland** - WW2 historian
@@ -220,6 +227,15 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 ### Energy
 - **Helion Energy** - Fusion power
 
+### Particle Physics
+- **Fermilab** - Tevatron, neutrino accelerator, Higgs boson search
+- **CERN** - Large Hadron Collider, Higgs boson discovery (July 4, 2012)
+
+### Open Source / Video Infrastructure
+- **VideoLAN** - VLC, dav1d (AV1 decoder)
+- **FFmpeg** - Powers Netflix, YouTube, Chrome, Android video pipelines
+- **Alliance for Open Media** - AV1, AV2 codec consortium (Google, Netflix, Amazon, Mozilla)
+
 ### Combat Sports
 - **UFC** - UFC Performance Institute training footage
 
@@ -228,7 +244,7 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 
 ## Tag Cloud
 
-AI (6), Programming (6), History (5), Politics (5), Gaming (4), China (3), War (3), Israel (3), Trump (3), Mathematics (2), Physics (2), Ukraine (2), Russia (2), Iran (2), WW2 (2), Hitler (2), Libertarian (2), Fusion Energy (1), Nuclear Physics (1), Telegram (1), Privacy (1), Amazon (1), Conservation (1), Dinosaurs (1), T-Rex (1), Paleontology (1), Infinity (1), Set Theory (1), Godel (1), Black Holes (1), Gravitational Waves (1), Ancient History (1), Cuneiform (1), Churchill (1), Stalin (1), Genghis Khan (1), Mongol Empire (1), Ruby on Rails (1), Microsoft (1), Windows (1), Unreal Engine (1), Fortnite (1), Filmmaking (1), Sin City (1), Country Music (1), Nobel Prize (1), Fields Medal (1), DOGE (1), MMA (1), UFC (1), Martial Arts (1), Khabib (1), Grappling (1), Wrestling (1), World of Warcraft (1), Overwatch (1), Blizzard (1), Game Design (1), Online Toxicity (1), EverQuest (1), Music (1)
+AI (6), Programming (7), History (5), Politics (5), Gaming (4), Physics (3), China (3), War (3), Israel (3), Trump (3), Open Source (2), Mathematics (2), Ukraine (2), Russia (2), Iran (2), WW2 (2), Hitler (2), Libertarian (2), Particle Physics (1), Fermilab (1), Higgs Boson (1), Dark Energy (1), Dark Matter (1), Antimatter (1), Theory of Everything (1), Cosmology (1), Standard Model (1), FFmpeg (1), VLC (1), Video Codecs (1), AV1 (1), Assembly Code (1), Video Archiving (1), Fusion Energy (1), Nuclear Physics (1), Telegram (1), Privacy (1), Amazon (1), Conservation (1), Dinosaurs (1), T-Rex (1), Paleontology (1), Infinity (1), Set Theory (1), Godel (1), Black Holes (1), Gravitational Waves (1), Ancient History (1), Cuneiform (1), Churchill (1), Stalin (1), Genghis Khan (1), Mongol Empire (1), Ruby on Rails (1), Microsoft (1), Windows (1), Unreal Engine (1), Fortnite (1), Filmmaking (1), Sin City (1), Country Music (1), Nobel Prize (1), Fields Medal (1), DOGE (1), MMA (1), UFC (1), Martial Arts (1), Khabib (1), Grappling (1), Wrestling (1), World of Warcraft (1), Overwatch (1), Blizzard (1), Game Design (1), Online Toxicity (1), EverQuest (1), Music (1)
 
 ## External Links
 
