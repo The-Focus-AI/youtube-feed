@@ -1,8 +1,8 @@
 ---
 channel: MKBHD
 channel_handle: "@mkbhd"
-total_videos: 54
-last_updated: 2026-05-14
+total_videos: 57
+last_updated: 2026-06-08
 ---
 
 # MKBHD Channel Index
@@ -11,10 +11,10 @@ last_updated: 2026-05-14
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 54 |
-| Total Views | 224,833,852 |
-| Date Range | June 10, 2025 - May 13, 2026 |
-| Average Video Length | 12:30 |
+| Total Videos | 57 |
+| Total Views | 233,781,859 |
+| Date Range | June 10, 2025 - May 28, 2026 |
+| Average Video Length | 12:01 |
 
 ---
 
@@ -22,7 +22,10 @@ last_updated: 2026-05-14
 
 | Date | Title | Duration | Views |
 |------|-------|----------|-------|
+| 2026-05-28 | [The Hidden Tech Behind an NBA Broadcast!](videos/mk_wdHePbtQ.md) | 11:03 | 2,044,428 |
+| 2026-05-26 | [The Truth About the "Whoop Killer"](videos/9GSDvO0LFFE.md) | 17:42 | 3,751,241 |
 | 2026-05-13 | [“The Biggest Android Update Ever”](videos/eFeDpUVEy48.md) | 12:59 | 1,447,087 |
+| 2026-05-11 | [Why New Smartphone Cameras Feel Worse](videos/coX4duwUCpw.md) | 7:22 | 3,152,338 |
 | 2026-04-29 | [My Take on The New Apple](videos/i9TvUGeTltE.md) | 11:09 | 2,990,944 |
 | 2026-04-24 | [Glass is glass](videos/7YrdI7h2XoY.md) | 4:45 | 1,065,114 |
 | 2026-04-21 | [So This is Peak Smartphone](videos/c347oYQO57A.md) | 13:17 | 3,783,304 |
@@ -86,8 +89,8 @@ last_updated: 2026-05-14
 | Company | Videos | References |
 |---------|--------|------------|
 | **Apple** | 32 | WWDC 2025, iOS 26, iPhone 17, iPhone Air, AirPods Pro 3, Vision Pro, iPadOS 26, M5 chip, M5 Max, MacBook Neo, MacBook Neo Review, MacBook Pro M5 Max, Studio Display XDR, Siri, Apple Intelligence, Liquid Glass, A18 Pro, A19 Pro, iPhone Fold rumors, Tim Cook to Chairman, John Ternus CEO transition |
-| **Google** | 17 | Pixel 10, Pixel 10A, Gemini, Android 16, Android 17, Tensor G5, YouTube, Circle to Search, Google Books, Gemini Intelligence, Android Auto |
-| **Samsung** | 14 | Galaxy S26 Ultra Review, Galaxy S26/Ultra Impressions, Galaxy Buds 4 Pro, Galaxy Z Fold 7, Galaxy Z Flip 7, Z Tri Fold, Galaxy S25 Ultra, Galaxy Tab S11 Ultra |
+| **Google** | 18 | Pixel 10, Pixel 10A, Gemini, Android 16, Android 17, Tensor G5, YouTube, Circle to Search, Google Books, Gemini Intelligence, Android Auto, Google Health, Fitbit Air |
+| **Samsung** | 15 | Galaxy S26 Ultra Review, Galaxy S26/Ultra Impressions, Galaxy Buds 4 Pro, Galaxy Z Fold 7, Galaxy Z Flip 7, Z Tri Fold, Galaxy S25 Ultra, Galaxy Tab S11 Ultra, every Galaxy S1-S23 in the camera comparison |
 | **Nothing** | 6 | Nothing Phone 3, Nothing Headphone 1, CMF Phone 2 Pro, Glyph Matrix |
 | **Nintendo** | 1 | Switch 2, Joy-Cons, Mario Kart World |
 | **Xiaomi** | 6 | Xiaomi 17 Pro Max, Xiaomi 17 Ultra, Xiaomi SU7, mini massage gun |
@@ -108,7 +111,18 @@ last_updated: 2026-05-14
 | **Huawei** | 2 | Mate XT trifold |
 | **Vertu** | 1 | Agent Q luxury phone |
 | **1X Technologies** | 1 | NEO humanoid robot |
-| **Nikon/RED** | 1 | Nikon ZR camera |
+| **Nikon/RED** | 2 | Nikon ZR camera, Nikon D4 and RED on NBA stanchion |
+| **NBC** | 1 | NBA playoff broadcast tour |
+| **NBA / San Antonio Spurs** | 1 | NBA broadcast tech tour |
+| **Sony (broadcast)** | 1 | Sony P50 broadcast box, $50,000 game cameras |
+| **Canon (broadcast)** | 1 | Canon 122 (8-1000mm 122x zoom), Canon 14x cable cam lens |
+| **Sennheiser** | 1 | MKH 416 shotgun mic, used in NBA arena and MKBHD studio |
+| **EVS** | 1 | NBA replay truck controller (wheel + lever) |
+| **Whoop** | 1 | Whoop 4.0 vs Fitbit Air comparison |
+| **Fitbit** | 1 | Fitbit Air vs Whoop, Google Health |
+| **Oura** | 1 | Oura Ring 4 as third comparison in fitness tracker test |
+| **Garmin** | 1 | Referenced as specialized tracker Fitbit Air defers to |
+| **8-Sleep** | 1 | Referenced as sleep tracker Fitbit Air defers to |
 
 ### Products
 
@@ -158,6 +172,20 @@ last_updated: 2026-05-14
 | Android 17 | "The Biggest Android Update Ever" | [Summary](videos/eFeDpUVEy48.md) |
 | Google Books (Chromebooks) | "The Biggest Android Update Ever" | [Summary](videos/eFeDpUVEy48.md) |
 | Gemini Intelligence | "The Biggest Android Update Ever" | [Summary](videos/eFeDpUVEy48.md) |
+| Fitbit Air | The Truth About the "Whoop Killer" | [Summary](videos/9GSDvO0LFFE.md) |
+| Whoop 4.0 | The Truth About the "Whoop Killer" | [Summary](videos/9GSDvO0LFFE.md) |
+| Oura Ring 4 | The Truth About the "Whoop Killer" | [Summary](videos/9GSDvO0LFFE.md) |
+| Apple Watch Series 10 | The Truth About the "Whoop Killer" | [Summary](videos/9GSDvO0LFFE.md) |
+| Google Health app | The Truth About the "Whoop Killer" | [Summary](videos/9GSDvO0LFFE.md) |
+| Sony P50 broadcast box | The Hidden Tech Behind an NBA Broadcast! | [Summary](videos/mk_wdHePbtQ.md) |
+| Canon 122 (8-1000mm zoom) | The Hidden Tech Behind an NBA Broadcast! | [Summary](videos/mk_wdHePbtQ.md) |
+| Sennheiser MKH 416 | The Hidden Tech Behind an NBA Broadcast! | [Summary](videos/mk_wdHePbtQ.md) |
+| Ronin 2 (cable cam) | The Hidden Tech Behind an NBA Broadcast! | [Summary](videos/mk_wdHePbtQ.md) |
+| EVS replay controller | The Hidden Tech Behind an NBA Broadcast! | [Summary](videos/mk_wdHePbtQ.md) |
+| Nikon D4 (backboard stills) | The Hidden Tech Behind an NBA Broadcast! | [Summary](videos/mk_wdHePbtQ.md) |
+| Halide | Why New Smartphone Cameras Feel Worse | [Summary](videos/coX4duwUCpw.md) |
+| MotionCam | Why New Smartphone Cameras Feel Worse | [Summary](videos/coX4duwUCpw.md) |
+| Pixel 10 (backlit demo) | Why New Smartphone Cameras Feel Worse | [Summary](videos/coX4duwUCpw.md) |
 
 ### Technologies
 
@@ -181,6 +209,9 @@ last_updated: 2026-05-14
 | **Nanotexture Glass** | 1 | Studio Display XDR anti-glare coating, improved over Pro Display XDR generation |
 | **CEO/Leadership Transitions** | 1 | Apple Tim Cook to Chairman, John Ternus to CEO, Johny Srouji to head hardware |
 | **Agentic AI** | 1 | Gemini Intelligence one-click flows, ticket purchase agents |
+| **Computational Photography** | 1 | Multi-frame HDR, tone mapping, face detection, exposure adjustment; the smartphone camera era of "the camera refuses to take a bad photo" |
+| **Live Broadcast Production** | 1 | 40-50 cameras, 6 broadcast trucks, EVS controllers, 180fps replay sources, real-time white-balancing and audio mixing |
+| **Fitness Tracking** | 1 | Whoop strain (0-21), Fitbit cardio load, Oura cardio load, calibration periods, screenless puck form factor |
 
 ---
 
@@ -234,6 +265,26 @@ last_updated: 2026-05-14
 | preview | 1 |
 | review | 1 |
 | Googlebook | 1 |
+| NBA | 1 |
+| NBA broadcast | 1 |
+| NBA tech | 1 |
+| Spurs | 1 |
+| Thunder | 1 |
+| broadcast technology | 1 |
+| live production | 1 |
+| Fitbit | 1 |
+| Fitbit Air | 1 |
+| whoop killer | 1 |
+| fitness tracker | 1 |
+| Whoop | 1 |
+| Oura Ring | 1 |
+| smartphone camera | 1 |
+| phone cameras | 1 |
+| camera processing | 1 |
+| processing | 1 |
+| cameras | 1 |
+| HDR | 1 |
+| computational photography | 1 |
 
 ---
 
@@ -261,6 +312,7 @@ Full in-depth reviews of products after extended use.
 
 | Video | Product | Date |
 |-------|---------|------|
+| [The Truth About the "Whoop Killer"](videos/9GSDvO0LFFE.md) | Fitbit Air vs Whoop 4.0 vs Oura Ring 4 vs Apple Watch | 2026-05-26 |
 | [Nothing Phone 4A/Pro Review: I Have a Theory](videos/D4QyStJWgCc.md) | Nothing Phone 4A/Pro | 2026-03-19 |
 | [Macbook Neo Review: Better than you Think!](videos/iGeXGdYE7UE.md) | MacBook Neo | 2026-03-10 |
 | [Apple Studio Display XDR Review: We're All Pros Now!](videos/yWI33R4xyIc.md) | Studio Display XDR | 2026-03-09 |
@@ -305,6 +357,8 @@ Deep dives into technology, concepts, or industry analysis.
 
 | Video | Topic | Date |
 |-------|-------|------|
+| [The Hidden Tech Behind an NBA Broadcast!](videos/mk_wdHePbtQ.md) | NBA broadcast gear, Sony P50, Canon 122, EVS replay, live production | 2026-05-28 |
+| [Why New Smartphone Cameras Feel Worse](videos/coX4duwUCpw.md) | Computational photography, over-processing, every iPhone & Galaxy S compared | 2026-05-11 |
 | [My Take on The New Apple](videos/i9TvUGeTltE.md) | Apple CEO transition, Tim Cook to Chairman, John Ternus era | 2026-04-29 |
 | [Glass is glass](videos/7YrdI7h2XoY.md) | Smartphone glass durability marketing | 2026-04-24 |
 | [The Windows Laptop Problem](videos/eXa2ndhmatI.md) | Windows OEM structural issues | 2026-03-25 |
@@ -351,6 +405,9 @@ All video summaries are available in the `videos/` directory:
 
 | Video ID | File |
 |----------|------|
+| mk_wdHePbtQ | [videos/mk_wdHePbtQ.md](videos/mk_wdHePbtQ.md) |
+| 9GSDvO0LFFE | [videos/9GSDvO0LFFE.md](videos/9GSDvO0LFFE.md) |
+| coX4duwUCpw | [videos/coX4duwUCpw.md](videos/coX4duwUCpw.md) |
 | eFeDpUVEy48 | [videos/eFeDpUVEy48.md](videos/eFeDpUVEy48.md) |
 | i9TvUGeTltE | [videos/i9TvUGeTltE.md](videos/i9TvUGeTltE.md) |
 | 7YrdI7h2XoY | [videos/7YrdI7h2XoY.md](videos/7YrdI7h2XoY.md) |
