@@ -1,8 +1,8 @@
 ---
 channel: Dwarkesh Patel
 channel_handle: "@DwarkeshPatel"
-total_videos: 28
-last_updated: 2026-05-14
+total_videos: 33
+last_updated: 2026-06-08
 ---
 
 # Dwarkesh Patel Channel Index
@@ -11,15 +11,20 @@ last_updated: 2026-05-14
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 28 |
-| Total Views | 14,330,509 |
-| Date Range | 2025-05-29 to 2026-04-15 |
-| Average Video Length | 1:33:31 |
+| Total Videos | 33 |
+| Total Views | 14,550,958 |
+| Date Range | 2025-05-29 to 2026-06-04 |
+| Average Video Length | 1:39:00 |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [The better AI gets, the smaller its share of the economy might get – Alex Imas and Phil Trammell](videos/Jj-kBHzUohs.md) | 1:16:08 | 70,778 |
+| [Chip design from the bottom up – Reiner Pope](videos/oIk3R-sMX5o.md) | 1:20:19 | 149,671 |
+| [What rebuilding AlphaGo teaches us about self-play, RL, and future of LLMs - Eric Jang](videos/X_ZVSPcZhtw.md) | 2:37:17 | — |
+| [David Reich – Bronze Age shock, the Neanderthal puzzle, & the sudden spread of farming](videos/sRKBGVFVYAw.md) | 2:13:50 | — |
+| [How GPT, Claude, and Gemini are actually trained and served – Reiner Pope](videos/xmkSf5IS-zw.md) | 2:13:40 | — |
 | [Jensen Huang – Will Nvidia's moat persist?](videos/Hrbq66XqtCo.md) | 1:43:13 | 680,595 |
 | [Michael Nielsen – Why aliens will have a different tech stack than us](videos/myP8UjAM1pk.md) | 2:03:03 | 135,321 |
 | [Terence Tao -- How the world's top mathematician uses AI](videos/Q8Fkpi18QXU.md) | 1:23:44 | 211,903 |
@@ -145,7 +150,14 @@ last_updated: 2026-05-14
 - **Ding Xuexiang** ([Victor Shih interview](videos/b1TeeIG6Uaw.md)) - Xi's chief of staff, runs Central Cybersecurity & Science/Tech commissions
 - **Albert Einstein** ([Michael Nielsen interview](videos/myP8UjAM1pk.md)) - Special relativity origin story, Michelson-Morley revisionism
 - **Hendrik Lorentz / Henri Poincaré** ([Michael Nielsen interview](videos/myP8UjAM1pk.md)) - Pre-Einstein ether/relativity contributors
-- **Aristarchus of Samos** ([Michael Nielsen interview](videos/myP8UjAM1pk.md)) - Ancient heliocentrist, stellar parallax argument
+- **Aristarchus of Samos** ([Michael Nielsen interview](videos/myP8UjAM1pk.md), [David Reich interview](videos/sRKBGVFVYAw.md)) - Ancient heliocentrist; analogy invoked again for Reich's Neanderthal model
+- **Reiner Pope** ([Reiner Pope chip lecture](videos/oIk3R-sMX5o.md), [Reiner Pope LLM lecture](videos/xmkSf5IS-zw.md)) - MatX CEO, former TPU architect at Google; two blackboard lectures on chips and LLM serving
+- **Eric Jang** ([Eric Jang interview](videos/X_ZVSPcZhtw.md)) - Former 1X VP of AI; rebuilt AlphaGo from scratch for $10K
+- **David Reich** ([David Reich interview](videos/sRKBGVFVYAw.md)) - Harvard ancient DNA geneticist; Bronze Age selection and Neanderthal puzzle
+- **Alex Imas** ([Imas/Trammell interview](videos/Jj-kBHzUohs.md)) - Google DeepMind Director of AGI Economics, U Chicago professor
+- **Phil Trammell** ([Imas/Trammell interview](videos/Jj-kBHzUohs.md)) - Economist working on the economics of AGI
+- **Ali Akbari** ([David Reich interview](videos/sRKBGVFVYAw.md)) - Co-author of new natural selection paper; developed the GRM-based selection methodology
+- **Andy Hall** ([Imas/Trammell interview](videos/Jj-kBHzUohs.md)) - Political economist; 2% unemployment shifts political winds
 
 ### Technologies
 - **Printing Press / Movable Type** - [Ada Palmer interview](videos/PAIhVfGbREA.md)
@@ -204,6 +216,30 @@ last_updated: 2026-05-14
 - **Formal Verification / Lean** - [Terence Tao interview](videos/Q8Fkpi18QXU.md), [Adam Marblestone interview](videos/_9V_Hbe-N1A.md)
 - **Cortex / Steering vs Learning Subsystems** - [Adam Marblestone interview](videos/_9V_Hbe-N1A.md)
 - **Connectomics** - [Adam Marblestone interview](videos/_9V_Hbe-N1A.md)
+- **Logic Gates / Multiply-Accumulate / Dadda Multiplier** - [Reiner Pope chip lecture](videos/oIk3R-sMX5o.md)
+- **Systolic Array / Splittable Systolic Array** - [Reiner Pope chip lecture](videos/oIk3R-sMX5o.md), [Reiner Pope LLM lecture](videos/xmkSf5IS-zw.md)
+- **Mux / FPGA / Lookup Table** - [Reiner Pope chip lecture](videos/oIk3R-sMX5o.md)
+- **Cache vs Scratchpad** - [Reiner Pope chip lecture](videos/oIk3R-sMX5o.md)
+- **Pipeline Parallelism / Expert Parallelism / Scale-up vs Scale-out** - [Reiner Pope LLM lecture](videos/xmkSf5IS-zw.md)
+- **KV Cache / Mixture of Experts** - [Reiner Pope LLM lecture](videos/xmkSf5IS-zw.md)
+- **Prefill vs Decode / Memory Bandwidth Wall** - [Reiner Pope LLM lecture](videos/xmkSf5IS-zw.md)
+- **Chinchilla / Overtraining / RL Compute** - [Reiner Pope LLM lecture](videos/xmkSf5IS-zw.md)
+- **Monte Carlo Tree Search (MCTS) / PUCT / UCB** - [Eric Jang interview](videos/X_ZVSPcZhtw.md)
+- **Self-Play (AlphaGo / AlphaZero / MuZero)** - [Eric Jang interview](videos/X_ZVSPcZhtw.md)
+- **Policy Gradient RL / Credit Assignment** - [Eric Jang interview](videos/X_ZVSPcZhtw.md)
+- **TD Learning / Q-Learning** - [Eric Jang interview](videos/X_ZVSPcZhtw.md), [Richard Sutton interview](videos/21EYKqUsPfg.md)
+- **Bits-Per-FLOP RL Limit** - [Eric Jang interview](videos/X_ZVSPcZhtw.md)
+- **Autoresearch / Automated AI Research** - [Eric Jang interview](videos/X_ZVSPcZhtw.md)
+- **Ancient DNA Methodology / Polygenic Scores** - [David Reich interview](videos/sRKBGVFVYAw.md)
+- **Genetic Relatedness Matrix (GRM)** - [David Reich interview](videos/sRKBGVFVYAw.md)
+- **Selection Statistic / Bronze Age Selection** - [David Reich interview](videos/sRKBGVFVYAw.md)
+- **Genetic Swamping (Neanderthal Hypothesis)** - [David Reich interview](videos/sRKBGVFVYAw.md)
+- **Mousterian / Levallois / Middle Stone Age** - [David Reich interview](videos/sRKBGVFVYAw.md)
+- **Labor Share / Capital Share / Kaldor Facts** - [Imas/Trammell interview](videos/Jj-kBHzUohs.md)
+- **Task-Based Model of Jobs / Relational Sector** - [Imas/Trammell interview](videos/Jj-kBHzUohs.md)
+- **Universal Basic Capital / Wealth Tax / VAT / Georgist Tax** - [Imas/Trammell interview](videos/Jj-kBHzUohs.md)
+- **O-Ring Model / Elasticity of Demand** - [Imas/Trammell interview](videos/Jj-kBHzUohs.md)
+- **Messy Middle (AGI redistribution)** - [Imas/Trammell interview](videos/Jj-kBHzUohs.md)
 
 ## Tag Cloud
 - AI (10)
@@ -472,16 +508,20 @@ last_updated: 2026-05-14
 - FRO (1)
 
 ## Video Categories
-- **Interviews** - [Terence Tao interview](videos/Q8Fkpi18QXU.md), [Dylan Patel interview](videos/mDG_Hx3BSUE.md), [Ada Palmer interview](videos/PAIhVfGbREA.md), [Elon Musk interview](videos/BYXbuik3dgA.md), [Sarah Paine lecture](videos/RH_ycZYH8-s.md), [Andrej Karpathy interview](videos/lXUZvyajciY.md), [Nick Lane interview](videos/0GMWxuYuxJI.md), [Richard Sutton interview](videos/21EYKqUsPfg.md), [Sergey Levine interview](videos/48pxVdmkMIE.md), [Sarah Paine WWII lecture](videos/SdMgOXfSBQw.md), [Jacob Kimmel interview](videos/XCLODgdCmKA.md), [Casey Handmer interview](videos/3cDHx2_QbPE.md), [Lewis Bollard interview](videos/kWcPg8t1kJ4.md), [Sarah Paine Japan lecture](videos/KxIeJjEGLdo.md), [Stephen Kotkin interview](videos/YMfd3EoHfPI.md), [Satya Nadella interview](videos/8-boBsWcr5A.md), [Ilya Sutskever interview](videos/aR20FWCCjAs.md), [Dario Amodei interview](videos/n1E9IZfvGMA.md), [Adam Marblestone interview](videos/_9V_Hbe-N1A.md), [Sarah Paine Cold War lecture](videos/FdkpWrlR5zg.md), [Michael Nielsen interview](videos/myP8UjAM1pk.md), [Jensen Huang interview](videos/Hrbq66XqtCo.md), [Victor Shih interview](videos/b1TeeIG6Uaw.md), [Ken Rogoff interview](videos/P2b4TjQa4gk.md)
+- **Interviews** - [Terence Tao interview](videos/Q8Fkpi18QXU.md), [Dylan Patel interview](videos/mDG_Hx3BSUE.md), [Ada Palmer interview](videos/PAIhVfGbREA.md), [Elon Musk interview](videos/BYXbuik3dgA.md), [Sarah Paine lecture](videos/RH_ycZYH8-s.md), [Andrej Karpathy interview](videos/lXUZvyajciY.md), [Nick Lane interview](videos/0GMWxuYuxJI.md), [Richard Sutton interview](videos/21EYKqUsPfg.md), [Sergey Levine interview](videos/48pxVdmkMIE.md), [Sarah Paine WWII lecture](videos/SdMgOXfSBQw.md), [Jacob Kimmel interview](videos/XCLODgdCmKA.md), [Casey Handmer interview](videos/3cDHx2_QbPE.md), [Lewis Bollard interview](videos/kWcPg8t1kJ4.md), [Sarah Paine Japan lecture](videos/KxIeJjEGLdo.md), [Stephen Kotkin interview](videos/YMfd3EoHfPI.md), [Satya Nadella interview](videos/8-boBsWcr5A.md), [Ilya Sutskever interview](videos/aR20FWCCjAs.md), [Dario Amodei interview](videos/n1E9IZfvGMA.md), [Adam Marblestone interview](videos/_9V_Hbe-N1A.md), [Sarah Paine Cold War lecture](videos/FdkpWrlR5zg.md), [Michael Nielsen interview](videos/myP8UjAM1pk.md), [Jensen Huang interview](videos/Hrbq66XqtCo.md), [Victor Shih interview](videos/b1TeeIG6Uaw.md), [Ken Rogoff interview](videos/P2b4TjQa4gk.md), [Imas/Trammell interview](videos/Jj-kBHzUohs.md), [Eric Jang interview](videos/X_ZVSPcZhtw.md), [David Reich interview](videos/sRKBGVFVYAw.md)
+- **Blackboard Lectures** - [Reiner Pope chip lecture](videos/oIk3R-sMX5o.md), [Reiner Pope LLM lecture](videos/xmkSf5IS-zw.md), [Eric Jang interview](videos/X_ZVSPcZhtw.md)
 - **Commentary/Reflections** - [Some thoughts on the Sutton interview](videos/u3HBJVjpXuw.md), [Why I don't think AGI is right around the corner](videos/nyvmYnz6EAg.md), [The Department of War is making a huge mistake.](videos/KBPOTklFTiU.md), [What are we scaling?](videos/_zgnSbu5GqE.md)
 - **Geopolitics/History** - [Ada Palmer interview](videos/PAIhVfGbREA.md), [Sarah Paine lecture](videos/RH_ycZYH8-s.md), [Sarah Paine WWII lecture](videos/SdMgOXfSBQw.md), [Sarah Paine Japan lecture](videos/KxIeJjEGLdo.md), [Sarah Paine Cold War lecture](videos/FdkpWrlR5zg.md), [Stephen Kotkin interview](videos/YMfd3EoHfPI.md), [Victor Shih interview](videos/b1TeeIG6Uaw.md), [Ken Rogoff interview](videos/P2b4TjQa4gk.md)
-- **AI/Machine Learning** - [Karpathy interview](videos/lXUZvyajciY.md), [Sutton interview](videos/21EYKqUsPfg.md), [Levine interview](videos/48pxVdmkMIE.md), [Elon Musk interview](videos/BYXbuik3dgA.md), [Why I don't think AGI is right around the corner](videos/nyvmYnz6EAg.md), [Department of War commentary](videos/KBPOTklFTiU.md), [Satya Nadella interview](videos/8-boBsWcr5A.md), [Ilya Sutskever interview](videos/aR20FWCCjAs.md), [Dario Amodei interview](videos/n1E9IZfvGMA.md), [Adam Marblestone interview](videos/_9V_Hbe-N1A.md), [Jensen Huang interview](videos/Hrbq66XqtCo.md), [Dylan Patel interview](videos/mDG_Hx3BSUE.md), [What are we scaling?](videos/_zgnSbu5GqE.md), [Terence Tao interview](videos/Q8Fkpi18QXU.md)
+- **AI/Machine Learning** - [Karpathy interview](videos/lXUZvyajciY.md), [Sutton interview](videos/21EYKqUsPfg.md), [Levine interview](videos/48pxVdmkMIE.md), [Elon Musk interview](videos/BYXbuik3dgA.md), [Why I don't think AGI is right around the corner](videos/nyvmYnz6EAg.md), [Department of War commentary](videos/KBPOTklFTiU.md), [Satya Nadella interview](videos/8-boBsWcr5A.md), [Ilya Sutskever interview](videos/aR20FWCCjAs.md), [Dario Amodei interview](videos/n1E9IZfvGMA.md), [Adam Marblestone interview](videos/_9V_Hbe-N1A.md), [Jensen Huang interview](videos/Hrbq66XqtCo.md), [Dylan Patel interview](videos/mDG_Hx3BSUE.md), [What are we scaling?](videos/_zgnSbu5GqE.md), [Terence Tao interview](videos/Q8Fkpi18QXU.md), [Eric Jang interview](videos/X_ZVSPcZhtw.md), [Reiner Pope LLM lecture](videos/xmkSf5IS-zw.md)
 - **Energy/Climate** - [Casey Handmer interview](videos/3cDHx2_QbPE.md)
-- **Science/Biology** - [Nick Lane interview](videos/0GMWxuYuxJI.md), [Jacob Kimmel interview](videos/XCLODgdCmKA.md), [Adam Marblestone interview](videos/_9V_Hbe-N1A.md), [Michael Nielsen interview](videos/myP8UjAM1pk.md)
+- **Science/Biology** - [Nick Lane interview](videos/0GMWxuYuxJI.md), [Jacob Kimmel interview](videos/XCLODgdCmKA.md), [Adam Marblestone interview](videos/_9V_Hbe-N1A.md), [Michael Nielsen interview](videos/myP8UjAM1pk.md), [David Reich interview](videos/sRKBGVFVYAw.md)
 - **Ethics/Animal Welfare** - [Lewis Bollard interview](videos/kWcPg8t1kJ4.md)
 - **Military History/Strategy** - [Sarah Paine WWII lecture](videos/SdMgOXfSBQw.md), [Sarah Paine Japan lecture](videos/KxIeJjEGLdo.md), [Sarah Paine Cold War lecture](videos/FdkpWrlR5zg.md)
 - **Longevity/Aging** - [Jacob Kimmel interview](videos/XCLODgdCmKA.md)
 - **AI Policy/Regulation** - [The Department of War is making a huge mistake.](videos/KBPOTklFTiU.md)
-- **Economics/Macro** - [Ken Rogoff interview](videos/P2b4TjQa4gk.md), [Victor Shih interview](videos/b1TeeIG6Uaw.md)
-- **Semiconductors/Compute** - [Jensen Huang interview](videos/Hrbq66XqtCo.md), [Dylan Patel interview](videos/mDG_Hx3BSUE.md)
+- **Economics/Macro** - [Ken Rogoff interview](videos/P2b4TjQa4gk.md), [Victor Shih interview](videos/b1TeeIG6Uaw.md), [Imas/Trammell interview](videos/Jj-kBHzUohs.md)
+- **Semiconductors/Compute** - [Jensen Huang interview](videos/Hrbq66XqtCo.md), [Dylan Patel interview](videos/mDG_Hx3BSUE.md), [Reiner Pope chip lecture](videos/oIk3R-sMX5o.md), [Reiner Pope LLM lecture](videos/xmkSf5IS-zw.md)
 - **Philosophy of Science** - [Michael Nielsen interview](videos/myP8UjAM1pk.md), [Terence Tao interview](videos/Q8Fkpi18QXU.md)
+- **Human Evolution / Genetics** - [David Reich interview](videos/sRKBGVFVYAw.md)
+- **AGI Economics** - [Imas/Trammell interview](videos/Jj-kBHzUohs.md)
+- **Reinforcement Learning / Self-Play** - [Eric Jang interview](videos/X_ZVSPcZhtw.md), [Sutton interview](videos/21EYKqUsPfg.md)

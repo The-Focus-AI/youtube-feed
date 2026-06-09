@@ -1,0 +1,1970 @@
+{
+  "title": "Chip design from the bottom up – Reiner Pope",
+  "source_url": "https://www.youtube.com/watch?v=oIk3R-sMX5o",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "I'm back with Reiner Pope who is the CEO of Madix, which is a new AI chip company. Last time we were talking about what happens inside a data center. Now I want to understand what happens inside an AI chip. How does a chip actually work? Full disclosure, by the way, I am an angel investor in Madix, um, so hopefully you have designed a good chip.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:20",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So I'll start with sort of the very smallest fundamental unit of of of chip design and then we'll sort of build up into what an overall like actual production chip, what are the components of that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:33",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "At the very bottom level of a chip, the primitives that we work with are uh logic gates, um which are very simple things like and or not, um and then these are connected together by by wires that have to be laid out uh physically as metal traces on a chip.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:00:54",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "The main function that that AI chips want to compute is uh multiplication of matrices and really inside that is the fundamental primitive is multiply-accumulate just like of of pairs of numbers.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:01:13",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So we're going to sort of demonstrate what that calculation looks like by hand and then sort of infer what what a uh circuit would look like for that.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:01:23",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "It'll turn out to be sort of easiest if I do multiplication uh accumulate something like a um a four-bit number um with another four-bit number, um and then we're going to the the actual clearest primitive is actually um multiply-accumulate so there's a multiply these two terms and then we're going to add in so product of these two terms and then we're going to add in an eight-bit uh number.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:01:45",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And and can I ask a clarifying question? Why is this the um natural primitive for um you know whatever computation happens inside a computer?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:01:51",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah, so um there's a few reasons for this. Um it it's a little bit more efficient um but the the reason it's natural for AI chips is that if you look what's happening during a matrix multiply, the uh what is matrix multiply in very short? It is um uh there's a for loop over I and over J and over K",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:02:11",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "of output I K plus equals to uh input I J times other input J K.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:02:32",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "And so multiply-accumulate happens at every single step of of a matrix multiply.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:38",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Makes sense.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:39",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "And then the other observation is that um the precision will almost always be higher in the accumulation step than in the multiplication step. Um this is maybe specific to AI chips uh but you're you're multiplying low precision numbers but then when you accumulate uh errors accumulate quickly and so you need more precision here. So this is why we've chosen to do a four-bit multiplication and an eight-bit addition.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:02:58",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Let me make sure I understood that.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "There's two ways to understand that, one is that the value will be larger than the inputs, and the other is that if it was a floating point number it would be maybe that that part is like less intuitive to me, but it's maybe the same principle.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:03:14",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "It is really the same principle. Um, I guess the so I mean I guess the separate principle is that as you are summing up this number, you are summing up a whole bunch of numbers, and so you've got a lot of rounding errors accumulating, whereas in this case, there's like there's only one multiplication in that chain, and so there's not a lot of rounding errors accumulating in the multiplication.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:32",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Why are you summing up a whole bunch of numbers, it's just two numbers?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:34",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Just I mean, this summation happens it's repeated j... j... times and so...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:03:39",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Oh I see I see I see I see so yeah any errors accumulate I see yeah I see.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:44",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So, how would we perform this calculation by hand? I mean as a human we would probably separate it into two, but we can sort of do it all all in one um using long multiplication. So the multiplication term first, we're going to multiply this number, this 4-bit number here, by every single bit position in the other 4-bit number. So we write that out. Um, first 1001 multiplied by this bit position... that is this number itself. Then shifted across by one, we're multiplying by zero... that gives us an all zeros number. Shifted um across even one more to multiply by this one... we get 1001. And then finally for this last last bit position, we get another all zeros number again. So this this sort of gives us a bunch of terms that we're going to have to add for the um for the multiplication. And then while we're doing that uh summation of this, we might as well add in the the actual accumulator term as well and so we just copy that directly across. So, so this is the sum, it's a it's a 5-way sum that we're going to want to compute.",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:05:11",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So firstly, what what logic gates did it take us to even get to this intermediate step? We needed to uh produce all 16 of these partial products.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:05:22",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Mm-hm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:23",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "How do I produce one of these partial products? So let's take this this number one for example here, it is one, so what was how do we produce this number by multiplying this number by this one over here?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:05:37",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "We can actually produce that by an AND gate, this this number is one if both this bit is one and this bit is one. If either of them is zero, then the multiplication of one times one um of zero times anything is zero. So to produce all of this stuff, we ended up uh consuming 16 AND gates. Or in the general case, if I were doing a like a P-bit multiply times a Q-bit multiply...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Then this will be like P times Q many ANDs.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:08",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Right?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:10",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Finally I sum them. Actually, most of the work is going to happen in the summing. Um, and so let me describe, uh, sort of the other logic gate that we use here. AND is almost the simplest logic gate that exists on a chip. It's, it's, it's almost the smallest. Um, at the other extreme, typically the very largest logic gate that you'll use is something called a full adder.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:39",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "And what this does is sort of, it does, like, coming from software, you might think that a full adder adds 32-bit numbers together. In this case, it just adds three single-bit numbers together. And so you can think of it as like adding 0, 1, and 1 together. Now, when I add these together, the net result can be 0, 1, 2, or 3. So I can express that in binary using just two bits. So it, it, as input it has three bits and as output it has two bits, which in this case are 1 and, like, the number 2 in binary is 1-0.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:08",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So so this is also known as a three-to-two compressor because it takes three bits of input and produces two bits of output.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "The two inputs are an X and a Y value and then some carry that was- that came in from like-",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:31",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "The- sorry, the the three inputs are uh, all bits that are in the same sort of bit position, like three bits that are in a column here. Yeah, okay. And then the two outputs, um, I have sort of drawn them vertically here and horizontally here to kind of match this vertical versus horizontal layout here, which is expressing that um, things that are in the same column are in the same like bit position, um, whereas things that are in adjacent columns, like this is a carry out, whereas this was a sum.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:04",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "So if the inputs in the full adder are, let's say, like 1-0-1, then the output will still be 1-0. If it was 1-1-1, it'd be 1-1. If it was 0-0-0, it'd be 0-0. If it was like 0-1-0, it'd still be 0-1. So yeah, it's just counting essentially the number of, uh, number of things and expressing that in binary.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:22",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So this circuit actually can sort of capture what we as humans naturally do, um, when we're, when we're doing summing along a column. So, uh, I can show that sort of, I'll show sort of one iteration of using the full adder to sum. Um, the way I sum here is going to be a little bit unnatural for humans. Humans would sort of sum along the column and then remember the carry, um, but, uh, instead of remembering the carry, we'll actually just explicitly write it out. So in this we proceed from the rightmost column towards the left. On the rightmost column, we sum the 1 and the 1 and that produces like a, a 0 here and a carry of 1. So we've, we've sort of used a, this full adder circuit on this pair of bits and produced a pair of bits as output. Now we can do the-",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Same thing with this column, we've got a column of one, two, three, four numbers, and so maybe we'll like take the first three of them, run a full adder on them, and that gives us a zero and a zero as output. Um, so like the sum of these is zero-zero. And so that's the full compressor full adder applied to all these bits. As I've used up bits, I'm going to sort of just cross them out to indicate that I've I've handled them.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:25",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Let's just keep going a little more, so we'll we'll go here. I take these three numbers, I add them, that gives me a one and a zero. I've dealt with these three numbers. And now I take one, two, and I can even take these three numbers, for example, right now, and add them, and that gives me a one and a zero and I've dealt with these numbers.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:48",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So, I can sort of like the way I should view this is that I have this whole grid of numbers that need to be added. I'm going to just keep applying full adders to all the bits that are here, constantly removing three numbers from a column and then writing out two numbers as output. Um, keep going with this over and over and over and again until I eventually get like some just one single number coming out here. Something like that. Uh, this is probably the wrong sum.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:17",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So, so this approach that I've described here, this is called a Dadda multiplier. Um, and this is sort of like the standard for how how you do area efficient multiplies using full adders.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:34",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Let's try and quantify the circuit size of this just so we've got a sense of like how big things are so we can compare to them later. How many full adders do I did I use? I started with how many numbers? I have the 16 partial products, which is the product of all of these terms with all of these terms, plus the eight terms that I'm adding here. So I I started off with 24 bits.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:08",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "And then on I produced eight bits on the output eventually. And in every step I was sort of crossing off three numbers and writing two numbers out as in result. And so every single use of a full adder eliminates one of the bits here. And so how many full adders it must be the 24 minus the eight, so that there were 16 full adders in this circuit. In general, this is true in the general case as well, there will be P times Q many full adders in this circuit.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:38",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Let me just make sure I understand the logic of that. So the input bits 24 is P times Q plus P plus Q.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:47",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "That's right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:48",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And the output bits is just P plus Q. And so P times Q plus P plus Q minus P plus Q equals P times Q.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:58",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "That's right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "So I think this explains...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "sort of or at least hints at the second reason why we chose to do a multiply accumulate. First reason being that's actually what shows up in matrix multiplication, but second reason being it gave us this very slick P times Q, very simple algebra.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:15",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Mhmm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:16",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So we've sort of described like this this whole procedure, every single atomic step that I took here becomes a logic gate and then sort of the wires connected together, like when I had these three inputs that I summed to produce these two outputs. Like if I think of mapping this to a physical device, they would be a wire that runs sort of connecting all three of these things together into a logic gate that produced this output. Okay, so this is the the main primitive at different bit widths um that that is that is inside an AI chip. Um we're going to build up from here to how would you use that to run all of the other operations you might want.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:12:42",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "This may be the wrong time to ask this question, but whenever NVIDIA reports that this chip can do X many FP4 or half as many FP8, it seems to imply that those circuits are fungible. Uh that there's not as dedicated like FP4 versus FP8 um but the way you're mapping it out here, it seems like you would need if it has to be mapped out in the logic, you would need a dedicated FP4 multiply accumulate and a dedicated FP8 accumulate. Basically, can you can you funge them?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:31",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "As drawn, they're actually not particularly fungible. Um this is actually one of the main choices you have to make when designing a chip, which is how much of FP4, how much of FP8 do I have. And then at sometimes they'll make that consideration from the point of view of like what do I think the customer requirement, another way to take an angle on that is to say what is the what is the power budget for equalize the power budget between FP4 and FP8.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:13:54",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "But so then when they report those numbers and they just happen to be the case that like it does 2x as many FP4 as FP8, they just happen to choose like give the equivalent die areas to all the floating points and as a result that ended up being like why's the ratio exactly 2x?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:14:12",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah, so part of it is, I mean, the surely that won't be exactly like exactly equivalent die area. There's a data movement reason actually, and we will maybe come back to this when we sort of look through how it goes into and out of memory. There's something really nice just from a software level of the fact that I can pack two 4-bit numbers into the same storage as an 8-bit number, and so when I store that to a memory or something like that, it the the sizing of the the buses that I wire within the chip actually makes that work out really nicely.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:14:44",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Actually, come to think of it, it's not just 2x, it would be the amount of area it takes, it sounds like is quadratic in fact with the bit length, so that's why smaller precision is like-",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "be more favorable than the United States. This is a really big reason.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:03",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So, in fact Nvidia made a change, historically, up until B100 or B200 every time you have the bit precision you double the flop count.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:17",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "That ratio is exactly like for the reason you said because of this quadratic scaling that ratio is actually slightly wrong. It should be like an even bigger, you should get an even bigger speed up than you than you might otherwise think.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:27",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Nvidia's, like, product specs have sort of started acknowledging that in B300 and beyond where the FP4 is three times faster than the FP8.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:39",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Though it should be 4x.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:40",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah. What I've shown here is like the simplest case of integer multiply. When you're when you're dealing with floating point as you do in FP4 and FP8, there's this sort of other term which is the the exponent that just complicates this this calculation.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:54",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "So, so what can we see already from this? I think the the big observation you've made is that there's this quadratic scaling with bit width which which is like very effective and and is the single reason why low precision arithmetic has worked so well for neural nets.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:16:12",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "But the other thing we're going to do now is compare sort of the area spent on the multiplication itself with all the circuitry that is around it. So we'll walk back in time a little bit and see how did GPUs prior to tensor cores work? As which is the same way as the way that CPUs worked in fact. So which is like where do we stick this multiply accumulate unit? So generically I'll describe like a CUDA core or a CPU, you'll have some register file which stores some number of entries, maybe it's like eight entries of, in this case I guess four bit numbers, but typically like 32 bit numbers or something like that of just numbers. So this is the like inside the CUDA core, I'll have some register file of some depth and then I will have my multiply accumulate circuit, multiply and accumulate circuit. And what it's going to do, it's going to like it's going to take three arbitrary registers from this register file, perform the multiply accumulate and then write back to the register file. So it's going to maybe write to this one, but it was able to read from this one, this one and another random one. So it'll take three inputs like this. So this is the core data path of many processors, most processors look like this. You've got some set of registers and then you've got some set of logic units or ALUs. We want to analyze the cost of the data movement from the register file to to the ALU and back. So ultimately there's going to be some circuit that says well I don't always",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Just like this guy, I might select any of the registers at any point in time. And so, sort of a first question is, how can I build a circuit? The circuit that I'm going to look for is a MUX. So, in this case, it's going to have eight inputs, one from each entry of the register file, and it's going to have one output, which is actually producing this output.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:24",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "And then, like, what is the cost of this thing? It's like all we have to build it out of is AND and OR. And so how do we build it? We do the dumbest thing possible. We like form a mask saying, okay, when we want to read like the third entry, we're going to AND every single entry with either one or zero based on whether that's what we want to read, and then we're going to OR all of them together.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:51",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Okay, just to make sure I understand the basics. What the MUX is doing is it's just like selecting, just selecting an input.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:18:58",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah, so like invisible to software, it's like you say I want input number three, that means there's a MUX.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:03",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:19:04",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "And so like, what is the cost of this MUX? So, an n-input MUX operating on p bits... well... I am going to... so I have n rows, that's this eight rows, and I've got like each row is p bits wide. Well, I have to AND every single bit. So I get n times p many AND gates.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:31",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Every single input, I have to say, am I going to like mask it out or not? And then... and then I'm going to OR them all together. And so, there's going to be like (n-1) times p many OR gates. Which is saying, I've got all of these different things, almost all of them are zeros, but I need to sort of collapse them down into... into... like from my eight options down into one option. And so every step I need to OR like one row into... into an existing row.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:58",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Got it, yeah. It's actually kind of funny that you would sort of... you don't think at the level of hardware, you sort of just think like, oh, I'll just select element three, and something as simple as that is sort of like, in and of itself, a quite complicated circuit.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:20:14",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah, I mean, this is the first step of all of the hidden data movement costs that show up. Yeah, yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:20:19",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Um, and so like, the thing... like, we're just going to like compare... like I have to pay this cost, and I've got one MUX here, and then in fact I have two more copies of that for each of the three inputs to my multiply-accumulate operation. And so I have this cost which is like, like three times n times p AND gates over here... um, compared to this p times q... like, sort of gates in the actual circuit that... that is doing the thing I care about.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:20:51",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "And if we plug in actual numbers, like this n being eight... like I get like twenty-four times p gates over... just... just in the data movement compared to, if q is four, like four times p.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Eight gates just in the, in the adder, multiply-adder.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:21:03",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And sorry, where's the three coming from?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:21:05",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Three different inputs here.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:07",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Got it, okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:21:09",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So, the point, like really just what I'm hinting at here is that, like, all of this work, which scales as, as the size of the register file, and this is a very small register file, all of this work just moving the data from the register file to the, to the logic unit, um, is many many times more expensive than the logic unit.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:29",
+      "ad": true,
+      "speaker": "Dwarkesh Patel",
+      "text": "In the most recent Cloud Spectator report, SemiAnalysis ranked almost 100 different GPU clouds. Crusoe was one of only five that made the Gold Tier. SemiAnalysis found that Gold Tier providers like Crusoe had a total cost of ownership that was 5 to 15% lower than Silver Tier ones, even when they had identical GPU pricing. This makes sense because total cost of ownership is downstream of a bunch of different things that don't necessarily show up in the sticker price, but that Crusoe has optimized. Things like how well you detect faults and how quickly you replace failed nodes. For example, Crusoe was one of the first clouds to adopt NV-Sentinel, NVIDIA's own GPU monitoring and self-healing software for enhanced GPU uptime, utilization, and reliability. This lets Crusoe make use of everything that NVIDIA has learned about why chips fail across all their different fleets and deployments, so that Crusoe can catch faults earlier in the process. And once they identify a failure, Crusoe can swap in a healthy node in less than 10 minutes. Because they are not running bare metal, Crusoe doesn't have to spend time installing an operating system or configuring drivers. They can just spin up a new VM on an already running and pre-qualified host. If you want to learn more about this or the other reasons that Crusoe made Gold Tier, go to crusoe.ai/dwarkesh.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:22:43",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "It might be helpful to just see what a mux looks like, maybe like a two-bit or a four-bit mux.",
+      "tone": "suggestive"
+    },
+    {
+      "timestamp": "00:22:48",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah, great. So we'll take some inputs, we'll have maybe, like, we'll just do a two-way mux. So we've got, um, two different numbers, we've got these two inputs, um, that are being selected between. And then we have a selector, which says, which can either be, like, 'I want this one,' or, or it could be, 'I want the other one.' So this is a one-hot encoding. Um, so this is what we all start with. And then we, the output we want to produce... like, let's focus on this case, so this is the actual input we got.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:37",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:23:38",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "We just want to produce this guy as the, as the result. And so, like, sort of very laboriously what we do is we AND this bit with all of these. And so, um, that produces, like, ANDing this bit with this row. And likewise, we AND this bit with this row. That produces all zeros. So this was the...",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "There's four ANDs here. There's four ANDs here. And then finally, we just OR these two together, that gives a one. We OR these two together, that gives a one. We OR these two together, that gives a zero. We OR these two together, that gives a one. And so this is the four ORs.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:21",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So like, this actually ends up looking a little bit like addition, in fact, like we did exactly the set of same same set of ANDs here. Uh, so we've added all of these things together, but then instead of collapsing it by using these full adder circuits, we just get a very simple collapsing with OR gates.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:38",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And how but I guess that doesn't look like n times p?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:40",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Um, so, yes, so this was with n equals two inputs.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:46",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Ah, right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:47",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "In the general case, we will have n like and sorry, this is n rows, and then we'll have p bits per row. Um, so that gives us the the n by n times p many AND gates.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:05",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So this circuit I've described here, almost all of the cost, like uh, seven-eighths of the cost, uh, is in the reading and writing the register file, and only a tiny fraction of the cost is in the logic unit itself. So this is the problem to solve.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:21",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Um, this this essentially was the state of play, um, prior to the Volta generation of Nvidia GPUs. This is what what this kind of thing is what was inside the CUDA cores, um, and this and this sort of problem statement is uh, what motivated the introduction of tensor cores, which are more generically called systolic arrays.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:59",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So sort of the evolution was like uh we had baked this much into hardware uh in this stage. This single line is a multiply-accumulate and this single thing was baked into hardware. The idea of a systolic array is to sort of go two levels of loop up and bake this entire loop out here into hardware. And so the idea being that if we have a much bigger granularity fixed function piece of logic, maybe the taxes we pay on the input and output are much smaller.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:30",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "It sounds like you're suggesting that if you have um if you go up one step in the uh in the matrix multiply loop that there's some you can tilt the balance more towards compute than communication.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:44",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "That's right. Sort of there's two effects that we're going to take advantage of here. One is just that we can do more stuff before per every trip through a register file. Um, and then the other thing we're going to take advantage of is in fact um um in in some of this loop we can take advantage of for example...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "some things staying fixed.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:04",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So, visually we're going to look at this matrix multiplication. So, this portion of the loop corresponds to a matrix vector multiplication, in fact. So we'll take a matrix and multiply it by a vector.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:21",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So how do we do this? We take every column, get multiplied by the vector, and then summed. So we're going to sum sort of along columns. And so this 0 and 3 gets multiplied by the 3 and 7 and gets summed, and then the 1 and 2 gets multiplied by the 3 and 7 and gets summed.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:36",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So there is a multiplier-accumulate associated with every single one of these entries in the matrix. So we'll just draw out these four multiplier-accumulates.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:54",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Just to make sure I understand why there's four multiply accumulates. So if each entry in the column that corresponds to the output vector is a dot product, in this case it'll be like two multiplications and then the addition of those two multiplications. So like you're accumulating.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:28:17",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah, so the addition. So really there's only one addition per dot product, but we like to include the initialization of zero. Yeah.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:28:21",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So what we're going to aim for is to have, so we've got, we want to have quadratically more compute, which we do. We have we've got sort of x times y as much compute as we had before.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:28:43",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "But we're going to want to somehow aim for having only x times as much communication. And this is sort of the intention so that we get this advantage term going as y.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:28:54",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So we've laid down the multiplications.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:29:02",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Bringing in like we're going to want to bring in a vector of size two and so that's sort of already is in line with our coms target. That's fine.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:29:11",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "However, we need to somehow manage the communication of this matrix which exceeds our budget of x.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:29:22",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "And so the idea is that in an AI context, this matrix is actually going to stay fixed for a long period of time.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:29:30",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "And so instead of like bringing it in from the outside, so we've got some register file sitting over here, we don't want to have the amount of stuff coming out of this register file, this is the term that we want to go as x in some sense.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:29:44",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "We don't want to bring this full matrix in from the register file every cycle because we don't have enough, that would cost too much in terms of wiring from the register file.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:29:56",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "And so instead we're going to store, our key trick is that this matrix can be stored locally to the systolic array.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "And so, um, where we'll store these numbers 0, 1, 2, and 3",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:10",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "in in just like a gate called a register that like physically stores these numbers and we're going to reuse these numbers uh over and over again for a large number of different matrix-vector multiplications.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:22",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And so the optimization here is that like the nature of matrix multiplication is you can store this like square or quadratic thing directly where the logic is happening. Um, and which is like higher dimension than the uh or has an extra dimension compared to the inputs which you keep swapping in and out.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:44",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "That's right. I mean this is the nature of what a matrix multiplication is is that you do a lot of multiplication to get one value out like a dot product is the result of a lot of multiplications and so that optimization means that you can stuff a lot of like multiplication in before you get some value out of it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:59",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "That's right. That's right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:31:01",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:31:01",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So like just to complete the picture here of of concretely how that looks, um uh I swapped the three and the two here, um three and two. Um so just like this zero and three is going to multiply by the three and seven and so uh we're going to form a dot product sort of along columns here. So somehow we're going to feed a three and a seven in here.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:31:31",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "These participate in sort of this feeds into this multiplication and also feeds into this multiplication, likewise the three feeds into here and also into here and then we're going to sum uh sort of along here with like starting at the top of a column we feed in zeros and then coming out the bottom uh we get results coming out. So sort of just to visually see what we've got, um there's a dot product that is performed along columns in a matrix and that that sort of maps exactly to what is done spatially in the systolic array here. Um so this is one dot product summed vertically and this is a second dot product also summed vertically.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:32:14",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Um and then what is the data that needs to go into and out of the register file? We have x amount of data that's coming out here on the output um and we also have sort of um this data coming from the input, x amount of data from the input.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:32:32",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Um and so with respect to the input and output vectors at least, um we we've sort of met our goal of having only x as as much data going in and out of the the register file.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:32:44",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "This leaves open the question of like I said that the weight matrices, weight matrix is stored locally in systolic array, how did it get there in the first place? Um is sort of a like at some point you need to boot your chip and populate this data and so where did that come from? The trick is...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Just we just we do it very slowly. So we we very slowly trickle-feed it in into the systolic array. The sort of the simplest strategy is that we we sort of run this daisy chain that says like feed a number into here and then and then on the next clock cycle it'll move down to the next entry of the systolic array. And so we can do that in every in every column in parallel and that gives us sort of... this is also going to come from here and this is going to be another factor of approximately X units of of bandwidth coming in.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:32",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Okay can you just would you mind repeating that sentence one more time?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:33:37",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So like we're sort of like we know that we're going to be bringing in numbers only rarely into the matrix. Yeah. And so we just want to come up with any construction at all such that the amount of wiring that actually feeds into sort of crosses this boundary of the systolic array like this boundary right here we just want to keep that bounded to X and not be not go as XY. And so a particularly simple strategy is that we we sort of bring in a a number into the top row of the systolic array that's what we can do in one clock cycle and then for like for Y consecutive clock cycles we're going to be bringing in the top row every time and then sort of shift all of the other rows down by one. And that keeps the the sort of the wiring that needs to come from this expensive register file only down to a factor of X rather than XY.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:34:23",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "I see. Okay. So there's two questions in terms of communication. There's like communication time and then there's communication bandwidth. Yes. And you're saying since we're only going to be loading this in once let's maximize let's minimize bandwidth because bandwidth equals die area and let's just like load it in slowly over like smaller lanes because we're just going to keep this value in there for a while.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:34:46",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Exactly. Exactly.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:34:50",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Interesting. So it's interesting to me that when we were talking last time about inference across many chips the big high-level thing we were trying to optimize for is increase the amount of compute per memory bandwidth that is to say per communication. And here also we're trying to increase the amount of like actual multiplies or actual additions relative to transporting information from registers to the logic. So in both cases you're trying to maximize compute relative to communication.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:35:18",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah. Um this this turns up sort of all the way up and down the stack. Um this is sort of close to the bottom sort of like to the gates. Um there's sort of a version that's maybe even closer to the gates of just like even the precision of number format that you choose to use. Um we saw that same effect. There's like a square cube law or a like squared versus linear term going on both in just purely the precision of this ALU but then also in in terms of the size of this the matrix.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:35:51",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah. Yeah interesting.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:35:52",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So um so this unit is sort of the next bigger unit. We had like the multiplication circuit and then on top of that we have...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "like a pretty large systolic array. I drew it as 2x2, but in like for example older TPUs they would describe it as 128 by 128 of this circuit shown here. And this circuit ends up being... this is the most efficient known mechanism for circuit for implementing a matrix multiply.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:21",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "I see. So we've talked about sort of... it seems obvious that you should try to maximize compute relative to communication. What are non-obvious trade-offs that actually you know keep you up at night about should we do X or should we do Y? It is not obvious what the answer is.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:36:42",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah, so, I mean I think most of the decisions in chip design are sizing decisions. And so, already in what we've drawn so far, like... so AI chips all have this circuit in it. They have a systolic array and then somewhere near it a register file providing inputs and outputs. The two sort of... like even within this scope sizing questions that you have are how big should I make my systolic array and how big should I make the register file. And then the trade-off for the size of the systolic array actually these two questions are coupled is... one way to think of it is to say I'm going to like have a budget for how much what percentage of my chip area I want to spend on data movement. So maybe I just say that I want this to be 10% and the systolic array to be 90%. And then sort of I can size my register file. Bigger register files are more flexible, they allow me to run sort of more... I can get more application level performance out, but then they sort of take away from the area spent on the systolic array.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:37:53",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Makes sense.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:37:54",
+      "ad": true,
+      "speaker": "Dwarkesh Patel",
+      "text": "I recently ran an essay contest where I asked people to write about what I consider to be some of the biggest open questions about AI. The submission window closed last week, so I used Cursor to create a couple of different interfaces to help me review the entries. One interface anonymizes submissions and hides unnecessary information. It lets me group responses by question, add notes, and record my scores. The other interface helps me review entrants who also want to be considered for the researcher role that I'm hiring for. The UI puts the applicant's essay right next to their resume and their personal website so that I can see everything at once. Cursor's harness is really good at helping these models see and improve their UIs. I watched it render these interfaces in the built-in browser, take screenshots, click through sections, and keep iterating. At this point, Cursor is where I do most of my work. Whether I'm reading and visualizing a bunch of research papers, or coding up an interface to review applications, or making flashcards for my Blackboard lectures, Cursor just makes it very easy for an AI to look at whatever I'm looking at and help me understand it and work with me on it. So whatever you're working on, you should do it in Cursor. Go to cursor.com/dwarkesh.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Where does the clock cycle of a chip come in and what determines what that is?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:39:07",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah. And what is a clock cycle of a chip?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:39:09",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So, I guess at baseline, it's sort of worth observing that chips are incredibly, incredibly parallel, right? You've got 100 billion transistors in a chip. A key thing that you need to do whenever you have, like, massive parallelism is you need to synchronize between the different parallel units. In software typically you like you you have these very expensive synchronization methods like a a mutex so one thread will finish what it's doing it will in like it will go grab a lock somewhere stored in memory and then notify the other thread that it's done. On chips we take a very different approach and say that every like nanosecond or so all all circuitry in the chip will kind of pause for a moment and then and then synchronize every so it actually synchronizes every single nanosecond or so.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:56",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Mhm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:39:57",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "And so that is the clock cycle. The entire chip typically all in sort of one fell swoop goes in lockstep to the next operation that happens. And so what this looks like in circuitry is that you will have this is typically drawn so the clock is sort of mediated by registers which are these storage devices that we've drawn elsewhere. And the way to think of it is that I have I have some storage which is storing like a bit which might be zero or one. And then I have some sort of cloud of logic which may be is like this systolic array or this multiplier or something like that. And then I've got some and that's going to produce some output. So my inputs I've got a bunch of inputs feeding through this cloud of logic and then eventually later there's going to be some output register that this writes to.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:40:38",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "There is a global clock signal which drives all of these registers. And it says at a certain instance in time when the clock strikes whatever value happens to be on this wire at that instant, that's what's going to get stored in there. And so the sort of the challenge here is like I would like to have my clock speed run as fast as possible because if I can run at 2 gigahertz I can get twice as many operations done per per second than if I run at 1 gigahertz. But what that ends up meaning is that I am very sensitive to the delay through this cloud of logic because any computation that is going to happen in here needs to sort of finish before the next clock cycle hits.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:41:37",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:41:38",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So a major point of sort of optimization on any chip then is is to make is to sort of make this delay delay from here as short as possible.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:41:51",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Interesting. And is there ever okay so because the constraint here seems to be that if you...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "If you add too much logic, then you might risk missing the clock cycle. But if you don't add enough, then you're, you know, leaving potential compute on the table. Is there ever a situation where you're like you'd take a probabilistic chance that a computation finishes, and or is it just like, no, it either is going to finish by clock cycle or not?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:42:24",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah, in standard chip design, you imagine it such that, I mean, there is a probability, but it's like many, many standard deviations, like way standard deviations out such that for all intents and purposes, it is a reliable part. It will always meet the clock. There are some weird exceptions to that. There are clock domain crossings where you go from one clock to the other clock, and then you actually do have to reason about this probability. In the main path, you just like, you imagine it such that you'll get there like 25% of the clock cycle in advance, so that it's very unlikely.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:58",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And in this um the clock uh where the clock synchronize, I guess where the registers are, this is not something you determine as a chip designer, this is sort of just like an artifact of, hey, I want whatever sequence of logic and then the software you use to convert your Verilog into the thing you send to TSMC, that just determines like, hey, in order to make this work, you gotta put a register here, here, and here, to make sure that there's a there's no one step that is like too long such that it makes the whole clock cycle of the entire chip longer than it has to be.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:43:43",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah, so this is actually a huge part of the work of of designing a chip actually, is inserting them. So it is done in a combination of manually and automatically. So I mean, like just like to show the very sort of dumb version of like what you can do here, you can take this logic and split it in half, and so like say, actually instead of just one cloud of logic, I'm gonna have two smaller clouds of logic, which do the same thing, but split them up by a register feeding in like this. And this has like, like if you split it like in the middle, you can hit twice the clock frequency. That's great, you get twice the performance at the cost of this extra register, and so at the cost of some more storage.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:44:22",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And so stepping back, why do we need to synchronize the whole chip? Like if you have like if you imagine playing Factorio or something, there's no like global clock cycle, it just shit is done when it's done, there's iron on the plate, you can take it if you want.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:44:35",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah, so um taking that analogy, um the the the thing that you need to be mindful of is if I've got two different paths through some logic. So I have to do a computation like F here, and then computation G here, and then they're going to come and meet for computation H somewhere here. And so there's going to be manufacturing variance here. In some chips...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "F will take a little longer maybe in some chips, G will take a bit a little bit longer. And so if I've got some signal that's propagating through here, um and the result from F and G have to sort of meet up at H, um what can the- the thing that can go wrong is that F can get there early and it meets like the previous value of G or the next value of G or something like that.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:18",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And H needs to know when to start.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:20",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Exactly.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:21",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Like when- when has this next iteration of- and so this explains why different chips made at the same process node, at the same like TSMC uh technology, uh can have different clock cycles. Like a- two chips made at three nanometer might have different clock cycles based on uh whether they were able to optimize making sure that like there's no one critical path that is so long that um it- it slows down the whole chip's clock cycle.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:51",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "That's right. This optimization that I- that I showed here, this is just the- this is sort of um pipeline register insertion, it's called. Um we've inserted in the middle of the pipeline the register here. Um this is a sort of pure trade-off between clock speed and- and area. Yeah. Um this is the easy case. There is a harder case too, which is um- so I've drawn it as a pipeline of logic here, but in other cases you may have some um calculation which actually feeds back in on itself. So, uh it runs some function F and then writes back to uh itself like this.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:46:29",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Mhm. So for example, this might be this addition? Like you've got some number that you're adding to- into every clock cycle. And so this- this could be like a- this could be like a plus, uh where adding in some number every clock cycle.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:46:42",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Mhm. So this- like this little circuit, um essentially it's just going to sum all of the numbers that you presented on different clock cycles. And the challenge is if this plus takes too long, what can I do? If I like split it in- if I try and put a pipeline register like right in the middle of it, um like right here in the middle of it, um this will end up changing the computation that's done. Instead of forming a running sum of everything that comes here, I will actually have two different running sums. I'll end up having a running sum of the even numbers and a running sum of the odd numbers. So (sort of) this constraint where I have um a loop in my logic, which all chips have somewhere, um this is actually the thing that is the hardest thing to- to address and- and sets the clock cycle.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:46:51",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "I don't understand why it would be a problem to have that. Or I'm not sure even what it would mean to have a- register there. Like it's a sort of- atomic operation, right?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:46:57",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah, well so plus is not really atomic, uh like I think- as you just demonstrated. Yeah, yeah, it took a whole lot of work to do a- summation. And so like you can take- the early parts of that work and then- and then stick a register in the middle and then do- take the late parts of that work.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:47:01",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Right. Okay. Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:47:03",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And I guess it's then up to- so TSMC offers a- PDK which says, hey, here's the primitives of- logic that we can grant you.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And in the chip, and it's up to them to determine that no primitive is bigger than like the clock cycle they're hoping a process node targets. But other than that, is there like what further optimization? Can't you just say like, hey, here's all the primitives from TSMC and if keep adding registers in between the primitives as much as is needed until you get to your desired clock cycle?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:48:23",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah, as a logic designer, like the chip architects set the clock cycle. So just for one example,",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:48:29",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "the primitives you get from TSMC are on the order of like AND gates or full adders. They depends a lot on voltage and frequency and which library you choose and so on. But generally they, you can typically have about like 10 or 20 or 30 of these in a clock cycle sequentially. So these primitives are very, very fast, like 10 picoseconds or something like that. And so as a logic designer, I mean, like in principle if you literally just had like register and then AND gate, kind of in a loop like that, you could get an insanely fast clock speed, like more than 4 or 5, 6 GHz, something like that. But if you take this like really sort of simple circuit and you look at the area you're spending here, like this is maybe like one, I mean this is called one gate equivalent in size. So like unit of one in area, and this thing is like unit of eight in area or something like that. And so like this is just almost again, almost all of your cost has been this like synchronization or communication cost compared to the actual logic. And so this would be a case where you've gone too far. You've made your clock speed really, really fast at the cost of spending almost all of your area on pipeline registers.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:49:03",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Interesting. So what you're hinting at is a dynamic where you can have really fast clock speed, but you're not getting that much work done. And so you can have like low latency, but low bandwidth.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:49:13",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Or throughput rather. Yeah, the throughput of your chip you can think of as the product of how much do I get done per clock cycle, which is based on this area efficiency thing, times how many clocks I get per second. This is actually so similar to the thing we were discussing last time about like batch size, where if you have a low batch size, then you can, any one user can receive their next token really fast, but the total number of tokens that are processed in say an hour will be kind of lower than it could otherwise be. Yeah, exactly. You get less parallelism out if you drive your clock speed up really high.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:49:38",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Language models are starting to compete against the best human forecasters. I sat down with two senior Jane Street traders, Ron Minsky and Dan Pontecorvo, and asked, at some point this AI just do what Jane Street does?",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:49:50",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "There's a world that we should take seriously where, you know, we're going to build large language models or some other AI systems that are like strictly smarter than all humans on the planet and more...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "...capable at all cognitive tasks. Trading in particular feels to me as like kind of AGI complete, sort of like NP complete, because at the end of the day, trading involves figuring out what things are worth, which means making predictions about the future.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:51:16",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Jane Street isn't betting against AI. They just signed a six billion dollar compute deal. But Ron's view is that the edge keeps moving.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:51:22",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "I have never been more desperate to hire more engineers and more traders than I am today. You know, you have the usual thing of like, the other hard parts that we don't yet know how to automate. Well that ends up being where the competitive edge lies.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:51:33",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "You can find these open positions and watch the full interview at janestreet.com/dwarkesh.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:51:40",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Okay, so I remember talking to an FPGA engineer at Jane Street, Clark, who actually helped me prep for your, the previous interview we did together, and he was explaining why they use FPGAs and I imagine that for high frequency trading, throughput is less important than latency. And so having very specific control over the clock cycle in a deterministic way is the most important thing. I, maybe it'd be interesting to talk about how you, why you can't just achieve that with an ASIC or why FPGA is the, yeah why you might use an FPGA to have deterministic clock cycles for like high frequency trading.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:52:24",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah, so I mean, firstly like let's consider the sort of the business case for an FPGA versus an ASIC. FPGAs and ASICs use largely the same sort of conceptual model, which is that I have a series of gates built from ANDs, ORs, XORs, those very small primitives, connected together with a fixed clock cycle and connected together with wires that are running in a fixed clock cycle. So anything you can express in an FPGA, you can express in an ASIC too, and it'll be about an order of magnitude cheaper and like better energy efficiency on an ASIC than an FPGA. The tradeoff is that the first FPGA costs you ten thousand dollars, whereas the first ASIC you make costs you thirty million dollars because of... it requires an entire tape out. So sort of the business use case for an FPGA would be that I want something that has this very deterministic latency and fast runtime and high parallelism, but I'm going to change it very frequently, change what I do every month or something like that, and so then I don't want to pay the tape out cost every time. Now, how does an FPGA actually implement... it sort of emulates the ASIC programming model but in a fixed piece of hardware. And so how does that work actually? So what it has at the base is it's got the two components we just talked about. It's got these registers as storage devices and then it's got these...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "These are called LUTs, look-up tables, which actually provide all of the gates.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:54:07",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "So, and then, and then we're going to see in the sort of the third component, we then have like sort of a swarm of these registers and LUTs and all of these are available and then they are connected by sort of this big set of—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:54:27",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Muxes. So in front of every single one of these we've got something like one of these muxes which selects one input from everywhere else, sort of selecting from all of these different... you know, we've got a whole bunch of different options feeding into into into all of these things.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:54:53",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "So what this allows is essentially a, when I program my FPGA I can say that I'm going to take all of these components and I'm going to sort of superimpose on top of this a particular wiring which like goes through this LUT and then feeds into this LUT and then goes to this register and then feeds into this LUT or something like that. So what I've drawn in orange is like how you... like FPGA means field programmable gate array. This is the orange is what has been programmed in the field whereas the white is all of the wires that must exist in the FPGA in order to actually take to make the device in the first place.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:55:31",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "What does it mean to be programmed into a field?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:55:34",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Like programmed in the field, so like the device has been deployed in a data center, it's sitting in the field and then you can come and program it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:55:39",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Not field as in like electromagnetic field or—",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:55:41",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Field as in like out there in the world field. Okay.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:55:43",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And so if I see look at the how the the field programming comes out of the first lookup table and goes into a second one, how is it... how... yeah, how? Like like where are the wires that make that happen I guess? Yeah.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:55:55",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So I I got a little bit like lazy in drawing all of these... every single device here has a mux sitting in front of it which can select from all of the nearby like circuits that are available. And so the actual configuration of the FPGA is like amounts to it is the mux control. So like we in this mux here we have the data inputs and then we have like the control that selects. And so like there's a little storage device sitting next to every single one of these muxes saying this is where you're going to source your input from.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:56:42",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Got it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:56:43",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "And so programming it consists of like configuring every single one of these muxes.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:56:47",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "So that makes sense. What is happening inside the look up table?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:56:51",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah. So the purpose of the look up table, so it's going to also have a little bit of control feeding telling it what to do as well. The purpose of the look up table is to function to—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "be able to configurably take the role of an AND gate, OR gate, XOR, any of those different things. So there's many ways you could consider doing that. The way it is done in sort of traditional FPGAs is to say it will support, so it will be a lookup table will be, it will have four bits of input, one bit of output.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:30",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "How many different functions are there from four bits to one bit?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:57:34",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "There are 16 different functions. And so you can actually just tabulate this as like 16 different, like 16 different numbers. You've got a table of 0111001, 16 entries. And so what it does is this table is stored in this blue configuration bit, and then it views these four bits as binary, looks up the relevant row of the table and emits that bit. So this is a truth table view of lookup tables essentially.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:58:13",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Okay, so the lookup table if you think about an NAND gate, OR gate, NOR gate, XOR gate, these are all like take as input...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:58:21",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Those are like two-input functions. Sometimes we have like more complicated, like a three-input function would be a three-way XOR or a four-way XOR.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:58:28",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And in this case how many... it just depends how big it is? But...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:58:31",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Typical size for LUTs is four input, which is sort of just a sweet spot between there's another compute communication trade-off like here. Like if it has too few inputs then you need to use more LUTs. If it has too many...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:58:43",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "But basically the lookup table is like a truth table.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:58:45",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "It's a truth table, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:58:46",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And with a truth table you can program in any gate you want.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:58:48",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "That's right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:58:49",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:58:50",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "And so I mean one of the things you can do here is you can see why the rule of thumb that an FPGA is like an order of magnitude more expensive than an ASIC comes from is to count how many gates would be inside this lookup table.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:59:11",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:59:12",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So we can view this lookup table essentially as one of these muxes and so it is a mux with has to select between 16 different values. And so it is a mux with sort of N equals 16 options, P equals one bits. And so what we saw way earlier is that this circuit costs like N times P many gates. And so it's like... so it costs like N times P equals 16 AND gates and also 16 ORs.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:59:50",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "This circuit being the mux?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:59:52",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah exactly, the mux.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:59:53",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "The mux that goes into the lookup table.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:59:54",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So the lookup table itself you can think of as being actually a big mux that",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Mux selects from all 16 rows down to one output.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:00:03",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah, okay. That is the lookup table.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:00:05",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "But the way you've drawn it here, there's like a mux and then a lookup table.",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "01:00:09",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "It's muxes all the way down, so I mean there's a second mux that is inside here. This mux is this mux.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:00:14",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Got it. Okay. And then the other mux is just saying where it came from in this sort of mess of gates.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:00:21",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Right. And then the second mux is, okay, now you have one value, but that value is still a 4-bit value.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:00:28",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yes. So I've selected four bits from the soup. And then I use those four bits to select which entry in the lookup table I'm going to use.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:00:38",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Right. Okay. And just so I'm sure, suppose in the first mux there's like eight nearby... you're pulling from eight nearby registers as input. And so that's like a total of like 32 bits going in. And then out of that, four bits come out. Those four bits go into the second mux, which is inside the lookup table.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:01:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So actually I would say in this case these registers are single-bit registers. So if there are eight nearby registers and lookup tables, then I have eight bits total coming in in nearby. I select from eight down to four different values. So there's actually like four different muxes. One associated with each of these input bits. Each of them is selecting one out of eight.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:01:27",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And where are those eight coming from?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "01:01:29",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Nearby registers and other LUTs.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:01:32",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And each register is one bit.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:01:33",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yes. Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:01:34",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And so I guess AMD or whoever makes these FPGAs still has to be opinionated about what register should connect to which registers. And then you can program in the actual gates, but they had to wire in the communication topology, right?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:01:56",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah. So there's sort of like... you get flexibility at a local grain thing. There's a sort of nearby neighborhood where you can select from. But then more grossly, like more coarsely, longer distant connections they form an opinion on.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:02:15",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Right. Yeah. And the reason it's 10x slower is why?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "01:02:18",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So if you look at the cost of like building this lookup table, it's like 32 gates. And then it can give me the equivalent of like... what's one interesting thing I can do here? I can do a four-way AND gate. And so that's like... I'm using 32 gates of lookup table to sort of implement like a four-way AND means like what is a four-way AND? I would do like AND, AND, then AND of AND.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:02:40",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So to implement like this is a circuit that I could implement in an ASIC directly using these three AND gates. But using a LUT I can also implement it, but it's going to take like these 32 gates instead.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:02:51",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Right. And so the overhead is really coming from the like... the fact that the lookup table, the mux and the lookup table is... there's a more concise way to describe a truth table.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Than listing out every single possible combination of input, which is just to like write out the gate.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:03:08",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah, like to like place down the polysilicon and the wires and stuff.",
+      "tone": "engaged"
+    },
+    {
+      "timestamp": "01:03:12",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "That's right, yeah, yeah, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:03:13",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Interesting. One important point you made to me is that the reason they prefer FPGAs to CPUs is because they get deterministic clock cycles. They know when a packet will come in and go out. Why is that not a guarantee in CPUs?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:03:27",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Hmm. So you can actually design a CPU that has deterministic latency as well. And in fact, like the processes that are inside a lot of AI chips actually also have deterministic latency too. Groq has advertised this, TPUs have that in them as well. The challenge is getting sort of deterministic latency and high speed at the same time. And so where does the non-determinism in latency come from? Non-deterministic latency comes from specific design choices in a CPU. It's actually possible to remove those design choices and make a CPU that has deterministic latency. Those are not very attractive in the market, and so people don't make those CPUs anymore. But but actually in some sense, like deterministic latency is maybe a sort of a simpler designing starting point, and then and then like some chip designers have added things in to be non-deterministic. To take a concrete example of that, the probably the most important example is on a CPU just like the the CPU cache itself.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:04:37",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So in a CPU you have the the CPU, this is the CPU die itself, and then there's a memory off on the side. This is the DDR memory off on the side. And then you have a cache system here inside it is the cache that sort of remembers recent accesses to DDR and and stores them. And so when I'm running through my CPU instructions, every time I have an instruction that accesses memory, it first checks in cache, was the data stored in cache, and then if not it goes fetches out to DDR.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:05:21",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yep.",
+      "tone": "attentive"
+    },
+    {
+      "timestamp": "01:05:23",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "This is a huge optimization. The cache is like two orders of magnitude faster than the DDR. If you never if you never like used the cache, basically all programs would run 100 times slower. So the presence of a cache is absolutely necessary for CPU to to run at reasonable speed. But whether or not you get a cache hit is dependent on the sort of ambient environment of the CPU, like what other programs are running, what has run recently, what is the random number generator inside the cache system doing? And so so that is a big source of non-determinism in in the runtime of a CPU. Yeah. So this sort of the memory system for a CPU.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:06:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "The the big thing that you can do differently is",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:06:03",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "instead of having the hardware say I'm going to like read read memory and then decide the hardware decides whether or not it comes from cash or not, you can actually bake this this decision into software.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:06:15",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So, a different design philosophy is is to so and you see this in maybe for example TPUs, the the TPU instead has I mean I'll draw the same diagram but I'll call it a scratch pad instead.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:06:32",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So the main difference is so this would be like a TPU and then HBM in this case rather than DDR but it's still an off-chip memory.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:06:43",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "And instead of like the software saying first access like memory and then the hardware decides, you've got some instructions that go here, this is like one kind of instruction and then a totally different kind of instruction that goes to HBM.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "01:06:55",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:06:56",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "And so this style is generically known as scratchpad instead of cache. The key distinction being that you have like one kind of instruction that says read or write scratchpad and a totally different instruction that says read or write HBM.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:07:11",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "So it's scratchpad being the cache.",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "01:07:13",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah, this thing here is the scratchpad. Just to be clear.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:07:18",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "So stepping way back, people say computers have the quote-unquote John von Neumann architecture where there's this serial processing of information. And maybe just because we've been talking about parallel accelerators, but I just don't like FPGA is super parallel, the AI accelerator TPUs are super parallel.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:07:40",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Even CPUs are super parallel if you think about all the cores they have. And so is it actually, like in what sense is modern hardware actually the von Neumann architecture? Is that actually a fair way to describe modern hardware?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "01:07:52",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Um, I think it's a fair way to describe CPUs. Like just the amount of parallelism, like on a CPU the amount of parallelism you get is about 100 cores times maybe like 16-way vector units. So 106, about a thousand-way parallelism on a CPU.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:08:08",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah. I guess one question is, what is the, there is a die that is being used for the CPU, and if there's fewer threads, just as a matter of like transistor voltages or like switching on and off, is it just that there's like literally one control flow like a small part of the die where like voltages are switching on and off or like in what how do you actually occupy the die area of a CPU if there's only",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "01:08:35",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "as few cores? Like what are you spending all the die area there?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "01:08:38",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "The cores are just much bigger and more complicated. So, I mean, so I guess we should compare like a CPU core which takes up 1/100th of the die to like to a LUT, like a LUT is just only these 16 gates. So like it's clear why there are so many more LUTs in an FPGA than cores in a CPU. But then sort of maybe",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:09:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "The the like why they're more CUDA cores, for example, than CPU cores? I think that would be like why a what's the difference between a CPU and a GPU or something like that would be a big difference.",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "01:09:13",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Inside the CPU you have so one big use of area in a side of CPU are the cache. Very little is actually the ALUs, like mostly it's like these register files rather than the logic units. And then the both of these things have equivalents in a GPU and so that's not a big difference. But the thing that does not have an equivalent in a GPU is the sort of this branch predictor. And so there is a whole big area in the CPU which is sort of just a whole bunch of predictors that are saying when will my next branch be and where where's the branch target for that? And so stripping a lot of that out as well as sort of making these register files tighter in a sense is driving a lot of where the like GPU gains are coming.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:10:08",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "And what is the purpose of the branch predictor? To like execute both branches at once or what does it do?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:10:14",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "So the issue is that when I've got a series of instructions like instruction, instruction, instruction, instruction. I if I have a branch like here, if this instruction is branch, the the actual processing step of processing an instruction takes a really long amount of time. It takes like maybe five nanoseconds or something like that. So like the time to actually notice that I've got a branch and then like evaluate the boolean where whether it's true and then and then update the program counter to the new target and then read from the instruction memory for that. That that could take like like actually five nanoseconds to to finish. And so in reality, this may finish somewhere down here. I don't want to like but like I want to run at clock speed that is much faster than what five nanoseconds allows. Like like five nanoseconds is 200 megahertz clock speed. I would like to run at one or two gigahertz or something like that. And so I need to run other instructions while the branch is is being evaluated. And so I like I really just want to keep running the following instructions that happen after me. But that might have been wrong. Like if the branch ended up being taken and I need to know that instead of evaluating these instructions, I actually need to like jump to wherever the target is and and run run these instructions instead. And so the purpose of the branch predictor is like like genuinely to predict, but like before you even get to this instruction to be like five cycles earlier to predict there was going to be a branch that's going to happen.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:11:50",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "So if I think about how the brain works versus what you're describing here, at a high level, the differences might be that while you can do structured sparsity in these accelerators.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:12:00",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "and then save yourself some area that you would have otherwise had to dedicate to these gates. In the brain, there's unstructured sparsity, you know, any neuron can connect to any other neuron and not in like ways where it has the column aligned or whatever.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:17",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:18",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Then there's the fact that memory and computer co-located. I guess you could say in a way the memory and computer co-located on—",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:23",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "This is exactly the co-location in some sense of the memory. That's right. That's right. Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:27",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yes, so maybe that actually isn't a big difference. And the other maybe a bigger difference is that the clock cycle on the brain is much slower than on on computers. And partly that's to preserve energy because the faster the clock cycle, the bigger the voltage needs to be in order to identify for the signal to settle and to like identify what state of transistor is then.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:54",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "That's right. That's right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:56",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "I don't know if you have other high-level thoughts about like how any commentary on what the brain might be doing versus how these chips work.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:13:05",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah, I mean, so so let's take the clock speed one first, actually. The clock speed is quite high on a chip because that drives high throughput. Like when we compare a GPU running some workload, it's running batch size 1000 or something like that, whereas like the brain is not running batch size 1000. There's only one of me. And so you could sort of imagine saying, well take a GPU and like instead of running it at a gigahertz, run it at a megahertz or something like that, and that would start to look maybe a little bit more like equivalent things that you're talking about in the brain. There is in the way that silicon works, that does not give you a thousand x advantage in energy efficiency. So what it ends up looking like is you can sort of just end up running this circuit once to stabilization and then it'll sit idle for a long period of time. It doesn't consume a lot of energy while it's sitting idle because most of the energy is consumed in sort of toggling bits from zero to one and back. Actually let's let's talk about the energy consumption of a circuit like this. The way to think of a bit being stored is you've effectively deposited some charge in a capacitor somewhere sitting somewhere in the chip implicitly. So it becomes charged when it becomes a one and then it becomes discharged when it next goes to a zero. And that cycle of like charging the capacitor and then dumping that charge out to ground, that is where the energy is consumed.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:14:47",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:14:47",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "This is called the dynamic or switching power, this is most of the energy consumption of a chip. There is some other energy consumption just coming from the fact that insulators aren't perfect insulators, but we'll dismiss that.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:15:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Just count that. Most of the energy consumption actually comes from just the charging and discharging of like toggling from zero to one and back to zero. Right. Um, so if you run a chip much slower and you only clock it once every thousand clock cycles or something, you will have a thousand times fewer transitions. It'll be about a thousand times less energy consumption, but but like, but not a substantial advantage in energy efficiency.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:15:23",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Um, okay, so you've described how a TPU works at a high level. Um, what is the difference at a high level between how a GPU and a TPU work?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:15:31",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah, so I mean I think there's sort of a high-level organization principle that is different. Um, and then there's sort of inside the core is what are different. But we'll look at sort of outside the, uh, like at the high level. Um, so we'll take a GPU and a TPU and what does like sort of the top-level block structure look like? Um, if you think of this as the whole chip in each case, um, the organization of the GPU is mostly a bunch of almost identical units which are these, these are the SMs. Um, and then they've got an L2 memory in the middle and then a bunch more of these SMs on the bottom. Um, and so there's sort of this fairly regular grid of cores. Um, and then like if we look at a TPU in comparison, um, you you start, you end up much, with much coarser grained units of logic and so you end up with something like um, a large number of, maybe just a few matrix units, these are the, these are the big like systolic arrays, and then in the middle you've got some vector unit and then you've got your matrix units at the bottom. So, um, now, sort of matrix units with a vector unit in the middle, sort of this is the whole TPU chip. You can sort of think of taking scaling this thing down into a really tiny unit with a smaller matrix unit, smaller vector unit and that is sort of what an SM is. So, sort of at a very high level point of view, the GPU has a lot of tiny tiny TPUs sort of tiled across the whole whole chip.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:17:25",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Oh interesting. So like, you're suggesting the tensor core within a streaming SM is analogous or an MXU?",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "01:17:35",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah, it's very very similar, yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "01:17:37",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "I see. And so if you had more like, more lack of structure, having a bunch of tiny TPUs makes a lot of sense, whereas if you kind of just have like huge matrix multiplications, you're like why don't we just, why don't we avoid the cost of having the individual SMs with their own registers and warp schedulers and things like that? Why don't we just like make a huge thing and like amortize those costs?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:18:00",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "across the whole thing. And I mean, I think this shows up in how large you can grow things. We've sort of seen this theme, like especially with a systolic array, where a larger systolic array amortizes the register file costs better. This sort of design allows you to have larger systolic arrays, whereas the sort of GPU design constrains you to have small units of everything.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:18:21",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "There is a trade-off, however. There ends up being, because of this sort of coarse-grained separation of things there, you need to move a lot of data from the vector unit to the matrix units. And so, like, you need to move a lot of data through, sort of, like, two lines of perimeter here. Whereas if you sort of look at the equivalent thing here, you've got vector units everywhere, and you need to move data through this line, through this line, through this line, through this line, through this line, through this line. So the amount of data you can move between a vector unit and a matrix unit is actually much higher in a GPU than in a TPU because, like, instead of having to move all the data through these just two lines, you're moving all these data through, like, 16 lines or something of wiring instead in a GPU.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:19:17",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Right, but also you might have to move across less area.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:19:22",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Which, I mean, is also a saving, like, an energy saving. So data ends up moving, like, if you can operate entirely within an SM, the data movement is much smaller, but then the moment you want to operate across SMs, it becomes sort of more complicated and expensive.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:19:37",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "So, you didn't comment, but one might expect that a thing MatX might try to do is to get the GPU-like smaller structure of systolic arrays surrounded by SRAM, but also at the same time make it so that, like, the things you need in an SM to support the CUDA architecture, but take up a bunch of space, you might discard.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "01:20:08",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Yeah. We've talked publicly about something which we call a splittable systolic array, which is sort of, in some sense, you can think of as like big systolic arrays that can be small systolic arrays as well.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:20:17",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Cool.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:20:19",
+      "ad": false,
+      "speaker": "Dwarkesh Patel",
+      "text": "Okay, I think this is a good note to close on. Reiner, thank you so much.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:20:23",
+      "ad": false,
+      "speaker": "Reiner Pope",
+      "text": "Thanks, Dwarkesh.",
+      "tone": "polite"
+    }
+  ],
+  "highlights": [
+    "The fundamental primitive of AI computation is the \"multiply-accumulate\" (MAC) operation, which allows chips to efficiently process the nested loops required for large-scale matrix multiplication.",
+    "Moving data between a chip's register file and its logic units is often significantly more expensive in terms of die area and energy than the actual mathematical calculations themselves.",
+    "To maximize efficiency, AI chips use systolic arrays that store weight matrices locally in hardware, allowing for a massive amount of computation to occur per trip to the register file.",
+    "Chip performance scales quadratically with bit width, meaning that reducing precision from FP8 to FP4 allows for a disproportionately large increase in throughput and energy efficiency.",
+    "Designers face a constant trade-off between clock speed and area efficiency; higher frequencies require more \"pipeline registers\" for synchronization, which eventually consumes space that could have been used for more compute logic."
+  ],
+  "summary": "This transcript features a technical discussion between Dwarkesh Patel and Reiner Pope, CEO of MatX, regarding the internal logic and architectural design of AI chips. The conversation begins with the fundamental building blocks of hardware—logic gates and wires—before focusing on the \"multiply-accumulate\" (MAC) operation, which serves as the primary primitive for matrix multiplication. Pope explains that the area required for these circuits scales quadratically with bit precision, which is why lower-precision formats like FP4 offer such significant performance gains over FP8 or higher-precision alternatives.\n\nA central theme of the discussion is the inherent tension between computation and communication. Pope demonstrates that in traditional CPU and early GPU designs, the \"tax\" of moving data from register files to logic units via multiplexers (muxes) often consumes more die area and energy than the math itself. To solve this, modern AI chips utilize systolic arrays (or tensor cores), which move computation up the hierarchy to matrix-vector levels. By storing weights locally within the array and \"trickle-feeding\" data, these designs drastically reduce the bandwidth required from expensive register files, allowing for much higher compute density.\n\nThe final section explores broader architectural trade-offs, including clock synchronization and the differences between specialized hardware. Pope describes how clock cycles act as a global synchronization mechanism, where designers must balance high frequencies against the area overhead of \"pipeline registers.\" They contrast the flexibility and deterministic latency of FPGAs—which use lookup tables to emulate any logic gate—with the high-throughput, fixed-function nature of ASICs. Finally, they compare the \"many small units\" approach of GPUs to the \"massive coarse-grained units\" of TPUs, noting that MatX aims to find a middle ground that maximizes efficiency by stripping away the legacy overhead found in general-purpose architectures.",
+  "description": "New blackboard lecture with Reiner Pope: how do chips actually work - starting with basic logic gates, and working up to why GPUs, TPUs, FPGAs, and the human brain each look the way they do.\n\nReiner is CEO of MatX, a new chip startup (full disclosure - I’m an angel investor). He was previously at Google, where he worked on software efficiency, compilers, and TPU architecture.\n\n𝐄𝐏𝐈𝐒𝐎𝐃𝐄 𝐋𝐈𝐍𝐊𝐒\n* Transcript: https://www.dwarkesh.com/p/reiner-pope-2\n\n𝐒𝐏𝐎𝐍𝐒𝐎𝐑𝐒\n* Crusoe was one of only five GPU clouds that made the gold tier in SemiAnalysis' most recent ClusterMAX report. Gold-tier providers like Crusoe delivered 5-15% lower TCO than silver-tier clouds, even with identical GPU pricing. This is because optimizations like early fault detection and rapid node replacement don't necessarily show up in the sticker price, but still matter a ton in the real world. Learn more at https://crusoe.ai/dwarkesh\n\n* Cursor is where I do most of my work—from reading research papers to visualizing technical concepts to coding up internal tools for the podcast. Most recently, I used it to build two different review interfaces for my essay contest, one that anonymizes submissions for scoring and another that lets me see applicants' essays next to their resumes and websites. Whatever you're working on, you should try doing it in Cursor. Get started at https://cursor.com/dwarkesh\n\n* Jane Street let me ask Ron Minsky and Dan Pontecorvo, two senior Jane Streeters, a bunch of questions about how they use AI. We discussed everything from the types of models they're training to how they think about the future of trading to why they're more bullish than ever on hiring technical talent. You can watch the full conversation and learn more about their open positions at https://janestreet.com/dwarkesh\n\n𝐓𝐈𝐌𝐄𝐒𝐓𝐀𝐌𝐏𝐒\n00:00:00 – Building a multiply-accumulate from logic gates\n00:16:20 – Muxes and the cost of data movement\n00:25:59 – How systolic arrays work\n00:39:00 – Clock cycles and pipeline registers\n00:51:40 – FPGAs vs ASICs\n01:03:14 – Cache vs scratchpad\n01:07:16 – Why CPU cores are much bigger than GPU cores\n01:11:49 – Brains vs chips\n01:15:22 – A GPU is just a bunch of tiny TPUs",
+  "duration": 4819,
+  "people": [
+    "Dwarkesh Patel",
+    "Reiner Pope",
+    "Jane Street",
+    "Ron Minsky",
+    "Dan Pontecorvo",
+    "Jane Streeters"
+  ],
+  "topics": [
+    "AI chip primitives and the design of multiply-accumulate logic",
+    "The cost of data movement and the function of multiplexers",
+    "Systolic arrays and their role in matrix multiplication efficiency",
+    "Clock cycles, synchronization, and pipeline registers",
+    "Architectural differences between CPUs, GPUs, TPUs, and FPGAs"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/oIk3R-sMX5o/maxresdefault.jpg",
+  "date": "20260522",
+  "youtube_url": "https://www.youtube.com/watch?v=oIk3R-sMX5o",
+  "youtube_metadata": {
+    "title": "Chip design from the bottom up – Reiner Pope",
+    "description": "New blackboard lecture with Reiner Pope: how do chips actually work - starting with basic logic gates, and working up to why GPUs, TPUs, FPGAs, and the human brain each look the way they do.\n\nReiner is CEO of MatX, a new chip startup (full disclosure - I’m an angel investor). He was previously at Google, where he worked on software efficiency, compilers, and TPU architecture.\n\n𝐄𝐏𝐈𝐒𝐎𝐃𝐄 𝐋𝐈𝐍𝐊𝐒\n* Transcript: https://www.dwarkesh.com/p/reiner-pope-2\n\n𝐒𝐏𝐎𝐍𝐒𝐎𝐑𝐒\n* Crusoe was one of only five GPU clouds that made the gold tier in SemiAnalysis' most recent ClusterMAX report. Gold-tier providers like Crusoe delivered 5-15% lower TCO than silver-tier clouds, even with identical GPU pricing. This is because optimizations like early fault detection and rapid node replacement don't necessarily show up in the sticker price, but still matter a ton in the real world. Learn more at https://crusoe.ai/dwarkesh\n\n* Cursor is where I do most of my work—from reading research papers to visualizing technical concepts to coding up internal tools for the podcast. Most recently, I used it to build two different review interfaces for my essay contest, one that anonymizes submissions for scoring and another that lets me see applicants' essays next to their resumes and websites. Whatever you're working on, you should try doing it in Cursor. Get started at https://cursor.com/dwarkesh\n\n* Jane Street let me ask Ron Minsky and Dan Pontecorvo, two senior Jane Streeters, a bunch of questions about how they use AI. We discussed everything from the types of models they're training to how they think about the future of trading to why they're more bullish than ever on hiring technical talent. You can watch the full conversation and learn more about their open positions at https://janestreet.com/dwarkesh\n\n𝐓𝐈𝐌𝐄𝐒𝐓𝐀𝐌𝐏𝐒\n00:00:00 – Building a multiply-accumulate from logic gates\n00:16:20 – Muxes and the cost of data movement\n00:25:59 – How systolic arrays work\n00:39:00 – Clock cycles and pipeline registers\n00:51:40 – FPGAs vs ASICs\n01:03:14 – Cache vs scratchpad\n01:07:16 – Why CPU cores are much bigger than GPU cores\n01:11:49 – Brains vs chips\n01:15:22 – A GPU is just a bunch of tiny TPUs",
+    "duration": 4819,
+    "view_count": 149671,
+    "like_count": 5874,
+    "channel": "Dwarkesh Patel",
+    "upload_date": "20260522",
+    "thumbnail": "https://i.ytimg.com/vi/oIk3R-sMX5o/maxresdefault.jpg",
+    "tags": []
+  }
+}
