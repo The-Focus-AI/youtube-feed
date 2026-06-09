@@ -1,0 +1,1927 @@
+{
+  "title": "Kamal Menghrajani: The Limits of AI Healthcare | The Aboard Podcast 2025-05-19",
+  "source_url": "https://www.youtube.com/watch?v=9vtc_6tpXmk",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Hi, I'm Paul Ford.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:01",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And I'm Rich Ziade.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:02",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And this is the Aboard podcast, the podcast about how AI is changing the world of software and the world in general. Hello Richard.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:08",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Hello Paul.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:09",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I want us to play the theme song and then I want us to talk to our guest because this is a really good one.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:00:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Let's do it.",
+      "tone": "cheerful"
+    },
+    {
+      "timestamp": "00:00:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "For just a few seconds let's explain what Aboard is because people keep asking.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:40",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Let's do it.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:00:41",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You want to give me like a one sentence?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:00:42",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "One sentence? That's all you get. Give me three.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:00:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:00:45",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Alright. We ship amazing AI-powered solutions for companies. We go in, see what you need, see where there are opportunities to run your business better or your organization better, and then we deploy amazing people and amazing technology to get you there.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:00:59",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's pretty nice. We have about 36,000 years of combined experience building tools and we've been riding this wave and figuring out how to actually drive real value and actually ship stuff. So all that stuff you hear about 95% of AI projects not shipping, that's because 95% of people could try harder. We can do it for you.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:01:13",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "The other 5%, that's us.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:01:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's us, 5%. Good example, go to our website, check out Make An Impact, the case study. It's, you know, we built a big medical dashboard that you can talk to. You can ask it questions. Making data actionable, making things work, keeping in- keeping things under the rules and regulated and compliant.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:31",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That's enough about us.",
+      "tone": "decisive"
+    },
+    {
+      "timestamp": "00:01:32",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Enough about us. Let's go to our guest and I'm going to tilt, for those who are on YouTube you'll see the tilt. Welcome Dr. Kamal Menghrajani.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:01:46",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Hey, thank you so much for having me.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:01:48",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So I have to tell you, we've looked at your LinkedIn and there's a lot going on and, you know, doctors are funny because they do a lot of different things. So help us understand which of the different things you're doing.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:01:58",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah, I think right now I am a practicing oncologist who is working deeply to think about how we can improve healthcare using AI.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:02:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well I mean give me some more, give me a little more.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:02:11",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Sure. So how did I get here? So I am a classically trained physician-scientist, so I was actually at Memorial Sloan Kettering for eight years working on genomics using computational oncology approaches to better understand how do we understand cancer, who's going to get it, what's going to happen when they do, are they going to respond to treatment. And I, you know, it was great sort of writing software from scratch and trying to understand these big thorny questions in cancer.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:02:40",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh see you're programming too.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:02:42",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yes. So that's my back- that's the link. That's part of how I got into this.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:02:45",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:45",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "But to learn to program I actually went to school at Columbia at the School of Public Health and I got a Master's in statistics and they said yeah we'll teach you statistics but you have to learn all of public health with it. And that got me really curious about okay what are the other intersections of public health and oncology.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "oncology. And so from there that interest led me to become the oncologist for the Cancer Moonshot.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:05",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "So I moved to Washington DC, I worked at the White House under the Biden Harris administration for a year and a half,",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:11",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "focused both on the Cancer Moonshot but also became the physician for the health team.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:16",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "So I ran point for, you know, federal guidance and legislation that was coming out from FDA, CDC, CMS,",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:23",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "and really had this 30,000 foot view of what health policy looked like in this country.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:03:29",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "So simultaneously on the ground, lots of patients, lots of stuff going on and then also way, way up and and sort of looking at cancer at a global and national scale.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:03:41",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "With an incredibly ambitious mandate.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:03:43",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah. The Cancer Moonshot, I mean, had these two big goals, first how do we decrease the cancer death rate by 50%? How do we cut it in half",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:53",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "over the next 25 years essentially from when it was launched. But then thinking about the softer side, how do we improve the experience for people who are facing a diagnosis,",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:04:03",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "whether as a patient, a family member, or a caregiver.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:04:05",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Mhm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:04:06",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "So really thinking holistically and even though a lot of our work was focused domestically, we ended up launching a global effort, which a lot of us are still continuing now that we're back as private citizens.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Before we get into what you're doing today, tell us what you learned. I mean, obviously the mandate is hovering over everyone. You're trying to get this done, but",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:04:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "obviously there's a lot of people involved, a lot of process, a lot of stuff, right? And we're going to come back to this, the culture and the people that are in the mix here.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:04:31",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "What'd you learn? What'd you learn with this idea? Okay, here's this incredibly ambitious mandate, they parachute you into DC.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:04:38",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "She's like, God, you asked me that one? Such a big question.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:04:44",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "It's interesting. I think there are incredibly smart, well intentioned people who are working in DC, at least during my time, you know, during the Biden Harris administration,",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:04:54",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "who were really thinking about how do we improve healthcare for as many people in the American public as possible? And how do we do it in a way that's guided by evidence?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:05:02",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Mhm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:03",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "And so, you know, coming in as somebody with expertise in clinical practice and using evidence to make decisions, it was really wonderful to say, okay, I'm used to doing this on a patient to patient level.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:05:12",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "How do we think about this on a systems level? How do we think about this on a national level? And that was one of the biggest takeaways.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:05:18",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "And I think the other was, a lot of these decisions are made by very small groups of people. You know, when you sit in the room where it happens,",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:05:26",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "you're looking at who else is there at the table. And it's really amazing, you know, thinking about who who is there and what viewpoints are they representing.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:05:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Mhm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:31",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "And so now that I'm outside of government thinking about, okay, well, what are the things that we can do to get things moving, to start to advocate, to start to use private industry",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:05:40",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "to move forward some of these same public health principles? And how do we make sure we make a big enough splash so that the people who are sitting around that table",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:05:49",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "have a sense of where, you know, we think things should go?",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "I think healthcare should be going. And I think that's why working in AI right now is so exciting.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:06:04",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Right. And I'm trying to think timing-wise, you're inside this big initiative and then AI is you can see it in the distance. What was the timing of... obviously, there's a lot of conversation: 'Well, we can finally find some cures. AI is here.' Right? There's a lot of that sentiment.",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:06:21",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "AI's going to fix everything.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:06:24",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:25",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "They're big on that too. They love to say, I mean, cancer would be, you know, it's just a product feature, though, they can cure it at this point.",
+      "tone": "dry"
+    },
+    {
+      "timestamp": "00:06:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:31",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, I mean Sam Altman out there...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:06:33",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "I mean, just get a few Claude code agents going...",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:06:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:37",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "And you know, we'll solve the whole thing.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:06:38",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Look, we just need to get you another Mac, like a newer one.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:06:40",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "I mean, honestly, just need a little bit more. Get me a few GPUs and we'll just knock this out.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:06:44",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Problem solved.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:06:45",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I mean, look, there's a lot of people outside looking in who are very hopeful, hopeful about this convergence of technology and what we're trying to solve. But based on your mocking laughter, it's not that simple.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:06:56",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "It's not that simple. The part of the White House I worked at was called the Office of Science and Technology Policy. And literally, it was us on the health team and next door on the same hallway was the tech team who were developing the AI strategy. So these two things were actually very intertwined. One of the big initiatives that came out of the Cancer Moonshot was a project called CancerX. And they had multiple functions, but one of them is to serve as an accelerator program for AI specifically in oncology. And they helped some, you know, nascent startups get up off the ground, help them create a minimum viable product so that they could actually see what are the different ways we can apply AI to solving this big thorny problem around cancer. So the use of AI, you know, even three, four years ago was something that people were thinking about. Of course, now the technology has evolved to the point that we're able to do much more than we were back then, but this is, you know, this is a train that's been chugging along.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:56",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "All right, so you're part of this big initiative. You're in DC. I guess you paused your practice, I'm assuming, to go do this civic duty. Let's go do this big job. Did you move there?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:08:07",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "I did.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh wow. All the way, all the way in. Okay.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:08:10",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah, my husband is also an oncologist and he works here in New York. And so I moved to DC and he stayed here in New York, kept his practice going. He's a professor in a medical school and so he kept teaching. And so when the Biden-Harris administration came to a conclusion, I just moved home. And so came back to New York and decided, you know, I wanted to take my career in a different direction. Having seen the 30,000-foot view, I realized, you know, I thought AI was really going to be the next big thing in terms of thinking about how do we affect change to the healthcare system overall.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:08:40",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:08:41",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "And so wanted to go back into clinical practice and now am up at Mass General Hospital and MGH, affiliated with Harvard Medical School and practicing as an oncologist there part-time.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:08:51",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "So you are practicing?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:08:53",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "I am practicing and then working in AI consulting, you know, working with different folks who are creating AI tools, which is great.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "It's been really exciting.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:09:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah. I love, you know, typically in the tech industry when somebody is like, boy, I, you know, kind of got a little out of control or got a little big and I need to wind down, they open like a bakery.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:12",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah. They're just or like I got-",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:14",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Food truck.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, no, or leather working. That's another one. Or carpentry. Anyway, okay.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:18",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So here we are. And so you've had this, this view into public health that very few people get to see, where you're, you're kind of across the whole country, across the whole world, and this alien object lands, and everyone starts telling you that their foot hurts, and then they tell their doctor what ChatGPT said should happen.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:09:41",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Printouts.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:42",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:43",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's bad.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's bad. And then you, you leave that world, like you come down from 30,000 feet where you've been hovering, and and now you're sort of back on the ground. Like, I don't know, contextualize that. Like what, what is AI to you as a doctor? What was it in terms of public policy? Like, are how is the medical community reacting to the fact that everybody would rather tell ChatGPT what's wrong with them than a medical professional?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:10:00",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah, I think, you know, there's so many facets to this, just as, just as AI is affecting change in so many different sectors. From a consumer perspective, I think it's a good thing if patients are more educated. I think it's a good thing if patients are more engaged with their health. It's not new as a clinician for a patient to come in and say, hey, you know, were you aware of this study? Did you know what this research was saying? Patients have been doing that for a long time.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:10:21",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You can snort shampoo and it'll fix your glaucoma. Okay.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:10:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well, it's the WebMD printout, but the first two pages are ads.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:10:28",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh that's bad. It's bad.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:30",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "I mean, people, you know, people come into me as an oncologist and they say, hey, you know, a friend of a friend gave me this New England Journal article, have you read it?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:10:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay. Wow.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:10:42",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And you don't want to be dismissive, I'm guessing. A patient's in a vulnerable place and yeah.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:10:46",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah. And I think they're, they're trying to learn and get up to speed on something that requires, you know, decades to train and really understand about.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:10:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "This people, this is a really interesting thing, because people think that information will yield knowledge very quickly, as opposed to needing to bake for decades. Which is something we run into a lot. Like, it's AI can write a lot of code for you, right? It's just amazing. But it's not thinking about a system and a system interacts and what's going to be compliant and all that stuff, just is really thorny and ugly and sort of complicated.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And so I'm not surprised, right? Like, I found this PDF and it might have it, everyone who finds a PDF thinks they might have unlocked the secret to the universe, right? In a PDF.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:11:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And you're like, it's much worse than you could ever imagine, right?",
+      "tone": "dramatic"
+    },
+    {
+      "timestamp": "00:11:27",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "It's not necessarily worse, but it is, it is more nuanced.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:11:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's never that simple.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:11:32",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Almost ever. Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:33",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah, but, you know, it, it does provide an opportunity.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "for the physician to then respond and say, great, I'm excited that you're interested in learning more about this. Let us, you know, let's set some context. Let's talk about it from the beginning. Let's zoom out and then let's talk about where what you found fits into the overall picture of what we're doing. And so it's a way in to have that more engaged conversation with a patient and I think that's always a good thing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:21",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:12:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You're all so nice and patient. It's just, you... well, no, I think, I'm sure the opposite happens. I'm sure some physicians get defensive and they're kind of annoyed about it and it's like, what are you doing? And I think your tone and your approach is really wise, especially now. Like the cat's, there's this talking robot for everybody, right?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:12:40",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Tell us, let's shift into, I mean AI is a chameleon, it can do a lot of different things and tell us how you think about it delivering value in so many contexts and use cases that, you know, I know a lot of people don't know about. I was surprised and we've, we've had events here and I was surprised that it's made its way in. I thought the medical community was going to be, 'nope, you stay out at the door, not ready for you just yet.'",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:13:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well let me interrupt because I have this, so first I'll just offer some brief context. We did this event, you spoke, it was great and what Rich and I learned was that doctors, many of them love AI. They're in. You work with a company called Doximity and like, just published a survey of many, many doctors and like, they're in. They're like help me transcribe and so on. And I thought about this for a long time because I'm very adjacent to a lot of creative industries, they hate it. Technologists are like, 'alright well it's going to replace programming, something's going to do that eventually, it's okay.' But then to hear the doctors be like, 'I don't have to stay up late doing these notes.' Doctors are so excited.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:13:21",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:13:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So, no but wait, I thought about this, here my thesis was that the industry is so regulated and there's so many guarantees that things will be kind of structured and the rules were already there that they don't feel that the rules are under siege in the same way that other industries are. Like if somebody is like an illustrator and ChatGPT can draw, they're like 'well that's it. I don't have, there's no defense, I don't have, there's no AMA, there's nothing.'",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:14:09",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "They're human.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:14:10",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:14:10",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "They're human. My doctor, very well-regarded neurologist, didn't respond to one of my messages. And then he emailed, he finally responded and his first sentence was, 'it's been nuts.' And I was just like, whoa, doc, you're like the vice chair of the department. No, it happened, it is funny as you get older. But it was very, I actually appreciated it. It was like him, the guard came down a little bit, it was like 10:00 at night and he was just like, 'I'm sorry I didn't get back to you, it's been nuts.' And I was like, okay, I get it, I get it.",
+      "tone": "storytelling"
+    },
+    {
+      "timestamp": "00:14:41",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:14:42",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And then there's another point though, is like I've seen my GP for like 15, 20 years and there's a point where they're just like, and then they like to talk, right? Like the formality slips through and then they're like, 'I got the one son who's driving me insane' and I'm just like...",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:14:56",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It takes time. It takes time.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:14:57",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So walk, we just made a blanket statement. Doctors are using it.",
+      "tone": "decisive"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Talk us through how you're using it and what you're seeing.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And what you- what- what's your reaction to that?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:05",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "I think, you know, as a starting place, I think there's a lot of places in society where people are really worried that AI is going to take their jobs.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:15:15",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "So, you know, paralegals is one example, you know, where it's here's this profession that now, you know, AI can- can do so much faster and reasonably accurately that, you know, you can understand that those people might be a little bit scared that their job may be obsolete in the age of AI.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:30",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "And I don't think doctors necessarily see that same existential threat.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:34",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "They don't?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:15:34",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah. And I think that's a part of why they're so excited to use these AI tools.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:15:37",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Interesting.",
+      "tone": "intrigued"
+    },
+    {
+      "timestamp": "00:15:39",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "They're- most physicians, if you ask them how they enjoy spending their time, most of them like spending their time on their craft. So whether they're a surgeon, they want to be in the OR. Um, you know, if you're- I'm an internal medicine based specialty, you know, I do oncology, I really love spending time with my patients, I really love teaching my residents. That's where I want to be spending my time. And so-",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:15:58",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well and where were you spending your time that was that- like, pre-AI?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:16:04",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:16:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:16:05",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah, I think a lot of time is spent not necessarily just by the physician, but also by the staff, on things like writing documentation.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:16",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Paperwork.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:16:17",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Paperwork. Someone's coming- comes into my office, I have to make sure that's documented because that's how I submit a bill and get paid. And some doctors are spending almost twice as long documenting as they are with the patient. And a lot of doctors go home at the end of the night and they have to finish their patient charts. So this is something that is called 'pajama time,' where, you know, you're at home, you're finally comfortable, you've taken care of your kids or whatever you have to do, and instead of relaxing or- or enjoying time with your spouse or doing a hobby-",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:16:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You're opening the laptop.",
+      "tone": "sympathetic"
+    },
+    {
+      "timestamp": "00:16:45",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "You're back online, you're back on your EHR, um, trying to finish up the words.",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "00:16:49",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It sounds so fun. It's just like, 'Hey guys, pajama time!' 'Yeah!'",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:16:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Now you mentioned it in passing, but 'to get paid.' It's not just, 'I want to have thorough documentation so when this patient comes back and visits, I have full context.'",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:17:04",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's also just the grind of the bureaucracy of getting paid and all that.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:17:07",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah, there's- there's some overlap there between, you know, 'I want this note to reflect my decision making and my thinking so that when I come back to it or if a colleague, you know, is going to be consulting on this patient, I want it to be clear what it is we're doing and why.'",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:17:24",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "But sometimes there's parts of that note that you don't need to keep documenting every time, they're not directly relevant to what you're thinking, but you have to make sure you put it in there because that way when you submit a bill to the insurance company, you can make sure your time is reimbursed appropriately.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:17:37",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Right.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:17:38",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "And so if AI can help you complete that documentation, that is just such a huge win.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:17:43",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I mean, it's-",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:17:43",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "This is the other thing I notice when I go to the doctor, is it doesn't matter what- like, I broke my foot and I'll tell them I work in software and they're like, 'Boy, maybe you could fix this.' And then they'll point to the- the health record system, right?",
+      "tone": "anecdotal"
+    },
+    {
+      "timestamp": "00:17:55",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "So- so it just- that's a grind. Nobody seems to like their tools. Nobody seems to like their- their sort of digital existence.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "as a doctor, because it's just taken them away from all the other things I care about. And it seems pretty universal as far as I can tell.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:18:06",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:18:07",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "And, you know, sometimes if you're new to a system or new to an EHR, or, you know, just the way it's set up, getting the information out of the record that's relevant so that you can make decisions is sometimes painstaking.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:19",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You're squinting and scrolling through all sorts of stuff.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:18:23",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "You're reading through note after note trying to figure out which one might actually have the relevant information, and it can, you know, really squander a lot of time.",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "00:18:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Right.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:18:34",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Whereas if there were an easier way to just get that information out of the EHR, you could then be like, 'Okay, I'm going to go into action,' because now I have an understanding of this patient and their history and the rich background, everything they've been through. I have the context that I need to make the right decision for them without having to spend hours just sorting through this information which is not well-structured.",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "00:18:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You know what's fascinating here and what I'm pulling out is that, so you've got the AI companies and they're like, 'Oh, hey, Cancer Moonshot? That was cool, but wait til you see what we can do,' right? And so it's just everything is this incredible aspirational future state where everything will be solved and the human body will no longer be a mystery and etcetera, etcetera. And then we're hearing from doctors and doctors are saying, 'I have way too much paperwork. I need just... could we start with clerical first?' And I always think of this as like, the right way to bring AI into the organization is to clean up the mess the old computers made. Like, we'll take the new computer, we'll clean up the old computer's mess. And I think, you know, for our audience that's a lot of product managers, a lot of people who work in tech, healthcare feels almost insurmountable if you're not in it. Because and then it's also when you start to work in it people are like, they get very sort of mythological about HIPAA. A lot of this stuff is very easy to solve but it's just as an industry it's got a very funny relationship with tech. But most of the challenges, so many of them are literally like, 'I just need to find documents more readily. I need to transcribe things more efficiently.' Like it's so many simple things that you're describing that are not related to like, cells, they're not related to, you know, internalizing and dealing with huge datasets. They're just like, can you just make it so I can go to bed?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:20:08",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Well, I mean I guess I'll pose it as a question. Adoption via, 'Oh, I'm going to email hospital IT right now that I've found a really cool piece of software that could make me more efficient,' and then it just goes into a void and never comes out. And then there's, you know, what we call grassroots adoption, which is like, hmm...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:20:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I can get an app on my phone that's going to listen to me talk and then I'm going to copy-paste some stuff and I route it around the organization to a large extent. I mean, how did... I'd be shocked if you tell me this adoption is the result of a lot of large IT purchases from hospitals.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:20:54",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "I think there are... so, you know, it's interesting when you think about where is AI seeing the most utility in healthcare today. So, one is what we...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "we're talking about in terms of can you speed up the documentation. One way that AI is doing that, you've referred to is sort of this ambient dictation software. I have a clinic visit, somebody comes in to see me, I bring in my phone, I turn on the app. It's listening to the whole conversation and it turns it into a note at the end. Now I don't have to do that typing. And so that can be really useful and a real time saver. The other place where there's a lot of AI adoption is what's called clinical decision support. So I'm taking care of a patient, you know, I do oncology but this person there's something going on with their kidneys, I'm not entirely sure, and so I'm going to put some stuff into this AI and it's going to tell me, oh, you should be thinking about these five potential problems. Here are the next steps to work it up. Why don't you order these labs, order these tests, and then you'll be able to figure out what's going on with their kidneys without necessarily having to go and call a specialist right away. And it gives, these clinical decision support tools will also give you evidence. So they'll give you, you know, here's the literature, here's the New England Journal paper, here's the guideline that is supporting this, you know, systematic way of trying to work up what's going on with the patient.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:22:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Wow, that's a big deal. That's not just note taking.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:22:18",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "It's not just note taking. It's really helping physicians think through problems in a way that's evidence based and up to date.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:22:25",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I think there's an important thing. I've noticed this, like I didn't realize this about the craft until we had twins and it was a high-risk pregnancy and I did very little, but I did as we got further and further in the pregnancy, I realized there was a weekly meeting about our pregnancy along with all the other things going on, right? And that doctors talk. And I don't think when you are a patient you realize that because when you're saying this, like that information comes in but it doesn't just stay with you. Like you're going to talk about what it is, you're not just going to be like 'okay, the AI said it, it's good' which is kind of what's happening elsewhere in the world. You're going to take this information kind of into the culture that you're in, you're going to share it out, you're going to be like 'I think this, I think that' and you kind of don't... it just always struck me because we think of doctors I think a lot of times as just kind of these brains that operate and you know like...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:23:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Input, output.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:23:09",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Brain in a jar somewhere. Floating around.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:23:12",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "We don't think of you like with a PowerPoint presentation in a room somewhere in the hospital with four other doctors being like 'Man, I don't know, what do you think? Is this... I don't know.' Like the idea that you could all be somewhere shrugging is alien to patients, right? But I'm sure it has to happen all the time.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:23:27",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah, people don't read textbooks. They present the way they present and, you know, the study in the New England Journal or whatever other, you know, wherever you're finding it, it's done in a specific population in a very controlled way. And most of the patients who present don't 100% fit. And so that leaves a lot of white space in the practice of medicine.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:23:47",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:23:48",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "A lot of judgment. Exactly. A lot of room for experience, you know, people who have tried something again and again and again and have seen it work. And so we do our best to practice evidence-based medicine and I think AI can be really...",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "helpful in terms of here's what the evidence shows, here's the, you know, the ideal way of facing this issue. But there also needs to be more space where clinicians can discuss difficult cases, cases that don't fit the regular paradigm and bring in that clinical expertise to layer on top, and I think AI is not there yet.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:24:19",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, I don't know if it can be. What do you think?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:24:22",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "I think it's a great question. I think this could be a real differentiator for where AI is headed. I think if we can find a way to not only integrate, here's the literature, here's the guidelines, but here's clinical expertise on top of it, allow for more of those physician to physician conversations to happen not just in the same room with a PowerPoint, but going on across the country or potentially across the world, then I think we'll really be able to take these tools and turn it into improved health outcomes in a way that, you know, wasn't possible before.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:24:52",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "There's another thing I'm thinking a lot about, which is LLMs as a technology is very hard - they're not inherently reliable. They're trying to make them reliable but they're not inherently reliable. Meanwhile, the history of medicine has an unbelievable number of things around knowledge graphs and and sort of data-driven methods and machine learning that are far more reliable, right? And I think we're just at the very beginning of making a loop between those things. Like the LLM is great for querying, it can figure out what you're asking, it can kind of you can get a lot of intent and then you can go consult really large corpora databases like vast sets of PDFs but also vast sets of data. And I think that loop is going to be really exciting where you're like, hey, help me get into this database of prior outcomes and figure out what happened over the last 20 years. And I think it can be an amazing interface for that, but I think that world is just starting where we sort of bring those two together.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:51",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah, I think there are some enterprise AI solutions for healthcare that I imagine are trying to do this. And it brings up a few interesting questions. Number one, how much of the information that is actually used for patient decision making is structured in a way that an LLM has access to it? Because yes, you do get the labs and you do get the radiology read and so on and so forth, but so much happens in conversation and that's not captured anywhere. So is the - is the data that's even available to the AI adequate to make appropriate decisions?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:26:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Is that data even making its way back to the LLMs though? Even the structured stuff? Probably not.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:26:29",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:30",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "So, when we think about how do we actually use patient data for research, which is sort of what you're alluding to, how do we find patterns? There's a few things involved. Number one, it has to be anonymized. Number two, we have to make sure we're asking patients for their consent in order to use their data for research. And then number three, there's a risk when you look retrospectively that you are going to find a statistical fluke. It's much easier to accidentally find something that turns out to be incorrect when you're looking back. And so that can be a real issue with sort of real world evidence. So making sure...",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "make sure that we have appropriate statistical frameworks for use of a wonky term to make—",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:27:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh you're in a safe space for this! God, no one who listens to this podcast is turning it off because they're like—",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:27:12",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Who is this lady, this doctor with the statistical frameworks?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:27:16",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "They haven't been funny in a while! Yeah, no, you're good, you're good. Very safe here.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:27:20",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:21",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Because you know, if the data is prospectively collected and appropriately controlled, that's when we sort of have some level of confidence that we can trust the output from it.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:27:28",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "attentive"
+    },
+    {
+      "timestamp": "00:27:29",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "But if you're just looking retrospectively, there's so many things that change care over time to isolate one variable and then say 'it's because of this variable we need to change our practice around this one way of doing things'—that can become very dangerous. So I think the use of data within one hospital or one hospital system will now be enabled, and I think there's certain things that you can learn in terms of like quality improvement, quality assurance—",
+      "tone": "cautious"
+    },
+    {
+      "timestamp": "00:27:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "attentive"
+    },
+    {
+      "timestamp": "00:27:53",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "—but in terms of actually changing the practice of medicine, I think it will be good for hypothesis generation, but then it's going to inform the development of prospective clinical trials so that you can validate.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:28:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "This is the coldest bucket of water to pour on so many dudes right now. Like there are so many dudes out there who are like 'We're just going to aggregate all the medical data in the world, we're going to feed it to the LLM, and then billions of dollars will flow to me and I will get to have a Bugatti!'",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:28:13",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I mean it's like—",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:28:19",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And you are just here like, 'Actually, actually fellas, I got some real bad news for you. Doesn't quite work that way.'",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:28:27",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, you're not just going to put those two spreadsheets together and then sell it to, like, to Coro-oil. You know, no, sorry, bad news. Mm-mm.",
+      "tone": "mocking"
+    },
+    {
+      "timestamp": "00:28:31",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, that's good. That's good for everyone to know.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:28:34",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah, you know, we gotta make sure we have appropriate consent, we have to make sure the data is appropriately anonymized and cleaned, and then using a retrospectoscope and just looking back into the past, you're not always going to get the right answer.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:28:45",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Doctors are the scariest managers because they will just— they'll be like 'Well, it's a couple million dollars spent, but you know, what are you gonna do? Darn, didn't work!'",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:28:52",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Darn.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:28:53",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Getting it wrong is not just a bug in software. Like it's a different standard here, right?",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:28:59",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah. Let's look ahead then. I mean there is a lot on the scientific side, rather than the clinical side, there's obviously there's a lot of ambition around, and a lot of sort of motivation around bringing these tools, which by the way are a lot better today than a year ago and two years ago. Are you optimistic about bringing these capabilities to bear for the research side, to sort of— to use a term— Moonshot side of things that isn't just about scouring old data?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:29:34",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "I think, you know, when I think about Moonshot, I think a lot about public health interventions. And it's really interesting. So there— there was a study that came out from the NCI, the National Cancer Institute, in December of 2024, and what they found is that prevention and screening efforts averted almost five million deaths from five different cancer types. And depending on the cancer type, efforts in prevention and screening actually—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "far outweighed the benefit that you got from developing new treatments. And you know, there is some variability depending on the cancer type. But when we think about, you know, what are the things that we can do using AI that would really help us achieve the Moonshot goals, a lot of it is thinking about how do we improve our public health and prevention efforts? So something as simple as smoking cessation, you know, tobacco control efforts accounted for 98% of the almost three and a half million deaths that were prevented from lung cancer.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:30",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "So if we could just, you know, make better smoking cessation campaigns, remind people, find other ways to get the word out, you know, if we could increase screening for lung cancer because lung cancer screening is far below what it should be in this country. If we could just increase lung cancer screening, we would avert so many deaths. So what are the ways that we can use AI to improve existing public health efforts? I think is going to be really important in terms of reaching those goals.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:30:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Interesting. And it's counter to the, there's such a, you know, what's the silver bullet on across every industry with AI? Every AI really rewards laziness. It really is like, you know what, just throw it in the box, we'll take care of the rest, right? And I think everyone is getting burned over and over again nowadays like, whether it be software that got deleted, you hear that about every couple of weeks, like, oh yeah, just use AI to do this and it was like, whoa, it just deleted the whole codebase.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:31:34",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:31:36",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I think it's interesting to hear the sort of, there's value here, it's incremental, let's be thoughtful about it, there is no big grand surprise. It's not a solution, it's a tool.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:31:39",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's a tool. And that really good podcast recently where we interviewed Andrew Leland, who's a person who's got very, very low vision, and you know, as like, and he's using AI very creatively. He wasn't a technologist and he's kind of become one because it lets him have access to all sorts of stuff.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:31:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Built his own, built his own tools, which was pretty cool.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:31:56",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I was and I was all excited for him. I was like, yeah, and this, and he was like, hold on a minute, we didn't quite solve it. He's just going, hey there buddy, hey there, that sounds real, it's nice you're excited, I can read the taco menu, but maybe we could have like, you know, lots of equal rights and a national awareness campaign before you just get everybody clawed, okay?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:32:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's a chipping away, it's a chipping away, right?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:32:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And I think the hard work is still, it's still, he still learned a lot of things to get this thing to be useful for his life, right? It wasn't like he just sort of parachuted it in, he had to think about software, he's like, I started making software, I'd never made software before, but I had these capabilities.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:32:32",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But the framing is really interesting, and I think it's important framing, and I really, like, I'm internalizing it, because I love tech, I just do, and a lot of our audience does. But what we're hearing over and over from people who are sort of in a field or really trying to solve something very, very difficult is that, wow, these are cool and exciting tools, I'm using them, people around me are using them, but there's this one bright line where even if they say they have all the answers, it's kind of meaningless.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And it—and it actually ties in with, \"Hey, that's nice that you think that we're going to unlock all of this,\" but the reality is if Dad stops smoking, he's going to live a lot longer. And if you aggregate that, you get to five million people and that's like a trillion dollars you're not spending. And that's a lot of lives that are saved and a lot of grandkids who get to know their grandparents. And so before you jump ahead to how we're all going to live on Mars, maybe you could focus on the fact that with a couple really nice posters that we put around everywhere, we could save hundreds of thousands of lives. And I think like hearing that is just—it's such a hard framing to get across in this moment. I'm saying it—I'm doubling down on it because I think it's just really hard to hear when several trillion dollars in motive capitalism is like out there just—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:33:53",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Chasing everything.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:33:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "—saying, \"No, no, don't listen to her. She's being very conservative. She's a very nice doctor.\" But—but like we're going to fix this. We got it because we'll just ingest more data.",
+      "tone": "mocking"
+    },
+    {
+      "timestamp": "00:33:59",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:34:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And then you go like, \"Yeah, good luck with that.\" Good luck with that, because if it's from two hospital systems, it'll probably tell you something completely wrong.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:34:13",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:34:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And you've got that statistics degree. That's just hurtful, right? That's just hurtful.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:34:17",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:34:18",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And so, okay. New generation of doctors is coming in.",
+      "tone": "animated"
+    },
+    {
+      "timestamp": "00:34:23",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Uh-oh.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:34:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Curveball closing question. You have to get them to behave. They've been using this all through med school. Here they are. They're yours now. You've adopted fledgling baby ducks following you around the hospital and they've got ChatGPT. What do you tell them?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:34:38",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Mh-hm.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:34:39",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "I think AI can be an incredible tool as long as you use it for learning and not to replace critical thinking. And so when I'm, for example, I just finished a couple weeks in the hospital, I had residents with me and we would pause during rounds and we would actually think, talk through the framework, talk through the structured thinking that went behind making a particular decision. And I would pause rounds and I would ask them questions about how they were thinking about this, how they were actually approaching this question. And they didn't have time to look anything up, you know? I expected them to have already looked things up, to already have the knowledge walking in, and for our conversation to be focused on how do you use that knowledge to think critically and make the right decision? And so I think it's important that that isn't lost in all of this. AI can be a great tool for learning, for collecting more information, but we can't let ourselves depend on it to make decisions that we should be critically thinking through.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:35:18",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So the process and the framework more than the output and the facts?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:35:22",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Absolutely.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:35:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay. How are—are they like, \"Yeah, okay\"? Like what—are they sneaking back to the text box or—?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:35:28",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "You know, I got a lot of really positive feedback for that way of teaching. I think, I think also again, and this is something that, you know, I really think a lot about in terms of healthcare and AI, that human connection is not to be undervalued.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:35:40",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, I think people want it. We had a group of undergrads...",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "from the new school and they were lovely and they came in to learn about AI and they're studying, they're sort of journalism adjacent and we asked them what they were up to and they were like, oh, we try to use it as little as possible. I'm going to a good college, like I don't want to waste that on having it answer everything and we were both kind of oddly, it's funny because here we are at our AI company, but it's very inspiring.",
+      "tone": "pleasant"
+    },
+    {
+      "timestamp": "00:36:21",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:36:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah. No, also very like brightly dyed hair and it was like they were birds. It was wonderful. It was just great.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:36:28",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Do you? Okay, so you didn't have the closing question. I did.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:36:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, you take it.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:36:31",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Sorry, dude. That's a very thoughtful, no escape framing of the question for your residents. Obviously not everyone's doing that. Do you worry at all about the new generation of physicians that are up and coming who, let's face it, they're leaning on it maybe a little too much and they're not seeding the right experience over time because it is an incredible, it's an incredible crutch? It's an incredible thing to lean on. Do you worry about it at all?",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:36:58",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "I think it's worth worrying about. Yeah. There is, there was actually a New England Journal article that talked about concerns that people would plateau, their level of knowledge over time as a physician would plateau if they relied too heavily on AI. And actually went through frameworks that you could use in an educational setting to try to prevent that from happening. So this is an ongoing discussion. I think a lot of people are concerned about this. I will also say, you know, when you go from being in training to actually being an attending and you are the one responsible for making that decision for your patient-",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:37:34",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Higher stakes.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:37:35",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "-there is nothing, you know, scarier than the idea that you might make the wrong decision and hurt somebody or you may not give them, you know, as much time on this earth as they could have because of a decision that you made.",
+      "tone": "solemn"
+    },
+    {
+      "timestamp": "00:37:48",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:37:49",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "And so that again, you know, for me, it comes back to what is the human part of interacting with AI. And so as a person who wants to do their best taking care of another person, you're going to do everything you can to try to make sure you're making the right decisions. And so whether you're using the information from AI or not, you're probably still going to go to your peers, you're probably going to go to senior attendings and say, am I making the right decision? Am I thinking about this the right way? So we may sort of see, you know, sort of a delayed period of training as people ask more questions and learn. But once people have to develop that independence, I think they'll realize the importance of being able to critically think through things and not just relying on the AI.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:38:27",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yep.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:38:28",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I got to tell you too, you know, I get a little sense that like Dr. Menghrajani's students would never. It's just not, it's just not happening.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:38:37",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Don't go there.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:38:38",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, I know, cause you get the sense, it's all very, very nice, but you also get the sense that there is a steely, steely glare that can happen and it's not to be trifled with.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:38:44",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "We do our best to make sure that those who are in training are well prepared to take exceptionally good care of their patients when they're done. And so, you know, that requires-",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:38:56",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "The bar is high.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:38:57",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "The bar is high, they know it's high, the expectations are set.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "...and name them.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:39:01",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Amazing.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:39:02",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well, this has been amazing, thank you very much. We've learned a lot. Have you learned a lot?",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:39:06",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes!",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:39:07",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's good. It's good to see something get in there.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:39:09",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "A great conversation. Really interesting time. I feel like if we chatted in a year, we'll have a whole new set of topics to talk about. It's moving so fast.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:39:16",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Absolutely. Liability and regulation and who's paying for this and AI and drug development and yeah, there's a lot more to talk about.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:39:24",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah, tons going on. There's a lot more to talk about.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:39:26",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "All of that, but let me summarize it this way: Don't count on AI to replace your doctor, use it to learn about public health.",
+      "tone": "didactic"
+    },
+    {
+      "timestamp": "00:39:31",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes! There we go! More people should learn about public health.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:39:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Ask Claude about good smoking cessation programs globally and sort of how that affected cancer rates, let it draw you a graph, right? That's a... that's a thing we should all be doing.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:39:48",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "I think, you know, doing the things that your mom told you were good for you and making sure you're staying consistent with those things. Getting outside, getting lots of sunlight, you know, where's...",
+      "tone": "sincere"
+    },
+    {
+      "timestamp": "00:39:57",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I think Rich's mom handed him a pack of cigarettes.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:40:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "My mom told me to do that today!",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:40:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh, that's true, cigarettes! Yes!",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:40:04",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh, yeah. Absolutely.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:40:05",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yeah. Sleeping well, eating properly, getting your vegetables, you know, social interaction, building a community. These are the things that build health and wellness over a lifetime. And so whether or not AI is where you get that information from, make sure it's a trusted source, you know, not trying to sell you supplements or something, but actually trying to help you live the healthiest, best life that you can.",
+      "tone": "warm"
+    },
+    {
+      "timestamp": "00:40:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Great ending. I mean, turns out Mom was right.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:40:31",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:40:32",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Absolutely turns out Mom was right.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:40:34",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Reach out, hello@aboard.com. Show topics, need help, check us out at aboard.com. Thank you again.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:40:42",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And Dr. Menghrajani, if anybody wants to sort of get in touch with you or sort of learn about you, where should they go?",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:40:48",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "You can find me, I have a page, it's called healthinsights.llc, and so you can just Google that domain and you'll find me there.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:40:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Great. We'll put it in the show notes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:40:55",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Thanks.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:40:56",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Thank you so much for coming on.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:40:57",
+      "ad": false,
+      "speaker": "Kamal Menghrajani",
+      "text": "Thank you so much for having me. This was a blast.",
+      "tone": "happy"
+    }
+  ],
+  "highlights": [
+    "Doctors largely view AI as a tool for reclaiming \"pajama time\" by automating administrative documentation and clerical tasks rather than an existential threat to their profession. This shift allows clinicians to focus more on their craft and direct patient care rather than the bureaucratic requirements of insurance and record-keeping.",
+    "While AI provides valuable clinical decision support by surfacing evidence-based guidelines, it cannot yet replace the \"nuance\" and human judgment required for complex cases that fall outside of standard medical textbooks. The \"white space\" in medicine requires experienced clinicians to layer personal expertise and peer consultation on top of AI-generated insights.",
+    "Substantial progress in cancer reduction may come from using AI to enhance public health and prevention efforts, such as smoking cessation and screening reminders, rather than just searching for a \"silver bullet\" cure. Historical data suggests that improved screening and prevention have averted millions more deaths than new treatments alone.",
+    "In medical education, AI should be used as a supplemental tool for information gathering rather than a replacement for a rigorous framework of critical thinking. Maintaining a human connection and the ability to process knowledge independently remains essential for physicians who must take ultimate responsibility for high-stakes patient outcomes."
+  ],
+  "summary": "In this episode of the *Aboard* podcast, hosts Paul Ford and Rich Ziade interview Dr. Kamal Menghrajani, an oncologist and former White House health policy advisor for the Cancer Moonshot initiative. Dr. Menghrajani discusses the realistic application of AI in healthcare, moving past the hype of \"instant cures\" to focus on the technology's immediate value in reducing administrative burnout. She highlights how \"ambient dictation\" and automated documentation are helping physicians reclaim \"pajama time\"—the hours doctors traditionally spend catching up on paperwork at night—allowing them to focus more on patient care and the actual craft of medicine.\n\nBeyond clerical efficiency, the discussion explores AI’s role in clinical decision support and public health. Dr. Menghrajani explains that while AI can synthesize vast amounts of medical literature to suggest evidence-based treatments, it remains a tool for hypothesis generation rather than a replacement for clinical judgment or prospective trials. She emphasizes that significant progress in cancer mortality often comes from \"un-flashy\" public health interventions, such as AI-driven smoking cessation and screening campaigns, which can prevent more deaths than new treatments alone.\n\nThe conversation concludes with a focus on the future of medical education and the \"human element\" of the profession. Dr. Menghrajani expresses concern that over-reliance on AI could lead to a plateau in critical thinking for new doctors. She advocates for using AI as a supplemental learning resource while maintaining a rigorous, framework-based approach to clinical decision-making. Ultimately, she notes that while AI is a powerful tool, the foundation of wellness remains rooted in human connection, preventive health, and the irreplaceable judgment of a trained professional.",
+  "description": "Doctors might be using AI to cut down on paperwork, but can these tools really be employed in clinical settings? On this week’s podcast, Paul and Rich sit down in the studio with Dr. Kamal Menghrajani, a practicing oncologist and lecturer at Harvard Medical School who was previously a member of the Biden White House’s “Cancer Moonshot” team. After she explains how AI is helping in her work, she lays out its real limitations—and discusses how these technologies can distract from more systemic approaches like better patient prevention and screening. Plus: Are her medical students allowed to use LLMs?\n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/kamal-menghrajani-the-limits-of-ai-healthcare/",
+  "duration": 2475,
+  "people": [
+    "Paul Ford",
+    "Rich Ziade",
+    "Kamal Menghrajani",
+    "Harvard Medical",
+    "Biden White",
+    "Cancer Moonshot"
+  ],
+  "topics": [
+    "AI's role in reducing administrative burden and documentation for doctors",
+    "The limitations and risks of using AI in clinical decision-making and data analysis",
+    "Public health strategies and prevention efforts in the Cancer Moonshot initiative",
+    "The impact of AI on medical education and the necessity of critical thinking",
+    "The importance of human connection and clinical expertise in healthcare"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/9vtc_6tpXmk/maxresdefault.jpg",
+  "date": "20260519",
+  "youtube_url": "https://www.youtube.com/watch?v=9vtc_6tpXmk",
+  "youtube_metadata": {
+    "title": "Kamal Menghrajani: The Limits of AI Healthcare | The Aboard Podcast 2025-05-19",
+    "description": "Doctors might be using AI to cut down on paperwork, but can these tools really be employed in clinical settings? On this week’s podcast, Paul and Rich sit down in the studio with Dr. Kamal Menghrajani, a practicing oncologist and lecturer at Harvard Medical School who was previously a member of the Biden White House’s “Cancer Moonshot” team. After she explains how AI is helping in her work, she lays out its real limitations—and discusses how these technologies can distract from more systemic approaches like better patient prevention and screening. Plus: Are her medical students allowed to use LLMs?\n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/kamal-menghrajani-the-limits-of-ai-healthcare/",
+    "duration": 2475,
+    "view_count": 5035,
+    "like_count": 3,
+    "channel": "Aboard",
+    "upload_date": "20260519",
+    "thumbnail": "https://i.ytimg.com/vi/9vtc_6tpXmk/maxresdefault.jpg",
+    "tags": []
+  }
+}

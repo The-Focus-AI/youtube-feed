@@ -1,8 +1,8 @@
 ---
 channel: Aboard Podcast
 channel_handle: "@AboardPodcast"
-total_videos: 35
-last_updated: 2026-05-14
+total_videos: 39
+last_updated: 2026-06-08
 ---
 
 # Aboard Podcast Channel Index
@@ -13,17 +13,21 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 35 |
-| Total Views | 47,243 |
-| Date Range | 2025-09-02 to 2026-05-12 |
-| Average Video Length | 37:51 |
-| Total Runtime | 22.1 hours |
+| Total Videos | 39 |
+| Total Views | 57,491 |
+| Date Range | 2025-09-02 to 2026-06-02 |
+| Average Video Length | 38:22 |
+| Total Runtime | 24.9 hours |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [Challenge: Don't Mention AI](videos/QM2HJ1q_JoM.md) | 32:09 | 43 |
+| [Craig Mod: Vibe Coding Towards the Apocalypse](videos/qK3VAgDFGAo.md) | 47:36 | 1,387 |
+| [Kamal Menghrajani: The Limits of AI Healthcare](videos/9vtc_6tpXmk.md) | 41:15 | 5,035 |
 | [Why AI Makes Things Worse for Enterprise Teams](videos/9IQfIfsvSSc.md) | 27:50 | 46 |
+| [The New Yorker's Andrew Marantz: What's Wrong With Sam Altman?](videos/gw2f-oxBJNs.md) | 50:13 | 3,783 |
 | [Andrew Leland: Hacking Disability with AI](videos/OZiah3QUa-g.md) | 49:36 | 48 |
 | [The AI Consulting Paradox](videos/RohbF2_GZE0.md) | 35:17 | 1,703 |
 | [Tech, AI, and NYC: Creativity runs this town, with Dan Shipper, Paul Ford, and Rich Ziade](videos/jJeS4ULBmV0.md) | 63:08 | 92 |
@@ -62,15 +66,15 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 ## Most Viewed Videos
 
 1. **[The Billable Hour is Dead](videos/cxBkQ2Jwh4A.md)** - 38,968 views
-2. **[New Words for a New Industry](videos/_av0gfBqqrE.md)** - 2,008 views
-3. **[Hilary Mason: Product First, Then AI](videos/Ef8j8yIatKw.md)** - 1,789 views
-4. **[The AI Consulting Paradox](videos/RohbF2_GZE0.md)** - 1,703 views
-5. **[Evan Ratliff: Preparing for a Ridiculous Future](videos/AmCZoVC_slc.md)** - 1,008 views
-6. **[Max Read: Reporting on the Big, Bad Internet](videos/wta75izwCCU.md)** - 146 views
-7. **[Arushi Saxena: Can We Trust AI?](videos/-eqj9qKjWtI.md)** - 101 views
-8. **[Tech, AI, and NYC: Creativity runs this town, with Dan Shipper, Paul Ford, and Rich Ziade](videos/jJeS4ULBmV0.md)** - 92 views
-9. **[Rafe Colburn: Building Etsy in the AI Era](videos/YOhcr71TydA.md)** - 88 views
-10. **[Bots Ate My Resume](videos/FPbq8yEzV7g.md)** - 82 views
+2. **[Kamal Menghrajani: The Limits of AI Healthcare](videos/9vtc_6tpXmk.md)** - 5,035 views
+3. **[The New Yorker's Andrew Marantz: What's Wrong With Sam Altman?](videos/gw2f-oxBJNs.md)** - 3,783 views
+4. **[New Words for a New Industry](videos/_av0gfBqqrE.md)** - 2,008 views
+5. **[Hilary Mason: Product First, Then AI](videos/Ef8j8yIatKw.md)** - 1,789 views
+6. **[The AI Consulting Paradox](videos/RohbF2_GZE0.md)** - 1,703 views
+7. **[Craig Mod: Vibe Coding Towards the Apocalypse](videos/qK3VAgDFGAo.md)** - 1,387 views
+8. **[Evan Ratliff: Preparing for a Ridiculous Future](videos/AmCZoVC_slc.md)** - 1,008 views
+9. **[Max Read: Reporting on the Big, Bad Internet](videos/wta75izwCCU.md)** - 146 views
+10. **[Arushi Saxena: Can We Trust AI?](videos/-eqj9qKjWtI.md)** - 101 views
 
 ## Topics Index
 
@@ -78,8 +82,8 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 
 | Company | Videos | Context |
 |---------|--------|---------|
-| Anthropic | 6 | AI safety, Claude personality, Dario Amodei essay, competitive landscape, abandoning safety guidelines, Bun acquisition |
-| OpenAI | 4 | ChatGPT shopping, erotic content policy, competitive landscape, valuations |
+| Anthropic | 7 | AI safety, Claude personality, Dario Amodei essay, competitive landscape, abandoning safety guidelines, Bun acquisition, lobbying for OpenAI regulation |
+| OpenAI | 5 | ChatGPT shopping, erotic content policy, competitive landscape, valuations, Sam Altman New Yorker profile and nonprofit-to-for-profit transition |
 | Google | 3 | Search dominance, AI mode, Gemini comeback, Matt Seitz background |
 | Etsy | 1 | Engineering culture, AI adoption, ChatGPT shopping integration |
 | Aboard | 5 | Product demos, healthcare platform, vibe coding approach, complex software systems, NYC live event |
@@ -114,14 +118,29 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 | ThoughtWorks | 1 | Engineering productivity report co-author |
 | Zig (project) | 1 | Programming language with explicit "no LLM" contributor rule |
 | Bun | 1 | JavaScript runtime, now Anthropic-owned |
+| The New Yorker | 3 | Lewis-Kraus consciousness piece, Andrew Leland writing, Marantz/Farrow Altman feature |
+| Mass General / Harvard Medical School | 1 | Kamal Menghrajani's clinical home and teaching post |
+| Memorial Sloan Kettering | 1 | Where Menghrajani trained in computational oncology |
+| Doximity | 1 | Physician survey on AI adoption referenced in healthcare conversation |
+| NCI (National Cancer Institute) | 1 | December 2024 study on prevention/screening averting 5M cancer deaths |
+| White House OSTP / Cancer Moonshot | 1 | Menghrajani's Biden-Harris era policy work |
+| Quicken / QuickBooks | 1 | The bespoke-software-replacement target for Craig Mod |
+| Random House | 1 | Published Craig Mod's most recent book |
+| Y Combinator | 1 | Altman's pre-OpenAI tenure and the disputed pushed-out question |
+| Saudi/Emirati sovereign wealth | 1 | Cited as one of only 5-6 entities that can fund frontier-model growth |
+| FanDuel / Bet365 / Gotham Sports | 1 | Online sports gambling normalization on phones and Yankees app |
+| Ferrari / LoveFrom | 1 | Jony Ive's "upside-down bathtub" Ferrari design dustup |
+| Netflix | 1 | Algorithmic-narrowing-of-kids' culture conversation |
+| The Maintainers (themaintainers.org) | 1 | Repair-and-maintenance community Paul plugs |
+| Virtual OS Museum | 1 | Andrew Warkentin's 150GB torrent of 1,700 operating systems |
 
 ### Products & Technologies
 
 | Product/Technology | Videos | Context |
 |--------------------|--------|---------|
-| Claude / Claude Code | 10 | Coding agent, developer experience, personality, alignment, terminal UX, accessibility hacks, infinite vibe code horizon |
-| ChatGPT | 4 | Memory features, shopping, consumer adoption, erotic content |
-| Vibe Coding (general) | 13 | Tools landscape, limitations, enterprise adoption, SMB applications, product management disruption, accessibility, NYC live demo |
+| Claude / Claude Code | 12 | Coding agent, developer experience, personality, alignment, terminal UX, accessibility hacks, infinite vibe code horizon, Mod's bespoke finance dashboard, "1938 nuclear reactor in backyard" |
+| ChatGPT | 6 | Memory features, shopping, consumer adoption, erotic content, Mod's accountant audit, healthcare patient printouts |
+| Vibe Coding (general) | 14 | Tools landscape, limitations, enterprise adoption, SMB applications, product management disruption, accessibility, NYC live demo, Mod's six-day Quicken rebuild |
 | Cursor | 2 | IDE for AI-assisted coding |
 | Perplexity | 1 | AI-powered search browser |
 | Sora | 2 | AI video generation, "slop" content |
@@ -142,13 +161,31 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 | GPT-4o | 1 | Multimodal model used in Andrew Leland's accessibility experiments |
 | Proof | 1 | Dan Shipper's "agent-friendly Google Docs" |
 | Continuous Integration | 1 | Workflow deploy data, AI's impact on test pipelines |
+| EHR / Ambient Dictation / Clinical Decision Support | 1 | The three AI-in-healthcare adoption wedges Menghrajani cites |
+| Headless Chrome / Python automation | 1 | Mod's CSV-scraping pattern for bank data |
+| Things (app) | 1 | Mod's paragon of good software; UI inspiration for his finance dashboard |
+| Brother laser printer | 1 | Mod's everywhere-I-move hardware default |
+| Tailwind | 1 | Rich's least-favorite CSS framework (and how nobody looks at code anymore) |
+| AlphaGo / Move 37 | 1 | Marantz's analogy for Altman's "please regulate me" eight-year stance |
+| Virtual OS Museum | 1 | 150GB torrent of 1,700 operating systems curated by Andrew Warkentin |
 
 ### People
 
 | Person | Videos | Context |
 |--------|--------|---------|
-| Paul Ford | 34 | Co-host, Aboard co-founder |
-| Rich Ziade | 33 | Co-host, Aboard co-founder |
+| Paul Ford | 38 | Co-host, Aboard co-founder |
+| Rich Ziade | 37 | Co-host, Aboard co-founder |
+| Andrew Marantz | 1 | New Yorker staff writer; co-authored the Altman feature with Ronan Farrow |
+| Ronan Farrow | 1 | New Yorker writer; Marantz's co-author on the OpenAI piece |
+| Sam Altman | 4 | OpenAI CEO; subject of the Marantz/Farrow piece; also referenced elsewhere |
+| Elon Musk | 1 | OpenAI co-founder; plaintiff in the Musk-vs-Altman Oakland trial |
+| Ilya Sutskever | 1 | Compiled the OpenAI board firing documents; turned down $6M Google counteroffer |
+| Alan Kay | 1 | Xerox PARC; "there he is, the future" anecdote about young Altman |
+| Craig Mod | 1 | Writer/photographer/publisher in Japan; rebuilt Quicken in six days |
+| Bret Victor | 1 | "If you can't build from what I've shown you, giving you the code will not save you" |
+| Dr. Kamal Menghrajani | 1 | Oncologist at MGH/Harvard; former White House Cancer Moonshot physician |
+| Jony Ive | 1 | Designer of the new powder-blue Ferrari and LoveFrom |
+| Andrew Warkentin | 1 | Curator of the Virtual OS Museum |
 | Erynn Petersen | 1 | CEO of Emme, formerly Amazon/Microsoft/DoD; healthtech and insurance reform |
 | Dario Amodei | 2 | Anthropic CEO, "Adolescence of Technology" essay |
 | Sam Altman | 3 | OpenAI CEO, disagreements with Amodei, "one-person billion-dollar startup" |
@@ -180,7 +217,7 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 |-------|--------|
 | AI Bubble / Valuations | [Of Course There's an AI Bubble](videos/eDwNbCGHcTA.md), [(AI) Bubble Trouble](videos/g0b1vZ-qG5I.md), [Bots, Feeds, and Kids](videos/EfN9hOoP7L4.md) |
 | AI Safety & Trust | [Arushi Saxena: Can We Trust AI?](videos/-eqj9qKjWtI.md), [Can Tech CEOs Be Thoughtful](videos/XtfKYHK1dxw.md), [Gideon Lewis-Kraus: How Anthropic Sees Claude](videos/Y3daHxt_TlA.md) |
-| AI in Healthcare | [Docs Heart Bots](videos/J3yr8LMAqGE.md), [AI in Healthcare: What Actually Works?](videos/nBfCHI2J4pk.md), [Erynn Petersen: Fixing Healthtech, One Bill at a Time](videos/BPxLUHFiKyQ.md) |
+| AI in Healthcare | [Docs Heart Bots](videos/J3yr8LMAqGE.md), [AI in Healthcare: What Actually Works?](videos/nBfCHI2J4pk.md), [Erynn Petersen: Fixing Healthtech, One Bill at a Time](videos/BPxLUHFiKyQ.md), [Kamal Menghrajani: The Limits of AI Healthcare](videos/9vtc_6tpXmk.md) |
 | Privacy & Surveillance | [Arushi Saxena: Can We Trust AI?](videos/-eqj9qKjWtI.md), [NYC Sends AI Packing](videos/sf_7Fc62FQA.md), [Robot Reddit Wants Your Passwords](videos/kLgAurfi5_s.md) |
 | Jobs & Labor Market | [Bots Ate My Resume](videos/FPbq8yEzV7g.md), [Welcome to Slopworld](videos/kMz317CHnIk.md), [Matt Seitz: MBA...I?](videos/DyRfO9rlJGs.md), [Product Is More Than Prompts](videos/FU32JUxYiHg.md) |
 | Consulting & Billable Work | [The Billable Hour is Dead](videos/cxBkQ2Jwh4A.md), [The AI Consulting Paradox](videos/RohbF2_GZE0.md), [Expertise Matters More Than Ever](videos/mLVeP8aQM6k.md) |
@@ -188,7 +225,7 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 | AI & Content/Slop | [Welcome to Slopworld](videos/kMz317CHnIk.md), [Max Read: Reporting on the Big, Bad Internet](videos/wta75izwCCU.md) |
 | E-commerce & Consumer Trends | [Dan Frommer: Consumers in the Age of AI](videos/317XJdJ-src.md), [Rafe Colburn: Building Etsy in the AI Era](videos/YOhcr71TydA.md) |
 | Politics & Tech Industry | [Tech's Hard-Right Turn](videos/EO-tTXD3pIE.md), [Can Tech CEOs Be Thoughtful](videos/XtfKYHK1dxw.md) |
-| AI Ethics & Values | [God, Sex, and AI](videos/Z2oyLtQ1t3M.md), [Gideon Lewis-Kraus: How Anthropic Sees Claude](videos/Y3daHxt_TlA.md), [Evan Ratliff: Preparing for a Ridiculous Future](videos/AmCZoVC_slc.md) |
+| AI Ethics & Values | [God, Sex, and AI](videos/Z2oyLtQ1t3M.md), [Gideon Lewis-Kraus: How Anthropic Sees Claude](videos/Y3daHxt_TlA.md), [Evan Ratliff: Preparing for a Ridiculous Future](videos/AmCZoVC_slc.md), [The New Yorker's Andrew Marantz: What's Wrong With Sam Altman?](videos/gw2f-oxBJNs.md) |
 | Platform Disruption & Startups | [Totally Prepared for 2026](videos/evxl5gli5f4.md), [Why the Software Industry Hates Your SMB](videos/LprdHSteOZc.md), [New Words for a New Industry](videos/_av0gfBqqrE.md) |
 | Education & AI Literacy | [Bots, Feeds, and Kids](videos/EfN9hOoP7L4.md), [Matt Seitz: MBA...I?](videos/DyRfO9rlJGs.md) |
 | Healthcare System / Insurance Reform | [Erynn Petersen: Fixing Healthtech, One Bill at a Time](videos/BPxLUHFiKyQ.md), [AI in Healthcare: What Actually Works?](videos/nBfCHI2J4pk.md), [Docs Heart Bots](videos/J3yr8LMAqGE.md) |
@@ -199,10 +236,19 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 | Language & Industry Vocabulary | [New Words for a New Industry](videos/_av0gfBqqrE.md) |
 | Enterprise AI Productivity / Engineering | [Why AI Makes Things Worse for Enterprise Teams](videos/9IQfIfsvSSc.md), [Yelling at Vibe Coders](videos/5hpwgaZhJRQ.md), [Webinar: The State of Vibe Coding](videos/WVPWboBINrA.md), [Are We All Developers Now?](videos/LO01DBQEUiY.md) |
 | Organizational Change | [Tech, AI, and NYC: Creativity runs this town, with Dan Shipper, Paul Ford, and Rich Ziade](videos/jJeS4ULBmV0.md), [Why AI Makes Things Worse for Enterprise Teams](videos/9IQfIfsvSSc.md) |
+| Power, Concentration & Governance | [The New Yorker's Andrew Marantz: What's Wrong With Sam Altman?](videos/gw2f-oxBJNs.md), [Can Tech CEOs Be Thoughtful](videos/XtfKYHK1dxw.md), [Tech's Hard-Right Turn](videos/EO-tTXD3pIE.md) |
+| Bespoke Personal Software / Vibe Coding for One | [Craig Mod: Vibe Coding Towards the Apocalypse](videos/qK3VAgDFGAo.md), [Andrew Leland: Hacking Disability with AI](videos/OZiah3QUa-g.md) |
+| White-Collar Identity & White-Collar Disruption | [Craig Mod: Vibe Coding Towards the Apocalypse](videos/qK3VAgDFGAo.md), [The Billable Hour is Dead](videos/cxBkQ2Jwh4A.md), [Bots Ate My Resume](videos/FPbq8yEzV7g.md), [Product Is More Than Prompts](videos/FU32JUxYiHg.md) |
+| Public Health & Prevention | [Kamal Menghrajani: The Limits of AI Healthcare](videos/9vtc_6tpXmk.md) |
+| Beyond AI / Other Tech Harms | [Challenge: Don't Mention AI](videos/QM2HJ1q_JoM.md) |
+| Algorithmic Narrowing of Culture | [Challenge: Don't Mention AI](videos/QM2HJ1q_JoM.md), [Welcome to Slopworld](videos/kMz317CHnIk.md) |
 
 ## Video Categories
 
 ### Guest Interviews
+- [The New Yorker's Andrew Marantz: What's Wrong With Sam Altman?](videos/gw2f-oxBJNs.md) - New Yorker staff writer on 18 months reporting on Sam Altman with Ronan Farrow
+- [Craig Mod: Vibe Coding Towards the Apocalypse](videos/qK3VAgDFGAo.md) - Writer, photographer, software supertaster who rebuilt Quicken in six days
+- [Kamal Menghrajani: The Limits of AI Healthcare](videos/9vtc_6tpXmk.md) - MGH/Harvard oncologist and former White House Cancer Moonshot physician on AI in clinic vs. public health
 - [Andrew Leland: Hacking Disability with AI](videos/OZiah3QUa-g.md) - Author of "The Country of the Blind" on AI, accessibility, and screen readers
 - [Hilary Mason: Product First, Then AI](videos/Ef8j8yIatKw.md) - Hidden Door CEO on AI-native fanfiction games and the product-first principle
 - [Evan Ratliff: Preparing for a Ridiculous Future](videos/AmCZoVC_slc.md) - Shell Game host on running a startup staffed by AI agents
@@ -220,6 +266,7 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 - [Tech, AI, and NYC: Creativity runs this town, with Dan Shipper, Paul Ford, and Rich Ziade](videos/jJeS4ULBmV0.md) - NYC live event with Every.to's Dan Shipper on agents, infinite vibe coding, and org-chart disruption
 
 ### Regular Episodes (Paul & Rich)
+- [Challenge: Don't Mention AI](videos/QM2HJ1q_JoM.md) - 20-minute experiment going AI-free; gambling apps, Jony Ive's Ferrari, The Maintainers, the Virtual OS Museum
 - [Why AI Makes Things Worse for Enterprise Teams](videos/9IQfIfsvSSc.md) - CircleCI/ThoughtWorks data, AI as a "devastating vetting process," and the uneven productivity gap
 - [Expertise Matters More Than Ever](videos/mLVeP8aQM6k.md) - Pricing, value-based work, and why experienced judgment becomes more valuable in a vibe-coding world
 - [Product Is More Than Prompts](videos/FU32JUxYiHg.md) - How AI and vibe coding are disrupting product management and design roles

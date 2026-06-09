@@ -1,0 +1,1599 @@
+{
+  "title": "The New Yorker’s Andrew Marantz: What’s Wrong With Sam Altman? | The Aboard Podcast 2026-05-06",
+  "source_url": "https://www.youtube.com/watch?v=gw2f-oxBJNs",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Hi, I'm Paul Ford.",
+      "tone": "cheerful"
+    },
+    {
+      "timestamp": "00:00:02",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And I'm Rich Ziade.",
+      "tone": "cheerful"
+    },
+    {
+      "timestamp": "00:00:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And we're seated closely today. Do you know what that means?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:00:05",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "We're getting along?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:00:06",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, it doesn't mean that. It means guest on Riverside!",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:00:08",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh!",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:00:09",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, we get to look up at the screen and talk to a person and that means we get to- we get to snuggle. And that's nice.",
+      "tone": "warm"
+    },
+    {
+      "timestamp": "00:00:13",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Nice. It's very nice.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:00:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So, this is the Aboard podcast. It's a podcast about how AI is changing the world of software because it truly is. Rich and I have been in the software industry for at least 300 years. And lots of stuff is going down. And we're going to talk about that today with someone who has really looked closely at one of the people who is absolutely at the top of the pyramid here and figure out what the hell is happening.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "They went in deep.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:00:42",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So let's play the theme song and let's tell people what we do and then let's have a real conversation.",
+      "tone": "ready"
+    },
+    {
+      "timestamp": "00:00:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Let's do it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:05",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "Rich, what is Aboard?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:01:07",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "Aboard is an AI transformation shop with incredible magical tools.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:13",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "That sounds like nonsense to me.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:01:15",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "We help you get stuff done faster, better with AI.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:01:18",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "Let me give you an example. Recently, a big not-for-profit focused on children's behavioral health came to us.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:01:25",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "Unimpeachable.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:01:27",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "And they said, could you help us with the dashboard? Just make it so we can do more with the dashboard.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:01:32",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, that's right.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:01:33",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "And we made it- you can talk to the dashboards. You can ask questions of the data.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:01:35",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "We bring the data in, we made it a lot simpler to understand where things can run better. Yeah, it was great.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:01:43",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "That org is called Make An Impact, there's a nice case study on the website. But that kind of thing, if you have ugly, horrible data problems and you want to make them nice and fun and chatty, that's what we're for.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:01:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's enough advertising, let's talk about Sam Altman. And we have- we are very, very lucky and very, very grateful to have someone who is currently one of the Sam Altman experts on Earth, Andrew Marantz of the New Yorker. Hello, Andrew.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:02:05",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Hey, thanks for having me, guys.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:02:07",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "In the April 13th edition of the New Yorker, the future issue, where you are a staff writer, correct?",
+      "tone": "probing"
+    },
+    {
+      "timestamp": "00:02:14",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Mhmm. Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You wrote a quite lengthy, quite detailed sort of summary of Sam Altman's career with your co-writer Ronan Farrow.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:24",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Mhmm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:25",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And you found him to be unimpeachable, an excellent human being, and a person of incredible trustworthiness.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:02:31",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "That's right. Well, just- like I heard you say in the intro, you know, a nonprofit comes to you, they must be unimpeachable. And OpenAI was started famously as a nonprofit. So there you go, that- that wraps up the story.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:02:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I mean, just two angels, Sam Altman and Elon Musk, came together and said we need to do something for humanity and today we live in a bountiful world of joy and peace.",
+      "tone": "satirical"
+    },
+    {
+      "timestamp": "00:02:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I do- I- I want you to get into this kind of slow burn of a story arc.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Cuz there's no bombshell really.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:03:02",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:03:04",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's a bunch of little explosions I would say if we're going to run with that.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:03:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Mhm.",
+      "tone": "acknowledging"
+    },
+    {
+      "timestamp": "00:03:09",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "But I think—",
+      "tone": "interrupted"
+    },
+    {
+      "timestamp": "00:03:10",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well we'll go all the way back out. When did you both start working on this story? What give us a sense of the genesis?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:15",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "It was a long time ago. It was more than a year ago. And we had both come to it from different angles. Ronan had done some reporting on Musk and other figures in this world. I had done some reporting on sort of AI safety or AI doomer people and sort of trying to get inside the headspace of like this sort of fundamental I think still unresolved question of why do so many of the people who are closest to building AI find it to be an existential risk to themselves and everyone they love and if so why do they keep building it right? So I had been working on that question, Ronan had been working on these sort of power in Silicon Valley questions and we kind of converged on this question of okay if there's one company or one person at the center of this mystery of like if AI is the most dangerous thing ever invented who are the people inventing it pushing it to the frontier so fast why are they doing it? Really the place to converge on that question was around Sam Altman and OpenAI. So that was I think about 18 months ago at this point that we started looking into it and it was as you say it wasn't one smoking gun thing it wasn't like everyone who's ever met Sam Altman knows that you know he secretly clubs baby seals and you know once that is revealed to the public he will be you know unmasked. It was a it was a much more subtle sort of string of allegations so it took it took a long time.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:45",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "When's the first time you ever heard of him? I have a very specific memory of him. Go ahead.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:04:51",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "You mentioned that this was for the future issue or I think— that's what it was called. We had an online— we the New Yorker had an online issue called the interviews issue and it was happening in November or December 2022 so I had the very clever unique idea I will interview ChatGPT for this interviews issue. And so I did the thing where I talked to the chatbot and because I you know don't work at you know Google DeepMind or one of these companies it was pretty new to me you know unlike people who work closely with this stuff and they're like this is just GPT-3 or GPT-3.5 with some dumb little API on it I was like oh wow this is like a really impressive thing and it was around that time that it occurred to me to wonder okay I'm going back through all these interviews that Sam Altman has done with Ezra Klein and with I think Tyler Cowen at that point and a bunch of you know places where he had spoken publicly about his dire fears about this technology on his own blog. And I just remember thinking like I think that we are just structurally forced with him and with people in this position",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "to take their word for it? Like there's no real like collateral here. There's no like put your money where your mouth is. It's sort of just like, do they mean it? Well, do they sound like they mean it?",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:06:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Mhm. One of— some— I have a very specific memory because I'm a big nerd, I'm a big Alan Kay fan. Mhm. So Alan Kay from Xerox PARC for people who don't know, kind of the— if you've ever used a windowing interface, he's partially to blame. Like, just real deep. And so—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:27",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Or thank.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:06:28",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Or thank, right. No, no, no, just a brilliant guy and— and so he was giving a talk and just out of nowhere he's like, 'man, that—' and I haven't been able to find it, but I just remember it really specifically. He's like, 'That Sam Altman, man. That's just a guy right there.' Like, he was really— like literally those words, like a granddad who was like, 'there he is, the future of the Valley.' And this would be like three years— it was like right when he was taking over Y Combinator and he'd been like first class. I knew Aaron Swartz a little bit. Like, I watched them all kind of come up. And so I'd never paid much attention to him and then suddenly to just have like one of the great sort of figures in the Valley be like, 'there he is, that's the future.' And I've been watching him on and off ever since, and I— like, I still can't fully figure it out. Like, he's a very slippery human being that way. And he's very— but whatever he has, boy does it charm the hell out of venture capital and— and investors. Like, and the true Valley just looks at him and they see themselves reflected. And I think it's— so I think there's a little bit of that. Like, he just— he represents what people want the Valley to be, or he did at one point, and he kind of came out of that.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:38",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, and for those that haven't read the article, Andrew, I mean, first off, go read the article. It's— I ripped through it. It's very— it's strangely entertaining. It's like— it's like the intellectual gossip rag a little bit.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:07:54",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Well that's the job. That's the— the job is to take really difficult shit and you add dazzle. You just a little bit of dazzle.",
+      "tone": "lighthearted"
+    },
+    {
+      "timestamp": "00:07:58",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You guys did a great job with making me feel smart and a little dirty at the same time. So, thank you.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:08:02",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "That's the New Yorker. You— you take— you take really difficult shit and you add dazzle. You just a little bit of dazzle.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:08:06",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "For those that haven't read it yet, go read it, but if you haven't read it yet, give us a couple of like little vignettes of— of sort of— because you— you guys diligently start to draw out a pattern. There was clearly after a while was like, 'oh, here we go again.' Give us a— a couple of— a couple of little stories that sort of map out or like, 'huh, there seems to be a pattern here.'",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:08:27",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Paul, you just kind of touched on it right where you have the investor VC types who are very charmed by Altman's rhetoric, but then you also have the Alan Kay types who are really in many ways kind of diametrically opposed to that camp who are sort of, you know, more pure innovation for its own sake types. And then you also have this newer camp because of, you know, it's specific to AI, which is really like people who are terrified to summon this thing into existence. And what emerges through this reporting and— and I think through the piece is that Altman does seem to—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "have this way of talking to each of these camps of people in a way that kind of convinces each one that he is kind of at bottom really one of them or really sympathetic to their concerns. And so, yeah, you do kind of get this accumulation of details. I mean we start the piece with the place that everyone starts, which is why was he fired in late 2023? And I think what emerged for us, which was kind of a hunch I had going into it and then when we got all these documents it was confirmed, is as I said, if it was one simple thing, we would know it by now. So what you get is, right, so we reviewed all these documents that Ilya Sutskever compiled with help from other people on the board that led to Altman's being fired, but we also reviewed pages and pages of documents of, you know, emails that he was sending to people before OpenAI was founded in 2015. We went back to his Y Combinator days and kind of investigated this old question that has swirled around Silicon Valley of was he pushed out of the top job at Y Combinator? And it seems from our reporting that he was, even though he continues to deny it. But also just these little things, like you say, there was one—because OpenAI was founded as a nonprofit and then went through this very Byzantine series of steps over a decade to gradually convert itself to a for-profit, which really only concluded last year—at one of those steps, there was a question of how the nonprofit should be compensated, and there were wildly different ways to create that valuation. This forms some of what will be argued about during this trial in Oakland, this Musk versus Altman trial. But like, just this is one example of a kind of nugget of information that doesn't mean that much on its own, but I think slots into a pattern. There was one board member who said, 'I don't think the nonprofit is being compensated fairly. I know that the board is going to approve this package, but I'm going to vote no.' And we reviewed documents of this board member saying, 'I'm going to vote no,' and then we also saw documents where it seems that that vote was recorded in the official company minutes as an abstention rather than a no. Now, that's a kind of almost like—it almost seems inconsequential. Like, the board package is going to pass either way, but there does seem to be this kind of almost meticulous drive to kind of tidy up narrative loose ends, which I think ironically ends up creating a lot of narrative problems for the company.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well, there's a flip side to this which is wild, which really struck me, and it just struck me in what you said, too, which is everybody keeps a diary like a 19th-century Russian princess. Like, I mean, it's just it's so shocking how much documentation is flowing your way as a journalist. And I mean—",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:11:49",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I think people know shit's might hit the fan and they—",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:11:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But was that surprising to you when they're just like, 'Oh, I have this 140-page PDF of every...'? Like, how did that play out?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:11:59",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Yeah, I did find that surprising.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "honestly cuz you do sometimes think as a reporter, you know, we're in this age of disappearing signal messages and like nothing will be preserved for prior generations and actually this is sort of a tangent but we had these for the 100th anniversary of the magazine we had sort of a lot of writers sort of picked a favorite old piece from the archives and went back and wrote a sort of second take on it and I because I'm a weirdo and a masochist I picked the the New Yorker profile of Hitler and I went back and read not only the piece but all the correspondence around the piece and I I was just struck by how much of that is preserved right you have intra-office memos intra-office memos cables back and forth from Paris and Berlin and it's all sitting there",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:12:44",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "there's filing cabinets at the office.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:12:47",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Yeah. Yeah. Well and also and also at the New York Public Library. I mean there are boxes and boxes of stuff so you go to the New York Public Library and ask for, you know, Janet Flanner's cables in 1938 and 1939 and they're all just there like the original copies and so it's incredible I mean I did not need to do all that research for an 800-word piece but I did and it was I was overjoyed to do it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:13:09",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I mean it's the New Yorker's profile of Hitler like every guy over like 30 is gonna double down on that one. Hey I'll be back in a couple of days time to do a little Hitler.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:13:19",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "It is it is a rich text as they say but um but that's my only point there is just to say like there was so much that survived in its original form and so my sort of reporter brain was like bemoaning how little of that will survive the moment we're in and so to your point I was pretty surprised by how many people kept a digital diary and because I think even if they knew that the shit was gonna hit the fan wouldn't that kind of militate in the other direction right?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:13:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I this is a culture that apparently loves putting secrets into Google Docs and then sharing them. You know? So it's like hey what is the which is wild right because you're like here's this guy...",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:13:58",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "and he very clearly he's very everybody in that role is very image conscious it's and everybody in the valley is very image conscious and you know they all have low body fat and they're doing good and so like here you have this like just huge narrative engine billions of dollars let's get it under control and it's just wild to me that everybody else is like I'm just gonna put this in Google Docs and and sort of leave it in anonymous mode so anyone can share it as an animal to a URL. Yeah yeah and so there is a that is an unexplored aspect",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:14:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "the question I'm gonna ask you to to take a leap here there's I think there's two ways and you guys sort of allude to him summing up because you confront him with all these contradictions and all this kind of chameleon-like behavior and his response was like yeah I'm pretty flawed and you sort of roll with it and then at one point I said wait a minute",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "This guy pulled one over on Andrew and Ronan too. What a plot twist! Like, he's so good at it that it's sort of a soft landing by the very end.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:15:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Mm. Do you buy it or do you not buy it? Let's start there.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I don't... it didn't land as that soft to me. I don't think...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:15:19",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well, the piece speaks for itself because you... yeah.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:15:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But yeah, tell me... so he, there was a babe in the woods vibe to this. Did you get charmed?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:30",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "So, yeah, I don't think that many people read this as a soft piece, but I will say that we do try to... I mean, we try very hard to be open and influenced by all the information that comes our way. And it would be journalistic malpractice and sort of epistemic malpractice to take all the many, you know, pages of documentation and interviews and stuff from people who have these deep critiques without talking to Altman and his defenders and sort of, you know, steelmanning their position as we say. So, I do think that's an important thing to do in any piece. And look, I mean, there are times when... so for example, to make it less personal, because I, you know, I think I didn't go into this with like a 'I really want to psychologize this one individual.' Obviously, like all people at this level of power deserve a high level of journalistic scrutiny, but more to the point, as we've been talking about, somebody at this particular juncture of technological history, it's not just picking someone with a lot of power and money, it's somebody whose entire pitch for himself is 'I alone can be in charge of the Ring of Sauron because I have this kind of quality of being uncorruptible.' I mean, this is a pitch that he's made several times.",
+      "tone": "articulate"
+    },
+    {
+      "timestamp": "00:16:21",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Right.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:16:22",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "All to say that, like, I wasn't particularly like 'I need to, you know, get to a personal landing, you know, a place where I feel that I've unlocked this person's personality,' although I think you get a lot, you know, in the piece that, that goes to that. I think that there's more this structural question of, you know, why are we even asking about the personality flaws of an individual with this much power? Right? Obviously, I think to raise that question in a way is sort of self-answering, that like, it's absurd. If, if there is anything like the amount of power that Sam Altman says there is or will soon be in this technology, it, it, it just as many of the people we spoke to for the piece suggested, it seems sort of nuts to vest anyone with that amount of power. That, and again, you see this rhetoric cropping up again and again in the decade leading from the nonprofit to the for-profit, which is Altman saying himself...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "I should not be trusted with this much power, begging Congress to regulate him, all these things. So to the extent that I think it matters structurally, a lot of it hinges on the question of, well, were all of those just sort of ploys at regulatory capture or were all of those just sort of ploys at recruitment and retention and getting what he wants, or were those sincere? And either way, I think there are sort of troubling questions or conclusions to draw from that. Just to finally sort of tie the knot on answering your question more directly, you know, we had several editorial conversations about this question of charm and persuasiveness, because we have quotes in the piece and we have anecdotes in the piece of people saying, you know, he's like a Jedi mind master, he's just incredibly next-level persuasive. And you know, there are people who have interacted with him or have seen, you know, tape of him or whatever who are like, 'That guy? That guy's the Jedi master persuader? It doesn't seem that way.' And I think a lot of it has to do with what is the persuasive game being played, right? I think it's not this kind of thing where it's like, you know, the most Obama-level, Dalai Lama-level charisma, like, can work any room. It's not that kind of—that's not the prompt, right? I think the prompt is: can you sit in a room with this person and feel that your deepest concerns are being mirrored back in a kind of sympathetic way?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:19:29",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's not even in a room. It's can you sit around a fire pit and out in the valley and can you—yeah—sort of talk like a human spreadsheet.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:19:36",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You want to know my worst nightmare?",
+      "tone": "deadpan"
+    },
+    {
+      "timestamp": "00:19:39",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Tell me your worst—I'd rather not, but we're on a podcast, go.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:19:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Knowing that the New Yorker is profiling me for 18 months.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:19:46",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "It's not gonna end well. That's just like—and this thing of like, you wake up on a Wednesday, you're like, 'Ah, sunshine and birds are out. I wonder if that article's gonna drop.' No, I mean—well, and that's why, I mean, just to that point, like, to the point about is it—is it sort of falling for someone's, you know, persuasive wiles, or is it steelmanning their position? I guess the—the one thing I would say to that, and you just reminded me of it, is like, I didn't want this to be an exercise—and I know Ronan didn't either—of like, if you spend 18 months rifling through anybody's, you know, past, you'll come up with something that you can frame to look bad. I really wanted to filter—we both really wanted to filter—against just competitor mudslinging, against kind of ambient sort of suggestive bullshitty things. Like, we really wanted to bulletproof it so that it was the stuff that really transcended that. And—and I think, you know, your audience will get this, like, there's often this critique of OpenAI that, you know, they—they started out as open source, and that was what the 'open' was supposed to be, and then they weren't even open source anymore. You'll notice that knock on them doesn't appear in the piece, just as an example. And I think that's because there are perfectly good faith reasons—you know, agree, disagree—but there are perfectly good faith reasons and explicable reasons.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "reasons for why that happened and so we wanted to focus on things where there's a less tidy explanation.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "What, what do you think of the guy?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:21:07",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "What do I think of him?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:21:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:21:09",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I think what Andrew nailed was that this thing is so vast and its impact is so immense that to put it at the feet of one human being who I don't view as sinister, frankly, I view as flawed like we're all flawed, frankly, who isn't, you know, doesn't have a PhD in ethics and moral behavior... like that's not his... he's been in the valley, he's seen...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:44",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Or computer science, but that's separate.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:21:45",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Or computer science, which I actually want to ask you about.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:21:47",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Yes. And, you know, I think this is, this is someone that wants, he, he grew up in startup culture where you really have to wake up each day and figure out how you're going to navigate the next thing, right? And, and how you're going to get to the next deal, right? And and I think that is so hardwired in him that, and I don't mean this as an, like, as an advocate for Sam Altman, I don't think he woke up in 2021 and said, 'I've got a master plan. We're gonna, we're gonna get into everybody's minds through dot org and then we'll switch and do a switcheroo.' I don't think there's any of that. I don't think so.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:22:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh, I think it's, I think it's the opposite. All these guys are made of master plans. Sorry Andrew, I know you're on this podcast too, but hold on just a second.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:22:36",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "No, I'm curious to hear it. And I'd love to hear your... yeah, let's hear it.",
+      "tone": "open"
+    },
+    {
+      "timestamp": "00:22:39",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Here's how I see this. They're made of master plans. Everybody wants to reinvent society from technology and that is the ethos and that's what the Valley loves. And what's happened is they tried to, when, when blockchain stuff scaled up...",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:22:54",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:22:55",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "They were like, 'Okay, now we're gonna have our own Wall Street, we're gonna be our own place...'",
+      "tone": "expressive"
+    },
+    {
+      "timestamp": "00:22:58",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "We're going to disintermediate banks and we're going to give you more power.",
+      "tone": "collaborative"
+    },
+    {
+      "timestamp": "00:23:01",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And they always want to start, like, they want to get a couple old oil tankers, strap them together and build a, build a seasteading culture, right? There's always this attempt to like, we're going to be sovereign...",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:23:09",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "The seed is always altruistic, right?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:23:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, but it's like we, society has to get away from regulation so we can just do what we want. 'Mom, get out of my room.' And so what I think is, this particular technology scaled so quickly, it was so vastly interesting and so surprising that it actually scaled past all of the Valley's own limits to the point that they can't get enough compute. They have to go to Saudi sovereign wealth in order to get enough GPUs to do their stuff. We've never seen anything in our life scale completely outside of the Valley. Even the internet really kind of stayed anchored for a long time. This thing is global so fast. And so the system of, like, Y Combinator, Paul Graham, all that stuff, really broke down around the edges and this guy kept himself right in the middle of it and he got caught because they...",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "He's not the president, he's not elected, and it all starts to look real bad. The valley looks bad.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:24:04",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Why? Okay, but fine. But he didn't have to do that. He didn't have to assert that like, 'Well, I guess competition kicked in, time to be for-profit, because that's the game.'",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:24:16",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I think you got it, I'm gonna say this and then I'm gonna shut up because I'm not the guest, but like, I think when your entire life is embodied in coordinating humans and deal making and you feel you gotta go to the White House—",
+      "tone": "insistent"
+    },
+    {
+      "timestamp": "00:24:31",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's the next deal.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:24:33",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You're just gonna do it. Like I don't think there's any wiring that would ever... like he's fine, he'll just go buy another car.",
+      "tone": "dismissive"
+    },
+    {
+      "timestamp": "00:24:38",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Well, and or, I mean some of our reporting made it seem like some of his most expensive cars may have been gifted to him by Emirati Sheikhs, so there's that element. I mean some of it—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:49",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That's like me buying you a soda.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:24:51",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Totally, totally. Which, you know, it's been a minute. When... you haven't bought me a soda recently.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:24:56",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Come on up to Union Square, I got you. We got Spindrift in the fridge, we're gonna have a party.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:25:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I... so I don't want to just do the like, you guys do antithesis, thesis and I have to do synthesis, but I actually do think that the synthesis is correct here which is: yes, a lot of these guys, Altman definitely included, seem very hardwired to do the next deal. That I think was on display several times in the piece, most notably the Pentagon blacklist, Anthropic, Altman's ready to swoop in and do the deal, right? Doing deals is—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:31",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "But that's how you get the billions. You don't get... you can make money, but you can't do that unless you are that guy. That's how you get the growth.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:25:39",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "And what I would also say though to differentiate this, which has to do with the other point Paul was making about how fast this has scaled and how fast it sort of escaped, slipped the bonds of Silicon Valley... we have a quote in the piece of someone saying the amount of capital you need for this is just hard to comprehend. There's basically only five or six entities in the world that can fund this kind of growth. It's basically the US government, the four or five biggest tech companies in the world, the Saudis, the Emiratis, that's it.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:26:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Sovereign wealth.",
+      "tone": "confirming"
+    },
+    {
+      "timestamp": "00:26:10",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That is a boring cocktail party.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:26:13",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Unless you're bombing something.",
+      "tone": "grim"
+    },
+    {
+      "timestamp": "00:26:15",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Yeah, yeah. Go ahead.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:26:17",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Unless you're bombing a data center.",
+      "tone": "darkly humorous"
+    },
+    {
+      "timestamp": "00:26:19",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I mean, he's chasing the realization, how do I make this, how do I fully realize this?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:26:23",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Yes, and I think all these guys are. I think one different, like sort of one wrinkle in the comparison to Bitcoin or Seasteading or any of these other kind of world-dominating sort of plans is again, like, in a lot of those cases, think what you will about the master plan, but there is a kind of statement of it that is pretty straightforward.",
+      "tone": "comparative"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "We want to get outside of, you know, international laws, so we're going to try seasteading. We want to get outside of regulation, right? They're saying what they want to do. We want to replace fiat currency. There is a fundamental contradiction at the core of this, which you kind of sound like naive if you keep harping on it because, 'Oh, that's old news, that happened years ago.' But the fundamental contradiction remains, which is they did not go to people and say, 'We want to build AGI and we're going to take hundreds of billions of dollars in order to do it and we're going to scale up these models and then we're going to turn around and have one of the most powerful businesses in the world.' They didn't say that. They said, 'This is not a business, this is an AI safety research lab,' right? We forget it because we think, 'Oh, everyone says stuff to make the deal happen,' but this is really a difference of kind, not a difference of degree in terms of what the pitch was. The pitch was fundamentally actually at odds with what it ended up being.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:27:58",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. And which led to obviously the attempt to remove him. And this was the one part of the piece that jumped out at me is once he saw that leverage had tipped back in his favor and he was going to be put back in place, boy, that sort of sheepish guy who's really kind of sweet, like boy, that mask came off and it was just the final scene of The Godfather, right? Like it was he cleaned house in a pretty aggressive way. And that to me was the most revealing thing.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:28:56",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But what choice, I mean, and I'm not, I agree with you, but what choice does he have? He comes back in, he's been ousted, it's humiliating, it's bad, and what are you going to do? What would you do?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:29:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Well, it wasn't that. I'm not surprised that he did it. I think I found myself trying to reconcile that episode from how he'd been portrayed up until then, which is like, 'Hey, I aim to please, that's kind of my nature, and sometimes it gets me in trouble.'",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:29:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But it's not just that. We have to protect everyone in the world from a difficult, complicated future where robots come alive, versus I need to go talk to my good friends the Thallouids about how to build a data center in Jordan. You know, like I think that is a hell of a jump.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:29:36",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "It is a hell of a jump.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:29:38",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I mean they keep using, so...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:29:40",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I mixed up my Arabs by the way, and I work with a lot of Lebanese. I just need to be out in front of that.",
+      "tone": "apologetic"
+    },
+    {
+      "timestamp": "00:29:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You're forgiven. Back to you Andrew. Go.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:29:49",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Well, this was actually something that came up as like, when we kept asking so many questions about the Middle East, we were sort of met with like, 'Oh, do you have something against the Middle East?' And I was like, 'It's really not that, it's just asking questions about all the yachts you've been on and how you're getting your money.'",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "...be consumers of information, we can kind of read between the lines. The—the fundamental disconnect of this story of like, please tie my hands, was so—it wasn't an offhand comment one time. It was something that Sam Altman said in every room he was in for eight years under...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:30:03",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's really funny.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:30:05",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "I mean, look, this again, it's like, yes, people say things, people say don't be evil or people say we want to connect the world and all that stuff. And yeah, we can as savvy...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:30:19",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "He loves regulation is what he says. He just loves it, can't get enough. Give me more regulation until it's actually regulation time, at which point they start to get a little real squirrely.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:30:29",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "And, and make of this what you will, but it wasn't just, you know, going before the Senate, you know, in 2023. The first email he sends that we have a record of to Elon Musk raising this idea in May of 2015 said, 'We need a Manhattan project for AI,' I'm quoting from memory, so I may be getting this wrong, 'that will aggressively comply with all regulation.' And so—and if you take the Manhattan project part of that even remotely seriously. There are some people who don't and again they think it's just all hype and bullshit, but if you even take the possibility of that seriously. And then you imagine what it would be if Oppenheimer were like, 'I'm running this secret lab in the desert, it's very important for the following reasons, we need to beat the Nazis etc etc,' and then, you know, they try to kick him out of the lab he comes back and he goes into founder mode and goes, 'Actually, I'm going to be, you know, I'm going to be making some big deals with the Japanese or whatever.' Like, people would have questions. Either you were not serious about your pitch then, or you're—something is missing now, but like the contradiction is too big.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:31:34",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well, we're in this very funny zone where the ideologies that guided them, so much money showed up that we don't hear about them anymore. We're not hearing about effective altruism as much anymore, which was very much a guiding...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:31:51",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "This is—this is a question I have for Andrew and maybe this is you probably observed it because it's outside the purview of what you focused on for the piece, but it seemed to like just kind of coast—like OpenAI gradually shifting from non-profit to clearly a for-profit kind of the world kind of rolled with it.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:32:17",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "It makes you picture of a teddy bear astronaut.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:32:19",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Which I find fine.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:32:20",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:32:21",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Fine.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:32:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You can't do that for a non-profit. Have you ever tried to do it with a non-profit?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:32:26",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I've never tried to do it with—it's like six weeks and 12 board meetings before you can see even one hair on the teddy bear.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:32:32",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Very true.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:32:33",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Anyway, do you think the valley and maybe Altman specifically sort of sensed it's going here anyway?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:32:41",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Yeah, I think that look, we have people in the piece representing both of these views. The kind of it was always a master plan 3D chess view and the it was improvisatory checkers all along view. And I do think that it may be that nobody knows, including even Altman himself, right, because you can—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "convince yourself of lots of things post hoc and all that sort of stuff.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:33:03",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:33:04",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "I think to some extent though, what's incredible is how well it worked, right? You don't have and who knows maybe some of this will be unwound through this trial or maybe other things are afoot but as of now this sort of strategy to put yourself at the top of the hierarchy that nobody really had tried or thought of before. There was one analogy, you know, that this ended up cut from the piece because we had so many AI analogies in the piece that we were sort of, you know, ditching them at the last minute for ballast but there was one that sort of gets at this that I kind of liked which is: so one of the big watershed moments where the public understood that AI actually was heating up and it wasn't, you know, in another sort of research winter, was AlphaGo beating the world Go champion.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:33:47",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "And one of the ways that happened, this was broadcast live on Korean TV and there was this move called Move 37 where AlphaGo makes this move that was so outside the realm of what any human would ever contemplate doing that all the commentators just thought it was a mistake. They're like, okay, finally the model is glitching out, we finally have, you know, hit the limits of what the model can do. And then only in retrospect after the model beats the human, could they piece together how that was actually the winning move. It was so out there, it was so creative and aberrant that Lee Sedol couldn't figure out what was going on until it was too late. Now there are people, and I'm not going to say conclusively that we know for sure, but there are people who think that these eight years of Altman being the 'please regulate me' guy and the 'I'm so scared that this technology is going to kill everyone on earth' guy, that that was his Move 37. That it was at the...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:42",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "particular juncture of a Congress that was tired of giving carte blanche to tech CEOs, a public that felt really burned by social media in particular, a recruitment pool of high-quality AI researchers who were intensely disproportionately scared of the thing they were building...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:59",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "and then investors who, according to our reporting, Altman could still go to and say like, trust me, we are going to do fine here. Like, to the point where there was a little purple box on the investment sheet that said we're going to cap your investment at 100x because otherwise the rocket ship growth will be too intense. The fact that all of those pitches were made simultaneously, even with their mutually contradictory elements, is something that I do think is sort of historically unique.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:35:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh no, I think but to me there's like a nerd Occam's razor that kicks in, which is this is kind of typical nerd behavior. You believe in the deep... you're a very spiritual person when it comes to technology.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "technology. And you really, you really feel that, you know, superintelligence is right around the corner. But you also just really love deals. And, and like—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:36:09",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I think there's a maturity of strategy in what you just outlined that I actually don't see anyone possessing, because when we're on the other side of it, the execution was pretty flawed, right? It's just this enormous thing showed up and they went, \"Oh my God, there's so much money to be made.\" And then when I, what I, my thesis is just like, okay—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:36:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "now Dario left, and now I gotta compete with that. And it's a little baby, but he's pretty smart, I gotta keep my eye on it. And then Google, who came up with the cool technology that actually turned out to be the one that's going to make us all the money, they're going to come eat us at any moment. And I gotta stay here aligned with Microsoft. I gotta stay aligned with Microsoft, but they're kind of annoying. And I just sort of like, I see it, I can see it bubbling out as a sort of generic, like, like VEEP-style incompetence as much as I can see it coming out of a more, like, slightly conspiratorial, strategic Move 37.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:37:00",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Totally. I'm in favor of incompetence because it fits to my own view of the world and myself, but maybe they are that strategic. Well, and look, just I, I think totally to echo what you're saying, I, I don't think that nobody is the villain of their own story. Nobody is, you know, twiddling their mustache and saying how can I do something bad? And so I don't think the conspiratorial, look, let's put it this way, that even in the Move 37 analogy, it's being done by something definitionally without an organizing sentience, right? So it's not saying this is this, you know, evil supervillain thing to do. It's just saying this is a move that people haven't really tried before and it turns out to be a successful move. But that's not at all—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:37:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "There's no endgame.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:37:53",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Yeah, it's just, it's not at all mutually exclusive with \"I'm going to try to make deals and see what works.\"",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:37:57",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I think you're nailing it Andrew, which is I think look, the truth is the one thing we could say conclusively is out of all the people he, all the people he courted, the tea— he would not have been able to assemble that stellar team if he had told them \"we're going to make gobs of money and there might be some consequences.\" Like he, there's just no way, right? You, you nicely draw out these personalities that were deeply concerned and felt a moral obligation to not just do whatever. And—",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:38:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And in this way he, I don't buy his, he wants to be the next Steve Jobs, I don't fully buy that, but that was Jobs getting like the Macintosh team together. We're gonna go, we're gonna put a pirate flag up in this one building and we're gonna change the world by taking everything we can from Xerox PARC.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:38:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Look, man, master plan I don't know about. What I do know is he goes into a meeting with an outcome in mind and if that outcome has to drive a particular narrative, he's coming in with that narrative.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:38:56",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I think that's right. I think it gets compounded. There's a very high—",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "likelihood of that outcome if he goes into the meeting.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:39:02",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "He knows that. And so I think too—",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:39:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "There's also—there's the motive force of someone having $20 billion. It tends to line people up.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:39:09",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And—and he's—he tends to kind of keep that momentum going.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:39:14",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "There is also, I mean, look, I think you guys know this as people who are in tech but are not, you know, just maximizing your own sort of personal wealth at all moments. There are really people in this world who are constantly getting gobs of money thrown at them and turning it down. And so we have records in this piece of, you know, just Ilya Sutskever is one example of, you know, Google wants to keep him, they give him a $6 million counteroffer and he says, no, I'm going to go work at the pirate ship, good guy shop, which is OpenAI, and make a fraction of that. And look, it's not at all—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's a good point though, because when—when it all starts to melt, he's like, well, what have I done?",
+      "tone": "contemplative"
+    },
+    {
+      "timestamp": "00:39:57",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:39:58",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "And it's—and one of the things, you know, you were—you were asking before about were there, you know, claims of Altman's that—that we were taken in by or found persuasive or whatever. I think it's totally plausible, you know, Altman told us and has told other people he's not primarily motivated by money. I think that's totally plausible. There's no way for me to know, we don't come down on it one way or another, but I think it's important to remember that there are people in the world who are not primarily motivated by money. Now, they might, you know, be motivated by power or something else that we might find to be suspicious, but I do think that there are clear indications, proof I would say, of people in this story who are not maximizing their own sort of personal optimization function at every moment. The question is, like, what are they optimizing for?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:40:47",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I have a fun closing question. All right. Is Musk the good guy in this?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:40:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, don't do it.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:40:54",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "I think a very clear—so we're all going to be watching the trial—or I am going to be watching the trial for the next few weeks—",
+      "tone": "anticipatory"
+    },
+    {
+      "timestamp": "00:41:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:41:01",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "There's a lot that has come out in discovery, a lot of it is in the piece, obviously not all of it, that does make it look like Musk has an argument when he says that he was kind of hoodwinked out of his money. Now, how much money and how willing he was to be hoodwinked and how much his concerns were more sincere than other people's concerns, these are all questions now for a jury to decide. But one thing I will say is, you know, if—I think it would be a deep mistake, and I hope readers are not making this mistake, if they walk away from this piece thinking, you know, I don't know about this Sam Altman guy being AGI dictator, I really think AGI dictator should go to Elon instead, or to Dario instead, or to Demis. Like, the whole, again, this whole structural thrust of the piece is the fact that we're throwing around concepts like AGI dictator with even a 5% shred of possibility that that has meaning attached to it in a real sense is insane.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "...sane. And so I'll give it to I will say Anthropic is starting to like, they're putting some money into actually lobbying for regulation against OpenAI.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So like I will, he's put at least a little bit of juice into...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:42:14",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. But I mean your point is no one person should hold those keys.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:42:17",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No. My God! This is banana cakes. I mean, look.",
+      "tone": "animated"
+    },
+    {
+      "timestamp": "00:42:22",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Here's what I... I have a certain amount of empathy reading the story. It's not that I'm like... I actually don't particularly ever want to interact with that guy. I'd... valley people make me very nervous. And he's probably a really good persuader, so God help me if you ever... and I'm a gullible human, so God help me if you ever want anything I have. But, if you were suddenly sitting astride something and you look at it and Bill Gates says, 'That's the most impressive thing I've ever seen', and you have been riding this for your whole career and you are a very good boy, and you see a trillion dollars in the road in front of you, it's very... just genuinely confusing. Like even someone who's good at deals, even good at structure, even a president would have trouble dealing with the level of attention and focus and drama. And there's no infrastructure because they're not government, they can't regulate. They're... they barely really... they kind of live in very much a bubble. And I think that you just end up in this situation where they don't... no one has the skills for dealing with the change that they are bringing about.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:43:31",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:43:32",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "And it keeps blowing up in everybody's face.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:43:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's a pretty common technology runaway train pattern, right? It's happened a few times.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:43:40",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "But never at this scale. Never at this scale, not at this speed. And it does make you think that some of that rhetoric from 2019, 2020 Sam Altman saying, 'Someone really ought to stop me from having this amount of unchecked power,' you know, seems like there's something to it.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:44:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:44:02",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "I think that was a fun thought experiment and then, but then, you know, after you take that sovereign wealth, you've got to show something on the balance sheet. And what are you going to do?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:44:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:44:11",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "What are you going to do?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:44:13",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Give me those returns.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:44:15",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Yeah, exactly.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:44:16",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Andrew, I lied. It wasn't the last question. Give me your thought, your own personal sentiment on AI and what the fu... Now you went into the belly of the beast here, like, these are people that are really shaping something profoundly important in our future.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:44:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And your job is to put words in a sequence making sure they're backed by facts in a way that is exciting and interesting to an audience.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:44:43",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "How are you...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:44:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well.",
+      "tone": "interjecting"
+    },
+    {
+      "timestamp": "00:44:45",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Your sentiment.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:44:46",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Well, I mean, so to the latter point, I try and I think succeed at not doing the thing that a lot of these tech people often accuse us journalists of doing, which is to be motivated by pure pique and outrage that they're coming for our jobs. Like I don't feel... I've sort of searched my soul on this because I used to get this critique when I would write critically about social media.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "as well, you know, oh you're just salty because we're, you know, disrupting your dinosaur industry. And I was like, I think you are doing that and I think that's bad, but I think I believe those things independent of whether I think you're coming for my specific job.",
+      "tone": "earnest"
+    },
+    {
+      "timestamp": "00:45:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Like when they just say clickbait over and over while hitting your Reddit post button is just great.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:45:20",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:21",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Exactly.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:45:22",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "So I don't think that I'm sort of just lashing out at my sort of tech overlords because I'm worried that they will replace me. I I do think that look, a lot of times with some of especially the more far out kind of sci-fi Skynetty kind of arguments, I would I would go in kind of I think tacitly assuming like okay, there will be some obvious seam I can pull at here logically that will make this whole thing fall apart. And if I just sort of learn enough of the technical jargon I'll be able to see where the logical flaw is. And a lot of times I was like, you know, I don't, you know, I'm not going to end up with a kind of P-doom of 99.9% and I'm not going to, you know, sort of cash in my I don't even know what one does at that point, but I wasn't I I didn't end up there. But I think I ended up thinking okay, what would it mean to go from a from a null set of like just not even knowing what the gravest arguments are to knowing what they are and not being able to offhand refute them? And that does feel different. And like that goes for, you know, the literally existential things, that also goes for, you know, what if big chunks of our, you know, transportation infrastructure or energy infrastructure are given over to generative AI bots that we don't fully understand? That goes for, you know, all kinds of things like, you know, human enfeeblement and AI slop everywhere and like those things do worry me in a way that I don't have an easy solution for. I don't have like, if you could, you know, give me a magic wand and make me a 60-vote, you know, filibuster-proof Senate majority, I would know how to solve. I don't know that it's even within the realm of government to solve at this point. But I I do take seriously the fact that this stuff is moving fast enough that even its creators don't really know what it's capable of and that that's not something that we can just sort of wish away by saying oh those sci-fi nerds, they're just trying to get our attention. Like, I think they have our attention for a reason.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:47:37",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Have you ever seen these guys get interviewed by Congress? Congress is amazing. Cause Congress will be like Congress they'll be like, will you come help us regulate it? Like they just, you are such a good boy.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:47:50",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "It's rough.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:47:50",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's terrible. It's rough.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:47:51",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Let me let me leave us with this. Because I was reading this piece and as I got to the end I was like, this is good. This helps me understand something. And then I had this thought, 40 years to...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "At least. Like he's not going anywhere. He's got billions of dollars, he is... like, this person is going to be part of our lives for the rest of our lives. And I just want you to react to that. You ready?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:48:13",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Wait, I thought I had the last question.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:48:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:48:17",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Well, I mean, there are lots of people working there who don't think we have 40 years left, so that's encouraging in a way.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:48:24",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Alright. Dammit, that was a good setup then. Good for me, 'cause that was... that was beautiful.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:48:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Did you guys collude on that?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:48:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, that was really... you're absolutely right. Many people do not... that is probably... And if anyone from that world is listening, when they heard me say 40 years, they're like, 'We have like six months, man. What are you, what are you even talking about?'",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:48:42",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Andrew Marantz, this has been... great discussion. The piece is great, people should go read it. And, that's really it. Like, it's good to sit and read, maybe even on paper you could print it out and have an experience where nothing... the words can't talk back to you. I think that's good.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:48:56",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Totally. We even have a service where we print it out for you and, and ship it to wherever you are, so.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:49:01",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh my god, I do it. I do it. And it's... I read every single word assiduously and they never pile up.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:49:10",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Totally. That's the thing... well, what I will say is, do not worry about the pile. You don't worry about the pile of Netflix you haven't watched, you don't worry about the pile of...",
+      "tone": "reassuring"
+    },
+    {
+      "timestamp": "00:49:21",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Mmm, I like that.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:49:23",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Just don't... I just absolve you of the pressure. It's, it's all good.",
+      "tone": "reassuring"
+    },
+    {
+      "timestamp": "00:49:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I needed that. I really did, because there... you know, it's, it's right there and then you're just like, 'Oh boy, that's, that's a lot about iron.' I tried The Economist for a year...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:49:38",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, no. This is... The New Yorker is The Economist for people who actually like to read. Like it's... no. The Economist... The Economist is punishing. It's like something your father-in-law gives you.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:49:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "So, Andrew, this was great. Thanks so much for giving us the time.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:49:49",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Thank you guys. I'm coming in person next time for a Spindrift.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:49:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Amazing. Welcome anytime.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:49:54",
+      "ad": false,
+      "speaker": "Andrew Marantz",
+      "text": "Awesome. Thank you guys. Cheers.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:49:56",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Alright. Thank you.",
+      "tone": "polite"
+    }
+  ],
+  "highlights": [
+    "The creators of AI face a fundamental paradox: those closest to the technology often view it as an existential risk to humanity, yet they remain the primary drivers pushing its development forward as fast as possible.",
+    "Sam Altman maintains influence through a \"chameleon-like\" ability to mirror the specific concerns of diverse groups, convincing investors, tech idealists, and safety advocates alike that he is uniquely aligned with their perspectives.",
+    "OpenAI’s transition from a non-profit research lab to a massive for-profit entity was largely necessitated by staggering capital requirements that only a few governments, big tech companies, and sovereign wealth funds can afford.",
+    "Some analysts suggest that Altman’s consistent public pleas for government regulation were a strategic \"Move 37\" designed to build trust and navigate political skepticism while the company scaled at an unprecedented rate.",
+    "The discussion highlights the unprecedented danger of vesting a single individual with the power of AGI, noting that current global infrastructure is ill-equipped to manage a technology that even its creators do not fully understand."
+  ],
+  "summary": "In this episode of the *Aboard* podcast, hosts Paul Ford and Rich Ziade interview *New Yorker* staff writer Andrew Marantz about his deep-dive profile of OpenAI CEO Sam Altman. The conversation explores Altman’s \"slippery\" persona and his unique ability to charm disparate groups—ranging from venture capitalists to AI safety \"doomers\"—by mirroring their specific concerns back to them. Marantz explains that his reporting, co-authored with Ronan Farrow, uncovered a long-standing pattern of narrative manipulation and power consolidation, including evidence that Altman was pushed out of Y Combinator despite public denials.\n\nA central theme of the discussion is the fundamental contradiction between OpenAI’s altruistic nonprofit origins and its current status as a multibillion-dollar for-profit entity. Marantz introduces the \"Move 37\" analogy, suggesting that Altman’s public pleas for government regulation might be a strategic masterstroke designed to build trust while simultaneously securing massive capital from sovereign wealth funds and the Pentagon. This strategy allowed OpenAI to assemble a stellar team of researchers under the guise of an \"AI safety lab\" before pivoting into a dominant commercial force.\n\nThe transcript concludes with a sobering reflection on the \"runaway train\" of AI development. Marantz expresses concern that the technology is scaling at a speed and cost that limits control to only a few entities globally, such as the U.S. government and massive tech giants. Ultimately, the discussion highlights a profound structural risk: the technology is moving so fast that even its creators do not fully understand its capabilities, yet an immense amount of unchecked power has been concentrated in the hands of a single, flawed individual.",
+  "description": "What’s wrong with Sam Altman? Ask the guy who spent 18 months reporting on him. On this week’s podcast, Paul and Rich are joined by New Yorker staff writer Andrew Marantz, who recently put out a lengthy article on the OpenAI chief that he co-reported with Ronan Farrow. After they dive into some of the specific details of the piece, they discuss the broader questions Altman’s position in the industry raises. If AI really is as powerful as he claims it will someday be, why are we allowing one person to have that much power over it? \n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/andrew-marantz-whats-wrong-with-sam-altman/",
+  "duration": 3013,
+  "people": [
+    "Paul Ford",
+    "Rich Ziade",
+    "Sam Altman",
+    "New Yorker",
+    "Andrew Marantz",
+    "Ronan Farrow"
+  ],
+  "topics": [
+    "The career, public persona, and leadership style of Sam Altman",
+    "OpenAI's transition from a non-profit research lab to a for-profit entity",
+    "The concentration of power and the influence of massive capital in AI development",
+    "The existential risks and ethical dilemmas associated with Artificial General Intelligence (AGI)",
+    "The strategic relationship between Silicon Valley leaders and government regulation"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/gw2f-oxBJNs/maxresdefault.jpg",
+  "date": "20260505",
+  "youtube_url": "https://www.youtube.com/watch?v=gw2f-oxBJNs",
+  "youtube_metadata": {
+    "title": "The New Yorker’s Andrew Marantz: What’s Wrong With Sam Altman? | The Aboard Podcast 2026-05-06",
+    "description": "What’s wrong with Sam Altman? Ask the guy who spent 18 months reporting on him. On this week’s podcast, Paul and Rich are joined by New Yorker staff writer Andrew Marantz, who recently put out a lengthy article on the OpenAI chief that he co-reported with Ronan Farrow. After they dive into some of the specific details of the piece, they discuss the broader questions Altman’s position in the industry raises. If AI really is as powerful as he claims it will someday be, why are we allowing one person to have that much power over it? \n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/andrew-marantz-whats-wrong-with-sam-altman/",
+    "duration": 3013,
+    "view_count": 3783,
+    "like_count": 11,
+    "channel": "Aboard",
+    "upload_date": "20260505",
+    "thumbnail": "https://i.ytimg.com/vi/gw2f-oxBJNs/maxresdefault.jpg",
+    "tags": []
+  }
+}
