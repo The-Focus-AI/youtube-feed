@@ -1,0 +1,763 @@
+{
+  "title": "Inside the New GitHub – Mario Rodriguez on Agent-Native Coding & the Future of Developers",
+  "source_url": "https://www.youtube.com/watch?v=0X_rXFhRyYY",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "I already consider you a developer. And you don't want your bank application to be live coded. Lower the floor, raise the ceiling. You could professionalize yourself to no value. But I think the new GitHub is going to be all about...",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:00:20",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Hi Mario and welcome to Inference Show by Turing Post. Um, thank you for joining me.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:00:26",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Thanks for having me. It's a beautiful day outside. Yesterday it was a little bit cloudy, but today the sun came out, so I'm really happy.",
+      "tone": "cheerful"
+    },
+    {
+      "timestamp": "00:00:33",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It's a beautiful day. But let's get to GitHub. Yes. According to SimilarWeb, GitHub has over 630 million monthly visitors. And that's an enormous surface area of developer-like development experimentation. So, since late 2023, when the agent really started, like agent workflows really started working, what did change at GitHub? What did you notice?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:00:58",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "You know, it's an interesting thing, like you're saying, around December, one of the key things that we ended up noticing is that the model capabilities took a jump up. And before, if you were going to what I call macro-delegate to an agent, you constantly had to go and correct the agent.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:01:13",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "You'd be like, 'No, you took this path, you should not have taken that path. Or you did this other thing, you should not have done that thing.' You know, it's kind of like imagine if you have a toddler, you're constantly going like, 'No, no, no, don't go that way. Like go this side, be safe from this other way.'",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:01:30",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "And what we noticed is that in the December time frame, that now you could actually go and say, 'No, go ahead and play. It's safe.' And you would get an output with very high quality. So in my opinion, there's two things that that unlocked.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:01:46",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "In the developer machine, meaning kind of in the workflow, they could macro-delegate significantly more and then kind of micro-steer when they need it. And the micro-steer did not feel frustrating to them.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:01:59",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "It didn't feel like, 'Oh my God, I just wasted a bunch of tokens and like now I need to go and tell you everything you did wrong.' It actually was a little bit more like, 'Oh, you did that. Now let me go on a loop with you to create a better.'",
+      "tone": "expressive"
+    },
+    {
+      "timestamp": "00:02:11",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "And it felt like you actually are doing this iteratively in a creation process instead of a correction process. So we noticed that at the developer level.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:02:21",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "And then if you think about it at the agents that are running a little bit more autonomous in automation, it meant that they could actually go longer and it meant you could give it better and better task, meaning the ROI of the task also went up.",
+      "tone": "strategic"
+    },
+    {
+      "timestamp": "00:02:37",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "As this started catching up in the industry, you come, you know, everyone comes back from break in January. You know, it takes a second from after the holidays for people to get settled.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:02:51",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "But then both things started happening. More and more of the individual developers started using these new models with new agentic capabilities, and then also more and more automation started happening. And in...",
+      "tone": "progressive"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "You think about us, you know, we spend the entirety of that development life cycle, so it's not just about the repo and getting the code. We also have issues, we also have pull requests, we also have actions for you to build that, and we also have security, and they all kind of intersect and build upon each other, so they compound on each other. So if you get more commits, you're going to have probably more PRs. If you get more PRs, you're going to have more action runs. If you get more action runs, more security scans that you need to do.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:29",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "So like everything is compounding. So we have published some of these numbers, like I think we saw 17 million in March alone of PRs by agents. We could get into maybe other stats, but like everything shot off like this. You probably heard Jensen in the keynote as well reference it. We're all feeling this overall. So what we saw change is that—is more and more people are coming into the platform at an accelerated rate.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:58",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "More because there's a low floor now, or a lower floor of entry, and we could talk about that later. So I think this is a very exciting thing from a human perspective. Because of that, then more people are creating commits, more people are creating PRs, more actions end up running. So all of our services ended up seeing a record acceleration. And if you—I'll make up some numbers here, but like if you think about we were expecting 5% growth as an example, now you see 3x growth. And that's amazing and really proves that hey, we're starting to see value now out of all of these agentic workloads, which is why we're here.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:04:34",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What is the main problems with such huge traffic?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:04:38",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "I wouldn't call it a problem per se, I would call it what are the engineering challenges every time that you think through that at scale, right? There's the ones that you probably guess and are typical, which is well, the more of this, then you need more machines to be able to take that load, and that means that we need more and more servers. In fact, one of the key things that we're doing right now, because we cannot even—we have a data center that's done what we could grow in that data center, a lot of what we have been doing to be able to fulfill the load is shedding our load to Azure.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:05:21",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "And be able to then take more and more of that repo load, that PR load in a public cloud, in a cloud that can expand, and we have significantly more that we could then serve. So that means that if we grow 3x, 5x, 10x, you know, we could actually grow and we're not just within one region. So I think that that has been really, really helpful.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:05:49",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "The other things, which is not what people think, is infrastructure. You have to start talking to a lot of other providers of infrastructure. There was one case that the network infrastructure in the West Coast got saturated. We don't own that infrastructure. So we had to tell them, 'You have to give us more capacity because GitHub is growing, you know, we need to take all of this traffic and be able to put it through.' So I think that's the other big learning is that you depend on this broad set of people and we are pushing the boundaries of what others have built as well.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "You have to plan for significantly more coming out of there for you to be able to take the load that is actually happening on the West Coast, San Fran... like there's a lot of activity happening in the West Coast. So we have to even collaborate with other people in trying to make sure the entirety of the ecosystem can do that. So you have a challenge of like scale out, and we're doing that with cloud, you have the challenge of like what is the entirety of the infrastructure, how we could improve in there...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:30",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "And then you have a couple of other challenges when that is happening at scale, just a tiny little thing can cause a lot of other ripple effects, so you have to invest significantly more and and this is part of like great engineering, invest significantly more in trying to figure out how you do that. Caching then becomes an issue that you know you have to deal with better, you have to form new pat- new ways of actually storing the data and querying the data. Um so it's pretty involved engineering work but it's really rewarding at the end.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:06:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That's very interesting. Do you reimagine the role of GitHub somehow when now you have these two different audiences basically?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:07:10",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Yeah, I've been thinking a lot about this and I was speaking with John Maeda. John Maeda is the head of design at GitHub. And I was talking to him actually over the weekend and we're trying to explore like what is really happening and how what do we think we need to continue to evolve GitHub? And you know he shared with me this analogy that they had in MIT in design which is low floors high ceilings. And I really loved it because that's really what is happening right now and I don't know how many people kind of deeply understand this because I do think it's transformative overall.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:58",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Much of what is happening right now, now that coding is so accessible, is that we're really lowering the floor of entry into the industry and into creation with AI. And AI and these models like to code. In fact, coding is one of the many scenarios that they end up doing. And that just means that we're getting a lot more of humanity actually accessing tools that before were not possible for creation. And if you think about GDP growth, GDP growth happens because of creation by humans. Not because, you know, you're fishing or anything, it happens when we create something. Like you have to create something someone else ends up purchasing that. That's how human progress continues to evolve, it's like creation through tools. And lowering the floor really speaks to that. So right now we're getting, you mentioned I think it was like 630 million in the site that you referenced, but you know that's many many more is what is going to happen, right? So like we're just at the beginning of that lowering the floor. And sometimes I think like you know when Mozart was alive or he was a child...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "There were probably 10 other Mozarts in the world, but none of them had access to a piano probably. What is happening right now is that you're going to be able to reach so many people. Some of us have a laptop, like if you think about the entirety of the world, not many people have an Apple laptop sitting in front of them. That's a very privileged position. So but what we can do now through mobile and development in these AI models and GitHub, we could lower the floor of entry for creation. So I think we're going to see significantly more innovation in the world, a lot more things get created because we're lowering the floor. The other thing that I think GitHub needs to be at the center of that lowering the floor.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:09:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah, you will need to redesign it somehow.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:09:43",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Yeah, yeah. We're looking a little bit into that. John's, like I said, John is head of design, so he loves the design question on it. That was the main exploration that I was having with him, not on the strategy, but I think I love that. The other thing, which I think is important and we could take it then any place, is that we also, through this new way of development, we're also raising the ceiling, meaning professional developers, people that are high in that craft, are going to be able to create better and better, are going to be able to push the frontier going forward. And that push for the frontier is also critical because if you think about the innovations in the world, they also happen at that layer. More people coming in, becoming craftsmen, to then push. When Einstein started, like he did not develop the relativity, so you know, he had a lot of study in physics and many other things in order for him to get to that place. He became a craftsman at it for him to then make that leap. So you lower the floor, get more people coming in, more of them go and become professionals or craftsmen at it, and then you raise the ceiling of what they can actually accomplish overall. And GitHub needs to be, you know, we call it two different audiences, I call it a continuum. Like GitHub needs to be the agent-native engineering system of that continuum. And by doing that, you know, the mission of GitHub is advancing human progress through developer collaboration, and probably we should say developer and agent collaboration now, but like that is the continuum that we obsess towards. And that's what gets me out of bed every single day is how do we lower the floor, how do we raise the ceiling on a continuous basis. And yes, that might necessitate a new GitHub. So we could take it wherever you want from this.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:10:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That's so interesting. If you can share, what was the conversation? Did you come up with something?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:11:08",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Oh yeah, John has this thing, there's a little picture that he shares where there's a user and there's these barriers and the user goes and jumps and jumps and jumps and jumps through those barriers. And each one of those barriers is a UI click that you might do or some process.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "seeing of a user interface and, you know, we were talking very deeply about what is the new GitHub from a design perspective. And a new GitHub from a design perspective is one that is more has this agentic experience.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:12:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah, because it's a different way for agents to jump or...",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:12:16",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Exactly, right? So like if you think about it, a lot of what the core primitives we have are based on human-to-human collaboration. And now we have to extend and re- more or less evolve those primitives to be human and agent collaboration.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:30",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "But then just the primitives themselves would not be enough. The API layer will need to evolve to actually be that agent-centric. And then the UX layer will need to evolve to be that agent-centric.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:46",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "We announced the Copilot app and I'm really excited about the Copilot app because it has this notion of canvases. Canvases are powerful because it's the beginning of AX in my opinion. It's you have a UI, but that UI is bidirectional with the agent.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:13:01",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Meaning the agent... that UI exposes tools, the agent can then read it and then affect the UI overall, which means that if I just want a goal, I could just tell the agent, achieve that goal, and it would do whatever it is that to be able to achieve it, which that's great.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:19",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "I don't have to jump 50 screens if someone designed it poorly. The agent can know... knows what APIs to call to be able to do the right thing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:26",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "The other beautiful thing about it is that it also allows me from the UI to affect the agent. So I could have a button that says summarize and then the agent receives that and then provides it back.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:38",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "So it's more like you are here interacting, we call it the left hand, you're interacting with the agent.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:46",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "And before we had a right hand behind our... our body and we were only doing this, we're like, oh create this thing for me, well I cannot see it in real time, I cannot play with it in real time.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:58",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "So the creation process was kind of detached and now you could do both. You have a canvas where you as an artist, like you know are going through it and you're designing here, you're interacting here with the agent too and now it's bidirectional.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:14:13",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "So I think the new GitHub is going to be all about that, is that bidirectional agentic experience overall. And again, like what the beauty of that is, because it could be customized, you lower the floor and make it really simple overall.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:27",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "You don't have to have 20,000 clicks to do things. You could just chat with the agent and then the agent would achieve what you need. But you also raise the ceiling. You could go in as let's say Picasso.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:14:37",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "You could be operating in the canvas, canvas, canvas and then when you're done with it you're like, okay agent, now help me overall. And you could kind of achieve both of them without leaving... leaving GitHub overall.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:51",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "That was primarily a conversation is, hey how can we transform from UI to UX to AX and we believe that that would have a meaningful impact on the experiences overall.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A creator, a person who clicks the button, accept, and send the PR. So what's the role of human?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That sounds very creative. So that leads to my next question, who a developer become?",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "00:15:07",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Yeah, you know, funny enough, like I already consider you a developer. So you probably have interacted with agents already and those agents have probably coded for you to be able to achieve the intent that you wanted at the end. So in my definition, you're already a developer. If we're going to generalize it, we can just say builders as well, but I think the definition of a developer is completely shaping and reshaping itself and we will see a developer as any creator, any builder that through AI, through GitHub, through our copilot experiences has that intent and that intent achieves the goal. I'm pretty excited about that because that means that I mean the whole world then could be...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:15:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "My concern here is that you actually need to manage and basically be a leader, and not that many people can be leaders.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:16:00",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Interesting. I don't view it that way...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:16:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Because if you have all these agents running, you need to know what you want.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:16:07",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Yeah, so I don't view it that way, you know, we could explore slightly different. Like sometimes I say, I know how to cook, but I'm not going to be a professional Michelin chef.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:16:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "For sure.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:16:23",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "That doesn't... you know... yeah, I know how to cook but I'm not that good. So, but that doesn't actually keep me from cooking. I don't wake up and I'm like, \"Oh my God, I am not going to be a Michelin chef, hence I am not going to do this omelet.\" Like it's not... yeah, I don't have to manage a line and all those type of things. Parallelization, like what you're talking about, is up to you. Remember when I said the canvas? If you don't need to have 50 things going at once, you're the creator, you're the builder. So I think it's more about that rather than parallelization. Actually, I think some people have gone too much on that narrative, and I think we should probably like for the good of society, we should get that narrative to change, because I don't think this is anything to do about parallelization. In fact, parallelization from a human perspective is not amazing overall. What you should be doing more... this is more about like creation and where is it that you are exercising your judgment and all those type of things. Maybe another way of thinking about it if we could explore that is like an auto... like a car that drives. Like have you taken a Waymo or any of those things?",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:17:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:17:51",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:17:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I have a self-driving car.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:17:54",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "There you go, beautiful. You're not going to a bunch of the different sensors and telling it what to do. The car's already doing that for you. So think GitHub is going to do that. So it's all about then what is it that you're creating, in this case of the car, where is it that you want to go and your driving, right? Like that's the way that I think about it. I think...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If they want to become developers, how do they need to think about the skill set and...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:18:05",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Yeah, I think I'll go back into what I'm saying. For me, the way that I really deeply think about it is more about that canvas. And that canvas and that agent, combined together, then will make you a builder, a creator, and a developer. You then can go and choose to say, \"I am going to go and become really good at Rust,\" and then we're going to be there for you to help you be very good at Rust, as an example. Or, \"I want to be very, very good at creating a website,\" right? Then we're going to help you do that. Or, \"I want to be really good at creating back-end services in Go,\" and we're going to be there with you to actually do that. So, but again, like, even in those all of the things that I'm saying, it's all about the creation overall. Like, if we really want to make this about growth of GDP, you have to change the narrative towards creation. Like, that is the thing. It's not parallelization, because you can parallelize yourself to no value at all. So, it's like you driving in circles. What does that do? Nothing. So, why do you want to drive in circles all day? Right? So, like, that is the core thing, like, we need to change the narrative towards creation and what we could do to help company, you know, GitHub does not, GitHub enables the creation of it. So, you're a builder, you're a developer, everyone in this room is as well. So, how can we help you do that?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:18:09",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But if we think about young people, I'm sorry for interrupting, but because the more people will come to GitHub from young audience and they have these concerns about their future, so how would you shape the narrative for them?",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:19:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Mhm. You mentioned delegation and a lot of talks were about delegation. So how comfortable are you with delegation and where is this balance?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:19:38",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Yeah, I do a fair amount now of macro delegation of items and you could say that I'm also parallelizing some of those things, although transparently, myself, I usually only have like three three things going. Like I cannot deal with 50 things happening at once. I think for me, I am more, I want to be more involved on items. Now, I would say there's a set of things that are automation-centric that I macro delegate, and that I do a significant amount. But things that have to do with creation, I usually only have like one to three things going at once. And macro delegation for me is really, maybe I'll try this analogy: for a 3D printer, you spend a lot of time creating the CAD drawing and then you give it to the 3D printer and then it prints it and at the end you open it, you do some quality control and you're like, \"this is awesome.\" That is for me macro delegation. You're creating the CAD drawing. So I spend more time creating the CAD drawing and then I give it to the agent and be like, \"okay, go. Now make the 3D print the actual 3D print for this.\" You know, uses all the filaments. In this case, it uses tokens, blah, blah, and then creation happens and then I get to quality control it and then I get to, you know, tweak tweak and tweak about it. So, that's the thing. I heard that once, actually recently in my trip to Spain, and I think it's a great analogy for this. But I spend more time on that.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "more of my time micro-delegating the creation and then I spend more of my time steering the actual CAD drawing, not the printing process, but the CAD drawing.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:21:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So Copilot moved to usage-based billing on June 1st, and because agentic sessions consume a lot of tokens, and a lot of people were not very happy about it. But what would you say the cost should teach developers how to think about coding and developing things?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:21:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Is it the end of token maxing?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:21:33",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Maxing, yeah. There's a lot of maxing in kids. I have two kids, maxing is a word that they use a lot of times.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:21:44",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Here's what I would say. One of the key things that we're trying to do is make sure that we help people create across many different spectrums of what that ends up being. So we had this auto setting, and what auto does is it has semantic routing. So if you're asking all of a sudden for the weather in San Francisco, we really shouldn't be sending that to GPT-5.5 extra high to answer that question. Like, it's just not the right thing, right? So what we could start doing then is intersecting that and saying, you know, the customer's just asking the weather, let's just return it with a model that maybe a mini model from GPT as an example. You know, at the same time, we just launched Gemini Code 1 Flash and really, really excited about that because, you know, that has the power of something, you know, it's a 5B model, so it's not a big model, but it packs a lot of power in it too. And what is exciting is that it could take more and more of these simple, I would say development tasks overall. And then we have the frontier models like, you know, let's say Opus, like GPT and many others that then we would kind of route for something that really involves that intelligence.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:22:59",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "So one of the key things that we're trying to do is that. The other feature that we, you know, you didn't mention, but we also announced is Chronical. And what Chronical allows you to do, every session, and like, I do think like if you want to be better at something iteration is important, right? So you could save every single session, it saves it into the cloud, and then we allow you to query it. And you could ask Chronical for things like, 'Hey, help me with cost savings' or 'Help me improve my skills' or 'Help me with these things'.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:34",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Those like in cost savings, and I did this yesterday, and then it told me what I should do and what I was doing wrong because even me sometimes I get lazy and I don't switch the, either the model because I was doing something, most of the time I keep it in auto, but sometimes like, 'Hey, I really want this model for this task' and then I ended up not switching it after that. So it was telling me a little bit of how I should be thinking about it from a cost perspective, sometimes managing your context window is important. So it was giving me tips about that too.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:23:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Everything for Copilot.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "That is for Copilot. Yes. You save your sessions and kind of use that. So play with the slash chrono-go and then you could do a search and you could do cost tips. And I think this and many more things that we're doing not only for the individual developer but also for the enterprise in FinOps are going to become really, really important. The industry today needs to get to a place where predictability is key overall and that would be a hill for all of us to climb together, but you know I'm pro-humanity, so I'm pretty sure that we'll solve that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:24",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah, because we're still running the race and at some point we just need to calm down a little.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:24:30",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Yeah, yeah. Exactly.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:24:32",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What is your understanding of AGI? What is it for you?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:24:36",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Oh, that's an interesting question. I don't think I have a very good answer for that overall. I don't constant, you know, if you want me to just say something quickly about it is it's not this big thing. I think it's going to be more of a continuum in time and you hit it and you pass it. It's kind of like computing. Like there wasn't like this big thing. It's like you continuum in time and you pass it. So but I'm not the person to actually define it or try to articulate it or anything like that. I'm more concentrated of what can we do with this amazing technology to empower the people to create. Lower the floor, raise the ceiling. Like that's what I could probably speak more about.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:25:23",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That's great. I mean, that's very important. I have another question about the collaboration between agents and more like about difference of agent working on GitHub and humans. So is there anything you learn from how agent generated pull requests? Is there any difference?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:25:40",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Probably yes, but let me, I like analogies. So here's: Imagine you give a 6-year-old a recipe to make cake, right? Like if you do that, the cake is not probably going to turn out that good.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Depends on 6-year-old.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:25:55",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Exactly. But you know what I'm saying? Like on the average side, right? Especially with supervision. You know, and I have two daughters. Like we baked a lot of cakes overall. So if I make the same cake, right? Same recipe, same thing. I'm not again opening a Michelin star restaurant but I'm gonna, the cake is gonna be decent, right? Now my daughter through repetition is going to be able to get that cake recipe to be better and better and better and better and better. And I think that is what I noticed more than not is how with the power of an agent, what are you creating? And as that person then gets better and better and better, then the output of that becomes better and better and better. And I think that is what we essentially notice is that depending on the users and their ability to understand the software, then the actual PR does change. Now you do have to divide this into two worlds, by the way, which I think that is important. The one world is I could be working on my own application and I'm creating these PRs and it doesn't really matter. Um like it's okay to actually write a set of things in slop and then come back later fix",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Architecture. We do that. You know, so...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Sort of vibe code something and then come?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:27:05",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Yeah, like me as a PM, that's an example. If I want to create a prototype, do I really have to go and make that like super solid on every single thing there is? No, I'm just trying to get something in my brain, you know, into actually the canvas so I could go and iterate on it. Like, me creating something in there that's never going to ship to production is kind of like me opening a notebook and drawing something. Like, that's perfect. That's part of creation. So that's okay. And sometimes we do that between each other, meaning, hey, here's a PR on this thing. That's perfectly fine. And then you like when you think about professional software development, that's when that cannot happen. And you really have to care about quality, about maintainability, about security, about a lot of other things that make the world go. Like, you don't want your bank application to be vibe coded, right? Like, you definitely do not want that. You don't want your, you know, autonomous car to actually make decisions without security, judgment, and all the other things that make a professional application professional.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:28:02",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Mm-hmm. Will there be a moment when human is not necessary in the loop?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:28:07",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "We named Copilot Copilot for a reason. We were the first Copilot, and we named it for a reason, Copilot. Not Pilot. We named it Copilot because we always think the human is going to be at the center. So we haven't changed that position since, oh my god, 2021, I think is when we first had that conversation. I still very bullish that the creation process would always be kind of that human and that human in the loop. Where the loop would be and that intervention would be, that will continue to change, and I, again, go back into the driving car, self-driving cars and all those things, that will continue to change. But it would always be there. And you want to lower that floor and allow people to kind of do that. You also have people that love, let's say, Porsche and like the feeling of that car and taking that curve and really understanding when to downshift and as you start losing control when to actually press the pedal of the acceleration so your tires gain traction again. So like, that whole feeling of connected, that flow, that's what a developer actually feels as well when it's creating something. We want that feeling to be that ceiling and continue to raise it.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:29:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It's very inspiring. Well, my last question is always about a book.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:29:25",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Ooh.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:29:26",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What was the book that influenced you? And it can be from your childhood or recently.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:29:30",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "I don't know if I have one book. I read almost every single, no, I read every single book of Agatha Christie.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:29:40",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Okay, I like that.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:29:41",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Including kind of the short ones. So I would say if there would be an author that really inspired me, it would be that. I think I haven't read like one or two things that she did on the side from what I could remember, but all the books, like, I was big into mystery and things like that. To answer your question a little bit more like, physics is one of the key things. My father studied physics. It's one of the things that has been really influential in my life. I studied electrical engineering as an example.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "So, if I wouldn't be doing this, you know, I'll probably be designing circuits. I really love that part of engineering as well. But I read a couple of books on physics that really changed me as well. But I would say for recreation Agatha Christie and then for like influencing my career, physics.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:30:17",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "You liked to solve mysteries.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:30:19",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Yeah, there you go. They're both actually related. You're right. I didn't notice that.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:30:23",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:30:24",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Physics and Agatha Christie. I'll use this in another place.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:30:26",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Yeah.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:30:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Well, thank you so much. It was a pleasure.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:30:29",
+      "ad": false,
+      "speaker": "Mario Rodriguez",
+      "text": "Thank you as well. Thanks for having me.",
+      "tone": "polite"
+    }
+  ],
+  "highlights": [
+    "Since late 2023, AI capabilities have shifted from a \"correction\" process to a \"creation\" process, allowing developers to macro-delegate complex tasks to agents with significantly higher quality and less manual intervention.",
+    "GitHub’s core strategy focuses on \"lowering the floor\" of entry for new creators while \"raising the ceiling\" for professional craftsmen to push the boundaries of what is possible in software development.",
+    "The platform is evolving from traditional UI/UX toward \"Agentic Experience\" (AX), featuring bidirectional \"canvases\" where humans and AI agents interact in real-time to manifest creative intent.",
+    "GitHub maintains that the human remains the central \"pilot\" in the development loop, providing the essential judgment, security oversight, and creative vision that automated agents cannot replace.",
+    "The surge in agentic workloads has led to unprecedented growth in platform activity, requiring GitHub to aggressively scale its infrastructure into the cloud to handle massive increases in pull requests and automated actions."
+  ],
+  "summary": "Mario Rodriguez, GitHub's Chief Product Officer, discusses the transformative impact of AI agents on the platform, noting a significant leap in model capabilities since late 2023. This shift has allowed developers to move from micro-managing AI to \"macro-delegation,\" where agents handle complex workflows with minimal correction. This transition has triggered massive growth—exemplified by 17 million agent-generated pull requests in a single month—forcing GitHub to aggressively scale its infrastructure through Azure and optimize global network capacity to handle a 3x surge in traffic.\n\nCentral to GitHub’s strategy is the philosophy of \"lowering the floor and raising the ceiling.\" Rodriguez envisions a platform that democratizes creation, making software development accessible to a broader range of \"builders\" while simultaneously providing professional craftsmen with tools to push the boundaries of the industry. This evolution involves moving from traditional UI/UX toward an \"Agentic Experience\" (AX), characterized by bi-directional collaboration between humans and AI. Features like \"canvases\" in the Copilot app allow users to iterate in real-time, treating the agent as a creative partner rather than just a code generator.\n\nDespite the rise of autonomous automation, Rodriguez maintains that the human remains the essential \"pilot\" in the loop. He emphasizes that GitHub’s mission is to foster human-agent collaboration where the person provides the vision, judgment, and \"CAD drawing,\" while the AI handles the heavy lifting of execution. To manage the costs associated with these token-heavy agentic sessions, GitHub is implementing usage-based billing and semantic routing, which automatically selects the most efficient model for a given task. Ultimately, Rodriguez views the future of development not as mere parallelization, but as a new era of human-led creation and mystery-solving.",
+  "description": "What changes when hundred millions developers – and a rising army of agents – start building together on the same platform?\n\nMario Rodriguez, Chief Product Officer at GitHub, explains the inflection point that hit in December 2025: models finally got good enough that you could \"macro-delegate\" to agents without constantly correcting them. \n\nWhat happened to GitHub then? Record acceleration across commits, PRs, Actions, and security scans – and a fundamental rethink of what GitHub even is.\n\n*In this episode of Inference, we get into:*\n- The December 2025 capability jump\n- GitHub's massive scale challenge\n- \"Low floor, high ceiling\" – why lowering the barrier to creation may be the biggest GDP unlock in history \n- The Mozart problem: how many geniuses never had access to a piano – and why AI changes that \n- From UI → UX → AX:\n- The new Compiler app and \"canvases\" – bidirectional surfaces where humans and agents co-create in real time \n- Why Mario is anti-parallelization hype: \"You could parallelize yourself to no value at all\"\n- Macro vs. micro delegation\n- Why CoPilot will always be co-pilot, not pilot – and where the human stays in the loop\n\nWe also talk about the redefinition of \"developer,\" why creation (not efficiency) drives human progress, and how GitHub plans to serve both the first-time builder and the Picasso-level craftsman on the same continuum.\nThis is a conversation about the future of software, the role of the human, and what it means when everyone becomes a builder. Watch it!\n\n*Guest:* \nMario Rodriguez, Chief Product Officer at GitHub:\nhttps://www.linkedin.com/in/mariorodriguez3/\nhttps://x.com/mariorod1 \nhttps://github.com/mariorod \n\n*Chapters:*\n0:00 Introduction: AI Agents on GitHub\n0:30 AI Upgrades & Developer Workflows\n2:30 The Surge in AI Pull Requests\n4:40 Scaling Infrastructure & Traffic Growth\n6:59 Lowering the Barrier to Entry\n11:36 Shifting from UX to AX (Agent Experience)\n14:56 Redefining the Role of a Developer\n17:46 Advice for Next-Gen Engineers\n19:26 Mastering Micro-Delegation\n21:11 Copilot Billing & Semantic Routing\n23:06 Optimizing Costs with Copilot Chronicle\n24:36 Redefining AGI as a Continuum\n25:21 Agent Code Quality vs. Human Code\n28:04 Keeping Humans in the Loop\n29:20 Book Recommendations & Outro\n\n*Follow on*: https://www.turingpost.com/\n\n*Did you like the episode? You know the drill:* \n📌 Subscribe here and here (https://www.turingpost.com/subscribe) for more conversations with the builders shaping real-world AI. \n💬 Leave a comment\n👍 Like it \n🫶 Thank you for watching and sharing!\n\n#GitHub #AI #AIAgents #Developers #Copilot #VibeCoding #AgenticAI #FutureOfCoding",
+  "duration": 1838,
+  "people": [
+    "Mario Rodriguez",
+    "Ksenia Se",
+    "Chief Product",
+    "The December",
+    "The Mozart",
+    "Why Mario",
+    "Developer Workflows",
+    "The Surge",
+    "Pull Requests",
+    "Scaling Infrastructure",
+    "Traffic Growth",
+    "Agent Experience",
+    "Gen Engineers",
+    "Mastering Micro",
+    "Copilot Billing",
+    "Semantic Routing",
+    "Optimizing Costs",
+    "Copilot Chronicle",
+    "Agent Code",
+    "Human Code",
+    "Keeping Humans",
+    "Book Recommendations"
+  ],
+  "topics": [
+    "The evolution of AI agents and macro-delegation in developer workflows",
+    "Scaling GitHub's infrastructure and cloud capacity to handle agentic traffic",
+    "The philosophy of 'lowering the floor and raising the ceiling' for software creation",
+    "Designing for Agent Experience (AX) and bidirectional human-agent collaboration",
+    "Redefining the role of the developer and the importance of keeping humans in the loop"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/0X_rXFhRyYY/maxresdefault.jpg",
+  "date": "20260606",
+  "youtube_url": "https://www.youtube.com/watch?v=0X_rXFhRyYY",
+  "youtube_metadata": {
+    "title": "Inside the New GitHub – Mario Rodriguez on Agent-Native Coding & the Future of Developers",
+    "description": "What changes when hundred millions developers – and a rising army of agents – start building together on the same platform?\n\nMario Rodriguez, Chief Product Officer at GitHub, explains the inflection point that hit in December 2025: models finally got good enough that you could \"macro-delegate\" to agents without constantly correcting them. \n\nWhat happened to GitHub then? Record acceleration across commits, PRs, Actions, and security scans – and a fundamental rethink of what GitHub even is.\n\n*In this episode of Inference, we get into:*\n- The December 2025 capability jump\n- GitHub's massive scale challenge\n- \"Low floor, high ceiling\" – why lowering the barrier to creation may be the biggest GDP unlock in history \n- The Mozart problem: how many geniuses never had access to a piano – and why AI changes that \n- From UI → UX → AX:\n- The new Compiler app and \"canvases\" – bidirectional surfaces where humans and agents co-create in real time \n- Why Mario is anti-parallelization hype: \"You could parallelize yourself to no value at all\"\n- Macro vs. micro delegation\n- Why CoPilot will always be co-pilot, not pilot – and where the human stays in the loop\n\nWe also talk about the redefinition of \"developer,\" why creation (not efficiency) drives human progress, and how GitHub plans to serve both the first-time builder and the Picasso-level craftsman on the same continuum.\nThis is a conversation about the future of software, the role of the human, and what it means when everyone becomes a builder. Watch it!\n\n*Guest:* \nMario Rodriguez, Chief Product Officer at GitHub:\nhttps://www.linkedin.com/in/mariorodriguez3/\nhttps://x.com/mariorod1 \nhttps://github.com/mariorod \n\n*Chapters:*\n0:00 Introduction: AI Agents on GitHub\n0:30 AI Upgrades & Developer Workflows\n2:30 The Surge in AI Pull Requests\n4:40 Scaling Infrastructure & Traffic Growth\n6:59 Lowering the Barrier to Entry\n11:36 Shifting from UX to AX (Agent Experience)\n14:56 Redefining the Role of a Developer\n17:46 Advice for Next-Gen Engineers\n19:26 Mastering Micro-Delegation\n21:11 Copilot Billing & Semantic Routing\n23:06 Optimizing Costs with Copilot Chronicle\n24:36 Redefining AGI as a Continuum\n25:21 Agent Code Quality vs. Human Code\n28:04 Keeping Humans in the Loop\n29:20 Book Recommendations & Outro\n\n*Follow on*: https://www.turingpost.com/\n\n*Did you like the episode? You know the drill:* \n📌 Subscribe here and here (https://www.turingpost.com/subscribe) for more conversations with the builders shaping real-world AI. \n💬 Leave a comment\n👍 Like it \n🫶 Thank you for watching and sharing!\n\n#GitHub #AI #AIAgents #Developers #Copilot #VibeCoding #AgenticAI #FutureOfCoding",
+    "duration": 1838,
+    "view_count": 728,
+    "like_count": 26,
+    "channel": "Ksenia | Turing Post",
+    "upload_date": "20260606",
+    "thumbnail": "https://i.ytimg.com/vi/0X_rXFhRyYY/maxresdefault.jpg",
+    "tags": [
+      "GitHub",
+      "AI",
+      "AIAgents",
+      "Developers",
+      "Copilot",
+      "VibeCoding",
+      "AgenticAI",
+      "FutureOfCoding"
+    ]
+  }
+}

@@ -1,8 +1,8 @@
 ---
 channel: Turing Post
 channel_handle: "@RealTuringPost"
-total_videos: 83
-last_updated: 2026-05-14
+total_videos: 88
+last_updated: 2026-06-08
 ---
 
 # Turing Post Channel Index
@@ -11,15 +11,20 @@ last_updated: 2026-05-14
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 83 |
-| Total Views | 156,338 |
-| Date Range | 2024-11-04 to 2026-05-14 |
-| Average Video Length | 16:18 |
+| Total Videos | 88 |
+| Total Views | 169,463 |
+| Date Range | 2024-11-04 to 2026-06-06 |
+| Average Video Length | 16:39 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
+| 2026-06-06 | [Inside the New GitHub – Mario Rodriguez on Agent-Native Coding & the Future of Developers](videos/0X_rXFhRyYY.md) | 30:38 | 728 | [Watch](https://www.youtube.com/watch?v=0X_rXFhRyYY) |
+| 2026-06-01 | [Jensen's Four AIs: How Cosmos 3 Closes the Physical AI Loop](videos/8gXNaDw5zmk.md) | 15:36 | 5,005 | [Watch](https://www.youtube.com/watch?v=8gXNaDw5zmk) |
+| 2026-05-29 | [Inside Google AI Studio – Ammaar Reshi on Vibe Coding, Agent Swarms, and the Future of Building](videos/lc9aCBSYCBU.md) | 21:13 | 643 | [Watch](https://www.youtube.com/watch?v=lc9aCBSYCBU) |
+| 2026-05-21 | [AI for Science Just Had Its ChatGPT Moment (and Scientists Aren't Extinct)](videos/WzoPLV3pYUs.md) | 9:31 | 4,615 | [Watch](https://www.youtube.com/watch?v=WzoPLV3pYUs) |
+| 2026-05-19 | [Eric Ries: How AI Disrupts Capitalism and What Comes Next](videos/ypHhsCRWnWs.md) | 31:17 | 2,134 | [Watch](https://www.youtube.com/watch?v=ypHhsCRWnWs) |
 | 2026-05-14 | [Will Everyone Become an AI Builder? Clem Delangue on Hugging Face, Agents, Local AI & Robotics](videos/DfJV722V1WY.md) | 43:24 | 0 | [Watch](https://www.youtube.com/watch?v=DfJV722V1WY) |
 | 2026-05-11 | [GENE-26.5 Explained: Why Genesis AI's Robot Hand Is a Data Story](videos/Xw-xYZsBcho.md) | 9:45 | 876 | [Watch](https://www.youtube.com/watch?v=Xw-xYZsBcho) |
 | 2026-04-24 | [Tokens: The 100-Year Journey to AI's Fundamental Unit](videos/JK6QnFKv080.md) | 14:14 | 472 | [Watch](https://www.youtube.com/watch?v=JK6QnFKv080) |
@@ -112,12 +117,12 @@ last_updated: 2026-05-14
 | 2 | [Andrej Karpathy and Dwarkesh Patel – Popping the AGI Bubble](videos/-lRBpyPt79c.md) | 11,747 | [Watch](https://www.youtube.com/watch?v=-lRBpyPt79c) |
 | 3 | [Beyond LLMs: JEPA and the Road to AGI](videos/z0fh0SY3VWc.md) | 8,415 | [Watch](https://www.youtube.com/watch?v=z0fh0SY3VWc) |
 | 4 | [Mercury 2 Explained: The Elegant New Language Model Nobody Talks About](videos/Dpsv-1CXotA.md) | 6,843 | [Watch](https://www.youtube.com/watch?v=Dpsv-1CXotA) |
-| 5 | [What AI Is Missing for Real Reasoning? Axiom Math's Carina Hong](videos/3qGBMkgR6Ko.md) | 4,614 | [Watch](https://www.youtube.com/watch?v=3qGBMkgR6Ko) |
+| 5 | [Jensen's Four AIs: How Cosmos 3 Closes the Physical AI Loop](videos/8gXNaDw5zmk.md) | 5,005 | [Watch](https://www.youtube.com/watch?v=8gXNaDw5zmk) |
 | 6 | [What Really Blocks AI Progress? Ulrik Hansen from Encord](videos/GxI2JNyIlrU.md) | 4,744 | [Watch](https://www.youtube.com/watch?v=GxI2JNyIlrU) |
-| 7 | [What Everyone is Missing About Anthropic's Mythos and Project Glasswing](videos/e8R53UkYDzA.md) | 3,614 | [Watch](https://www.youtube.com/watch?v=e8R53UkYDzA) |
-| 8 | ["That's a loser mindset!" Jensen Huang vs Dwarkesh](videos/aRg4LRFYGPY.md) | 3,456 | [Watch](https://www.youtube.com/watch?v=aRg4LRFYGPY) |
-| 9 | [Transformers Are Not the End Game \| World Models, Physical AI](videos/kcFsuxaJ1es.md) | 3,322 | [Watch](https://www.youtube.com/watch?v=kcFsuxaJ1es) |
-| 10 | [The AI Pioneers Who Started It All \| 3 Wows and 1 Promise](videos/shKHSAf_KAY.md) | 3,127 | [Watch](https://www.youtube.com/watch?v=shKHSAf_KAY) |
+| 7 | [AI for Science Just Had Its ChatGPT Moment](videos/WzoPLV3pYUs.md) | 4,615 | [Watch](https://www.youtube.com/watch?v=WzoPLV3pYUs) |
+| 8 | [What AI Is Missing for Real Reasoning? Axiom Math's Carina Hong](videos/3qGBMkgR6Ko.md) | 4,614 | [Watch](https://www.youtube.com/watch?v=3qGBMkgR6Ko) |
+| 9 | [What Everyone is Missing About Anthropic's Mythos and Project Glasswing](videos/e8R53UkYDzA.md) | 3,614 | [Watch](https://www.youtube.com/watch?v=e8R53UkYDzA) |
+| 10 | ["That's a loser mindset!" Jensen Huang vs Dwarkesh](videos/aRg4LRFYGPY.md) | 3,456 | [Watch](https://www.youtube.com/watch?v=aRg4LRFYGPY) |
 
 ## Topics Index
 
@@ -260,6 +265,9 @@ last_updated: 2026-05-14
 ## Video Categories
 
 ### Interviews & Conversations
+- [Inside the New GitHub – Mario Rodriguez on Agent-Native Coding](videos/0X_rXFhRyYY.md) - GitHub CPO on macro-delegation, AX, Mozart problem
+- [Inside Google AI Studio – Ammaar Reshi on Vibe Coding, Agent Swarms](videos/lc9aCBSYCBU.md) - DeepMind Lead Product on tap-tap-tap prompting, abstracting npm packages
+- [Eric Ries: How AI Disrupts Capitalism and What Comes Next](videos/ypHhsCRWnWs.md) - Lean Startup author on financial gravity, mission guardians, AI as cost-cutting tool
 - [Will Everyone Become an AI Builder? Clem Delangue on Hugging Face](videos/DfJV722V1WY.md) - Open source AI, agents, robotics
 - [Inside NVIDIA's Plan to Bring Self-Driving to Every Car \| Ali Kani](videos/lnNi72Md9I4.md) - Autonomous driving stack
 - [OpenAI's Michael Bolin: What Engineers Still Matter For in the Age of Coding Agents](videos/LUkIHp7N_B0.md) - Engineering taste, coding agents
@@ -291,6 +299,8 @@ last_updated: 2026-05-14
 - [How to Make AI Actually Do Things \| Alex Hancock (Block, Goose, MCP)](videos/LQIrsmercPw.md) - Agent infrastructure
 
 ### Explainers & Deep Dives
+- [Jensen's Four AIs: How Cosmos 3 Closes the Physical AI Loop](videos/8gXNaDw5zmk.md) - NVIDIA omnimodal world model, mixture of transformers
+- [AI for Science Just Had Its ChatGPT Moment](videos/WzoPLV3pYUs.md) - Erdős conjecture, Co-Scientist, FutureHouse Robin, ERA
 - [GENE-26.5 Explained: Why Genesis AI's Robot Hand Is a Data Story](videos/Xw-xYZsBcho.md) - Robotics, data-centric AI
 - [Tokens: The 100-Year Journey to AI's Fundamental Unit](videos/JK6QnFKv080.md) - Tokenization history
 - [This Neural Network Thinks It's a Computer (Neural Computers, Explained)](videos/z_be7EOkBRo.md) - Neural network architectures

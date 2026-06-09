@@ -1,0 +1,742 @@
+{
+  "title": "Jensen's Four AIs: How Cosmos 3 Closes the Physical AI Loop",
+  "source_url": "https://www.youtube.com/watch?v=8gXNaDw5zmk",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "You’ve never seen before what I’m going to show you. Most likely you have not even heard these words together. Omnimodal world model. What type of beast is that? Curious?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:00:16",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Welcome to Attention Span. My name is Ksenia and today we will talk about Cosmos-3, Nvidia’s newest model family for physical AI.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:26",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "When Nvidia first introduced Cosmos as a world foundation model platform, the idea was already larger than video generation. Cosmos was built around the needs of physical AI. It had video curation, tokenizers, pre-trained world foundation models, diffusion and autoregressive models, post-training tools, and guardrails.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The core idea was simple. If AI is going to operate in the physical world, it needs to learn how the world changes over time. I know I said it before, I know I keep repeating it, but it’s important because it’s so hard—",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:00:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "—for a world model to actually predict what happens next. They need to understand each and every little step of this process, and it’s a long process.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:01:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And you can totally see how important it is in self-driving cars. That’s as a human where you can see the importance of every little detail being worked out.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:01:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A lot of that Cosmos was able to do as a world foundation model platform.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:28",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But what if we move the idea further? What if we not stitch together, but actually unify all of this? World modeling, multimodal understanding, generation, action, and reasoning closer together.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:01:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "As one model family with shared architecture and different operating modes. This is the practical meaning of omnimodal here.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:01:53",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What is the main architectural innovation here? Let’s see.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:01:56",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So how Cosmos-3 is built? Cosmos-3 uses mixture of transformers. What does it mean exactly? It has—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:02:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "—two pathways, or as Nvidia calls them, two towers. The first is an autoregressive reasoner. It behaves like a vision-language model. It understands language, images, and video, and it can produce text.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:02:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The second is a diffusion-based generator. It generates images, video, audio, and actions.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:02:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And the reasoner asks: 'What is going on here?' And the generator asks: 'What should the world look like next or what action should be produced?'",
+      "tone": "imaginative"
+    },
+    {
+      "timestamp": "00:02:32",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Physical AI needs both, and here we come to the natural question. Why are VLAs not enough? Video language models.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:02:45",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And a VLA is very useful, of course, it connects vision and language and action. The robot sees the scene, understands the instructions, and produces a movement. But this is still mostly the bridge from perception to action. The robot also needs to understand what may happen after the action.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Does the cup slide, tip or stay stable?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If a car changes lane, how does the scene evolve?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If a robot arm pulls a cloth, what happens to the object underneath it?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That is the world modeling part. So maybe we can solve this all with just a world model?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:19",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The world model helps predict future states. It can simulate possible futures and expose whether a scene remains physically plausible.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:28",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But a world model alone does not automatically decide what action to take.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:34",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And it might not understand the instruction, the task and the agent's constraints well enough.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So maybe we need a world action model?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And yes, world action models are closer. They connect actions with future observations. They can ask, given this action, what will happen next? Or given this observed change, what action likely caused it? But many of these systems are still specialized by domain.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Embodied AI for terminal tasks, a model may work for driving, another for robot manipulation and another one for camera control. So the fragmentation remains.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And Cosmos-Free by NVIDIA attempts to reduce this fragmentation. It tries to make the physical loop complete.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "An agent sees the world, then it reasons about the situation, then it predicts possible futures and it connects those futures to actions.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Then it acts and the world changes. So the model does not treat understanding the scene and generating the future as unrelated jobs. It lets them interact inside one framework. This is brilliant and very, very hard to do.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:38",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So now we should ask the obvious question: Does any AI model today combine all of this already? What's the novelty here?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:43",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The honest answer is: Not in one fully unified, mature, shipped system yet.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Until this week, basically. These capabilities existed in overlapping systems and still they were usually separated by architecture or product boundary or research goal.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:57",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And the complete unification is still the frontier.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:01",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If we talk about a concrete models, we can remember DeepMind's Genie 3. It's very strong on interactive world simulation. It can generate dynamic worlds from text and let users navigate them in real time.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That is a major step for world models, but Genie is mainly world model you can enter and interact with. It's not presented as a general multimodal reasoning system that autonomously decides and acts across robot embodiments.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Meta's V-JEPA 2 takes a different path. It predicts in representation space rather than generating every pixel.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That is the latent prediction route. It asks whether AI can learn useful models of physical reality without spending all computation on visual details.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "PAN is an academic attempt to combine language-grounded latent dynamics with video diffusion. It explicitly connects latent space reasoning or imagination with generated visual world dynamics.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "VLA models such as P-0.5 and Groot-style robotics policies are very strong on perception, instruction following and action, but most VLA systems are not rich generative world simulators. They can choose actions, but they usually do not generate detailed future worlds as part of the same model interface.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:34",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, if you noticed from what I described, there is also a deeper architectural fork here. One camp is latent prediction. This is the JEPA-style idea: the model should predict abstract representations of the world because not every pixel is useful for planning.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The other camp is generative rollout. This is the Cosmos, Genie and PAN-style direction. The model predicts by generating visible futures, often as video, which makes the rollout inspectable.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:04",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is actually one of the most interesting questions in physical AI: will general physical intelligence emerge through compact latent models that avoid pixel-level waste, or through generative simulators that let agents and humans inspect possible futures? Or through a layered stack that uses both or even something else? Cosmos 3 leans toward the generative rollout side, as you can imagine, but it also brings in reasoning and action. It's one more step to this layered physical AI.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:35",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And whatever the press material says, I would not frame Cosmos AI as another model drop. For me, it is part of a longer development. Cosmos started as a platform for world foundation models. Cosmos 3 brings more of the physical AI stack into one open framework. It is not finished, and that is the point. It is something to build with.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But to understand Cosmos 3, we need to talk about Jensen Huang's physical AI story, and the important part here is the structure of the argument. For the last few years, Jensen has been describing AI as a progression. First, perception AI: systems that understand images, words, and sounds. Then, generative AI: systems that create text, images, audio, and video. Then, agentic AI: systems that can reason, plan, use tools and act in software—a super active area right now, as you know. And then, physical AI: systems that understand the world well enough to act inside it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That last step changes the problem because AI leaves the screen, AI goes out there. And for Jensen, physical AI is not mainly about a robot walking on stage. The much deeper point is infrastructure.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Robots, cars, factories, warehouses, hospitals, construction sites.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Logistics systems, all of it need to be designed, trained, tested and improved before they act in the real world.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:10",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Saying robotics, saying physical AI we might think about one thing, we might think about humanoid robots, but it's so much bigger than that.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:09:18",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And all of it means simulation, it means digital twins, it means synthetic data, world models, robot policies, edge computes, feedback loops.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:28",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And you see how I just name all of these things and if you read Nvidia announcements, it also feels like, you know, product catalog, Omniverse, Isaac, Cosmos, Groot, Jetson, AI factories, all of it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But underneath this catalog, underneath all these names, there is much deeper thing. There is one consistent thesis: physical AI needs a full stack.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:09:53",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A model alone is insufficient. The robot needs a world to learn in.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:02",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A factory needs a digital twin before the real floor changes. A self-driving system needs rare scenarios before this scenarios kill someone.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:10:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The robot policy needs data and a lot of data has to be generated, simulated, curated or post-trained into being useful. Mouthful, but also this is why Cosmos keeps returning in Nvidia's physical AI story.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "In physical systems need to learn before they act, they need worlds to learn inside.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And those worlds need video, physics, time, action and, hear me saying that, reasoning. So that's what they decide to do in Cosmos 3.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:10:40",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "To be clear from the very beginning, Cosmos AI is not a finished robot brain. It's not a ready-to-market product that you can just put into a humanoid and expect it to work for you.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:55",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Cosmos 3 should be perceived as a builder infrastructure. It can become your perfect working horse, but you will need to work with it, you will need to post-train it, which you can do because it is an open model with code, checkpoints, synthetic data sets and benchmarks.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:07",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "You can inspect it, you can run it, you can post-train it and the best thing you can build on top of it. You can experiment. Of course open source does not make compute free.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:11:23",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "There is a bunch of ways to run this model family. You can use Google Colab, you can use Hugging Face infrastructure, you can use Nvidia BREV system or any other systems that can provide you with compute.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:36",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Or if you have your own GPU already, then you can run it there and basically it will be the cost of electricity.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:45",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But you can spend zero dollars on model access and start experimenting.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:11:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Now how to play with it? I will give you a short and unconventional way, because with all the AI tools anyone, literally anyone, can start playing with them.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Even without user experience interface.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:02",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So that's what I did. I have Codex that is connected to my GitHub.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Then I prompted it. Okay, I need to set up new model Cosmos 3. Here's the guide.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Then I decided that I want to try Cosmos in NVIDIA infrastructure.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:18",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So I prompted, let's do that. And I gave the quick start on Brev.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But you can also use Hugging Face and Google Colab. It will be cheaper probably.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And you can just ask Codex or whatever system you use your GitHub to connect the models on Hugging Face and the system with GPUs.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:34",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But for me, NVIDIA and Codex combination proved to be the fastest and simplest.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:12:42",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I just literally talk to it and if I don't know something, I just ask.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What just happened? How do I do that?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:12:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If I want to do that, what should I do? And then it builds for me and explains.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And what was fine, Codex was actually tracking my spending on Brev, constantly reminding me to pay attention because on Brev, you pay per hour.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So then I created Hugging Face token because the model is on Hugging Face and you need to get it from there.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And then I did as I think of a brilliant thing, I asked Codex to create two separate playgrounds.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:13:19",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "One for Cosmos 3 Super, which is a bigger model,",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:23",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And another for Cosmos 3 Nano. I specified that I want to try both generation in all modalities and their reasoning part as well.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And it did that.",
+      "tone": "satisfied"
+    },
+    {
+      "timestamp": "00:13:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "My partner, who has much more experience with coding, tried to do it all himself and trying to really dig into documents and see what's working, what's not, and why.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:40",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It took me much less time to work it that way.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:13:45",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Combining tools is the best way to do it.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:13:50",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So when I play with Cosmos 3 and I tried video to video, I tried changing video, I tried creating video from text,",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I tried creating video from image and I tried reasoning explaining things to me.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So when I play with Cosmos 3, what I see is that it is uneven.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:14:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But for me it's not a failure, it's not a problem.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:14:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The most useful analogy here is that video with Will Smith eating spaghetti.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:19",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "No one believed that we can do significantly better than that.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:14:24",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Remember those times? It's just like yesterday. Remember the thoughts, oh my god, realistic videos with correct movement? Forget about it.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:14:32",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And now, now we can barely see the difference if it's real Will Smith eating spaghetti or not.",
+      "tone": "amazed"
+    },
+    {
+      "timestamp": "00:14:40",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So I think the same will be happening with omnimodal world models.",
+      "tone": "predictive"
+    },
+    {
+      "timestamp": "00:14:45",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And maybe we actually should add the word action to the name, omnimodal world action models, or come up with some better name.",
+      "tone": "creative"
+    },
+    {
+      "timestamp": "00:14:51",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But in any case, I see an early open system entering the phase where builders can make it better.",
+      "tone": "hopeful"
+    },
+    {
+      "timestamp": "00:14:57",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "As of today, this is the least capable it will ever be.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "From here on, mark my words, the physical AI stack will only become richer, denser, more complete, and at some point, finally, working smoothly.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:15:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That's it for today. Thank you for listening. Tell me in the comments what you think will improve Cosmos three faster: Nvidia's own development, open-source post-training, better synthetic data, real robot data, or something else. What's your bet? See you next week.",
+      "tone": "engaging"
+    }
+  ],
+  "highlights": [
+    "Nvidia’s Cosmos-3 is an \"omnimodal\" world model family designed for physical AI, unifying world modeling, multimodal understanding, reasoning, and action within a single architecture.",
+    "The model utilizes a \"mixture of transformers\" approach featuring two pathways: an autoregressive reasoner that interprets the environment and a diffusion-based generator that predicts future states and produces actions.",
+    "While standard Vision-Language-Action (VLA) models bridge perception and movement, Cosmos-3 focuses on world modeling to help AI predict the physical consequences of its actions, such as whether an object will tip or slide.",
+    "Physical AI represents a shift from digital agents to real-world infrastructure, requiring a full stack of digital twins, synthetic data, and simulation to train systems for factories, warehouses, and self-driving cars.",
+    "Cosmos-3 is released as an open \"builder infrastructure\" rather than a finished product, providing the developer community with code, checkpoints, and synthetic datasets to experiment with and advance the physical AI stack."
+  ],
+  "summary": "Nvidia’s Cosmos-3 represents a significant evolution in physical AI, shifting from fragmented models toward a unified \"omnimodal world model.\" Unlike previous Vision-Language-Action (VLA) models that primarily bridge perception to movement, Cosmos-3 integrates reasoning, understanding, and generation into a single framework. Its \"dual-tower\" architecture consists of an autoregressive transformer for reasoning and a diffusion-based generator for creating images, video, and actions. This allows the model to not only decide on an action but also simulate the physical consequences of that action—such as predicting whether a cup will tip or slide—through what is known as \"generative rollout.\"\n\nThe release is a core component of CEO Jensen Huang’s broader vision for physical AI, which extends beyond humanoid robotics into industrial infrastructure like factories, autonomous vehicles, and digital twins. Nvidia’s strategy emphasizes a \"full stack\" approach where AI must learn in simulated worlds before operating in reality. By providing an open-source platform including code, checkpoints, and synthetic datasets, Nvidia is positioning Cosmos-3 as a foundational infrastructure for builders rather than a finished product.\n\nWhile the speaker notes that the model’s current performance is uneven, they liken this stage to the early, distorted days of AI video generation, suggesting rapid improvement is inevitable. The overarching theme is the transition of AI from software-based reasoning to embodied intelligence capable of navigating and predicting the physical world. Cosmos-3 serves as a bridge in this transition, offering a toolkit for developers to create more sophisticated, physically-aware agents through a combination of generative simulation and multimodal reasoning.",
+  "description": "NVIDIA Cosmos 3 is an open omnimodal world model for physical AI — combining reasoning, world simulation, and action in one architecture. Here's what that actually means, and how it compares to JEPA and VLA.\n\nIn this episode, we unpack what “omnimodal” actually means, why NVIDIA fuses world modeling, simulation, reasoning, and action into one Mixture-of-Transformers architecture, and how Cosmos 3 stacks up against Genie 3, V-JEPA 2, PAN, and VLA-style robotics models.\nPlus the fun part: how I got Cosmos 3 running myself with Codex + NVIDIA Brev – no UI, almost no pain. You can too.\n\nAttention Span is here to show you AI isn’t magic. Sometimes it’s confident autocomplete – and sometimes it’s an early, uneven, but very real attempt at building the world inside the model.\n\n👉 Subscribe for more high-signal AI mechanics \n👉 More analysis: TuringPost.com \n👉 Interviews: @RealTuringPost\n\n🔗 Links mentioned Beyond LLMs: \n- Nvidia Cosmos 3 on Hugging Face https://huggingface.co/nvidia-cosmos-ea\n- Cosmos 3  tech blog https://nvda.ws/4wY4jzs\n- Cosmos 3 announcement https://www.youtube.com/watch?v=wSp6AiNIrsY\n- Cosmos World Foundation Model Platform for Physical AI (paper) \nhttps://arxiv.org/abs/2501.03575\n- What is Cosmos World Foundation Model Platform?\n- JEPA and the Road to AGI https://www.youtube.com/watch?v=z0fh0SY3VWc \n- DeepMind Genie 3 https://www.youtube.com/watch?v=PDKhUknuQDg \n- π0.5 robotics policy https://www.youtube.com/watch?v=Zn8yMaepzVk \n- Will Smith spaghetti, 2026 edition https://youtube.com/shorts/7zdVCQ52kMQ?si=qiPNTL9YzW_K9fhS\n\n📖 Related reading on turingpost.com:\n→ What is JEPA? (I-JEPA, V-JEPA, LeJEPA explained): https://www.turingpost.com/p/jepa\n→ VLA Models Explained — Vision-Language-Action to VLA+: https://www.turingpost.com/p/vlaplus\n→ What are World Models? https://www.turingpost.com/p/wwm\n→ What is Cosmos World Foundation Model Platform? https://www.turingpost.com/p/cosmos\n\n#nvidia  #cosmos3   #physicalai   #worldmodelsai  #omnimodal  #jepa #jepavscosmos #VLAmodels #AIrobotics2026 #airobotics  #NVIDIAworldmodel, #Cosmos3explained #turingpost",
+  "duration": 936,
+  "people": [
+    "Ksenia Se",
+    "None",
+    "Attention Span",
+    "Nvidia Cosmos",
+    "Hugging Face",
+    "Cosmos World",
+    "Foundation Model",
+    "Will Smith",
+    "Models Explained",
+    "World Models"
+  ],
+  "topics": [
+    "Introduction to NVIDIA Cosmos 3 and the concept of omnimodal world models",
+    "The architecture of Cosmos 3: Autoregressive reasoning and diffusion-based generation",
+    "Physical AI and the importance of world simulation and foundation models",
+    "Comparative analysis of Cosmos 3 vs. JEPA, VLA, and other AI frameworks",
+    "Practical implementation of Cosmos 3 using Codex, NVIDIA Brev, and Hugging Face"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/8gXNaDw5zmk/maxresdefault.jpg",
+  "date": "20260601",
+  "youtube_url": "https://www.youtube.com/watch?v=8gXNaDw5zmk",
+  "youtube_metadata": {
+    "title": "Jensen's Four AIs: How Cosmos 3 Closes the Physical AI Loop",
+    "description": "NVIDIA Cosmos 3 is an open omnimodal world model for physical AI — combining reasoning, world simulation, and action in one architecture. Here's what that actually means, and how it compares to JEPA and VLA.\n\nIn this episode, we unpack what “omnimodal” actually means, why NVIDIA fuses world modeling, simulation, reasoning, and action into one Mixture-of-Transformers architecture, and how Cosmos 3 stacks up against Genie 3, V-JEPA 2, PAN, and VLA-style robotics models.\nPlus the fun part: how I got Cosmos 3 running myself with Codex + NVIDIA Brev – no UI, almost no pain. You can too.\n\nAttention Span is here to show you AI isn’t magic. Sometimes it’s confident autocomplete – and sometimes it’s an early, uneven, but very real attempt at building the world inside the model.\n\n👉 Subscribe for more high-signal AI mechanics \n👉 More analysis: TuringPost.com \n👉 Interviews: @RealTuringPost\n\n🔗 Links mentioned Beyond LLMs: \n- Nvidia Cosmos 3 on Hugging Face https://huggingface.co/nvidia-cosmos-ea\n- Cosmos 3  tech blog https://nvda.ws/4wY4jzs\n- Cosmos 3 announcement https://www.youtube.com/watch?v=wSp6AiNIrsY\n- Cosmos World Foundation Model Platform for Physical AI (paper) \nhttps://arxiv.org/abs/2501.03575\n- What is Cosmos World Foundation Model Platform?\n- JEPA and the Road to AGI https://www.youtube.com/watch?v=z0fh0SY3VWc \n- DeepMind Genie 3 https://www.youtube.com/watch?v=PDKhUknuQDg \n- π0.5 robotics policy https://www.youtube.com/watch?v=Zn8yMaepzVk \n- Will Smith spaghetti, 2026 edition https://youtube.com/shorts/7zdVCQ52kMQ?si=qiPNTL9YzW_K9fhS\n\n📖 Related reading on turingpost.com:\n→ What is JEPA? (I-JEPA, V-JEPA, LeJEPA explained): https://www.turingpost.com/p/jepa\n→ VLA Models Explained — Vision-Language-Action to VLA+: https://www.turingpost.com/p/vlaplus\n→ What are World Models? https://www.turingpost.com/p/wwm\n→ What is Cosmos World Foundation Model Platform? https://www.turingpost.com/p/cosmos\n\n#nvidia  #cosmos3   #physicalai   #worldmodelsai  #omnimodal  #jepa #jepavscosmos #VLAmodels #AIrobotics2026 #airobotics  #NVIDIAworldmodel, #Cosmos3explained #turingpost",
+    "duration": 936,
+    "view_count": 5005,
+    "like_count": 242,
+    "channel": "Ksenia | Turing Post",
+    "upload_date": "20260601",
+    "thumbnail": "https://i.ytimg.com/vi/8gXNaDw5zmk/maxresdefault.jpg",
+    "tags": [
+      "AttentionSpan",
+      "AI",
+      "Cosmos3",
+      "NVIDIA",
+      "PhysicalAI",
+      "WorldModels",
+      "Omnimodal",
+      "JEPA",
+      "Genie3",
+      "Robotics",
+      "VLA",
+      "MachineLearning",
+      "TuringPost"
+    ]
+  }
+}
