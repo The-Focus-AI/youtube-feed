@@ -1,8 +1,8 @@
 ---
 channel: Turing Post
 channel_handle: "@RealTuringPost"
-total_videos: 88
-last_updated: 2026-06-08
+total_videos: 91
+last_updated: 2026-07-11
 ---
 
 # Turing Post Channel Index
@@ -11,15 +11,18 @@ last_updated: 2026-06-08
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 88 |
-| Total Views | 169,463 |
-| Date Range | 2024-11-04 to 2026-06-06 |
+| Total Videos | 91 |
+| Total Views | 175,559 |
+| Date Range | 2024-11-04 to 2026-06-26 |
 | Average Video Length | 16:39 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
+| 2026-06-26 | [How AI Went From Predicting Biology to Running It](videos/FzOD3Hgq-4k.md) | 12:39 | 822 | [Watch](https://www.youtube.com/watch?v=FzOD3Hgq-4k) |
+| 2026-06-20 | [What Responsible AI Actually Means in 2026 – Microsoft's Sarah Bird](videos/G0BJ67ZEiws.md) | 33:09 | 673 | [Watch](https://www.youtube.com/watch?v=G0BJ67ZEiws) |
+| 2026-06-13 | [Recursive Self-Improvement Just Got Real (Anthropic + Recursive)](videos/RB8vjn1QPeM.md) | 13:01 | 4,601 | [Watch](https://www.youtube.com/watch?v=RB8vjn1QPeM) |
 | 2026-06-06 | [Inside the New GitHub – Mario Rodriguez on Agent-Native Coding & the Future of Developers](videos/0X_rXFhRyYY.md) | 30:38 | 728 | [Watch](https://www.youtube.com/watch?v=0X_rXFhRyYY) |
 | 2026-06-01 | [Jensen's Four AIs: How Cosmos 3 Closes the Physical AI Loop](videos/8gXNaDw5zmk.md) | 15:36 | 5,005 | [Watch](https://www.youtube.com/watch?v=8gXNaDw5zmk) |
 | 2026-05-29 | [Inside Google AI Studio – Ammaar Reshi on Vibe Coding, Agent Swarms, and the Future of Building](videos/lc9aCBSYCBU.md) | 21:13 | 643 | [Watch](https://www.youtube.com/watch?v=lc9aCBSYCBU) |
@@ -121,8 +124,8 @@ last_updated: 2026-06-08
 | 6 | [What Really Blocks AI Progress? Ulrik Hansen from Encord](videos/GxI2JNyIlrU.md) | 4,744 | [Watch](https://www.youtube.com/watch?v=GxI2JNyIlrU) |
 | 7 | [AI for Science Just Had Its ChatGPT Moment](videos/WzoPLV3pYUs.md) | 4,615 | [Watch](https://www.youtube.com/watch?v=WzoPLV3pYUs) |
 | 8 | [What AI Is Missing for Real Reasoning? Axiom Math's Carina Hong](videos/3qGBMkgR6Ko.md) | 4,614 | [Watch](https://www.youtube.com/watch?v=3qGBMkgR6Ko) |
-| 9 | [What Everyone is Missing About Anthropic's Mythos and Project Glasswing](videos/e8R53UkYDzA.md) | 3,614 | [Watch](https://www.youtube.com/watch?v=e8R53UkYDzA) |
-| 10 | ["That's a loser mindset!" Jensen Huang vs Dwarkesh](videos/aRg4LRFYGPY.md) | 3,456 | [Watch](https://www.youtube.com/watch?v=aRg4LRFYGPY) |
+| 9 | [Recursive Self-Improvement Just Got Real (Anthropic + Recursive)](videos/RB8vjn1QPeM.md) | 4,601 | [Watch](https://www.youtube.com/watch?v=RB8vjn1QPeM) |
+| 10 | [What Everyone is Missing About Anthropic's Mythos and Project Glasswing](videos/e8R53UkYDzA.md) | 3,614 | [Watch](https://www.youtube.com/watch?v=e8R53UkYDzA) |
 
 ## Topics Index
 

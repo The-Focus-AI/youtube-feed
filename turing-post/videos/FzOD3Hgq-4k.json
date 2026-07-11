@@ -1,0 +1,529 @@
+{
+  "title": "How AI Went From Predicting Biology to Running It",
+  "source_url": "https://www.youtube.com/watch?v=FzOD3Hgq-4k",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It wasn't true six months ago, but 2026 became the inflection point for science agents specifically. And that changes everything. Let me explain what I mean and why it is important for your life.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:00:17",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Welcome to Attention Span. My name is Ksenia, and I've been covering machine learning and AI for over a decade. And today, we need to talk about science agents, because this is the moment where a category moves past the hype and starts to rewrite the timeline of discovery. We will compress years to weeks, and I'll show you the numbers later. Wait for it.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:00:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "To understand why this is a systematic shift, look at how closely the architecture of an agent parallelizes the actual scientific method. Kimberly Powell, Nvidia's VP of healthcare, framed it the best when I sat down with her at the Bio AI summit. She said, you can draw a parallel between the scientific method and what an agent looks like. You build context, read a lot of papers, run a lot of experiments. Then you set a scientific goal, maybe design a drug for a target you discovered. You reason through what to do next and build a plan to execute. That's literally what agents do. They take an action, then come back in a full loop and gather more context. This is the science.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:25",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And that's exactly true. That's the move. What these agents are doing right now is compressing the entire loop into single continuous execution steps. For the last couple of decades, scientists have already been using AI. This is the part where people miss when they say AI is coming to science, because you know AI has been in science for a long time. Machine learning, it was called back then. It has helped notice patterns in images, write computer vision scripts, predict basic structures, analyze sequences, and search chemical spaces.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:01:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "More recently, generative models have helped summarize research and reason through tentative hypotheses. These were incredibly helpful tools, and they changed entire fields. But something fundamentally different is happening now. The shift we're living through in 2026 is the transition from AI as a standalone model to AI as an active execution layer participant in the scientific loop, an actual co-scientist. It is the move away from expecting a single chatbot to just answer your questions toward surrounding models with specialized, and that's important, specialized agent harnesses.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:02:32",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "These systems interact with tools, execute code, navigate complex datasets, and run iterative loops. And when you look at the raw acceleration numbers coming out of the industry right now, the scale of this compression is hard to fully process. And this is the slowest it will ever be. The acceleration of biotech is still ahead of us. Just look at the numbers Edison Scientific is reporting for its agentic platform.",
+      "tone": "urgent"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Cosmos, with K. In a single run, the system reads around 1500 scientific papers, writes and executes more than 40,000 lines of research code, synthesizes the cross-disciplinary data, and produces the fully cited report with a plan for the next round of experiments.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:19",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A research and synthesis effort like this, of that scale, would typically take a human scientist 4 to 6 months of full-time work. Cosmos does it in under a day.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:32",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And here's the part that is extremely interesting. The reason Cosmos can stay coherent across 200 agent rollouts is not a bigger context window. It is a structured world model. The same architectural idea we've been tracking all year, including Jappa papers that we've covered recently. This architectural idea of structured world models, now used to keep an AI scientist from losing the plot over 12 hours of reasoning.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:03:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That's a 9.8x jump in code generation over its predecessor Robin. And it already has results: 7 discoveries, 3 of them reproducing unpublished human findings, and 4 net new, including a hypothesis that high SOD2 levels may reduce scarring in the heart and a genetic variant tied to lower type 2 diabetes risk. Independent scientists judged about 79% of its statements accurate. Sam Altman called one of the most important things AI will do, and it costs $200 a run.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Even if we approach conference metrics, and I just came from the Bio AI summit, completely mind-blowing information from there, even if we approach those metrics with a healthy seatbelt because this is biology and PRMT and other physics laws still apply, the broader industry adoption data shows that acceleration is no longer a localized phenomenon.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:04:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "According to Benchling's 2026 Biotech AI report, 50% of organizations adopting AI already report a faster time to target, which is already super important, and 56% expect meaningful cost reductions within the next two years. The upstream bottlenecks are giving way first. Literature and knowledge extraction sits at 76% adoption, while protein structure and property models have reached 71%.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "When you scale this across the stages of drug development, you see multiple distinct clocks speeding up at once. And some of this process can now be parallelized, that increases the process even more.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:05:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If we look at the numbers, pre-clinical discovery path, traditional timeline, 6 years. AI-accelerated timeline, under 2 years. And that thanks to automated labs paired with generative molecule design and scoring models.",
+      "tone": "conclusive"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Drug target identification. It used to take 18 months. Now, it's nine months.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "With LLMs and agent harnesses mapping hidden genetic connections and literature.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If we do clinical data cleaning, it's process heavy, slow to lock. And now with AI accelerated processes, we have a six times throughput, 6.4 times fewer errors on a controlled benchmark.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:25",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That's all with AI assisted review, LLM plus heuristics, for example, results from Octosey with 15 times fewer false positive queries.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:35",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That last one is worth noticing because it's where the money is.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "In one model phase 3 oncology trial, that kind of acceleration penciled out to roughly 5.1 million dollars in savings.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Most of it from locking the database 5 days sooner. It's not a faster scientist, the faster clock on the whole program.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And here what gets me even more excited. It's not just a conversation about agents or productivity or anything like this. It's not a new email tool. Guys, we are talking life and death here. More life and less death.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:07:16",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The industry did not spend hundreds of billions of dollars on research and development because scientists type too slowly or need faster email replies.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:07:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The real compression happens where the AI acts as middleware to orchestrate complex tool environments.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:34",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Take NVIDIA's BioNeMo agent toolkit, released just days ago.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It's not a chatbot for life sciences, it's a runtime. Literally a set of agent skills, literally a toolkit that lets an agent take a target, isolate structural hotspots, pull reference data,",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:53",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "then chain the real workhorses of protein engineering.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "For example, if we talk about protein engineering, it will be RFdiffusion to draft the backbone, and then ProteinMPNN to sequence it.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:08:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Models like OpenFold 3 or Boltz 2 to fold and score it, and then DiffDock to dock candidate molecules and rank the survivors before a human team ever touches a pipette.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:08:19",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The agent handles the plumbing and the tool calls under strict structural and biological constraints. And the orchestration is the whole point.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "When researchers benchmark these skills across frontier model tiers, the weaker models collapse under multi-step pipelines without the skill layer wrapping them.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The runtime is doing the work, not the raw model.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:45",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "David Baker's Institute for Protein Design is a launch collaborator with 2X faster runtimes on their design models.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:08:51",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Quite incredible thing is that BioNeMo toolkit is open sourced. So biotech teams, any of them, can already start building their own pipelines on top of it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:08:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Of course there are some bottlenecks and problems because all of this computational speed eventually runs into a hard wall. And I want to discuss it.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The ultimate speed of biotech is determined by what can actually be measured.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:04",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "There is a distinct split forming between legible biology where data is structured, outcomes are bounded, and code it runs or fails.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And illegible biology where human disease mechanisms stay hidden, causal drivers are unverified, and a clinical trial still takes years because a patient's biological clock cannot be automated.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:26",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "As the saying goes, you cannot treat what you cannot measure.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "You can watch this play out in a single drug. I'll give you an example.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:35",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "InSilico Medicine used AI to find the target and AI to design the molecule for brantosertib, a fibrosis drug.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:43",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Pre-clinical nomination in about 18 months, and it has now published phase 2a results in Nature Medicine.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:51",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The molecule moved at software speed. This is incredible.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:53",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But the trial still ran on human time. 12 weeks, 17 to 18 patients per arm.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The design compressed, the biology made everyone wait. That's the wall.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:06",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is why companies like Insitro are pouring money into generating their own multimodal biological data.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Pairing human cohort and cellular models with AI-driven design loops so the algorithms have pristine causal data to reason over.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Another example is how InSilico went further on the hardware side with Lab-Co, a closed-loop lab where AI agents run target-to-report cycles with only teams of humans signing off at the checkpoints.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The goal in both cases is the same: generate the real biological data the algorithms need before they can reason over anything at all.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, where are we now?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:43",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "We're moving past the first wave of AI biology, which was purely about prediction.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Predicting how a protein folds, for example, was important, but the current wave is about execution.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:56",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Standardizing how models, pipelines, laboratory instruments, and regulatory data trail together.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "When an agent can run tens of thousands of code lines, scan thousands of papers, and execute workflows in hours instead of months, the primary bottleneck shifts.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:10",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It moves away from how fast can we perform this task and toward how quickly can we decide which experiment is worth running next.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:18",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And how do we verify the machine's path?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:23",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And one finding cuts against the comfortable story that AI just levels the field.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "In the data cleaning work, the more experienced reviewers gain the most from the AI, not the least.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:37",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It's a force multiplier for judgment, not a substitute for it, which tells you exactly where the human stays essential.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:45",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Deciding what to trust and what to test next.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Biology could never accept a black box answer without validation, provenance, and rigorous audit trails.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:56",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But for the teams deploying agent harnesses that successfully compress the scientific loop, the operating speed of discovery is being redefined.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Entering an entirely different gear. This is what is on my radar this week, this is where I pay my attention to.",
+      "tone": "focused"
+    },
+    {
+      "timestamp": "00:12:05",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I'll see you in the comments, I hope. Let me know where you think those numbers are hitting reality and where the next friction points is going to land.",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:12:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And in general, tell me how you feel about AI and biotech. Particularly me, I'm very excited.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:12:20",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I think that's one of the most important areas and industries that we can apply AI to.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:12:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you for your attention and thank you for watching attentively. I'll see you soon.",
+      "tone": "warm"
+    }
+  ],
+  "highlights": [
+    "The year 2026 marks a shift where AI moves from a standalone prediction tool to an active \"science agent\" capable of executing the full scientific method loop. This transition allows systems to compress months of research and synthesis, such as analyzing 1,500 papers and writing 40,000 lines of code, into less than a single day.",
+    "Modern science agents utilize structured world models rather than just larger context windows to maintain coherence during extended reasoning cycles. This architectural shift allows AI to stay focused and logical during complex discovery processes that can last over 12 hours of continuous execution.",
+    "AI in biology has evolved into an orchestration layer where agent toolkits act as a \"runtime\" to coordinate specialized models for protein engineering and molecule docking. These systems handle the technical plumbing and tool integration, allowing entire experimental pipelines to be simulated before a human scientist ever enters the lab.",
+    "Despite massive acceleration in drug discovery and design, scientific progress still faces a \"biological wall\" because clinical trials must operate on human time. While AI can compress the pre-clinical discovery path from six years to under two, the pace of patient-based validation remains the ultimate bottleneck in bringing new treatments to market."
+  ],
+  "summary": "The transcript explores the 2026 inflection point in \"science agents,\" marking a transition from AI as a passive tool to an active \"co-scientist\" that executes the entire scientific method. These agents use specialized harnesses and structured world models to perform tasks like literature review, code execution, and hypothesis generation in parallel. The primary theme is temporal compression; platforms like \"Cosmos\" can complete months of human research and synthesis in a single day, while overall pre-clinical discovery timelines are being reduced from six years to under two.\n\nA key driver of this shift is technological orchestration, where AI serves as the \"middleware\" to connect various specialized tools. For example, NVIDIA’s BioNeMo toolkit allows agents to chain together models for protein engineering, docking, and scoring under strict biological constraints. This automation speeds up target identification and clinical data cleaning, leading to massive cost savings and faster database locks. However, the transcript notes that these systems function as force multipliers for expert judgment rather than replacements, as experienced scientists see the greatest productivity gains.\n\nDespite these advancements, the \"biological wall\" remains a significant bottleneck. While the digital design of molecules can move at software speed, clinical trials and human disease mechanisms still operate on \"human time\" and biological clocks that cannot be automated. The future of the field lies in \"closed-loop\" labs and high-quality multimodal data generation to bridge the gap between computational speed and physical biological reality, shifting the focus from task execution to strategic decision-making about which experiments are most worth running.",
+  "description": "In 2026, science agents started rewriting the timeline of discovery. It’s the slowest it will ever be! AI has been in science for two decades – but the shift now is from AI as a standalone model to AI as an execution-layer participant in the scientific loop: reading the literature, writing and running the code, generating hypotheses, and resetting the loop. This episode is about what actually changed, what the numbers really say, and where biology still makes everyone wait.\n\nIn this episode:\nWhy the architecture of an agent mirrors the scientific method – and what gets compressed\nKosmos: ~1,500 papers and 40,000+ lines of code per run, and the structured world model that keeps it coherent\nThe seven Kosmos discoveries, and what \"79% accurate\" really means\nBenchling's 2026 numbers: where adoption is real (literature 76%, protein structure 71%) and where it stalls\nThe clinical clocks speeding up – and the honest version of the data-cleaning stats\nNVIDIA's BioNeMo Agent Toolkit: a runtime, not a chatbot (RFdiffusion → ProteinMPNN → OpenFold3/Boltz-2 → DiffDock)\nThe hard wall: legible vs. illegible biology, told through Insilico's rentosertib\nWhy the human stays essential – deciding what to trust and what to test next\n\nSources:\nBeyond LLMs: JEPA and the Road to AGI – the main milestones so far https://www.youtube.com/watch?v=z0fh0SY3VWc \nKosmos (Edison Scientific) – https://arxiv.org/abs/2511.02824\nNVIDIA BioNeMo Agent Toolkit – https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit \nBenchling 2026 Biotech AI Report – https://www.benchling.com/biotech-ai-report-2026 \nOctozi (AI-assisted data cleaning) – https://arxiv.org/abs/2508.05519 \nInsilico rentosertib – Phase IIa results, Nature Medicine (2025) https://insilico.com/interactive/drugs/rentosertib \nAttention Span is here to show you AI isn't magic – it's an agent that reads 1,500 papers before a human ever picks up a pipette, and still needs that human to decide what's worth running next.\n\n👉 Subscribe for high-signal AI mechanics \n👉 More analysis: TuringPost.com \n👉 Interviews: @realturingpost\n\n#AttentionSpan #ScienceAgents #AIforScience #Kosmos #EdisonScientific #BioNeMo #NVIDIA #DrugDiscovery #AIagents #WorldModels #Biotech #AI #MachineLearning #TuringPost #AIResearch",
+  "duration": 759,
+  "people": [
+    "Ksenia Se",
+    "Kimberly Powell",
+    "Agent Toolkit",
+    "Edison Scientific",
+    "Nature Medicine",
+    "Attention Span"
+  ],
+  "topics": [
+    "The transition from standalone AI models to science agents as active execution layers",
+    "Performance metrics and discovery acceleration in platforms like Kosmos",
+    "Impact of AI and agents on biotech and drug development timelines",
+    "Scientific tool orchestration and the NVIDIA BioNeMo Agent Toolkit",
+    "The 'hard wall' of physical biology and the essential role of human judgment"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/FzOD3Hgq-4k/maxresdefault.jpg",
+  "date": "20260626",
+  "youtube_url": "https://www.youtube.com/watch?v=FzOD3Hgq-4k",
+  "youtube_metadata": {
+    "title": "How AI Went From Predicting Biology to Running It",
+    "description": "In 2026, science agents started rewriting the timeline of discovery. It’s the slowest it will ever be! AI has been in science for two decades – but the shift now is from AI as a standalone model to AI as an execution-layer participant in the scientific loop: reading the literature, writing and running the code, generating hypotheses, and resetting the loop. This episode is about what actually changed, what the numbers really say, and where biology still makes everyone wait.\n\nIn this episode:\nWhy the architecture of an agent mirrors the scientific method – and what gets compressed\nKosmos: ~1,500 papers and 40,000+ lines of code per run, and the structured world model that keeps it coherent\nThe seven Kosmos discoveries, and what \"79% accurate\" really means\nBenchling's 2026 numbers: where adoption is real (literature 76%, protein structure 71%) and where it stalls\nThe clinical clocks speeding up – and the honest version of the data-cleaning stats\nNVIDIA's BioNeMo Agent Toolkit: a runtime, not a chatbot (RFdiffusion → ProteinMPNN → OpenFold3/Boltz-2 → DiffDock)\nThe hard wall: legible vs. illegible biology, told through Insilico's rentosertib\nWhy the human stays essential – deciding what to trust and what to test next\n\nSources:\nBeyond LLMs: JEPA and the Road to AGI – the main milestones so far https://www.youtube.com/watch?v=z0fh0SY3VWc \nKosmos (Edison Scientific) – https://arxiv.org/abs/2511.02824\nNVIDIA BioNeMo Agent Toolkit – https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit \nBenchling 2026 Biotech AI Report – https://www.benchling.com/biotech-ai-report-2026 \nOctozi (AI-assisted data cleaning) – https://arxiv.org/abs/2508.05519 \nInsilico rentosertib – Phase IIa results, Nature Medicine (2025) https://insilico.com/interactive/drugs/rentosertib \nAttention Span is here to show you AI isn't magic – it's an agent that reads 1,500 papers before a human ever picks up a pipette, and still needs that human to decide what's worth running next.\n\n👉 Subscribe for high-signal AI mechanics \n👉 More analysis: TuringPost.com \n👉 Interviews: @realturingpost\n\n#AttentionSpan #ScienceAgents #AIforScience #Kosmos #EdisonScientific #BioNeMo #NVIDIA #DrugDiscovery #AIagents #WorldModels #Biotech #AI #MachineLearning #TuringPost #AIResearch",
+    "duration": 759,
+    "view_count": 822,
+    "like_count": 68,
+    "channel": "Ksenia | Turing Post",
+    "upload_date": "20260626",
+    "thumbnail": "https://i.ytimg.com/vi/FzOD3Hgq-4k/maxresdefault.jpg",
+    "tags": [
+      "AttentionSpan",
+      "ScienceAgents",
+      "AIforScience",
+      "Kosmos",
+      "EdisonScientific",
+      "BioNeMo",
+      "NVIDIA",
+      "DrugDiscovery",
+      "AIagents",
+      "WorldModels",
+      "Biotech",
+      "AI",
+      "MachineLearning",
+      "TuringPost",
+      "AIResearch"
+    ]
+  }
+}

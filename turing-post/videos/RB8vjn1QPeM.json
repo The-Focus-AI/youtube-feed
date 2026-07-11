@@ -1,0 +1,409 @@
+{
+  "title": "Recursive Self-Improvement Just Got Real (Anthropic + Recursive)",
+  "source_url": "https://www.youtube.com/watch?v=RB8vjn1QPeM",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Almost two years ago when we started our series on AI agents on Turing Post, we began with a strange and beautiful idea: open-endedness. Back then, agents were already becoming more than chatbots, but we still didn't have the language to describe where they were going. We had copilots, assistants, autonomous agents, agentic workflows, and many, many other terms, but the deeper question was always what kind of systems they could become. This week, we came closer to knowing. Curious?",
+      "tone": "intrigued"
+    },
+    {
+      "timestamp": "00:00:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Welcome to Attention Span. My name is Ksenia and today we're talking about automated AI research and recursive self-improvement because two giants published extremely interesting articles about it this week, and we might remember this week as the moment machines started helping build better machines. If John von Neumann were around today, I expect this is exactly the kind of week he would have enjoyed. We'll also talk about Claude Fable and the backlash Anthropic faced this week. Not as a separate news, no, you'll see that it's actually the same story, the part of the same loop. Okay, ready? Now to the juicy, nerdy details.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:19",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "When we wrote about open-endedness in 2024, we described it as the ability of a system to move beyond fixed goals and keep generating new ideas, behaviors, and solutions beyond what was originally programmed. The key word was not autonomous. It was continuous. Open-ended systems do not solve a task and stop. They keep exploring, and sometimes they discover directions the designers never put there. That was philosophy. Here's how it became engineering.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:01:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Strip the romance away from research, any research in any field, and what's left is a loop. A loop with six stations. You propose an idea, you implement it, you run the experiment, you validate the result and learn from it, and you choose what to try next. Then around again, and again and again. Most of science is not the eureka moment. It's thousands of trips around this loop, and most trips end with 'No!'. And for the entire history of science, every station of this loop was staffed by humans. That's why ideas are cheap in the first five minutes of excitement and brutally expensive after. The loop is slow, and the loop is where ideas go to die, sometimes after years of work.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:02:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So what happened this week? Two organizations showed us with evidence which stations of the loop are no longer exclusively human. Let's walk station by station. It's very interesting. Anthropic published an essay called 'When AI builds itself'. It's very careful and...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "No matter how loud the title is, it does not claim that recursive self-improvement has arrived, and it does not claim that it's inevitable. What it does, what it describes, is Anthropic delegating a growing share of AI development to AI systems. And it offers one very concrete number.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:20",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "As of mid-2024, more than 80% of the code merged into Anthropic's codebase was created by Claude.",
+      "tone": "factual"
+    },
+    {
+      "timestamp": "00:03:28",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Now, code volume is not research progress, but even with that caveat, the signal is pretty clear. The human role at this station is shifting from writing every line towards specifying, reviewing, verifying, deciding.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:03:45",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So machines now hold the implementation station. Here's the thing, though: implementation was never the interesting station. It's the cheapest seat at the table. The interesting stations are the next three.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:03:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Here comes Sakana. A company founded this May and already valued at $4.65 billion. They're predicting that self-improving AI will be here within two years. And this week, they published an article, 'First steps toward automated AI research.'",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:04:18",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And the architecture of their system is almost literally a loop. Their system proposes an idea, implements it, runs the experiment, validates the result, and then, this is the threshold...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:32",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "it uses what it learned to choose the next experiment. It runs many research threads over long horizons, keeps context from previous experiments, combines promising branches, and checks results for reward hacking before treating them as real progress. They tested it on three benchmarks from the machinery of AI progress itself.",
+      "tone": "detailed"
+    },
+    {
+      "timestamp": "00:04:51",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "On NanoGPT autoresearch, the system discovered a training recipe that reached the same model quality about 30% faster than the previous best community solution. On NanoGPT speedrun, it shaved training time from 79.7 to 77.5 seconds.",
+      "tone": "factual"
+    },
+    {
+      "timestamp": "00:05:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And on GPU kernel optimization, it pushed performance closer to the theoretical hardware limit.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:05:16",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Are these world-transforming results? Well, probably no. Are they real, measured, and reproducible, which is the most important thing for science? Yes. And notice what just happened on our map.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:05:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A system that proposes, runs, validates, and chooses is not a tool anymore. A tool waits for you at one station. This thing is walking the whole loop. That's the threshold where a tool becomes your co-scientist.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:05:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Now, in every episode, there is a moment where the exciting demos have to make room for more annoying questions. So here it is: Why these benchmarks? Why training speed? Why kernels? Of all the research problems in AI, why did automated research begin...",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And that was because of station four: validate. Look at what these tasks have in common: the goal is crisp, the experiment runs in minutes, the metric is robust, and the evaluator can be hardened against shortcuts.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Train time is training time. A kernel is faster, code isn't. There is nowhere to hide. This is the structural fact of the week and I want you to think about it,",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:24",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "because that predicts the shape of what comes next. Automated research does not arrive everywhere at once, it arrives lopsided.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:32",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It compounds fastest in exactly the parts of AI that are easiest to verify: speed, cost, efficiency, the machinery of capability.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:43",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And it stays human-paced in the parts that are hardest to verify: safety, evaluation, understanding what these systems actually are.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:51",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Think about what that asymmetry does over time. Nobody has to be reckless, nobody has to cut corners. The verifiable side of AI simply gets a compounding workforce, and the hard-to-verify side does not.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:05",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Capability can outrun comprehension not through anyone's bad decision, but through which loops close first.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And maybe this is temporary. A lot of smart people are working on making fuzzy domains verifiable. But today, this is our terrain.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:23",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Once you see the loop this way, you can see where the power went. If proposing, implementing, and running are automated, then all the human leverage concentrates at one station: validate.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:36",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Whoever writes the test, whoever defines the metric, whoever hardens the evaluator against reward hacking. In automated research, taste—taste, yes, it stops being a vibe, it becomes an artifact.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The eval is the taste, written down and enforced. Hold the thought, because it's the key to the week's drama with Anthropic.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So Anthropic did not only publish a research essay, it also launched Claude 3.5 Sonnet and Claude 3.5 Haiku.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The same underlying model, where Sonnet is generally available with safeguards and Haiku lifts some of those safeguards for a smaller group of approved users, like cyber-defenders.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:19",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The dual-use logic is defensible. Cybersecurity cuts both ways, biology cuts both ways, and some of those safeguards route high-risk queries to Claude Opus 3.5.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:32",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What blew up was something else entirely. For frontier LLM development queries, for research on building AI itself, the original policy could degrade the model's effectiveness without telling you.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The model might still answer, you just would not know where the answer has been weakened. A river of very upset researchers followed.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:53",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And I think they were right and the loop explains exactly why. A researcher needs a calibrated instrument. When an experiment fails, you have to know why: was the idea weak, was the prompt...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Did the model lack the capability or did someone change the instrument under your hands without disclosure? An invisibly modified model is an uncalibrated instrument. You cannot do research with it. You can only do something that looks like research. But it's even sharper than that because remember the power station? Anthropic's safeguard classifier is an evaluator and was inserted invisibly into other people's research loops.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So the backlash was not really about restrictions. Restrictions people can argue with. It was about someone else's evaluator running silently inside their experiments. The community felt maybe for the first time what it means when another party controls a station of your loop.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:47",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "To Anthropic's credit, they moved fast. They said, 'We made the wrong trade-off' and committed to making the safeguards visible. Clear refusals, clear fallback to a less capable model. Point to them. The narrow controversy resolved in days.",
+      "tone": "objective"
+    },
+    {
+      "timestamp": "00:10:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The broad controversy can't resolve because it isn't a policy bug. If AI accelerates AI research, then access to the best models is no longer access to a product. A 30% faster training recipe is a nice result. A faster research loop applied to itself, cycle after cycle, is a different kind of object because it compounds. Access to the loop is access to acceleration itself. And every decision about who gets first-class capability, what gets restricted, and what gets disclosed stops being a product tier question and becomes a question about who is allowed to accelerate.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:10:43",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And that's especially important for science. As Dr. Fei-Fei Li said, 'Scientific research is fundamental to advancing civilization and helping people globally to solve the most critical problems, from medicine to materials, from brain science to physics, and much beyond. This is only possible when scientists have access to the best tools of the time to conduct scientific research, including having access to AI-based tools.'",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:11:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That's why we discuss Fable News in this episode, because it's not a separate story. It's the first public fight over an evaluator.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:11:18",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Now, I know that the phrase recursive self-improvement is not very common right now. But that's exactly why we discuss it, because with every new model, self-improvement will become better and better. And I think the loop that we discussed gives us something more precise for the further understanding of where we are now.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:11:38",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So the loop that we discussed, it's not closed. Humans still set the goals, judge the results, and carry responsibility for what gets pursued. The propose station and the choose station—what is worth knowing, what counts as better—are still ours, humans. And maybe the most interesting part is that the first signals of this transition don't look like mythology at all. They look...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Quick train recipes, kernel optimizations, validation checks, reward hack detectors. Small, unglamorous compounding. That is usually how technology changes the world.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:10",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So today's question is not whether AI has become its own creator. At least not yet, it hasn't.",
+      "tone": "thought-provoking"
+    },
+    {
+      "timestamp": "00:12:16",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The better question we should ask is whether the process of creating AI is becoming a place where AI can work.",
+      "tone": "thought-provoking"
+    },
+    {
+      "timestamp": "00:12:25",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And this week that answer became very hard to ignore.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:12:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I wonder what you think about the whole loop, what stations still belong to us, what station we should never give controls of.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:37",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "How it played out with the Fable this week. Tell me in the comments what you think and which station of the loop do you think automates last.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:42",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Propose, validate, or choose. And who should own the evaluators.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you for watching. Please leave your comments, I love the discussions and share if you like it. See you next week.",
+      "tone": "friendly"
+    }
+  ],
+  "highlights": [
+    "AI development is shifting from human-led tasks to automated research loops where machines propose, implement, and validate their own experiments, effectively becoming \"co-scientists.\".",
+    "As of mid-2024, Anthropic reports that over 80% of the code merged into its internal codebase is generated by its AI model, Claude, demonstrating that machines are already handling the bulk of their own implementation.",
+    "Automated research creates a \"capability-comprehension gap\" because easily verifiable metrics like speed and cost compound faster than harder-to-measure areas like safety and ethical alignment.",
+    "The power in an automated research world concentrates at the \"validation\" station, where human taste and the definition of metrics determine the direction and quality of AI acceleration.",
+    "For AI to remain a valid scientific instrument, researchers require transparency and calibration; hidden safeguards that invisibly degrade model performance can undermine the reproducibility of scientific results."
+  ],
+  "summary": "This week’s transcript explores a pivotal shift in artificial intelligence: the transition from AI as a chatbot to AI as a \"co-scientist\" capable of recursive self-improvement. Drawing on recent developments from Anthropic and Sakana AI, the discussion centers on a six-stage \"research loop\"—proposing ideas, implementation, experimentation, validation, learning, and choosing the next step. While humans historically staffed every station, machines are now taking over significant portions. Anthropic reports that over 80% of its internal code is now written by Claude, and Sakana AI has demonstrated an automated system that can navigate the entire loop to discover more efficient training recipes and kernel optimizations.\n\nHowever, the transcript warns that this progress is currently lopsided. Automated research excels in \"verifiable\" domains like speed and cost efficiency, but it struggles with \"fuzzy\" areas like safety and comprehension. This asymmetry means that AI capability may outpace our understanding simply because the efficiency loops are easier to close. This tension was illustrated by the recent backlash against Anthropic's invisible safeguards, which researchers argued turned the model into an \"uncalibrated instrument.\" The core theme is that as implementation becomes automated, human leverage will concentrate on \"validation\"—the ability to set metrics and define taste. Ultimately, access to these high-level models is no longer just access to a product, but access to the \"acceleration\" of scientific discovery itself.",
+  "description": "What does it take to do research? Strip away the romance and you get a loop: propose → implement → run → validate → learn → choose. For the entire history of science, every station on that loop was staffed by humans.\nThis week, two organizations showed which stations no longer are.\n\nAnthropic published \"When AI builds itself,\" revealing that more than 80% of code merged into its codebase is now authored by Claude. Recursive published \"First Steps Toward Automated AI Research,\" showing a system that walks the full loop on real AI infrastructure tasks – and chooses its own next experiment. And the Claude Fable 5 backlash showed us where the power goes once the loop automates: to whoever controls the evaluator.\n\n*We explain:*\nThe research loop: the six stations of science, and which ones machines now occupy.\nAnthropic's evidence\nRecursive's results with recursive self-improving\nThe structural fact of the week and why that makes automated research arrive lopsided. The power station: why evaluators become the most contested objects in AI. \nThe Fable backlash, reread\n\n*Links mentioned:* \nAnthropic, \"When AI builds itself\":  https://www.anthropic.com/institute/recursive-self-improvement \nRecursive, \"First Steps Toward Automated AI Research\" https://www.recursive.com/articles/first-steps-toward-automated-ai-research\nInitial reaction to Anthropic’s Fable limitations by Dr. Fei Fei Li: https://x.com/drfeifei/status/2064735920281313688 and Will Brown from Prime Intellect https://x.com/willccbb/status/2064524803885646291\nPoints to Anthropic for fast reaction: https://x.com/natolambert/status/2065064364772892750\n\nAttention Span is here to show you AI isn't magic. Sometimes the most important shifts in the field come from the unglamorous middle of the research loop.\n👉 Subscribe for more high-signal AI mechanics \n👉 More analysis: TuringPost.com \n👉 Interviews: / @realturingpost\n\n#AttentionSpan #RecursiveSelfImprovement #AI #Anthropic #ClaudeFable #AutomatedResearch #AIResearch #ArtificialIntelligence #MachineLearning #AIAgents #OpenEndedness",
+  "duration": 781,
+  "people": [
+    "Ksenia Se",
+    "First Steps",
+    "Toward Automated",
+    "Claude Fable",
+    "The Fable",
+    "Fei Fei",
+    "Will Brown",
+    "Prime Intellect",
+    "Attention Span"
+  ],
+  "topics": [
+    "Automated AI research and the six-station research loop",
+    "Recursive self-improvement in AI development (Anthropic and Sakana AI)",
+    "The asymmetry between AI capability and comprehension/safety",
+    "The controversy over Anthropic's invisible safeguards and evaluator control"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/RB8vjn1QPeM/maxresdefault.jpg",
+  "date": "20260613",
+  "youtube_url": "https://www.youtube.com/watch?v=RB8vjn1QPeM",
+  "youtube_metadata": {
+    "title": "Recursive Self-Improvement Just Got Real (Anthropic + Recursive)",
+    "description": "What does it take to do research? Strip away the romance and you get a loop: propose → implement → run → validate → learn → choose. For the entire history of science, every station on that loop was staffed by humans.\nThis week, two organizations showed which stations no longer are.\n\nAnthropic published \"When AI builds itself,\" revealing that more than 80% of code merged into its codebase is now authored by Claude. Recursive published \"First Steps Toward Automated AI Research,\" showing a system that walks the full loop on real AI infrastructure tasks – and chooses its own next experiment. And the Claude Fable 5 backlash showed us where the power goes once the loop automates: to whoever controls the evaluator.\n\n*We explain:*\nThe research loop: the six stations of science, and which ones machines now occupy.\nAnthropic's evidence\nRecursive's results with recursive self-improving\nThe structural fact of the week and why that makes automated research arrive lopsided. The power station: why evaluators become the most contested objects in AI. \nThe Fable backlash, reread\n\n*Links mentioned:* \nAnthropic, \"When AI builds itself\":  https://www.anthropic.com/institute/recursive-self-improvement \nRecursive, \"First Steps Toward Automated AI Research\" https://www.recursive.com/articles/first-steps-toward-automated-ai-research\nInitial reaction to Anthropic’s Fable limitations by Dr. Fei Fei Li: https://x.com/drfeifei/status/2064735920281313688 and Will Brown from Prime Intellect https://x.com/willccbb/status/2064524803885646291\nPoints to Anthropic for fast reaction: https://x.com/natolambert/status/2065064364772892750\n\nAttention Span is here to show you AI isn't magic. Sometimes the most important shifts in the field come from the unglamorous middle of the research loop.\n👉 Subscribe for more high-signal AI mechanics \n👉 More analysis: TuringPost.com \n👉 Interviews: / @realturingpost\n\n#AttentionSpan #RecursiveSelfImprovement #AI #Anthropic #ClaudeFable #AutomatedResearch #AIResearch #ArtificialIntelligence #MachineLearning #AIAgents #OpenEndedness",
+    "duration": 781,
+    "view_count": 4601,
+    "like_count": 240,
+    "channel": "Ksenia | Turing Post",
+    "upload_date": "20260613",
+    "thumbnail": "https://i.ytimg.com/vi/RB8vjn1QPeM/maxresdefault.jpg",
+    "tags": [
+      "AttentionSpan",
+      "RecursiveSelfImprovement",
+      "AI",
+      "Anthropic",
+      "ClaudeFable",
+      "AutomatedResearch",
+      "AIResearch",
+      "ArtificialIntelligence",
+      "MachineLearning",
+      "AIAgents",
+      "OpenEndedness"
+    ]
+  }
+}

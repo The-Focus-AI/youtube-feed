@@ -1,0 +1,609 @@
+{
+  "title": "What Responsible AI Actually Means in 2026 – Microsoft's Sarah Bird",
+  "source_url": "https://www.youtube.com/watch?v=G0BJ67ZEiws",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Can I ask a question that's really bothers me?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:00:03",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "Sure.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:04",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Is it even possible to make AI responsible?",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:00:11",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "The framing of that question matters a lot because it's actually not about making AI responsible. Like ultimately humans should be responsible, right? It's about making AI that is trustworthy and the worthy part is really important there. There's lots of examples where people are trusting AI where they shouldn't. And so you don't just make an AI system generically trustworthy, like I might trust it to generate a paragraph that then I'm going to edit, right? But I might not trust it to make clinical healthcare decisions for me yet, right? And so trust is very contextual. It both is how you've built the system and where you're putting it practice. And so I think we've absolutely seen places today where you can build AI that is trustworthy for specific task in specific context and we're constantly extending that surface so that there's more and more where we feel that AI is fit for purpose as like actually you know doing the job. But you're not going to take any AI tool and just trust it anywhere and you shouldn't.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And everything happens super fast right now. What has changed the most in responsible AI?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:01:26",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "You know as you've said, one is absolutely the pace. We're in a moment right now where you know every month or couple months we're seeing kind of a major leap in capability and that's fantastic because it opens up all of these new types of application. But responsible AI is about making sure that it works really well in every application and every context and so there's you know new tools and capabilities we have to develop for each of this kind of new surface area. That is absolutely one and then something that's very much on my mind right now is the recent breakthroughs we've had in agentic coding because so much of how we've built responsible AI is based on the current software development lifecycle and if the software development lifecycle is totally changing, which it looks like it is, how do we build into that new process? And so if we have in a world where you know some organizations are experimenting with and some teams with okay agents write all the code and agents review all the code and so it feels very out of place to then have like like human review step you know inserted in there and taking like three days to review something that took some you know two hours to make right? And so I think that that change in how we do human oversight because we still need it and it's absolutely important and you want that validation, but we need tools to do it. And so I see those as like two of the things that are really different about the moment that we're in. But a lot hasn't changed. So like to the point of...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "We still need human oversight. We're still working on the same problems of testing and having human oversight and all of these things. It's just we're layering more and more sort of interesting things on top of that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:10",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "At Build, you announced two open-source contributions from your Responsible AI team. I think not that many people understand the specifics of responsible AI. Can you explain in the most approachable way what does this contributions mean?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:24",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "Yeah. We find when you are putting responsible AI into practice and like what a developer, you know, needs to do, like the first thing you need to do is understand what are the risks you're looking for, right? And you can talk to experts, you can understand your domain. But the next thing you want to do is actually test for those risks. And testing for those risks can be challenging to build high-quality tests. And so the first thing that we're releasing is called Eval, and it's a tool that helps developers go from that high-level idea of what you care about into very detailed tests that really help you understand the behavior of your AI system. Now after you run the test, you're going to find that, okay, there's probably some places where your AI isn't exactly behaving the way you want it to yet. And so the next step is going to be putting in controls or mitigations, or some people say guardrails, but adjusting the system so that it behaves the way you want it to every time. And so the second piece that we open sourced is called Agent Control Specification, and what that is is a kind of a description of the behaviors or the policies you want the agent to follow. And the idea is that every runtime can implement this specification. So no matter where an agent is, you understand what rules it's following, and you know how to adjust them and enforce them. And so those are kind of key steps in the responsible AI process, and we very much believe by open-sourcing tools, we can enable the community to really adopt them and make them their own and extend them because we very much see responsible AI as a place where the world is better if everybody does this well. We don't want to be, you know, competing with each other on this. We want everybody to succeed here, and open-source is such a great vehicle for that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:18",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What are your favorite areas where you would say AI is trustworthy and human understand that they should be responsible about it?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:05:26",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "I think we've, you know, seen a lot of success obviously in the like the chat systems now. People are reasonably familiar with that paradigm and the fact that, you know, they're reviewing and how to do that. Now, of course, there's always notable exceptions where people don't realize that it might hallucinate and they're not checking sources. But I think we've seen, you know, a lot of organizations and a lot of individuals be able to use that technology successfully to create value. I'm very excited about kind of the where we've really seen a jump forward in coding, and I think we're seeing a lot of people, for example, for rapid prototyping...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "typing, being able to go from an idea to, you know, a working thing they can play with so much more quickly and get a lot of value there. And so I think there's, you know, there's other examples as well. But every example for me still has this pattern of being thoughtful about what is the role the human plays and what is the role of the AI plays? And when we get the application design right, then you start getting this kind of combined system that is creating value. And then there's other places where I think we haven't really figured out how to put the human in a meaningful way, and we don't see those applications going to production yet.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:36",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "How do you see the skill set of a person who works on responsible AI? Because I know you're a computer scientist by background. What else do you need to have? Philosophy?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:06:52",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "Yeah, the thing I love about working in this field is that it needs a huge diversity of backgrounds. And so we see people coming in from all different areas, and we also see them contributing very different ways. And so to do work in responsible AI, we have to do things like, you know, core model training and post-training, and we have to develop really, you know, low-latency systems. So there, like, large-scale system engineering is important. In other cases, applied science. We have linguists on our team that are looking at different types of risk and really breaking them down. We have people that come from legal and policy backgrounds. And so I think it's really cool because what actually brings the team together is a mission-driven sense of 'we're very excited about the AI future, but only if we can really give people the tools for them to be in control and get the outcomes they care about.' And also just a willingness to work across domains, right? I work every day with legal and policy, and everything we create is a co-innovation, right? You can't just say, 'Oh, we'll throw technology at this problem and solve it' or 'We'll just make a policy and that solves the problem.' And so probably the most important trait is that people want to work across a larger solution space and work together to create something that they couldn't have done individually.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:08:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What's your take on the regularization on the governmental level?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:18",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "Yeah. So Microsoft was actually very early in calling for regulation. It's absolutely an important part of a healthy ecosystem. Ultimately, like, AI is going to be hugely impactful for the world. We're already seeing that, but I think we're at the very early stages of the level of impact we're going to see. And it absolutely should be governed by people in society, and governments are the mechanism we have to do that, right? And so regulations are the appropriate point to really help codify what society cares about in this technology. So we see it as really important, but it's also challenging because we're innovating every single day in the practice of responsible AI",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "...and of course in AI, it's all, and it's changing so quickly. And so a regulation that allows us to rapidly adapt and get increasingly better, you know, safety and quality outcomes is very hard to write, like, to like capture the most important part. And so, and, you know, we know because we have our own internal policies and we've been experimenting with this for years and we're regularly having to update and evolve and it's really easy for things to get stale. So I think this is going to be a fun project for us all to figure out together how to do that really well.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:37",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Mhmm. What are you doing now on a daily basis? What is it that you a year ago you thought you never, you could not even have imagined that you would be doing it daily?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:50",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "Daily. Some ways I feel like we're always doing the same thing. It depends on what level you pick, right? Um, we're always testing and we're always building kind of guardrails and things. But I think the thing that's really different now is with the change in the software development life cycle, really looking at how do you do so much of this through coding tools and through code understanding tools and things? I don't think we expected that we would be spending as much time as we are in like automated detection and scanning. And I think it's great actually that we have these tools available to us now. It's uh, kind of the like a real gift that we have more tools that can just go into the system and understand what it's doing so you don't have to ask, you know, a software engineer to fill out a form and tell us what's happening. And so I think it's a really powerful opportunity, but I don't know that I expected we would, you know, see the opportunity to to adjust so rapidly to that.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:10:55",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Do you have an agent on your team who helps you thinking by responsible AI?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:11:00",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "We did, um, actually just open source something called Clarity which helps you think through kind of different responsible AI risks and things. And obviously I think many people get value from the technology by using it as a thought partner, so I know a lot of the team kind of thinks through it, but we also work with a lot of both experts in-house in the team around Microsoft and then also we work with like external experts and things. And so, try to make sure that we're collecting a diversity of perspectives and expertise when we're, you know, trying to kind of make a decision because a really important thing is to just be very intentional and try not to miss things. And of course we'll miss some things and so we build our systems to, you know, rapidly adapt once we learn what we've missed and all of that, but try to really invest a lot in that up-front thought process and so we don't rely on just one tool.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That's very interesting that you noticed the framing on the question about AI being responsible, because that shows your position about human in the loop. If I may ask, what is AI, what is AGI for you? Is it a different level of responsibility? Is there a different level for human in the loop? How do you see that?",
+      "tone": "intellectual"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "Yeah, it's actually very insightful...",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "A question. I absolutely think that the more exciting future is the combination of human intelligence and AI intelligence and when you look at the organizations who are getting the most value from this and successfully putting it into practice, it's people like brilliant organizations who are in the top of their field, like the best in healthcare or the best in education, who now have this great new tool and are figuring out how to take the state of the art even farther. And so it's not just automating everything and doing the same thing but a little cheaper. Our responsible AI practice is very much anchored in we want to maximize human potential and we see AI as a fantastic tool for that. And I think that does very much change kind of our thinking and how we build and what we focus on and about giving humans the right tool. And of course, that doesn't mean no automation, right? I might want to build an AI system that can manage most everything and the human oversight is all in the validation testing or all in the monitoring, right? And so lots of options to think about how to implement that concept, but that is very much the guiding concept for us.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:13:09",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I'm actually very surprised to see how optimistic you are. For some reason, I thought a person who works in responsible AI has to be more pessimistic.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:13:19",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "I hope that we're realists, but people are on the team because they want to change the world and that in itself is an optimistic kind of goal. It's hard to create these new solutions and so it's a lot harder to be successful if you go into it thinking you can't do it, right? And so you want to start thinking this is possible and we're going to do it and along the way you're going to learn how to really make it possible and you're going to make adjustments. And so that combination of optimism and realism, I think, is really important.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:13:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What should never be delegated to agents, no matter controls and guardrails?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:13:58",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "It's a good question. I think one of the things I've learned personally in this is it's important to be really humble and also open-minded, right? I might be an expert in AI systems, but I'm not an expert in education or finance or, you know, any of these kind of fields. And so a lot of what we focus on is how do we give people the tools so they can then make that local decision, right? And so I think that you always want human oversight, but the question is where do you put that in the process, right? And you could say if you're putting it pretty far in the outer loop and you're just really focusing on validation functions, that it feels like delegating it. But for someone else, it might say, well, that's not delegating it. We've put a really rigorous, you know, validation function in that took all of our human expertise, and so it's not really delegating it. And so it kind of depends on how you frame the problem, but I think this is one of the most important things for sort of each application to figure out and some of it's going to be experimenting with what...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "works and I think we're also, you know, we have research at Microsoft Research, there's academics, like, many people are working on, like, where is the most effective place to put the human in the loop depending on the application and the context. So I think we'll start seeing a lot more best practices that answer this question start emerging kind of over the next year and couple years after.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "How long do the best practices survive or should they be changed constantly?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:15:26",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "It's a hard thing to predict. There's things that we started years ago around, like, how do you do fairness testing or something, that I think still look really similar today. And then there's places where, you know, there was a lot of focus on, like, cleaning the data, but with foundation models, that's, or like LLMs, of things that really kind of breaks and that's not what you want to be doing. And so I think you have to have a process that is regularly inspecting them all and updating them, but it's a little bit hard without knowing where the technology is going or knowing what we're going to learn when we start putting it out there in the wild, which practices are going to hold up longer and which ones are going to need, you know, more regular adjustment.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:16:06",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Is there any difference between building responsible AI in, like, generative AI if comparing to physical AI? Because there is so much more actual robots and how they work with the world. Is it any different?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:16:28",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "I think it's kind of a spectrum. So when we were looking at, let's say, just like a chat system where, you know, what it's outputting is text and there's a human on the other side who's making a decision, right? There's a lot of forgiveness in that scenario. There's still a lot of challenges, but there's a lot of forgiveness. When we move to agentic systems where you have tool calling, the tool calling is maybe going across your organizational boundary. The tool calling might be calling something that is a one-way function, right? It could be taking very consequential world actions and so you have to start thinking a lot more about how do you, you know, make sure something never happens as opposed to, well, it happens and we roll it back or it happens and the human catches it. And so when you go to physical systems, you have just even more of that element where the consequences could potentially be more significant and so you need to build those control systems to expect, like, to anticipate consequences and then, you know, act accordingly.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:17:24",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "In the question of who's responsible? I mean, it might be a hard question, but for example with the chatbots, when a chatbot—",
+      "tone": "pensive"
+    },
+    {
+      "timestamp": "00:17:37",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "You're asking who's responsible?",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:17:38",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I'm asking who's responsible because I do agree with you that human is responsible and it's basically human's decision what to do next. But in the perception of the people, technology or the company behind the technology is always responsible. Is it true? What should be done to, like, change the perception? How do you think about that?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:17:51",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "It's a great question because ultimately we see that everyone has a role to play, right? The person who creates—",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "the model has a role to play and also the platform provider and the application developer, but also the user, and they have different roles to play. So, for example, the model provider might be ensuring that the model doesn't bring novel, dangerous capabilities out into the world, right? It doesn't enable you to do something you never could do before that's problematic. But then the application developer, if you're developing a banking application, they're the only one that's equipped to test if that AI really works for their application, right? They have the application context. And so both people are testing, but they're testing for different things and they're testing for different risk. And so we have to think about these different layers and who is doing what. And the EU AI Act kind of tries to capture this a little bit with like the distinctions between developers and deployers of AI systems. But it's something where we're also figuring this out over time and kind of what happens. But I completely agree with your point that there's kind of a first instinct to blame the technology. And there's something, I think, incredibly compelling to people at the idea of, if we can just fix it with the models, great. That's way easier than training the whole world to use these tools effectively. But ultimately, that's what we're going to have to do. And then I think the other thing is that you only have to work with a small number of people if you just fix it in the model, and so it just seems simpler. But the models are going to be used for an enormous diversity of applications. And in fact, everything that you think maybe should never happen, there's actually always a good use case for why you should do it. So my team, for example, generates a lot of harmful content because we use it to train monitoring systems and guardrails and all of this. And so it's a huge step forward for us that AI can help us do that really effectively. And so we want models to be able to do that. Now, should everyone be doing that? Maybe not, but we still need the core technology to be able to do it. And so the core technology being very general purpose and flexible is valuable for so many use cases that the world actually cares about. And so that's why it's not as simple as, oh, we'll just fix it in the model.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:20:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Right. Well, because you are responsible, and from the majority of people, it's easier to put responsibility on someone else.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:20:19",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "But we don't have the context, right? Like it's not possible, right, for me to know if the thing you've generated from your chat system is appropriate for your podcast, right?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:20:26",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Right. Yeah. Uh so what do you think should ordinary users understand about their own responsibility when using all these increasingly autonomous systems?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:20:37",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "Yeah, I think the first is to use a term that's kind of common in responsible AI, you need to understand if the tool is fit for purpose, but the idea being that you need to know if the tool is appropriate for that use case, right? And how do you figure that out? Hopefully the tool provider is giving you information around that in the design of the tool itself.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "documentation. There's also lots of, you know, communities and conversation about where these tools work well and where they don't work well. And so that's something that as a user you need to know, does this actual this tool actually make sense for the job I'm trying to have it do? That's one. And then I think it's important to understand the tool provider and what are the guarantees that they're giving you. So for example, you'll see some consumer tools take data and they use it to train it and make it better. And that can have a lot of benefits in the ecosystem, but it's not appropriate to put your organization's enterprise data in that tool. Another tool might provide strong privacy guarantees and it's going to be completely appropriate for your organization's data. But, you know, there's many kind of different requirements you have to consider. And so you need to think about that tool provider and the guarantees they're providing and whether or not that makes sense for what you need as well.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Increasingly kids are using AI. What would be your advice how to raise them more responsible about all these tools?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:22:03",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "I'm not an expert in this and I won't pretend to be. But I, we have some customers that I think are making sort of amazing strides in trying to experiment with this. And so, we worked with, for example, the New South Wales Department of Education and I liked that they very early on in this AI journey developed a stoplight program for their assignments. And so, if a assignment was red, it was absolutely no AI at all. And then yellow allowed you to use AI in some circumstances and then green was like party, you can use AI all you want. And so it was helping give kids a framework for when it was appropriate to use AI in what circumstances and not so that they could really make it part of their their process. And so I think things like that are going to be so important in terms of helping them understand the technology and and when to use it and when not to use it and how to think about it. And so I think we'll see a lot more experimentation and and organizations kind of really thinking about how to do that well for kids, but I think certainly the people who are the best at understanding children and education and their developments are going to be the best positioned to understand how to put this technology into practice there and not just the core technology providers, like we shouldn't have the answers to all of these things.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:23:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you. You knowing both bad sides and good sides of AI, what is the most exciting for you about AI?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:23:30",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "For me, it's the empowerment piece. If we want to see a world that is more inclusive, more fair, like AI actually seems amazing, particularly this generation of AI because what we're actually seeing now, like with the coding agents, is that it used to be if you wanted to have an idea and just build it with your own hands, you needed like an elite software development degree. Now you have people who had never really coded before who can go and take that idea and make it real with these tools. And we're still at the early days of that.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "And so I think that's just incredibly exciting where we'll see so many more entrepreneurs, so many more people who are solving problems in their local communities, who are changing the world. But of course there's challenges with that because alongside that, you know, elite software development degree, you were taught security and you were taught about your responsibility and so now we have very powerful tools in hands of people who maybe don't have that framework on how to think about these things and so that's why it's important that we educate people, but also we build the tools to help people just do the best practices or to learn the best practices or discover them and so that's where my team comes in.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:24:40",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "How do you teach people about that?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:24:41",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "We both put things directly in the platform and so for example, if you have a development flow in the platform, you can insert a testing step, you can have tests already inserted and that's a pretty sort of heavy-handed point of like, you should probably be testing here. We of course then have documentation in the tools. We come out and do things like this so that we're talking about it, but it's not something that Microsoft can do alone and so working with organizations around the world that are working in education, that are working in, you know, training programs and skilling and all of that, it's going to take all of us as a community to figure this out. There's not just, you know, one organization that can go and solve the problem.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:25:25",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Microsoft recently launched all new models, MyThinking and all other seven models. Was there any funny stories about when you worked with the models trying to like break them and trying to build these guardrails in them?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:25:40",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "You know, I think it's always funny kind of in hindsight, but in the moment you're like, 'No! Why won't you just do what I want you to do?', right? But I think, you know, now we're all quite familiar with the technology and um, which is great. I think when we, you know, first started really working with generative AI, so when we were building GitHub Copilot, that was a lot more of like, 'Whoa, I didn't even know the tech could do this' or 'Oh my gosh, I didn't know the tech could do this'. Where now it's a more like, 'Okay, yes, we're familiar with this type of risk. We probably need to get more training data here'. And so I think we're feeling much more, you know, the practices are known here and then we just have to go kind of execute on them. So we don't have as many of the 'Aha!' moments.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:26:18",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "You have like a squad team deployed on these models and like...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:22",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "Yeah, we, our red team spends a lot of time red-teaming them and then red-teaming is great because you have human creativity really figuring out like how to break things and humans are really good at that. But red-teaming, you know, can only give you a small window and so we also build automated testing that allows us to test a much wider range of things and at a bigger scale.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:40",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What is AGI from the responsible point of view?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:26:44",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "I think kind of back to our conversation before, for me it's really about humans plus AI and so that's where we've been focusing our energy. Obviously we have partners that we work very closely with including Responsible AI, who are a little more focused on the AGI angle and the benefit I think there is that...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "But if we focus a lot on all of the layers that go around the model or the full ecosystem, they put a lot of their innovation budget into the model itself. And we've seen huge improvements in the safety and steerability of these models today. And so I think it's great to have people focus on different parts of the problem because we're going to need all of these pieces to come together in the end.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Is there anything that people do not usually ask about responsible AI but you really want them to understand and to know things about responsible AI?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:27:33",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "Actually, one of the things I like about responsible AI is people ask all the things, right? And that's a little bit surprising because I think a couple of years ago... So I actually started working in responsible AI kind of right as it was starting as a field. So I've seen a lot of the progression of it. And I thought, okay, I'll work in this area and, you know, it'll be meaningful but it'll be kind of a niche area that most people aren't aware of. And then when generative AI kind of put AI so much more in people's minds because you directly interact with it, all of a sudden responsible AI just became a huge topic. And I think that's been a great surprise that organizations care so much about it, that individuals care so much about it, that the press and people like yourself have invested in ensuring that the world understands it, is thinking about it. And so I think it's actually really been great that there's a huge public discourse around this. But the thing I would say is there's a lot of focus still on kind of the existential like, what are the worst risks we could ever see? And I think that that takes away from the challenges of how do we do this in practice right now. Because there's still a lot people need to learn about putting into practice and there's a lot we still need to figure out. And so I would love to see more asking about now and less kind of focus on unrealistic sci-fi scenarios.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:28:51",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So your P-doom is very low.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:28:55",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "Yes, exactly. I believe in humans and we've figured out how to govern every other technology. I'm pretty sure that we're going to figure this one out. We have a lot of smart people. And ultimately we're in control, right? So this is not something that's happening to us. And I think that we're in a great position to get the benefits of this technology while ensuring that we're very open-eyed and intentional about how we manage the risk with it.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:29:18",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you. I love this. So if we talk about now, what are your main... what are the main things you solve, you trying to solve?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:29:24",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "We're focused on, at the moment, kind of three areas, I'd say. One is these emerging risks. A lot of these are kind of dual-use risks which can be challenging. So let's take cyber for example. It's amazing that we have models that can start finding vulnerabilities for us, right? Like all of us want to use that tool to protect our own organizations. Okay, it's also a problem if attackers can use the same tools to find vulnerabilities, right? And so we want AI to be able to do this, but only in certain ways, right? And you see the same thing with bio or chemical or uh...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "working on psychosocial risk where we want AI to be a powerful tool to help people and um there's you know good examples where people are using it successfully in like therapy or advice scenarios, but we've also seen you know examples where people are starting to have um you know harmful relationships with AI, right? And so figuring out what that boundary is is really hard and so we're working on how do we even think about these types of risk? How do we test for them? How do we mitigate them? And I'm sure as the technology evolves more we'll see a growing number of these that you know we need to spend time on.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:30",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "The second is agents and really this how do you control and observe and govern agents? Because these are something that really break the boundaries of how we used to work, right? If the interface between organizations used to be humans, if the interface between them now is API- is agents, we have to think a lot about what that, you know, how does trust go across that and things.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:58",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "And the third one is the new software development life cycle. If we're totally changing how we work, Responsible AI was built for the current software development life cycle and so we have to, you know, have a growth mindset and adjust a lot of that as well and so really thinking about moving at machine speed and machine scale, but still getting these same uh high quality human oversight.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:31:25",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That's hard.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:31:28",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "It's fun. I mean, absolutely very challenging. I think that's what makes it so exciting and so impactful because if it was easy then we probably be disappointed that everyone wasn't already doing it, right?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:31:34",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you so much. My last question's always about a book. What book was influential to you and it can be from your childhood or something recent?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:31:41",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "I read a lot of books. I really like books both fiction and non-fiction. Maybe one that recently just influenced me is I I just read the book The Culture Map. It's about different cultures and how they work together differently or what they value in a business setting and I have a global team across many different countries and then you know even in in the US the team has people from all over and it was so eye-opening to see that things that I had observe- like observed that there was like deeper kind of cultural connection there and so I always I think just love understanding more about people and the differences between people because I think that's what makes life really rich and things that both allow you to appreciate the beauty and diversity of humanity but also figure out how to act accordingly in that world, I think are really powerful.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:32:35",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I wonder if we will need to add agents to that culture map at some point, right?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:32:40",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "I actually would love to see that, you know, on the same scale, where do we put AI?",
+      "tone": "intrigued"
+    },
+    {
+      "timestamp": "00:32:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Because you always need to adjust to different model. You talk differently to each model.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:32:51",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "Yeah, exactly. Humans are not static, culture's not static and uh I don't think AI will be either.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:32:57",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you so much. That was wonderful.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:32:59",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "Great. Thank you.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Sarah Bird",
+      "text": "Thank you very much.",
+      "tone": "polite"
+    }
+  ],
+  "highlights": [
+    "Responsibility ultimately rests with humans, so the goal of development is to create AI that is \"trustworthy\" and \"fit for purpose\" within specific, contextual tasks rather than being generically reliable.",
+    "The shift toward agentic coding and a faster software development lifecycle requires new responsible AI tools that can provide oversight at machine speed rather than relying on traditional, slower human review steps.",
+    "Responsibility in the AI ecosystem is a shared duty where model providers handle core safety, application developers test for specific domain risks, and users evaluate whether a tool’s guarantees and capabilities match their specific needs.",
+    "Rather than focusing on \"sci-fi\" existential risks, the field should prioritize practical challenges like governing autonomous agents, managing dual-use risks in cyber or chemistry, and ensuring AI acts as a tool to maximize human potential."
+  ],
+  "summary": "The transcript features Sarah Bird, a leader in Microsoft’s Responsible AI team, who reframes \"Responsible AI\" not as a quest to make machines responsible, but as a discipline for humans to build and deploy trustworthy systems. Bird emphasizes that trust is highly contextual; an AI system may be trusted for creative writing but not for clinical healthcare decisions. A central theme is the shifting software development lifecycle, where the rise of agentic AI—agents that can write and review their own code—necessitates new methods of human oversight that can keep pace with \"machine speed\" while maintaining rigorous safety standards.\n\nTo operationalize these principles, Bird discusses Microsoft’s open-source contributions, such as \"Eval\" for risk testing and \"Agent Control Specification\" for defining agent policies. She highlights a shared responsibility model in which model providers manage foundational safety, while application developers and users ensure the technology is \"fit for purpose\" in specific domains. Bird also addresses the necessity of government regulation, noting that while it is essential for codifying societal values, it must remain flexible enough to evolve alongside rapid technological breakthroughs.\n\nUltimately, the discussion is grounded in a \"realist optimism,\" viewing AI as a tool to maximize human potential rather than replace it. Bird points to the empowerment of non-technical entrepreneurs and the solving of community-specific problems as major benefits of this technology. However, she notes that achieving this future requires cross-disciplinary teams—comprising linguists, lawyers, and engineers—to address emerging risks in cybersecurity, psychosocial impacts, and automated governance, ensuring that humans remain the intentional drivers of AI's impact on society.",
+  "description": "We're no longer in the world of chatbots – we're in the world where AI systems take real-world action. So what does responsible AI even mean when agents write the code, review the code, and act across organizational boundaries?\n\nSarah Bird, Chief Product Officer of Responsible AI at Microsoft, has been in this field since it was a niche. Now it's everywhere. In this episode of Inference, she explains why the entire software development lifecycle is changing – and why human oversight has to evolve with it.\n\n*In this episode of Inference, we get into:*\n- Why \"responsible AI\" is the wrong framing – and why \"trustworthy AI\" matters more \n- What changes when agents write the code AND review the code \n- Why open-sourcing responsible AI tools is non-negotiable – \"we don't want to be competing on this\" \n- The dual-use problem: AI that finds vulnerabilities helps defenders AND attackers \n- Why fixing it \"in the model\" sounds easy but doesn't work – and who's actually responsible at each layer \n- The shift from chat to agentic to physical AI – and why consequences scale dramatically \n- What kids should learn about AI: the \"stoplight\" framework from New South Wales schools \n- Why Sarah is surprisingly optimistic – and why low p(doom) is a rational position \n- The three problems her team is solving right now: emerging risks, agent governance, and the new software lifecycle\n\nWe also talk about regulation, why responsible AI requires linguists alongside engineers, the rise of \"psychosocial risk,\" and why humans + AI is more exciting than AGI alone.\n\nThis is a conversation about what it actually takes to make AI systems we can trust – and why humans are not optional. *Watch it!*\n\n*Guest:* \nSarah Bird, Chief Product Officer of Responsible AI at Microsoft https://www.linkedin.com/in/slbird/ \nhttps://x.com/slbird   \nhttps://www.microsoft.com/en-us/ai/responsible-ai \n\n*Did you like the episode?*\n📌 Subscribe for more conversations with the builders shaping real-world AI \n💬 Leave a comment if this resonated \n👍 Like it if you liked it \n🫶 Thank you for watching and sharing!\n\n\n📰 Want the transcript and edited version? Subscribe to Turing Post: https://www.turingpost.com/subscribe\n\n*Chapters:*\n0:00 Is Responsible AI Possible?\n1:21 The Pace of AI Innovation\n3:10 Tools: Assert & Agent Control\n5:21 Defining Trustworthy Contexts\n6:38 Diverse Teams & Cross-Domain Work\n8:16 The Need for Regulation\n11:37 Defining AGI & Human-in-the-Loop\n13:55 Limits of Agent Delegation\n16:12 Generative vs. Physical AI\n17:25 Addressing Accountability\n20:36 User Responsibility & Best Practices\n22:01 AI Literacy for Children\n23:28 Democratizing Innovation\n29:21 Three Strategic Focus Areas\n31:37 Book Recommendation: The Culture Map\n\n*Turing Post* is a newsletter about AI's past, present, and future. Publisher Ksenia Se explores how intelligent systems are built – and how they're changing how we think, work, and live.\n\nSign up: https://www.turingpost.com\nFollow us - https://x.com/TheTuringPost https://www.linkedin.com/in/ksenia-se https://huggingface.co/Kseniase\n\n#ResponsibleAI #Microsoft #AIAgents #AGI #TrustworthyAI #AIGovernance #AIRisk #SarahBird",
+  "duration": 1989,
+  "people": [
+    "Ksenia Se",
+    "Sarah Bird",
+    "Chief Product",
+    "New South",
+    "Why Sarah",
+    "Turing Post",
+    "Is Responsible",
+    "The Pace",
+    "Agent Control",
+    "Defining Trustworthy",
+    "Diverse Teams",
+    "Domain Work",
+    "The Need",
+    "Agent Delegation",
+    "Addressing Accountability",
+    "User Responsibility",
+    "Best Practices",
+    "Democratizing Innovation",
+    "Three Strategic",
+    "Focus Areas",
+    "Book Recommendation",
+    "The Culture",
+    "Publisher Ksenia"
+  ],
+  "topics": [
+    "Defining trustworthy AI and the essential role of human accountability",
+    "Adapting responsible AI to the changing software development lifecycle and agentic workflows",
+    "Open-sourcing tools for AI risk evaluation and agent control specifications",
+    "The distribution of responsibility between model providers, developers, and end-users",
+    "Managing emerging risks in AI, including dual-use vulnerabilities and psychosocial impact"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/G0BJ67ZEiws/maxresdefault.jpg",
+  "date": "20260620",
+  "youtube_url": "https://www.youtube.com/watch?v=G0BJ67ZEiws",
+  "youtube_metadata": {
+    "title": "What Responsible AI Actually Means in 2026 – Microsoft's Sarah Bird",
+    "description": "We're no longer in the world of chatbots – we're in the world where AI systems take real-world action. So what does responsible AI even mean when agents write the code, review the code, and act across organizational boundaries?\n\nSarah Bird, Chief Product Officer of Responsible AI at Microsoft, has been in this field since it was a niche. Now it's everywhere. In this episode of Inference, she explains why the entire software development lifecycle is changing – and why human oversight has to evolve with it.\n\n*In this episode of Inference, we get into:*\n- Why \"responsible AI\" is the wrong framing – and why \"trustworthy AI\" matters more \n- What changes when agents write the code AND review the code \n- Why open-sourcing responsible AI tools is non-negotiable – \"we don't want to be competing on this\" \n- The dual-use problem: AI that finds vulnerabilities helps defenders AND attackers \n- Why fixing it \"in the model\" sounds easy but doesn't work – and who's actually responsible at each layer \n- The shift from chat to agentic to physical AI – and why consequences scale dramatically \n- What kids should learn about AI: the \"stoplight\" framework from New South Wales schools \n- Why Sarah is surprisingly optimistic – and why low p(doom) is a rational position \n- The three problems her team is solving right now: emerging risks, agent governance, and the new software lifecycle\n\nWe also talk about regulation, why responsible AI requires linguists alongside engineers, the rise of \"psychosocial risk,\" and why humans + AI is more exciting than AGI alone.\n\nThis is a conversation about what it actually takes to make AI systems we can trust – and why humans are not optional. *Watch it!*\n\n*Guest:* \nSarah Bird, Chief Product Officer of Responsible AI at Microsoft https://www.linkedin.com/in/slbird/ \nhttps://x.com/slbird   \nhttps://www.microsoft.com/en-us/ai/responsible-ai \n\n*Did you like the episode?*\n📌 Subscribe for more conversations with the builders shaping real-world AI \n💬 Leave a comment if this resonated \n👍 Like it if you liked it \n🫶 Thank you for watching and sharing!\n\n\n📰 Want the transcript and edited version? Subscribe to Turing Post: https://www.turingpost.com/subscribe\n\n*Chapters:*\n0:00 Is Responsible AI Possible?\n1:21 The Pace of AI Innovation\n3:10 Tools: Assert & Agent Control\n5:21 Defining Trustworthy Contexts\n6:38 Diverse Teams & Cross-Domain Work\n8:16 The Need for Regulation\n11:37 Defining AGI & Human-in-the-Loop\n13:55 Limits of Agent Delegation\n16:12 Generative vs. Physical AI\n17:25 Addressing Accountability\n20:36 User Responsibility & Best Practices\n22:01 AI Literacy for Children\n23:28 Democratizing Innovation\n29:21 Three Strategic Focus Areas\n31:37 Book Recommendation: The Culture Map\n\n*Turing Post* is a newsletter about AI's past, present, and future. Publisher Ksenia Se explores how intelligent systems are built – and how they're changing how we think, work, and live.\n\nSign up: https://www.turingpost.com\nFollow us - https://x.com/TheTuringPost https://www.linkedin.com/in/ksenia-se https://huggingface.co/Kseniase\n\n#ResponsibleAI #Microsoft #AIAgents #AGI #TrustworthyAI #AIGovernance #AIRisk #SarahBird",
+    "duration": 1989,
+    "view_count": 673,
+    "like_count": 23,
+    "channel": "Ksenia | Turing Post",
+    "upload_date": "20260620",
+    "thumbnail": "https://i.ytimg.com/vi/G0BJ67ZEiws/maxresdefault.jpg",
+    "tags": [
+      "ResponsibleAI",
+      "Microsoft",
+      "AIAgents",
+      "AGI",
+      "TrustworthyAI",
+      "AIGovernance",
+      "AIRisk",
+      "SarahBird"
+    ]
+  }
+}
