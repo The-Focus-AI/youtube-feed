@@ -1,0 +1,41 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+import { parseId, channelPath, tagPath, fmtViews, fmtDate } from '../../../lib/urls';
+
+export async function getStaticPaths() {
+  const videos = await getCollection('videos');
+  return videos.map((entry) => {
+    const { channel, id } = parseId(entry.id);
+    return { params: { channel, id }, props: { entry } };
+  });
+}
+
+const { entry } = Astro.props;
+const { channel } = parseId(entry.id);
+const { Content } = await render(entry);
+const d = entry.data;
+const channelName = d.channel ?? channel;
+---
+<Base title={`${d.title} — ${channelName}`} description={`Transcript and summary: ${d.title}`}>
+  <article class="article" data-pagefind-body data-pagefind-filter={`channel:${channelName}`}>
+    <div class="hd">
+      <a class="back" href={channelPath(channel)}>← {channelName}</a>
+      <h1 data-pagefind-meta="title">{d.title}</h1>
+      <div class="meta">
+        {d.duration_formatted && <span class="dur">{d.duration_formatted}</span>}
+        <span>{fmtViews(d.view_count)} views</span>
+        <span>{fmtDate(d.upload_date)}</span>
+        {d.url && <a href={d.url} target="_blank" rel="noopener">Watch on YouTube ↗</a>}
+      </div>
+      {d.tags.length > 0 && (
+        <div class="chips" style="margin-top:0.75rem;">
+          {d.tags.map((t: string) => <a class="chip" href={tagPath(t)}>{t}</a>)}
+        </div>
+      )}
+    </div>
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+</Base>

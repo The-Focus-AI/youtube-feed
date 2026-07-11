@@ -7,8 +7,23 @@ export function u(path: string): string {
   return `${BASE}${p}`;
 }
 
-export function videoPath(id: string): string {
-  return u(`/turing-post/videos/${id}/`);
+// Collection entry ids look like "turing-post/videos/RB8vjn1QPeM".
+export function parseId(entryId: string): { channel: string; id: string } {
+  const parts = entryId.split('/');
+  return { channel: parts[0], id: parts[parts.length - 1] };
+}
+
+// channels entry ids look like "turing-post/index".
+export function channelSlug(entryId: string): string {
+  return entryId.split('/')[0];
+}
+
+export function channelPath(channel: string): string {
+  return u(`/${channel}/`);
+}
+
+export function videoPath(channel: string, id: string): string {
+  return u(`/${channel}/videos/${id}/`);
 }
 
 export function tagPath(tag: string): string {

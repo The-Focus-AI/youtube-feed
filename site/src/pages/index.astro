@@ -1,45 +1,68 @@
 ---
 import Base from '../layouts/Base.astro';
+import Search from '../components/Search.astro';
 import { getCollection } from 'astro:content';
-import { u, videoPath, fmtViews, fmtDate } from '../lib/urls';
+import { parseId, channelSlug, channelPath, fmtViews } from '../lib/urls';
 
-const videos = (await getCollection('videos')).sort(
-  (a, b) => (b.data.upload_date?.getTime() ?? 0) - (a.data.upload_date?.getTime() ?? 0),
+const videos = await getCollection('videos');
+const channelMeta = new Map(
+  (await getCollection('channels')).map((c) => [channelSlug(c.id), c.data]),
 );
-const totalViews = videos.reduce((s, v) => s + (v.data.view_count ?? 0), 0);
-const featured = videos.slice(0, 6);
+
+// Aggregate per channel from the video collection.
+type Agg = { slug: string; count: number; views: number; cover?: string; latest: number };
+const byChannel = new Map<string, Agg>();
+for (const v of videos) {
+  const { channel } = parseId(v.id);
+  const a = byChannel.get(channel) ?? { slug: channel, count: 0, views: 0, latest: 0 };
+  a.count += 1;
+  a.views += v.data.view_count ?? 0;
+  const ts = v.data.upload_date?.getTime() ?? 0;
+  if (ts >= a.latest) {
+    a.latest = ts;
+    a.cover = v.data.thumbnail;
+  }
+  byChannel.set(channel, a);
+}
+const channels = [...byChannel.values()].sort((a, b) => b.count - a.count);
+const totalVideos = videos.length;
+const totalViews = channels.reduce((s, c) => s + c.views, 0);
 ---
-<Base title="YouTube Feed — Archive" description="Searchable archive of YouTube channel transcripts and summaries.">
+<Base title="YouTube Feed — Searchable Archive" description="Searchable archive of YouTube channel transcripts and summaries.">
   <section class="channel-head">
     <h1>A searchable archive of YouTube transcripts</h1>
-    <p class="sub">Speaker-labeled transcripts, summaries, highlights, and topic cross-references — rendered as a fast static site. This prototype ingests the <strong>Turing Post</strong> channel.</p>
+    <p class="sub">Speaker-labeled transcripts, summaries, and highlights across {channels.length} channels — rendered as a fast static site with full-text search.</p>
+    <div class="stats">
+      <div class="stat"><div class="n">{channels.length}</div><div class="l">Channels</div></div>
+      <div class="stat"><div class="n">{totalVideos}</div><div class="l">Videos</div></div>
+      <div class="stat"><div class="n">{fmtViews(totalViews)}</div><div class="l">Total views</div></div>
+    </div>
   </section>
 
+  <Search />
+
   <div class="grid">
-    <div class="card" style="grid-column: 1 / -1; box-shadow:none; border:2px solid var(--void);">
-      <div class="body">
-        <h3><a href={u('/turing-post/')}>Turing Post →</a></h3>
-        <p style="color:var(--muted);font-size:0.9rem;">AI/ML deep dives and industry interviews.</p>
-        <div class="row">
-          <span>{videos.length} videos</span>
-          <span>{fmtViews(totalViews)} views</span>
-        </div>
-      </div>
-    </div>
-    {featured.map((v) => (
-      <div class="card">
-        <a class="thumb" href={videoPath(v.data.video_id)}>
-          <img src={v.data.thumbnail} alt={v.data.title} loading="lazy" />
-        </a>
-        <div class="body">
-          <h3><a href={videoPath(v.data.video_id)}>{v.data.title}</a></h3>
-          <div class="row">
-            <span class="dur">{v.data.duration_formatted}</span>
-            <span>{fmtViews(v.data.view_count)} views</span>
-            <span>{fmtDate(v.data.upload_date)}</span>
+    {channels.map((c) => {
+      const meta = channelMeta.get(c.slug);
+      return (
+        <div class="card">
+          {c.cover && (
+            <a class="thumb" href={channelPath(c.slug)}>
+              <img src={c.cover} alt={meta?.channel ?? c.slug} loading="lazy" />
+            </a>
+          )}
+          <div class="body">
+            <h3><a href={channelPath(c.slug)}>{meta?.channel ?? c.slug} →</a></h3>
+            {meta?.channel_handle && (
+              <p style="color:var(--muted);font-size:0.85rem;">{meta.channel_handle}</p>
+            )}
+            <div class="row">
+              <span>{c.count} videos</span>
+              <span>{fmtViews(c.views)} views</span>
+            </div>
           </div>
         </div>
-      </div>
-    ))}
+      );
+    })}
   </div>
 </Base>

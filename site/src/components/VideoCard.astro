@@ -1,0 +1,25 @@
+---
+import { parseId, videoPath, tagPath, fmtViews, fmtDate } from '../lib/urls';
+
+const { entry, showTags = true } = Astro.props;
+const { channel, id } = parseId(entry.id);
+const d = entry.data;
+---
+<div class="card">
+  <a class="thumb" href={videoPath(channel, id)}>
+    <img src={d.thumbnail} alt={d.title} loading="lazy" />
+  </a>
+  <div class="body">
+    <h3><a href={videoPath(channel, id)}>{d.title}</a></h3>
+    {showTags && d.tags.length > 0 && (
+      <div class="chips">
+        {d.tags.slice(0, 4).map((t: string) => <a class="chip" href={tagPath(t)}>{t}</a>)}
+      </div>
+    )}
+    <div class="row">
+      {d.duration_formatted && <span class="dur">{d.duration_formatted}</span>}
+      <span>{fmtViews(d.view_count)} views</span>
+      <span>{fmtDate(d.upload_date)}</span>
+    </div>
+  </div>
+</div>

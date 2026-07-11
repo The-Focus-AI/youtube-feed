@@ -1,22 +1,35 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
-// Prototype: ingest Turing Post video markdown straight from the repo.
-// Widen the glob to `*/videos/*.md` to pull in every channel.
+// Every channel's video markdown, read in place from the repo root.
+// `.catch(...)` on each field means one malformed file can never break the build.
 const videos = defineCollection({
-  loader: glob({ pattern: 'turing-post/videos/*.md', base: '../' }),
-  schema: z.object({
-    video_id: z.string(),
-    title: z.string(),
-    channel: z.string().optional(),
-    duration: z.number().optional(),
-    duration_formatted: z.string().optional(),
-    view_count: z.number().optional(),
-    upload_date: z.coerce.date().optional(),
-    url: z.string().optional(),
-    thumbnail: z.string().optional(),
-    tags: z.array(z.string()).default([]),
-  }),
+  loader: glob({ pattern: '*/videos/*.md', base: '../' }),
+  schema: z
+    .object({
+      video_id: z.string().optional().catch(undefined),
+      title: z.string().catch('Untitled'),
+      channel: z.string().optional().catch(undefined),
+      duration_formatted: z.coerce.string().optional().catch(undefined),
+      view_count: z.coerce.number().optional().catch(undefined),
+      upload_date: z.coerce.date().optional().catch(undefined),
+      url: z.string().optional().catch(undefined),
+      thumbnail: z.string().optional().catch(undefined),
+      tags: z.array(z.string()).catch([]),
+    })
+    .passthrough(),
 });
 
-export const collections = { videos };
+// Per-channel index.md — used only for display metadata (name, handle).
+const channels = defineCollection({
+  loader: glob({ pattern: '*/index.md', base: '../' }),
+  schema: z
+    .object({
+      channel: z.string().catch('Channel'),
+      channel_handle: z.string().optional().catch(undefined),
+      total_videos: z.coerce.number().optional().catch(undefined),
+    })
+    .passthrough(),
+});
+
+export const collections = { videos, channels };

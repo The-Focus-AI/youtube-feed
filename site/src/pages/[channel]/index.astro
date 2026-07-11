@@ -1,0 +1,50 @@
+---
+import Base from '../../layouts/Base.astro';
+import Search from '../../components/Search.astro';
+import VideoCard from '../../components/VideoCard.astro';
+import { getCollection } from 'astro:content';
+import { parseId, channelSlug, fmtViews } from '../../lib/urls';
+
+export async function getStaticPaths() {
+  const videos = await getCollection('videos');
+  const channelMeta = new Map(
+    (await getCollection('channels')).map((c) => [channelSlug(c.id), c.data]),
+  );
+  const bySlug = new Map<string, typeof videos>();
+  for (const v of videos) {
+    const { channel } = parseId(v.id);
+    if (!bySlug.has(channel)) bySlug.set(channel, []);
+    bySlug.get(channel)!.push(v);
+  }
+  return [...bySlug.entries()].map(([slug, vids]) => ({
+    params: { channel: slug },
+    props: {
+      slug,
+      meta: channelMeta.get(slug),
+      videos: vids.sort(
+        (a, b) => (b.data.upload_date?.getTime() ?? 0) - (a.data.upload_date?.getTime() ?? 0),
+      ),
+    },
+  }));
+}
+
+const { slug, meta, videos } = Astro.props;
+const name = meta?.channel ?? slug;
+const totalViews = videos.reduce((s, v) => s + (v.data.view_count ?? 0), 0);
+---
+<Base title={`${name} — Archive`} description={`${name} video transcripts and summaries.`}>
+  <section class="channel-head">
+    <h1>{name}</h1>
+    {meta?.channel_handle && <p class="sub">{meta.channel_handle}</p>}
+    <div class="stats">
+      <div class="stat"><div class="n">{videos.length}</div><div class="l">Videos</div></div>
+      <div class="stat"><div class="n">{fmtViews(totalViews)}</div><div class="l">Total views</div></div>
+    </div>
+  </section>
+
+  <Search placeholder={`Search every transcript…`} />
+
+  <div class="grid">
+    {videos.map((v) => <VideoCard entry={v} />)}
+  </div>
+</Base>
