@@ -1,0 +1,126 @@
+:root {
+  --paper: #f3f2ea;
+  --void: #1a1a1a;
+  --rand-blue: #0055aa;
+  --alert-red: #d93025;
+  --page-bg: #e8e6df;
+  --surface: #e6e4dc;
+  --muted: #6b6a62;
+  --line: #cfcdc4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #1c1c1a;
+    --void: #f3f2ea;
+    --rand-blue: #6aa9ff;
+    --alert-red: #ff6b5e;
+    --page-bg: #111110;
+    --surface: #232320;
+    --muted: #9b9a90;
+    --line: #34342f;
+  }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: var(--page-bg);
+  color: var(--void);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a { color: var(--rand-blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 1.25rem; }
+
+/* Masthead */
+.masthead {
+  border-bottom: 2px solid var(--void);
+  background: var(--paper);
+}
+.masthead .wrap { display: flex; align-items: center; gap: 1rem; padding: 1.1rem 1.25rem; flex-wrap: wrap; }
+.masthead .brand { font-weight: 900; font-size: 1.35rem; letter-spacing: -0.02em; color: var(--void); }
+.masthead .brand span { color: var(--rand-blue); }
+.masthead nav { margin-left: auto; display: flex; gap: 1.25rem; font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+.masthead nav a { color: var(--void); }
+
+/* Hero / channel header */
+.channel-head { padding: 2.5rem 0 1.5rem; }
+.channel-head h1 { font-size: 2.4rem; font-weight: 900; letter-spacing: -0.03em; line-height: 1.1; }
+.channel-head .sub { color: var(--muted); margin-top: 0.5rem; font-size: 1.05rem; }
+.stats { display: flex; gap: 2rem; margin-top: 1.25rem; flex-wrap: wrap; }
+.stat .n { font-size: 1.6rem; font-weight: 900; color: var(--rand-blue); font-variant-numeric: tabular-nums; }
+.stat .l { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+
+/* Search */
+.search-shell { margin: 1.5rem 0 2rem; }
+#search .pagefind-ui__search-input {
+  font-family: 'Courier Prime', ui-monospace, monospace;
+  border: 2px solid var(--void);
+  background: var(--paper);
+  color: var(--void);
+}
+:root { --pagefind-ui-primary: var(--rand-blue); --pagefind-ui-text: var(--void);
+  --pagefind-ui-background: var(--paper); --pagefind-ui-border: var(--void);
+  --pagefind-ui-tag: var(--surface); --pagefind-ui-border-width: 2px; --pagefind-ui-font: 'Inter', sans-serif; }
+
+/* Card grid */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.25rem; padding-bottom: 3rem; }
+.card {
+  background: var(--paper);
+  border: 1px solid var(--void);
+  box-shadow: 6px 6px 0 rgba(0,0,0,0.08);
+  overflow: hidden;
+  display: flex; flex-direction: column;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+.card:hover { transform: translate(-2px,-2px); box-shadow: 8px 8px 0 rgba(0,0,0,0.12); }
+.card a.thumb { display: block; aspect-ratio: 16/9; overflow: hidden; border-bottom: 1px solid var(--void); }
+.card a.thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.card .body { padding: 0.9rem 1rem 1.1rem; display: flex; flex-direction: column; gap: 0.55rem; flex: 1; }
+.card h3 { font-size: 1.02rem; font-weight: 700; line-height: 1.25; letter-spacing: -0.01em; }
+.card h3 a { color: var(--void); }
+.card .row { margin-top: auto; display: flex; gap: 0.8rem; font-size: 0.78rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.card .row .dur { font-family: 'Courier Prime', ui-monospace, monospace; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.chip {
+  font-size: 0.7rem; font-weight: 700; text-transform: lowercase;
+  padding: 0.15rem 0.5rem; border: 1px solid var(--line);
+  background: var(--surface); color: var(--muted); border-radius: 2px;
+}
+.chip:hover { border-color: var(--rand-blue); color: var(--rand-blue); text-decoration: none; }
+
+/* Article (video page) */
+.article { background: var(--paper); border: 1px solid var(--void); box-shadow: 8px 8px 0 rgba(0,0,0,0.08); margin: 2rem 0 3rem; }
+.article .hd { padding: 1.5rem 2rem; border-bottom: 1px solid var(--void); }
+.article .hd .back { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 700; }
+.article .hd h1 { font-size: 1.9rem; font-weight: 900; letter-spacing: -0.02em; margin: 0.6rem 0; line-height: 1.15; }
+.article .hd .meta { display: flex; gap: 1rem; font-size: 0.82rem; color: var(--muted); flex-wrap: wrap; font-variant-numeric: tabular-nums; }
+.prose { padding: 1.5rem 2rem 2.5rem; }
+.prose > h1:first-child { display: none; } /* title already shown in header */
+.prose h2 { font-size: 1.5rem; font-weight: 900; margin: 2rem 0 0.8rem; padding-bottom: 0.3rem; border-bottom: 2px solid var(--void); letter-spacing: -0.01em; }
+.prose h3 { font-size: 1.15rem; font-weight: 700; margin: 1.5rem 0 0.6rem; }
+.prose p { margin: 0.7rem 0; }
+.prose ul, .prose ol { margin: 0.7rem 0 0.7rem 1.4rem; }
+.prose li { margin: 0.3rem 0; }
+.prose img { max-width: 100%; height: auto; border: 1px solid var(--void); }
+.prose blockquote { border-left: 4px solid var(--rand-blue); padding: 0.4rem 0 0.4rem 1rem; margin: 1rem 0; color: var(--muted); font-style: italic; }
+.prose code { font-family: 'Courier Prime', ui-monospace, monospace; background: var(--surface); padding: 0.1rem 0.35rem; font-size: 0.9em; }
+.prose pre { background: var(--void); color: var(--paper); padding: 1rem; overflow-x: auto; margin: 1rem 0; }
+.prose pre code { background: none; color: inherit; padding: 0; }
+.prose table { border-collapse: collapse; width: 100%; margin: 1rem 0; display: block; overflow-x: auto; }
+.prose th, .prose td { border: 1px solid var(--line); padding: 0.4rem 0.6rem; text-align: left; font-size: 0.9rem; }
+.prose details { margin: 0.6rem 0; border: 1px solid var(--line); padding: 0.5rem 0.8rem; background: var(--surface); }
+.prose summary { cursor: pointer; font-weight: 700; font-size: 0.85rem; }
+
+footer { border-top: 2px solid var(--void); background: var(--paper); padding: 1.5rem 0; margin-top: 2rem; font-size: 0.82rem; color: var(--muted); }
+
+.page-title { padding: 2.5rem 0 1rem; }
+.page-title h1 { font-size: 2rem; font-weight: 900; letter-spacing: -0.02em; }

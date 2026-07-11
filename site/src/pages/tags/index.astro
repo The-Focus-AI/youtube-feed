@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { tagPath } from '../../lib/urls';
+
+const videos = await getCollection('videos');
+const counts = new Map<string, number>();
+for (const v of videos) for (const t of v.data.tags) counts.set(t, (counts.get(t) ?? 0) + 1);
+const tags = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+const max = tags.length ? tags[0][1] : 1;
+---
+<Base title="Tags — Archive">
+  <section class="page-title">
+    <h1>Topics</h1>
+    <p style="color:var(--muted);">{tags.length} tags across {videos.length} videos</p>
+  </section>
+  <div class="chips" style="padding-bottom:3rem;gap:0.6rem;">
+    {tags.map(([t, n]) => (
+      <a
+        class="chip"
+        href={tagPath(t)}
+        style={`font-size:${(0.72 + (n / max) * 0.7).toFixed(2)}rem;padding:0.3rem 0.7rem;`}
+      >{t} <span style="color:var(--rand-blue);">{n}</span></a>
+    ))}
+  </div>
+</Base>

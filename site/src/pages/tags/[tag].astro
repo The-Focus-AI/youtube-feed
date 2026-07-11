@@ -1,0 +1,50 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { videoPath, tagPath, fmtViews, fmtDate } from '../../lib/urls';
+
+export async function getStaticPaths() {
+  const videos = await getCollection('videos');
+  const byTag = new Map<string, typeof videos>();
+  for (const v of videos) {
+    for (const t of v.data.tags) {
+      if (!byTag.has(t)) byTag.set(t, []);
+      byTag.get(t)!.push(v);
+    }
+  }
+  return [...byTag.entries()].map(([tag, vids]) => ({
+    params: { tag },
+    props: {
+      tag,
+      videos: vids.sort(
+        (a, b) => (b.data.upload_date?.getTime() ?? 0) - (a.data.upload_date?.getTime() ?? 0),
+      ),
+    },
+  }));
+}
+
+const { tag, videos } = Astro.props;
+---
+<Base title={`#${tag} — Archive`}>
+  <section class="page-title">
+    <h1>#{tag}</h1>
+    <p style="color:var(--muted);">{videos.length} video{videos.length === 1 ? '' : 's'}</p>
+  </section>
+  <div class="grid">
+    {videos.map((v) => (
+      <div class="card">
+        <a class="thumb" href={videoPath(v.data.video_id)}>
+          <img src={v.data.thumbnail} alt={v.data.title} loading="lazy" />
+        </a>
+        <div class="body">
+          <h3><a href={videoPath(v.data.video_id)}>{v.data.title}</a></h3>
+          <div class="row">
+            <span class="dur">{v.data.duration_formatted}</span>
+            <span>{fmtViews(v.data.view_count)} views</span>
+            <span>{fmtDate(v.data.upload_date)}</span>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</Base>

@@ -1,0 +1,43 @@
+---
+import '../styles/global.css';
+import { u } from '../lib/urls';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Courier+Prime&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="wrap">
+        <a class="brand" href={u('/')}>YouTube<span>Feed</span></a>
+        <nav>
+          <a href={u('/turing-post/')}>Turing Post</a>
+          <a href={u('/tags/')}>Tags</a>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap">
+      <slot />
+    </main>
+    <footer>
+      <div class="wrap">
+        Static archive built with Astro + Pagefind · source markdown in the repo
+      </div>
+    </footer>
+  </body>
+</html>

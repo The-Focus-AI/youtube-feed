@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { u, videoPath, fmtViews, fmtDate } from '../lib/urls';
+
+const videos = (await getCollection('videos')).sort(
+  (a, b) => (b.data.upload_date?.getTime() ?? 0) - (a.data.upload_date?.getTime() ?? 0),
+);
+const totalViews = videos.reduce((s, v) => s + (v.data.view_count ?? 0), 0);
+const featured = videos.slice(0, 6);
+---
+<Base title="YouTube Feed — Archive" description="Searchable archive of YouTube channel transcripts and summaries.">
+  <section class="channel-head">
+    <h1>A searchable archive of YouTube transcripts</h1>
+    <p class="sub">Speaker-labeled transcripts, summaries, highlights, and topic cross-references — rendered as a fast static site. This prototype ingests the <strong>Turing Post</strong> channel.</p>
+  </section>
+
+  <div class="grid">
+    <div class="card" style="grid-column: 1 / -1; box-shadow:none; border:2px solid var(--void);">
+      <div class="body">
+        <h3><a href={u('/turing-post/')}>Turing Post →</a></h3>
+        <p style="color:var(--muted);font-size:0.9rem;">AI/ML deep dives and industry interviews.</p>
+        <div class="row">
+          <span>{videos.length} videos</span>
+          <span>{fmtViews(totalViews)} views</span>
+        </div>
+      </div>
+    </div>
+    {featured.map((v) => (
+      <div class="card">
+        <a class="thumb" href={videoPath(v.data.video_id)}>
+          <img src={v.data.thumbnail} alt={v.data.title} loading="lazy" />
+        </a>
+        <div class="body">
+          <h3><a href={videoPath(v.data.video_id)}>{v.data.title}</a></h3>
+          <div class="row">
+            <span class="dur">{v.data.duration_formatted}</span>
+            <span>{fmtViews(v.data.view_count)} views</span>
+            <span>{fmtDate(v.data.upload_date)}</span>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</Base>

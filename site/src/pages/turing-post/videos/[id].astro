@@ -1,0 +1,37 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+import { u, tagPath, fmtViews, fmtDate } from '../../../lib/urls';
+
+export async function getStaticPaths() {
+  const videos = await getCollection('videos');
+  return videos.map((entry) => ({
+    params: { id: entry.data.video_id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+---
+<Base title={`${d.title} — Turing Post`} description={`Transcript and summary: ${d.title}`}>
+  <article class="article" data-pagefind-body>
+    <div class="hd">
+      <a class="back" href={u('/turing-post/')}>← Turing Post</a>
+      <h1 data-pagefind-meta="title">{d.title}</h1>
+      <div class="meta">
+        <span class="dur">{d.duration_formatted}</span>
+        <span>{fmtViews(d.view_count)} views</span>
+        <span>{fmtDate(d.upload_date)}</span>
+        <a href={d.url} target="_blank" rel="noopener">Watch on YouTube ↗</a>
+      </div>
+      <div class="chips" style="margin-top:0.75rem;">
+        {d.tags.map((t) => <a class="chip" href={tagPath(t)}>{t}</a>)}
+      </div>
+    </div>
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+</Base>
