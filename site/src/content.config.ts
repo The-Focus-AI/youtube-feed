@@ -3,8 +3,12 @@ import { glob } from 'astro/loaders';
 
 // Every channel's video markdown, read in place from the repo root.
 // `.catch(...)` on each field means one malformed file can never break the build.
+// Preserve original filename case — YouTube IDs are case-sensitive, and the
+// default glob id is lowercased (which would 404 canonical /videos/<Id>/ URLs).
+const keepCase = ({ entry }: { entry: string }) => entry.replace(/\.md$/, '');
+
 const videos = defineCollection({
-  loader: glob({ pattern: '*/videos/*.md', base: '../' }),
+  loader: glob({ pattern: '*/videos/*.md', base: '../', generateId: keepCase }),
   schema: z
     .object({
       video_id: z.string().optional().catch(undefined),
@@ -22,7 +26,7 @@ const videos = defineCollection({
 
 // Per-channel index.md — used only for display metadata (name, handle).
 const channels = defineCollection({
-  loader: glob({ pattern: '*/index.md', base: '../' }),
+  loader: glob({ pattern: '*/index.md', base: '../', generateId: keepCase }),
   schema: z
     .object({
       channel: z.string().catch('Channel'),
