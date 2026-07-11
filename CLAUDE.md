@@ -324,26 +324,25 @@ last_updated: {YYYY-MM-DD}
 
 **Important:** Video titles in the index should link to the local markdown file (`videos/{video_id}.md`), not directly to YouTube. This allows users to see the summary, highlights, and embedded clips before watching.
 
-## Step 6: Publishing & Cache Purging
+## Step 6: Publishing
 
-After committing and pushing changes, **purge the jsDelivr CDN cache** so updates appear immediately on the GitHub Pages viewer:
+The viewer at https://the-focus-ai.github.io/youtube-feed/ is a static site built with **Astro + Pagefind** (source in `site/`). It reads the channel markdown in place via a glob loader — frontmatter drives the cards, per-channel pages, and tag pages; the markdown body is rendered on each video page; Pagefind provides full-text search across every transcript.
+
+**To publish, just commit and push to `main`.** The `.github/workflows/deploy-site.yml` GitHub Action rebuilds the whole site and deploys it to GitHub Pages on any push that touches markdown or `site/`. There is **no CDN cache to purge** — the old jsDelivr flow is retired. A deploy takes ~1-2 minutes; watch it with:
 
 ```bash
-# Purge specific files
-curl -s "https://purge.jsdelivr.net/gh/The-Focus-AI/youtube-feed@main/README.md"
-curl -s "https://purge.jsdelivr.net/gh/The-Focus-AI/youtube-feed@main/{channel-name}/index.md"
-curl -s "https://purge.jsdelivr.net/gh/The-Focus-AI/youtube-feed@main/{channel-name}/videos/{video_id}.md"
-
-# Or purge an entire directory (use sparingly)
-curl -s "https://purge.jsdelivr.net/gh/The-Focus-AI/youtube-feed@main/{channel-name}/"
+gh run watch "$(gh run list --workflow=deploy-site.yml --limit 1 --json databaseId --jq '.[0].databaseId')" --exit-status
 ```
 
-**Always purge after pushing:**
-1. README.md (if channel list changed)
-2. Channel index.md
-3. Any new or updated video files
-
-The viewer at https://the-focus-ai.github.io/youtube-feed/ uses jsDelivr CDN which caches aggressively. Without purging, updates may take hours to appear.
+Notes for anyone working on the site itself:
+- Local preview (search only works after a production build, which is what Pagefind indexes):
+  ```bash
+  cd site && npm install && BASE=/ npm run build && BASE=/ npm run preview   # http://localhost:4321/
+  ```
+- Production uses the default `base: /youtube-feed`; `BASE=/` is only for previewing at the domain root.
+- The content loader (`site/src/content.config.ts`) sets a `generateId` that **preserves the original filename case** — YouTube IDs are case-sensitive, and Astro's default glob id is lowercased, which would 404 the canonical `/videos/{Video_ID}/` URLs.
+- Frontmatter fields use `.catch()` fallbacks so a single malformed file can't break the build. New channels are picked up automatically by the `*/videos/*.md` and `*/index.md` globs — no per-channel wiring needed.
+- Pages source must be set to **GitHub Actions** (Settings → Pages), not "Deploy from a branch".
 
 ## Parallel Processing Tips
 
