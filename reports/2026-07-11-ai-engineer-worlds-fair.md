@@ -387,4 +387,4 @@ Other production talks: [AI System Design — MongoDB](https://www.youtube.com/w
 
 ---
 
-*Raw auto-caption transcripts for the 18 featured talks are in the repo under `reports/ai-engineer-worlds-fair/transcripts/` (unlabeled, skim-only). Promote any to a full archive entry via the interview-transcriber.*
+*Raw auto-caption transcripts for **nearly every talk** (98 of them, ~319K words) are in the repo under `reports/ai-engineer-worlds-fair/transcripts/` (unlabeled, skim-only — grep the folder to search across all of them). Two talks had no captions available. Promote any to a full speaker-labeled archive entry via the interview-transcriber.*

@@ -1,7 +1,9 @@
 # Raw auto-caption transcripts — NOT archive quality
 
 These `.txt` files are **YouTube auto-generated captions** pulled with
-`yt-dlp --write-auto-subs` for quick skimming and grep. They are:
+`yt-dlp --write-auto-subs` for quick skimming and grep — one per talk, covering
+nearly every AI Engineer World's Fair 2026 talk (98 files, ~319K words; two
+talks had no captions available). They are:
 
 - **Unlabeled** — no speaker identification.
 - **Approximate** — proper nouns are frequently garbled (e.g. "Sakana" for
