@@ -36,4 +36,20 @@ const channels = defineCollection({
     .passthrough(),
 });
 
-export const collections = { videos, channels };
+// Long-form reports (reports/*.md — top level only, not nested transcript dirs).
+const reports = defineCollection({
+  loader: glob({
+    pattern: 'reports/*.md',
+    base: '../',
+    generateId: ({ entry }: { entry: string }) => entry.replace(/^reports\//, '').replace(/\.md$/, ''),
+  }),
+  schema: z
+    .object({
+      title: z.string().optional().catch(undefined),
+      date: z.coerce.date().optional().catch(undefined),
+      description: z.string().optional().catch(undefined),
+    })
+    .passthrough(),
+});
+
+export const collections = { videos, channels, reports };

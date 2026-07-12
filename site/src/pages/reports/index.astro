@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { u, fmtDate } from '../../lib/urls';
+
+const reports = (await getCollection('reports')).sort(
+  (a, b) => (b.data.date?.getTime() ?? 0) - (a.data.date?.getTime() ?? 0),
+);
+
+function titleFor(entry: (typeof reports)[number]): string {
+  if (entry.data.title) return entry.data.title;
+  const m = entry.body?.match(/^#\s+(.+)$/m);
+  return m ? m[1] : entry.id;
+}
+---
+<Base title="Reports — Archive" description="Long-form reports and roundups from the archive.">
+  <section class="page-title">
+    <h1>Reports</h1>
+    <p style="color:var(--muted);">Long-form roundups and analyses.</p>
+  </section>
+  <div class="grid">
+    {reports.map((r) => (
+      <div class="card">
+        <div class="body">
+          <h3><a href={u(`/reports/${r.id}/`)}>{titleFor(r)}</a></h3>
+          {r.data.description && (
+            <p style="color:var(--muted);font-size:0.9rem;">{r.data.description}</p>
+          )}
+          <div class="row">
+            <span>{fmtDate(r.data.date)}</span>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</Base>
