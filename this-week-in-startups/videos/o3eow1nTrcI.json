@@ -1,0 +1,1918 @@
+{
+  "title": "Why SpaceX Buying Cursor Changes Everything",
+  "source_url": "https://www.youtube.com/watch?v=o3eow1nTrcI",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "SpaceX is going to buy Cursor. Cursor's revenue soared to $4 billion on a run rate basis, giving it a 15x multiple. It feels incredibly cheap. Did SpaceX get away with murder here?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:00:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "They have essentially unlimited compute. Being able to control the IDE where all the developers are developing is an incredible spot to be.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:00:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We are living in the age of M&A. Venture capital's back, because M&A is back on the menu.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Hello and welcome back to TWIST. My name is Alex. It is Wednesday, June 17th, 2026 and that means it's time for yet another Venture Capital Roundtable. We grab the brightest lights in the world of venture, bring them on down and ask them a thousand questions. It's always a good time. This week is a little bit special though, because we have Turner Novak with us. You may know him from Banana Capital or the Peel Pod. Turner is an investor in companies including Bun, BeReal, Chainguard, and his absolute favorite, Hanover Park. Turner, welcome back to the show.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:00:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Thanks for having me.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:00:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We also have Ben Ling from Bling Capital here. His fund four is worth $270 million, split between seed and growth. He's put money into Gusto, Palantir, Lyft, Airtable, Rippling, and Spellbook, which means I'm sure, Ben, you've a lot of thoughts about California's 5% billionaire tax. Welcome back to the show.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:01:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Hey guys, good to see you guys.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:01:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And then of course we have Jason Calacanis. You may have heard of him. He's an investor in a company called Uber, Robinhood, Marketer Hire, Thumbtack, Athena, Calm.com. Jason, welcome back to your own show.",
+      "tone": "witty"
+    },
+    {
+      "timestamp": "00:01:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Ah, thank you for having me here on my show. It's great to see Ben and Turner. And I, I've been on the Peel Pod, I think a couple of our clips went viral, yeah, Turner?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:01:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, they do really well. We had one that I think got a million views. I think that's the only one I've ever had that got a million, which is pretty good.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:01:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I don't know what I said, but I don't know, maybe you revealed I was the third or fourth investor in Uber. I think it was like a breaking news story.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:01:39",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It might have been. It was huge news on the timeline.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:01:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Nobody knows.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:01:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "One of the better kept secrets in Silicon Valley investing lore. Okay, look, we're not going to go back over the whole Anthropic fable thing because there's nothing new in the last two days. So if you're here for that, we're going to talk about everything else that's going on tech, just want to say that up front in case that's what you're hoping for out there in the audience. We're going to start with the news that SpaceX is going to buy Cursor. Now, if you recall, this was a deal that was put together before SpaceX went public. Everyone thought they were going to pull the trigger and buy Cursor for $60 billion. They did immediately after going public. Cursor's revenue soared to $4 billion on a run rate basis, giving it a 15x multiple. Jason, I'm confused by this deal. It feels incredibly cheap. Did SpaceX get away with murder here?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think Cursor is a fantastic company. They had a couple of challenges. If you look at the history of the firm, they were built off of Claude. Claude and Anthropic then built an internal coding project probably because they saw Cursor's token use and the, you know, some large percentage of Anthropic's usage was coming from Cursor. And they told their partner Cursor, hey, we're going to just use this internally. And of course that's not true. They then released Claude Code. And so they found themselves, as Cursor, now having no",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "compute, having no foundation model and having their platform that enabled them essentially shiving them, like, you know, in the middle of the night, stabbing them in the back. And so this happens in the history of Silicon Valley very consistently. Microsoft did it to Lotus 1-2-3, right? Microsoft would have Lotus 1-2-3 and Mitch Kapor at their events and then eventually they launched Excel. It is all's fair in love and war. Platforms steal the application level layer if they see enough there. So Cursor then had a problem, they called a red alert, a code red, and started building their own models, but they didn't have compute. Somehow Elon and Cursor got together, Elon being a little bit behind with his LLM being in third or fourth place and they decided, hey, we have all this Colossus sitting here, peanut butter chocolate, they were going to raise I heard on the street at 40 billion. So I think Elon gave them a 50% premium. So it's Cursor was at the time I think when they did this deal at 2 billion run rate. Now that they have Colossus behind them and they have essentially unlimited compute and when compute goes to space they'll have extra-um compute. Um, it's just an amazing exit and to own SpaceX stock pretty great deal. If we look at the history, recent history of both Tesla and of SpaceX most people don't know that Elon has bought a decent number of companies. About a dozen at Tesla around batteries and then at SpaceX famously Swarm which made satellites for Starlink that go direct to phones and some technology there. Obviously xAI was built on top of or merged with Twitter. So you have this series of acquisitions and if we look at the two trillion dollar market cap of SpaceX, I think what we're going to see is Elon and I don't have any inside information here but Elon if he merges with Tesla has those two and it's worth four trillion, five trillion, he's going to go on a buying spree I would guess. What what could he buy with that kind of market cap? Uber's worth 150 billion right now. If I'm Elon the first thing on my list is buying Uber because then I have a global footprint and all I have to do is put the taxis into them and it's Tesla's Uber. I mean no-brainer acquisition, right? And we are living in the age of M&A, the wrath of Lina Khan's over, Trump is basically giving everybody the uh what's the a starter's pistol, go ahead buy, merge whatever you want. And so here we are in the golden era and this is one of the reasons I believe venture capital's back is because M&A is back on the menu. Great acquisition for everybody.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:05:40",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We're going to get back to M&A and the stock market really quickly. Ben, I'm curious though about if you agree with Jason on the price here being good because it's running effectively a 15x multiple, I just I feel like everything's a lot more costly than that.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:05:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It would be, think it's incredible. Yeah. I agree with Jason, I think it's an incredible acquisition. Number one, it changes the narrative where it augments the narrative of SpaceX being an AI...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "platform and then number two, being able to control the IDE where all the developers are developing is an incredible spot to be in. So yeah, I think ultimately we're going to see it's a really, really good deal over time.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Do you think the Cursor would be worth less if it stayed independent then? Essentially, that this exit is better than its terminal outcome if it had stayed indie?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:06:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "In terms of its terminal outcome, in terms of its reach, almost certainly.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Interesting. Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right, when you're in a parent company, it's the same if you play Instagram out, you play YouTube out, it's the same. Like I was there, you know, when Instagram, I was there at YouTube. So, um, the, you just watched how these companies became much, much even larger than anybody expected.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:06:38",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The YouTube point's really interesting. Jason, we've talked about how YouTube was like running out of money as it scaled essentially and we also read recently that Cursor had I think negative 23% gross margin.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, when YouTube was acquired in, in 2008 by Google, it was negative gross margin by a lot.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oof, by a lot?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:06:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, but we, we lost money on every single, every single view, right? Because not, most of the, most of the views were not monetizeable at the time. Like we had to create the content ID system in order to be able to make sure that the, the content was owned by the, content uploader, right? In order to be monetized. And so in order to do that, there was a whole lot of other things and then also at the time, YouTube did not have the sort of brand presence that it has today. People thought of it as cats and skateboards. And if you're a brand advertiser, you didn't want your content on cats and skateboards and sort of the, the questionable content that was being shown on YouTube. But so that, that took a long time, but like YouTube's a juggernaut today.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And the sword of Damocles was over YouTube's head with the lawsuits. And there were very few companies that could have, you know, very few companies that could have sustained that long of a Viacom lawsuit. You got to remember back in that day, Viacom was a very powerful large company who was going to take that lawsuit to the mat.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And the price was much cheaper. It was 1.6 billion at the time. So it wasn't a steal. It was a steal, because there were multiple bidders for YouTube.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, and that was, I mean, recall when Instagram sold for a billion dollars, it shook the world. People were surprised at how much money was being generated in these private markets. Now that's a seed round, but at the time it was quite a lot of money. Uh, Turner, you work with a lot of really early companies. I'm curious what is the split between Cursor, Claude Code and CodeGen usage amongst them? And uh, if I think Cursor has more market share than we might have expected because I feel like the conversation in the last six months has been all about Claude Code and CodeGen and apparently Cursor's been growing very quickly. So I'm curious what the footprint is inside of the, the Peel portfolio, if you will.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:07:41",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so you have identified a real problem and you put together a solid solution and a business model that you believe in. So you're all set to launch your new company, right? Uh, not so fast. If you want investors and potential customers to take your new business seriously, you need to consider forming a Delaware C Corp and that's where Northwest Registered Agent comes in. They're going to give your new company a real identity. That means an address for your public filings, a domain, a custom website, a business email and...",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Of course a phone number. And that's going to take just 10 minutes and 10 clicks. They don't charge hidden fees, customer service is available around the clock, they're not overwhelming your inbox with spam, and they make it easy to cancel at any time. So, get all the advantages of a Delaware C Corp, independent regardless of where in the US you're operating from. Visit northwestregisteredagent.com/twist for more details, and the links are in the show notes.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:09:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean, I think it changes a lot. I think that's the thing about startups is you can just make a decision and start using a new tool. So you probably see, I don't think this is unique to any other investors, but you see cloud usage ramp up, probably starting a year ago, and then maybe like starting three months ago, everyone's kind of using Cursor now. I was just talking to a founder in the current YC batch right before this, and he's like most of the batch is using Cursor. So I think it just pinballs a lot. He basically said people used Fable for a couple days again, and then again, switched back to Cursor, so.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think that's kind of crazy, just switching your context and workstation like that all the time is just seems a little bit wild to me. I'm also 35 and have kids and like don't work 20 hours a day. Like, I do kind of, I'm getting in the zone, it's like, all right, using this stuff. I don't have an hour to like switch every week, right? Like, my time is pretty valuable. But I think in a lot of founders that are working all day every day, they're very happy to like switch really quickly. So I think we see that a lot of startups. I think a lot of Cursor's revenue's enterprise, like you just sign a deal with Microsoft and you sell like a million seats, or it's probably too big of a number, but I think I saw that they, they just crossed a 4 billion run rate. It's mostly enterprise.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:10:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And back to SpaceX, I think, I mean, I think it's, it's solves an interesting problem for, for Elon where, you know, you're, you're building all these data centers in space. You have any customers? I mean, it doesn't matter. Now you have this, you're delivering it through xAI whether you have customers or not. And then of course, you sign Anthropic also, but I think that was one of the big problems that Cursor had was just, you had to, to pay all your revenue out to someone, and now they're not paying the revenue out. So you just--",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And when they build their next model, uh, you know, that's going to be built on the Colossus stack. So that is a huge advantage. The one thing I will warn Y Combinator founders, Sam Altman came, and I think he offered them like a whatever, a million dollars in tokens each for X percent. Last person to do that: Mark Zuckerberg, who was like, I'm going to offer you a bunch of free stuff. We just gave the explicit example of Cursor getting shivved by Anthropic. OpenAI is studying every one of those Y Combinator companies who are naive enough to take that deal. If you're a Y Combinator company, do not take that deal. Do not trust OpenAI. You need to start working on frontier model—you need to get off the frontier models and use open source ones and own your content and not educate them to the extent you can. And I believe that'll be the trend of 2027 is startups are already doing it.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "If you give Sam Altman, who is a, you know, sharp-elbowed guy and he's got to figure out how to fill in a one trillion dollar market cap, he's going to do exactly what Anthropic did or Microsoft or Facebook, which is he's going to look at the applications coming in. All of those Y Combinator companies who give who take that deal, they're studying every one of their token usage. They're studying what they're doing. And then they will pick the top five in terms of success and incorporate it as free product into their platform. This is your final warning. Don't trust the platforms when somebody comes to you with free tokens, you know, free anything, there's no free in life. There's no free beer, there's no free pizza, there's always a price.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:12:42",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "All right. We're going to get to Composer 2.5, rolling your own model, how to do fine-tuning and post-training, but before we do that, Jason, I think we should take a quick pause and thank our dear friends over at Plaud.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:12:52",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "I love Plaud. I use it constantly. I have it on the back of my phone right here. Sometimes I use the pen, sometimes I use this. You've got the pen on your watch. There's a little button. If I'm in a meeting, I'll just press the button. Incredible microphone array. Put it on the table, it takes notes. Then it automatically summarizes and makes a mind map, whatever I want to do, transcription, and then I share it with one click to the team, I'm done. That's it. It's an amazing product. It's super affordable. It's a game changer. And you can also record phone calls with it. That's the other thing with the one that goes on the back, and you don't have to do it on speakerphone. So just a native phone call, you can record. Obviously, understand what the privacy concerns are in different states. It's different in the United States and different countries, and it's different by each state. Two-party states versus one-party states, but it's a great product. I highly, highly encourage you to get one.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:13:41",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "If your work relies on conversations, you need a Plaud Note Pen S. Check it out at PLAUD.AI/TWIST, PLAUD.AI/TWIST. Use the code TWIST, save 10%. Never forget things again.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:13:55",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right, Jason, so you're talking about companies rolling their own models. Before we dive into how they're doing that, I'm curious though, do you think that the same concerns you have about OpenAI's and token usage and kind of stealing from customers applies as well to the Cursor space X-stack, or are they far enough away from being a general-purpose AI lab now with their coding focus that that's less of a risk? I'm just not quite sure where to put my...",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:14:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I don't know where Grok is with providing tokens to startups, but all the frontier models that are proprietary, so there's two options you have right now: open-source proprietary. Proprietary's Gemini, Grok, Claude, etc., Anthropic obviously, and OpenAI. So you have those big four. And then on the other side, you got DeepSeek and, you know, all the other ones, Kimmy. I'm seeing a lot of startups start to use those, and it works, and I think that's the future. In fact, I think desktop computing and workstations are coming back. AMD launched a workstation, you might have seen the CEO debut it yesterday, and it's $1500, and it's built to basically run LLMs locally on your desktop.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "dollars, I think it has 128 gigs of RAM, which does not make sense to me. At least Lisa Su demoed it. Fits in the palm of her hand, looks like a, you know, somewhere between a Mac Studio and a Mac Mini. The future of AI is all of your employees having a $10,000 workstation like that. And that $10,000 workstation having a terabyte of RAM, a massive, you know, 10 terabyte hard drive, and everything stored locally, everything processed locally, and then all of your computers across your entire company in a networked supercomputer. And that eliminates the need for a data center. You don't give any of your data to anyone. There's a startup called Exo Labs that lets you daisy chain Mac Studios and Mac Minis that all this hacker community are doing. So that's going to be the trend of 2027, I believe.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:15:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Couple of notes on this. We're talking about the AMD Ryzen AI Halo developer platform running Linux. $4,000 is the base price. It has 128 gigs of RAM, as Jason said, 2 terabytes of SSD, and also a whole bunch of course AMD GPUs built in there. Nvidia has one of these as well. I really want both of them. Ben, Turner, have you guys sprung yet for a supercomputer for your desk or are you still renting cloud time like peons?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Do not have a supercomputer on my desk.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:16:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm curious why. I feel like you guys are less price conscious and if I had, I don't know, I really want one of these. I think Jason makes a good point that having this kind of insane AI performance at your desk is just free in a way you don't have to worry as much about what you're burning.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:16:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You know it's true, though I'm a longtime Googler, so I use Gemini just really religiously.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:16:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But Ben, you're an IBM laptop using Gemini model using VC? That is a unique collection of tools in your person.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:16:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I have the old Lenovo. I had to get an exception when I was at Google to have the Lenovo, but I also have an iPad. Basically, I only use the Lenovo right now because we're on this Zoom, but otherwise I'm a no-laptop guy. I'm a device, I'm an iPad, iPhone guy.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:17:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, yeah, it's... I think the hardware in this case is ahead of the software. It's not easy to run local models. It's a hacker thing. And to Turner's point earlier, when you are a parent or you have time, like, the big consideration for people who are have limited time is like, should I upgrade my iPhone this year or next year? And it has nothing to do with the cost of the phone. It has to do with the time it takes to backup your phone and switch it over. That's what most people are thinking. It's going to be impossible to buy a non-AI computer and I think 2027 will be the year you'll see a lot of people in the developer and startup community using this. I'm seeing it with the hacker crowd and then 2028, Michael Dell, Lisa Su, and the new CEO of Apple will be explaining to you why, instead of spending $2,000 on a laptop, you should spend $10,000.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "or a desktop computer. And this is the AMD by the way, and 128 gigs, Windows or Linux, 60 FPS, 16 TFLOPs. It is just an extraordinary machine. And I think they're basically losing—I'm guessing they're losing money on this thing. And it's just to court developers to their platform. AMD Ryzen, R-Y-Z-E-N. Worth taking a look at.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Turner, I'm curious about this rolling your own model thing. I know some companies do post-training, some people just do fine-tuning, some people are even extending the pre-training phase, which I believe is what Cursor did with K-M-E K2.5 to build Composer 2.5. I'm curious how many startups in your portfolio are actually doing this. Because I think we talk about it, and I think it's a good idea, quite powerful, but I'm curious just how widespread the activity is and if startups have the tools internally to go about essentially rolling their own model.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:18:54",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "Adding a new member to your team is a crucial decision, and you don't want to rush into a hiring situation that you will regret. But if you're a busy founder, you also don't want to spend a ton of time in the trenches looking for that perfect candidate. Instead, you need a partner, and you need a trusted partner. And LinkedIn Hiring Pro is that partner. How do I know this? Because I use LinkedIn Hiring Pro. You want a real-world testimonial? Alright, here you go. We recently hired a new Customer Success Manager. They handle all the advertising accounts here on This Week in Startups, and they ensure that we're keeping all of our wonderful partners happy. LinkedIn helped us connect with an amazing candidate right here in Austin, and he had exactly the combination of experience we were looking for. It's magic, it's alchemy, it's everything. For me, to find a great team member like... So, hire right the first time. Get started by posting your job for free at LinkedIn.com/twist. Terms and conditions apply. That's LinkedIn.com/twist.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:19:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'll be honest, I'm the wrong person to ask about this. Uh, I mean, I think most of the stuff I'm investing in, they're not like frontier labs, I would say. So a lot of them, when they're building any kind of AI products, it's more about just like the workflow of the software. So they're maybe using a little bit of open source, or maybe using some Anthropic stuff, maybe some OpenAI, like doing some routing based on what's the cheapest or most effective at solving certain problems. But... I don't know, I feel like if you just look at what's kind of happened over the past couple of years, maybe Ben or Jason has seen something different, but I feel like training your own model in a lot of cases was a dead end. Like, I feel like sometimes maybe it worked out, like Anthropic, obviously, it worked out for them. But even, I don't know, like one of Ben's portfolio companies, Spellbook, I talked to the founder, Scott, and he's like—it's like a legal AI company—and he's like, 'Yeah, we did not train our own models. It was a complete waste of time and money.' So I think it depends what you're building, and so I think in the types of companies I'm investing in, it's usually like a pre-seed or a seed round where you raise a couple million bucks, so...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "There's not money to do that necessarily. So personally I have not seen a ton of it, but you know maybe Ben or Jason have different, different other things they've seen.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:21:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Ben, talk about Spellbook. I think that's a really interesting point on how the companies are approaching this, because some legal AI companies I think are rolling their own models and it sounds like Spellbook's moving kind of the other direction.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:21:19",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No, Spellbook has not rolled its own model and it uses the foundational models, but they're really focused on transactions and basically being the transactional partner. So instead of thinking about as a legal AI, it's essentially every business has contracts and negotiations and hiring and so on and so forth, right? And Spellbook basically is the facilitation layer that helps make that seamless. So if you think about, you know, in all our, in all our lives, we're negotiating or we're signing contracts or signing contracts with vendors or paying people, etc, etc, right? And you don't necessarily have time to ask and you don't have the money or the time to ensure everything is legal verified, like every single line in a contract, and so Spellbook helps accelerate all of that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:22:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You know, there's the harness, the skills, and all of this layer that goes around AI to make it work. And then you've got the foundational model where you'll stand a job out to them. I think what you'll see over time is people are going to make these headless. So if you're a legal AI company, okay, you've got all of your proprietary data, your skills, all the fine tuning you've done, and then you're going to be like, hmm, Anthropic has their own legal model. Am I training it for it to do, for it to cursor me? Like I don't want to get cursored. So what they'll do is eventually they'll just swap out the frontier model, because right now people used to say six months they had for the frontier models, I kind of feel like Anthropic's more like nine to twelve months ahead. I think that they recently—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:22:47",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "They were.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:22:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I think it was like reasonable to say six, but then what you have to look at is the cost at which those tokens are, combined with the getting cursored, and you're going to say, hmm,",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:22:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Maybe we will keep our harness and our data and then we'll stand up Kimi, we'll stand up DeepSeek, and we'll send our jobs there and we'll compare it and AB test it versus the frontier models. And at some point this legal company will say, hey, drafting these 17 documents, the fidelity of these open source models is as good or better when fine tuned, therefore those jobs go here. And then they might say, oh this is a complex negotiation of an M&A transaction and the frontier models do it better. So my prediction is the jobs sent to frontier models are going to keep going down as they get better, as the open source models get better. And that's where token costs really matters. If you're running your own Kimi, if you're running your own DeepSeek, either on your computers or just standing it up, you know, at a cloud provider, your cost is going to essentially move to free. Just take the cost of your hardware and divide it by, you know—",
+      "tone": "predictive"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Over whatever the lifespan is, five years for that device, four years for that device, and that's going to become too appealing. Now, it's not easy to use. So right now, ease of use matters. It's really easy to use Claude Code. It's really easy to use Claude Co-work. But eventually, people will want a headless product. Perplexity is a headless product. So I started giving jobs, you know, in my vibe coding and my agent jobs to both Perplexity computer and Claude Co-work. Perplexity computer is headless. I can pick Kimi. I can pick DeepSeek. I can just pick the model. And what I'm finding is I'm not noticing the difference. So I may be the tip of the spear here, but it's pretty clear this is going to happen in the next year or two. So that's my best advice to founders is to start learning how to make your product headless and how to—what do they call those routers? Model routers, model switchers? You need a switcher. It's like a switch. That's a good word for it. Like the hardware switches we used to have, you know, back in the day for networking. You need a switch. And it just should switch. And then that means you need some kind of maestro. I don't know, like a conductor. Maybe the word is maestro or conductor. You need a maestro layer that just knows, hey, I sent this job previously to these four different models, and here's the difference. And it's called Model Council on Perplexity. Model Council on Perplexity will fire off three LLMs at once and then it asks, what's the difference between each one? And where is the consensus? And where do they diverge in their answers? And it takes a little while, but Model Council super powerful.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:24:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So this is the Model Council page from Perplexity. It came out in February. Even more recently, Jason, you've seen me send something called Model Fusion from OpenRouter. And this is kind of a similar idea, lets you kind of run and do taste tests and kind of pick and choose. OpenRouter's also good at kind of helping you use a cheaper model. They have a built-in auto-routing function that I've used before, pretty good. A lot of companies do that. But also, a lot of companies are helping startups fine-tune and post-train their own models. Companies like Fireworks.ai and a number of others, Together AI, Thinking Machines, Llama Index, Mistral, etc. So it does seem, Jason, that it's getting easier to do this. So do you think startups should roll out Kimi or DeepSeek or whatever, or go through the work of actually doing the hard labor to fine-tune these models, post-train them?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:25:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, no, just use the open-source models. Out of the box. Easy peasy lemon squeezy.",
+      "tone": "direct"
+    },
+    {
+      "timestamp": "00:25:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The meta-principle Jason's talking about is the same as insourcing versus outsourcing. If you think about in the United States, we used to build, you know, like build companies and hire people and hire people and hire people. And then they're like, 'Wait, we can outsource and we can actually hire people elsewhere for a tenth of the cost with similar quality. So let's just do that instead.' It's the same principle, which is that if you're going to have, you know, one of the foundational models or an open-source model, if the open-source model is 100 times cheaper and equally good, you'll use it for a major portion of your budget.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I—well, that's what I think. But I've been surprised at how much demand there is for the absolute cutting edge. I mean, people are paying, what, 10x for the open AI...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We're in the first innings, right? Does that make sense? We're not in the marginal optimization stage of the industry.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Correct.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We're in the growth portion of the industry, and it's more important to grow faster than it is to marginal optimize.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And just to show it to you guys, if the audience hasn't seen it yet, I just asked, I have three days in Paris, tell me the five most important things to put on my to-do list. And here you see, preparing concise Paris to-do list with five most important things. GPT 4.5, Claude Opus 3, Gemini 1.5 Pro.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:27:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "When it gives the answer, I'll show you the results, but conceptually, and I could have picked the open-source models for that as well.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:27:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Jason, while we're waiting for that, a question from the Note Gang. Hodgetts Channing says, 'Jason, you say not to trust Sam/OpenAI's free credits for equity. What are your thoughts on Nvidia Inception and other VC incubator free compute offerings? Similar risk or different?'",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:27:52",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Founder scale faster on Deel. That's the deal. You can grow your company without borders and you can set up payroll for any country in minutes. Hire anyone anywhere like a modern startup or large company does, and Deel is gonna get all the visas handled fast, so you can get back to building. There is a great talent war that's going on right now, and you need people with superpowers for your startup to be competitive, to beat your competitors, to get your products to market. But anytime you try to grow your team with overseas hires, oh my lord, you've got to reinvent the wheel, you've got to navigate a tangled web of international laws, regulations—you can't get these things wrong, folks. You want to onboard new staffers in other countries? You want to get them set up on your network, nice and secure, IT access, all that good stuff? You want to manage their benefits? Trust me, this is all a nightmare unless you partner with Deel. They are the people stack for startups. They're going to take care of all the onboarding, payroll, HR, IT, benefits, everything you need, quickly in one place, done perfectly. So visit deel.com/twist. That's D-E-E-L.com/twist.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "friendly it's just very important for founders who are naive to just understand don't explain, don't give a roadmap, don't brag about your secrets. Keep those close to the vest. Talk about your customers talk about your product sure, but don't give your secrets away and when you give your secrets in terms of tokens that's giving the perfect roadmap. It's literally and you know who's the best company at not doing this Turner is Apple. Every time Apple does their WWDC or they launch a couple of new apps, they're like look we have Notepad. And nobody who's using Evernote would say Notepad is an Evernote killer. It was like they make Notepad for Mom and Dad, your cousin, your brother, it's the most basic thing ever. But if you look at Notepad today 10 years in, a lot of the key features feel like Evernote. I believe Apple purposely ankles their products to not interfere with the App Store ecosystem. They're the most generous with this. If you give i'll give you another example if you look at like sleep. I've had the Apple Watch for six or seven years. I just want a goddamn sleep score. When you try to look at a sleep score in your health, what do they do? They say pick one of these seven different sleep apps and go pay $49 for them. That's insane. They're so generous with their developer community that they ankle their own products to give shine to the developer community. They're the best at it, I would say Facebook and Microsoft are the most sharp-elbowed. That's it. It's a range. Don't trust any platform.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I don't mean to single out Sam, we're friendly and... but if you were to put the sharkiest of the, you know, the best deal maker of the group, the charitable way to say he's the best deal maker, but he's a student of the game. I've known Sam since Loopt. We were both in the first Sequoia Scouts. He is the deal maker's deal maker, as you saw. He is the only person who ever got over on Elon Musk and he took 50 million from him. So if he can get over on Elon Musk, he's getting over on your startup if he's got a way to outmaneuver you. That's all's fair in love and war. It has nothing to do with that. Now if you look at the cloud providers, AWS, Google Cloud, Azure, they're not in the business of studying the folks using their compute resources. It's just not what they do. So, but this is... every company does this. Amazon Basics does this to the people who are third-party sellers. If there's an opportunity, everybody gets to pursue it in capitalism. That's the way capitalism works. You just don't want to give a free education to someone. Again, it's not personal with Sam. I like Sam individually. We're...",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:31:38",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But it's essentially who has the strategic high ground. If you have strategic high ground and you have the platform, you can basically enter into a variety of the apps. And the thing with Apple how they're really smart is that they don't need those specific functionalities to sell more iPhones and so it's better to not disrupt the ecosystem.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:31:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right, if they disrupt their ecosystem Turner what happens? They lose their 30% and then you have somebody like Epic Games say hey I'm gonna file a lawsuit to try to open up the app system. The reason Apple's been able to get away with the Apple tax for so long is because they don't compete with the app level. They're just very, very, very generous.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:32:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Can I disagree here slightly Jason with this? Because uh i don't disagree with the general point but on the Apple being charitable front, we have a term called getting Sherlocked and it's because Apple once made an app called Sherlock entirely obsolete and I think also TapeACall as well so Apple has gone in there when they want to to push things out. I think the question is just do they consider it to be an OS level utility or an app that adds functionality on top of that. So I think if you're in that",
+      "tone": "respectful disagreement"
+    },
+    {
+      "timestamp": "00:32:40",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Just look at the time like when when did Sherlock kill that other startup or if Sherlock's the startup when did they do it? I'm guessing they probably gave them five years, six years, seven years and and I've heard Eddie Cue or or Steve Jobs even say this like eventually we might add some features to the platform we have to like they added the flashlight but",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "One of the first apps I remember buying was a 99-cent flashlight app. Okay, if that's the... if that's your biggest skill as a startup is to turn on the flash and use it as a flashlight, you got to ask yourself, well, it's... it's not a unique innovation in the world.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:33:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right. So as long as you're at the OS functionality tool level, you're going to be fine.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:33:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Alright guys, let's keep it moving here. I want to talk about OpenAI's financials. These got leaked this week and amidst all the chaos, it almost seemed like nobody cared. But what I did is I took all the data and I made you guys a very beautiful SEC-filing-style table so we can all take a look at what OpenAI did in 2024 and 2025. I have a lot of thoughts about this, but Ben, starting with you, when you read these numbers about OpenAI's last couple years, did anything surprise you? Were you kind of shocked by any of the individual points?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:33:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I don't think the revenue growth is surprising. I think everyone understands how fast it's growing, but I think they've done a tremendous job on the gross margin. I think the improvement, the massive improvement in gross margin is notable.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:33:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Uh, I mean, I think one of the things people don't really... if you just come into this cold and look at this, I mean a lot of this is like free cloud stuff from Microsoft, right? Like they invest $10 billion and OpenAI just gets like free Azure credits. Uh, I don't know exactly how all that translates into GAAP financials, but like there's a lot of people that are like 'Oh, OpenAI burned whatever tens of billions of dollars'. Like I don't actually know if they technically burned that much. Uh, I think that's a question for like you need to actually see what's going on versus you can't just take these headline numbers. So I think that kind of obscures us a little bit. Um, but obviously they're spending a shitload of money, but it's kind of how this works. Like you try to get market share, you're doing R&D, they're like inventing intelligence, right? That's what they will say. They're trying to create AGI. Like it costs money. It kind of makes sense.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:34:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "They're also all these numbers are at least six months old because we're now basically midway through 2026. So I mean, what we know is they've grown a lot since then. So Jason, I'm curious, do you think that the gross margin improvement and the operating margin improvements we've seen from this AI lab will persist or are they going to maybe cut costs or cut prices and return to more to growth at the expense of profitability?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:35:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The way to look at this is the classic J-curve and how much do you invest before you're able to either raise prices or stop discounting. I learned this up close and personal being the third or fourth investor in Uber famously because I was on CNBC and they're like 'Uber's a money-losing blah blah blah it's losing money it's losing money'. And I just at one point of exacerbation I just stopped the panel I said okay let me stop you all. If Uber did an and at that time I think they were doing like a billion they were doing like a billion rides a quarter. I said okay they did a billion rides this quarter big milestone. They lost two billion dollars they lost that means two dollars per ride. End of the day just do the math on the loss divided by the number of rides. Okay if they raised the cost per Uber by three dollars how many...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Customers would they lose? And I asked them this on the the thing. And Deirdre Bosa was like, 'Oh, well, they'd lose a lot of customers.' I said, 'Would you stop using it if it was $3 more?' 'Nope.' Because everybody had become addicted to it. So this is the boiling of the frog we talk about. The J-curve goes down. The J-curve on tokens is a trillion dollars. Let me state that again. There's going to be at least a trillion dollars invested by the frontier labs, possibly two or three trillion. Will they be able to make tokens profitable enough to make their businesses work? I actually think they will not be able to do it. I think it's going to become a commoditized business like bandwidth and hard drives. Tokens are going to be looked at like hard drives and bandwidth. There was a time, and Ben probably saw this up close and personal with YouTube, where they were in the J-curve for YouTube and Sergey and Larry, I'm guessing it was Larry because he's got a big vision for these kind of things, he said, 'Yeah, just lose money for five years, six years. Then if we have a billion people using YouTube, then we'll turn on advertising.' It's exactly what they did, right Ben? Like there must have been some calculus of like, this is an acceptable loss to build a billion... I think YouTube is seen by three billion people a month right now. And who knows when they flipped that J-curve. Tesla also had a J-curve with their cars. That was the business that would never make money and then suddenly they tipped over into making money.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:37:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So is the point that eventually companies that invest heavily at the cost of profitability early on make a lot of money later on? Or that what OpenAI is making is essentially a commodity that won't retain value? Because I think we're kind of saying two different things at once here, Jason.",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:37:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I believe they think they can make money off tokens, but I do think the workstations and 90-plus percent of jobs will be able to be done by open source for free on your local computer. And that's where I think Apple's the dark horse in this race. If everybody has a... there's a moment in time where 128 gigs will be the standard lowest amount you can buy on an Apple desktop computer. Let that sink in. Right now, I think the lowest you can buy is 16 gig?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:38:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Might be eight.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:38:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Might be eight.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:38:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I totally see that world Jason, but I also see a world where we cannot imagine all the things that we're going to do with AI, so who captures that value and who corners a specific functionality that we all really need? Because I think 20 years ago, I don't think any of us would be thinking we'd be talking to an AI, you know, on a mobile phone that we carry in our pocket. There's certainly people that believe that, but it wasn't mass market. And so wondering whether there's just use cases, because you know, we all know the cases where you hear this thing, like some famous person says, 'Why would you ever need more than,' you know...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:38:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "46 kilobytes of RAM or whatever it was. Exactly. 64 kilobytes of RAM.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:38:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Exactly, 64 kilobytes of RAM. Or why would you ever need more than 2400 baud? etcetera, etcetera. Right? And then all these things like we've just figured out a way to use them in ways that we've never previously imagined. So I definitely hear Jason's point and I can see the point which is that if it becomes commoditized then they're not going to make the money. But the question that I have is will we discover new...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "use cases that are highly valuable that people are willing to pay for at scale and and they can corner it. And I don't know the answer to that question. So when you think about the entire stack of the LLMs versus the hardware versus the energy, it's a little unclear who's going to capture all the value at the end. To me that's still an open question. I think we're still in the first second inning.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:39:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It is the pressing question. Where will value accumulate? The Nvidia card, the frontier model, or the app layer? Uh, I'm going to say the app layer.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:39:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I liked it. I liked, I always like app layer too, but I also think the hardware, the hardware folks are going to have pretty good runs.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:39:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:39:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, I mean, I think another way to think about this is in with most new technologies, it's basically you build a good product and then essentially like it gets commoditized. It always gets commoditized and it's just who has the distribution and the sales force. So I think if you pull back up those OpenAI financials, I I think their sales and marketing grew by like 4 or 5x and basically what they're doing right now is they're going to like Walmart and saying, 'Hey, we'll help Walmart use AI.' Like, I mean, like that's almost what some of these conversations are. It's like some executives who are at the boardroom, they're getting pressure like 'Walmart needs to be an AI-native company.' And I just don't think it's going to be like a VP of engineering at Walmart that like uses some open source models and like fixes this. It will, it's almost like a consulting relationship where if you're, if you're going to Wall Street, your investors and saying, 'Hey, Walmart's trying to become AI-native and we're working with OpenAI to make us an AI-native retailer.' Um, we can all kind of laugh of like, what does that even mean? But I'm sure they'll do some stuff and they'll probably make some products for them and they'll build some workflows around it and I'm sure things will improve and the stock price will go up. Like that's ultimately the, the goal of a lot of these buyers who are buying this stuff. So I almost think it doesn't really matter about the open source stuff. Like and maybe OpenAI like builds in routers into the products to like help you save money or something, but at the end of the day, like you're, you're as a CEO of a public company, you're probably, you could even go a little bit deeper on this. There's like the open source, you don't know who has access to this and you want your secure US domiciled provider to like helping you do this. So, I don't know, I don't think it's that big of a deal. I think OpenAI will be fine. I think really when you look at the cost is like they're just scaling up and they're basically building a sales force and a lot of people are going to spend a lot of money on this stuff. When you saw, I think the headline was, wasn't it that Uber spent a billion dollars on Claude in a quarter or what, whatever the number was? That is the, that's the tip of the spear. Like maybe that's the max someone could spend four billion in a year on AI, but that's like .001% of the market. Like it could, it's just a lot of money that's going to get spent on this stuff.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:41:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, the headline that Turner's referring to is Uber burned through its entire 2026 AI budget in four months, which is also known as six queries in Opus 4.8, I think, Turner.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:41:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think the Uber example is, again, to your point, Turner.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Tip of the spear kind of moment. If you're the CFO of Uber right now, you know, or, you know, pick your company that's burning through a lot of tokens, you're saying, is there a cheaper way to do this? So it's if- as it gets incorporated, then some pencil pusher starts doing the math and they say, 'You know what? It turns out Kimmy or DeepSeek's coding model is good enough. Everybody can use that.' And back to that maestro or the switch as you called it, that switcher is going to say, okay, if you're writing a login page or you're making a landing page or you're doing some analytics project or some intranet functionality, do it for free. If you're doing something complex, you want to write an algorithm to route DoorDash, you know, rides? Yeah, use the best one. And one cost will justify it. But when a new tool comes out, everybody just goes YOLO, and then eventually CFO comes in and says, 'Why are we using an Oracle database for this when we could do MySQL? Can I- can somebody here run a skunkworks project and put the database into MySQL or Hadoop?' And man, I remember—and Ben, you certainly remember this—when Twitter and some other folks were doing these really big database queries and having to put together live searches and live feeds. That was just a very complicated process and it was too expensive to use something like Oracle. It would bankrupt a company like Twitter. So of course they went Hadoop, MySQL, etc. We were sitting here 20 years ago, the debate was, would anybody use an open-source database? And now that's not a question, it's an exclamation point. Everybody uses an open-source database. For some rare things, like your Visa, and you don't want to get fired, yeah, you go with the Oracle solution for your transactions, right?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:43:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think one more thing on this OpenAI, like they were—I think B2B is a lot more profitable than consumer. And OpenAI was primarily consumer. You just think about the average person that's using ChatGPT is probably using it as a better Google, maybe a therapist, and they're not really spending anything on it. Versus in B2B, it's literally like, we signed a million dollar deal to, like, ingest PDFs and, like, make a bunch of business decisions with it. Like, that's super easy to do and not that intensive and you make a shitload of money. So I think that's also kind of going on like with all of my B2B AI application companies I've invested in, they're all—they all make a quite a bit of money and to Ben's point they're not even like really optimizing that much yet. Um, so for one of my portfolio companies Hanover Park, it's basically like an AI native fund admin provider. So it's kind of like an accounting firm for- for investment firms. And it's literally like, we ingest all your—all your stuff and we just make it all automated for you.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:44:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Producer Selah has to take a shot every time you say Hanover, and if you keep bringing it up, it's going to get really, really tough on the edit later today.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right, we're going to come back and talk about seed stage startups and if they're actually in decline as an asset class, but before we do that, we're going to take a little break to talk about our friends over at Crowd Health.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:06",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "Now, if you're running a company, if you're taking care of your family, you understand that health insurance is incredibly expensive. The American healthcare system, I think everyone has a unique and perfect grievance with, but if you want to possibly save a little money and take care of your loved ones or your staffers, well, Crowd Health might be something worth looking at. It's not insurance, it is a crowd-funded model to pay for healthcare costs, and if you want to go ahead and get more transparency, more control, and someone on your side to negotiate with healthcare providers, we recommend that you take a look. You can choose all your doctors and specialists, and their bill negotiating team may get you 70 to 90 percent discounts. So, if you're an entrepreneur, an independent creator, or just a family person, take a look. You can go to join crowdhealth.com/twist, use the code twist to get started today for 99 dollars a month for your first three months. That's join crowdhealth.com/twist.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:45:59",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "And they're doing some webinars. Go ahead and check it out and report back on the product. It's a very innovative, disruptive product, and go do the webinar that they're offering because that'll give you some great education on their model. I love webinars. I'm getting into webinars now. I'm starting to do webinars, Ben.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:46:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Really?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:46:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, I'm—I'm, uh, going to build a network of family offices for the syndicate, and so, I'm like, how do I, you know, connect with family offices? And I have my team identifying them, Ben, and I'm going to do a webinar on how to get access to and get directly on the cap table, and then maybe QSBS, and there's all these kind of things, and a quick webinar is just such a secret weapon that a lot of startups and founders don't leverage. They do ads, they do all kinds of promotions, they do social media. Getting like 50 people or 15 people to show up for a webinar where they get massive content value is a really great way. It's like an unlock for startups, so, uh, make sure you, uh, you dial in in your tactical go-to-market strategies webinars with potential customers.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:47:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Can I add to that? Because I host some of these for money, and, uh, let me tell you, if you bring something boring, there's nothing you can do to save that webinar. So, please, don't do them until you have something interesting to share. I've been on some really great ones and some ones that left me a little bit perplexed, so just—",
+      "tone": "advisory"
+    },
+    {
+      "timestamp": "00:47:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "If they're—if they're sales calls, they don't work. If they're thinking about the—the guest and how you can educate them or provide value and do it in under 45 minutes, they work. So, pretty straightforward. Just put yourself in the audience shoes. Is this giving me massive value for free and is worth my 45 minutes? It's a good webinar.",
+      "tone": "direct"
+    },
+    {
+      "timestamp": "00:47:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right, now, next up we're going to talk about seed stage startups and if they are a quote dying breed. Now, we're looking at some charts that were made by Lightspeed Partner, um, Nimamdi... Oregbuon. I meant to pronounce that before the show, sorry guys, forgot to look it up.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:47:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Don't worry about it. It's all good.",
+      "tone": "reassuring"
+    },
+    {
+      "timestamp": "00:47:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "He ran a—he ran a fascinating analysis—",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "of live seed-stage companies in and around the world. Found some stuff that I want to bounce off you guys. So first of all, the graduation rate for seed-stage startups here in the US is in decline, but has very recently stabilized. If you take a look here at the chart on the left, we have graduation rate over time. And as you can see in the post-ZIRP, post-bubble era, we saw a dramatic decrease in the number of seed-stage companies that are making it to series A. I'm curious, Jason, if you expected this. This is worse than I thought. This data actually scared me a little bit.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:48:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so in the... the term of art is pull-through. You know, when Ben and Turner and I do a pre-seed or a seed investment, when our LPs examine our performance early on as venture capitalists, they'll look and say, how many of your startups pulled through? The earlier you invest, the lower the chance. The later you invest, the greater the chance. Many people had like a great strategy for AngelList. I remember a very famous angel investor, seed investor who's like, I've got 27 unicorns. And I said, oh, and I said, that's incredible. How did you do that? I have nine. And he said, oh, I go on AngelList, I join a syndicate when they're $3 billion, I invest, and then I put it on my logo page. And I'm like, incredible.",
+      "tone": "anecdotal"
+    },
+    {
+      "timestamp": "00:48:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You know firms do that too, Jason.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:49:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Incredible. I'm like, incredible.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:49:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "They buy the logos so they can put them on the page. Ben, can you explain why we all laughed at that to people out there who are less up to their neck in venture humor?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:49:15",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, because usually you want to be the first investor, like Jason, or the third investor before, you know, in the post-money is three, four, five, ten, twenty million, versus and when it becomes a unicorn, it's a billion dollar valuation and you invest at a three billion dollar valuation, it's already a unicorn, so obviously you invested in a unicorn.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:49:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Turner, you do the opposite of this, right? You invest essentially as a first-check investor, so you actually get the plaudits. Does this annoy you? Do you see VCs actually do this?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:49:49",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I don't know. I mean, it is what it is. I just kind of... I feel like you can kind of tell. I actually... probably one of my favorite stats. I invested in a company pre-revenue that got acquired by Anthropic and I got equity in Anthropic. So I'm technically a pre-revenue investor in Anthropic, technically. So I'm gonna... I'm gonna like carry that as my claim to fame.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:50:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's logo hunting. You'll have startups do this as well. Startups will give their product for free to, you know, some giant company, Google, Microsoft. They get a friend of theirs working somewhere to open an account. Now they have the logo there. Okay, fine. It's posturing, it's peacocking, it's a thin veneer.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:50:39",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's social proof, yes, social proof.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:50:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Social proof, yeah, social proof. And the problem with social proof is when you actually work with sophisticated people, then they ask you, what round were you in? And there's all these data sources that then LPs look at and they know who was in the early Anthropic round.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "rounds and they even know which partner at a firm was in that round. So if you're a partner at a firm and you go start your own venture firm and you're like, yeah, I was early in Uber and Airbnb and Coinbase, they're like, were you? Or was Alfred Lin the partner who did DoorDash? Or Rulof was the partner who did YouTube? They have that information. And if you're a startup and you play these kind of games with your logo page, then they're going to ask you, what are they paying? How many active users do they have? How many seats do they have? So you can play these games, but it's playing a... I think Naval says it like, play stupid games, win stupid prizes. The prize you win is you lose credibility. So you gain credibility, you know, when you're peacocking and then you lose it when it comes down to brass tacks. I don't advise it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:51:49",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So you're saying, Jason, that if you have an MOU you're about to sign, you shouldn't report that to your board as a completed deal, for example?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:51:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The joke I have when I'm mentoring founders at Founder University and our accelerator is when they say we have a letter of intent, I say what a VC hears is letter of nothing.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:52:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. You called it a letter of intent, an LOI. We called it an LON.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:52:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, we're off track a little bit. Jason, can you go back to the pull-through point and why it's either good or bad that we've seen the graduation rate of seed-stage companies come down from about 50 to about 25% in the last couple years?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:52:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, these numbers are extremely hard to track. There's no perfect source of data for them. Everybody tries to do this. Here's all you need to know. In a hot market, you get a lot of neophytes, new funds, new angel investors, private equity firms, family offices who dip down and they think, oh, I'm a great picker, I can do early-stage picking. And so they just randomly go or dentists go to Y Combinator and you saw Gary Tan's like, I don't know if you saw his viral like speech—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:52:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The hype video?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:52:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The hype video! He's like 'let's get that money! Who's house-house-house, let's get that money!' Like, it has less to do with the startups and more to do with the conditions in the field. During peak ZIRP, everybody had TVPI that was through the moon. I had one person tell me they were a 15x fund and I had put 50k into the fund, I do a lot of these small bets to support new LPs... a- new GPs. And I said, you have a- you have a 15x fund? I'm like, sell all of your shares and be a legend. And the person's like, no, no, no, it's going to be a 150. I said, yeah, I know you're Chris Sacca and you hit Twitter and Uber in the same $8 million fund. Sure. Sell half and be a 7x fund right now and you'll be guaranteed— That same fund, I'm not going to say which one, that company became worth like 95% less. So they're like a 1.5x fund now.",
+      "tone": "animated"
+    },
+    {
+      "timestamp": "00:53:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oof.",
+      "tone": "sympathetic"
+    },
+    {
+      "timestamp": "00:53:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Your obligation as a GP is to get liquidity and to hit 3 or 4x for your fund. Ben has to return 500 million to a billion in order to stay in business. Correct. And pull-through is but one of the things people look at, but again, sophisticated people know—",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "In a hot market, pull-through becomes unnaturally large and in a down market, pull-through is unnaturally depressed. And actually, that's where the real investors, that's where the real VCs make their money. In a down market, being able to pick which company to double down on. Being a venture capitalist is about deal flow, decision-making, doubling down, and distributions—the four Ds is what I always tell folks. And that ability to double down correctly is and to distribute, those two Ds are so hard to get right. I have spent the last five years trying to get better at those two.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:54:34",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Ben, I'm curious if you think that the correct or normal or healthy graduation rate from Seed to Series A is more like 50 or more like 25? So, were we in a period of excessive summer conditions and now we're in winter, or are we just now back to normal, if you will?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:54:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, you're looking at percentages and not at numbers. So to Jason's point, the macro in 2021, there's tons of new funds, tons of flush money, and so graduation rate and companies being funded—there was a lot more companies being funded in that period than in the prior period. And so as soon as in 2021 there was a retraction in terms of the number of dollars flowing into venture, the graduation rates then dropped. So I think all we're just seeing is less venture dollars or less money flowing into venture firms across the last five years, which is slightly turning right now, I think you're going to point—we're going to talk about that in a second. And I think that's a reflection of—or the reduction in the number of seed companies and also the graduation rate is just there's less budget. There's fewer firms, smaller budget. So therefore, you see fewer seed companies.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:55:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, I think there's also an element of you had probably like, if you just look at this chart that you pulled up, it's like 10 years of just more and more seed-stage companies, lots of software, and then you basically hit a wall in the past couple of years where if you are not an AI company, you're not raising a Series A. So, if you didn't make that transition, you just die essentially. I mean, I'm exaggerating this a little bit, but I feel like there's quite a bit of...",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:56:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "...move much of investability from there, right? It's basically impossible to raise an A.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:56:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's actually a very interesting observation, Ben. It could be—and I have seen this before—founders graduate from our accelerator and, you know, if we have ten companies in it, we'll see five or six, you know, pull through. And then I always like, okay, tell me about the other five that didn't pull through. Increasingly, I'm seeing two of them just opt to not raise money because they don't need it. So that's another weird trend occurring, which is AI—I'm seeing companies that are AI-first in how they operate their business. Put their product aside, obviously it's going to be AI-related in most cases, but how they operate their business, they're like, 'I don't have the time to hire two more people, I'm just automating all that with AI.' And that is the real trend: the founders owning more of the cap table, raising less money to go further. I call that the 'Alacorn' or the 'Pegasus' as opposed to the 'Unicorn,' which is: they have the wings...",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "is to fly over around a funding. And the first time I ever saw it was calm.com. I invested at a $4 million, $5 million valuation. They let a couple of friends invest at an internal note at 20, but it wasn't... they didn't actually raise that round, it was just they wanted to reward some friends I guess. And then Alex came to me and said we're raising at 250 million. And I was like great, and they're like do you want to sell any shares? And I was like yeah, I'll sell... I think I sold 2 million in shares, just like 10% of our position. And that returned a multiple on the original investment and then we still had 90% to go. That's actually going to be a reoccurring trend, which means getting onto a cap table, you know, at that series A and B is going to become more and more expensive, and if the entry price becomes higher, then the exit has to be higher. And what we've all learned over these years is TVPI, TVPI easy, DPI hard. DPI very hard, especially with the SaaS markups. So many of these firms are zombie firms now. They raised one fund, maybe they got to their second, and all of a sudden they couldn't bridge the gap between the paper gains and the distributions. And that is the art of venture capital there, is distributions and knowing when to sell. And I see Turk and Ben shaking their heads because I'm guessing y'all have something in your portfolio that you were like if I could sell this whole thing, I'd sell it, have a 3x fund already with some other optionality to hit 4, and then I would be able to raise my next fund that much easier. And it's really hard right now for venture capital because if you had put your money into the Mag 7, you would have been liquid and you would have beat venture capital the last decade. The conversation amongst LPs is why be in venture? Why should I bother with venture? And I was talking to one of the largest sovereigns in the world when I was in the Middle East and I was pitching them my fourth fund and they said we're not doing any new funds, we love you, we think you're incredible. I said hey, tell me what you are doing. They said oh, we're doing corporate debt. I said oh, tell me about it. He goes oh we get 17%, 14%, so we're doing corporate paper, that's our exclusive focus right now is loaning money to established profitable companies. They pay us 15% and we get it every year, and it's more liquid, why would I ever do venture? And we really have to justify why venture exists again.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:59:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Because the vast majority of LPs are looking for predictable performance. Predictable, reliable performance. I mean it's obviously they don't mind if you return a 100x fund, but if you reliably return 4 to 5x in every fund, that's great for them because they can put the dollars to your fund and then make sure they get 4 to 5x back every single time. They're like this is a... this is a known reliable quantity and allocating that is much easier than, you know, the 0.9x and then 17x and then...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:59:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, Ben, how many firms can actually hit a 4 or 5x DPI?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "across let's say a five fund run. That seems to be a very small number.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:00:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's a very small number and it because I think there's a lot of you I think what are what are the numbers Jason do you know the numbers I think it's like 95% 90% the 90th percentile I think is 2.x",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:00:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:00:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:00:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "to be a 3x or 4x fund puts you in the top 5 or 10%.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:00:25",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:00:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And I think in other words it's hard, like five five funds in a row, like unless USV has been like barely even done that, Founders Fund has like I don't think they've done five x five funds in a row like yet, right? DPI? Maybe TVPI, but like actually returning the capital, you need a pretty long period of time too. So I feel, and like I feel like the industry hasn't been along around long enough. If you look at the 90s, like a lot of those firms don't exist anymore or it's like Kleiner, like they had a couple bad funds. Sequoia, like they're they had a period I think where they like famously they they were able to return capital to investors, but it was like a huge deal that they like gritted it out and like willed this fund into actually returning money that probably should have lost capital. So it's just like very, very hard.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:01:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Bill Gurley on this very show told the story of Benchmark's worst fund, you know post-dot com era was great financial crisis, they took away all their fees for that fund and they deployed it into the one or two winners in that fund just to get that fund to like 1.5x or 2x. That's how desperate they were to save the reputation of the firm during the down market. And so it's one of the hardest businesses to be in.",
+      "tone": "storytelling"
+    },
+    {
+      "timestamp": "01:01:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "A lot of the reason people are in it is to get early signaling. So if you're running a family office, you know, having some, you know 10% in venture means you know what companies to double down on in the pre-IPO market. So the there is a reason to put 10% of a family office or, you know, an endowment into venture.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:02:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "is just to know what's coming around the corner. That is I think probably the number one reason they do it now and then secondary is, hey, we we can make this work mathematically. Again, this is one of the hardest industries, I suggest nobody do a seed fund, I suggest nobody do an incubator. Leave it to the professionals on this program. We don't need any more competition down here. Let us do all the work. You can get in at Series B.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "01:02:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I had one high net worth individual who was a big fan of mine, loved the podcasts, really believed in what we were doing in the early stage and he wanted to put in, I don't know, let me pick a number, $250,000 and this is like an individual. He said I want to put 250 into the fund. I said have you ever done a venture fund? He said no this would be my first. I said I have a piece of advice for you, why don't we take the 250, why don't you put 75k in, you know, or 100 and do my next three funds? And I saw him at liquidity the other day, he said you're the only venture capitalist who didn't take all the money and told me to do that so I just...",
+      "tone": "storytelling"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm putting it into your next two funds as well. And I said just, yeah, because time dispersion as well. What if you deploy all your capital in peak year? That- those returns will be muted. You got it at a high price and you can't exit, or you exit out at a low price.",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "01:03:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Then, when I started angel investing, the secret to my success was timing. When- when I was doing Open Angel Forum and I was doing Uber and Robinhood, there were no competition.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:03:25",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Perfect timing.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "01:03:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Perfect timing. Naval, myself, Cyan Banister, Chris Sacca were begging people to invest in Uber, Twitter. We were passing the hat just desperately trying to get Travis, you know, or Evan Williams, you know, 500k, a million five. Like, we were desperate to find somebody to put that money in because VCs were like, 'Too young, too crazy, you know, I'm a- I'm a pass on this one. But let me know when they get their- when they hit profitability or a million in revenue, and then we'll make an investment.'",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "01:03:55",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure. Are- are there still companies available at those prices today that- that you think have the opportunity to become as big as those companies Jason mentioned did? Because I feel like with larger funds going earlier, seed prices going up, it feels like those, like, passing the hat moments just don't seem to happen as often.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:04:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean, I- it's probably similar to what it was like back then where you just have to find like Uber, taxis on your phone, like, that's crazy, or like Airbnb, living in someone else's home, like, that's nuts. So, I mean, I think they're out there. They're just like less obvious. There's not press articles about them. Like, probably if you- if you just read TechCrunch or like the information, you think all these companies, like, you started it, you left OpenAI and you raised a hundred million dollars to, like, start a new AI lab. Those- yeah, those happen, but that's not everything that's going on. Like, there's a lot of people, they raise two million dollars, they have a hypothesis, like, we're going to build- talking about Hanover Park again, they raised 2.2 million dollars and they're- they're building like fund admin, right? Like, it's not a sexy category.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "01:04:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm sure it was at the time. Turns out though, today, you go to Sequoia's website and I think their- like, the head blog post is like 'AI Native Services Companies.' That's literally what they are. So, I think it's a lot of like being a little bit willing to make a bet on a really good team and, like, you know, the way that the market's moving, like, you're solving a specific problem that's probably going to be a lot bigger. You have this hypothesis around like this customer that's going to be super valuable that you can generate a lot of cash flow from in the future and you can build products to help them, whether it's AI, whether it's hardware, whether it's like a CPG company, I don't know. I just think there's like a lot of opportunities out there, but you just can't go, 'Hey, I'm investing in data center cooling and I'm investing in, like, new AI models led by people with experience doing that.' Like, you're not going to find people raising two million dollars at eight million post-money. Like, it's just impossible. So...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:05:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, you- you absolutely can. I agree with Turner 100%. I think the key thing- we call them at Blink Capital, we call them undiscovered gems because they have to be undiscovered and they gotta be gems.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:06:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "If they're discovered gems, then you're paying 50, 100 million post, 200 million post, a billion post, they're all known quantities. So typically the undiscovered gems get one of two categories. One is the first-time founder where people don't have a ton of signal, so you just have to have some spidey sense and a lot of the really great seed investors just have great spidey sense on what these people will become over time. And the second category is the quote-unquote great but damaged founder. And a founder that has a mixed reputation because they had previously left their company in a way that people didn't like, right? You see this like Parker for example, he's killing it with Rippling, and very people are very thrilled to be investors in Rippling. But at the time when he was first raising his first round, he wanted all of the original Zenefits investors to reinvest. And he said, 'Ben, I want you to reinvest because I want to make sure that like it's clear that my investors still support me.' And so I said, 'Of course.' So you know, we invested in in Rippling. Um, but you know at the time to me it was obvious that Parker was incredible, was incredible then, is incredible now. But I think you know there was a moment in time when people's, you know all our reputations, professional reputations have ups and downs and ups and downs. And sometimes when a founder has, you know a low of a valley in their reputation, it becomes harder for them to raise at that specific moment in time. And so I think you know you absolutely can get really great prices, but they have to be undiscovered gems.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:07:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Jason, do you think that if you were going back now and starting your investing career, it would be easier or harder to find those undiscovered gems?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:07:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You know, the entire corpus of startups when I started 12 or 13 years ago, you know you'd have a couple a week would launch, right? You could probably meet three or four new ones a week. So it was actually possible to have 100% coverage. Today we get over 10,000 applications. I've got um seven associates in training at our firm, and we're having five more start next week. Those 12 people working at our firm, out of school in training for researcher to analyst to associate is our like training program. Um, I had them doing 140 meetings per week, first calls, at the peak. And then we invested in 100 companies, so we were tracking towards 7,000 first meetings called from call it a run rate of maybe 20,000 applications. And we, I don't think we had more than a third of the startups that were being formed. So there was a Cambrian explosion, if I'm using that word correctly, of startups over the last decade because it's so much cheaper. And I think that's going to happen again. I think you know maybe 100,000 startups, 200,000 startups are gonna, in the English language, in the West, you know I'm not counting China and India and some of those other great markets, just an English-based, going through an incubator, etc. launching a product, getting it to market. I think it's going 10, 20x from here. Therefore, it's really a sorting problem and a deal flow problem. And just...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:09:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I said before the 4Ds—your deal flow is a function of your reputation or your ability to hunt. When I started, I was hunting. I was asking every person I met, \"Do you know any startups? Do you know any startups? Do you know any founders? Please introduce me.\" jason@calacanis.com is my email for life. Please, the second you meet a founder, tell them you know me and email me. I was hustling—Ben knows, 'cause he was around. I was just hustling, hustling, hustling. I will meet any entrepreneur, any time, seven days a week. And now it's more like, oh my god, this deluge of incoming applications. So you in your career—and I think Ben has experienced this already, and I think Turner's on his way, because Turner also does content now—how many people contact you a week now, Turner, and how many did that before you mastered social media and podcasting?",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "01:09:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I average like 20 a day. I mean, I mean, there's a caveat though to this where like some of them might not be that good quality, right? Like you might go from getting one inbound a day to 10 or 100. And with all of those rungs of the ladder, 90% are not very good, like there's just—they—you shouldn't invest in them or shouldn't even take a meeting.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:10:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Not gonna make it.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:10:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Not gonna make it, yeah. But if you say you get one a day and 10% of those is, you know, worth taking a meeting, you maybe do one meeting every two weeks. If you get 10 a day, you get one meeting a day. If you get 100 a day, that's like 10 meetings a day and you can't meet them all. So then you start to get into this filtering of like, okay, Ben's doing this thing, Jason's doing this thing, Alex's doing this thing. You're like, \"Okay, Alex looks like he's the most relevant founder to build this specific thing that looks the most interesting to me.\" I'll meet Alex and I won't meet Ben and Jason. And maybe Ben actually built the unicorn and Alex failed spectacularly and Jason also was super successful and you just messed up because you got it wrong. So it's—I mean, it's challenging, I think that's the hardest part of it.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:10:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I don't envy you guys because I think every time you pick, you're making several anti-choices and that would haunt me forever if I didn't pick the one that ended up being worth a trillion dollars.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "01:10:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Alex, one of the things that I think we were talking about is is the decrease the number of seed firms and also the decrease in overall dollars allocated to venture from 21 2021 to 2026. But I think one of the things the key drivers of that is there is a whole cohort of companies that did not exit. It is the what everyone's calling the SaaS-pocalypse.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:11:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:11:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And so I, I think we probably most of us have many SaaS companies that have hundreds, hundreds of millions or hundreds of millions of dollars in revenue that did not exit and then now have this trouble, this problem of like, okay, we have hundreds of millions of dollars in revenue, we are now—we are now not growing fast enough to go public, and we have to figure out how exactly to justify the last run valuation if we can even have half of that and how will we exit. So there's a ton of the trapped TVPI that did not become DPI, which became a problem for the entire industry, for the LPs and the GPs alike.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:11:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think they did that jump for so long, I don't know how much, the hundreds of billions for sure.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:12:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "They're trapped there... in...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:12:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I—I was talking to a—a venture capitalist who had one of the hottest—hottest SaaS companies, I think it was Airtable, and this is an incredible company. And you know, that is like 5x or 10x-ed one of his funds. Airtable's doing great, great company, but I'm sure there's a hundred, you know, Airtable killers that are AI-first now. And this is why M&A is so important for an ecosystem. Those companies need to land the plane. And you know, listen, it's not a politics show, but Biden was—you know, specifically picked Lina Khan because she was anti-corporate America, anti-M&A. And man, that put a chilling effect on our industry. And it has nothing to do with Democrat versus Republican; it just has to do with the stupid decision. What they didn't realize about M&A is that if those companies can't exit, then that money can't get recycled to the next series of founders, and then people do not LP venture funds. And it just basically threw a case of wrenches into the machine. They didn't throw a wrench in the machine; they threw a box of wrenches into the machine. And listen, I—I've got plenty of criticism of the current administration. You can listen to All-In where we talk about politics. Um, but the one thing they got right was they said, 'Hey, M&A is on the table, go ahead and go for it. We're going to properly address if it's a monopoly or not.' And I told the administration, I told the previous administration, the current administration, and everybody on my podcast who would listen: anything under $250 billion can buy any other company. What you want to do, and what we want as a—for America and as an industry, is to take the Mag 7 to the Mag 70. The way you create a Mag 70 is by letting Airbnb and Uber and DoorDash merge. Let Coinbase buy, you know, Solana, or Solana buy Coinbase—I don't know whose valuation's more. Let it rip! Let there be another Google. But because they blocked everything, you couldn't have Figma join Adobe. That was the stupidest blockage ever. Who cares if—Figma got bought by Adobe? Who cares if Amazon buys Roomba or a couple of robotics companies? It's so de minimis, it's so irrelevant in terms of competitive landscape. And all it does is make products cheaper for consumers, which is what we're all concerned about: choice and price. Can consumers get what they need for the right price? There is no world in which Figma getting bought by Adobe was not accretive to consumers. And obviously, that all would have been recycled. You're telling me that, like, if Figma got bought by Adobe, they were going to raise the price of Figma 10x because there was no other option? Of course not. They were going to bundle it into the existing bundle.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "01:15:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And it would have been cheaper, and then Adobe would be challenging Microsoft, you know, and their suite of products. It's the stupidest decision ever made to put a neophyte socialist in charge of M&A, namely Lina Khan.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "01:15:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Could not agree more. Could not agree more.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "01:15:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Mind blowing.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "01:15:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I know you do, and I've seen your Twitter account. But bringing us back to startups here and the Airtable point in particular, Jason brought it up, Vince, I want you to be able to defend your portco here. Uh, they launched Super Agent in January of this year and I'm curious how good of a job Airtable is doing bridging us from the SaaS to the AI era. Great company.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:15:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Look, Howie's a great founder and I think he's done two things really well. I think the first is that he's completely pivoted the company in terms of having slow thinking teams and fast thinking teams so that they can build build products in an AI-native way versus like trying to figure out how to peanut butter spread AI across the entire company. And the second is being the plumbing and infrastructure, right, being the plumbing and infrastructure layer rather than, you know, being an LLM or being just in the app layer.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:16:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So I think that let's—I think the jury's still out. I think like—like we've mentioned many times, we're in the first second innings of this thing. So I think there's still a lot of time to watch how it plays out over time.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:16:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Another one of your portcos, Gusto, earlier this month announced something called Co-founder, which is kind of a general purpose agent for SMBs to essentially use all the information they have in the Gusto ecosystem to automate work. Uh, so this is now two of your portcos that are traditionally SaaS that are building broader agents than I expected. Do you think that we see SaaS companies not just agentify their existing consumer customer data but also try to get more of it to go even wider? Because it feels like if these products work, it's a much broader aperture.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:16:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Absolutely. I mean, I think what we talked about earlier about the platform play and, you know, essentially eating all the apps, it's essentially if you have the strategic high ground in a specific area, how do you use that strategic high ground to build more surface area?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:16:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:16:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right? Like the Amazon, Amazon Basics, right? The Google and all sorts of one box and search and AI answers, ",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:16:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:16:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "the Microsoft and the Lotus 1-2-3 to Excel, etc, etc. So I think it's exactly the same thing for every single company. And you have to always think through—so this is one thing that we think through when we're investing in a company is what is the strategic high ground that this company is going to be able to occupy and what monopoly will it have over time? Because if it doesn't have strategic high ground, it'll get eaten by somebody else. And if it has nothing that's scarce, they will have—there will be no value to the company or minimal value to the company with the rare exception when the market is like multiple trillions of market and it's a duopoly situation and so then you're like Coke, Pepsi, you can make a lot of money, but it's otherwise commodity.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:17:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I agree with that.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "01:17:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Turner, your portfolio question's very, very simple. It's just this: what is your favorite startup you've ever backed and why is it Hanover Park?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:17:49",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okay, uh, well, I mean, I think anyone who's a venture investor has used a fund admin. If you're an LP, you've used a fund admin, you've interfaced with them. I mean, on average they were started like before the internet. Like a lot of these things are basically accounting firms and...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:18:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "They just like don't really make software. Their engineering teams are—I mean they don't even call them engineering teams, they're like the IT department. They're, you know, on average they're using like QuickBooks, Excel, maybe you're using like Ramp, Bill.com. They're like manually sending you PDFs and emails. It's just like kind of one of those businesses that just has not really updated to modern times. And for good reason, I mean it was hard, it didn't really work. But with LLMs, you're just able to automate a lot of this stuff and it's pretty simple. It's like literally reading PDFs, making it like digitized and making it data, and then like you automate it like we were seeing with like Clad Co-work. So that's essentially what they are. They're kind of like an AI-native accounting firm for investors. Kind of builds a system of record for the investment firm, and there's just a lot of different products you can build on top of that. Really big contract sizes that they get with their customers. They're winning a lot of deals head-to-head in the market. So yeah, it's a fun one. If you're a VC you should consider—I don't know, Ben and Jason if you guys have talked to him yet—but take a look for your next fund.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:19:07",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Carter, I didn't know where to cut you off in there, but I didn't really want the entire sales pitch on that one, but thank you for that. We can, we can trim that down in post. And dear god, is this startup your child? Like I feel like you rave about this like it literally made you.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:19:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes. The answer is yes. The answer is yes.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "01:19:19",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okay. All right. Uh, this is child. They're all, I mean, you...",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:19:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "One of the great arts I think of being a great early-stage investor is your whisper network, and we actually call it the whisper network internally. And to this day, when something's breaking out of my portfolio, I will just—I will not even tell the founder I'm doing this. I will just text Antonio Gracias from Valor. I will text Roelof and say, 'Here are the two breakout companies we have this year. Check out Micro1, check out Abacus, check out Autolane.' Those are the three I've been sending. And it's not if they're raising money or whatever, I just send them because I think they're doing something super interesting. And I say, 'Hey, I think one of these will be the next Uber or Robinhood. I got a really good feeling about these three.' And I just send them the link, and I'll send them a link to a video of the founder or I'll send the deck or whatever I happen to have available. And we built a piece of software called the Whisper Network internally. We have like 12 people on the investment team now, we're adding these five so it'll be like 15-16 people. And then in the Whisper Network, we have every investor and then the founders can go in there, click who they want an introduction to, and then we just process the introduction. They put in what their collateral they want to send is and then we forward it on. And we're trying to keep track of that. So when somebody—Alexis Ohanian has this thing called Cerebris, he built a system for his team to keep track of every time, like a law firm does, they do something for their founders. So then they share that with their founders. 'Hey, here's all the things we did for you. We retweeted this, we introduced you to this person, we recommended these three people for this job.' And...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:21:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And now we're keeping track of it, so we can say to a founder, hey, we introduced you to 127 investors. How else can we be helpful? And man, that has really helped our relationship with founders as well, because sometimes a founder will be like, oh my God, you know, what have you done for me lately kind of thing, they're in a stressful moment and they're like, you're not investing in our new company. And I'm like, or in our new round. And I'm like, well we're early stage. We can't be your permanent source of capital, but we can introduce you to people. We've introduced you to 127 people. And I got into it with one founder who was like, so it's my fault I didn't raise? I said, and I have a little text expander on my computers and it's QC. And when I type QC into a message, it says, quick call if you have a moment, please, with my phone number. And they call me and I said, listen, you asked me a question. Is it my fault I didn't raise my next round? And the answer to that question is yes. That's your job. You have to close these deals. I can get you any meeting. I can get your deck in front of anybody. But it is your fault if you didn't close the round. It is not my fault. The firm has introduced you to, and in this case, it was over 100 people. So what you need to ask yourself is what in your pitch, product, performance, team, whatever it is, has made you not be able to close? And I am willing to sit with you for however many hours it takes to fix those problems. But it is your responsibility. I literally, and it was contentious, and the founder's like, well this doesn't seem very founder-friendly. I'm like, let me tell you something, in five years--",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "01:22:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That's the most founder-friendly thing you can do, give them honest feedback.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "01:22:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Bingo. I said, you're going to email me in five years, if this company succeeds or fails, and you're going to say to me, thank you for being candid with you. And it might be hard to hear it from me that you failed at your fundraising, but I'm telling you because I care about you. And listen, we have LP money in this. We want to see you succeed. You've got to step up your game. You've got to get better performance. All you need to do is put together 12 weeks of 5% growth, week after week. It was like, you know, a product that you could show that for. It was a consumer product. And he's like, I, you know, he was not happy in that phone call. A couple of months later, he did it. He closed the round. Here we are, you know. It's just hard to be a VC because you know what? And a lot of VCs are sugarcoating all this stuff. And I think the tension of investor to founder is very real, and it's not talked about enough. And it's very easy for founders to get frustrated with their investors, and it's very easy to dunk on VCs. Remember we had this like three weeks ago when everybody's dunking on Vinod Khosla. Vinod Khosla's dedicated his life to backing founders and they're torching him. Matthew Prince, everybody torching him. And I'm like, okay, fair enough, but like why do that publicly? If he's a hard personality, fine, but he's also the GOAT, you know? He's like one of the GOATs of the industry. You should be thankful that he took the meeting.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:24:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What do you think, Ben, of that whole thing?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:24:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, I agree. I think that it's tricky to be a VC in today's environment. One of the things that we do, though, is we tell our founders during the pitch meeting, before we invest, all the good things and bad things that we hear about us. So, you know, including like the good things, like being having a very wide network, because I think one of the things you talk about is the network. We have a product council of over 100 LPs who are executives in product, growth, sales, operations, engineering, CEOs, etc., who are all invested in the fund. Um, but we tell them the bad thing is that we're very intense and we're going to tell you exactly what we think, um, and whether it's right or wrong, but we'll let you make the decision. And so we give them the feedback, like it's the unvarnished feedback, um, just like what you like—for example, the feedback you gave there, how I said it's kind of like the best thing you can do for a founder, that's the most founder-friendly thing you can do. Um, and so we tell them that. And so I think a lot of our founders self-select—we have that matching algorithm before we get matched—of, can you handle the tough feedback? Are you open to the tough feedback? Because if you're open to it—and, you know, we're not always right, we tell them we're not always right—but we'll give you the feedback and then you figure out what to do with it. We trust you to figure out what to do with it, but, you know, we're not going to hide the feedback because I think in today's society, like, you know, you get torched for saying something that people just disagree with you for, and we can't have that. We need to be able to disagree. We need to be able to say, like, here's a perspective, etc., etc., and then consider the various points of view, and then the founder can decide which direction they want to take.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:25:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Turner, you've been in this industry. How many years you've been investing, Turner?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:25:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I, uh, raised my fund at the end of 2020, beginning of 2021, so by objective metrics, the worst possible time.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:25:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, I mean, uh, or maybe the best because you're going to be hardened and if you really believe in doing this, you've got to, like, weather a storm. So I think if, yeah, I think that's what I would take away from it. But how have you handled the founder relationships? And you grew up in the era of founder-friendly, you have to coddle founders, you have to, you know, and are you at a point in your career where you feel comfortable giving, you know, the hard, hard, having the hard conversations? Have you had to have hard conversations and how do you manage that aspect of the job? Ben and I are old school OGs, we've been around the block, we're not afraid of having that conversation or, I think I can see this in Ben, like, he'll take the short-term reputation damage or the relationship damage in order to have the long-term respect and outcome. How are you managing it as a decade-one investor and do you think about it at all?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:26:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I mean, I think about it a little bit. I think I just try to be really responsive and kind of just be there when the founders need me. So I don't think I ever run into a point where you have this, like, standoff, really bad fallout. I mean, like, there'll be cases where somebody, they're going out to raise their Series A and I'm like...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:27:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'll be honest, like this seems like a pretty hard setup because of these reasons you probably need to have these other things going on and I'll just kind of be pretty transparent is like this is just my opinion. And then they raised like a crazy series A and like, 'holy shit, congrats, like what did I know?' So, uh, that's probably been the biggest thing is when I like try to almost give like a tough love type of like hard conversation and I'm wrong. So I and that's why you just it's just finding founders where you're like holy shit they really got this done and the company's doing really well too now. So again it's like what do I know? I'm just some random...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:27:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Ben, how do you handle the same situation? You got a founder trying to do something completely delusional, you gotta give them advice, but you know there's a 5% chance, 10% chance, 20% chance they might pull a rabbit out of a hat. So how would you advise Turner or a mentor Turner to handle those situations? How would you frame the discussion?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:27:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "What we do is we basically outline the options. We see there's option A, option B, option C. You think it's option A, we think it's option B. Here's why. We can have a conversation around it and we say at the end of the day, you're the CEO, you're the founder, this is your decision. You decide. And then we just get in the boat and row with them. Because we gotta row with them at that point in time because you can disagree and commit, right? Uh and once you've committed you gotta row, but then we just say just keep your eyes wide open because if this is not the right path, we as a company need to be able to know how to turn around or turn different direction, right? So it's but we have that honest, open debate and allow it to happen. Uh but we let the founders decide.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:28:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "See I think this is the perfect framing Ben, um is your telling them like, hey, here's the decision tree. This is where I stand on it, this is where you stand on it. Is there anything else I can do to help you make this decision? If not, make the best decision you can, let's monitor it and we will, you know, disagree and commit with whatever you choose. I think it is beautifully stated, um and that's what founders need. They don't need sycophants. If you've seen the movie before and you've if you know, you know, you're the person working in F1 and you know this turn on this track is where people spin out, it's your obligation to tell them, hey you're going very fast, the people I've seen take that turn that fast flip the car. You might be the person who figures out how to take that turn at speed, but the other three people I've seen take the turn at that speed flip the car. Is there anything we can do to help with the tires on the car or make this decision or practice with you? But if you want to try that turn faster than anybody's ever done it, you might be the person who figures it out. I mean I've had this discussion so many times. And you know what? Nine times out of ten, the car flips. The good news is, I always tell people, hey if you fail at this startup, my only request, my only request, in fact it's a demand, is that when you have your next idea you come to me first. Because you're a great founder, uh and we'll back your next company. Just do as good a job as you can on this one, you know? I don't know if you guys saw it, we're going to wrap with this which is snap, not Snapchat, but Snap, the camera company...",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "01:30:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Meta, aka the social media company, has a new set of hardware out. And as we've seen thus far, most AI hardware kind of flops, but in this case guys, it's a company famous for being cool, so take a look at what they've put together.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:30:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "A little dramatic.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:30:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Camera... okay. Elvis Costello glasses.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "01:30:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, so there's a phrase in the army called BCGs, because they give you glasses that are kind of standard issue, and BCG stands for birth control glasses, because they're so thick and unattractive that no one's gonna touch you. That's the impression that I got from these. Now, I do want to say, they are an impressive technical specimen. They do quite a lot. They cost about $2,200. Ben, have you put in a preorder or is this not something you're going to put into your Miami wardrobe?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:30:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I have not put in this to my preorder and is not going to be in Miami wardrobe.",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "01:30:56",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okay, that's pretty affirmative. Turner, you're more of a dork like me. What do you think?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:30:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think we need to see how they work. Like, what can they actually do? I hold my judgment until actually seeing how capable they are.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "01:31:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "An excellent question.",
+      "tone": "approving"
+    },
+    {
+      "timestamp": "01:31:07",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So here's an example of what they can do. I think I think one of the key things in consumer though is that the things got to look good to have mass mass adoption. I mean, I remember Google Glass, so I was at Google when we were doing Google Glass and I was like, guys, like, who's ever going to put this thing on their face? Nerds. I'm like, people pay $1,000 or more to get, you know, lasers shown in their eyes and risk blindness with LASIK so they don't have to wear glasses. And you're going to ask people to put this thing on your face? And so it's I think I think Meta actually got it done pretty well with the Ray-Ban partnership. Those things look good. And I know a lot of people that have them, especially in Miami. People like they they were wearing them all over the place. But I do think that like what you if you called it something, I don't know what the acronym was, Alex, but...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:31:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, BCGs.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "01:31:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "BCGs. Yeah, I'm not sure that they are I mean, technically, I mean, they may be an excellent prototype or an excellent technological feat, but it's unclear whether it's going to be a fashionable choice.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "01:32:07",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I don't think it's going to be high fashion, but I do like that they've made it with no puck or tether. So it's not like a device that plugs into your belt. At least it's self-contained. I'm skeptical at the price point. I don't think they're going to have a lot of takers here. But Jason, I'm curious, take us out with your view here. A flop, a win, or a good direction?",
+      "tone": "evaluative"
+    },
+    {
+      "timestamp": "01:32:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, first off, I know the exact moment that Google Glass failed. Here it is. That was it. When Robert Scoble put these on and went into the shower. That killed Google Glass. Um, that is that is what you don't want is Robert Scoble topless wearing Google Glass in a Motel 6 shower. I mean, it look, I think three people have been murdered in that shower in that hotel room. I mean, look at the I mean, just really, really hard to look at. Um, here's what I'll say. I think AR is a winning model. I think that is the winning model. I think VR nobody wants except for a like very...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:33:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "weird people who like even gamers hate VR. So, you know, interesting technology, but AR where you can see through them, I feel like Evan Spiegel is a product genius.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "01:33:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I feel like he's mismanaged Snap as a publicly traded company with super-voting shares and they've their stock-based compensation, their stock-based comp has been crazy.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "01:33:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think he's one generation away from making these work. I think this is a waypoint.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:33:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right, right.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "01:33:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, so I think he's one generation away. I give him credit for being bold enough to release the product, to release it at the price it needs to be. He's probably losing a couple hundred bucks on each one. I think he needs to run that company for profitability and keep pulling the string if he thinks this is the future. Get rid of all the stock-based comp. I know he downsized the company a little bit. The company could be managed as a public company better. I'll put that aside. He knows that, I believe, because the stock has been so depressed.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "01:33:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But he is a product genius. A lot of the great features of Facebook were literally stolen and photocopied, whether it's stories or ephemeral chat. So he is a product genius. He seems to be laser-focused on this. So I'm gonna give him the benefit of the doubt, I think he's one generation away. I'm tempted to buy them because I do think that he, like I said, one generation away, and I do think Apple will have a similar product. I think they're maybe two generations away. And Ray-Bans, they... you're correct Ben, they nailed the look of it.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:34:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think... yeah, I think he's one generation away from making it work. And I'm... if I was on the board of the company, I'd be like YOLO it. Our stock's at five bucks. We've got cash, we've got smart people. Go for it. Let's see if it works. Throw the Hail Mary or, you know, whatever. It might be a three... it's more like a half-court shot than a Hail Mary, but you know, I think he can hit this shot.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "01:34:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's definitely the future. It's definitely the future. We will absolutely have these devices that we will wear and be able to augment and be able to have AI capabilities, 100% the future. Whether it's one generation away or three generations away, I don't know exactly yet because the price point also, the form factor has to get small enough to not be BCG as you call it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:34:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:34:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And then the price has to be low.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:34:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:34:38",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Under a thousand bucks. Lastly, I mean the counter-argument to that is the iPhones cost a thousand dollars, right? So...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:34:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, that's why I picked a thousand.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "01:34:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But those took... it took us a while to get there.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:34:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "They boiled the frog.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:34:49",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Exactly. With a three-year lifespan, a buck a day, if this thing lasts for three years, if your phone lasts for three years, or if you sell it for a third of the price and you're, you know, out every two years, you're still at a buck a day. I think a buck a day is the right price if you were to abstract this. Let's do...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:35:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think it depends what it does. Like, does it... does it do anything useful? I think that's the real question.",
+      "tone": "pensive"
+    },
+    {
+      "timestamp": "01:35:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, go ahead Al, show what it does. You had a couple of examples of the app layer.",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "01:35:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I just... I figure I show this off. Snap...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:36:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It had a lot of noise about its developer support and how it's trying to help get more lenses built, I think is the app term of art. This example shows, this is from a video I took a still from it, this shows essentially someone using the glasses with a projected display in front of them. And in this example, they're using their hands to expand and contract the map, which is mildly more useful than holding my phone up in front of my face, but not too much. So I'm not quite sure why this is the killer use case. But I will say I agree with everyone here that AR in general is a really magical thing to use. I'm just not quite sure this is the thing that I needed in my life.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:36:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think the virtual desktop is the better example that the dorks who bought the Apple Vision Quest Pro and whatever, like they all share with me the same thing, which is like, I have unlimited monitors. And I was talking to a friend of mine who's like a real nerd and he said he, if it wasn't for the weight, he would use it instead of having a desktop computer because the fidelity is so great and he can have so many windows open. So like this wide screen monitor where you're watching a YouTube video, you're typing, you're doing a ChatGPT window, all those multi-window things look great. Listen, we're running out of time here. I always like to end the show with what we've learned today. This is a new feature. What we've learned today in generative AI. Number one thing we've learned, Lon, whenever you're ready.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:37:19",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, you want me? Is this a prompt?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "01:37:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Here we go. We've learned that Ben hasn't upgraded his system since the Mac versus PC era. There's Ben with his...",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:37:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Wait, where'd you get that from? Wow, where'd you get that?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "01:37:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, we went on your Flickr account. These are old photos.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:37:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Deep pull. Nobody knows what Flickr is anymore.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:37:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I know. People are like, 'What's Flickr?'",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:37:47",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "What's Flickr? Yeah, I mean just look up the Wikipedia page.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:37:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Here, 'The Lives of Others', Sam Altman, always listening. Apple sometimes knee-caps their own apps on purpose. There's your guy Tim Cook, angling himself, I guess. I would have gone with the misery, you know, AI slot for that one. If you didn't know, I was an early investor in UberCab, we learned that today. Tokens are the new hard drives, that's something we might have learned. Walmart doesn't need AI to be native, that's a deep pull. Very well done. Peacocking makes you look less serious. And remember the 4 Ds: deal flow, decision making, doubling down, distributions. Don't start a seed fund, and you need to discover gems. And there's Turner, Raiders of the Lost Seed Round. And finally, Snap might way to make Specs happen.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "01:38:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Hey, as we end the program, we had another guest on the panel, a good friend of mine, Joshua Baer. He died yesterday in a tragic flight. I found out before the show. Josh Baer was one of the great supporters of startups in the history of the technology industry. He was a dear friend of mine. I'm kind of in...",
+      "tone": "somber"
+    },
+    {
+      "timestamp": "01:39:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's hard right now and I'm still processing it. I want to say a few words as we wrap up here about Josh as a human. When I was thinking about moving to Austin during the pandemic, he was so excited. And I just found some DMs and it was during COVID to date this, and we were going back and forth talking about when I could come for a visit, and he was going to help me find a home, and he was going to help find schools.",
+      "tone": "somber"
+    },
+    {
+      "timestamp": "01:39:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And he said to me when I moved here, 'Anything I can do to support you, I have some office space for you.' And I said, 'I'd love to take you up on that offer.' And our office to this day is at Capital Factory. Then he refused to let me pay rent. This is the mensch of all mensches. I said, 'I can afford to pay rent.' He refused. He said, 'Having you in the building is an incredible draw.'",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:39:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "He was texting with me yesterday, so excited to come on the pod and talk about the startups. And one of my team members showed me this tweet from 2017. This is September 12, 2017, from Austin, Texas, the town he championed, Joshua Baer. 'My life strategy: 1, plant lots of seeds; 2, water everyone; 3, repeat.' If that doesn't encapsulate the spirit of Silicon Valley and the way we help each other, the way we support each other, I don't know what does.",
+      "tone": "somber"
+    },
+    {
+      "timestamp": "01:40:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And rest in peace, Josh Baer. Gonna miss you.",
+      "tone": "sad"
+    },
+    {
+      "timestamp": "01:40:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Our condolences go out to Josh's family, all of our love.",
+      "tone": "sincere"
+    },
+    {
+      "timestamp": "01:40:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes.",
+      "tone": "somber"
+    },
+    {
+      "timestamp": "01:40:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And thanks to our guests Ben and Turner, you guys were fantastic. We'll see you all next time. Thank you.",
+      "tone": "professional"
+    }
+  ],
+  "highlights": [
+    "The technology landscape is entering a new era of M&A, where strategic acquisitions are revitalizing the venture capital market by providing much-needed liquidity and exit opportunities.",
+    "Startups face significant \"platform risk\" from foundation model providers who may analyze partner token usage to build competing application-level products.",
+    "There is a growing trend toward \"headless\" AI architecture, where developers use model routers to switch between frontier and open-source models to optimize for cost, privacy, and task complexity.",
+    "Future enterprise productivity will likely shift toward high-performance local workstations that run open-source LLMs, allowing companies to process data securely without relying on expensive cloud-based token fees.",
+    "Providing unvarnished, \"tough love\" feedback is considered the most founder-friendly action an investor can take, as it forces entrepreneurs to address critical flaws in their pitch or product."
+  ],
+  "summary": "This transcript from a June 2026 episode of *This Week in Startups* features a venture capital roundtable discussing the shifting landscape of AI, M&A, and the startup ecosystem. A primary focus is SpaceX’s $60 billion acquisition of the AI coding platform Cursor. The panel characterizes this as a strategic move by Elon Musk to control the developer IDE and leverage SpaceX’s \"Colossus\" compute power. This deal serves as a backdrop for a broader discussion on the \"golden era of M&A,\" with the panelists arguing that the return of big-tech acquisitions is essential for recycling venture capital and resolving the \"SaaS-pocalypse\"—a period where many high-revenue SaaS companies have remained trapped in portfolios without viable exits.\n\nThe conversation also explores the technical evolution of AI, with Jason Calacanis predicting a major shift toward local compute. He suggests that by 2027, the industry will move away from centralized frontier models toward high-performance local workstations and open-source \"headless\" models to avoid platform dependency. The investors emphasize that startups must utilize \"model routers\" to remain agile and avoid being \"shivved\" by platform providers like OpenAI or Anthropic, who often absorb successful third-party applications into their native features.\n\nFinally, the panel addresses the current state of venture capital, noting a decline in seed-stage graduation rates to Series A and the importance of \"DPI\" (Distributed to Paid-In Capital) over \"TVPI\" (Total Value to Paid-In Capital). They advocate for a \"tough love\" approach to founder relationships, asserting that providing unvarnished, critical feedback is more \"founder-friendly\" than coddling. The episode concludes with a review of Snap’s new AR Spectacles—viewed as a technically impressive but aesthetically challenged waypoint toward the inevitable AR future—and a somber tribute to the late Austin tech champion Joshua Baer.",
+  "description": "This Week In Startups is made possible by:\n\nDeel - https://deel.com/twist\nLinkedIn - https://linkedIn.com/twist\nNorthwest Registered Agent - https://northwestregisteredagent.com/twist\nPlaud - https://Plaud.ai/twist\n\nToday’s show:\n\nAnthropic stabbed Cursor in the back. Then SpaceX swooped in with $60 billion. Today, TWiST connects the dots on the biggest deal in AI since the Microsoft-OpenAI partnership, and why it's a warning sign for every startup building on top of a frontier model. Jason is joined by Bling Capital’s Ben Ling, Banana Capital’s Turner Novak, and co-host Alex to go deep on the future of coding models, the current golden age of venture liquidity, OpenAI’s financials, and the ‘Four Ds’ of venture investing. The show closes with a tribute to Josh Baer, the founder of Capital Factory.\nGuest Links:\nBen Ling https://x.com/bling0?lang=en\nBling Capital https://www.blingcap.com/\nTurner Novak https://x.com/TurnerNovak\nBanana Capital https://www.bananacapital.vc/\nShow Links:\nHanover Park https://www.hanoverpark.com/\nSpaceX buys Cursor https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html\nCursor Composer 2.5 https://cursor.com/blog/composer-2-5\nOpenAI financials source https://www.wheresyoured.at/exclusive-openai-financials/\nAMD’s new deskside data center https://www.amd.com/en/products/processors/desktops/ryzen/ryzen-ai-halo.html\nPerplexity Model Council https://www.perplexity.ai/hub/blog/introducing-model-council\nOpenRouter Model Fusion https://openrouter.ai/blog/announcements/fusion-beats-frontier/\nExo Labs https://exolabs.net/\nSnap Specs https://www.specs.com/\n\nTimestamps:\n\n0:35 Guest introductions\n2:03 SpaceX acquires Cursor for $60B\n5:33 The golden era of M&A\n8:33 Northwest Registered Agent: Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity — Learn more at https://northwestregisteredagent.com/twist\n11:24 Cursor's negative gross margins & the compute problem\n12:42 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n14:24 Rolling your own model: When does it make sense?\n18:55 LinkedIn: Thanks to our partners at LinkedIn! Post your job for free at https://linkedIn.com/twist then promote it to get access to LinkedIn Jobs' new AI assistant.\n22:13 The \"headless product\" thesis\n27:51 Deel: Founders scale faster on Deel. Set up payroll for any country in minutes, hire anyone anywhere, get visas handled fast, and get back to building. Visit https://deel.com/twist to learn more.\n33:42 OpenAI financials leaked: $13B revenue, $38.5B net loss\n39:33 Where does AI value accumulate?\n44:54 Portfolio Spotlight: Hanover Park\n47:57 Seed stage graduation rates have fallen from 50% to 25%\n54:19 The four Ds of venture: Deal flow, Decisions, Doubling down, Distributions\n1:05:56 How to find 'undiscovered gems'\n1:30:19 Snap Specs AR glasses: $2,195, and a bit chunky\n1:38:49 Tribute to Joshua Baer, Capital Factory's founder\n\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+  "duration": 6025,
+  "people": [
+    "Jason Calacanis",
+    "Lon Harris",
+    "This Week",
+    "In Startups",
+    "Northwest Registered",
+    "Bling Capital",
+    "Ben Ling",
+    "Banana Capital",
+    "Turner Novak",
+    "Four Ds",
+    "Josh Baer",
+    "Capital Factory",
+    "Guest Links",
+    "Show Links",
+    "Hanover Park",
+    "Cursor Composer",
+    "Perplexity Model",
+    "Model Fusion",
+    "Exo Labs",
+    "Snap Specs",
+    "Portfolio Spotlight",
+    "Joshua Baer",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason",
+    "Will Guidara",
+    "Steve Huffman",
+    "Brian Chesky",
+    "Bob Moesta",
+    "Aaron Levie",
+    "Sophia Amoruso",
+    "Reid Hoffman",
+    "Frank Slootman"
+  ],
+  "topics": [
+    "SpaceX's acquisition of Cursor and the competitive landscape of AI coding models",
+    "Analysis of OpenAI's leaked financials, revenue growth, and profit margins",
+    "The state of venture capital including declining seed-stage graduation rates and M&A trends",
+    "Strategic choices for AI startups between using proprietary frontier models versus open-source solutions",
+    "The launch and future potential of Snap's AR glasses and AI wearable hardware"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/o3eow1nTrcI/maxresdefault.jpg",
+  "date": "20260618",
+  "youtube_url": "https://www.youtube.com/watch?v=o3eow1nTrcI",
+  "youtube_metadata": {
+    "title": "Why SpaceX Buying Cursor Changes Everything",
+    "description": "This Week In Startups is made possible by:\n\nDeel - https://deel.com/twist\nLinkedIn - https://linkedIn.com/twist\nNorthwest Registered Agent - https://northwestregisteredagent.com/twist\nPlaud - https://Plaud.ai/twist\n\nToday’s show:\n\nAnthropic stabbed Cursor in the back. Then SpaceX swooped in with $60 billion. Today, TWiST connects the dots on the biggest deal in AI since the Microsoft-OpenAI partnership, and why it's a warning sign for every startup building on top of a frontier model. Jason is joined by Bling Capital’s Ben Ling, Banana Capital’s Turner Novak, and co-host Alex to go deep on the future of coding models, the current golden age of venture liquidity, OpenAI’s financials, and the ‘Four Ds’ of venture investing. The show closes with a tribute to Josh Baer, the founder of Capital Factory.\nGuest Links:\nBen Ling https://x.com/bling0?lang=en\nBling Capital https://www.blingcap.com/\nTurner Novak https://x.com/TurnerNovak\nBanana Capital https://www.bananacapital.vc/\nShow Links:\nHanover Park https://www.hanoverpark.com/\nSpaceX buys Cursor https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html\nCursor Composer 2.5 https://cursor.com/blog/composer-2-5\nOpenAI financials source https://www.wheresyoured.at/exclusive-openai-financials/\nAMD’s new deskside data center https://www.amd.com/en/products/processors/desktops/ryzen/ryzen-ai-halo.html\nPerplexity Model Council https://www.perplexity.ai/hub/blog/introducing-model-council\nOpenRouter Model Fusion https://openrouter.ai/blog/announcements/fusion-beats-frontier/\nExo Labs https://exolabs.net/\nSnap Specs https://www.specs.com/\n\nTimestamps:\n\n0:35 Guest introductions\n2:03 SpaceX acquires Cursor for $60B\n5:33 The golden era of M&A\n8:33 Northwest Registered Agent: Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity — Learn more at https://northwestregisteredagent.com/twist\n11:24 Cursor's negative gross margins & the compute problem\n12:42 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n14:24 Rolling your own model: When does it make sense?\n18:55 LinkedIn: Thanks to our partners at LinkedIn! Post your job for free at https://linkedIn.com/twist then promote it to get access to LinkedIn Jobs' new AI assistant.\n22:13 The \"headless product\" thesis\n27:51 Deel: Founders scale faster on Deel. Set up payroll for any country in minutes, hire anyone anywhere, get visas handled fast, and get back to building. Visit https://deel.com/twist to learn more.\n33:42 OpenAI financials leaked: $13B revenue, $38.5B net loss\n39:33 Where does AI value accumulate?\n44:54 Portfolio Spotlight: Hanover Park\n47:57 Seed stage graduation rates have fallen from 50% to 25%\n54:19 The four Ds of venture: Deal flow, Decisions, Doubling down, Distributions\n1:05:56 How to find 'undiscovered gems'\n1:30:19 Snap Specs AR glasses: $2,195, and a bit chunky\n1:38:49 Tribute to Joshua Baer, Capital Factory's founder\n\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+    "duration": 6025,
+    "view_count": 12856,
+    "like_count": 278,
+    "channel": "This Week in Startups",
+    "upload_date": "20260618",
+    "thumbnail": "https://i.ytimg.com/vi/o3eow1nTrcI/maxresdefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

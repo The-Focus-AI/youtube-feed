@@ -1,0 +1,652 @@
+{
+  "title": "Braintrust CEO: Evals are the new PRD for AI products",
+  "source_url": "https://www.youtube.com/watch?v=QE_1hRLsehM",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "I'm still in, if I say the year of our cloud 2026, I still talk to engineers that say AI on our most complicated things cannot do a good job.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:00:08",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "I so viscerally disagree with that. There's no staff engineer who is running as many rigorous benchmarks and trying out different algorithms and analyzing ideas manually than someone who's using an agent. Everyone should take a hard look in the mirror and re-evaluate how they spend their time. There's a lot of interactions that you have or direction that you're giving or decisions that you're making and I think like many of these things to me fit below the agent line. And I think the agent line keeps going up.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:00:35",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Why do you think this concept is so important to understand, and how can you demystify it for folks who are a little intimidated by it?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:00:42",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Now that models are so good at actually writing code, one of the best things that we can do is create really hard evals. And if you create the right tests and success criteria for a model, then it can be really creative and it can work on the stuff in the background and actually try to improve a bunch of things.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:00:57",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "I have a lot of people saying, 'Wow, if I go as so far as to turn my own taste or my own skill or my own expertise into a system, I'm functionally just building my own replacement.'",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:01:12",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "We're able to have David's palette applied to more things. I think the quality bar that we're able to hit is higher because we are able to get more things to that bar.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:01:21",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Welcome back to How I AI. I'm Claire Vo, product leader and AI obsessive, here on a mission to help you build better with these new tools. Today I have Ankur Goyal, the CEO of Braintrust, and this is a technical one, so if you're a senior or staff engineer or a VP of engineering or CTO, this is one you're really going to want to pay attention to. And we're going to talk about how coding agents can help you bite off really technical architecture and infrastructure work in a way that no other human engineer could before. We're also going to demystify evals for folks and just show you exactly how you can use them to make your AI products better without having to touch a thing. Let's get to it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:59",
+      "ad": true,
+      "speaker": "Claire Vo",
+      "text": "This episode is brought to you by Guru, the AI layer of trust for your company's knowledge. Here's the problem: Your AI is only as good as the information you feed it. Most companies are getting confident but wrong answers from AI because their underlying knowledge is outdated, incomplete, or just plain incorrect. Bad information doesn't just slow you down, it costs you money and puts you at risk. Guru solves this by adding a verification layer between your company's knowledge and AI tools. Instead of just hoping your AI gets it right, Guru automatically scores content for accuracy, flags outdated information and ensures your team gets trustworthy answers every time. It works with the tools you already use, so you don't have to change how you work. Thousands of companies trust Guru to keep their AI accurate and compliant. Ready to stop playing Russian Roulette with your company's knowledge? Visit getguru.com.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "to learn more. Welcome to How I AI, I'm excited to have you here.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:03",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "I'm super excited to be here. Thanks for having me.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:06",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "So I'm gonna make you laugh but I recently did an episode about the recent GPT 5.5 model release and I know you and I use Codex and one of the funniest comments in that post was 'Claire can you do an entire episode about tech debt?' and we were talking before we got on the recording you're like 'How technical and how nerdy is this audience?' and I'm like 'Bring it on'. So we are going to talk a little bit about how you approach engineering and then how you use AI to do things like optimize slow queries. So let's, let's hop in. Tell me, tell me about your approach to software engineering in the age of AI.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:03:55",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "You know, I spend a lot of time working on software for doing evals and observability, and that's kind of shaped my own perspective about software engineering. Like now, now that models are so good at actually writing code, one of the best things that we can do is create really hard evals, and no I'm not talking about like AI evals, I mean things like 'Why is this query so slow?'. And if you create the right tests and success criteria for a model, then it can be really creative and it can work on the stuff in the background and actually try to improve a bunch of things. So one of the things that I spend a lot of time on right now is making the queries that people run in our product faster. And people can just write arbitrary queries, like, you know, they can... there's an example of someone's trying to find like needle in a haystack of some specific kind of interaction someone had in their product and they're looking at like billions and billions of traces and they want to find like the 5,000 or something that match and this is over like a 90 day period or something, like a lot of data. And that's one example of a query and like, okay, there are all these things that you can do in database literature, like different indexes you can build and different ways you can pre-fetch data and blah blah, all this stuff. But how do you try all those things and how do you run all the experiments required to actually do something like this? So what we do, and what I personally spend a lot of time working on, is trying to figure out, you know, manually is fine, but automatically is even better. Like what are the patterns of queries that people are running that are slow, and then we will reproduce those things and use a coding agent to try out a bunch of ideas from database literature, so like download a bunch of data locally and then maybe try different... in this case right now I'm trying out different column store formats. So we use an index underneath the scenes called Tantivy, which has a built-in column store, but it's not that great. Like the thing overall is great, but their column store is not like that great. And so what we're doing right now is like exhaustively trying every open source column store format out there and then exhaustively trying...",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "...every column store execution engine out there and sort of computing the matrix of this, and I told, you know, it's like, it's amazing.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:06:08",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "I completely agree. As somebody who has led engineering organizations for a really long time, when you're trying to make infrastructure, platform, core component changes in your application, because of both the cost of implementing those being very high and then the unknown unknowns being quite risky, teams are actually pretty risk-averse in terms of making big platform shifts or changes to their core implementation. It's like the thing that you shipped is the thing that you get stuck with, certainly on the engineering side. And what I love about AI right now and these coding agents in particular, and then Codex in particular-particular, is it has been the only setup—Codex plus these GPT models has been the only setup where I have been able to set up a very similar process, which is the outcome I want is XYZ. We need to programmatically test against pretty long-tail data structures to figure out which of these potential solutions are going to get us closer to the outcome we want. In your instance, it's database query speed and latency. In my instance, I was doing a very—you can appreciate this—very complex data migration of, like, stored structured and unstructured data generated by AI, so it was all, like, messed up to begin with, and then I had to migrate it to a schema. And so it was, like, schema-to-schema migration, millions and millions and millions and millions of rows, and lots of edge cases. And doing that as a human takes forever. Not—you know, you can script it and you can, like, bang some systems against it, but then your human ability to manage those cycles and say, 'Yes, that's right,' or 'No, that's wrong,' or 'This gives us indication that we should go left,' or 'That gives us indication we should go right.' And so I do feel like this combination of, like, a very precise outcome and an agent that's smart enough to bang its head against a really, really long tail of problems with a guided sense of the technical space, it does really well. And I have not heard this on the kind of, like, data store side. It's really interesting. But I just think, hey, engineering leaders out there, I've had—I've been in so many debates about what we're using for our data store, how we optimize performance, what technologies we should bring into the stack versus not. And you can run those, like, very, very iterative loops on—I'm presuming you're using production-like data, or real representative queries to test that. Is that right?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:49",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "You can actually use production data, too, but for some subset of things and with the right engineering in place, you can just run on production data.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Yeah. Yeah. And in many ways it's a lot safer than having humans...",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "...test on the production data because no one's looking at it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:03",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Yeah, and this is where I have so many staff engineers be really, really cynical about does AI have a place in their coding tools. I'm still in, as I say, the year of our Claude 2024, I still talk to engineers that say AI on our most complicated things cannot do a good job.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:09:26",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Oh, I so viscerally disagree with that.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:09:30",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Same. Tell me why you disagree.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:32",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Well, I mean I think so I've been working on databases for almost two decades. There's not many things that staff whatever risk-averse blah blah blah all that stuff you could apply to them like literally building a database. If you work on a database, uh we recently added this like fancy index thing into BrainTrust that uses bloom filters. And by the way, we discovered that that would be a practical solution to the problem after running like a week of continuous experiments with different types of indexes. Bloom filters kind of have a bad reputation but they they worked out to be very effective in this case. So if you if you build something like that, usually what happens is the very best engineers will run a few benchmarks and then you'll send it to your peers and then your peers will shit all over it and rip it apart and say you didn't benchmark this, you didn't benchmark that. And what you do is you prioritize the top few benchmarks and then you probably bullshit the rest. Like oh I, you know, I didn't benchmark this, however, if you read the code you'll see it's not n-squared, it's log n. And and like half the time you're wrong. Now there is no excuse to not do those benchmarks. So now I love it like we don't I'm not spending my time like sitting and like typing the benchmark code, but I'm talking to people we're looking at the code we're looking at the thing we're like okay well we index we benchmarked how much faster it makes the queries, did we actually do a good job of benchmarking how much slower it makes indexing? Oh shit, no we didn't do that. And so we actually spent some time doing that and we discovered that we were doing a terrible job at indexing it efficiently and so we spent a lot of time on that. And I I could sort of I don't agree with this I could some I can empathize with the argument that models aren't good at writing highly concurrent code or they're not good at writing very performance-sensitive code, but the I there's no staff engineer who is running as many rigorous benchmarks and trying out different algorithms and analyzing ideas manually than someone who's using an agent. And even that baseline is just incredible.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:33",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "I agree and I think there's this theoretical quality and then there's this practical quality, right? Which in a theoretical ideal world in which we don't sleep and every time we sit down at our laptop we we end up writing perfect code in a theoretical world in which those benchmarks are all of them are run not just the BS ones like in that theoretical world you could theoretically say perhaps in some untested case you get better quality when...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "When humans are hands-on. But the practical application is you lose contact over like the humans lose contact on the problem over days. You have a decaying attention span towards hard but tedious problems. And so I do think the practical quality goes down and and so I tell people like the practical quality of integrating AI into your engineering process on very hard technical problems goes up simply because of how hard you can run at the problem and how long and consistently you can run against the problem. And then, you know, what I was going to go back to say, which is you can bite off much more interesting technical challenges with AI as your, you know, sidecar than you could before again, practically because your company can support the cost of doing so, right? If you're like I want to sequester all my staff engineers to solve our database indexing problems for the next year and we're just like really going to go go deep in the weeds and we're going to test these six different open source, you know, solutions to this and we'll come back in a year and we'll tell you if we figured it out, not that we figured it out. Business is like, no, you know, you're you're the CEO, like, no, no thank you. But if you say, hey, we're going to have this thing in the background and we're going to check on it, we're going to make expedient progress sure, and we can ship other stuff while we're at it, I think that's a really easy yes.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:30",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Absolutely. Yeah, I mean I think the motto that we have now is there's just no excuse to not have rigor, like, if and there's no excuse to not have performance. If someone complains about something, if someone complains about a paper cut in the UI, you know, whatever it is, there's just no, we don't really have a backlog, like there's just no excuse to to just not improve these things.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:13:51",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Yeah, and for folks looking for we don't have a backlog inspiration, we just interviewed Brian from Intercom who says their goal is like backlog zero. Nothing in the backlog so that everything can get shipped. Okay, so we're solving really technical problems. I think this is a great approach. How are you engineering with AI? Because I love that you're still, you know, you're writing code, you're spending time on this. Any tips or tricks for how you're managing your your fleet of agents that you think are unique?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:14:15",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "I think that everyone should take a hard look in the mirror and reevaluate how they spend their time. There's a lot of interactions that you have or direction that you're giving or decisions that you're making and I think like many of these things to me fit below the agent line. And to me the agent line is like, if I or whoever it would be at the meeting or whatever, like if we equivalently took the information that we're discussing and we just gave it to an agent, would it solve the same problem? And and I think the agent line keeps going up. And also I think the best people are pushing the agent line inside of their company by being smart about what skills they're writing and what integrations they're building and so on. So once you do that, you likely have a lot more time than you thought you did. I don't take any meetings",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "After 12, this is the last meeting of the day for me. And, uh, that means that every day I am able to, in the Paul Graham framework of maker versus manager schedule, every day I'm able to enter the level of focus that's required to be in the maker schedule. And so I personally write a lot of code and I spend a lot of time writing code and I haven't spent as much time writing code in a while and I really love it. So that's number one is like, make the time. My workflow is is very simple right now. We don't have a great background agent setup yet. I think that we are exploring various things and trying to get there, but I have usually five or six foreground agents running on my computer. Each one is a tmux session. Right now I have four things I'm working on, so each one is a tmux session. They're named Braintrust one through Braintrust four. And you know, each of these has like, um, some UI running and it has some services running. There are problems like port collisions, like I can't isolate everything as much as I'd like to. And I think that there are a lot of solutions for trivial software that do this. There's not a lot of solutions for complicated software yet and I'm excited. I mean, everyone I talk to is building their own thing. I just met a startup that's like two months old and they built their own internal tool for doing background agent PRs, which is I don't judge them for it, like I don't know what else they would do, but it's kind of crazy. And then I also have remote ones. So here's one where I'm working on trying to improve our column store performance. And this is running on not real data, but close to real data. And it's running remotely and it's you know, it's running like much more scale and many... I mean, if I ran this on my computer, it would probably die from just how much compute it's using. But I'm able to, in this case, test like what's the real latency between EC2 and S3 if I'm trying to do 4,000 concurrent reads? Is it enough? Is it not enough for this workload? Can I interleave things whatever properly? And I've been running this experiment for several days, just trying to figure out like what's the best, you know, right now I'm talking to it about what the indexing lifecycle should be because I think we figured out how to make the queries fast enough.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:17:17",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Some people are going to be listening to this being like, oh my gosh, this is so technical. I don't have these problems. Let me take a step back for folks and tell you what I think I'm seeing here, which is one, you're using Codex, right?",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:17:35",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Yeah. Codex for hard problems, people, I'm telling you. Just, uh, that... I think it's currently the only model that will disagree with you regularly. And I think if you're working on hard problems, it's very important.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:17:51",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "And then for you, what I also hearing is you're using foreground agents, you basically have a personal concurrency limit of like, let's call it four, which is about what I can do as well. So I think people ask me all the time, how do you handle all this context? I'm like, I don't do more than I think I can do at any one time. And I think...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Also, I, I have more trivial problems than you. So I think you're right in that the current sort of commercial background agents, I would call them, that you can buy off the shelf, work very well for web at like standard web apps. I'm very happy with them. If you are not using one of them as an engineering organization, maybe it's just doing classic SaaS, highly, highly, highly recommend. But I am hearing more and more from teams two things that you called out. I am hearing more and more people are just building their own background agents. So if it's happening, it's happening in teams very, very big and very, very small. I think the primitives are there to start experimenting with it. And so I don't think it's going to be as surprising to us to hear about people building their own internal coding background agents, even if like core infrastructure is something from the big, the big models, model providers. I think the second thing that I'm hearing a lot, and we heard this from the Stripe team, is investment in cloud development environments and remote, remote computing, again, because if you were to run some of this stuff, especially the data heavy stuff on your computer, it starts to sound like an airplane taking off, it's no good. And then the last thing I heard you say, which is like port, I joke with everybody, I say worktrees everywhere, ports 3000 through 3009 accounted for. Like I am just like every, everything. And I have to call out Chris Tate at Vercel released a thing called Portless, which just makes managing multiple ports, localhost ports, on your local machine a little nicer. So for simple things, I would go look that up, we'll link it in the GitHub show notes. But common problems that I think people have running concurrent engineering processes on their own machine. And then the like meta thing, which is just like make time to code. Everyone.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:51",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "You need it. Yeah.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:19:52",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "I also don't take meetings after one, sometimes I'll do podcasts in the early afternoon for folks, but all afternoon, I'm just like in my real state, which is hoodie on, bad posture.",
+      "tone": "relaxed"
+    },
+    {
+      "timestamp": "00:20:04",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Yeah, and I think that, I'm sure you feel this too, but like when I was handwriting most of my code, I would enter this sort of like euphoric flow state where I, you know, just completely focused on a problem. And then when I started doing a lot of agent coding, I lost that for a little bit, but now when I'm writing code, you know, Lane 8 just released a new album yesterday, you should listen to it. Put it in put on your your hood and your your headphones. I'm like way, I'm like totally back in that state now, just doing a different workflow.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:20:35",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Yeah, and I'll give folks this sort of, you know, AI mom of the internet that I try to be, which is I do feel like a lot of people are, they kind of go into two camps. They are having more fun than they've ever had before, and they're back in the flow state of like what got them into software engineering or building or technology or whatever. Or they're approaching like coding anxiety, burnout breakdown because they feel this like productivity anxiety.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Yeah and they're not I I think I think what I see is that people feel like if they're in a meeting and they're not kicking off agents they're doing something wrong or if they're talking to somebody and they're not kicking off agents they're doing something wrong. And I just say like I like the idea of chunking your attention just chunking your time with AI a little bit more. I think it just narrows you on the more more productive pieces of it and is also just a more enjoyable way to get stuff done.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:21:24",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Yeah I had a phase which I think I'm over. You know my wife Alana... where we would have always we'd have dinner together usually every like pretty much every night. And so I had a phase where my laptop was not at the table but open and on the couch. And and I think I've progressed beyond that phase now. So now the laptop is closed and I think it's it's an important it's an important thing.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:21:51",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "I I agree. I when I was first using OpenClaw I installed it on an old MacBook and it would like stay open on our kitchen island which is where all our plugs are and it would like hover over us at dinner and hover over us at at breakfast and if it got moved I was like 'where is Polly? Is she alive? Is she open? Is she closed?' So yes close your laptop people close your laptop.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:22:15",
+      "ad": true,
+      "speaker": "Claire Vo",
+      "text": "This episode is brought to you by Persona. You're learning to build with AI but there's an important question you need to ask. Who is actually using your product? Is it a legitimate user, a bot, or a fraudster? Brex, Sigma, Etsy, and Twilio trust Persona to answer that question. With Persona's identity verification platform you can create branded experiences, automate fraud prevention, and know who is human online. That makes it easy to give good users an experience that makes them feel welcome and to stop bad actors from causing damage. And for those of you building in the AI agent space, Persona helps you verify the identities of people, businesses, and developers behind agents. It's how companies like Lithic and Skyfire are pushing the frontier of agentic commerce. Learn more at withpersona.com.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:08",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Alright so you know we covered the first half of this episode which I think is very interesting for technical folks how to have kind of like long-running or just really diligent agents run against technical problems to give you real benchmarks about performance on changing things. I love that. Second thing is just your core workflow on how you do coding both how do you dedicate time and then technically just what your workflow looks like. Let's talk about Evals because I feel like this is something that's very intimidating to a lot of people and obviously you built a product that supports this but taking a step back why do you think this concept is so important to understand and how can you demystify it for folks who are a little intimidated by it?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:23:47",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Machine learning specifically shifts the task of programming from being about the how to being about the what. And this is true like forget about LLMs like you know it's true...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "With let's say like you're back in like middle school, you're doing like, remember statistical regression? You're not defining the—you're computing what the slope and the y-intercept should be. You're not defining it, but you give it all the points which are the, you know, the what, not the how, which is the slope and the y-intercept.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:17",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "And I think that, you know, the cool innovation around like transformers and the next token prediction task, which lets you, you know, ablate tokens and do all this cool stuff, it's all about saying like, okay, um, here's like the compute substrate and here's the what, which is the outcome, it's predicting the next token. Can you go and use a lot of GPUs and figure out how to achieve that? And I think that if you take that as inspiration for anything you do with AI, then you're able to be more productive. And I think that applies to traditional programming, like what we just talked about. I'm not dictating exactly the implementation or even the set of algorithms that we're using to solve problems. I'm just trying to define very succinctly what the problem is and why it is a problem and how to assess the solutions to the problem.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:25:21",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "It also applies to building AI software, and that's what evals are all about. Evals are a methodology for you to say, this is what success looks like. In my opinion, evals are actually the modern version of a PRD. So, a PRD you would say, hey, in prose, this is what success looks like. Evals are also often written in prose, but you supplement that with examples. So, you know, the best PRDs, they have good examples, like maybe someone's made a demo or written out like a user story or something. It's the same thing. It's just the difference with evals is you encode those user stories in a way that can be quantified to some extent. And then you let a model or whatever figure out the how, and you are really focused on the what.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:26:02",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Give an example of how you use this in product development, just to make it a little bit more tangible for folks.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:26:11",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Yeah, let's start with something that I think is quite straightforward, and then we can venture into the less straightforward stuff as we go. So, this is our UI, and like I'm working on a very simple task here, which is I'm trying to create a prompt that will be part of an agent that is good at answering questions about Braintrust documentation. So we looked at a few questions that people are asking in our docs and we just put them into a data set. You can like upload a CSV file, like it doesn't matter, just come up with a list of some questions or you can auto-generate them, whatever, just start somewhere and wrote like a very basic prompt. Uh, we're going to use GPT-4.4 mini, and uh, I attached an MCP server, so I attached the Braintrust MCP server. We were also playing around with Context 7, which indexes docs for you.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "You could also turn off the MCP and just see what the model already knows about your product. They're getting pretty good at knowing about every product now as well. And here I just, I just ran it. And so you can see some of the answers. I'm going to be honest, though, I don't really want to read all of these manually. And so what I would usually do is I just start by saying like, 'Hey, can you come up with a good scoring function for these outputs? I care about having concise code snippets, only using one language, and let's say avoiding em dashes.'",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:27:46",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Always.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:27:47",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Yeah, of course. And so now in this case, GPT 5.4 is going to go and actually like look at all this stuff for me. And it's going to look at some of the outputs, and it's going to rerun stuff, and it'll kind of do its thing. And it's going to come up with a new scoring function. One of the things I think, by the way, that's kind of cool about this workflow in general, and I expect to see this in more products over time, is that you'll notice like I have this in the equivalent of unhinged mode of a coding agent, which is sometimes dangerous to run on your machine. But this agent is running inside of this playground, and it's using like data and some prompts and stuff. So the risk of letting it just go and try stuff out is actually very low. And so I think, I'm excited just generally about seeing agents in more environments outside of my local computer with bash and something that's like very dangerous and, you know, could screw up my, my life if it goes wrong. I'm excited about just having more agents that sort of run in in these types of environments and do whatever they want. Like I, I don't even know what this is doing right now, but we'll find out in a few minutes.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:28:56",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "I'm really excited about this. And just for people that are not watching or need just a, another set of context, basically what you did is you took these questions that people were asking in your doc site or search or whatever, chatbot, about how the product worked. You built a little prompt to answer those questions. And then right now you're building, you're having AI build a scorer that tells you how well these questions are getting answered based on like a very loose definition of what you want it to do. And then is that score apply, that scoring mechanism applied across all of these so you can actually rank it?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:29:30",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:29:31",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Yeah, yeah, I think it's going a little bit awry actually, so I'm going to switch to this one, which is a bit better.",
+      "tone": "honest"
+    },
+    {
+      "timestamp": "00:29:35",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Do it live. We love a live demo.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:29:38",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "I know. And let's use, let's use Claude and give it a shot. So, this one is a little bit cleaner, and it actually wrote a prompt—well, let's use a smarter model, it didn't pick the smartest one. It wrote a prompt which takes the input and the output and then it evaluates it on these criteria. It is a pain in the ass to write these criteria out by hand, so it's...",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Really nice to just let a model do it for you.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "00:30:02",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:03",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "And what we can do is is run it and it will it will quantify how well um how well the model does uh on uh on these criteria. And then we can look at it like one by one or or what I actually tend to do nowadays is uh look at it in aggregate. And so the scores will start coming in here.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:30:21",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "What's the alternative that people are... what do you see people doing as an alternative this that you think is less effective? One is just not doing it. I know a lot of people.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:30:30",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:31",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "I mean I think that a lot of people and I've fallen into this trap myself despite working on this product so it's not there's no judgment for for doing this. But I think what a lot of people do is they just try stuff out on one or two examples and they try to generalize from that. And frankly I don't think that's a bad idea. Like I think that vibe checks are extremely important. But uh what's what what happens is that if you do this you end up playing kind of like a whack-a-mole game. So you might make it really good at one or two things and you ship it and then it's not good at something else. And what we do we have this designer named David. Uh and David is really cool. Like he dresses well. He has like like he's into the latest music. He he like he likes music before other people do. He told me that when he was a kid he had he played soccer and everyone had black shoes and he wanted the orange ones and then the next year everyone wanted the orange shoes. Um so he's like that kind of person right?",
+      "tone": "animated"
+    },
+    {
+      "timestamp": "00:31:29",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:31:30",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "And we have a lot of AI stuff going on. So it's not practical for David who has like the ultimate who's the ultimate brain trust tastemaker to look at everything manually. And what I actually do is I run a shit ton of evals to try to quantitatively improve things. And then when I feel like the evals are good and my own less sophisticated palette thinks that the results are good, I will go to David and ask him for a vibe check. And I probably do that like once every few days. And then David gives me the vibe check and like half the time he just completely destroys everything that I've said like, 'Hey, you know, you think it's good but it's actually not very good.' And then what what what happens is I will go back and try to capture what David said and I'll say like, 'You know, hey, David actually thinks um it's okay to show both languages as long as, you know, blah blah blah blah blah.' And then I will so I'll try to sort of capture David and then improve the scores and then attempt to quantify David. And then the next time I go to him I don't like repeat the same mistake but I still get his vibe check.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:32:31",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Well, and I just have to call out the the meta thing here in this David story which I love, which is I have a lot of people saying, 'Wow, if I go as so far as to turn my own taste or my own skills or my own expertise into a system,' whether that system is like the David eval, the David David-in-a-loop judge or something else, 'I'm I'm functionally just building my own replacement.' And I am presuming because I do and it sounds like you do too. You value David more in this...",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Oh, yeah, yeah, yeah. We're able to have David's palette applied to more things like the the I think the quality bar is what that that we're able to hit is higher because we are able to get more things to that to that bar.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:13",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Ah, I love it. Okay, so this has been a powerhouse episode. One of my favorites. We've talked about a lot about, you know, solving really technical problems with AI. We've demystified Evals a little bit for folks and shown how in in a safe space you can actually let AI I think that's one of the meta themes of this is in a safe space you can let AI run with a lot of autonomy and you'll, you know, throw a lot of data at it and you can get higher quality outcomes much more so than if you were to manually fix things or even manually evaluate things. I'm going to do a quick lightning round and then we'll get you back to I mean, it's almost noon, so back",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:33:55",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "If time to code, yeah.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:33:57",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Time to code. One, I have a question. When you say there is no excuse, there's no excuse for bugs, there's no excuse for little design nits, there's no excuse for that. How do you feel like you practically maybe I have two questions that you can answer they'll be our two lighting round. How do you practically manage the velocity to customers, which is do you ever get customers being like, wait, what's this? Wait, what's that? Like too much features just consumed as a customer? And then two, how do you technically manage the throughput into the system?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:34:25",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Product building and code writing is now looks like carving rather than constructing. So it's very fast to create something that has too many features and too many buttons and too much code and you need to spend a lot of time removing stuff. And so we actually I would say 90% of the time someone complains about something we remove the thing that was causing confusion and just make the system work better because we understand now that the person complained their point of view and we're able to build a product that doesn't even need the complexity that led them to the confusion in the first place. I'll give you an example. If you load a trace and you imagine hitting command F, you might in your brain think that that's just searching what's on the page, but what's on the page might be hundreds of megabytes of text and it's virtualized and and there's it's across spans and there's also a table. So we had a very powerful search implementation that would search across the spans and rank everything and, you know, blah, blah, all this cool stuff. And then a lot of people complained and they were just like why is this you know, I just hit command F, I just want it to show the the thing and we've just we've really simplified it over time. So I think I think we we try to carve. And then in terms of technically managing it, we spend a lot more time working on CI than we used to. Uh and so I think that a lot of platform effort has shifted so that if we are really good at CI then we are able to move faster and if we feel like we're constrained then instead of shipping a bunch of crappy stuff.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "...for like, okay, let's pause and improve CI so that we earn the ability to move faster.",
+      "tone": "pragmatic"
+    },
+    {
+      "timestamp": "00:36:06",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Okay, again, for the VP of engineering in the back, invest in CI. I've told everybody—they're like, 'How do I accelerate my engineering velocity with AI?' I was like, 'Fix your CI.'",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:36:16",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Yeah, yeah. I mean, I think every engineer is now building a platform, and upon the platform, agents are doing the work that the engineers were doing manually, right? And I think that applies to evals.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:36:30",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "If you're an engineering team and you're building an AI product, the number one job for you is to build a feedback loop, meaning you have a pipeline that allows you to summon from the ether of real-world data and turn that into evals. And as an engineering team, that is your number one job. It is not prompt engineering, it's not picking an agent framework, it's not rewriting your database, whatever. It's creating that pipeline. And the same is true, CI is that same idea but applied to software engineering.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:37:01",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Well, and I'll give one other tip, which is you think that those evals—people are always like, 'Oh yeah, for my AI product I need that.' I have seen again, I think the Intercom team has run a bunch of evals on their internal use of Claude Code to figure out where engineers are hitting pain points, where people are giving up, where the agents are asking for permissions that have to be escalated. And I think that sort of analysis on your team is very, very important and ultimately gets you to these better outcomes. Okay, last question. You seem like a very reasonable person, so I'm presuming I'm going to get a very reasonable answer, but I ask everybody—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:37:34",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "—when one of your four tabs is not doing what you want, when evals are failing the David test, what is a, in your back pocket, prompting strategy that you rely on? Do you yell? Do you bribe?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:37:54",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Close the session, and then I improve the evals, and then I try from scratch again. Yeah, yeah.",
+      "tone": "direct"
+    },
+    {
+      "timestamp": "00:38:04",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "This is a man who is on message.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:38:07",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Yeah, I mean, I'll give you like a real example. We have this open-source use case—or sorry, a use case where we run open-source models—and we're running like millions of tokens per second. It's very, very high scale, so every cent matters and every bit of optimization matters. We are trying to change right now from model A to model B. And I, again, I'm someone who builds software to write evals, I vibe-coded an eval script and it went—it just was getting stuck. And then I read the code and it's like 3,000 lines of complete trash and it had like all these scoring functions and all this crap and it was getting confused. And so I, on Saturday, I hand-wrote—like, no Co-pilot, no auto-complete, I just, partly to improve my own understanding of the problem, I hand-wrote the eval.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "And then by the end of Sunday, the problem was solved. Yeah.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:39:04",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "So you shut the session, you do it yourself.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:39:07",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Yeah, just for the eval, just for the eval.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:39:08",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Great. This has been so great. Where can we—where can we find you and how can we be helpful?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:39:12",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Uh, if you are interested in evals or you're trying to solve AI observability problems inside your company, please check out Braintrust. We're at braintrust.dev, @braintrust on X, or I'm at ANKRGYL. Um, very happy to chat.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:29",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "We're also hiring if you like working on these problems and you like maybe pushing the boundaries of rigor and stuff, and you found this kind of stuff interesting, uh, we'd love to work with you.",
+      "tone": "inviting"
+    },
+    {
+      "timestamp": "00:39:39",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Well, thank you so much for joining, this was great.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:39:41",
+      "ad": false,
+      "speaker": "Ankur Goyal",
+      "text": "Oh, it was a lot of fun.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:39:43",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Thanks so much for watching. If you enjoyed the show, please like and subscribe here on YouTube or even better, leave us a comment with your thoughts. You can also find this podcast on Apple Podcasts, Spotify, or your favorite podcast app. Please consider leaving us a rating and review, which will help others find the show. You can see all our episodes and learn more about the show at howaipod.com. See you next time.",
+      "tone": "professional"
+    }
+  ],
+  "highlights": [
+    "AI agents are now capable of handling highly technical architecture and infrastructure work by running more rigorous benchmarks and iterative experiments than any human staff engineer would manually perform.",
+    "Professionals should evaluate their daily tasks against the \"agent line,\" delegating interactions and decisions to models as their capabilities continue to expand and move that line higher.",
+    "Evaluations (evals) serve as the modern version of a Product Requirements Document (PRD), shifting the focus of programming from \"how\" to \"what\" by defining success through quantifiable criteria.",
+    "To maintain a high quality bar at scale, teams should use expert \"tastemakers\" for subjective vibe checks and then iteratively encode that human feedback into automated scoring functions.",
+    "Accelerating engineering velocity with AI requires heavy investment in Continuous Integration (CI) and automated feedback loops, as a robust platform is necessary to support the speed of agentic development."
+  ],
+  "summary": "In this transcript, Braintrust CEO Ankur Goyal and host Claire Vo discuss the evolving role of AI in high-level software engineering, emphasizing a shift from focusing on the \"how\" to the \"what.\" Goyal argues that the \"agent line\"—the threshold of tasks AI can perform—is moving upward, allowing agents to handle complex infrastructure work like database indexing and performance benchmarking. He highlights that AI can achieve a level of technical rigor impossible for human engineers alone, such as running thousands of concurrent experiments to find the most efficient data store formats or query patterns.\n\nThe conversation also explores the practicalities of an AI-driven workflow, where Goyal utilizes a \"maker schedule\" to run multiple foreground and remote agents concurrently. Central to this approach is the use of \"evals\" (evaluations), which Goyal describes as the modern equivalent of a Product Requirements Document (PRD). By encoding human expertise and \"taste\" into quantitative scoring functions, engineering teams can use AI to scale high-quality outcomes. Goyal stresses that the primary job of a modern engineering team is no longer just writing code, but building the feedback loops and Continuous Integration (CI) pipelines that allow these agents to operate effectively.\n\nOverall, the theme is one of \"carving\" rather than just constructing; Goyal suggests that with AI, software development becomes an iterative process of refining outcomes against strict success criteria. This shift allows leaders to bite off more ambitious technical challenges while maintaining a \"backlog zero\" mentality. When agents fail or get stuck, the solution is not to micromanage the code, but to refine the underlying evaluations to more accurately reflect the desired result.",
+  "description": "In this episode, I sit down with Ankur Goyal, founder and CEO of Braintrust, the AI evals and observability platform used by teams like Notion, Stripe, Vercel, and Zapier. This one is for the senior engineers, staff engineers, VPs of engineering, and CTOs in my audience. We get into how coding agents can take on deeply technical architecture and infrastructure work that no single human engineer could tackle before, and then we demystify evals so you can use them to make your AI products better without touching the implementation.\n\n*What you’ll learn:*\n1. How Ankur uses Codex to run week-long benchmark experiments across database indexes, column store formats, and execution engines to speed up slow queries\n2. Why he argues there’s no excuse to skip rigorous benchmarking now that agents can run them tirelessly\n3. The “agent line” framework: how to decide which decisions, directions, and interactions you can hand off to an agent\n4. How I think about the practical vs. theoretical quality of AI on hard technical problems, and why human attention decays on tedious work\n5. Why evals are the modern version of a PRD, and how to encode “what good looks like” so a model can figure out the “how”\n6. How to build a scoring function live and let an agent improve your prompt inside a safe playground\n7. How Ankur turned his designer David’s taste into a repeatable eval so quality scales beyond one person\n8. Why fixing your CI is the highest-leverage way to speed up engineering velocity\n\n*Brought to you by:*\nGuru—The AI layer of truth: http://getguru.com/\nPersona—Trusted identity verification for any use case: https://withpersona.com/lp/howiai\n\n*In this episode, we cover:*\n(00:00) Introduction to Ankur Goyal\n(03:00) Using AI agents for database optimization\n(06:10) Running exhaustive benchmarks with coding agents\n(09:03) Why staff engineers are wrong about AI limitations\n(11:30) The “agent line” framework for delegation\n(14:00) Ankur’s workflow: running 4 to 6 concurrent agents\n(17:16) Technical setup: foreground agents, background agents, and cloud environments\n(20:32) Spending time with AI tools\n(23:06) Demystifying evals\n(26:02) Live demo: Building an eval for documentation answers\n(30:20) The alternative to evals: vibe checks and whack-a-mole\n(32:09) Capturing designer taste in scoring functions\n(33:13) Quick recap\n(33:44) Managing velocity and throughput\n(35:40) Why CI/CD investment is critical for AI-accelerated teams\n(37:30) Ankur’s prompting strategy when agents fail\n(39:10) Closing thoughts and how to connect\n\n*Blog & detailed workflow walkthroughs from this episode:*\nBlog:\n↳ Ankur Goyal's Playbook for Agent-Driven Benchmarking and AI Evals https://www.chatprd.ai/how-i-ai/ankur-goyals-playbook-for-agent-driven-benchmarking-and-ai-evals \n\nWorkflows:\n↳ How to Scale Expert Judgment in AI Systems with a Human Feedback Loop\nhttps://www.chatprd.ai/how-i-ai/workflows/how-to-scale-expert-judgment-in-ai-systems-with-a-human-feedback-loop\n↳ How to Use AI Coding Agents for Exhaustive Infrastructure Benchmarking\nhttps://www.chatprd.ai/how-i-ai/workflows/how-to-use-ai-coding-agents-for-exhaustive-infrastructure-benchmarking\n\n*Tools referenced:*\n• Braintrust: https://www.braintrust.dev/\n• Codex: https://openai.com/codex/\n• GPT 5.4: https://developers.openai.com/api/docs/models/gpt-5.4\n• Claude: https://claude.ai/\n\n*Other references:*\n• GPT 5.5 just did what no other model could: https://www.lennysnewsletter.com/p/gpt-55-just-did-what-no-other-model\n• Paul Graham’s Maker vs. Manager Schedule: http://www.paulgraham.com/makersschedule.html\n• tmux: https://github.com/tmux/tmux\n• Chris Tate at Vercel: https://www.linkedin.com/in/ctatedev/\n\n*Where to find Ankur Goyal:*\nLinkedIn: https://www.linkedin.com/in/ankrgyl/\n\n*Where to find Claire Vo:*\nChatPRD: https://www.chatprd.ai/\nWebsite: https://clairevo.com/\nLinkedIn: https://www.linkedin.com/in/clairevo/\nX: https://x.com/clairevo\n\n_Production and marketing by https://penname.co/._\n_For inquiries about sponsoring the podcast, email jordan@penname.co._",
+  "duration": 2412,
+  "people": [
+    "Claire Vo",
+    "Ankur Goyal",
+    "How Ankur",
+    "Driven Benchmarking",
+    "Scale Expert",
+    "Human Feedback",
+    "Coding Agents",
+    "Exhaustive Infrastructure",
+    "Paul Graham",
+    "Manager Schedule",
+    "Chris Tate"
+  ],
+  "topics": [
+    "Using AI agents for complex infrastructure tasks and database optimization",
+    "Implementing AI evals to define success criteria and automate software quality",
+    "The 'agent line' framework and evolving workflows for software engineers",
+    "Scaling human taste and expert judgment through AI scoring functions",
+    "The importance of CI/CD investment for high-velocity AI-driven engineering teams"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/QE_1hRLsehM/maxresdefault.jpg",
+  "date": "20260615",
+  "youtube_url": "https://www.youtube.com/watch?v=QE_1hRLsehM",
+  "youtube_metadata": {
+    "title": "Braintrust CEO: Evals are the new PRD for AI products",
+    "description": "In this episode, I sit down with Ankur Goyal, founder and CEO of Braintrust, the AI evals and observability platform used by teams like Notion, Stripe, Vercel, and Zapier. This one is for the senior engineers, staff engineers, VPs of engineering, and CTOs in my audience. We get into how coding agents can take on deeply technical architecture and infrastructure work that no single human engineer could tackle before, and then we demystify evals so you can use them to make your AI products better without touching the implementation.\n\n*What you’ll learn:*\n1. How Ankur uses Codex to run week-long benchmark experiments across database indexes, column store formats, and execution engines to speed up slow queries\n2. Why he argues there’s no excuse to skip rigorous benchmarking now that agents can run them tirelessly\n3. The “agent line” framework: how to decide which decisions, directions, and interactions you can hand off to an agent\n4. How I think about the practical vs. theoretical quality of AI on hard technical problems, and why human attention decays on tedious work\n5. Why evals are the modern version of a PRD, and how to encode “what good looks like” so a model can figure out the “how”\n6. How to build a scoring function live and let an agent improve your prompt inside a safe playground\n7. How Ankur turned his designer David’s taste into a repeatable eval so quality scales beyond one person\n8. Why fixing your CI is the highest-leverage way to speed up engineering velocity\n\n*Brought to you by:*\nGuru—The AI layer of truth: http://getguru.com/\nPersona—Trusted identity verification for any use case: https://withpersona.com/lp/howiai\n\n*In this episode, we cover:*\n(00:00) Introduction to Ankur Goyal\n(03:00) Using AI agents for database optimization\n(06:10) Running exhaustive benchmarks with coding agents\n(09:03) Why staff engineers are wrong about AI limitations\n(11:30) The “agent line” framework for delegation\n(14:00) Ankur’s workflow: running 4 to 6 concurrent agents\n(17:16) Technical setup: foreground agents, background agents, and cloud environments\n(20:32) Spending time with AI tools\n(23:06) Demystifying evals\n(26:02) Live demo: Building an eval for documentation answers\n(30:20) The alternative to evals: vibe checks and whack-a-mole\n(32:09) Capturing designer taste in scoring functions\n(33:13) Quick recap\n(33:44) Managing velocity and throughput\n(35:40) Why CI/CD investment is critical for AI-accelerated teams\n(37:30) Ankur’s prompting strategy when agents fail\n(39:10) Closing thoughts and how to connect\n\n*Blog & detailed workflow walkthroughs from this episode:*\nBlog:\n↳ Ankur Goyal's Playbook for Agent-Driven Benchmarking and AI Evals https://www.chatprd.ai/how-i-ai/ankur-goyals-playbook-for-agent-driven-benchmarking-and-ai-evals \n\nWorkflows:\n↳ How to Scale Expert Judgment in AI Systems with a Human Feedback Loop\nhttps://www.chatprd.ai/how-i-ai/workflows/how-to-scale-expert-judgment-in-ai-systems-with-a-human-feedback-loop\n↳ How to Use AI Coding Agents for Exhaustive Infrastructure Benchmarking\nhttps://www.chatprd.ai/how-i-ai/workflows/how-to-use-ai-coding-agents-for-exhaustive-infrastructure-benchmarking\n\n*Tools referenced:*\n• Braintrust: https://www.braintrust.dev/\n• Codex: https://openai.com/codex/\n• GPT 5.4: https://developers.openai.com/api/docs/models/gpt-5.4\n• Claude: https://claude.ai/\n\n*Other references:*\n• GPT 5.5 just did what no other model could: https://www.lennysnewsletter.com/p/gpt-55-just-did-what-no-other-model\n• Paul Graham’s Maker vs. Manager Schedule: http://www.paulgraham.com/makersschedule.html\n• tmux: https://github.com/tmux/tmux\n• Chris Tate at Vercel: https://www.linkedin.com/in/ctatedev/\n\n*Where to find Ankur Goyal:*\nLinkedIn: https://www.linkedin.com/in/ankrgyl/\n\n*Where to find Claire Vo:*\nChatPRD: https://www.chatprd.ai/\nWebsite: https://clairevo.com/\nLinkedIn: https://www.linkedin.com/in/clairevo/\nX: https://x.com/clairevo\n\n_Production and marketing by https://penname.co/._\n_For inquiries about sponsoring the podcast, email jordan@penname.co._",
+    "duration": 2412,
+    "view_count": 7836,
+    "like_count": 148,
+    "channel": "How I AI",
+    "upload_date": "20260615",
+    "thumbnail": "https://i.ytimg.com/vi/QE_1hRLsehM/maxresdefault.jpg",
+    "tags": []
+  }
+}

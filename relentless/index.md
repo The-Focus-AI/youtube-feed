@@ -2,8 +2,8 @@
 channel: Relentless
 channel_handle: "@relaboratories"
 channel_id: UCxYhf1bmbsXLU1ClPNS2P6g
-total_videos: 59
-last_updated: 2026-06-08
+total_videos: 60
+last_updated: 2026-07-01
 ---
 
 # Relentless Channel Index
@@ -12,16 +12,17 @@ last_updated: 2026-06-08
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 59 |
-| Total Views | 659,699 |
+| Total Videos | 60 |
+| Total Views | 699,498 |
 | Most Viewed | The Manufacturing Startup That's Outcompeting China (151,636) |
-| Date Range | 2024-10-24 to 2026-05-26 |
+| Date Range | 2024-10-24 to 2026-07-01 |
 | Average Video Length | ~79 min |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [Manufacturing 1,000s of Nuclear Reactors \| Isaiah Taylor, Valar Atomics](videos/RZiM3Xfp-eY.md) | 91:42 | 39,799 |
 | [Pablo Escobar was a logistics guy \| Ryan Petersen, Flexport](videos/SlHd3-0eXOA.md) | 52:51 | 21,714 |
 | [How we're going to power the AI data center buildout \| Energy Sec. Chris Wright & Scott Nolan](videos/nxs66bgo0Fc.md) | 1:03:19 | 4,579 |
 | [The Manufacturing Startup That's Outcompeting China \| Jim Belosic, SendCutSend (Round II)](videos/8sbOL5wGADo.md) | 1:01:52 | 52,248 |

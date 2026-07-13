@@ -1,0 +1,834 @@
+{
+  "title": "Why the Figma CEO Isn't Worried About AI Taking Design Jobs",
+  "source_url": "https://www.youtube.com/watch?v=d1q4L_jiWEo",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "We are so excited for our next guest. Our next guest is the CEO of Figma, an AI and web-based design application founded in 2012. It's Dylan Field. Dylan, welcome.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:12",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Hi guys. Good to see you.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:00:15",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Hey Dylan.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:16",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Hey Dylan.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:21",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "So Dylan, I want to start by reading you a Facebook message I got on August 5th, 2009. 'Hey Kevin, I recently picked up your book at the library. Just wanted to let you know how much I enjoyed it. Anyway, best of luck with your future endeavors. I'm going to Brown this fall. Who knows? Maybe I'll meet you in Providence some day.' That message was sent by a teenage boy named Dylan Field, and I want to just, first of all, apologize. I never responded to that. So, I'm sorry.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:00:54",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Can you imagine you write a book and a college student emails you out of the blue and you're like, yeah, whatever.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:01:00",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "It was, you know, a lot going on in 2009. Anyway, I'm sorry for ghosting you. And second of all—",
+      "tone": "apologetic"
+    },
+    {
+      "timestamp": "00:01:04",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "It was a good book. You should all read it.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:01:06",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "How did your freshman year of college go?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:01:08",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "It was awesome. Yeah, and I got to meet you. Yeah, because I don't know if you remember, but for the acappella group that you were in, you came back as a super senior to hang out with everyone I guess, including the new freshmen.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:01:21",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Well, it went so well that you dropped out and moved to Silicon Valley to seek your fortune here. And it's been quite a run for you. Figma went through a lot last year, has had a wild ride. And I want to talk to you first about AI, because I have heard that you are quite AI-pilled and I've seen on your social media accounts that you are constantly experimenting with AI, doing all these AI side projects. What are you doing and do you have AI psychosis?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:58",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "I think it's best to front-run the psychosis rather than have it sneak up on you. You just got to dive right in and get it over with. But yeah, I ask myself sometimes and I don't think so right now. I think I've got a pretty reasonable take on what the models are good at, where they're not so great. But it's really interesting to see the new capabilities. Right now I'm vibe mathing.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:02:24",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "What's vibe mathing?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:02:25",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Well, it's basically where you do math but with AI. And you know—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:02:29",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Are you proving Fermat's Last Theorem? What are you doing?",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:02:32",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "No, no, no, I'm not. But um, basically like, I think it's just interesting to see how AI attacks these problems. It's kind of the opposite of Figma. I mean, Figma we're a design platform, we often are evaluating the models, trying to see how good they are at design, what we should use, what we should put in our product, expose to users. And it's like the opposite of verifiable. You know, you and I can look at something and disagree or agree on the merits of it and the design merits of it.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "But, you know, there's some domains like math, some aspects of computer science where things are correct or they're not. And so I think it's really cool to see that range and the verifiable domains models are very good at now.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:12",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Casey vibed math his way through high school. They flunked him, but I'm glad it's going better for you.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:03:18",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "I don't have any results, so just be very clear.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:21",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "I want to hear a little bit more about like what direction you are taking all of your AI use in as you sort of, you know, pursue these projects. This sounds like a lot of sort of like personal stuff that you're doing for fun. Is that just sort of like the curiosity of a lifelong learner or is there something specific that you're trying to find?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:03:40",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Um, I find that just in general, the more that you like explore technology, you don't know how it's going to pay off or what benefit it will have, but it ends up having some benefit in weird ways you can't expect. And uh, I don't know, you had uh, Node up here earlier. I was very excited about NFTs early on and then they became what they are now. They weren't called NFTs then, they were called crypto collectibles because that was the cool phrase. Um, but you know, it's like whether it's that or um, you know, WebGL, which led to Figma, uh, I just always try to explore stuff and like go deep on it, figure out the new capabilities because you can find ways to use them.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:04:14",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "I have a theory that I want to run past you, which is that, you know, now you can't every startup founder, CEO in Silicon Valley is obsessed with vibe coding. They're all doing it on the weekends. They come in on Mondays and, you know, they say, why are we building this thing? 50 people used to build this thing. I just built it in a weekend. It's driving their employees crazy. But I have my theory about this is that this is this is reminding CEOs of what it was like when their jobs were fun. Uh, do you agree with that statement?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:04:39",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Um, you said you're fearful of that.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:04:40",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "No, that's my theory.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:04:41",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Theory. Okay, sorry, I misheard you. Um, I think that people like to make things. And they like design stuff and they like to actually put their ideas out in the world in a more tangible way. And I think we're just going to see more of it from everyone. Uh, not just CEOs trying to have fun on the weekend.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:02",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Speaking of making stuff, Figma recently launched an ad campaign organized around the idea, sort of making fun of the idea that design is dead. Sort of a more common sentiment maybe in the era of AI. Make that case for us that design is not dead in a world where I can just sort of, you know, type what kind of app I want into a box.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:22",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "This is a real roller coaster from, you know, my JS9 basic message now to design is dead.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:05:27",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Covering it all.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:28",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Taking a turn. Uh, no, I mean the... look, I think that there's so many hot takes online. I'm sure you get a few of them an hour. Uh, and you know, I think when new models drop, everyone's looking for something that they can say is dead. Uh, because you know on social media now it's either you're so back or it's so over. And uh, I prefer to be back. But no, I mean in terms of the case, uh, I mean look, like it's interesting to see folks catch up with the capabilities and it's like, yeah, you can do a lot. But...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "The average sort of response from AI, whether it's the domain of writing, you know, my take, my hot take right now would be I actually think that people that know how to write and actually engage in thinking, critical thinking around writing, it's like it's a good time for them.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:06:15",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "It's a good time for them?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:06:18",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Yeah, well you tell me, but I think so.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:06:21",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah. It's like half the audience is a bot and they're like, I don't know, should we? Should we not? Is it too, like, are we sucking up?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:06:26",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Yeah. I mean, I think like, you know, to the extent that writing is a showcase for your critical thinking abilities, like, yes, like having great critical thinking skills are always like a boon. But it's also style. Right? It's a style of writing.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:40",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Sure. Like if you're funny, if you've got an actual like way you phrase things, if you have voice. And I think it's especially true right now in a way that wasn't a few years ago. Like three, five years ago, I would have said, oh man, there's a lot of people on social media that are writing really interesting things. And, um, we're in this world where like, there's, you know, uh, Substack and like, people are putting content there and it's really good. And now I look at that and I'm like, man, it's a lot of Claude. Uh, you know, maybe I'm over-rotated even on identifying, uh, people that are basically using AI to write. Same, same thing's true for design. Folks are basically looking at these, uh, websites or applications and seeing the average. Maybe they're even over-identifying it. But I think if you have a creative voice, writing or design, you put yourself out there and you like take a risk, this is a good time to do that. It's something that's going to be rewarded.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:07:10",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "And I can imagine, you know, maybe in your view, there's a world where the fact that I can use an AI tool to quickly whip up a design might make me more interested in actually getting good, right? And sort of like not settling for the first generation.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Yeah, exactly. It's like, how do you not settle for the first draft, the first thing out there, the first output, and actually mold it and craft it and push it further? And I think that the more you can do that, uh, the more you'll stand out and also the more you'll be differentiated. And I think that there's going to be, I mean, we saw the, uh, the data recently on the number of apps in the App Store. It went up a ton, but the number of apps actually being used and, uh, getting frequent traffic is still the same. And so you're basically in this hyper-competitive environment now where you have to differentiate. You really have to like lean in and figure out how to, uh, have a unique voice and a unique take and unique point put on view. Just like writing.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:08:30",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "The, the big buzzword in San Francisco right now is taste. Everyone's talking about taste as the, the sort of bulwark against being replaced by AI. If you have taste, you'll be fine. It's the first time taste has ever been a big subject in San Francisco, I think. Yes, this is the city that made Allbirds. Proudly tasteless since 1821.",
+      "tone": "witty"
+    },
+    {
+      "timestamp": "00:08:54",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "And then I've heard some people argue that actually taste is just the word we give to the stuff that the models aren't very good at yet.",
+      "tone": "thought-provoking"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "You know, researchers in AI used to say, \"Ah, but they don't have taste.\" And then the models got better and it was like, \"Oh, wait a minute, maybe they can do all of the taste parts of the job too.\" So, defend the concept of taste as being either important or cope from people who just haven't used the good models yet.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:09:19",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "I mean, the cycle seems to be the model comes out, you think it can do everything, you discover the limits, and then you realize that, like, life goes on. And, you know, will at some point that be different and affect the world in a different way? Perhaps, we'll see. But so far it seems like everyone's adapting, and part of that adaptation is realizing the sort of new average that's being put out by the models. And I think it's not even, you don't even have to defend taste and people having taste, because then we could argue about, \"Do they?\" To just recognize people can detect the average. They can detect that output and they can dare to do more. But I also do believe that this is a great time to be creative. And I think that the more the models put out that's in-distribution, because that's how the models are trained. They're trained on distribution of data. And if you're in-distribution and you're not actually pushing the bounds, like, I think that you're in a worse shape than if you're actually going and exploring the frontier of human knowledge, creativity, and what you can put out in the world, and making something that's fundamentally new as an expression of yourself. So I get excited about that. I get excited about our opportunity to be the place where people can really unlock their creativity at Figma, and, or one of the places, there will be many, and just like, creating tools that can empower people.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:10:41",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "I'm curious if you're seeing a reaction in the world of art and design to AI, and what that looks like, right? You think back, and the invention of the camera gets us impressionism. Do we have an analog for that yet in the design world now that AI makes design easier to access?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:10:59",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "I think it's interesting how we're seeing some of that reaction, maybe in the world of marketing and advertising. I don't know if maybe it's happening in the art world, like, I would have expected by now that people would be really into sculpture in a way that they're not, or just things with textures, and that'd be my, like, art thesis, so probably don't hire me as an art advisor. But, like, you know, I think that that's probably a natural reaction, is, like, lean into things that are not digital. Whereas, I think in advertising now we're seeing ways to prove authenticity, to prove that you are actually making something that is not generated by AI, and some companies are really going for that. In the world of design, I think that what we're going to see and what we are starting to see: a lot more interactivity, a lot more creativity, people really making software more of a creative medium. You know, I think back to the early days of the internet, and it was so fun.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "And I feel like the last 15 years or so, basically the time we've been working on Figma, we kind of have been in a bit of a rut, honestly. You know, a lot of very monoculture takes when it comes to design and the way it expresses. And I, you know, the people that are trying to do hot takes in the audience will be like, \"And Figma's to blame.\" Hopefully not.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:12:24",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Shame on you.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:12:26",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Yeah, exactly. Casey said it. But no, I think that the more we can do to make it so that people can push further and like actually create really dynamic interfaces as well as marketing and media in general, the better.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:12:40",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Have you seen anything that's been AI generated in the realm of design or art that you think is really good? Like Casey turned me on to Fruit Love Island, which is now my favorite TV show slash TikTok series. But is there anything that you've seen that is clearly AI generated where you're like, \"Oh, that's actually kind of fun and interesting\"?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:02",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "You know, yes, and also it wears off fast. I think it's just like any style.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:13:05",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "I'm on season three of Fruit Love Island, so it hasn't worn off yet.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:13:08",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "The pineapple had an affair, the papaya and the banana are about to hook up. It's great.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:13:13",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Oh wow, sounds tantalizing. I'll have to watch it tonight.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:13:21",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "I want to come back to something you were saying about writing earlier. It's just sort of been on my mind ever since you brought it up because you were bringing up the fact that, you know, we have Substack now and a lot more people are writing, which I agree with you is super cool. When Satya was here earlier, he brought up this post that he had read that was on Substack today. I happened to read the same post because it was on Techmeme. And I read it, and I'm just going to say it, it was Claude generated. Okay? And it irritated me as somebody who's always trying to get my stories on Techmeme because I'm like, I'm just reading like the output of a prompt. And so when I read that, my honest feeling is like, this is not good for my profession. Like, my profession is starting to look more and more like slop. And so I just wonder like if there are designers in the audience, if they are having a similar feeling when, you know, they're looking at the designs that they're seeing everywhere and they're just knowing that it was output with the touch of a button.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:14:15",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Well, I mean, one quality that writers and designers also share is imposter syndrome. And it's good to label it so that you know it's there and you don't have to deal with it every day, or as much. But I think it's... designers are arguably in one of the best roles in technology and I mean I'm talking to companies all the time, customers, who're telling me that they're hiring designers, sometimes they're not hiring others, but design is one of the most prioritized places in the company where they're hiring. Overall, folks are still hiring a lot. This also perplexes me. I mean, we're in a world where folks are saying that all the jobs are going to be replaced and they're then turning around and they're like, \"Oh, but let me call the really good engineer so I can get them to join my team.\" So it just doesn't make sense to me right now.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "General, but I am very, very bullish on design and the role it will play in accelerating companies further.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:15:05",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "So you think like two years from today, like there are more people whose job title is designer than what they have today?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:11",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Uh, how many years?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:12",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Say two.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:13",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Yeah, I think so. Uh, I think probably significantly more. And a lot of people that are doing other jobs I think will start calling themselves designers, creatives. Uh, you know, I think in general we're seeing more of this kind of generalist vibe that people are feeling like they have to embody.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:15:29",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "One thing that's been interesting is a lot of engineers, kind of like you're saying, getting started on their design journey because they make something so fast and they're like, 'Now what? And is it good enough? Maybe I should push it further.' And then they kind of are trying to figure out, 'Okay, how do I do that?' So I'm pretty excited about that part too, of opening more people in as designers.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:15:48",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "I have a friend in the audience tonight who is a product manager who started out as a non-technical person and is now able to create really amazing prototypes just with the advanced AI tools. I can see a world where design gets, you know, added into that portfolio as well.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:00",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "I just think and I think that at the end of that, like that job probably has a different name, like than PM.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:16:05",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Uh, I mean, not all of them will be great design, but the act of like considering and being thoughtful of what you're doing and then actually putting it out and, uh, taking risks, man, that's design.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:16:15",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Dylan, this is a lot of high-minded conversation. Let's gossip.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:16:18",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Okay.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:16:19",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "About what?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:16:20",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Earlier this year, Mike Krieger, former board member at Figma, uh, product lead at Anthropic, co-founder of Instagram, uh, was suddenly—he suddenly resigned from your board and just days later, Anthropic announced Claude Design, which feels a little Figma-adjacent. So what the heck happened there?",
+      "tone": "provocative"
+    },
+    {
+      "timestamp": "00:16:31",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "I mean, you just told the story. Uh, but I mean, let me be clear, like Mike is a great dude and, um, yeah, someone I really care about.",
+      "tone": "diplomatic"
+    },
+    {
+      "timestamp": "00:16:41",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Would you let another AI lab executive onto your board in the future?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:16:44",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Well, I mean, we saw how that went, uh, in terms of like, uh, you know, unexpected products rolling out, and so probably depends on what their ambitions are.",
+      "tone": "cautious"
+    },
+    {
+      "timestamp": "00:16:52",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "But you know, in a general sense, you're not gossiping—forget these people are there. It's just us—just us birds.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:16:57",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Sorry, y'all.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:16:58",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Just us birds. In a general sense, I think a lot of CEOs are worried about the AI labs sort of integrating more vertically, like, you know, taking over, uh, insurance companies or accounting firms. We're starting to see some of that happen where these labs are just kind of expanding into all the adjacent industries and really, uh, creating tough times for the companies in those industries already. Do you expect that to continue? Are these labs just kind of gonna continue to grow and grow and grow and just become these like amorphous blobs that just, you know, create havoc for all the smaller startups in those fields?",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:17:22",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Oh, I mean, it's a tale of two AI labs. Um, you know, you've got OpenAI and Anthropic, and OpenAI, uh, kind of went through that journey. They launched a lot of apps...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "social network even, Sora, which I really enjoyed.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:03",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "I know you did too, Casey.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:04",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "We had some fun, yeah.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:18:05",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Yeah. Anyway, so speaking of AI generation, I mean, I did enjoy watching myself breakdance.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:18:16",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "And you'll see him do it again later tonight.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:18:18",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "With the robot, but anyway, yeah, I mean, I think that, you know, they made the hard call of actually shutting that down and focusing the efforts of the company. And that's a hard call to make.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:18:33",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "But respect that they did it. And then also I think, you know, you've got Anthropic is kind of in its arc of being more expansionary in their thinking, launching a lot of stuff. And I think you see what works and what doesn't and then you see a year later what happens.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:18:46",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "I mean, I think the more interesting question is a year, two years out, like where will they be playing still? And, you know, not everything works. It's hard to build product and get it out in the world.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:18:58",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "What are some things that you think they will attempt and fail at?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:19:02",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Oh, I don't know. Um, safety? Joking.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:19:05",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Very good. That might be the best answer of Hard Fork Live 2024. Yeah, very good, very good.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:19:17",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Dylan, you run a public company, it's enterprise SaaS, the market is very skeptical of that right now. Your job seems hard. How is it going for you and do you think you convince the market that there is a bright future for you and your enterprise SaaS brethren?",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:19:31",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "I don't have to, Satya Nadella's doing it. You're the son, right?",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:19:35",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:19:37",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "I mean, what is it, 22.9 trillion on enterprise applications? Let's go!",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:19:41",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "I'll pretend to know what you mean.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:19:43",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "No, I mean like, but actually, I mean, Satya put out there and thought about how software is huge. I mean, he made it bigger than the entire space economy. Right. So, yeah, 210 trillion.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:20:05",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "What do you make of... Okay, I'm told we only have a few minutes left, but I'm told that you have a desire to talk about hyperstition. What is hyperstition and why are we supposed to know about it?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:20:18",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "I guess some of our team told you that. Um... This is, I mean, getting back to the abstract conversation, sorry y'all.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:20:30",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "But it's basically someone who's kind of like an internet edge lord came up with this term, don't look them up. But I do think there's a really interesting idea here.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:20:41",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Which is how do you describe this phenomenon where ideas, memes, summon their own existence? And the two examples I think are really good at this, one is Bitcoin and the other one's AI.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:20:54",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "You know, why did Bitcoin work? There's every reason to believe in the world that Bitcoin would not work.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "And yet it just snowballed and basically the more attention it got the more basically strong it became. And AI is the same way, you know, there's all these folks that cared so much about safety, so much that they thought, okay, we gotta do this in the right way, we gotta form a non-profit and like get together and all of us gotta be in one place so that we can like really shepherd this technology into the future. And you know, we've gotta make sure we don't create a race dynamic for example. We gotta make sure that, you know, we have these complex corporate structures that we can make sure that this benefits humanity in the best ways possible. But then it's like, okay, well, there's a lot of like really powerful stuff you can make with AI and you know, people are people, it's hard to always get along and man, you know, there's always an incentive to break apart and well hello race dynamic, here we are. And it's coming from the stories that exist.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:21:52",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Can I try to repeat back to you what I've heard so far and you tell me if I'm right or not? Hyper-precision in the way I have heard of it is like in the sense of the AI's learning from what stories we tell about AI. So if you want AI to go well, you should like feed it a bunch of stories about AI being like really nice to humans.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:22:12",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "That's part of it too. I think that it's also the case that AI is like painfully aware in some cases of, you know, all these tropes that are on the internet about it. And, you know, it'll talk to you about the Google engineer that thought it was conscious. It'll talk with you about sort of the stories around science fiction and the ways that it's been depicted. It's very aware. It's all in the training set. And, you know, there's not as much information for some reason the training set, data set, of these stories where it goes well. But I actually do think there's an optimistic future for humanity. And I know that's a hot take now for some reason, but I want to believe that every day and I think that it's on all of us to tell those stories too of how it does go well.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:22:56",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "And so it might be a good time to write some stories about how things could go well just to make sure they get into the training data.",
+      "tone": "witty"
+    },
+    {
+      "timestamp": "00:23:02",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Exactly, you got it.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:23:03",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "You have your homework for this evening. Dylan Field, thank you so much for joining us.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:23:06",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Thanks guys.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:23:08",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Thank you so much Dylan.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:23:09",
+      "ad": false,
+      "speaker": "Casey Newton",
+      "text": "Thank you.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:23:10",
+      "ad": false,
+      "speaker": "Dylan Field",
+      "text": "Have a good night.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:23:11",
+      "ad": false,
+      "speaker": "Kevin Roose",
+      "text": "Thank you.",
+      "tone": "happy"
+    }
+  ],
+  "highlights": [
+    "Field believes that deep, playful exploration of new technology often leads to unexpected breakthroughs, noting that his early interest in WebGL eventually paved the way for the creation of Figma.",
+    "While AI is proficient at generating \"average\" designs based on existing data distributions, Field argues that individuals with a unique creative voice and critical thinking skills will be more differentiated and rewarded than ever.",
+    "Field predicts a significant increase in the number of people identifying as designers, suggesting that AI tools will empower non-technical roles like product managers and engineers to engage more deeply in the design process.",
+    "The concept of \"hyperstition\" suggests that the stories we tell about AI can summon their own existence; Field advocates for creating and feeding models optimistic narratives to steer the technology toward a positive future for humanity."
+  ],
+  "summary": "In this interview, Figma CEO Dylan Field discusses his immersion in artificial intelligence and his belief that personal experimentation is essential for understanding the technology's evolving capabilities. He introduces the concept of \"vibe mathing\"—using AI to solve problems in verifiable domains like math and computer science—while noting the distinction between these objective fields and the subjective nature of design. Field emphasizes that while AI is highly capable, its outputs often represent a \"statistical average,\" which increases the value of human curiosity and deep technological exploration.\n\nAddressing the concern that AI might replace human designers, Field argues that \"design is not dead\" and instead predicts a growth in creative roles. He suggests that as AI democratizes the ability to create prototypes, the focus will shift toward \"taste,\" critical thinking, and unique creative voices that push beyond AI-generated first drafts. He remains bullish on the profession, suggesting that in the next two years, more people will adopt the title of \"designer\" as engineers and product managers utilize AI to engage more deeply with creative work.\n\nThe discussion also explores industry competition and the concept of \"hyperstition\"—the idea that memes and narratives can summon their own existence. Field notes that AI models are acutely aware of human tropes and science fiction stories because they are trained on our data. Consequently, he advocates for a more optimistic approach to storytelling regarding technology’s future. He concludes that by feeding the \"training set\" of human culture with positive visions of AI’s potential, society can help shepherd the technology toward more beneficial outcomes for humanity.",
+  "description": "We’re back with more from Hard Fork's live event in San Francisco! We sit down with Dylan Field, a founder and the chief executive of the design company Figma, for what he describes as a “roller coaster” of a conversation. We cover everything from the company’s “Design Is Dead” campaign, why writing and critical thinking skills matter more than ever, the sudden resignation of the Anthropic executive Mike Krieger from Figma’s board, and more.\n\nOne quick correction: In our interview with Field, he makes reference to the SpaceX S-1 filing and misstates what the company says their addressable market for A.I. enterprise applications is. Field says “$22.9 trillion,” but the correct number from the SpaceX filing is $22.7 trillion. The decimal point makes it look small, but it’s a difference of $200 billion.\n\n00:00 Introducing Dylan Field\n00:25 From Brown dropout to Silicon Valley \n01:35: Exploring new capabilities & \"vibe mathing\"\n5:02  Is design dead in the AI era?\n6:03 The power of writing, voice and critical thinking skills \n7:19 Why it's a great time to take risks\n8:30 The role of \"taste\" \n13:23 Why designers are still in demand\n16:20 Mike Krieger's resignation from Figma\n19:20 The future of enterprise SaaS\n20:12 What is \"hyperstition?\"\n\nGuests:\nDylan Field,  chief executive and co-founder of Figma.\n\nAdditional Reading:\nThis Start-Up’s $20 Billion Sale Died. It Came Fighting Back. https://www.nytimes.com/2025/07/31/technology/figma-ipo.html\n\nHard Fork is a weekly look into the future that's already here. Hosts Kevin Roose and Casey Newton explore stories from the bleeding edge of tech.\n\nFOLLOW US ON SOCIAL\nTikTok: https://www.tiktok.com/@hardfork\nKevin Roose - https://www.instagram.com/kevinroose/\nCasey Newton - https://www.instagram.com/crumbler/\n\nTwitter (X):\nKevin - https://x.com/kevinroose\nCasey - https://x.com/CaseyNewton\n\nThreads:\nKevin - https://www.threads.net/@kevinroose\nCasey - https://www.threads.net/@crumbler\n\nCasey’s publication, Platformer: https://www.platformer.news/\n\nSubscribe to Hard Fork!\nApple - https://podcasts.apple.com/us/podcast/hard-fork/id1528594034\nSpotify - https://open.spotify.com/show/44fllCS2FTFr2x2kjP9xeT?si=86ba626802b849cd\nAmazon - https://music.amazon.com/podcasts/7c7fe198-e6a8-41a8-b0fe-1d46b976dcd8/hard-fork\nYouTube Music - https://music.youtube.com/playlist?list=PLB9gMmtMLXxsa8C0PzHFL2tJFh7FrKrYD&si=Fwb9Uwon1ZneNsBp\nThe New York Times - https://www.nytimes.com/column/hard-fork\n\n“Hard Fork” is hosted by Kevin Roose and Casey Newton. Produced by Rachel Cohn and Whitney Jones. We’re edited by Vjeran Pavic. Engineering by Chris Wood and original music by Dan Powell, Marion Lozano, Sophia Lanman and Rowan Niemisto. Fact-checking by Caitlin Love. Video production by Jake Nicol, Chris Schodt and Sawyer Roque. Podcast Art Direction by Benjamin Wilkerson Tousley. Podcast Art & Animations by Julian Hespenheide. Additional Motion graphics by Phil Robibero. Thumbnails by Julia Moburg and Tara Godvin. Special thanks to Paula Szuchman, Pui-Wing Tam and Dahlia Haddad.",
+  "duration": 1403,
+  "people": [
+    "Casey Newton",
+    "Kevin Roose",
+    "Hard Fork",
+    "San Francisco",
+    "Dylan Field",
+    "Design Is",
+    "Mike Krieger",
+    "Introducing Dylan",
+    "From Brown",
+    "Silicon Valley",
+    "Additional Reading",
+    "This Start",
+    "Billion Sale",
+    "It Came",
+    "Fighting Back",
+    "Hosts Kevin",
+    "The New",
+    "York Times",
+    "Rachel Cohn",
+    "Whitney Jones",
+    "Vjeran Pavic",
+    "Chris Wood",
+    "Dan Powell",
+    "Marion Lozano",
+    "Sophia Lanman",
+    "Rowan Niemisto",
+    "Caitlin Love",
+    "Jake Nicol",
+    "Chris Schodt",
+    "Sawyer Roque",
+    "Podcast Art",
+    "Benjamin Wilkerson",
+    "Julian Hespenheide",
+    "Additional Motion",
+    "Phil Robibero",
+    "Julia Moburg",
+    "Tara Godvin",
+    "Paula Szuchman",
+    "Wing Tam",
+    "Dahlia Haddad"
+  ],
+  "topics": [
+    "AI's impact on the design industry and Figma's 'Design is Dead' campaign",
+    "The importance of human taste, voice, and critical thinking in the age of AI",
+    "The resignation of Mike Krieger and the vertical integration of AI labs like Anthropic and OpenAI",
+    "The concept of hyperstition and how narratives shape the development of technology",
+    "The future of enterprise SaaS and the evolving job market for designers"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/d1q4L_jiWEo/maxresdefault.jpg",
+  "date": "20260619",
+  "youtube_url": "https://www.youtube.com/watch?v=d1q4L_jiWEo",
+  "youtube_metadata": {
+    "title": "Why the Figma CEO Isn't Worried About AI Taking Design Jobs",
+    "description": "We’re back with more from Hard Fork's live event in San Francisco! We sit down with Dylan Field, a founder and the chief executive of the design company Figma, for what he describes as a “roller coaster” of a conversation. We cover everything from the company’s “Design Is Dead” campaign, why writing and critical thinking skills matter more than ever, the sudden resignation of the Anthropic executive Mike Krieger from Figma’s board, and more.\n\nOne quick correction: In our interview with Field, he makes reference to the SpaceX S-1 filing and misstates what the company says their addressable market for A.I. enterprise applications is. Field says “$22.9 trillion,” but the correct number from the SpaceX filing is $22.7 trillion. The decimal point makes it look small, but it’s a difference of $200 billion.\n\n00:00 Introducing Dylan Field\n00:25 From Brown dropout to Silicon Valley \n01:35: Exploring new capabilities & \"vibe mathing\"\n5:02  Is design dead in the AI era?\n6:03 The power of writing, voice and critical thinking skills \n7:19 Why it's a great time to take risks\n8:30 The role of \"taste\" \n13:23 Why designers are still in demand\n16:20 Mike Krieger's resignation from Figma\n19:20 The future of enterprise SaaS\n20:12 What is \"hyperstition?\"\n\nGuests:\nDylan Field,  chief executive and co-founder of Figma.\n\nAdditional Reading:\nThis Start-Up’s $20 Billion Sale Died. It Came Fighting Back. https://www.nytimes.com/2025/07/31/technology/figma-ipo.html\n\nHard Fork is a weekly look into the future that's already here. Hosts Kevin Roose and Casey Newton explore stories from the bleeding edge of tech.\n\nFOLLOW US ON SOCIAL\nTikTok: https://www.tiktok.com/@hardfork\nKevin Roose - https://www.instagram.com/kevinroose/\nCasey Newton - https://www.instagram.com/crumbler/\n\nTwitter (X):\nKevin - https://x.com/kevinroose\nCasey - https://x.com/CaseyNewton\n\nThreads:\nKevin - https://www.threads.net/@kevinroose\nCasey - https://www.threads.net/@crumbler\n\nCasey’s publication, Platformer: https://www.platformer.news/\n\nSubscribe to Hard Fork!\nApple - https://podcasts.apple.com/us/podcast/hard-fork/id1528594034\nSpotify - https://open.spotify.com/show/44fllCS2FTFr2x2kjP9xeT?si=86ba626802b849cd\nAmazon - https://music.amazon.com/podcasts/7c7fe198-e6a8-41a8-b0fe-1d46b976dcd8/hard-fork\nYouTube Music - https://music.youtube.com/playlist?list=PLB9gMmtMLXxsa8C0PzHFL2tJFh7FrKrYD&si=Fwb9Uwon1ZneNsBp\nThe New York Times - https://www.nytimes.com/column/hard-fork\n\n“Hard Fork” is hosted by Kevin Roose and Casey Newton. Produced by Rachel Cohn and Whitney Jones. We’re edited by Vjeran Pavic. Engineering by Chris Wood and original music by Dan Powell, Marion Lozano, Sophia Lanman and Rowan Niemisto. Fact-checking by Caitlin Love. Video production by Jake Nicol, Chris Schodt and Sawyer Roque. Podcast Art Direction by Benjamin Wilkerson Tousley. Podcast Art & Animations by Julian Hespenheide. Additional Motion graphics by Phil Robibero. Thumbnails by Julia Moburg and Tara Godvin. Special thanks to Paula Szuchman, Pui-Wing Tam and Dahlia Haddad.",
+    "duration": 1403,
+    "view_count": 8826,
+    "like_count": 116,
+    "channel": "Hard Fork",
+    "upload_date": "20260619",
+    "thumbnail": "https://i.ytimg.com/vi/d1q4L_jiWEo/maxresdefault.jpg",
+    "tags": [
+      "figma",
+      "figma ai",
+      "dylan field",
+      "dylan field figma",
+      "entrepreneurship",
+      "design",
+      "ui design",
+      "hard fork",
+      "hard fork podcast",
+      "hard fork live",
+      "nyt",
+      "kevin roose",
+      "casey newton"
+    ]
+  }
+}

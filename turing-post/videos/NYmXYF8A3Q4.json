@@ -1,0 +1,466 @@
+{
+  "title": "Energy-Based Models Explained: The AI Beyond Next-Token",
+  "source_url": "https://www.youtube.com/watch?v=NYmXYF8A3Q4",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "I want to show you something that I think will broaden your horizon. Look at this. This model solved a Sudoku puzzle in about 0.4 seconds. Two other models solved it incorrectly, and the rest timed out after 10 minutes.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:17",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Of course, I did my own test with the models I use daily, and they all solved it. But there is a caveat that only proves that they cannot actually solve it. Here it is.",
+      "tone": "intriguing"
+    },
+    {
+      "timestamp": "00:00:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Welcome to Attention Spent. My name is Ksenia and today we need to talk about a type of AI model that many people have heard about only vaguely, if at all: energy-based models.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:00:53",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Most AI models today are very good at producing language. They can explain, summarize, translate, write code, and sound confident while doing all of it. Familiar, right? But can they reason? Like, for real?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:01:09",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Let's go back to the example I just showed you. So when I gave the same Sudoku task to regular frontier models, Grok thought for 38 seconds and solved it. OpenAI thought for only 15 seconds and solved it. Claude took a while, but the annoying thing is that it doesn't show exactly how long it thought. Lame. Er... anyway, it solved it too.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:01:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Or it seemed so. Because if you check the small text at the bottom of Logical Intelligence's Sudoku task page, the one that we started from, here's what you find: they disabled code execution for both the energy-based model and the LLMs.",
+      "tone": "revelatory"
+    },
+    {
+      "timestamp": "00:01:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Why? Because if you let public LLMs use tools, they do not really reason for the puzzle. They write a brute force search program in Python and run it.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:02:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And guess what? When I unfolded the thinking traces of the models that solved it, that is exactly what they did. They wrote Python scripts. That is useful. It is impressive. It is also not the same thing as reasoning through Sudoku.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:02:18",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It is the difference between person solving the puzzle and person saying, 'Give me one second, I will build a tiny Sudoku-solving machine.' Both can get you the answer, but they reveal different capabilities.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:02:32",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And this distinction matters because many important problems in AI are not language problems. They are constraint problems. And Sudoku is a simple example because you can describe the rules in just one sentence: every row, every column, and every 3x3 box must contain the digits one through nine exactly once.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But solving the puzzle is not the same as describing the rules. Every choice has to fit with every other choice. That difference...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It's small but it points to a much bigger question in AI. Should reasoning be treated as generating the next token, or should reasoning be treated as finding a state that satisfies constraints? Time to introduce energy-based models. Tada!",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:19",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So the name comes from the language of physics. But the idea is simple. An energy-based model gives a score to a possible answer.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Low energy means the answer fits. High energy means something is wrong.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:33",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So instead of asking, what word should come next, the model asks, how well does this whole answer satisfy the problem? That is a very different way to think about reasoning.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "We also need to talk about Logical Intelligence, a company building an energy-based reasoning model called Kona, the one that I showed you solving Sudoku. They also have a formal verification system called Aleph, and Aleph is designed to help produce machine-checkable proofs.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Aleph is also our news reason to talk about these energy-based models because just this week, Aleph hit a major milestone. It has now reached the top position across all major AI formal reasoning benchmarks, including PutnamBench, VeriSoftBench, and LeanEval, alongside a verified 100 percent score on Verna. Phew, that's a mouthful. I'm sure not that many people understand what those benchmarks are. And what does it all mean at all?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Okay, so let's talk about Yann LeCun. I know, unexpected, but he's a vivid supporter of logical intelligence, and his support for this direction is not random, and it's important for our discussion about energy-based models. He has been arguing for years that future AI systems will need world models, planning, and energy-based mechanisms, rather than relying only on language prediction. This sounds technical, so let's try to make it concrete.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:08",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A normal language model generates text step-by-step. It looks at the previous tokens and predicts what token should come next. This is very powerful. It's why chatbots can write coherent paragraphs, answer your questions, and produce code.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:26",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But a lot of reasoning tasks do not behave nicely as a left-to-right sequence. An energy-based model approaches the problem differently. It looks at a possible state, for example, a possible full Sudoku grid, and gives it an energy score. If the grid violates the rules, the energy is high. If the grid satisfies the rules, the energy is low. So the model is not mainly trying to say the next thing, it's trying to move toward a better configuration. This is the key idea. Reasoning becomes optimization.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Optimization: You define what good looks like through constraints, objectives, or compatibility, and then the system searches for a state with lower energy. This is why EBMs are interesting for reasoning. Many hard problems are basically this: find the arrangement where all the pieces fit together.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:19",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Why does it matter at all? Because many important problems are constraint problems, as we said it in the beginning. And proof has to be logically valid.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:06:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "For example, a chip design has to obey physical and timing constraints. A robot has to move without violating safety constraints. An energy grid has to balance supply, demand, and stability. And financial system has to follow rules and avoid certain kinds of risk. Again, constraints. In those settings, a fluid explanation is not enough. You do not want an AI system to say 'this bridge should probably hold'. You want something closer to 'given these assumptions, this structure satisfies these requirements'. That is the direction logical intelligence is pointing at.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:06:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Are LLMs done? Sigh. Big sigh. Nope, they are still very useful. And logical reasoning accompanying their argument is the following: LLMs are useful as interfaces. They help humans express goals, explore ideas, write instructions, and generate candidates. But they are not always the right engine for checking whether a complex system satisfies a set of constraints. For that, they argue you need another layer. And Conna is their energy-based reasoning model. The company describes it as a model that evaluates what is valid, safe and permissible across possible states of a system.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Aleph is the practical system they have shown publicly for formal verification, where the output can be checked by Lean, a formal proof system. That Lean part is really important because Lean does not care whether the answer sounds elegant. Lean checks whether the proof is valid. Very refreshing, honestly. A machine with standards.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:08:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So what Aleph has achieved? Now to the mouthful of benchmarks most of you haven't heard of. The clearest public result from logical intelligence is on Putnam Bench. Putnam Bench is a benchmark built from problems from the William Lowell Putnam Mathematical Competition, one of the hardest undergraduate math competitions in North America.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:08:28",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The benchmark includes formal versions of the problems in theorem proving languages, including Lean. And this is different from a normal math benchmark. In a normal benchmark, a model might give the right final number, while the reasoning is messy or even wrong. In a formal proof benchmark, the proof has to compile.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "system has to produce a logical argument that the verifier accepts.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:04",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And Logical Intelligence reports that Aleph generated Lean proofs for 668 out of 672 Putnam Bench problems, which is 99.4%.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:16",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The company says these proofs were certified by an external deterministic Lean compiler.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It also says Aleph found counterexamples to 15 formal problem statements, suggested corrections, and then proved the corrected versions.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Okay, hold for a second. If that is true and robust, it suggests Aleph is doing something more useful than copying proof patterns. It is actually interacting with the formal statement itself. It can notice when a statement is broken, show why, and help repair it.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:09:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Still, we should be careful with the framing because this is a company-reported result and we should want more public technical detail.",
+      "tone": "cautious"
+    },
+    {
+      "timestamp": "00:09:56",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "We should know how much of the performance comes from Aleph's orchestration, how much comes from the underlying language model it uses, how much comes from search, and how much comes from the Lean environment itself.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:10:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But even with that caveat, the result is worth paying attention to because the output is checkable.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:19",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Now, again to Yann LeCun. I actually learned about energy-based models through JEPA. And that is probably the clearest way to understand why Yann LeCun cares about this direction.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:31",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The idea has history. Energy functions were already part of neural network thinking in the 1980s with Hopfield networks and Boltzmann machines.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:43",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Those systems used the idea of an energy landscape. The system moves toward a low energy state, and a low energy state means a more stable or more compatible configuration. So this is not a brand new invention created as a reaction to ChatGPT. It's an older line of AI research returning at a very interesting moment.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:10:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "LeCun has worked on energy-based learning for a long time, and JEPA is the modern bridge into his current worldview. JEPA stands for Joint-Embedding Predictive Architecture, which is quite a tragic name for a beautiful idea.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And instead of predicting the next word or reconstructing every pixel, a JEPA learns to predict in an abstract representation space. In Meta's I-JEPA, the model predicts representations of missing parts of an image. In V-JEPA, it does something similar with video.",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:11:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The point is to learn the structure of the world without wasting computation on every unpredictable detail. That's what it does.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:39",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That is the connection to energy-based reasoning. JEPA is about learning useful representations of the world. Energy-based models are about scoring whether a possible state fits those representations and constraints. If the state fits, energy is low. If it violates the structure, energy is high. This is very close to LeCun's broader",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "argument. In his 2022 paper, A Path Towards Autonomous Machine Intelligence, he argues that future AI systems need world models. They need memory, objectives, and planning.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A system should be able to imagine possible future states, score them, and choose a path that leads to a better one.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:23",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "In later technical notes, he and his co-author describe hierarchical JEPA, or H-JEPA, as combining energy-based models and latent variable models inside the larger architecture.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:35",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What is so exciting for me about logical reasoning, and I am sure for Yann LeCun as well, it's that it connects an old idea from neural networks, a newer idea from JEPA, and a very current problem in AI.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:12:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "How do we get systems that can reason under constraints instead of producing fluent text that may or may not hold together?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:13:02",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Why this all matters beyond math. So, why should anyone outside theorem proving care? Because formal verification is one of the few places where AI reasoning can be checked cleanly.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A model can write a beautiful answer to a math problem and we may still argue about whether the reasoning was valid. But if a Lean proof compiles, the formal statement has been proved inside that system.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That does not solve everything. The hard part is translating the real-world requirement into the formal statement correctly. If you formalize the wrong requirement, Lean can prove the wrong thing with a perfect confidence.",
+      "tone": "cautious"
+    },
+    {
+      "timestamp": "00:13:43",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is not a bug in Lean, this is the universe reminding us that humans are still involved. But the general pipeline is powerful.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:13:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "First, translate a safety of correctness requirement into a formal statement. Then, use a system like Aleph to propose a proof. Then, use Lean to check the proof.",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:14:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That kind of pipeline could matter for semiconductors, aerospace, automotive systems, finance, healthcare, industrial control, and any domain where provably correct is not enough.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:15",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is the bigger implication. AI may need a layered reasoning stack: language models for communication, energy-based models for constraint-heavy reasoning, formal systems for verification.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That division of labor sounds much more realistic than expecting one giant chatbot to handle everything from poetry to reactor controls. I would personally like the reactor to be verifiable and not running on vibes.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:14:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The real story is that AI reasoning may be moving towards systems that check structure before they answer. And if AI is going to enter infrastructure, robotics, chips, finance, science, that shift truly matters.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:14:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Because in those domains, a confident answer is not enough. The answer has to hold. That it's for today. Thank you for watching. Talk.",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Tell me in the comments, I love our our discussions. See you next week.",
+      "tone": "warm"
+    }
+  ],
+  "highlights": [
+    "Energy-based models (EBMs) represent a shift in AI reasoning by treating problems as optimization tasks where the system searches for a state that satisfies constraints rather than simply predicting the next token in a sequence.",
+    "Unlike traditional language models that often solve logic puzzles by writing external code, EBMs use a \"low energy\" scoring system to determine how well a potential solution fits the rules of a complex problem.",
+    "The development of formal verification systems like Aleph demonstrates that AI can produce machine-checkable proofs that are certified for logical validity, moving beyond \"fluent\" text that may contain hidden reasoning errors.",
+    "Future AI infrastructure will likely require a layered reasoning stack, utilizing language models for communication, energy-based models for constraint-heavy logic, and formal systems to ensure safety and correctness in high-stakes fields."
+  ],
+  "summary": "The transcript explores the limitations of current Large Language Models (LLMs) in true logical reasoning, using Sudoku puzzles as a case study. While LLMs often appear to solve complex logic problems, they frequently do so by generating code to brute-force a solution rather than reasoning through constraints. To address this, the speaker introduces Energy-Based Models (EBMs), which shift the focus from predicting the next word to optimizing a state based on specific constraints. In an EBM, a \"low energy\" score indicates a valid solution that satisfies all rules, making reasoning a process of finding the most stable, mathematically sound configuration.\n\nA central highlight is the work of the company Logical Intelligence and its system, Aleph, which utilizes the energy-based model Kona to achieve record-breaking results on formal reasoning benchmarks like PutnamBench. Unlike standard chatbots that might provide a correct answer through faulty logic, Aleph produces proofs in \"Lean,\" a formal verification language that can be objectively checked by a machine. This approach aligns with the vision of AI pioneer Yann LeCun, who argues that future AI must move beyond language prediction toward \"world models\" and Joint-Embedding Predictive Architectures (JEPA) that understand and plan within the structural constraints of reality.\n\nThe overall theme is the necessity of a \"layered reasoning stack\" for high-stakes industries such as aerospace, finance, and healthcare. The speaker argues that while LLMs are excellent interfaces for communication, critical systems require a separate layer of energy-based reasoning and formal verification to ensure safety and correctness. The shift toward these models represents a move away from AI that merely \"sounds\" right toward systems that are provably correct, ensuring that infrastructure and technology are built on logic rather than \"vibes.\"",
+  "description": "Energy-based models don't predict the next token — they check if a whole state fits reality. Why this matters for reasoning, and what Aleph changes.\n\nIn this episode, we unpack energy-based models – a very different approach to AI reasoning that treats problem-solving as constraint satisfaction instead of language generation. \n\nWe will look at Kona and Aleph, which now leads PutnamBench, VeriSoftBench, LeanEval and hits 100% on Verina, with Lean-certified proofs on 668/672 Putnam problems. Plus why Yann LeCun has been saying this for years — world models, JEPA, energy-based reasoning.\nIt’s absolutely fascinating!\n\nAttention Span is here to show you AI isn’t magic. Sometimes it’s just very confident autocomplete – and sometimes it’s actually a different kind of math under the hood.\n\n👉 Subscribe for more high-signal AI mechanics\n👉 More analysis: TuringPost.com\n👉 Interviews: @RealTuringPost\n\n🔗 Links mentioned\nBeyond LLMs: JEPA and the Road to AGI – the main milestones so far https://www.youtube.com/watch?v=z0fh0SY3VWc \nLogical Intelligence Sudoku Demo https://sudoku.logicalintelligence.com/\nEBM vs. LLMs: Kona Sudoku benchmark https://logicalintelligence.com/blog/energy-based-model-sudoku-demo\nAleph across formal reasoning benchmarks https://logicalintelligence.com/blog/aleph-leading-benchmarks\nAleph and PutnamBench\nhttps://logicalintelligence.com/blog/aleph-solves-putnambench\nPutnam Competition https://maa.org/putnam/\nYann LeCun — A Path Towards Autonomous Machine Intelligence https://openreview.net/pdf?id=BZ5a1r-kVsf\n\nDeep dive on JEPA: https://www.turingpost.com/p/jepa\n\n#AttentionSpan #AI #EnergyBasedModels #EBM #Kona #Aleph #AIReasoning #YannLeCun #JEPA #Lean #MachineLearning #LLM #TuringPost",
+  "duration": 911,
+  "people": [
+    "Ksenia Se",
+    "Attention Span",
+    "Logical Intelligence",
+    "Sudoku Demo",
+    "Kona Sudoku",
+    "Putnam Competition",
+    "Path Towards",
+    "Autonomous Machine"
+  ],
+  "topics": [
+    "Energy-based models (EBMs) vs. traditional LLMs for AI reasoning",
+    "Reasoning as optimization and constraint satisfaction",
+    "Formal verification systems and benchmarks including Aleph, Lean, and PutnamBench",
+    "Yann LeCun's vision for world models and Joint-Embedding Predictive Architecture (JEPA)",
+    "Practical applications of provable AI in high-stakes domains"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/NYmXYF8A3Q4/maxresdefault.jpg",
+  "date": "20260515",
+  "youtube_url": "https://www.youtube.com/watch?v=NYmXYF8A3Q4",
+  "youtube_metadata": {
+    "title": "Energy-Based Models Explained: The AI Beyond Next-Token",
+    "description": "Energy-based models don't predict the next token — they check if a whole state fits reality. Why this matters for reasoning, and what Aleph changes.\n\nIn this episode, we unpack energy-based models – a very different approach to AI reasoning that treats problem-solving as constraint satisfaction instead of language generation. \n\nWe will look at Kona and Aleph, which now leads PutnamBench, VeriSoftBench, LeanEval and hits 100% on Verina, with Lean-certified proofs on 668/672 Putnam problems. Plus why Yann LeCun has been saying this for years — world models, JEPA, energy-based reasoning.\nIt’s absolutely fascinating!\n\nAttention Span is here to show you AI isn’t magic. Sometimes it’s just very confident autocomplete – and sometimes it’s actually a different kind of math under the hood.\n\n👉 Subscribe for more high-signal AI mechanics\n👉 More analysis: TuringPost.com\n👉 Interviews: @RealTuringPost\n\n🔗 Links mentioned\nBeyond LLMs: JEPA and the Road to AGI – the main milestones so far https://www.youtube.com/watch?v=z0fh0SY3VWc \nLogical Intelligence Sudoku Demo https://sudoku.logicalintelligence.com/\nEBM vs. LLMs: Kona Sudoku benchmark https://logicalintelligence.com/blog/energy-based-model-sudoku-demo\nAleph across formal reasoning benchmarks https://logicalintelligence.com/blog/aleph-leading-benchmarks\nAleph and PutnamBench\nhttps://logicalintelligence.com/blog/aleph-solves-putnambench\nPutnam Competition https://maa.org/putnam/\nYann LeCun — A Path Towards Autonomous Machine Intelligence https://openreview.net/pdf?id=BZ5a1r-kVsf\n\nDeep dive on JEPA: https://www.turingpost.com/p/jepa\n\n#AttentionSpan #AI #EnergyBasedModels #EBM #Kona #Aleph #AIReasoning #YannLeCun #JEPA #Lean #MachineLearning #LLM #TuringPost",
+    "duration": 911,
+    "view_count": 132450,
+    "like_count": 6863,
+    "channel": "Ksenia | Turing Post",
+    "upload_date": "20260515",
+    "thumbnail": "https://i.ytimg.com/vi/NYmXYF8A3Q4/maxresdefault.jpg",
+    "tags": [
+      "AttentionSpan",
+      "AI",
+      "EnergyBasedModels",
+      "EBM",
+      "Kona",
+      "Aleph",
+      "AIReasoning",
+      "YannLeCun",
+      "JEPA",
+      "Lean",
+      "MachineLearning",
+      "LLM",
+      "TuringPost"
+    ]
+  }
+}

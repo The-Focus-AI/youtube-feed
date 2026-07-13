@@ -1,8 +1,8 @@
 ---
 channel: Hard Fork
 channel_handle: "@hardfork"
-total_videos: 38
-last_updated: 2026-06-08
+total_videos: 44
+last_updated: 2026-07-10
 ---
 
 # Hard Fork Channel Index
@@ -13,15 +13,21 @@ Hard Fork is a New York Times podcast hosted by **Kevin Roose** and **Casey Newt
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 38 |
-| Total Views | 1,091,637 |
-| Date Range | 2025-11-14 to 2026-06-05 |
-| Average Video Length | 47:31 |
+| Total Videos | 44 |
+| Total Views | 1,187,872 |
+| Date Range | 2025-11-14 to 2026-07-10 |
+| Average Video Length | 49:18 |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [Social Media Bans Don't Always Work. What's Next?](videos/hFuh8G-1ong.md) | 74:58 | 5,388 |
+| [Fable 5 is Back ... But Why Was It Gone at All?](videos/pqin6_VaAZM.md) | 62:54 | 11,401 |
+| [Hard Fork Live: Watch the Full Show!](videos/MCJn08wBeV8.md) | 2:30:09 | 4,997 |
+| [Why the Figma CEO Isn't Worried About AI Taking Design Jobs](videos/d1q4L_jiWEo.md) | 23:23 | 8,826 |
+| [She's Fought Online Spying for 30 Years. Here's What's Next.](videos/gVIAq9IP-mc.md) | 23:07 | 6,494 |
+| [Satya Nadella on A.I. Jobs: Humans Will Do the 'Glue Work'](videos/zqEZyHkXgh0.md) | 29:14 | 59,129 |
 | [How We Got to the Biggest I.P.O. Race Ever \| SpaceX, Anthropic & OpenAI](videos/gIkyiAEpu7E.md) | 61:49 | 11,394 |
 | [Sundar Pichai on A.I. Backlash, the Future of Work and Google's Next Era](videos/RgV57kDzcng.md) | 28:44 | 197,780 |
 | [Is Google Doing Enough to Win the A.I. Race?](videos/3OuXRxh3JNw.md) | 11:53 | 13,163 |

@@ -1,0 +1,1835 @@
+{
+  "title": "Why the VC Hype Cycle Always Gets It Wrong | VC Roundtable | E2307",
+  "source_url": "https://www.youtube.com/watch?v=4q3Pis-tPvQ",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Hello and welcome back to TWiST. My name is Alex. It's Wednesday, which means it's time for yet another venture capital roundtable. This time I do have to say we have an incredible panel. And as you can tell from the bags underneath my eyes, there's more than a little bit going on. So today we're going to be looking into strong second-quarter exits, including a number of IPOs, the return of Anthropic's Mythos and Fable models, rising demand for open-weight Chinese models including GLM-4.2, what to make of $100 million Series A rounds and even larger seed rounds, and how our panelists are navigating investing in yet another boom. Now, today I have with me Aileen Lee from Cowboy VC. Aileen, how are you doing?",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:00:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh great. I'm excited to be here.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:00:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now, your firm raised a $230 million fund 4 and a $140 million opportunity fund back in 2023. You guys have backed Drata, Standard Kernel, and Binti amongst others. How goes fundraising for fund 5?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:01:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Uh, we're not raising for fund 5 right now. Uh, we're still investing fund 4, and it's a... I mean we're going to talk about it. It's a wild time right now, but a lot of exciting things to look at right now and some... I think founder quality is incredible right now.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Always good to hear. We also have Mike Maples from Floodgate. Mike, how are you doing?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:01:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Can't complain.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:01:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now, you filed with the SEC to raise a $130 million fund 8 in May. Floodgate has backed Last Energy, Hadrian, and Applied Intuition. Have you filled up that new fund?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:01:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, I'm not sure I'm allowed to say, uh, but you know, we're... we're in pretty good shape.",
+      "tone": "cautious"
+    },
+    {
+      "timestamp": "00:01:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Good. And then finally, we have Ben Lerer from Lerer Hippeau, which closed a $200 million fund 9 last year. Lerer Hippeau has backed Zipline, which we've had on the show a number of times, Palmetto, and ZenBusiness amongst others. Ben, how are you?",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:02:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm doing okay. I have more to complain about than Mike, I guess.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:02:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, okay. Well do you want to start... we can start with the therapy session and then get into the conversation.",
+      "tone": "lighthearted"
+    },
+    {
+      "timestamp": "00:02:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm kidding. We can get into it. We got time. We have time.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:02:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Actually, before we do anything serious, I want to point out there's... there's two of us here who tweet all the time, Mike and myself, and then there's these two people on the show today who apparently have lost access to their Twitter accounts, namely Aileen and Ben. So from Mike and I, how do you two manage to shut off when there's so much going on that both infuriates and delights us? Like, how do you... how do you not just constantly go at it?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:02:40",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Um, I mean I've definitely become a little bit more of a lurker. I used to be a lot more of an active tweeter.",
+      "tone": "calm"
+    },
+    {
+      "timestamp": "00:02:48",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So I actually... I was an active tweeter back in the day, uh, and actually a pretty active social media user. And, uh, I think it was probably during COVID that I sort of felt that the trade was no longer worth it. Like, there was... it... I just sort of like hit a wall and, uh, went cold turkey one day. I went to a dinner with a friend, he told me that he had sort of pulled off all social media and was living his best life, and I sort of, you know, had like a second and third drink and was like, \"I can do it too!\" and deleted... like deleted the apps and, uh, and really like didn't go back at all. I have become a little bit more of a lurker of late, like Aileen, but, uh, look, I just... I wasn't getting the joy out.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "David, I really do think that, like, in general, social media is, like, not great. I have young kids. I, like, feel the sort of FOMO that comes from it and the angst that comes from it. And I just, like, decided to pull out, and I understand that, like, there's probably some trade-offs in terms of, like, brand building and, you know, puffing out my chest that I lose as a result of it. But I try to put that sort of time and energy back into other productive things.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:03:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, maybe Mike and I will eventually grow up and join you guys. But in the meantime, we're mad about everything. So I feel like, Mike—",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:03:32",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, I'm super pissed too, don't get me wrong. I just, you know, take it out on my children and, uh, colleagues.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:03:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, that's much— that's much healthier. Sorry. I—",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:03:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What have you guys ranted about recently?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Uh, Mike has ranted about, uh, let's see, everything: California, Mamdani, uh, foreign policy, domestic policy, tax policy, immigration policy. I mean, Mike, you've been— I went through all your tweets, guys, before the show, and Mike's been on a bender.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:03:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, maybe— maybe I've got Fourth of July on the brain. But I guess— I guess normally I just stay out of it all. But I guess lately I've been thinking that, uh, there are some things that if— if they happened would be very, very bad. And, uh, and I— I think I'd have regrets if I didn't say anything about it.",
+      "tone": "pensive"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. Well, I bring this up not just to be a brat, but to point out that there's so much going on that I feel like cycles of business have been compressed dramatically in the AI era. And we're seeing things become true in Q1 and then not true in Q2. So it's a— it's a very kinetic time. I think it's a good time for us to chat and figure out where we are. And from that vein, I want to start with: how much has recent venture liquidity, uh, helped you guys on the LP side of things? For the last couple years, VCs were raising less money than before, people were raging about a lack of exits. Things have gotten better lately, so I'm curious how that's manifesting in your future fundraising plans and how you're thinking about allocating capital. And Ben, I thought we'd start with you.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:04:56",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure. Yeah, I mean, you— you know, like Eileen, we are not raising right now. We raised our last fund last year. We're in the sort of, you know, generally early innings of deploying that. Uh, you know, I think probably like a lot of folks, we had a few years of slower liquidity following sort of like a bunch in '21 and early '22. Uh, things have picked up. Uh, but I don't— you know, I never feel like I am— our liquidity is what is really important to our LPs. Most of our LPs are large institutions that have a bunch of exposure to multi-stage and sort of, you know, gigantic funds that they have huge checks with. And I think like they need the, you know, SpaceX's and Stripes and OpenAIs and Anthropic's to go public to sort of feed money back into their system in a large scale versus, you know, me returning five or 10 or 15 million dollars to LPs on a $150 or $130 million fund or whatever it is. And so, you know, I don't get a ton of grief from LPs. I think also I'm very early stage, like people—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "all the LPs who are signing up with us and probably with Mike and Aileen understand that this is like the best companies take a long time to mature I understand we have this like weird very short-term view on companies are worth a trillion dollars in 15 minutes but I still think probably over time we get back to some general sanity around the idea that building great companies takes time and um I've you know I think we're lucky that we have LPs that are sort of signed up for that.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Aileen I'm I'm really curious about this because Jason has been complaining for several years about a lack of liquidity he's said you know the venture industry was under just so much pressure um seems that Ben's saying that maybe some LPs are just less concerned so how does that manifest over on the Cowboy side?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:06:41",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, I do I think it's going to be interesting because obviously a lot of folks are locked up still, right? But there's a lot of money that's going to get distributed with SpaceX. We have one LP that had a target venture exposure of 25%, but because there's been so much appreciation from some of the largest fund holdings, they're at 45% venture exposure. And so what will happen when they get the money back, you know, will like the percentage of like it's probably you know they want to have diverse portfolios but I think it will help because I think some of them have been a little hesitant to commit more to venture when they weren't getting money out. So I think it's good news for the venture business that they're going to get money back and hopefully they'll put it back into a diversity of funds, both large and small.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Just to go back to the denominator effect, right? I mean, we're back to sort of like the 21 denominator effect, paper gains that hopefully turn into not paper gains and hopefully have more staying power than the 21 paper gains did.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:07:34",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Mike, do you think they're going to?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:07:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, I, I, we try really hard to have liquidity, uh, you know, regardless of the environment. So we've, um, uh, you know, we've returned a little over 350 million in the last two years, uh, but, but like our, you know, that's nothing compared to what Founders Fund will get from SpaceX, but our fund is tiny compared to Founders Fund, right? Our, our fund is like 150 million. And so we're trying to, uh, I think one of the things that seed funds can do is, um, they have more exit optionality, uh, and there are, there are times when I think that the seed funds can proactively take advantage of that in ways that the big guys can't.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:20",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And that's why I actually, I, I think we're going to talk about this, but I'm encouraged by the Bending Spoons IPO. Yep. Because that's a, a vehicle that's been kind of gobbling up older companies and not necessarily AI native companies. And that's the thing we need because a lot of, I mean, obviously everybody for the past year has generally been investing in AI native companies, right? But you've got a bunch of portfolio companies that were kind of pre-AI. And so a lot of us are also working with them to actually make this transition to become much more AI native, in some cases burn the boats and like build a whole new product suite or figure out what the exit's going to be. But while, like, you know, traditional SaaS companies are trading at such crappy multiples, they haven't been very acquisitive. So I think it's, like, it's exciting to see more vehicles that are looking to consolidate.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "deciding that M&A is coming back and I assume that 27 will be maybe even more active and so they'll be more exit opportunities for what we call pre-AI companies.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:09:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, so just to put some notes behind that, Bending Spoons' IPO price last night went out today, priced at $29 per share, up from its range of $26 to $28, worth about $18.5 billion non-diluted, last valued at $11 billion. And if you want to go read the S-1, actually it shows a company in pretty rude health, frankly, doubled revenue year over year, and I think it had positive operating and net income on a GAAP basis in Q1 of this year, so doing quite well. Now Aileen, it bought AOL, it bought Evernote and Vimeo and I don't know, probably like Caveman Inc., these companies are so old. Do you think that's a vehicle that actually provide real liquidity to the old unicorns from the 2000 era that are just seemingly drying out on the vine?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:51",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "We love an exclusive here on the pod, and I have an amazing deal to announce that's just for Twist listeners. Go right now to agree.com, sign up for their easy-to-use all-in-one contract-to-cash stack, and if you tell them Jason sent you, you're going to get 50% off for life. That's right, 50% off for life. It's really important to have a tight system to get paid. Agree is the number one fastest way to go from contract to cash. That means gathering e-signatures, invoicing, billing, payments, and revenue recovery if it comes to that. No more jumping between four or five different platforms just to write out a contract, get it signed, set up billing, and start sending invoices. Check out these numbers: the average time from contract sent to signature is under seven hours using agree.com and the median time from invoice sent to invoice paid is just 36 hours. So, if you want to stop chasing invoices, go right now to agree.com. If you tell them Jason sent you, you'll get 50% off for life.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:10:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, they're not all drying out on the vine.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:10:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I apologize. What percentage are?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:10:56",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But, um, I mean I think Bending Spoons and others, right? Like maybe Bending Spoons... there's a lot of PE firms, right, who are going to do this I think more actively as well. But I did notice, like, I am still an Evernote user, which people give me shit for, but they just jacked up their price a ton year over year. So it'll be interesting to see how they balance being public and needing to grow revenue and keeping user bases.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:11:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Are you going to churn?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:11:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I don't know, I haven't decided yet.",
+      "tone": "uncertain"
+    },
+    {
+      "timestamp": "00:11:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, well I have to say that you probably are a little bit less price sensitive than the average Evernote user. So I think that if you're on the fence, then that's not really good news for them. Now I was going to save this for later, but we're talking about it now. So Mike, Floodgate-backed Ignite back in the day, yeah?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, that's a good one. Yeah, shout out Vinit Jain, one of the nicest guys in technology, period. Love that guy. Yep.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:11:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "They sold to private equity early last year, February 25th for I think $1.5 billion. And at the time I was a little bit disappointed by it because I've known Vinit for a while and I really like the company, how he ran it, his focus on, you know, frugality and profitability and all that. But looking back it actually seems kind of prescient given what we've seen as Aileen mentioned with SAS multiples. How—",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "How common are deals like that going to be, or are we going to see more of like the roll-up strategy we're seeing from Bending Spoons in the next couple quarters?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, well I think they were a lot more common when it happened. So it was, and it was interesting, right? And I remember actually, you were at a dinner we had with Ignite once, way back when.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:12:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That's the one time we met. Yeah, yeah, yeah.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:12:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, like maybe more than 10 years ago, right? It was a while ago.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:12:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It was before I quit drinking. So yes, it was more than 10 years ago.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:12:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So I was on the board of Ignite since 2008 and then we exited, you know, last year. And I think that Vinny really wanted to go public, but I think that the challenge for him was, you know, he's been doing this company for almost 20 years and you miss one quarter and it's like you just get eviscerated. And so, you know, there was a lot of interest in his company and, you know, there was just, he had put so much time and effort into it that I think that he thought that he could create more value being part of this private equity concern. And I don't think we had any idea of what was going to happen to SaaS multiples. I think that's just, you know, us getting lucky, but I think in hindsight he probably made the right call.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I think so. Ben, I know you don't care about liquidity because your timelines are infinite.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:13:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh my god.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:13:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Let's have that be the thing that comes out of today, please.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:13:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I've never heard a VC say 'my LPs are so patient, I've literally taken an infinite...'",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:13:34",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That was really not what I said! Oh, forget it. I'm so glad we're all seeing this. This is why I don't leave my house or participate in any of these things.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:13:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You're on Zoom! You didn't even have to leave your house to come here today.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:13:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No. Uh, given that you're not under a, say, undue duress on the liquidity front, I'm curious how you think about private equity or non-IPO exits for your portfolio companies today. Are you encouraging companies to look for them if they're not growing as quickly, or do you think that multiples will rise in the future and therefore holding on a bit longer before trying to find a landing place makes more sense?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:14:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "To what Mike said earlier, we are also obviously always trying to figure out ways to create liquidity, regardless of whether or not we have people screaming at us about it. That's the job, like, that's why we're here. And my philosophy is that companies get bought, not sold. I think it's really hard to go out and decide that it's time to go like ship off your slightly broken company and have somebody pay you not even a good multiple for it, but like maybe anything for it. And so, you know, maybe and now to reference what Aileen said, like we're spending time with companies from past generations that we think are good companies with still motivated, serious founders, hopefully like unfair data advantages and lots of customers but maybe that were built for a different time, reimagine what their company needs to be. Sometimes it is burning the boats, sometimes it's building some new products, sometimes it's changing some talent, but I think this is a moment where...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "If you just sit around passively and look at your old companies and say, 'Hey, I hope they figure out AI,' we're going to be very disappointed. And actually, this is—there is something that I'm experiencing, I'm not sure if Mike and Aileen would agree, but we're finding that as a—even as a seed investor, we need to go re-engage with companies from 8, 10, 12 years ago in ways that I would not have expected because the later-stage investors are not stepping up. And I think a lot of it is because they're at funds that have raised enormous, enormous, enormous newer funds. They are very focused on the sort of investing in the next trillion-dollar company today. They've had a lot more turnover because that's what happens at big funds; the people who made the investments aren't there. And we have some sort of pretty dysfunctional boards with real companies, but a bunch of people asleep at the wheel. And so we're coming in maybe as quite small owners and not even active board members and like shaking the thing and being like, 'Everybody, you know, there's a real company here, but if we just think we're going to hang out and grow, you know, 10%, 20% and make a little money or lose a little money, this company might be worth nothing.' It's time to get serious, and so we're spending the time doing that.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:16:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And then maybe just a little other sort of thought on liquidity. We have—and maybe this touches on Mike's company that sold last year—I tend to think that if you have an outsider come in and make a real serious approach, you should take that very, very, very, very seriously. That Eric Hippeau, my partner, has this philosophy, which is sort of your first offer is probably your best offer. And if somebody really wants you, yes, you should of course go run a process and see what else is out there, but there are not all that many moments for companies that are not extraordinary companies to create liquidity, and when opportunities present themselves, don't be dismissive and greedy.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:17:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, we're going to get to Aileen and her response to shaking the old startup cage, but first we have to do a quick little segment about our dear friends over at Plaud.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:17:11",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "Jason and I are big fans of Plaud. They are beautiful little AI note-takers that I wear on my wrist, he wears on his lapel. We run tons of notes here at TWiST, and to not forget everything, we record it all. If you work here, you're always being recorded, and that means we never forget a darn thing. If you want to be cool like us, you can get a Plaud NotePin S at plaud.ai/twist. Use the code TWIST to save 10%, and if you think AI hardware doesn't work, well, bad news: it actually does.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:17:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Aileen, back to you. I want you on going to startups that are maybe with dysfunctional boards, shaking the cage and getting them back on track.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:17:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean, I totally agree with Ben. There are definitely a lot of board members that are kind of MIA or just—I mean, there's been a lot of turnover at firms and it's hard. You've got orphan companies where in some cases CEOs optimized more for valuation in years past than...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "kind of active board members or experienced investors and a lot of the folks who were newer and had a new checkbook aren't there anymore. Which is really just fine, but I mean I think that's hopefully how you also build your reputation as an investor is like being there through thick and thin and being there in hard times. You know, that's what's interesting actually after kind of like ZIRP and post-ZIRP, I definitely feel in competitive situations when we're talking to founders, they want—when they ask to do references, they will ask founders like 'how did they handle a downturn? How did they handle things when things weren't good?' because they know that's—obviously there's a lot of talk right now about data center financing and whether it's going to fall over and all this kind of somewhat circular economy and like what's going to trigger some of it to fall over and we kind of saw this with dot-com.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:48",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And so I think people have got a little bit of the jitters. Like, I'm going to try and raise as much as I can right now, which can be, you know, a double-edged sword. It gives you a big war chest to be able to hire great people and to be able to go for a long time, but going for a long time without actual feedback loop from the market can also be a negative. Um, we've definitely worked with and—like in one case so we have a portfolio company called Mutiny that's been in the news quite a bit because they burned the boats. You know, Jaleh had a really nice growing product but it wasn't completely AI-native. Uh, and they were like, you know, we could continue to milk this and try and tweak it, but it doesn't feel like we're really capturing the moment for customers to really give them an AI-native product and so they basically like, uh, unfortunately had to cut a lot of the people, went back to the drawing board, built a whole new product suite and are selling it now and it's incredible. But I think they—they feel strongly that they would not have gotten there if they hadn't burned the boats.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:40",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so you've identified a real problem and you've put together a solid solution and a business model that you believe in. So you're all set to launch your new company, right? Uh, not so fast. If you want investors and potential customers to take your new business seriously, you need to consider forming a Delaware C Corp, and that's where Northwest Registered Agent comes in. They're going to give your new company a real identity. That means an address for your public filings, a domain, a custom website, a business email, and of course, a phone number. And that's going to take just 10 minutes and 10 clicks. They don't charge hidden fees, customer service is available around the clock, they're not overwhelming your inbox with spam, and they make it easy to cancel at any time. So, get all the advantages of a Delaware C Corp independent regardless of where in the U.S. you're operating from. Visit northwestregisteredagent.com/twist for more details, and the links are in the show notes.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:20:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now on the burning the boats front—oh, I know how to type. Um, on the burning boats front, we saw Intercom become Fin and then sell for a pretty quick number, and that was very much a 'we are going to start over, we're going to become AI first, working on'—I think their own models as well if memory serves. Oh, and said about that. But that was a success. Aileen, how many companies do you think that are pre-AI companies can execute a pivot like that and actually land the plane? Because to me that sounds...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "incredibly challenging, but I also don't want to be a hater and underestimate, you know, founder potential.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:21:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "A lot of it depends on who the customer is and what the problem is that you're solving, so there's some customers where they don't want like a completely AI-native product, right? They're not in that trust zone yet where they want everything like and especially depends on like the customer base and how big it is, um, but in many cases I think it just felt like there's so much opportunity to support sellers in how they prep for, like, you know, whether it's getting a lead and then building the relationship to close that would could leverage AI that they really wanted to take the time to figure out how to make it, make it work.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "One factor in some of this that I think is interesting, uh, many years ago I was involved with a company called Keep Safe. And, and we were doing well but, but not set the world on fire well. And, and one day we, we all get in a room and we said, you know, maybe we should stop thinking about being growth-first and become profit-first. And like what if we, what if we operate this company on the rule of 70s? So if we break even we've gotta grow 70% a year, if we're growing 40% a year we've gotta have 30% margins. But, but that's just going to be our immutable rule. And so then what we would do is every month we would say whatever our profit target was, we'd put that much money in the bank, and whatever we had left was what we could run the business on. And it's, it's funny because a couple weeks ago I was having lunch at Phillip Burner's ranch in Petaluma, who's one of the founders of Keep Safe. And, and you know he's probably made somewhere between 10 and 20 million dollars, maybe even more, just dividending out the profits, you know, over the last decade. And so I like to say that, uh, growth is a combination of ambition and acceptance. And it's like you know you're, you're entitled to burn venture capital money if on the other side of it you create enough growth and category dominance to justify that burn. But if you have no path to doing that, I think a lot of times you're better off accepting the reality that you need to be a profit-first company. And, uh, you know, make as much profits as you can. And, and that company, had they not done that, probably wouldn't exist anymore. But now they're, you know, every, every quarter, you know, we get another dividend check. So I think Floodgate put in like a million and a half bucks and I think we've gotten more than 10 million dollars of dividends from them.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Laws of gravity in space-time, right? If you're if you're in one-to-X rapid growth mode, for every dollar of burn that you burn, you have to achieve a certain amount of growth to justify that burn, or you can't credibly claim that you're a growth-first company.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's a hell of a return. Slow IRR, but lovely dollar amount.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:24:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And to some degree that's really what Bending Spoons is doing, right? They're, they're kind of say, you know, I like to say that a startup starts at zero to one and they have to have proof they have an insight about the future, then it's get product-market fit, then it's one to X, then it's, uh, grow at a rate that's predictable that justifies your burn, then there's profitable growth, and then there's profitable decline. And I think part of, part of my job as a VC is to help the founder locate where they are in that sequence. You know, where you are in that sequence has a set of rules.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:24:15",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:24:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And so, I think that a lot of people are growing not fast enough relative to their burn.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:24:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, you know, one thing I think that's important for founders who are listening or watching is like, there was for enterprise software this rule where one-to-X was like triple, triple, triple, double, double, right? That was best in class, right? You'd go one, three, nine, 25, 27, something like that, right? But that's because of what's going on in AI, the bar has really changed. So if you're a founder that wants to raise seed or A or B, you need to know that basically, I think right now it's probably one to five or one to four and a half depending on what you're doing, and then probably five to 20. Uh, so you really have to be growing at a to be able to raise venture capital from the folks who do A's and B's, the growth curve looks very different in '26 and '27 than it has before.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So quintuple, quadruple, not triple, triple.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:24:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think at least.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:24:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's a lot harder.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:25:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What do you guys think?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:25:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I agree. I I don't think that it is a overall a good thing for the ecosystem that we've moved into this sort of uh like I think I think it is preventing capital from from flowing into certain kinds of businesses that are that want to do harder things and that want to that want to enter businesses where the moat is more difficult or where the sales cycle's more difficult and I think there's sort of it's I honestly think one of the big problems is it's forcing money into companies that are solving problems for right now. Like problems for the next few months. I see so many companies that are building based on what the models do today and they're solving a problem that is like a problem that exists for the next 11 days and raising a bunch of money and going and chasing it and getting like very easy come easy go revenue and it's I find it to be very frustrating and and you know, we as a fund have a little bit of a sort of bias to being gluttons for punishment and like liking things that feel a little harder and the problem is right now when I want to go be brave, uh you know, bravery's maybe not the right word but when I want to go sort of encourage something really difficult, but if it works there's an actual moat around that business, I have to do so into the void. I sort of fund that business knowing that I can't take it or there's a very low likelihood that Sand Hill Road is going to be interested in the next round. And that I think there's a big gap right now in where we can go take really interesting great sort of hard things with teams that don't look like they're out of central casting for follow-on capital.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I assume you're seeing the same thing but, you know, you guys are in San Francisco and closer to the sun. And, you know, I'm here in New York and, you know, see some of what's going on and feel like, you know, I don't want to say bubble because I do think AI is the most, you know, fabulous, you know, innovation that I've seen in my career. But there's just some, you know, this idea of consensus seed rounds getting done at 50 and 60 and 70 million valuation. I mean, we could go into the next topic, but I, you know, this is why I come in grumpy today Alex.",
+      "tone": "grumpy"
+    },
+    {
+      "timestamp": "00:27:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, I app- I'm here for, for, you know, old man Ben's, you know, stamping on the ground. I think this is good.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:27:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okay, cool. Thank you. Yes. Good.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:27:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Because because my- well, this is all insane to me. I love this. So Mike says rule of 70. When I was taught this by the guys who founded HubSpot, it was the rule of 40. Rule of 70, dear God. Now it's no longer triple, triple, double, double, double, now it's 5x, 4x. And then you're saying that everyone's trying to solve problems for this minute. So are we just essentially...",
+      "tone": "incredulous"
+    },
+    {
+      "timestamp": "00:27:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Not everybody, but I think that's a general- I'm generalized.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:27:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, yeah, no, I'm- I'm not trying to- I'm just trying to summarize here. So essentially, it seems that only the things that have instant takeoff today are attracting the multistage funds, which is changing what you can invest in. Going back to the top of the show, I didn't think it was going to be that pertinent, but why don't you then raise more money, Ben? I mean, if you're not going to be able to go get Sand Hill to take the next round lead, why not do it yourself?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:28:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I have had some of my LPs ask me that question recently.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:28:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:28:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Uh, you know, I- I think that for me that has to do a little bit with building, you know, each fund we've raised has been a little bigger than the one before. Our- our eighth fund was 145, our ninth fund's 200. We have grown,",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:28:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:28:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But, uh, you know, I don't know that I can solve the problem for these businesses if I have a $300 million fund. And I don't, you know, in our bones we are an early stage group, we are really about talent, that is sort of like what we're built for, it's what we know how to do, it's what we love doing frankly. I'm jealous of people that manage many billions of dollars because I think that like those fees are probably super sweet, but that's not- that's just not like who we are or what we aspire to. I want to do early stage, I don't suddenly want to be the like series B lead, I- I think it's a different skill set.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:29:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, but I think Mike, you're famous for saying your fund size is your strategy.",
+      "tone": "complimentary"
+    },
+    {
+      "timestamp": "00:29:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I guess- I- I'm- that's my story and I'm sticking to it.",
+      "tone": "witty"
+    },
+    {
+      "timestamp": "00:29:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, by the way, Mike, like, that's a huge inspiration for me and I really do- I- I think it is- I think it's true and it's something that we try to live by here.",
+      "tone": "sincere"
+    },
+    {
+      "timestamp": "00:29:34",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "One of the themes we talk about over and over again on this week in startups is making sure you do your chores. I'm no expert on these things, I have some experience. Stephen Estes from CLA is an expert. Let's talk about being cash efficient. Tell us about efficiency and what you see in the- in the top tier startups in your practice.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:29:53",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "We're seeing kind of an interesting trend out there where companies aren't needing to raise quite as much as they had in the past. You really have to be careful as a fa...",
+      "tone": "educational"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Under to only take on as much money as you really need. You got to do the forecasting, you got to do the modeling, and you got to dial it in and get it right. Otherwise, you're going to end up either not raising enough capital to get to where you're going and you're going to have to go get venture debt or go back and have an extension to the round, or you're going to give up too much of the company because you just didn't recognize how much money you actually needed.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:30:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, very important to get this stuff right folks, and then that's really a bummer when startups don't do things in a buttoned up way. Always have a great partner, a good partner to have on this adventure",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:30:32",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "while things change, my friend Steven over at CLA. So, if you want a trusted advisor by your side who will navigate you through taxes, accounting, and everything in between, it's time to take action. Visit claconnect.com/withyou and don't forget to drop a mention that your boy J-Cal sent you. That's claconnect.com/withyou. Start today.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:30:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Mike, same question to you. Why don't you just raise more money and solve the problem of backing outlier people and then just take on these later rounds yourself? I'm not sure if there's a different answer than Ben, but I want to get more than one perspective on this point.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:30:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, well, so the way—so I do believe your fund size is your strategy. So, you know, and the reason is the power law is real. So to me, your fund size is a commitment to your LPs about what your largest exit will be. So let's suppose that you have a fund and your aspiration is to have a 5X fund. I believe that what you're really saying is your biggest exit will be two and a half X the size of the fund in terms of exit profit. So if you have a hundred million dollar fund, your best exit needs to be 250 million if you're going to have a 5X fund. And so then it's just a function of what you own and what you get in at and what you get out at. But I guess the—in today's world, I don't know if others would agree with this. I'm really seeing two kinds of projects. One is what I would call hot projects, and hot projects are, you know, the multi-stage firms love them. And they may not necessarily have any momentum at all. It may be somebody peeling out of Anthropic or OpenAI, rockstar credentials, a few good white papers and stuff. And what I believe is the non-consensus play for hot deals is the upside's even bigger than you thought it could be. And so it's not that nobody thinks it's exciting, it's that it's even more exciting than you thought it was in spite of the fact that it's exciting. So Anthropic was not done at a cheap price early, but I don't think most people thought it was going to be worth a trillion dollars. And then there's what I would call weird projects, and those projects aren't even on the radar of the multi-stage firms ever. So, you know, my colleague Ann Miura-Ko invested in this company called SmarterDX in 2022 and it exited for a billion dollars and, you know, that's—that's good living for a seed fund. But I—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I don't think it even matters if you're a multi-stage fund. I don't think even if you had that exit, it's interesting. And so, I think that there is a different strategy for each type of project, right? If you're going to go after something hot, you gotta work your way in, you gotta build a relationship with a founder, you have to count on the fact that the multi-stage guys are going to de-risk it financially. And in the weird stuff, I think you gotta be prepared to go it alone or to get enough momentum for its own sake, but you can't count on the Silicon Valley echo chamber bailing you out, right? You've got to—it's almost like venture capital in the 80s or something, you know?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:33:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Uh, before we move on, uh, Ben, I think Lerer Hippo backed Board, the—the digital board game company, which I quite like. I have a picture here of it, um—oh wait, no, I'm sorry, that's the original Microsoft Surface table. Here it is.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:34:06",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh okay, I see what we're doing here.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:34:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I—I did think that up before the show and thought I was brilliant. Uh, but no, I bring up—I am a big lover, but it is my job literally to sprinkle some—some on top of VC stuff.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:34:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Wait, is this a physical product?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:34:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's a physical product. It's super cool. I'm a big fan of it. It is doing extremely well and people love it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I bought one for Christmas.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:34:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Have you been using it, Mike?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:34:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. It's—it's Bryn Putnam who built Mirror, the workout device that she sold to Lululemon. And it's—it's her next business. And, uh, it's—it's a very—look, you know, I love consumer. I've always loved consumer. I've done a bunch of consumer. I think, you know, so much of consumer over the last few years has just been very incremental. And so even though there was this Microsoft product from a long time ago, I think in general this—the—there's a lot of novelty to the way that Bryn is building this and the way that over time the community will be building their own games and the physical pieces and the creation of new kinds of IP. And I think there's also some big sort of headwinds to get people and kids off of screens, or at least the screens that we are currently addicted to and move to more collaborative play. And so—and by the way, the usage data, which you're always, you know, terrified when you invest in something like this pre-product and it goes out and you start to sell and you're like, 'Is anyone going to actually use it or did people click on Instagram ads?' The usage data is—is pretty stunning. People use it with extreme regularity and, uh, it's a fun one. But, you know, there's still plenty to go.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:35:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "When you combine Board, the product, with the ability of people to now make their own software, which is still a little bit nascent today, we're working on making games with Claude code and so forth, but I can absolutely see in the future my children, you know, thinking up a game idea or taking pictures and then having that kind of baked into it. So I—I think it's a really cool company. But Mike was just talking about...",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "...you know, stuff that doesn't really resonate on Sand Hill. And if I was thinking about a category that's out of favor right now, it would be children's games, you know? I mean, like, it's not agentic orchestration for the enterprise.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:36:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "USV did the the last round there. It's not so wildly out of favor, I mean Mike Maples-",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Where is USV based?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:36:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The- I don't know, I'm not sure, I can't remember.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:36:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. Is it- is it on the West Coast or the East Coast? Then I can't remember.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:36:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I- I think there's probably a Union Square in San Francisco as well.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:36:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, there is. But I mean, it's definitely based in New York.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:34",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Anyway, uh, I- I will say that this is the- Brynn is the kind of founder who, uh, maybe to Mike's earlier point, Brynn has some of the qualities that I do think are very attractive to the sort of multi-stage Sand Hill vibe. Um, and- but- but the product itself is- is definitely you have to be sort of a creative thinker to get your head around it.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:37:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm just glad things like this are getting funded. Straight up. Like, I mean, and first of all, I loved the original Microsoft Surface. We had one in the old TechCrunch office right in the entryway and it was fantastic and I was a long-time Surface user. So, I just like that some things are a bit early and then with the technology a lot better, this is not the size of a couch, um, it can really meet its mark. All right, now, we were talking earlier about enormous seed rounds. Um, I also prepared some notes on what I'm calling the $100 million series A round. So, a couple names from recently: Starcloud, 170 million series A; General Intuition, I think that was 320; Scale Cognition, 100 million; Scout AI, 100 million, etc. Lots of these companies going on. Uh, how should founders think about these insanely large seed and series A rounds and what they say about the state of the company and its prospects, Aileen? Because it- I- I don't even know how to describe them because the dollar amount so does not match the stage as I understand it. I don't even know what to tell people when I read these headlines.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:37:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. I mean, I think they're calling it a seed or an A because it's their first institutional round or their second, but it's not a seed or an A in the sense of how much they're raising, the valuation, who's going to do the next round, and the metrics that people are eventually going to hold you accountable to when you go out again. So if you're raising at 400 or you're raising at 800- you know, you're raising a seed at- I mean, yeah. In 2024, I can't- it's of all the years I've been doing this, I have never seen more people who started a business three weeks ago and have decided that they're going to raise a $20 million seed round 100 pre. Uh, it's wild. Uh, and like Ben said, a lot of them are very tuned into like this point in time. Uh, and this point in time, generally every idea or every problem that people are facing has 15 or 20 competitors, and you know that the- like the ecosystem is evolving so quickly you don't know what free tools the hyperscalers or the frontier models are going to give out and wipe you out quickly. And I think when you raise so much- and I think the people are also planning on spending a lot of it on tokens, which that's also a moving puck where I think the number of models that are coming out that are going to be like the open source models, the open weight models, like...",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "They're a lot cheaper and they're getting so much better that I think also token spend hopefully for startups will go down so that won't be the reason why you need to raise $20 million bucks because you won't need 10 for tokens. But it just sets you up, if you're at 120 post after your seed then you and your employees and your investors want to feel markup so you probably want to be at 200 or 300 for your next round. So you're calling on people who are basically doing $50 to $100 million dollar round sizes and they're going to be looking for traction and customers and I think like what Ben alluded to earlier about revenue quality versus just like everyone trying stuff and the renewals not looking great and a lot of people falling out because they're trying everything right now. Like you just have to really be on your game and know what you're signing up for when you raise those prices.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:39:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I keep seeing companies doing like agentic security, like giving agents identities and so forth. And I'm like, this is cool, but I think I've lost track of the number of companies that have raised $50 million to do that.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:39:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well a lot of these early rounds though Alex, this is like there's king making going on in a way that has never... that I've never seen before, or queen making,",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:40:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Or they making,",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:40:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Whatever you want.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:40:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, they making.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:40:15",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "There is... there's makings happening where, you know, like a company gets knighted as the, you know, the one, or a big multi-stage, you know, puts in the first check and sort of likes what they're seeing, but it's a competitive category and they want to communicate something to the market which is stay away, watch out, we've got this. And in some categories you have two or three kings or queens or whatever.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:41:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But it doesn't always work.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:41:20",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No, no, no, it... by the way, Lon, Liz, we are still in the part of the cycle where right now people... we have... we don't have the blow-ups yet. We don't have the collapses of the companies that have raised $100 million series As. So everything only goes up and to the right at this moment in time. At some point in the next 12 to 36 months the rubber meets the road and we figure out what companies are real and what companies raised hundreds of millions of dollars and don't have anything. And if you're going to have companies that are worth tens of billions of dollars in a year then you are going to have companies that are worth tens of billions of dollars that also go to zero, which traditionally like wouldn't happen at this speed. It has to happen.",
+      "tone": "intense"
+    },
+    {
+      "timestamp": "00:41:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, yeah, you know, it's interesting. If you look back to the dot com days, where did the big exits happen? Everybody remembers Amazon, Google, companies like that, but most of the people that got really rich in that era are the people who got exited in a window of time at the end of '98 until early to mid-2000. You know, if Mark Cuban had raised $100 million for a series A broadcast.com, we wouldn't know who Mark Cuban is today, right? And so I think that what a lot of the founders are missing is that great, you can raise $100 million in your seed round. Nobody that I can find in history has ever...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "had a greater than $10 billion exit raising that much in their seed round. I can— the biggest seed round I can find on record with an exit that size is Wiz and it was $21 million. And so what happened in the dot-com era was people raised money at these crazy prices and then everything crashed and the venture firms are like, okay, I've got to figure out which companies are real and which aren't real. And a lot of these companies had to give the money back or pretty much had to shut down because there's just no way that even if they executed perfectly that they could ever be what they raised their seed round at. And— and the venture firms are like trying to figure out who the winners are, who to stick with. And so, um, I think that a lot of people lose sight of the fact that you lose an amazing amount of optionality by raising rounds this way. And if your goal is to create generational wealth and you believe we're in a bubble, this is the last thing you would do. You know, you'd— you'd position yourself to profit in a wide variety of scenarios.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "People keep throwing the phrase generational wealth around. It feels like it's like a TikTok theme. I don't even know why people don't realize that $10 million is generational wealth. You don't need to have 500,000 trillion billion dollars. Anyways, um, Aline, you mentioned, you know, raising 20, spending 10 on tokens. That to me implies that the startups that are raising relatively outsized seed and series A rounds are doing so not simply because they can, but because they have a relatively high cost basis. So do you think that startups are kind of forced into raising this type of capital early because they have expenses they need to meet, not just humans now, you also have your token budget? Or are they just making a mistake and kind of just getting over their skis too soon?",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:43:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think it's both. I mean, it's— it's getting better. I think, I mean, if you, uh, chat with your portfolio companies right now, like, I think one of the interesting things is obviously, like, Clutch co-work is amazing and Tags is really fascinating, but it's really smart because it can create lock-in, right? But a lot of folks know that they need to build layers so that they can switch models, right? Because, I mean, most of the frontier model CEOs will say, like, you don't need to use the best, most expensive model for everything. Right, so you actually have to build things so that you can swap things in and out. Um, and meanwhile, the labs are going to try and lock you into using their model as much and using their tokens as much as they can. Um, so I think that there is just— what is exciting for investors and founders is, like, there's a lot to be built for this new ecosystem of AI. There's a lot of infrastructure, there's a lot of security. I mean, there's a reason why those are hot areas is because we need a lot of new stuff.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:44:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, uh, just to throw some notes on that. Etched just announced that it's raised $120 million for its transformer-specific ASICs. Lightmatter's raised $400. DG Matrix raised $20 million for solid-state transformers, which none of us here ever thought about until like 20 minutes ago. Uh, there are even a number of companies, startups, that are working on data center cooling alone. So, Aline, do you think that those companies fall under the companies for this moment?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, my old— my old portfolio—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Your company Bloom Energy, which I worked on at Kleiner, is one of the beneficiaries of like this incredible data center because they need—people need power.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:45:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. Uh, and so yeah, there's a whole like yeah, you make a map of all the things you need in a data center or for AI compute and like memory. Like look at Micron's numbers. It's incredible.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:45:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Go read Micron's earnings. I'm telling people, just go look at them. It'll blow your top. Now, Ben, you're slightly more consumer-focused, so how much of this translates over into your world?",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:45:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Uh, I mean, I am more consumer-focused. As a fund, we are probably, you know, 75 percent... Sure. Look, I'm very excited about consumer right now, albeit, uh, I'm still searching for the sort of like application layer boom on the consumer side that feels really differentiated.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:45:48",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We see a bunch of lightweight wrappers that, you know, have a bunch of explanations for why they're not lightweight wrappers that are still lightweight wrappers. Uh, and you know, it's obviously unclear what ChatGPT or Anthropic or Google or whoever will, you know, where they will sort of extend their products. Uh, I am very open for business on the consumer side. I would love to find, but I really, to find companies... I really do think though that building a, you know, another agent to do something that is built on everybody else's infra is just like not that exciting. I find I keep getting to not the finish line on those.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:46:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. Now Aileen, you shared this back in May over on X. Back to your...",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:46:47",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Best share of the year, Aileen.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:46:50",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, but it wasn't my... it wasn't my chart. I think...",
+      "tone": "humble"
+    },
+    {
+      "timestamp": "00:46:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I know, well then I give you credit for retweeting it. But I love this.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:46:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Aileen, for folks who are on the audio version, can you just quickly sportscast what this is, what it shows, and...",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:47:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, it's like there's this... it's funny... I would love to work with anyone who wants to build like a tech gestalt machine because every year there is like a hot theme, right? So 2013 it was wearables, 2018 it was VR, 2019 it was scooters. But then the best companies that are actually funded in those years never match what the theme of the year is.",
+      "tone": "philosophical"
+    },
+    {
+      "timestamp": "00:47:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Um, so like Anthropic was when crypto was really hot and Web3. Wiz was when we were talking about future of work. So...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:47:32",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, you just can't... First of all, like to Ben's point, it takes a... usually takes a long time for a great company to be built. And a lot of these companies, for the first three to five years, no one's heard of them. They're not cool. You know, they're kind of baking. Uh, and so you have to have faith and take these... these leaps of... these risks on... I... we love backing, kind of to the earlier point, like we love pedigree founders, we also love what we call off-Broadway founders. Like people who don't have the perfect pedigree. And when you look at the list of the companies who...",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The founders of a lot of those companies, they are off-Broadway founders, they are not perfect pedigree founders.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:48:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The founders of Databricks were academics and open source software kids, you know, hardly your...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:48:10",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think in today's world that's considered pedigreed.",
+      "tone": "witty"
+    },
+    {
+      "timestamp": "00:48:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, but at the time that was kind of a non-consensus bet. I know we've raided academia and now there's like three people left.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:48:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, it's like a whole venture firm's strategy is just spending time in university labs.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:48:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, you've sold me on venture at last, Aileen. I volunteer. That sounds like a hell of a good time. So, why is the conversation so wrong? And in this case, what are the categories that are hot now that are not going to manifest great companies later on? Because I know you guys place bets, but a lot of founders listen to this and I just, if we can give people a way to not go down the wrong path, I think it'd be very helpful. So Mike, what do you think is the most over-hyped thing to build today, apart from agents of course, that founders should probably stay away from?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:48:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh boy, it's a tough one for me to answer because I root for all of them, you know. I think that I would say that agents that improve productivity and the function of agentic workflows, I would stay away from. So I think that you've got to have something that's attached to it that creates some type of a path to network effects or some type of a cumulative increasing returns power. So I would stay away from any type of AI productivity or workflows that doesn't embody some type of increasing returns mechanism at the core design. And most of them unfortunately don't, right? You look at it and you say, \"That's awesome, I could totally see why I would want that,\" but I don't know why Sam Altman's not going to have that in his next demo. So that's what I would look for.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:50:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I just realized that I made my agentic trust point and Aileen's firm is back to Drata. So, do you want to tell people why my slander was incorrect? Sorry.",
+      "tone": "apologetic"
+    },
+    {
+      "timestamp": "00:50:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, your... I was going to say, well, I mean, I think that's an example of a company that was started before LLMs, but it's not that old of a company, it's grown really quickly, Drata. And but trust is really important. So I think when you have, when you've got mid-market and enterprise relationships and you are helping them with compliance and trust and visibility when because so many companies are interconnected and you need to make if you're going to poke a hole in someone and pull data in or out of a company, you need to make sure that they're doing it securely and they've got the right business processes in place. Like that's not a burn the boats, whoops we're replacing everything completely tomorrow because you need to have these are relationships where I think consistency and trust is really important. But Drata obviously is going to be helping people monitor agents and the trustworthiness of agents, so it's come more...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "evolution of the relationship they have with customers and what their customers want. So we're really happy to see where it's moved. That's more of an evolution than a burn the boat situation and I think it's a smart one.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:51:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "To prevent Ben from thinking I'm only picking on him, Aileen, tell me why that either the major AI labs themselves or the current owners of enterprise workflows won't do that themselves and consume what Drata is trying to build.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:51:23",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, I mean, I think like I don't know, Mike is so good analogies, he'd be kind of like that's like letting the fox watch the hen house. Is that the analogy?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:51:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Not bad.",
+      "tone": "approving"
+    },
+    {
+      "timestamp": "00:51:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Like you want to have a trusted third party that isn't your current vendor that's trying to use all your data.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:51:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:51:39",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So I'm, it's funny because I've been doing a lot of thesis work lately and Drata was one of the companies I kind of regret missing based on some of the work I've been doing.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:51:50",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Not too late, Mike. It's only a two billion dollar valuation. Get your money in now.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:51:56",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So the way I've internalized it is that AI creates abundance in terms of work products. It creates generative AI is generative. But what people are going to want to start having is what I would call acceptance AI. So like, for example, when you have financials, you have an audit firm audit your financials. It's not enough for you to just say I'm really good at doing my financials. You have to have some trusted third party certify, and that credible neutrality is important. And I think what's going to happen is there's going to be a lot of AI-generated slop across the board and it's no longer going to be just the work that gets outputted. It's going to be the work that counts. It's going to be the work that there's a consensus mechanism for validating. And quite often you're not going to want to trust, you know, the frontier labs to do that. You're going to want a credibly neutral third party. So I agree with Aileen. It reminds me a little bit of why we invested in Okta back in the day. We thought that identity management should have a neutral trusted person, right?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:53:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okta is a good example, that's a good one.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:53:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Totally.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:53:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So like to me if slop is abundant, then you start to ask, well, what's scarce? And I think what's scarce is correctness and proof of correctness. And if you can be seen as a credibly neutral network effects scalable provider of that, I think that's in many ways that to me is where the application layer is going to come alive in a lot of these.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:53:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So we're talking a lot about costs here, controlling them and kind of owning your own data and alpha. A lot of people in the last couple weeks have been talking about moving to open weight models, especially GLM 4V seems to be quite hot. And this is due to the government essentially precluding us from accessing the latest models from both Anthropic and OpenAI lately. Can we just kind of look through the headlines a little bit and tell me how prevalent is it that startups are actually either rolling their own models or rolling their own models?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "...or simply turning to existing open weight models to either reduce costs or to ensure that their data doesn't go to training Anthropic and to building what they've already put together. And Ailey, why don't we start with you then we'll go to Ben.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:54:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I was just thinking, I keep thinking that GLM-1 was like the was the new GLP. But you know how like the gestalt of this year is like GLP-1? And maybe like we had this DeepSeek MoE moment and now we have this GLM moment, right, which is it's quite good. Like a lot of our portfolio companies have been playing with it...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:54:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "...and they're saying that they're getting equivalent results for a fraction of the cost. And I think that's why they are all getting ready if they're not like to be model agnostic. And to not spend as much time fine-tuning because you could spend a lot of time and money fine-tuning something and how long is that gonna buy you? A month? It's not a great use of time and money because stuff is moving so fast.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:54:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So unpack that for us. So essentially if you train, if you fine-tune Kimi K 2.5 as Cursor did to make Composer 2 and 2.5, by the time you're done with that they'll have Kimi K 2.6 and then 2.7, so you're always you're chasing a ball that's going faster in front of you. Okay. That's almost dispiriting, Ailey, because I would love it if founders were able to take the best from the open weight, open-source world and then really turn it into a weapon that they can take to market. But it sounds like you have to kind of take what they offer just whole cloth?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:55:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I don't know, others should weigh in here but from what we're hearing from portfolio companies they're not, I think some people considered it and they started doing it and they're like wait this is not a great use of our time and money, there's a lot of other ways we can benefit customers.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:55:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Ben, jump in here from the firm enterprise perspective and also if you have any consumer notes on this particular topic I would love to hear them.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:55:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I I don't know that I have consumer specific notes, I think in general um in the everybody is building everything multi-modal and has to out of the box be able to say I am not beholden to any one model and everyone's long-term business model is predicated on token prices going down and down and down and down and down and um so I think you know, I mean generalized models are gonna get better and better. The fact that this conversation is happening is actually though like the the the flip of it is why Anthropic and OpenAI and Google are so scary because they are aware of the quality of open source and the fact that they're not gonna be able to just go and endlessly charge more and more and more and that they're gonna move further in the application layer. And like they're gonna do it too at which makes the application layer right now just like a a finicky weird space to invest in because it's not clear where infra and application layer sort of bump into each other. Um and you know, I I do think though we will move to and actually a colleague of mine wrote an interesting little sort of substack yesterday about this.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:56:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I read it. I thought it was well-written. I was I gave him a hug.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:56:56",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You're talking about The End of Decisions by Maurice Russo.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:56:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "By Maurice. I... yeah.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:56:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And just the idea that we're sort of real...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "High-level decisions are starting to be more possible with AI. And, you know, I don't know exactly... like I think that's where we end up with like the most expensive models having a real expansive market for a kind of decision-making that I don't know is really that we're quite yet relying on AI for.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:57:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "To summarize what we're talking about here, and if you're watching this later on, it'll be in the show notes, a link to the post, 'The End of Decisions.' But what Maurice argues is that we've seen the effect of essentially computation in fields like chess and most recently in poker. If you play cards, you know about GTO and so forth. And he says that AI is, quote, 'the first general-purpose reasoning layer that can start to function as a solver for domains that have historically been too qualitative for software.' Now, if that's true, Ben, then to me, the actual incremental or marginal intelligence gain you can get from a new frontier model version is incredibly valuable because if you can literally have the brain that runs your entire business be smarter, that's quite useful.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:58:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That's quite useful. And that's why I think the like—that's where that business model makes more sense than doing the, you know, checking my inbox and preparing some drafts for me and, you know, whatever.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:58:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, the way I've kind of internalized it, and I really owe this thinking to my partner Anne Miura-Ko. So Anne's been doing all this work with what, companies that she calls AI-pilled.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:58:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And an AI-pilled company basically thinks in terms of what processes, what decisions, what mechanisms do they have that define competitive advantage that could be thought of as an ever-improving compounding loop. For that, you want to use the best models. And you're using those to gather customer feedback, come up with new product ideas, AB test different things. You want the most intelligent models possible. That I think is different from what goes in the bill of materials of the product you ship. And so sometimes, you know, you can—you can get by with not the very best model for certain fun—you know, sorting email or like, you know, performing certain functions within a product. And so what I'm finding that once people create new knowledge with the frontier models, they capture and transfer that knowledge with the cheaper models. Um, and so it's kind of like how do you—how do you turn a deep work discovery into a checklist manifesto deliverable? And, you know, you—you progress down the ladder of model expense as you do that.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:59:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Do you think most startups are capable of building the routing mechanism and collecting the necessary context to actually enact something like that? Or is this only the companies that are the most AI-pilled, no one sleeping, everyone looks frazzled, they've got Alex Karp hair going on, and they're just wizards, you know, at the top of the tower?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:59:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, I think when you're an AI-pilled—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "pill company you're not you don't mind spending money on the frontier models because you're you're token maxing as a person or as a C-level manager as as a team. Uh to me that's a separate issue from, you know, I'm shipping an AI travel agent as a consumer app and I want to know what aspects of that travel agent need the frontier models versus what aspects of that can be adequately solved, right, with open source models. And I think that that's where I think that's where the open source models really come in.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:00:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And there'll be a bunch of interesting companies helping with routing and evals and, you know, I don't know that I don't know that companies will have to build that infrastructure themselves versus buy that infrastructure and focus on like their core value prop.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:00:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Then what what are they owning? If they don't own the routing, they didn't build the model, they're not doing the compute, they don't have the customer data, what the fuck are they for?",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "01:00:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well hopefully they have the customer data.",
+      "tone": "lighthearted"
+    },
+    {
+      "timestamp": "01:01:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:01:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Whoo! Good job. They better have the customer data.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:01:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So they're just they're just a bucket of data that doesn't isn't even theirs and they're just doing wiz-bang stuff with it and that's the whole jam? That does not sound defensible. That sounds like... it's going to get...",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "01:01:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is why the job is hard right now, dude.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "01:01:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's so frustrating! We're looking at so much non-defensible stuff every day that by the way then goes get gets done at 50 by someone who looks pretty smart.",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "01:01:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But like let's just take an example, right, like Applied Intuition. You know, they're... they have a very differentiated product and they're doing very well, but they're AI pilled in the sense that they've created a real-time performance feedback system where, you know, they can get input about which managers are most effective and what's working best and things like that. And they can implement these systems at enormously fine-grained detail that you could have never imagined doing in the past. And so... so they're not necessarily AI pilled in the sense that they're doing all this to make their end products different, but the... the way they do business and compete is fundamentally impacted by it because they're... they're embedding AI into the just the lifeblood of how they force multiply every employee.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:02:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Have you seen Bedrock Robotics?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:02:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, I haven't. Well I've heard of them but I haven't spent time there.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:02:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We had them on the show the other week. They're doing something kind of related to this and I really love them because what they're doing does seem defensible because they're going to a very specific part of the world where there's no other companies, maybe Applied Intuition, and they're building essentially Waymo for diggers. And it's a great idea! What an enormous industry that no one cares about because no one in venture has ever held a shovel in their life. Or startups, you know, tech people. So I think it makes a lot of good sense.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "01:02:45",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Now, okay, we're going a little bit long, so I want to do a couple of final questions for us. And Mike, we're going to start with you and then we're going to go around. Give the Trump administration a grade on how it handled Mythos and Fable and do you think the major AI labs have been...",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Actually harmed in the last couple of weeks, or do you think this will blow over?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:03:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's hard for me to grade the Trump administration because I just don't know all the things behind the scenes, and so I'm reluctant to. I do get nervous about these frontier models are so important now that they've got the attention of the government. That's always a very mixed blessing. And so I get nervous about the government sort of back-dooring its way into regulating AI in the way that I was afraid that the Biden administration was going to do. And I think that would be very bad in terms of our competitive posture with China. So I do hope that we can resolve this, but it's hard for me to give a grade because I think in some ways it is a work in progress and I don't think that the hyperscalers have done themselves any favors in the discussion either. And so I think—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:03:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What's the point? You said Amazon, but it was definitely Amazon.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:04:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think unfortunately this is an example of us muddling through a situation where you're seeing the sausage be made in real time, and it's hard to say that there's an optimal strategy.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:04:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alina, you were going 'yeah' there. I'll let you weigh in.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "01:04:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I don't think I could have said it better than Mike. I mean, it's hard to know obviously we're not behind closed doors. We don't know what those guys know about what can be done with the models. And you know, there's yeah, there's a lot of history here, right? About whether it was developing nuclear weapons and the scientists who were building them having concerns and wanting to talk to people about what should we do about this? Should we build it? Should we not build it? Right? There's we obviously want the United States to maintain its edge, but we also have to be prepared for there's a lot of nefarious actors who can do a lot of bad things and a lot of our companies, both our federal institutions and companies, are not ready for the fact that, you know, basically we can be trying to hack into systems 24/7 with agents.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "01:04:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, the struggle that I have with that, and thank you both for answering that with such clarity and honesty, is that the rest of the world isn't stopping. And so unlike the Manhattan Project, when we were very much ahead of the Soviets, of the Germans, China's really banging on. I mean, we all saw the GLM 4 5.2 headline about how they think that it's going to be roughly commensurate with maybe Fable, maybe Mythos.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "01:05:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alina, I wanted to go to you next. Your question is very simple. How's Crunchbase doing?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:05:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think great. We love Crunchbase. We're proud to—",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:05:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Tell me more. I own a lot of shares of Crunchbase, so tell me about how it's doing.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "01:05:35",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm not... they have raised quite a few rounds and we were early investors, so I am not as close to the latest and greatest. But I think like you were saying before, having data is really important, having proprietary data is really important. Crunchbase has a lot of proprietary data and a lot of private company data, which is as you know, it's very valuable. A lot of VCs will use the models to ask for competitive intelligence and information, but private company data is one of the hardest things to find out about.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:05:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm really hoping that that comes good and that way my children can eventually go to school where I went to school. It'll be good.",
+      "tone": "hopeful"
+    },
+    {
+      "timestamp": "01:06:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, Ben...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:06:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "To round us up here for you, I'm curious what you think we should do at the startup level, the venture level, the technology industry level, and maybe even the government level to ameliorate what I think we can all see is rising discontent amongst the populace against AI, and this is often seen in data center protests and so forth. But what are some proactive steps that the tech industry can do to get on the right side of public opinion before this becomes an electoral issue?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:06:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "My question is so much harder than the others. This is like a setup. I can't believe that you just laid that on me.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:06:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's like you're being punished. It's fun when Ben's on the hot seat.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "01:06:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I was trying to be nice.",
+      "tone": "defensive"
+    },
+    {
+      "timestamp": "01:06:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, the cool thing is about me is that I don't want your money, so I don't have to be nice.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:06:35",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okay, great. Cool. Well, so...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:06:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Everyone else has to kiss ass.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "01:06:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That is a great question to which I do not have a great answer. I think that I am always amazed by how negatively AI is viewed by people that don't work around this business, like friends that I have that are one or two degrees removed are generally terrified and I think think of... by the way, there's also this narrative that somehow I think people actually think Anthropic is like pretty good, but OpenAI is like totally the Empire in Star Wars or something. I don't know how these stories get told. I think it's a big issue. Maybe to touch on the question that the other two answered, I don't trust our government to know how to monitor this and to sit over and to figure out what we should or shouldn't use AI models or what the rule should be. At the same time, we're in a cold war and have been for a long time, and even though it's not called that, this is national security but against what's best for jobs and the economy. I mean the wealth gap is only getting worse by the minute in a way that is... I don't know how this ends anything other than terribly. It is... we're set up in a really unfair, awful way right now and AI is not going to make this better in any short or medium term.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "01:08:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. And if you're on the video version, I just pulled up a chart from our dear friends over at Fred, which shows the share of labor comp as a percentage of GDP. And if you go back to the fifties, the era that people like to kind of pine for, fairly or not, it was up in the high sixties, and it's fallen down very sharply lately all the way down to about 57, which I think is really the root of a lot of discontent. And I don't have the solution either, but I think it would also be incredibly sad if we ended up shooting our own feet or tying our own shoelaces and preventing a lot of future economic gains because we couldn't figure out a way to share the pie a bit more effectively now. That just seems to be a real bummer.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:09:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Non-GDP accretive approach. But you guys are non... By the way maybe... and but like going and you know some of these you know I'm not in California but the billionaire tax and some of these sort of brute force measures feel like you know at best band-aids or punishments. That does not feel like the solution to figuring out how we fix this problem.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "01:09:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, because everyone's going to leave. I'm already talking to founders who live in Nevada just across the border because they want to get away from the tax.",
+      "tone": "certain"
+    },
+    {
+      "timestamp": "01:09:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's interesting because like when you think about it right now, if you're a free market capitalist wanting to make a pro-common sense argument for it, you have no home. You know the left is becoming Democrat socialists and the right is MAGA and saying we hate immigrants. And so you know like you can't even make a credible case for why AI's good because the people driving the discussion don't want to hear it from both ends. And so that part of it really bugs me is that there's no natural home for the adult in the room conversations about what the right answer is.",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "01:10:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well there's truly no party for it and candidates for it at a you know like let's see where we get in two and a half years.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "01:10:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Although then what you were saying about I don't know if I... it's not about the trust or the effectiveness of the government but I certainly wish looking back that we had had more regulation of social media.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:10:34",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Social media, yep.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "01:10:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And that we have a whole generation of kids that have been so negatively impacted by the fact that there was no oversight whatsoever for social media and obviously the ramifications from a security perspective are so much more grave with AI.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "01:10:47",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "If we weren't able to keep people safe...",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "01:10:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's a fabulous point. It's a fabulous point and I having young kids you know it's we've been left holding the bag to try and you know make them the only kid in the grade without access to Snapchat or something to punish them for the fact that nobody got in front of this.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "01:11:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I'm not looking forward to those days.",
+      "tone": "anxious"
+    },
+    {
+      "timestamp": "01:11:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I literally had a question in my fun section at the bottom of our notes today that was how are you teaching your kids to thrive in life in the post-intelligence era and I wrote that as a joke to myself but I really meant the post-AI era but I think post-intelligence actually may kind of better encompass. One thing I'm really concerned about is that a lot of people just can't read and can't do math and I don't think that giving people during their learning years access to tools as powerful as AI is going to encourage them in a lot of cases and I don't think parents know what the hell they're doing either and now that I have kids that can reach for things I see how they react to screens and it's made me rethink my entire relationship with technology.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:11:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But here's some good news. Technology historically has made things better and I think it's going to keep doing that even though there will be some bumps in the road. I'm a long-term optimist and I think that this is all going to end up being very good. I just hope we don't throw a couple generations of kids into the maw as we get to that point.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "01:11:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "This is not where I thought the show was going to end. I'm not going to lie. Maybe I should...",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:12:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm shaking out how he- how he did things. But guys, an absolute real treat today to have you on to talk about all the stuff. Um, just before we go, where can people find you online and uh is there a category your firm is looking to invest in? And uh, Mike, let's start with you.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:12:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Uh yeah, I guess you can find me on X at M2JR and then uh our website is www.floodgate.com and um basically I'm investing in companies that uh complement the abundance of generative AI. I call it acceptance AI, but it's it's uh the companies that ensure the correctness of the work rather than just generating more stuff. And so uh that's what I'm looking for.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:12:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right. Aileen.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:12:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Uh, I'm uh Aileen Lee on X and also on LinkedIn and we're cowboy.vc and uh we're generalists. I'm I'm like these guys who've been doing this for a while, so uh some of our best investments have been things that we never would have had on kind of like our shopping list. It's really what founders have insight about and uh so open for business.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:13:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And Ben, take us home.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:13:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, um as you mentioned earlier I'm not very active on Twitter but I'm Ben Lerer and I use LinkedIn a little bit more but not a ton and we're at lererhippo.com, but probably LinkedIn is the best place and like Aileen, we are generalists, we're looking for great people early.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:13:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yep. If you guys are doing the investing I think the future will be okay. Thanks all for coming on.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:13:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "This has been Chris,",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:13:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "my name is Alex. We'll see you next time.",
+      "tone": "friendly"
+    }
+  ],
+  "highlights": [
+    "The traditional growth benchmark of \"triple, triple, double, double\" has escalated in the AI era, with investors now expecting 4x to 5x annual growth to justify the massive capital requirements of early-stage rounds.",
+    "Venture capital is seeing a surge in \"king-making\" rounds, where pre-product startups raise $20 million seed rounds or $100 million Series A rounds, a trend that risks stripping founders of future exit optionality.",
+    "Startups are increasingly adopting a \"model agnostic\" architecture, utilizing expensive frontier models for high-level reasoning while offloading routine tasks to cheaper, open-weight models to manage high token costs.",
+    "As AI-generated content becomes an abundant commodity, market value is shifting toward \"acceptance AI,\" which focuses on the scarce resource of verifying the correctness, security, and auditability of AI work products.",
+    "Older SaaS companies are facing a \"burn the boats\" moment, where they must aggressively dismantle and rebuild their core products as AI-native entities to remain competitive against a new wave of highly efficient incumbents."
+  ],
+  "summary": "This transcript features a venture capital roundtable with Aileen Lee (Cowboy VC), Mike Maples (Floodgate), and Ben Lerer (Lerer Hippeau), moderated by Jason Calacanis. The discussion centers on the current \"wild time\" in venture capital, characterized by a compressed business cycle and a massive influx of capital into AI. The panelists explore the urgent pressure for liquidity, noting that while recent IPOs like Bending Spoons and secondary sales of companies like SpaceX offer hope, many LPs remain over-exposed to venture. They highlight a significant shift in growth expectations; the traditional \"triple-triple-double-double\" benchmark has been raised to quintupling or quadrupling revenue as the new standard for startups seeking to attract follow-on capital in the AI era.\n\nA major theme of the conversation is the strategy for navigating the AI boom, specifically the distinction between \"hot\" projects—often high-valuation \"king-making\" rounds driven by pedigree—and \"weird\" or non-consensus projects that lack immediate Silicon Valley hype but offer long-term defensibility. The VCs discuss the concept of \"burning the boats,\" where older SaaS companies must pivot entirely to becoming AI-native to survive. There is a debate over defensibility, with Mike Maples arguing for \"acceptance AI\"—companies that provide credible neutrality and verification of AI-generated work—as a way to build a moat in an era of abundant, low-cost \"AI slop.\"\n\nThe roundtable concludes with a sobering reflection on the socio-political implications of AI. The panelists express concern over the lack of \"adult in the room\" conversations in Washington, the widening wealth gap, and the declining share of labor compensation relative to GDP. They compare the current lack of AI oversight to the failures of social media regulation, voicing particular concern for how the \"post-intelligence era\" will affect the cognitive development and safety of the next generation. Despite these anxieties, the speakers remain long-term optimists, focusing on backing \"AI-pilled\" founders who use frontier models for reasoning while leveraging open-weight models for cost-efficient production.",
+  "description": "This Week In Startups is made possible by:\n\n\nCLA -⁠ https://claconnect.com/withyou⁠\nNorthwest Registered Agent -⁠ https://northwestregisteredagent.com/twist⁠\n⁠Agree.com⁠ -⁠ https://agree.com⁠\nPlaud - https://Plaud.ai/twist\n\nToday’s show:\n\nForget the triple-triple-double-double-double; the new bar for startups hoping to raise venture capital has reached the stratosphere, though our venture panel is worried that startups are focusing too much on today’s problems that may not become companies tomorrow. During a lively VC roundtable, Cowboy’s Aileen Lee, Floodgate’s Mike Maples, and Lerer Hippeau’s Ben Lerer joined Alex to dig into exiting pre-AI startups, rising valuations, token spend, why they are keeping their funds small, and whether the government just tripped OpenAI and Anthropic!\n\n\nGuest Links:\n\nAileen Lee⁠ https://x.com/aileenlee⁠\nCowboy VC⁠ https://cowboy.vc⁠\nMike Maples⁠ https://x.com/m2jr⁠\nFloodgate⁠ https://www.floodgate.com⁠\nBene Lerer⁠ https://www.linkedin.com/in/benjlerer⁠\nLere Hippeau⁠ https://www.lererhippeau.com⁠\n\n\nTimestamps:\n\n0:00 Aileen Lee, Mike Maples, and Ben Lerer join the show\n4:34 Venture liquidity returns: what SpaceX/Stripe distributions mean for LPs\n8:34 Bending Spoons prices IPO at $29/share, roughly $18.4B valuation\n9:52 Agree.com - Stop chasing invoices and automate your entire contract-to-cash stack. Go to https://agree.com and tell them Jason sent you to get 50% off for life!\n11:30 \"Companies get bought, not sold\" — Ben on taking first offers seriously\n17:02 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n18:55 Mutiny's burn-the-boats AI pivot with Jaleh Rezaei\n19:40 Northwest Registered Agent - Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity — Learn more at https://www.northwestregisteredagent.com/twist\n21:36 Mike's KeepSafe story: the \"rule of 70\" and profit-first companies\n24:33 The new growth bar: 5x, 4x replaces triple-triple-double-double\n28:16 Fund size is your strategy: why Floodgate and Lerer Hippeau stay small\n29:32 CLA - Innovation takes balance. CLA's CPAs, consultants, and wealth advisors can help you get from startup to where you want to end up. Get started now at https://www.claconnect.com/withyou\n37:00 The $100M Series A: Starcloud, General Intuition, Scale Cognition, Scout AI\n39:56 King-making rounds and why mega-seeds destroy optionality\n53:32 Open-weight models: the GLM-5.2 moment and going model-agnostic\n54:51 Why fine-tuning open models is a treadmill, with Cursor/Kimi as an example\n1:02:49 Grading the Trump administration on Mythos and Fable\n1:05:54 Rising anti-AI sentiment, the wealth gap, and lessons from social media\n1:11:04 Raising kids in the post-intelligence era\n1:11:56 Where to find the panel and what each firm is investing in\n\n\nSubscribe to the TWiST500 newsletter:⁠ https://ticker.thisweekinstartups.com⁠\n\nCheck out the TWIST500:⁠ https://www.twist500.com⁠\n\nSubscribe to This Week in Startups on Apple:⁠ https://rb.gy/v19fcp⁠\n\nFollow Lon:\nX:⁠ https://x.com/lons⁠\n\nFollow Alex:\nX:⁠ https://x.com/alex⁠\nLinkedIn:⁠ ⁠https://www.linkedin.com/in/alexwilhelm⁠\n\nFollow Jason:\nX:⁠ https://twitter.com/Jason⁠\n\nLinkedIn:⁠ https://www.linkedin.com/in/jasoncalacanis⁠\n\nCheck out all our partner offers:⁠ https://partners.launch.co/⁠\nGreat TWIST interviews:⁠ Will Guidara,⁠⁠ Eoghan McCabe⁠,⁠ Steve Huffman⁠,⁠ Brian Chesky⁠,⁠ Bob Moesta,⁠⁠ Aaron Levie⁠,⁠ Sophia Amoruso⁠,⁠ Reid Hoffman⁠,⁠ Frank Slootman⁠,⁠ Billy McFarland⁠\n\nCheck out Jason’s suite of newsletters:⁠ https://substack.com/@calacanis⁠\nFollow TWiST:\n\nTwitter:⁠ https://twitter.com/TWiStartups⁠\n\nYouTube:⁠ https://www.youtube.com/thisweekin⁠\n\nInstagram:⁠ https://www.instagram.com/thisweekinstartups⁠\n\nTikTok:⁠ https://www.tiktok.com/@thisweekinstartups⁠\n\nSubstack:⁠ https://twistartups.substack.com⁠",
+  "duration": 4411,
+  "people": [
+    "Alex Wilhelm",
+    "Lon Harris",
+    "This Week",
+    "In Startups",
+    "Northwest Registered",
+    "Aileen Lee",
+    "Mike Maples",
+    "Lerer Hippeau",
+    "Ben Lerer",
+    "Guest Links",
+    "Bene Lerer",
+    "Lere Hippeau",
+    "Bending Spoons",
+    "Jaleh Rezaei",
+    "General Intuition",
+    "Scale Cognition",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason",
+    "Will Guidara",
+    "Steve Huffman",
+    "Brian Chesky",
+    "Bob Moesta",
+    "Aaron Levie",
+    "Sophia Amoruso",
+    "Reid Hoffman",
+    "Frank Slootman"
+  ],
+  "topics": [
+    "Venture Capital liquidity and IPO trends",
+    "Megaseeds and $100M Series A rounds in AI",
+    "Open-weight models and model-agnosticism",
+    "AI-native startup pivots and operational AI-pilling",
+    "Economic and societal implications of AI"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/4q3Pis-tPvQ/maxresdefault.jpg",
+  "date": "20260701",
+  "youtube_url": "https://www.youtube.com/watch?v=4q3Pis-tPvQ",
+  "youtube_metadata": {
+    "title": "Why the VC Hype Cycle Always Gets It Wrong | VC Roundtable | E2307",
+    "description": "This Week In Startups is made possible by:\n\n\nCLA -⁠ https://claconnect.com/withyou⁠\nNorthwest Registered Agent -⁠ https://northwestregisteredagent.com/twist⁠\n⁠Agree.com⁠ -⁠ https://agree.com⁠\nPlaud - https://Plaud.ai/twist\n\nToday’s show:\n\nForget the triple-triple-double-double-double; the new bar for startups hoping to raise venture capital has reached the stratosphere, though our venture panel is worried that startups are focusing too much on today’s problems that may not become companies tomorrow. During a lively VC roundtable, Cowboy’s Aileen Lee, Floodgate’s Mike Maples, and Lerer Hippeau’s Ben Lerer joined Alex to dig into exiting pre-AI startups, rising valuations, token spend, why they are keeping their funds small, and whether the government just tripped OpenAI and Anthropic!\n\n\nGuest Links:\n\nAileen Lee⁠ https://x.com/aileenlee⁠\nCowboy VC⁠ https://cowboy.vc⁠\nMike Maples⁠ https://x.com/m2jr⁠\nFloodgate⁠ https://www.floodgate.com⁠\nBene Lerer⁠ https://www.linkedin.com/in/benjlerer⁠\nLere Hippeau⁠ https://www.lererhippeau.com⁠\n\n\nTimestamps:\n\n0:00 Aileen Lee, Mike Maples, and Ben Lerer join the show\n4:34 Venture liquidity returns: what SpaceX/Stripe distributions mean for LPs\n8:34 Bending Spoons prices IPO at $29/share, roughly $18.4B valuation\n9:52 Agree.com - Stop chasing invoices and automate your entire contract-to-cash stack. Go to https://agree.com and tell them Jason sent you to get 50% off for life!\n11:30 \"Companies get bought, not sold\" — Ben on taking first offers seriously\n17:02 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n18:55 Mutiny's burn-the-boats AI pivot with Jaleh Rezaei\n19:40 Northwest Registered Agent - Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity — Learn more at https://www.northwestregisteredagent.com/twist\n21:36 Mike's KeepSafe story: the \"rule of 70\" and profit-first companies\n24:33 The new growth bar: 5x, 4x replaces triple-triple-double-double\n28:16 Fund size is your strategy: why Floodgate and Lerer Hippeau stay small\n29:32 CLA - Innovation takes balance. CLA's CPAs, consultants, and wealth advisors can help you get from startup to where you want to end up. Get started now at https://www.claconnect.com/withyou\n37:00 The $100M Series A: Starcloud, General Intuition, Scale Cognition, Scout AI\n39:56 King-making rounds and why mega-seeds destroy optionality\n53:32 Open-weight models: the GLM-5.2 moment and going model-agnostic\n54:51 Why fine-tuning open models is a treadmill, with Cursor/Kimi as an example\n1:02:49 Grading the Trump administration on Mythos and Fable\n1:05:54 Rising anti-AI sentiment, the wealth gap, and lessons from social media\n1:11:04 Raising kids in the post-intelligence era\n1:11:56 Where to find the panel and what each firm is investing in\n\n\nSubscribe to the TWiST500 newsletter:⁠ https://ticker.thisweekinstartups.com⁠\n\nCheck out the TWIST500:⁠ https://www.twist500.com⁠\n\nSubscribe to This Week in Startups on Apple:⁠ https://rb.gy/v19fcp⁠\n\nFollow Lon:\nX:⁠ https://x.com/lons⁠\n\nFollow Alex:\nX:⁠ https://x.com/alex⁠\nLinkedIn:⁠ ⁠https://www.linkedin.com/in/alexwilhelm⁠\n\nFollow Jason:\nX:⁠ https://twitter.com/Jason⁠\n\nLinkedIn:⁠ https://www.linkedin.com/in/jasoncalacanis⁠\n\nCheck out all our partner offers:⁠ https://partners.launch.co/⁠\nGreat TWIST interviews:⁠ Will Guidara,⁠⁠ Eoghan McCabe⁠,⁠ Steve Huffman⁠,⁠ Brian Chesky⁠,⁠ Bob Moesta,⁠⁠ Aaron Levie⁠,⁠ Sophia Amoruso⁠,⁠ Reid Hoffman⁠,⁠ Frank Slootman⁠,⁠ Billy McFarland⁠\n\nCheck out Jason’s suite of newsletters:⁠ https://substack.com/@calacanis⁠\nFollow TWiST:\n\nTwitter:⁠ https://twitter.com/TWiStartups⁠\n\nYouTube:⁠ https://www.youtube.com/thisweekin⁠\n\nInstagram:⁠ https://www.instagram.com/thisweekinstartups⁠\n\nTikTok:⁠ https://www.tiktok.com/@thisweekinstartups⁠\n\nSubstack:⁠ https://twistartups.substack.com⁠",
+    "duration": 4411,
+    "view_count": 2668,
+    "like_count": 44,
+    "channel": "This Week in Startups",
+    "upload_date": "20260701",
+    "thumbnail": "https://i.ytimg.com/vi/4q3Pis-tPvQ/maxresdefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

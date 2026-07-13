@@ -1,0 +1,2335 @@
+{
+  "title": "John Herrman: The Declawing of OpenClaw | The Aboard Podcast 2026-07-07",
+  "source_url": "https://www.youtube.com/watch?v=Myqdv0VT9Lo",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Hi, I'm Paul Ford.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:03",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And I'm Rich Ziade.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:04",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And this is the Aboard podcast, the podcast about how AI is changing the world of software and other things too. My god there are other subjects.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:00:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But not today. Rich, let's play the theme song and we have a great guest today, let's talk about it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Let's do it.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:00:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "First, before we can talk to any other human being, we have to talk about what we do.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:38",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "We are based in New York City, and we're a team, greatest city in the world. But your city is great too wherever you are.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:00:46",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "We are an AI transformation shop that we have incredible talent, incredible tools, and we get to know you, we don't throw products at you, we don't say AI from the first minute.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:00:54",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "Understand your business and then we build amazing solutions for you.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:01:02",
+      "ad": true,
+      "speaker": "Paul Ford",
+      "text": "I mean we tend to do it kind of like in a relationship, like less and less about you giving us money to do one thing and more and more about us kind of being your product partner using these technologies, we kind of get in there with you.",
+      "tone": "collaborative"
+    },
+    {
+      "timestamp": "00:01:14",
+      "ad": true,
+      "speaker": "Rich Ziade",
+      "text": "We've seen incredible results for the clients we've landed so far and we're talking to a lot of people. It's great. Reach out.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:01:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Let's go Mets.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:01:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No. Whoo. Sorry, just okay, a little fun for us.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:01:25",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I am here today, you are also here today, we are here today with John Herrman.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:01:33",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Welcome John.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:01:34",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Thanks for having me.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:01:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "John it's great to see you. Um, typically I ramble off everybody's qualifications, but we're trying something new. We're going to start onboarding people to the podcast. So I'm going to ask you a couple onboarding questions to bring you into our sultry world of AI software transformation. You ready?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:01:45",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "A. Who are you?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:01:47",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "I am John Herrman, I'm the tech columnist at New York Magazine.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And before that you've written for many many publications.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:01:56",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "I was at the New York Times for six or seven years, worked at a website called The Awl, rest in peace, spent some time in the BuzzFeed New Media hothouse, at Gizmodo, Popular Mechanics, just kind of been around doing basically the same thing in different fonts for a long time.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:02:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And kind of started and we'll get to onboarding question B, but kind of started gadget blogging, right? Like back in the day.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:02:12",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "My first job in journalism was covering the Asian news wires at Gizmodo, you know, press releases and product releases early in the morning, new phones, before the iPhone or around the iPhone. It was a lot of fun.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:02:20",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Honestly, I think that's probably what we'd prefer to talk about for an hour.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:02:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, let's not get too nostalgic all over again. Let's talk about Huawei and reviewing the Machine God. Yeah this is weird.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:02:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "This is weird because it's hard to review this stuff. On that note, what is your relationship with AI?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:02:36",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "If I'm being really honest, the",
+      "tone": "sincere"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No lie, I want you to just lie non-stop. My relationship with AI is that it took over my",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:03:05",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "beat as a generalist, tech columnist, who was just minding his business writing about Instagram or whatever, and then suddenly there was one subject and one subject only. And so with a little bit of reluctance and then eventually, you know, more enthusiasm and curiosity it sort of just become the omni subject. In addition to that, there's this funny professional like firewall with AI where a lot of journalism or at least a lot of the tasks within journalism are extraordinarily exposed to AI. Just the basic text generation aspect of it is like, well, here we go, very first versions of ChatGPT are just sort of like, well, okay, that's text just went from like very cheap to basically free. And, you know, you can see it getting better at research, you can see it doing a, you know, decent job of, you know, copy editing, making, you know, edits to the structure of a piece, whatever. It can do a lot of this stuff. So there's this high level of exposure. Therefore, and sort of separately, a high level of resistance in the profession, um, and a sort of need to stay separate because, you know, if you're if you're all in on AI as a journalist, you're kind of, uh, you're kind of done in a way.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:28",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:04:29",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Fair enough. And that's and I don't mean that to say that, you know, people shouldn't experiment or figure things out. But it it creates a really fun tension in the day to day.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:04:34",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:04:35",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I want us to zoom in on something you wrote over two million years ago, April 28th is when it came out. Which means you probably started working on it like somewhere in April. Right. So that was I don't even know what the world was like back then.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:04:51",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "It was before the singularity, so harder to remember.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:04:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I want to talk about you essentially we're going to talk about your relationship with something called Open Claw. Yeah. And with agents in general and the way we're going to do it because this all moves so fast is we're going to just assume that this story no longer has any bearing on the IPO-driven, you know, Elon Musk world that we happen to find ourselves in today. And I want us to just talk about what happened and when and why and how it faded so quickly. Because I mean I think actually let me just like let's throw it to you, what is Open Claw?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:05:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Did it end up being called didn't the name change like five times?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:05:27",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:28",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It ended up as Open Claw.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:05:29",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "It sort of first went viral as Claude-Bot, a misspelled Claude-Bot. And the idea was that this guy, Peter Steinberger, had vibe coded and, you know, proudly talked about this, which at the time, again, ancient history, was novel, a harness, software suite, a something that was able to one, could control and access your personal computer. In in the early days it was always Mac Mini, but",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "You know, any Mac would work. Connect it to model of your choice and then have it just sort of do things.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And what that means is that, you know, you're giving it credentials, you're giving it extremely high levels of access to your machine. Your machine probably has a lot of access to various accounts that you use.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:06:22",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "So you're just sort of basically breaking every...",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:06:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "...security best practice.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:27",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yeah, you're kind of hacking yourself and saying like, all right, what if we just gave these models everything? And what if we tried to have them perform like a level of autonomy where they text you, ask what you want, you text them, they try to do it? You build software together to sort of manipulate this environment. And the promise there is pretty intoxicating, especially if you have any exposure to like AI coding tools and you've got an intuition for that. And it's also kind of like appealing from a tinkerer's, hacker's point of view.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:06:59",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Because a lot of times, as especially as just like an avid consumer, you are engaging with, let's say, ChatGPT and you really feel like you're in a sandbox, you know? You're kind of like, all right, this thing is so impressive on the surface, but I can't make it do anything.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:14",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Request response, right? It's, yeah.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:07:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:07:16",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "So this is like, what if I was in control? And what if I defined the environment? And what if we turned all this energy toward my inbox, my documents, my files? And I think it when this came out, so it was open source, everybody could play, you could download it and install it on your Mac mini and hook it up. When this came out, so this is... this was sort of this big moment when agents show up in the world, but before that, I think people have been like, okay, I talked to ChatGPT and then occasionally I'm like, hey ChatGPT, could you send me an email? Or could you schedule an appointment? Or things like that. And you could sort of see if it would do it or not. This was different in that it lives on your computer and it doesn't just send you an email, it could read and search through all of your past email. It has access to kind of like the whole context in your whole environment. And that was... that felt like we'd skipped a big step where people would learn that these things could run almost as normal software and could kind of go straight to like running your whole life.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:08:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Right. And it's and it's also doing repetitive tasks on a schedule for you that you define, so it has this sort of ongoing active element to it. And it is in some sense kind of accumulating your preferences, which lots of software does now, but it's doing it in this very visible way where you're sort of you can see the text like, okay, this is what it sees me asking for, this is what it sees me doing. So you have this feeling of like working with a machine that is if it's not whether or not it's really kind of doing that, it is vividly represented to you, which is such a great feature of basically every AI tool where it's like, oh, it's thinking, I can see it thinking. Oh, it's learning, I can see it learning about me.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:08:52",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I mean it was often, and you give it a name, right? You set it up?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:08:57",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "I did set it up. Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Mine was a little guy.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:09:01",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:09:02",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I think mine was Clyde, but...",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:09:04",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yeah, I mean, a lot of people called it an assistant, right? Like this sort of 24/7, I'm always by your side executive assistant, ready to do whatever you need.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:13",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "So this blew up. It's worth saying out loud, like this was all the talk for a minute.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:09:18",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:09:19",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Totally.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:09:20",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "The background of this piece is, one, I spent a lot of time in on the sort of AI sauna on Twitter. And it was all anyone could talk about for a while. And you had both people doing the sort of hustle culture like, oh my God, I've got a second brain and it's helping me run my marketing business. Then you've also got like Andrej Karpathy saying...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:41",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "There used to be sort of one of the muckety-mucks at OpenAI, actually just went to Anthropic, but like sort of the ur-AI programmer guy.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:49",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:09:50",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "And one of the sort of great communicators of the moment.",
+      "tone": "admiring"
+    },
+    {
+      "timestamp": "00:09:53",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Great vocal.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:09:54",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "And I mean that in two ways, like as an educator, you know, someone who's explaining this stuff, but also someone who has like embraced the role of influencer in the AI world.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:02",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "He's like the Neil deGrasse Tyson of vibe coding, right?",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:10:05",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:10:06",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "And so he's talking about how some related phenomena here, this there was this Moltbook, a social media platform for AI agents that blew up, he had all these threads that looked like AI agents talking to each other and plotting and scheming and starting religions and all this stuff. That was Open Claw underneath, that was people deploying their...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:27",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Their own agent.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:10:28",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yeah, to sign up for this piece of software that was designed for them and to then perform this.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:34",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:10:35",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "He's talking about how this feels like takeoff. You have Sam Altman weighing in, you have Jensen Huang talking about how this is, you know, the biggest thing since ChatGPT, incredibly important software. And these this happens in AI discourse in like these two or three week chunks. But this one was a big one. This was a really big one.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:10:53",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Also people that we respect and trust who are sort of the pioneers of this whole shift in tech...",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:11:00",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "...like this dramatic revolution in tech.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:11:02",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Were saying these things. It wasn't some blo— I mean, there's Karpathy who's brilliant but also a kind of a commentator influencer, but Sam Altman is the CEO of one of the biggest AI companies in the world and he's on it.",
+      "tone": "admiring"
+    },
+    {
+      "timestamp": "00:11:18",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yeah, and he's specifically saying, and oh, Mark Zuckerberg became obsessed briefly, which you can always depend on. Altman is saying, okay, Moltbook, maybe this is a fad because there was a lot of people got a little carried away with that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:11:31",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "But Open Claw, Open Claw, that's the thing. That's the real thing. And that was the sort of consensus for a moment.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:11:36",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:11:37",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And everybody turned out to be wrong.",
+      "tone": "dry"
+    },
+    {
+      "timestamp": "00:11:39",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Kind of. Yeah. I mean, what we have at this moment, and again, we're sort of looking back twice, is elements of this theory, elements of this idea that was so appealing are being integrated into the various platforms. You know, OpenAI hired the Open Claw guy...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:56",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, I heard about that.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:11:58",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "...they're obviously a lot of, you know, agentic tools...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "you can, you know, use through Anthropic or OpenAI are becoming more coherent, I guess. The companies themselves are developing into sort of like platforms in a way where you're—they're imagining that a lot of their customers will be sort of living inside their worlds.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:16",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:12:17",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "There's something that resembles the OpenClaude story there, but the—the excitement I think really came from this idea that you take control, you are now harnessing in—in every sense of the word all this stuff for yourself. That—that did kind of fade.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:27",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:12:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "All right, so wait, hold on. We have to—we have to actually interrogate this for a second. This was the biggest thing that ever happened. The guy who runs Nvidia, which is probably the most valuable company in the world right now—",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:12:43",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "—said there's never been anything like this. This is it. This is—this is moment zero, my friend.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:12:48",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Which will make everyone pause. I mean, this is—this is a trusted guy.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:12:50",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Right. Everyone is excited. But then you said three weeks, right? Or someone said three weeks. And now we're on the other side. It's been a month since you wrote your article, about two months since this all came out, and we never talk about it on a day-to-day basis. So literally the entire infrastructure of this giant pre-IPO ten trillion dollar sector was like, 'No, there it is. I got it. I got it for you. Here we go.' And then like a couple weeks later, they went, 'Eh, don't worry. Don't worry.'",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:12:57",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:12:58",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "And like to be—to try to be as accurate as possible about what I think has happened, you have a bunch of people pointing at this harness and saying, 'This is—this makes sense. This is really valuable. This is really exciting. And look, people are doing crazy stuff with it.'",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:45",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And can you define harness? I think people—",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:48",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "I can try, but honestly I think you might do a better job.",
+      "tone": "humble"
+    },
+    {
+      "timestamp": "00:13:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, I don't think anyone really can. I kind of want to—we'll all take a stab.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:13:57",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I guess we're—yeah, we're in a similar problem with agent here where we're just sort of—no one ever quite settled on the definition and then we moved forward.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:14:02",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Basically you—you have your model that you can interact with in a bunch of different ways. And then you have, let's say, a product adjacent to the model like Claude Code, which provides you with like an environment to work in, a set of tools to use, a software framework that 'quote-unquote' harnesses the model toward a goal. Maybe? Does that sound right?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:14:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, that sounds about right. Essentially, it's the product that helps you talk to the LLM in a very specific context. So Claude Code is a whole bunch of code, like old-school code, that manages how you interact with Claude in order to get you a more code-like output so you can write your code.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:14:51",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Right. And this is OpenClaude, your janky local version of that that you downloaded. And focused on more sort of like reading email. It has tasks and skills that it can use to do your like calendaring. It does. But I don't want to give it quite that much credit because as I experienced and Rich, as I'm sure you encountered a little bit, it is not really like an intuitive—there's a setup wizard, sure, but it is not an intuitive piece of software with like—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Clear boundaries and structure. It is just kind of a pile of options.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:04",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:05",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And and I think this is a point I wanted to make, which is this was never going to take off if it was just made for the nerds. The experience around setting it up, making it work, it was it had a bit of a wizard but it was through a terminal.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:18",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Right. Mine failed like five times at all the major steps too.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Exactly. Exactly. And so, and so I'm tech-savvy, like adjacent to engineer and I was able to get it going, but it took a lot of stumbling. And the truth is, a lot of these things don't take off until you make them approachable and accessible to a wider audience. And I think this is part of the bubble that the engineering world is in right now. Like this is their toy, AI in general is theirs. And, and I'm not surprised. I wasn't surprised that it fizzled out. I was expecting actually, I did it on a hosted environment because I didn't want it on my local machine, right? And I was expecting one of the like big hosting providers to come up with like a very simple web-based UI. Like I'm gonna date myself for a second. Hotmail was a big deal because Hotmail was inside the browser and you didn't have to set up SMTP servers.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:16:21",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "For people who are not about to turn into dust, Hotmail was an open web platform for mail that actually came before Gmail, it came before Yahoo Mail and it was like the and everybody thought it was wacky because you used to have to kind of run your own or be affiliated with your own email server.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:16:35",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:16:36",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "And suddenly you could have an email address.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:16:37",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. You could have an email without your ISP in the mix. It could be your permanent...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:16:40",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Correct. Microsoft bought it, by the way. So it kind of, it's still around.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:43",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. Did it surprise you that it faded out so, so quickly?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:16:47",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "No, I mean, as I was working on this, I, I felt like I was, I was sort of, the, the wave had already crashed.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:16:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh, is that right? So you're working on the piece. You're watching it fade away in the news.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:16:58",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Now, there are exceptions to this because I should say that like what you have, you, the community of people on Reddit, you have Discords, you have people on Twitter who are kind of earnestly trying to work this through. I talked to a consultant who helps people set these up, mostly people who've sort of heard about this and kind of want to be part of it and don't really know what they're looking for.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:17:16",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:17:17",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "And he was already saying, \"Well, you know, a lot of this stuff doesn't really pan out for people and also we're already moving on to some other thing that's like a little better.\" But at the same time, you have like Gary Tan who runs Y Combinator, Sam Altman's old job, posting while I'm writing this and in till pretty recent about how he's built a second brain, how he's living in the future.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:17:37",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Who is this guy? I'm neither a...",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:17:39",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "He runs, he runs Y Combinator.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:17:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Does he? He's a Valley guy.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:17:43",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yeah. Like I've seen him commenting for the last 20 years.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:17:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, no. He's like the new Valley guy. But also like everyone else in this world now, he is a, he's a Twitter influencer. It's such a strange thing to happen to like the most important well-capitalized industry in the world that everyone is also sort of hanging out on Twitter.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Twitter and kind of posting, posting. You know what's funny is they tried to make, like A16Z keeps trying to make its own media platform and I have never seen a single thing they produce. Like it never kind of gets to the East Coast. Twitter's like the one media platform that they now have.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:18:15",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "It's true. And it's funny there's a world where, you know, this is a brilliant strategic move by Elon Musk to capture the AI discourse, to sort of wrap your arms around all this stuff and then, you know, you... but he hasn't, that's one thing he has not been able to leverage into anything, really. Other things, sure, but AI specifically that hasn't, that hasn't quite worked out. But it has provided a platform for people to kind of drive themselves nuts in public.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:18:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. I also think because Grok is relentlessly like, and that's why Hitler would be great right now, even our benevolent AI bros are a little bit like, mm, this might be too much.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:18:54",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Right, right. Well, and so you know, Gary Tan's talking about how this is this huge deal, it's going to change everything. He's showing, he's posting these big configuration files that are sort of like descriptions of an incredible thing that are in his telling operationalized into a product, but are also sort of like, it's kind of beautiful, they kind of read like fantasies of the best product in the world.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:19:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "See, you can't see it, I'm scrolling your article, and I know, well, we don't let anybody look at the screen because it's an audio podcast, but it's, it'll be on the video. But this article, God bless John, because you had to put in so many screenshots of nerds just having text because the whole thing is textual. It's like the least visually interesting thing that's happened. And so I'm looking at Gary Tan, you know, and he's like, oh, it's going to identify people in company and index all my books and do all my email and so on and so forth. So now you go in, your editor probably made you.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:19:45",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yeah, absolutely. Well, we have, this is the problem with this stuff. It's like the most important story in tech and there's, there are all these editorial instincts that are good and sensible, but are hard to align with AI. It's like...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:19:59",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "The velocity.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:20:00",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yeah, for one there's that. But also just like, there's like, hey, I want to, I want to hear more about what it's like to use these things. I want to hear more about the texture of using AI. I want, I want maybe reviews. I want maybe something.",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:20:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "What happened to reviews? I want them back. I want CNET back. I want all... what happened?",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:20:16",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "This is, that's a really fun question for me to think about in particular because that's my whole background. But I do feel like in part with AI, benchmarks were the reviews and then the benchmarks became sort of useless for your average person.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:20:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I will be fair, I want to be fair. Every.2 does review AI products. Like there's a few places.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:20:37",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yeah, and they do a great job. But for most, aside from them, almost nobody sits down and goes, here's what you need to know about.",
+      "tone": "acknowledging"
+    },
+    {
+      "timestamp": "00:20:44",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:20:44",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Simon Willison does a great job, but even he is sort of like, he's a programmer. He's writing for programmers. He's sort of way out on...",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:20:50",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, Simon is for me, right? Like Simon is for me because I'm going to go use this stuff. And so he's very, it's like he's like a human O'Reilly book.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:20:57",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yeah. There it's really hard, I think, to describe...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "He's more than that. I should be very clear. I'm very, very fond of Simon. Anyway, go ahead.",
+      "tone": "Affectionate and dismissive"
+    },
+    {
+      "timestamp": "00:21:03",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "It's hard to describe your own experience using AI without sounding silly or boring, and there's not much in between. It's like—",
+      "tone": "Analytical and reflective"
+    },
+    {
+      "timestamp": "00:21:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "The worst is everybody's publishing their transcripts and I'm about to lose my mind.",
+      "tone": "Frustrated and energetic"
+    },
+    {
+      "timestamp": "00:21:15",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "You're always stuck in this position because of the interface for these tools of describing a conversation that you had. And that's not a good review. Like, you're ultimately reviewing conversations. And I'm being a little glib there, but not really.",
+      "tone": "Serious and opinionated"
+    },
+    {
+      "timestamp": "00:21:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, it's not. If anyone's trying to produce text about this, not great.",
+      "tone": "Agreeable and critical"
+    },
+    {
+      "timestamp": "00:21:33",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I've seen brilliant thinkers who I really trust and respect cut and paste whole transcripts to make some point about AI. And God bless, I just want to throw them out at that point. I'm just like, 'What happened here? You forgot to think!'",
+      "tone": "Exasperated and passionate"
+    },
+    {
+      "timestamp": "00:21:48",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "So OpenClaude was a good opportunity to sort of satisfy both my curiosity about what everyone is talking about and also to sort of satisfy my editor's question, which is like how do you talk about this in a way that, you know, serves that traditional reviewer's role of using something that other people haven't yet used or aren't sure they want to use or buy or invest in and sort of telling them what it's about. And of course, I'm going into this with a sense that I'm gonna fail and then it's gonna be a disaster and then this is confirmed in sort of surprising ways. But I don't know, it's a genuinely hard problem because it also, I don't know, one thing that occurred to me doing this is that the AI was, despite my resistance to doing what you're talking about, you know, pasting passages of text or whatever, it is kind of writing story for me because a lot of what I'm doing is troubleshooting with AI to build this harness for myself. I'm sort of being like—",
+      "tone": "Narrative and introspective"
+    },
+    {
+      "timestamp": "00:22:21",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Hey Claude, why isn't this working?",
+      "tone": "Impersonating and inquisitive"
+    },
+    {
+      "timestamp": "00:22:22",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yeah, that's the defining experience for a curious tinkerer using this. It's like, 'Oh okay, the setup wizard failed. Maybe I'll just ask the text box why it failed.' And okay, that didn't work. I'll ask the smarter text box that I pay for in the next window. And eventually you sort of get there and then you've been walked through it, and then you're pretending you're still in control of the situation.",
+      "tone": "Relatable and humorous"
+    },
+    {
+      "timestamp": "00:22:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Is it fair to say that I would say you are broadly technical but not a programmer?",
+      "tone": "Clarifying and inquisitive"
+    },
+    {
+      "timestamp": "00:22:51",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Not a programmer.",
+      "tone": "Corrective and certain"
+    },
+    {
+      "timestamp": "00:22:52",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "You're talking about Hotmail and stuff and I'm remembering my sort of peak investment in becoming a technical person is like, you know, building and hosting my own websites, running my own email server at a time when it wasn't necessary but was interesting and you know, wow, I've got access to an FTP server, I can share files with my friends, but oh, I can host things on here. Oh wow, we have a forum now. That kind of stuff. And then I stopped.",
+      "tone": "Nostalgic and descriptive"
+    },
+    {
+      "timestamp": "00:23:09",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Same.",
+      "tone": "Relatable"
+    },
+    {
+      "timestamp": "00:23:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So you could unlock—so you unlocked sort of what the nerds were doing by making Claude kind of help you along.",
+      "tone": "Summarizing and clarifying"
+    },
+    {
+      "timestamp": "00:23:17",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yes.",
+      "tone": "Confirming"
+    },
+    {
+      "timestamp": "00:23:18",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "Acknowledging"
+    },
+    {
+      "timestamp": "00:23:18",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "And that's something that I think even a pretty advanced—",
+      "tone": "Continuing thought"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "A user of these tools is going to end up doing a lot of what you're doing with Open Claw, which is writing little bits of software for the harness to then use. That's kind of where this goes eventually.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "So you're ultimately still just using Claude code, you're using the good product, and you're using Open Claw as an interface. And to back up a tiny bit here, a lot of the appeal for people here is that Open Claw gives you a way to just sort of text your bot.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:28",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yeah.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:24:29",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "To sort of personify once more or to make a more detailed character out of your bot to then text.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:35",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Meaning, like, from your phone. Text.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:24:38",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:24:39",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "This doesn't sound like the biggest problem in the world to solve or a huge technical challenge, but it's not really how people are accustomed to using these things. You can use the app on your phone for Claude or ChatGPT, you can use it on your desktop.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:53",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "But there are aspects of building software and AI that are harder to do remotely, and Open Claw lets you coordinate some of that through Telegram or iMessage or whatever. Once you've given it access to your computer to mess around with your files, to look at your inbox, to execute commands on your behalf, you can then just text on Telegram and say, 'Hey little guy, why don't you—'",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:25:12",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Find me that receipt that's in my downloads folder or whatever.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:25:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Exactly. Presuming that for some reason this is all locally stored on your—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:25:17",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "I mean, that's the rub here. I think it's probably another reason why people were spooked. I think the difficulty of setting it up is the big barrier. I just want to share an observation. It's almost philosophical. Can I do that?",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:25:30",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:31",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "When tech moves fast, it tends to stumble out in the most clumsy way almost every time. I remember in New York City, there were delivery apps like Kozmos and others that failed eventually.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:25:50",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "RealPlayer allowed you to stream video, but the infrastructure wasn't in place yet and it was an app on your computer. And then five, six years later, YouTube shows up.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:01",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "And I've seen it so many times that I do think there's something here. I do think there's something here, and I think the second go-round is usually when it finds its footing and finds a wider audience. The other observation I'd make is that right now, the engineers are running the show. The approachability and usability of these things is kind of nowhere to be found.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:26:25",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Product managers can't get it under control. There's so much software being made, and they're like, 'Could you just stop making software for five minutes?'",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:26:31",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's right.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:26:33",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "And a lot of designers are worried right now. They're like, 'Oh my god, Claude Design came out, and there's design now and it looks kind of okay.' And the truth is, the experience around these things to make them more approachable and accessible to wider audiences is going to be absolutely key down the road. It's just still frothy right now.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:26:55",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "One thing that I thought of recently, thinking back to this piece, there's a guy—",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Guy who just started doing comms at OpenAI, I sort of know him, I know his name from other jobs. He's not... he's not like an AI guy. And he was posting about how, wow, it's crazy to work at a place where everything runs through this platform, and everything is assuming that... everything is available to AI, everything works around AI. This is all we do.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:27:19",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Like HR?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:27:21",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yeah, everything is just... I just sit down in front of ChatGPT and do my stuff. Which is... that's a normal Big Tech thing, like, 'oh, I live in Google world now, everything is Google and we're the only people in the world who use this Google thing because that's what we've built here.' And he is going through this version of like kind of the Open-Claw thing that makes a little more sense because it's... maybe it's better in in technical ways, but also it's just like, alright, you built the whole... you built the whole world around this assumption. Open-Claw is sort of the opposite situation where you have a world that you live in. I have a domestic life with administrative needs. And then I'm like, alright, well seems like maybe I could get AI to figure this out, to turn... I can turn my whole life into context for this tool, and here's a bridge to do that. And it just... I just was one kind of really bad at it, despite genuine effort. And also, you know, to give myself a tiny bit of credit, I was dealing with some pretty broken tools and like a sort of maybe some bad premise.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:28:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, I'm gonna say that you were not bad at it at all. I mean I think like, like coming out of the piece, and and just to kind of... people should go read the piece, but you didn't get a lot of value out of it.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:28:31",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "No, I got negative value out of it. Took time.",
+      "tone": "dry"
+    },
+    {
+      "timestamp": "00:28:33",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Did you bail?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:28:34",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Oh, I bailed right away. I haven't thought about it since.",
+      "tone": "decisive"
+    },
+    {
+      "timestamp": "00:28:36",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You're like, 'wow I see the potential of this...'",
+      "tone": "mocking"
+    },
+    {
+      "timestamp": "00:28:38",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, no because two, four... like four or five days after that piece, let me tell you the title of John's next piece. You ready? 'The Mystery of' quote 'Human Meat' for sale on Temu.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:28:52",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh you went way the other way. You're like, 'I'm out, peace out'.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:28:56",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So actually just, let's just take a minute on that, just one minute. Like, what's up with the human meat on Temu, John?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:29:04",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Wait what? Is this a quote? Yeah, yeah, okay well okay so Temu sells fresh food now. Um, you may be... there's a viral butcher that is based in maybe like Sheepshead Bay or something that sells steaks on Temu and this obviously, you know, it's a sort of funny...",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:29:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Because they're a reseller. You can put your products on Temu. It's like a reseller.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:29:26",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yeah, it's a big marketplace like Amazon and they're pushing more into domestic sellers because of all the tariff situations and stuff like that. Anyway, so they're selling fresh meat, I want to look into this. It's going viral in this sort of like, you know, half-accurate way and so I start looking around, I Google 'Temu food'. High-value search term there, and in the top carousel on Google is ads...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:29:48",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Actually nothing good could come out of that query. Like you already were in the worst part of the internet.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:29:54",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "A picture of some canned food labeled in the title 'Human Meat'. And so I, you know, I asked Google, I asked Temu...",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Oh, well, gosh, big mistake there. It's someone was selling Hormel, Hormel, I think corned beef hash for a suspiciously high price. But it was, it was just one of these funny, I think what they, they never said this, but I think what happened was that there were, there are a lot of AI tools that are writing ad copy automatically and there's a need in Temu's ecosystem to distinguish between pet food and human food. And I think that some of that may have gotten turned.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh, this could have ended way more exciting, John.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:30:30",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Well, yeah, you know, but we got the headline and I think...",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:30:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Give it, give it time.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:30:34",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I threw that out just so for the audience, that's probably more your beat. Like more fun, you know, you've got a big mysterious platform and stuff's not working together and it's there is a human element to this. Someone made a choice and that choice got distorted and that's fun. I love that and a lot of AI use is that.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:30:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I think of you as, I think of you as two things. Why is there human meat on Temu? And I got a smartphone for $92. Those are like the two actual things where like you're like okay, this is going to tell us an enormous amount about culture, let's go.",
+      "tone": "wry"
+    },
+    {
+      "timestamp": "00:31:06",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Something silly happened and gosh, what if we just spent some time with it?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:31:13",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Are you bored with AI? I'm bored to death. It's literally the question I was about to ask.",
+      "tone": "candid"
+    },
+    {
+      "timestamp": "00:31:17",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Uh, yeah. I mean, I shouldn't say this, but uh, yes. It's a big story, I'm bored with economics too and it's not like I'm going to be able to escape them in my life, but I find writing about it challenging for some of the reasons mentioned earlier. Like you're writing about writing even though it's doing much more than writing. Which is just, you know, you're not doing criticism, you're just sort of, you're just sort of, you know, one layer above the thing that people should be reading. I don't know, it's sort of that's sort of a pain. And also you're stuck positioning yourself in times like this and this is truly the most intense time like this that I have worked through.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:31:52",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "You're stuck trying to like calibrate all the time and you have to acknowledge the sort of prevailing industry narratives. I'm not the kind of person who's going to say like oh, this is all bullshit and it's all hype and it's all marketing whatever and therefore here's the real story. I've never been comfortable doing that and don't see a ton of value in trying to do that because you're still, you're still positioning yourself against a story that Sam Altman is telling, which is just it's, you're already lost, you know, because you're not really in control of and but that's that's the kind of need that people have.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:32:24",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "So the story's massive.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:32:26",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Huge. It's always like the world will never be the same. Like it's always that story.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:32:32",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And the reality is there will be like five trillion dollars in new public companies out in the world within a year, right? So we are dealing, and there are a few like coding has changed. There's no way that enterprise coding will ever be the same again. That is just there's new process and so on. So there is all that that change. That's exciting, but it's actually kind of exciting in a boring way as opposed to the sort of frothy like hey, open clothes here, it's all different now kind of narrative that we keep getting given.",
+      "tone": "grounded"
+    },
+    {
+      "timestamp": "00:32:58",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Right. And then the other stories that are sort of available...",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "The narratives that you can weigh in on are, they're trying too hard to be interesting. You know, like, I... in college, I wrote my thesis on the history of machine consciousness and literature. And it's like, here are different periods in history where people are worried about this, afraid of this, and here's what they tell us about those periods.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:33:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Wonderful. There's a nice little AI in there, you know.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:33:26",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "I should have stayed in school and written more books.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:33:27",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, exactly. Right.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:33:28",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Here's why. I just threw out a book from the shelf behind me called Artificial Intelligence and Literary Creativity Inside the Mind of Brutus, a Storytelling Machine from 2000. Right? So it's like...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:41",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "But if you've spent time reading like, you know, A Fire Upon the Deep or whatever for fun, or you have engaged with like sci-fi through history and it's people really, you know, writing about machines, but then obviously writing about people or writing about machines and writing about capitalism or whatever, this is all super rich, super wonderful. I don't want to see people who work for Anthropic kind of bringing this up for the first time in the worst possible context, which is at a valuation of a trillion dollars in front of analysts. It's brutal. And this is again, huge story, really interesting material, infinite possibilities for writing. And yet the sort of like needs of media production, the demands of audience, everything, they don't align very well with this. It is kind of a pain.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:34:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You know how we're internalizing? I mean, this is literally a company that uses AI to ship code for people and to build products, right? So we're in it and we're moving along. But where Rich and I are landing, we've been talking about this a lot, is like, tired of talking about it. Want to just build. Just want to make a lot of products and get them out in the world. And so that's really where...",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "00:34:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, because also, I think related to that is there's not a lot of great product that's come out of it. Right. You've got Claude code, you've got ChatGPT.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:34:53",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "No, but these are building machines.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:34:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Sorry, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:34:55",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "But the things that are being built with the building machines, I think are not thoughtful, they're not elegant. And I think it's still in the domain, and again, this is not me attacking engineers, but engineers own this right now. And I think there are other actors that are needed to make great products.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:35:12",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I know, you're right, because I think what we're seeing a lot of is like, I put that little icon into PowerPoint and now it'll make slides for you. Yeah, it's a lot of that. Just sort of like, hey, we made it. A lot of making.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:35:21",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Well, there's also like a drive, a powerful urge or pull or whatever to do this kind of stuff. And I did appreciate the experience of trying to onboard with Open Claude because I started to feel that urgency a little bit, like, alright, I need to make myself legible to this tool in order to make the tool work. Which has got to be just the most relatable thing across so many companies right now, but with higher stakes. I'm just having fun writing a story and I'm finally like, 'oh, this is a great way to engage with this subject, I'm actually enjoying this.' If I'm working at a, you know, mid-size...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "of tech company and I'm like, well fuck, I gotta figure out, do I have to fire all my developers? Do I need to completely redo my platform? Like it's, and you you kind of don't know and the people giving you advice also sound insane.",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "00:36:12",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I can tell you first-hand that your frustration reflects frustration at a corporate level, at an enterprise scale today, today. It's not, there is no, everyone has been pitching the rapid solve and it's not there. Like we're seeing it first-hand.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:36:28",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "And you do get the impression just from your environment, you know, on LinkedIn or whatever or just talking that other people are figuring it out.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:36:37",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah but here's what they're figuring out. They're figuring out that code can be radically accelerated if it looks like the code that came before it. So if you have a system that hasn't been updated in 15 years, I have amazing news for you. Like you can really have nice modern software very quickly and very cheaply. But a really good product that people might want to use or that would be transformational for your organization, like that is not radically easier. There's more tools people can use, it's easier to do research or to study the competition, you could do some first-pass designs and prototypes, but the actual making a real thing is and the same as like writing a real book or doing a real thing like yes there are tools that make it easier but the actual human effort is not radically diminished.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:37:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Look, the invention side, the creative problem-solving side is still really, really hard, right?",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:37:28",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well I want to, I want to throw a provocation at you to kind of close this out. So first of all, like I'm just a fan of your stuff because it's just human. Like you just kind of I think it's in your roots as an Android gadget blogger but you just kind of like there's nothing more human than Android gadget bloggers. It's like the most, you might as well write poetry. It's like the most organic form of tech journalism.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:37:53",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "People do it for free.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:37:55",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, like you might as well just write poetry. It's just the most organic form of tech journalism. Like 'New stuff came in a box. Ah.' Um. So, so it's just like very good to see you and and sort of like this is all going to be over at some point and you will get to go back to your favorite thing which is reviewing arm-chip based Chinese uh equipment for for New York Magazine let's hope let's hope. So we just described this situation. It's like a three-week period where open Claude changed the world and then no one talks about it anymore. Okay. Do you think, fast forward a year or two, do you think that that's AI in general and that it's just kind of going to get baked into everything in the tech industry and we'll just kind of it'll just kind of be in the phone?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:38:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Less headlines.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:38:55",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "We'll be back to the phone and we'll be back to Apple and we'll be back to sort of the big platforms or do you think that we'll actually be saying Anthropic before we say Apple or OpenAI before we say Apple and like the rest of the tech world will be moving towards this new technology continually and sort of like and this is on vibes like who the hell knows?",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "To like productize your model or someone else's model into something and that becomes the subject of massive attention. That thing is usually nine times out of ten doomed.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:39:01",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yeah. I mean this this is another one of these things where you're you're then tied up and like you're calibrating against the bubble question or whatever. But okay. I think once you",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:39:12",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:39:13",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "And that energy is really important to keep sustaining and keep... that keeps happening. There's always a new thing. Open Claude was a big one, but you... there's always either a new feature people are talking about, a new way of working people are talking about. Once you sort of name it, it sort of first becomes a target of the labs or is just sort of, I don't know, that sort of thing is doomed.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:39:31",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "But I think that it is quite possible that one or more of these firms does become massive, entrenched, important.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:39:50",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "To the Google level.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:39:51",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yeah, that seems totally plausible to me. I don't know if it'll happen, but I don't see why it couldn't.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:39:56",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Like pervasive everywhere, that kind of thing.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:39:58",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "But what that also possibly foretells is a period where they become kind of boring. A lot of what we're talking about recedes into a sort of grinding enterprise software story, which is not something we were talking about before. And a lot of times I'll be reading about Anthropic and they're talking about, you know, treating their models as conscious beings that need to be retired mercifully and stuff like that. And it's like, alright, we're, you know, we're doing something interesting here. But also in another tab, I'm reading about you and understanding you as an enterprise software company.",
+      "tone": "observant"
+    },
+    {
+      "timestamp": "00:40:34",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. We're going to replace the CRM with this new consciousness.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:40:40",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "And that, let's say that is the path to ultimate success for them, is you're replacing...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:40:45",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "A wizard brought Salesforce to life and now...",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:40:48",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Right. But we never talked about Salesforce that way in the press, I mean. So there's a world where you lose the sort of narrative, the narrative collapses, and you get the sort of like steady real effects rolling out through the world. And that is both potentially hugely consequential, also in the least—this could not matter less—but as someone who has to like point at, talk about, and think about these things, it'd be a pretty big relief.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:41:13",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:41:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, but it's also, you know, you've now been watching this industry closely for, like, 20 years, right?",
+      "tone": "investigative"
+    },
+    {
+      "timestamp": "00:41:22",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Right.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:41:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And this is why I ask, because I actually think your predictive model's pretty good.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:41:26",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Things always go further than you expect and never quite in the way that they were talked about. You know, like a big, something I think about a lot is how often I had this intuition that something had to give with Facebook. The network was rotten. You could see it in your feeds. There was... like everything was aging and old and the product had sort of lost its juice or whatever. And I think a lot of those... my mistake at the time would be to sometimes extend that observation or reporting about that to a conclusion about whether people would still use it.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "illusion that therefore Facebook the company, Meta the company, you know, had made a big misstep and this was probably",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:07",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "The end of it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:42:07",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "the end of it. Yeah, hurt their stock price and something new was gonna come along. That didn't happen at all.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:12",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:42:13",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "And I think that there is an almost moral component to a lot of AI criticism and coverage that's like, all right, well, if they're if they fail to deliver on this particular promise, then the whole thing falls apart or whatever.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:24",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Well, they want justice. They want punishment. If it turns out that Sam Altman hasn't been telling us the truth the whole time, they want him held to account. And unfortunately, or fortunately, or whatever, but just like, it just doesn't work that way.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:42:36",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yeah, it hasn't worked that way in in my time in the industry, and when you do get these sort of tales that do seem to have a moral component, it's it's always like a second-tier player.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:42:45",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:42:46",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "You know, um, it's always someone who sort of didn't have that that powerful tailwind of global capital. And to make things worse, you mentioned, you know, RealPlayer earlier.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:54",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Wait did you—did you mention RealPlayer?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:42:57",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You don't pay attention.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:42:58",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I didn't even hear it!",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:42:59",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:43:00",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Well consider someone like Mark Cuban, you know, who has this basic insight, TV on the internet,",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:43:05",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:43:06",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "sells the top, makes a bunch of money, he's still with us. TV on the internet is TV. There was, you could tell that story in hindsight in a generous way and say like, wow, you know, he knew and things worked out or whatever. Or you can tell it in a maybe more honest way, which is like, well, timing is really the thing and his personal timing was great, but his tech timing was way off. And it's, you know, sure I can, there are all kinds of predictions you can make about AI that sound kind of crazy now that will eventually be probably correct.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:43:31",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "This is true. Mark Cuban could easily not be a billionaire and instead could be like a negative 20 millionaire.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:43:38",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Totally. Right, that's just from like one or two decisions going one way or the other.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:43:42",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "No, I think the reason this is happening in AI all the time and this happened with OpenCloth too, like I we joke about Gary Tan, but I think there's probably big components of what he's talking about where you have a persistent thing that is absorbing your context and feeding it back to you and it's like this floating scratchpad that has a some a form of like intelligence that you can use, that... sure, yeah. Yes. Why not?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:44:03",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:44:04",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I think it will be something else. It'll be called something else, it'll be marketed and packaged up as something else, but a lot of the ideas I think will survive.",
+      "tone": "predictive"
+    },
+    {
+      "timestamp": "00:44:11",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Right, but he's saying that's OpenCloth and I'm saying that is not OpenCloth, not for anyone else at least.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:44:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:44:16",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's not for anyone else.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:44:17",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And it wasn't Broadcast.com either.",
+      "tone": "witty"
+    },
+    {
+      "timestamp": "00:44:18",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Exactly. Yeah, so there's gonna be so much of that and I do think the best we can do because a lot of this will be kind of disheartening in the long term is to sort of remember that it, you know, on during the upcycles everyone's a little crazy and it's easy to make broad predictions that are basically good and we have to remember also the ways that they where they kind of where they came from um and uh all the specific predictions that were completely insane.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:44:43",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:44:44",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I think also like, you know, let's wrapping this up, right? What what to takeaway from this. So for me, I mean you also said words that are beautiful to me, which is it's just gonna be all enterprise. I'm like, yeah, hell yeah, John, high five!",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:44:57",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Aboard.com. That's right.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "So am I. Can you pay me in crypto?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Absolutely. No, it's a board change. It's worth a lot. No, I mean to me that's... it's going to get normalized.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:45:07",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Everyone, essentially like everyone is at Vegas right now waiting for the... waiting for the stock to just explode. And when that's done, it'll... it'll calm down a lot. Like after the IPOs, I think you'll start to see a little more just chill in the world.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:45:26",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Sam Altman has this tendency to just sort of like fart out these... like little essays, blog posts, give interviews where he tries to kind of pontificate in a way that... that he's just not... he's not very good at.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:45:41",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "He is both too controlled in some ways and also has this sort of neurotic inability to stop himself from saying certain things. One of the more honest things that he keeps saying and he was saying this I think when he had some nerves about GPT-5 not getting like a great response before the big sort of coding takeoff.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:45:58",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "He was just sort of marveling at how quickly people can get used to things. And that is... that strikes me as so... that strikes me as so, so true. And people get angry about that in tech. They're like, \"How dare you take this for granted?\"",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:46:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And there's a version of Altman who does that too, where he's just sort of like, \"I'm giving you magic in the cloud and you're just, you know, asking me for, you know, higher usage limits or whatever.\" But I think that is a really important insight for understanding where things could go and how things have gone,",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:46:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "which is that you... whatever... however you want to define AGI, you know, it's a term that I can't honestly stand, every time I hear it I'm like, I feel like I'm being misled in one way or another. ASI, whatever. Whatever your definition of it is, the most sci-fi, dazzling, world-ending definition of it,",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:46:43",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I promise you that people will be used to the machine God in like five minutes and start complaining about it like it's, you know, what's that old... anyway, yeah.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:46:51",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "I love it. You know like... yeah, \"It gave me 75 flying cars because I wished it. It's so annoying, I wanted 76.\" Right? Like, that's humans.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:47:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, I agree. And I think people are honestly entitled to that when they're not in charge of the situation.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:47:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Sure. You know, what else do you have?",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:47:12",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "What are you interested in that is not this subject?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:47:16",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "That is not this subject? Oh my god.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:47:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And it's hard. Every time we try to talk about it, it's like a full five minutes to remember there's something else to talk about.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:47:26",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "On my beat? Man.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:47:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Doesn't even have to be your beat.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:47:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Gardening?",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:47:31",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yeah. But on my beat, I feel like there is like an AI-adjacent story of the sort of collapse of social environments and it gets written about in this very direct, sort of again, moralistic way like, \"Oh, they killed this or that.\"",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:47:44",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "And there's also, there's a funny element to that too where it's like, \"Oh, you're telling... you're upset that they killed Instagram, the thing that was ruining your life three years ago?\" But there's something to that. Like that's where, you know, it's where you spend your time.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:47:56",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "I think that's really interesting and sort of understudied and there's a real like don't look back attitude at companies like Meta.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "About this, they're doing incredible amounts of destruction to things that just a few years ago I was complaining were destroying the web commons and they had taken everything and were giving nothing back and whatever. And then here we have the next layer of that that's doing it in such a such an intense way. It's leaving behind like a really interesting structure. You know, there are all these movies now, I was talking with the writer Joe Bernstein at the Times about this like interesting pattern in media to talk about to focus on empty physical spaces, liminal spaces, things like that as the horrifying emptied out relics of like physical world or whatever. And there's a funny version of that going on in places, you know, that the I guess what we would have called the in the disparaging way the the malls of the internet on Instagram and and Facebook and anywhere else. They're kind of just getting emptied. People are kind of roaming around, bouncing around. You know, there's visual activity. There's there's there's something there to keep you there, but no one else seems to be there or you can't, I don't know, it's fun.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:49:08",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Could you for the listeners... this one went dark. I was expecting code literally.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:49:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, it's not that. It's that this is actually where John has fun. And I think we should close on this. Can you define shitworld to the listeners?",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:49:22",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "You know, I don't think I can. That was a long time ago. Shitworld I wrote a piece a long time ago about yeah, buying a really, really cheap phone that was like 80% of a smartphone. It was like 100 bucks in 2015 or something. And it had some version of Android and it could connect to the internet. And but it also sort of put you in a different position in the digital world because it was slow. And it didn't always work and you had you could see everything. You could see the world, but you couldn't fully access it. You were like interacting with just a shitty version of the world through, you know, shitty tech.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:50:02",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Sounds refreshing.",
+      "tone": "ironic"
+    },
+    {
+      "timestamp": "00:50:04",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Yeah. And, you know, there I don't know what the what the like AI version of that is.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:50:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I think it's those malls. Yeah, I think it's it's that empty it's that empty world in Instagram where it's just like AI cat videos being liked by AI cat videos.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:50:13",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Right, but the promise of a place like that is that people eventually notice that it's there and think, oh, no one else is using this. Right, right, this maybe there like Mopebook just might get turned off one day.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:50:32",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well, that, yeah, that was fully there was never it will. Yeah, Mopebook is incredible. That showed up in this open cloud piece.",
+      "tone": "convinced"
+    },
+    {
+      "timestamp": "00:50:36",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Where, you know, I tried to get my bot to post there and then it responded to itself. You know, it's like this incredible. But I think, you know, if a place is sufficiently overwhelmed with slop and starts to feel sort of abandoned, but you can still make out the other people there, maybe I don't know, I'm not going to say nothing's going to get taken back. Um, but you know, you find yourself—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "In a different place, you start producing different things, you start... I don't know, there's something there, that could be fun.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:51:04",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, but I think we're going through like a period of massive ecological collapse in some already pretty, uh, horrible environments on the internet, and I think that's really interesting. I think that's going to go in some weird directions.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:51:17",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It really will, I don't think anyone can predict.",
+      "tone": "certain"
+    },
+    {
+      "timestamp": "00:51:19",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "So on that bright note, yeah, John, if people want to get in touch, what should they do?",
+      "tone": "bright"
+    },
+    {
+      "timestamp": "00:51:23",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Find me on New York Magazine at nymag.com. My contact info is there, and you can also find me on BlueSky.",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:51:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "This was a very calming reframing of the world of frothy madness that we're in.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:51:38",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:51:40",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Um, I'd just like to also reveal, to sort of keep with the dark theme here, that I grew up in Brooklyn and I can tell you for certain there's human meat in Sheepshead Bay.",
+      "tone": "mischievous"
+    },
+    {
+      "timestamp": "00:51:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, almost definitely. At one point or another.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:51:56",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's... I almost named a restaurant.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:51:57",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Don't name any restaurant.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:51:58",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I know the one you're talking about.",
+      "tone": "knowing"
+    },
+    {
+      "timestamp": "00:51:59",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Don't do it. Everybody knows if you're from here.",
+      "tone": "insistent"
+    },
+    {
+      "timestamp": "00:52:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Anyway.",
+      "tone": "dismissive"
+    },
+    {
+      "timestamp": "00:52:02",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's an institution.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:52:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It is, it's really good.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:52:04",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "But it's definitely a roast beef place.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:52:06",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, I don't know what you're talking about.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:52:07",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, everybody knows if you're from here.",
+      "tone": "insistent"
+    },
+    {
+      "timestamp": "00:52:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "All right. Regardless of human meat in Sheepshead Bay, uh, you should like and subscribe us. You should give us five stars. This is the Aboard podcast. And check out aboard.com. We got events coming up. We have all kinds of stuff. John, thank you so much for coming on.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:52:19",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Thanks, John.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:52:21",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "This was great.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:52:23",
+      "ad": false,
+      "speaker": "John Herrman",
+      "text": "Thanks, man. Thanks for having me.",
+      "tone": "grateful"
+    }
+  ],
+  "highlights": [
+    "AI trends move at an incredibly high velocity, where tools like \"Open Claw\" are heralded as revolutionary by industry leaders only to fade from public discourse within a matter of weeks.",
+    "While \"agentic\" AI tools offer the intoxicating promise of total computer autonomy, they currently lack the user-friendly design needed for mainstream adoption and remain primarily tools for technical tinkerers.",
+    "The ultimate trajectory for major AI firms may be a shift from dazzling sci-fi narratives to becoming boring, entrenched enterprise software companies, following a similar path to Google and Facebook.",
+    "Social media environments are facing a potential ecological collapse as they become \"liminal spaces\" filled with AI-generated \"slop\" that is increasingly consumed and interacted with by other bots rather than humans."
+  ],
+  "summary": "In this episode of the *Aboard* podcast, tech columnist John Herrman joins hosts Paul Ford and Rich Ziade to discuss the volatile nature of the AI hype cycle, specifically focusing on the rapid rise and fall of \"Open Claw\" (also known as Claude-Bot). Herrman describes his experience experimenting with this open-source \"harness\" designed to grant AI models autonomous access to a user’s personal computer, files, and credentials. Despite initial endorsements from industry titans like Sam Altman and Jensen Huang, who hailed such agents as the next major tech revolution, the project’s mainstream momentum fizzled out within weeks. The group attributes this to the massive gap between engineering \"fantasies\" and user reality, noting that the tool's technical complexity and buggy nature often resulted in \"negative value,\" where users spent more time troubleshooting than saving time.\n\nThe conversation also explores the broader challenges of AI journalism and the inevitable \"normalization\" of the technology. Herrman notes that traditional tech reviewing is difficult because the interface is essentially a conversation, making it hard to capture the \"texture\" of the experience without it sounding boring or repetitive. Looking ahead, the speakers predict that AI will eventually transition from its current \"frothy\" state into \"boring\" enterprise software, becoming an entrenched but less sensational part of the corporate infrastructure. They conclude by reflecting on the \"ecological collapse\" of social media, where AI-generated content and \"slop\" are hollowing out digital spaces, leaving behind a \"shitworld\" of empty, automated environments that lack genuine human interaction.",
+  "description": "OpenClaw sprung up overnight—and seemed to fade just as quickly. What does that suggest about AI more broadly? On this week’s podcast, Paul and Rich are joined in the studio by New York Magazine tech reporter John Herrman, whose long career covering all corners of the industry has, like the rest of his peers, recently shifted to all AI, all the time. They discuss his piece for the magazine on OpenClaw—titled “My Adventures With ‘The AI That Actually Does Things’”—before pulling back the lens to look at AI on a whole. Plus: They take a brief diversion into the story John wrote immediately after his OpenClaw reporting, “The Mystery of 'Human Meat' for Sale on Temu.”\n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/john-herrman-the-declawing-of-openclaw/",
+  "duration": 3164,
+  "people": [
+    "Paul Ford",
+    "Rich Ziade",
+    "New York",
+    "John Herrman",
+    "My Adventures",
+    "That Actually",
+    "Does Things",
+    "The Mystery",
+    "Human Meat"
+  ],
+  "topics": [
+    "The OpenClaw AI tool and the rise and fall of AI agents",
+    "The challenges and future of tech journalism in the AI era",
+    "The shift of AI technology from experimental hype to boring enterprise software",
+    "The deterioration and 'ecological collapse' of social media environments"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/Myqdv0VT9Lo/maxresdefault.jpg",
+  "date": "20260707",
+  "youtube_url": "https://www.youtube.com/watch?v=Myqdv0VT9Lo",
+  "youtube_metadata": {
+    "title": "John Herrman: The Declawing of OpenClaw | The Aboard Podcast 2026-07-07",
+    "description": "OpenClaw sprung up overnight—and seemed to fade just as quickly. What does that suggest about AI more broadly? On this week’s podcast, Paul and Rich are joined in the studio by New York Magazine tech reporter John Herrman, whose long career covering all corners of the industry has, like the rest of his peers, recently shifted to all AI, all the time. They discuss his piece for the magazine on OpenClaw—titled “My Adventures With ‘The AI That Actually Does Things’”—before pulling back the lens to look at AI on a whole. Plus: They take a brief diversion into the story John wrote immediately after his OpenClaw reporting, “The Mystery of 'Human Meat' for Sale on Temu.”\n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/john-herrman-the-declawing-of-openclaw/",
+    "duration": 3164,
+    "view_count": 105,
+    "like_count": 0,
+    "channel": "Aboard",
+    "upload_date": "20260707",
+    "thumbnail": "https://i.ytimg.com/vi/Myqdv0VT9Lo/maxresdefault.jpg",
+    "tags": []
+  }
+}

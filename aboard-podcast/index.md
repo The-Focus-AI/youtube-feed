@@ -1,8 +1,8 @@
 ---
 channel: Aboard Podcast
 channel_handle: "@AboardPodcast"
-total_videos: 39
-last_updated: 2026-06-08
+total_videos: 45
+last_updated: 2026-07-07
 ---
 
 # Aboard Podcast Channel Index
@@ -13,16 +13,22 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 39 |
-| Total Views | 57,491 |
-| Date Range | 2025-09-02 to 2026-06-02 |
-| Average Video Length | 38:22 |
-| Total Runtime | 24.9 hours |
+| Total Videos | 45 |
+| Total Views | 61,781 |
+| Date Range | 2025-09-02 to 2026-07-07 |
+| Average Video Length | 40:03 |
+| Total Runtime | 30.0 hours |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [John Herrman: The Declawing of OpenClaw \| The Aboard Podcast 2026-07-07](videos/Myqdv0VT9Lo.md) | 52:44 | 105 |
+| [Design Beyond the Prompt: A panel on AI, craft, and the next era of product design.](videos/JQuMX9o5uaQ.md) | 56:00 | 25 |
+| [Can AI be good? Josh Tyrangiel in conversation with Paul Ford](videos/GHQM81L7ALI.md) | 54:33 | 54 |
+| [Traci Donnelly: Using AI to Make an Impact \| The Aboard Podcast 2026-06-23](videos/uIWGij3Z4Oo.md) | 46:42 | 1,825 |
+| [LevAIthan? A Hobbesian Look at AI \| The Aboard Podcast 2026-06-16](videos/GsfTz2LgVJw.md) | 38:01 | 1,547 |
+| [Eric Ries: Lean Startup to Tech Ethicist \| The Aboard Podcast 2026-06-09](videos/qHLqnRO20Hw.md) | 57:50 | 734 |
 | [Challenge: Don't Mention AI](videos/QM2HJ1q_JoM.md) | 32:09 | 43 |
 | [Craig Mod: Vibe Coding Towards the Apocalypse](videos/qK3VAgDFGAo.md) | 47:36 | 1,387 |
 | [Kamal Menghrajani: The Limits of AI Healthcare](videos/9vtc_6tpXmk.md) | 41:15 | 5,035 |

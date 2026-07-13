@@ -1,0 +1,2032 @@
+{
+  "title": "Traci Donnelly: Using AI to Make an Impact | The Aboard Podcast 2026-06-23",
+  "source_url": "https://www.youtube.com/watch?v=uIWGij3Z4Oo",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Hi, I'm Paul Ford.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:02",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And I'm Rich Ziade.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:04",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And this is the Aboard podcast. It's the podcast about how AI is changing the world of software and we have a great show for you today. We're going to talk to somebody very special. Let's play the theme song and get into it. Right now.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:14",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Let's go!",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Rich.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:33",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes, Paul.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Aboard is an organization that helps you transform with AI, helps you build software more quickly, helps you get your org lined up with this new world, right?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:00:44",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes, yes it is.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:00:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But I got a more fundamental question for you. Do you like dashboards?",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:00:49",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I love dashboards. I'm a corporate executive. I'm the CEO of Aboard, actually, Paul. Yeah. Dashboards are great. Dashboards are the rage right now because people are spinning them up all day long because AI loves to make dashboards. You point it at data and it makes dashboards. But there's a problem.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:05",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "What's the problem?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:01:07",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No one knows how to consume them because there's more of them. They're complicated. They're often laden with stats and they're hard to parse.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:01:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And a lot of times people say, hey, we just need a dashboard and now they have two problems.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:01:18",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "They have two problems. Yes. So what if the dashboards were a little smarter? What if you could ask the dashboard questions and get answers? And what if the dashboard surfaced highlights that you should pay attention to as an operator or a business stakeholder and whatnot.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:01:31",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "We sound really smart talking about this. The reason we're able to talk about this is a very interesting, very exciting client came to us and said, could you help us build exactly these kinds of dashboards with AI? You fellows seem young and spright. Let's see what you do. So let's talk about that.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:01:50",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes. A true executive.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:01:51",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:52",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "But not yet.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:53",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "We're hiring.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Oh yeah, yeah, before that, just everybody knows. We need product managers, we need designers, and we need engineers. Just get in touch, check out our website, and then let's actually get into this conversation.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:08",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "hello@aboard.com and jobs@aboard.com if you'd like to apply.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Natural transition. Very natural. To having a very interesting client. We often don't interview our clients, but you are a very special case. Hello, welcome Traci Donnelly, it's wonderful to have you here.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:02:27",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Hi, thank you. It's great to be here.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:02:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "So we're going to do a thing we call onboarding. I'm going to just tell people who you are and then we're going to ask you all about yourself. You ready?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:02:36",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Oh yeah. Go. Let's go.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:02:38",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's feeling real natural. Real natural, Paul.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:02:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Traci's extremely natural. I'm not.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:02:42",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, so I have you down, let me consult the LinkedIn in my brain. You are the Chief Executive Officer of The Child Center of New York, which more people should know about who are listening to us. And you are the president and founder of, or I guess maybe co-founder of Making Impact.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:51",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Correct.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay. Maybe you could tell us a little bit about those organizations.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:02:54",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Sure, I'm happy to. First, thanks for having me on. It's great to be here. And I'm excited to talk about how excited we are working with you and where we're going.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Oh, this is good. This is getting real good. Okay.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:02",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "So Child Center of New York I came to probably about 14 years ago, it was an organization serving about 14,000 children and families, about $30 million. Uh, now fast forward, we're about $120 million company. We have about 80 programs in 100 locations serving about 62,000 people a year.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Amazing. Hit us with the mission real fast.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:03:26",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Sure. It's, uh... you know, when you say Child Center of New York, people think it's only children, but we actually serve zero to seniors. So it's basically to listen to the communities, develop programs from the ground up, asking folks what they need. And we do tailor our programs for that, but we cover a span of services from behavioral health services through after-school programming, child abuse prevention services, Head Start, Early Head Start. We have residential and case management. So a ton of school-based stuff. Our goal is to make sure everybody graduates high school, changing the trajectory of generational poverty, and doing all so by partnering alongside the community, not thinking that we know the answers to what they need, but listening to the community and driving programming from the ground up.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:04:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's an approach, and methodology.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:04:56",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's a way of working.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:04:57",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Correct, all of it.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:04:58",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:04:59",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "And create a collaborative environment in our ecosystem, rather than thinking there needs to be any competitiveness because, I think as everyone can see, there are more people that need help than the people that can give it to them.",
+      "tone": "principled"
+    },
+    {
+      "timestamp": "00:05:24",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Sure. Sure. And then, just to finish our onboarding, talk a little bit about your relationship with AI.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:05:35",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "So, I am an AI fan since the beginning.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:05:39",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "There we go.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:05:40",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "I brought this early on before anyone was really... it was just when there were a few articles coming out and the capacity for what AI could do. And then I started bringing it to my board chair and saying, 'There's a large language model, I want you to understand what this is. I think we need to be ahead of the curve on this.' And then started playing with it a little and sending things...",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "things, like board notes, things like that to sort of get the board looking at it and then fast forward to where we are now.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:06",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I don't know if the audience knows how unusual that behavior is for the head of a large not-for-profit.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:06:12",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I—I would go even further and say that's actually unusual for the head of a for-profit. I want to rewind back to when we met. We expected, I expected a particular experience with the leader of a non-profit or non-profits. I thought it was going to be, we need some help with this old system, we gotta get off it, but you wanted the orgs to perform better, and you wanted them to do well, and you wanted to assess performance and get good metrics out of it. That was unusual and just to put a pin in it, and then I would love to hear how you got there, is we didn't pitch AI to you, you pitched AI to us, which was unusual. So tell us about your approach to management and how you think about how AI can help.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And I'm gonna just the project is like managing lots of data for different orgs. For different orgs, right? So like medical data, HIPAA compliant, so it's not light stuff, like you brought us something very real.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:07:10",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yeah, because we're—we're not in the business of doing things that aren't real, or really, it's a very complicated business, not-for-profits. And I don't think ever—anyone ever talks about this because it's almost like you have to be ashamed of it when you start saying things like we are a business and we need to operate as such, which means I need KPIs and metrics and data. It is how we turned Child Center around, was actually having dashboards and metrics so that we had some transparency in real time knowing what was happening. Not-for-profits can get data on like quarterly terms. It's already happened. That's like history, and that's not how you run a business.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:08:00",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "So to me, and I've run not-for-profits my entire career, it hasn't like—and I've been recruited to the for-profit world with people saying, you know, oh great, you can work in for-profit. I believe for-profit has a lot of me and not-for-profits not so much.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:08:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Interesting.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:30",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "And the business—the business to me of what I want to do every day is something I feel is of service to making something better, right? That's what drives me and my leadership over the years, interestingly enough, I've had to, because I'm in the not-for-profit world, really had to balance with the data, the—the facts, and then separating that from feelings and what—what does that mean. I thought you had to strip one of the other to be successful, and what I've really learned, and I've learned this from my teams and from the people we work with, including my line staff.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "It is a beautiful balance of both. It requires the head and the heart because we're in the business of people. But you can't serve people if you're not in business. So business comes first.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:09:13",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Interesting.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:09:14",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:14",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You say business a lot.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:09:15",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yes, because it's a business.",
+      "tone": "matter-of-fact"
+    },
+    {
+      "timestamp": "00:09:16",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It's a business. And you have found that balance, but you must be viewed—we're going to get to AI in a second—but you're an anomaly, I think, in this world. I've been in meetings with you.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:09:29",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Your bullshit alarm goes off very quickly.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:34",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yeah, it's very sensitive.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:09:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And loudly. And loudly. Because it's like, 'Uh, what are we doing here? What does this meeting about?' Like, I've heard it. It's actually pretty great. Traci hit it with an all-timer during one meeting where she just—you just went, and I'll never forget this, you just went, 'I'm hearing a lot of whining.'",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:09:52",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And it got real quiet, and it was real good. I was like—I've never been able to say those words, but boy have I wanted to. It was very cool. Rich and I talked about it for hours afterwards. It was a lot of fun.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:10:01",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "I lack a certain filter at times.",
+      "tone": "candid"
+    },
+    {
+      "timestamp": "00:10:04",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "We just talked about balance three minutes ago, Traci.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:10:08",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yeah, I do. The balance—I mean, the filter of—because I think there's something I've been studying a lot and reading a lot about and sharing with my staff, which is authenticity. So I feel like I have twice the energy doing this work in my 50s than I did doing it in my 40s because I have chosen not to show up for each part of my life as a different version of myself. I'm not going to come to work and be the CEO. I'm not going to then get in the car and go home and be another version of who I am. And you know, there's a lot of performance with everything you do. And not-for-profits, like I think our board was pretty surprised when I came in and said, 'Okay, here's our P&L, here's the entire organization, here's what we should continue to invest in and here's what we should divest from because it doesn't pay for itself.'",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:10:53",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "So going to government agencies when I first got there and saying, 'I love this work, here's how we do it, here's what we're doing, here's our budget, and what you're giving me doesn't pay for it.' And they were like, 'Oh, well, that's all we have.' And our answer was, 'Then you should do it on your own or find somebody else that can because I am responsible for running an entire business with 1300 employees and all of these programs. I cannot keep a program that loses a third every single time. Our goal as any not-for-profit is to break even at a minimum before fundraising.'",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:11:40",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "That means you have a healthy operation that's—that can sustain itself and is functioning.",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "00:11:42",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yep. Functioning.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:45",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "And then fundraising's meant to do what we're doing, right? The work that we want to do to take this ecosystem to the next level. How do we—and this means everything and every not-for-profit should care because this is how we're going to survive.",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "This is how you get funding. This is how we are seen as credible",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:12:04",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's your reputation.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:12:05",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:05",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "investment. Yeah, it's credible investment. So I can say, yes, the money you gave me had this outcome. It was applied here and this many lives got better because of it. Because that's the relationship you should have with a funder and you can't do it if you don't run like a business because they don't want to invest in that.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:12:23",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Sure. Interesting. Alright, let me... I actually think this is important enough to double down. So you go when you're going out to funders, going out just to sustain the organization, it sounds to me like then it's like a kind of a sigh like, 'Alright, I'll help you guys keep the lights on.'",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:39",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Or to dig the organization out of a hole.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:41",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's right.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:12:42",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That's not a good feeling for anyone that's stepping forward.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:12:43",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "It's not. And also everyone that gives you that money is going to say, 'Okay, so I give you this today. Will you be self-sustained? Will this now... Or are you going to keep coming to me every year for a check? Or are you building something?' You have to demonstrate that the ROI is there and that you're going to be sustainable after it.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:13:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Growth. How did you get your org... This is not necessarily where people working in this field start. So you had to tilt your org towards these things. You needed to get that money in the door. You needed to convince the funders, the board, and your team to align around this way of thinking for a big not-for-profit org. How did that go? That just sounds like it would have taken years.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:13:28",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "No, we didn't have years, right? So I kind of... I give this gory, and you might want to cut this later, but I give this gory description of what it was like for Child Center and when I explained it to the board, we had $7,000 of net assets. That was it. We owed $6 million to the government.",
+      "tone": "candid"
+    },
+    {
+      "timestamp": "00:13:48",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Whoa.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:13:49",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "So one of the things I said to them was, I said, 'You are very close to not making payroll.' I was deciding which vendors we were going to pay and not pay so I could make payroll.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:13:58",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "This is when you first started.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:13:59",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "When I first started, within the first six months. And I said, 'We have now crashed through the windshield and we are in an emergency room. And what we're going to do in the next year is just stop the bleeding. And then we're going to have plastic surgeons come in and make us pretty. But right now, we need to not die. So let's just get... Let me do this.' And then I went to them very shortly and said, 'And I know we're slotted to lose this much money in our clinics, this is our annual prediction, and I want you to invest $650,000 in some an HRIS system. I want to build a team. I need to get dashboards implemented. I need to roll out all of these things.' And I said, 'You can either trust me or not, but I know what I'm doing. You will see an ROI. Give me a chance.' They... I was fortunate, I am blessed to have like a really wonderful board that trusts in innovation and really care about doing this. And so they agreed.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:14:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, they trust you.",
+      "tone": "validating"
+    },
+    {
+      "timestamp": "00:14:53",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:14:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I mean, now you have that reputation and credibility so that they can trust you.",
+      "tone": "admiring"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "your instincts and—",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:15:01",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "But that was the first test, so them doing that—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:03",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Sure, sure, sure.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:15:04",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "—within the first year we had—we were looking to lose $750,000 just in our clinics. Instead we turned a $350,000 surplus. So we had a million dollar swing in nine months.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:15:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "That's a big deal. Wow.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:15:17",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "That gave them the sense of, \"Okay, there's a captain navigating this. Yeah, this is okay, we know we're doing something here.\"",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:15:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I mean, it's trajectory, right? Yeah.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:24",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yeah.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:15:25",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Help people understand—so that was seven grand in, like, essentially in checking and six million in the hole, and where are you now?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:15:32",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "About 15, 16 million, and that's with also a grant that went over to help start making an impact. Um, so yeah, around 16 million in assets. I also negotiated the owed-to-government in half over a long-term plan with a quarter of the interest.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Government forgets anyway. Don't worry about it.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:15:56",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, but—",
+      "tone": "dismissive"
+    },
+    {
+      "timestamp": "00:15:58",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "—and then around four times as many constituents?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:16:00",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yes.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, so just a very different impact radius for this org.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:16:02",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Correct. Yeah.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:16:03",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "For our listeners, the people that are in for-profits, I think I want to tilt it now towards AI. There's a lot—I'll tell you what we're seeing out there. There are a lot of stalled AI initiatives in the business world right now. It's this insane hype cycle that's slammed into everyone. People got anxious. People were like, \"Well, what's our AI plan?\" With—that's where the question would end. It wasn't about how do I run my business better or how do I get better insights, which is the right leading question. Instead it's like, \"What's your AI strategy?\" And fast forward to now, and there are a lot of organizations that have ambition but really either don't have the appetite, don't provide enough cover so that they can take advantage of this tech and really have it make its way into benefiting a business.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:16:29",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Right.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:16:30",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And I think, talk about how you approached it from a leadership perspective, because we see this as a leadership challenge. AI is on people's desks, by the way, to be clear. But talk about how you got your org behind this.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:17:24",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yeah, it took a minute, I'm not going to lie. I mean, the board was okay. Yes, we see this, we know there's value. I mean, these are people out in the business world who thought, \"Okay, this is interesting, but how does this pertain to us?\"",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:17:37",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And they know you. I mean—",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:17:40",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "And I did have a decent—it's now a decade working with them, and every year for 12 years was growth and profitability, right? So that was a big change of what they had been seeing. So there was a level of trust that went with this and I was grateful, but internally it is very hard to introduce AI into a world of—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "people helping. Because it is people to people, right? So when I'm starting with products that are helping to scribe a session, or some way to help writing notes, this is the biggest pain point for most clinical staff is saying wow, we spend so much time on the paperwork",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:20",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "After the visit.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:18:22",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "We never get to like actually... and half the time they're taking notes during a visit and that doesn't feel like you're paying attention and it just is a bad vibe.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Pajamatime.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:18:27",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:18:28",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "So when I started even thinking 'wow I'm coming to their rescue, like this is... they're gonna be so happy to have this,' it was like, yeah, 'this can't do what I'm... I'm a human, like you can't have AI replace what a human can do'",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:18:44",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Interesting.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:18:44",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "and I... and I said 'no one's looking to replace you, it's a tool.' Just like I came up in this field using paper charts. I had a pager, right? Like these are things. And then the world evolved and now you have electronic health records. Now you have cell phones, right? So I said 'this is just another mechanism of which you're part of of doing this.' And in addition, I would really love you to... like let's give it a shot. This is why I did this, but part two was it's really not optional. It's just like I wouldn't purchase computers for the organization and say 'you can still write in paper,' right? You can still use your paper chart even though I have un... this is like an investment in the organization and I want everybody to be using it. And so we actually even measured that, what was the adoption rate of the current AI we were using. I promise you today if our AI in our clinics is down even for half hour, everybody's like 'oh my god' and I... I always talk to the biggest... the biggest naysayers of it are the ones that I bring to talk about it almost everywhere. And they say 'I didn't believe in it, I didn't think it was good, but it's freed me up.' I'm... the clients, it's a connection like this because now I'm doing a session, I'm not worried about my notes. I'm just gonna sit and I'm present with you the whole time and I'm not anxious and they're noticing it, everybody's noticing it, right?",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:20:12",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Interesting.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:20:13",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's worth highlighting though, you introduced the tools, a lot of orgs are introducing tools, but you essentially... and I think you said this, you kind of have to use these tools.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:20:25",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:20:26",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yes, you have to. It's not... because it's an investment you make as a company and it's not cheap, and where we usually try to pilot things in... in areas to have an ROI, but something like clinics where we felt like 'we're rolling it out, let's roll it out' and people started picking it up pretty quickly.",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:20:44",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And now it's become part of the muscle memory. They're doing it.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:20:47",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "We use it as a recruitment tool. You come here you don't have to write notes, you know, and... and people want to come here. They love it. And it's the same thing, you'll have transparency, I mean when I first did the dashboards it was pushed back, you know, no... please...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "The clinics it would show how many hours you were doing face-to-face direct care services. Yeah. How much time people take off. How long does it take you to do your notes? Like, all of the things we highlighted was like, this is intrusive. Oh, and everybody sees everybody's everything because I sent those dashboards out, everybody's going to see what everybody else does because people are doing it and doing it well and then the ones that don't, it wasn't—I've never fired somebody over them, we've never used them—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:31",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "It's sort of getting people comfortable with their relationship with data also is all data is good data, even when it tells you something you don't like because why do we want to stay on that path? We're learning together and my hope was I would say, 'Oh look, Paul is on this dashboard and he's hitting all the metrics. How are you doing that? Like, at lunch? What—what's going on?'",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:21:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I work so hard. You have no idea. It's just shocking how hard I work.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:21:58",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Let's talk—let's zoom in on a different use of AI. Sure. And that is getting better insights across your many organizations to assess performance, to see bottlenecks, zoom in on where there are issues and friction and whatnot.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:22:12",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Data and AI and nonprofits, nonprofits hold data to be very precious, right? Like it's just—it's an instinct I think. How did you navigate that? Because now that's a little—that's a different puzzle than use this to take notes at the clinic.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:22:25",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Sure. Well, I think for make impact, the idea was inclusivity, right? Having people that are particularly interested in data and AI and are somewhat—and I don't think people were tying the two together like I was early on. And the reason I tied it together was having dashboards out for the last eight years, nine years, we would hand these dashboards out and they were very useful to both line staff and managers, but what I realized it was only as good as the person that could interpret that data and write—think of the narrative. So then we began writing the narratives: 'Here's what the data's telling us. Here's what's gone well. Here's what we can do better.'",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:22:51",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Pre-AI, you were doing that.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:22:53",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Pre-AI, this is what we're doing.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:22:55",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Let me give you the headlines of what is in these charts and graphs.",
+      "tone": "summarizing"
+    },
+    {
+      "timestamp": "00:23:00",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "And that's never changed to date. So this is where AI becomes—I see AI because now I'm using it in my personal life, in my professional life, and I'm showing it to people and I'm showing my staff and they're like, 'How did you do that? How did we get that so quickly?' And I'm like, 'It's easy, use this.' And they're like, 'How?' And I'm like, 'You have to give it the right—like, don't think this does your job. It doesn't do your job. You need to know how to use it and what prompts to put in and then how to fine tune it so it learns you and—it—it's work. It is still work, but it's an art of being able to use it.' And I started saying, 'This is what we need for our dashboards to automate it to give people the opportunity to—'",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "...learn so that we're not spoon-feeding it and then our our managers are staying where they're at. Instead, I want them to be thinking: what is this telling me and I can ask.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:24:10",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You can ask.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:24:11",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Right? I want to say: what does this mean? What can I do? Part two is going to be, which I really want to do for for MAI, is now: which leaders are using this tool as decision makers, right? To make decisions and how is it making their business better? Both in outcomes of those they serve and in business model.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:24:33",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "So you want dashboards to assess the usage of the dashboards.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:40",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Well, hold on.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:24:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "This is the ultimate executive—",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:24:42",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I know, but—",
+      "tone": "persistent"
+    },
+    {
+      "timestamp": "00:24:43",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "I do! That's what I'm going to talk to you about after.",
+      "tone": "cheerful"
+    },
+    {
+      "timestamp": "00:24:45",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But I want to nail down a pattern really quickly for the audience because I think this is really important, which is: here is all this data. This data has been gathered for years and years. The data is about medical outcomes and and doctors and how they're using systems across all the many, many clinics, right? This data gets aggregated and there are dashboards that allow you to tell people how it's reporting or you know allow you to report on how things are going at the different clinics and and see the whole thing. Great executive tool. AI comes in to help people query and access that data. It doesn't generate the data, it doesn't sort of run the clinic. It is simply—it's an interpretation tool to give people access.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:25:26",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "It wraps smarts around the data.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:28",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah, and so that is I think that this is where people get so confused about this technology. When they hear this, they're going to think you put a bot in front of in charge of the clinic, right? The chatbot. And it's not that. It's all the stuff that was that's in there in the databases is now more accessible to leadership.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:25:44",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yes, without a doubt, but it's also the very important point you just brought there is: that's the same thing in the clinics and anywhere else. There's no one in our that we're serving is having an AI tool do a session. It's always a human, but there's an accompanying tool that is doing all the bureaucratic paperwork so that the clinicians can be doing what they're here to do which is serve people. Same thing with dashboards. We—most people didn't go to school when they work at a not-for-profit to interpret data and be data analysts and data scientists and they're not—we're not asking them to do that anymore. It's unfair to do that. So but I would just like you know we would go around and and share our information. That was part of one of my negotiations with the state around how are we going to pay our principal? We owed this money, you know, Child Center had had sort of accumulated this debt and how do we pay that back in a real way? And the part was well, you're going to talk to other not-for-profits and share what you do, share your dashboards. I could do that all day long. It didn't change anything because it's a culture change. It's sitting down every week and saying: let's look at this together and I want to change the way you think. I don't want you just to take this—",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "And say, 'What are the three things I need to do? What are the three things you think you need to do?' I want to know how your mind is working when you look at data so then I can see, 'That's not on the right path,' or I can say, 'That's a great insight I didn't think of. How can I take that another step?'",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:27:18",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Help this audience a little bit because, I mean, this is another thing I think. So here's a whole lot of data, a whole lot of data has just showed up about all the different clinics and so on and, and what people tend to think is that should just stand on its own. We're going to throw it over the wall, everyone will be more productive, I gave them the data, aren't I a good boy? But that doesn't sound like it works at all.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:27:39",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Doesn't work at all.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:27:40",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Doesn't work at all. Okay. I mean, the 50-page PDF attachment in an email of charts and graphs doesn't do it.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:27:46",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "It would speak to me, but it wouldn't speak to most other—",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:27:48",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Most people, yeah, yeah, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:50",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But I'm Traci, I need a culture where people act on the data. I got a whole lot of data, but I don't have that culture yet. What do you do? How do you get people to start to actually think this way and think sort of data-driven and sort of work with this stuff? Because it sounds like you've done this a few times.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:28:07",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Well, you have to know your audience first, right? So when we would go in these meetings and we would be looking at productivity.",
+      "tone": "instructional"
+    },
+    {
+      "timestamp": "00:28:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:28:15",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Here's productivity or here's this and here's that and I said, 'Wow, I remember sitting in a meeting and listening to people talking and I said, \"Oh my god, we have it all wrong,\"' right?",
+      "tone": "storytelling"
+    },
+    {
+      "timestamp": "00:28:23",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:28:24",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "They don't care about productivity. So, what do you care about? Why are you here as a social worker? What did you want to do? 'I want to help children and families.' That's it. That's what they're here for, that's what they went to school for.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:28:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:28:36",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "So converting the language of data into the language of your audience, right? So, what is the number of face-to-face hours per week you're spending delivering direct care hours?",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:28:43",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:28:44",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You could have helped more kids.",
+      "tone": "realization"
+    },
+    {
+      "timestamp": "00:28:46",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yeah, I could be helping more kids. Like, am I only really helping? And this is when I really learned—it was a learning sort of exercise for me, because I would say, 'What are you doing all day? Like, let's talk about it. Help me understand, what is your time study?'",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:29:09",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "The brutal question of what are you doing all day.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:29:12",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yeah, but what's a time study? What do you do from the minute you go in to the minute you leave? Because—and I said, 'I don't want to understand it because I'm trying to make you prove your worth, but I want to know what else you're doing other than what you came here to do. What did you come here to do?' 'I came here to serve children and families.' So outside of those hours and then I pulled up the data. 'I don't even get to go to the bathroom, I don't go to lunch, I am so swamped, I can't get it done, I'm handling this and I'm handling that.' And all of a sudden I said, 'Would you be surprised if I said the average number of face-to-face hours spent in a 35-hour work week delivering direct care is 18 hours?'",
+      "tone": "animated"
+    },
+    {
+      "timestamp": "00:29:41",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Mhm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:29:42",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "'It isn't! It can't be!' And I was like, 'It is.' So, talk to me—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:29:52",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:29:53",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "And it was like, we're doing outreach calls, we're writing report letters...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "We're filing paperwork, we're doing this.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:02",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And I said, so then if I take all of that away from you and you had an opportunity to just serve, serve people, wouldn't that be better?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:30:06",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yes. You gotta- you're drawing the link, right?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:30:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:13",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yeah, you have to make that and then I started saying let's get engagement specialists and then I go to the board and say I want to invest in new positions at the front desk because our social workers need to be doing what we hired them for, which is seeing people. It helps them and it helps us.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:30:28",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "And then running it like a business. How do you incentivize your folks that are overperformers, right? Nobody talks about that. Like, it's just here's your productivity and deliver it or don't.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:30:41",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Incentive- is that a thing in- in the nonprofit world? Can you- can you give out a bonus? Can someone- oh, you can! Yeah.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:30:46",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I don't hear a lot about that.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:30:49",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "And you do.",
+      "tone": "affirming"
+    },
+    {
+      "timestamp": "00:30:50",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Oh, yeah, we do.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:51",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Interesting.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:52",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Do you see AI as in a way a usability tool for like- you're a seasoned exec, you understand how to look at those charts, you don't mind the 50-page PDF, but for someone on the ground or their manager and whatnot, they don't know how to ingest this stuff. Like they do, but they would need to go to a training on how to deal with data and all that. Do you see it as, okay, if I put this in place, it just makes it more approachable?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:31:14",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Well, it makes it more approachable and it also I think gives people the autonomy they want in their job. I don't- I don't know anyone that wants to not be good at what they do. So all of a sudden you're getting dashboards and you don't know how to use them or you maybe pick out a couple of things but you're not really sure what it means and you also don't want to ask everybody because now it- it lets everybody know you don't know what you're doing, right? And you're looking at it.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:31:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That is the- the most empathetic thing I've ever heard from a CEO. No CEO has ever been like, people just want to be good at their job.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:31:54",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Well, they- they do. I mean...",
+      "tone": "insistent"
+    },
+    {
+      "timestamp": "00:31:57",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "But they are afraid to ask. This is a good point.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:32:01",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "They're afraid to ask questions because it's also embarrassing. And now what- this is the reason when you started to ask me in the beginning about how do I get people and make an impact who are other organizations, not in my organization who I don't necessarily have any oversight or influence over? It is including them in like a data council where we have 15 members from five states and saying to them, what are the use cases, clinical use cases for this and then showing them the demos that your team built to say...",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:32:30",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Look, some of you have dashboards and some of you don't. For those that you do, imagine it could look like this.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:32:35",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:32:36",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "And they're like, oh my god. And I said, so your team can be opening these and you should encourage them. Open these, ask questions, look at this. And then we started realizing and you'll remember every time I complicated our project was, we need to pull in HRIS information, we need to pull in financial data, we need to pull in all of the client outcomes data for whatever you're doing. And then how do we pick those things?",
+      "tone": "driven"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "and put them into a useful running a business tool, but that does all of the other things everybody needs within an organization. And you know, I didn't walk into our meeting with you all blind to who you were, right? I always have my team meet with folks first when we had the intro, then I went to a web page and I started looking at what you did and I was like, oh, this is interesting. And then I took it a little further and it was the AI that 100% captured me because I looked at what you built and what you've done and then I said they can do what I'm thinking. And even though you hadn't done that precisely yet, I was like, they can do what I'm thinking and what I'm thinking is what this field needs.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:33:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah. So Traci, I've talked to a lot of NGOs and and sort of community-based orgs about how to use AI. And what I'm finding is there's a lot of people who are very leaned in and they want to do a lot of stuff, but then the rest of the organ is like, no, this is too weird for us and we're not sure if it's ethical, we're worried about this and we're... and they they nibble at it and nothing happens, right? So advise that person for a minute. You're able to drive stuff through as an executive, but let's say they're in a... they're in a community org here in New York City, they would like to move a few things along faster, they see specific use cases, what can they do?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:34:17",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "They can embrace it wholeheartedly and then create the excitement and the energy and be inclusive. Have the discussions you're having with yourself about doing it. This is another thing that I think most executives are afraid to do, which is sit around a table with everybody from your line staff up and say, 'Here's some ideas I have. I'm pretty strong on these three going forward, but there's another two I'm not that certain of and I'm I'm toying with it. Could this help you? What does this mean?'",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:34:48",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "You're asking for a dialogue.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:34:49",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "You get a dialogue because when people feel like they're part of something and that they're... like I always go to the 'why'. I'm not just doing things for no sake. I go to the 'why'. 'Why am I doing this?' First, I want you to know that because I'm going to need you to trust me sometimes in a way that you can't quite see the end zone yet, but I want you to know we're going to get there. And having that honest conversations, and then also sometimes you get it wrong. Whatever forum I get it wrong in is the forum I correct it in also. So you have to get your people to trust you before you can move anything forward. So if I make a mistake I say, 'Hey, I know I walked us down this path and wanted us to do this, it was a mistake. So we need to change it.' And I said 'I'm sorry that I couldn't see this, these were the three things I saw.'",
+      "tone": "earnest"
+    },
+    {
+      "timestamp": "00:35:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I think that's so important.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:35:35",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "So with this, we started off doing Make An Impact as Make An Impact. Then I clearly saw, oh my god, if we don't have a data platform, how will I ever distribute dashboards? And if we don't have AI, I can never scale what we did at Child Center and how can we grow? And then that was harder to sell.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "First to the board, secondly to even people working in the program itself were like, 'Oh my god, now we're building a data platform? We're not a tech company.' Like, that's what it gets to. Like we don't, and I said, 'No, we... we just give our data to everybody and get nothing for it. So now we're going to control that. We're going to have the data and I want all of you guys as non-profits who are the same as me, giving it out and getting nothing back in any meaningful way. Let's put our data here and let's all agree on how we're going to do this and what we're going to get out of it.' That is what has people now saying, 'Hey, do you have the MVP? Are we ready? When are we onboarding?' When I thought that was going to be me dragging people along.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:36:46",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You know what really strikes me is a lot of people have very good and totally reasonable objections to AI as an industry. There's a lot of that. And what you're saying is like, 'No no, don't... that... that's fine. That's fine, that can be on the table. Come with a set of cases that are going to help people do their job, help them work with their constituents, help them, you know, accelerate...'",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:37:14",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "And treat it as a tool.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:37:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "And then have that conversation. Don't let it be this sort of general 'How are we going to fix the world' situation, but go back and focus on the kids, focus on the centers, on the clinics.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:37:21",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yeah. And also don't negate what you're feeling, right? There are... you do read things and you'll hear horror stories and I said, 'Okay, but we're not doing any of that. Like specifically come to me and tell me what you're afraid of or what it is you're afraid to move forward with, and then give me an opportunity to tell you why you don't need to worry about that. And if you brought it up and I wasn't seeing it, then thank you, you've done me a favor.' Right? Either one. But I've even been having these discussions with the state saying, 'You know, don't go ahead and ban it. I'm on an AI group so we always look at the legislation that's coming out, or we hear somebody, you know, an assembly member or councilman or congressperson saying 'Oh AI, we have to stop it.' And I feel like 'Oh god, what are we doing here folks?' And right away we start looking at legislation and figuring out ways to talk about what it's doing in the industry, which is why you'll get the sense that I'm always in a rush. I want things done yesterday because if we don't get ahead of it...'",
+      "tone": "determined"
+    },
+    {
+      "timestamp": "00:37:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "It's a bit of a race.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:37:56",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "It is! If we don't get ahead of it, you... we will be subject to them going... coming to us and telling us what we can't do. I already want to prove to them 'Don't come back and tell me this, this is all the good stuff. You see what we're doing here?' And and we... I believe we have a lot of folks lined up in a good place to be ready for this. People are waiting for this product.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:38:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "You are in a rush but you seem to have a lot of time for people's anxieties and fears.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:38:07",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "You have to. It's part of leadership or people don't trust you.",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:38:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Very true.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:38:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I know.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:38:12",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Okay. Yeah. Thank you for that advice.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:38:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:38:14",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "I know.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:38:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Two observations and I think these are observations for... this is the... it's time for the takeaway. You know that.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:38:19",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Let's do the takeaway.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:38:22",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I think two things. First off, if you are a commercial business, this is a great podcast...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "to listen to, because there is a lot of resistance, there is a lot of friction around deploying these tools and getting organizations to embrace them.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:39:10",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Deploying any tools.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:39:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Deploying any tools. Change.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:39:12",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Hey, don't even call it tools, don't call it AI, don't call it technology. It's change.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:39:16",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Change makes it worse.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:39:17",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "But also, change with a hint of threat, right? There's a little—it's a little threatening, this stuff, right? That is true. And so, I think two things come to mind. One is, rather than it being a decree, you have a dialogue with the people that you're asking to use these tools. And I think there's not a lot of that. I'll full disclosure, some people come to us at the C-suite level and say, 'get this into my org.'",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:39:41",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "No.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:39:42",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "We can't do that. Like, we need you to get in there and engage. Number two, which I think is the more important point, is make a business case, not an AI case. Your business case is: you're going to see more kids, you're going to have a better day, you're going to work more efficiently. You can make business cases—I don't need to share examples—in the for-profit context, many business cases. Start with that. That's the conversation we like to start with. Start with that when you talk to your own organization, and I think that's a big deal.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:40:11",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I mean, we've said this many, many times in many different ways. This technology is useless without a metric or without—like, go back to the customer. Like, that doesn't get said enough. Everybody's just trying to jam everything in and show how smart they are. Go back to hours spent with kids or clients being happy or just whatever, you know, people reaching back out. It doesn't just all have to be aimed around yet another transaction as quickly as possible.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:40:39",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "No, it goes back to what you said before. It's—I believe that you don't not want to be good at your job. Not this kind of job. So, if in the end I can show you that what you're doing every day, which is really emotionally taxing work, and saying what you're doing is making a difference because here's a kid that is in treatment shorter. Here's somebody that's back with their family sooner. Here's somebody that's graduating from elementary school into middle school. Here's more kids graduating. Then you're saying, 'Oh, I'm making a difference. I'm part of something. I'm part of this big machine.' And it fills people's battery. It recharges you.",
+      "tone": "inspirational"
+    },
+    {
+      "timestamp": "00:41:18",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Sure.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:41:19",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:41:20",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "And so, all that matters. Yes, Rich, you do need to care about people's feelings.",
+      "tone": "inspirational"
+    },
+    {
+      "timestamp": "00:41:21",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "We're going to work on that. I'm hiring a therapist.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:41:25",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "There's the YouTube short, guys.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:41:27",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Yes.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:41:28",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah. Lots of nice technology people out there, maybe some of them are billionaires. What could you use? How—if people want to get in touch?",
+      "tone": "jovial"
+    },
+    {
+      "timestamp": "00:41:36",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Money.",
+      "tone": "blunt"
+    },
+    {
+      "timestamp": "00:41:37",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Money. That's good.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:41:38",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "I mean, let's all just be straightforward like you know I am every time I talk to even a foundation. I say, and they say, 'How can we help?' I said, 'Money. It's why I'm sitting here. We are building—if you look at this, and I tried to have this conversation even with my board—I said, 'This is a tech company. We're doing a startup and building a platform that is doing something most folks in our field haven't seen. We're doing it with hardly any money.'",
+      "tone": "candid"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "In a very short amount of time, because you all do it very quickly. That's the other reason I went with you. Anyone you talk to about building data platforms, it's going on forever and ever and they gave me long, long timelines. If it's long, it's wrong.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:42:15",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, that's the clip I want on Instagram. Just by the way, that's- that's learn how to talk to people.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:42:20",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, but it's true, though.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:42:21",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "No, that is true though, it's like because you guys can do it more quickly, that's why I picked you. I'm like, they can get it done quickly, they'll have the AI overlay, we can be- I love your team, right? So every time I needed a little switch or a change—",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:42:33",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Keep going, Tracy.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:42:34",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "No, I'm serious, I wouldn't- you know I'm straightforward. And when I don't like it, I call you and I say, look, this is- this is not gonna work. But every time I say I need this, it's like: okay, when do you need it by? How does this look? Am I on the right track? And they add—I'm like, I need a bell and whistle, this is a big foundation, I get it—and I said, but don't give me a smoke show, because if I can't do it after, don't build something now that we can't do later. So there's integrity behind our product. And when I talk to your developers and say, this is what I'm thinking, can you guys do this? And they're like: we can do this, we can do that, we can't do this piece, but if we do this, you'll get that information. I'm like, okay, then do that. Right? It always is this dialogue that goes back and forth, but they've never said no.",
+      "tone": "sincere"
+    },
+    {
+      "timestamp": "00:43:21",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No, no, no. And we like a mission. It doesn't always have to be a not-for-profit mission, but we like a mission. Like, like this is going to directly lead to outcomes for the patients in your system. And that is very exciting. Like, that's a reason to do it.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:43:36",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yeah, and hopefully everybody else's, and make an impact. Now we have 711 purpose-driven organizations in 25 states. If we can get this product to the place we need it and get more folks on it, we will be creating a benchmarking that we have never had in our industry since I've been here.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:43:53",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Amazing.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:43:54",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I got three URLs to close this out. You ready?",
+      "tone": "conclusive"
+    },
+    {
+      "timestamp": "00:43:57",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Do it.",
+      "tone": "ready"
+    },
+    {
+      "timestamp": "00:43:58",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay. makeanimpact.org.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:44:00",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:44:01",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Go- I bet it has a donate page.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:44:02",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yes, it does.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:44:03",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Where you best people listening should get on that donate page.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:44:05",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Every penny counts.",
+      "tone": "sincere"
+    },
+    {
+      "timestamp": "00:44:07",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "childcenterandwide.org, am I- do I have that right?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:44:10",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:44:10",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "That's- just my brain just glitched. That one have a donate page?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:44:14",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yes, it does.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:44:14",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Mm, then we know what to do. And then aboard.com at the very, very end, if you just want to-",
+      "tone": "conclusive"
+    },
+    {
+      "timestamp": "00:44:18",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "No donate page there.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:44:19",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No donate page there. There's a- there's different ways to donate to Aboard. Um, check us out. Tracy, this is incredibly helpful. The work is really, really good.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:44:26",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Well, thank you all. Yeah.",
+      "tone": "grateful"
+    },
+    {
+      "timestamp": "00:44:27",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Universal advice, really. We don't have all the clients on. We- we really wanted to talk to you because every time you leave...",
+      "tone": "complimentary"
+    },
+    {
+      "timestamp": "00:44:32",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "I bet you say that to all the girls.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:44:34",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "No, because every time, every time you leave, Rich turns to me and is like: 'Why aren't they all like that?'",
+      "tone": "authentic"
+    },
+    {
+      "timestamp": "00:44:39",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yeah, that's a proper executive.",
+      "tone": "approving"
+    },
+    {
+      "timestamp": "00:44:40",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "He's just like, man, wow, she's—yeah! And I'm like, yeah, man, there aren't a lot of them. So it's really good, and I think just for the audience, like, I really wanted people to hear how a proactive strategy can also be really empathetic, but really proactive at once. And I just sort of- I don't- I don't think people have that conversation.",
+      "tone": "closing"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "I don't think people are thinking about the metrics, they're just thinking about, I guess we gotta do AI now, and I think it's, take it back to that metric, take it back to success and reject everything that isn't that success.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:45:11",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Yeah, cause you can't, cause it's, you know, I, when people say, well, you're running it like a business but we deal with people, I said that's why our stakes are higher. I'm not making shirts here. I'm- we're saving people's lives. If my- if you stitch a shirt wrong someone won't buy it, or if they don't like the color it's no big deal, maybe you don't look good that day. These are people's lives that we're talking about changing the trajectory of generational poverty or kids graduating or making sure people are with their families and in the communities and not in institutions. Yeah, I care a lot and I am going to be passionate and make sure we're doing it the most efficient way so that every single penny goes to the mission and we can expand it.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:45:48",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Awesome, awesome. Thank you so much.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:45:50",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Amazing.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:45:51",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Thank you for doing this.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:45:53",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Inspiring.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:45:54",
+      "ad": false,
+      "speaker": "Traci Donnelly",
+      "text": "Thanks for having me.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:45:55",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Rich.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:56",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes, Paul.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:57",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, if somebody wanted to get in touch?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:45:58",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "hello@aboard.com.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:46:00",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "And then people also if they enjoyed this episode, we'd love five stars, we'd love that like on YouTube and subscribe.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:46:06",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Thumbs.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:46:07",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Thumbs.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:46:08",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "All of it. All of it. It's really good. And check out aboard.com.",
+      "tone": "upbeat"
+    },
+    {
+      "timestamp": "00:46:11",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes, and there's a case study for the Make An Impact work on aboard.com. Check it out.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:46:15",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "We're very proud of it.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:46:17",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Yes.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:46:18",
+      "ad": false,
+      "speaker": "Paul Ford",
+      "text": "Okay, let's get back to work.",
+      "tone": "motivational"
+    },
+    {
+      "timestamp": "00:46:19",
+      "ad": false,
+      "speaker": "Rich Ziade",
+      "text": "Let's go. Have a great week.",
+      "tone": "friendly"
+    }
+  ],
+  "highlights": [
+    "Non-profits should be operated with the same financial discipline as for-profit businesses, utilizing real-time data and KPIs to ensure sustainability and maintain credibility with funders.",
+    "AI acts as a critical efficiency tool in clinical settings by automating bureaucratic paperwork, which reduces administrative burnout and allows staff to be fully present with the people they serve.",
+    "Rather than treating AI as a standalone strategy, organizations should lead with specific business cases—such as increasing the time spent with clients—to drive meaningful technology adoption.",
+    "AI functions as a usability layer for data, allowing non-technical staff to query complex dashboards in plain language and gain autonomy in their decision-making without the fear of asking \"embarrassing\" questions.",
+    "To successfully implement new technology, leaders must bridge the gap between hard data and human empathy, ensuring that every technological shift is clearly linked to the organization’s core mission and human impact."
+  ],
+  "summary": "In this episode, Paul Ford and Rich Ziade interview Traci Donnelly, CEO of The Child Center of New York and co-founder of Making Impact, to discuss her innovative use of AI in the non-profit sector. Donnelly shares her philosophy of running non-profits with the rigor of a business, emphasizing that financial health and data-driven transparency are essential for fulfilling a humanitarian mission. By implementing key performance indicators (KPIs) and real-time dashboards, she successfully turned around a struggling organization, proving that tracking metrics directly correlates to increased service capacity and better outcomes for constituents.\n\nThe conversation explores how AI serves as a \"usability tool\" to reduce bureaucratic friction and empower staff. Donnelly highlights specific use cases, such as AI scribes that handle clinical documentation, allowing social workers to remain fully present with their clients. Furthermore, she describes a transition from static, complex reports to interactive, AI-powered dashboards that allow non-technical managers to query data in plain language. This approach shifts the focus from merely collecting data to using it as a narrative tool for better decision-making across various community-based organizations.\n\nUltimately, the transcript emphasizes that successful AI integration is a leadership and culture challenge rather than a purely technical one. Donnelly advises leaders to lead with a \"business case\" rather than an \"AI strategy,\" focusing on how technology can solve specific pain points to free up human energy for high-impact work. Her proactive yet empathetic leadership style—characterized by the mantra \"if it’s long, it’s wrong\"—advocates for rapid iteration, transparency about mistakes, and a constant focus on the \"why\" to overcome institutional resistance and drive meaningful change.",
+  "description": "How should nonprofits actually be using AI? On this week’s episode, Paul and Rich are joined in the studio by Traci Donnelly, the CEO of The Child Center of NY and the founder and president of Make An Impact—and a client of Aboard. After discussing these orgs’ missions, they dive into AI: Traci’s early embrace of the technology, how these tools can transform work in the sector, and the importance of not allowing human-to-human interactions to be supplanted by bots. \n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/traci-donnelly-using-ai-to-make-an-impact/",
+  "duration": 2802,
+  "people": [
+    "Paul Ford",
+    "Rich Ziade",
+    "Traci Donnelly",
+    "The Child",
+    "Make An"
+  ],
+  "topics": [
+    "Using AI-powered dashboards to improve organizational performance and data accessibility",
+    "Applying business metrics and a data-driven mindset to nonprofit management",
+    "Strategies for overcoming cultural resistance and employee anxiety toward AI",
+    "Leveraging AI to reduce administrative burdens like clinical note-taking",
+    "The role of leadership and authenticity in driving technological change"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/uIWGij3Z4Oo/maxresdefault.jpg",
+  "date": "20260623",
+  "youtube_url": "https://www.youtube.com/watch?v=uIWGij3Z4Oo",
+  "youtube_metadata": {
+    "title": "Traci Donnelly: Using AI to Make an Impact | The Aboard Podcast 2026-06-23",
+    "description": "How should nonprofits actually be using AI? On this week’s episode, Paul and Rich are joined in the studio by Traci Donnelly, the CEO of The Child Center of NY and the founder and president of Make An Impact—and a client of Aboard. After discussing these orgs’ missions, they dive into AI: Traci’s early embrace of the technology, how these tools can transform work in the sector, and the importance of not allowing human-to-human interactions to be supplanted by bots. \n\nCaptions are auto-generated; for audio, show notes, and a full transcript, visit our website: https://aboard.com/podcast/traci-donnelly-using-ai-to-make-an-impact/",
+    "duration": 2802,
+    "view_count": 1825,
+    "like_count": 4,
+    "channel": "Aboard",
+    "upload_date": "20260623",
+    "thumbnail": "https://i.ytimg.com/vi/uIWGij3Z4Oo/maxresdefault.jpg",
+    "tags": []
+  }
+}

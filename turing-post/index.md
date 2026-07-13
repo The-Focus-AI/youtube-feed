@@ -1,7 +1,7 @@
 ---
 channel: Turing Post
 channel_handle: "@RealTuringPost"
-total_videos: 91
+total_videos: 93
 last_updated: 2026-07-11
 ---
 
@@ -11,15 +11,16 @@ last_updated: 2026-07-11
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 91 |
-| Total Views | 175,559 |
-| Date Range | 2024-11-04 to 2026-06-26 |
+| Total Videos | 93 |
+| Total Views | 311,180 |
+| Date Range | 2024-11-04 to 2026-07-11 |
 | Average Video Length | 16:39 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
+| 2026-07-11 | [What NVIDIA Knows About the Future of AI Agents](videos/IHfkTDMYa9g.md) | 15:46 | 3,171 | [Watch](https://www.youtube.com/watch?v=IHfkTDMYa9g) |
 | 2026-06-26 | [How AI Went From Predicting Biology to Running It](videos/FzOD3Hgq-4k.md) | 12:39 | 822 | [Watch](https://www.youtube.com/watch?v=FzOD3Hgq-4k) |
 | 2026-06-20 | [What Responsible AI Actually Means in 2026 – Microsoft's Sarah Bird](videos/G0BJ67ZEiws.md) | 33:09 | 673 | [Watch](https://www.youtube.com/watch?v=G0BJ67ZEiws) |
 | 2026-06-13 | [Recursive Self-Improvement Just Got Real (Anthropic + Recursive)](videos/RB8vjn1QPeM.md) | 13:01 | 4,601 | [Watch](https://www.youtube.com/watch?v=RB8vjn1QPeM) |
@@ -28,6 +29,7 @@ last_updated: 2026-07-11
 | 2026-05-29 | [Inside Google AI Studio – Ammaar Reshi on Vibe Coding, Agent Swarms, and the Future of Building](videos/lc9aCBSYCBU.md) | 21:13 | 643 | [Watch](https://www.youtube.com/watch?v=lc9aCBSYCBU) |
 | 2026-05-21 | [AI for Science Just Had Its ChatGPT Moment (and Scientists Aren't Extinct)](videos/WzoPLV3pYUs.md) | 9:31 | 4,615 | [Watch](https://www.youtube.com/watch?v=WzoPLV3pYUs) |
 | 2026-05-19 | [Eric Ries: How AI Disrupts Capitalism and What Comes Next](videos/ypHhsCRWnWs.md) | 31:17 | 2,134 | [Watch](https://www.youtube.com/watch?v=ypHhsCRWnWs) |
+| 2026-05-15 | [Energy-Based Models Explained: The AI Beyond Next-Token](videos/NYmXYF8A3Q4.md) | 15:11 | 132,450 | [Watch](https://www.youtube.com/watch?v=NYmXYF8A3Q4) |
 | 2026-05-14 | [Will Everyone Become an AI Builder? Clem Delangue on Hugging Face, Agents, Local AI & Robotics](videos/DfJV722V1WY.md) | 43:24 | 0 | [Watch](https://www.youtube.com/watch?v=DfJV722V1WY) |
 | 2026-05-11 | [GENE-26.5 Explained: Why Genesis AI's Robot Hand Is a Data Story](videos/Xw-xYZsBcho.md) | 9:45 | 876 | [Watch](https://www.youtube.com/watch?v=Xw-xYZsBcho) |
 | 2026-04-24 | [Tokens: The 100-Year Journey to AI's Fundamental Unit](videos/JK6QnFKv080.md) | 14:14 | 472 | [Watch](https://www.youtube.com/watch?v=JK6QnFKv080) |

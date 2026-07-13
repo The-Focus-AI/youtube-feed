@@ -1,8 +1,8 @@
 ---
 channel: The Iron Snail
 channel_handle: "@TheIronSnail"
-total_videos: 37
-last_updated: 2026-06-08
+total_videos: 38
+last_updated: 2026-07-01
 ---
 
 # The Iron Snail Channel Index
@@ -11,15 +11,16 @@ last_updated: 2026-06-08
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 37 |
-| Total Views | 16,352,231 |
-| Date Range | 2023-12-22 to 2026-06-06 |
+| Total Videos | 38 |
+| Total Views | 16,843,780 |
+| Date Range | 2023-12-22 to 2026-07-01 |
 | Average Video Length | 16:32 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
+| 2026-07-01 | [Why The Same Brand Is On The Bottom Of Every Boot](videos/VtBFkFZoaII.md) | 17:03 | 491,549 | [Watch](https://www.youtube.com/watch?v=VtBFkFZoaII) |
 | 2026-06-06 | [Ralph Lauren Tricked You Into Wearing Costumes.](videos/0QXZKkaMdwQ.md) | 25:35 | 162,653 | [Watch](https://www.youtube.com/watch?v=0QXZKkaMdwQ) |
 | 2026-05-09 | [I Tried To Make Something In America.](videos/yw_dT1WgQQg.md) | 21:26 | 387,401 | [Watch](https://www.youtube.com/watch?v=yw_dT1WgQQg) |
 | 2026-04-20 | [Why Forest Rangers Still Wear This 75-Year-Old Boot.](videos/FbAkrx4mzg0.md) | 27:47 | 247,561 | [Watch](https://www.youtube.com/watch?v=FbAkrx4mzg0) |

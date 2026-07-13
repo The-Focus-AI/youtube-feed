@@ -1,0 +1,1924 @@
+{
+  "title": "$100T is managed by “human duct tape” | E2308",
+  "source_url": "https://www.youtube.com/watch?v=yyP8p3wVv9c",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "How did we end up in a world with a hundred trillion dollars in assets and a terrible fund management stack?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:00:06",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "It's human duct tape. Legacy services businesses that are running the entire backbone of these hundred trillion of global assets. They're buying QuickBooks, they're buying bill.com, they're buying Excel. And so you end up in this like crazy situation where you're stuck with a bunch of human middlemen that are holding your own data hostage. B2B SaaS was dead, but everyone's like, you're insane. You want to go build financial infra for the most complex investment firms in the entire world, and you've never done this before?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Hello and welcome back to TWiST. My name is Alex. Now, on a recent episode, one of our venture capital roundtables we do every Wednesday, Turner Novak of Banana Capital gushed over one of his portcos. Now, that's not a very rare occurrence. VCs do love to come on the show and talk about their investments. But in this case, we actually looked into the company in question, got them on the phone to learn more, and it turns out it's a very interesting startup showing where AI meets traditional software and services.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:01:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So to tell us about bringing AI to the world of fund ops, please join me in welcoming to the program, it's Chris Hladczuk, the CEO and co-founder of Hanover Park. Chris, how you doing?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:01:23",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Let's go. I'm pumped for this.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:01:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm pumped for this too. Okay, so here's my thing. When I think about lots of money, which funds have, I think about the ability to pay for strong services and to really have a good operational backbone. But what you told me is that in the world of fund ops, the technology is outdated, there's too many people involved, and you call it a kind of a duct tape operation. So how did we end up in a world with a hundred trillion dollars in assets and a terrible fund management stack?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:01:41",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So tell me more about the data question because one thing I've heard a lot about from companies in kind of the AI moment is people want to have access to their data. It's my data. At the same time, a lot of SaaS companies want to hold on to that because it's kind of their secret sauce. But in this case, it sounds like funds often have their data stored in Kentucky, as you said, and don't have regular and easy access to it?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:01:51",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Well, it's human duct tape where you basically think about like legacy services businesses that are running the entire backbone of these hundred trillion of global assets are sitting there with a bunch of humans in Kentucky. They're buying QuickBooks, they're buying bill.com, they're buying Excel. And that CFO has to ask them, 'Hey, can you send me some data and get access to my own data?' And they're literally like, 'That's insane in 2024.' And so we looked at this and we're like, massive untapped legacy services market with very low tech penetration and run by, you know, a bunch of fund accountants in a room that are delivering financial reporting every quarter.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:51",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "That's the crazy part about this. So fund administration traditionally, you pay this fund admin, they have this service provider with a bunch of accountants that are doing your financial reporting, and they basically go and say, okay, we're going to buy access to QuickBooks and we're not going to give you access to it actually. You're not going to be able to have your own data. And so then you have to email them and say, 'Hey guys, can I have my own data for this random report I need to pull when I need to go fundraise for my new fund?' And so you end up in this like crazy situation where you're stuck with a bunch of human middlemen that are holding your own data hostage. And so, you know—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:02:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So why? Like why, why is that a service people would pay for? To me that sounds like giving someone money to slam the door in your face. So why wouldn't these funds—",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "which have plenty of AUM, just build their own internal stack. Why, why outsource it to someone who hates you, I guess?",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:03:05",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Traditionally it's like, it doesn't even matter because all they're doing is deliver us an output which is that financial reporting that goes to your limited partners every quarter, your Harvard endowments, your Yale endowments—I went to Yale so I can say that—and so like they're just delivering outcome. And so in 10 years ago, CFOs were like, 'I don't really care, they just do the work, it ends up being great, it ends up being fine.' And now we're in this moment where your data's a hundred times more valuable because this is like the backbone for every investing decision you've ever made, right? And so that's now we're in this moment where everyone's like, 'I need my data back.'",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:03:39",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Alright, so tell me about the actual Hanover stack and what you're replacing from the various services that a fund buys. Because I presume they buy a lot more stuff than just, you know, help with fund administration.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:50",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "When we started in 2024, we made this contrarian bet that I said the following: B2B SaaS was dead. We were going to go build this idea of an AI-native services company in 2024, which was super contrarian, which is that we wanted to own the end-to-end outcome and not just build another tool that was going to get commoditized by Claude and ChatGPT. And so we started by saying, 'Hey, we're going to go build an ERP for a fund.' That in 2024, my investors started laughing at me, right? From... I won't say Turner was laughing at me, he probably would say, but everyone's like, 'You're insane. You want to go build financial infra for the most complex investment firms in the entire world, and you've never done this before?' And so we started by building the unsexy, like, core, like, system of record for the fund. On top of that, we said, 'Okay, then there was a bunch of humans that were clicking buttons to actually do the accounting and financial reporting and capital calls and distribution.' We said, 'How can we build AI agents on top that learn from every single thing for a fund?' Right? So the key problem you're solving is like, say you have a person that's your accountant, they're doing your accounting, and then they leave in six months. And so you say, 'Hey, wait, all the things you taught them about your fund now go away.' And so building agents with memory on top is actually the way you solve that problem. And lastly, now we have all this data for your fund, what are the things we can do to weaponize it? Right? And so now you have portfolio management and monitoring and LP portal, and there's like a stack that sits on top of the system of record for the fund is kind of how we think about it.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:05:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Let's start with the ledger component of this because you said it's very complex and some investors were looking at you like you're crazy because why would you go out and tackle something that's that hard. To me, from where I sit, it doesn't sound that complicated. Funds...",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:05:11",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Of course, it's super easy, right?",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:05:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, no, no, no, hear me out. I'm not trying to be coy or wry. I'm just trying to say that like, you know, when I think about how we handle like high-frequency trading, that seems like a much more difficult system to keep track of what's going on than a fund that might make an X number of investments per quarter. So talk to me about the complexity of this and how long it took to build the ledger in question because that sounds like the foundation for everything here.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:05:32",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Totally. So think about Blackstone and think about like hundreds of billions of assets with tons of different, you know, entities that need to talk to each other. Think about QuickBooks, you have one entity, right? At one time. You know, with Blackstone, you might have hundreds of entities in a single fund, and all of those entities have different ways you allocate profit and loss to all the different partners in these funds. And so when Harvard endowment writes a hundred million dollar check into an entity, you have to allocate all the different costs and expenses in different funds, and everyone has different economic terms. And so think about the combination of tons of legal entities...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "need to talk to each other, tons of weird profit and loss allocations, and any weird stuff the lawyers want to dream up that they're going to toss into this thing called a limited partnership agreement to do that. And so herein lies the the fun levels of complexity in our job is to capture that somehow.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So, I'm thinking about a ton of contracts, like a like a absolute mountain of PDFs and DocuSigns, speaking loosely. How do you guys convert the written word here into the rules and kind of guidelines for the ledger system to understand? Is that done by humans, the translation process, or is that something that AI can now handle based on its ability to reason?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:06:34",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "So, if I take this in a different direction, imagine I go to Blackstone. They're not a customer, far from it, or we're only 20 billion of assets right now. So I go to the CFO of Blackstone and say, 'Hey, here's all these magical things we can do for you.' He's like, 'Oh my god, that sounds amazing, but isn't it going to take forever to get my all my data into Hanover Park? Isn't that going to be the worst thing in the whole of time?' And so we built these long horizon agents to do financial data clean at scale that capture all that ontology, to quote Palantir, map that to a set of ware—I gotta quote Palantir, right? Map that to a set—",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:07:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Alright, fine, no, no, now you're in trouble. Now I'm going to call you on this. Alright, define ontology for me, something that Alex Karp has yet to do once.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:07:14",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Wait, wait, should I should I pull an Alex Karp and say I'm not going to define ontology? We're going to have to like search this.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:07:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You have to bounce in your chair while you do it. No, I'm serious, like for the people out there for for people for whom that is merely a buzzword they've seen in earnings reports, ontology, maybe a working definition for how Hanover Park thinks of it would be useful.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:25",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Totally. So it's like, you know, the way in which the fund does their work and how they capture the associated information tied to a legal document for a given limited partner, portfolio company, etc. We take that information, we then translate that into a way in which our general ledger operates, right? So that's like the simplest definition and we can make it we can make it more complex.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:07:47",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, that's fun. Let's make it more complex.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:07:49",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Oh boy. Um, so so beyond the simple stuff of like the how the limited partner relationship is with the given fund, it's like how is the relationship with the underlying portfolio companies, how is that portfolio company, you know, relationship from a given set of legal entities. Maybe you have tons of different funds that are investing in the same company. How do we want to capture that, analyze that? And then like that gets into the fun data that sits on top of like the core GL, which is not only is Hanover Park tracking cost and fair value and fund simple stuff like that, but we're tracking like what's the post-money in Uber's latest round? I got to say Uber because I'm on This Week in Startups, right?",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:08:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Jason gives you five extra bonus points and a high five for for for that. No, okay, I appreciate that. Now you mentioned the long horizon agents, I think that was the quote. Um, a lot of people are making noise about agents that are able to do tasks over a longer time period. I think METR does a lot of work on how long agents can work independently. Now in your case, why do they need to be so long horizon and also how much have they improved in the last like maybe six months? Because it does seem that we've seen a pretty rapid increase in agentic capabilities from what I can tell. So I'm curious how that's kind of manifesting inside of your operation.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "For a given set of funds, if you have 20 billion of assets and you've 25 years of history, trust me, there's a lot there. There's a- there's a lot of noise in there, right? So I think it's like,",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:09:09",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "getting all that data into Hanover Park is like a massive set of technical challenges and if you're an amazing engineer listening to this, these are the types of fun things that we have, right? And so it's like, you know, those- I gotta pitch.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:09:15",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "For for us, when we thought about what are the biggest problems at the company, you know, step one is how do you get hundreds of thousands of documents—",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:09:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "HanoverPark.com/jobs, I presume?",
+      "tone": "jovial"
+    },
+    {
+      "timestamp": "00:09:23",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "/careers, toss that in there.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:09:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm sorry. Go- go- come on, we're a little off scale for a second. Go for it.",
+      "tone": "apologetic"
+    },
+    {
+      "timestamp": "00:09:28",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "So- so look, like, we basically have to take all that data. You drop in 300,000 documents, you need to somehow map the ontology. I'm- I know you're gonna make fun of me for this. Take all that data, extract, analyze, you know, inception to date for the entire set of funds and all their vehicles and get that data into Hanover Park so then we can do the next quarter of financial reporting or we can do the next capital call. So that's- like when we think about that process, traditionally, if you said Blackstone, hey, do you want to migrate to Hanover Park? It would be like, I'll see you in 24 months. I'll see you in two years. We say, I call it the one click migration feature.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "How close are we to actually it being a one click migration feature?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:10:05",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "Okay, so you've identified a real problem and you've put together a solid solution and a business model that you believe in. So you're all set to launch your new company, right? Not so fast. If you want investors and potential customers to take your new business seriously, you need to consider forming a Delaware C Corp. and that's where Northwest Registered Agent comes in. They're gonna give your new company a real identity. That means an address for your public filings, a domain, a custom website, a business email, and of course, a phone number. And that's gonna take just 10 minutes and 10 clicks. They don't charge hidden fees. Customer service is available around the clock. They're not overwhelming your inbox with spam and they make it easy to cancel at any time. So, get all the advantages of a Delaware C Corp regardless of where in the US you're operating from. Visit northwestregisteredagent.com/twist for more details and the links are in the show notes.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:10:59",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "We got data of a venture capital fund from call it like 20 different entities. They got a handful of funds. We're not talking Blackstone size at this point.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:11:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But some SPVs, fund one, two, three, four.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:11",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "They got some SPVs, fund... yeah, exactly. So they had some stuff, right? We took that data, we got that data, we launched their limited partner six days later.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:11:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Six days later. And just to be a brat, any mistakes, errors that had to go back and be corrected or was that kind of a clean- clean sheet of paper once the migration was done?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:11:28",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Of course, as with any workflow where the importance of accuracy is everything, especially given the institutional LPs that are logging into Hanover Park, we of course have a team that's reviewing those outputs, right? But like, if- if we're clicking a button and it's taking 12 hours, we have, you know, all that time for then the team to do the actual review.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:11:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So it sounds then, and we'll get to the CPA point in a minute, it sounds then that the current world of AI models, AI agents, and harnesses thereof, are sufficiently intelligent to handle what Hanover Park needs today to ingest large amounts of data and define the ontology.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Was that true...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "For a year ago? Or is that a thing...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:01",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Definitely not. This is all oh my god I literally was joking with my CTO because I so there's this internal joke at the company where I said we're building a one click migration. I said this 12 months ago and I had engineers laughing at me. They literally were like good joke Chris, haha funny whatever.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:12:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Don't build it yourself.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:12:18",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yeah, exactly. They said they were laughing at me and I literally said one click migration, one click. And literally and we released it three weeks ago and that engineer by the way we love him JT, he literally came to me and said 'you were right'. And so that was only possible probably three to six months ago with like Opus 46.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:12:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Opus 46. Okay. So right now we're at Opus 48, we're at... well...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:12:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Model releases are out a little bit... uneven.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But you don't need to have Fable 5 to make this work essentially, you can do this with Opus 46 technology. So you're not... losing an edge in the current market with the restrictions going on that we're seeing?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:12:54",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "No. Uh look, it was actually funny. So Fable 5's out, you know the team says this is magical etc and literally then I have someone come to me when Fable 5 gets disbanded or or stopped and they start crying to me. They're like I literally I love Fable 5, what is this, what am I doing you know etc. So trust me we like it. I think the the gap is is less of an intelligence gap and more of a context gap is the way I think about it. Like the context of the complexity of a given fund that we need to actually understand versus are the models good enough. However, when we think about reducing human in the loop and getting closer and closer to one click versus six days versus look, if I'm migrating large funds it's not going to take six days, maybe it's 30 days right? Um to get that closer to one click, of course I want better models.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:13:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Does that impact your economics at all though? Because look, one thing that you and I talked about during our first chat was just how big the world of funds is. I was asking about TAM and you're like 'Alex, don't be silly, it's enormous'. Now when we think about the the improved model intelligence, what does the incremental... what does that gain you I suppose? And what does it unlock? Because I get that better models is better, but how?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:14:02",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "I mean, there's a lot around like we're not just doing fund admin. I think like I joke I said Stripe for payments, Ramp for expenses, Hanover Park for investments. Ramp was a credit card company at one point, remember that? Right?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:14:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Corporate expense charge card company, oh I remember those days.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:14:26",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yeah, remember their... they're now an AI finance lab right? Like if I think about like you know financial infrastructure for the investment firm, AI fund admin is obviously a massively important piece, like we understand the importance of what we're doing in there but the ability to layer these things on top and build this intelligence layer to help CFOs make better decisions, like there's obviously a bigger prize here.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:14:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well we're kind of getting towards where I want to go in a minute, but I want to loop back to the CPA point because... some people listening to this are going to say 'whoa, I'm not ready to give the agents run all of this for me' and you guys are aware of that and you have some CPAs in the loop to review outputs from the AI systems. What I'm curious about is what the kind of like number of CPAs you need per billion dollars of AUM looks like today and how that...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That ratio changes as the company scales, gets more data, improves its own internal models, etc.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:04",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Look, like, I think it's incredibly important when you think about 10,000 institutional LPs in Platform, including large institutional asset managers that everyone knows, like, we need to have incredible CPAs that are crushing it, that are tier one, reviewing associated outputs and handling edge cases, right? Maybe AI hasn't seen something before and we want to make sure that the Blackstone fund accountant can come in there and be like, 'Hey, this is a more complex thing than we need to think about from a product perspective.' I would say more uniquely too, we have a very unique AI org design I call it, which is we have no product managers, we have no designers. We just have engineers shipping code sitting alongside fund accountants. And so part of the fund accounting job here is to actually help us inform the product. And so that's kind of how we think about it. So part of your job is obviously the fund services component, but part is actually the product piece.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You put the accountants next to the engineers?",
+      "tone": "intrigued"
+    },
+    {
+      "timestamp": "00:15:54",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's got to be a very interesting room to work in.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:15:57",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Oh, it is fun. I'm looking- there's a few of them, there's a Muhammad Ali picture in the background, we got, you know, 50 people here in New York City and we're having fun.",
+      "tone": "cheerful"
+    },
+    {
+      "timestamp": "00:16:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But as you guys do continue to build the product, learn more, figure out edge cases, you know, improve, does the number of CPAs you need to kind of like service the marginal billion dollars in AUM you bring in go down or does that stay relatively static because people want to have that- I'm trying to figure out what's the role here of the CPA long term and is it more of a 'makes the humans feel better' thing or if it's a requirement to make the product work thing?",
+      "tone": "probing"
+    },
+    {
+      "timestamp": "00:16:34",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "I think it's a consigliere to the CFO. I said that, the consigliere to the CFO. It's like- you can quote that. Consigliere to the CFO.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:16:40",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Very mob- suddenly mafia references. Let's go to Sicily. Okay, keep going.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:16:45",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "So, consigliere to the CFO. It's like there is complex advisory that the CFO values of like, 'Hey, you know, we're doing this weird cashless offset thing that we haven't seen before. What are your other clients doing? How do you think about this? What is the approach you've seen from experience?' And like, that is high-value advisory work, not 'did you book this journal entry correctly?' Right? By the way, 95% of fund admin is 'did you book this journal entry correctly?' by the way. And so if we're doing- we're automating those lower value tasks and we're delivering real-time data versus delayed quarters and quarters because that's when humans are doing it, then we can be the consigliere.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:17:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Tell me more about real-time data because earlier on you discussed how, you know, you're building a system that has applicability, I think, kind of broader spaces than just doing kind of like AI for fund operations. So once you have all these firms and funds on-boarded and you have this flow of data about kind of the state of global investment, what can you do in a product sense both for existing customers and also maybe breaking that out as a data product? Because to me, Carta's data blog has done a fantastic job taking a relatively staid business and turning it into something that I have to absolutely pay attention to.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:17:59",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "We're- so I'll make the commitment to customers on this call. Like, we are laser-focused on data integrity, not sharing your data with others, being incredibly focused on that and ensuring that your data is set-",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "aggregated and your data is you know is not shared broadly and like this is actually a commitment that customers ask me they're like hey like look i want to make sure my data all the alpha that they have from their own fund level data like we are not sharing that and so um i might be i might be bucking the trend here but i'd rather them be focus like you know keep their data siloed.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Even in an aggregated de-anonymized blah blah blah all that that's not...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:18:23",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Not something we're focused on right now.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well that's disappointing for me as a journalist but as a customer I'm sure that's good.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:18:28",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "That's okay. That's good. You know I gotta know who's my boss at the end of the day, the CFO.",
+      "tone": "jovial"
+    },
+    {
+      "timestamp": "00:18:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well I mean that's true of every company though, any...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:18:37",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yeah, CFO of an investment firm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:18:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, okay, so business model time. Now I know you guys charge I think it's bips off of AUM versus SaaS. Why is that the right approach for Hanover Park compared to more of a traditional SaaS approach? I know you said you know B2B SaaS is dead but why in this case?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:18:56",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yeah we've we've kind of taken the business model of the existing industry and our vision for this is how do we deliver a premium product and service with an all-in-one bundle that is incredibly transparent from a pricing perspective. If you think about a legacy fund admin if we zoom all the way out, you might want to do a capital call you might want to do a distribution they're going to say actually if you do four capital calls not three capital calls we're going to charge you per capital call.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's like the old SMS plans on cell phones.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:19:24",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Or or even more 'oh if you do things that are outside our quote unquote scope of services we're going to charge you some sort of extra hourly rate'. Right? And so there is a lot of random hidden opaque fees that live in the market today that we've completely said actually here's the all-in-one bundle that we're laser-focused on right that you can have that is obviously competitive and we can talk about that as well and bundle everything else in.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:19:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So have you guys talked at all publicly about how many bips you charge off of AUM or should I just do a kind of a guess?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:19:54",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yeah we we don't. I'm not sharing that information either. I love this Alex, like in the pre-call Alex was like 'hey like you know what's your revenue?'. I'm like 'come on!'",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:20:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I asked it way more slyly than that but I have one more for you.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:20:08",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "The AI revolution isn't just creating new tools and new products. It's reinvented the entire landscape when it comes to compliance. Startups face an intricate patchwork of overlapping rules and regs from the EU, the United States, federal agencies everywhere. It's coming at us from all angles. And if it sounds like a lot for you to track while you're also trying to build your business, well you're right. And that's why you need a reliable trusted partner like Vanta. V-A-N-T-A. Vanta's AI-powered platform automates your entire compliance process. Whether you're preparing for a SOC 2, running an enterprise GRC program, or doing an audit, Vanta's going to worry about the security so your team can focus on building great products. That's why some of our favorite companies like Ramp and Writer, and they're both doing great, are spending 82% less time on their audits by working with Vanta.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "Whether you're a fast-growing startup or a global enterprise, Vanta is here to help you automate your security and compliance and earn and prove trust. So get started today at vanta.com/twist. That's vanta.com/twist.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:21:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "If Hanover Park took, for example, 25 bps off their AUM and they have 20 billion in AUM today, that's about $50 million a year in run rate. Just to kind of put a put a marker on it. Uh, the number might be 50, might be 15 bps, we don't know, Chris can't tell us. Uh, but that's just a data point for folks because the 20 billion AUM number I think's a little bit in the clouds for folks, but when you kind of think about it in revenue terms, it's quite a lot of money. Now, you were at $15 billion in AUM in March when you raised your last round, 27 million, and you were at 1 billion AUM 12 months before that. So you've gone from 1 to 20 in essentially 15 months. Uh, what does the future of growth of the company look like? How many people are on your, uh, your list to bring onto Hanover Park in the future?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:56",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Look, I think I think we're so today the team's 50 people. We've been scaling the team exponentially. We doubled the team in the past quarter as we think about scaling and being ready for the future. You know, all we care I I told the team the other day, I said, there's only one thing that matters at the end of the day. In an industry where people generally, you ask a CFO what they think about their fund admin and they start cursing at you because they're upset, uh, if we build a product and service where they are a raving fan of Hanover Park, nothing else matters, right? And so that's the focus.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:22:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. So, I mean, in terms of growth, does this company grow its AUM like 2X a year or is it more like 20? 'Cause I know there's a hundred trillion dollars in assets out there. You only got like 20 billion of them, which to me implies you have years of hypergrowth ahead of you?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:22:37",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "There's a lot of opportunity to launch new products and services, new asset classes, new geographies. There's there's a lot going on there, but, um, I'm not going to give you a growth target.",
+      "tone": "measured"
+    },
+    {
+      "timestamp": "00:22:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What what is the applicability of the model you've built now or the product you've built now translate to, let's say, commodities if you're moving, you know, elsewhere in the world of finance? Because I presume those are quite different than, you know, firms that are doing venture capital investments. So is there a lot of work you'll have to do to, uh, tune Hanover Park to fit other asset classes?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:23:05",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Me and my co-founder CTO talk about this almost daily. It says, how do we build an ERP that's extensible and modular to every asset class in the world? Today, we're focused purely on closed-end funds, think venture capital, private equity, and private credit. There is a massive market there. We're really excited about that. We're obsessively focused on delivering for those customers, but we think about the future of what does Hanover Park look like in five years, 10 years, 20 years, and we think about extensibility.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:23:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'll be curious to see what the Hanover Park for the oil market looks like, you know, that would be that would be very interesting.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:23:34",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "HP HP Oil. Okay.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:23:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Rockefeller.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:23:36",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "No, why not? I mean, it's worked out pretty well for them, I heard.",
+      "tone": "lighthearted"
+    },
+    {
+      "timestamp": "00:23:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "One last question for me then. So, let's say you kind of solve the the asset management game and you have built this kind of financial operating system for how a business kind of deals with money in and out and so forth. To me, that feels pretty generalizable. Um, do you guys ever think you'll end up kind of like budding up against companies like Ramp and taking on more of the customer...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Of the fund, like the startups themselves, in any of their business operations, or do you plan on staying pretty much entirely focused on just the asset manager side of the equation?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:24:08",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "We're focused on asset managers. There's 100 trillion out there, as you've said a few times, there's a lot of room to run. And we're focused on the asset manager for now.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:24:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right. Well, in six months when that's no longer the case, come back on, tell me about it. And we'll be keeping a tab on your AUM number and one day I will squeeze the bips number out of you. But Chris, thank you so much. What's the website? And is there a role you're looking to hire for? I see you have a tweet looking for a chief of staff.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:24:33",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "hanoverpark.com, very simple, straightforward. You can go to our careers page, you can ping me on Twitter @ChrisHlad if you're interested, email me. I'm not gonna put my email in this, but chris@hanoverpark.com, just did it anyway. You can ping me. Yeah, we're hiring a chief of staff. We're in hyper-growth. If you want to go parachute into special projects and figure some stuff out, join us.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:24:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, thank you, Chris. We'll talk to you in six months.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:53",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Talk soon.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right, welcome back to TWIST. We're here. I'm joined by Alex Wilhelm. Alex, how you doing?",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:24:59",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Oh, fantastic as always.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:25:01",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I am Lon Harris, of course. Jason not here, but he's in this classic TWIST clip that we're about to take a look at right now. This comes from the memorable date, Alex. I feel like everybody remembers where they were when this episode came out: March 27, 2020.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:25:19",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yeah, yeah.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:25:21",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "What was going on around then, Lon? What was the news item in—I can't recall exactly.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:25:25",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "A week which will live in infamy. There was people getting sick, the hospitals were getting overloaded in New York. There was this coronavirus, this novel coronavirus out there. I don't know if you remember. A little disease we call COVID.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:25:40",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Vaguely.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:25:41",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It was brand new. And we will take a look at one point during this segment of some fascinating, very wrong predictions from March 2020 about where that was all going and what was going on there. But I don't—we're not trying to bring you down. We're not trying to depress you.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:25:54",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "No.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:55",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "This is a fascinating interview, barely touches on global pandemics, which I realize is—they're all global. Dylan Field, the co-founder and CEO of Figma, is Jason's guest on this March 2020 clip. And what's so fascinating, and a theme I think Alex will come back to a few times while we're going back and reviewing highlights from this—so fascinating to look at a clip from, you know, the peak SaaS era when that was what all of the huge tech companies were doing. They were all selling the software. That was the hot venture category of the time. And to look at it now from the sort of SaaSocalypse perspective when AI is kind of filling all these roles. And yet Figma, you know, still very much a player in this world.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:26:40",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Absolutely. I mean, they went public recently. They're worth, I think, 13 billion dollars today. But this clip comes two years before Adobe offered 20 billion dollars to buy the company. So we are going very far back in time. This is before Figma became the Goliath that it is today, before it became the market crusher. Back when it was more of a question mark instead of an exclamation point.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Figma, for those of you who don't know, they—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Figma is a SaaS company providing a collaborative platform for UI and UX design and product development. So basically, in the pre-AI era, this was a place where designers could go and sort of lay out what they wanted to do with a new feature, a new web page, or a new product, and sort of get it all together in terms of the architecture and the design and make everything look nice in a collaborative workspace. Today, obviously, now it's had to be dressed up with all sorts of AI tools. They recently launched an AI agent that allows you to build with it, sort of vibe-code your designs, which they're hoping is going to open up the design process to people who aren't naturally designers, maybe people who aren't even creatives, so that the whole company can kind of participate together in the process of putting these products and designs together.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:48",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Because there's nothing a designer wants more than more cooks in their kitchen.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:27:52",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yeah, they were still sort of a scrappy startup in this era, and I think that's what's so interesting to sort of look back. So, we're going to jump to about 20 minutes into the interview. Jason has Dylan explaining the bottom-up go-to-market strategy that Figma was employing. Basically, allowing people to start using the product within companies. You don't have to sign up your entire organization right off the bat. It's not a thing everybody needs to use. You can allow it to sort of gather some organic heat within enterprises, and then team members can share it and evangelize with other team members, and that's how they grow. So, let's take a look, starting at 21 minutes in, at Dylan discussing how they go to market from Figma.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:28:34",
+      "ad": true,
+      "speaker": "Chris Hladczuk",
+      "text": "It's the worst nightmare of every founder. You've built a product, everything's working great, then real users start flooding in and suddenly it all breaks. What a disaster. You need to get it back up and running, and you gotta do that fast. You're looking like an amateur. That's why you need a partner like Sentry. Applications can break in many different ways, but Sentry sees everything. You'll get all the relevant details like stack traces, commits, releases, and even the developers who pushed that problem code in the first place. With Sentry, you're not going to be jumping around between different tools trying to figure out what happened. And Seer, Sentry's AI debugging agent, uses all this data and context to identify the root cause of the problem and suggest a fix. It can even take a look at your code before it ships and warn you if any problems are likely. Try Seer and Sentry for free. If you're a This Week in Startups listener, at sentry.io/twist, use the code TWIST for $240 in Sentry credits. Make sure you use that code, make sure you use that URL, sentry.io/twist, so they know your Uncle J-Cal sent you.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:29:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Your organization are able to adopt it, and they're able to spread it without having to be to like necessarily get a lot of buy-in from others around them. And, you know, if you're able to do that on a credit card and people are able to be empowered to actually get their own tools, hopefully they're able to first trial Figma, for example, for free, and they can go like have a purchasing conversation with somebody if they need to grow.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "That's like our ideal scenario is they're already even being paying for it and then they're like this is actually really good, like let's go bring this to the organization, let's have this entire team on this. And for what it's worth, we also see a lot of people spread Figma when they change jobs.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Huh.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:13",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "They'll bring it with them.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, of course. Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:30:16",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "So, you know, people are hopping between jobs every few years and they're bringing the tools they like. But anyway, so to go back to the question about bottom-up and legal and sort of what the buy decision looks like, um, we're seeing a range of behaviors right now. There's definitely a ton of companies that need to spend multiple months or whatever evaluating software, go through a rigorous process, especially at larger corporations, and we've got a great amazing sales team that's like able to partner with them on that.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Got it. What is their main concern? Like what are they trying to accomplish with all that friction?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:30:46",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "So, things like security is a big one. Ah, so I want to make sure that if you are a cloud provider that you're going to be as secure as possible and so that's something that like, for example, we've gone through like the SOC 2 process now.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Explain what that is.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:30:58",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "It's basically just a process to make sure that you're able to be as secure as possible even though you're hosted in the cloud.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:31:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So you have all of my designs. I am, I don't know, Nike or something and I'm building a bunch of app stuff. I have to trust that your people are not looking at my designs or leaking it or selling it, or that the Chinese government or the Saudi government hasn't put a plant into Figma like they did at Twitter.",
+      "tone": "analytic"
+    },
+    {
+      "timestamp": "00:31:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The Saudis actually did this, did you hear that story?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:31:25",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "No, I didn't.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:31:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Crazy. Yeah.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:31:27",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "And so there's SOC 2, and I was simplifying it before, it encompasses a wide variety of controls everything from like hiring offer approvals all the way to like how are your servers run and what are your runbooks for those.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:31:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, really?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:31:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, a lot of... a lot of interesting stuff going on there. I mean the thing that jumps out to me, Alex, so much about this is we're still having these same kinds of discussions in the AI. This was obviously the pre-AI era. People were not worried about Figma training models based on their data. They were just worried about Figma looking at their data, getting inspired, building competing products, you know? Like, it was a different time and yet it was so much of a similar concern.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:32:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, also it's interesting because at the time if you're concerned about say Nike stealing your designs, you're thinking about kind of a one-off. Like they're stealing that set of designs. In the AI era, if you steal everyone's information, you can create a model that can replicate them at scale with frequency. So it's actually I think a higher risk now, but it's interesting that it was still so important at the time. But going back to the top of that clip, Lonnie, the whole concept of bottom-up sales was kind of a Dropbox invention if you go back in startup history. The idea that people would just buy something, start using it, then their company would say 'Oh my gosh, we have 28 users of Dropbox. We need to manage this, sign up for an enterprise contract.' Revenue flows, everyone's happy. And that was an engine that powered SaaS for a long time. It lowered customer acquisition cost, it provided a lot of strong net dollar retention, all those acronyms: CAC, NDR, that investors used to love. But today, fast forward, you know, six years and we're still talking about people bringing AI tools into their company, driving usage.",
+      "tone": "analytic"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "...wants to run, you know, enterprise controllers.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:01",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean, Granola, I feel like is the most recent example where even I think we had a VC on the show talking about it where it's like, they decided to invest in Granola because so many people around the office were already just using it without being asked or told, it just these things sort of catch on on their own. And that's always, I mean, that kind of word of mouth viral spread is always going to be more powerful than your boss emailing you like, hey, install this tool and start using it. It's like that always feels like a chore.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:29",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "No, it's the other way around. Whenever a CEO tells me to use a tool, I just presume it's dumb. Like I'm just like, oh, it came from above. Oh God, someone bought this and now it's being rolled out to me nine months later with half the implementation that it needs, you know? Uh, but if a friend goes, hey dude, are you in a hurry? Use this, it'll save you seven steps, instantly on board, you know?",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:33:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Exactly.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:33:42",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "I'm reminded, I'm reminded of the late great GummySearch, one of my favorite AI tools that no longer exists where it was a way of just like cruising through Reddit and like zeroing in on exactly the five posts that you wanted. It was revolutionary. And I never would have tried except a different person who worked on a podcast was like, hey, if you're not using GummySearch, it's the best way to find Reddit posts like...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:33:49",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We have a lot of internal tools we passed around behind the scenes to make Twist happen. Uh, one more note for me on this.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:33:52",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "He was talking about how at the time, you know, he still had to go in the enterprise sales process, go to a company and it could take months to get purchasing orders and, you know, all that stuff, which is still true to a degree, but the vibe that I got from him was companies not in a hurry. And I think a difference between that era and today is every company today is sprinting, trying to figure out what's next, what to reinvent, what to cut, what to invest in.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:34:05",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Uh, and so I wonder if we've seen kind of the enterprise buying process for AI today versus SaaS then become compressed. Like I wonder if it's a faster cadence process today.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:34:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I mean, I feel like it's one of those situations where it's like SaaS led the way. Like these guys figured out how to sort of worm into enterprises and get people excited about what you were doing. And now AI is like taking that model and replicating it and making it faster and tighter and more efficient. So what used to take months now takes weeks or days. I think that's what we've seen as everything sort of they figured it out and now it just got like massively compressed.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:34:41",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Uh, and speaking about things that got massively compressed, don't forget there was a company called Delve, I think its valuation was compacted after its, uh, alleged scandal. That's something we've covered on the show a lot, I'm not going to go back over it, but I just love that Dylan's walking Jason through and Jason already knew but walking the audience through, what is SOC 2, why does it matter? Some things, no matter if it's the SaaS era or the AI era, do not change and that is you will have to get SOC 2.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:34:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, and it's- and it's never a thing that companies are excited about doing or looking forward to. You just find another provider and you sort of, you work with the Vantas of the world to sort of take care of it.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:35:03",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "I was about to say, I'm going to throw a bone to our sales team. This is not in the script, but vanta.com/twist if you want to save $1,000 off your SOC 2 report. All right. Next clip. Here we hear a lot about SaaS overload and SaaS burnout. Really key concept at the time as tools proliferated. Let's see what the two had to say at the time.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:35:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Burnout. I, during this COVID",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "At crisis. Sad. That's it? Give me a list of every single SaaS product.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:36:05",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:36:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Then I said, there's a website called privacy.com and another one where you can set... because I just saw a SaaS provider just whacked us for $1,200. And I guess they had increased their price and they assumed we had all these accounts. They were doing kind of the gnarly thing where they charge you for accounts but not usage.",
+      "tone": "annoyed"
+    },
+    {
+      "timestamp": "00:36:28",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yep. Dirty. Dirty.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:36:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And that really upset me because I like Slack's model where they're just like, this is how many people use, right? Never...",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "00:36:34",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "It's very divisive because some people like Slack's model and some people don't. I like Slack's model too. We aren't doing it for Figma because we have actually heard people that say they don't like it because it's variable cost. You don't know what's going to come.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Got it. Explain the issue to somebody who doesn't understand what we're talking about right now.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:36:48",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yeah, so Slack's model is that you've got active user pricing. Now the question is like, okay, is there enough trust to know that there's an active user? We've definitely looked at the model for Figma and it's something that I think could be really interesting. To me, it incentivizes the right behaviors. Like if you get to the point where anyone could become an active user and then you only charge for the people that are using the service actively, I think that's a good thing. It seems very easy to talk about, right?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:37:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So in Slack's model, if you are in a Slack room and you open Slack and the green light goes on, you get charged that month, even if it's for 30 seconds. I wonder if there's like a minimum threshold, like you have to be on for...",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:37:21",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "There probably is. I don't know what it is because I've always... I think like the sort of flip side of it for us at least is at Figma, like if you try to rip Slack out, like you'd have like people protest, you know? Of course. It just... can't... not even...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:37:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So here, but they don't turn your account off. It's only if you use it. So for Figma the equivalent would be if I clicked on a link and I opened figma.com and I looked at something on Figma...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:37:40",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Well right now, so viewers are free in Figma. So editors are the only ones we charge for.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:37:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. Great. So if you edited something...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:37:46",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "But we're not doing that yet. Right now it's like, okay, if you're an editor, you know, you can kind of restrict it before your next bill period. And if you restrict it, we kind of just assume that you're in good intention and not trying to cheat our system.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:38:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But if somebody came in and said, hey, you have... you billed us for three editors for the last six months, you would give them a credit, right?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:38:12",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Uh, yeah, if we thought it was like really clear that it was wrong. But also, you know, it depends on the case-by-case basis too.",
+      "tone": "reasonable"
+    },
+    {
+      "timestamp": "00:38:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is what you got to do. You got to build... the SaaS industry now has to build trust. And when they don't send a monthly notice of your bill by email, they should be doing that. They don't send the monthly recap of who used the product. And Slack is the gold standard. They send you your monthly utilization every month.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:38:38",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yeah, so I love that about Slack, the trust part. I completely agree with that.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:38:39",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "So Lon, I love so much of that clip, but first of all it really strikes me how thoughtful Dylan is about pricing, trying to understand what his customers want.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:38:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. He's even applying a pricing model to his company that he doesn't really favor, but he's listening to his customers and saying, okay, this is what they want. I absolutely love this clip. I think it just shows the difference between a leader who...",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "...does only what they want, or a leader who does what they think is best, but also has at least one ear to the customer?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:39:06",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I mean we talk a lot I think about whether the incentives for a company and its users are like aligned, like a lot a lot of businesses are, you know, like Ramp, that's like their whole thing is like, we, you want to spend less money, we also want you to spend less money, unlike a credit card, like our interests are aligned. And I think that's that's what's sort of interesting about this is you would normally think of these kinds of SaaS companies as well they're it's adversarial, they want you to have more team members using more of their product for more time so that you're spending that much more on the product every month and you can't extract your business sort of out of it. But I think, yeah, this is sort of like well what if we sort of played on a more of an even playing ground so that everybody felt good about how much they were spending in their Figma budget? And obviously again, a huge conversation that people are having right now over tokens and compute and AI, like everything in this clip comes back to like the SaaS industry and the AI industry are really, it's not so much AI SaaS-pocalypse destroying this old industry so much as it is just kind of like disrupting it with some new kinds of tools.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:40:16",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "I think also the progression in how startups charge for things really did ding the SaaS model because in the old days, you know, as Jason said in that clip, you get a new contract say every year or every three years depending how long you signed up for and they go, good news! We added all these features and it costs twice as much, good luck ripping it out of your life. And you're just stuck eating the price.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:40:25",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:40:26",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Now, for startups, that was net dollar retention. It was companies spending more over time. That magical SaaS revenue growth that everyone just loves. And then things began to change. So I think the movement from selling software in a box to selling hosted software on a per-seat basis, then to active user pricing, which is what they're discussing in this clip, and then from there we've gone today to usage-based pricing, tokens, as you said, and people are now saying the next progression is going to be outcome-based pricing. What did you do for me with all that code, with all that token, and then charge me for that? So I think this is one step along a larger journey we've been seeing, but I just love to see how we're talking about it at the time because I can't recall the last time someone said 'We have to cut our SaaS spend.' That doesn't come up. Instead it's exactly what you said, 'it's dear god did you see our cloud bill?'",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:41:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, that's right. It's token maxing. There was no Figma maxing back in the day, it's token maxing.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:41:24",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "No, I mean what what is that? 13 extra seats that you pay for, okay, email the CEO, get a credit, whatever. But you can't email Dario and say 'Dario, can I take back that $10 million in tokens, man? I didn't mean to, it was a big accident.' No, that compute happened.",
+      "tone": "lighthearted"
+    },
+    {
+      "timestamp": "00:41:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, you didn't end up shipping any of those products. They were just, they just looked nice.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:41:42",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "As a very inefficient AI user, I'm sympathetic to people who are complaining about it, but also like, you got to pay for the servers one way or the other.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:41:48",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Exactly.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:41:49",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Now, we're going to get back to this interview and we're going to go back in time to one of the first things that I knew Jason for, which was and I think it's fair to say his ill-fated search engine Mahalo. Now Lon, weren't you part of that project too to some degree?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I was employee number 3 at Mahalo, funny enough that you should say. This was the first job that I ever got. I was working at a video store in Rancho Park, California, a small community in Los Angeles. And I saw a Craigslist ad. They were looking for writer slash researchers for this new website. So I went to what I later found out was Jason's pool house in Brentwood, and I interviewed with Mark Jeffrey, still a frequent friend of the pod, now of Stillmark Capital. He was the sort of the editorial director, the chief technical officer of Mahalo, I guess you could say. And so, yeah, the- the idea was Mahalo was this alternate to Google because to take you back in time, folks, in 2007, this was around the time people first started to notice, you know, Google results, they're kind of not as reliable as they once were. Originally when Google first launched, it was like a magic trick. It finds exactly what you want. But over the years, there would be a lot of ads at the top. They were pushing a lot of the best results down, or there were a lot of these like content farm SEO pages that were crowding out the best stuff. So Jason's classic example back in the day was what if you search Paris hotels? The old Google would give you your top page would be here, 10 great Paris hotels that are good options. Or maybe Yelp or Tripadvisor or something. But now you would get all these like travel blogs and like, you know, random ads, whoever paid to be on the first page of Google. So that was Jason's observation. And the idea was we were going to have all of these- I'm sorry, I've got to- okay. The idea was we were going to have all these like random writer researchers, guys like me who were screenwriters or creative writers or people in LA who needed writing jobs, and they were going to do the research and make the perfect search results page by hand for things like Paris hotels. The first page I ever made for Mahalo was for Bob Dylan, you know, so I- you put a little bio at the top and here are the 10 best YouTube videos and here's a little history and here's a great interview you did with Rolling Stone and here's another recent piece about whatever. And you know, we we'd scoop those.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:44:14",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yeah, yeah. So Lon, let's hear the story about how Jason Calacanis's idea for luxury communism for partially employed Hollywood screenwriters worked out. Play the clip.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:44:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, I do think there's one more vital piece of context for this clip. I didn't mean to get into a whole story time. The- the vital piece of context here is that for a while Mahalo actually worked because we started ranking well in Google for these pages. We were doing SEO correctly. We were writing about popular topics like musicians and destinations or whatever. So for a while it was a sustainable business thanks to Google, the- the place that we were trying to replace ultimately. And then, now Jason, you can hear describe what had- the downfall, the reason it stopped working.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:44:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We're like a high school kid.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:44:59",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I have a Mahalo mug.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Or rather, my mother has a Mahalo mug.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:45:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That is hilarious. Thank you for my PTSD. Mahalo was like my failed startup that got to 10- we were at $10 million a year in run rate before Google just said, 'Mahalo, eHow, HowStuffWorks...'",
+      "tone": "storytelling"
+    },
+    {
+      "timestamp": "00:45:16",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yeah, that's the pinch.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:45:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "...Answers.com, you all are too- ranking too high and off.' And they took 80, 90 percent of our traffic overnight. Then they took the answer from our websites and put them in the OneBox five years later. And now when you go to Google and you type in, 'how many people died of coronavirus,' they put the number up top. That was literally the idea for Mahalo.",
+      "tone": "resentful"
+    },
+    {
+      "timestamp": "00:45:41",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yep.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:45:43",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "I'm sorry to trigger this.",
+      "tone": "apologetic"
+    },
+    {
+      "timestamp": "00:45:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And I look back on it and I just think, 'Wow, they- what a sinister group of people.' Matt Cutts and these guys lied and said we were webspam when we did everything according to the books. We would index pages only when they hit 400 words or more...",
+      "tone": "venting"
+    },
+    {
+      "timestamp": "00:45:58",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yep.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:46:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "...because they were like, 'Oh, there's too many stubs in there, like people are coming to landing pages that aren't filled out, like the short Wikipedia pages.' So we're like, 'Fine.' I told Matt, 'We'll just no-index anything under 400 words. Everything above 400 words, then we'll index it.' We'll just write the software to do that.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:46:08",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yep.",
+      "tone": "affirmative"
+    },
+    {
+      "timestamp": "00:46:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And he lied to my face. And they literally- if there's somebody who wants to do an antitrust, just go back in time to them pushing Yelp down, putting eHow, Mahalo, everybody else out of business or moving them down the page and ankling them and then replacing them with the OneBox. And the sinister thing is they used their technology to find the answer on your page and then put an abstract on the top. And if you opted out of that, they wouldn't index you. So they gave you no choice. It was like one of the most sinister moves in the history of- it taught me a lot about business which is, you know, when you're up against one of these big companies, they will lie to your face. And it doesn't matter who you knew. I knew Sergey and Larry, I knew Marissa, I knew everybody at the company. And I called them all and I was like, 'I have to lay off 100 writers who are working from home for $15 an hour because you just took 80% of our revenue away and we've been partners for years. What are you guys doing?' And they were like, 'Yeah, we don't know who's in charge.'",
+      "tone": "bitter"
+    },
+    {
+      "timestamp": "00:47:11",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "So Lon, it seems like there was a good idea, it didn't end up working out, and Google somewhat had the ability to pull the strings and platforms had a lot of power. Things have changed so much in the last six years.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:47:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean, what was it like- knowing what I know now, when Jason hired me to do Mahalo, I knew very little about how the internet works or like, I had never heard the term SEO. Like, I used the internet, but I was not- I was a movie guy, I was not a tech guy. Um, so it sounded like a really good idea to me when I first heard it. I was like, 'Oh, yeah, Google does kind of suck a lot of the time, these pages are a lot better.' But what I didn't realize, like the big lesson we learned at Mahalo that I think is interesting and then I will stop distracting everybody, was that most of the big search terms in any given day are not actually things like Paris hotels or...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "For Bob Dylan, they're things that are trending right now. Like, that's what everybody was going to Google and searching for, whatever the scandal of the moment was, whatever the hottest pop song was, or on Super Bowl Sunday, they're looking up the big Super Bowl commercials that are just on TV. So we were constantly racing against the clock to make pages in time to catch the tail of, you know, Google trends and rank highly for them. And so it was, I don't think ultimately it was like very sustainable, but for a short time, it really was working and we got enough SEO lift from those pages to make it profitable as just kind of like a destination site on the internet to look things up.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:48:42",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "So Mahalo walked, so Grok-pedia could run.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:48:44",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right. I mean, and I think Jason listed us with a lot of like, you know, sort of lower quality like eHow and how stuff works, which are kind of content mills. There were a lot of competitors like that that were just churning out. We had freelance writers getting paid pretty handsomely by the hour to really write good quality pages. So I don't think we were... we weren't trying to do like... we got swept up in that like low-quality garbage spam site sort of call. And I think that's what Jason's objecting to is like, we were really trying to make better quality content than that. The whole idea was to make better pages than Google. Like, that was the concept.",
+      "tone": "defensive"
+    },
+    {
+      "timestamp": "00:49:25",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Well, I don't think that was a very high bar to cross, but what Google has done is consistently optimized for monetization, user experience be damned. And I think we've all kind of seen the result of that, which is today Google has essentially thrown in the towel and gone, 'What if it's all just AI?'",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:49:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right. What if it's all AI? And that's exactly what Jason is already complaining about in this clip. Like, Google was basically scraping and looking at everybody's website, taking the information, putting it at the top of the page in their own results, so you didn't have to leave Google and you didn't have to click away. And now they're just... Gemini is just the most sophisticated version of doing that ever, where now it literally can just explain everything to you having been trained on the entire corpus of the internet and it doesn't need to link you to anything.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:50:04",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Frankly, I think the most important company in the world is whichever company beats Google at AI. Because if Google ends up owning the AI market as well as the historical search market, then I think they become essentially the arbiter not only of truth but of speech. And that's just a bit much for a single company.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:50:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "This is sort of a bit much for a single company.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:50:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This was honestly Sam and Elon's like OpenAI original spark of an idea. Like, they were like, Google can't control this, we need to come up with a better system.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:50:32",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Well, I mean, Google doesn't come off looking great in Jason's story, so maybe they were right to think that Google, the company that dropped the 'don't be evil' slogan, may be up to some shenanigans.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:50:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It is, it is. I think we all can concede that it is possible. And I mean, we were not the only company that got wiped out in that. The Panda update, I think, is what Google called it. Like, thousands of businesses were just decimated overnight because Google decided to like change the algorithm, change how page rank worked, and flip a switch. So it really was a like so much power collected.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "...few people, it is kind of scary.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:51:03",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Thinking about things that scare us, Lon, why don't we rewind the clock to everyone's favorite public nightmare, the COVID crisis.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:51:10",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Now, at the time of this clip, we knew a lot less, so we're not here to just, just poke fun.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:51:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, I am here. I am here mostly to poke fun.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:51:17",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Lon is here mostly to poke fun. I'm here to provide—that's my job. I thought I was the funny one.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:51:22",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Anyways, here's a clip of Dylan and Jason talking about COVID before we knew much in the early days of lockdowns.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:51:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Now that you're a work-from-home company and you obviously did not—you were not all in for work-from-home, you believe in people being in the office and collaborating.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:51:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I think it's—I think it's great for people to be in physical spaces together.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:51:38",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, so you were not bought into this like other people are.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:51:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Bought into—let me define that more. So I think bought into the possibility of it, but still think there's great benefits to being in an office.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:51:50",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So how does that change when this crisis ends in, I think, April 15th?",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:51:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh man, I think that would be awesome if it's true.",
+      "tone": "hopeful"
+    },
+    {
+      "timestamp": "00:51:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, Apple's opening their stores in the first two weeks. The rumor, and I don't know if it's been confirmed yet, but I heard some inside information they're going to open Apple stores in the first two weeks.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:52:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yep. I think restaurants are going to start opening again April 15th or so in that time frame.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:52:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And I think Trump said something like we'll be back for Easter.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:52:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So I think people are going to get the test results back. We are sitting here on the 24th. I think people—last week was peak fear in my mind.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:52:19",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh man, it could be this week for people, but I experienced peak fear last week.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:52:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I bummer—I don't want to be a downer here.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:52:25",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okay, do it. I mean, Dylan, nobody knows. I mean, that's the only thing guaranteed, nobody knows.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:52:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think that—I think that we're going to see, I hope that for California and for other places that have put more restrictive measures in place earlier, that we'll see, you know, sort of like the stabilization—",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:52:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "—the fact that you're talking about, and hospitals won't be overloaded.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:52:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I don't think that means that we can all just go back to work and go back to the way the world was moving before, because I think we'll see a second wave effect—",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:52:49",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "—where there still is the virus out there and we'll start to see it spread again.",
+      "tone": "understanding"
+    },
+    {
+      "timestamp": "00:52:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "—and then hospitals will be overloaded then. So I think the—",
+      "tone": "warning"
+    },
+    {
+      "timestamp": "00:53:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So what do you think? You think San Francisco's a chance, San Francisco Bay Area, San Mateo County, etc., says two more weeks of this, four more weeks of this?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:53:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think it could be a lot longer potentially.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:53:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All the way to May or June?",
+      "tone": "probing"
+    },
+    {
+      "timestamp": "00:53:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I don't know, I'm not sure. But it's, I think that there's also potential for if we start to see people disregarding the orders, I wouldn't be surprised if we see enforcement. That's something I think people aren't even thinking about right now.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:53:19",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But it's—",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:53:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That would be civil unrest on a level that would be disturbing.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:53:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I don't know, it depends on sort of like how people think about the situation. But in any case, going back to our—",
+      "tone": "pondering"
+    },
+    {
+      "timestamp": "00:53:30",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "So Lon, this reminds me just I had this conversation with my mother-in-law. We were at my in-laws' house, it was March around this time, probably plus or minus two days. And we were all sitting around trying to figure out what was going on, what was going to change.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:53:40",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "And at this time, no one in the states wore a mask. Ever. If you saw someone wearing a mask, you thought they were robbing a bank. Like it was that—that rare.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:53:46",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "So we were getting used to wearing a mask here and there, trying to figure out like, are cloth masks good? Remember those days, you know, buying them on Etsy?",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "We were sitting around talking about this and I'm like, you know, maybe a couple of months, people say maybe a couple of weeks. My mother-in-law goes, 18 months. And we all looked at her like she had just fallen off the planet. Like we just didn't believe it.",
+      "tone": "reminiscing"
+    },
+    {
+      "timestamp": "00:54:11",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "And then it was 24 months.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:54:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No, yeah. I mean, Jason says I think what like it sounds crazy to hear now in retrospect, but in March we all thought June was like outside, maybe maybe unbelievably far out.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:54:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Maybe we're still doing some of this stuff in June, but that would be like anything longer than that was considered like you're hysterical, you're paranoid, you're a hypochondriac, like no and I include myself, like nobody thought it was gonna last beyond May or June, it was unthinkable to us that it could get that bad.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:54:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. I'm glad that Dylan was a little bit more bearish, amazing that almost prescient when he said, you know if we go back out there'll be a second wave. I mean there was more than two but he was looking ahead there.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:54:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, it's interesting how the COVID moment changed so many people's thinking patterns.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:55:03",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yes, it really does seem to have been a moment of real change in a lot of people didn't take the lessons that I took from it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:55:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It is also interesting to go at the very beginning of the clip where the people want to work remote revolution in our minds and sort of pop culture memory that and COVID are inextricably tied, like that was when everybody started working from home because of COVID and then it just kind of never all fully went back to normal and people got used to it or whatever.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:55:34",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But at the very beginning you could see way before anybody would be thinking about like COVID is going to permanently change the nature of work in America, they were already having that discussion of like what do you think about this work from home revolution?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:55:45",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So like it does kind of go back and clarify like these were actually like COVID accelerated a trend that was already happening which was telecommuting and like Zoom and apps like Skype at that time or whatever were allowing more people to work remotely and it was already a conversation that was going on. Do you think your team could do as good a job from home as they can in an office? And then COVID just massively like lit a rocket under that revolution and now everybody works from home.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:55:54",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "Yeah, I find it really funny because I had already been working, you know, from home for a half-decade at that point in time here and there. I'd had some office jobs, I'd had some non-office jobs so I lived both sides of that coin.",
+      "tone": "anecdotal"
+    },
+    {
+      "timestamp": "00:56:08",
+      "ad": false,
+      "speaker": "Chris Hladczuk",
+      "text": "And people were talking about working from home as this revolutionary idea and I was like well no, it's just it's just work and there's just not someone sitting next to you. But it became this enormous touchstone of people doing the day in the life videos on TikTok and...",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:56:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sure yeah, yeah. Oh man, people really blew up some comfy jobs didn't they? For sure. The last thing... Never tell people when your job is easy, they'll give you more work or fire you.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:56:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, it's no one needed to know how much time you're spending every day refilling your Stanley mug I don't think.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:56:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, no, we don't need that. Uh also Dylan, when you see this, we love...",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Good to have you back on. Come on the show soon. We'd love to talk about where things are now and your AI agent. But Lon, an excellent trip down memory lane. We're going to keep pulling out these epic moments when we can. We do them here and there when Lon and I have the time. But I love that you found this one. I love Dylan, I love Figma, and I hope that they just crush it because they've had two good quarters in a row and I'm watching those earnings.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:57:16",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "There you go.",
+      "tone": "pleasant"
+    },
+    {
+      "timestamp": "00:57:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Thanks everybody for joining us. We'll see you next time.",
+      "tone": "friendly"
+    }
+  ],
+  "highlights": [
+    "The global fund management industry, which controls approximately $100 trillion in assets, currently relies on a \"human duct tape\" infrastructure of legacy services and manual tools like Excel. This outdated stack often results in fund managers having their own data held hostage by middlemen, requiring manual requests for information that should be accessible in real-time.",
+    "AI-native systems of record are replacing traditional fund administration by using long-horizon agents to handle complex financial tasks. These agents can perform massive data migrations and clean-up processes in a matter of days—tasks that historically took legacy providers months or even years to complete.",
+    "To effectively build vertical AI for complex industries, some startups are moving away from traditional organizational structures by eliminating product managers and designers. Instead, they seat specialized industry experts, such as fund accountants, directly next to engineers to ensure the software accurately captures intricate legal and financial nuances.",
+    "The software industry is undergoing a significant pricing evolution, moving from the traditional per-seat SaaS model toward usage-based and outcome-based structures. This shift reflects a growing demand for transparency and alignment, where customers pay for specific compute results rather than just the number of employees with access to a tool.",
+    "Historical platform risks, such as Google’s impact on search-dependent startups like Mahalo, highlight the danger of \"sinister\" platform dominance. Major tech companies have the power to decimate business models overnight by manipulating algorithms or scraping third-party content to populate their own internal search tools and AI models."
+  ],
+  "summary": "This transcript features an interview with Chris Hladczuk, CEO of Hanover Park, followed by a retrospective analysis of the software industry's evolution. Hladczuk discusses the inefficiencies of the $100 trillion global asset management industry, which he describes as \"human duct tape\" reliant on outdated manual processes and legacy tools like Excel. Hanover Park aims to modernize this sector by building an AI-native \"system of record\" or ERP for investment funds. By utilizing \"long-horizon\" AI agents to automate data migration and financial reporting, the company allows CFOs to regain control of their data. The business model integrates AI efficiency with human expertise, positioning CPAs as \"consiglieres\" who handle complex advisory tasks rather than routine manual entry.\n\nThe second half of the transcript features hosts Lon Harris and Alex Wilhelm reflecting on a 2020 interview with Figma CEO Dylan Field to trace the shift from the \"peak SaaS\" era to the current AI landscape. They discuss how Figma’s bottom-up growth strategy and focus on security standards like SOC 2 established a blueprint for modern software companies. The discussion also touches on the history of Jason Calacanis’s failed search engine, Mahalo, using it as a case study for the immense power platform gatekeepers like Google wield over smaller competitors. Finally, the segment concludes with a look back at the early days of the COVID-19 pandemic, highlighting how the crisis acted as a catalyst for the remote work revolution and accelerated the adoption of collaborative digital tools.",
+  "description": "This Week In Startups is made possible by:\n\nNorthwest Registered Agent\n https://northwestregisteredagent.com/twist\n\nVanta\n https://www.vanta.com/twist\n\nSentry\n https://sentry.io/twist\n\n\nToday’s show:\n\nThere are $100 trillion in global assets sitting on top of what Hanover Park co-founder/CEO Chris Hladczuk calls “human duct tape”: armies of accountants in offices patching together work from various legacy tools (QuickBooks, Excel) that are holding funds’ own data hostage. Can all of this be replaced with AI? Find out how their startup went from overseeing $1B to $20B in assets in just 15 months.\nPLUS, we flash back to March 2020, when Jason and Figma co-founder/CEO Dylan Field broke down the design tool’s initial go-to-market strategy, made some WILDLY inaccurate COVID predictions, and considered anxiety about “SaaS burnout” years before the category went full apocalyptic.\n\nGuests:\n\nChris Hladczuk on X: https://x.com/chrishlad\nHanover Park: https://www.hanoverpark.com/\nDylan Field: https://x.com/zoink\nFigma: https://www.figma.com/\nRelevant Links:\nTurner Novak on X: https://x.com/TurnerNovak\nBanana Capital: https://www.bananacapital.vc/\nEmergence Capital: https://www.emcap.com/\nLux Capital: https://www.luxcapital.com/\nSusa Ventures: https://susaventures.com/\nBill.com: https://www.bill.com/\nMETR: https://metr.org/\nGranola AI note taker: https://www.granola.ai/\nVanta: https://www.vanta.com/\nFoo Camp on YouTube: https://www.youtube.com/c/foocamp\nTechCrunch Mahalo coverage: https://techcrunch.com/2014/01/27/inside-mobile-news-launch/\n\nTimestamps:\n\n0:00 Hanover Park & the fund admin problem\n2:51 Why funds outsource instead of building\n5:03 Why fund accounting is so complex\n9:57 The \"one click migration\" goal\n10:07 Northwest Registered Agent - Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity — Learn more at https://northwestregisteredagent.com/twist\n13:10 Context vs. intelligence gaps\n15:30 No PMs, No Designers\n20:05 Vanta - Get $1000 off your SOC 2 at https://www.vanta.com/twist\n22:37 This is a $100T opportunity\n24:55 Flashback w/ Dylan Field of Figma\n28:34 Sentry - Your team should be focused on shipping features — not chasing down bugs. New users can get $240 in free credits when they go to https://sentry.io/twist and use the code TWIST\n30:41 Pre-AI enterprise security worries\n35:49 SaaS overload and SaaS burnout\n36:49 The evolution of Figma pricing\n41:57 The rise and fall of Mahalo dot com\n50:57 The work-from-home revolution begins\n\n\n\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+  "duration": 3440,
+  "people": [
+    "Lon Harris",
+    "Chris Hladczuk",
+    "This Week",
+    "In Startups",
+    "Northwest Registered",
+    "Hanover Park",
+    "Dylan Field",
+    "Relevant Links",
+    "Turner Novak",
+    "Banana Capital",
+    "Emergence Capital",
+    "Lux Capital",
+    "Susa Ventures",
+    "Foo Camp",
+    "No Designers",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason",
+    "Will Guidara",
+    "Steve Huffman",
+    "Brian Chesky",
+    "Bob Moesta",
+    "Aaron Levie",
+    "Sophia Amoruso",
+    "Reid Hoffman",
+    "Frank Slootman"
+  ],
+  "topics": [
+    "Bringing AI and automation to fund administration and financial operations",
+    "Enterprise SaaS go-to-market strategies, pricing models, and security compliance",
+    "The history of Mahalo and the impact of Google's search dominance on startups",
+    "Reflections on the COVID-19 pandemic and its role in the remote work revolution"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/yyP8p3wVv9c/maxresdefault.jpg",
+  "date": "20260706",
+  "youtube_url": "https://www.youtube.com/watch?v=yyP8p3wVv9c",
+  "youtube_metadata": {
+    "title": "$100T is managed by “human duct tape” | E2308",
+    "description": "This Week In Startups is made possible by:\n\nNorthwest Registered Agent\n https://northwestregisteredagent.com/twist\n\nVanta\n https://www.vanta.com/twist\n\nSentry\n https://sentry.io/twist\n\n\nToday’s show:\n\nThere are $100 trillion in global assets sitting on top of what Hanover Park co-founder/CEO Chris Hladczuk calls “human duct tape”: armies of accountants in offices patching together work from various legacy tools (QuickBooks, Excel) that are holding funds’ own data hostage. Can all of this be replaced with AI? Find out how their startup went from overseeing $1B to $20B in assets in just 15 months.\nPLUS, we flash back to March 2020, when Jason and Figma co-founder/CEO Dylan Field broke down the design tool’s initial go-to-market strategy, made some WILDLY inaccurate COVID predictions, and considered anxiety about “SaaS burnout” years before the category went full apocalyptic.\n\nGuests:\n\nChris Hladczuk on X: https://x.com/chrishlad\nHanover Park: https://www.hanoverpark.com/\nDylan Field: https://x.com/zoink\nFigma: https://www.figma.com/\nRelevant Links:\nTurner Novak on X: https://x.com/TurnerNovak\nBanana Capital: https://www.bananacapital.vc/\nEmergence Capital: https://www.emcap.com/\nLux Capital: https://www.luxcapital.com/\nSusa Ventures: https://susaventures.com/\nBill.com: https://www.bill.com/\nMETR: https://metr.org/\nGranola AI note taker: https://www.granola.ai/\nVanta: https://www.vanta.com/\nFoo Camp on YouTube: https://www.youtube.com/c/foocamp\nTechCrunch Mahalo coverage: https://techcrunch.com/2014/01/27/inside-mobile-news-launch/\n\nTimestamps:\n\n0:00 Hanover Park & the fund admin problem\n2:51 Why funds outsource instead of building\n5:03 Why fund accounting is so complex\n9:57 The \"one click migration\" goal\n10:07 Northwest Registered Agent - Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity — Learn more at https://northwestregisteredagent.com/twist\n13:10 Context vs. intelligence gaps\n15:30 No PMs, No Designers\n20:05 Vanta - Get $1000 off your SOC 2 at https://www.vanta.com/twist\n22:37 This is a $100T opportunity\n24:55 Flashback w/ Dylan Field of Figma\n28:34 Sentry - Your team should be focused on shipping features — not chasing down bugs. New users can get $240 in free credits when they go to https://sentry.io/twist and use the code TWIST\n30:41 Pre-AI enterprise security worries\n35:49 SaaS overload and SaaS burnout\n36:49 The evolution of Figma pricing\n41:57 The rise and fall of Mahalo dot com\n50:57 The work-from-home revolution begins\n\n\n\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+    "duration": 3440,
+    "view_count": 1952,
+    "like_count": 44,
+    "channel": "This Week in Startups",
+    "upload_date": "20260706",
+    "thumbnail": "https://i.ytimg.com/vi/yyP8p3wVv9c/maxresdefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

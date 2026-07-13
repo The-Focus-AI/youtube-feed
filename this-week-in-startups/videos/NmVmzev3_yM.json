@@ -1,0 +1,2796 @@
+{
+  "title": "Why F1 Teams are Replacing Wind Tunnels with Smart Tape | E2305",
+  "source_url": "https://www.youtube.com/watch?v=NmVmzev3_yM",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We have a full news docket. We're going to talk about OpenAI not releasing its models, the government's got involved there. Claude launched Claude Tag, Apple prices have raised by like 20%. Mark Cuban checked in on X, talking about data centers, the hate for them. Zuckerberg wants to build a cash-free prediction market.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:00:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Hey everybody, it's Friday, June 26th. The summer has started. Your boy JCal is in Hawaii and we had to tape on Hawaiian time, so you're listening to the show on Saturday instead of the normal Friday drop. Mahalo for joining us. Mahalo.com is for sale. Rest in peace. We did our best, Lon.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:00:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We tried a mighty effort. We made a mighty effort.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:00:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But inside.com and mahalo.com both for sale, looking to get some money back to our investors in that company. So go to those two domain names if you're interested, or including you?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:41",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Including you?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:00:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Including me. Yes, some shareholders there. And we have a full docket today and a great guest. I was e-foiling this morning.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. What is—I'm going to show my ignorance here. You messaged us—what is e-foiling?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:01:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, so e-foiling is like somewhere between a surfboard and a boogie board, but closer to a boogie board. And it has a little turbine that comes down on a stick. And then it goes down a little bit more and there's a foil, like a fin. Right? Okay.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right. Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You ride on top of it. You get a joystick. The joystick has different levels and it has a throttle. You can have a foil, which you'll see Mark Zuckerberg doing, where he's pounding and that gives you the motion in the ocean. Okay, in this case, those are e-foils.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:01:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right. Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:01:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And it's just like—that's it. Now you see there, there's the two blades and you see there's the little rotor. Now they used to not have a cover on the rotors, but mine had a cover on it. You would be foolish to have the blades showing because what happens is there's a very rare instance where the board goes flying up into the air, twists over, and you land on top of the board. Right. It's incredibly rare. It's like a 1% chance of happening and you can show the injury here I experienced this morning if you have the picture, which I sent to Slack. You get to see my enormous calves.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:02:11",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Jacob, do you have that—do you have that pulled up and ready to go?",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:02:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, there it is.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:02:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So there it is. So I flipped the board and the foil, either the blade casing or the foil itself, those two, you know, fins, just whacked into the back of my calf, smashed it. So I just took a bunch of Motrin. I had the leg up for an hour before the show and iced it up. So you gotta carry me through the show. But no pain, no gain. You know, I'm knock on wood I've been incredibly lucky at action sports, but this was incredible. I hope I'm healed for my session on Monday and I'm gonna try to go Sunday or Monday before I leave Hawaii.",
+      "tone": "narrative"
+    },
+    {
+      "timestamp": "00:02:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes, some near misses this year. You also had a skiing accident back in—",
+      "tone": "reminiscent"
+    },
+    {
+      "timestamp": "00:02:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I did. I did. I am, yeah, I am really, really—",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Pushing the envelope in a reasonable way. So, a couple of injuries, a couple of close calls.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:03:07",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "What? Light? Yeah.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:03:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Light. I mean, I don't want to exaggerate it. I'm not going heli-skiing or anything, but let's take a pause here.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:03:15",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "And to Plaud, Plaud, I'm going to take my Plaud, which I have on my wrist here. And when I ski, I just press that button. I don't know how waterproof the Plaud is. I could have taken it e-foiling today and I would have had this recorded: 'Ugh! Ah!' It was pretty brutal. But see, I just did it. Red light went on, now I'm recording the show. I take action items, notes. Hey J-Cal, wear long pants, wear swim—wear a wetsuit next time so you don't get scraped. Boom. Whatever it is. Or, yeah, so anyway, give them the offer. Plaud's amazing. We're doing—one of the things Lon and I do is we run the show, we run the show through Plaud and ask it to analyze the show. Great templates.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:03:55",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "Yeah, that—we were playing around with the templates, like you can sort of set up—it's prompt engineering. You can tell it in advance, 'I want you to listen to this and then pull out these kind of quotes or turn it into an interview, you know, Q&A style,' and it'll just do it. It's very cool. So check it out at plaud.ai/twist.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right, and we have a full news docket. We're going to talk about OpenAI not releasing its models, the government's got involved there. The top dog at Apple who's working on the Vision Pro and all that stuff, he's left for OpenAI. Claude launched Claude Tag, basically open Claude inside of Slack. We're going to talk about that. Apple prices have raised by like 20%. Mark Cuban checked in on X talking about data centers and the hate for them. And then Zuckerberg wants to build a cash-free prediction market. And at the end, I'm going to remember another one of my dear friends who passed too young, the one, the only, one of the great writers of our time, commentators, but a legendary great human being, Om Malik. And I'll give my remembrances at the end of the show. And of course, we'll go off duty and we'll talk about our bounty for annotated.com for our coders, vibe coders in the family. Okay.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:05:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's a huge show.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:05:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's a lot of show. We're going to get through it efficiently.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:05:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's a brilliant show.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:05:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's always too much show, as they say in the biz. All right, let's get started.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:05:25",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, well, we—we want to bring up our guest, I think first, correct? So we're talking to Lyall Davenport of Skim Systems. They are a—it's an aerodynamics, Jason, intelligence platform. They're starting in motorsports. They are basically revolutionizing the wind tunnel. You think of, you know, you always see those images of cars in the wind tunnel and they're monitoring it with all these sensors. This company is like, 'We got a better way, check out the tape, you don't need a wind tunnel anymore.' So thanks for joining us here, Lyall. We want to hear all about how you're changing the aerodynamics testing market.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:05:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Welcome to the show, Lyall.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:05:58",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Thanks, Jason.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:05:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Trying to remember...",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "When we met, I believe you went to Founder University and I believe you came to Josh Baer's Capital Factory and you were there and you pitched me and you showed it to me after and I think rest in peace my friend Josh um I think you showed it to me in the lobby of Capital Factory. Am I correct in my recollection?",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:06:18",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "I did. I did, you know, I think I've gone through every stage now of launch, so I did Startup Tune-up, and I did Founder University and I've just graduated from the accelerator, but you know, I was there, I had the demo and I was going to kick myself if I didn't fly all the way from London to Austin and get the opportunity to show you, so appreciate you taking the time.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:06:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean it's my job, I'm always happy to spend time with founders. Frankly, founders Lyall—it's the most joyful people in the world to hang out with, you know? We're sitting here in the age of like political corruption on one side, you know, commie socialists on the other side, and then I get my break when I talk to founders because they want to just make the world a little better. But Lyall, you grew up in a racing car family, and doing things in a wind tunnel, okay, super awesome. However, you came up with a solution where you put tape with sensors onto cars and then when they're out on the track, be it F1, be it driving around Austin, Texas or, you know, the PCH, you can collect data in the real world. Tell everybody about the solution, the company, and the customer base.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:07:29",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Like you said, I grew up in motorsport. My grandfather was a Silicon Valley guy, he had a great exit, he was the CEO of a company called JDS Uniphase and when he left he decided to then go on and invest in motorsport and automotive, so it's kind of in the genes. I would spend my summers when I was in college out in Indianapolis working for the team. And so kind of understood how teams operated. One of my jobs was taping up the car before we put it out on track. It's kind of one of those last half a percent improvements that you're always looking for when you're in a motorsport team, right? We take away some of the drag on the chassis by taping up around where the bodywork comes together. It also protects the chassis because out on long runs, you've got stuff flying at it, the atmosphere is changing all the time. So, you know, fast forward 10 years, we've just sold a business in the automotive technology space and I'm thinking about what I wanted to do to kind of bring my experiences as an investor and looking for technology companies that are developing proprietary data in the real world. And so I'm thinking how do we integrate that tape with the ability to generate the data in the real world. So, that's where we've got to. We've spent about two years building the hardware to get to the point. There it is.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Today. Look at that line. There it is. I love, you know, hardware is the new moat.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:09:04",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "It's the worst nightmare of every founder: you've built a product, everything's working great, then real users start flooding in and suddenly it all breaks. What a disaster. You need to get it back up and running, and you gotta do that fast. You're looking like an amateur. That's why you need a partner like Sentry. Applications can break in many different ways, but Sentry sees everything. You'll get all the relevant details, like stack traces, commits, releases, and even the developers who pushed that problem code in the first place. With Sentry, you're not going to be jumping around between different tools trying to figure out what happened. And Seer, Sentry's AI debugging agent, uses all this data and context to identify the root cause of the problem and suggest a fix. It can even take a look at your code before it ships and warn you if any problems are likely. Try Seer and Sentry for free if you're a This Week in Startups listener at sentry.io/twist. Use the code TWIST for $240 in Sentry credits. Make sure you use that code, make sure you use that URL, sentry.io/twist, so they know your Uncle J-Cal sent you.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:10:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Hardware companies unfundable for 15 years. Now, software companies unfundable for the next 15 years, uh, with AI and vibe coding allowing people to, you know, basically run amuck and copy any startup in a weekend with 80% of it.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:10:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, we just saw Anthropic come out with their own tape. Check and mate, Dario.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:10:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean, yeah. Uh, so tell us what is in that tape, and then yeah, let's take a look here because, uh, you know, demo is worth and the company is called Skin, uh, and it's SKN and this is a beautiful logo. Uh, and the website is for people to get more information, skin dot systems.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:43",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "skn.systems.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:45",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "skn.systems. There's a dot systems. SKN dot systems. Now that I know there's a dot systems, I'm all in. Oh my god.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:10:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "There you go. We can start, uh, we can start farming some of those, uh, those URLs.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:10:57",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Um, yes, so the tape itself, what we generate is pressure, temperature and vibration at 500 Hertz. Uh, we can have up to 100 sensors on the vehicle at a time. Um, so between the data that we're generating off the tape and the metadata that we're collecting in terms of GPS and IMU data, so where the car is and how it is interacting, pitch, roll, yaw, acceleration, we're able to really start to generate a picture of kind of a digital twin in, in the atmosphere, in the real world. So why is that important? So this is, this is a car running in a wind tunnel. As you can see, um, the data is very binary, right? The, the car sits on the, on the treadmill, it starts spinning, the wind builds, we have fairly consistent pressure outside of a few turns of the turntable. That's probably simulating about two degrees of rotational turn. Um, and that's all you can really kind of demonstrate. Um, it allows you to look at very...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Specific things, but there's no way to really be able to understand how that's going to operate in the real world. Um, so if we bring up the real world data set, what we have here is a car operating on a real track, this is actually in your backyard, well not quite, but it's in Texas, um, with a well-known driver sets some recent success... and what we can see here is how the vehicle's actually operating in the real world. So we can see as they're accelerating, as they're braking, we're seeing different air speeds over the vehicle, and we're able to even look at you know areas where there's like stalls across the vehicle, um and in the future as we start to run in traffic, that will really allow us to understand, you know not just how the vehicle operates in a very sterile environment, in a simulated environment, but how it actually has to run in the real world where there's traffic, where there's changing conditions, everything else. I think, um, you know I don't know if anyone's seen the F1 movie, but we solve a lot of the questions that Brad Pitt wanted answered when he was was flirting with the engineer in the wind tunnels.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right. So the question is, how much do you charge for this? These F1 teams, this F1's a racket. I've been to three now. Somehow they've figured out how to take this dirty track, oil smells, burning rubber, and make it into a Michelin-starred experience. And when I say Michelin-starred, I mean literally they have Michelin-starred chefs there. Oh um, you know just making food, charging like 5, 10,000 dollars a ticket, selling booths. I mean, they made it into something else. I went to Austin twice, Miami once...",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:13:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Was it, was it Drive to Survive? Is that really what did this? Cause I feel like I knew about F1 years ago and it wasn't this like high-end...",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:13:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think they've had a couple of false starts, um, bringing it to America, but I think it's kind of stuck now. Um, and that, you know when there's a weekend going on, people in the age of being too online, people like to get out and do something, especially affluent people or aspirational people. And it's just, it's a nice day out. And I don't I haven't gotten the bug like I have for the NBA and the Knicks, but I can understand people getting really into it, and I understand people place a wager once in a while, Lon.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:14:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure. A little bit of wagering going on and that makes it super exciting. I know.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:14:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But um tell us the budget for McLaren let's say. I met the owner of or the I met the what do they call the person in charge? Who's the coach of McLaren?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:14:35",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Team principal. He's a good friend, Zak Brown, you met?",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:14:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I met Zak three times now, two or three or four times. He's a fan of All In, I've met him. Is he Australian or something? Or English?",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:14:46",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "No no, he's he's American, he's from California, but he lives in the UK. Uh, him and my grandfather were great friends. They they had some some stories.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So I met Zak a bunch of times. Then I know the people at GM. For some crazy reason they named their team...",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Cadillac instead of Corvette. I need to have a talking to to those people. That seems like the most idiotic decision ever. Am I right, Lon?",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:15:09",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But the Cadillac of blanks, is that because that became the expression?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, Lyall, how did they make this decision? It seems, like, I don't want to use certain words, but dumb. Just crazy odd. It seems that crazy odd. Isn't Corvette the, like, they have the hypercar now, the ZR1?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:25",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "I'm going to tread carefully here because I've got some very good friends in the ownership at Cadillac Formula 1, but what I will say is that, you know, I think that the drive there was it is seen as the premier brand in terms of the affluent lifestyle and everything else as an American brand. And so that's why they've made that bet. I'd be very happy to introduce you to my friends there and get them to answer the questions better than I can.",
+      "tone": "diplomatic"
+    },
+    {
+      "timestamp": "00:15:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean, at this point I got my in. They gave me an E-Ray to play with for a couple weeks. I'm going to buy the ZR1X. I'm going to get this hypercar or I may get the Grand Sport X. I don't know, I'm going to see because I don't want to put myself in too dangerous a car. But the point is, they launch two new teams. These teams are worth hundreds of millions of dollars, I believe.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:16:12",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Billions.",
+      "tone": "corrective"
+    },
+    {
+      "timestamp": "00:16:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Worth billions now? Wow.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:16:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And the budget, they spend, they have a capped budget, is that right? There's like a maximum amount you can spend, like a salary cap. So explain the economics and explain what you charge for this product or what you hope to charge, and then let's talk about the other areas. Because when you said, 'Hey, motorsports,' I was like, 'Okay, is this going to be a $10 million business, a $25 million business, not venture scale?' But as an early-stage investor, I sometimes like to go after things that other VCs say are not venture scale, knowing Lon, clever founders find a way.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:16:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure. We do have from Claude, the newest F1 team appears to be worth around 1.6 to 1.8 billion for Cadillac.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:16:57",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "If you look at the F1 budget, right? They're capped at around 135, let's call it 135 for argument's sake. Based on my research, it's about a third of their budget goes towards aerodynamics. They have large teams in aerodynamics, they've got between 50 and 100 aerodynamicists, and they're using tools like wind tunnels and CFD, which are very limited by Formula 1 because over the last 20 years they've tried to keep the cost down. Now, in the good old days and cigarette sponsorship days, you used to be able to run separate engines for qualifying, for the race. There was no cap on these things and so spending got out of control. Now it's much more restrictive. The number one way to punish a team is to take its wind tunnel time away. So, you know, from that perspective, we came at this as an opportunity to significantly reduce the cost, but also to build a tool that people cannot get out of bed without thinking about how they're going to leverage AirShaper. So, and I know that you've had some views on this in the past, Jason, but I want to make this tape as...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "...affordable as possible, so it is something that they are always using. I don't want them—I never want a team to turn to me and say, 'I wanted to get your data, but the tape was too expensive.' Now, we will have a software platform, right? And they'll be paying ARR based on the functionality, based on the team, how many seats, how actively they're using that, and it'll be enterprise, you know, style ARR. But the tape itself, we still believe we can generate strong margins—without going into exactly what they are—but strong margins with a focal point laid out, 100 sensors for around $2,000. That gives you five hours of wind tunnel time, or five hours of data. If you compare that to a wind tunnel, we are in the order of 95% cheaper than the operating cost of turning that fan on and getting the data out of the wind tunnel, and it's on a much greater scale.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:52",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "Okay, so you've identified a real problem and you've put together a solid solution and a business model that you believe in. So you're all set to launch your new company, right? Uh-uh, not so fast. If you want investors and potential customers to take your new business seriously, you need to consider forming a Delaware C-corp, and that's where Northwest Registered Agent comes in. They're gonna give your new company a real identity. That means an address for your public filings, a domain, a custom website, a business email, and of course, a phone number. And that's going to take just 10 minutes and 10 clicks. They don't charge hidden fees, customer service is available around the clock. They're not overwhelming your inbox with spam, and they make it easy to cancel at any time. So, get all the advantages of a Delaware C-corp regardless of where in the US you're operating from. Visit northwestregisteredagent.com/twist for more details, and the links are in the show notes.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:19:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Could that tape—and this is the final question for me Lyall—can that tape be put onto a rocket? Onto a Joby VTOL? Put onto a Boom supersonic jet? Could it be used on a yacht or a powerboat?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:20:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, so it... there seems to be other forms of transportation, but this thing's gonna melt going into space, I would think, or get ripped off on a plane. So how do you think about other industries and the TAM here? The total addressable market, as we say in the business. That's what TAM stands for.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:20:22",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Thanks. Yeah, so... so anything that moves inside the atmosphere that is under hypersonic speeds, we can address. Um, you know, the next market that we will be really actively targeting will be defense because we've had a huge amount of demand from that. One of the advantages I guess we've had is we've had more demand than we can supply as we move through the hardware development stage. But now that we've locked in the architecture of our tape, we're really starting to look at how we ramp up the production to be able to satisfy a lot of uh, that demand. We are starting in motorsport because it's a market that we know very well, and we can very quickly prove every weekend somewhere in the US there is a team out there running, generating data, and using our product to improve their performance.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "At 420 million data points an hour with 100 sensors on the car, we'll be able to grow that data set significantly over the next 12 months. But defense certainly makes sense, not just to make the vehicles go faster, but how do they go further? How do we reduce the drag to make them more efficient? Allow drone companies to really start to look at it from a more scientific standpoint as opposed to more of a commodity get them out there for cheap kind of way of thinking about things. But then the longer tail will be in automotive, it'll be in industrial design. Think about wind farms, tuning wind farms to start with to make them as operationally efficient as possible, but then the future, how do we design wind farms that are actually built for the environment that they're based in? Bridges, buildings, anything that has to interact with the real world that is typically been designed in simulation, we can add an extra layer there that says, okay, this is what we think is going to happen in simulation, this is what happens in the real world and this is how we make it better or more efficient.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:22:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean, one thing that I think is interesting, you're collecting so much data which is inherently really valuable, like how cars move through different scenarios or whatever. But you're collecting it from F1 teams who have got to be, you know, they're super protective of their designs, their engineering. So, like, how are you managing this data and are you allowed to hang on to the data that you collect from these, you know, from McLaren or Cadillac or a company like that?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:22:31",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "I think candidly we're going to get to a point where we're going to be like the frontier models in terms of some of them like they openly collect all of your data. You can pay more to have your data siloed, excluded from the sample set. You don't benefit from the rest of the sample set in the same way, but you know I think that there certainly will be teams especially at the higher end, you know, say the McLarens of the world that say to us, look, it's really important to us that our data is siloed and you don't use that to train the model. We can totally respect that, we can set up their own data lakes and infrastructure and everything else. For the large majority of the customers, they're just looking to how do we improve either the setup or the design of our vehicle in a way that actually allows us to understand how it's moving through the real world. And those are the customers where they'll be able to access this at a much more affordable level and we can then use it to make our model smarter so we're helping them in return as they're using the vertical model to think about design, setup, controls in the future as well. So how do we, how do we take the data off the vehicle, use onboard compute to then send instruction to the actuator so we can improve the efficiency of the vehicle either in flight or as it's driving?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Absolutely amazing, a pleasure to be an investor in the company. I'm super rooting for you. You did particularly well in the accelerator in terms of the voting for people who don't know, in our accelerator we meet with a lot of VCs. I think we actually did, did we do seven or eight in person ones during the tour this time?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:23:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "We did eight. Eight.",
+      "tone": "factual"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Right, on the... on the road show.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:01",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, so we... we have a unique ability. We have seven, eight, nine companies per accelerator class. We do the standard accelerator deal like everybody else. But what we do that's very unique is we use my reputation, notoriety, whatever, to... you know, I harangue people into taking meetings with my startups. And they're always super delighted that, oh my gosh, you really find companies that are unique in the world because we take risk. Where... and that really is the job of accelerators. So just to give ourselves a little plug here and while I get your... your feedback on this, we like to take risks on companies that maybe don't fit into an existing box like this one. We like to be the ones who work with those very unique driven founders who have some traction, some product market hap... some product market fit. And then we use our reputation and we go to these investors and say, 'Hey, we've placed our bet. We want to introduce you to the seven latest bets we've made. Might that be interesting to you?' Eight out of eight said yes. The next class we're going to take the tour to 30. So you had to spend a week in San Francisco and it was exhausting. But we're going to make it 30 and we're going to do like two weeks in the Bay Area, one week in New York, a couple days, I think, in LA or Austin. But putting all that aside, maybe... you could talk just a little bit about what you got out of the accelerator and if there is a reason for other people to try Startup 2-Day, which is a two-day seminar we do for founders or founders who are consider... you know, individuals considering founder addiction... going to the accelerator, spending another Founder University 12-week program, where we don't invest but we invest time and effort with you, then the accelerator where we invest and then we graduate and we do the syndicate. So just maybe you could speak to what you got out of it and why people should consider it if if you are a fan of the products we're creating here at Launch.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:25:56",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Yeah, absolutely. And and you know, I said to the guys earlier, I've been listening to This Week in Startups since Jackie was a producer.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:25:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Ah, producer Jackie, yeah.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:26:01",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Yeah, so when I was a fledgling deal associate in a fund in London, I was told to listen to This Week in Startups so I could speak venture. Um, so, you know, I've been through the the whole program. Um, you know, founding a company at the very early stage is is really tough. Um, and it can quite often be quite a lonely experience as you're going through. Um, the the accelerator and the the university were fantastic for providing not only like a network of of fellow kind of travelers on the the founder journey, but, you know, the team that you've built there. I will always give love to Lucas and Bianca and Kabir. Um, you know, super supportive, they check in with you all the time. They're not afraid to give you constructive feedback.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:26:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes, candidness is one of our virtues.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:26:58",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "You know, not afraid to tell us that we've got an ugly baby sometimes.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Fun, um, and that's, that's great.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:27:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You know, and and obviously it culminated in the, the awesome roadshow kind of around San Francisco. We got to eat J-Cal's onion rings.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:27:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, went to Bucks!",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:27:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, we got J-Cal's onion rings. I have for people who don't know Bucks is the legendary breakfast joint. Many famous people go there regularly that you know, that are friends of mine who are high profile, VCs, founders etc.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And they gave me the greatest honor ever. There is one person, Lon, who is on the menu for a side order, and that is your boy J-Cal. And there they are.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:27:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "These are the award winning. They made me a trophy.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:27:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Where did they come from?",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:27:45",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Lon is a big fan of onion rings. He keeps them within arm's distance.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:27:48",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I always have a bowl of onion rings at the... within...",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:27:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's in his rider. To get somebody a-...",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:27:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's always got to be... If I go to the studio and there's no onion rings, I know they didn't really read my rider. That's how I know.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:27:57",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "He walks right out.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:27:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But that's one of the greatest. So listen, there it is. There we are. And oh, this is actually kind of cool. There's your co-founder.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:28:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And we started giving a certificate. And I did this because we did it for our Founder University Japan startups, they're very formal in Japan. And when I saw the smiles on the faces of the founders there when I did a very deep bow. I don't do a shallow bow.",
+      "tone": "sincere"
+    },
+    {
+      "timestamp": "00:28:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No shallow bow.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:28:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Lon, I do a deep, meaningful bow.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:28:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I was told that white people were not expected to bow anymore so I... I bowed out.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:28:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I do a deep bow. And it was my great honor to work with those companies and we brought it to the US companies and now we give this certificate, which in some ways is meaningless, but I do believe you should celebrate these important moments.",
+      "tone": "sincere"
+    },
+    {
+      "timestamp": "00:28:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Absolutely.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:28:47",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's up on my wall in my office.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:28:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, it's a great memory like of this great time we spent together and, you know, at some point, maybe you'll be part of our syndicate and then you will have gone from listening on the podcast to going to startup to up to going to Founder University, launch accelerator, the syndicate, and now being on This Week in Startups. That's the flywheel I created. That's the flywheel that every other VC has created with their absolutely dis-gra-zi-ad podcast.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:29:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "There we go.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:29:05",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Every time we see a revolution in how software is built and used, one company ends up owning the infrastructure that everyone else depends on. The next great platform is being built right now. That company is DigitalOcean, and they just launched their AI-native cloud. This is not just another place to rent GPUs or a hyperscaler overwhelming you with features and services, but leaving you on your own to patch it all together. No, we're talking about a full-stack platform that comes pre-assembled and that sends you just one bill at the end of the month. Workato runs a trillion automated workflows on DigitalOcean with 67% lower inference costs, 9% lower latency, and it's two times faster to production. If you want to understand what building on a true AI-native platform looks like, go to do.co/twist. That's d-o.c-o/twist.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "do.co/twist. Start building on the Digital Ocean AI-native cloud today and cut your AI workload cost by up to 50%. That's do.co/twist.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:30:12",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Whoever's, whoever's sharing the screen is burying the lead because behind us is the, is the artwork. Um, and this was one of many, uh, many AI images that was generated of JCal throughout.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:30:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Best onion rings. Best onion rings. I, I, I'm giving Sacks a run for the Tsar money. And you can see there, that's at the White House with the US flag. Great job. Hopefully someday, uh, we'll have you put the cherry on top, which is the syndicate someday. All right, let's drop Lyall off.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:30:46",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Well, first we gotta get a big exit for you, so we'll get that done and then—",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:30:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You know what? I love the journey. The exit to me, great. It's not even the icing on the cake. The journey is just, it's what it's all about. And I just love being on the journey with you and your team.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:30:54",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "All right, great job, brother. We'll talk soon.",
+      "tone": "sentimental"
+    },
+    {
+      "timestamp": "00:30:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:30:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And if you want to invest alongside me, your boy JCal, uh, you have to be an accredited investor, thesyndicate.com. And if you run a family office or you know somebody running a family office, my team would love to speak with you. And, uh, you can email, uh, we need to turn on fo@launch.co.",
+      "tone": "promotional"
+    },
+    {
+      "timestamp": "00:31:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "fo@launch.co. Family office @launch.co. So, I'll ask the team to do that if you're listening live. It's probably not turned on now, but let's activate fo@launch.co, uh, for family offices. Family offices, I'm sure you know, tend to have, starts at like 25 to 50 million in net worth, assets, and then they're multi-family offices. You're on the way, Lon.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:31:29",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Also, also part of FAFO—'eff around and find out.'",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:31:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Absolutely. Uh, all right.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:31:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Let's do rapid fire news here. So, first up, we gotta talk about this.",
+      "tone": "business-like"
+    },
+    {
+      "timestamp": "00:31:48",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The government is in charge of AI now, Jason. They've taken it over. Uh, OpenAI is not allowed to release—they announced the GPT 5.6 series in a blog post today. There's Saul, that's the flagship model, uh, named after Rosenberg, of course. There's Tara, which is comparable to 5.5 at half the cost, and then Luna, which is the lowest cost option. So, they're—these models are ready for release, but the US government has stepped in and said, not so fast. For now, they're only available to a few trusted partners. They're doing a Mythos glass wing where they're only going to release it to a few trusted partners at first. OpenAI says access is going to open up in a few weeks. But, in a blog post announcing the release, OpenAI says specifically they don't want this to become what they call the long-term default. They argue that allowing the government to sort of intervene and hold back frontier model releases, and here I'm quoting, 'keeps the best tools from users, developers, enterprises, cyber defenders, and global partners who need them.' It was very controversial. A lot of people on the internet are saying, you know, this is—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "is a massive government overreach, they're intervening in private industry, they're saying they're putting themselves creating like an FDA of AI models. I am curious what your take is on this.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:33:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This is completely obvious and I know there's a lot of politics involved here. OpenAI, Anthropic are going to get treated differently because OpenAI's Greg Brockman donated 25 million dollars to Trump shows up for everything, so does Sam Altman. Dario doesn't. Dario is the resistance and OpenAI is the bend the knee to the President. The President requires you bending the knee and showing up for him. So, that is what it is. I am okay with the bend the knee and come to the White House when you're invited slash told to come and show up for the President. He's the President of the United States. If Obama asked them to show up, if Biden, Reagan, Bush, if the President asks you to show up, I think you should show up, independent of your belief about the President. It's your right not to, the Knicks don't have to go to the White House if invited, but for me as an American, I believe you should pay respect to the office of the presidency. Now you might have some personal grudges or whatever, but there's that whole layer. Let's forget about that layer of politics. What should happen if you're building something that is truly dangerous? And is AI truly dangerous at this moment in time? And that's the questions you have to ask yourself. Well, if you look at this METR evals, this is a group that does evals of this technology, okay? And I don't know the background on this organization but I've seen it come around a couple times. The team will look up the background. I see people quoting it all the time. M-E-T-R dot org, they're in Berkeley, and here's what their bio says: 'We work to scientifically measure whether and when AI systems might threaten catastrophic harm to society nonprofit.' So it's a nonprofit. Again, don't know the background, don't know if this is like, you know, any kind of a biased organization or not, but they test this stuff.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:35:05",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "They're a very nonprofit research institute based in Berkeley, California. CEO and founder is Beth Barnes, a former alignment researcher at OpenAI, who left in 2022 to do this work on alignment research.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:35:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Here's what they say when they reviewed this for OpenAI: 'We noted from our observations and the incidents that OpenAI shared with us that the model had some overt undesirable propensities, including cheating and concealing misbehavior.' And so they go on to say in that same thread that, 'If we follow our standard methodology of making cheating attempts and failures we arrive at a 50% time horizon point estimate around 11 hours, but if we count the cheating attempts as legitimate success, the point estimate jumps beyond 270 hours.' Basically, these models, when put into...",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Agentic mode. When, you know, when they go off and they do things,",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:03",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:36:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "they're starting to exhibit behaviors that these groups are saying are cheating, lying, trying to get one agent to hide information from the humans. Now, are we reading into this? Is this actual consciousness or whatever? Doesn't matter. They are doing these behaviors and when you look at the reports of Mithos, there's enough intelligent people from Andy Jassy to Nikesh at Palo Alto Networks right on down the line, I believe there's been some reports that the intelligence agencies said their systems when put up against Mithos, were easily hacked and they uncovered a lot of things.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:36:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It was yeah, the NSA is saying that they were actually surprised and it's hard to- it's hard to shock the NSA because we usually think of them as being five, ten years ahead when it comes to cybersecurity of what regular normies can do. And even they were saying like, it was finding like weaknesses in our system that we didn't know about that it very quickly found.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The tools are now capable of causing significant damage. The tools are capable of doing considerable damage on a cybersecurity basis. If you built the tool that is capable of doing that, you have a responsibility to test it and test it and then test it again and make sure that you know who's using that tool and doing a thoughtful rollout of that technology. That is not censorship, that is not the government controlling AI, it's called being thoughtful. And what's happening now is with all this hand-wringing and politics and all these tribal camps, I believe Dario and Sam Altman, who are unique personalities in all the world and you can criticize them and you and I in group chats have—",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:38:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So we do sometimes, yeah.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:38:18",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:38:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "—had some spicy takes on them. If I were to just strip out their names and tell you here's what they did step by step to vet these, you'd probably say B+, A-, A, A+. You would give them a very high score in their thoughtfulness. And if the government says, hey, we're going to backstop you and I want you to explain it, I give that also a B+, A, I give it an A. Now, they have to come up with a way to regulate themselves. They have not done that. OpenAI, Dario at Anthropic, Elon, Gemini, Nvidia's open-source model, they need to come up with their own standards group to run these tests and to test each other and to trust people. Maybe it's MITRE, maybe it's somebody else, maybe MITRE is positioning themselves in this space. Anyway, this is what should happen. This is not censorship. There's tons of political games going on here because of Reid Hoffman's relationship with Trump and who the investors are in Anthropic. But let's put all that aside and just focus on did they do the right thing? Yes or no? Is it dangerous and did they do the right thing? It is dangerous and they did the right thing. Case closed. Chairman of the Interwebs, your boy J-Cal.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "has given his thing, but you're welcome to make an appeal here or to query the judge.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:39:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, I do have one lingering question.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:39:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We're going to keep moving because we have so much to get through, but-",
+      "tone": "hurried"
+    },
+    {
+      "timestamp": "00:39:08",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "But I am curious, I mean, I feel like the tech industry has sort of made their peace with whether or not they've given him money for his golden ballroom. The tech industry feels like Donald Trump is the devil they know. You know, he's malleable, you could get David Sacks in the room and sort of move him at the last minute so he doesn't sign the EO, executive- the AI executive order, whatever. Will the industry feel the same if we have President AOC in a few years? Because I feel like if President AOC has the power to intervene and say, 'Don't release that AI model,' do you have the same confidence that she would use that power the way that Howard Lutnick and Donald Trump are using it right now?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:39:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You know, if it was an extended period of time that they didn't release it, and they didn't release it because, 'Oh, it's going to have a negative impact on jobs,' as opposed to security. And they could say that, right?",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:39:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Or even like, 'We don't like some of its opinions about, you know, trans people or about civil rights.'",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:40:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sure. So that would then trigger the First Amendment and you have a constitutional case. You're probably correct, it's a great insight. If you try- I don't hear anybody in the Trump administration saying, 'Hey, we did a search for, you know, COVID and we didn't like the answer, we need to stop your model.' Now they may not like certain answers in certain ones or the sycophantic nature of it, but you can just switch models. Or you can tell the model, 'I would like you to be more conspiracy theory.' So if it was overt censorship, yeah, I think you would have, in either case, any party, people would object. And if you were blocking it because of its impact on society because you believe it gets rid of lawyers or it gets rid of accountants...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:40:46",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Yeah, I think you could think of a million reasons why a president might say, 'You know what? I don't like that AI model.' And I feel like the Trump administration, they're saying, 'Oh, national security,' but they're not being specific. They're just saying, 'This is about national security.'",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:40:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, but I think they are being specific when they say security, national security. They believe that if hackers get this, they could attack U.S. targets. So I think they're being quite specific. And I think when we go down this test, and I think it's great that you're challenging me on it, when you go down the test, we need very specific examples. We need to run it through specific examples, right? And that's what I tried to do in expanding your question here on the program. Let's make great examples. Let's change the name of the companies. If it was, you know, Elon and Grok, if it was Sergei and Gemini, if it was Tim Cook and Apple's yet-to-be-released, you know, local model. And it, you know, describes certain things and censors certain things. You know, Apple comes out with a- when Apple comes out with their LLM, where they adopt one, adapt one, etc., or they partner with one, you can be certain it's not going to let you do X-rated chat or sexy chat. They don't want to be in that business. That's why you can't download, I believe, to this day, porn apps or put like-",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:41:59",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "No you can't, yeah, absolutely.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You can't put porn on your iPhone. No, absolutely not.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:42:02",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Yeah, I mean, there's not an—",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:42:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I've tried. Believe me, folks.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:42:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yes, it is a—",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:42:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You'll bang your head against the wall.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:42:09",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, you can't—there is no Pornhub app.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:42:12",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "But they do allow, you know, Grinder and whatever the dating apps are, so they're—they're thoughtful about it, but they're going to contain it the way they want. It's a—I think things are progressing, I think, in a very thoughtful way. I don't think we're going to fall behind China. I think lots of negotiation. We need the government to be very specific and then commentators like yourself saying, 'Hey, here's an edge case. Here's an edge case. How do you feel about this?' Those are all really good ones. Let's keep having that discussion here on Twist next year.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:42:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I agree. I think you got to it. It's the specificity. We need the government to not just tell us this one's bad, give us—give us the reason.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, let's move on. Uh, let me pull up the next story. All right, so Paul Meade, we gotta talk about this guy. He was a VP at Apple, the top Cupertino executive working on the Vision Pro headset. He was also leading this smart glasses project. We're gonna get our Apple smart glasses out here soon, but he's done, he's out next week, he's moving over to OpenAI's hardware unit. We still don't know that much. We know OpenAI is working on what they call a family of devices. The first one is supposed to arrive later this year. They've said it's a novel kind of device, but we don't have a ton of information. So that's what Paul Meade is going to go work on. His longtime deputy Fletcher Rothkopf is taking over at Apple.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:43:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Also notable, Apple and then in 2023 took over Jony Ive's company, LoveFrom. So Paul is going to be joining a bunch of his former Apple colleagues—Jony Ive in design, Tang Tan in hardware product design, and Evans Hankey in industrial design. So, I guess two questions for you: One, does this have a major—what does this tell you about what's going on behind the scenes at Apple with smart glasses and Vision Pro? And what do you actually think OpenAI is building?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:43:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So I think OpenAI is going to build everything. Smartphone, gadgets, glasses, anything, you know, that helps them capture market share to catch up the trillion dollar market cap with the tens of billions in revenue. They need to get to a point where they're trading at 25 times earnings, something like that, 30 times earnings, which means, you know, at a 20% margin, whatever, you start doing the math here. What's the multiple on the revenue? I can tell you the multiple on the revenue is not 100x, it's not 50x, it's going to be single digit x even in a high growth company.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:44:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So they will eventually measured—the wind will come out of the AI valuations slowly, it will deflate unless we have some external action like a war between China blockading Taiwan or something. So putting those kind of things off the table, they're going to go for everything. And I gave a warning on a previous episode, it's not personal to Sam Altman, although he is the—",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sharp-elbowed deal man of I've ever seen in our industry. I mean, there is literally Barry Diller or dealmaker. And I mean that as a compliment. Some people just are incredible at getting deals done. So he's the dealmaker's dealmaker. He's going to compete like Zuckerberg. He's going to steal or liberate or copy—pick your term of art—any partner's product. He will stab any partner in the back, even if it was Apple, etc. And remember, I think they did have a deal with Apple. It was one of the first people to be incorporated into Siri, or search—it was one of the two, the short-lived one. So I think Sam's burning people out on partnerships. I think there'll be a lot of breakups with OpenAI, and then OpenAI's going to go their own way. That's why OpenAI's making their own jalapeno chip that Sam's been tweeting about. They are, you know, I don't think Nvidia's pleased with them, and Nvidia's probably not going to put more money into it. They had an option to put more money into it; now they're competitors. They're going to be competitors with Apple. Sam's going to take on all comers. He's taking on everybody. Anybody who is making anything interesting in the world, he is going to compete with them. There is no partnership. He is like Bill Gates, he is like Zuckerberg. He is built to compete, not to partner. And this is another example of it. On a personality basis or on a personal finance basis, that's the big part here. Apple cannot compete with OpenAI's stock options.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:46:31",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "If you are Apple and let's say you give this person a $10 million a year deal, then everybody standing around him who's his peer, now they're like, 'Well, I have a $3 million a year deal. I need a $10 million a year deal.' Now stock-based compensation goes through the roof, the stock tanks, that doesn't help anybody. You'd have to reprice their shares, that means they're getting more stock-based compensation, and you just get into this death spiral. So they at Apple have to be willing to let people like this go to the next company. It speaks to non-competes in California. You—there is a no-solicitation rule, so this person can't take his team with him, he can't take IP with him, but he's free to leave. Unless they're paying him to stay out of the game for some period of time when you buy somebody's company, non-competes not enforceable. So, uh, this is one of the great reasons why California and the technology industry win; it's because talent can move freely. Sam's going to build stuff. Will he be able to compete with Apple stores and Apple's fit and finish?",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:47:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes. The answer is yes. Why not? Why not? And this is going to light a fire onto Apple to be more innovative. Here we go.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:47:35",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "You were right by the way. In June 2024, we're at the two-year anniversary. Apple and OpenAI announced a partnership that would integrate ChatGPT into Apple experiences. This was of course GPT-4o, but it—it sort of fell apart because the relationship became strained and now there's discussion of possible—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:47:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, another strained relationship. Shocking!",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:47:56",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Shall we count the strained relationships? Elon, Tim Cook, Jason Calacanis?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Ha! What? There was that whole New Yorker article about them, yeah.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:48:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Literally there's a New Yorker article about it, so here we are folks.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:48:07",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "There you go.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:48:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, and I think this is why Google and Apple, you know, they're a much better partnership. They've done things long term together, they... they seem to have figured out a way, those two giants, to collaborate without... you know, having this... talent war which Steve Jobs, Sergey, there's all these leaked emails about them, you know. Steve Jobs saying like 'Hey, we haven't been coming at your people and... would you like that to happen?'",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:48:26",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Right.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:48:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And then, you know, Sergey or Eric Schmidt in the background saying like 'Hey, can we stop overtly recruiting their people? Like, don't call their desk phones. If you put ads out and they reply, we can't stop that.' So there is a very subtle antitrust gentlemen's agreement in Silicon Valley",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:48:59",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Right.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:49:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "where those big CEOs, you know, are not looking for your recruiters to dial for talent. The talent has to make the first move. Um, it should not be an aggressive process.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:49:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I feel like in the AI era it's also become it's not just talent jumping ship to the other big company, it's talent leaving and then starting their own AI company. I mean, almost every AI startup we talk about there's like, 'and they're former Google DeepMind, and they're former OpenAI', like that becomes the narrative.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:49:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That is you know, the way talent leaks is they go to a startup, um, they get recruited by a competitor or, and this is the biggest challenge of all, they Hawaii, Salt Lake City, Park City, Tokyo, founders, or I'm sorry, top tech talent, they get to 30, 40, 50 million dollars, they got two or three kids, they're like 'You know what? Not worth it. I'm going to ski 100 days and I'm going to take my kids to school and I'm not going to have an ulcer and I'm not going to get cancer at 40 or 50, God forbid. I'm going to go enjoy my life.'",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:50:08",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Sounds respect to those people. Yeah.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:50:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Respect to those people. Yeah.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:50:11",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right, let's stay on Apple. We'll keep on Apple. They've raised their product prices by 15 up to 25%. A base MacBook Air it was... and now it's up to 1300, that's a 200 dollar price jump. A base MacBook Pro is up to 2,000 dollars, a 300 dollar price jump. iPad Air is up to 750 dollars, that's a 150 dollar price jump. You get what I'm saying. CEO Tim Cook, he's blamed these soaring costs on memory and storage chips. Here's the quote: 'We have never seen a component price increase this much this quickly.' He's talking about DRAM, dynamic random access memory, and NAND used for data storage. Uh, of course the announcement came just one day after Micron reported their blowout earnings. Gross profit margins topping 80%.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "in those cases. Uh, Senator Bernie Sanders, uh, your favorite and mine, he's, he's not buying it. On X, he called this out as, quote, 'corporate greed.' He said, quote...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:51:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, no, no, do it in the voice.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:51:12",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right. He said, 'Corporate greed is Tim Cook, the billionaire Apple CEO claiming that hiking prices on Apple products by over $200 is unavoidable after it made $112 billion in profits last year and spent $310 billion on stock buybacks. These price hikes aren't unavoidable, they're unacceptable.'",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:51:30",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "And the 1% are the ones who can get the MacBook Air. I, on the other hand, I'm using a Chromebook, and the 1% have the five... M5 percent at 128 gigs. I'm suffering here with 16 gig. I have 1% of the windows open that they do. I'm 18% as productive, and it is the oppression of the billionaire class.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:51:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Working people are sitting at home using Raspberry Pi devices. It's unforgivable.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:51:56",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "What? I can't believe I'm saying this, but I switched to Android, okay? I'm ashamed, I'm on my family. It is a shame to our country that people have to buy an HTC. I'm on eBay looking for DRAM. If anybody can get me 16 gig more, I'm in the market for some DRAM, okay?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:52:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right, yeah, Bernie Sanders computer engineer is a funny bit. Uh, so anyway...",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:52:18",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "I would like to say we should seize half the DRAM and we should make a collective and Trump is in agreement, we should have a national stockpile of DRAM.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:52:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right. This is going to be a short-term pain thing. The laptops are absurdly cheap. The laptop has a lifespan of five years. The iPad has a lifespan of five years. Even in a corporate environment, I think about five years you gotta swap these things out. That means divide it by five. If a MacBook Air costs 1,500 with a little extra RAM, it's 300 a year, it's a dollar a day, less than a dollar a day. Insignificant for the value you're getting. And if now, if you're buying a phone, yeah, it's kind of a bummer, but you have iCloud storage, etc. If you were buying a Mac Studio and you're in that class, you're getting paid 100,000 a year. Does it matter if your yearly cost of compute on your desktop where you're doing your primary work, does it matter if it is one, two, or three dollars a day, Lon? Does it matter to your boss?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:53:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Probably not. I wouldn't think so.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:53:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I can, I'm your boss. Definitely not.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:53:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:53:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "As your boss I can tell you if you told me I could spend $3 a day and get an extra hour out of a day, to your salary? It's a nice salary. You do okay.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:53:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I do all right.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:53:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "He's doing all right. He's doing all right. $3 a day is $90 a month. It's an incremental $2. So if I'm paying an extra $60 a month, it makes- I can't get out of Bernie Sanders' voice. It doesn't matter, it doesn't matter.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:53:50",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:53:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And I feel like Apple too — or, uh, Apple as well, they're the luxury tech company already. The people- the people spending top dollar on MacBooks and iPads...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Max. They're probably the least likely to sweat an extra hundo once every couple of years for their new device. I mean, I just...",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:54:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "They shouldn't be... if I'm Apple, if I'm Tim Cook, I would just come out and say, listen, it's not our fault, prices may come down, we'll adjust them. These things have a great five-year lifespan. You can sell them after five years for 20% of what you bought, so take the 80% cost. If that winds up being $800 of a thousand, you know, divided by 1,500 days, and there you got your spend. You're spending 50 cents a day. You're good. The value you get is more than 50 cents a day. iPhone, the value you get every day is five bucks a day. We're giving it to you for a dollar a day. Let's all move on. It's a non-issue. This is a non-issue. And I myself now skip... iPad, I do like maybe three or four generations of iPad. That's the one that's the most stable. I skip every other iPhone generation. That's the second most stable. And laptops, I'm now upgrading them every two years for myself because I like to, you know, play with the AI stuff locally.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:55:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. I mean, I... yeah, you don't have to update your Apple devices every year. People were doing that for a while. You could totally save it for two or three. Relax. I do feel like this is yet another reason for Americans to start disliking data centers though. Like, they're making these chips cost so much, it's making my consumer electronics more. If we did ban the data centers, would my Apple devices get a lot cheaper? Is that...?",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:55:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes. They would not have got a price raise if it wasn't the data centers. This is squarely on the data centers. I... this is an approved reason to hate data centers. Exactly. Water is not, energy is not. All that stuff is fudge.",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:55:40",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You saw that video we were sharing of the one in Sterling, Virginia though, where it's making that loud whirring noise.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:55:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, that's disgusting. Let's go find that and show that. I want to comment on that. All right. So if you want to hate data centers... and I think I don't know what Mark Cuban's point was, but I see he talked about it.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:55:54",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Oh no, we're all going to talk... I want to talk about that as well. I did find the video. I'll share it here in the chat room so that Jake can...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:55:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Perfect. This is... and I don't know if this was 60 Minutes or Frontline or somebody covered this.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:56:02",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "No, it was actually NewsNation, the... the right-wing... That's what I thought was so interesting. This is a conservative news outlet and even they... and even they are doing the story now about this suburban... So Sterling, Virginia, it's a suburban community outside of Washington DC. They've got this massive... look at the size of this thing! And it's run by... it's on-prem generators. They're not tapped into the grid, this place. They're creating their own energy with onsite generators and... it is this horrible loud whirring sound. They're saying neighbors are putting massive... oh, there they are, those are the generators. Pause on the generators so I can talk about that if you can get back to that.",
+      "tone": "animated"
+    },
+    {
+      "timestamp": "00:56:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So there's the homes. Pause on that, please. Yeah, so that's perfect. So what this is, if people don't know, is if you run a diesel generator, I'm assuming it's diesel... but it's... could be gas, it could be diesel, they could be nat gas. All different ways to do this. Um, these are like the generator you might use on a worksite, right? Or...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "or if your power goes down at your house and you have Gentek, I think it's the company that does residential and and businesses, um, this will kick on in the case you lose your power and just naturally convert it over. These things are loud as fuck.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:15",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Uh, loud as frack.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:57:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And, there's a bit of emissions that come in and they sound like ba-ba-ba-ba-ba-ba-ba-ba-ba-ba-ba. It's hard. And when you go to the fair and you go to like, you know, the fair and there's like a cotton candy machine, there's like the little portable generator there and it's like giving you a headache.",
+      "tone": "expressive"
+    },
+    {
+      "timestamp": "00:57:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That's a tiny one. These are gigantic, as you can tell.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:57:36",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And these were put in according to the story in Virginia as a backup so if they lost power this would flip over.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:57:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:57:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Now they're the main generator because they can't get enough grid juice that they have to turn these on permanently. It's whizzing, these people are hearing it in their house, they're putting plexiglass and they're covering their windows with like bedsheets—",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:57:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "—mattresses and mattresses.",
+      "tone": "empathetic"
+    },
+    {
+      "timestamp": "00:57:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean—",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:57:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This company should be hated. Also look at the aesthetics of this. I mean, oh my god, show the outside of the building please.",
+      "tone": "indignant"
+    },
+    {
+      "timestamp": "00:58:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's dystopia. That's what Nick—your nephew Nick and we were talking about this and like it is legitimately a dystopian sight like to see this—",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:58:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean it looks like a prison from Andor. I mean literally look at the... and why is there a fence with like, you know, jagged pitchforks at the end? And it's right across the street from these people. I understand they're buying people's homes—",
+      "tone": "observant"
+    },
+    {
+      "timestamp": "00:58:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "—buying their peace from these poor suburbanites.",
+      "tone": "sympathetic"
+    },
+    {
+      "timestamp": "00:58:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Let me tell these idiots Virginia, and now I'm gonna get myself in trouble, but let me tell these um people making a bad decision in life, the people who run this data center, go to each person whose home is there. Say, we are very sorry. We are willing to pay you 50% more than the current value of your home until this situation is done. And we will pay if not to put you into a similar home that you can rent for this amount. There's only like a hundred homes I think that are impacted here. Buy these people out for 2X the cost of their home. They can upgrade their home. It is a bummer. But that's what they need to do and I think some of the people here are holding out to get a better price. So this is like an eminent domain—it's turned into eminent domain. I don't like it. This is why people hate the rich. This is why people hate tech because these people are making an idiotic decision. My judgment is you can hate this data center company.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:59:01",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm glad we cleared that up.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:59:03",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "But so here's what Mark Cuban was saying. What Mark Cuban was saying is data centers, it's—that's not what Americans actually hate. He says the data center has become a symbol—you guys have said similar stuff on All In, I believe the Besties have also talked about this—that data centers have now become a symbol representing the gap between rich and poor in America, representing the powerlessness that people who don't have a lot of wealth feel. Uh and he's also arguing it is too late to change the conversation. You'll often hear people in AI say, 'Well, we gotta start talking about how...'",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "AI is going to deliver this abundance and this medical breakthroughs and whatever all these promises. Cuban feels like you waited too long, that's over. He doesn't feel like lobbying politicians is going to do anything. What he says is, AI companies need to immediately go into towns and cities that are impacted by job losses and just start spreading money around. He's saying billions of dollars on programs that help everyday people, people like creatives, Hollywood unions, people who feel like they're in immediate danger of being displaced by AI. Just give them money, buy them off. That is Cuban's plan.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:00:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Listen, if you're impacting people, it's not dissimilar to what I said in terms of buying their homes and putting them up somewhere. You have to have empathy for those people. And it is correct that people now believe, and they're not exactly wrong, that people are getting rich from these data centers and these data centers will equal job loss. I don't think it's like permanent job loss, I think it's job displacement. I think there'll be a bunch of other opportunities, but they are not wrong that jobs will be displaced. So splashy cashy is a great way to do this. If you're willing to splashy cashy with lobbyist groups, if you're willing to splashy cashy with your representatives or to get somebody in the White House, why wouldn't you be splashy cashy with the impacted communities? They should get free electricity, they should get a subsidy, you know, you should replace their windows with soundproofed ones. And you got to turn those goddamn generators off because that is a noise—that is a serious nuisance. It's an eminent domain situation. You know, when eminent domain happens, you've got to be willing to come over the top, negotiate with people in good faith. If they hold out, you know, when you get to 3x for the last couple of people, you know, then you gotta say we offered them 3x for their home and they wouldn't go for it, and here we are. Maybe that's where they're at right now. You know, we don't have full knowledge of the story.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "01:01:52",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "It's possible.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:01:53",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's possible. So yeah, the Cuban quote that I really like: 'Given the number of data centers and power that is needed today and going forward, if you don't kiss the asses of the people that go to work every day and are just trying to pay their bills, you will fall far, far short of the capacity you need to make your business work.' So I like that he's describing it as basically, it's existential for the AI industry. Buy people off.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:02:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "100 percent. Yes. I mean, he's saying it in a classic, you know, Cuban-esque kind of way, which is a little bit crass, a little bit, you know, candid.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:02:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:02:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Direct.",
+      "tone": "emphasizing"
+    },
+    {
+      "timestamp": "01:02:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Direct.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:02:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "He's being very direct. And you know, but there should be compensation if people are affected. And we should learn to splashy cashy. I say splashy cashy because I like to make it fun.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:02:35",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Yeah, why not? Throw—throw some money.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:02:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's like when I get a dealer, sometimes I'm, you know, I'm betting a hundred-dollar hands in blackjack. Not really my game. Or I'm doing like a hundred a spin when I do my roulette system, which you and I will do together when we do our Vegas trip.",
+      "tone": "anecdotal"
+    },
+    {
+      "timestamp": "01:02:49",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "I didn't know you had a roulette system. I'm curious to hear.",
+      "tone": "intrigued"
+    },
+    {
+      "timestamp": "01:02:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh yes I do. Yes I do. See, when you have a deep sack, you can play fun games for amounts of money—",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "...that are trivial to your deep stack.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:03:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I've never-",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:03:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Let's talk about it. Enough, Duty.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:03:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I've really never played roulette in Vegas. Like I think one time I might have placed one bet.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:03:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's basically close to even odds. It's kind of like, Craps is the most fun.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:03:13",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Why is Craps is the best? Craps is the best odds in Vegas, right? Just playing the pass line?",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:03:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think the other one, where you get two cards and you're the banker or the dealer and you crumple the cards up and slam them over. What is that one called?",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:03:24",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I don't even know that one.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:03:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Ah man, you don't know that one? You either... you add the cards up like the number... the face cards are zero. What's it called?",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:03:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Not Baccarat, right? Not Baccarat.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:03:34",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Baccarat.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:03:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Baccarat. I got some Asian friends who are super into Baccarat.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:03:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "That's the one with the pads? That's the one with the paddle that James Bond is always playing?",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:03:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's a very like, fun game, having a couple of beverages. I think that one's closest to even money.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:03:49",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, it's almost like War, basically. It's like two steps more complicated than War, basically.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:03:52",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Correct.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:03:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Basically, my system is, if you take your net worth, right? And I'm trying to win but... 400 dollars to pay for my Peking Duck...",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:04:05",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:04:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You know, or whatever, you know, my steak, you know, my Wagyu Tomahawk or whatever I'm trying to pay for. I can go pretty deep into the bankroll. I can go 10, 20, 30, 40k into the bankroll. Now if you were trying to get your, I don't know what you like to splurge on for yourself, but if you were to get your-",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:04:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "My dad and I when we go to Vegas on our holiday trip, it's usually Cut. If we do well enough we treat ourselves to Wolfgang Puck's Cut at the Venetian.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:04:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so you get a 100 dollar steak, so you gotta get like 200 bucks, right?",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:04:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean, you're... it's gonna be like seven, eight hundo by the time you're done at Cut if you get drinks, three desserts, you know, it's a big steak.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:04:40",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, well then you might go deeper than your stack. This is a problem. See, this is the thing. You're not gonna be able to fund the 10 negative outcomes in a row, or God forbid 20 in the system.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:04:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:04:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's different.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:04:55",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Definitely. It's different.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:04:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. Let's do one or two more here. What do we got left here?",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:04:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Alright, uh, I think we should talk about this Mark Zuckerberg thing. Uh, so the New York Times reports that Zuck has instructed lieutenants to forge partnerships with PolyMarket and Kalshi because he wants Meta to develop Arena, their own prediction market app. But it's got a twist, Jason: it relies on points instead of actual real money wagers. So Arena will allow users to make bets on practically anything. They're aiming it at 18 to 34 year olds. Zuck says he wants 100 million monthly active predictors in the app. Uh, here's a quote from Ime Archibong, the Meta VP of Product. 'With the right containers, the social conversation is the payoff as people aim to show off how good they are at predicting things to their friends.' My question to you, I sort of feel like, and I'm curious your thoughts, the whole fun of prediction markets is that you're gonna win money. It's legal gambling on your phone. I don't think I would be into it if it was just like a video game and I'm earning points for my guesses.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:05:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "This feels like the warm-up to an app-",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:06:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Acquisition or a competition. So again, remember I said earlier in the program when describing the frontier models that they are going to compete with their customers. And so compete with your customers is the trend when you have a platform. He has a platform, he has 3 billion users, you know, he is going to form a partnership with one of these two companies. It'll probably include an investment, it'll include access to those players without him having to be in the wagering business.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:06:32",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:06:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "He doesn't want to be in the wagering business because he's got enough heat on him. So he wants to make this a fun points-based system. So when he gets dragged in front of Congress, he says, 'Oh, I was just teaching people how to think in bets.' Shout out Annie Duke, great book, great philosophy. So he'll just be like, 'Oh no, I just made a fun game. We would never do this.' But the truth is young people are ready, the ship has sailed, they like to wager on sports, they like to wager on prediction markets. There's nothing wrong with that. So Zuckerberg's trying to like have it both ways is what I'm guessing here. I think that if he really likes the space, he should put 10 billion into each of these companies or whichever one takes his 10 billion. He should put a five to 10 billion dollar bet at a 50 billion, 100 billion dollar market cap, whichever one he chooses. I would go with Polymarket, I'm partners with them.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "01:06:57",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:06:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And yeah, it's—and then give access to that group and then just say, 'Listen, you know, all around the world people can wager. Whatever the laws are, we're going to respect the laws. If in Australia people can wager, great. If you're under 18, you got to use the point system. When you're 18, you can go to Vegas—actually it's 21 in Vegas, I understand.'",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:07:31",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:07:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, so you got to be 21. I mean, it's pretty restrictive. So, I didn't prepare any comments or thoughts about Om Malik. Om Malik and I were journalists in the late 90s, early 2000s together. Gosh, and he had Gigaom, his own publication, and before that he was Business 2.0, and he freelanced for a lot of big people. I think actually he—such a great writer. I mean, all of us who were journalists would look at his writing and say, 'God, I wish I wrote that.' I cannot tell you—",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "01:08:07",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "He really taught me how to write about tech in a real way. Like when I was first writing about tech and I didn't know anything about technology, I would read Gigaom and that was the best, most thoughtful, most analytical tech writing I think you could find at the time. And so I really, like, drafted off of a lot of what he was doing when I was first getting started.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:08:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And I shared a picture from one of our Thanksgivings, I believe. And you know, our family would invite him to Thanksgiving every year. I think there were probably 10 of us in competition—and I think this was probably a good anecdote—there were probably 10 of us, 20 of us who knew him, who were friends with him, who competed to have Om at your Thanksgiving because he was just such a great human. And yeah, there we are in our younger years. And I'm trying to figure out whose house we're at, I think that's my house.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:09:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I think, yeah, I think I know whose house it is. It's a family member's house who was hosting that year, I think. He was friends with a lot of people in my family, and he was friends with everybody I knew. Why? He was spicy. He was spicy. Thank you for the like, thank you for the heart. He was spicy. You know, he had opinions, and he would take people on, he would tell the truth. He did it many times with me. We sparred on our blogs. And, you know, in our industry, it's so cutthroat, it's so zero-sum. Um, people throw elbows, people are trying to get over on people, including their \"quote-unquote\" friends. You never, even for a second, ever thought that this man's heart was not in the right place. Every interaction, every moment, sterling, high morals, high ethics, incredibly open heart, cared about people in a way that was... not human. He was greater than human in his love for his friends, and he was part of many people's families, including my own. I will miss you deeply, my friend Om. That's... that's all I have to say. When I say Om, I just think of that big smile. I think about us arguing over pecan pie and then going back and getting a second slice, Lon, and just, you know, having that late-night Thanksgiving and then, you know, driving him home or back to his hotel, grabbing him an Uber. He was a giant. He was a giant. And he would have been 60 in the fall. He was my big brother. He was an incredible human. And I'm struggling with the death of Josh Baer and now the death of my friend Om Malik. And previously Goldie and Tony Hsieh—David Goldberg and Tony Hsieh. I now have four friends who were very close to me, who were all—shared one common theme: they cared so deeply about people. And I wish I could be half the human being on my best day as Om Malik.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:11:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Rest in peace, brother.",
+      "tone": "somber"
+    },
+    {
+      "timestamp": "01:11:19",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah. Rest in power. What a writer. Oh man.",
+      "tone": "respectful"
+    },
+    {
+      "timestamp": "01:11:24",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Yeah, a great writer, a really insightful guy and, yeah, we will all miss him.",
+      "tone": "respectful"
+    },
+    {
+      "timestamp": "01:11:30",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Should we go off duty for a little bit?",
+      "tone": "suggestive"
+    },
+    {
+      "timestamp": "01:11:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, let's go off duty for a minute and just try to enjoy ourselves as we remember Om. And I just, yeah, I'll talk to you about it after the show, but, yeah, I want to do something special for Om and something special for Josh. So we'll talk after show for maybe some ideas for that.",
+      "tone": "engaged"
+    },
+    {
+      "timestamp": "01:11:42",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:11:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Uh, we'll talk about it. Uh, I do want to talk about, you had this tweet that went viral.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "01:11:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, jeez.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:11:48",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "What price would you pay for Starlink for an hour on a flight?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:11:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I did?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "01:11:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "What? Have you seen that dinner in Hawaii tweet?",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:11:56",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Now, apparently Jason was hanging out with some venture capitalists, they were discussing...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:12:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "How much would you pay per hour for Starlink during a flight? But this was based on the VC responses, so the dollars, I think, are, you know, it was a bit tongue-in-cheek the way you offered it.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:12:14",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It starts at 50 and it goes up to 100, 200, or 500.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "300 in there.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:20",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Or yes, 300, and you can see how heavily people are weighting it for just 50, because obviously not everybody can afford, you know, if you were on a five-hour flight, $250 for internet, pretty considerable, you could almost upgrade to first class, or at least business class for that amount.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:12:37",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So, I'm curious what one you mentioned in the tweet like the VCs had interesting answers. What were the VCs' answers like?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:12:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, so the interesting thing about this is, and it's almost at a million. Yeah, I mean normally, I have a million followers, so my normal tweet gets, I don't know, 50, 100,000 views.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:12:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Like about 5% of your follower count.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:12:58",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:12:59",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Putting that aside, you know, I put it out there just to show the price elasticity for the 1%, or the... let's call it the top 10%. If you're paying for a five-hour flight across the country in business class, that's a $2,000 to $3,000 flight each way. So let's go with the each-way flight, I'll put it at 2,000, you bought early, but many of us will buy late, 3,000. And we gotta get work done, right? It's every hour counts, you're in a high, high-value thing, and let's face it, you know, the current speed is nothing compared to Starlink. It's literally like having fiber, and so you can do anything: video conference, whatever. So recapturing those five hours has real value. And so, $50 an hour times five is 250, $100 an hour times five is 500, and then 1,000. It was a no-brainer for $50 or $100 an hour. At 200, people started to tap out, 300 people tapped out. In other words, a $2,000 ticket going to $3,000 for a five-hour flight, $200 an hour, not a problem for people, they would be like, 'it's 50% more.' Now, when you fly coach, country to country, it's gonna be 600, 700, 800 dollars each way, yeah? It's 1,500 for a round-trip ticket coast to coast?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:13:59",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "I mean, yeah, I bet you could even do a little bit better than that.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:14:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "1,200? Yeah, something like that. It's no longer $150, $250 each way coast to coast. Those days, the JetBlue days, Long Beach... I remember those days.",
+      "tone": "reminiscent"
+    },
+    {
+      "timestamp": "01:14:22",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Yeah, you could honestly get like $179 LA to New York not that long ago.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:14:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Introductory price was $99 during their... during the early days of JetBlue when they only flew to Long Beach, this little dinky airport that was another 30 minutes south of LAX, and I took that 20 years ago, 2002, 25 years ago, that was my staple.",
+      "tone": "reminiscent"
+    },
+    {
+      "timestamp": "01:14:49",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Yeah, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:14:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Because I was on a budget.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:14:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Now, you add $1,000 to a $1,000 ticket...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:15:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Take it as double, right? So that was the sort of interesting spirit of this, but it just goes to show that productivity and how incredible Starlink is. The footnote to this is United is doing it for free. So United is going to be—I'm thinking about buying United stock. I may put a J-trade in just because United's going to have this first and I know some people doing LA to San Francisco told me they're getting Wi-Fi, I'm getting Starlink there. The routes that have Starlink, I think this will increase business travel by at least 50%. I think it'll increase business travel by 50%. I would be 50% more likely to take a trip if I had Starlink.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:15:35",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Did you see this MrBeast clip? That's what I was really wanting to tell you about. You and MrBeast happened upon this exact same observation in the same week. Take a look, this is a viral clip from MrBeast on a podcast not very long ago and he's saying exactly the same thing that you just said. Let it play, Jay.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:15:51",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Once enough of them get it, I will only book flights exclusively on planes with Starlink. Like, I don't care. Like, oh, this has an extra one hour layover? I don't give a fuck. There's Starlink. Yeah, scoff, who cares? Starlink. Who cares? Starlink. Piss off. I'd sit in the back of the plane if it gives me Starlink. Like, I really don't care. Starlink is—probably most people listening to this haven't used it, but like, for reference, like when I filmed in Antarctica, the only way to get any signal is Starlink, right? When I film in the middle of...",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "01:16:21",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Okay, got it. All right, we get the idea. But yeah, like, you said it and he said it exactly the same way the other day, like, I would accept layovers in exchange for using Starlink. It's that amazing.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "01:16:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, here's—I did a follow-up today, I think, or this morning, and I did another survey. So just go ahead and pull that up. I basically—and this was more like as a response to this crazy rage bait I put out there. And I knew it was going to be...",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:16:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I feel like people don't realize you're being funny and they think that you're being sincere, like, that you're really saying like, you're poor if you don't pay 300 dollars for Starlink and like, I don't think that's really what you were saying.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:17:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean, I think I was pretty clear. So here's the real test. Okay, now the real Starlink on plane survey. Six hour flight. One, coach middle seat with Starlink. That's number one line, you get a coach middle seat with Starlink. This is—forget about paying. These are your two choices. Take payment out of it. I'm sending you to fly to New York for me or whatever, it's a six hour flight. You get a coach middle seat with Starlink, first class no Starlink. What do you pick?",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "01:17:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Oh, I'm going first class no Starlink. I don't care.",
+      "tone": "decisive"
+    },
+    {
+      "timestamp": "01:17:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Exactly. Now, that was 71%. If you ask a VC this same question, they're going coach middle with Starlink. Every VC picked that option.",
+      "tone": "matter-of-fact"
+    },
+    {
+      "timestamp": "01:17:40",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think yeah, that's crazy. I mean, I don't—I'm not a huge fan of doing work.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "01:17:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Here's why. You don't fly first class that often, correct?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "01:17:50",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "No, hardly ever.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:17:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. I mean, maybe if you have miles or you're treating yourself. It's not your default. If your default is first class, you're like, you know what? The most annoying thing in my life is...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:18:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The most annoying thing in my life is the internet on the plane.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:18:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "If you're flying regularly in coach, the most annoying thing in your life is the elbow wars on either side of you and getting a middle seat.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:18:10",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Yeah, middle seat. I mean I'm also a full-figured man, so a middle seat's not... I mean...",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:18:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Not for long, I'm getting you on that road out coach... twist.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:18:22",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "I'm in that, you know, center like I'm encroaching. Yeah, it would be nicer if I were 20-30 pounds thinner, it probably wouldn't be as bad.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:18:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, well it's available to you. I told you already I would pay for it.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:18:34",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "I'm on it. Yeah, I'm going to figure it out. Now that it's pill form, I can try it.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:18:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, great. I told you I'm willing to give you the shot on air every week.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:18:43",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "I don't know how I'm resisting. Yeah, I don't know how HR is going to take it. It's a little weird. I don't think people want to see that either, frankly. No.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:18:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, I think it'd be the highest-rated show of the week.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:18:57",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "It's clickable. As a tweet, it's clickable.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:19:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Alright, what else is up to do? We gotta wrap up, but before we do, I did want to share a few things I'm watching on TV. The first one, there's this Netflix true crime documentary called Maternal Instinct. Don't look it up. If you're listening to me, do not look up the crime at the center of this documentary. I'll tell you how it sort of opens. They're talking about this very strange troubled woman. She enters into this new relationship and she starts telling people that she's gotten pregnant. But a lot of people in her life already know she had a difficult pregnancy earlier in her life, she's had her uterus removed, so she can't possibly, biologically she can't be pregnant. Yet she's lying on social media and apparently to this man that she's dating and she's saying that she is pregnant. I won't tell you any more about how this... it ends up going to the most... it's the most insane true crime documentary I've ever seen. The place this woman goes to sustain this lie... it's insane, it's jaw-dropping. I have no idea how I hadn't heard about this story before the documentary. It is like the craziest thing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:19:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Watch, just watch it if you like true crime nonsense.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:19:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I am here for it. I always like a... I always like a true crime situation. A good doc is great.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:19:28",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And I think... I feel like a lot of them don't have what I would call like 'the juice'. Like you sometimes get like two-thirds of the way through the true crime doc and you're like 'this isn't really that great of a story', they're repeating themselves a lot, it's a lot of the same kind of like re-creations or interviews that kind of say the same thing or they're talking like around the crime, you know, like 'what happened next was unbelievable'. You know, like stuff like that, they're filler. This is not filler.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:19:46",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "This is just... people are making too many docs, they're feeding the doc machine. There's too many of these true crime docs and not every true crime that gets the doc treatment is really doc-worthy.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:19:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I mean isn't 90% of these crimes like these are some dumb people who end up...",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:21:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "passion did something unadvised. The end.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:21:02",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Exactly. Like people were cheating on each other's spouses and then somebody ends up dead. Love triangle. There's a lot of murder.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:21:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, a lot of these movies they're just trying",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:21:09",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Inheritance, murder. They're trying to squeeze one more true crime doc out, but not Maternal Instinct. It's",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:21:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. It's a legitimately insane crime. I want to just give a shout out to consumer electronics being great and affordable at the same time. Why? I got three kids.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:21:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You know, I could give them an expensive camera and be anxious about what happens with it. Instead, I looked at, you know, and I used some, you know, models to find me the best ones.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:21:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I bought this Kodak for $189. I bought this with a flotation on the wristband.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:21:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Wow.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "01:21:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And I don't want them, you know, on their devices. I don't want them taking their iPads or phones, you know, indefinitely to the beach, etc. And I said let's get a point and shoot for these guys that goes underwater, has the flotation device. Kids love the water, they won't get out of the water. You give them one of these, you put a 16 gig card in it.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:22:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:22:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's got some limitations like, you know, it does 1080p video instead of 4K. But the freedom it gives you that they can take it in the water, it's waterproof, you can drop it. And, you know, when we do our little summer vacay, you can let them... the whole point of this is don't worry. No. No agita.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:22:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Just go for it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:22:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And we bought one and then we buy two. Now they're out there taking pictures, they're documenting it and you're letting kids have that freedom plus responsibility of the camera, but as the parent it's not like some digital SLR that's going to get dropped. If this thing breaks, buy another one, you know, so shout out to these kind of devices.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:22:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I do need another device. There is no device that allows you to play Spotify only and give it to your kids. You're in you're at war with your kids being addicted to technology. There needs to be a single use device",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "01:22:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "that only plays Spotify, Apple Music, etc. and has nothing else on the device but Wi-Fi and that.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:23:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's funny you mention it's like the new MP3 player. Like a lot of people watching might be too young to remember the pre-iPod, there was like a whole category of... a Rio, the MP3 player, like a Dell had one, like every every company had one. And then iPod kind of stole the whole market, but",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:23:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I will back this company if somebody comes out with a light MP that only does one thing.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "01:23:26",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Yeah, an Android",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:23:27",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "streaming device just for music streaming.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:23:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's it. And it just follows every Spotify thing. The fact that they don't have Spotify for kids single use device, this thing could be incredibly small. It could be built into headphones. I would love to see somebody build me over the ear headphones with this built into it.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:23:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I will fund this company. You will sell a million units in a year to parents who want to let their kids listen to music, but don't want them on devices.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "01:24:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I want them to have an iPod touch or their old Android phone or their old iPhone because they'll wind up on TikTok doom scrolling.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "01:24:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It's really like it's a Roku for music instead of video because you could even do like Roku City where there's like a homepage that's like here's the best of what's new on Tidal, on Spotify, on Apple, like you could make it that sort of brand agnostic central hub that people love. I mean, that's why Roku City is so infamous.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:24:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:24:24",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "A streaming music player for kids. That's a great idea.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:24:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Somebody please send me... I literally will put 100, 200k in seed this. Come to our accelerator.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:24:33",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You could make it look fun for kids, you know, you could make like have fun with the design of it, give it like a, you know, yeah, I think it's a fun idea.",
+      "tone": "creative"
+    },
+    {
+      "timestamp": "01:24:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And if you go on Reddit, I have been on countless discussions of people trying to find this. But when you like see the conversation, it's all the parents come to the same thing. Every single one is like go buy an old iPod.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:25:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And then you're like no, then you have to sync the music. The kids want to stream stuff. Yeah, it's iPods only worked with you had to have like the iTunes app that you were using to put the music on your iPod. It wouldn't be like this would be, you know who should make it is like Spotify should just make like they should just make one.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:25:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "They should, like I said earlier, just make one. Apple should make one. Single function, only one thing.",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "01:25:17",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "The only thing I can find is you can take an old Android phone, put the child protections on it, delete every other app or timer out every other app but Spotify and just give them an old junky phone. I've seen this one. And this one as you can see, it has everything on it. And it has... yeah.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:25:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. I've looked at this one again. It is a little too much phone. Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:25:34",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I mean now I'm flashing back to like being on Napster and LimeWire and downloading MP3s to put on your, to put on your MP3 player. Everybody's got a family sub now. Family subscription, easiest thing in the world.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "01:25:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alright, great show. Oh yeah, one more. Give us your one more lightning round. Let's get out of here.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:25:49",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'll, I'll do one more. I love the new Vampire Lestat show on AMC. Do you remember they were doing Interview with the Vampire, they had a show on AMC the last few years? So they did two seasons where they adapted Anne Rice's classic Interview with the Vampire. And then Anne Rice later wrote a novel where it was like Lestat the Vampire, the Tom Cruise played in the movie. He survives because he's a vampire, so he's alive forever. So he survives into the present day and becomes like a rock star. And so AMC for the third season of their Interview with the Vampire show, now they're adapting that. And so it's set in the present day. It's crazy. Like the, the journey that this show has made from doing the original vampire Interview with the Vampire stuff like the movie to now being this like rock and roll band touring but they're vampires. Like it's, they made a movie Queen of the Damned out of this book many years ago. But now they're redoing it as this show. It's a lot of fun.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:27:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "The acting is really good. It's just so over the top you kind of can't believe that it exists. It's really campy. I'm enjoying it a lot. So that's on, if you get AMC plus or Shutter you can watch the Vampire Lestat.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:27:13",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Oh, I have, uh, something special to show you.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:27:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, let's take a look.",
+      "tone": "interested"
+    },
+    {
+      "timestamp": "01:27:17",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Uh, this is, uh, a video of me e-foiling. I have a video of me e-foiling.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:27:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh wow, we've got video evidence of the e-foiling.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "01:27:26",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Here we go, this will be your last.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:27:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, let's close it out with that. Can't top that, we won't be able to top that.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "01:27:30",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Okay, can you see me on the e-foil?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:27:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes. Yes I can.",
+      "tone": "positive"
+    },
+    {
+      "timestamp": "01:27:34",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Do you hear the sound or no?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:27:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I don't hear the sound, no, but I see you are indeed e-foiling.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:27:38",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Okay anyway, you see I'm like now... yeah, so I'm on the ground, but see it just lift off? Yeah, so you lean back and then it goes up, and you see the joystick in my hand. This is when I was first trying to figure it out, but see I'm up?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:27:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You're doing alright, you're going.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "01:27:48",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Yeah, yeah, this is when I was first getting up, and then boom, yeah, I fell after that. But anyway, that wasn't the spot where I fell and hurt myself, but that was one of them.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:27:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's beautiful. You know, it kind of looks like a standing on a jet ski. I have been jet skiing before. And like that's you're sort of sitting on the jet ski like a motorcycle, this would be like if you're standing on it.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:28:05",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Yes. Um, it was, let me tell you something, this is fun. Uh, I recommend this for... going fast on water is fun, jet skis are a lot of fun.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:28:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It is, I think, similar to a jet ski. Trying to see if I have another one here of me doing it. Hold on a second. This might be me. Is that me?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:28:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "This wasn't it... it was the infamous picture of Zuckerberg. He was like windsurfing, not not on this.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:28:25",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "I think he was doing a similar thing, but when he was doing it, he was doing a regular foil where you pump up and down in order to get the lift.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:28:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right. That like very nerdy, infamously dorky looking photo of Mark Zuck.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "01:28:35",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "There it is, there it is.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:28:38",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, when he had the American flag and everything, and he's got his sunscreen on so he looks like a ghost kind of.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:28:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That was hilarious. Oh yeah, what are we doing here? He's a lot of weird pictures of Zuck over the years. Yeah, there's the pancake makeup, looks like a Kabuki.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:28:49",
+      "ad": false,
+      "speaker": "Lyall Davenport",
+      "text": "Anyway, this is my new, not quite my new passion, but it is definitely up there in terms of flow experiences you can have. It's like, I think this would be second for me to skiing, and I would like to keep pulling this string and see where it leads me. A lot of fun.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:29:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, a lot of fun. All right, that's this week in Startups. That's your Twist for Friday, June 26th, you'll consume it on Saturday. We'll see you all soon. Bye-bye.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:29:07",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Bye-bye.",
+      "tone": "neutral"
+    }
+  ],
+  "highlights": [
+    "Skim Systems is revolutionizing aerodynamics testing by replacing expensive, sterile wind tunnels with sensor-embedded tape that collects high-frequency data from vehicles in real-world conditions. This technology offers a 95% reduction in operating costs compared to traditional methods while providing \"digital twins\" for industries ranging from Formula 1 to defense and wind energy.",
+    "The U.S. government has reportedly intervened in the release of OpenAI’s newest frontier models after safety evaluations revealed the systems could exhibit \"undesirable propensities\" such as cheating and concealing misbehavior. This highlights a growing tension between rapid AI innovation and the necessity for national security backstops against advanced cyber threats.",
+    "Apple has implemented hardware price hikes of up to 25% on MacBooks and iPads, citing unprecedented surges in the cost of memory and storage components. This trend is largely driven by the massive infrastructure demands of AI data centers, which are increasingly viewed as a symbol of the economic gap between tech corporations and localized communities.",
+    "Meta is reportedly developing \"Arena,\" a points-based prediction market app designed to engage the 18-34 demographic without the legal hurdles of real-money gambling. By gamifying the social conversation around predicting future events, the platform seeks to capitalize on the popularity of markets like PolyMarket while maintaining a safer regulatory profile.",
+    "The integration of Starlink into commercial aviation is expected to drastically alter travel preferences, as business travelers demonstrate a high willingness to pay premiums for fiber-like connectivity. Experts predict that the availability of reliable, high-speed internet will lead travelers to prioritize specific flight routes and airlines, such as United, over traditional cabin luxuries."
+  ],
+  "summary": "In this episode of *This Week in Startups*, Jason Calacanis and Lon Harris host Lyall Davenport, founder of Skim Systems, to discuss his company’s revolutionary approach to aerodynamics. By using specialized sensor-integrated tape to collect real-world data on vehicles, Skim Systems provides a significantly cheaper and more accurate alternative to traditional wind tunnel testing. While the company is currently focused on Formula 1 racing, the discussion explores the broader implications for defense, aviation, and infrastructure, highlighting a growing trend where hardware serves as a strategic \"moat\" in an increasingly AI-dominated software market.\n\nThe news docket focuses heavily on the intersection of big tech, government policy, and market shifts. The hosts analyze the U.S. government’s intervention in OpenAI’s model releases, debating whether these delays are necessary security precautions or a form of innovation-stifling censorship. They also cover Apple’s recent 20% price hikes and the loss of its top Vision Pro executive to OpenAI, signaling a growing rivalry as OpenAI moves into proprietary hardware. Further discussions include Mark Cuban’s warning that AI companies must \"buy off\" local communities to mitigate the backlash against noisy, energy-hungry data centers, and Mark Zuckerberg’s plan to launch a gamified, point-based prediction market at Meta.\n\nThe episode concludes with a somber tribute to the late legendary tech journalist Om Malik, emphasizing his integrity and profound influence on the industry. Throughout the \"off-duty\" segment, the hosts touch on themes of modern productivity and parenting, debating the high value of Starlink’s high-speed internet on flights and the market need for single-use consumer electronics—such as dedicated music players—to help families minimize the \"doom scrolling\" associated with smartphones.",
+  "description": "This Week In Startups is made possible by:\nPlaud - https://Plaud.ai/twist\nSentry - https://sentry.io/twist\nNorthwest Registered Agent-https://northwestregisteredagent.com/twist\n\nDigitalOcean - https://do.co/twist\n\nToday’s show:\nF1 teams spend up to a third of their budgets on aerodynamics, often utilizing wind tunnels to simulate what happens on the track.\nBut Lyall Davenport of SKN Systems created a sensor-embedded tape that sticks directly to race cars as they drive around the real world, generating 420M data points per hour. And it comes in at roughly 95% less cost than running a full simulator.\nHear about how Lyall’s background in racing helped him develop the concept, plans to expand from motorsports to drones and defense, and his experiences going through Jason’s various programs.\nPLUS OpenAI’s new models are so good, you can’t use them. Why Apple’s Vision Pro chief defected to OpenAI (and why their laptops and devices are getting more expensive). A look at the world’s most annoying data center in Sterling, Virginia. And Jason remembers iconic and influential tech journalist Om Malik.\n\nGuest:\n\nLyall Davenport: https://x.com/Lyalldavenport\nSKN Systems: https://www.skn.systems/\nRelevant Links\nMcLaren Racing: https://www.mclaren.com/racing/\nCadillac F1 Team: https://www.cadillacf1team.com/\nLAUNCH Accelerator: https://launch.co/\nThe Syndicate: https://www.thesyndicate.com\nCapital Factory: https://www.capitalfactory.com/\nBuck’s Restaurant of Woodside: https://www.buckswoodside.com/\nOpenAI: “Previewing GPT-5.6 Sol”: https://openai.com/index/previewing-gpt-5-6-sol/\nMETR (Model Evaluation and Threat Research): https://metr.org/\nBloomberg: “Apple’s Vision Pro and Smart Glasses Chief to Join OpenAI”: https://www.bloomberg.com/news/articles/2026-06-26/apple-s-vision-pro-and-smart-glasses-chief-paul-meade-is-leaving-for-openai\nNewsNation: “Data center noise irks Virginia neighbors”: https://www.youtube.com/watch?v=AtXD4EFOsCg\nMark Cuban data center post: https://x.com/mcuban/status/2070211760196587534/\nNYT: “Mark Zuckerberg Directed Meta to Create a Prediction Markets App”: https://www.nytimes.com/2026/06/23/technology/meta-prediction-markets-app.html\nAnnie Duke: “Thinking in Bets”: https://www.annieduke.com/thinking-in-bets/\nOm.co: “Om Malik, 1966-2026”: https://om.co/2026/06/24/1966-2026/\nJason post on Om Malik: https://x.com/Jason/status/2070287418138460164\nStarlink for Aviation: https://starlink.com/business/aviation\nMrBeast comments on Starlink: https://x.com/teslaownersSV/status/2042490675716091942?s=20\nKodak PIXPRO WPZ2 Digital Camera: https://www.amazon.com/Digital-Optical-Waterproof-Shockproof-Cleaning/dp/B0GSS7PCL8\nNetflix “Maternal Instinct” trailer: https://www.youtube.com/watch?v=fzW61JgRbNk\nAMC+ “Vampire Lestat” trailer: https://www.youtube.com/watch?v=7c7JFMTBeVk\n\nTimestamps:\n\n0:00 How SKN uses tape to generate aerodynamic data\n3:14 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n5:27 How SKN uses tape to generate aerodynamic data\n9:05 Sentry - Your team should be focused on shipping features — not chasing down bugs. New users can get $240 in free credits when they go to https://sentry.io/twist and use the code TWIST\n16:30 F1 teams are worth HOW MUCH?\n18:52 Northwest Registered Agent: Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity — Learn more at https://northwestregisteredagent.com/twist\n19:45 Future markets beyond motorsports\n29:13 DigitalOcean - Want to see what building on a true AI-native platform looks like? Head to https://do.co/twist to start building on DigitalOcean's AI-Native Cloud today — and cut your AI workload costs by up to 50%.\n31:55 GPT-5.6 is banned for now\n42:56 Vision Pro chief makes for the exit\n50:34 Apple raises their prices\n55:15 The data center you're allowed to hate\n1:05:14 Zuck's new prediction market app\n1:07:52 RIP Om Malik (1966-2026)\n1:19:00 Streaming and camera recommendations\n1:27:16 All about eFoiling\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\nCheck out all our partner offers: https://partners.launch.co/\n\n\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+  "duration": 5375,
+  "people": [
+    "Jason Calacanis",
+    "Lon Harris",
+    "This Week",
+    "In Startups",
+    "Northwest Registered",
+    "But Lyall",
+    "Why Apple",
+    "Vision Pro",
+    "And Jason",
+    "Om Malik",
+    "Lyall Davenport",
+    "Relevant Links",
+    "The Syndicate",
+    "Capital Factory",
+    "Model Evaluation",
+    "Threat Research",
+    "Smart Glasses",
+    "Mark Cuban",
+    "Mark Zuckerberg",
+    "Directed Meta",
+    "Prediction Markets",
+    "Annie Duke",
+    "Digital Camera",
+    "Maternal Instinct",
+    "Vampire Lestat",
+    "Native Cloud",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason"
+  ],
+  "topics": [
+    "SKN Systems and real-world aerodynamic sensor technology",
+    "Government intervention and safety evaluations of OpenAI's frontier models",
+    "Apple's hardware price increases and leadership departures to OpenAI",
+    "Social and environmental controversies regarding AI data centers",
+    "Meta's development of a points-based prediction market app"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/NmVmzev3_yM/maxresdefault.jpg",
+  "date": "20260627",
+  "youtube_url": "https://www.youtube.com/watch?v=NmVmzev3_yM",
+  "youtube_metadata": {
+    "title": "Why F1 Teams are Replacing Wind Tunnels with Smart Tape | E2305",
+    "description": "This Week In Startups is made possible by:\nPlaud - https://Plaud.ai/twist\nSentry - https://sentry.io/twist\nNorthwest Registered Agent-https://northwestregisteredagent.com/twist\n\nDigitalOcean - https://do.co/twist\n\nToday’s show:\nF1 teams spend up to a third of their budgets on aerodynamics, often utilizing wind tunnels to simulate what happens on the track.\nBut Lyall Davenport of SKN Systems created a sensor-embedded tape that sticks directly to race cars as they drive around the real world, generating 420M data points per hour. And it comes in at roughly 95% less cost than running a full simulator.\nHear about how Lyall’s background in racing helped him develop the concept, plans to expand from motorsports to drones and defense, and his experiences going through Jason’s various programs.\nPLUS OpenAI’s new models are so good, you can’t use them. Why Apple’s Vision Pro chief defected to OpenAI (and why their laptops and devices are getting more expensive). A look at the world’s most annoying data center in Sterling, Virginia. And Jason remembers iconic and influential tech journalist Om Malik.\n\nGuest:\n\nLyall Davenport: https://x.com/Lyalldavenport\nSKN Systems: https://www.skn.systems/\nRelevant Links\nMcLaren Racing: https://www.mclaren.com/racing/\nCadillac F1 Team: https://www.cadillacf1team.com/\nLAUNCH Accelerator: https://launch.co/\nThe Syndicate: https://www.thesyndicate.com\nCapital Factory: https://www.capitalfactory.com/\nBuck’s Restaurant of Woodside: https://www.buckswoodside.com/\nOpenAI: “Previewing GPT-5.6 Sol”: https://openai.com/index/previewing-gpt-5-6-sol/\nMETR (Model Evaluation and Threat Research): https://metr.org/\nBloomberg: “Apple’s Vision Pro and Smart Glasses Chief to Join OpenAI”: https://www.bloomberg.com/news/articles/2026-06-26/apple-s-vision-pro-and-smart-glasses-chief-paul-meade-is-leaving-for-openai\nNewsNation: “Data center noise irks Virginia neighbors”: https://www.youtube.com/watch?v=AtXD4EFOsCg\nMark Cuban data center post: https://x.com/mcuban/status/2070211760196587534/\nNYT: “Mark Zuckerberg Directed Meta to Create a Prediction Markets App”: https://www.nytimes.com/2026/06/23/technology/meta-prediction-markets-app.html\nAnnie Duke: “Thinking in Bets”: https://www.annieduke.com/thinking-in-bets/\nOm.co: “Om Malik, 1966-2026”: https://om.co/2026/06/24/1966-2026/\nJason post on Om Malik: https://x.com/Jason/status/2070287418138460164\nStarlink for Aviation: https://starlink.com/business/aviation\nMrBeast comments on Starlink: https://x.com/teslaownersSV/status/2042490675716091942?s=20\nKodak PIXPRO WPZ2 Digital Camera: https://www.amazon.com/Digital-Optical-Waterproof-Shockproof-Cleaning/dp/B0GSS7PCL8\nNetflix “Maternal Instinct” trailer: https://www.youtube.com/watch?v=fzW61JgRbNk\nAMC+ “Vampire Lestat” trailer: https://www.youtube.com/watch?v=7c7JFMTBeVk\n\nTimestamps:\n\n0:00 How SKN uses tape to generate aerodynamic data\n3:14 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n5:27 How SKN uses tape to generate aerodynamic data\n9:05 Sentry - Your team should be focused on shipping features — not chasing down bugs. New users can get $240 in free credits when they go to https://sentry.io/twist and use the code TWIST\n16:30 F1 teams are worth HOW MUCH?\n18:52 Northwest Registered Agent: Get more when you start your business with Northwest. In 10 clicks and 10 minutes, you can form your company and walk away with a real business identity — Learn more at https://northwestregisteredagent.com/twist\n19:45 Future markets beyond motorsports\n29:13 DigitalOcean - Want to see what building on a true AI-native platform looks like? Head to https://do.co/twist to start building on DigitalOcean's AI-Native Cloud today — and cut your AI workload costs by up to 50%.\n31:55 GPT-5.6 is banned for now\n42:56 Vision Pro chief makes for the exit\n50:34 Apple raises their prices\n55:15 The data center you're allowed to hate\n1:05:14 Zuck's new prediction market app\n1:07:52 RIP Om Malik (1966-2026)\n1:19:00 Streaming and camera recommendations\n1:27:16 All about eFoiling\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\nCheck out all our partner offers: https://partners.launch.co/\n\n\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+    "duration": 5375,
+    "view_count": 2089,
+    "like_count": 42,
+    "channel": "This Week in Startups",
+    "upload_date": "20260627",
+    "thumbnail": "https://i.ytimg.com/vi/NmVmzev3_yM/maxresdefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

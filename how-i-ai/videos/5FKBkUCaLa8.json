@@ -1,0 +1,763 @@
+{
+  "title": "How Gusto’s CTO uses Claude Code to ship like a startup",
+  "source_url": "https://www.youtube.com/watch?v=5FKBkUCaLa8",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "We had no meetings, we had no tech specs, we had no Figmas, we had no Jira board where we tracked stories or tracked work. We had nothing. We used Cloudflare Worker for the actual agent loop and Vercel AI SDK. That's it.",
+      "tone": "matter-of-fact"
+    },
+    {
+      "timestamp": "00:00:14",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "People get really intimidated by the idea of building an agent and I'm like literally it's an agent SDK running somewhere in the cloud and if you use AI SDK you get to switch your model. That's it. It can look up files, it can have tools. It's really not that scary and complicated.",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "00:00:29",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Co-founder was primarily built by five folks over the course of 10 weeks from initial idea zero code to a tier one launch at Gusto.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:00:41",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "How did you all make those precious decisions that only genius product managers can make about in or out of scope? Will this matter?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:00:47",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "We would build features and we'd just have a discussion like, 'Does this make sense to have or not?' If it is, then it would get code reviewed right then and there and if not, we would just delete it.",
+      "tone": "pragmatic"
+    },
+    {
+      "timestamp": "00:00:57",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "I call this the trash can method of software engineering right now where you actually trash all the code, start like a /v2 branch and rebuild it from scratch and it's totally reasonable to do because the cost of the code is so low.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:01:12",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Welcome back to How I AI. I'm Claire Vo, product leader and AI obsessive, here on a mission to help you build better with these new tools. Today I have Eddie Kim, CTO and co-founder of Gusto, and he's going to show us how he, three engineers and one designer completely rebuilt their app in just 10 weeks. This is not a small company and yet they're shipping like they're a startup. Let's get to it.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:01:21",
+      "ad": true,
+      "speaker": "Claire Vo",
+      "text": "This episode is brought to you by Magic Patterns. Today's engineers use Cursor and Claude Code to ship features in hours that used to take weeks. If you're a designer or PM, you've probably felt a shift too: the pressure to move faster, validate sooner, and keep up with the team that's operating at a completely different speed. You've already tried AI prototyping tools to close that gap, but if your prototypes don't look like your actual product, it doesn't matter how fast you can build. You still end up redrawing it by hand. Magic Patterns takes your product team from idea to production and works from your real design system. When you build a prototype, what you get back actually looks like your product. You'll validate faster, get alignment sooner, and when it's time to build, engineers can connect your prototype to Cursor or Claude Code with the Magic Patterns MCP to pick up where you left off. Your eng team has their AI advantage; make Magic Patterns yours. Try it today at magicpatterns.com/howiai.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:40",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Eddie, thank you for joining How I AI. I'm so excited you reached out to chat because one of my favorite themes that I'm seeing right now is CEOs, CTOs, founders, executives getting back to building product. And you're here to tell us how you built some product with the team, both...",
+      "tone": "warm"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Very fast and in a completely different way.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:03:03",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Yes, thanks for having me and great to connect again.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:03:05",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Yeah, so tell us the story of Co-founder and why you think this is, you know, given all your experience, running this company, being a leader, being a builder, why this is so different than what you've seen before?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:03:18",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "So first of all, the product is really different from anything that we've built before, but what I'm actually really excited is kind of more of how we built this and how we can take the learnings that we had in building co-founders, the quality and the speed in which we built this and apply this to, you know, the rest of our R&D organization here at Gusto, which, you know, we have over a thousand people and so I think we're just, you know, I feel like I just discovered on something, like really incredible and I just want to like kind of figure out how do we spread the word to not just our company but to any kind of engineering, design or product management discipline person.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:03:56",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "And so you say you have about a thousand people in your R&D organization, but remind me, how many people did it take to build this product?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:04:03",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Gusto Co-founder was primarily built by five folks, myself, three engineers—I count myself as an engineer, so four engineers—and one designer. So we had one designer and four engineers and we built it over the course of 10 weeks from initial idea, zero code, to 10 weeks shipping it to a tier one launch at Gusto.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "00:04:31",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "It's got to feel so much—so fun. I don't know if you're like me, I spent the past couple years pre-AI spending so much of my time like prioritizing and planning out quarters and saying can this come in Q1 or is this going to be a next fiscal year thing? And now where you can take, you know, peel off less than half a dozen folks and ship a real product line, completely net new in less than a quarter, it's pretty amazing.",
+      "tone": "relatable"
+    },
+    {
+      "timestamp": "00:04:58",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "It is incredible and the origin of this was not on any roadmap, it was not anything that we really thought about. It kind of just came about because I was actually on vacation in February and I was flying back from Madrid, my flight had a layover in London and the flight from Madrid to London was delayed and I just barely missed my flight from London to San Francisco. And I had this like five-hour layover now because I missed the flight and they had to book me on the next flight, and I was kind of pissed about it because it was so close and so I just like, 'Okay, now I have like five hours to like waste. I'm going to get home super late in San Francisco. What do I do?' And I had been like kind of playing around with Claude Code. I was probably one of those like tech leaders that you sometimes hear about that like vibe-code something over a weekend and then come to their engineering team and was like, 'Look, I...'",
+      "tone": "storytelling"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "build this whole thing, why can't you do it yourself, you know, like and then just kind of like pisses people off because, you know, first of all, that was like completely vibe-coded, it's not production ready.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:06:11",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "But that was my start into it. I started using Claude code a lot more first to prototype things and just kind of like, you know, materialize random ideas that I would have. And so in this like five-hour layover I just took out my computer and started Claude coding this idea that had been percolating in the back of my mind and just seeing how far I can get with it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:06:31",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "And by the time I had actually landed in San Francisco, I had this like prototype of what ultimately became Gusto Co-founder. And I just took it to a few engineers that I talk to regularly, our senior engineers, and I talked to Katie Kovalchin, our designer, and we just started like riffing on the idea a little bit. The ultimate materialization of Gusto Co-founder is a little bit different from that prototype that I had made, but that was really the origin of this all. And 10 weeks after that, like, we shipped this thing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:05",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "So what I love about this story—I'm gonna take a little detour because I've heard this over and over again from friends—is, you know what I think companies need to give? Just a little bit more time off. Parental leave and like long flights. That is where I have heard the vibe coding magic happen over and over again.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:07:31",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Like, 'I was on vacation, but I vibe-coded something awesome.' Or, 'I was on parental leave and I've got like a baby in one arm and like codex in the other and I've shipped something.' I just think it's gonna trickle down into like maker schedules a little bit more where if you can give people just a block of time where they're not in meetings, we can move product forward a lot more meaningfully. So that's a little hypothesis that I have about how some of our work might need to shift.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:07:56",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "I totally agree. Like, now after going through this experience, I mean, I kind of want to take more vacation, honestly, because like, I actually told my wife, like, 'We should take another vacation,' because like this huge thing came out of the last vacation that we took. And so maybe like another thing will come out of it. So let's go—let's figure out where to go. And then if I have a five-hour layover, I'm actually gonna be really, really happy about that.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:08:22",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Okay, this is how every CEO or executive can land the AI adoption pitch. It's like, 'Look, if you go on vacation and vibe-code something awesome...'",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:08:30",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "...we're happy to give you more.' Well, let's go back to how you built this. So you were on a layover, you had this idea, it was kind of like percolating in the back of your mind, you built a prototype, you brought it back to this like council—I call them the 'council of elders'—like this council of product builders or engineers just saying, like, 'What would it take?' Tell me though how those 10 weeks actually happened and maybe show us some of the process and some of the artifacts along the way that were a little bit different.",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "official council it was like just senior engineers that I regularly like ICs that I regularly talk to and, you know, I recorded a Loom of this thing and it started sharing it around um and these were the folks that can like engage a little bit more in the conversation like what about that, what about that, that's pretty cool. And then so we have at at our company this thing called Anchor Week, uh which happens quarterly. We all like kind of the senior leaders and senior ICs across the company they they meet in one of our offices. This particular one uh was in March, uh in in Denver, Colorado in our office out there. And so we just reserved a room that Thursday, I think it was like March 20th, 20th or something like that, and we just started like whiteboarding with this like group of five that I had sort of, you know, had that expressed some interest in this. Uh we just whiteboarded like what this would potentially look like. And it was just like literally a a page of the Gusto cofounder app and we just got to building. The crazy thing is this was more defined, our build process was more defined by like what we didn't do versus what what we did. Uh we actually just zeroed everything out. We had no meetings, we had no tech specs, we had no Figmas, we had no Jira board where we tracked stories or tracked work. Uh we had no standups, no retros, we had nothing. The only thing we decided to keep was a 24/7 permazoom, which is basically a Zoom room that we just keep cause eve cause everybody's remote on in this particular group and we just had this zoom room that's going 24/7. And some people like like to honestly stay in there all day and just do their work, they just kind of like sit there quietly. Um and some people will like kind of pop in and out when they need something. That was the only structured thing that we had was this Zoom. It was like literally just Zoom, a lot of Claude code tokens and some like really passionate people about turning this thing into reality. And that that whiteboard, uh which I took a photo of, was like literally the only documentation that we ever produced in this whole 10 week process. And I can't tell you how many times I loved as people like caught wind of this thing getting built, they were like, 'Oh, can you send some documentation on how this works?' And I loved just saying, 'We don't have any documentation.'",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:11:24",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Okay, so this is the whiteboard. And just for folks that are not listening, it's a scribble wireframe that says chat, it's a chart, it's a thing that says task name and then like a couple components on the side that are not very well specked out. And what you're telling me as CTO is we built the entire product basically off this Claude code and a permazoom.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:11:48",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Yeah, totally. And and if you look at obviously things have evolved a bit, but if you look at sort of the core primitives and core functionality of Gusto cofounder, uh it's largely the same. They kind of like—",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "We changed the names of things but one of the main things in Gusto co-founder is what we call now an automation and it's basically you just create these automations that like run these workflows for you. That's what you see here on this whiteboard called tasks, right? So it's like tasks have task runs and that's exactly what we have in co-founder today. We have assets, so tasks runs can produce these charts or documents or markdown files, we call those in this whiteboard here assets but eventually those got renamed to artifacts. And then you obviously have chats, you have like suggested tasks, so like basically this like if you look at co-founder today it is like the actual like materialization of what you have on this whiteboard. Looking back on it I'm actually kind of surprised right now how closely we stuck to this.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:51",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "So I have to ask you a couple tactical questions about how you pulled this off because that's what people listening are going to want to know. So my first observation is you said you had four engineers and a designer, I don't hear a product manager in there. So how did you all make you know those precious decisions that only genius product managers can make about in or out of scope, will this matter? I mean this sort of feels like the thing where you just had conviction and knew you needed to build it but you know in this world where there was no actual titled product manager on the team, how did you approach product decisions across this team of five?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:13:28",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Yeah, I would say everybody was kind of a product manager. We would build features and we would go on that permazoom and sort of share it with each other and we'd just have a discussion like does this make sense to have or not. If it is then like it would get code reviewed right then and there and if not like we would just delete it. And normally that would be really really hard to do because like it takes so long to build something but these days with Claude code we literally like write a feature, we submit, we open up a pull request and this is not a draft pull request, this is actually a pull request that is ready for a human code review and we discuss it. We discuss if that's the thing that we want to have, a functionality that we want to have and we're okay with deleting that pull request if the answer is no, right? You have a perfectly good pull request that was written, that's like ready for human review, it's not slop, you actually like spent time to like you know make sure this code works and is written really well and then you just close it sometimes. That was like how we figured out what decided what goes in and what doesn't go in to this feature. Like the cost to write code is now so low that you can actually build products in this way and whereas I think you couldn't do that you know six months ago.",
+      "tone": "explaining"
+    },
+    {
+      "timestamp": "00:14:51",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Yeah I call this the trash can method of software engineering right now where you build code and you're like actually literally okay with throwing it in the trash.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "And I see two models of this. One is exactly what you say, like a PR and maybe a preview branch to even validate, is this the thing we want to build? And if the answer is no, you just close the PR. The other version of this that I do quite frequently is, let's say we shipped this V1 in 10 weeks, customers start to use it, and then we actually have a sense of what the product shape and architecture should be. Like, it's very cheap to just build again from zero. You don't even have to build on top of what you've built. You can actually trash all the code, start like a slash V2 branch and rebuild it from scratch. And it's totally reasonable to do because the cost of the code just is so low.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:43",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Yeah, I have a funny story about that because this prototype that I brought to the team, I was pretty, pretty happy with it. And we decided in that whiteboarding session to like actually go ahead and build this. My assumption was that we're going to continue to build on my prototype. And so one of the engineers brought up, 'Hey, what do you think about like building this in TypeScript and using a Cloudflare worker and kind of like making the actual agent like sort of the stateless thing that sits in its own repo?' And I was like, I didn't really want to do it. I felt like this was my code, like it was good code. And to hear they were suggesting to start from scratch. Ultimately, I trusted them, so we agreed to it. We deleted my code and then we started from scratch on that day. In hindsight, that was like absolutely the best decision. And now, but I think back then I had a lot of discomfort with that because like I had invested, you know, it was my code. I like, I don't like, you don't like to delete perfectly good code, like throwing some good food in the trash. But now, like I'm totally used to it, right? It's, there's no like sense of loss when that happens anymore.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:16:53",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "It's totally wild to me how frequently I find myself writing lines and lines of code that ultimately are great and never make it, either because they don't hit my product bar or they just aren't technically how we want to implement. And then how often I'm just like major red diffs all the time to just re-architect stuff. I do want to ask you a quick question about architecture. Tell us a little bit about co-founder and kind of some of the primitives behind the scene. I heard you say Cloudflare workers. People are actually pretty interested in how to technically build agentic products. And so I'm curious kind what stack you all landed on and why and how you chose that architecture.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:17:23",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Our stack is surprisingly simple. We build on, we use Cloudflare worker for the actual agent loop and Vercel AI SDK. That's it. We don't have any other harness on top of that. Everything else was built in-house. You know, in the past I would have thought...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "about how to use, you know, some third-party tool for memory or planning or things like that and it's really just, you know, memory to us is a tool that writes to a database column called memory and that simple, right? And everything is just like all the harnesses and and things that we used to build, like, to as complex like AI agent loop stack, I think is no longer needed. It was literally just, um, a Cloudflare worker and a and a Vercel.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:30",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Ah, I love it. That's, uh, very similar to my stack at at Chat Parity. So it's it's good to hear that, you know, people get really intimidated by the idea of building an agent and I'm like, literally it's an agent SDK running somewhere in the cloud and if you use AI SDK, you can just switch your switch your model. That's it! Like this, it can it can look up files, it can have tools. It's really not that scary and complicated. Yeah.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:19:01",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "It's not even, I was like blown away because of my first time using it that there's not even a a loop. There's not a while loop somewhere, right? It's just like call stream and it takes care of the loop for you. It's crazy. Yeah.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:19:11",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Well, I have another question technically on how you how you ran this because PR as, like, the PRD is almost almost what I'm hearing, which is PR is the proposal of what to build, how it gets built, the solution, you look at it in code and so you've almost compressed that that loop. Were you merging those into your production app and putting them behind a feature flag and just is that how you were technically managing this development process?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:19:38",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Yeah, exactly. So I mean that that is one of the benefits of, like, kind of a zero-to-one type thing. You may not be able to do that in all instances. Um, but we had essentially a hidden page in our web app and we would land stuff into that hidden page. It would be on production and then we would sort of, like, chip away at it. Like, I think the analogy we use a lot was, like, we started with a block of marble and we just slowly, kind of, like, chipping at this thing and forming it into, like, a piece of art over time. And we're doing that in production in place. So one of the really cool things that we did, uh, which I would highly recommend, is Katie, our designer, she actually shipped, started shipping to production, like, a a faked experience, essentially. So it had, like, the UI, the the thing that we whiteboarded, but if you go in and, like, you know, hit, put in some text into the text field and hit submit, it would just give you the same response, like, uh, every single time, right? It's not actually going to any kind of agent loop. It's not hitting any kind of database. The pure front-end. It's kind of like what you what you would maybe build as a first pass on Lovable or or something like that. And that actually got shipped to production behind this feature flag and then in parallel, the engineers would start to build up the data models, uh, they'd build the agent loop, and they would start to connect this to the faked front-end experience. And the front-end would stay the same, but the canned, like, responses...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "...we'd get slowly and in place, not even better, like they would actually be real, right? And so you would see this thing kind of like morph from like a literal prototype that you would normally have thrown away because like it's just for demonstration purpose, but it would actually turn, we would like literally breathe life into this thing over time. And that's kind of how we built this. At the same time, we would have engineers like build features and they would, you know, have to do some code and stuff, they would, they would ship the design for this, right? And the functionality on the back end would work really well, but then, you know, the front end probably could use some improvement there. And we would ship that too, right? And then Katie the designer would then go in and sort of like, you know, make the experience a lot better on the front end. And so that was another example of like just shipping something into production and then like continuing to chip away at it to make it better over time. So if you looked at it at any given time, there was always something wrong with it, like in production, but then over time, like it turned into like this really nice thing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:22:05",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "And tell me a little bit more about Katie. We might have her on the podcast, but Katie the designer is shipping stuff into production. Her code is the skeleton on which a lot of this functionality is being built. Tell me how, you know, was she technical, is she technical, was she a software engineer? How did she come to shipping code? Like what, what blew your mind about her role in this team?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:22:31",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "What blew my mind was that she turned into this incredible engineer. And I was just looking at our PR stats, which we use this tool called DX for it. She across our entire R&D org, she is in the 94th percentile of true throughput, which is a measure of like how many PRs you're landing into production. And that includes every single engineer, like classically trained software engineer in the company, right? She's out of 20, she's the top, right? Which is, which is kind of insane. And it's really good code. Like I asked her like, how, what is special about you and how do we get more of this like across, you know, design and product management? And her answer was basically twofold. One is that she's not an engineer, she's not a software developer, but she feels like she was a little bit more like technically curious than most designers. So it just kind of has a little bit of that more technical bent. And then most importantly is that she had a team of like three or four engineers particularly on this team that was willing to actually, you know, review her code, like give her feedback, show her like how to prompt Claude a little bit better and like also how to judge that taste of like what is actually good code that is produced and what is not. We took the time to kind of like, you know, pair with her, right? Whereas I think a lot of engineers, what I hear them say is like, well, it just slows us down and like designers should just focus on...",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "producing Figma so that we can like really focus on turning that into real products. And yeah, that's true in the short term, but like now, I think once you make that investment, you have a support venture software developer around her or any designer. I think the dividends pay off really, really quickly.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:24:17",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "This makes my heart grow 10 sizes as someone who folks don't know, I did not get a software engineering degree, and yet I believe I can code. I've been coding for over 20 years. I've run very large engineering organizations, and a lot of that was early in my career, folks shout out to like Dave and Yoland and Jeremy, like, were willing to sit with me and pair with me and answer questions and tolerate where my ambition outstripped my technical ability. Now, you know, even with these AI tools, you sort of have that very patient pair programmer next to you, but I do think culturally it's very, very important for software engineering teams to extend that mentorship and guidance and feedback loop to their non-engineering partners. And this is a stress test I give to a lot of teams because I hear a lot of teams being really overwhelmed by code review and being really overwhelmed by like what maybe they'll call like sloppy PRs from non-technical folks. And I just say like on average, is your engineering team's PRs getting faster review than your non-engineering team's PRs? And like across the board, people are like, yeah, of course they are. I'm like, that is an anti-pattern. You need to prioritize reviewing these non-engineering PRs just as high as you do your engineering ones because you can get feedback, you can create systems that improve code quality. A lot of those PRs are actually really good ideas. And so I do think there's this cultural aspect to it that I'm really happy, pleased to hear you've unhooked because I think it's going to pay dividends over the long term.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:26:00",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Yeah, 100 percent I agree and and our priority has always been PR reviews. I think we did an analysis and I think our median PR review time was nine minutes.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:14",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "On this team?",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:26:15",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "On this team. Yeah, definitely not in the R&D org, but definitely on this team. And the reason why is like, there would always be someone on this perma-zoom. And so like, you just show up in this perma-zoom and say, I have this PR ready, can we talk about it? And then someone, sometimes in a group setting, sometimes you just go into a breakout room with someone, you just kind of talk through it together and review it together.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:26:35",
+      "ad": true,
+      "speaker": "Claire Vo",
+      "text": "This episode is brought to you by Jira Product Discovery. AI has made individual PMs incredibly productive, but multiplayer mode is where it still breaks. Getting everyone aligned on what should actually get built. Decisions live in a markdown file from last week. The roadmaps, a spreadsheet no one's looking at. Jira Product Discovery is where teams actually decide what to build.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": true,
+      "speaker": "Claire Vo",
+      "text": "Capture ideas, prioritize them as a team, and share a living roadmap everyone works from. It’s powered by Atlassian’s teamwork graph, so it can pull in customer feedback, what your team shipped, plus your goals, and suggest what to build next. And when a decision is made, you can hand it off straight to Jira, so a developer or even an agent can pick it up and start building. Teams at Canva, Deliveroo, and Toast already use Jira Product Discovery. Join more than 25,000 teams at atlassian.com/howIAI. Start building the right things together.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:27:30",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Does this bring you back to like early founder days?",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "00:27:34",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "It did feel a lot like the like startups. Actually when we started, um, everyone coded back then. Like we hired designers at, you know, I mean it's a different type of code, they wrote a lot of like HTML and CSS and maybe some light JavaScript, but they coded, right? They actually opened pull requests and merged it. Um, over time I think that kind of went away and we said, oh like everybody's got to go into these traditional swim lanes. Um, and this was like kind of almost a throwback to when we just started, right? We just had maybe like a few whiteboards, we kind of like discussed in real time what we were going to build and we built it and um, yeah, and honestly I mean it was a lot of work. I will say that to ship something like this in 10 weeks did take a lot of like nights and weekend time. Um, but I didn't ask anybody to do it, they just did it because people were so passionate about what we were doing and honestly they were having a lot of fun. It was so much fun. It was intense, but so much fun.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:28:21",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "I—that's what I hear from so many people. Um, we've done so many of these, I've done so many of these interviews and almost everybody says, 'I'm working harder than I ever have and I am so much happier. I'm having so much more fun. Work is just better because the work that I'm doing is more creative. It's—it feels like it's closer—closer to impact.' Okay, you've—you've painted this vision. People are going to walk away and unfortunately their teams are going to be like, 'You can ship this huge product in 10 weeks? It'll only take five people? I want nine minute PR review times.' So you're setting the bar high, but let's—let's prove it. I mean, show—show us what you built and then maybe we'd love to see how you personally use Claude Code or used Claude Code to contribute to this product.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:29:00",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Yeah, sounds great. Let me um, just share my screen here and I'll—for the folks on audio, I'll try to walk through what's on my screen. So this is Gusto, this is Gusto that everybody knows, right? This is kind of um, ironically we call it classic now, uh, which as a co-founder we would never use, but if you're in the co-founder group, like you get to call the traditional Gusto Gusto Classic. This is Gusto uh, co-founder here. It does the things, you know, basic stuff. I don't think any of this stuff is particularly interesting. Um, it's kind of like the normal HR software.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Yeah, so that's connected to tools. I would say the really interesting thing about this from a user perspective is that it comes out of the box with all of the things that Gusto is already doing for you, right? It has all the information that Gusto already has about your business, like your employees, your payrolls, your schedules, your time off requests and and things like that. And one of the things that was really important to us was just being able to communicate it- communicate with it not just through the web, but actually we want people to primarily talk to it through SMS or Slack actually, right? So here I'm going to say something like, do I have any time off requests that I need to approve? And it would be the same exact thing as if I were to like ask this in the in the web application. Um, it's calling the same tools and it's going to respond to me um through the same channels. By the way, for those listening in, I'm- I'm showing a screen of my phone, basically of my- my messaging app on my on my Android phone and I just typed in 'do I have any time off requests that I need to approve?'",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:31:03",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "And what I'd imagine is this sort of like multi-channel experience is really important for kind of like small business owners in particular who are probably like running around and doing stuff, always operating on- on their phone. Um, and so I do think it's interesting as somebody who has like built B2B web apps for so long to think now my surface area is texting, it's just a very interesting product design problem. Um, and then technical problem with, you know, how do you- how do you show streaming or latency or make sure people understand that you are working- um what you're working on it. So I- I think this whole surface area is very interesting.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:31:47",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Yeah exactly. So we have right now today Slack and SMS, but um you know I kind of want to add like WhatsApp and Telegram. I- I think that's kind of one of the things I learned from using OpenClo of like the power of like these- the- messaging channels. Okay, so it responded. Um, actually looked up that there is someone named Todd uh who uh has a time off request and um I could just say 'yes' and it'll actually approve that time off request. So I don't have to do that in the web app anymore. So I'll just let that run so we can come back to it to uh see that it actually approved it. But I want to show something that's a little bit more interesting and more- more complex. Um so this actually came from a real customer and uh this particular customer that we have is a massage spa in New York City. And what they do is they use Mindbody to track all of their work of the- of their massage therapists and they basically have, you know, how many 60-minute massages do they do, how many 90-minute massages. They also get paid like a bonus if they do certain upsells like hot stone or CBD oil and they have like a rate for that. They also like decide how they split- they decided to split their tips like- uh as like they group their tips together and they split...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "split it. So what this owner has to do every week is they actually, you know, they export something from Mindbody, they put it into a Google spreadsheet like this, then they actually run these calculations of like how much to pay them in terms of bonus and commission and tips, and then and only then they actually go into Gusto and, you know, they they go to their run payroll page and then they um they actually input all that all that in, right? That part is really fast of course, but it's all this like what I call the work before the work that a business that is not using AI has to do to run their payroll every single week. And they do this every like week in and week out, right? And so in Gusto Co-founder, I have a set of connectors where I can Gusto Co-founder can actually access third-party systems like QuickBooks, Google Sheets, notion and things like that. And what I can do is actually just literally say my process here. So I wrote here like, hey Gusto Co-founder, I need you to run my payroll, look at this spreadsheet that's called export from Mindbody and here's how I calculate it. You know, for every hot stone upsell, add $15 of bonus for that therapist, for every every CBD oil, add $20 bonus for that therapist. We pull tips, so just take the group tips amount and divide it by how many therapists we have. And it just goes, and it's kind of like Claude code where it'll it's go- it's going to that spreadsheet, it's pulling in the data, it's running those calculations, it's updating the payroll as you see here, and then it's actually going to get to a point where it'll stop and say, here are the amounts, do you want me to actually submit this payroll? And I'll say, uh yes, and and it'll actually submit and and run that payroll. So basically, you can see here that it's calculated all my payrolls, um the hours, the bonuses, the total payroll amounts, and I'll just type in I'd like to submit my payroll and it'll actually submit the payroll.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:34:57",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Amazing. So, and all this came out of a vibe-coded prototype because you had a layer over.",
+      "tone": "impressed"
+    },
+    {
+      "timestamp": "00:35:02",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:35:03",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "And this is real- this is real business- business data. And so, you know, when I'm talking to leaders at companies, they tell me, oh my gosh, Claire, I am so excited about our December AI launch. And I'm like, December? It is June! Like, what are you talking about? You need to do this today. And so I think, you know, one of the meta-stories of this is like bring forward your ambitious ideas and just executing on them quickly is really possible with not that much investment. You know, the other thing that I think about is five people for ten weeks in an R&D organization of a thousand. Let's say at the end of the day you ship something you're like, 'Ah, just customers don't want it.' Is actually not that expensive of an outlay. Like, it feels like a lot maybe, but it's it's a very small fraction of your overall R&D investment and the payoff can be very huge. And so part of the advice I give people...",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "But I think you're encapsulating is you can be a lot more ambitious and you can afford a lot more risk in your product development process.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:36:10",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "100%, yeah. Just imagine if you had maybe 10 of those going, which even if you multiply this by 10, that's not even, that's not as big an investment across a company of 1,000 in R&D. You know, you're going to have like two or three of those, I think, meaningfully change the trajectory of the business.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:36:27",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Yeah, I love it. Well, okay, and then let's prove. You said at the very beginning, \"well, I consider myself an engineer on the team.\" So tell me a little bit about how you're using Claude code or maybe show a little bit of your setup that you find useful.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:36:40",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "It's funny, I was looking at some user feedback this morning and I had a feature that I wanted to build. And so I thought maybe we could just build it together right now.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:36:53",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Yeah, let's do it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:36:54",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Just give a little preview of how I write code, how I Claude code. All right, so this came out of some user feedback. We've been talking to customers since we've launched and I actually wrote this in a GitHub issue where we have this issue where if Gusto co-founder says how to do something in Gusto Classic, it says, \"oh, go click on this link and that link.\" And that doesn't make any sense based on the page that the user is on because they're not in Gusto Classic, right? So we need to basically tell them go to Gusto Classic first. So I basically like copied a example user conversation that happened here where it caused some confusion.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:37:30",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "So it feels almost like cheating is I'm going to start Claude code here on my terminal, always obviously increase your landscaping permissions. And I'm going to just say, by the way, I use Whisper flow a lot, I barely type these days. So I'm going to just say there's a customer issue that is outlined in this GitHub issue. And I'm going to paste in actually just a link to that. Can you please read this issue and come up with a fix for the problem that's outlined here? I'd love for you to first write an eval that fails to show that you can reproduce this issue. Then come up with a solution and then prove that the solution works by showing that the eval now passes. And that's it. It's going to actually just read the whole issue. It's going to look at the conversation where this problem surfaced. It's going to write an eval that fails and then get that eval to pass.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:38:32",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "It's interesting, I was never actually a true like test-driven developer. Like I never was like could really get behind like writing a failing unit test first and then writing the code and getting it to pass. But when it comes to like eval stuff, AI stuff, like it's basically kind of the only way we work now when we're trying to fix a conversation, right? So always write a failing eval first, then write the code to fix it, prove that it works by seeing that the eval passes, and then seeing how the rest of the evals in your suite pass and then open up a PR.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "So like at this point like I like go grab a cup of coffee or or maybe I'll start a second or third work item in a in a separate cloud code terminal and and then just wait for it to finish. Uh when it's finished and this is honestly the part that is the most important is actually like reviewing the code that it wrote the eval in this case it's probably going to make a prompt change somewhere. Um making sure it's concise um there's like judgment on like what the prompt should look like and and then and only then asking it to open up a pull request. Then I go to the Zoom per per Zoom and and you know uh get someone to review this.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:39:41",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "I I love it. So I just want to recap for everybody because there's so many good nuggets on how to build something in this in this new world. And so the first thing is it's okay to prototype an idea to get internal buy-in that we should get excited about something new. And you know you did that I think you have a lot of permission as as co-founder and leader in this organization. But I think you would extend that permission to anybody on your team right? If you have a good idea let's prototype it and look at it. It seems like you gathered a team around who was most excited to build on this. It's something that I sort of heard is you're like people were leaning in and it's almost like the gravity of who was interested formed some of the the team which I think is is quite quite fascinating. Um I heard kept the team small.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:40:31",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Yep. Very small.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:40:34",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "No docs, no nothing. Um...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:40:37",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Yeah I mean there were people that wanted they like they really like what was going on and they wanted to like contribute but we kind of like intentionally kept it as small as possible because um we just were able to move really really fast with a team of five. Now that's not going to stay like that forever we're starting to add more people to the team and more people are starting to help out. Um but I think it was critical to keep it small in the beginning.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:41:08",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "No one likes it when I say this but I say the my secret trick to getting things to move fast is kicking people out of projects. So I I cosign it is an effective tactic.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:41:18",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "It is harsh but true. Um yeah and I do like I think so I think there's one important difference here that like applies to this particular project that may not apply to others right? And it's I think it is honestly the fact that I as one of the company's co-founder was was part of this right? So I had like kind of the permission to you know break all the rules that we created at Gusto right? If if any other like teams that are when we're going to skip tech specs and Figmas they actually might get a slap on the on the wrist about it. Um and so how do how do I've been thinking a lot about how do you scale this to other teams and I think um unlike me where the permission is sort of implied like I think you actually have to go to these teams and say we we are we want you to work in this way where",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "You don't do any docs, no Figmas, no tech specs. We just want you to have a perma-zoom. And like, we're giving you permission to do it in that way. And in fact, I would go even further and say, we're not giving you permission to do it in any other way. Like, if you actually produce a doc or Figma, like, you will get a slap on the wrist because we explicitly don't want you to do that, right? That's one important difference. I think when you don't have like a co-founder on this team, like, you actually have to be more explicit.",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:42:30",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Because I have talked to teams that want to do it in this way, but they just don't feel like they're allowed to.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:42:33",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Yeah. This- this reminds me of what my friend Chintan at Coinbase did, is he actually- he does these extreme experiments with his engineering team. One that's my favorite to reference is he's like, 'delete your IDE.' It's like, 'you are not allowed to have an IDE. Delete it. Write code.' Um, and his other one that he does is he's like, 'you don't touch the outputs of agent code, you only get to touch the inputs. You only get to re-prompt. You don't get to rewrite the code.' It's like a very interesting, just techno- what do they call it? Techno-psychological experiment on your team to give people- give people permission to work in a really radically different way. Um, you know, that brings me to a lightning round. We'll do a lightning round. We're almost out of time and I want to get you back to Claude coding, which I think is the most important thing any of us could be doing. So my first question is, you know, coming off this conversation, do you really think docs are dead? Like, is this the way?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:43:34",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "I think for a subset of projects, like kind of more zero-to-one, I think docs are absolutely dead.",
+      "tone": "direct"
+    },
+    {
+      "timestamp": "00:43:40",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "I- you know what, people don't know this about ChatPRD, but my actual intention with ChatPRD is to be the one in the product management world that legitimately kills PRDs. And- and so I'm like the anti-PRD PRD maker. So I am all about this. I think this is truly the model. And, you know, even in my experience working with- some breaking news- working with the new Fable model, is there are docs written now that are none of my business. That's what- that's my new- my new frame of mind, is agents can write docs and they are absolutely none of my business and I will never be reading them. And that's actually a very interesting- interesting model where maybe docs exist, but they're for the agents, not- not for the humans.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:44:24",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Yeah, that's awesome.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "00:44:25",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Um, so my second question is about this like co-founder, executive leader role in building teams. I hear so much, or I see on LinkedIn, like, 'oh my god, my CEO is like sending over Claude slop,' or, you know, all of a sudden my CTO thinks that he can- he can commit PRs to- to main. And there's actually a lot of, I think, a combination of like anxiety about the shifting more hands-on role of leadership and then sort of an uneasiness when...",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "leaders who have maybe in the past, depending on your culture, been like at a little bit more at arms length with hands-on product development now are sitting with the team and you know, most places that have really healthy cultures don't actually grapple with this and so it seemed like you all have a healthy culture and it creates not so much anxiety. But for for orgs where you can imagine that anxiety exists, what perspective or advice would you give from the leadership side of that equation um that can make teams more excited to build with their co-founders, their CEOs, their CTOs, their their VPs.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:45:34",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "I think my advice to leaders is like actually get hands on in building like production code. Don't just I think I think it is an important first step to build a prototype and come to your team and be like look like this is actually feasible and possible, right? And then like you know like that still that still has value, right? But I do think that and I've made this mistake before in the company where I've like literally done just that. Um it can lead to a little bit of like um underappreciation of like the like the actual um nuances of the work like how much it more work it takes to actually get something into into real life production quality like stuff, right? And so I think my advice is like don't just stop there. If you're a leader, right? Actually um be hands-on in like merging real reviewed like high-quality code um and in my case I kind of took it to extreme where I like went into almost IC mode for the past 10 weeks and I was like literally building I'm like 95th percentile on DX for the past three months. Uh I and just part of that was I wanted to prove that like I'm not here to just show you like prototypes and and like tell you that you could move faster, right? I'm going to prove it by actually going taking it all the way through.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:46:56",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "I just I could not agree more. This is just the moment where everybody has to be hands-on and I tell a lot of executives like sorry bud, it's time for the hard skill to to show up again not leadership inspiration alignment it's like get your hands in a in a document get your hands on the code write a campaign build something. I think for two reasons, one you have to be in it with your team to really understand um how your team should be working and two, I think it's very hard to build great AI products if you are not spending all your time using AI products right now. It's just like it's very hard to understand the primitives, the user experience, where it can solve problems where it can't. And so a leader trying to come up with an AI AI product strategy without spending all their time practically using AI products I think is really hamstrung.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:47:50",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Yeah I think so one thing like that I'll disclose is that the original original idea for Gusto co-founder came from me actually just setting up OpenClaw myself, right? I had heard about it",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Yeah cool, that sounds like really neat that you can like run an agent, personal agent on your own computer. But it really took me setting it up myself and actually texting with it over Telegram to one, like understand like the power of that, like viscerally experience it. And then also like, you know, learn what's wrong with it, right? It's incredibly hard to set up. You have to buy a Mac mini, which you can't even get today. And that was like one of the the hypothesis of co-founder, right? Like we want it to be safe, you can run it in the cloud. But then also that's how we made like SMS and Slack a first-class communication channel with it, right? And that I don't I don't think I would have gotten that insight if I didn't actually like set up an Open Claw at my home myself.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:48:45",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "I I love it. I mean, I think every leader needs to feel feel the claw, for for that exact reason. I when I started using Open Claw, I remember I turned to my husband and I'm like, oh my god, I'm having a chat GPT moment in terms of it just changed my mental model of what product could be in a way that I just hadn't felt or experienced prior to that, like even since Chat GPT first came out. Even Claude Code didn't like change my world in the same way that that Open Claw really did.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:49:14",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Right. And you've probably heard of other people talking about that like how it's like such a crazy like innovation, right? But then you don't really you that's the problem is like there's so much press out there and like so much hyperbole that like you kind of become numb to it. So you do kind of have to experience it yourself, I think.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:49:32",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Yep. Completely agree. Okay, last question and then we will get you out of here. You know, when when Claude is not writing a great Eval, when it's not listening, when you know you're about to have to trash a PR, what is your prompting strategy to get it back on track?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:49:45",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "I'm naturally a very polite person, non-confrontational. But it so I I'm pretty nice to my Claude. I kind of like, you know, ask it nicely why did you do it this way? Or like, could you please consider this? And actually, I for me I don't know if this is true but I think there is a actual like practical benefit of it. I find that AI is so deferential and it just kind of like defaults to doing what you want it to do but I actually want mine to challenge me, right? And like give me different ways of doing things that might be better, ways of building things that might be better. So I for some reason I just feel like kind of being polite, leaving it open-ended, if you think this is a good idea could you try this? Like, because I kind of want it to encourage a little bit more of like pushback.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:50:33",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Yep. Yep. Love it. I you know, most people are are very polite. I am I'm often very polite unless it's gone real off the track. And then what I use is a 15-0 no, I don't I'm wasting tokens, you know, it costs a drop of water but I do it anyway. All right, well, Eddie, this has been so fun. Where can we find you and how can we be helpful to you and the team?",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:50:52",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Yeah, you could find Gusto co-founder at gusto.com/",
+      "tone": "helpful"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "co-founder, uh we have a waitlist so if you're interested in it please sign up for it and we'll give you access probably within a few days, uh and check it out give us feedback.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:51:09",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Great. I'm a I'm a very happy Gusto customer so I'm gonna ask you to to feature flag me into into the beta and I will send you all the feedback and hopefully some PRs will come out of it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:51:18",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "I would love it.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:51:19",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Great. Well, thanks for joining Eddie.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:51:21",
+      "ad": false,
+      "speaker": "Eddie Kim",
+      "text": "Thanks Claire.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:51:23",
+      "ad": false,
+      "speaker": "Claire Vo",
+      "text": "Thanks so much for watching. If you enjoyed this show, please like and subscribe here on YouTube or even better leave us a comment with your thoughts. You can also find this podcast on Apple Podcasts, Spotify, or your favorite podcast app. Please consider leaving us a rating and review which will help others find the show. You can see all our episodes and learn more about the show at howaipod.com. See you next time.",
+      "tone": "welcoming"
+    }
+  ],
+  "highlights": [
+    "A small, five-person team at Gusto built and launched a net-new product line in just 10 weeks by eliminating traditional processes like Jira boards, technical specs, and Figma designs in favor of rapid, AI-assisted development.",
+    "The team adopted a \"trash can method\" of software engineering, where the drastically reduced cost of writing code allows teams to build, review, and delete entire features or prototypes without the typical sense of sunk-cost loss.",
+    "AI tools are enabling a shift in cross-functional roles, allowing designers to contribute high-quality production code and move from static mockups to shipping \"faked\" front-end experiences that engineers then breathe life into.",
+    "Rather than relying on complex AI frameworks, the project utilized a surprisingly simple technical stack consisting of Cloudflare Workers and the Vercel AI SDK to manage agentic loops and tool calling.",
+    "For established organizations to ship at startup speed, leaders should provide explicit permission to bypass standard corporate overhead and engage directly in building production-level code to understand AI primitives."
+  ],
+  "summary": "Eddie Kim, CTO and co-founder of Gusto, discusses the rapid development of \"Gusto Co-founder,\" an AI-driven product built in just 10 weeks by a lean team of five. The project bypassed traditional corporate overhead—including Jira boards, technical specs, and Figma designs—in favor of a \"vibe-coding\" approach. Utilizing Claude Code and a 24/7 \"permazoom\" for instant collaboration, the team moved from a prototype conceived during a flight layover to a production-ready launch. This workflow emphasizes high-bandwidth communication and rapid iteration over formal documentation, proving that even large organizations can ship with the speed of a startup.\n\nA central theme of the transcript is the radical shift in software engineering economics, characterized by the \"trash can method.\" Because AI makes writing code so inexpensive, the team felt empowered to delete entire pull requests or rebuild features from scratch rather than over-planning. This democratization of development allowed the team’s designer to become a top-tier code contributor, blurring the traditional lines between R&D roles. Kim and host Claire Vo conclude that the future of AI development requires leaders to return to hands-on building, using simple technical stacks like Cloudflare Workers and Vercel AI SDK to solve complex, real-world problems through agentic workflows.",
+  "description": "Eddie Kim is the co-founder and CTO of the payroll and HR platform Gusto, which just crossed $1 billion in revenue and serves more than 500,000 small businesses. Recently he did something most CTOs don’t: he went back to writing code. With three other engineers and one designer, Eddie built Gusto Cofounder, a net-new AI product, from zero code to a tier-one launch in 10 weeks. He walks through how that team actually worked, why they threw out nearly every process, and how anyone can copy the approach.\n\n*What you’ll learn:*\n1. The trash-can method: how to write, review, and delete a full PR as a product decision instead of a planning doc\n2. The two-tool agent stack behind Gusto Cofounder\n3. The exact “perma-Zoom” setup that replaced standups, retros, and Slack threads for 10 weeks\n4. How a designer with no engineering background hit the 94th percentile for shipping code\n5. The eval-first workflow Eddie uses to fix real customer bugs with Claude Code\n6. How a non-technical leader can prototype an idea to win buy-in, then carry it all the way to production-quality code\n\n*Brought to you by:*\nMagic Patterns—Prototypes that look like your product: https://magicpatterns.com/howiai\nJira Product Discovery—Prioritize with insights, build with confidence: https://atlassian.com/howiai\n\n*In this episode, we cover:*\n(00:00) Intro: five people, 10 weeks\n(02:38) The origins of Cofounder\n(08:32) Inside the 10-week build process\n(12:50) Building with no PMs\n(14:38) The “trash can” method\n(17:15) The stack architecture\n(19:10) Shipping to production from day one\n(22:03) How a designer became a top engineer\n(29:05) Demo: Cofounder over text and Slack\n(31:45) Demo: running a real payroll\n(36:26) Live coding with evals in Claude Code\n(39:39) Recap: prototype, small team, permission\n(43:17) Lightning round\n(48:44) Where to find Eddie and Cofounder\n\n*Blog and detailed workflow walkthroughs from this episode:*\nHow Gusto Built a New Product Line in 10 Weeks with Claude Code, No Jira, and No Docs: https://www.chatprd.ai/how-i-ai/how-gusto-built-a-new-product-line-in-10-weeks-with-claude-code-no-jira-and-no-docs\n↳ How to Build a New AI Product in 10 Weeks Using the 'No-Process' Method: https://www.chatprd.ai/how-i-ai/workflows/how-to-build-a-new-ai-product-in-10-weeks-using-the-no-process-method\n↳ How to Fix Bugs Using an AI-Powered Test-Driven Development (TDD) Workflow: https://www.chatprd.ai/how-i-ai/workflows/how-to-fix-bugs-using-an-ai-powered-test-driven-development-tdd-workflowNOTES\n\n*Tools referenced:*\n• Gusto Cofounder (early access/waitlist): https://gusto.com/cofounder\n• Claude Code (Anthropic): https://claude.ai/code\n• Cloudflare Workers: https://workers.cloudflare.com/\n• Vercel AI SDK: https://sdk.vercel.ai/\n• DX (engineering analytics): https://getdx.com/\n• Wispr Flow (voice-to-text): https://wisprflow.ai\n• OpenClaw: https://openclaw.ai/\n\n*Other references:*\n• Gusto (the main product, “Gusto Classic”): https://gusto.com\n• Mindbody (referenced as customer data source): https://www.mindbodyonline.com/\n\n*Where to find Eddie Kim:*\nLinkedIn: https://www.linkedin.com/in/edawerd/\n\n*Where to find Claire Vo:*\nChatPRD: https://www.chatprd.ai/\nWebsite: https://clairevo.com/\nLinkedIn: https://www.linkedin.com/in/clairevo/\nX: https://x.com/clairevo\n\n_Production and marketing by https://penname.co/._\n_For inquiries about sponsoring the podcast, email jordan@penname.co._",
+  "duration": 3112,
+  "people": [
+    "Eddie Kim",
+    "Claire Vo",
+    "Gusto Cofounder",
+    "Claude Code",
+    "Magic Patterns",
+    "Jira Product",
+    "How Gusto",
+    "New Product",
+    "No Jira",
+    "No Docs",
+    "Weeks Using",
+    "Fix Bugs",
+    "Powered Test",
+    "Driven Development",
+    "Cloudflare Workers",
+    "Wispr Flow",
+    "Gusto Classic"
+  ],
+  "topics": [
+    "The 'no-process' methodology for rapid product development and shipping",
+    "AI-assisted engineering and the 'trash can method' of software development",
+    "Empowering non-technical roles like designers to ship production code using AI",
+    "The technical stack for building agentic AI products",
+    "The importance of executives and leaders returning to hands-on building"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/5FKBkUCaLa8/maxresdefault.jpg",
+  "date": "20260629",
+  "youtube_url": "https://www.youtube.com/watch?v=5FKBkUCaLa8",
+  "youtube_metadata": {
+    "title": "How Gusto’s CTO uses Claude Code to ship like a startup",
+    "description": "Eddie Kim is the co-founder and CTO of the payroll and HR platform Gusto, which just crossed $1 billion in revenue and serves more than 500,000 small businesses. Recently he did something most CTOs don’t: he went back to writing code. With three other engineers and one designer, Eddie built Gusto Cofounder, a net-new AI product, from zero code to a tier-one launch in 10 weeks. He walks through how that team actually worked, why they threw out nearly every process, and how anyone can copy the approach.\n\n*What you’ll learn:*\n1. The trash-can method: how to write, review, and delete a full PR as a product decision instead of a planning doc\n2. The two-tool agent stack behind Gusto Cofounder\n3. The exact “perma-Zoom” setup that replaced standups, retros, and Slack threads for 10 weeks\n4. How a designer with no engineering background hit the 94th percentile for shipping code\n5. The eval-first workflow Eddie uses to fix real customer bugs with Claude Code\n6. How a non-technical leader can prototype an idea to win buy-in, then carry it all the way to production-quality code\n\n*Brought to you by:*\nMagic Patterns—Prototypes that look like your product: https://magicpatterns.com/howiai\nJira Product Discovery—Prioritize with insights, build with confidence: https://atlassian.com/howiai\n\n*In this episode, we cover:*\n(00:00) Intro: five people, 10 weeks\n(02:38) The origins of Cofounder\n(08:32) Inside the 10-week build process\n(12:50) Building with no PMs\n(14:38) The “trash can” method\n(17:15) The stack architecture\n(19:10) Shipping to production from day one\n(22:03) How a designer became a top engineer\n(29:05) Demo: Cofounder over text and Slack\n(31:45) Demo: running a real payroll\n(36:26) Live coding with evals in Claude Code\n(39:39) Recap: prototype, small team, permission\n(43:17) Lightning round\n(48:44) Where to find Eddie and Cofounder\n\n*Blog and detailed workflow walkthroughs from this episode:*\nHow Gusto Built a New Product Line in 10 Weeks with Claude Code, No Jira, and No Docs: https://www.chatprd.ai/how-i-ai/how-gusto-built-a-new-product-line-in-10-weeks-with-claude-code-no-jira-and-no-docs\n↳ How to Build a New AI Product in 10 Weeks Using the 'No-Process' Method: https://www.chatprd.ai/how-i-ai/workflows/how-to-build-a-new-ai-product-in-10-weeks-using-the-no-process-method\n↳ How to Fix Bugs Using an AI-Powered Test-Driven Development (TDD) Workflow: https://www.chatprd.ai/how-i-ai/workflows/how-to-fix-bugs-using-an-ai-powered-test-driven-development-tdd-workflowNOTES\n\n*Tools referenced:*\n• Gusto Cofounder (early access/waitlist): https://gusto.com/cofounder\n• Claude Code (Anthropic): https://claude.ai/code\n• Cloudflare Workers: https://workers.cloudflare.com/\n• Vercel AI SDK: https://sdk.vercel.ai/\n• DX (engineering analytics): https://getdx.com/\n• Wispr Flow (voice-to-text): https://wisprflow.ai\n• OpenClaw: https://openclaw.ai/\n\n*Other references:*\n• Gusto (the main product, “Gusto Classic”): https://gusto.com\n• Mindbody (referenced as customer data source): https://www.mindbodyonline.com/\n\n*Where to find Eddie Kim:*\nLinkedIn: https://www.linkedin.com/in/edawerd/\n\n*Where to find Claire Vo:*\nChatPRD: https://www.chatprd.ai/\nWebsite: https://clairevo.com/\nLinkedIn: https://www.linkedin.com/in/clairevo/\nX: https://x.com/clairevo\n\n_Production and marketing by https://penname.co/._\n_For inquiries about sponsoring the podcast, email jordan@penname.co._",
+    "duration": 3112,
+    "view_count": 6269,
+    "like_count": 85,
+    "channel": "How I AI",
+    "upload_date": "20260629",
+    "thumbnail": "https://i.ytimg.com/vi/5FKBkUCaLa8/maxresdefault.jpg",
+    "tags": []
+  }
+}

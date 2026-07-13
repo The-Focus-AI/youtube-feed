@@ -1,0 +1,2783 @@
+{
+  "title": "Socialists Sweep NYC, China Catches Up in Coding, AI Memory Crunch, Micron's Blowout Quarter",
+  "source_url": "https://www.youtube.com/watch?v=w8ah_tA0yfg",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "All right everybody, welcome back. Welcome back to the number one podcast in the world, the All-In Podcast episode 278. And Friedberg, he took a mental health day today after the socialist sweep in New York City. So, we invited two guests, they both said yes.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Travis Kalanick is here from Adams. How you doing, brother?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:19",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "I'm good, I'm good. Good to see you.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:00:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Good to see you, good to see you. And after a triumphant week at Starbase, the one, the only, everybody's favorite Gavin Baker of Atreides Management. How you doing, Gavin?",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:00:34",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Great, man. Thanks for having me.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:00:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You still floating on cloud nine after the SpaceX IPO? Yeah?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:00:42",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "That was a very special moment and it was a culmination of, you know, in some cases decades of hard work. But man, to quote Bill Belichick, 'onto Cincinnati'.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "00:00:52",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Yeah, yeah. Exactly right. Yeah. 0-0 is how the Knicks talked about the next game in every series.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:01:00",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "They're like, 'It's 0-0. We come into this as if it's like the first game of the series even if we're up two games or three games.' The socialists have swept New York in the congressional Democratic primaries. On Tuesday, New York City Mayor Mondami went three for three in the candidates which he endorsed and they all won their primaries. 10th district leader Brad Lander defeated two-term incumbent Dan Goldman. 10th is one of New York's richest districts, includes the West Village, all those townhouses, Wall Street, DUMBO, Cobble Hill, Carroll Gardens, Park Slope. That's some weird geography put together there. In New York's 13th, Chevalier beat a five-term incumbent who was backed by House Speaker Hakeem Jeffries. And apparently, the socialists are coming for him. 13 is one of the poorest districts, Harlem and the West Bronx, the Boogie Down Bronx. She's a 32-year-old Democrat Socialist with a history of spicy remarks. New York's 7th district, Claire Valdez, won the open seat over the hand-picked successor of the incumbent. 7 is a DSA stronghold, Bushwick, Williamsburg, Long Island City, Greenpoint, known as the 'Commie Corridor'. A lot of hipsters and baristas with suspenders in that neighborhood. According to our partners at Polymarket, this was a pretty big upset. The Mondami sweep. Chances were just 26 before election day. Yeah, that would be like the trifecta there if you were gambling.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:32",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "These candidates, just like Mondami did a lot better with younger college-educated and high-income folks, the folks who can afford to be socialists.",
+      "tone": "cynical"
+    },
+    {
+      "timestamp": "00:02:41",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "And these are all safe Democratic seats. The DSA will very likely win. So, the DSA caucus...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:02:46",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "That's the best thing you just said: people who can afford to be socialists. It's always...",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:02:49",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "It's always the rich poors, you know? They're rich, but they pretend to be poor. It's perfect.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:02:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean, this is the history of our country, from the 30s, the 50s, Red Scare, Black Panthers, I mean, we'll get into it, Chamath, but please take it away.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Basically, if you're intelligent and you get into business, you become a capitalist. If you're super intelligent and you go into academia, eventually you have the luxury of belief that socialism is awesome. What's your take here, Chamath, and then I'll go to you, Sacksy-poo, because I know I can see you chomping on something over there. You're just ready to go.",
+      "tone": "provocative"
+    },
+    {
+      "timestamp": "00:03:17",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Honestly, I think that we are losing the script and part of it is because we've been our own worst enemy. I'll just keep saying this that I think AI is a very good prism into this problem. I think AI is the greatest economic leveler we'll ever find in our lifetime. I think it's the thing that can create the greatest amount of equality. I think that it can even the starting line for every single person on Earth. But we've done such a poor job in representing it, in bringing it to market, in talking about it. We've let all of our own personal trials and tribulations and insecurities and fights spill out into the open. As a result, Silicon Valley has lost even more credibility with the people at large and in that vacuum, what other people can paint is a picture of how anything other than what capitalism looks like today is a better version of what they see. And this is why you're seeing, I think, a lot of these people get a lot of momentum. I think if you look at some of the key congressional races, they were a referendum on AI. And the good news is we were able to hold the line in some of these key places, but just barely. In Utah and in New York, there was a couple of very important races where it was essentially Anthropic-funded anti-AI groups, which is again insane, against, in some ways, OpenAI-funded pro-AI groups, and the pro-AI groups won.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:04:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You just explained that as a great leveler, can you give a couple of examples and just expand on that briefly? How is it a great leveler? I mean, I know, but for the audience's sake, you've said this a couple of weeks now, so I think unpack it a bit.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:05:04",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Um, the best way to explain it is, I think that the first real major unlock of economic productivity was when the internet and specifically Google went and harvested and collected all the world's knowledge and all the world's information, and they made it available via search. What we figure out though, 25 years later, despite the fact that they built a great business, is what was missing was then being able to take that knowledge and information and transform it into expertise and intelligence. And that's effectively what AI does. It takes that world's knowledge and it allows you to act upon it so that every single man, woman, and child has an equivalent Travis Kalanick in, you know, as his co-founder, a super founder, this brilliant person that can think through all your problems, can out-engineer people, out-think people, and they sit beside you and you have that. And there is no gatekeeping that can prevent you from having that.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "And so now, you're only as good as your ability to direct that energy into something productive that you value. That is an incredibly powerful thing. And instead, we've gotten caught up in doomerism and jobs being lost and, you know, water being consumed, all of which are lies, all of which are complete fabrications and misinformation. And these have been created in order to specifically help one small set of actors inside the AI race, and it's been fed and funded by those folks. So in, in this vacuum, Jason, we've allowed all these other people to paint the other version. And right now the other version looks way more compelling than the current version because the current version has very poor brand ambassadors.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:06:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sacks, what's your take on this? I guess some people are looking at this as the left's version of the populist takeover that Trump did over the last 10 plus years. What's your take on what we're seeing here with socialism and its amazing appeal, and it's winning at the election box?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:07:08",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "I think there is some truth to that. I mean, I think the choices of the future are going to be communism, or if you want to call it socialism in the Democrat Party, or nationalism in the Republican Party. I mean, that is where where we're headed. Those are the two populist directions. But let's look at what these DSA candidates stand for. So let's look at what their platform is. They actually say they want to abolish the Senate. They want to abolish the carceral state. That means basically police forces and prisons. They want to abolish ICE and grant amnesty for all. They do not support any deportations whatsoever. They want to replace the president and Supreme Court with an executive and judiciary that is chosen by and subordinate to Congress, which basically now I guess just means the House. And with respect to House elections, they want to abolish the electoral college. They want to replace the two party system with a multi-party democracy and they want to expand the House of Representatives, implement proportional representation and rank choice voting in all elections. So this would be a total makeover of our constitutional system. They want a free Palestine. They want public ownership of major corporations. They want to defund the Department of War. This is a very radical organization and you would laugh at a lot of these types of proposals, but you can't really laugh at it anymore because these guys are taking over the Democratic Party and you can see the Democratic establishment is in complete panic right now because they have lost control of the party to Zohran Mamdani and his his allies. So Jason, like you said, I mean let's take this one race here. New York 13. You've got this ally of Hakeem Jeffries, longtime incumbent Congressman Espaillat, I guess is is his name. He",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "is the chair of the Congressional Hispanic Caucus and he was defeated by an unemployed 32-year-old PhD candidate. She's never had a job. She's been in college for 10 years, I guess writing this PhD thesis. And I think even by DSA standards, she might be kind of a lunatic. So she has declared that she wants to end Western civilization, she wants to eradicate Western civilization.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:09:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Wait a second, what?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:09:26",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "We're soaking in it.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "00:09:27",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Yeah. She actually said she used the American flag as a napkin to clean her hands.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:09:33",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh.",
+      "tone": "shocked"
+    },
+    {
+      "timestamp": "00:09:35",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "She attended a rally one day after October 7th celebrating the slaughter of Israeli civilians. I mean, she's very pro-Palestine, but even to the point of celebrating Israeli civilian deaths. She calls white women ugly colonizers. She's called for the complete defunding of the police and abolishing all prisons and borders. Doesn't want a single deportation. Hates the police, openly calls them pigs or has on social media before. Calls US service members war criminals and says the US is a disgrace of a country. She's written favorably about communism and seizing the means of production and on and on and on. So this is basically the new Democratic Party. It's going to be, even if the Democrats do take the House in November and Hakeem Jeffries becomes Speaker, this is going to prove to be a huge headache for him managing all these new DSA members.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:10:26",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Hmm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:27",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Because they do not actually see the traditional establishment wing of the Democratic Party as an ally, they see it as an obstacle. This was the DSA co-chair Josh Block said,",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:10:42",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh my god.",
+      "tone": "shocked"
+    },
+    {
+      "timestamp": "00:10:44",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "“We're using the Democratic Party as a ballot access vehicle. Not because we share its goals. We build our own organization, get elected under the Democratic label, caucus with Democrats when it's useful, and push our own agenda from the inside. We see the Democratic establishment as an obstacle, not a home.” So the DSA is coming for the Democratic Party. It controls the base now. It's where all the energy is. I think this takeover will continue. I think the DSA will gradually take over more and more of the Democratic Party. And all I can say to these establishment Democrats is: play stupid games, win stupid prizes. You supported this open border policy that brought in this wave of mass migration that is a huge part of the base of this new DSA wing. Mamdani would not have won the mayoral election in New York if it had just been native New Yorkers voting. It was the mass migrant vote in New York that swung it to Mamdani. It's not exclusively the DSA base, it's the migrants plus these over-educated white progressives, who I say over-educated because they're more downwardly mobile. They end up going to work in academia or NGOs, that kind of thing. They're hard left-wing. They're kind of the vanguard, and it's this combination of these, you know, recent...",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "college graduates who are kind of the organizers and this migrant movement who are really taking over the Democratic Party, but again, this all goes back to Democratic Party policies. They may not have intended for this to happen, they may not have intended for them to lose control, but it was their open border policy. It was also the fact that they have cracked the melting pot and the policy we had for many years in America of assimilating migrants, right, immigrants?",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:12:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:12:26",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "That all got cracked by multiculturalism and wokism. We don't really do that anymore. So now you've got these candidates like Chevalier openly declaring they're not just anti-American, they're post-American. They don't have any respect for the American system, our constitutional order, our free enterprise system. They want to introduce something and much different, and it's going to look a lot like the countries where these migrants are coming from. So again, you know, if you import massive numbers of migrants, don't assimilate them into our system, and then you have these Marxist leaders, you're going to end up with the American system coming to resemble the countries from which this mass migration came.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:13:05",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "It's really interesting that you mentioned like how she wants to get rid of all of these, you know, delete all of these units. It's very similar to Trump's, you know, he wanted to delete a separate set of things like the IRS and USAID, Department of Education, EPA. They each use that playbook as well, like hey we're going to delete some of this stuff. Travis, you famously had the Fountainhead...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:13:29",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "Trump didn't want to delete the US Constitution.",
+      "tone": "firm"
+    },
+    {
+      "timestamp": "00:13:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, definitely not.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:13:32",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "Slight difference. Slightly different, I agree. I don't think he wanted to delete Western culture. I don't think he wants to delete Western culture. No. You might want to delete USAID because it was a festering, it was basically a front for all these NGOs...",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:13:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "CIA.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:13:47",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "and CIA. Yeah. By the way, you may have noticed that in South America we've had seven elections where the countries have swung to the right. And I think a big part of the reason why might be you don't have the USAID there conducting all these left-wing regime change operations.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:14:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Payola's Payola disappeared.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:14:11",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Yeah, totally. And the incentives disappeared with it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:14:12",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Travis, you famously had the Fountainhead, Ayn Rand's novel, as your Twitter avatar for a decade or two.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:14:17",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "I sure did, Twitter avatar for a decade or two.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:14:19",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "No, no, they've been writing about it for a decade or two. This is like a six month thing where I would read a book and then rotate it, my avatar. Yeah, I had Hamilton for a while, I had Ender's Game for a while, but yeah, it became a thing.",
+      "tone": "corrective"
+    },
+    {
+      "timestamp": "00:14:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But I mean you, having known you for a while, I think believe in the individual and their exceptionalism and trying to have a little ruggedness there. This is obviously the exact opposite. What's your take on what's happening in these pockets? Because it's not national yet, but it's definitely notable.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:14:56",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "All right, I've got, I've got sort of two aphorisms for it.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "Okay.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:15:01",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "First is truth and justice is the immune system for society. When the immune system is suppressed, all the social ills flare up.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:15:15",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "Okay. So if you're seeing us losing truth, like social media, mainstream media, whatever you call it, like that's an early indicator for bad things happening in society.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:30",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "Okay and it's not just like social media, mainstream media, it's just everything around us. And the same on the justice side too. If people commit crimes and there's no consequences, it's a nice early indicator.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:15:43",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "So you can kind of watch, you can watch these things and say, is truth winning today or is it losing? Is justice winning today or is it losing? And what the trajectory will tell you, are we going to get worse? Are we going to get better?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:15:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right. COVID makes and and in the Fauci case, now we're seeing a lot more information come out. We have a really hard time getting the truth. And maybe we'll get justice eventually. It seems like we're getting a little more truth five years later, but it's like a perfect example of what you're discussing.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:16:11",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "Yeah, so there's like, there's a lot packed into that, but we can unpack it. If we had a lot of time, we could unpack it. But those become the sort of atomic things that you look at.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:16:25",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "And then the other thing I'd say, and and some people get a little surprised when I say this, which is communism is in is in all of us. Communism is in is in our blood as humans.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:16:40",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "And people go, what the hell are you talking about? You're crazy. What do you mean? Well, I'm like, well, have you, have you ever in your life been lazy? And everyone's like, yes, I've been lazy in my life before. I said, have you ever in your life wanted something for nothing?",
+      "tone": "rhetorical"
+    },
+    {
+      "timestamp": "00:16:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:16:57",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "The difference is do you make that a way of life? And when you have ecosystems that essentially allow you to do both of those things without consequence, those ecosystems get a critical mass and start taking hold. And I think that's what we're seeing.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:17:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well said. Yeah, I think it's well said. Gavin, I know you, I don't know you to talk too much about politics, but talk about markets, but these two things do relate, I think. So give us the economic perspective here on why this is happening. Because obviously, different generations have had different economic experiences. So I don't want to lead the witness here, but I have had conversations with you about this before.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:17:35",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Yeah, well, so I do think, I obviously AI is I think going to be the defining political issue of the midterms and for sure the the next presidential election.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:17:45",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "But I feel like what is going on with the DSA is really a fusion of two things. So the Democratic Party, I I was a Democrat for most of my life. And it was the party of the working class people that was trying to create opportunity.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "you know, maybe level out, uh, equality, you know, help Black Americans, help Hispanic Americans and you know, you can agree or disagree with their methods, but I think those are all noble goals. And to a large extent, none of those are really present in the DSA. None of them. If you look at who voted for which candidate, the voting base of the DSA are relatively wealthy white liberals who are downwardly mobile. They're losing votes with working class people, they're losing votes with poor people, they're losing votes with Black Americans, they're losing votes with Hispanic Americans. And those, you know, the the people that the Democratic Party I think for a long time tried and whether they failed or succeeded is up to tried to represent and give a voice to, they are not of interest to the DSA. And I think the DSA is is dangerous. It's tragic that we are electing profoundly anti-American candidates who in some cases have called for violence to eradicate America. And I just think there's a whole class of people who went to an elite school, they grew up in really nice circumstances and uh instead of going into industry, they went into this kind of giant NGO, nonprofit machine and their outcomes have been very different from people who did productive things for the world, you know, I've said on the show many times, Elon has done more to decarbonize the planet than every activist combined.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:19:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, time spent.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:19:59",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Yeah, ten to ten. And I think these NGOs and the fact that the government is increasingly outsourcing a lot of funding to them is a really big part of this problem. And they are pursuing policies, you know, I think we maybe talked about it last time, but the Curley effect, a mayor of Boston, you pursue policies that you know are going to be disastrous for the your constituents, but they drive out your rivals. And then you can give jobs, six hundred thousand dollar a year jobs running an NGO that does nothing productive to your friends and allies and it's really organized corruption happening at a massive scale. You know, the one thing whatever whatever you want to say about the Trump administration, a lot of people are up in arms about this, you know, new plane he's getting from the Qataris. Well, what, one, sounds like we needed a new plane, but two, three.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "I think there are tens of billions, maybe hundreds of billions of these payments flowing to these NGOs and if you look in California and New York, it's like I think the per capita spending on homelessness has more than doubled and outcomes have gotten worse. In California, it's like quadrupled and outcomes have gotten worse. So I think this is",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:21:29",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "this is dangerous and I hope that the mainstream Democrats can find a compelling candidate because I think the reason that the DSA is increasingly ascendant is not because of their ideas. I think their ideas appeal to this very narrow subset of downwardly mobile, rich white people who, you know, increasingly maybe live in quasi-genteel poverty because they're not doing productive things. They maybe well-intentioned, but they're not doing productive things and can find a compelling candidate because I think the reason they're ascendant is Zohran Mamdani. I think he is one of the most talented politicians I've ever seen in my lifetime. You know, he can give a great speech. He's good in an interview. He can tap into all of this. He's kind of a chameleon who can shift, but I think he is a singularly talented politician and he is the reason that the DSA is ascendant. Not their ideas or not dissatisfaction with AI, but it's him and there is no one else in the Democratic party. I used to think AOC was by far the most talented Democratic politician.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:22:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That was the warm-up, yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:22:09",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "She was talented. She's nothing like Zohran from a political perspective.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:22:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Zohran is clearly talented and if you combine his charisma and ability to communicate with generations like we're now like got two of these lost generations that feel like they're going to do worse than their parents. And if you look at housing and college debt, healthcare, they don't believe that they can participate in the system. They feel the system's rigged and if somebody comes along who speaks to them and they have no conception of socialism and what happened, you know, in Germany or during the Red Scare, they have no idea of what socialism or communism is. They have this incredible wrapper they've put around this, which is, you know, they're democratic socialists. It's like it's the Coke Light, it's the Coke Zero of socialism. It's actually just communism. They want to literally seize people's assets. They want to seize half of, you know, these companies' stock. They want to seize their wealth. They just want to take from the people who have made stuff, as we talked about last week. And we've done nothing to change their mind. We haven't made more houses, we haven't made college more affordable, healthcare is a disaster, inflation's a disaster, and starting pointless wars, obviously the support of is",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well somewhere in here as part of all this...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:02",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Can I say something?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:04",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Can I say something?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:04",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "I was on Megyn Kelly yesterday and I had this theory that I've been kind of working through and I'll just share it with you guys because I'd love your reaction. If you look at the scourge of socialism, if you take the rhetoric away and you actually look at the outcomes, there are three countries that I think have veered far towards socialism well before the United States. Canada, the UK, and Australia. And I think when you look at any sort of reasonable measure of their progress, it's been an unmitigated disaster. So all of the virtue signaling on social issues, all of the virtue signaling on immigration and open borders, all of the virtue signaling on climate change has left each of those three countries in some state of disrepair with enormous amounts of infighting, tremendous political instability. They are all sort of powder kegs. And there's an interesting thing that happened in each of those three countries that I think has the potential to turn the tide and it speaks to what Gavin said. Each of those three countries now have banned social media when you're 16 and under. And I think it's sort of like making sure the kid doesn't get addicted to the drug too early. And when you look at somebody like Zohran Mamdani, I think Gavin is right, I'll go even further. He, AOC, the lady that just won...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:25:34",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Shivalie.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:35",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Shivalie. Let's just break it down. They're all good-looking, they're all charismatic, they have their pulse on the gestalt of the moment, they know how to use social media and they are essentially curating an army. Now if you cut the legs off by saying young people should actually age into social media, I suspect the most important channel of information consumption being taken away from them actually starts to give them the opportunity and the rest of us quite honestly because we have to deal with kids who are just really f-ing stupid constantly asking for this stuff, the chance to actually show you how a balanced diet actually allows you to be much healthier in your later life. And I think as it relates to information consumption, I think you are going to see, I suspect, a far less radicalized youth aging into the voting roles in those three countries. And I suspect if you start to see political stability and predictability in Canada, the UK and Australia, you can put your finger right on this ban as the reason why. And Florida's already done it in the United States and I think we need to deeply consider it across the rest of the United States.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:26:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Social media ban is now starting at 16, Canada has it, it may come to the US. Go ahead, Travis.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:56",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "I'm a full counter to Chamath on this one. The...",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "I think we all agree social media is bad for the kids and for the adults. Like too much of that stuff is very bad, it's brain rot for real, and it's going to be worse than cigarettes, it's all the things.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:27:11",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "But the real point of banning under 16 is so that you can force adults to identify themselves and de-anonymize themselves so you can set up a full-scale censorship regime, which they're sort of contemplating in the UK.",
+      "tone": "argumentative"
+    },
+    {
+      "timestamp": "00:27:27",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "And what censorship is really about is not about harmful content. It's about content that the people in power don't want you to see, that disagrees with them. If it agreed with them, it's not harmful. It's the stuff that doesn't agree with them.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:27:44",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "And so what they're doing is they're criminalizing disagreeing with them. And so there's a derivative of this age-based stuff—",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:27:54",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "Age-gating, which is really about the adults, not the kids.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:27:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That is the downside to it. Gavin, you wanted to add?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:28:00",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "No, I super agree. I think that a social media ban under 16 would be great, but it comes at a really high cost outlined by Travis, and that's what's really going on is they want to restrict anonymous accounts on X who say things that particularly the powers that be in the EU do not like. And if there's a way to do that while preserving anonymity and free speech, I'm all for it, but I think if it were not for free speech and X, like, I think we'd be living in a very different world today that would be a lot worse.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:28:38",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Just to riff on a few things that all of you have said. You know, on communism, it is communism, and the great tragedy of human experience is we can't learn from the experiences of others, and it may not matter that communism has failed utterly and in death, in misery, wherever it has been tried, in a variety of different cultures, with a variety of different mechanisms, and every generation may need to experiment with it.",
+      "tone": "philosophical"
+    },
+    {
+      "timestamp": "00:29:13",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "I think the saving grace and the importance of preserving free speech is that the DSA's policies, and I would say in particular super progressive democratic policies, are measurably bad. They lead to bad outcomes. If you care about Black lives, there's a study that is uncontested that when you elect a Republican DA, all-cause mortality for young Black men in that city drops by 7%. That's all it takes. You care about the environment? Well, progressives, there's so many regulations that you can't build solar, which is really the only thing that matters, and like the world is going to run on sunlight. You care about education? Their approach to education of getting rid of these elite schools that allows low-income people to have a real chance, you know, getting rid of math and calculus—",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "California, it is profoundly disadvantageous to people. It leads to terrible outcomes. And we all know what happens with crime. It turns out that there's a certain percentage of people who, you know, are... I think it's like 60, over 60% of the violence or 75% of the violence comes from people who have like 10 or more convictions.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:30:24",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I think this specific stat is like 0.1% commits 70% of the crimes. And if you just dealt with the 0.1%, you'd have effectively no crime.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:30:30",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Yeah. And so I just think the scary thing is, and I do worry for the first time, like as a student of history, the United States has been like a very stable political-economic entity, geographically stable for a long time. And that's to its credit because we could have literally taken over the world after World War II.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:30:53",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "But man, if they get total control of some of these cities and drive out everyone who is productive, I don't know how you come back. And so that's... that is a little worrisome to me in terms of the future of the United States.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:31:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:31:13",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Well and by the way, I don't think it's just New York. I mean, that race for mayor in LA where was it Raman somehow beat Spencer Pratt thanks to ballot harvesting after voting day? Or I should say votes that were found and counted after election day.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:31:31",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "I mean, that will be a test of the DSA because they are highly organized and they have learned how to take advantage of all these rules, these ballot harvesting rules and all these types of things. The DSA, I think they've got something like half the city council seats now in LA and they're growing.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:31:51",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "So especially in these low turnout elections—and look, this was a Democratic primary in New York, which is a strongly blue state, so I think maybe 17% turned out, something... it's very low—but this is where the DSA really thrives and excels because they care passionately and they're highly organized and they know how to take advantage—this is why they want all these like ranked choice voting and all these types of systems, they know how to manipulate and take advantage of those kinds of systems.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:32:18",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "So I think that you're going to see this in lots of other jurisdictions. Wherever they're organized, I think LA will be a really interesting test. So I don't think we can just chalk this up to Zohran's popularity, you know. This is a national movement and we're going to see it in a lot of places. But there's no question that Mamdani is now kind of the spiritual leader.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:32:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "To add to that Sacks, they did learn something from Trump which is build a big tent. So you're seeing Bernie, Mamdani, Ro Khanna... they're all kind of like 'Yeah we're different, but there's enough room in this tent'.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:32:53",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Well what's happening is that these sort of more established progressive leaders, they want to tap into this energy and even the establishment...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Establishment wing of the Democratic Party is now bending the knee. And so what you're going to see is, regardless of how many DSA candidates actually get elected, the rest of the party is now responding to this, and they're going to bend, they're going to blow in this direction because they don't want to get challenged in a primary. I mean, think about this: you had three major congressional races where the Mamdani candidate won, two of them unseated, you know, really strong incumbents.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:33:27",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "These were big upsets.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:33:29",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "So you got to think now that every congressional race in a pretty blue district, those members are now going to have to take into account that they could get primaried, and they're going to have to tilt their voting and their views and their rhetoric in this DSA direction because they don't want to have happen to them what just happened to Dan Goldman in the New York 10th district. And just to make one last point on that, so J-Cal, you mentioned the Israel issue, and I actually think that is a hugely important and salient issue now in the Democratic Party, in Democratic primaries. Obviously saw that as part of the DSA platform, one of the legs is free Palestine. This defeat of Dan Goldman, two-time congressman, he led the impeachment effort against Trump, he had all the right progressive credentials, he checked the box on all the left-wing policies, he was on the right cable news channels all the time, no one expected him to lose. He lost to Brad Lander really just over this issue of Israel. Dan Goldman is very pro-Israel, he basically defended Israel's actions over the past few years, whereas Lander, who like Goldman is also Jewish, so this was again, you know, white Jewish congressman against white Jewish long-time New York politician, so on paper they're very similar. It was just in this issue of Israel where they disagreed, and Lander went to a mosque in order to denounce what he called the genocide in Gaza. So this was really as close as you can get to a straight-up vote on that one issue in this primary, and Lander won pretty handily. Now the reason for this is if you look at polling, 80% of Democrats now say they disapprove of Israel. So, you know, the approval-disapproval rating—Israel used to have high approval ratings pretty much across the board. I mean, it was sort of a consensus both Democrats and Republicans. Now 80% of Democrats say they disapprove. You really can't underestimate how much of a motivator this is for young Democrats. They believe that—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:35:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well we saw they were all over campuses at State.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "00:35:31",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Sure.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:35:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We see it, I mean it draws people out and it has been quite polarizing just to call balls and strikes here inside the Republican party as well. You have Tucker leaving the party over this, you have Megyn Kelly going mental over this, and you have, you know, a lot of civil war inside this administration according to the report. So this is the—",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "00:35:51",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Well let me... look, I mean I'm not taking a side in this, I'm just trying to describe what's what's going on.",
+      "tone": "calm"
+    },
+    {
+      "timestamp": "00:35:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Absolutely, same as me.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "00:35:57",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "I think the Republican Party is a little more mixed on this issue.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "And it really comes down to age. So if you're part of the older more establishment Republicans, let's say you're a Fox News viewer, you still have high approval ratings for Israel. But if you're under 50, which means you're probably not watching Fox that much anymore, you're probably onto the podcast, I think the the disapproval rating for Israel is now 57%. So it really comes down to age. Young people across the board have serious problems with what Israel is doing and then, you know, as you get into older age groups, that's where you see a big difference between Democrats and Republicans.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:36:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And to be clear, I think Chamath did a wonderful job of explaining this on Megyn Kelly. There's Jewish people, there's the state of Israel, there's Israelis who live in the state of Israel who are also Jewish, and then there's Bibi Netanyahu. And I think there's a lot of concern on Bibi Netanyahu.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "00:36:46",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Yeah, I mean look, I think the state of Israel is just absolutely out of control is the consensus I think amongst many people across many religions and political parties.",
+      "tone": "direct"
+    },
+    {
+      "timestamp": "00:36:57",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Not to rehash this whole thing, but there are a lot of parallels from what happened in 10/7 and what happened in 9/11 in the following ways. When you invade a country and you slaughter their people, it creates an enormous injury. An enormous emotional, physical, psychological injury. And what that country typically does is respond by giving the authority to the leader at that time to set the table right. And you have to remember, there were a lot of things that happened post-9/11 that under any other circumstance would never have happened. At the top of the list would have been the Patriot Act, which in any other world would never have gotten passed and would have seen the light of day, but not for 9/11. So there are moments where leaders are put in a position and they essentially act on behalf of their country and their people to right a wrong. I understand that. I think everybody understands that. What's happened now, though, is that people cannot logically disambiguate Jews, Israelis, and Bibi. And I think that's very unfortunate because we're at a point in time where everything gets conflated and this thing has become this third-rail issue. And I find it absolutely shocking. It's completely reasonable for people to have a point of view on Bibi and say, 'Hey, you know what, it's enough' or 'it's gotten too far' or whatever it is. And I think that there is a very reasonable claim to make that it's time to find different leadership, new leadership inside of Israel. And they deserve an opportunity to reset their standing on the global stage. They deserve that. The Israeli people are incredible. Jews are incredible. But the idea that you fold it all together and you look at one person and then you apply it to an entire country and then an entire religion is insane.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:38:48",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "May I add one thing? May I add one thing, is I think there is... well, two things really, and I'll be quick. One, Israel has a giant PR problem. They need a young, sub-30...",
+      "tone": "eager"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "25-year-old American Israeli who's super fluent in English, conversant in social media, and is their kind of spokesperson to America. And they need that in France, in Germany, in every country. And they do not have that. There was a young, I think his name is—I forget his name, but there was a young Israeli who was doing a really good job, Israeli-American, representing Israel after October 7th, and evidently Bibi Netanyahu's wife didn't like him, so they canned him. And they've never really found a replacement. And I do think this is an urgent issue for Israel because it's like they are taking body blows every second and they're not even responding. And what I think they do, what they tend to do, is they'll sometimes roll out someone who's a great man or woman in Israel and is in their 60s and a hero of a war, but isn't that fluent in social media. Maybe the command of English is, you know, technically precise, but there's an accent. And those are great people, but they're not great spokespersons, and this is an urgent issue. As far as the antidote going back to Chamath's comment, I do think a big reason Trump got elected—every Democrat, or many of the Democrats I know who voted for Trump, a big part of it was that during COVID, they heard what their children were being taught.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:40:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "For the first time.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:40:23",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Yeah, and it was radicalizing for them. And I think it's just really important that like as part of the American educational system, just there not be overtly anti-American things. Listen, we've made mistakes as a country. We're not perfect, but we're about as good as it gets. And we need to tell that story in every grade consistently. And we can have a debate. We've done so many things wrong. Let's learn from them. But just, you know, slavery was endemic to the world apart from some countries in East Asia. Like it's not a uniquely American problem. And we need to tell those stories because I think a lot of kids, the reason they're so susceptible to this social media propaganda is they've been brought up being ashamed to be American, ashamed of various things in their identity, and being told that America is evil. And we need to unwind that because America is awesome, and we're the only vaguely successful multicultural society on planet Earth.",
+      "tone": "passionate"
+    },
+    {
+      "timestamp": "00:41:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "approving"
+    },
+    {
+      "timestamp": "00:41:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The melting pot. And if you say that, Gavin, if you say the melting pot is a beautiful thing, you're going to get canceled because oh my god, you're getting rid of people's culture. It's like, no, no, keep your culture and then join this culture, and we can all have this great smorgasbord. Yeah.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:41:44",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:41:45",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "You know what my culture is?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:41:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh no.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:41:47",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "No longer Loro Piana, I know that. I know you're off the train.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:41:50",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "Winning.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:41:51",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Winning. The culture of winning. I love it.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:41:53",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Learning.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:41:54",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "Progress. Adventure.",
+      "tone": "inspired"
+    },
+    {
+      "timestamp": "00:41:55",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Chamath, do you piss excellence to quote Ricky Bobby?",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Often times, it's excellent.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:42:02",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "This is excellent.",
+      "tone": "approving"
+    },
+    {
+      "timestamp": "00:42:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Just to wrap up, sometimes it burns, but often times... Just to warn, just to warn...",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:42:06",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Just to warn, just to warn the dopey Democrats who have been unable to get anything done. The socialists are using your party. And this guy went viral. They're just a host. Like they literally want to infect the Demo-",
+      "tone": "warning"
+    },
+    {
+      "timestamp": "00:42:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh yeah, good image.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:42:25",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "They want to infect the Democratic party and then like just literally get the voting base. And this guy Gustavo Gordillo, I don't know if you guys saw this, he's a DSA co-chair in New York City. And he just said it outright. I'm going to read you the quote. 'We're part of the Democratic party caucus, but we don't agree with the way the Democratic party runs its apparatus, so we're trying to build our own independence by focusing on volunteer-led movement. We think everyone should be able to be trained and become someone who can participate in the political process, and we don't think the Democratic party is run that way. In terms of the agenda, there's a problem in the Democratic party. They are funded by billionaire donors and at the same time they're trying to represent the working class. In our opinion, you have to choose between the billionaire class and the working class.' They are just taking over the party. And again, back to the playbook, this worked really well for Trump. He took the Republican party over and he owned them. And they tried to get him out, they tried to get him out, but his message and his communication style was just too on point. He knew exactly what people wanted to hear, and he knew exactly how to deliver it. He is a all-time comedic performer, like of non-comedians, he's the number one comedian in the world, and of actual comedians, he's in the top 20. So he communicates perfectly and that's exactly what Mamdani's done. He's taken the Trump playbook and he has applied it here. He is taking over with this communication style.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:43:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You guys know I'm a die-hard Knicks fan my whole life. Cried and was at game five when they won the finals. And then Mamdani gave this speech that somebody wrote for him about the Knicks, and I was just absolutely flabbergasted and upset that it was so great. He's got that Obama-Trump charisma and he is going to destroy your party from the inside out. Socialism is communism and it is the road to suffering and pain as Gavin said. This is no good will come out of it.",
+      "tone": "expressive"
+    },
+    {
+      "timestamp": "00:44:11",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Isn't it amazing? Okay, here we go. You know Mamdani is a communist and what he represents is basically evil. And yet because he just gave a speech about the Knicks, you love him now.",
+      "tone": "mocking"
+    },
+    {
+      "timestamp": "00:44:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, I loved the speech! And I was like why is this speech so goddamn good?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "00:44:24",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "That's all it takes. That's all it takes. We're screwed. That's all it takes.",
+      "tone": "pessimistic"
+    },
+    {
+      "timestamp": "00:44:27",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "It's true though, if somebody gives a good speech... By the way, I mean, this guy, he's a total phony. I mean, he doesn't stop smiling. He's got this like crocodile smile all the time. He's talking about, you know, eating you and it's totally fake. I mean, come on, you gotta be able to see through it.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:44:37",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Absolutely.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "00:44:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I mean, come on. He had me hypnotized. He was he was making Knicks references and it was the most get out of your seat standing ovation speech I've ever heard about the Knicks and I was infuriated. This ****ing guy is such a good orator.",
+      "tone": "amazed"
+    },
+    {
+      "timestamp": "00:44:56",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "You got programmed. We're gonna have to deprogram you now.",
+      "tone": "teasing"
+    },
+    {
+      "timestamp": "00:44:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, no, no. It was like getting hypnotized.",
+      "tone": "defensive"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Tied and I just pull myself out. I got like pulled in for a second.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:45:03",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Oh, heaven.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:45:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Next topic. Next topic for sure.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:45:07",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Oh my God, great strong first topic. I didn't know you guys were going to go all in, so to speak.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "00:45:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Topic 2: Chinese open source models appear to be catching up with the US frontier models. Let's start with GLM 5.2 released by China's Z.AI. This is a frontier class open source free to download anywhere model, 744 billion parameters, 1 million token context window and it's under the MIT license. If you don't know what that is, open source licenses have...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:45:32",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Super open source.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:45:33",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "It's super open source. Thank you.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:45:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The most open source of all open source. If you open it up, you can use it however you like. You can fork it, you can build your own company based on that. No regional restrictions, no API, fully self-hostable, no...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:45:54",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "It's just yours. It's just yours. It's just yours.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:45:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's yours. Do what you want with it. That's it. And you just got to... you just got to reference the... you just got to reference the license. That's it.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:46:04",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Yeah, you shout out the license and you're good.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "00:46:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Scores 51 points on the Artificial Analysis Intelligence Index. That's the highest score of any open weight model ever. Stacks up nicely next to the frontier models be GPT 5.5 on the frontier SWE coding benchmark. That's a software one. Trails Claude Ops 4.8 by less than one percentage point. API usage cost obviously much cheaper, 85% cheaper in fact than GPT 5.5 for comparable performance. Z.AI founder told Elon Musk open weight fable capabilities will be here sooner than Q1 2027. Gavin, in other words, all this hand-wringing, all of these legal restrictions, self-imposed restrictions are now completely or close to completely moot if they're going to have a model in Q1. Does this six months even matter? Does six months in the grand arc of AI matter or not? And what does this mean for frontier models?",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:47:00",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "I do think how good GLM 5.2 is has challenged some of my beliefs. And there was a great post from a TPU engineer that for sure distillation is happened. There's been an immense amount of distillation, no question.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:47:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Please explain to the audience what that means.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:47:22",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Distillation is when you have, you know, a... like, you know, we all have seen videos of these Chinese iPhone farms. Just picture a farm like that. Tens of thousands of phones, iPads, and computers that are asking the Claude API through masked accounts very specific questions and then these what's called reasoning traces are being harvested. Because if you're on the API, you know, you get to see every token. And those reasoning traces are then fed back into the model during the reinforcement learning process and probably during the pre-train process. And that is a way that you can get really...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "really close to the frontier at a fraction of the cost. And this is for sure going on and has gone on for a long time. I do think—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:48:09",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's a cheat sheet. It's a cheat sheet for other models to catch up. It would be like—it would be like asking Google every question you could ever imagine, every search imaginable, getting all the results and then putting your own search engine together to make it very simple.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:48:21",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Exactly. But now that this model is so good, it is good enough to do its own RL and, you know, the cat maybe out of the bag. Now, I don't think we really know how good Mythos is, we don't really know how good the next OpenAI model is, we haven't seen the next SpaceX model, so maybe that gap opens up again. But either way, I profoundly believe the future is composable models and you're going to every enterprise, you're going to have what Andrej Karpathy called a council of LLMs. You're going to have, you know, you're going to have Grok, you're going to have Anthropic, you're going to have OpenAI, Google, you're going to have at least two of those. I'd argue Grok should always be one of the two because of its dedication to the truth and it will tell you as a business owner a politically inconvenient truth that you need to know for your data. But you're also going to have your own open weights model that you RL'd on your data and you're going to put those two together, the frontier models and your own model, and you're going to get, you know, real Pareto dominant outcomes and, you know, half the queries are going to be go to the open source model, maybe 85% and only the hardest ones are then—maybe they all go to open source first and only the hardest ones are then checked by the frontier model. So I think this is the future, it's coming. And a misconception that a lot of people have is that open source models are, you know, somehow bad for AI infrastructure providers. They're awesome for the AI infrastructure providers. They just shift economic value from the margins of the frontier labs to the infrastructure. And that's not bad for AI.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:49:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "That's great for them.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:49:35",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "It's great for them.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "00:49:36",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "It's great for them. But I do think there's still a role for these frontier models and it may be true to date frontier tokens are capturing 90% of the economic value and open source tokens are probably 80% plus of tokens processed. And those ratios may be here to stay, but I just think composable models are the future.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "00:50:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "What does that mean, composable model?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:50:26",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "When a composable model where you have if you're a corporation, if you're a—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:50:30",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Dude, is there a new name for your super secret startup, Travis? What's the new name?",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:50:39",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "The name is called Adams. It's not super secret, it's super awesome.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:50:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Super awesome. Super awesome. For your super awesome startup Adams which, man, loads of people have been calling me to say how, like, they've been in the, you know, they've spoken to you and investors, the—your dog is hunting with investors, Travis.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "00:50:58",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "Fair enough.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Fair enough.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:51:02",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Okay. You're going to have a router, and every query that somebody comes in, every task that needs to be done at your company, that router is going to send it to, you know, your RLSF'd version of Anthropic or Claude 3.5 Sonnet or Nematron.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:51:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Of course.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "00:51:15",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:51:16",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Then at some point in the workflow, a frontier model may or may not come in to kind of check it, add to it, and that's what I mean by a composable model when you have kind of, you know, kind of a symphony of models working together with kind of the frontier models being, you know, maybe the conductors, but that's what I mean when I say composable.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "00:51:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. Understood. Thank you. Sacks, formerly AI Czar and now running Peak AI, what are your thoughts on China's ascension in open source? And we're still looking for our open source champion obviously here in the US, but it feels like-",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:51:54",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "No, no, no, can I just say one thing? Nvidia is the American open source champion.",
+      "tone": "insistent"
+    },
+    {
+      "timestamp": "00:51:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Thank you. Yeah.",
+      "tone": "acknowledging"
+    },
+    {
+      "timestamp": "00:51:59",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "They can release GLM 5.2 or better whenever they want.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "00:52:02",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. But why haven't they done that? They don't want to screw their customers? Too much of a conflict to be pushing it out there too often?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:52:10",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "All of the above. Who knows? We'll see.",
+      "tone": "dismissive"
+    },
+    {
+      "timestamp": "00:52:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay. Yeah, and you've got to be delicate there. I see. Okay.",
+      "tone": "understanding"
+    },
+    {
+      "timestamp": "00:52:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So I'll say it, not you. Jensen doesn't want... I mean, it's a classic channel conflict, right? You're- you don't want to compete with your customers, and he is competing with Elon on self-driving now, and Elon's making his own chips. So-",
+      "tone": "provocative"
+    },
+    {
+      "timestamp": "00:52:31",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "I think these frontier model companies should think very carefully about ASICs and the incentive that creates for NVIDIA on the model perspective. You have OpenAI, which launched their Jalapeño chip this week and announced it being built by, I believe, Broadcom, and they are saying, \"Hey, F you\" to Jensen and NVIDIA, and they already were in full contact with him. Don't be surprised if NVIDIA says, \"You know what? We kind of like the area you're operating in. Now that you're going to make chips and maybe OpenAI sells those chips to other people, don't be surprised if NVIDIA starts an OpenAI competitor.\" You heard it here first on All-In.",
+      "tone": "bold"
+    },
+    {
+      "timestamp": "00:52:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sacks, did you want to jump in there?",
+      "tone": "inviting"
+    },
+    {
+      "timestamp": "00:52:57",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Sure. I mean, look, I think that China's been good at open source for a while here. There's nothing new about that. But there are a few things that are significant about GLM 5.2. So the first one is it is now, like you said, the best open weight model for coding, software engineering, and long context agent work. And you gave a couple of the SWEBENCH scores. I mean, it was just a tick below Opus 4.8, and it was right up there with GPT-5.5.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:53:37",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "So if you compare this to, again, the state-of-the-art frontier models from Anthropic and OpenAI, it is right there with the previous model. But you have to remember now that the current model, Fable for Anthropic and 5.6 for OpenAI...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "GPT 5.6 for OpenAI is now in a little bit of a purgatory because of all the reasons we covered last week. Now look, I, like I said last week, I ultimately blame Dario and the way he communicated and the way that he primed officials to be on a hair-trigger with respect to these models and when the government got a credible report about a jailbreak from, you know, one of Anthropic's most trusted partners, you're going to say roll that back. But that is the situation we're in right now is that Fable has been rolled back and GPT 5.6 is trying to navigate these new approval hoops. So we now have a Chinese open-weight model that is as good as the currently available models from OpenAI and Anthropic. And look, this is a point I've been making really since I joined the administration is that we are in a very competitive situation with China. I've been saying this from the beginning, our whole AI strategy from the get-go was about winning this AI race, defining it as a race, as being globally competitive, and we cannot afford to do things unnecessarily that slow our companies down.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:55:17",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "David, can I ask, do you think Dario got exactly what he wanted? It seems to be there's some chance this has been a very calculated strategy to provoke the US government into doing what they just did and this is what he wants. He has a regulatory moat now, he can keep his future models behind this, you know, give it out to Claude wing, use it to distill it for him- for themselves. Do you think this is what they wanted?",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:55:37",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "I think that on a certain level it is what they wanted because they've been advocating to have a federal regulator, basically a new agency. In fact, Dario posted a blog just a few weeks ago saying he wants an FAA for AI. They wanted government approval, a government approval process for AI models. And so in a sense they've gotten exactly what they wanted. Now that being said, I don't think they're happy about the fact that Fable has been rolled back. So in a sense, you could say that Dario got hoisted on his own petard here, or it could be a FAFO situation. But look, my view on it is we should not reward Dario by giving him exactly what he's always craved, which is some sort of labyrinthine government approval process that does reward regulatory capture. So I hope that very soon now, I do think that as long as Anthropic has resolved the jailbreak issue, then I do think they should be allowed to come back to market. And similarly for OpenAI, I don't think we should be delaying them unnecessarily. We do not have months to give away in this race. And let me just say one other thing, which again is something I've been saying for months, which with respect to risks like cyber, it is undoubtedly a risk. But what is the response to that? The only thing you can do-",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "is go out and find all the vulnerabilities first yourself, the white hats. Have the white hats find all the vulnerabilities and do a big upgrade cycle, roll out the patches before they can be exploited. The reality is that if you just clamp down in a way that doesn't even allow these models to be used, the Chinese are going to have these capabilities imminently anyway. You know, they're already at Opus 4.8 level. And the founder of z.ai, he said that before Q1, they'll have Fable level capability. I believe them because look, the Chinese have been, I'd say, nine months behind our models plus or minus three months depending on capability. But it's when they know there's been a breakthrough around something like cyber, they can deploy more resources against that particular problem and catch up faster.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:57:50",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:57:50",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "They're only-",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:57:51",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Like I said, we're on a shot clock here. I've been saying for months that we're on a shot clock. We have to do smart things, we can't just slow everything down because that will not slow down the Chinese. They're not under our jurisdiction. We have to basically get these tools in the hands of our cybersecurity industry. They're the force multiplier, they're the enabler. We have to basically go out and do this big upgrade cycle quickly because we only have a few months left.",
+      "tone": "urgent"
+    },
+    {
+      "timestamp": "00:58:14",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "They're six months behind on the model and they're 24 months behind on the silicon, yet they're only a few months behind in total. So, what game are we playing? This is insane. We're going to lose if we keep doing this stuff to ourselves.",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "00:58:25",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "So let me make a point about that. So on the silicon, there's been a huge push in China by the government to push their AI labs to develop and train on Huawei chips. And look, you can take these claims with a grain of salt, maybe they're not true, but it was claimed that DeepSeek V4 was trained on Huawei chips and now z.ai, they are saying that the GLM-5 family was trained entirely on clusters of Huawei Ascend 910B chips. So now look, maybe they're lying, maybe they smuggled in some Nvidia chips, but the claim is that this was all done on indigenous chips. And what I believe is that China is engaged in a strong indigenization push right now. They want to prop up Huawei as the national champion, they want all their companies using Huawei chips. They still need to scale some of the manufacturing, but they're going to do that pretty quickly. And then what they're going to do is they're going to take these Huawei chips, they're going to take these Huawei-optimized models... remember that GLM-5.2, the inference is optimized for the Huawei chip, okay, we know that. And they're basically going to package these things up, they call it AI in a box, and they're going to sell it at a fraction of the cost globally.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:59:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Which is what they do with every technology, right? Better, cheaper, faster.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:59:51",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Exactly.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:59:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Or almost as good.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:59:52",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Yeah. And that's another thing is I've been saying since the beginning of this administration, we have to be pro-export because China is going to be there within a-",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "One or two years as I said, we're going to be kicking ourselves because we could have had the whole global market to ourselves. We invented reasons not to sell abroad to our friends and partners and now China is going to be there imminently.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "01:00:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, and with a lower price tag.",
+      "tone": "agreement"
+    },
+    {
+      "timestamp": "01:00:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "When you play with this new GL, you get some really interesting responses. I asked it about the country of Taiwan. Was not pleased and didn't give me an answer. I asked it about Tiananmen Square, no answer as well. I'm using the hosted version at z.ai. But when I asked it places to visit in Paris, it did an exceptional job. Except when I said make these ideas into an infographic and make me like a three-day agenda, it was like, hey, we don't have enough time to do that and it said use the other model because this model's too busy. But you can go play with it at z.ai.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:00:49",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Just on a point about the censorship. So there's no question that these Chinese models have, you could say censorship and, you know, there's political bias in their output out of the box. But American companies have taken Chinese models and then essentially worked around and basically fixed the censorship inside their own forked version. So for example, Perplexity did this very early on with Chinese models. They showed that you could sort of put back the content on Tiananmen Square and things like that. So I think JCal, you're absolutely right about the censorship, but it's not a fatal problem. It's something that American companies can fix when they take an open source model and fork it and customize it.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:01:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, and the hosted version, you're not going to get a great answer of what agenda you should use for tourism in the great country of Taiwan or your visit to Tiananmen Square. All right, let's keep moving here on the docket. Micron smashed their earnings. If you don't know Micron, they're one of only three companies on earth that make high bandwidth memory. These are specialized chips, they sit on top of the Nvidia GPU and their entire 2025 supply is sold out and has been for some time. SK Hynix and Samsung also make HBM. Micron smashed earnings, revenue up 4x, 4x year over year, 9 billion to 42 billion. Beat expectations by 16%. Big jump in guidance for Q4, 50 billion versus 43 billion. Their stock is up 10x. Shout out to Gavin in our 2025 prediction show. He gave a call on HBM makers like Micron as the best performing asset since that time, Micron up 14x.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:02:35",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "I'm not crying in my soup.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:02:37",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You're not crying in your soup. We got a ton of information here. I think this last just end on the Apple price increases. Everybody knows Apple has been really a bit of a beneficiary of the run-local models movement that I'm part of and and people are buying 128 gig, 256 gig MacBook Pros, Mac Studios, but the gig is up apparently because now...",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Apple which had not passed on those costs to customers is having to pass those increases on so everything from you know the new MacBook Neo which is their 699 dollar laptop you know kind of competing with Chromebooks is now 799 up 15 14 percent and Mac Studio up 25 percent the costs are just going to be very significant inflation has come to the desktop your thoughts Gavin on Micron and the impact on the industry and is this a temporary bottleneck or does this mean everybody has to get into this business quickly",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:03:36",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "No well one DRAM is the most important bottleneck but there's a whole segment of people on X who are very focused on bottleneck I call them the bottleneck bros you know they'll they'll do some work with Claude find some esoteric Japanese company the bottleneck that matters is DRAM and DRAM and HBM DRAM this is the most important bottleneck simply because memory capacity and bandwidth are foundational to the performance of every AI model so this is the most important bottleneck Elon is focusing the Terrafab on memory because he sees it as the most important bottleneck not lasers not capacitors not power power supply semiconductors not NAND flash not HDDs DRAM uh and I think this bottleneck is going to be with us for a while and it is kind of astonishing so I think so a few thoughts like what was important about the quarter they announced that they have these SCAs these supply chain agreements that have a floor and a ceiling for prices with increasingly large group of large customers and this covers essentially 50 percent of their revenue I think with just four customers and the floor pricing in these new contracts is ahead of prior cycle peaks from a gross margin perspective and so this is really I think could end up being very transformational for the industry most other parts of the semiconductor supply chain have rerate you know Lam Research you know the the wafer fab equipment suppliers you know they all trade at huge premiums to DRAM relative to prior cycles and their business models have improved but you know so has the industry structure and business models of DRAM because HBM DRAM is increasingly a customized chip but as far as other people being able to do this look CXMT is going public in China they are going to they may be the cure for Apple's ails they will flood the market with to some degree cheap consumer grade DRAM but for the DRAM you need in these AI servers there're three companies that can make it it's really hard to do this this is as close to magic as science can get and you know I think Terrafab Terrafab you know is going to be an important part of this solution but um",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:06:00",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Yo, these stocks still trade cross-sectionally cheap relative to the rest of AI. Something I've been thinking about, memory is DRAM is probably going to be 30 to 40 percent of all hyperscale CapEx next year. Every dollar, the hundreds of billions of dollars that are spent, you know, going straight to DRAM. It's wild. But this may actually be very valuable for society because it is probably, you know, going to, you know, inflate the cost of building a gigawatt data center to the point where, like, you know, even for the hyperscalers, economics matter, or caught in this prisoner's dilemma. And this may give us as a society time to adapt, to adapt, you know, what our friend Brad Gerstner calls the social contract. So the high iPhone prices, one, CXMT is coming for consumer-grade DRAM, but two, this may be good for AI. It may be good for us as a society.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:06:59",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "And making it as just really pure silicon, right? Like making memory just this incredibly refined silicon, and that might be the pre-bottleneck?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:07:14",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Yeah, making that HBM DRAM, making what Nvidia calls SoCam, making LPDDR, these are the types of DRAM that are really hard to make, not consumer-grade DRAM, and they are increasingly what you need in these AI data centers.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "01:07:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, semiconductor grade.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:07:30",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Yes, so my understanding of HBM stands for high bandwidth memory. Again, this is part of the, you know, the GPUs that go in the data center to run AI, is that you take the DRAM wafer or die, and you actually stack them. And so I think HBM3 is like eight, it's stacked eight dies high, but now they're increasing to 12 and even 16, and to basically stack them and then package them all together, that's an advanced technology in and of itself. So you're seeing now, like Gavin's saying, there's only three companies that can do it. But also this is creating significant price pressure for all the consumer electronics businesses. Apple had huge news today where they announced massive price increases. And again, it's because DRAM now is less available because it's just being hoovered up by all the data centers. And if you're a data center and you need to buy GPUs, again, those chips, they're using immense amounts of DRAM because again, one HBM chip is using multiple, like stacks of DRAM. So it's just getting slurped up. And then it takes a couple of years to ramp up new capacity. So these companies are going to do that, but that could take a while. We saw that in New York, remember that was that Micron plant that was had just broken ground and then got shut down the same day because of some crazy environmental issue. So it's not easy to ramp this stuff in the US, although Micron is the one provider that's in the US. SK Hynix is in South Korea, Samsung's in South Korea.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:09:00",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "But anyway, we're going to see again more of this AI inflation they're calling it, you know, it's just another reason to hate AI is it is in this narrow area of consumer electronics where there's competition for DRAM, it is leading to price inflation now.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:09:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Microsoft raised the price of the Xbox, you know, it's coming for the Switch, it's coming for the Playstation, you know, there's demand destruction because of prices in consumer whereas AI demand is relatively price insensitive.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:09:27",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "David, I would modify one statement. It's hard to build a Micron, it's hard to build a new fab in a deep blue state.",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "01:09:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, why were they trying in New York? So kind of crazy.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:09:39",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "You know, New York gave them all these incentives, but it doesn't know those incentives matter. It's a little bit like solar power. You can be as pro-environmental as you want, but if you can't build and install solar because of regulations, it doesn't matter. So, you know, maybe that Micron plant ends up getting, you know, built in my home state of Texas.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:09:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "The incentive game has kind of flip-flopped as it's like it used to be the states were courting the factories and the fabs. Now it's the fabs are like, which state can actually build this? We'll pay you whatever you want. Just tell us where to send the envelope. We'll drop a couple of envelopes off. It's not a problem.",
+      "tone": "observational"
+    },
+    {
+      "timestamp": "01:10:10",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Gavin, can you say how long it's going to take to stand up the fab at Terrafab?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:10:18",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Well, I mean, if it was a normal fab, it would be a two, three, three and a half year process. But, you know, we've seen what Elon has done to other construction processes and, you know, he's starting with some advantages with the Intel partnership. So, I don't think anyone knows. But based on past history, he's probably going to stand up Terrafab faster than other fabs have been stood up. But what this is really hard. It's really hard. It's the intersection of magic and science. You can't believe how complicated this is. So it's going to be hard, but, you know, he has a track record of doing, you know, what Jensen called impossible, superhuman. And so we'll see. We'll see how long it takes.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:11:08",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "You know, one other point here that I guess is might be relevant to SpaceX AI, although it doesn't have to limit it to this is, I think there's an assumption that over time it would get cheaper and easier to stand up new data centers, right? But what you're saying is actually it might be getting harder. It might be getting more expensive, right? Because there's competition for these components. The memory's getting more expensive. I'm not sure that the GPUs are getting any cheaper. I guess some of these...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:11:37",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "The transformers, the switch gear, it's impossible. It's impossible.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "01:11:39",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "...and the energy might be getting cheaper. And then the entitlements are getting harder. And the political situation is getting harder. There's very few places you can even stand up new data centers. So, is it the case that actually it's going to get more and more expensive to...",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "01:11:53",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "100%. So to stand up a one gigawatt data center, it's $35 billion in semiconductors, Nvidia semiconductors, and then 25...",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "01:12:00",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "$25 billion of power and cooling equipment and that is clearly inflationary because a lot of that 25 billion is the human labor required to install it. So the calculation that needs to be done for orbital compute is it's 35 billion of silicon in each space and you know in in literally outer space in orbit in on our ground but if you can get the cost of launch significantly below that $25 billion then the math starts to really math. And when Starship is reusable, it's going to cost $5 billion dollars to put a gigawatt of compute into space and so it drives me crazy as people picture these Pentagon-sized data centers. No, racks in space, linked with lasers. It's it's kind of a virtual data center in space.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:12:44",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Wait, 5 billion, is that 5 billion of launch costs or what?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:12:48",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "5 billion of launch cost. Now you're at 40 billion to put the gig into space. You're at 60 billion terrestrial and the 25 billion that is power and compute is clearly inflationary. And so it may be that in three or four years it's 70 billion versus 40 billion and that five as Starship becomes rapidly reusable is likely deflationary. So this is the economics that underpin orbital compute from first principles. And then on an ongoing basis you are you're maybe paying a billion dollars a year for the power to run those chips and cool them. If I had to make a guess, I think what's going to happen is that since 2021 about 40% of all data centers get contested, right? I think that number's going to go up. So Sacks, I suspect that whatever forecasted energy consumption that we are looking at in AI is grossly imbalanced. There is very, very meager supply and there's effectively infinite demand. So that probably pulls forward the economic equation to want to go to space. But then again, that's going to prefer SpaceX and their compute stack and their compute decisions over the hyperscalers and over anybody else. And so you're going to have a cost of an output token I think terrestrially, particularly from the hyperscalers, be a little economically lopsided versus SpaceX once they get it to scale. Now that's the key statement. Whatever's left on the ground though will be incredibly, incredibly valuable. It'll be a diamond. These are diamonds. And the thing is you have to find reasonable size, right? You can't have a 10 kilowatt diamond that's like a little pebble that nobody cares about. But if you're in the reasonable hundreds of megawatts to gigawatts, man those are like hope diamonds. Those are just lock them down.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:14:42",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "Which I own.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "01:14:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. Travis said there was a interesting trademark filed this week. So more in the investigator investor investigator of the Tesla plus SpaceX marriage that everyone seems to believe in.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "01:15:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's going to happen shortly.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:15:02",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "No, you can—you can say that. You can give me credit for it.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:15:04",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Of course, yes. As Chamath has architected in his—in his high perch. But this trademark came out—",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "01:15:11",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "By the way, how cool would that be? How cool would it be for those two to go together?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:15:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's going to happen. It's going to happen.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "01:15:17",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Be amazing.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:15:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And it'll be incredible. And if you're lucky enough to be an owner of both—oh.",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:15:23",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Everybody—who's the top and who's the bottom? Chamath's the top, who's the bottom?",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "01:15:25",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Everybody—everybody can decide to be an owner of both.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:15:27",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Jason—Jason, I'll be making love to myself when this happens.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "01:15:31",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Oh, so no different than any other Thursday.",
+      "tone": "sarcastic"
+    },
+    {
+      "timestamp": "01:15:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Exactly.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:15:35",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "So just another day.",
+      "tone": "deadpan"
+    },
+    {
+      "timestamp": "01:15:37",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "I'll be the top and the bottom.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "01:15:39",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You'll be the top and the bottom? Just like any other Saturday night.",
+      "tone": "joking"
+    },
+    {
+      "timestamp": "01:15:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Here's the trademark for Megapod that came out. This is a filing date of 6/18/2026, so a very recent June 18th. Modular data center hardware for artificial intelligence computing comprised of network of computer servers, computer hardware for artificial intelligence processing, computer network hardware, electric power distribution units and cooling systems sold as a unit, self-contained modular computing hardware systems for artificial intelligence workloads, yada yada yada. Essentially—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:15:59",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Well, just—just explain what this is. I mean, just let's—",
+      "tone": "impatient"
+    },
+    {
+      "timestamp": "01:16:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, well let me—let me just get it in. And so—",
+      "tone": "dismissive"
+    },
+    {
+      "timestamp": "01:16:04",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "By the way, that description makes—I don't know what it is. I still don't know what it is.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "01:16:06",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Essentially what people are saying is this is going to be a giant battery pack with GPUs at the supercharging stations which have already been approved. That's the back channel. Chamath, go ahead.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:16:27",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "You have a couple of issues right now to turn on compute terrestrially. So, assume you have land, that's relatively straightforward. Assuming you can get it zoned, less straightforward. Assuming you can get power, very difficult.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:16:41",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Then you have a very critical design decision. So all of these folks publish these things called the Basis of Design and your BODs essentially tell you, here's the Anthropic spec, here's the OpenAI spec, here's the CoreWeave spec, here's the AWS spec, here's GCP and you get these 50 and up to upwards of 500 page documents of all these technical details.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:17:00",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "The issue that we have is—I don't know if you guys have used OpenAI or Anthropic recently where you get the whole thing of like, come back later, right? That come back later is completely unacceptable. It just means that they have no compute.",
+      "tone": "frustrated"
+    },
+    {
+      "timestamp": "01:17:11",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "So in trying to find—search pricing is coming! Let's go!",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:17:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, let's go.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:17:17",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "So in trying to find this solution, what is happening is these Basis of Design—the restrictions, the specificity is being relaxed. And one of the key constraints is we've moved to an architectural model from Google and Nvidia that says, look, we have to liquid cool these racks. These are very complicated, big girth supercomputer racks essentially. And now we're also going back and saying, you know what? Maybe some of these older stuff that's a little bit less proficient and a little bit less useful, but we can air-cool them is useful. And everybody's like, yeah, you know what? We should try to use everything that's available. In that second class, what some very smart people are doing are like, wow, well here's a shipping container that you can just drop off—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:18:00",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "on a concrete pad somewhere, plug in the power and let it rip. And so Jason what you're seeing is that level of investment that's happening. So there are companies, you know, like Dell makes these racks, companies like Vertiv make these modules, and I think if Tesla can make them available to folks like us for my data center project, we would be enormous buyers of these things.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:18:27",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Right. Roll 'em out.",
+      "tone": "supportive"
+    },
+    {
+      "timestamp": "01:18:30",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Because we would just literally prefab them in a warehouse, right? Get the chips, prefab them, truck them to the place, crane them in, turn it on, off to the races you go. You have like a 90-day build cycle, which is unheard of. So that's where these megapods are coming from. I hope it's not entirely consumed by Tesla and SpaceX internally.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:18:46",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, that's the rumor is that he's going to put them at the supercharger network where he has a lot of land and he's got power there already, and those are lightly used in some cases, you know.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "01:18:56",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "There are other requirements. The problem with some of these things is that you need to have certain levels of access. There are certain infosec requirements. There are certain liquid cooling requirements that make many of the workload applications unfeasible at a place like a supercharger center where random bumblefucks are like traipsing around.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:19:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Security guard. Put an Optimus logo on his jacket.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:19:14",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "So guys, I've got 500 properties with lots of energy, lots of mechanical cooling systems, and lots of LNG access, or sorry, not LNG, natural gas, sorry, already piped in. So on all the stuff I'm doing on robotics, AI, physical AI, we're literally looking at putting some of our compute into our kitchens.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:19:43",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Compute kitchens! You're going to be able to buy small modular, let's put data center in a quote.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:19:46",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "Yeah, but it doesn't matter. Like, I just go buy the GPUs and I'll just, I just set it up in a kitchen, right?",
+      "tone": "matter-of-fact"
+    },
+    {
+      "timestamp": "01:19:54",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "It's not that easy. No, wait, hold on. It's not that fucking easy, okay? Like, if you guys want to build a cloud and contribute it to a pool, you're going to have to sign up for liquidated damages, and you're not going to sign up to these SLAs.",
+      "tone": "confrontational"
+    },
+    {
+      "timestamp": "01:20:11",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "Guys, I'm not a hyper-scaler. I'm just using it for myself.",
+      "tone": "defensive"
+    },
+    {
+      "timestamp": "01:20:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Rack and stack!",
+      "tone": "encouraging"
+    },
+    {
+      "timestamp": "01:20:17",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Oh, okay. Sure, you can use it for yourself. I'm saying the more interesting opportunity is when-",
+      "tone": "dismissive"
+    },
+    {
+      "timestamp": "01:20:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Whatever Travis says, let's talk about the interesting stuff.",
+      "tone": "dismissive"
+    },
+    {
+      "timestamp": "01:20:25",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "No, no. I'm just saying like, what I thought you were going with this, Travis, is like, you could build this synthetic pool and contribute it to a neoscale.",
+      "tone": "hypothetical"
+    },
+    {
+      "timestamp": "01:20:32",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "You can, sure.",
+      "tone": "agreeable"
+    },
+    {
+      "timestamp": "01:20:34",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "And all I'm saying is to do that is a leap of things that you'd have to do that you probably don't want to do because it veers you away from what you're good at.",
+      "tone": "opinionated"
+    },
+    {
+      "timestamp": "01:20:40",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "I think the security thing is the main issue around non-data center type real estate, to be honest. It's the big one. Look, you've got to do the liquid cooling, you've got to do mechanical systems for air cooling, you have energy, like there's a lot of things you've got to do, but assuming you even had all that, the architecture of a data center is set up, like, they have man-traps...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:21:00",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "...man traps, right? Where you go into a room, the door closes behind you, that you got into with your fingerprint, then you go into the next part of it again with your fingerprint, only when that door closes, like—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:21:14",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Just out of genuine curiosity, how much does one of those mantraps cost? Like, why can't you put some of those in your—",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:21:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, maybe you could. Are you interested in putting in a mantrap? I'm just trying to help trap some men.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:21:23",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "I'll try to interpret where Chamath's going a little bit is like a megapod that's sitting at a chart, like a public charging situation. Because of the physical access of it, like, there's probably some stuff you've got to do if you're going to resell it. But if you're going to use it for yourself, you can use it for yourself.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:21:41",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "The real value I think in the Travis example, which I find super exciting, is if you can contribute it to a distributed training pool or a distributed inference pool that has a lower SLA, which is more of how this community-based oriented work... Jason, I think you've talked about BitTensor, I think Venice is a project, I think Pluralis is another project. Travis, that's where I think it's super exciting, where—",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:21:59",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "But the one thing I'll just throw out there guys, the distributed training stuff, if these things are far away from each other, meaning not right next to each other, the efficiency drops dramatically. You want these things to be right next to each other physically. You get like multiple orders of magnitude, at least an order of magnitude type efficiency, maybe plus plus plus. Like, it's a big deal. So like, you could have two, we have two facilities that are two kilometers away—",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "01:22:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, passing the jobs from one GPU to the other is super important and if it's on a peer-to-peer network, it's going to have lag, it's going to take more time.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:22:36",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Honestly, even if it's on your own fiber-connected two kilometers away, you're screwed. It's not a thing.",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "01:22:47",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "This is 100% true, but everything that cuts against training works for inference.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "01:22:55",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Respect. Respect.",
+      "tone": "appreciative"
+    },
+    {
+      "timestamp": "01:22:57",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Well, latency is super important and I do think, you know—",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "01:22:59",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "A distributed inference... distributed inference clouds are coming.",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "01:23:01",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Yes, I get that.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "01:23:02",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "And to riff on like what Chamath said and all of this, like one, I mean there's actually a startup that is trying to put four GPU units with kind of a battery on people's houses and give them a discount on their power and then you can do inference for that neighborhood, you know, from those four GPUs and it's like lock-sealed so nobody can get in.",
+      "tone": "insightful"
+    },
+    {
+      "timestamp": "01:23:18",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "But there's another dynamic that I think we should talk about with all of this and it could play into the megapods and, you know, other people are kind of working on data centers. You know, Cruzo is working on, you know, modularly assembling data centers, you know, kind of like a data center and think of it as like an 18-wheeler... what do you call those things, the 18-wheeler? Shipping container. Whatever it is. Um, but that is the disaggregation of inference into prefill and decode. When a model is answering your question, it's doing two things. The prefill part is understanding—",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:24:00",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Tell you the question and its answer thus far. And think of—think of that as the more you can remember, the bigger your—your memory capacity, it will be the more words you can remember, the better. Decode is the process of generating the next token. And that is a memory bandwidth-bound problem, and think of it as the faster you can speak, the better. And these two types of inference are increasingly being disaggregated. And Chamath was an investor in Groq, which NVIDIA bought, and they're going to use this. Cerebras is the other solution today that is available, and you can put Groq or Cerebras decode-optimized chips—they would both say you can do more than decode on them, and that's true—in front of old NVIDIA GPUs, like H100s. So you can lift H100s, A100s out of some old data center, put them in one of these megapods, or a rack in a shipping container, put a Groq or Cerebras in front of it, and you can get a very competitive solution. And so I do think the disaggregation of inference, we're going to be using GPUs for seven years, 10 years, 12 years, and that's great because it lowers the cost to finance them, which makes this AI revolution more financeable.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:25:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Chamath, you want to riff on—on Groq? Should we—should we—",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:25:25",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "I really agree with everything. You're incredibly well-steeped in this space. It's so exciting. I don't have any investments or anything in the distributed compute space, but at the intersection of competing against China, having a vibrant American open-source community, having a bunch of distributed models for purposes of free speech and otherwise that Travis mentioned earlier, I do think this idea of distributed inference has a real place in the American ecosystem. I don't exactly know where and how and how homeowners would get paid, but whoever figures that out as a Pan-American idea, I think is—it's really onto something.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:25:56",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It'd be awesome.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:25:57",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "And yes, Travis, obviously slower, but people who are contributing compute to this, that's like surplus compute or compute that's available and they earn tokens.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:26:03",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "Recycling unused compute, recycling unused compute.",
+      "tone": "collaborative"
+    },
+    {
+      "timestamp": "01:26:05",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "And then there's Targon, which is just straight up people are putting—and you can rent H200s by the hour for three bucks, four bucks, and it's permissionless. Anybody can contribute, provided—and this is kind of the magic of Bittensor—is there are validators that make sure you're putting in what you say you're putting into the network. And so if somebody just had the hardware, and Tesla said, 'From now on, every Powerwall'—and I don't put it past him to do this—'you buy a Powerwall, we give you a discount on it, every Powerwall has our GPUs in it. Part of the offering is you can't buy a Powerwall without putting GPUs in it, and when you're not using it, we will pay you for your battery.' And you put a Starlink on your roof, and now you've got a distributed system where you get a couple of these Powerwalls with their own silicon in it and a Starlink, and now Elon's created—",
+      "tone": "visionary"
+    },
+    {
+      "timestamp": "01:27:00",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "...created an infinite number of home battery backup systems. People get their battery system for free, he gets the exclusive use for 20 years.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:27:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You guys see that there's a rumor that Elon's going to buy T-Mobile?",
+      "tone": "excited"
+    },
+    {
+      "timestamp": "01:27:13",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Whoa!",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "01:27:14",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "By the way, we should—just because Cerebras—Cerebras has blown up and gone through deal price, we should talk about Cerebras a little.",
+      "tone": "suggestive"
+    },
+    {
+      "timestamp": "01:27:20",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So, uh, Cerebras had an incredible IPO. Give us an update on where these IPOs are happening. Obviously SpaceX had an incredible IPO, but has retreated from this, you know, otherworldly $200 a share price. So to the extent you can talk about these two, as well as the two IPOs to come—four trillion dollars in backlog. We've obviously got OpenAI and Claude—I'm sorry, Anthropic, which makes Claude. Both of those would be worth a trilly plus. You put it all together, four trillion of new inventory being put on the market. Obviously the float to SpaceX is notably small, but over time, people like yourselves and other insiders, founders, fund, etc., will be unlocked and have the ability to distribute to their LPs. So this is going to be a moving target, I think, in terms of share price. And can the market absorb this? Where does the money come from? Retail? Or does it come from people selling their Bitcoin and moving it over to something more exciting? What's the dynamic here in the market? I know we're in uncharted territory, Gavin.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "01:28:25",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Well, for sure, there's no precedent for any of this. But a few things I would say, like just in no particular order. I think Anthropic is worth three trillion dollars today.",
+      "tone": "calm"
+    },
+    {
+      "timestamp": "01:28:34",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm sorry, did you say Anthropic is worth three trillion dollars?",
+      "tone": "shocked"
+    },
+    {
+      "timestamp": "01:28:38",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Yeah, I think that is roughly where it would probably trade as a public company. And it is very important—",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "01:28:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Wow.",
+      "tone": "amazed"
+    },
+    {
+      "timestamp": "01:28:44",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Anthropic? I mean, look, they're going to do—they're going to end this year well over 100 billion.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:28:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh man.",
+      "tone": "astonished"
+    },
+    {
+      "timestamp": "01:28:51",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Holy shit.",
+      "tone": "stunned"
+    },
+    {
+      "timestamp": "01:28:52",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "What's the '28 number? Is it 200, is it 300 billion? It's probably not going to trade at 10 times that number.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "01:29:00",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "And it will be very profitable at that scale because it'll be inference dominated and people are reporting they have 85% gross margins on inference. But in terms of the market absorbing this, like the market's already absorbed it, you know? It's just shifting from private to public. And so in the scale of global capital markets, these seem like really big numbers. We're just moving from the private markets to the public markets, which are even bigger. As far as SpaceX specifically, I think one of the more important things is everybody who's a SpaceX investor or employee has had a chance to sell every six months for the last 10 years. So there may not be the wall of liquidity that some people are thinking about. I read this New York hedge fund short report that you could just short SpaceX on the lockup because so many people are going to sell.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:29:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Really?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "01:29:56",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Well, everybody who's on the cap table, they had an opportunity to sell. And almost half the employees at SpaceX bought on the IPO.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:30:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Cerebras, but Gavin, one thing though I gotta say, so I've had SpaceX since 2018.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "01:30:07",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "What?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:30:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "But their little liquidity thing every year, like last year it was like 350, 350 billion last year. So you got an 8X in one year, you could have a lot of people selling, right? They were doing little 20% up, 30% up clips for many years and then an 8Xer could create that liquidity.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:30:31",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Maybe. We'll see. That's possible. But the employees are buying at the new price and they're probably the, you know, at some level one of the biggest pools of, you know, ownership that's going to unlock. And then you know I do think a lot of people probably own SpaceX through SPVs and those probably don't unlock or get distributed anytime soon. So I just, you know, I would be careful with assuming. I don't think Elon's a seller of his 50%--",
+      "tone": "cautious"
+    },
+    {
+      "timestamp": "01:30:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "No, he's definitely not obviously.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "01:30:59",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:31:02",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Yeah, and a lot of us and a lot of us aren't sellers, you know, and that's great. Yeah.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "01:31:06",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "I mean, a lot of people who had large SpaceX positions were large buyers on the IPO.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:31:13",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "On Cerebras, so Cerebras has had a tough two days since they reported their first quarter as a public company. And I think there's two things that are very that are worth discussing here. One is there is a whole generation of portfolio managers. There's a lot of people who are advocating for kind of squeezing the blood out of the stone on IPO pricing. And the flip side of that is that there are a lot of portfolio managers who if a stock breaks deal price, they sell it, no matter what. They consider it a promise that was broken. And so this is what has happened with Cerebras to some degree over the last two days. And you know, this may seem irrational, but there are people who run giant funds who I know personally where if a stock breaks deal price, they sell no matter what. And so if a stock breaks deal price, it can sometimes, you know, go to places you wouldn't think it would go. And this means that shorts if a stock gets close to deal price, they short it because they want to break deal price and then you know, they make a quick 10 or 20%.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:32:22",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So it becomes a pile on.",
+      "tone": "clarifying"
+    },
+    {
+      "timestamp": "01:32:24",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Because you have this price-insensitive selling that can be triggered. And this is what has happened to Cerebras. You know, people talk about hate selling, but they broke deal price and so just if you're going public and you're listening to this, tell your bankers, price this in such a way that we're not going to break deal price in our first nine months as a public company. And that's what I always advise everyone to do, and I think it's important. But I also think you know it takes companies a while to learn how to tell their story and communicate to public markets. It's a very different audience.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:33:00",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "and VCs. In the way, like the way I would have respectfully told the Cerebras story because what happened to Cerebras is they reported a quarter and they're growing fast, but relative to the rest of AI, they're not growing that fast in the March quarter. So what I would have said is we signed this transformational, you know, $20, $25 billion—I don't know the exact number—contract with OpenAI in December. December of 2023. We immediately ordered more wafers from Taiwan Semi. It takes—it takes four months from when we make that order, Taiwan Semi for, you know, says yes, they start producing, takes four months to make the chip. Then then it takes us two months, plus or minus, to turn that chip into a server. And then, if we're lucky and we can find the power, it takes us a month to energize that chip and start making tokens with it. So the first time you're going to see the impact of this OpenAI deal, at the earliest, is probably around Labor Day. So you'll see a little bit of it in the third quarter. But then it really—it starts to build. And just like really simple math. So like let's just use some rough numbers. Let's say, let's take some Nvidia numbers. It takes them 35 billion to bring on a gigawatt and 15 billion—that you can generate 15 billion in token revenue and cloud revenue out of that gigawatt. And somebody on the call talked about adding 50 megawatts a month. If they can add 50 megawatts a month in 2027, forget '26, that means they exit the year at roughly $9 billion cloud computing run rate. And, you know, we're at less than 40 billion of market cap. Now, that is going to be really hard to do and they've never done anything like that before. And but I would—I would focus, like as an investor, I think what matters here is not where they sit competitively, not what new demand they can bring on, but just how quickly can they bring on power. And listen, like outside of the hyperscalers, the only companies that have ever brought on more than a gigawatt, I think, are CoreWeave, Crusoe, and SpaceX AI. To bring on 600 megawatts, it's really hard. And that is what, like, I'm focused on as an investor. How many megawatts can they bring on? Because we know what they're going to monetize at and that is the question and we'll see.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:35:36",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I think that's well said.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:35:39",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:35:40",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, the other companies that have had this happen of late, I guess Rivian and famously Facebook traded below IPO price in the first year, I think. And so this isn't necessarily mean a bad company, it just means a lot of hype or maybe going for it in the IPO and pricing it to perfection and it can go one of two ways. You can either grossly underprice...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:36:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Grossly overprice. And it's really hard to get right. And this is why doing auctions or, you know—",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:36:07",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "Auctions are the way. Auctions are the way.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "01:36:09",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "And so it's not hard to price if you just do it the way it's supposed to be done. It's hard to price when you when you want it to be a certain number.",
+      "tone": "confident"
+    },
+    {
+      "timestamp": "01:36:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, and you have many mouths to feed and that influences the price.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:36:23",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "To be fair, I don't think that happened here. I think there was a good faith effort to price this thoughtfully. But just, you know, there was it was such an in-demand IPO. I think it was a hard IPO to price.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:36:34",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "You just auction it, Gavin. You just auction it. I think that's different than underwriting it. You're underwriting, but the bankers, like, I think they just need to get more in the mode of just doing the auction, you know.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "01:36:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. Final topic was this three trillion dollar or actually, now it's your three trillion dollar call on Anthropic would make it like six trillion in offerings. What do we think broadly in the—",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:37:03",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "It's not in offerings because it's they're going to offer a small slice of that. And that small slice is very easy to absorb in the context. I believe, we have no precedent, we'll see, I might be wrong. But it's not hard for global capital markets to absorb 15 billion of an offering. It's not like somebody has to come up with—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:37:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, it's a 5% float is 150 billion, there's enough.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "01:37:17",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "You guys remember, remember when 15 billion used to be a whole lot of money?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:37:22",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "How weird is what's going on? How weird is this place?",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:37:26",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "By the way, Travis, where is all this money coming from?",
+      "tone": "intrigued"
+    },
+    {
+      "timestamp": "01:37:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh yeah, where was it all this time?",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:37:29",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Can we just reminisce, man? We got, my when I was at Fidelity, my colleagues and I, we got pilloried, I think we priced Uber at 14 billion. And we got pilloried in the press for not knowing what we were doing and it was seen as, you know, then of course like six months later, I think you guys did a round at what, like 42 billion or something? But it's like, yeah, 14 billion, that was groundbreaking for private company back then.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "01:37:46",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "Yeah, for sure. It was 17, but you know, no one's counting.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:37:47",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "17. 17 though. You're right. I wanted 14.",
+      "tone": "agreeing"
+    },
+    {
+      "timestamp": "01:37:51",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "And we had like a big negotiation.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:37:54",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "And we ran, we just ran an auction. No, we just ran an auction.",
+      "tone": "insistent"
+    },
+    {
+      "timestamp": "01:37:58",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Yeah, you wanted 20 and maybe we landed at 17.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:38:01",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "What we did, what we did was every person who wanted to be involved had to fill out a sheet of how much money they put in at 10, 11, 12, 13, 14, all the way up to 20, and then we just did the Dutch auction. We said we want to clear one and a half bil. We just did the auction and cleared it. Went back to people and said, 'Hey, you're not going to get it. You have another shot.' They update their Excel sheet and it just moves the number up a little bit and then you you close it down. But yeah, it started, that round started at I think it was 9 or 10 or something like that, ended up at 17.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "01:39:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Thank you for your service.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:39:01",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Oh yes, it used to be - it used to be that that was a lot of money.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "01:39:04",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "And that was unheard of at the time.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:39:07",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "And that was - well look, it was 10 years ago.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:39:10",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "When we used to walk to school uphill both ways.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:39:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:39:13",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "We used to have to.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:39:14",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Yeah, we used to eat potatoes with no butter, just hot potatoes.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:39:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I love that.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:39:19",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Sometimes we were lucky that they were cooked.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:39:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I love that.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:39:22",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "That's great.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:39:23",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "No, my dad would tell me that story. It's a famous John the Beard story. He'd say his mom would put like four - four potatoes in the oven, they'd wrap them in tin foil, one in each pocket because they couldn't afford gloves, so you put your hands in your pocket with the hot potatoes, you get to school you eat one for breakfast, one for lunch, him and his sister Johanna, God rest her soul, my aunt who died too young, and they would just go eat these potatoes. That was their life, walking to school.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:39:51",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:39:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And our kids are trying to get the new iPhone 16 or 17, I don't know.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:39:53",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Uphill both ways.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:39:57",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Remember when - remember when it used to be hard to raise five billion dollars?",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "01:40:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh my lord.",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "01:40:02",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "It's just crazy.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:40:03",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "I just - it's just crazy.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:40:05",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Remember when it was hard to raise 1.5 million?",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "01:40:07",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "Dude, I remember I had... yeah, I remember when it was hard to raise...",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "01:40:09",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Anyways, we don't have to do this. It's okay. We already sound like grandpas. It's fine.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:40:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We do sound like grandpas. Let's move on. Let's move on.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:40:15",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It was so hard to raise that first 1.5.",
+      "tone": "nostalgic"
+    },
+    {
+      "timestamp": "01:40:18",
+      "ad": false,
+      "speaker": "Travis Kalanick",
+      "text": "Dude, it's just - we don't need to go there. It's so funny though.",
+      "tone": "amused"
+    },
+    {
+      "timestamp": "01:40:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I hate this. What's with this art piece, Gavin, behind you? Is that like an art piece you made?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:40:26",
+      "ad": false,
+      "speaker": "Gavin Baker",
+      "text": "No, this is - I'm staying at a rented house in Atherton.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:40:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Oh, okay. There you go. It's just a - Airbnb art. All right, everybody, for the Dictator, Chamath Palihapitiya, and for David Sacks, TK, GB, we'll see you next week on the All-In podcast. Bye-bye. Great job everyone.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "01:40:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Let your winners ride.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "01:40:47",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Rainman David Sacks.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "01:40:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And then I said, we open-sourced it to the fans and they've just gone crazy.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "01:40:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Love us, the Queen of Quinoa.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "01:41:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Let your winners ride.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "01:41:02",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Besties are back.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "01:41:03",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "And this is my guy taking it out on your driveway, Sacks.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:41:05",
+      "ad": false,
+      "speaker": "David Sacks",
+      "text": "Oh, man.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:41:06",
+      "ad": false,
+      "speaker": "Chamath Palihapitiya",
+      "text": "Look at that, Chamath, really meeting the moment.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:41:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We should all just get a room and just have one big huge orgy because there's all this like sexual tension that they just need to release somehow.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:41:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Wet your beak, wet your beak, wet your beak, it's going to be wet.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "01:41:22",
+      "ad": false,
+      "speaker": "David Friedberg",
+      "text": "Besties are back.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "01:41:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm going all in.",
+      "tone": "energetic"
+    }
+  ],
+  "highlights": [
+    "AI acts as a transformative economic leveler by converting the world's collective knowledge into personalized, actionable intelligence, effectively removing traditional gatekeepers of professional expertise.",
+    "China is rapidly closing the gap with U.S. frontier AI models through high-performance open-source releases, while domestic industry leaders warn that U.S. regulatory hurdles and safety-driven rollbacks are providing international competitors a strategic advantage.",
+    "High-bandwidth memory (HBM) has become the primary bottleneck for AI scaling, with massive data center demand consuming nearly 40% of hyperscale capital expenditures and driving significant price inflation in consumer electronics.",
+    "The rising terrestrial costs of power, cooling, and land entitlements for data centers are creating a strong economic case for \"orbital compute,\" where reusable rocket technology could eventually make space-based AI processing more cost-effective than ground-based facilities.",
+    "The emergence of \"distributed inference\" models suggests a future where consumer hardware, such as home batteries and electric vehicle charging networks, could be leveraged to provide local, low-latency AI processing power."
+  ],
+  "summary": "The podcast episode features a deep dive into the shifting political landscape of the United States, specifically focusing on the recent \"socialist sweep\" in New York City’s Democratic primaries. The hosts and guests, including Travis Kalanick and Gavin Baker, analyze the rise of the Democratic Socialists of America (DSA), arguing that the movement is successfully \"infecting\" the Democratic establishment from within. They discuss how charismatic leaders like Zohran Mamdani are leveraging social media and populist rhetoric to appeal to a younger, \"downwardly mobile\" generation that feels alienated by the current economic system. The conversation also explores the potential radicalization of youth through social media, the impact of the Israel-Palestine conflict on domestic voting blocks, and Chamath Palihapitiya’s view of AI as the ultimate economic leveler that could potentially counter socialist momentum if managed correctly.\n\nThe second half of the transcript pivots to the accelerating global race for AI dominance and the infrastructure required to sustain it. A major point of concern is the emergence of Chinese open-source models like GLM-5.2, which appear to be catching up to U.S. frontier models despite trade restrictions. The group criticizes U.S. regulatory delays, which they believe could lead to \"regulatory capture\" and gift an advantage to China. This technological discussion extends into the hardware sector, highlighting Micron’s massive earnings as a signal of the intense bottleneck in High Bandwidth Memory (HBM). They note that the insatiable demand for AI data centers is beginning to drive \"AI inflation,\" evidenced by price hikes in consumer electronics like Apple products.\n\nFinally, the discussion looks toward the future of compute and capital markets. The participants explore the concept of \"orbital compute,\" where SpaceX could potentially use Starship to launch gigawatts of compute into space to bypass terrestrial land and power constraints. This vision of the future is paired with an analysis of recent and upcoming IPOs, such as Cerebras and the massive valuations of companies like SpaceX and Anthropic. The episode concludes with a reflection on how the scale of private and public finance has transformed over the last decade, moving from a world where $15 billion was a landmark valuation to one where frontier AI companies are expected to trade in the trillions.",
+  "description": "(0:00) Gavin Baker and Travis Kalanick join the show!\n(1:05) Mamdani-endorsed socialists sweep congressional primaries in NYC\n(22:51) Future of the Democratic Party, the Israel issue, social media bans\n(45:12) China's open-source AI catch up, distillation, OpenAI's new chip\n(1:01:46) Micron smashes earnings, AI's memory crunch hitting Apple and consumer hardware\n(1:10:17) The math behind distributed compute and datacenters in space\n(1:27:22) IPO update: Anthropic at $3T, SpaceX float, Cerebras drops after breaking deal price\n\nFollow Gavin:\nhttps://x.com/GavinSBaker\n\nFollow Travis:\nhttps://x.com/travisk\n\nApply for Summit 2026:\nhttps://allin.com/events\n\nFollow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@theallinpod\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:\nhttps://x.com/TheZachEffect\n\nReferenced in the show:\nhttps://abcnews.com/Politics/clean-sweep-3-candidates-endorsed-mamdani-win-primaries/story?id=134152579\nhttps://polymarket.com/event/mamdani-team-sweeps-primaries-20260618232357710\nhttps://x.com/thestustustudio/status/2067356255916536120\nhttps://www.nbcnews.com/politics/2026-election/espaillat-ny-house-primary-loss-district-13-avila-chevalier-rcna351127\nhttps://x.com/EndWokeness/status/2069645066252034288\nhttps://x.com/america/status/2069622732279402804\nhttps://x.com/realmaalouf/status/2069433391162798337\nhttps://x.com/JoshBlockDC/status/2070108811851882691\nhttps://x.com/EndWokeness/status/2069776474429624684\nhttps://x.com/EndWokeness/status/2068829255786803368\nhttps://www.pewresearch.org/short-reads/2026/04/07/negative-views-of-israel-netanyahu-continue-to-rise-among-americans-especially-young-people\nhttps://x.com/PirateWires/status/2069146641266094417\nhttps://www.wsj.com/economy/the-data-center-boom-is-sparking-a-third-wave-of-inflation-926adc6e\nhttps://x.com/jietang/status/2067580270078030088\n\n\n#allin #tech #news",
+  "duration": 6102,
+  "people": [
+    "Jason Calacanis",
+    "Gavin Baker",
+    "Travis Kalanick",
+    "Democratic Party",
+    "Follow Gavin",
+    "Follow Travis",
+    "Intro Music",
+    "Intro Video"
+  ],
+  "topics": [
+    "The political sweep of DSA-endorsed socialist candidates in New York City primaries",
+    "The rapid advancement of Chinese open-source AI models and their competition with US frontier models",
+    "The global semiconductor memory crunch, Micron's earnings, and the impact of HBM on consumer hardware prices",
+    "The future of AI infrastructure, including orbital compute and modular data centers like the Tesla Megapod",
+    "Valuation and IPO market updates for major technology companies including SpaceX, Anthropic, and Cerebras"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/w8ah_tA0yfg/maxresdefault.jpg",
+  "date": "20260627",
+  "youtube_url": "https://www.youtube.com/watch?v=w8ah_tA0yfg",
+  "youtube_metadata": {
+    "title": "Socialists Sweep NYC, China Catches Up in Coding, AI Memory Crunch, Micron's Blowout Quarter",
+    "description": "(0:00) Gavin Baker and Travis Kalanick join the show!\n(1:05) Mamdani-endorsed socialists sweep congressional primaries in NYC\n(22:51) Future of the Democratic Party, the Israel issue, social media bans\n(45:12) China's open-source AI catch up, distillation, OpenAI's new chip\n(1:01:46) Micron smashes earnings, AI's memory crunch hitting Apple and consumer hardware\n(1:10:17) The math behind distributed compute and datacenters in space\n(1:27:22) IPO update: Anthropic at $3T, SpaceX float, Cerebras drops after breaking deal price\n\nFollow Gavin:\nhttps://x.com/GavinSBaker\n\nFollow Travis:\nhttps://x.com/travisk\n\nApply for Summit 2026:\nhttps://allin.com/events\n\nFollow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@theallinpod\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:\nhttps://x.com/TheZachEffect\n\nReferenced in the show:\nhttps://abcnews.com/Politics/clean-sweep-3-candidates-endorsed-mamdani-win-primaries/story?id=134152579\nhttps://polymarket.com/event/mamdani-team-sweeps-primaries-20260618232357710\nhttps://x.com/thestustustudio/status/2067356255916536120\nhttps://www.nbcnews.com/politics/2026-election/espaillat-ny-house-primary-loss-district-13-avila-chevalier-rcna351127\nhttps://x.com/EndWokeness/status/2069645066252034288\nhttps://x.com/america/status/2069622732279402804\nhttps://x.com/realmaalouf/status/2069433391162798337\nhttps://x.com/JoshBlockDC/status/2070108811851882691\nhttps://x.com/EndWokeness/status/2069776474429624684\nhttps://x.com/EndWokeness/status/2068829255786803368\nhttps://www.pewresearch.org/short-reads/2026/04/07/negative-views-of-israel-netanyahu-continue-to-rise-among-americans-especially-young-people\nhttps://x.com/PirateWires/status/2069146641266094417\nhttps://www.wsj.com/economy/the-data-center-boom-is-sparking-a-third-wave-of-inflation-926adc6e\nhttps://x.com/jietang/status/2067580270078030088\n\n\n#allin #tech #news",
+    "duration": 6102,
+    "view_count": 442821,
+    "like_count": 7653,
+    "channel": "All-In Podcast",
+    "upload_date": "20260627",
+    "thumbnail": "https://i.ytimg.com/vi/w8ah_tA0yfg/maxresdefault.jpg",
+    "tags": [
+      "chamath",
+      "david sacks",
+      "david friedberg",
+      "jason calacanis",
+      "all in podcast",
+      "tech",
+      "news",
+      "politics",
+      "election",
+      "stocks",
+      "stock market",
+      "palihapitiya"
+    ]
+  }
+}

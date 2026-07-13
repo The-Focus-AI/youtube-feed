@@ -1,8 +1,8 @@
 ---
 channel: Dwarkesh Patel
 channel_handle: "@DwarkeshPatel"
-total_videos: 33
-last_updated: 2026-06-08
+total_videos: 39
+last_updated: 2026-07-10
 ---
 
 # Dwarkesh Patel Channel Index
@@ -11,15 +11,21 @@ last_updated: 2026-06-08
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 33 |
-| Total Views | 14,550,958 |
-| Date Range | 2025-05-29 to 2026-06-04 |
-| Average Video Length | 1:39:00 |
+| Total Videos | 39 |
+| Total Views | 16,227,019 |
+| Date Range | 2025-05-29 to 2026-07-10 |
+| Average Video Length | 1:34:24 |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [General relativity from first principles – Adam Brown](videos/QbdbAhaJoCQ.md) | 1:38:24 | 80,834 |
+| [Grant Sanderson (@3blue1brown) – AI disproved a famous math conjecture. Now what?](videos/TfyPshgMbug.md) | 1:33:39 | 265,561 |
+| [What does the next training paradigm look like?](videos/20p5-kQXF_Q.md) | 19:53 | 162,967 |
+| [The data black hole at the center of AI](videos/4pG3SJQPAwk.md) | 11:57 | 99,136 |
+| [Machiavelli is the most misunderstood thinker of all time – Ada Palmer](videos/U1FrhkLQnCI.md) | 2:08:20 | 203,330 |
+| [Sarah Paine - Why Putin and Xi can't escape geography](videos/OS1NZLgKM2c.md) | 1:02:07 | 864,233 |
 | [The better AI gets, the smaller its share of the economy might get – Alex Imas and Phil Trammell](videos/Jj-kBHzUohs.md) | 1:16:08 | 70,778 |
 | [Chip design from the bottom up – Reiner Pope](videos/oIk3R-sMX5o.md) | 1:20:19 | 149,671 |
 | [What rebuilding AlphaGo teaches us about self-play, RL, and future of LLMs - Eric Jang](videos/X_ZVSPcZhtw.md) | 2:37:17 | — |

@@ -2,9 +2,9 @@
 channel: Lex Fridman
 channel_handle: "@lexfridman"
 channel_id: UCSHZKyawb77ixDdsGog4iWA
-total_videos: 38
-last_updated: 2026-06-08
-date_range: "2025-03-22 to 2026-05-29"
+total_videos: 39
+last_updated: 2026-06-30
+date_range: "2025-03-22 to 2026-06-30"
 ---
 
 # Lex Fridman Podcast Archive
@@ -15,9 +15,9 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 
 | Metric | Value |
 |--------|-------|
-| Total Videos Archived | 38 |
-| Total Views | 30,141,106 |
-| Date Range | Mar 22, 2025 - May 29, 2026 |
+| Total Videos Archived | 39 |
+| Total Views | 30,776,856 |
+| Date Range | Mar 22, 2025 - Jun 30, 2026 |
 | Average Video Length | 3:21:33 |
 | Total Watch Time | 127:33:38 |
 
@@ -25,6 +25,7 @@ The Lex Fridman Podcast features long-form conversations about AI, science, tech
 
 | Date | Episode | Title | Duration | Views |
 |------|---------|-------|----------|-------|
+| 2026-06-30 | #498 | [The Rise and Fall of the Roman Empire and the Byzantine Empire](videos/pv1TUJSEM2k.md) | 3:51:47 | 635,750 |
 | 2026-05-29 | #497 | [Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE - Don Lincoln](videos/1M3Vdl6DRkU.md) | 2:53:42 | 387,600 |
 | 2026-05-06 | #496 | [FFmpeg: The Incredible Technology Behind Video on the Internet](videos/nepKKz-MzFM.md) | 4:18:22 | 290,656 |
 | 2026-04-09 | #495 | [Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age](videos/iKx3gAODybU.md) | 2:03:24 | 783,982 |

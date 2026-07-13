@@ -1,8 +1,8 @@
 ---
 channel: MKBHD
 channel_handle: "@mkbhd"
-total_videos: 57
-last_updated: 2026-06-08
+total_videos: 64
+last_updated: 2026-07-08
 ---
 
 # MKBHD Channel Index
@@ -11,10 +11,10 @@ last_updated: 2026-06-08
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 57 |
-| Total Views | 233,781,859 |
-| Date Range | June 10, 2025 - May 28, 2026 |
-| Average Video Length | 12:01 |
+| Total Videos | 64 |
+| Total Views | 249,967,242 |
+| Date Range | June 10, 2025 - July 8, 2026 |
+| Average Video Length | 12:03 |
 
 ---
 
@@ -22,6 +22,13 @@ last_updated: 2026-06-08
 
 | Date | Title | Duration | Views |
 |------|-------|----------|-------|
+| 2026-07-08 | [Apple Lost the AI Race](videos/eWKY0OnPByg.md) | 7:03 | 1,945,421 |
+| 2026-07-07 | [Nothing Phone 4b: They Can't Say It!](videos/DUgPFNRmsCQ.md) | 10:20 | 2,108,426 |
+| 2026-07-02 | [The Best Car I've Ever Driven: McLaren W1](videos/7KRabLH7jcE.md) | 16:30 | 1,606,818 |
+| 2026-06-29 | [Antigravity A1: A New Take on Drones!](videos/ZpF6IE0rdxA.md) | 10:09 | 1,900,948 |
+| 2026-06-24 | [Top 5 Android 17 Features: I Swear It's New!](videos/QrT4S9i3agE.md) | 9:23 | 1,907,062 |
+| 2026-06-16 | [The Most Interesting Displays In The World!](videos/WOzcFkld6_g.md) | 15:57 | 2,632,039 |
+| 2026-06-09 | [WWDC 2026 Impressions: Yeah, That's About Right](videos/_gCXmKjDecU.md) | 16:28 | 4,084,669 |
 | 2026-05-28 | [The Hidden Tech Behind an NBA Broadcast!](videos/mk_wdHePbtQ.md) | 11:03 | 2,044,428 |
 | 2026-05-26 | [The Truth About the "Whoop Killer"](videos/9GSDvO0LFFE.md) | 17:42 | 3,751,241 |
 | 2026-05-13 | [“The Biggest Android Update Ever”](videos/eFeDpUVEy48.md) | 12:59 | 1,447,087 |

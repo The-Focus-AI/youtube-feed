@@ -1,0 +1,1101 @@
+{
+  "title": "Data Is the Next $1 Trillion Market",
+  "source_url": "https://www.youtube.com/watch?v=9toYrX1s3yo",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Hey everyone, welcome back to TWIST. This is Alex and it's Wednesday, July 8th and that means it's time for yet another venture capital roundtable. Today we are going to dig into how exposed American startups are to a possible ban on open model exports from China, secondary markets and their needed fixes, startup M&A, and why the AI conversation has recentered around the value of data and more. To help me understand all of this, I brought a couple of friends. In one corner we have Mr. Nikhil Basu Trivedi of Footwork. Last fund was $225 million. He's a backer of companies like GPTZero and Windborne. Nikhil, hey, glad you're here.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:00:36",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Great to, great to be here, Alex, and great to be with you, Michael, as well.",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "00:00:39",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Speaking of which, we also have Michael Kim of Cendana Capital, a fund of funds investing LP capital into early stage venture funds. It also runs a secondaries fund and a co-investment fund for series B startups and later. Michael, welcome to the show.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:00:52",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Great to see you guys, thanks for having me on.",
+      "tone": "polite"
+    },
+    {
+      "timestamp": "00:00:54",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So I'm glad we have, we have both of you because we have the traditional VC perspective and then we also have kind of the LP side of things. And the biggest point of conversation or contention really, I think, in venture circles for the last week may have been the blow-up between USVC, the AngelList-aligned open-ish venture fund, and also Anduril, the well-known late-stage American dynamism defense company. Essentially catching people up who don't know, USVC claimed they purchased exposure essentially to Anduril at its series H price, and then Mr. Grimm, a co-founder of Anduril, said no you didn't, and there was a big blow-up on Twitter trying to figure out how this all went down. The gist, gentlemen, as far as I can tell is that people are figuring out that public markets had reasons for some of their rules about transparency, disclosures, and so forth, and secondary markets are still a bit like the Wild West. At the same time, aren't they supposed to resolve the liquidity issues we've seen in venture recently? So first of all, Michael, what was your take on the back and forth mess, and also was anyone in the wrong per se, or is this just kind of a case of everyone's trying to do their best and ended up at cross purposes?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:01:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I think it's more of that. And you know, what we see often is the playbook where fund managers have access to an interesting asset, they'll create an SPV, and then they actually use that to entice LPs to actually make a commitment to their fund. So, you know, that's been going on for a while. The issue with SPVs, of course, is the provenance of whether they actually have the shares. And then when you start stacking multiple layers, you know, most investors don't do the diligence to ensure that each layer is legitimate and that's where the trouble can start.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:02:38",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So when you say that some firm managers are using SPVs as a way to get LPs to invest in their funds, are you essentially saying they're putting together one-off deals to get, I don't know, relationships with LPs and then using those to later raise a traditional fund?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "00:02:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, exactly. They might be raising a fund right now and, you know, in their prior fund they might have a very interesting asset, a consensus deal that everybody wants to get into.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "They might have some pro rata in it, they might create an SPV and say, 'Hey LP, if you come into this SPV, you know, you can come into our fund.' So, you know, that's a dynamic that I think a lot of emerging managers use.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:14",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Nikhil, I've never heard of that particular method before. Is that common? Should I be—am I behind on this?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:03:20",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "I think what's happened is a few factors that lead up to this situation between Anduril and USVC. So let me try to unpack a few of these. The first is that our industry is more power law pilled, more power law obsessed than ever before. And so there's just a small handful of companies that, you know, GPs and LPs want to be a part of. I've heard from some LPs it's a hit list of 10 companies. I've heard from others it's 20. I've heard from some it's actually just 6.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:04:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Mhm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:04:01",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "But when you have that obsession over a small handful of companies, the sort of downstream effect is that, you know, people are sort of tripping over themselves to invest in those and find creative ways to invest in those and be a part of them in some manner. And so, to Michael's point, like one of the methods is, I have access to, you know, a couple of those companies in that small basket, and that's a mechanism for me to get potentially a fund going by enticing LPs. And so we have definitely heard about this, but it is for a very small set of companies such as Anthropic, OpenAI, Anduril again, maybe like 10 others that this phenomenon's occurring.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:04:43",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "And then the other sort of factors that lead into this are, you know, companies want to stay private for longer and so, you know, you have to find creative ways to be part of these companies in the private markets versus them just going public. Another is the founders want as much cap table control as possible. And so unfortunately these factors don't fit perfectly together, right? They're at odds. And hence why you get dynamics such as what's unfolded between Anduril and AngelList.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:05:11",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so here's the problem I see with that because if you're going to stay private essentially forever—and I was just talking to the CEO of Hippocratic AI for our AI show the other day about this, and he was like, 'Why would I ever go public? Private markets are super deep and I want to have all this control and not deal with the headaches of being public' and I guess fair enough—but if you also then ban or preclude secondary activity to provide liquidity to your investors, you end up essentially locking up people's capital what feels like forever, or only Michael at the whim of the CEO, which seems like a pretty difficult place to put capital under a stewardship model because if you can't guarantee you can get it out, then what are you actually buying other than a stack of Monopoly money?",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:05:51",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I mean I think if you're going to be buying into one of the 6 companies that Nikhil's talking about, you have to have some confidence that",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Ultimately down the road you can actually get liquidity yourself. And so, you know, if you take Stripe as an example, they have regular tender offers. If you take SpaceX, and that's probably the best example, historically they've had regular tender offers. And so that effectively is the, you know, a public market for a private company. And I think that dynamic, that motion is a lot better understood now.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Compared to say 10 years ago and it's exactly as Nikhil said, companies are staying private longer and so, you know, I think a CEO founder has the understanding that, you know, you've got to provide some liquidity to your people. And, you know, it's great that that's happening. The other great thing is that, you know, secondaries used to be almost shameful. It was almost embarrassing.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:53",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "A dirty word. Yes.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:55",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Why would you do that? And now it's a well-used tool in the toolbox. And I think, you know, obviously part of that is because of the dearth of distributions over the past few years. We're going to be entering in a new phase where there is going to be a lot of distributions, you know, largely from SpaceX, OpenAI, and Anthropic, probably Databricks. But you know, we can talk about this, but those, the beneficiaries of those distributions are a handful of groups, a handful of VC firms, a handful of LPs. So it's also going to be the case of have and have-nots in the LP world.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:07:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Back to the point that Nikhil said about being power law pilled, I mean, this all applies to exactly what we're talking about here. I laughed at the Databricks comment because having spoken to Ali Ghodsi over the years ad nauseam about when he will finally list and being told forever, no, I've given up on that company. I don't think they're ever going to list. I think they're going to be the next Stripe that just stay private forever. We're going to get back to information rights and transparency in the secondary markets in a second, but first, we're going to pay the piper.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:07:54",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Dear friends, we here at Twist are big fans of the Plaud pen. We've talked about it on the show endlessly. Jason's an enormous fan. We wear them all the time as our note-taking devices. If you are someone who creates a lot of information, goes to a lot of meetings, runs a company, has a family to organize, keeping track of what's going on is incredibly useful and important. We recommend the Plaud NotePin S. And if you want to get one for yourself, you can go to plaud.ai/twist, P-L-A-U-D dot ai slash twist. Use the code TWIST, save 10%. Be cool like Jason or like myself and therefore never have my wife nag me about things that I've forgotten. It's aces.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:08:41",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So on the information point, you guys talked about how the markets are getting a bit better, much more than they were 10 years ago. But one thing that Matt Grimm raised, the Anduril guy who was mad, was that a lot of these investors simply don't have access to any information about how these companies are performing. And so to me, Nikhil, the point that we now have more professional or, you know, maybe just more liquid secondary markets doesn't solve the information problem and therefore puts a lot of other people that want to get access to these companies at a material disadvantage. And that just doesn't seem like a good long-term solution to the lack of IPO problem. To me...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "It just seems very uneven and so I'm curious, like, is that a reasonable perspective? Because you have a secondary fund, so you're on the buy-side of this at times.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:09:07",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "One of the most important things you can do as a busy founder is stay focused. You need to prioritize the decisions and workflows that are going to move your company forward, not get lost in extraneous details and minutiae. That's why the best decision you can make for your business is signing up with Every. Every is the all-in-one platform for incorporation, banking, payroll, benefits, taxes—basically your entire back office. They're going to keep up with all the bookkeeping and paperwork so you can stay laser-focused on your next big product or hiring features, customers, all that important stuff. If you're just getting started, they're going to handle your Delaware C corp and getting yourself a registered agent, all with no legal fees and no delays. And Every has worked with over 1,000 startups already. That's the kind of know-how and experience you can rely on. So head over to every.io and stop wasting time on stuff that isn't growing your company. That's E-V-E-R-Y dot I-O.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:10:03",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Yeah, I mean, the asymmetry of information is certainly the dynamic that secondary funds—I wouldn't say prey on, but take advantage of. And, you know, it could go both ways. You know, someone who's selling may accept a 50% discount because they know that company is actually probably worth a lot less, whereas the buyer, you know, the secondary firm, thinks that they have the information arbitrage, that they have a strong conviction, a high conviction that the company is actually going to be worth a lot more. So that's actually the price discovery and how transactions get done. You know, I wouldn't say necessarily that either side is right more often than not, but secondary funds do perform pretty well. I mean, they're never going to be a 5 to 10x kind of return, but could they deliver a solid, you know, a solid two, two and a half, three times? Yes. And we've seen that time and again over the past 10, 15 years.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:11:03",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So, Nikhil, on the point you made about there only being so many companies that are of note, it's 10, 20, or 6, whatever it is, and all the liquidity from the secondary market's pooling over there, what does that do to a fund of your size? 225 million in its last case. You're only going to have so many bets in those few companies that have high amounts of secondary liquidity. So how do you approach providing what your LPs need if you can't just put all of your funds into, let's say, Anthropic?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:11:30",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Well, I mean, first of all, we've got—our fundamental job is to get into companies at an early stage, in our case, that end up being in that power law basket down the road. Of course. The other interesting thing that is happening is those power law companies are acquisitive. And so a number of us at the early stage have ended up with shares in those companies by those companies acquiring our portfolio companies.",
+      "tone": "explanatory"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "So then we actually, you know, have the chance of liquidity, you know, this is actually an interesting aspect of the information rights conversation as well, which is sometimes we get real access to that information at a company that's acquired one of our portfolio companies and sometimes we have zero. Uh, which is another interesting dynamic. But I think the fundamental job we all have is to back those companies that are power law companies. And then the benefit of having a smaller fund is that it isn't just those companies that can matter for us. And so, you know, if you have a $500 million exit, let's say, in a company where you own 15% and you get back $75 million, that for a couple hundred million dollar fund is actually quite meaningful. It is really not meaningful though when you have a billion dollar fund. And so, uh, those are some of the dynamics that I think are really relevant to fund sizes like ours.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, you know what? I would also add um the stage. So like if you're a very early stage investor and you're in a company like Cursor or ElevenLabs, you can actually do secondaries along the way and no one cares. In fact, everybody wants you to do secondaries because then, you know, from the founder perspective, it's just one pocket going into the other. Um, but you know, if you're like a lead investor, like say a Sequoia or an Accel or, you know, whomever, Founders Fund, and you own 20% of the company, you really can't do secondaries because then, aside from what Nikhil's talking about in terms of the fund math, it also sends a negative signal to other investors. Like oh, why is the lead investor, you know, say Sequoia, selling right now? And so they're—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Negative signal risk essentially.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:13:46",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, exactly. Whereas no one cares about the early stage guys selling. In fact, they encourage it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:49",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Make this work for me, because on one hand we see Anduril stressing founder cap table control—and I don't think they're making that point only about super late stage, hottest companies—and then also what Lon's telling us about how early stage investors are almost encouraged to sell some of their holdings. So how prevalent is the—I don't know how to phrase this politely—founder iron grip on cap table and disallowing these transactions? They often need to be blessed. And also the demand to let people like you cash out. I'm just trying to figure out the balance between the two, if that makes sense.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:14:23",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "I think I—I haven't seen actually that much conflict, uh, uh, you know, from my own primary experience with this. Because the founders ultimately want folks that are long-term aligned on the cap table, and they understand, especially for those investors that believed in them early, I think there's—they're sort of grateful for that belief often and they understand the needs of those early investors. And, you know, transferring positions over to folks that are more long-term aligned is actually in their benefit. And so I think that the situations that are more hairy are when, you know, those things are trying to be—",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "be done more under the table, and then there's a lack of understanding of who actually holds the shares. And so, you know, I think as long as folks are communicating well and transparent, I haven't seen that many problems with misalignment.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:19",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, so that's encouraging. Michael, one more question about this topic before we move on to M&A, but there's been a bevy of slightly vague posts from VCs over on X in the last couple of weeks about a rise in fraud in the SPV secondary market. How much of that is smoke and how much of that is fire? Because based on what Nikhil just said, it doesn't seem like there's that much conflict, which to me sounds like a low fraud environment.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:15:43",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, you know, it gets headlines, but you know, we work very closely with a firm called Klein Hill. So we have a joint venture secondary fund with Klein Hill, and I was actually just talking to them the other day about, you know, are you seeing fraud in these SPVs? And generally speaking, we don't, and they have not, and they're very active in the market. So, you know, but then again, they're not necessarily buying into a bunch of SPVs. But you know, I think they have a very strong network. We have a strong network, and we don't really hear of fraud. Does it exist? I'm sure it does, and there are people who've been sent to jail because of it, but I think they're just more headline grabbing kind of tidbits.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:16:25",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, because when SpaceX was going to list, people were like, 'Oh man, how many people bought essentially fake SpaceX shares?' And I was kind of waiting for those stories to bubble up after the IPO, and I didn't see a single one. And so to me, it seemed like people were really over-indexing on a concern that wasn't there. All right, let's talk about exits in a different way. There's a company called Superhuman, had them on the show a bunch of times, they just bought a company called GPTZero, which Nikhil, I think you are an investor in.",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:16:51",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "That's right, yeah. We led the company series A, I sit on the board.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:16:55",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah. So well, first of all, can you tell us a little bit about how that deal came together and why it was the right exit for GPTZero, and then we're going to talk a little bit about numbers. But start there, please.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:17:02",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Yeah, the companies have known each other for a long time and there are a lot of parallels in their businesses. So Superhuman is a combination of a number of companies, Grammarly, Coda, and now Superhuman as well, and sort of changed the name to Superhuman of the whole company when Grammarly acquired Superhuman. And Shashir, their CEO, has known Edward and Alex, the founders of GPTZero, for the last couple years. The companies, you know, have been talking about doing this together for a while because there are a number of parallels in their products. And I think what the GPTZero founders got really excited about was the opportunity to have a lot more distribution through Superhuman's distribution from their various products to tens of millions of active users. And so while GPTZero, you know, it's publicly reported, they got to tens of millions in revenue, they actually never burned.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:00",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "and a dollar that we invested. The company's lifetime profitable, has more cash on the balance sheet than it has ever raised. So they didn't need to go find a home, but um this was a very attractive offer for them and so that plus the opportunity to go build something even bigger together is what got everyone really excited to do this. And so an amazing outcome for the founders, a great outcome for all the investors.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:18:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So Alex, I have a couple stories here and Nikhil, I'm a personal investor in your fund, so I'm very happy for myself and for you so thank you. But you know, we're also an investor in, Sindana is an investor in Uncork, and one of the partners there is Trip Jones. And the funny story I want to tell you is that he learned about the founders of GPTZero because he was reading the Princeton alumni magazine and he was hearing about like what these kids were doing, because they were I think still at Princeton, right? And Nikhil went to Princeton as well. And you know, so he actually got on a plane and went and met with them. And so now it was coming down and there was a tier one firm, multi-stage firm that had a term sheet, but the founder of that firm was supposed to get on a call, blew off the call, so basically Trip won the deal.",
+      "tone": "conversational"
+    },
+    {
+      "timestamp": "00:19:17",
+      "ad": true,
+      "speaker": "Lon Harris",
+      "text": "Agree has an incredible new offer exclusively for Twist fans and family members. Go sign up at their easy-to-use all-in-one contract-to-cash stack. And if you tell them Jason sent you, you're going to get 50% off for life. Agree is the number one fastest way to go from contract to cash. This means gathering all those e-signatures, the invoicing, the billing, the payments, and of course revenue recovery. No more jumping between four or five different platforms, just write out your contract and get it signed, set up the billing and send the invoice. And start generating instant invoices, payments, and automated revenue workflows the moment the contract is signed. Check out the numbers: the average time from contract sent to contract signed is under seven hours with agree.com, and the median time from invoice sent to invoice paid is just 36 hours. So if you want to stop chasing invoices, go right now to agree.com and tell them Jason sent you and you'll get 50% off for life.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:20:19",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "And then the other element that I think's kind of interesting based on what we were just talking about, the parents of these founders were pushing these kids to like sell the company. Not now, but like this is a while back. And what they did ultimately was they did a small secondary, which got the parents off the backs of the founders because they're like, 'Okay, now you have some dough in your bank account, just go execute.' So secondaries can actually be very, very beneficial in terms of alleviating financial pressure.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:20:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, but that's not financial pressure, that's familial pressure, which I've never seen come up in a case like this. I understand parents wanting their children to be wealthy.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:21:00",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Take money off the table to avoid owing Princeton and their lenders more money for a long period of time, but that's—that's crazy. Nikhil, when this deal came together, were you in favor of it from the very beginning?",
+      "tone": "surprised"
+    },
+    {
+      "timestamp": "00:21:11",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "As we talked about earlier, when companies are really working, they have the chance to be, you know, part of that power law basket. And so my initial reaction, you know, when we first started having conversations about Superhuman was we absolutely shouldn't do this, we should go for it. And I think part of the responsibility that we have as early-stage investors and board members is if we feel really strongly that a company has that chance to be a big independent company, you know, we have to give that perspective to the founders. And so I, you know, I strongly voiced that opinion and thankfully we didn't pursue an acquisition a year ago. Instead, we did a secondary, as Michael referred to. But this time around, it was a very attractive offer and so my responsibility shifted once the founders decided they really wanted to do it, to making sure everyone had the best outcome possible here. And so that's what we worked, you know, closely together on.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:22:19",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So I ask about your relative interest in the deal because we're seeing a little bit more of this. We just saw Vercel, they bought Better Auth, which had only raised 5 million. Figma, I know it's now public, but they just bought the team behind Bud, which I think was a Viable coding platform. And if we take a look at the data here, this is from my friends over at Crunchbase, showing global venture-backed M&A counts and exit value. There's been a pretty steep ascent in total dollar value from kind of the nadir in the late '23 early '24 era to what appears to be a relatively robust amount of money changing hands here. The total number of exits doesn't seem to be changing too much. But I'm curious about what you guys are seeing in the market regarding kind of inbound from either the largest private companies—the Stripes, the Anthropics, and so forth—or the public set and who's more interested in picking up startups today. And Michael, let me start with you on this.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:23:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I mean, I think we're a beneficiary because we're in Cursor through Neo. And, you know, obviously a 60 billion dollar exit is—is always welcome. They are outliers, but, you know, it shows how with power law a small firm like Neo can return multiples of their fund with one investment. I would say that, you know, given where we are on valuations and, you know, it's basically currency that a company can use to acquire other companies. And so even though SpaceX is paying 60 billion for Cursor, you know, when you have a two and a half trillion dollar market cap, it's less than, you know, what, 5%? It's low single digits to them. And you could argue that SpaceX is overvalued, you could argue it's undervalued, but they have the currency to do it.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:24:00",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "So that, I mean, obviously SpaceX is now public, but even for private companies, if Databricks is valued at $150 billion, for them to issue a billion or two billion of their stock, it's less dilution to them. And they can do that, and they can actually turbocharge. And you saw that in the late 90s with Cisco, and Cisco had acquired over 120 companies. People were arguing that that basically was their R&D strategy. But, you know, Cisco was trading at 100 times PE.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:26",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Spend money while you're the currency, why not?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:28",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, no, it—there are some advantages to being public. I hate to sound like the old broken record, but like to me, you have a lot more firepower to do stuff because you have the liquid currency that you described.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:38",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "But you have that in the private markets now, right? I mean, OpenAI, Anthropic, companies like that, they—they have, you could argue, overvalued currency, but they're going to use it.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:24:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, no, I—I buy that point, the overvalued currency part. Yes, less liquid, but still very useful. Um, I'm curious about if there's a genre of startup that's seen the most interest, because I was a little surprised to see, Nikhil, the—the Bud deal be more of a talent acquisition. I thought acqui-hires were kind of out of vogue, given that everyone's trying to reduce their overall human headcount. So, in your portfolio, who's not—who's getting the most kind of door knocks from other companies?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:25:21",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "I mean, I think that there is such a premium right now on talent because it is—it is relatively easy to go start a company and get funded. And so, you know, a lot of really talented people are doing that. Um, and so then it is just hard to hire great people based on a set of dynamics. So, yeah, I mean, our teams that—that have a lot of talent are absolutely getting reached out to. And then the companies that have momentum in their businesses. Um, you know, that's what a company like Superhuman wanted in the case of GPTZero, along with, of course, the team, but—but you know, there, there's a real business that they're picking up as well. Um, so it—it does feel again, if I—I'm sure if I—if I leverage the models to ask about like, are M&A conversations in our team meetings and how that's trended over time? The last couple quarters has probably been the high watermark since we started Footwork five years ago in terms of the number of discussions that we've had internally about our own portfolio companies getting reached out to by potential acquirers, which is an interesting data point that kind of matches the Crunchbase data that you shared.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:31",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, are the prices being discussed attractive? Because we mentioned earlier that many secondary deals often trade at a discount to last private prices. You're holding primary shares, so you don't want that. So when these acquisition offers come through, are they being put forward at a price that you think is fair and attractive?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:26:51",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Again, of course, there's—there's nuance in every situation, but um, I think the dynamic that Michael and you were talking about is really interesting...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:27:00",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "which is when the consideration is not cash but instead equity, then the key question is what is that equity worth? And and so you can believe that perhaps an offer is unfair if you think the equity is far overvalued relative to the fundamentals of the business.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:27:17",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "On the flip side, you know, if Anthropic had acquired one of your companies a year ago, you would probably feel terrific about that equity position today and so, you know, I think the main conversation that we're having in each of these situations is okay, like what is this offer actually? And what is the equity actually worth whether it's a public company or a private company doing the acquiring because in both cases that equity may not be really tied to the fundamentals of the business.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:27:54",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Are you trying to say that the Nasdaq keeps going up every time the startup world explodes and that's slightly confusing to all of us?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:28:03",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "It is a wild time on how to value anything. You know, I think, you know, when you look at a company like Hubspot in the public markets that's $3 plus billion of ARR and I think valued at less than $10 billion versus some of the companies in the private markets that are valued at $10 plus billion with not much revenue. It's just a crazy time.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:28:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Exactly 10 billion today, actually, for Hubspot. Just hit it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:28:23",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Yeah. I mean, you're talking about Anduril. You know, Lockheed Martin trades at about $125 billion market cap with $75 billion of revenue and, you know, Anduril shares are trading above that market cap in the private markets. And, you know, Anduril has a fraction of what Lockheed Martin has.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:28:40",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So one thing I'd also point out, Alex, is I do think that you're gonna have a lot more acquisitions going on, partly because of the SAS-pocalypse, right? The re-rating of enterprise software companies and, you know, you look at Meritech's index, it's, I think, forward revenue multiples are like at 3.6, 3.7 times. And to Nikhil's point, you have good companies that are trading at substantially lower valuations. I think it's part of that fear that these legacy SAS and enterprise companies aren't gonna make it because of AI. You know, you have a rule of 40 company like Monday, monday.com trading at two times. I mean, that's crazy.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:29:23",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Legitimately insane.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:29:24",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Every time we see a revolution in how software is built and used, one company ends up owning the infrastructure that everyone else depends on. The next great platform is being built right now. That company is DigitalOcean, and they just launched their AI-native cloud. This is not just another place to rent GPUs or a hyperscaler overwhelming you with features and services but leaving you on your own to patch it all together. No, we're talking about a full-stack platform that comes pre-assembled and that sends you just one bill at the end of the month. Workato runs a trillion automated workflows on DigitalOcean with 67% lower inference cost, 79% lower latency, and it's two times faster.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:30:00",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "A Twist Production. If you want to understand what building on a true AI-native platform looks like, go to do.co/twist. That's do.co/twist. Start building on the DigitalOcean AI-native cloud today and cut your AI workload costs by up to 50%. That's do.co/twist.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:30:22",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Yeah, but you could also see how AI could wipe them out. So like what we have, you know, just very recently, Intercom was acquired. It's a portfolio company of Freestyle, they returned more than an entire fund. It's an interesting case study because it's a company that has been around for a while. People thought it was dead because of, you know, Sierra and other companies like that. Um, but I think they were—they actually had a really good story about implementing an AI-native solution and then getting traction on it. So they kind of revitalized the company and that's actually what this sort of messy middle of like SaaS and enterprise companies need to do. I also think that Salesforce acquired them because they wanted Eoghan as a senior executive. Yeah, and they were not going to buy Sierra and bring Bret Taylor back. And so you have also companies like Airtable, which were darlings, you know, their—their last round was at 11 billion. Um, and which by the way, Freestyle was able to top tick as a secondary. Um, but you know, a company like Airtable, other legacy companies, they have the customer base. They have the workflows. They have the proprietary data. And so I think that's actually what—what's going to drive a lot of acquisitions down the road, um, as well as senior executives. You know, I mean, I think Marc Benioff would love to have—you know, is excited to have Eoghan as a senior exec. He would probably be very excited to have Howie from Airtable as a senior exec. So I think you're going to see that, as well as the technical acquisi—the acquisition of technical people, that you know, the smaller acquisitions are representing.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:30:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "All right, so we talked about workflows there. We talked about data. Let's get into that. So Nikhil, we were talking about this before we jumped on the show. There's been a host of posts from venture capitalists and founders in the last couple of—I want to say the last week, digging into the concept of data. Now, if you go back to the early AI era, you know, right after ChatGPT came out, people were saying, 'Oh, data is so important on the training side of things to create these models.' Startups were spun up to facilitate data licensing. That kind of went okay as far as we can tell. Then for a while everyone just talked about intelligence and reinforcement learning and so forth. And now finally we're back to where we were before, which is the value of data often locked behind corporations, just not really accessible to the world. So I'm curious if you can tell us why the conversation has shifted from the founder and venture perspective to data being so important today, and then also what that does for companies like Monday, which Michael just pointed out has a lot of this but is trading at essentially zero for how much revenue it does.",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:32:57",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Every few months it feels like there's a different, you know, sort of meta theme to AI, right? Like last summer it was the agents summer...",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:33:00",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "comes straight to the AI revolution that the world gets excited about. And so, you know, when you think about the stack, right, it is energy, compute, and data that are the fundamental substrates for these models. Um, and and the models are sort of the fundamental substrate for AI. And it feels like, you know, the market gets really excited about, you know, energy and then compute and then data in different moments and right now—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:33:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "It's kind of a loop.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:33:34",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Exactly. Data's having its moment in, you know, in the X eco-chamber with a number of people posting about it. Um, you know, I think the interesting thing about data is, uh, whereas in energy and in compute you have enormous companies, enormous public companies, right? Like the biggest public company in the world in the case of Nvidia, for example—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:33:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Mhm.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:34:00",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "—um, you don't have on the surface, uh, such enormous companies that are just, you know, in data. And so, um, that is an interesting opportunity. Now of course you have, uh, every company, uh, that sits on data that could be important, um, and relevant to what's happening in AI. So that's just one dynamic to think about, which is the companies that are like purely focused on data, um, there aren't that many of those that are huge public companies versus in the other couple key areas. And so, uh, you can argue that there's like more white space there than in other areas. And then it does feel like what the labs are really focused on is, is data at the moment. Uh, you know, they've been, they've been, uh, you know, there've been a number of projects underway at the labs to solve the energy and compute, uh, challenges. And those, those have been more publicly talked about, but what's happening on the data side is more murky and therefore I think like interesting for people to be weighing in on. Um, and the companies out there beating their chest about data are particularly the ones in data labeling, uh, Scale, Labelbox, and others. And it's interesting that they constantly talk about like their revenue run rate and where that's going, but that's not the only piece of data that is interesting. Um, there's also data licensing. And the model companies do a tremendous amount of licensing of data, um, not just labeling, uh, of of data through humans. Um, data licensing applies for example to real-world data that they're trying to get access to. And then of course the models themselves have data from usage that they're using to improve their models. So those are just some of the parts of the stack. We have one of our, one of our portfolio companies that's growing the fastest is a company called Protege which is in that data licensing realm. Um, and then, you know, I think again what is intriguing about this whole space is how little we actually—",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:36:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "we hear about from like how companies and the model companies themselves are leveraging the data to improve their models because that is their secret sauce.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:36:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "So I'm pulling up Protege here so how much have they accelerated in the last six months? Because if these people talking about data becoming more important again as we talked about the different layers of the stack, I would presume that they've seen a pretty big uplift in their business.",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "00:36:20",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Yeah, this is a company that has again not been that public about how well it's doing but in year two of its business is hundreds of millions in revenue. And what they do is they enable data providers, folks sitting on data, to license their data to the model companies and application layer companies that have a need for that data and a purpose for licensing that data. And so it's a very simple idea on the surface but one that makes a ton of sense when you think about the importance of this in this moment in time. You know you've heard about there are public deals such as Reddit's deal or the New York Times deal with with OpenAI, but you can imagine that there's a lot more of those types of deals that that are happening and Protege's emerged as the leader in in sort of facilitating those types of licenses.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:37:13",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Nikhil, there's been a lot of questions about where the value will accrue in the broader AI race. Will it be people who sell GPUs? Kind of the picks and shovels argument. Clearly there's a lot of money to be made in interconnects, high-bandwidth memory, photonics, etc. The app layer, the model layer. It all kind of predicates on data. So I'm curious what your perspective is on how startups are going to be able to capture when they often don't have as much historical customer data as your salesforces and HubSpots.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:37:44",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Yeah, I mean that's a really good question. I I think having proprietary data is actually the the where the economic value is going to accrue. You know in a way you can look at tokenomics, a token as as a unit of human labor actually because ultimately you're trying to complete tasks around that and that's the sort of expenditure that you need to to do.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:38:07",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:38:08",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "But in order to do anything, to have any insight, to have anything actionable, you have to have the data. And that's why I think the SaaS-pocalypse is overblown. You know I think it's it's almost hubris to dismiss all these companies that have the workflows, that have the proprietary data, that have the customer relationships and to just assume that, you know, AI is going to blow them away. AI is actually going to help them leverage what they have and actually create more economic value if if they do it right. And Intercom is a good example of that.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:38:32",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Intercom's a great example of it. They did refactor their whole business, rebranded it as Fin and really went all in early. I mean, frankly I think Eoghan was kind of stuck his neck out frankly on that point and ended up selling for... Nikhil back me up, 3.6 billion? I think.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:38:46",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "I think 3.3, 3.4, something like that.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:38:48",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "3.3. Awesome. Yeah.",
+      "tone": "happy"
+    },
+    {
+      "timestamp": "00:38:49",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "But but the inverse of your point... oh it's a great outcome especially for a company that had for a while their stagnant ARR and was actually shrinking a little bit. Like that is I mean that's coming back from the dead and I say that with respect as opposed...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:39:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Doing this. Right. Um, but your point about SaaS-pocalypse being overblown, the importance of data, the power of workflows, I think about a company that as we all know Box with Aaron Levie, they have tons of customer data, they're expanding into workflows, they seem to be accelerating their revenue a little bit, I track their earnings more carefully than I should, and as of today they're trading at a 3.4x trailing price sales multiple. So is the market just systematically undervaluing data and its eventual value today as the private markets get it right?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "00:39:32",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Yeah, I- I do think so. I mean if you actually look at Salesforce, they- they're growing at ten to fifteen- ten to twelve percent. So why- why is Salesforce, that has all this amazing data, you know it's a database company, right? Ultimately CRM company. And they're- they're only, you know, the- the- they're down 40% for the year. Um, and I think, you know, it really is that investors are chasing after growth, fundamentally. And you have that with, you know, Samsung and SK Hynix and- and Micron, you have, um, you know, I think VCs chasing after companies that are going from zero to a hundred million in six months now, not- not twelve months. Um, and it's to the detriment of the companies that aren't growing that fast, but yet are probably, you know, very well maybe building enduring companies. Yeah, and I think that's- that's actually where the alpha's going to be made. Um, you could get on the- the bandwagon and go after and have FOMO and chase after the high momentum deals, but I think there's going to be, uh, very thoughtful founders and companies that are building enduring businesses that are going to take advantage of this just as well. And from a VC perspective, to have good ownership in those kind of companies actually will potentially play out better. The fear, of course, is- from the LP perspective, you know, I hear this all the time, you know, 'how much exposure do you have to SpaceX, OpenAI and Anthropic?' That's all that people talk about. And it's- it's- it's an important point, but I- I don't- I think they're missing the bigger point of what early stage venture is supposed to do.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:41:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yes, which is not back the super late-stage bloated consensus companies that we already all know. I mean, that's not venture, that's just basically IPO investing under the mantle of PE with venture capital stenciled on the front of the building. Like, it's not venture.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:41:30",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Yeah, I mean, I- I'm sure Nikhil has a lot of thoughts around this, but you know, from our perspective, what we do is we try to back VCs who are finding non-consensus founders building non-consensus companies, and that's where the alpha comes from because ultimately if they become consensus, then there's unlimited capital coming in, right? I- I posted this a while ago, it's like basically Zirp 2.0. Instead of the US government giving all that money, it's actually the- the platform firms that have pretty much unlimited capital. Um...",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:41:44",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "And that's why we're back to 2021 era revenue multiples. I mean, like, how many VCs were on my phone back then being like, 'Alright, I just heard about a Series A done at, you know, 10,000 ARR and a 10,000x multiple.' I'm like, 'That's crazy.' And then it was crazy. And now I feel like we're right back to it. Like...",
+      "tone": "exasperated"
+    },
+    {
+      "timestamp": "00:41:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yeah, I mean...",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:42:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think, you know, you look at Nvidia, you look at their forward P/E, it's like 24 times. This is not crazy. It's not like Cisco at 100 in 1999. And then the... what's happening though is that E is doing a lot of the work, right? And you're assuming that that E, the earnings, is going to continue to be like amazing, right? Samsung just announced that they had 59 billion dollars of EBITDA. And, you know, it's like holy shit, where did that come from? It, you know... I think the biggest risk over the next 12 to 18, maybe 24 months, and no one knows, is that suddenly that growth is not going to happen. There's a lot of catalysts in the market that could create major issues, and you can easily see Nasdaq going down 20% easily.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:42:45",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, before we let Nikhil jump in, I want you to tell me—I have my own list of catalysts that could lead to such a correction, which I don't think actually would be that amiss—but, what are you looking at as possible tripping points?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:42:57",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Well, you know, I think some of the catalysts could be, you know, clearly like if Nvidia or any of these semiconductor companies have a miss, if you have projects like, you know, the Stark cluster that Oracle's working on with OpenAI, if they... you know, their bonds are being... have even a higher premium now in order to... so it's really the financing risk. Being able to raise the capital in order to do this because it is a circular economy and, you know, if any part of that circle stops, you know, the musical chair stops, then you can have a serious correction because then all the growth estimates are off the table. And that's going to be a catalyst. One more world that I don't know very well is private credit and a lot of that is funding these data center builds and I think, you know, if there's any hiccup there... The other thing of course people are talking about recently is these leveraged ETFs, right? The three times leveraged ETFs of these semiconductor companies. You could see where if that crashes, then retail takes down all the hedge funds that were long and suddenly you have contagion. We've seen this movie many, many times over the past—",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:44:12",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You're not supposed to say contagion, just like you're not supposed to say recession. It's bad luck. I mean, you're going to curse us all. All right, Nikhil, we've been talking for a minute. Let's bring you back in.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "00:44:20",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "You know, the phrase that I think is on my mind as I think about what happens in the markets is, you know, is not too big to fail as it was in, you know, some some prior corrections, but it's too important to miss. Like there's a set of companies that just have to hit their numbers, beat their numbers on both top line and bottom line. I actually worry more about the bottom line for a set of companies that are just consuming a tremendous amount of capital. And obviously, I think like OpenAI's high up on that list. I worry more about that than I do the top line of a company like Nvidia, for example, which I think is just printing money.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:45:00",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "...has a lot of, uh, uh, uh, of predictability to their business.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:45:04",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I think we've also seen predictability baked into the memory sector, for example. Nikhil mentioned a couple of memory companies. I think Micron was the one in its last earnings report that noted they've locked in like, uh, multi-year contracts for some of their biggest buyers. A lot of stability there. The thing that I'm looking for the most is a decline in the compute crunch at the hyperscaler level. So I think that will tell us where CapEx is going for the biggest buyers, it'll tell us how much, you know, they're spending on their own AI projects and also customer demand. So it's a kind of a good proxy for overall health. And I think we are one major, like Alphabet pulls back on its CapEx plans away from at least a 10% correction, which I think puts a lot of pressure on the upcoming earnings cycle. Because once again, here we are, everyone's worried, and every single quarter so far, every hyperscaler said we're compute constrained and we will be for quarters to come. And one day that won't be true.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:45:57",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I mean Alex, one really recent example, and I mentioned it, Samsung reported like $58 billion of EBITDA. It was up from like a billion eight or something, like some astronomical increase year-over-year. It actually, the stock price went down 7%. Seven or 8%. It went down because that's the sort of sentiment you have in this market. It's like, you know, that's great but you have to keep outperforming. And that's what's worrisome is that unrealistic expectation. Every time Nvidia reports I'm like very, very nervous because even if they have an amazing earnings report and then Nikhil correctly points out they have really stable growth, if it's not exceeding market sentiment and expectation you could have a disaster. What's the private market version of this? Because the latest news is that Mistral, everyone's favorite European hypercorn, is looking to raise I think it's 300 million more at 13.2 billion. They've crossed 500 million in annual run rate, not annual recurring revenue. To me that's an incredibly impressive company. But I mean, Nikhil, if they miss two quarters in a row, what happens to their valuation?",
+      "tone": "assertive"
+    },
+    {
+      "timestamp": "00:46:48",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "I think the thing that worries me is less them and other companies missing on the top line, it's just a set of companies that require a ton of capital because of their burn levels. I think the ones that are scary are like reports that OpenAI needs to go raise another several hundred billion dollars. That is the thing that worries me much more so than...",
+      "tone": "cautious"
+    },
+    {
+      "timestamp": "00:47:38",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Okay, but isn't there a direct connection here between ability to finance that build out you're describing and their revenue growth? Because you know once Anthropic hit like 64 billion run rate, whatever, you can kind of just double that for next year and then they'll have at least 100 billion in revenue in 2027. You can do fun math that way, it's not that hard. But that does cover a lot of spend if there's a reasonable amount of margin on those credits.",
+      "tone": "speculative"
+    },
+    {
+      "timestamp": "00:48:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "tokens and if they're not making hell of margin on Fable at 50 bucks per million output tokens, then the whole industry just throw in the bin.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:48:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, I think that's the key question, like, how much are these companies overinvesting in compute to capture demand and how expensive that is, and then what their margin is? And, and so, again, we shall see, but right now, the music feels like it is very much playing.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:48:30",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Music is blaring, but it tends to blare before the speakers blow out. Now, on that point, I want to just talk about Chinese AI models for a second because I do think they fit into the margin conversation. Uh, going back two months, suddenly everyone stopped paying subscription for AI and started to pay on a usage basis. Everyone freaked out. Seems to have quieted down a little bit now that everyone realized you shouldn't use Opus 3.5 Sonnet fast for everything you're doing. Simple enough. Uh, but a lot of companies did lean into either using off-the-shelf open-weight models, usually from China, some from France, or also fine-tuning or post-training their own versions of them. We saw examples like Cursor using Kimi k2.5, I think. Airbnb used Qwen. The list goes on. Uh, recently, news was out this week that the Chinese government may preclude the release of future open-weight models. Uh, essentially kind of the same fight we're seeing in the US about accessibility to kind of cutting-edge AI. And my, my question to Nikhil, what does that do to startup margins? Because a lot of companies were moving their inference off of state-of-the-art closed source to either, you know, cheaper open-weight or self-hosting them, frankly. And if they can't do that, what happens to their business?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:49:40",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "We have seen our own portfolio companies use a mix of models. And, you know, I think many of them are using the frontier models for coding. Um, and so that is a significant area of spend for them. Um, but, but they're also using the open, the open-source, open-weight models for elements of their product where, you know, the frontier models are just not necessary. Now, the, the good news, I think, for them is that the non-frontier models at the close-source companies are getting cheaper. And so, you know, you can redirect a lot of stuff to some of the older models that are still very capable. And I think that is an option for a set of companies that, that, again, helps the margin conversation. So, I don't know, you, you know, I think obviously a key thing for, for us in the US is figuring out how to have a vibrant open-source ecosystem, open-weight set of models here. I think that's really important. Um, but I think what is plugging the gap is that, you know, the, the non-frontier models from the close-source companies are just getting cheaper. Um, and I have to believe that what will happen is, you know, more of a stratification there where of course the frontier capabilities get expensive and...",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "00:51:00",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "And and we'll be needed for a set of tasks, but I think we can redirect a lot of tasks to these these models that are cheaper.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:51:06",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Michael, that doesn't solve the whole problem though, I don't think, because there's been a lot of conversation, we saw Alex Karp from Palantir and a lot of other people begin to really beat the drum about not using closed source models, be they, you know, at the absolute cutting edge or generation behind or just a Sonnet size model, because the major labs are going to train on your workflows, train on your data, and essentially put you out of business. So in a world where we don't have open weight Chinese models and you don't want to trust the closed source models from the major labs, where does that leave startups?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:51:34",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Yeah, I mean, I think ultimately it gets back to my comment about enduring businesses and, you know, the joke was EBITDA plus C, you know, the cost of compute, and, you know, economically speaking, you you want to take advantage of of of that pricing delta between the open source models and the proprietary models. Um, I think it's really good for the US AI industry. I mean, I think that kind of pricing pressure is is really good. You see a lot of startups working on orchestration layer and trying to figure out how to optimize which model to use when, and I think that kind of innovation is very important. And so I don't have any more insight other than that, but I do think from an economic, you know, the free hand of the—the invisible hand of the free market, I think it's really good to have that pricing pressure put on the proprietary model.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:52:29",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Agreed. I mean, shout out Adam Smith and all sorts of, you know, invisible appendages, but I'm just worried, Nikhil, that the models from NVIDIA, the Nemotron family, that the models from Google's Gemma family aren't sufficient to replace what we have from DeepSeek, from Zhipu, from Moonshot, from Qwen, and we're going to end up in a place where a lot of people are betting on rolling their own, especially startups that don't want to pay OpenAI's margin for them, and they're just not going to have something to fall back on. And to me, that seems like a structural risk in the startup market today.",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:53:02",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Yeah. Yeah, I think you're right to be concerned about it. Um, and I think the other thing here is just uh all of this requires teams that are capable enough of of leveraging frontier models, of switching models in and out, of potentially fine-tuning, building their own model. And uh as we discussed earlier, like the set of really talented people is finite and and and so there are a set of companies that just don't have another option but to um but to work with either application layer companies that are using the closed source models or uh or just work with the the frontier labs because they they don't have the talent level uh to do anything else.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:53:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Well, Alex, the other thing is that, you know, ultimately you could see where different industries have, you know, are leveraging small language models, right? And so that, you know, if there are companies that...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:54:00",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "We're helping develop these small language models for an enterprise customer, they that can actually take advantage of the data that they have and the workflows that they have. That would be probably more cost effective than just, you know, using Anthropic or or OpenAI.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:54:17",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "I'm just disappointed that we've now said several times in this conversation that there's only so many companies that matter, only so many founders that matter, only so many researchers. It seems disappointing that we see now back to Nikhil's earlier point about being more black-pilled, that the number of things that matter in the market, companies, founders, etcetera, is is going down it feels like at a time in which it's more easy than ever to build something. And to me, those seem to be contrasting in a way that doesn't help the current political situation around AI being relatively unpopular. So, you know, is there a way to, I mean I'm gonna sound like the mayor of New York City here, but hear me out, to spread the love a little bit and have more companies become market leading so that way we don't end up with just like six people from Andreessen and their friends making a bunch of money and everyone else sitting around with a tin can going, please Lord, give me some tokens.",
+      "tone": "skeptical"
+    },
+    {
+      "timestamp": "00:55:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I think two things can be true, right? Like, there's, um, there's a concentration of resources and power, the big companies are getting bigger, can can coexist with it is easier than ever to start a company and it is, uh, it is more possible than ever for two people to build a business that is, uh, that that gets big quickly and gets wildly profitable quickly. Like, I think both of those things are happening before our eyes. And and so it is an amazing time to go build. Um, and, you know, it is an amazing time to be one of these massive companies that is only getting bigger.",
+      "tone": "optimistic"
+    },
+    {
+      "timestamp": "00:55:49",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Yeah, you know, Alex, one of the things that we've had an idea around is this arms race to find younger founders. And in an AI native world, you know, everybody needs to be the first check, and that also could mean younger founders. And you look at, you know, um, some of the groups that we work with, like Josh Browder, who is a Thiel Fellow, he's, he helps on the selection committee, we have Corey Levy at Z Fellows, we have, um, the guys from Prod, you know, you look at companies that, for example, are like Neo, you know, they're spending time with university kids, and especially at Harvard, MIT, and Stanford, you have, and and, perhaps, you know, Carnegie Mellon and some others, you have kids who are, uh, who actually want to start companies, who have, are almost fearless. Like, we, uh, you know, one of the companies that we're in is, is Etched, and you know, these young people are like, hey, we're going to totally disrupt Nvidia and build inference-specific chips. And, you know, what 20-year-old goes around thinking that? But they're unencumbered by the fear and they're not 20-year veterans thinking, oh, this is an impossible task. And so I think that's, that's actually what's very...",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:57:00",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "heartening and very exciting about entrepreneurship. So, yeah, you do have these big incumbents, they're getting bigger, but you also have really smart kids who are—are fearless and are trying to build companies that are totally going to disrupt. And that is the beauty of capitalism.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "00:57:16",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Gavin is the CEO of Etch, I believe, right?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:57:18",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:57:18",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Yeah, we had him on the show. One of my favorite conversations I've ever had. One of the nicest people I've ever met. And also, they just came out of stealth and announced—Michael, correct me here—800 million in funding, and they're bringing a chip to market soon. They're building a test data center of a couple megawatts in Taiwan, and they're gonna bring out rack-scale systems—",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "00:57:35",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Yep.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:57:35",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "—I forget the timeframe, but soon, which I think is going to be great for cutting inference prices overall, if you're not into Cerebras or SambaNova, which just raised a billion at an 11-billion-dollar post. Guys, bringing this to a close, I want to do some kind of fun questions here, and I love to go through portfolios and pick one out and then ask the venture firm in question about why they picked that one. Now, Windborne, as far as I can tell, is a company that wants to put a bunch of balloons up into the sky and provide essentially a private weather observing network and then sell that data to energy traders and everyone else. I love this idea, but Nikhil, it does seem that right now we've seen headlines about how we've reduced funding at the national level here in the states for our own weather-gathering technology. So is this company just nailing the right time, right market moment, because I feel like they must be just fending off customers?",
+      "tone": "inquisitive"
+    },
+    {
+      "timestamp": "00:58:03",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Yeah, it's—it's one of the companies we're most excited about, and some of the characteristics here I think are interesting to—to founders, which is Windborne collects its own data through its own weather balloons. So—it—it has proprietary data on the atmosphere in their case. They leverage that data to build their own models, and they use AI for those as well. And so AI plus their own proprietary data has led to—some of the most accurate weather forecasting models in the world now for this company. And this is, by the way, you know, it's a 50-person company based in—in the Bay Area. And then on the commercial side, you're right that unfortunately the cuts in the National Weather Service in the US and—issues with—these atmospheric associations around the world have led to, in a time where like the weather is changing more and where you would think, you know, models should get better, unfortunately, there've been a lot of issues with—with accurate models, with accurate weather forecasts. And so Windborne is one of those companies that's filling that gap. And they sell both to governments and to—and to companies. And by the way, within the US government, for example, not only do we work with the National Oceanic and Atmospheric Association, NOAA, we also work with the Department of War. And, you know, you can imagine there is lots of—reasons for why weather data is important to both those departments.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:00:00",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "really fascinating company and actually related to the the data conversation we were having earlier because of its own its own data edge and moat there and the one other thing I'll call out about this is the company was actually started back in 2019. The four founders all went to Stanford together, they were part of the Stanford space industries group at Stanford, so well pre this AI era. But it's one of those companies that now feels more interesting than ever based on what's happened in AI the last three and a half years and the company itself is one of the most AI-pilled companies that we work with. They've automated everything possible internally, they actually have their own AI lead, software lead at the company that's managing their their fleet of agents and so a company that feels very well set up for the next 10 years.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:00:52",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "You get 10 points for the answer and minus five points for dodging saying climate change during your response, but still five points not bad. All right, Michael, now over to you. I don't I'm not going to press you about a particular company but I am going to say who is your favorite fund manager in your broader portfolio and you cannot say Nikhil.",
+      "tone": "playful"
+    },
+    {
+      "timestamp": "01:01:10",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I love Nikhil. Um right now I would say Josh Browder. I mentioned him earlier, he's a Thiel fellow, he has a company called DoNotPay, it's very profitable. And but you know he has hustle. His average post-money is five million dollars. He's of the Thiel, he's on the Thiel selection committee and so he meets, you know, these 200 kids who are in the final process and that's an amazing pipeline of potential entrepreneurs. So, you know, I think Josh has done a very good job harvesting that and I feel like you know that he, I wouldn't say he's neurodivergent, but he can read people very very well and I think he sees the spark in young people who are actually going to walk through walls to build amazing companies. That's the problem right now with these younger founders, a lot of them are actually just trying to get the credential. You know, nothing against YC, but you know, getting into YC is kind of a credential now, or becoming even a Thiel fellow is kind of a credential. So you gotta really suss out who's going after what for what reason and I think Josh is extremely good at that.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "01:02:22",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "So essentially in the ZIRP era we had a lot of tourist money flowing in and today when you can grow a company from zero to a hundred million revenue in a year we have a lot of tourist founders. Okay well you know what neither will last because if there's one thing that is true it's building a company is hard as hell and it takes a really long time. Um guys we're going to leave it there but I really enjoyed this. I'm really curious to see in six months how this data conversation changes and where we are in the broader arc of going around in a circle between energy compute and data. But Nikhil where can people find your firm online and is there anything else you want to shout out before you go?",
+      "tone": "thoughtful"
+    },
+    {
+      "timestamp": "01:02:52",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Yeah just footwork.vc and I'm at nbt on on X and nbt.substack.com is where I write as well.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "01:02:59",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Fantastic. Michael where can people find Sindana and anything else you want to add?",
+      "tone": "friendly"
+    },
+    {
+      "timestamp": "01:03:00",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "come and my Twitter handle is MK rocks, which was my gamer tag from the early 90s, and I use it for everything. MK rocks.",
+      "tone": "casual"
+    },
+    {
+      "timestamp": "01:03:03",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Sindanacapital.com",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "01:03:08",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "We're not going to stop now then. Uh, what are you playing lately?",
+      "tone": "curious"
+    },
+    {
+      "timestamp": "01:03:10",
+      "ad": false,
+      "speaker": "Lon Harris",
+      "text": "Call of Duty. At one point I was top 10% in the world on that. But, uh, I don't play as much, but yeah, I like first-person shooter games.",
+      "tone": "proud"
+    },
+    {
+      "timestamp": "01:03:21",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "I'm an old Quake guy myself, big fan of Doom 3, but I've really branched off into factory automation games lately. Can't help myself. So good.",
+      "tone": "enthusiastic"
+    },
+    {
+      "timestamp": "01:03:29",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Nikhil, do you game?",
+      "tone": "inquiring"
+    },
+    {
+      "timestamp": "01:03:31",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "Oh man, I used to, but now in high school I played Warcraft 3 and I was high US West with one of my best high school friends. But in this current zone where I have two young kids and started a firm, it would be a bad situation if I was gaming as well, so I'm off it.",
+      "tone": "reflective"
+    },
+    {
+      "timestamp": "01:03:51",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "You just have to do it after everyone else is asleep and just cut back on your sleep hours. It works every time.",
+      "tone": "humorous"
+    },
+    {
+      "timestamp": "01:03:55",
+      "ad": false,
+      "speaker": "Nikhil Basu Trivedi",
+      "text": "That's the time to write and think these days, so...",
+      "tone": "practical"
+    },
+    {
+      "timestamp": "01:03:58",
+      "ad": false,
+      "speaker": "Jason Calacanis",
+      "text": "Alright guys, this has been an absolute treat. This has been This Week in Startups. My name is Alex. We're back on Friday. We'll see y'all then.",
+      "tone": "energetic"
+    },
+    {
+      "timestamp": "01:04:06",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Thanks for watching This Week in Startups. If you liked this episode, check out more. If you're a startup founder, Founder University Cohort 13 kicks off this fall. It's a 12-week program that provides guidance on building your product, launching to real customers, and pitching to investors. Top startups receive $25,000 or $125,000 in investment. Apply now at founder.university/twist.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "01:04:29",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Already have traction? The Launch Accelerator invests $125,000 and connects you with 500 plus investors to help you raise your next round. Apply at launchaccelerator.co. If you're an accredited investor looking to gain access to quality deal flow, apply for Jason's Angel Syndicate at thesyndicate.com. We find two to three deals a month.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "01:04:49",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "And check out This Week in AI, Jason's experts-only roundtable with top AI founders and operators every week. Find it thisweekinai.ai. Check out the Twist Ticker, our daily newsletter, at thisweekinstartups.com/ticker. Thanks again to our sponsors for making today's show possible.",
+      "tone": "professional"
+    },
+    {
+      "timestamp": "01:05:07",
+      "ad": true,
+      "speaker": "Jason Calacanis",
+      "text": "Follow the show on Instagram. Follow the show on x.com. This Week in Startups publishes three days a week: Monday, Wednesday, and Friday at 5:00 PM Central Time. You can submit an audio or video file question by emailing it to thisweekin.com.",
+      "tone": "professional"
+    }
+  ],
+  "highlights": [
+    "Secondary markets are increasingly characterized by transparency issues and \"information arbitrage,\" as fund managers use Special Purpose Vehicles (SPVs) to entice investors with access to \"hit list\" companies like SpaceX or OpenAI. This lack of disclosure creates a \"Wild West\" environment where share provenance is often unclear, despite these markets being necessary for liquidity as companies stay private longer.",
+    "The \"SaaS-pocalypse\" may be overblown because legacy software companies possess the proprietary data and established workflows that AI-native startups lack. While new models are powerful, the actual economic value is likely to accrue to firms that can leverage historical customer data to provide actionable insights rather than just raw intelligence.",
+    "The venture capital industry has become hyper-focused on a tiny handful of 10 to 20 \"power law\" companies, leading to a massive concentration of capital and \"Zirp 2.0\" valuations for consensus deals. This creates a market of \"haves and have-nots\" where most liquidity and exit distributions are funneled to a very small group of elite investors and founders.",
+    "A significant structural risk to the current AI boom is the \"circular economy\" of massive capital expenditure, which relies on AI labs hitting unprecedented revenue targets to justify their burn. If growth in hyperscale compute spending slows or if labs fail to find sustainable margins on their tokens, it could trigger a contagion effect and a major market correction."
+  ],
+  "summary": "This episode of *This Week in Startups* features a venture capital roundtable focused on the \"Wild West\" of secondary markets and the evolving liquidity landscape for private companies. Guests Nikhil Basu Trivedi (Footwork) and Michael Kim (Cendana Capital) discuss the friction between founders seeking cap table control and investors’ growing need for liquidity as companies stay private longer. They explore the \"power law\" obsession currently dominating venture capital, where a massive portion of interest and capital is concentrated in a tiny handful of \"hit list\" companies like SpaceX, OpenAI, and Anduril. This concentration has led to the rise of complex Special Purpose Vehicles (SPVs), which, while providing access to high-demand assets, also introduce risks regarding share provenance and transparency.\n\nThe conversation shifts to the strategic importance of proprietary data in the AI era. Contrary to the \"SaaS-pocalypse\" narrative—which suggests AI will wipe out traditional software companies—the panel argues that established SaaS firms hold a significant \"data moat\" through their historical customer records and entrenched workflows. Recent M&A activity, such as Superhuman’s acquisition of GPTZero and Salesforce’s purchase of Intercom, highlights a trend where incumbents are buying AI-native startups to revitalize their products and acquire specialized talent. The guests suggest that while \"frontier\" model companies are currently capturing the most attention, the ultimate economic value will accrue to those who control the specific data inputs and the \"orchestration layer\" that manages model costs and performance.\n\nFinally, the roundtable addresses broader market health and the search for \"alpha\" in a high-valuation environment. While public giants like Nvidia show strong earnings, the guests express concern over the massive capital requirements and burn rates of private AI labs, suggesting that the industry is vulnerable to financing risks if growth expectations aren't met. To combat the trend of \"bloated consensus\" investing, the guests emphasize the importance of backing \"non-consensus\" founders. Examples include younger, \"fearless\" entrepreneurs building specialized hardware, like Etched’s inference chips, or unique data-gathering networks, like Windborne’s weather balloons, which represent a move away from pure software toward vertically integrated, data-rich businesses.",
+  "description": "This Week In Startups is made possible by:\n\nDigital Ocean - do.co/twist\nAgree.com - agree.com\nEvery.io - every.io.\n\nToday’s show:\n\nHow many startups matter in tech? Fewer than you think. That’s why venture capitalists are tripping over themselves to get onto their cap tables, no matter the cost. Why? Footwork’s Nikhil Basu Trivedi argues that the Valley has never been more “power-law-pilled” than it is today. Basu Trivedi joined Cendana Capital’s Michael Kim and TWiST’s Alex Wilhelm to go deep on secondary markets, the state of startup M&A, why the SaaSpocalypse may be temporary, and what could trigger a retrenchment of the AI trade. It’s Wednesday, so it’s time for our venture capital roundtable to go deep on how VCs are investing today, and where on the horizon they have their eyes fixed!\n\nGuest links:\n\nNikhil Basu Trivedi https://x.com/nbt\nFootwork https://www.footwork.vc/\nMichael Kim https://x.com/MKRocks\nCendana Capital https://www.cendanacapital.com/\n\nShow links:\n\nThe USVC-Anduril blowup https://x.com/ankurnagpal/status/2072701195714531398\nKline Hill Cendana Partners https://www.secondariesinvestor.com/kline-hill-and-cendana-raise-400m-for-second-vc-secondaries-fund/\nGPTZero’s exit https://gptzero.me/news/preserving-whats-human/\nSalesforce buys Fin https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/\nVercel buys Better Auth https://vercel.com/blog/vercel-acquires-better-auth\nFigma buys Bud https://techcrunch.com/2026/07/07/figma-acquires-team-behind-a-vibe-coding-app/\nProtoge https://withprotege.ai/\nWindborne https://windbornesystems.com/\nEtched https://www.etched.com/\nLovable’s reported raise https://sifted.eu/articles/lovable-300m-13-2bn-valuation\nJosh Browder https://x.com/Joshuabrowder\n\nTimestamps:\n\n0:00 Introduction: Nikhil Basu Trivedi (Footwork) & Michael Kim (Cendana Capital)\n1:21 The Anduril vs. USVC secondary market blowup\n3:30 Why Silicon Valley is 'power-law-pilled'\n7:45 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n8:59 Information asymmetry in the secondary markets\n9:07 Every.io — For all of your incorporation, banking, payroll, benefits, accounting, taxes or other back-office administration needs, visit https://every.io\n14:24 Is SPV fraud smoke or fire?\n15:54 Superhuman acquires GPTZero\n19:16 Agree.com - Stop chasing invoices and automate your entire contract-to-cash stack. Go to https://agree.com and tell them Jason sent you to get 50% off for life!\n20:32 The M&A wave\n26:41 The SaaSpocalypse debate\n29:21 DigitalOcean - Head to https://do.co/twist to start building on DigitalOcean's AI-Native Cloud today — and cut your AI workload costs by up to 50%.\n30:06 Data's moment in the energy → compute → data loop\n34:23 Where will AI value accrue?\n39:26 What could cause an AI correction?\n41:39 Why some companies are \"too big to miss\"\n45:45 China's possible open-weight model ban\n52:50 Young founders: Etched, Thiel Fellows, Z Fellows, Neo\n54:55 Portfolio spotlight: WindBorne's weather balloons and data moat\n58:09 Michael's favorite fund manager: Josh Browder\n\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+  "duration": 3922,
+  "people": [
+    "Nikhil Basu Trivedi",
+    "Michael Kim",
+    "This Week",
+    "In Startups",
+    "Digital Ocean",
+    "Nikhil Basu",
+    "Basu Trivedi",
+    "Cendana Capital",
+    "Alex Wilhelm",
+    "Kline Hill",
+    "Cendana Partners",
+    "Better Auth",
+    "Josh Browder",
+    "Joshuabrowder\n\nTimestamps",
+    "The Anduril",
+    "Why Silicon",
+    "Native Cloud",
+    "Thiel Fellows",
+    "Follow Lon",
+    "Follow Alex",
+    "Follow Jason",
+    "Will Guidara",
+    "Steve Huffman",
+    "Brian Chesky",
+    "Bob Moesta",
+    "Aaron Levie",
+    "Sophia Amoruso",
+    "Reid Hoffman",
+    "Frank Slootman"
+  ],
+  "topics": [
+    "Secondary market transparency and the USVC-Anduril dispute",
+    "Venture capital concentration and 'power law' dynamics",
+    "The current wave of startup M&A and talent acquisitions",
+    "The shift in focus toward data value and proprietary data in the AI stack",
+    "Macroeconomic risks and potential triggers for an AI market correction"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/9toYrX1s3yo/maxresdefault.jpg",
+  "date": "20260709",
+  "youtube_url": "https://www.youtube.com/watch?v=9toYrX1s3yo",
+  "youtube_metadata": {
+    "title": "Data Is the Next $1 Trillion Market",
+    "description": "This Week In Startups is made possible by:\n\nDigital Ocean - do.co/twist\nAgree.com - agree.com\nEvery.io - every.io.\n\nToday’s show:\n\nHow many startups matter in tech? Fewer than you think. That’s why venture capitalists are tripping over themselves to get onto their cap tables, no matter the cost. Why? Footwork’s Nikhil Basu Trivedi argues that the Valley has never been more “power-law-pilled” than it is today. Basu Trivedi joined Cendana Capital’s Michael Kim and TWiST’s Alex Wilhelm to go deep on secondary markets, the state of startup M&A, why the SaaSpocalypse may be temporary, and what could trigger a retrenchment of the AI trade. It’s Wednesday, so it’s time for our venture capital roundtable to go deep on how VCs are investing today, and where on the horizon they have their eyes fixed!\n\nGuest links:\n\nNikhil Basu Trivedi https://x.com/nbt\nFootwork https://www.footwork.vc/\nMichael Kim https://x.com/MKRocks\nCendana Capital https://www.cendanacapital.com/\n\nShow links:\n\nThe USVC-Anduril blowup https://x.com/ankurnagpal/status/2072701195714531398\nKline Hill Cendana Partners https://www.secondariesinvestor.com/kline-hill-and-cendana-raise-400m-for-second-vc-secondaries-fund/\nGPTZero’s exit https://gptzero.me/news/preserving-whats-human/\nSalesforce buys Fin https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/\nVercel buys Better Auth https://vercel.com/blog/vercel-acquires-better-auth\nFigma buys Bud https://techcrunch.com/2026/07/07/figma-acquires-team-behind-a-vibe-coding-app/\nProtoge https://withprotege.ai/\nWindborne https://windbornesystems.com/\nEtched https://www.etched.com/\nLovable’s reported raise https://sifted.eu/articles/lovable-300m-13-2bn-valuation\nJosh Browder https://x.com/Joshuabrowder\n\nTimestamps:\n\n0:00 Introduction: Nikhil Basu Trivedi (Footwork) & Michael Kim (Cendana Capital)\n1:21 The Anduril vs. USVC secondary market blowup\n3:30 Why Silicon Valley is 'power-law-pilled'\n7:45 Plaud: If your work depends on conversations — interviews, meetings, calls — you need a Plaud NotePin. You can check it out at https://Plaud.ai/twist and use code TWIST for 10% off!\n8:59 Information asymmetry in the secondary markets\n9:07 Every.io — For all of your incorporation, banking, payroll, benefits, accounting, taxes or other back-office administration needs, visit https://every.io\n14:24 Is SPV fraud smoke or fire?\n15:54 Superhuman acquires GPTZero\n19:16 Agree.com - Stop chasing invoices and automate your entire contract-to-cash stack. Go to https://agree.com and tell them Jason sent you to get 50% off for life!\n20:32 The M&A wave\n26:41 The SaaSpocalypse debate\n29:21 DigitalOcean - Head to https://do.co/twist to start building on DigitalOcean's AI-Native Cloud today — and cut your AI workload costs by up to 50%.\n30:06 Data's moment in the energy → compute → data loop\n34:23 Where will AI value accrue?\n39:26 What could cause an AI correction?\n41:39 Why some companies are \"too big to miss\"\n45:45 China's possible open-weight model ban\n52:50 Young founders: Etched, Thiel Fellows, Z Fellows, Neo\n54:55 Portfolio spotlight: WindBorne's weather balloons and data moat\n58:09 Michael's favorite fund manager: Josh Browder\n\n\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\n\nFollow Lon:\nX: https://x.com/lons\n\nFollow Alex:\nX: https://x.com/alex\nLinkedIn: ⁠https://www.linkedin.com/in/alexwilhelm\n\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\n\nCheck out all our partner offers: https://partners.launch.co/\n\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\n\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\n\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+    "duration": 3922,
+    "view_count": 1805,
+    "like_count": 45,
+    "channel": "This Week in Startups",
+    "upload_date": "20260709",
+    "thumbnail": "https://i.ytimg.com/vi/9toYrX1s3yo/maxresdefault.jpg",
+    "tags": [
+      "startups",
+      "twist",
+      "jason calacanis",
+      "public markets",
+      "private markets",
+      "venture capital",
+      "investing",
+      "learn",
+      "tech",
+      "technology",
+      "tech reviews",
+      "product reviews",
+      "gadgets",
+      "big tech",
+      "monopoly",
+      "finance",
+      "angel investing",
+      "founder",
+      "demos",
+      "generative ai",
+      "artificial intelligence",
+      "b2b",
+      "b2c",
+      "apple",
+      "vc"
+    ]
+  }
+}

@@ -1,0 +1,787 @@
+{
+  "title": "What NVIDIA Knows About the Future of AI Agents",
+  "source_url": "https://www.youtube.com/watch?v=IHfkTDMYa9g",
+  "full_transcript": [
+    {
+      "timestamp": "00:00:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Do you know this moment when you watch your agent? It has already written the code, the model appears to be done thinking, but nothing is happening. Or more accurately, nothing visible is happening.",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:00:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Behind that little running test message, the system is starting an isolated environment, loading the project, executing the code, and waiting to see whether anything breaks.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The model cannot continue until that work is finished. And here is the interesting part: this delay may have very little to do with the GPU.",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:00:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The GPU has already done its job, now the agent is waiting for the CPU. We have spent the last several years asking how quickly AI can generate an answer. Agents introduce a different question: how quickly can AI do the work required to reach that answer?",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:00:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Nvidia believes this creates a new bottleneck, and very conveniently, Nvidia has built a new chip for it. It's called Vera, and Nvidia described it as a CPU for the age of AI agents.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:00:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "When I posted about Vera on X, the comments were very interesting and it's very important to discuss them. Some of them were even more interesting than the announcement itself.",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:01:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "People asked whether Nvidia was overselling single core performance. They pointed out that modern software can use many CPU cores. They questioned whether companies really want to move their existing software from x86 to ARM.",
+      "tone": "critical"
+    },
+    {
+      "timestamp": "00:01:25",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And they raised a particularly important problem: if the CPU and GPU sit in different racks, could network latency erase the gains?",
+      "tone": "concerned"
+    },
+    {
+      "timestamp": "00:01:34",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So let's figure out what Vera really changes, what the benchmarks actually show, and whether the CPU is becoming the next important battleground in AI hardware.",
+      "tone": "authoritative"
+    },
+    {
+      "timestamp": "00:01:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Welcome to Attention Span by Turing Post. I'm Ksenia. Let's start with what an AI agent is actually doing while we stare at the word working.",
+      "tone": "welcoming"
+    },
+    {
+      "timestamp": "00:01:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A chatbot mostly lives inside the model. You send it a question, the GPU runs the neural network. The model produces tokens, you receive the answer. An agent has to leave that comfortable little world.",
+      "tone": "descriptive"
+    },
+    {
+      "timestamp": "00:02:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Suppose you ask a coding agent to fix a bug. The model looks at the problem and decides what to do, but deciding is only the beginning. The system now has to open the project and try the proposed solution.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:02:28",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And if the code fails, the error has to travel back to the model. The model studies it, changes its approach, and tries again. This creates a loop.",
+      "tone": "instructive"
+    },
+    {
+      "timestamp": "00:02:37",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The model thinks, the surrounding computer acts. The results come back, then the model thinks again. And the GPU handles the model, the CPU handles much of the transition from a decision to an actual result.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:02:50",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "In other words, the CPU runs the world between model calls, and that world is becoming much busier. A simple chatbot might call the model once and produce an answer. A coding agent can move through this loop dozens of times, even hundreds. A research agent",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "may search, read, compare, and verify before it responds.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A scientific agent may need to run a simulation and inspect what happened.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:07",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Each new capability introduces another place where the system should wait.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is why NVIDIA is changing its narrative and says the CPUs are moving onto the critical path.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:18",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But what does critical path mean?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Imagine the agent has just written a patch.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:23",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It cannot examine the test results before the tests finish.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It cannot correct the new error before the error appears.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And it cannot confirm the repair before the updated code runs again.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:34",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Some parts of the work can overlap, but the agent still contains a chain of dependent steps.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:38",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And the slowest necessary chain is called the critical path.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:44",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And it determines how long the entire task takes.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:47",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If the CPU saves half a second during one step, that may sound irrelevant, right?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But an agent can repeat the loop many times.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:03:55",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Those small delays accumulate until the agent starts to feel strangely slow, even when the model itself is very fast.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:03",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is the shift NVIDIA is building around.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:06",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "More AI inference speed does not solve every delay once the model begins using tools.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "At some point, you have to accelerate the work happening between the tokens.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:17",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But aren't modern programs multithreaded?",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This was one of the first objections in the comments and it's a good one.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "My original post said that more CPU cores increase throughput but do not make one agent faster.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:33",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is not exactly correct. I want to correct myself.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:36",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "One agent can absolutely use several cores. It can run independent tools simultaneously.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:40",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A compiler can divide work across threads.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:43",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A test suite can execute several tests at once.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:47",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So yes, more cores can make a single agent faster when its work can be divided.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:52",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But there is a limit.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:53",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If the next step depends on the result of the current one, no number of extra cores can remove that dependency.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:04:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And even multithreaded programs contain sections that still have to run sequentially.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:04",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This is the old lesson of Amdahl's Law.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:06",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The part that cannot be parallelized eventually limits the speedup.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Adding more cores is like adding more people to a kitchen.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Dinner may arrive faster if several dishes can be prepared at once, but nine cooks cannot make one egg boil in 10 seconds.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "What Vera is really designed to provide is not simply single-threaded performance.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "NVIDIA calls it maximum single-threaded performance at scale.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:34",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Performance at scale, these words change the meaning.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:36",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The goal is to keep each individual core fast, even when the entire processor is busy with many agents.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:42",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "NVIDIA wants Vera to move one agent step forward quickly while also supporting thousands of other environments running around it.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:50",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That requires fast cores, but it also requires a memory system capable of feeding them.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:05:57",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And this is where Vera becomes technically interesting.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "See what Nvidia changed inside Vera, because of course it's not its first CPU.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:01",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So let's dive into...",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:06:02",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Vera has 88 custom cores called Olympus. They are based on the ARM instruction set, but the core design itself comes from Nvidia.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Each core can run two threads, so Vera supports 176 threads in total.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:18",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But Nvidia did not simply chase a higher core count. Data center CPUs already know how to squeeze an impressive number onto a chip. The problem is that all those cores need data.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A CPU core can execute instructions very quickly, but only when the necessary information reaches it on time. When many cores compete for memory, performance can become inconsistent.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:41",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The chip looks fast on paper, while individual tasks spend an awkward amount of time waiting.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:47",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Vera tries to reduce that waiting. It provides up to 1.2 terabytes per second of memory bandwidth and uses a monolithic compute die with a high-speed internal fabric connecting the cores.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:06:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Nvidia says an Olympus core can process up to 50% more instructions per cycle than the cores inside Grace, its previous data center CPU. That does not mean every application becomes 50% faster.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:13",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Instructions per cycle are only one part of performance. Software, memory behavior, clock speed, and the shape of the workload all affect results.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:21",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "But agentic software can be messy. It jumps between different pieces of code, follows unpredictable branches, and moves through layers of runtime logic. Nvidia designed Olympus for exactly this kind of work.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:34",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So Vera's real pitch is quite specific. Every core should remain responsive while the machine is full of agents trying to act at once.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:43",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, does it actually work?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:07:45",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Nvidia says that under heavy load, Vera delivers 1.8 times the sustained per-core performance of leading x86 CPUs on workloads representing agentic execution. Perplexity also tested Vera using a coding workflow.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The system cloned a repository, started a sandbox, and ran its test suite. Vera completed the overall job about 1.5 times faster than the x86 comparison system.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:12",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "When Perplexity started many sandboxes concurrently, the speedup reached 1.9 times. These results give us a useful signal, but they do not yet give us a verdict.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:22",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The test involved exactly the kind of work Vera was built to accelerate. That is fine, as long as we understand what the benchmark demonstrates, right?",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It tells us that Vera can make a CPU-heavy coding workflow faster. It does not tell us that every agent will become 1.5 times faster.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:38",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A research agent may spend most of its time waiting for websites. A customer service agent, let's say, may depend on external databases. Another agent may be limited by model inference, storage, or network latency.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:08:51",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The CPU can only accelerate the part of the workflow that is actually CPU-bound. There is also the obvious issue that this",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Vera benchmark numbers come from NVIDIA. One commentary suggested waiting for SPEC CPU scores, and I absolutely agree. Standard benchmarks would make the comparison easier to examine.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:09",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "There has already been one early round of independent testing from Phoronix.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:15",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Across the workloads NVIDIA allowed it to test, Vera finished about 10% ahead of AMD's high-frequency EPYC 9575F and substantially ahead of Intel's Xeon 6980P.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:09:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That is encouraging for NVIDIA, but the phrase 'workloads NVIDIA allowed it to test' should remain firmly attached to the result. I want to see unrestricted benchmarks, power consumption, pricing, and complete agent workflows measured from the end of one model call to the beginning of the next.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:09:47",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Because that is where NVIDIA's claim either becomes a new hardware category or remains a very elegant marketing narrative.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:09:54",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, there was another objection in the comments. NVIDIA has been betting on ARM CPUs for years. So why is it important that NVIDIA is building Vera on the ARM infrastructure?",
+      "tone": "questioning"
+    },
+    {
+      "timestamp": "00:10:06",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "While NVIDIA has been betting on ARM CPUs for years, it even tried to acquire ARM in 2020 before regulators blocked the deal and NVIDIA abandoned it in 2022. Since then, NVIDIA has introduced Grace, Grace Hopper, Grace Blackwell, and now Vera, but ARM has not replaced X86 in the data center.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:25",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Companies still run enormous amounts of software built for Intel and AMD processors. Moving that software can be painful, and an X86 binary cannot simply wake up one morning and decide it identifies as ARM; it needs an ARM-compatible build. The same applies to container images and any dependencies containing native code.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:10:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "This migration cost is real, especially for older enterprise systems. But Vera is not necessarily aimed at those systems, and this is the clever move NVIDIA. NVIDIA is targeting newly built AI infrastructure, where companies already control the software environment and the companies with the biggest valuations.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:10:56",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "If an AI lab is creating thousands of standardized sandboxes from scratch, it can build them for ARM from the beginning. Cloud providers have also spent years adapting software for processors such as AWS Graviton. ARM in the data center is no longer an exotic island where every library immediately catches fire.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:07",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So, does NVIDIA need the whole market to migrate? NO!",
+      "tone": "emphatic"
+    },
+    {
+      "timestamp": "00:11:29",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "It may only need the largest AI labs and cloud providers. NVIDIA has already delivered early Vera systems to OpenAI, Anthropic, SpaceX AI, and Oracle. Perplexity is evaluating it, and Oracle says it plans to deploy hundreds of thousands of Vera CPUs.",
+      "tone": "neutral"
+    },
+    {
+      "timestamp": "00:11:49",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "These announcements are not proof that Vera will become a commercial success, of course. Testing a chip is easier than rebuilding infrastructure around it. Still, the basic economics are clear.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:12:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "NVIDIA can build a very large CPU business from a surprisingly small number of customers when those customers construct data centers the size of minor geological events.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:11",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And then we get the network problem. The most technically interesting comment was about where these CPUs actually sit. If the CPU runs the work between model calls, it needs to communicate with the GPU and moving data between processors takes time.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:12:27",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Vera can appear in two different configurations. Inside a Vera-Rubin system, the CPU is tightly connected to Rubin GPUs through NVLink-C2C. NVIDIA says this connection provides up to 1.8 terabytes per second of coherent bandwidth.",
+      "tone": "technical"
+    },
+    {
+      "timestamp": "00:12:42",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Huge numbers. This is designed to behave very differently from an ordinary network connection. But NVIDIA is also building standalone Vera CPU racks. These can sit alongside separate GPU racks with the two sides communicating over the data center network.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:12:58",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "In that configuration, latency becomes a serious part of the equation. Imagine an agent repeatedly sending tiny pieces of work between the GPU and a remote CPU rack. The CPU may execute each task quickly, but the system could lose time moving everything back and forth.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "On the other hand, if the CPU receives a substantial task, performs the work locally and sends back the one compact result, the network hop may be relatively small compared with the time saved. So the commenter is right that topology can deeply affect performance.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:13:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "A fast CPU measured in isolation does not guarantee a fast agent. The complete system has to be designed so that the CPU, GPU, memory and network do not spend their time waiting for one another. This is also why NVIDIA wants to own so much of the stack.",
+      "tone": "serious"
+    },
+    {
+      "timestamp": "00:13:45",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "NVIDIA's advantage has never been only the GPU. It comes from turning the GPU into the center of a platform. Now agentic AI is expanding that platform. Once models begin using tools, NVIDIA can argue that customers need its CPUs to execute the work,",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:13:59",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "its networking to move the data, its DPUs to manage the infrastructure, and its software to coordinate the whole system. Vera is therefore more than a CPU announcement. It is NVIDIA extending its reach into another part of the AI factory.",
+      "tone": "persuasive"
+    },
+    {
+      "timestamp": "00:14:14",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "The GPU remains the expensive engine running the model. But if it has to wait for the CPU, that expensive engine is not being fully used. Solving the CPU bottleneck could improve the economics of the GPUs customers already own.",
+      "tone": "analytical"
+    },
+    {
+      "timestamp": "00:14:30",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "And selling the CPU that solves it is a rather pleasant side effect, right? NVIDIA has already revealed what comes next. Its future Rosa CPU will use a new core code-named Rigel with changes intended to improve per-core performance again.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:14:46",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "We do not have enough information to judge Rosa yet, but the roadmap makes one thing clear: NVIDIA does not see Vera as a one-time experiment. It believes CPUs in general are becoming a strategic part of the agentic AI era.",
+      "tone": "concluding"
+    },
+    {
+      "timestamp": "00:15:00",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "So is the CPU the next AI bottleneck? Sometimes. Because the bottleneck moves with the workflow.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:07",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That is precisely why Vera is interesting. It reveals that we can no longer understand AI performance by looking only at the model or the GPU.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:15",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Agent systems, they move repeatedly between reasoning and action, and the user experiences the accumulated delay across the entire loop.",
+      "tone": "informative"
+    },
+    {
+      "timestamp": "00:15:23",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "That's it for today. Tell me in the comments which argument you find more convincing: that Vera is a new CPU category for agents, or that Nvidia has found another reason to sell the entire data center.",
+      "tone": "engaging"
+    },
+    {
+      "timestamp": "00:15:33",
+      "ad": false,
+      "speaker": "Ksenia Se",
+      "text": "Thank you for watching and see you next week.",
+      "tone": "friendly"
+    }
+  ],
+  "highlights": [
+    "AI agents introduce a new performance bottleneck because they require a loop of reasoning and action where the CPU must execute tasks—such as running code or simulations—between model calls.",
+    "Nvidia’s new Vera CPU features 88 custom \"Olympus\" cores designed for \"maximum single-threaded performance at scale\" to ensure individual agent tasks move forward quickly even when the processor is handling thousands of environments.",
+    "Early benchmarks indicate that Vera can be up to 1.8 times faster than leading x86 CPUs on agentic workloads, though actual speed gains depend on how much of an agent's workflow is truly CPU-bound versus limited by network or model inference.",
+    "By introducing Vera, Nvidia is expanding its reach into the entire \"AI factory\" stack, arguing that specialized CPUs and high-speed interconnects are necessary to prevent the CPU from becoming a drag on expensive GPU resources."
+  ],
+  "summary": "The transcript explores a shift in AI infrastructure where the CPU, rather than the GPU, is becoming the primary bottleneck for AI agents. Unlike traditional chatbots that stay within a model’s neural network, agents must \"leave the model\" to execute code, run simulations, or manage isolated environments. This creates a loop of reasoning and acting where the GPU handles the thinking and the CPU handles the execution. NVIDIA argues that for complex agents performing hundreds of these loops, the \"critical path\"—the slowest chain of dependent steps—is increasingly determined by CPU performance rather than inference speed.\n\nTo address this, NVIDIA introduced \"Vera,\" a CPU specifically designed for the age of AI agents. Vera features 88 custom ARM-based \"Olympus\" cores and high memory bandwidth, prioritizing \"single-threaded performance at scale.\" This design ensures that individual cores remain responsive even when a data center is running thousands of agents simultaneously. Early benchmarks from NVIDIA and partners like Perplexity suggest performance gains of 1.5x to 1.9x for coding workflows, though the transcript notes that these gains depend heavily on whether a task is CPU-bound and how the hardware is physically networked.\n\nUltimately, Vera represents NVIDIA’s broader strategy to dominate the entire \"AI factory\" stack. By moving into the CPU market, NVIDIA aims to control the entire hardware ecosystem—GPUs, CPUs, networking, and software—necessary for agentic AI. While the transition from traditional x86 architecture to ARM presents a hurdle for some enterprises, NVIDIA is targeting large-scale AI labs and cloud providers who are building new infrastructure from scratch. This move suggests that the future of AI hardware will be defined by how efficiently a system can move through the entire loop of reasoning and action, rather than just how fast it can generate tokens.",
+  "description": "What is your AI agent doing while it says “Running tests…”?\n\nNVIDIA thinks that gap may be agentic AI’s next bottleneck. Not the GPU, but the CPU that has to execute code, launch sandboxes, process results, and return them to the model before it can think again.\n\nIn this episode, we unpack NVIDIA Vera, its new Arm CPU, and ask whether faster CPUs can make agents complete real work faster, not merely generate more tokens per second.\n\nWe look at the early benchmarks, the Arm migration problem, the network-latency catch, and why the whole agent loop may matter more than raw model speed.\n\nAttention Span is here to show you AI isn’t magic – it is a model waiting for the surrounding computer to catch up.\n\n👉 Subscribe for high-signal AI mechanics\n👉 More analysis: TuringPost.com\n👉 Interviews: @realturingpost\n\n#NVIDIA #Vera #AgenticAI #CPUs #GPUs #Arm #CodingAgents #TuringPost #MachineLearning #AIbottleneck",
+  "duration": 946,
+  "people": [
+    "Ksenia Se",
+    "Ksenia Selezneva",
+    "Attention Span"
+  ],
+  "topics": [
+    "The shifting bottleneck in AI from GPU inference to CPU-driven agentic loops",
+    "Technical specifications and performance benchmarks of the NVIDIA Vera CPU and Olympus cores",
+    "The challenges and strategic implications of migrating data center infrastructure from x86 to ARM architecture",
+    "The role of network latency and rack topology in determining AI agent performance",
+    "NVIDIA's full-stack strategy to dominate the AI hardware and software ecosystem"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/IHfkTDMYa9g/maxresdefault.jpg",
+  "date": "20260711",
+  "youtube_url": "https://www.youtube.com/watch?v=IHfkTDMYa9g",
+  "youtube_metadata": {
+    "title": "What NVIDIA Knows About the Future of AI Agents",
+    "description": "What is your AI agent doing while it says “Running tests…”?\n\nNVIDIA thinks that gap may be agentic AI’s next bottleneck. Not the GPU, but the CPU that has to execute code, launch sandboxes, process results, and return them to the model before it can think again.\n\nIn this episode, we unpack NVIDIA Vera, its new Arm CPU, and ask whether faster CPUs can make agents complete real work faster, not merely generate more tokens per second.\n\nWe look at the early benchmarks, the Arm migration problem, the network-latency catch, and why the whole agent loop may matter more than raw model speed.\n\nAttention Span is here to show you AI isn’t magic – it is a model waiting for the surrounding computer to catch up.\n\n👉 Subscribe for high-signal AI mechanics\n👉 More analysis: TuringPost.com\n👉 Interviews: @realturingpost\n\n#NVIDIA #Vera #AgenticAI #CPUs #GPUs #Arm #CodingAgents #TuringPost #MachineLearning #AIbottleneck",
+    "duration": 946,
+    "view_count": 3181,
+    "like_count": 121,
+    "channel": "Ksenia | Turing Post",
+    "upload_date": "20260711",
+    "thumbnail": "https://i.ytimg.com/vi/IHfkTDMYa9g/maxresdefault.jpg",
+    "tags": [
+      "NVIDIA",
+      "Vera",
+      "AgenticAI",
+      "CPUs",
+      "GPUs",
+      "Arm",
+      "CodingAgents",
+      "TuringPost",
+      "MachineLearning",
+      "AIbottleneck"
+    ]
+  }
+}

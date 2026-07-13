@@ -2,8 +2,8 @@
 channel: Naval
 channel_handle: "@Naval"
 channel_id: "UCh_dVD10YuSghle8g6yjePg"
-total_videos: 22
-last_updated: 2026-06-08
+total_videos: 23
+last_updated: 2026-07-03
 ---
 
 # Naval Channel Index
@@ -12,15 +12,16 @@ last_updated: 2026-06-08
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 22 |
-| Total Views | 1,249,411 |
-| Date Range | 2024-01-11 to 2026-06-01 |
+| Total Videos | 23 |
+| Total Views | 1,357,785 |
+| Date Range | 2024-01-11 to 2026-07-03 |
 | Average Video Length | 26:55 |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [Riding AGI, AI Anxiety, Who Funded COVID, Defending Taiwan, and California Empire](videos/6m-ZZBCiiEE.md) | 1:07:52 | 108,374 |
 | [Full Episode: The AI Industrial Revolution](videos/v6MWNrVbM4E.md) | 1:10:02 | 105,344 |
 | [Sell the Truth](videos/l1DQgwomzxU.md) | 27:40 | 45,435 |
 | ['Nothing Ever Happens' Is Over](videos/lIUEJqIDPcA.md) | 19:42 | 44,769 |

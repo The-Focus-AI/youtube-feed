@@ -1,8 +1,8 @@
 ---
 channel: This Week in Startups
 channel_handle: "@thisweekin"
-total_videos: 52
-last_updated: 2026-06-08
+total_videos: 62
+last_updated: 2026-07-10
 ---
 
 # This Week in Startups Channel Index
@@ -11,15 +11,25 @@ last_updated: 2026-06-08
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 52 |
-| Total Views | 1,106,940 |
-| Date Range | 2026-01-20 to 2026-06-08 |
+| Total Videos | 62 |
+| Total Views | 1,183,861 |
+| Date Range | 2026-01-20 to 2026-07-10 |
 | Average Video Length | 68:51 |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [Danny Bernstein left Big Tech to fund farm-bots \| E2310](videos/WlsJxcesWqo.md) | 1:00:05 | 2,311 |
+| [Data Is the Next $1 Trillion Market](videos/9toYrX1s3yo.md) | 1:05:22 | 1,805 |
+| [$100T is managed by "human duct tape" \| E2308](videos/yyP8p3wVv9c.md) | 57:20 | 1,951 |
+| [Why the VC Hype Cycle Always Gets It Wrong \| VC Roundtable \| E2307](videos/4q3Pis-tPvQ.md) | 73:31 | 2,666 |
+| [Chamath on why young people need more agency, risk, and adventure](videos/DuKze21P-ZE.md) | 71:28 | 32,965 |
+| [Why F1 Teams are Replacing Wind Tunnels with Smart Tape \| E2305](videos/NmVmzev3_yM.md) | 89:35 | 2,089 |
+| [Why the Future of Video Games is Moving Back to the Dinner Table](videos/kQ5_y_pLgBk.md) | 68:14 | 8,537 |
+| [The hottest running app has nothing to do with speed \| E2303](videos/3whganNt-AA.md) | 62:32 | 7,787 |
+| [Why SpaceX Buying Cursor Changes Everything](videos/o3eow1nTrcI.md) | 1:40:25 | 12,854 |
+| [The US Government Just Shut Off Anthropic's Best AI. (What Really Happened)](videos/ZoK-prfL0sw.md) | 100:16 | 3,956 |
 | [The AI Tutor That Makes Kids Actually Think \| E2298](videos/mEk7Xmt5z0U.md) | 59:41 | 164 |
 | [Anthropic wants to slow AI down and Bernie wants 50%: JCal Reacts \| E2297](videos/2Y5xwjkCj30.md) | 1:30:19 | 2,476 |
 | [The project SpaceX's first employee raised $500M for](videos/IUyJFSzTdeQ.md) | 1:00:59 | 1,812 |
