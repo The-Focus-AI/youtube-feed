@@ -1,8 +1,8 @@
 ---
 channel: Turing Post
 channel_handle: "@RealTuringPost"
-total_videos: 93
-last_updated: 2026-07-11
+total_videos: 94
+last_updated: 2026-07-13
 ---
 
 # Turing Post Channel Index
@@ -11,15 +11,16 @@ last_updated: 2026-07-11
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 93 |
-| Total Views | 311,180 |
-| Date Range | 2024-11-04 to 2026-07-11 |
+| Total Videos | 94 |
+| Total Views | 311,427 |
+| Date Range | 2024-11-04 to 2026-07-13 |
 | Average Video Length | 16:39 |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views | Link |
 |------|-------|----------|-------|------|
+| 2026-07-13 | [A Practical Map of AI Chips: CPU, GPU, TPU, NPU, LPU, ASIC](videos/gTvbNjQtko0.md) | 15:50 | 247 | [Watch](https://www.youtube.com/watch?v=gTvbNjQtko0) |
 | 2026-07-11 | [What NVIDIA Knows About the Future of AI Agents](videos/IHfkTDMYa9g.md) | 15:46 | 3,171 | [Watch](https://www.youtube.com/watch?v=IHfkTDMYa9g) |
 | 2026-06-26 | [How AI Went From Predicting Biology to Running It](videos/FzOD3Hgq-4k.md) | 12:39 | 822 | [Watch](https://www.youtube.com/watch?v=FzOD3Hgq-4k) |
 | 2026-06-20 | [What Responsible AI Actually Means in 2026 – Microsoft's Sarah Bird](videos/G0BJ67ZEiws.md) | 33:09 | 673 | [Watch](https://www.youtube.com/watch?v=G0BJ67ZEiws) |

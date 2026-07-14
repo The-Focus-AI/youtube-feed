@@ -1,8 +1,8 @@
 ---
 channel: This Week in Startups
 channel_handle: "@thisweekin"
-total_videos: 62
-last_updated: 2026-07-10
+total_videos: 63
+last_updated: 2026-07-13
 ---
 
 # This Week in Startups Channel Index
@@ -11,15 +11,16 @@ last_updated: 2026-07-10
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 62 |
-| Total Views | 1,183,861 |
-| Date Range | 2026-01-20 to 2026-07-10 |
+| Total Videos | 63 |
+| Total Views | 1,185,053 |
+| Date Range | 2026-01-20 to 2026-07-13 |
 | Average Video Length | 68:51 |
 
 ## Videos by Date
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [Jason turned $11 and one tweet into 1.1M views \| E2311](videos/M415TKc8DSQ.md) | 89:12 | 1,192 |
 | [Danny Bernstein left Big Tech to fund farm-bots \| E2310](videos/WlsJxcesWqo.md) | 1:00:05 | 2,311 |
 | [Data Is the Next $1 Trillion Market](videos/9toYrX1s3yo.md) | 1:05:22 | 1,805 |
 | [$100T is managed by "human duct tape" \| E2308](videos/yyP8p3wVv9c.md) | 57:20 | 1,951 |

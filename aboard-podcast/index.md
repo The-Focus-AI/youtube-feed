@@ -1,8 +1,8 @@
 ---
 channel: Aboard Podcast
 channel_handle: "@AboardPodcast"
-total_videos: 45
-last_updated: 2026-07-07
+total_videos: 46
+last_updated: 2026-07-14
 ---
 
 # Aboard Podcast Channel Index
@@ -13,9 +13,9 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 45 |
+| Total Videos | 46 |
 | Total Views | 61,781 |
-| Date Range | 2025-09-02 to 2026-07-07 |
+| Date Range | 2025-09-02 to 2026-07-14 |
 | Average Video Length | 40:03 |
 | Total Runtime | 30.0 hours |
 
@@ -23,6 +23,7 @@ The Aboard Podcast is hosted by Paul Ford and Rich Ziade, co-founders of Aboard 
 
 | Title | Duration | Views |
 |-------|----------|-------|
+| [AI Unicorns Don't Exist](videos/zYR2U9cTKHo.md) | 33:25 | 0 |
 | [John Herrman: The Declawing of OpenClaw \| The Aboard Podcast 2026-07-07](videos/Myqdv0VT9Lo.md) | 52:44 | 105 |
 | [Design Beyond the Prompt: A panel on AI, craft, and the next era of product design.](videos/JQuMX9o5uaQ.md) | 56:00 | 25 |
 | [Can AI be good? Josh Tyrangiel in conversation with Paul Ford](videos/GHQM81L7ALI.md) | 54:33 | 54 |

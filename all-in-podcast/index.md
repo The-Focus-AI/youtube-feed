@@ -2,8 +2,8 @@
 channel: All-In Podcast
 channel_handle: "@allin"
 channel_id: UCESLZhusAkFfsNsApnjF_Cg
-total_videos: 85
-last_updated: 2026-07-11
+total_videos: 86
+last_updated: 2026-07-14
 ---
 
 # All-In Podcast Channel Index
@@ -14,15 +14,16 @@ The All-In Podcast features Chamath Palihapitiya, Jason Calacanis, David Sacks, 
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 85 |
-| Total Views | 22,360,382 |
-| Date Range | 2024-11-05 to 2026-07-11 |
+| Total Videos | 86 |
+| Total Views | 22,382,060 |
+| Date Range | 2024-11-05 to 2026-07-14 |
 | Average Video Length | ~62 min |
 
 ## Videos by Date
 
 | Date | Title | Duration | Views |
 |------|-------|----------|-------|
+| 2026-07-14 | [The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour](videos/J0bce9WQJ-g.md) | 51:32 | 21,678 |
 | 2026-07-11 | [OpenAI vs Anthropic IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts](videos/PHL1j2ti420.md) | 1:42:05 | 356,336 |
 | 2026-07-10 | [Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs](videos/Y7p4rUCdqi0.md) | 63:57 | 110,732 |
 | 2026-07-03 | [AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie](videos/wgdxSCsmS-Q.md) | 102:10 | 482,816 |

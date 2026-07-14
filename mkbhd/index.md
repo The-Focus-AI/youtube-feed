@@ -1,8 +1,8 @@
 ---
 channel: MKBHD
 channel_handle: "@mkbhd"
-total_videos: 64
-last_updated: 2026-07-08
+total_videos: 65
+last_updated: 2026-07-13
 ---
 
 # MKBHD Channel Index
@@ -11,9 +11,9 @@ last_updated: 2026-07-08
 
 | Metric | Value |
 |--------|-------|
-| Total Videos | 64 |
-| Total Views | 249,967,242 |
-| Date Range | June 10, 2025 - July 8, 2026 |
+| Total Videos | 65 |
+| Total Views | 251,656,618 |
+| Date Range | June 10, 2025 - July 13, 2026 |
 | Average Video Length | 12:03 |
 
 ---
@@ -22,6 +22,7 @@ last_updated: 2026-07-08
 
 | Date | Title | Duration | Views |
 |------|-------|----------|-------|
+| 2026-07-13 | [iOS 27 Hands-On: Top 5 New Features!](videos/_oRgdlJUD18.md) | 15:18 | 1,689,376 |
 | 2026-07-08 | [Apple Lost the AI Race](videos/eWKY0OnPByg.md) | 7:03 | 1,945,421 |
 | 2026-07-07 | [Nothing Phone 4b: They Can't Say It!](videos/DUgPFNRmsCQ.md) | 10:20 | 2,108,426 |
 | 2026-07-02 | [The Best Car I've Ever Driven: McLaren W1](videos/7KRabLH7jcE.md) | 16:30 | 1,606,818 |
